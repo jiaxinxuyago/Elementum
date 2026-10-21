@@ -26,10 +26,17 @@
     ],
     "line": "Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline.",
     "reading": "There is a rarer wiring underneath this: stress reaches you pre-processed. Deadlines that grind other people turn into output in your hands, and your calmest work happens closest to the pressure. That composure is produced, and it costs fuel. Protect the rest, the craft, and the small pleasures that produce it, and pressure stays your employee.",
-    "fused_line": "The two share one gate in you, and you turn pressure into calm almost as soon as it lands.",
+    "fused_line": "In you this runs close to the surface, and you turn pressure into calm almost as soon as it lands.",
     "domain_lines": {
-      "Career": "You do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands.",
+      "Career": "Underneath, you do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands.",
       "Health": "Comfort is what protects you, because good food and work with your hands turn pressure into something you can use."
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "domain_lines.Career": "You do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands.",
+        "fused_line": "The two share one gate in you, and you turn pressure into calm almost as soon as it lands."
+      }
     }
   },
   "$provenance": [
@@ -46,6 +53,20 @@
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
       "replaced": "The two share one pillar in you, so this alchemy runs close to the bone: pressure converts almost instantly."
+    },
+    {
+      "field": "domain_lines",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "The two share one gate in you, and you turn pressure into calm almost as soon as it lands."
     }
   ]
 }

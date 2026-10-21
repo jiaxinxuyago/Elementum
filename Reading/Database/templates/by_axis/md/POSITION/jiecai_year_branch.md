@@ -24,7 +24,7 @@
 | `slot_kind` | branch |
 | `domains` | Family · Wealth |
 | `defline` | The Rival lives inside your Year Gate: in your first home almost everything was shared, and almost everything was claimed. |
-| `reading` | You grew up in a household where money and belongings were pooled and a brother, sister or cousin always had a claim on what you had. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help first, and you say yes before you have worked out what it costs. |
+| `reading` | As a child you shared a bed or a bike or a birthday with a brother, sister or cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs. |
 | `teaser` | You grew up where mine and yours blurred, and it made you generous and watchful at once. Keep sharing on purpose: looseness with money costs you relationships first. |
 | `domain_readings.Family` | Your family root pooled everything: money, space, claims, love. It made you generous by reflex and watchful by experience, and both instincts are correct. As an adult, formalize what the childhood left loose. Written clarity is how this family stays warm instead of expensive. |
 | `domain_readings.Wealth` | Wealth in your story has always had company: shared accounts, borrowed sums, the relative whose need arrives before your surplus does. Your money grows best with boundaries it never had at home. One private account, one giving budget, and generosity becomes a joy again. |
@@ -36,7 +36,16 @@
 | `health_line` | Your reserves deplete socially: family seasons drain you below the line you notice. Schedule solitary recovery after every gathering. |
 | `domain_climb.Family.headline` | You grew up sharing everything with family. |
 | `domain_climb.Family.recognition` | You treat family as people with a natural claim on your time, your space and your money. Because sharing was how your first home held together, refusing a relative feels like disloyalty to you. You give without fuss, and you resent it quietly when the giving is taken for granted. |
-| `domain_climb.Family.lived` | In your first home the money and the clothes and the space were all shared, and a sibling or cousin was never far from what was yours. By your teens you could give without being asked and could tell exactly who had taken what. |
+| `domain_climb.Family.lived` | The money and the clothes and the space were all shared in your first home, and a sibling or cousin was never far from what was yours. Growing up you gave without being asked, and you could tell exactly who had taken what. |
 | `domain_climb.Wealth.headline` | You give money easily and keep track of it. |
 | `domain_climb.Wealth.recognition` | You lend to family before you have finished saving for yourself, and you rarely ask for it back. Because money at home was always pooled, a private account feels slightly selfish to you. Your savings grow slowly while your family's claims stay open, and you feel both generous and short. |
-| `domain_climb.Wealth.lived` | As a child you saw money borrowed and lent around the family without anything being written down. By your teens you had already given away more than you could spare, and you had learned which relatives paid you back. |
+| `domain_climb.Wealth.lived` | You saw money borrowed and lent around the family as a child, and little of it was written down. Before you were grown you had given away more than you could spare, and you had learned which relatives paid you back. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | You grew up in a household where money and belongings were pooled and a brother, sister or cousin always had a claim on what you had. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help first, and you say yes before you have worked out what it costs. |
+| `domains_round1_retired_2026-10-21.domain_climb.Family.lived` | In your first home the money and the clothes and the space were all shared, and a sibling or cousin was never far from what was yours. By your teens you could give without being asked and could tell exactly who had taken what. |
+| `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | As a child you saw money borrowed and lent around the family without anything being written down. By your teens you had already given away more than you could spare, and you had learned which relatives paid you back. |

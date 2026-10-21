@@ -1,0 +1,130 @@
+{
+ "units": [
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.main",
+   "kind": "structure_rule",
+   "page": "slot-0",
+   "template": "The {god} who holds your strongest seat also shows on {count} of your stems. That makes it the organising force of your life, and you answer to it before anything else.",
+   "text": "The General who holds your strongest seat also shows on two of your stems. That makes it the organising force of your life, and you answer to it before anything else."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.residual",
+   "kind": "structure_rule",
+   "page": "slot-1",
+   "template": "A trace of {element} deep in your strongest seat shows on {count} of your stems. That makes the {god} the organising force of your life, and you answer to it more than to the {holder} who holds the seat.",
+   "text": "A trace of Wood deep in your strongest seat shows on two of your stems. That makes the General the organising force of your life, and you answer to it more than to the Alchemist who holds the seat."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.none",
+   "kind": "structure_rule",
+   "page": "slot-2",
+   "template": "Nothing hidden in your strongest seat shows on your stems. The {god} who holds it is the organising force of your life, and you answer to it first.",
+   "text": "Nothing hidden in your strongest seat shows on your stems. The General who holds it is the organising force of your life, and you answer to it first."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.lu",
+   "kind": "structure_rule",
+   "page": "slot-3",
+   "template": "Your strongest seat holds your own element at full strength. Your chart is built around what you make of yourself, and you answer first to your own effort.",
+   "text": "Your strongest seat holds your own element at full strength. Your chart is built around what you make of yourself, and you answer first to your own effort."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.ren",
+   "kind": "structure_rule",
+   "page": "slot-4",
+   "template": "Your strongest seat holds your own element at its sharpest. Your chart is built around your own will, and you answer first to what you decide.",
+   "text": "Your strongest seat holds your own element at its sharpest. Your chart is built around your own will, and you answer first to what you decide."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.jie",
+   "kind": "structure_rule",
+   "page": "slot-5",
+   "template": "Your strongest seat holds a rival of your own element. Your chart is built around what you win against your equals, and you answer first to the contest.",
+   "text": "Your strongest seat holds a rival of your own element. Your chart is built around what you win against your equals, and you answer first to the contest."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.officer.lived",
+   "kind": "rescue",
+   "page": "slot-6",
+   "template": "Outside pressure protects it, a boss or a rule or a deadline, and you met that pressure in decades now behind you.",
+   "text": "Outside pressure protects it, a boss or a rule or a deadline, and you met that pressure in decades now behind you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.officer.none",
+   "kind": "rescue",
+   "page": "slot-7",
+   "template": "Outside pressure protects it, a boss or a rule or a deadline, and you supply that pressure yourself because no decade of yours brings it.",
+   "text": "Outside pressure protects it, a boss or a rule or a deadline, and you supply that pressure yourself because no decade of yours brings it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.output",
+   "kind": "rescue",
+   "page": "slot-8",
+   "template": "What you make protects it, work you finish and show, and you find the time to make it in your decades {when}.",
+   "text": "What you make protects it, work you finish and show, and you find the time to make it in your decades now and next."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.output.lived",
+   "kind": "rescue",
+   "page": "slot-9",
+   "template": "What you make protects it, work you finish and show, and you found the time for it in decades now behind you.",
+   "text": "What you make protects it, work you finish and show, and you found the time for it in decades now behind you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.output.none",
+   "kind": "rescue",
+   "page": "slot-10",
+   "template": "What you make protects it, work you finish and show, and you make the time for it yourself because no decade of yours brings it.",
+   "text": "What you make protects it, work you finish and show, and you make the time for it yourself because no decade of yours brings it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.seal",
+   "kind": "rescue",
+   "page": "slot-11",
+   "template": "Support protects it, a teacher or a backer or a home base, and you find that support in your decades {when}.",
+   "text": "Support protects it, a teacher or a backer or a home base, and you find that support in your decades now and next."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.seal.lived",
+   "kind": "rescue",
+   "page": "slot-12",
+   "template": "Support protects it, a teacher or a backer or a home base, and you found that support in decades now behind you.",
+   "text": "Support protects it, a teacher or a backer or a home base, and you found that support in decades now behind you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.seal.none",
+   "kind": "rescue",
+   "page": "slot-13",
+   "template": "Support protects it, a teacher or a backer or a home base, and you build that support yourself because no decade of yours brings it.",
+   "text": "Support protects it, a teacher or a backer or a home base, and you build that support yourself because no decade of yours brings it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.wealth",
+   "kind": "rescue",
+   "page": "slot-14",
+   "template": "Money protects it, a steady income or a shared venture, and you meet it in your decades {when}.",
+   "text": "Money protects it, a steady income or a shared venture, and you meet it in your decades now and next."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.wealth.lived",
+   "kind": "rescue",
+   "page": "slot-15",
+   "template": "Money protects it, a steady income or a shared venture, and you met it in decades now behind you.",
+   "text": "Money protects it, a steady income or a shared venture, and you met it in decades now behind you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · rescue.wealth.none",
+   "kind": "rescue",
+   "page": "slot-16",
+   "template": "Money protects it, a steady income or a shared venture, and you earn it yourself because no decade of yours brings it.",
+   "text": "Money protects it, a steady income or a shared venture, and you earn it yourself because no decade of yours brings it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · strongest.one",
+   "kind": "strongest",
+   "page": "slot-17",
+   "template": "{a} alone carries {share} of your chart, and you live mostly through {a_noun}.",
+   "text": "Metal alone carries three quarters of your chart, and you live mostly through what you answer to."
+  }
+ ]
+}

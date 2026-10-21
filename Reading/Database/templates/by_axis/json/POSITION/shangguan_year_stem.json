@@ -20,7 +20,7 @@
       "Mind"
     ],
     "defline": "The Virtuoso stands at your Year Gate, in plain view: you were known early as the bright child who answered back.",
-    "reading": "You were the quick one in your first years, the child who spotted the flaw in the lesson and pointed it out. Because you think quicker than people expect, the people you meet sort quickly into those who enjoy you and those who resent you. Teachers and older relatives were the first to feel both reactions, and you have done better every year you picked your own company and work.",
+    "reading": "In class you spotted the flaw in a lesson and said so before the teacher had finished. Because your mind moves faster than others expect, the company you keep sorts quickly into those who enjoy you and those who resent you. Teachers and older relatives were the first to feel both reactions, and you have done better each time you picked your own friends and your own work.",
     "teaser": "You were the bright one early, the child who outgrew the script. Authority and you started rough, and your luck improves every year you pick your own stage.",
     "domain_readings": {
       "Social": "You entered every gathering brightly and were remembered: the quick child, the sharp tongue, the one adults quoted. Your social life still sorts people into the delighted and the offended, and both camps stay full. Curate for the delighted. They were always your real audience.",
@@ -36,12 +36,20 @@
       "Social": {
         "headline": "People remember you after one meeting.",
         "recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it.",
-        "lived": "As a child you were the one whose remarks got repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
+        "lived": "As a child your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
       },
       "Mind": {
         "headline": "Your mind gets there first and gets bored first.",
         "recognition": "You see the pattern before others have finished explaining it, and boredom reaches you long before the lesson ends. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and you drift when it has neither.",
-        "lived": "At school you finished the work early and went looking for something harder, or for trouble when nothing harder came. By your teens you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were."
+        "lived": "You finished the work early at school and went looking for something harder, or for trouble when nothing harder came. Before you left school you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You were the quick one in your first years, the child who spotted the flaw in the lesson and pointed it out. Because you think quicker than people expect, the people you meet sort quickly into those who enjoy you and those who resent you. Teachers and older relatives were the first to feel both reactions, and you have done better every year you picked your own company and work.",
+        "domain_climb.Social.lived": "As a child you were the one whose remarks got repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you.",
+        "domain_climb.Mind.lived": "At school you finished the work early and went looking for something harder, or for trouble when nothing harder came. By your teens you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were."
       }
     }
   },
@@ -72,6 +80,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You were the quick one in your first years, the child who spotted the flaw in the lesson and pointed it out. Because you think quicker than people expect, the people you meet sort quickly into those who enjoy you and those who resent you. Teachers and older relatives were the first to feel both reactions, and you have done better every year you picked your own company and work."
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

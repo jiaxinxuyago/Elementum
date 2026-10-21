@@ -28,10 +28,18 @@
     ],
     "line": "Your output stars feed your wealth stars directly: what you make converts to money with rare ease. Build one channel where creating flows straight to earning, and keep it yours.",
     "reading": "A generous wiring runs underneath: what you make converts to money with unusual ease. The work that feels like play earns more than the work that feels like duty, and the conversion improves with age. Keep one channel where creating flows straight to earning, and guard your appetite to make. Your income lives downstream of it.",
-    "fused_line": "They share one gate in you, and you are paid in the same season that you make.",
+    "fused_line": "In you the gap is short, and you are paid in the same season that you make.",
     "domain_lines": {
-      "Wealth": "What you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
-      "Career": "You are paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing."
+      "Wealth": "Underneath, what you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
+      "Career": "You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing."
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "domain_lines.Wealth": "What you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
+        "domain_lines.Career": "You are paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing.",
+        "fused_line": "They share one gate in you, and you are paid in the same season that you make."
+      }
     }
   },
   "$provenance": [
@@ -48,6 +56,20 @@
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
       "replaced": "Fused in one pillar, the pipeline is short in you: the day you make is the day you earn."
+    },
+    {
+      "field": "domain_lines",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "They share one gate in you, and you are paid in the same season that you make."
     }
   ]
 }

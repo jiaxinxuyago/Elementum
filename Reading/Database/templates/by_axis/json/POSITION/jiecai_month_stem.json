@@ -20,7 +20,7 @@
       "Social"
     ],
     "defline": "The Rival stands at your Month Gate, in plain view: at work people see your nerve before anything else.",
-    "reading": "The working world sees your competitive side first, the colleague who volunteers whenever there is a contest to enter. Because winning in the open is how you prove your worth, you rise fastest where results are ranked and stall where credit is pooled. You make allies quickly and lose them almost as quickly, and your worst setbacks have come through bets you shared with someone else.",
+    "reading": "You volunteer whenever there is a contest to enter, and the colleague who ranks first is the one you watch. Because winning in the open is how you prove your worth, you climb quickest where results are ranked and stall where credit is pooled. You make friends and allies through the same contests, and you lose some of them as quickly as you made them. Your worst setbacks have come through bets you shared with someone else.",
     "teaser": "At work you compete the way others breathe, and people feel it. Your career rises fastest in open contests, and slowest wherever the prize must be split.",
     "domain_readings": {
       "Career": "Your career runs on open contest: rankings, commissions, arenas with scoreboards, and you visibly alive in them. Vague collectives dull you and clear stakes sharpen you. Choose fields where winning is measurable and yours. The nerve that unsettles quiet offices is exactly what podiums pay for.",
@@ -36,12 +36,20 @@
       "Career": {
         "headline": "You rise fastest where the score is public.",
         "recognition": "You come alive in work that ranks people openly, commissions and targets and anything with a clear winner. Because you need proof that you are winning, a vague team goal leaves you flat and restless. You unsettle quieter colleagues without meaning to, and you do your best work where nobody minds.",
-        "lived": "Since your late teens your best jobs have been the ones with a clear score, sales figures or rankings or a promotion race. You have left at least one shared project because the prize was never clearly divided, and you have done better alone since."
+        "lived": "Your best jobs since your late teens have been the ones with a clear score, sales figures or rankings or a promotion race. You have left at least one shared project because the prize was never clearly divided, and you have done better alone since."
       },
       "Social": {
         "headline": "Your circle is full of rivals you respect.",
         "recognition": "Most of your friends come from work, and many of them started as people you competed against. Because you respect anyone who can beat you, your closest bond at work is with a former rival. You lose friends over contests more easily than most people, and you keep the ones who competed fairly.",
-        "lived": "From your late teens you have made friends through competition, in teams and offices and courses where everyone was ranked. More than once a friendship ended when you won, and you have kept the rival who took a loss well."
+        "lived": "From your late teens you have made friends through competition, in teams and courses and workplaces where everyone was ranked. More than once a friendship ended when you won, and you have kept the rival who took a loss well."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "The working world sees your competitive side first, the colleague who volunteers whenever there is a contest to enter. Because winning in the open is how you prove your worth, you rise fastest where results are ranked and stall where credit is pooled. You make allies quickly and lose them almost as quickly, and your worst setbacks have come through bets you shared with someone else.",
+        "domain_climb.Career.lived": "Since your late teens your best jobs have been the ones with a clear score, sales figures or rankings or a promotion race. You have left at least one shared project because the prize was never clearly divided, and you have done better alone since.",
+        "domain_climb.Social.lived": "From your late teens you have made friends through competition, in teams and offices and courses where everyone was ranked. More than once a friendship ended when you won, and you have kept the rival who took a loss well."
       }
     }
   },
@@ -72,6 +80,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-1.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "The working world sees your competitive side first, the colleague who volunteers whenever there is a contest to enter. Because winning in the open is how you prove your worth, you rise fastest where results are ranked and stall where credit is pooled. You make allies quickly and lose them almost as quickly, and your worst setbacks have come through bets you shared with someone else."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

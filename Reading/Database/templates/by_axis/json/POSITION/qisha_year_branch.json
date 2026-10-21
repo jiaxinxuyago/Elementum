@@ -21,7 +21,7 @@
       "Health"
     ],
     "defline": "The General lives inside your Year Gate: underneath your early years was a weight you carried quietly.",
-    "reading": "Your first home asked a lot of you as a child, and some of what it asked happened where nobody else could see. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and your body has held the strain since. You still draw on that early toughness whenever life turns hard.",
+    "reading": "Your first home asked a lot of you as a child, and you gave it more strength than anyone thought to ask about. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and you still keep your tiredness to yourself. Each hard stretch since has added to what you can carry, and you are steadier for it.",
     "teaser": "Some early weight pressed on you where no one watched, and you turned it into spine. Crisis will always promote you: it is your native ladder.",
     "domain_readings": {
       "Family": "Some early weight pressed where no one watched, and you turned it into spine: your family story holds a hidden forge. As an adult you protect the household the way you were never protected. Let them see the softness occasionally. Protection with warmth lands twice as deep.",
@@ -38,17 +38,29 @@
       "Family": {
         "headline": "You carried more at home than anyone knew.",
         "recognition": "At home you protect your family closely, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. Your family relies on your strength, and few of them know what it cost you to build.",
-        "lived": "As a child you carried a weight in your first home that few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself."
+        "lived": "In your first home you carried a weight few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself."
       },
       "Growth": {
-        "headline": "Hard times have always made you grow.",
-        "recognition": "You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you take on hard projects by choice and feel restless without one. Your best progress comes in the seasons other people would call the worst.",
-        "lived": "By your teens you had already learned to rise to a challenge, in school or at home or in a sport. Each hard year left you more capable than before, and you came to trust difficulty more than ease."
+        "headline": "Hard years are the ones that grow you.",
+        "recognition": "You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst.",
+        "lived": "Each hard year of your childhood left you more capable than the one before, at school or at home or in a sport. You came to trust difficulty more than ease, and by your teens you went looking for it."
       },
       "Health": {
         "headline": "Your body is strong and holds its strain.",
-        "recognition": "Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it settles as stiffness in your back and shoulders. You recover well once you finally rest, and you rarely rest early enough.",
-        "lived": "As a child you were tough and slow to complain, and you rarely let anyone see you tired. By your teens you were already holding tension in your shoulders, and you got through hard weeks on reserves most children did not need."
+        "recognition": "Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it shows in short sleep and a short temper. You recover well once you finally rest, and you rarely rest early enough.",
+        "lived": "You were a tough child, slow to complain and quick to hide a bad night from the adults. Your reserves got you through hard weeks most children did not have to face, and you learned early to run on them."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Your first home asked a lot of you as a child, and some of what it asked happened where nobody else could see. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and your body has held the strain since. You still draw on that early toughness whenever life turns hard.",
+        "domain_climb.Family.lived": "As a child you carried a weight in your first home that few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself.",
+        "domain_climb.Growth.headline": "Hard times have always made you grow.",
+        "domain_climb.Growth.recognition": "You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you take on hard projects by choice and feel restless without one. Your best progress comes in the seasons other people would call the worst.",
+        "domain_climb.Growth.lived": "By your teens you had already learned to rise to a challenge, in school or at home or in a sport. Each hard year left you more capable than before, and you came to trust difficulty more than ease.",
+        "domain_climb.Health.recognition": "Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it settles as stiffness in your back and shoulders. You recover well once you finally rest, and you rarely rest early enough.",
+        "domain_climb.Health.lived": "As a child you were tough and slow to complain, and you rarely let anyone see you tired. By your teens you were already holding tension in your shoulders, and you got through hard weeks on reserves most children did not need."
       }
     }
   },
@@ -86,6 +98,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Your first home asked a lot of you as a child, and some of what it asked happened where nobody else could see. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and your body has held the strain since. You still draw on that early toughness whenever life turns hard."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

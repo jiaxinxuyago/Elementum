@@ -123,6 +123,19 @@
       "sixRelations": null,
       "retired_2026-09-20_evaluation_rulings": {
         "definition_line": "Same nature, different register — the edge of comparison"
+      },
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "decade_lines.Wealth.helping.lived": "Competition sharpened your earning in those years, and you went after money that others wanted too. You won your share by working beside rivals, and you learned exactly what your effort was worth.",
+        "decade_lines.Wealth.helping.ahead": "Partnerships and shared ventures pay in these ten years, because the contest with others pushes you harder. You earn more with people at your side than alone, and you keep a fair part of what you win together.",
+        "decade_lines.Wealth.heavy.lived": "Cash slipped through your hands in those years, lent to friends or spent keeping up with them. You learned what generosity costs, and what carried you was work you could do on your own.",
+        "decade_lines.Wealth.heavy.ahead": "Other people reach for your money in these years, through loans, shared costs and favours that never come back. You keep enough because your own income keeps rising, and you spend less on proving yourself.",
+        "decade_lines.Social.helping.ahead": "Rivalry turns friendly in these years, and the people who once competed with you become allies. You enjoy a busy circle in this decade, one where you give and receive in fair measure.",
+        "decade_lines.Social.heavy.lived": "Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. You stayed in company all the same, and you learned to tell an ally from a competitor.",
+        "decade_lines.Career.helping.lived": "Your working life in those years was a contest, and you rose by beating others to the same role. You were sharpest with a rival close by, and that edge got you further than talent alone.",
+        "decade_lines.Career.helping.ahead": "Teams and joint efforts carry your career in these ten years. You compete hard and share credit fairly, and colleagues back you because they know you will fight for the group.",
+        "decade_lines.Career.heavy.lived": "Colleagues claimed credit for your work in those years, and promotions went to people who pushed harder. You kept going on your own effort, and you came out of that contest with a skill nobody could claim.",
+        "decade_lines.Career.heavy.ahead": "Office rivalry eats your energy in these years, and a shared project costs you more than it pays. Your own work stays visible all the same, and the people who matter see that you did it."
       }
     },
     "ruling_domains": [
@@ -133,32 +146,32 @@
     "decade_lines": {
       "Wealth": {
         "helping": {
-          "lived": "Competition sharpened your earning in those years, and you went after money that others wanted too. You won your share by working beside rivals, and you learned exactly what your effort was worth.",
-          "ahead": "Partnerships and shared ventures pay in these ten years, because the contest with others pushes you harder. You earn more with people at your side than alone, and you keep a fair part of what you win together."
+          "lived": "Contest sharpened the way you handled money in those years, and you went after the same chances others wanted. You did best with a rival close by, and you learned exactly what your effort was worth.",
+          "ahead": "Shared money works for you in these ten years, because the contest with others keeps you sharp. You do better with people at your side than alone, and you keep a fair part of what you win together."
         },
         "heavy": {
-          "lived": "Cash slipped through your hands in those years, lent to friends or spent keeping up with them. You learned what generosity costs, and what carried you was work you could do on your own.",
-          "ahead": "Other people reach for your money in these years, through loans, shared costs and favours that never come back. You keep enough because your own income keeps rising, and you spend less on proving yourself."
+          "lived": "Money went out on friends in those years, lent to them or spent keeping up with them. You learned what generosity costs, and you got through on work you could do on your own.",
+          "ahead": "Other people reach for your money in these years, through loans, shared costs and favours that do not all come back. You keep enough because you set your own share aside first, and you spend less on proving yourself."
         }
       },
       "Social": {
         "helping": {
           "lived": "Those years filled your life with lively company, friends who competed with you and pushed you on. You were at your best among a crowd of equals, and you won their respect openly.",
-          "ahead": "Rivalry turns friendly in these years, and the people who once competed with you become allies. You enjoy a busy circle in this decade, one where you give and receive in fair measure."
+          "ahead": "Rivalry turns friendly in these years, and people who compete with you end up on your side. You keep a busy circle through the decade, one where you give and receive in fair measure."
         },
         "heavy": {
-          "lived": "Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. You stayed in company all the same, and you learned to tell an ally from a competitor.",
+          "lived": "Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. You got through on the company itself, and you learned to tell an ally from a competitor.",
           "ahead": "Comparison runs through your friendships in these years, and you notice who earns more and who wins more. What carries you is one friend who never competes with you, and you lean on that friend often."
         }
       },
       "Career": {
         "helping": {
-          "lived": "Your working life in those years was a contest, and you rose by beating others to the same role. You were sharpest with a rival close by, and that edge got you further than talent alone.",
-          "ahead": "Teams and joint efforts carry your career in these ten years. You compete hard and share credit fairly, and colleagues back you because they know you will fight for the group."
+          "lived": "Your work in those years was a contest, and you did best when someone else wanted the same result. You were sharpest with a rival close by, and that drive got you further than talent alone.",
+          "ahead": "Joint efforts carry your work in these ten years, and you do best inside a group with something to win. You compete hard and share credit fairly, and the people beside you back you for it."
         },
         "heavy": {
-          "lived": "Colleagues claimed credit for your work in those years, and promotions went to people who pushed harder. You kept going on your own effort, and you came out of that contest with a skill nobody could claim.",
-          "ahead": "Office rivalry eats your energy in these years, and a shared project costs you more than it pays. Your own work stays visible all the same, and the people who matter see that you did it."
+          "lived": "Others claimed credit for your work in those years, and the reward went more than once to people who pushed harder. You kept going on your own effort, and you came out of that contest with a skill nobody could claim.",
+          "ahead": "Rivalry over shared work costs you energy in these years, and a joint effort takes more from you than it pays. What carries you is work that is plainly yours, and the people who matter see that you did it."
         }
       }
     }
@@ -183,6 +196,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-6.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-6.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-6.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-6.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

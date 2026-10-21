@@ -13,7 +13,7 @@
 | **The Twin at the Month Gate** | 比肩在月干 | The Twin stands at your Month Gate, in plain view: at work you are seen as the one who carries their own weight. |
 | **The Twin inside the Month Gate** | 比肩在月支 | The Twin holds your strongest seat, inside your Month Gate: your working years run on your own effort. |
 | **The Twin inside the Day Gate** | 比肩在日支 | The Twin lives inside your Day Gate, the seat of your partner: you love as an equal, and only as an equal. |
-| **The Twin at the Hour Gate** | 比肩在时干 | The Twin stands at your Hour Gate, in plain view: people see you grow old on your own terms. |
+| **The Twin at the Hour Gate** | 比肩在时干 | The Twin stands at your Hour Gate, in plain view: people see you run your later life on your own terms. |
 | **The Twin inside the Hour Gate** | 比肩在时支 | The Twin lives inside your Hour Gate: your later years rest on a few people who treat you as their equal. |
 | **The Rival at the Year Gate** | 劫财在年干 | The Rival stands at your Year Gate, in plain view: you grew up in a bold family where money moved fast. |
 | **The Rival inside the Year Gate** | 劫财在年支 | The Rival lives inside your Year Gate: in your first home almost everything was shared, and almost everything was claimed. |
@@ -24,14 +24,14 @@
 | **The Rival inside the Hour Gate** | 劫财在时支 | The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend. |
 | **The Artisan at the Year Gate** | 食神在年干 | The Artisan stands at your Year Gate, in plain view: warmth and easy charm were the first things people saw in you. |
 | **The Artisan inside the Year Gate** | 食神在年支 | The Artisan lives inside your Year Gate: underneath your early years were comfort and care, given freely. |
-| **The Artisan at the Month Gate** | 食神在月干 | The Artisan stands at your Month Gate, in plain view: at work you are known as the easy, gifted maker. |
+| **The Artisan at the Month Gate** | 食神在月干 | The Artisan stands at your Month Gate, in plain view: at work and among friends you are known as the easy, gifted maker. |
 | **The Artisan inside the Month Gate** | 食神在月支 | The Artisan holds your strongest seat, inside your Month Gate: your working years run on steady craft and a body kept well. |
 | **The Artisan inside the Day Gate** | 食神在日支 | The Artisan lives inside your Day Gate, the seat of your partner: your private life is built around comfort shared at home. |
 | **The Artisan at the Hour Gate** | 食神在时干 | The Artisan stands at your Hour Gate, in plain view: your later years are known for what you make and give. |
 | **The Artisan inside the Hour Gate** | 食神在时支 | The Artisan lives inside your Hour Gate: your later life settles into good food, deep sleep and people who keep coming back. |
 | **The Virtuoso at the Year Gate** | 伤官在年干 | The Virtuoso stands at your Year Gate, in plain view: you were known early as the bright child who answered back. |
 | **The Virtuoso inside the Year Gate** | 伤官在年支 | The Virtuoso lives inside your Year Gate: underneath your childhood ran a quiet disagreement with the way things were done at home. |
-| **The Virtuoso at the Month Gate** | 伤官在月干 | The Virtuoso stands at your Month Gate, in plain view: at work you are seen as gifted and hard to manage. |
+| **The Virtuoso at the Month Gate** | 伤官在月干 | The Virtuoso stands at your Month Gate, in plain view: at work and among friends you are seen as gifted and hard to manage. |
 | **The Virtuoso inside the Month Gate** | 伤官在月支 | The Virtuoso holds your strongest seat, inside your Month Gate: your working years run on seeing how everything could be better. |
 | **The Virtuoso inside the Day Gate** | 伤官在日支 | The Virtuoso lives inside your Day Gate, the seat of your partner: your closest bond runs on talk, wit and honesty. |
 | **The Virtuoso at the Hour Gate** | 伤官在时干 | The Virtuoso stands at your Hour Gate, in plain view: your later years are when people hear you most clearly. |
@@ -71,7 +71,7 @@
 | **The Alchemist inside the Day Gate** | 偏印在日支 | The Alchemist lives inside your Day Gate, the seat of your partner: your closest life keeps a quiet corner of its own. |
 | **The Alchemist at the Hour Gate** | 偏印在时干 | The Alchemist stands at your Hour Gate, in plain view: in later life people come to you for what few others know. |
 | **The Alchemist inside the Hour Gate** | 偏印在时支 | The Alchemist lives inside your Hour Gate: your later years turn inward, toward study and a quiet you choose. |
-| **The Sage at the Year Gate** | 正印在年干 | The Sage stands at your Year Gate, in plain view: your childhood showed the world that you were well protected. |
+| **The Sage at the Year Gate** | 正印在年干 | The Sage stands at your Year Gate, in plain view: as a child you were seen to be well looked after and well taught. |
 | **The Sage inside the Year Gate** | 正印在年支 | The Sage lives inside your Year Gate: underneath your childhood was real care, steady enough to trust. |
 | **The Sage at the Month Gate** | 正印在月干 | The Sage stands at your Month Gate, in plain view: at work you are seen as the calm one who knows things. |
 | **The Sage inside the Month Gate** | 正印在月支 | The Sage holds your strongest seat, inside your Month Gate: your working years are carried by steady learning. |

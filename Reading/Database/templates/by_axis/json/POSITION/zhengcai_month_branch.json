@@ -20,7 +20,7 @@
       "Wealth"
     ],
     "defline": "The Steward lives inside your Month Gate: your working years rest on steady effort and money you have plainly earned.",
-    "reading": "Under your working life sits a patient wish to build something that lasts, a skill kept up and savings that grow each year. Because you trust only what you have earned yourself, you turn down quick gains that would ask you to become someone else. Your progress looks slow at first and surprises people later. The cost is a tight grip, and you deny yourself the pleasure of what you have built.",
+    "reading": "You want to build something that lasts, a skill kept up and savings that grow each year. Because you trust only what you have earned yourself, you turn down quick gains that would ask you to become someone else. Your progress at work looks slow at first and surprises people later. The cost is a tight grip, and you take less pleasure in what you have built than it could give you.",
     "teaser": "Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like and further than you expect.",
     "domain_readings": {
       "Career": "Earned ground is your deep engine: income you can explain, skills you maintain, promises you keep. Careers reward you the way soil rewards farmers, seasonally, honestly, cumulatively. Avoid ventures requiring you to become someone else. Your character is the business model.",
@@ -36,12 +36,20 @@
       "Career": {
         "headline": "Your career grows slowly and keeps growing.",
         "recognition": "You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. You are underrated in the early years of any role, and you outlast most of the people who underrated you.",
-        "lived": "Since your late teens your working life has moved forward one step at a time, with each job adding a skill you kept. More than once you have overtaken people who started faster than you."
+        "lived": "Your working life has moved forward one step at a time since your late teens, with each job adding a skill you kept. More than once you have overtaken people who started faster than you."
       },
       "Wealth": {
         "headline": "Your savings grow quietly, year after year.",
         "recognition": "You save a part of everything you earn, and a steady rise in your accounts pleases you more than any windfall. Because security is what you are working for, you avoid risks that would make you rich quickly. Your caution keeps you safe, and you feel a good year as relief more than as joy.",
-        "lived": "Since your late teens you have put money aside even in lean months, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk."
+        "lived": "Even in lean months you have put money aside since your late teens, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Under your working life sits a patient wish to build something that lasts, a skill kept up and savings that grow each year. Because you trust only what you have earned yourself, you turn down quick gains that would ask you to become someone else. Your progress looks slow at first and surprises people later. The cost is a tight grip, and you deny yourself the pleasure of what you have built.",
+        "domain_climb.Career.lived": "Since your late teens your working life has moved forward one step at a time, with each job adding a skill you kept. More than once you have overtaken people who started faster than you.",
+        "domain_climb.Wealth.lived": "Since your late teens you have put money aside even in lean months, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk."
       }
     }
   },
@@ -72,6 +80,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-3.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Under your working life sits a patient wish to build something that lasts, a skill kept up and savings that grow each year. Because you trust only what you have earned yourself, you turn down quick gains that would ask you to become someone else. Your progress looks slow at first and surprises people later. The cost is a tight grip, and you deny yourself the pleasure of what you have built."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

@@ -39,9 +39,15 @@
         "lived": "You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent."
       },
       "Family": {
-        "headline": "You grew up in a careful, orderly home.",
+        "headline": "You were raised in a careful, orderly home.",
         "recognition": "You show love in your family by keeping things in order, the bills paid and the arrangements made. Because care at home looked like provision when you were small, you trust a relative who plans more than one who says warm things. You are the one your family calls when something needs organising, and you rarely say no.",
         "lived": "Someone in your first home kept the household running on plans and promises kept, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "domain_climb.Family.headline": "You grew up in a careful, orderly home."
       }
     }
   },
@@ -72,6 +78,20 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

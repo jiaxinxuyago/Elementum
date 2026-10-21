@@ -1,0 +1,46 @@
+{
+ "units": [
+  {
+   "page": "yd-career",
+   "kind": "year_domain",
+   "key": "GOD qisha · year_domain.Career",
+   "text": "A demanding task or a rival with standing tests your work this year, and you hold up under it better than anyone expects."
+  },
+  {
+   "page": "yd-career",
+   "kind": "year_domain",
+   "key": "GOD zhengguan · year_domain.Career",
+   "text": "Your work gains a title, a rule book or a formal promise this year, and you carry more trust at the end of it than at the start."
+  },
+  {
+   "page": "yd-career",
+   "kind": "year_domain",
+   "key": "GOD pianyin · year_domain.Career",
+   "text": "Your work turns toward study and specialist skill this year, and you learn more out of sight than you earn in plain view."
+  },
+  {
+   "page": "yd-career",
+   "kind": "year_domain",
+   "key": "GOD jiecai · year_domain.Career",
+   "text": "A colleague or partner reaches for the same credit this year, and you keep your share by naming it before anyone else does."
+  },
+  {
+   "page": "yd-career",
+   "kind": "year_domain",
+   "key": "GOD shishen · year_domain.Career",
+   "text": "Your work loosens and pleases people this year, and you get paid more readily for what you enjoy making."
+  },
+  {
+   "page": "yd-health",
+   "kind": "year_domain",
+   "key": "GOD qisha · year_domain.Health",
+   "text": "Pressure settles into your body this year as tension you carry without noticing, and you feel it first in your sleep."
+  },
+  {
+   "page": "yd-growth",
+   "kind": "year_domain",
+   "key": "GOD qisha · year_domain.Growth",
+   "text": "You grow fastest this year where something forces you to, a deadline or a rival or a role with real stakes."
+  }
+ ]
+}

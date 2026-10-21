@@ -27,10 +27,18 @@
     ],
     "line": "Your wealth stars feed your officer star: diligence converts into title, resources into standing. You rise by being worth promoting. Negotiate rank as deliberately as you earn.",
     "reading": "A steady engine runs underneath: what you earn keeps converting into standing. Results banked become titles offered, and property and position reinforce each other through your middle decades. The one flaw is under-asking. Negotiate rank as deliberately as you earn it, and make sure someone senior sees the ledger.",
-    "fused_line": "They share one gate in you, and you find every gain arguing quietly for your next title.",
+    "fused_line": "In you the two are tightly bound, and you find every gain arguing quietly for your next title.",
     "domain_lines": {
-      "Career": "Your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
-      "Wealth": "You turn money into position, and you feel richer when a gain comes with respect than when it comes alone."
+      "Career": "Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
+      "Wealth": "You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone."
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "domain_lines.Career": "Your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
+        "domain_lines.Wealth": "You turn money into position, and you feel richer when a gain comes with respect than when it comes alone.",
+        "fused_line": "They share one gate in you, and you find every gain arguing quietly for your next title."
+      }
     }
   },
   "$provenance": [
@@ -47,6 +55,20 @@
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
       "replaced": "In one pillar together, earning and standing braid tightly for you: every gain quietly argues for your next title."
+    },
+    {
+      "field": "domain_lines",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "They share one gate in you, and you find every gain arguing quietly for your next title."
     }
   ]
 }

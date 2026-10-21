@@ -24,5 +24,13 @@
 | `target_domains` | Career |
 | `line` | Your chart carries the old collision of brilliance and rank: the Virtuoso chafes exactly where the Magistrate climbs. Careers run smoothest when your talent gets a stage inside the structure, under a title with some give in it. |
 | `reading` | One friction runs underneath: you keep correcting the very structures you climb. Under close supervision you dim and chafe, and your brightest work appears wherever the leash is longest. Choose formats that license your candor, your own practice, your own desk, a title with give in it, and the friction becomes reform. |
-| `fused_line` | They share one gate in you, and you have argued with your own position since your first job. |
-| `domain_lines.Career` | You keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest. |
+| `fused_line` | In you this runs deep, and you have argued with your own position since your first job. |
+| `domain_lines.Career` | You also keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.domain_lines.Career` | You keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest. |
+| `domains_round1_retired_2026-10-21.fused_line` | They share one gate in you, and you have argued with your own position since your first job. |

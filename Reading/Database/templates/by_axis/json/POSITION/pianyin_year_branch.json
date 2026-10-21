@@ -21,7 +21,7 @@
       "Growth"
     ],
     "defline": "The Alchemist lives inside your Year Gate: underneath your childhood was care that came in unusual forms.",
-    "reading": "Care reached you in an unusual form as a child, through books or silence or an adult who loved you in ideas more than in hugs. Because you learned early to feed your own mind, you have depended on yourself for understanding ever since. Time alone restores you in a way company never quite does. Few people have really known you as a result, and you have grown used to being slightly apart.",
+    "reading": "As a child you were loved through books or silence or an adult who cared for you in ideas more than in hugs. Because you learned early to feed your own mind, you have depended on yourself for understanding ever since. You grew up through odd subjects and unlikely teachers, at a pace nobody at home could set for you. Time alone still restores you in a way company never quite does, and you are used to being slightly apart.",
     "teaser": "Your roots hold an unusual nurture: care that came sideways, through books, silence, or an unconventional guardian. Solitude restores you, and always will.",
     "domain_readings": {
       "Family": "Nurture came to you sideways: through books, silence, an unconventional guardian, or a house where love spoke in ideas. The family remains slightly puzzled by you, lovingly. Translate yourself occasionally. They funded the library without reading it, and that too was love.",
@@ -37,18 +37,28 @@
     "domain_climb": {
       "Family": {
         "headline": "You were loved at home in an unusual way.",
-        "recognition": "You show love to your family through ideas and help with problems more than through warmth on the surface. Because the care you got early was quiet and odd, you trust a relative who understands you more than one who hugs you, and you feel lonely at noisy gatherings. You come home as the quiet one, and your relatives have stopped trying to change that.",
-        "lived": "In your first home someone gave you books, questions or long silences in place of the usual fuss, an older relative or a parent who lived in their own head. By your teens you had learned to look after your own mind, and you rarely asked anyone for help."
+        "recognition": "You show love to your family through ideas and help with problems more than through surface warmth. Because the care you got early was quiet and odd, you trust a relative who understands you more than one who fusses over you, and you feel lonely at noisy gatherings. You come home as the quiet one, and your relatives have stopped trying to change that.",
+        "lived": "In your first home someone gave you books, questions or long silences in place of the usual fuss, often an adult who lived in their own head. By your teens you had learned to answer your own questions, and you asked for help less than other children did."
       },
       "Mind": {
         "headline": "You taught yourself most of what you know.",
         "recognition": "You learn best alone, from books and odd sources and your own testing, at a pace no class has ever matched. Because nobody handed you a set path, you trust the understanding you dig out yourself, and you forget what you were simply told. You know a great deal that you have never shown anyone.",
-        "lived": "As a child you read past whatever you were set and wandered into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you told almost no one."
+        "lived": "Whatever you were given to read when you were small, you read past it into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you mentioned it only to the one or two people who asked."
       },
       "Growth": {
         "headline": "Your growth comes through the unusual teacher.",
         "recognition": "You grow fastest through unusual people and unplanned turns, the odd teacher or the subject you stumbled on. Because the standard routes never fitted how you learn, you find them dull and leave them early. You grow in your own order, and others notice only when it is done.",
-        "lived": "As a child you learned most from a person outside the usual line, a neighbour or relative with odd interests who took you seriously. By your teens you had grown in ways your family could not quite follow, and you had stopped expecting them to."
+        "lived": "A person outside the usual line taught you most as a child, a neighbour or relative with odd interests who took you seriously. By your teens you had grown in ways your family could not quite follow, and you had stopped expecting them to."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Care reached you in an unusual form as a child, through books or silence or an adult who loved you in ideas more than in hugs. Because you learned early to feed your own mind, you have depended on yourself for understanding ever since. Time alone restores you in a way company never quite does. Few people have really known you as a result, and you have grown used to being slightly apart.",
+        "domain_climb.Family.recognition": "You show love to your family through ideas and help with problems more than through warmth on the surface. Because the care you got early was quiet and odd, you trust a relative who understands you more than one who hugs you, and you feel lonely at noisy gatherings. You come home as the quiet one, and your relatives have stopped trying to change that.",
+        "domain_climb.Family.lived": "In your first home someone gave you books, questions or long silences in place of the usual fuss, an older relative or a parent who lived in their own head. By your teens you had learned to look after your own mind, and you rarely asked anyone for help.",
+        "domain_climb.Mind.lived": "As a child you read past whatever you were set and wandered into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you told almost no one.",
+        "domain_climb.Growth.lived": "As a child you learned most from a person outside the usual line, a neighbour or relative with odd interests who took you seriously. By your teens you had grown in ways your family could not quite follow, and you had stopped expecting them to."
       }
     }
   },
@@ -86,6 +96,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Care reached you in an unusual form as a child, through books or silence or an adult who loved you in ideas more than in hugs. Because you learned early to feed your own mind, you have depended on yourself for understanding ever since. Time alone restores you in a way company never quite does. Few people have really known you as a result, and you have grown used to being slightly apart."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

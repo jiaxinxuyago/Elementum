@@ -24,7 +24,7 @@
 | `slot_kind` | stem |
 | `domains` | Career · Wealth |
 | `defline` | The Steward stands at your Month Gate, in plain view: at work you are known as the one trusted with the money. |
-| `reading` | People at work hand you the budget, the accounts and the jobs that need order. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used. |
+| `reading` | You are handed the budget, the accounts and the jobs that need order in every place you work. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used. |
 | `teaser` | The working world trusts you with money and should. Your career rewards stewardship: steady roles, real budgets, value kept. Wealth arrives on schedule rather than by surprise. |
 | `domain_readings.Career` | The working world trusts you with the keys and should: budgets balance near you, chaos organizes, value stays kept. Stewardship roles pay you in rank and in reputation, and the reputation compounds longer. Charge properly for reliability. It is a premium service wearing modest clothes. |
 | `domain_readings.Wealth` | Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is the fortune. |
@@ -36,7 +36,16 @@
 | `health_line` | Your body runs on the same schedule as your money: steady deposits, rare withdrawals. Keep the sleep regular and it stays solvent. |
 | `domain_climb.Career.headline` | You are the one trusted with the books. |
 | `domain_climb.Career.recognition` | You are given charge of money and order wherever you work, and things run better near your desk. Because reliability is what you offer, you accept extra tasks without asking for more pay or a promotion. You carry more of the work than your title shows, and your colleagues lean on it. |
-| `domain_climb.Career.lived` | Since your late teens you have been handed responsibility early, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved. |
+| `domain_climb.Career.lived` | You have been given responsibility early in every job since your late teens, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved. |
 | `domain_climb.Wealth.headline` | Your money arrives on time and keeps arriving. |
 | `domain_climb.Wealth.recognition` | You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, and you prefer it that way. |
-| `domain_climb.Wealth.lived` | Since your late teens your income has risen steadily, without big jumps and without big falls. You have kept to your own plan while friends chased quick gains, and most of them now have less than you. |
+| `domain_climb.Wealth.lived` | The money you have counted on since your late teens is the salary, raised a step at a time and planned for well in advance. You have kept to your own plan while friends chased quick gains, and you have rarely regretted it. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | People at work hand you the budget, the accounts and the jobs that need order. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used. |
+| `domains_round1_retired_2026-10-21.domain_climb.Career.lived` | Since your late teens you have been handed responsibility early, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved. |
+| `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | Since your late teens your income has risen steadily, without big jumps and without big falls. You have kept to your own plan while friends chased quick gains, and most of them now have less than you. |

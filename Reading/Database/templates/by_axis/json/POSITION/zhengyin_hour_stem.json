@@ -21,7 +21,7 @@
       "Mind"
     ],
     "defline": "The Sage stands at your Hour Gate, in plain view: in later life you are seen as the one who teaches and protects.",
-    "reading": "Your later years make you the elder people come to for advice and for shelter. Because care and knowledge are what you have to give, you pass them on freely, to younger people who carry them further than your name will travel. Much of your growth in these years comes from teaching, writing things down or showing someone how. You are consulted more often than you are held, and you feel that gap on quiet evenings.",
+    "reading": "Because care and knowledge are what you have to give, you pass them on freely, to children or younger relatives or someone you train. Most of your growth in later life comes through teaching, and it sorts out your own thinking as much as anyone's. Your family treats you as the person to call when something goes wrong. You hear other people's troubles far more often than anyone asks after you, and you feel that on quiet evenings.",
     "teaser": "You will end as the elder people consult: knowledge kept warm and given away. Teach deliberately, because your protection of others is what history keeps.",
     "domain_readings": {
       "Family": "You end as the family’s consulted elder: knowledge kept warm and given away, protection extended to the third generation. Children and students carry your teaching further than your name. Teach deliberately in the last decades. History keeps the shelter you build.",
@@ -36,22 +36,37 @@
     "health_line": "Your late vitality flows from usefulness and rest in equal measure: teach mornings, nap afternoons, and the constitution carries you far past the tables.",
     "domain_climb": {
       "Family": {
-        "headline": "You become the elder your family turns to.",
+        "headline": "You become the one your family turns to.",
         "recognition": "When your family needs advice or a calm word in a bad week, you are the one they call. Because protecting the young matters to you deeply, you step in early when someone younger is struggling, and you give more than you are asked for. You are respected at family gatherings more than you are relaxed at them.",
-        "lived": "Since your late forties younger members of your family have come to you with their problems, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
-        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, look to you for guidance and protection. You give it steadily in these years, and what you teach them goes on in their lives long after the lesson."
+        "lived": "Younger people in your family have brought you their problems since your late forties, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
+        "ahead": "Younger people look to you from your late forties for guidance, and for cover when things fall apart. You give both steadily in these years, and you see what you taught them carry on in their lives."
       },
       "Growth": {
         "headline": "You grow in later life by teaching.",
         "recognition": "Passing on what you know is how you grow now, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find a new purpose in being useful to people who are just starting.",
-        "lived": "Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
-        "ahead": "From your late forties your growth comes through giving your knowledge a lasting form, a course or a set of notes or a body of advice. You see it outlast your own involvement, and you take quiet pride in that."
+        "lived": "You have found yourself explaining things you once took for granted since your late forties, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
+        "ahead": "What you know takes a lasting form from your late forties, a course or a set of notes or a body of advice. You see it outlast your own part in it, and you take quiet pride in that."
       },
       "Mind": {
-        "headline": "Your mind stays sharp because others keep asking.",
-        "recognition": "You keep your thinking in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. Your mind goes dull only when nobody calls.",
-        "lived": "Since your late forties your mind has stayed active through other people's questions, the advice asked for and the problems brought to you. You have read more in later life than in your busiest working years, and you remember most of it.",
-        "ahead": "From your late forties your mind holds its clarity because it stays in use, sharing what it knows with younger people. You are quoted and asked for in these years, and you feel most yourself when someone brings you a hard question."
+        "headline": "Your thinking stays quick because people keep asking.",
+        "recognition": "You keep your mind in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a week when nobody calls, and you pick up the phone yourself before the week is out.",
+        "lived": "Other people's questions have kept your mind active since your late forties, the advice asked for and the problems brought to you. You have read more in these years than in your busiest working ones, and you remember most of it.",
+        "ahead": "Younger people bring you their hardest questions from your late forties, and you enjoy the work of answering them. You are quoted and asked for in these years, and you feel most yourself when a question has no easy answer."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Your later years make you the elder people come to for advice and for shelter. Because care and knowledge are what you have to give, you pass them on freely, to younger people who carry them further than your name will travel. Much of your growth in these years comes from teaching, writing things down or showing someone how. You are consulted more often than you are held, and you feel that gap on quiet evenings.",
+        "domain_climb.Family.headline": "You become the elder your family turns to.",
+        "domain_climb.Family.lived": "Since your late forties younger members of your family have come to you with their problems, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
+        "domain_climb.Family.ahead": "From your late forties the people after you, children or younger relatives or someone you train, look to you for guidance and protection. You give it steadily in these years, and what you teach them goes on in their lives long after the lesson.",
+        "domain_climb.Growth.lived": "Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
+        "domain_climb.Growth.ahead": "From your late forties your growth comes through giving your knowledge a lasting form, a course or a set of notes or a body of advice. You see it outlast your own involvement, and you take quiet pride in that.",
+        "domain_climb.Mind.headline": "Your mind stays sharp because others keep asking.",
+        "domain_climb.Mind.recognition": "You keep your thinking in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. Your mind goes dull only when nobody calls.",
+        "domain_climb.Mind.lived": "Since your late forties your mind has stayed active through other people's questions, the advice asked for and the problems brought to you. You have read more in later life than in your busiest working years, and you remember most of it.",
+        "domain_climb.Mind.ahead": "From your late forties your mind holds its clarity because it stays in use, sharing what it knows with younger people. You are quoted and asked for in these years, and you feel most yourself when someone brings you a hard question."
       }
     }
   },
@@ -89,6 +104,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Your later years make you the elder people come to for advice and for shelter. Because care and knowledge are what you have to give, you pass them on freely, to younger people who carry them further than your name will travel. Much of your growth in these years comes from teaching, writing things down or showing someone how. You are consulted more often than you are held, and you feel that gap on quiet evenings."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

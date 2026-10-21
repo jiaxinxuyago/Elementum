@@ -20,7 +20,7 @@
       "Health"
     ],
     "defline": "The General lives inside your Day Gate, the seat of your partner: your closest bond runs on force and pressure.",
-    "reading": "You are drawn to a partner with real force, someone whose will is as strong as yours, and a calm match has never held you for long. Because pressure is what makes you feel alive, your home life runs hot, and the strain lands in your own sleep when it turns inward. From your mid-thirties your home years carry more weight than any before them, and you will share them with a partner who meets your strength with their own.",
+    "reading": "You are drawn to a partner whose will is as strong as yours, and a calm match has not held you for long. Because pressure is what makes you feel alive, your home life runs hot, and a fight that runs for days shows first in how badly you sleep. You stay longest with a partner who pushes in the same direction as you, toward the work and the home you are building together.",
     "teaser": "You are drawn to intensity at close range: a partner with force, a home with weather. Love holds when the two of you aim the pressure outward together.",
     "domain_readings": {
       "Love": "You are drawn to intensity at close range: a partner with force, a home with weather, love that has never once been mild. The marriage thrives when you two aim the pressure outward, shared missions, shared builds, shared adversaries. Inward, the same voltage becomes the argument without end. Aim it.",
@@ -36,14 +36,25 @@
       "Love": {
         "headline": "You love people strong enough to push back.",
         "recognition": "You fall for people with force, the ones who argue their case and refuse to be managed. Because a gentle partner leaves you restless, you bring pressure into love without meaning to, and small disagreements grow into contests. What you want is a partner who matches your strength and turns it toward the world with you.",
-        "lived": "So far the people you have loved have each been hard to move, with strong opinions and no wish to bend. At least once a relationship has worn you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
-        "ahead": "From your mid-thirties love asks more of you, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task."
+        "lived": "The partners who mattered most to you have been hard to move, with strong opinions and no wish to bend. At least once a relationship wore you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
+        "ahead": "Love asks more of you from your mid-thirties, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task."
       },
       "Health": {
         "headline": "Your body carries whatever strain your home holds.",
-        "recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain settles in your shoulders and your appetite. Your strength comes back quickly once the house is calm again.",
-        "lived": "So far your hardest seasons at home have also been your most tired ones, with broken sleep and a stiff back. Each time a quarrel ended, you got your energy back faster than you expected.",
-        "ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are stronger in these years than in your twenties whenever the house is at peace, and every long quarrel costs you rest."
+        "recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain goes into your appetite and your patience. You recover your strength within days once the house is calm again.",
+        "lived": "Your hardest seasons at home have also been your most tired ones, with broken sleep and short reserves. Each time a quarrel ended, you found your energy again faster than you expected.",
+        "ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are at your strongest in these years whenever the house is at peace, and every long quarrel costs you rest."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You are drawn to a partner with real force, someone whose will is as strong as yours, and a calm match has never held you for long. Because pressure is what makes you feel alive, your home life runs hot, and the strain lands in your own sleep when it turns inward. From your mid-thirties your home years carry more weight than any before them, and you will share them with a partner who meets your strength with their own.",
+        "domain_climb.Love.lived": "So far the people you have loved have each been hard to move, with strong opinions and no wish to bend. At least once a relationship has worn you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
+        "domain_climb.Love.ahead": "From your mid-thirties love asks more of you, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task.",
+        "domain_climb.Health.recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain settles in your shoulders and your appetite. Your strength comes back quickly once the house is calm again.",
+        "domain_climb.Health.lived": "So far your hardest seasons at home have also been your most tired ones, with broken sleep and a stiff back. Each time a quarrel ended, you got your energy back faster than you expected.",
+        "domain_climb.Health.ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are stronger in these years than in your twenties whenever the house is at peace, and every long quarrel costs you rest."
       }
     }
   },
@@ -74,6 +85,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You are drawn to a partner with real force, someone whose will is as strong as yours, and a calm match has never held you for long. Because pressure is what makes you feel alive, your home life runs hot, and the strain lands in your own sleep when it turns inward. From your mid-thirties your home years carry more weight than any before them, and you will share them with a partner who meets your strength with their own."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

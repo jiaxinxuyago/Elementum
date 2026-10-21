@@ -27,9 +27,15 @@
     ],
     "line": "Self stars and wealth stars share your pillars, the classic contested purse. Money does best held plainly in your name: partnerships loosen it, lending blurs it, and generosity deserves its own budget line.",
     "reading": "One law runs underneath your money: it attracts company. Friends with ventures, family with needs, partners with opinions, and it thins wherever ownership blurs. The same people would also carry you through droughts no bank would. So formalize every shared asset, price your generosity yearly, and keep one account whose shape nobody knows.",
-    "fused_line": "They share one gate in you, and you rarely own anything that is only yours.",
+    "fused_line": "In you this runs close to home, and you rarely own anything that is only yours.",
     "domain_lines": {
       "Wealth": "You lose money most easily where you share it with friends and family, and you also find your safety net among those same people."
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "fused_line": "They share one gate in you, and you rarely own anything that is only yours."
+      }
     }
   },
   "$provenance": [
@@ -46,6 +52,20 @@
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
       "replaced": "Sharing a pillar, purse and peers sit in one seat for you: write things down early and often."
+    },
+    {
+      "field": "domain_lines",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "They share one gate in you, and you rarely own anything that is only yours."
     }
   ]
 }

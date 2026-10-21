@@ -65,6 +65,13 @@ const FAMILY_OF = { 比肩: 'self', 劫财: 'self', 食神: 'output', 伤官: 'o
 /** A unit by station key: the written text, or the draft line standing in for it. */
 const unit = (key, draft) => (UNITS[key] ? { key, text: UNITS[key], draft: false } : { key, text: draft, draft: true });
 
+/** A slot template by station key ({god}, {when} …), filled; the draft line stands in while the template is unwritten. */
+const fill = (key, slots, draft) => {
+  const t = UNITS[key];
+  if (!t) return { key, text: draft, draft: true };
+  return { key, text: t.replace(/\{(\w+)\}/g, (m, k) => (slots[k] ?? m)), draft: false };
+};
+
 /** Where the reader stands in a gate: lived, now or coming. */
 export function gateTense(g, age) {
   if (age < GATE_START[g]) return 'coming';
@@ -139,11 +146,13 @@ export function resolveStars(chart, opts = {}) {
 // ── Energy Blueprint ────────────────────────────────────────────────
 const NUM_LOWER = ['no', 'one', 'two', 'three', 'four', 'five', 'six'];
 const shareWords = (x) => (x >= 0.72 ? 'three quarters' : x >= 0.6 ? 'two thirds' : x >= 0.5 ? 'more than half' : 'nearly half');
+// the station slug of each breaker (the engine names them in classical terms)
+const BREAKER_ID = { 比劫: 'peers', 官杀混杂: 'mixed', 伤官: 'virtuoso', 七杀: 'general', 偏印: 'alchemist', 正官: 'magistrate', 财: 'money', '食神 starved': 'starved', 'uncontrolled pressure': 'unchecked', 'nothing to use the strength on': 'idle' };
 const BREAKER = { 比劫: 'equals beside it', 官杀混杂: 'the Magistrate and the General mixing', 伤官: 'the Virtuoso', 七杀: 'the General', 偏印: 'the Alchemist', 正官: 'the Magistrate', 财: 'money pressing on it', '食神 starved': 'thinking that starves making', 'uncontrolled pressure': 'pressure nothing holds in check', 'nothing to use the strength on': 'strength with no outlet' };
 // what protects a structure, then how the decades bring it ({when}: now, next, later), have brought it, or never do
 const RESCUE = {
   officer: ['Outside pressure protects it, a boss or a rule or a deadline', 'and you meet that pressure in your decades {when}'],
-  output: ['What you make protects it, work you finish and show', 'and you find the room to make it in your decades {when}'],
+  output: ['What you make protects it, work you finish and show', 'and you find the time to make it in your decades {when}'],
   seal: ['Support protects it, a teacher or a backer or a home base', 'and you find that support in your decades {when}'],
   wealth: ['Money protects it, a steady income or a shared venture', 'and you meet it in your decades {when}'],
 };
@@ -169,21 +178,24 @@ export function resolveBlueprint(chart, positions, opts = {}) {
     : fam === 'wealth' && s.breaker === '比劫' && breakers.length ? `The ${breakers.join(' and the ')} ${pl(breakers.length, 'stands', 'stand')} close to your ${P}${positions.filter((p) => p.god === sGod).length > 1 ? 's' : ''}, and you keep losing a share of what you earn to equals.`
       : s.status === 'broken' ? `It is broken by ${BREAKER[s.breaker] || s.breaker}, and you carry the strain of it until something in your decades repairs it.`
         : `It holds, and ${BREAKER[s.breaker] || s.breaker} keeps pulling at it, and you feel that pull most in the years that feed it.`;
-  const statusKey = `STRUCTURE ${fam} · status.${s.status}.${s.breaker === '比劫' ? 'peers' : (s.breaker || 'none')}`;
+  const statusKey = `STRUCTURE ${fam} · status.${s.status}.${BREAKER_ID[s.breaker] || 'none'}`;
+  const nGods = positions.filter((p) => p.god === sGod).length;
+  const statusUnit = fill(statusKey, { breakers: breakers.join(' and the '), stand: pl(breakers.length, 'stands', 'stand'), gods: `${P}${nGods > 1 ? 's' : ''}` }, statusText);
   const rel = (l) => (l === cur ? 'now' : cur && l.startYear === (luck[luck.indexOf(cur) + 1] || {}).startYear ? 'next' : l.endAge < age ? 'already lived' : 'later');
   const rescueDecs = s.rescueDecades.map((r) => luck.find((l) => l.startYear === r.startYear)).filter(Boolean);
-  const when = [...new Set(rescueDecs.map(rel))].join(' and ');
+  const ahead = rescueDecs.filter((l) => rel(l) !== 'already lived');
+  const when = [...new Set(ahead.map(rel))].join(' and ');
+  const rescueForm = !rescueDecs.length ? '.none' : !ahead.length ? '.lived' : '';
   const rescue = s.rescue ? {
     label: rescueDecs.length ? `what protects it · ${rescueDecs.map((l) => `${persona(l.god)} decade ${l.startYear} to ${l.endYear}`).join(' · ')}` : 'what protects it',
-    key: `TEMPLATED tpl_depth · rescue.${s.rescue}`, draft: !(s.rescue === 'officer' && rescueDecs.length && when !== 'already lived'),
-    text: rescueText(s.rescue, rescueDecs.length ? when : null),
+    ...fill(`TEMPLATED tpl_depth · rescue.${s.rescue}${rescueForm}`, { when }, rescueText(s.rescue, !rescueDecs.length ? null : ahead.length ? when : 'already lived')),
   } : null;
   // 2 · strongest, missing, the season
   const els = Object.entries(chart.elements || {}).map(([e, v]) => [e, v.score || 0]).sort((a, b) => b[1] - a[1]);
   const [e1, e2] = els; const noun = (e) => FAMILY_NOUN[relationOf(e, dmEl)] || 'your own strength';
   const strongest = e1[1] >= 0.5
-    ? { key: 'TEMPLATED tpl_depth · strongest.one', draft: true, text: `${e1[0]} alone carries ${shareWords(e1[1])} of your chart, and you live mostly through ${noun(e1[0])}.` }
-    : { key: 'TEMPLATED tpl_depth · strongest.two', draft: false, text: `${e1[0]} and ${e2[0]} carry ${shareWords(e1[1] + e2[1])} of your chart, and you live mostly through ${noun(e1[0])} and ${noun(e2[0])}.` };
+    ? fill('TEMPLATED tpl_depth · strongest.one', { a: e1[0], share: shareWords(e1[1]), a_noun: noun(e1[0]) }, `${e1[0]} alone carries ${shareWords(e1[1])} of your chart, and you live mostly through ${noun(e1[0])}.`)
+    : fill('TEMPLATED tpl_depth · strongest.two', { a: e1[0], b: e2[0], share: shareWords(e1[1] + e2[1]), a_noun: noun(e1[0]), b_noun: noun(e2[0]) }, `${e1[0]} and ${e2[0]} carry ${shareWords(e1[1] + e2[1])} of your chart, and you live mostly through ${noun(e1[0])} and ${noun(e2[0])}.`);
   const profile = godProfile(chart, { hourUnknown: hu });
   const season = seasonOf(chart, { hourUnknown: hu });
   const seasonGods = new Set((season?.asks || []).map((a) => a.god));
@@ -227,7 +239,7 @@ export function resolveBlueprint(chart, positions, opts = {}) {
   const [zh, en] = STRUCTURE_NAME[s.key] || [s.key, s.key];
   return {
     title: `${an(en).replace(/^a/, 'A')} ${en} · ${zh}`, zh, en,
-    structure: { reading, rule: { key: `TEMPLATED tpl_depth · structure_rule.${w.how}`, text: ruleText, draft: w.how !== 'middle' }, statusLabel, status: { key: statusKey, text: statusText, draft: !(fam === 'wealth' && s.breaker === '比劫') }, rescue },
+    structure: { reading, rule: fill(`TEMPLATED tpl_depth · structure_rule.${w.how}`, { element: w.element, count: NUM_LOWER[w.shown] || w.shown, god: P, holder }, ruleText), statusLabel, status: statusUnit, rescue },
     runs: { strongest, missing, season: seasonReading, needs, seasonCell },
     seen: { plain, inside, close: seenClose },
     pairs: { pairs, bonds, noneHard },

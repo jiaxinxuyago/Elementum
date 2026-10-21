@@ -24,7 +24,7 @@
 | `slot_kind` | branch |
 | `domains` | Career · Growth |
 | `defline` | The Twin holds your strongest seat, inside your Month Gate: your working years run on your own effort. |
-| `reading` | Under your working years sits a need to own what you do, the skill and the result and the name on it. Because depending on anyone feels like losing yourself, you have built your prime on effort nobody else can claim. You keep working alone past the point where help would speed you up, and your parents have read it as distance more than once. |
+| `reading` | Under everything you do at work sits a need to own it, the skill and the result and the name on it. Because depending on anyone feels like losing yourself, you have built your working life on effort nobody else can claim. You learn the same way, slowly and in full, until a skill is yours to the last detail. You finish later than you would beside one trusted colleague, and you accept the delay as the price of owning the result. |
 | `teaser` | Your prime runs on your own engine: careers built alone hold, careers built on rescue stall. Equity and credit stay cleanest when they are written down early. |
 | `domain_readings.Career` | Your career engine is self-propulsion: work owned whole, standards self-set, results signed. You flourish exactly where autonomy is real and suffocate where it is decorative. Interview employers for freedom before salary. Your output doubles when nobody is holding the other handle. |
 | `domain_readings.Growth` | Your growth compounds through mastery held outright: skills nobody can reassign, a name nobody can dilute. The plateau danger is going it alone past the point of learning. Hire teachers the way you hire tools, deliberately, and your ceiling keeps moving. |
@@ -36,7 +36,16 @@
 | `health_line` | Your working body runs hot and silent: it performs until it stops. Put rest into the schedule as a task, because it will never volunteer. |
 | `domain_climb.Career.headline` | You work best when the whole job is yours. |
 | `domain_climb.Career.recognition` | You take a task from start to finish and want your name on the result. Because your sense of worth comes from your own output, you lose energy fast in any job where freedom exists only on paper. Your output rises with every piece of real freedom you get, and a manager who checks in daily costs you more than a lower salary would. |
-| `domain_climb.Career.lived` | From your late teens you chose work you could own outright, even when a shared role paid better. At least once you left a job because the freedom it promised turned out to be for show, and you have not regretted it. |
+| `domain_climb.Career.lived` | You have chosen work you could own outright since your late teens, even when a shared role paid better. At least once you left a job because the freedom it promised was only for show, and you have not regretted it. |
 | `domain_climb.Growth.headline` | Your skills are yours, and nobody can take them. |
 | `domain_climb.Growth.recognition` | You grow by mastering things fully, until the skill belongs to you and nobody else. Because you trust only what you have built yourself, you keep going alone long after a teacher would have helped. Your progress is fastest the moment someone you respect works beside you, and you put that moment off. |
-| `domain_climb.Growth.lived` | Since your late teens you have taught yourself most of what you know, often the slow way. More than once you hit a long flat stretch that ended only when you finally learned from someone better, and you remember each of those people. |
+| `domain_climb.Growth.lived` | Long flat stretches have marked your learning since your late teens, and more than one ended only when you finally learned from someone better. You remember each of those people, and you owe them more thanks than you have given. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | Under your working years sits a need to own what you do, the skill and the result and the name on it. Because depending on anyone feels like losing yourself, you have built your prime on effort nobody else can claim. You keep working alone past the point where help would speed you up, and your parents have read it as distance more than once. |
+| `domains_round1_retired_2026-10-21.domain_climb.Career.lived` | From your late teens you chose work you could own outright, even when a shared role paid better. At least once you left a job because the freedom it promised turned out to be for show, and you have not regretted it. |
+| `domains_round1_retired_2026-10-21.domain_climb.Growth.lived` | Since your late teens you have taught yourself most of what you know, often the slow way. More than once you hit a long flat stretch that ended only when you finally learned from someone better, and you remember each of those people. |

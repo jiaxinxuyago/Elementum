@@ -20,7 +20,7 @@
       "Health"
     ],
     "defline": "The Artisan holds your strongest seat, inside your Month Gate: your working years run on steady craft and a body kept well.",
-    "reading": "You do your work steadily and without fuss, and over your working years you quietly produce more than people who make more noise. Because your energy comes from sleep, food and routine, your work rises and falls with how well you are living. Careers in making or feeding or teaching suit you best, and you improve at them long after others have peaked.",
+    "reading": "You do your work quietly and without fuss, and over the years you produce more than people who make more noise. Because your energy comes from sleep, food and routine, your work rises and falls with how well you are living. You do your best in making, feeding or teaching, and you keep improving at it long after others have peaked.",
     "teaser": "Craft sits in your bones: your prime years produce steadily, without drama, and better than louder people. Guard your health and routine, they are your production line.",
     "domain_readings": {
       "Career": "Craft is your deep engine: your working decades produce steadily, without drama, better than louder people manage. Making, feeding, teaching, tending, any field where the hands know things suits the wiring. Guard the routine like the machinery it is. Your career runs exactly as well as your habits.",
@@ -35,13 +35,23 @@
     "domain_climb": {
       "Career": {
         "headline": "Your career runs on craft and good habits.",
-        "recognition": "You do your best work through skill built slowly, in fields where the hands or the senses know things. Since steady practice is what you trust, you are slow to take on work you cannot yet do well, and you miss a few openings that way. You are seldom the loudest on a team, and your work is the work that holds up.",
-        "lived": "From your late teens you have built your skill quietly, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time."
+        "recognition": "Your best work comes from skill built slowly, in fields where the hands or the senses know things. Since steady practice is what you trust, you are slow to take on work you cannot yet do well, and you miss a few openings that way. You are seldom the loudest on a team, and your work is the work that holds up.",
+        "lived": "You have built your skill quietly since your late teens, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time."
       },
       "Health": {
         "headline": "Your work is only as good as your sleep.",
-        "recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because pleasure in food and rest comes easily to you, comfort slips into excess in your busiest months and your energy drops. You notice tiredness in the quality of your work before you feel it, and a few good nights of sleep put it right.",
-        "lived": "Since your late teens your energy has followed your routine closely, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
+        "recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because food and rest are pleasures to you, you eat late and sleep short in busy months, and your energy drops. You notice tiredness in your work before you feel it, and a few good nights put it right.",
+        "lived": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You do your work steadily and without fuss, and over your working years you quietly produce more than people who make more noise. Because your energy comes from sleep, food and routine, your work rises and falls with how well you are living. Careers in making or feeding or teaching suit you best, and you improve at them long after others have peaked.",
+        "domain_climb.Career.recognition": "You do your best work through skill built slowly, in fields where the hands or the senses know things. Since steady practice is what you trust, you are slow to take on work you cannot yet do well, and you miss a few openings that way. You are seldom the loudest on a team, and your work is the work that holds up.",
+        "domain_climb.Career.lived": "From your late teens you have built your skill quietly, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time.",
+        "domain_climb.Health.recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because pleasure in food and rest comes easily to you, comfort slips into excess in your busiest months and your energy drops. You notice tiredness in the quality of your work before you feel it, and a few good nights of sleep put it right.",
+        "domain_climb.Health.lived": "Since your late teens your energy has followed your routine closely, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
       }
     }
   },
@@ -72,6 +82,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You do your work steadily and without fuss, and over your working years you quietly produce more than people who make more noise. Because your energy comes from sleep, food and routine, your work rises and falls with how well you are living. Careers in making or feeding or teaching suit you best, and you improve at them long after others have peaked."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

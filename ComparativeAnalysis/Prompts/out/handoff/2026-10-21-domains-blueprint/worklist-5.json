@@ -1,0 +1,632 @@
+[
+ {
+  "key": "TEMPLATED tpl_depth · bond.bind.day_hour",
+  "kind": "bond",
+  "page": "bonds-bind",
+  "context": {
+   "bond": "bind",
+   "gates": [
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.bind.month_day",
+  "kind": "bond",
+  "page": "bonds-bind",
+  "context": {
+   "bond": "bind",
+   "gates": [
+    "month",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.bind.year_hour",
+  "kind": "bond",
+  "page": "bonds-bind",
+  "context": {
+   "bond": "bind",
+   "gates": [
+    "year",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.bind.year_month",
+  "kind": "bond",
+  "page": "bonds-bind",
+  "context": {
+   "bond": "bind",
+   "gates": [
+    "year",
+    "month"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.clash.day_hour",
+  "kind": "bond",
+  "page": "bonds-clash",
+  "context": {
+   "bond": "clash",
+   "gates": [
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.clash.month_day",
+  "kind": "bond",
+  "page": "bonds-clash",
+  "context": {
+   "bond": "clash",
+   "gates": [
+    "month",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.clash.month_hour",
+  "kind": "bond",
+  "page": "bonds-clash",
+  "context": {
+   "bond": "clash",
+   "gates": [
+    "month",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.clash.year_day",
+  "kind": "bond",
+  "page": "bonds-clash",
+  "context": {
+   "bond": "clash",
+   "gates": [
+    "year",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.clash.year_hour",
+  "kind": "bond",
+  "page": "bonds-clash",
+  "context": {
+   "bond": "clash",
+   "gates": [
+    "year",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.clash.year_month",
+  "kind": "bond",
+  "page": "bonds-clash",
+  "context": {
+   "bond": "clash",
+   "gates": [
+    "year",
+    "month"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.day_hour",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.month_day",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "month",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.month_day_hour",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "month",
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.month_hour",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "month",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.year_day",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "year",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.year_day_hour",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "year",
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.year_hour",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "year",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.year_month",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "year",
+    "month"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.year_month_day",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "year",
+    "month",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.year_month_day_hour",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "year",
+    "month",
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.frame.year_month_hour",
+  "kind": "bond",
+  "page": "bonds-frame",
+  "context": {
+   "bond": "frame",
+   "gates": [
+    "year",
+    "month",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.harm.day_hour",
+  "kind": "bond",
+  "page": "bonds-harm",
+  "context": {
+   "bond": "harm",
+   "gates": [
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.harm.month_day",
+  "kind": "bond",
+  "page": "bonds-harm",
+  "context": {
+   "bond": "harm",
+   "gates": [
+    "month",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.harm.month_hour",
+  "kind": "bond",
+  "page": "bonds-harm",
+  "context": {
+   "bond": "harm",
+   "gates": [
+    "month",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.harm.year_day",
+  "kind": "bond",
+  "page": "bonds-harm",
+  "context": {
+   "bond": "harm",
+   "gates": [
+    "year",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.harm.year_hour",
+  "kind": "bond",
+  "page": "bonds-harm",
+  "context": {
+   "bond": "harm",
+   "gates": [
+    "year",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.harm.year_month",
+  "kind": "bond",
+  "page": "bonds-harm",
+  "context": {
+   "bond": "harm",
+   "gates": [
+    "year",
+    "month"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.punish.day_hour",
+  "kind": "bond",
+  "page": "bonds-punish",
+  "context": {
+   "bond": "punish",
+   "gates": [
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.punish.month_day",
+  "kind": "bond",
+  "page": "bonds-punish",
+  "context": {
+   "bond": "punish",
+   "gates": [
+    "month",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.punish.month_hour",
+  "kind": "bond",
+  "page": "bonds-punish",
+  "context": {
+   "bond": "punish",
+   "gates": [
+    "month",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.punish.year_day",
+  "kind": "bond",
+  "page": "bonds-punish",
+  "context": {
+   "bond": "punish",
+   "gates": [
+    "year",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.punish.year_hour",
+  "kind": "bond",
+  "page": "bonds-punish",
+  "context": {
+   "bond": "punish",
+   "gates": [
+    "year",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.punish.year_month",
+  "kind": "bond",
+  "page": "bonds-punish",
+  "context": {
+   "bond": "punish",
+   "gates": [
+    "year",
+    "month"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.selfpunish.day_hour",
+  "kind": "bond",
+  "page": "bonds-selfpunish",
+  "context": {
+   "bond": "selfpunish",
+   "gates": [
+    "day",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.selfpunish.month_day",
+  "kind": "bond",
+  "page": "bonds-selfpunish",
+  "context": {
+   "bond": "selfpunish",
+   "gates": [
+    "month",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.selfpunish.month_hour",
+  "kind": "bond",
+  "page": "bonds-selfpunish",
+  "context": {
+   "bond": "selfpunish",
+   "gates": [
+    "month",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.selfpunish.year_day",
+  "kind": "bond",
+  "page": "bonds-selfpunish",
+  "context": {
+   "bond": "selfpunish",
+   "gates": [
+    "year",
+    "day"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.selfpunish.year_hour",
+  "kind": "bond",
+  "page": "bonds-selfpunish",
+  "context": {
+   "bond": "selfpunish",
+   "gates": [
+    "year",
+    "hour"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.selfpunish.year_month",
+  "kind": "bond",
+  "page": "bonds-selfpunish",
+  "context": {
+   "bond": "selfpunish",
+   "gates": [
+    "year",
+    "month"
+   ],
+   "templates": [
+    "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+    "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+   ]
+  }
+ }
+]

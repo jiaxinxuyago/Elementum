@@ -32,18 +32,18 @@
 | `family_element.appetite` | order, duty, and the structure worth answering to |
 | `family_element.notAlone` | not control alone, but everything that tests you and steadies you |
 | `ruling_domains` | Family · Social · Career |
-| `decade_lines.Family.helping.ahead` | You take a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that you keep for the rest of your life. |
-| `decade_lines.Family.helping.lived` | Order and good manners shaped your home in those years, and you knew your place and your duties. You earned respect from older relatives by keeping the family's rules, and you felt secure inside them. |
-| `decade_lines.Family.heavy.lived` | Family rules weighed on you in those years, and you lived up to expectations that left you little say. You did your duty well, and the discipline it taught you later gave you a voice of your own. |
-| `decade_lines.Family.heavy.ahead` | Obligations at home pile up in these years, with duties to elders and a reputation to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone. |
-| `decade_lines.Career.helping.ahead` | Your work gains structure in these ten years, a proper title or a role with real responsibility. You are trusted with more than before, and the trust lasts beyond the job that gave it. |
-| `decade_lines.Career.helping.lived` | Promotion came the proper way in those years, through good work noticed by the right people. You earned a title you could be proud of, and you wore the responsibility well. |
-| `decade_lines.Career.heavy.lived` | Rules and rank boxed you in at work during those years, and you followed procedure long after it stopped helping. You were reliable to a fault, and your record carried you into better posts later. |
-| `decade_lines.Career.heavy.ahead` | Hierarchy presses on you at work in these ten years, and each new duty tightens a frame that is already close. You stay respected throughout, and you find freedom in the parts of the job you shape yourself. |
-| `decade_lines.Social.helping.ahead` | You gain standing among friends and colleagues in these years, and people start asking your opinion before they decide. You become the steady one in your circle, and you take the part seriously. |
+| `decade_lines.Family.helping.ahead` | You hold a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that lasts well beyond the decade. |
+| `decade_lines.Family.helping.lived` | Order and good manners shaped your home in those years, and everyone knew their place and their duties. You earned respect in your family by keeping its rules, and you felt secure inside them. |
+| `decade_lines.Family.heavy.lived` | Family duty weighed on you in those years, and you met expectations that left you little say. You did what was asked of you well, and you came out of it with the respect it earned you. |
+| `decade_lines.Family.heavy.ahead` | Obligations at home pile up in these years, with duties to the people who rely on you and a family name to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone. |
+| `decade_lines.Career.helping.ahead` | Your work gains structure in these ten years, a clear role with real responsibility. You are trusted with more than before, and the trust lasts beyond the work that earned it. |
+| `decade_lines.Career.helping.lived` | Recognition came the proper way in those years, through good work noticed by the right people. You earned a place you could be proud of, and you carried the responsibility well. |
+| `decade_lines.Career.heavy.lived` | Rules and rank pressed on your work during those years, and you followed procedure long after it stopped helping. You were reliable to a fault, and your record carried you to better places later. |
+| `decade_lines.Career.heavy.ahead` | Hierarchy presses on your work in these ten years, and each new duty adds to rules that are already strict. Your good name holds throughout, and what carries you is the part of the work you shape yourself. |
+| `decade_lines.Social.helping.ahead` | You hold standing among friends in these years, and people ask your opinion before they decide. You are the steady one in your circle, and you take the part seriously. |
 | `decade_lines.Social.helping.lived` | Respect came to you in those years through how you conducted yourself among others. People saw you as fair and dependable, and you were asked to lead more than once. |
 | `decade_lines.Social.heavy.lived` | Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle. |
-| `decade_lines.Social.heavy.ahead` | Duty shapes your friendships in these years, and social life starts to feel like obligation. Your good name holds, and you find relief with the friends who expect nothing formal from you. |
+| `decade_lines.Social.heavy.ahead` | Duty shapes your friendships in these years, and social life feels more like obligation than pleasure. Your good name holds, and you find relief with the friends who expect nothing formal from you. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -85,3 +85,14 @@
 | `domainSignatures.health.text` | Follows established health frameworks — respected medical guidance, conventional approaches. The shadow: difficulty trusting signals that fall outside the endorsed framework. |
 | `sixRelations` | *(unauthored)* |
 | `retired_2026-09-20_evaluation_rulings.definition_line` | Framework-mediated pressure — the standard that steadies |
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.decade_lines.Family.helping.ahead` | You take a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that you keep for the rest of your life. |
+| `domains_round1_retired_2026-10-21.decade_lines.Family.helping.lived` | Order and good manners shaped your home in those years, and you knew your place and your duties. You earned respect from older relatives by keeping the family's rules, and you felt secure inside them. |
+| `domains_round1_retired_2026-10-21.decade_lines.Family.heavy.lived` | Family rules weighed on you in those years, and you lived up to expectations that left you little say. You did your duty well, and the discipline it taught you later gave you a voice of your own. |
+| `domains_round1_retired_2026-10-21.decade_lines.Family.heavy.ahead` | Obligations at home pile up in these years, with duties to elders and a reputation to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone. |
+| `domains_round1_retired_2026-10-21.decade_lines.Career.helping.ahead` | Your work gains structure in these ten years, a proper title or a role with real responsibility. You are trusted with more than before, and the trust lasts beyond the job that gave it. |
+| `domains_round1_retired_2026-10-21.decade_lines.Career.helping.lived` | Promotion came the proper way in those years, through good work noticed by the right people. You earned a title you could be proud of, and you wore the responsibility well. |
+| `domains_round1_retired_2026-10-21.decade_lines.Career.heavy.lived` | Rules and rank boxed you in at work during those years, and you followed procedure long after it stopped helping. You were reliable to a fault, and your record carried you into better posts later. |
+| `domains_round1_retired_2026-10-21.decade_lines.Career.heavy.ahead` | Hierarchy presses on you at work in these ten years, and each new duty tightens a frame that is already close. You stay respected throughout, and you find freedom in the parts of the job you shape yourself. |
+| `domains_round1_retired_2026-10-21.decade_lines.Social.helping.ahead` | You gain standing among friends and colleagues in these years, and people start asking your opinion before they decide. You become the steady one in your circle, and you take the part seriously. |
+| `domains_round1_retired_2026-10-21.decade_lines.Social.heavy.ahead` | Duty shapes your friendships in these years, and social life starts to feel like obligation. Your good name holds, and you find relief with the friends who expect nothing formal from you. |

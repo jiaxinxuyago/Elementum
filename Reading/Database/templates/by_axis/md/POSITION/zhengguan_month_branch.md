@@ -24,7 +24,7 @@
 | `slot_kind` | branch |
 | `domains` | Career · Growth · Social |
 | `defline` | The Magistrate holds your strongest seat, inside your Month Gate: your working years are built on duty done properly. |
-| `reading` | You feel most yourself when you have a clear role and do it well, and your working years are shaped around that need. Because steady reliability earns trust, your responsibilities grow year by year inside the places you join. The frame that supports you also holds you in, and your freedom shrinks as your rank grows. Your influence comes from being dependable, and it is greater than it looks. |
+| `reading` | You feel most yourself with a clear role and a job done properly, and you look for that in every place you join. Because steady reliability earns trust, your responsibilities grow year by year, and each new rank teaches you what the last one could not. Among friends you end up making the plans and keeping the dates, and you are relied on more than thanked. |
 | `teaser` | Your prime is built for responsibility: the frame of your working life is duty done properly. Titles find you midlife, and they tend to stick. |
 | `domain_readings.Career` | Duty done properly is the frame of your working life: your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles that stay. The deep cost is elasticity. Renegotiate your role every few years on purpose. Structure serves best reviewed. |
 | `domain_readings.Growth` | You grow inside frameworks and outgrow them on schedule: each structure teaches, then confines, then hands you to the next. Honor the rhythm. The promotion beyond a frame is also a form of loyalty to it. Climb without guilt. |
@@ -37,10 +37,20 @@
 | `health_line` | Your health runs on office rhythm: regular hours suit you biologically. Guard the weekends from the weekdays, and both improve. |
 | `domain_climb.Career.headline` | Your career grows steadily inside a structure. |
 | `domain_climb.Career.recognition` | You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a proper title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly. |
-| `domain_climb.Career.lived` | Since your late teens your career has moved up in steady steps, a promotion earned or a responsibility added each time you proved yourself. Your seniors noticed your reliability early, and you were trusted with more than your age suggested. |
+| `domain_climb.Career.lived` | Each step up since your late teens has come after you proved you could do the last one properly, and you waited to feel ready before you asked for the next. Your seniors noticed your reliability early, and you were trusted with more than your age suggested. |
 | `domain_climb.Growth.headline` | You grow by moving from one structure to the next. |
 | `domain_climb.Growth.recognition` | You grow inside a framework, a course or a firm or a discipline, until you have learned everything it can teach. Because loyalty runs deep in you, leaving one structure for a bigger one feels like a betrayal, and you wait longer than you need to. Your growth comes in clear stages, and each one starts when you finally move. |
-| `domain_climb.Growth.lived` | From your late teens you grew through formal steps, a qualification finished or a rank reached or a role handed over to you. Each structure you joined shaped you for a few years, and you outgrew most of them on time. |
+| `domain_climb.Growth.lived` | You grew through formal steps from your late teens on, a qualification finished or a rank reached or a role handed to you. Each structure you joined shaped you for a few years, and you stayed in most of them a little past the point they could teach you. |
 | `domain_climb.Social.headline` | People rely on you to keep things steady. |
 | `domain_climb.Social.recognition` | You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone credits you for. |
-| `domain_climb.Social.lived` | Since your late teens your friendships have grown out of work and shared duties, the colleagues you trusted and the seniors who trusted you. You became the steady one in every group you joined, and some of those bonds have lasted well beyond the job. |
+| `domain_climb.Social.lived` | Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted further, and you kept the ones bound to you by a duty for years after the job ended. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | You feel most yourself when you have a clear role and do it well, and your working years are shaped around that need. Because steady reliability earns trust, your responsibilities grow year by year inside the places you join. The frame that supports you also holds you in, and your freedom shrinks as your rank grows. Your influence comes from being dependable, and it is greater than it looks. |
+| `domains_round1_retired_2026-10-21.domain_climb.Career.lived` | Since your late teens your career has moved up in steady steps, a promotion earned or a responsibility added each time you proved yourself. Your seniors noticed your reliability early, and you were trusted with more than your age suggested. |
+| `domains_round1_retired_2026-10-21.domain_climb.Growth.lived` | From your late teens you grew through formal steps, a qualification finished or a rank reached or a role handed over to you. Each structure you joined shaped you for a few years, and you outgrew most of them on time. |
+| `domains_round1_retired_2026-10-21.domain_climb.Social.lived` | Since your late teens your friendships have grown out of work and shared duties, the colleagues you trusted and the seniors who trusted you. You became the steady one in every group you joined, and some of those bonds have lasted well beyond the job. |

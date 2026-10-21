@@ -21,7 +21,7 @@
       "Health"
     ],
     "defline": "The Sage lives inside your Day Gate, the seat of your partner: your closest life is built around shelter and care.",
-    "reading": "You want a home that feels safe before it feels exciting, and you are drawn to partners who are steady more than dazzling. Because being cared for close up is what settles you, you do your best in every other part of life when home is calm. That comfort has a cost, because you let a partner carry more than you notice. From your mid-thirties, you build a gentle household and learn to give back the care you receive.",
+    "reading": "You want a home that feels safe before it feels exciting, and you are drawn to partners who are steady more than dazzling. Because being cared for close up settles your sleep and your mood, you do your best everywhere else when home is calm. That comfort has a cost, because you stay in a safe arrangement long after it stops asking anything of you. From your mid-thirties you keep a gentle household, and you start returning the care you are given.",
     "teaser": "You are built to be cared for at close range, and to trust it. Marriage brings shelter: a partner whose steadiness becomes your second spine.",
     "domain_readings": {
       "Love": "You are built to be cared for at close range, and to trust it: marriage brings shelter, a partner whose steadiness becomes your second spine. Choose the nurturer over the dazzler, and your chart means it. Then receive well. Being tended without auditing is the whole lesson.",
@@ -38,20 +38,32 @@
       "Love": {
         "headline": "You love the person who makes you feel safe.",
         "recognition": "You fall for steadiness, the partner who turns up on time and stays calm when you are not. Because safety is what love means to you, you relax completely with the right person, and you take their care as a given. You are slow to notice how much they carry, and slower to thank them.",
-        "lived": "So far the partners who mattered most were the ones who looked after you, practically and without fuss. You have left at least one exciting person for a kinder one, and you have not regretted it.",
-        "ahead": "From your mid-thirties love settles into a shared life that is quiet, warm and dependable. You return the care more consciously in these years, and the partnership grows deeper because you do."
+        "lived": "The partners who have mattered most to you so far were the ones who looked after you, practically and without fuss. More than once you have let a partner take over the practical side of your life, and you found you had forgotten how to do it yourself.",
+        "ahead": "Through your Home Chapter you learn to give back the steady care you once took for granted. You notice what a partner carries for you in these years, and you start carrying some of it yourself."
       },
       "Family": {
         "headline": "Your home runs on everyday kindness.",
         "recognition": "You make your household gentle, with meals shared and voices kept low and nobody left out. Because a peaceful house is what lets you function, you smooth over arguments fast, and some of them never get settled. Your family comes to you to recover from the world, and you let them.",
-        "lived": "So far your home has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought.",
+        "lived": "Your home so far has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought.",
         "ahead": "From your mid-thirties your household becomes the place your wider family gathers, because it is the calmest one they know. You hold it together with a partner in these years, and you speak up more than you used to."
       },
       "Health": {
         "headline": "Your body follows the mood of your home.",
-        "recognition": "You sleep well and eat well in a settled house, and both slip the moment it turns tense. Because your body takes its cue from the people you live with, tension at home shows up in your back and shoulders before you name it. Your energy is highest in the seasons you feel most looked after.",
-        "lived": "So far your health has tracked your home life closely, steady in the calm years and worn in the tense ones. You have recovered fastest from hard stretches with someone close looking after you, and slowest when you went through them alone.",
-        "ahead": "From your mid-thirties a settled home gives your body a steadier rhythm, with regular meals and proper rest. You feel better in these years than you have for a long time, and you put it down to the partner beside you."
+        "recognition": "You sleep well and eat well in a settled house, and both slip the moment it turns tense. Because your body takes its cue from the people you live with, a week of bad feeling at home drains your energy before you have named the problem. You are strongest in the seasons you feel most looked after.",
+        "lived": "Your health so far has tracked your home life closely, steady in the calm years and worn in the difficult ones. You have recovered fastest from hard stretches with someone close looking after you, and slowest when you went through them alone.",
+        "ahead": "A settled home gives your body a steadier rhythm from your mid-thirties, with regular meals and proper rest. You feel better in these years than you have for a long time, and you put it down to the partner beside you."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You want a home that feels safe before it feels exciting, and you are drawn to partners who are steady more than dazzling. Because being cared for close up is what settles you, you do your best in every other part of life when home is calm. That comfort has a cost, because you let a partner carry more than you notice. From your mid-thirties, you build a gentle household and learn to give back the care you receive.",
+        "domain_climb.Love.lived": "So far the partners who mattered most were the ones who looked after you, practically and without fuss. You have left at least one exciting person for a kinder one, and you have not regretted it.",
+        "domain_climb.Love.ahead": "From your mid-thirties love settles into a shared life that is quiet, warm and dependable. You return the care more consciously in these years, and the partnership grows deeper because you do.",
+        "domain_climb.Family.lived": "So far your home has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought.",
+        "domain_climb.Health.recognition": "You sleep well and eat well in a settled house, and both slip the moment it turns tense. Because your body takes its cue from the people you live with, tension at home shows up in your back and shoulders before you name it. Your energy is highest in the seasons you feel most looked after.",
+        "domain_climb.Health.lived": "So far your health has tracked your home life closely, steady in the calm years and worn in the tense ones. You have recovered fastest from hard stretches with someone close looking after you, and slowest when you went through them alone.",
+        "domain_climb.Health.ahead": "From your mid-thirties a settled home gives your body a steadier rhythm, with regular meals and proper rest. You feel better in these years than you have for a long time, and you put it down to the partner beside you."
       }
     }
   },
@@ -89,6 +101,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You want a home that feels safe before it feels exciting, and you are drawn to partners who are steady more than dazzling. Because being cared for close up is what settles you, you do your best in every other part of life when home is calm. That comfort has a cost, because you let a partner carry more than you notice. From your mid-thirties, you build a gentle household and learn to give back the care you receive."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

@@ -37,6 +37,13 @@
 | `domain_climb.Wealth.headline` | You learned the value of money early. |
 | `domain_climb.Wealth.recognition` | You spend with a list and save before anyone asks you to, and money that sits unplanned makes you uneasy. Because order around money felt like safety from your first years, you lose more sleep over a careless purchase than it ever cost you. You are slower to enjoy what you have than to keep it. |
 | `domain_climb.Wealth.lived` | You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent. |
-| `domain_climb.Family.headline` | You grew up in a careful, orderly home. |
+| `domain_climb.Family.headline` | You were raised in a careful, orderly home. |
 | `domain_climb.Family.recognition` | You show love in your family by keeping things in order, the bills paid and the arrangements made. Because care at home looked like provision when you were small, you trust a relative who plans more than one who says warm things. You are the one your family calls when something needs organising, and you rarely say no. |
 | `domain_climb.Family.lived` | Someone in your first home kept the household running on plans and promises kept, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.domain_climb.Family.headline` | You grew up in a careful, orderly home. |

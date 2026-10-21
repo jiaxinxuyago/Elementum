@@ -24,7 +24,7 @@
 | `slot_kind` | stem |
 | `domains` | Career · Wealth · Social |
 | `defline` | The Horizon stands at your Month Gate, in plain view: at work you are known as the one who spots the opening first. |
-| `reading` | People at work know you as the one with the tip, the contact and the good timing. Because chances reach you through people, you spend your working years meeting them, and your income follows deals more than a pay scale. Money comes in through friends and movement, and it leaves the same way, through gifts and plans that drift. You are richest in the years when some of each windfall stays put. |
+| `reading` | You find work and money through people, the tip and the contact and the good timing. Because chances reach you that way, you spend your working years meeting people, and your circle and your income grow together. Money comes in through friends and movement, and it leaves the same way, through gifts and plans that drift. You are richest in the years when some of each windfall stays put. |
 | `teaser` | The working world reads you as the one who spots the opening. Your career pays in windfalls and timing, so keep a steady hand on the harvests. |
 | `domain_readings.Career` | The working world reads you as the one who spots the opening: the tip, the timing, the door others walked past. Careers in deals, scouting, connecting, anything with a hunt in it, pay your instinct properly. Salaried stillness dulls you. Keep a hunt in the portfolio always. |
 | `domain_readings.Wealth` | Your money arrives in windfalls and timing, and leaves through generosity and drift: both flows are real and only one has a valve. Harvest every windfall into something boring before celebrating. The instinct finds the money. The discipline keeps enough to hunt again. |
@@ -37,10 +37,20 @@
 | `health_line` | Your energy tracks the chase: vivid in pursuit, flat between hunts. Build ordinary-day vitality, meals, sleep, walks, so the engine survives the lulls. |
 | `domain_climb.Career.headline` | You are paid for spotting the chance others miss. |
 | `domain_climb.Career.recognition` | You do your best work wherever there is something to find, a client or a deal or a gap in the market. Because the search keeps you sharp, a fixed salary and a quiet desk wear you down faster than hard work. You are the colleague people come to first when they need a way in. |
-| `domain_climb.Career.lived` | Since your late teens your best career moves have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up. |
+| `domain_climb.Career.lived` | Your best career moves since your late teens have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up. |
 | `domain_climb.Wealth.headline` | Your money arrives in windfalls and leaves through friends. |
 | `domain_climb.Wealth.recognition` | You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust the next chance to arrive, you spend and lend freely between windfalls. Your money leaves as easily as it arrives, and you notice only when a quiet season comes. |
-| `domain_climb.Wealth.lived` | Since your late teens you have had good years and thin ones, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before keeping any of it. |
+| `domain_climb.Wealth.lived` | Good years and thin ones have followed each other since your late teens, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before you set a share of it aside. |
 | `domain_climb.Social.headline` | You know someone for every need. |
 | `domain_climb.Social.recognition` | You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact. |
-| `domain_climb.Social.lived` | Since your late teens most of your friendships have started through work, a deal or an introduction or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life. |
+| `domain_climb.Social.lived` | Many of your friendships since your late teens began over work, a deal or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | People at work know you as the one with the tip, the contact and the good timing. Because chances reach you through people, you spend your working years meeting them, and your income follows deals more than a pay scale. Money comes in through friends and movement, and it leaves the same way, through gifts and plans that drift. You are richest in the years when some of each windfall stays put. |
+| `domains_round1_retired_2026-10-21.domain_climb.Career.lived` | Since your late teens your best career moves have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up. |
+| `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | Since your late teens you have had good years and thin ones, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before keeping any of it. |
+| `domains_round1_retired_2026-10-21.domain_climb.Social.lived` | Since your late teens most of your friendships have started through work, a deal or an introduction or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life. |

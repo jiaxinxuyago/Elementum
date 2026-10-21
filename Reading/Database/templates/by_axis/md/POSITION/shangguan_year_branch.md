@@ -24,7 +24,7 @@
 | `slot_kind` | branch |
 | `domains` | Family · Growth |
 | `defline` | The Virtuoso lives inside your Year Gate: underneath your childhood ran a quiet disagreement with the way things were done at home. |
-| `reading` | Long before you could say it you saw what was wrong with the rules at home, and the habit of doubting first has stayed with you. Because you learned early to trust your own judgement over what you were told, you have grown fastest in places that let you test things for yourself. Some in your family took your honesty for defiance, and you are closest now to the relatives who heard you out. |
+| `reading` | You asked why before most children do, and the habit of doubting first has stayed with you. Because you learned early to trust your own judgement over what you were told, you have grown fastest in places that let you test things for yourself. Some in your family took your honesty for defiance, and you are closest now to the relatives who heard you out. |
 | `teaser` | Underneath your story runs an early refusal: some rule at home never fit, and you knew it young. That edge becomes brilliance once it stops needing an audience. |
 | `domain_readings.Family` | Some rule at home never fit and you knew it young: the refusal underneath your story is old and honest. As an adult, your family relationships flourish exactly where honesty is allowed. Keep telling the truth kindly. The relatives who can hear it become your real ones. |
 | `domain_readings.Growth` | You grow by improving what you are handed: doubting first, testing second, upgrading third. It makes you allergic to received wisdom and brilliant at revision. Give the doubt real material, systems, drafts, broken things, and it turns from rebellion into engineering. |
@@ -36,7 +36,16 @@
 | `health_line` | Old friction lives in the body as vigilance: jaw, shoulders, shallow breath. Unclench on schedule. The war ended, tell the troops. |
 | `domain_climb.Family.headline` | Your family gets your honesty along with your love. |
 | `domain_climb.Family.recognition` | You love your family most easily where you are allowed to disagree, and a home that asks you to keep quiet feels cold to you. Because honesty was your first way of belonging at home, you say what others leave unsaid, and a relative or two finds you hard work. Your warmth is real, and you show it most to the people who argue back. |
-| `domain_climb.Family.lived` | As a child you questioned at least one rule at home that everyone else accepted, quietly or out loud. Someone in your first home found you difficult for it, and by your teens you had learned which opinions to keep to yourself. |
+| `domain_climb.Family.lived` | You questioned at least one rule in your first home that everyone else accepted, quietly or out loud. Someone there found you difficult for it, and by your teens you had learned which opinions to keep to yourself. |
 | `domain_climb.Growth.headline` | You grow by doubting what you are given. |
 | `domain_climb.Growth.recognition` | You improve anything you are handed by questioning it first, a method or a belief or a piece of advice. Since accepting things whole has never felt honest to you, you learn more slowly from teachers and faster from your own mistakes. Your doubt turns into skill whenever it has real work in front of it, and you grow restless when it has none. |
-| `domain_climb.Growth.lived` | By your teens you had already outgrown some of what your family believed, and you got there by arguing with it. In school you did best in the subjects that let you ask why, and you drifted through the ones that did not. |
+| `domain_climb.Growth.lived` | You had outgrown some of what your family believed by your teens, and you got there by arguing with it. In school you did best in the subjects that let you question the answer, and you drifted through the ones that did not. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | Long before you could say it you saw what was wrong with the rules at home, and the habit of doubting first has stayed with you. Because you learned early to trust your own judgement over what you were told, you have grown fastest in places that let you test things for yourself. Some in your family took your honesty for defiance, and you are closest now to the relatives who heard you out. |
+| `domains_round1_retired_2026-10-21.domain_climb.Family.lived` | As a child you questioned at least one rule at home that everyone else accepted, quietly or out loud. Someone in your first home found you difficult for it, and by your teens you had learned which opinions to keep to yourself. |
+| `domains_round1_retired_2026-10-21.domain_climb.Growth.lived` | By your teens you had already outgrown some of what your family believed, and you got there by arguing with it. In school you did best in the subjects that let you ask why, and you drifted through the ones that did not. |

@@ -1,0 +1,461 @@
+[
+ {
+  "key": "GOD bijian · missing",
+  "kind": "missing",
+  "page": "god-missing",
+  "context": {
+   "character": "the Twin",
+   "template": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  }
+ },
+ {
+  "key": "GOD bijian · seen.inside",
+  "kind": "seen",
+  "page": "god-seen-inside",
+  "context": {
+   "character": "the Twin",
+   "template": "You think in strange directions and keep most of those thoughts to yourself."
+  }
+ },
+ {
+  "key": "GOD bijian · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Twin",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD bijian · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the Twin",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD bijian · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Twin",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD jiecai · missing",
+  "kind": "missing",
+  "page": "god-missing",
+  "context": {
+   "character": "the Rival",
+   "template": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  }
+ },
+ {
+  "key": "GOD jiecai · seen.plain",
+  "kind": "seen",
+  "page": "god-seen-plain",
+  "context": {
+   "character": "the Rival",
+   "template": "You come across as a careful provider, the one who pays on time and keeps count."
+  }
+ },
+ {
+  "key": "GOD jiecai · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Rival",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD jiecai · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the Rival",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD jiecai · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Rival",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD shishen · missing",
+  "kind": "missing",
+  "page": "god-missing",
+  "context": {
+   "character": "the Artisan",
+   "template": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  }
+ },
+ {
+  "key": "GOD shishen · seen.plain",
+  "kind": "seen",
+  "page": "god-seen-plain",
+  "context": {
+   "character": "the Artisan",
+   "template": "You come across as a careful provider, the one who pays on time and keeps count."
+  }
+ },
+ {
+  "key": "GOD shishen · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Artisan",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD shishen · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the Artisan",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD shishen · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Artisan",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD shangguan · missing",
+  "kind": "missing",
+  "page": "god-missing",
+  "context": {
+   "character": "the Virtuoso",
+   "template": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  }
+ },
+ {
+  "key": "GOD shangguan · seen.plain",
+  "kind": "seen",
+  "page": "god-seen-plain",
+  "context": {
+   "character": "the Virtuoso",
+   "template": "You come across as a careful provider, the one who pays on time and keeps count."
+  }
+ },
+ {
+  "key": "GOD shangguan · seen.inside",
+  "kind": "seen",
+  "page": "god-seen-inside",
+  "context": {
+   "character": "the Virtuoso",
+   "template": "You think in strange directions and keep most of those thoughts to yourself."
+  }
+ },
+ {
+  "key": "GOD shangguan · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Virtuoso",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD shangguan · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the Virtuoso",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD shangguan · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Virtuoso",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD piancai · missing",
+  "kind": "missing",
+  "page": "god-missing",
+  "context": {
+   "character": "the Horizon",
+   "template": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  }
+ },
+ {
+  "key": "GOD piancai · seen.plain",
+  "kind": "seen",
+  "page": "god-seen-plain",
+  "context": {
+   "character": "the Horizon",
+   "template": "You come across as a careful provider, the one who pays on time and keeps count."
+  }
+ },
+ {
+  "key": "GOD piancai · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Horizon",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD piancai · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Horizon",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengcai · missing",
+  "kind": "missing",
+  "page": "god-missing",
+  "context": {
+   "character": "the Steward",
+   "template": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  }
+ },
+ {
+  "key": "GOD zhengcai · seen.inside",
+  "kind": "seen",
+  "page": "god-seen-inside",
+  "context": {
+   "character": "the Steward",
+   "template": "You think in strange directions and keep most of those thoughts to yourself."
+  }
+ },
+ {
+  "key": "GOD zhengcai · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Steward",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengcai · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the Steward",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengcai · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Steward",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD qisha · missing",
+  "kind": "missing",
+  "page": "god-missing",
+  "context": {
+   "character": "the General",
+   "template": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  }
+ },
+ {
+  "key": "GOD qisha · seen.plain",
+  "kind": "seen",
+  "page": "god-seen-plain",
+  "context": {
+   "character": "the General",
+   "template": "You come across as a careful provider, the one who pays on time and keeps count."
+  }
+ },
+ {
+  "key": "GOD qisha · seen.inside",
+  "kind": "seen",
+  "page": "god-seen-inside",
+  "context": {
+   "character": "the General",
+   "template": "You think in strange directions and keep most of those thoughts to yourself."
+  }
+ },
+ {
+  "key": "GOD qisha · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the General",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD qisha · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the General",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD qisha · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the General",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengguan · seen.plain",
+  "kind": "seen",
+  "page": "god-seen-plain",
+  "context": {
+   "character": "the Magistrate",
+   "template": "You come across as a careful provider, the one who pays on time and keeps count."
+  }
+ },
+ {
+  "key": "GOD zhengguan · seen.inside",
+  "kind": "seen",
+  "page": "god-seen-inside",
+  "context": {
+   "character": "the Magistrate",
+   "template": "You think in strange directions and keep most of those thoughts to yourself."
+  }
+ },
+ {
+  "key": "GOD zhengguan · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Magistrate",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengguan · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the Magistrate",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengguan · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Magistrate",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD pianyin · missing",
+  "kind": "missing",
+  "page": "god-missing",
+  "context": {
+   "character": "the Alchemist",
+   "template": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  }
+ },
+ {
+  "key": "GOD pianyin · seen.plain",
+  "kind": "seen",
+  "page": "god-seen-plain",
+  "context": {
+   "character": "the Alchemist",
+   "template": "You come across as a careful provider, the one who pays on time and keeps count."
+  }
+ },
+ {
+  "key": "GOD pianyin · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Alchemist",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD pianyin · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the Alchemist",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD pianyin · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Alchemist",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengyin · seen.plain",
+  "kind": "seen",
+  "page": "god-seen-plain",
+  "context": {
+   "character": "the Sage",
+   "template": "You come across as a careful provider, the one who pays on time and keeps count."
+  }
+ },
+ {
+  "key": "GOD zhengyin · seen.inside",
+  "kind": "seen",
+  "page": "god-seen-inside",
+  "context": {
+   "character": "the Sage",
+   "template": "You think in strange directions and keep most of those thoughts to yourself."
+  }
+ },
+ {
+  "key": "GOD zhengyin · season_need.shown",
+  "kind": "season_need",
+  "page": "god-season_need-shown",
+  "context": {
+   "character": "the Sage",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengyin · season_need.rooted",
+  "kind": "season_need",
+  "page": "god-season_need-rooted",
+  "context": {
+   "character": "the Sage",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ },
+ {
+  "key": "GOD zhengyin · season_need.hidden",
+  "kind": "season_need",
+  "page": "god-season_need-hidden",
+  "context": {
+   "character": "the Sage",
+   "template": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  }
+ }
+]

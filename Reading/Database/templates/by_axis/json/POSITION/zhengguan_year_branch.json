@@ -20,7 +20,7 @@
       "Growth"
     ],
     "defline": "The Magistrate lives inside your Year Gate: underneath your early years was a quiet order you absorbed as a child.",
-    "reading": "Rules in your first home were felt more than spoken, and you took them in before you could name them. Because order meant safety to you when you were small, you formed a firm sense of right and a strong conscience early. The same conscience keeps a close record of your mistakes, and guilt reaches you faster than it reaches most people. You still carry the standards you learned at home, and they have served you well.",
+    "reading": "Rules in your first home were felt more than spoken, and you took them in before you could name them. Because order meant safety to you when you were small, you formed a firm sense of right and a strong conscience early. The same conscience keeps a close record of your mistakes, and guilt reaches you faster than it reaches most people. You still measure yourself by the standards you learned at home, and you do best wherever the next step is written down.",
     "teaser": "Discipline was the air of your early home, felt more than announced. It gave you a straight spine. Institutions will trust you early and promote you steadily.",
     "domain_readings": {
       "Family": "Discipline was the air of your early home, felt more than announced: it gave you a straight spine before you knew you had one. Family bonds run on kept expectations. Keep them from love, never from fear. The difference decides how the order ages in you.",
@@ -36,12 +36,20 @@
       "Family": {
         "headline": "You absorbed your family's rules early.",
         "recognition": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull long after you have left home.",
-        "lived": "As a child you knew the rules of your first home without being told, and you rarely needed correcting. By your teens you had taken on an older relative's standards as your own, and you held yourself to them strictly."
+        "lived": "You knew the rules of your first home without being told, and you rarely needed correcting. By your teens you had taken on an older relative's standards as your own, and you held yourself to them strictly."
       },
       "Growth": {
         "headline": "You grow best inside a clear structure.",
         "recognition": "You grow by finishing what you start, the course completed and the level passed and the standard met. Because structure is where you first felt secure, you do well wherever the steps are clear and lose heart when they are not. Your progress is steady, and you climb further than people who started faster.",
-        "lived": "By your teens you had a record of steady progress, school years finished well and responsibilities taken on early. Teachers and older relatives trusted you, and you came to measure your growth by the steps you completed."
+        "lived": "Your school years ended with a record of steady progress, each year finished well and responsibilities taken on early. Teachers and older relatives trusted you, and you came to measure your growth by the steps you completed."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Rules in your first home were felt more than spoken, and you took them in before you could name them. Because order meant safety to you when you were small, you formed a firm sense of right and a strong conscience early. The same conscience keeps a close record of your mistakes, and guilt reaches you faster than it reaches most people. You still carry the standards you learned at home, and they have served you well.",
+        "domain_climb.Family.lived": "As a child you knew the rules of your first home without being told, and you rarely needed correcting. By your teens you had taken on an older relative's standards as your own, and you held yourself to them strictly.",
+        "domain_climb.Growth.lived": "By your teens you had a record of steady progress, school years finished well and responsibilities taken on early. Teachers and older relatives trusted you, and you came to measure your growth by the steps you completed."
       }
     }
   },
@@ -72,6 +80,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Rules in your first home were felt more than spoken, and you took them in before you could name them. Because order meant safety to you when you were small, you formed a firm sense of right and a strong conscience early. The same conscience keeps a close record of your mistakes, and guilt reaches you faster than it reaches most people. You still carry the standards you learned at home, and they have served you well."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

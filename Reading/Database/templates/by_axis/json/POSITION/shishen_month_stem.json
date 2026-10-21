@@ -19,8 +19,8 @@
       "Career",
       "Social"
     ],
-    "defline": "The Artisan stands at your Month Gate, in plain view: at work you are known as the easy, gifted maker.",
-    "reading": "People at work see how easily things come to you, and much of what you produce looks effortless because you enjoy it. Because enjoyment is what drives you, the jobs you like go well for you and the ones you only endure stall. Colleagues find you easy to work with, and that ease has opened more doors for you than ambition has. You coast through a smooth year without noticing, and you feel the cost only when it ends.",
+    "defline": "The Artisan stands at your Month Gate, in plain view: at work and among friends you are known as the easy, gifted maker.",
+    "reading": "Much of what you produce looks effortless to the people around you, and most of it is simply work you enjoy. Because enjoyment is what drives you, the jobs you like go well for you and the ones you only endure stall. Colleagues and friends find you easy company, and that ease has brought you more openings than ambition has. You coast through a smooth year without noticing, and you feel the cost only when it ends.",
     "teaser": "The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best.",
     "domain_readings": {
       "Career": "Your career grows by appetite: the work you enjoy visibly outperforms the work you force, and everyone can tell which is which. Build the livelihood around what you would half-do for free. Enjoyment is your productivity system, and it does not transfer to joyless work.",
@@ -36,12 +36,21 @@
       "Career": {
         "headline": "You earn most from the work you enjoy.",
         "recognition": "Your best work comes when you like it, and everyone around you can tell the difference within a week. Since pleasure is what keeps you going, a joyless job empties you out faster than a demanding one. Your ease makes you look less ambitious than you are, and you let the finished work speak for you.",
-        "lived": "Since your late teens your best jobs have been the ones you enjoyed, and your worst stretches were spent forcing yourself through work you disliked. At least once a parent or an older colleague took your ease for a lack of drive, and you proved them wrong quietly."
+        "lived": "Through your first working years your best jobs were the ones you enjoyed, and your worst stretches were the ones you forced yourself through. At least once a parent or an older colleague took your ease for a lack of drive, and you proved them wrong quietly."
       },
       "Social": {
         "headline": "Your easy manner wins you friends at work.",
         "recognition": "You put people at ease without trying, and a tense meeting turns friendly once you join it. Because sharing food and good company is how you connect, much of your working circle began over a lunch or a drink. You know more people than you realise, and you are slow to ask any of them for a favour.",
-        "lived": "From your late teens your closest friends at work have come out of shared breaks and long evenings, the colleagues you ate with. More than once a friendly contact has turned into a job or an opening, and you had not been looking for either."
+        "lived": "Your closest friends at work since your late teens have come out of shared breaks and long evenings, the colleagues you ate with. More than once a friendly contact has turned into a job or an opening, and you had not been looking for either."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "defline": "The Artisan stands at your Month Gate, in plain view: at work you are known as the easy, gifted maker.",
+        "reading": "People at work see how easily things come to you, and much of what you produce looks effortless because you enjoy it. Because enjoyment is what drives you, the jobs you like go well for you and the ones you only endure stall. Colleagues find you easy to work with, and that ease has opened more doors for you than ambition has. You coast through a smooth year without noticing, and you feel the cost only when it ends.",
+        "domain_climb.Career.lived": "Since your late teens your best jobs have been the ones you enjoyed, and your worst stretches were spent forcing yourself through work you disliked. At least once a parent or an older colleague took your ease for a lack of drive, and you proved them wrong quietly.",
+        "domain_climb.Social.lived": "From your late teens your closest friends at work have come out of shared breaks and long evenings, the colleagues you ate with. More than once a friendly contact has turned into a job or an opening, and you had not been looking for either."
       }
     }
   },
@@ -72,6 +81,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "The Artisan stands at your Month Gate, in plain view: at work you are known as the easy, gifted maker."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "People at work see how easily things come to you, and much of what you produce looks effortless because you enjoy it. Because enjoyment is what drives you, the jobs you like go well for you and the ones you only endure stall. Colleagues find you easy to work with, and that ease has opened more doors for you than ambition has. You coast through a smooth year without noticing, and you feel the cost only when it ends."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

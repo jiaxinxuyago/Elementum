@@ -20,7 +20,7 @@
       "Career"
     ],
     "defline": "The Artisan stands at your Hour Gate, in plain view: your later years are known for what you make and give.",
-    "reading": "You make things and give them away more freely in later life than at any earlier time, and the younger people around you carry your skills and your generosity with them. Because making and giving are how you feel useful, you spend those years making things for the pleasure of it and teaching what your hands know. You enjoy those years more than most people do, and the one thing that slows your work is comfort that asks nothing of you.",
+    "reading": "In later life people see you cooking, mending or teaching for others, and children or younger relatives or someone you train pick up your skills along with your generosity. Because being useful puts you at ease, you keep making things for the pleasure of it and passing on what your hands know. Comfort that asks nothing of you is the one thing that slows your work, and you notice it in the weeks with no one to make anything for.",
     "teaser": "What you make late in life may outshine everything before it. Children and students take after your gifts, and your last chapters read sweeter than your first.",
     "domain_readings": {
       "Family": "The family’s sweetness concentrates in your later role: the elder who hosts, gifts, and remembers birthdays with actual presents. Children and grandchildren take after your gifts more than your advice. Cook with them. The recipes are the will they will actually read.",
@@ -34,16 +34,28 @@
     "health_line": "Your late body stays kind if fed kindly: appetite is the gauge to watch. When it dims, rest before worrying. It usually only wants sleep.",
     "domain_climb": {
       "Family": {
-        "headline": "You become the elder everyone wants to visit.",
-        "recognition": "In your family you are the one who remembers birthdays, cooks for the holidays and turns up with a present. Because giving is how you feel close, you hand over presents more easily than advice. Your family takes after your kindness more than your opinions, and you are glad of the trade.",
-        "lived": "Since your late forties you have become the relative who hosts, the one whose home the younger ones head for at holidays. Children or younger relatives or someone you train have picked up your habits of giving, and you see yourself in how they treat their own guests.",
-        "ahead": "From your late forties your family gathers around what you give, the meals and the gifts and the time. Children or younger relatives or someone you train grow easy and generous around you, and you see the best of yourself in them."
+        "headline": "You become the relative everyone wants to visit.",
+        "recognition": "In your family you are the one who remembers birthdays, cooks for the holidays and never arrives empty-handed. Because giving is how you feel close, you hand over gifts more easily than advice. Your family takes after your kindness more than your opinions, and you are glad of the trade.",
+        "lived": "You have become the relative who hosts since your late forties, the one whose home younger people head for at holidays. The people after you have picked up your habits of giving, and you see yourself in how they treat their own guests.",
+        "ahead": "From your late forties your family gathers around what you give, the meals and the gifts and the time. Younger people grow easy and generous around you, and you see the best of yourself in them."
       },
       "Career": {
         "headline": "Your later work is your most generous.",
         "recognition": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on pleasure, and you do more of it in a happy month than in a pressured year.",
-        "lived": "Since your late forties your work has turned toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it.",
-        "ahead": "From your late forties your working life becomes a productive one in the ways that suit you, mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money."
+        "lived": "Your work has turned since your late forties toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it.",
+        "ahead": "Your working life turns productive in the ways that suit you from your late forties, through mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You make things and give them away more freely in later life than at any earlier time, and the younger people around you carry your skills and your generosity with them. Because making and giving are how you feel useful, you spend those years making things for the pleasure of it and teaching what your hands know. You enjoy those years more than most people do, and the one thing that slows your work is comfort that asks nothing of you.",
+        "domain_climb.Family.headline": "You become the elder everyone wants to visit.",
+        "domain_climb.Family.recognition": "In your family you are the one who remembers birthdays, cooks for the holidays and turns up with a present. Because giving is how you feel close, you hand over presents more easily than advice. Your family takes after your kindness more than your opinions, and you are glad of the trade.",
+        "domain_climb.Family.lived": "Since your late forties you have become the relative who hosts, the one whose home the younger ones head for at holidays. Children or younger relatives or someone you train have picked up your habits of giving, and you see yourself in how they treat their own guests.",
+        "domain_climb.Family.ahead": "From your late forties your family gathers around what you give, the meals and the gifts and the time. Children or younger relatives or someone you train grow easy and generous around you, and you see the best of yourself in them.",
+        "domain_climb.Career.lived": "Since your late forties your work has turned toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it.",
+        "domain_climb.Career.ahead": "From your late forties your working life becomes a productive one in the ways that suit you, mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money."
       }
     }
   },
@@ -74,6 +86,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You make things and give them away more freely in later life than at any earlier time, and the younger people around you carry your skills and your generosity with them. Because making and giving are how you feel useful, you spend those years making things for the pleasure of it and teaching what your hands know. You enjoy those years more than most people do, and the one thing that slows your work is comfort that asks nothing of you."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

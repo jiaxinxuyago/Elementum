@@ -1,0 +1,502 @@
+{
+ "_chart": "golden: 1995-04-29 18:00 Beijing, 乙亥 庚辰 庚寅 乙酉, Day Master 庚 strong, Overfueled, age 31 in 2026",
+ "_approved": [],
+ "units": [
+  {
+   "page": "chapters",
+   "kind": "claim",
+   "key": "TEMPLATED tpl_depth · chapters.claim",
+   "slots": "{chapter} {god}",
+   "where": "Life Chapters · the title",
+   "text": "You are in your Rising Chapter, in a Magistrate decade."
+  },
+  {
+   "page": "chapters",
+   "kind": "chapter_at",
+   "key": "POSITION zhengcai_year_stem · chapter.lived",
+   "where": "The Early Chapter · the Steward at the Year Gate · lived",
+   "text": "Your Early Chapter was an orderly one, with money counted at home and promises kept in front of you. You came out of it careful, and the habits you formed then still run your accounts."
+  },
+  {
+   "page": "chapters",
+   "kind": "chapter_inside",
+   "key": "POSITION shishen_year_branch · chapter.lived",
+   "where": "The Early Chapter · the Artisan inside the Year Gate · lived",
+   "text": "Inside it ran a steady supply of comfort, good food and someone who made sure you were fed. You still trust that early ease, and you go back to it whenever life runs thin."
+  },
+  {
+   "page": "chapters",
+   "kind": "decade_line",
+   "key": "GOD zhengyin · chapter_decade.heavy.lived",
+   "where": "The Early Chapter · Sage decade 2003 to 2012 · weighed",
+   "text": "These years gave you more looking after than you needed, and you learned to wait for permission before you moved."
+  },
+  {
+   "page": "chapters",
+   "kind": "chapter_at",
+   "key": "POSITION bijian_month_stem · chapter.now",
+   "where": "The Rising Chapter · the Twin at the Month Gate · now",
+   "text": "Your Rising Chapter is the one where you prove yourself alone. Since your late teens you have taken whole jobs and signed your name to them, and you trust what you carried yourself more than anything you were handed."
+  },
+  {
+   "page": "chapters",
+   "kind": "chapter_inside",
+   "key": "POSITION pianyin_month_branch · chapter.now",
+   "where": "The Rising Chapter · the Alchemist inside the Month Gate · now",
+   "text": "Beneath it runs a private education in things nobody asked you to learn. You are gathering the strange and specialist knowledge your later work is paid for, and you rarely explain it to anyone."
+  },
+  {
+   "page": "chapters",
+   "kind": "decade_line",
+   "key": "GOD pianyin · chapter_decade.heavy.lived",
+   "where": "The Rising Chapter · Alchemist decade 2013 to 2022 · weighed",
+   "text": "These years kept you studying and second-guessing longer than your friends, and you came out of them knowing more than you could yet use."
+  },
+  {
+   "page": "chapters",
+   "kind": "decade_now",
+   "key": "GOD zhengguan · chapter_decade.helping.now",
+   "where": "The Rising Chapter · Now · Magistrate decade 2023 to 2032 · helping",
+   "text": "This decade gives your life a structure it did not have before, a clear role and people who rely on you to keep it. You take on more responsibility than you planned, and it steadies you more than it weighs on you."
+  },
+  {
+   "page": "chapters",
+   "kind": "chapter_day",
+   "key": "POSITION piancai_day_branch · chapter.coming",
+   "where": "The Home Chapter · the Horizon inside the Day Gate · coming, from 2030",
+   "text": "Your Home Chapter opens wider than the ones before it, through a partner whose world is bigger than yours. From your mid-thirties your days fill with new people, side ventures and offers you did not go looking for. You will say yes more often in this chapter than in any other, and most of those yeses pay you back."
+  },
+  {
+   "page": "chapters",
+   "kind": "decade_line",
+   "key": "GOD qisha · chapter_decade.helping.coming",
+   "where": "The Home Chapter · General decade 2033 to 2042 · helping",
+   "text": "This decade brings pressure you can use, a hard deadline or a rival or a role with stakes, and you rise further under it than in any easy stretch."
+  },
+  {
+   "page": "chapters",
+   "kind": "chapter_at",
+   "key": "POSITION zhengcai_hour_stem · chapter.coming",
+   "where": "The Late Chapter · the Steward at the Hour Gate · coming, from 2043",
+   "text": "Your Late Chapter is the well-kept one, when the care of every earlier decade finally shows. From your late forties your days run on order and calm, and you are the person others call when something needs sorting out."
+  },
+  {
+   "page": "chapters",
+   "kind": "chapter_inside",
+   "key": "POSITION jiecai_hour_branch · chapter.coming",
+   "where": "The Late Chapter · the Rival inside the Hour Gate · coming",
+   "text": "Behind it, the people after you push against you and stand up for you in the same breath. You hold your own place in these years only where you fixed its size early."
+  },
+  {
+   "page": "chapters",
+   "kind": "decade_line",
+   "key": "GOD zhengcai · chapter_decade.helping.coming",
+   "where": "The Late Chapter · Steward decade 2043 to 2052 · helping",
+   "text": "This decade rewards patience with steady returns, and you build the kind of security that lets you stop counting."
+  },
+  {
+   "page": "chapters",
+   "kind": "decade_line",
+   "key": "GOD piancai · chapter_decade.helping.coming",
+   "where": "The Late Chapter · Horizon decade 2053 to 2062 · helping",
+   "text": "This decade opens side roads and second ventures, and you find money and company in places you had never looked."
+  },
+  {
+   "page": "chapters",
+   "kind": "decade_line",
+   "key": "GOD shangguan · chapter_decade.helping.coming",
+   "where": "The Late Chapter · Virtuoso decade 2063 to 2072 · helping",
+   "text": "This decade gives your voice back its edge, and you say what you think with more freedom than you allowed yourself before."
+  },
+  {
+   "page": "variant",
+   "kind": "chapter_day",
+   "key": "POSITION piancai_day_branch · chapter.now",
+   "where": "The same seat for a reader aged 35 to 47 · now",
+   "text": "Your Home Chapter is wider than the ones before it, opened by a partner whose world is bigger than yours. Since your mid-thirties your days have filled with new people, side ventures and offers you did not go looking for. You say yes more often now than in any earlier chapter, and most of those yeses pay you back."
+  },
+  {
+   "page": "variant2",
+   "kind": "chapter_day",
+   "key": "POSITION piancai_day_branch · chapter.lived",
+   "where": "The same seat for a reader past 48 · lived",
+   "text": "Your Home Chapter was the widest of your life, opened by a partner whose world was bigger than yours. Those years filled with new people, side ventures and offers you never went looking for. You said yes more often then than at any other time, and much of what you have now came through those doors."
+  },
+  {
+   "page": "years",
+   "kind": "year_line",
+   "key": "GOD qisha · year_line.helping",
+   "where": "2026 · a General year · now",
+   "text": "A hard test arrives from outside, a demanding boss or a rival or a deadline you did not set. You meet it better than you expect, and people remember how you handled it."
+  },
+  {
+   "page": "years",
+   "kind": "year_bond",
+   "key": "TEMPLATED tpl_depth · year_bond.frame.day",
+   "where": "2026 · joins your Day Gate (寅午)",
+   "text": "You make a decision about home or partnership this year that you have been circling for a while."
+  },
+  {
+   "page": "years",
+   "kind": "year_line",
+   "key": "GOD zhengguan · year_line.helping",
+   "where": "2027 · a Magistrate year",
+   "text": "A role with your name on it arrives, a promotion or a title or a formal promise. You accept more responsibility than you planned, and you are steadier for it by the end."
+  },
+  {
+   "page": "years",
+   "kind": "year_line",
+   "key": "GOD pianyin · year_line.heavy",
+   "where": "2028 · an Alchemist year",
+   "text": "Your attention turns inward, toward study and second thoughts and plans you keep to yourself. You get less done than you meant to, and you understand more at the end than at the start."
+  },
+  {
+   "page": "years",
+   "kind": "year_bond",
+   "key": "TEMPLATED tpl_depth · year_bond.clash.day",
+   "where": "2028 · clashes with your Day Gate (寅申)",
+   "text": "You change something at home this year, an address or the way you share your life with a partner."
+  },
+  {
+   "page": "years",
+   "kind": "year_line",
+   "key": "GOD zhengyin · year_line.heavy",
+   "where": "2029 · a Sage year",
+   "text": "Help and advice arrive in larger amounts than you asked for, from a teacher or an older ally. You lean on them longer than you need to, and you finish knowing which help to keep."
+  },
+  {
+   "page": "years",
+   "kind": "year_bond",
+   "key": "TEMPLATED tpl_depth · year_bond.bind.month",
+   "where": "2029 · binds with your Month Gate (辰酉)",
+   "text": "You tie yourself to a workplace or a team this year more firmly than before, by contract or by loyalty."
+  },
+  {
+   "page": "years",
+   "kind": "year_line",
+   "key": "GOD bijian · year_line.heavy",
+   "where": "2030 · a Twin year · your Home Chapter opens",
+   "text": "Your life fills with equals, a new colleague or a friend who wants exactly what you want. You compete more than you admit, and you come out of it more set in your own way."
+  },
+  {
+   "page": "years",
+   "kind": "year_bond",
+   "key": "TEMPLATED tpl_depth · year_bond.clash.month",
+   "where": "2030 · clashes with your Month Gate (辰戌)",
+   "text": "You leave a role or a team you have outgrown this year, by your own choice or by theirs."
+  },
+  {
+   "page": "years",
+   "kind": "year_line",
+   "key": "GOD jiecai · year_line.heavy",
+   "where": "2031 · a Rival year",
+   "text": "Someone arrives who wants a share of what you have, at work or among friends. You give ground on money or credit before you notice, and you hold the rest only by being blunt."
+  },
+  {
+   "page": "years",
+   "kind": "year_bond",
+   "key": "TEMPLATED tpl_depth · year_bond.bind.day",
+   "where": "2031 · binds with your Day Gate (寅亥)",
+   "text": "You draw a partner or a household closer this year, and the life you share takes on a firmer shape."
+  },
+  {
+   "page": "years",
+   "kind": "year_line",
+   "key": "GOD shishen · year_line.helping",
+   "where": "2032 · an Artisan year",
+   "text": "Your appetite comes back, for good food and for the work you enjoy making. Your work gets easier and better liked, and you finish with something you made that people keep."
+  },
+  {
+   "page": "years",
+   "kind": "year_bond",
+   "key": "TEMPLATED tpl_depth · year_bond.frame.month",
+   "where": "2032 · joins your Month Gate (子辰)",
+   "text": "You gather people and momentum around one idea at work this year, and it carries further than you planned."
+  },
+  {
+   "page": "blueprint",
+   "kind": "structure",
+   "key": "STRUCTURE zhengcai_ge · reading",
+   "where": "1 · Your structure · a Steward structure (正财格)",
+   "text": "Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  },
+  {
+   "page": "blueprint",
+   "kind": "structure_rule",
+   "key": "TEMPLATED tpl_depth · structure_rule.middle",
+   "slots": "{element} {count} {god} {holder}",
+   "where": "1 · why this structure (the revealed-stem rule, 子平真诠)",
+   "text": "The Wood hidden in your strongest seat shows on two of your stems. That makes the Steward the organising force of your life, and you answer to it more than to the Alchemist who holds the seat."
+  },
+  {
+   "page": "blueprint",
+   "kind": "status",
+   "key": "STRUCTURE wealth · status.strained.peers",
+   "slots": "{breakers}",
+   "where": "1 · Formed, under strain",
+   "text": "The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  },
+  {
+   "page": "blueprint",
+   "kind": "rescue",
+   "key": "TEMPLATED tpl_depth · rescue.officer",
+   "slots": "{when}",
+   "where": "1 · what protects it · brought by your Magistrate decade 2023 to 2032 and General decade 2033 to 2042",
+   "text": "Outside pressure protects it, a boss or a rule or a deadline, and you meet that pressure in your decades now and next."
+  },
+  {
+   "page": "blueprint",
+   "kind": "strongest",
+   "key": "TEMPLATED tpl_depth · strongest.two",
+   "slots": "{a} {b} {share} {a_noun} {b_noun}",
+   "where": "2 · Strongest",
+   "text": "Wood and Earth carry two thirds of your chart, and you live mostly through what you earn and what you think."
+  },
+  {
+   "page": "blueprint",
+   "kind": "missing",
+   "key": "GOD zhengguan · missing",
+   "where": "2 · Missing · no Magistrate · your season asks for it too · it arrives with your decade 2023 to 2032",
+   "text": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  },
+  {
+   "page": "blueprint",
+   "kind": "missing",
+   "key": "GOD zhengyin · missing",
+   "where": "2 · Missing · no Sage · your Sage decade 2003 to 2012 is lived",
+   "text": "Your chart holds no Sage, and nobody inside it shelters you or praises you for trying. You learned early to reassure yourself, and you trust help more when you did not have to ask for it."
+  },
+  {
+   "page": "blueprint",
+   "kind": "seen",
+   "key": "GOD zhengcai · seen.plain",
+   "where": "3 · In plain view · the Steward, twice",
+   "text": "You come across as a careful provider, the one who pays on time and keeps count."
+  },
+  {
+   "page": "blueprint",
+   "kind": "seen",
+   "key": "GOD bijian · seen.plain",
+   "where": "3 · In plain view · the Twin",
+   "text": "You come across as someone who carries their own weight and asks for little help."
+  },
+  {
+   "page": "blueprint",
+   "kind": "seen",
+   "key": "GOD shishen · seen.inside",
+   "where": "3 · Inside · the Artisan",
+   "text": "You want comfort more than you show, good food and an evening with nothing planned."
+  },
+  {
+   "page": "blueprint",
+   "kind": "seen",
+   "key": "GOD pianyin · seen.inside",
+   "where": "3 · Inside · the Alchemist",
+   "text": "You think in strange directions and keep most of those thoughts to yourself."
+  },
+  {
+   "page": "blueprint",
+   "kind": "seen",
+   "key": "GOD piancai · seen.inside",
+   "where": "3 · Inside · the Horizon",
+   "text": "You keep a second plan that nobody has heard about, and you want more open roads than you admit."
+  },
+  {
+   "page": "blueprint",
+   "kind": "seen",
+   "key": "GOD jiecai · seen.inside",
+   "where": "3 · Inside · the Rival",
+   "text": "You keep score with the people closest to you, and you want to win more than you let on."
+  },
+  {
+   "page": "blueprint",
+   "kind": "seen_close",
+   "key": "TEMPLATED tpl_depth · seen.close",
+   "where": "3 · the closing line",
+   "text": "Only the people you live with meet the second list."
+  },
+  {
+   "page": "blueprint",
+   "kind": "pattern_bp",
+   "key": "TG_PATTERN bi_jie_duo_cai · blueprint_line",
+   "where": "4 · Peers beside the purse (比劫夺财)",
+   "text": "Equals and money share your chart, and you lose most where you share most, with friends and family and partners."
+  },
+  {
+   "page": "blueprint",
+   "kind": "pattern_bp",
+   "key": "TG_PATTERN xiao_shen_duo_shi · blueprint_line",
+   "where": "4 · Thinking starves making (枭神夺食)",
+   "text": "Your thinking outweighs your making, and you study a thing so long that the moment to make it passes."
+  },
+  {
+   "page": "blueprint",
+   "kind": "bond",
+   "key": "TEMPLATED tpl_depth · bond.bind.year_day",
+   "where": "4 · Day binds with Year (寅亥合)",
+   "text": "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected."
+  },
+  {
+   "page": "blueprint",
+   "kind": "bond",
+   "key": "TEMPLATED tpl_depth · bond.bind.month_hour",
+   "where": "4 · Month binds with Hour (辰酉合)",
+   "text": "You carry the people and skills of your working years into your later life, and the circle you build now stays with you."
+  },
+  {
+   "page": "blueprint",
+   "kind": "bond_none",
+   "key": "TEMPLATED tpl_depth · bond.none_hard",
+   "where": "4 · the closing line, when no clash, punishment or harm",
+   "text": "No clashes, punishments or harms sit between your gates, and you argue with yourself less than most people do."
+  },
+  {
+   "page": "stars",
+   "kind": "claim",
+   "key": "TEMPLATED tpl_depth · stars.claim",
+   "where": "Stars · the title",
+   "text": "Six old stars sit in your chart, and a helper is arriving.",
+   "slots": "{count} {helper}"
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR wenchang · line",
+   "where": "Scholar’s Star (文昌) · Year Gate · the chip",
+   "text": "Words and learning come easily to you."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR wenchang · reading.year.lived",
+   "where": "Scholar’s Star · Year Gate · lived",
+   "text": "You learned to read early and took to schoolwork faster than your effort explains. Written work and anything you could study for went better for you than for most, and you still trust a book to get you through a hard problem."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR hongluan · line",
+   "where": "Red Phoenix (红鸾) · Month Gate · the chip",
+   "text": "Attraction runs high around you."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR hongluan · reading.month.now",
+   "where": "Red Phoenix · Month Gate · now",
+   "text": "Your Rising Chapter carries more attraction than you planned for, much of it through work and study and the circles those years bring. You have been noticed more than you noticed, and you kept at least one feeling from these years to yourself."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR guchen · line",
+   "where": "Lonely Star (孤辰) · Day Gate · the chip",
+   "text": "You need more time alone inside closeness than most."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR guchen · reading.day.coming",
+   "where": "Lonely Star · Day Gate · coming",
+   "text": "From your mid-thirties you need stretches of solitude even inside the closest relationship of your life. A partner will read it as distance more than once, and you stay longest with the person who lets you go quiet without asking why."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR yangren · line",
+   "where": "Ram’s Edge (羊刃) · Hour Gate · the chip",
+   "text": "A hard and protective will."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR yangren · reading.hour.coming",
+   "where": "Ram’s Edge · Hour Gate · coming",
+   "text": "From your late forties a will rises in you that does not bend, and you keep it for the moments that matter. You defend what you have built firmly enough that people step back, and you keep the peace by choosing which fights are worth having."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR jiesha · line",
+   "where": "Robbery Star (劫煞) · Year Gate · the chip",
+   "text": "Loss taught you to guard what is yours."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR jiesha · reading.year.lived",
+   "where": "Robbery Star · Year Gate · lived",
+   "text": "Something in your first home could be taken without warning, a place of your own or a promise or a plan. You learned to guard what was yours younger than most, and you still move faster than others when something of yours is at risk."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR wangshen · line",
+   "where": "Lost Spirit (亡神) · Day Gate · the chip",
+   "text": "You keep part of yourself out of sight."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR wangshen · reading.day.coming",
+   "where": "Lost Spirit · Day Gate · coming",
+   "text": "From your mid-thirties you keep a part of your life out of sight, plans and feelings that even a partner hears about late. It protects you more than it costs you, and you choose carefully who gets to see all of you."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR tianyi · line.arriving",
+   "where": "Nobleman (天乙贵人) · arriving · the chip",
+   "text": "A helper with standing arrives in this decade."
+  },
+  {
+   "page": "stars",
+   "kind": "star_arriving",
+   "key": "STAR tianyi · arriving.decade.now",
+   "where": "Nobleman · arrives with your Magistrate decade 2023 to 2032",
+   "text": "Someone with standing opens a door for you in this decade, a mentor or a sponsor who backs you before you have proved yourself. The help arrives while you are already working hard, and it costs you nothing to accept."
+  },
+  {
+   "page": "stars",
+   "kind": "star_arriving",
+   "key": "STAR tianyi · arriving.year",
+   "where": "Nobleman · again in 2027 (Advisor)",
+   "text": "This year the help is close enough to name, an introduction or a recommendation from someone above you. You get further on it than on a year of effort, and you remember who gave it."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR taohua · line.arriving",
+   "where": "Peach Blossom (桃花) · arriving · the chip",
+   "text": "This decade brings new people in numbers."
+  },
+  {
+   "page": "stars",
+   "kind": "star_arriving",
+   "key": "STAR taohua · arriving.decade.coming",
+   "where": "Peach Blossom · arrives with your General decade 2033 to 2042",
+   "text": "In this decade your life fills with new people, more invitations and more attention than you have had before. You enjoy it more openly than you expect, and you choose the few who stay with care."
+  },
+  {
+   "page": "blueprint",
+   "kind": "season",
+   "key": "SEASON geng.chen · reading",
+   "where": "2 · Your season · 调候 · 三月庚金 (穷通宝鉴)",
+   "text": "You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  },
+  {
+   "page": "blueprint",
+   "kind": "season_need",
+   "key": "GOD piancai · season_need.rooted",
+   "where": "2 · the first need · 甲, the Horizon · inside a branch, not on show",
+   "text": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  },
+  {
+   "page": "stars",
+   "kind": "star_arriving",
+   "key": "STAR kongwang · arriving.year",
+   "where": "the Void (空亡) · falls on 2026 and 2027 · Advisor",
+   "text": "Some of what you push for this year stays empty for a while, an answer that does not come or a plan that waits. You lose less than it seems, and you use what you held back once the year turns."
+  }
+ ]
+}

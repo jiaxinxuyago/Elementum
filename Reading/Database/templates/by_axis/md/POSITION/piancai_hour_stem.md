@@ -24,7 +24,7 @@
 | `slot_kind` | stem |
 | `domains` | Wealth · Growth |
 | `defline` | The Horizon stands at your Hour Gate, in plain view: people see your later years as busy with new chances and new ventures. |
-| `reading` | Others see you finding new chances long after most people have settled, and younger people seek you out because of it. Since a fresh start keeps you sharp, you take on a new field or a new venture when people your age are winding down. Your generosity runs years past your written plans, and you give the people after you more stories than records. |
+| `reading` | In later life younger people seek you out, because you keep finding openings long after most people have settled. Since a fresh start keeps you sharp, you take on a new field or a new venture when others your age are winding down. The people after you, children or younger relatives or someone you train, get more of your time and money than you planned. You are remembered for what you started more than for what you kept. |
 | `teaser` | You will stay opportunity’s friend to the end: late ventures, late windfalls, a wide door. Leave the estate mapped, because your generosity will outrun your paperwork. |
 | `domain_readings.Wealth` | Your money stays lively to the end: late ventures, late windfalls, a door that never fully closes. The estate needs a map early, because your generosity will outrun your paperwork by a decade. Write it down while it is easy. Then keep playing. You are built for a wide ending. |
 | `domain_readings.Growth` | Late growth arrives through new fields: ventures entered past the age of supposed settling, younger company keeping your range honest. The horizon habit is your youth serum. Enter one unfamiliar arena per era. Curiosity is the muscle, and yours refuses to atrophy. |
@@ -36,9 +36,19 @@
 | `health_line` | Your late vitality feeds on novelty and company: new places, young voices, plans in the calendar. Stillness is the only ailment to dodge. |
 | `domain_climb.Wealth.headline` | Your money finds new openings late in life. |
 | `domain_climb.Wealth.recognition` | You notice a chance to earn where others see an ending, a late venture or a deal offered by someone younger. Because new money excites you more than kept money, you give generously and write down too little of it. Your plans live in your head far longer than they live on paper. |
-| `domain_climb.Wealth.lived` | Since your late forties money has reached you through new ventures and unexpected offers, at least once from a direction you had stopped watching. You have given a good share of it away, more than once without noting to whom. |
+| `domain_climb.Wealth.lived` | Money has reached you through new ventures and unexpected offers since your late forties, at least once from a direction you had stopped watching. You have given a good share of it away, more than once without noting to whom. |
 | `domain_climb.Wealth.ahead` | From your late forties chances to earn keep arriving, through new projects and through people a generation younger who want you involved. You give a great deal in these years, and your affairs stay clear only where you have put the details in writing. |
 | `domain_climb.Growth.headline` | You keep starting new things when others stop. |
 | `domain_climb.Growth.recognition` | You grow by entering fields you know nothing about, at an age when most people stick to what they know. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again. |
-| `domain_climb.Growth.lived` | Since your late forties you have taken up at least one new field, a subject or a trade or a kind of work nobody expected from you. Younger company has kept you learning in those years, and you have looked less settled than people your age. |
-| `domain_climb.Growth.ahead` | From your late forties you keep learning in public, through new work and through friendships with people much younger than you. You grow more curious with each decade, and you are the one in your family with the newest stories. |
+| `domain_climb.Growth.lived` | You have taken up at least one new subject since your late forties, a skill or a trade or a kind of work nobody expected from you. Younger company has kept you learning in those years, and you have looked less settled than people your age. |
+| `domain_climb.Growth.ahead` | Your learning goes on in public from your late forties, through new work and through friendships with people much younger than you. You grow more curious with each decade, and you are the one in your family with the newest stories. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | Others see you finding new chances long after most people have settled, and younger people seek you out because of it. Since a fresh start keeps you sharp, you take on a new field or a new venture when people your age are winding down. Your generosity runs years past your written plans, and you give the people after you more stories than records. |
+| `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | Since your late forties money has reached you through new ventures and unexpected offers, at least once from a direction you had stopped watching. You have given a good share of it away, more than once without noting to whom. |
+| `domains_round1_retired_2026-10-21.domain_climb.Growth.lived` | Since your late forties you have taken up at least one new field, a subject or a trade or a kind of work nobody expected from you. Younger company has kept you learning in those years, and you have looked less settled than people your age. |
+| `domains_round1_retired_2026-10-21.domain_climb.Growth.ahead` | From your late forties you keep learning in public, through new work and through friendships with people much younger than you. You grow more curious with each decade, and you are the one in your family with the newest stories. |

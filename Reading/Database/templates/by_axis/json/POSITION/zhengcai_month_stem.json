@@ -20,7 +20,7 @@
       "Wealth"
     ],
     "defline": "The Steward stands at your Month Gate, in plain view: at work you are known as the one trusted with the money.",
-    "reading": "People at work hand you the budget, the accounts and the jobs that need order. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used.",
+    "reading": "You are handed the budget, the accounts and the jobs that need order in every place you work. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used.",
     "teaser": "The working world trusts you with money and should. Your career rewards stewardship: steady roles, real budgets, value kept. Wealth arrives on schedule rather than by surprise.",
     "domain_readings": {
       "Career": "The working world trusts you with the keys and should: budgets balance near you, chaos organizes, value stays kept. Stewardship roles pay you in rank and in reputation, and the reputation compounds longer. Charge properly for reliability. It is a premium service wearing modest clothes.",
@@ -36,12 +36,20 @@
       "Career": {
         "headline": "You are the one trusted with the books.",
         "recognition": "You are given charge of money and order wherever you work, and things run better near your desk. Because reliability is what you offer, you accept extra tasks without asking for more pay or a promotion. You carry more of the work than your title shows, and your colleagues lean on it.",
-        "lived": "Since your late teens you have been handed responsibility early, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved."
+        "lived": "You have been given responsibility early in every job since your late teens, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved."
       },
       "Wealth": {
         "headline": "Your money arrives on time and keeps arriving.",
         "recognition": "You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, and you prefer it that way.",
-        "lived": "Since your late teens your income has risen steadily, without big jumps and without big falls. You have kept to your own plan while friends chased quick gains, and most of them now have less than you."
+        "lived": "The money you have counted on since your late teens is the salary, raised a step at a time and planned for well in advance. You have kept to your own plan while friends chased quick gains, and you have rarely regretted it."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "People at work hand you the budget, the accounts and the jobs that need order. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used.",
+        "domain_climb.Career.lived": "Since your late teens you have been handed responsibility early, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved.",
+        "domain_climb.Wealth.lived": "Since your late teens your income has risen steadily, without big jumps and without big falls. You have kept to your own plan while friends chased quick gains, and most of them now have less than you."
       }
     }
   },
@@ -72,6 +80,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-3.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "People at work hand you the budget, the accounts and the jobs that need order. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

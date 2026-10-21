@@ -32,18 +32,18 @@
 | `family_element.appetite` | identity, autonomy, and the standard you hold yourself to |
 | `family_element.notAlone` | not pride alone, but the self the other four energies turn around |
 | `ruling_domains` | Family · Growth · Social |
-| `decade_lines.Family.helping.lived` | Those years made you an equal in your family more than a child or a dependant. You stood on your own feet among your relatives, and they treated your word as worth the same as theirs. |
-| `decade_lines.Family.helping.ahead` | Brothers, sisters and cousins become allies in these ten years, and the household runs on shared effort. You carry your own share at home, and your relatives carry theirs without being asked. |
-| `decade_lines.Family.heavy.lived` | In those years you kept your own counsel at home and asked your family for very little. The distance grew quietly, and what carried you was the one relative who treated you as an equal. |
-| `decade_lines.Family.heavy.ahead` | Pride runs the household in these years, with everyone at home insisting on their own way. The quarrels shrink once each person has a clear part, and you come through by doing yours without keeping score. |
+| `decade_lines.Family.helping.lived` | Those years made you an equal in your family, with a voice as strong as anyone's. You stood on your own feet among your relatives, and they treated your word as worth the same as theirs. |
+| `decade_lines.Family.helping.ahead` | Your family runs on shared effort in these ten years, and each person at home carries a fair part. You do your share before anyone asks, and relatives come to you as one equal to another. |
+| `decade_lines.Family.heavy.lived` | In those years you kept your own counsel at home and turned down help you were offered more than once. The distance grew quietly, and what carried you was the one relative who treated you as an equal. |
+| `decade_lines.Family.heavy.ahead` | Pride runs through your family in these years, and each person insists on doing things their own way. The quarrels shrink once everyone has a clear part, and you come through by doing yours without keeping score. |
 | `decade_lines.Growth.helping.lived` | Your progress in those years came from peers who were your equals, people you learned beside more than beneath. You set your own standard and met it, and the confidence lasted. |
-| `decade_lines.Growth.helping.ahead` | Self-reliance pays in these ten years. You teach yourself what you need and find equals to train beside, and you come out more capable on your own terms than before. |
-| `decade_lines.Growth.heavy.lived` | Stubbornness slowed you in those years, because you refused help that would have saved time. You did everything the hard way on your own, and you came out with skills nobody had handed you. |
-| `decade_lines.Growth.heavy.ahead` | Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. You keep growing because one equal works beside you instead of against you. |
+| `decade_lines.Growth.helping.ahead` | Self-reliance pays in these ten years. You teach yourself what you need and find equals to train beside, and you come out of the decade more capable on your own terms. |
+| `decade_lines.Growth.heavy.lived` | You measured yourself against your peers in those years and would not ask the ones further along for help. Your progress came slower than it needed to, and what carried you was knowing every skill you gained was your own. |
+| `decade_lines.Growth.heavy.ahead` | Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. One equal who works beside you instead of against you keeps you going, and you grow because of it. |
 | `decade_lines.Social.helping.lived` | Friendships among equals defined those years, with people who matched your pace and asked nothing extra. You found a few friends who met you level, and you have kept some of them since. |
-| `decade_lines.Social.helping.ahead` | These ten years bring friends who stand beside you as equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd. |
-| `decade_lines.Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle shrank to one or two, and you found those one or two were enough. |
-| `decade_lines.Social.heavy.ahead` | Company that truly matches you grows scarce in these years, and crowded groups wear you out quickly. One steady friend carries the decade, and you value that friend more than a full calendar. |
+| `decade_lines.Social.helping.ahead` | Your friends in these ten years are equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd. |
+| `decade_lines.Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and the one or two friends who stayed were enough to carry you. |
+| `decade_lines.Social.heavy.ahead` | Company that truly matches you is scarce in these years, and crowded groups wear you out quickly. One steady friend carries you through the decade, and you value that friend more than a full calendar. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -83,3 +83,14 @@
 | `domainSignatures.health.text` | Tends not to recognize depletion because the self-monitoring system is calibrated to output. Runs on conviction past the point where the body signals readiness to stop. Rest has to be decided, not felt. |
 | `sixRelations` | *(unauthored)* |
 | `retired_2026-09-20_evaluation_rulings.definition_line` | Same nature, same register — the standard you hold yourself to |
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.decade_lines.Family.helping.lived` | Those years made you an equal in your family more than a child or a dependant. You stood on your own feet among your relatives, and they treated your word as worth the same as theirs. |
+| `domains_round1_retired_2026-10-21.decade_lines.Family.helping.ahead` | Brothers, sisters and cousins become allies in these ten years, and the household runs on shared effort. You carry your own share at home, and your relatives carry theirs without being asked. |
+| `domains_round1_retired_2026-10-21.decade_lines.Family.heavy.lived` | In those years you kept your own counsel at home and asked your family for very little. The distance grew quietly, and what carried you was the one relative who treated you as an equal. |
+| `domains_round1_retired_2026-10-21.decade_lines.Family.heavy.ahead` | Pride runs the household in these years, with everyone at home insisting on their own way. The quarrels shrink once each person has a clear part, and you come through by doing yours without keeping score. |
+| `domains_round1_retired_2026-10-21.decade_lines.Growth.helping.ahead` | Self-reliance pays in these ten years. You teach yourself what you need and find equals to train beside, and you come out more capable on your own terms than before. |
+| `domains_round1_retired_2026-10-21.decade_lines.Growth.heavy.lived` | Stubbornness slowed you in those years, because you refused help that would have saved time. You did everything the hard way on your own, and you came out with skills nobody had handed you. |
+| `domains_round1_retired_2026-10-21.decade_lines.Growth.heavy.ahead` | Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. You keep growing because one equal works beside you instead of against you. |
+| `domains_round1_retired_2026-10-21.decade_lines.Social.helping.ahead` | These ten years bring friends who stand beside you as equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd. |
+| `domains_round1_retired_2026-10-21.decade_lines.Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle shrank to one or two, and you found those one or two were enough. |
+| `domains_round1_retired_2026-10-21.decade_lines.Social.heavy.ahead` | Company that truly matches you grows scarce in these years, and crowded groups wear you out quickly. One steady friend carries the decade, and you value that friend more than a full calendar. |

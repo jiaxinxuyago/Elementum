@@ -20,7 +20,7 @@
       "Growth"
     ],
     "defline": "The Magistrate lives inside your Hour Gate: your later years rest on a quiet sense of duty done well.",
-    "reading": "You want your later life in good order, with your affairs settled and your obligations met. Because keeping your word is how you feel at peace, you finish what you owe before you allow yourself to rest. The people closest to you trust that your arrangements will hold. Your late years stay calm and respected, and you find more ease in them than you planned for.",
+    "reading": "You want your affairs settled and your debts paid, and an unanswered letter stays on your mind until it is done. Because keeping your word is how you feel at peace, you finish what you owe before you allow yourself to rest. The ones who come after you, children or younger relatives or someone you train, trust that your arrangements will hold. Your growth in later life comes from the few things you value, done a little better each year.",
     "teaser": "Order is the root of your late years: affairs settled, duties completed, a name in good repair. Your legacy will be trusted, which is rarer than being missed.",
     "domain_readings": {
       "Family": "Order is the root of your late family: affairs settled, duties completed, a household that trusts your word because it never broke. Your legacy will be reliability itself. Add stories to the estate. The paperwork protects them, the telling makes them family.",
@@ -36,14 +36,25 @@
       "Family": {
         "headline": "Your family trusts your word completely.",
         "recognition": "You look after your family by keeping everything in order, the papers sorted and the promises kept. Because reliability is how you express love, you are more at ease arranging things for people than talking about feelings. Your family depends on that order, and they know less of your heart than of your plans.",
-        "lived": "Since your late forties the people after you, children or younger relatives or someone you train, have relied on your word without checking it. You have settled matters for them quietly and in good time, and few of them have seen how much you handled.",
-        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, organise their own lives around what you have arranged. You share more of your stories with them in these years, and they come to know you as well as they trust you."
+        "lived": "The people after you have relied on your word without checking it since your late forties. You have settled matters for them quietly and in good time, and few of them have seen how much you handled.",
+        "ahead": "From your late forties the people after you organise their own lives around what you have arranged. You share more of your stories with them in these years, and they come to know you as well as they trust you."
       },
       "Growth": {
         "headline": "You grow later by refining what you value.",
-        "recognition": "In later life you grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you have little interest in reinventing yourself, and change in you shows up as care and patience. Your progress is quiet, and it is easy for others to miss.",
-        "lived": "Since your late forties your growth has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did.",
-        "ahead": "From your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example."
+        "recognition": "You grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you would rather redo a thing properly than try something new, and the change in you shows up as patience. You redo a job nobody else would have noticed was wrong, and you feel better for it.",
+        "lived": "Your growth since your late forties has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did.",
+        "ahead": "Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You want your later life in good order, with your affairs settled and your obligations met. Because keeping your word is how you feel at peace, you finish what you owe before you allow yourself to rest. The people closest to you trust that your arrangements will hold. Your late years stay calm and respected, and you find more ease in them than you planned for.",
+        "domain_climb.Family.lived": "Since your late forties the people after you, children or younger relatives or someone you train, have relied on your word without checking it. You have settled matters for them quietly and in good time, and few of them have seen how much you handled.",
+        "domain_climb.Family.ahead": "From your late forties the people after you, children or younger relatives or someone you train, organise their own lives around what you have arranged. You share more of your stories with them in these years, and they come to know you as well as they trust you.",
+        "domain_climb.Growth.recognition": "In later life you grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you have little interest in reinventing yourself, and change in you shows up as care and patience. Your progress is quiet, and it is easy for others to miss.",
+        "domain_climb.Growth.lived": "Since your late forties your growth has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did.",
+        "domain_climb.Growth.ahead": "From your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example."
       }
     }
   },
@@ -74,6 +85,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You want your later life in good order, with your affairs settled and your obligations met. Because keeping your word is how you feel at peace, you finish what you owe before you allow yourself to rest. The people closest to you trust that your arrangements will hold. Your late years stay calm and respected, and you find more ease in them than you planned for."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

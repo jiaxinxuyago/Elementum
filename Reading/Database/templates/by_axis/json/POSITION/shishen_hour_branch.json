@@ -20,7 +20,7 @@
       "Health"
     ],
     "defline": "The Artisan lives inside your Hour Gate: your later life settles into good food, deep sleep and people who keep coming back.",
-    "reading": "Your life grows easier with age, and the comfort you have worked for becomes yours to enjoy after your late forties. Because care for you has always meant a good meal and a warm bed, your later home fills with younger people and old friends. Ease is both the reward of those years and their one risk, and you stay well for as long as your days keep a rhythm.",
+    "reading": "In later life you get to enjoy the comfort you have worked for, and your home fills with younger people and long friendships. Because care has always meant a good meal and a warm bed to you, you keep feeding whoever comes, whether they are children or younger relatives or someone you train. Ease is both the reward of those years and their one risk, and you stay well for as long as your days keep a rhythm.",
     "teaser": "Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays.",
     "domain_readings": {
       "Family": "Your late family gathers by scent: whoever you feed becomes kin, and the kitchen stays the family’s true address. Chosen family counts fully here. Keep hosting past the point that seems sensible. The people you feed become the people who tend you, at astonishing exchange rates.",
@@ -36,14 +36,26 @@
       "Family": {
         "headline": "Your later family is the people at your table.",
         "recognition": "You treat anyone who eats at your home often enough as family, and a friend who comes every week matters to you as much as a cousin. Because feeding people is how you show care, you keep inviting people long after others have stopped hosting. Your house stays busy because of it, and you would feel lost in a home that no one visits.",
-        "lived": "Since your late forties your home has filled with the people after you, children or younger relatives or someone you train. You have hosted more in this stretch than in any earlier decade, and you have started to be fed by the people you once fed.",
-        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, gather at your table more each year. The care you have given starts to come back to you in these years, and you are looked after by those you once fed."
+        "lived": "Your home has filled with the people after you since your late forties, and with friends who come for the food. You have hosted more in this stretch than in any earlier decade, and you have started to be fed by the people you once fed.",
+        "ahead": "From your late forties the people after you gather at your table more each year. The care you have given starts to come back to you in these years, and you are looked after by those you once fed."
       },
       "Health": {
-        "headline": "Your body grows easier to live in with age.",
-        "recognition": "You look after your body through regular meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it slides into a slow month before you notice. Your health depends more on company than on effort, and you feel the difference within days when you eat alone.",
-        "lived": "Since your late forties your sleep has deepened and your appetite has steadied, and you have enjoyed your food without guilt. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again.",
-        "ahead": "From your late forties your body settles into an easy routine, with good sleep and steady appetite and company at meals. Late life suits your body unusually well, and you stay strong in these years while there are people around you."
+        "headline": "Your body grows easier to live in each decade.",
+        "recognition": "You look after your body through regular meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it stretches into a slow month before you notice. Your health depends more on company than on effort, and you feel the difference within days when you eat alone.",
+        "lived": "Your sleep has deepened since your late forties and your appetite has steadied, and you have enjoyed your food more than ever. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again.",
+        "ahead": "Your body settles into an easy routine from your late forties, with good sleep and steady appetite and company at meals. These years suit your body unusually well, and you stay strong in them while there are people around you."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Your life grows easier with age, and the comfort you have worked for becomes yours to enjoy after your late forties. Because care for you has always meant a good meal and a warm bed, your later home fills with younger people and old friends. Ease is both the reward of those years and their one risk, and you stay well for as long as your days keep a rhythm.",
+        "domain_climb.Family.lived": "Since your late forties your home has filled with the people after you, children or younger relatives or someone you train. You have hosted more in this stretch than in any earlier decade, and you have started to be fed by the people you once fed.",
+        "domain_climb.Family.ahead": "From your late forties the people after you, children or younger relatives or someone you train, gather at your table more each year. The care you have given starts to come back to you in these years, and you are looked after by those you once fed.",
+        "domain_climb.Health.headline": "Your body grows easier to live in with age.",
+        "domain_climb.Health.recognition": "You look after your body through regular meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it slides into a slow month before you notice. Your health depends more on company than on effort, and you feel the difference within days when you eat alone.",
+        "domain_climb.Health.lived": "Since your late forties your sleep has deepened and your appetite has steadied, and you have enjoyed your food without guilt. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again.",
+        "domain_climb.Health.ahead": "From your late forties your body settles into an easy routine, with good sleep and steady appetite and company at meals. Late life suits your body unusually well, and you stay strong in these years while there are people around you."
       }
     }
   },
@@ -74,6 +86,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Your life grows easier with age, and the comfort you have worked for becomes yours to enjoy after your late forties. Because care for you has always meant a good meal and a warm bed, your later home fills with younger people and old friends. Ease is both the reward of those years and their one risk, and you stay well for as long as your days keep a rhythm."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

@@ -130,6 +130,19 @@
           "Shelter",
           "Mother"
         ]
+      },
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "decade_lines.Family.heavy.lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You learned to be good before you learned to be yourself.",
+        "decade_lines.Family.heavy.ahead": "Family protection turns heavy in these years, and help arrives with conditions attached. You stay grateful and still find your own way, and the bond survives the distance you need.",
+        "decade_lines.Family.helping.lived": "Care surrounded you in those years, from an older relative or a home that put your needs first. You felt protected and supported, and that security gave you the confidence to grow.",
+        "decade_lines.Family.helping.ahead": "Elders and family support you in these ten years, with advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it.",
+        "decade_lines.Health.heavy.lived": "You were looked after closely in those years, and you learned to rest only when someone told you to. Your body got used to care coming from outside, and you had to learn later to give it to yourself.",
+        "decade_lines.Health.heavy.ahead": "Too much rest dulls you in these years, and comfort slides into inactivity. Your energy returns through regular movement and a reason to get up early, and you feel better each time you have one.",
+        "decade_lines.Mind.helping.lived": "Steady study suited you in those years, and good teachers gave your learning a firm base. You absorbed knowledge patiently, and much of what you know best dates from that decade.",
+        "decade_lines.Mind.helping.ahead": "Learning comes easily in these years, through books, teachers or a qualification taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past.",
+        "decade_lines.Mind.heavy.lived": "Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied without acting on much of it, and you came out wiser and a little stuck.",
+        "decade_lines.Mind.heavy.ahead": "Study without action marks these years, and your thinking settles into caution. Work that asks you to use what you know breaks the stillness, and you feel the ideas come alive again."
       }
     },
     "ruling_domains": [
@@ -140,18 +153,18 @@
     "decade_lines": {
       "Family": {
         "heavy": {
-          "lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You learned to be good before you learned to be yourself.",
-          "ahead": "Family protection turns heavy in these years, and help arrives with conditions attached. You stay grateful and still find your own way, and the bond survives the distance you need."
+          "lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing what was expected, and what carried you was one thing you chose for yourself.",
+          "ahead": "Family care comes with conditions in these years, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need."
         },
         "helping": {
-          "lived": "Care surrounded you in those years, from an older relative or a home that put your needs first. You felt protected and supported, and that security gave you the confidence to grow.",
-          "ahead": "Elders and family support you in these ten years, with advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it."
+          "lived": "Care surrounded you in those years, from family who put your needs first and helped without being asked. You felt protected, and that security gave you the nerve to take on more than before.",
+          "ahead": "Family support reaches you in these ten years, as advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it."
         }
       },
       "Health": {
         "heavy": {
-          "lived": "You were looked after closely in those years, and you learned to rest only when someone told you to. Your body got used to care coming from outside, and you had to learn later to give it to yourself.",
-          "ahead": "Too much rest dulls you in these years, and comfort slides into inactivity. Your energy returns through regular movement and a reason to get up early, and you feel better each time you have one."
+          "lived": "You let other people set your pace in those years, and you rested only when someone insisted. Their care carried you, and you learned afterwards to give yourself the same care without waiting to be asked.",
+          "ahead": "Too much rest dulls you in these years, and comfortable days leave your energy low. What carries you is regular movement and a reason to get up early, and you feel better each time you have one."
         },
         "helping": {
           "lived": "Good care kept you well in those years, with regular meals, early nights and someone who noticed when you were tired. You recovered quickly from strain, and you felt safe in your body.",
@@ -160,12 +173,12 @@
       },
       "Mind": {
         "helping": {
-          "lived": "Steady study suited you in those years, and good teachers gave your learning a firm base. You absorbed knowledge patiently, and much of what you know best dates from that decade.",
-          "ahead": "Learning comes easily in these years, through books, teachers or a qualification taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past."
+          "lived": "Steady study suited you in those years, and people who knew more than you gave your learning a firm base. You absorbed knowledge patiently, and much of what you know best dates from that decade.",
+          "ahead": "Learning comes easily in these years, through books, good guides or a course taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past."
         },
         "heavy": {
-          "lived": "Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied without acting on much of it, and you came out wiser and a little stuck.",
-          "ahead": "Study without action marks these years, and your thinking settles into caution. Work that asks you to use what you know breaks the stillness, and you feel the ideas come alive again."
+          "lived": "Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied more than you acted, and the depth of what you had learned is what kept you going.",
+          "ahead": "You study more than you act in these years, and your thinking turns cautious. Work that puts what you know to use carries you through, and you trust your own ideas again once you see them working."
         }
       }
     }
@@ -204,6 +217,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-6.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-6.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-6.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-6.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

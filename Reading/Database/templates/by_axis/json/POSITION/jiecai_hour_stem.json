@@ -20,7 +20,7 @@
       "Growth"
     ],
     "defline": "The Rival stands at your Hour Gate, in plain view: in later life people see your nerve and ask you to back them.",
-    "reading": "Your later years stay bold and public, with people coming to you for backing long after others have stopped taking risks. Because being in the contest keeps you feeling alive, you say yes to the young and the daring more than you planned. You find real joy in some of that backing, and you lose part of what you give to people who only wanted the money.",
+    "reading": "Your later years stay bold and public, and you keep taking risks long after people your age have stopped. Because being in the contest keeps you feeling alive, you say yes to children or younger relatives or someone you train more than you planned, and their ventures keep you learning. You find real joy in some of that backing, and you lose part of what you give because you say yes before you ask what it is for.",
     "teaser": "You will show the future your nerve: heirs and juniors copy your boldness first. Budget for late generosity, because people will ask, and you will want to say yes.",
     "domain_readings": {
       "Wealth": "Late money keeps your signature moves: the backing of bold things, the open hand, the requests that arrive dressed as opportunity. The estate survives on one discipline, the yearly number your yes can afford. Set it, give inside it freely, and generosity finishes as legacy instead of leakage.",
@@ -35,15 +35,26 @@
     "domain_climb": {
       "Wealth": {
         "headline": "Your later money goes to the bold.",
-        "recognition": "You back people you believe in, a younger relative's venture or a friend's new start, and you give with an open hand. Because daring is what you admire most, a confident request is hard for you to refuse. Your savings shrink in the years you give without counting, and you know which of your gifts were really losses.",
-        "lived": "Since your late forties people have turned to you for support, younger relatives and friends with plans that needed money. You have said yes more often than you meant to, and you have seen some of it pay off and some of it disappear.",
-        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, start bringing you their plans and asking for support. You spend more on other people's ventures in these years than on your own comfort, and you are glad of most of it."
+        "recognition": "You back people you believe in, a younger person's venture or a friend's new start, and you give with an open hand. Because daring is what you admire most, a confident request is hard for you to refuse. Your savings shrink in the years you give without counting, and you know which of your gifts were really losses.",
+        "lived": "People with plans that needed money have turned to you since your late forties, younger people and friends alike. You have agreed more often than you meant to, and you have watched some of it pay off and some of it disappear.",
+        "ahead": "From your late forties the people after you start bringing you their plans and asking for support. You spend more on other people's ventures in these years than on your own comfort, and you are glad of most of it."
       },
       "Growth": {
         "headline": "You keep growing through the daring young.",
         "recognition": "You grow in later life by watching bold people take risks and judging their bets with an experienced eye. Because risk still interests you, mentoring someone daring keeps your own nerve sharp. You lose interest in cautious company, and you come alive around anyone young enough to try something foolish.",
-        "lived": "Since your late forties your learning has come through other people's ventures, the plans you advised on and the risks you watched up close. You have grown sharper each time a younger person asked for your judgement, and you have enjoyed being asked.",
-        "ahead": "From your late forties you grow by staying involved, advising and backing people who are still at the start. These years keep your mind quick, and you end them with more nerve than most people half your age."
+        "lived": "Your learning since your late forties has come through other people's plans, the ones you advised on and the risks you watched up close. You have grown sharper each time a younger person asked for your judgement, and you have enjoyed being asked.",
+        "ahead": "You grow from your late forties by staying involved, advising and backing people who are still at the start. Their risks keep your mind quick in these years, and you take more chances with your own plans than you did a decade earlier."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Your later years stay bold and public, with people coming to you for backing long after others have stopped taking risks. Because being in the contest keeps you feeling alive, you say yes to the young and the daring more than you planned. You find real joy in some of that backing, and you lose part of what you give to people who only wanted the money.",
+        "domain_climb.Wealth.recognition": "You back people you believe in, a younger relative's venture or a friend's new start, and you give with an open hand. Because daring is what you admire most, a confident request is hard for you to refuse. Your savings shrink in the years you give without counting, and you know which of your gifts were really losses.",
+        "domain_climb.Wealth.lived": "Since your late forties people have turned to you for support, younger relatives and friends with plans that needed money. You have said yes more often than you meant to, and you have seen some of it pay off and some of it disappear.",
+        "domain_climb.Wealth.ahead": "From your late forties the people after you, children or younger relatives or someone you train, start bringing you their plans and asking for support. You spend more on other people's ventures in these years than on your own comfort, and you are glad of most of it.",
+        "domain_climb.Growth.lived": "Since your late forties your learning has come through other people's ventures, the plans you advised on and the risks you watched up close. You have grown sharper each time a younger person asked for your judgement, and you have enjoyed being asked.",
+        "domain_climb.Growth.ahead": "From your late forties you grow by staying involved, advising and backing people who are still at the start. These years keep your mind quick, and you end them with more nerve than most people half your age."
       }
     }
   },
@@ -74,6 +85,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-1.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Your later years stay bold and public, with people coming to you for backing long after others have stopped taking risks. Because being in the contest keeps you feeling alive, you say yes to the young and the daring more than you planned. You find real joy in some of that backing, and you lose part of what you give to people who only wanted the money."
+    },
+    {
+      "field": "domain_climb.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

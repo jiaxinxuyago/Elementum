@@ -24,7 +24,7 @@
 | `slot_kind` | branch |
 | `domains` | Family · Wealth |
 | `defline` | The Steward lives inside your Year Gate: underneath your first years lay a careful home where nothing was wasted. |
-| `reading` | You took in your family's careful habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for luck. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years. |
+| `reading` | You took in your family's habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for luck. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years. |
 | `teaser` | Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices. |
 | `domain_readings.Family` | Your family root kept its word about money: a house that counted, saved, and never dramatized it. You inherited solvency as a temperament. Family remains your soundest network, help flowing reliably both ways. Keep the ledgers kind, and this root funds generations. |
 | `domain_readings.Wealth` | Your fortune compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning. |
@@ -34,9 +34,20 @@
 | `turn_friction` | Run heavy, the counting tightens: every joy invoiced against the future. Spend one planned sum on pure delight. |
 | `shadow_line` | Overloaded, thrift turns hereditary anxiety: saving as flinching, passed down intact. |
 | `health_line` | Your constitution is steady stock: it keeps well under routine and wears down only through neglect nobody notices. Notice on schedule. |
-| `domain_climb.Family.headline` | Your family keeps its promises, and so do you. |
-| `domain_climb.Family.recognition` | You rely on your family more than on friends, because help between you has always come back when it was needed. Since your first home kept careful accounts, you keep track of what is owed between relatives without saying so. You give help readily, and you feel uneasy until a debt is settled. |
-| `domain_climb.Family.lived` | As a child you knew that money at home was handled carefully and that promises about it were kept. By your teens you counted your own money and kept your own promises the way the household did. |
+| `domain_climb.Family.headline` | Your family pays back what it is given, and so do you. |
+| `domain_climb.Family.recognition` | You rely on your family more than on friends, because help between you has come back each time it was needed. Since your first home kept careful accounts, you keep track of what is owed between relatives without saying so. You give help readily, and you feel uneasy until a debt is settled. |
+| `domain_climb.Family.lived` | As a child you knew that money at home was handled carefully and that nothing was spent without a reason. Early on you counted your own money and kept your word the way the household did. |
 | `domain_climb.Wealth.headline` | Your money grows quietly from early habits. |
 | `domain_climb.Wealth.recognition` | You save without thinking about it, a little from everything, and spending without a reason feels wrong to you. Because careful habits were normal in your first home, you build wealth slowly and steadily, and few people notice until it is large. You enjoy keeping money more than spending it, and a big purchase stays on your mind for weeks. |
-| `domain_climb.Wealth.lived` | By your teens you were already saving, keeping coins or small earnings longer than your friends did. You learned as a child that money kept quietly was money that stayed, and you have kept that habit. |
+| `domain_climb.Wealth.lived` | You kept coins and small earnings longer than your friends did as a child, and nobody had to tell you to. You learned early that money kept quietly was money that stayed, and you have never lost the habit. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | You took in your family's careful habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for luck. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years. |
+| `domains_round1_retired_2026-10-21.domain_climb.Family.headline` | Your family keeps its promises, and so do you. |
+| `domains_round1_retired_2026-10-21.domain_climb.Family.recognition` | You rely on your family more than on friends, because help between you has always come back when it was needed. Since your first home kept careful accounts, you keep track of what is owed between relatives without saying so. You give help readily, and you feel uneasy until a debt is settled. |
+| `domains_round1_retired_2026-10-21.domain_climb.Family.lived` | As a child you knew that money at home was handled carefully and that promises about it were kept. By your teens you counted your own money and kept your own promises the way the household did. |
+| `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | By your teens you were already saving, keeping coins or small earnings longer than your friends did. You learned as a child that money kept quietly was money that stayed, and you have kept that habit. |

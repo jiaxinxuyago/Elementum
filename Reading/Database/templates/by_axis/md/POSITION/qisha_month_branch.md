@@ -24,7 +24,7 @@
 | `slot_kind` | branch |
 | `domains` | Career · Health |
 | `defline` | The General holds your strongest seat, inside your Month Gate: your working years run on pressure you choose for yourself. |
-| `reading` | You chose hard work from your late teens, the demanding course or the tough job or the role others turned down, because easy work bored you. The strain you took on built your ability faster than comfort could have, and your standing grew through it. Your body has paid for that pace in short nights and tired shoulders, and you have always recovered once you let yourself stop. |
+| `reading` | Easy work has bored you since your late teens, and you went looking for the demanding course or the tough job or the role others turned down. The strain you took on built your ability faster than comfort could have, and your standing grew through it. You have rarely rested before a job was finished, and your sleep and your energy are what that pace has cost you. |
 | `teaser` | Your prime runs under pressure by design: you choose hard arenas because ease bores you. Power arrives midlife, through the campaigns nobody else would take. |
 | `domain_readings.Career` | Pressure by design runs your deep engine: hard arenas chosen because ease bores you, power arriving midlife through campaigns nobody else would take. The wiring is elite and expensive. Service the machine, sleep, training, decompression, and the reign runs long. |
 | `domain_readings.Health` | This seat spends the body like salary: adrenaline drawn daily, invoices deferred. The forties collect if the thirties never paid. Train hard, rest harder, and treat decompression as a professional skill. A maintained commander is a long reign. An unmaintained one is a short story. |
@@ -36,7 +36,17 @@
 | `health_line` | Your engine redlines silently: it performs through damage and reports late. Schedule the inspections your pride would cancel. |
 | `domain_climb.Career.headline` | You do your best work under real pressure. |
 | `domain_climb.Career.recognition` | You pick the job with the highest stakes and the tightest deadlines, and you are at your sharpest when it is going badly for everyone else. Because pressure is how you prove yourself to yourself, calm work leaves you flat and restless. What you build fastest is respect, and what you lose first is rest. |
-| `domain_climb.Career.lived` | Since your late teens your progress at work has come through crises, the deadline nobody could meet or the team that was falling apart. Each hard stretch left you more trusted than before, and you have rarely chosen the comfortable post. |
+| `domain_climb.Career.lived` | A calm post has left you uneasy since your late teens, as if you had not earned your place, and you have asked for the hard assignment instead. Each crisis you took on left you more trusted, and at least once you turned down an easier job with better hours. |
 | `domain_climb.Health.headline` | Your body carries the cost of your pace. |
-| `domain_climb.Health.recognition` | You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep and a sore back as if they were part of the job. Your energy is deep, and you spend it faster than you replace it. |
-| `domain_climb.Health.lived` | Since your late teens your body has kept up with demands that would have stopped most people. More than once a hard season ended with you worn out for weeks, and you came back stronger each time you gave yourself real rest. |
+| `domain_climb.Health.recognition` | You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep as if it were part of the job. Your energy is deep, and you spend it faster than you replace it. |
+| `domain_climb.Health.lived` | Through your first working years your body kept pace with demands that stopped most people around you. A hard season ended more than once with you worn out for weeks, and you recovered fully each time you gave yourself real rest. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | You chose hard work from your late teens, the demanding course or the tough job or the role others turned down, because easy work bored you. The strain you took on built your ability faster than comfort could have, and your standing grew through it. Your body has paid for that pace in short nights and tired shoulders, and you have always recovered once you let yourself stop. |
+| `domains_round1_retired_2026-10-21.domain_climb.Career.lived` | Since your late teens your progress at work has come through crises, the deadline nobody could meet or the team that was falling apart. Each hard stretch left you more trusted than before, and you have rarely chosen the comfortable post. |
+| `domains_round1_retired_2026-10-21.domain_climb.Health.recognition` | You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep and a sore back as if they were part of the job. Your energy is deep, and you spend it faster than you replace it. |
+| `domains_round1_retired_2026-10-21.domain_climb.Health.lived` | Since your late teens your body has kept up with demands that would have stopped most people. More than once a hard season ended with you worn out for weeks, and you came back stronger each time you gave yourself real rest. |

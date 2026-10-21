@@ -27,10 +27,18 @@
     ],
     "line": "Your officer star feeds your seal: structure flows into learning, position into protection. Institutions treat you kindly and mentors appear inside them. Steady ascent is the wiring.",
     "reading": "A protected road runs underneath: structure keeps converting into learning for you, and position into shelter. Mentors appear inside hierarchies, promotions arrive without scandal, and your name gathers weight the slow, durable way. The only hazard is staying past a frame’s worth. Audit the ladder every few years, then climb on.",
-    "fused_line": "They share one gate in you, and you rise in rank and in learning together.",
+    "fused_line": "In you the two move together, and you rise in rank and in learning at once.",
     "domain_lines": {
-      "Career": "You find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
-      "Mind": "You learn best inside a frame, a school or a firm or a discipline, and you keep studying long after the course has ended."
+      "Career": "You also find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
+      "Mind": "Even so, you learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended."
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "domain_lines.Career": "You find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
+        "domain_lines.Mind": "You learn best inside a frame, a school or a firm or a discipline, and you keep studying long after the course has ended.",
+        "fused_line": "They share one gate in you, and you rise in rank and in learning together."
+      }
     }
   },
   "$provenance": [
@@ -47,6 +55,20 @@
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
       "replaced": "Fused in one pillar, the blessing is concentrated: your rank and your learning rise as one column."
+    },
+    {
+      "field": "domain_lines",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "They share one gate in you, and you rise in rank and in learning together."
     }
   ]
 }

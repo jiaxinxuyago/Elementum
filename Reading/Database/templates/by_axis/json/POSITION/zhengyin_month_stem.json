@@ -21,7 +21,7 @@
       "Social"
     ],
     "defline": "The Sage stands at your Month Gate, in plain view: at work you are seen as the calm one who knows things.",
-    "reading": "Your working years have been shaped by how credible you look, the person with the knowledge and the steady manner. Because older colleagues trust you early, they open doors for you, and your career moves through reputation and study more than through pushing. Colleagues and friends bring you their problems for the same reason. You give a great deal of calm away, and you are rarely the one anyone thinks to look after.",
+    "reading": "The people above you at work take you seriously early, because you have the facts and a steady manner. Their trust moves your career through reputation and study more than through pushing, and you learn whatever they are willing to teach. Your friends come to you with their problems for the same reason. You give a great deal of calm away, and you are rarely the one anyone thinks to look after.",
     "teaser": "The working world reads you as credible: the one with the knowledge and the calm. Your career advances through reputation and study, and elders open the doors.",
     "domain_readings": {
       "Career": "The working world reads you as credible: the one with the knowledge and the calm, promoted through reputation and study rather than push. Elders open your doors. Keep learning in public. Every course and kindness compounds into the name that becomes your salary’s engine.",
@@ -37,8 +37,8 @@
     "domain_climb": {
       "Career": {
         "headline": "You rise at work because people trust you.",
-        "recognition": "References, qualifications and the good word of people senior to you win you roles. Because steadiness is what you offer, you are given responsibility early, and you rarely have to sell yourself. You find open competition uncomfortable and do your best work where trust is already in place.",
-        "lived": "Since your late teens older people at work have backed you, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most."
+        "recognition": "You win roles through references, qualifications and the good word of people senior to you. Because steadiness is what you offer, you are given responsibility early, and you rarely have to sell yourself. You find open competition uncomfortable and do your best work where trust is already in place.",
+        "lived": "Older people at work have backed you since your late teens, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most."
       },
       "Mind": {
         "headline": "Knowledge becomes second nature to you.",
@@ -47,8 +47,18 @@
       },
       "Social": {
         "headline": "Your friends bring you their troubles.",
-        "recognition": "You become the friend people confide in, the calm one who listens and gives sound advice. Because being trusted feels like a kind of care to you, you rarely say no, and your evenings fill with other people's problems. You find it hard to ask for the same help yourself.",
-        "lived": "Since your late teens you have been the one friends and colleagues come to when something goes wrong. You have kept more confidences than you can count, and few people have asked how you were doing in return."
+        "recognition": "You are the friend people confide in, the calm one who listens and gives sound advice. Because being trusted feels like a kind of care to you, you rarely say no, and your evenings fill with other people's problems. You know more about your friends' lives than they know about yours.",
+        "lived": "Friends and colleagues have brought you their crises since your late teens, and several of your closest friendships began with someone else's bad news. You have kept more confidences than you can count, and people still repeat what you told them years ago."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Your working years have been shaped by how credible you look, the person with the knowledge and the steady manner. Because older colleagues trust you early, they open doors for you, and your career moves through reputation and study more than through pushing. Colleagues and friends bring you their problems for the same reason. You give a great deal of calm away, and you are rarely the one anyone thinks to look after.",
+        "domain_climb.Career.recognition": "References, qualifications and the good word of people senior to you win you roles. Because steadiness is what you offer, you are given responsibility early, and you rarely have to sell yourself. You find open competition uncomfortable and do your best work where trust is already in place.",
+        "domain_climb.Career.lived": "Since your late teens older people at work have backed you, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most.",
+        "domain_climb.Social.recognition": "You become the friend people confide in, the calm one who listens and gives sound advice. Because being trusted feels like a kind of care to you, you rarely say no, and your evenings fill with other people's problems. You find it hard to ask for the same help yourself.",
+        "domain_climb.Social.lived": "Since your late teens you have been the one friends and colleagues come to when something goes wrong. You have kept more confidences than you can count, and few people have asked how you were doing in return."
       }
     }
   },
@@ -86,6 +96,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Your working years have been shaped by how credible you look, the person with the knowledge and the steady manner. Because older colleagues trust you early, they open doors for you, and your career moves through reputation and study more than through pushing. Colleagues and friends bring you their problems for the same reason. You give a great deal of calm away, and you are rarely the one anyone thinks to look after."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

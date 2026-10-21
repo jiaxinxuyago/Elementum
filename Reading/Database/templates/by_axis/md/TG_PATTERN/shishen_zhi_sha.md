@@ -24,6 +24,14 @@
 | `target_domains` | Career · Health |
 | `line` | Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline. |
 | `reading` | There is a rarer wiring underneath this: stress reaches you pre-processed. Deadlines that grind other people turn into output in your hands, and your calmest work happens closest to the pressure. That composure is produced, and it costs fuel. Protect the rest, the craft, and the small pleasures that produce it, and pressure stays your employee. |
-| `fused_line` | The two share one gate in you, and you turn pressure into calm almost as soon as it lands. |
-| `domain_lines.Career` | You do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands. |
+| `fused_line` | In you this runs close to the surface, and you turn pressure into calm almost as soon as it lands. |
+| `domain_lines.Career` | Underneath, you do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands. |
 | `domain_lines.Health` | Comfort is what protects you, because good food and work with your hands turn pressure into something you can use. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.domain_lines.Career` | You do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands. |
+| `domains_round1_retired_2026-10-21.fused_line` | The two share one gate in you, and you turn pressure into calm almost as soon as it lands. |

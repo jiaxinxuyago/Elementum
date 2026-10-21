@@ -21,7 +21,7 @@
       "Health"
     ],
     "defline": "The Artisan lives inside your Day Gate, the seat of your partner: your private life is built around comfort shared at home.",
-    "reading": "You are happiest in a home where food, rest and easy company are part of every day, and you choose a partner who enjoys them with you. Because ease makes you feel safe, you look after the people you live with through meals and small comforts more than through words. From your mid-thirties your home becomes the centre of your life, and you give so much to it that you forget to take your own share.",
+    "reading": "You are happiest where food, rest and easy company are part of every day, and you choose a partner who enjoys them with you. Because ease makes you feel safe, you look after the people you live with through meals and small favours more than through words. Your relatives and friends end up at your table, and you give so much to the household that your own rest comes last.",
     "teaser": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep.",
     "domain_readings": {
       "Love": "You love by feeding, in every sense: care arrives as meals, comfort, ease made daily. The partner who suits you receives gently and returns warmth without keeping score. Beware only the taker who mistakes your table for a service counter. Love should cook for you sometimes.",
@@ -44,14 +44,24 @@
       "Family": {
         "headline": "You become the host your family returns to.",
         "recognition": "Your home is where your family ends up, for meals and holidays and the nights someone needs a bed. Because a full house makes you feel settled, you take on more hosting than anyone asks of you. Relatives treat your door as always open, and you rarely show them how tired you are by the end.",
-        "lived": "So far your home has been the one your relatives and friends drift towards, for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
-        "ahead": "From your mid-thirties the family starts to gather at your house, children or relatives or friends who treat it as their second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home."
+        "lived": "Wherever you have lived so far, people have drifted to your kitchen for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
+        "ahead": "Your house becomes the place your family gathers once you are past your mid-thirties, and relatives and friends treat it as a second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home."
       },
       "Health": {
         "headline": "Your body does well when home is calm.",
         "recognition": "Your health follows your home life closely, and you sleep and eat well in the seasons when the house is peaceful. Because tension at home reaches your body before you name it, a bad month with a partner shows up in your appetite and your rest. You recover fastest through ordinary comfort, a shared meal and an early night.",
-        "lived": "So far your energy has risen and fallen with the state of your home, steady in the good years and low in the strained ones. Your appetite has shifted more than once with trouble at home, and you have turned to food for comfort each time.",
-        "ahead": "From your mid-thirties your health improves with a settled home, and your sleep and appetite steady as the household does. Comfort slides into excess in the busiest of these years, and you stay well because the people at home with you eat and rest alongside you."
+        "lived": "Your energy has risen and fallen so far with the state of your home, steady in the good years and low in the strained ones. Your sleep and appetite have followed each change at home, and they have settled again whenever the house grew calm.",
+        "ahead": "Your sleep and appetite steady from your mid-thirties as your household settles, and a calm year at home gives you more energy than a busy one. In the fullest of these years you eat and rest in step with whoever shares your home, and you stay well because of it."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You are happiest in a home where food, rest and easy company are part of every day, and you choose a partner who enjoys them with you. Because ease makes you feel safe, you look after the people you live with through meals and small comforts more than through words. From your mid-thirties your home becomes the centre of your life, and you give so much to it that you forget to take your own share.",
+        "domain_climb.Family.lived": "So far your home has been the one your relatives and friends drift towards, for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
+        "domain_climb.Family.ahead": "From your mid-thirties the family starts to gather at your house, children or relatives or friends who treat it as their second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home.",
+        "domain_climb.Health.lived": "So far your energy has risen and fallen with the state of your home, steady in the good years and low in the strained ones. Your appetite has shifted more than once with trouble at home, and you have turned to food for comfort each time.",
+        "domain_climb.Health.ahead": "From your mid-thirties your health improves with a settled home, and your sleep and appetite steady as the household does. Comfort slides into excess in the busiest of these years, and you stay well because the people at home with you eat and rest alongside you."
       }
     }
   },
@@ -89,6 +99,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You are happiest in a home where food, rest and easy company are part of every day, and you choose a partner who enjoys them with you. Because ease makes you feel safe, you look after the people you live with through meals and small comforts more than through words. From your mid-thirties your home becomes the centre of your life, and you give so much to it that you forget to take your own share."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

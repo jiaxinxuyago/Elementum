@@ -24,7 +24,7 @@
 | `slot_kind` | branch |
 | `domains` | Mind · Growth · Career |
 | `defline` | The Alchemist holds your strongest seat, inside your Month Gate: your working years run on thinking done in private. |
-| `reading` | You do your real thinking alone, on questions most people find strange, and your working years are built on it. Because you trust what you have worked out yourself more than what you were taught, you look quiet from outside while the real work happens inside. You found your important teachers off the usual path, and you are slowly becoming the odd teacher someone else needs. |
+| `reading` | You do your real thinking alone, on questions most people find strange, and your work is built on it. Because you trust what you have worked out yourself more than what you were taught, you look quiet from outside while the real work happens inside. You found your important teachers off the usual path, and you are slowly becoming the odd teacher someone else needs. |
 | `teaser` | Your mind works in private, on things most people find strange, and that is exactly where your career luck lives. The niche will pay what the mainstream never will. |
 | `domain_readings.Mind` | Your mind is a private laboratory: it absorbs sideways, incubates in silence, and produces conclusions that look sudden to everyone who missed the years underneath. Trust the incubation. Your thinking cannot be rushed, only fed, and it repays every strange book and quiet hour with interest. |
 | `domain_readings.Growth` | You grow in leaps disguised as stillness: long plateaus of gathering, then a step-change nobody saw building. Do not measure yourself against steady climbers. Your curve is a staircase, and the landings are where the real work happens. Keep faith on the flat stretches. |
@@ -44,3 +44,10 @@
 | `domain_climb.Career.headline` | Your work pays for what only you know. |
 | `domain_climb.Career.recognition` | You are the specialist people call when the usual answers fail. Because you trust knowledge you have dug out yourself, you are drawn to a narrow field the mainstream ignores, and you would rather be paid for strange work than praised for ordinary work. You earn more from the niche you choose than any ladder would pay you. |
 | `domain_climb.Career.lived` | Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | You do your real thinking alone, on questions most people find strange, and your working years are built on it. Because you trust what you have worked out yourself more than what you were taught, you look quiet from outside while the real work happens inside. You found your important teachers off the usual path, and you are slowly becoming the odd teacher someone else needs. |

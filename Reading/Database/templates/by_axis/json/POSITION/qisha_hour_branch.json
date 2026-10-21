@@ -21,7 +21,7 @@
       "Growth"
     ],
     "defline": "The General lives inside your Hour Gate: your later years keep a private discipline that never quite stops.",
-    "reading": "Your later life runs on habits you do not let slip, the early start and the work finished and the standard kept. Because being strong is how you feel safe, you push on past the point where others would ease off, and rest comes hard to you. The younger people around you feel protected by you more than held. Your late years stay full and demanding, and you keep your strength longer than most.",
+    "reading": "In later life you keep habits others let slip, the early start and the standard kept. Because being strong is how you feel safe, you push on past the point where others would ease off, and rest comes hard to you. The younger ones in your life, children or younger relatives or someone you train, feel protected by you more than held. You grow each time you take on something hard, and your strength holds because you use it.",
     "teaser": "The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest.",
     "domain_readings": {
       "Health": "Your late body responds to training like an old soldier, gratefully and fast: strength returns on demand, stiffness arrives through pride. March daily, stretch nightly, rest like an order. Managed this way, the constitution outlasts every prediction made about it.",
@@ -37,21 +37,35 @@
     "domain_climb": {
       "Health": {
         "headline": "Your body stays strong on routine.",
-        "recognition": "You treat your body as something to keep in working order, with a fixed hour to rise and a daily walk or workout. Because strength is part of how you see yourself, you ignore stiffness and tiredness until they slow you down. Your energy is at its best when the week has a shape.",
-        "lived": "Since your late forties your body has answered regular effort quickly, and your strength has come back each time you returned to a routine. Each setback came through pride, and you paid for pushing through tiredness in your back or shoulders.",
-        "ahead": "From your late forties your health depends more on routine than on luck, and a steady week keeps you fitter than people half your age. Formless days drain you and ordered ones restore you, and you feel the difference within a week."
+        "recognition": "You treat your body as something to keep in working order, with a fixed hour to rise and a daily walk or workout. Because strength is part of how you see yourself, you ignore tiredness until it slows you down. Your energy is at its best when the week has a shape.",
+        "lived": "Your body has answered regular effort quickly since your late forties, and your strength has returned each time you took up a routine again. When you were tired, pride kept you going past the point of rest, and you felt it for days afterwards.",
+        "ahead": "From your late forties your health rests on routine, and a steady week keeps you fitter than most people your age. Days with no shape drain your energy and ordered ones bring it back, and you feel the difference within a week."
       },
       "Family": {
         "headline": "Your family feels your protection first.",
         "recognition": "You look after your family by making sure they are safe, the arrangements firm and the risks dealt with before anyone else sees them. Because care for you means strength, you find it easier to fix a problem than to say a tender thing. Your family knows they are covered, and they wait longer to hear that they are loved.",
-        "lived": "Since your late forties the people after you, children or younger relatives or someone you train, have leaned on your strength in hard moments. You gave them firm help sooner than warmth, and the warmth they did get from you counted for a great deal.",
-        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, come to you first when things go wrong. You give them safety without being asked, and you find in these years that saying the kind thing out loud is easier than it used to be."
+        "lived": "The people after you have leaned on your strength in hard moments since your late forties. You sorted out the problem before you asked how they felt, and you saw them keep the few kind words you did say for years.",
+        "ahead": "Past your late forties the people after you come to you first when things go wrong. You give them safety without being asked, and in these years you find the kind thing easier to say out loud."
       },
       "Growth": {
         "headline": "You keep growing by setting yourself hard tasks.",
-        "recognition": "In later life you grow the way you always have, by taking on something difficult and holding yourself to it. Because ease makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. What costs you is the quiet, and you find unplanned days harder than hard work.",
-        "lived": "Since your late forties you have taken on at least one new discipline, a skill or a sport or a role, and stuck with it longer than people expected. Your growth in those years came through effort, and the calm stretches between left you restless.",
-        "ahead": "From your late forties you grow through challenges you choose yourself, and each one makes you sharper and steadier. Your strength lasts longer than most people's because you keep using it, and you learn slowly to count rest as part of the work."
+        "recognition": "You grow the way you always have, by taking on something difficult and holding yourself to it. Because ease makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. What costs you is the quiet, and you find unplanned days harder than hard work.",
+        "lived": "You have taken on at least one new discipline since your late forties, a skill or a sport or a role, and stuck with it longer than people expected. Your growth in those years came through effort, and the calm stretches between left you restless.",
+        "ahead": "In the years after your late forties you grow through challenges you choose yourself, and each one leaves you sharper and steadier. You learn slowly to count rest as part of the work, and your strength outlasts most people's for it."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Your later life runs on habits you do not let slip, the early start and the work finished and the standard kept. Because being strong is how you feel safe, you push on past the point where others would ease off, and rest comes hard to you. The younger people around you feel protected by you more than held. Your late years stay full and demanding, and you keep your strength longer than most.",
+        "domain_climb.Health.recognition": "You treat your body as something to keep in working order, with a fixed hour to rise and a daily walk or workout. Because strength is part of how you see yourself, you ignore stiffness and tiredness until they slow you down. Your energy is at its best when the week has a shape.",
+        "domain_climb.Health.lived": "Since your late forties your body has answered regular effort quickly, and your strength has come back each time you returned to a routine. Each setback came through pride, and you paid for pushing through tiredness in your back or shoulders.",
+        "domain_climb.Health.ahead": "From your late forties your health depends more on routine than on luck, and a steady week keeps you fitter than people half your age. Formless days drain you and ordered ones restore you, and you feel the difference within a week.",
+        "domain_climb.Family.lived": "Since your late forties the people after you, children or younger relatives or someone you train, have leaned on your strength in hard moments. You gave them firm help sooner than warmth, and the warmth they did get from you counted for a great deal.",
+        "domain_climb.Family.ahead": "From your late forties the people after you, children or younger relatives or someone you train, come to you first when things go wrong. You give them safety without being asked, and you find in these years that saying the kind thing out loud is easier than it used to be.",
+        "domain_climb.Growth.recognition": "In later life you grow the way you always have, by taking on something difficult and holding yourself to it. Because ease makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. What costs you is the quiet, and you find unplanned days harder than hard work.",
+        "domain_climb.Growth.lived": "Since your late forties you have taken on at least one new discipline, a skill or a sport or a role, and stuck with it longer than people expected. Your growth in those years came through effort, and the calm stretches between left you restless.",
+        "domain_climb.Growth.ahead": "From your late forties you grow through challenges you choose yourself, and each one makes you sharper and steadier. Your strength lasts longer than most people's because you keep using it, and you learn slowly to count rest as part of the work."
       }
     }
   },
@@ -89,6 +103,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Your later life runs on habits you do not let slip, the early start and the work finished and the standard kept. Because being strong is how you feel safe, you push on past the point where others would ease off, and rest comes hard to you. The younger people around you feel protected by you more than held. Your late years stay full and demanding, and you keep your strength longer than most."
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

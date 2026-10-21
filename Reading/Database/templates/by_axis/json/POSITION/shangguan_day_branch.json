@@ -20,7 +20,7 @@
       "Mind"
     ],
     "defline": "The Virtuoso lives inside your Day Gate, the seat of your partner: your closest bond runs on talk, wit and honesty.",
-    "reading": "You want a partner who can keep up with you in talk, someone quick enough to argue with and warm enough to praise you. Because being understood is how you feel loved, you say exactly what you notice at home, and the sharpest of it lands on the person you care about most. From your mid-thirties your home life turns into a long conversation between equals, and you do your best thinking in it.",
+    "reading": "You want a partner quick enough to argue with and warm enough to praise you, and you lose interest in anyone who only agrees. Because being understood is how you feel loved, you say exactly what you notice at home, and the sharpest of it lands on the person you care about most. Your best ideas get worked out in those arguments, and you think more clearly beside someone who pushes back than on your own.",
     "teaser": "You need a partner who applauds, and you notice when they do not. Marriage thrives once the two of you compete with the world instead of each other.",
     "domain_readings": {
       "Love": "You need applause and honesty from the same person: a partner sharp enough to spar with, warm enough to clap. Banter is your love language and critique your accidental one. Praise first, polish second, always in that order. The marriage becomes a writers’ table or a courtroom. You choose nightly.",
@@ -36,14 +36,22 @@
       "Love": {
         "headline": "You love the person who can answer you back.",
         "recognition": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing your partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half.",
-        "lived": "The partners you have chosen so far have all been quick, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
+        "lived": "The partners you have chosen so far were quick ones, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
         "ahead": "From your mid-thirties your home fills with talk, and the partner you share it with matches you word for word. The two of you grow closer through what you argue about together, and you aim your sharpest words at the world outside your door."
       },
       "Mind": {
         "headline": "Your mind is sharpest in conversation with someone close.",
         "recognition": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give your partner your best ideas first, and your harshest opinions too.",
         "lived": "Your clearest thinking so far has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening.",
-        "ahead": "From your mid-thirties your thinking grows bolder, and a partner is the first to hear each new idea. The ideas you test across the kitchen table in these years become the ones you are known for, and you say them more kindly than you once did."
+        "ahead": "Your thinking grows bolder from your mid-thirties, and a partner is the first to hear each new idea. The ideas the two of you test at home in these years become the ones you are known for, and you say them more kindly than you once did."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You want a partner who can keep up with you in talk, someone quick enough to argue with and warm enough to praise you. Because being understood is how you feel loved, you say exactly what you notice at home, and the sharpest of it lands on the person you care about most. From your mid-thirties your home life turns into a long conversation between equals, and you do your best thinking in it.",
+        "domain_climb.Love.lived": "The partners you have chosen so far have all been quick, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
+        "domain_climb.Mind.ahead": "From your mid-thirties your thinking grows bolder, and a partner is the first to hear each new idea. The ideas you test across the kitchen table in these years become the ones you are known for, and you say them more kindly than you once did."
       }
     }
   },
@@ -74,6 +82,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You want a partner who can keep up with you in talk, someone quick enough to argue with and warm enough to praise you. Because being understood is how you feel loved, you say exactly what you notice at home, and the sharpest of it lands on the person you care about most. From your mid-thirties your home life turns into a long conversation between equals, and you do your best thinking in it."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-2.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

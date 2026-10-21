@@ -25,9 +25,16 @@
     ],
     "line": "Your chart carries the old collision of brilliance and rank: the Virtuoso chafes exactly where the Magistrate climbs. Careers run smoothest when your talent gets a stage inside the structure, under a title with some give in it.",
     "reading": "One friction runs underneath: you keep correcting the very structures you climb. Under close supervision you dim and chafe, and your brightest work appears wherever the leash is longest. Choose formats that license your candor, your own practice, your own desk, a title with give in it, and the friction becomes reform.",
-    "fused_line": "They share one gate in you, and you have argued with your own position since your first job.",
+    "fused_line": "In you this runs deep, and you have argued with your own position since your first job.",
     "domain_lines": {
-      "Career": "You keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest."
+      "Career": "You also keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest."
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "domain_lines.Career": "You keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest.",
+        "fused_line": "They share one gate in you, and you have argued with your own position since your first job."
+      }
     }
   },
   "$provenance": [
@@ -44,6 +51,20 @@
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
       "replaced": "They sit in one pillar in you, so the friction is native: build your own structure early."
+    },
+    {
+      "field": "domain_lines",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/patterns.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "They share one gate in you, and you have argued with your own position since your first job."
     }
   ]
 }

@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Family · Mind |
-| `defline` | The Sage stands at your Year Gate, in plain view: your childhood showed the world that you were well protected. |
-| `reading` | You were raised by someone with principles, and the protection of those years shows in how you carry yourself. Because learning was valued where you grew up, teachers took to you early, and help arrived each time you needed it. People still read you as someone who was well brought up, and older people trust you on sight. You expect shelter to appear when things go wrong, and you are slower than most to build your own. |
+| `defline` | The Sage stands at your Year Gate, in plain view: as a child you were seen to be well looked after and well taught. |
+| `reading` | Someone with clear principles raised you, and it showed early in your manners and in the way you spoke to adults. Because learning was valued at home, teachers took to you early, and help arrived each time you needed it. Older people still trust you on sight. You expect shelter to appear when things go wrong, and you are slower than most to build your own. |
 | `teaser` | You were sheltered by someone principled, and it shows in your bearing. Learning is your inheritance: credentials, teachers, and timely protection keep appearing across your life. |
 | `domain_readings.Family` | You were sheltered by someone principled and it shows in your bearing: the protection of your early years installed a baseline trust most people have to construct. Family remains your first reference for safety. Repay the shelter forward. It was always meant to travel. |
 | `domain_readings.Mind` | Learning is your inheritance: credentials, teachers, timely knowledge arriving just before you needed it. Your mind was raised expecting to be taught, and it kept the posture. Stay a student in every decade. The inheritance pays out only while enrolled. |
@@ -35,8 +35,19 @@
 | `shadow_line` | Overloaded, trust waits for rescue: capability paused until someone arrives. |
 | `health_line` | Your constitution responds to care like a garden to rain: tended, it flourishes visibly. Accept the tending. Self-sufficiency is not the assignment here. |
 | `domain_climb.Family.headline` | You grew up protected by someone principled. |
-| `domain_climb.Family.recognition` | The steady, decent care you had early is the measure you hold family to, and you notice quickly when it is missing. Because your first home gave you safety and clear values, you trust family as the place to turn first. You feel let down harder than most when a relative falls short of that standard. |
-| `domain_climb.Family.lived` | Someone in your first home protected you with care and clear rules, a parent or older relative who held everyone to a high standard. By your teens you had their sense of right and wrong, and people outside the family noticed it in you. |
+| `domain_climb.Family.recognition` | The steady, decent care you had early is the measure you hold family to, and you notice quickly when it is missing. Because your first home gave you safety and clear values, you trust family as the place to turn first. You judge a relative by whether they keep their word, and you say so when they do not. |
+| `domain_climb.Family.lived` | Your first home ran on care and clear rules, kept by a parent or older relative who held everyone to a high standard. By your teens you had their sense of right and wrong, and people outside the family noticed it in you. |
 | `domain_climb.Mind.headline` | You were raised to learn, and you still do. |
-| `domain_climb.Mind.recognition` | You approach a new subject expecting to be taught well, and good teachers keep finding you. Because books and good teachers were part of your childhood, you learn easily inside a course or a school, and you value a qualification for its own sake. You find it harder to learn where nobody is guiding you. |
+| `domain_climb.Mind.recognition` | You approach a new subject expecting to be taught well, and you go looking for the best teacher before you open a book. Because books and patient adults were part of your childhood, you learn easily inside a course or a school, and you value a qualification for its own sake. You find it harder to learn where nobody is guiding you. |
 | `domain_climb.Mind.lived` | As a child you had books at home and adults who answered your questions, and school came easily. By your teens a teacher or older relative had taken a special interest in you, and you worked harder because of it. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.defline` | The Sage stands at your Year Gate, in plain view: your childhood showed the world that you were well protected. |
+| `domains_round1_retired_2026-10-21.reading` | You were raised by someone with principles, and the protection of those years shows in how you carry yourself. Because learning was valued where you grew up, teachers took to you early, and help arrived each time you needed it. People still read you as someone who was well brought up, and older people trust you on sight. You expect shelter to appear when things go wrong, and you are slower than most to build your own. |
+| `domains_round1_retired_2026-10-21.domain_climb.Family.recognition` | The steady, decent care you had early is the measure you hold family to, and you notice quickly when it is missing. Because your first home gave you safety and clear values, you trust family as the place to turn first. You feel let down harder than most when a relative falls short of that standard. |
+| `domains_round1_retired_2026-10-21.domain_climb.Family.lived` | Someone in your first home protected you with care and clear rules, a parent or older relative who held everyone to a high standard. By your teens you had their sense of right and wrong, and people outside the family noticed it in you. |
+| `domains_round1_retired_2026-10-21.domain_climb.Mind.recognition` | You approach a new subject expecting to be taught well, and good teachers keep finding you. Because books and good teachers were part of your childhood, you learn easily inside a course or a school, and you value a qualification for its own sake. You find it harder to learn where nobody is guiding you. |

@@ -23,8 +23,8 @@
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Social |
-| `defline` | The Virtuoso stands at your Month Gate, in plain view: at work you are seen as gifted and hard to manage. |
-| `reading` | Your talent is the first thing colleagues see, and your patience with rules is the last. Because you need your work to be seen and judged fairly, you shine under bosses who reward results and stall under bosses who want obedience. Your name in your working years is built on visible wins, and you have walked away from at least one job that wanted you quieter. |
+| `defline` | The Virtuoso stands at your Month Gate, in plain view: at work and among friends you are seen as gifted and hard to manage. |
+| `reading` | Your talent is the first thing colleagues see, and your patience with rules is the last. Because you need your work to be judged fairly, you shine under bosses who reward results and stall under bosses who want obedience. Your friends are the people who enjoy your sharpest remarks, and you have lost a few who did not. You have walked away from at least one job that wanted you quieter. |
 | `teaser` | The working world sees your talent before your discipline, and both are real. Careers with a stage suit you, and bosses who need obedience will not keep you. |
 | `domain_readings.Career` | The working world sees your talent before your discipline, and hires the first while praying for the second: both are real, and stages suit you better than desks. Choose careers with performance in them, pitching, teaching, creating, leading from the front. Supervision is your kryptonite and spotlight your spinach. |
 | `domain_readings.Social` | Your professional circle divides on contact: champions and detractors, rarely neutrals. The champions carry you further than consensus ever would. Collect them deliberately, thank them loudly, and let the detractors keep each other company. Polarizing is a strategy when the poles are chosen. |
@@ -35,8 +35,21 @@
 | `shadow_line` | Overloaded, the performance never ends: applause required for breakfast. |
 | `health_line` | You metabolize attention like sugar: highs, crashes, cravings. Balance the performance diet with unwitnessed work, and the nerves steady. |
 | `domain_climb.Career.headline` | You are hired for your talent and tested on your discipline. |
-| `domain_climb.Career.recognition` | You do your strongest work where you can be seen doing it, pitching or teaching or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your brilliance gets you in the door, and finishing what you start is what keeps you there. |
-| `domain_climb.Career.lived` | Since your late teens bosses have either backed you fully or tried to slow you down, and few have been neutral about you. You have done your best work for the ones who believed in you, and you have outlasted most of the ones who did not. |
-| `domain_climb.Social.headline` | People at work either love you or resist you. |
-| `domain_climb.Social.recognition` | Your circle at work splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing in meetings and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years. |
-| `domain_climb.Social.lived` | From your late teens your friendships have formed around strong reactions, people who liked your edge at once or never warmed to it. More than once a friendship ended over something you said in public, and you have kept every friend who stayed through it. |
+| `domain_climb.Career.recognition` | You do your strongest work where you can be seen doing it, pitching or teaching or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your talent wins you the role, and your record of finishing decides how long you keep it. |
+| `domain_climb.Career.lived` | Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outlasted most of the ones who did not. |
+| `domain_climb.Social.headline` | Friends and colleagues either love you or resist you. |
+| `domain_climb.Social.recognition` | Your circle splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing in company and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years. |
+| `domain_climb.Social.lived` | Your friendships since your late teens have formed around strong reactions, people who liked your edge at once or never warmed to it. More than once a friendship ended over something you said in public, and you have kept every friend who stayed through it. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.defline` | The Virtuoso stands at your Month Gate, in plain view: at work you are seen as gifted and hard to manage. |
+| `domains_round1_retired_2026-10-21.reading` | Your talent is the first thing colleagues see, and your patience with rules is the last. Because you need your work to be seen and judged fairly, you shine under bosses who reward results and stall under bosses who want obedience. Your name in your working years is built on visible wins, and you have walked away from at least one job that wanted you quieter. |
+| `domains_round1_retired_2026-10-21.domain_climb.Career.recognition` | You do your strongest work where you can be seen doing it, pitching or teaching or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your brilliance gets you in the door, and finishing what you start is what keeps you there. |
+| `domains_round1_retired_2026-10-21.domain_climb.Career.lived` | Since your late teens bosses have either backed you fully or tried to slow you down, and few have been neutral about you. You have done your best work for the ones who believed in you, and you have outlasted most of the ones who did not. |
+| `domains_round1_retired_2026-10-21.domain_climb.Social.headline` | People at work either love you or resist you. |
+| `domains_round1_retired_2026-10-21.domain_climb.Social.recognition` | Your circle at work splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing in meetings and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years. |
+| `domains_round1_retired_2026-10-21.domain_climb.Social.lived` | From your late teens your friendships have formed around strong reactions, people who liked your edge at once or never warmed to it. More than once a friendship ended over something you said in public, and you have kept every friend who stayed through it. |

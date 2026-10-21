@@ -20,7 +20,7 @@
       "Social"
     ],
     "defline": "The General stands at your Month Gate, in plain view: at work people see someone who can handle pressure.",
-    "reading": "People at work read authority on you before you say a word, and they hand you the hard jobs early. Because you meet pressure head on, you rise fastest in work with real stakes, and the crises that break others build your name. Colleagues respect you before they warm to you, and you have learned to accept that order. Your standing in these years comes from what you carried when it was hardest.",
+    "reading": "Authority shows on you before you say a word, and you are handed the hard jobs early. Because you meet pressure head on, you rise fastest in work with real stakes, and the crises that break others build your name. The friends you keep are mostly people who went through a hard stretch beside you, and colleagues respect you before they warm to you.",
     "teaser": "The working world reads command on you before you speak. Careers with stakes suit you, and your rank rises fastest where others crack.",
     "domain_readings": {
       "Career": "The working world reads command on you before you speak: careers with stakes suit your prime, operations, crises, leadership under weather. Your rank rises fastest exactly where others crack. Choose battles worth your metal and delegate the skirmishes. Midlife hands you real authority either way.",
@@ -36,12 +36,21 @@
       "Career": {
         "headline": "Your career rises fastest where the stakes are highest.",
         "recognition": "You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers trust you with more than your title says, and the load keeps growing. You earn rank through pressure, and you rarely get a quiet week.",
-        "lived": "Since your late teens your reputation at work has grown out of hard moments, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week."
+        "lived": "Your reputation at work has grown out of hard moments since your late teens, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week."
       },
       "Social": {
         "headline": "Your friends are people who have earned it.",
-        "recognition": "You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, casual company bores you and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years.",
-        "lived": "From your late teens your closest friends have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed."
+        "recognition": "You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, you leave a party once you have talked to the people you came for, and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years.",
+        "lived": "Your closest friends since your late teens have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "People at work read authority on you before you say a word, and they hand you the hard jobs early. Because you meet pressure head on, you rise fastest in work with real stakes, and the crises that break others build your name. Colleagues respect you before they warm to you, and you have learned to accept that order. Your standing in these years comes from what you carried when it was hardest.",
+        "domain_climb.Career.lived": "Since your late teens your reputation at work has grown out of hard moments, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week.",
+        "domain_climb.Social.recognition": "You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, casual company bores you and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years.",
+        "domain_climb.Social.lived": "From your late teens your closest friends have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed."
       }
     }
   },
@@ -72,6 +81,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "People at work read authority on you before you say a word, and they hand you the hard jobs early. Because you meet pressure head on, you rise fastest in work with real stakes, and the crises that break others build your name. Colleagues respect you before they warm to you, and you have learned to accept that order. Your standing in these years comes from what you carried when it was hardest."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-4.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

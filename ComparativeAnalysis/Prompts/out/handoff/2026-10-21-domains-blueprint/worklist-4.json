@@ -1,0 +1,377 @@
+[
+ {
+  "key": "STRUCTURE zhengguan_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Magistrate structure 正官格",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE qisha_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "General structure 七杀格",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE piancai_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Horizon structure 偏财格",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE zhengyin_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Sage structure 正印格",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE pianyin_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Alchemist structure 偏印格",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE shishen_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Artisan structure 食神格",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE shangguan_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Virtuoso structure 伤官格",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE jianlu_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Self-made structure 建禄格 (the month branch is the reader's own element at full strength)",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE yueren_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Rival structure 月刃格 (a yang Day Master whose month branch is its own blade)",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE yuejie_ge · reading",
+  "kind": "structure",
+  "page": "structure",
+  "context": {
+   "structure": "Rival structure 月劫格 (a yin Day Master whose month branch holds its Rival)",
+   "template": "STRUCTURE zhengcai_ge · reading: Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  }
+ },
+ {
+  "key": "STRUCTURE officer · status.broken.unchecked",
+  "kind": "status",
+  "page": "status-officer",
+  "context": {
+   "state": "General structure, nothing holds the pressure in check and the Day Master is weak: broken",
+   "label": "Broken.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE officer · status.broken.virtuoso",
+  "kind": "status",
+  "page": "status-officer",
+  "context": {
+   "state": "Magistrate structure broken by the Virtuoso with no Sage to hold it (伤官见官)",
+   "label": "Broken.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE officer · status.formed.none",
+  "kind": "status",
+  "page": "status-officer",
+  "context": {
+   "state": "Magistrate or General structure, formed",
+   "label": "Formed.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE officer · status.strained.general",
+  "kind": "status",
+  "page": "status-officer",
+  "context": {
+   "state": "Magistrate structure with the General also present (官杀混杂)",
+   "label": "Formed, under strain.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE officer · status.strained.mixed",
+  "kind": "status",
+  "page": "status-officer",
+  "context": {
+   "state": "General structure with the Magistrate also on show (官杀混杂)",
+   "label": "Formed, under strain.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE officer · status.strained.unchecked",
+  "kind": "status",
+  "page": "status-officer",
+  "context": {
+   "state": "General structure, no Artisan or Sage to hold the pressure, Day Master strong enough to bear it",
+   "label": "Formed, under strain.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE output · status.broken.alchemist",
+  "kind": "status",
+  "page": "status-output",
+  "context": {
+   "state": "Artisan structure broken by the Alchemist with no money to feed it (枭神夺食)",
+   "label": "Broken.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE output · status.broken.magistrate",
+  "kind": "status",
+  "page": "status-output",
+  "context": {
+   "state": "Virtuoso structure broken by the Magistrate with no Sage (伤官见官)",
+   "label": "Broken.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE output · status.formed.none",
+  "kind": "status",
+  "page": "status-output",
+  "context": {
+   "state": "Artisan or Virtuoso structure, formed",
+   "label": "Formed.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE seal · status.formed.none",
+  "kind": "status",
+  "page": "status-seal",
+  "context": {
+   "state": "Sage or Alchemist structure, formed",
+   "label": "Formed.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE seal · status.strained.money",
+  "kind": "status",
+  "page": "status-seal",
+  "context": {
+   "state": "Sage or Alchemist structure strained by money, no Magistrate or General to protect it (财坏印)",
+   "label": "Formed, under strain.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE seal · status.strained.starved",
+  "kind": "status",
+  "page": "status-seal",
+  "context": {
+   "state": "Alchemist structure starving the Artisan with no money present",
+   "label": "Formed, under strain.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE self · status.formed.none",
+  "kind": "status",
+  "page": "status-self",
+  "context": {
+   "state": "Self-made or Rival structure, formed",
+   "label": "Formed.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE self · status.strained.idle",
+  "kind": "status",
+  "page": "status-self",
+  "context": {
+   "state": "Self-made or Rival structure with nothing to use the strength on (no officer, output or money)",
+   "label": "Formed, under strain.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE wealth · status.broken.peers",
+  "kind": "status",
+  "page": "status-wealth",
+  "context": {
+   "state": "Steward or Horizon structure broken by the Twin or Rival with nothing to control or transform them (比劫夺财)",
+   "label": "Broken.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE wealth · status.formed.none",
+  "kind": "status",
+  "page": "status-wealth",
+  "context": {
+   "state": "Steward or Horizon structure, formed",
+   "label": "Formed.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE wealth · status.formed.peers",
+  "kind": "status",
+  "page": "status-wealth",
+  "context": {
+   "state": "Steward or Horizon structure with the Twin or Rival present but held in check by an officer",
+   "label": "Formed.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "STRUCTURE wealth · status.strained.none",
+  "kind": "status",
+  "page": "status-wealth",
+  "context": {
+   "state": "Steward or Horizon structure, but the Day Master is too weak to hold the money",
+   "label": "Formed, under strain.",
+   "template": "STRUCTURE wealth · status.strained.peers: The Twin and the Rival stand close to your Stewards, and you keep losing a share of what you earn to equals."
+  }
+ },
+ {
+  "key": "TG_PATTERN shishen_zhi_sha · blueprint_line",
+  "kind": "pattern_bp",
+  "page": "pairings",
+  "context": {
+   "pairing": "The Artisan tames the General 食神制杀",
+   "sides": "食神 with 七杀",
+   "domains": [
+    "Career",
+    "Health"
+   ],
+   "existing_reading_for_meaning_only": "There is a rarer wiring underneath this: stress reaches you pre-processed. Deadlines that grind other people turn into output in your hands, and your calmest work happens closest to the pressure. That composure is produced, and it costs fuel. Protect the rest, the craft, and the small pleasures that produce it, and pressure stays your employee.",
+   "template": "TG_PATTERN bi_jie_duo_cai · blueprint_line: Equals and money share your chart, and you lose most where you share most, with friends and family and partners."
+  }
+ },
+ {
+  "key": "TG_PATTERN shang_guan_pei_yin · blueprint_line",
+  "kind": "pattern_bp",
+  "page": "pairings",
+  "context": {
+   "pairing": "The Virtuoso harnessed by the Sage 伤官配印",
+   "sides": "伤官 with 正印",
+   "domains": [
+    "Career",
+    "Mind"
+   ],
+   "existing_reading_for_meaning_only": "Underneath runs a lucky pairing: your boldest ideas and your patience for study feed each other instead of fighting. Every credential sharpens the showmanship, every performance keeps the learning honest. Build the stage and the library in the same decade. Together they turn raw shine into a name that lasts.",
+   "template": "TG_PATTERN bi_jie_duo_cai · blueprint_line: Equals and money share your chart, and you lose most where you share most, with friends and family and partners."
+  }
+ },
+ {
+  "key": "TG_PATTERN shang_guan_jian_guan · blueprint_line",
+  "kind": "pattern_bp",
+  "page": "pairings",
+  "context": {
+   "pairing": "The Virtuoso confronts the Magistrate 伤官见官",
+   "sides": "伤官 with 正官",
+   "domains": [
+    "Career"
+   ],
+   "existing_reading_for_meaning_only": "One friction runs underneath: you keep correcting the very structures you climb. Under close supervision you dim and chafe, and your brightest work appears wherever the leash is longest. Choose formats that license your candor, your own practice, your own desk, a title with give in it, and the friction becomes reform.",
+   "template": "TG_PATTERN bi_jie_duo_cai · blueprint_line: Equals and money share your chart, and you lose most where you share most, with friends and family and partners."
+  }
+ },
+ {
+  "key": "TG_PATTERN sha_yin_xiang_sheng · blueprint_line",
+  "kind": "pattern_bp",
+  "page": "pairings",
+  "context": {
+   "pairing": "Pressure feeds the Sage 杀印相生",
+   "sides": "七杀 with 偏印 or 正印",
+   "domains": [
+    "Career",
+    "Growth",
+    "Mind"
+   ],
+   "existing_reading_for_meaning_only": "A stronger current runs underneath: hardship keeps converting into wisdom and rank for you. Each heavy chapter has left you promoted, certified, or deeper, usually all three, and the pattern strengthens with age. Trust weight to be a ladder. Just rest between climbs, because the converter needs cooling.",
+   "template": "TG_PATTERN bi_jie_duo_cai · blueprint_line: Equals and money share your chart, and you lose most where you share most, with friends and family and partners."
+  }
+ },
+ {
+  "key": "TG_PATTERN shi_shang_sheng_cai · blueprint_line",
+  "kind": "pattern_bp",
+  "page": "pairings",
+  "context": {
+   "pairing": "The maker’s economy 食伤生财",
+   "sides": "食神 or 伤官 with 正财 or 偏财",
+   "domains": [
+    "Wealth",
+    "Career"
+   ],
+   "existing_reading_for_meaning_only": "A generous wiring runs underneath: what you make converts to money with unusual ease. The work that feels like play earns more than the work that feels like duty, and the conversion improves with age. Keep one channel where creating flows straight to earning, and guard your appetite to make. Your income lives downstream of it.",
+   "template": "TG_PATTERN bi_jie_duo_cai · blueprint_line: Equals and money share your chart, and you lose most where you share most, with friends and family and partners."
+  }
+ },
+ {
+  "key": "TG_PATTERN cai_guan_xiang_sheng · blueprint_line",
+  "kind": "pattern_bp",
+  "page": "pairings",
+  "context": {
+   "pairing": "Wealth underwrites rank 财官相生",
+   "sides": "正财 or 偏财 with 正官",
+   "domains": [
+    "Career",
+    "Wealth"
+   ],
+   "existing_reading_for_meaning_only": "A steady engine runs underneath: what you earn keeps converting into standing. Results banked become titles offered, and property and position reinforce each other through your middle decades. The one flaw is under-asking. Negotiate rank as deliberately as you earn it, and make sure someone senior sees the ledger.",
+   "template": "TG_PATTERN bi_jie_duo_cai · blueprint_line: Equals and money share your chart, and you lose most where you share most, with friends and family and partners."
+  }
+ },
+ {
+  "key": "TG_PATTERN guan_yin_xiang_sheng · blueprint_line",
+  "kind": "pattern_bp",
+  "page": "pairings",
+  "context": {
+   "pairing": "Rank shelters the scholar 官印相生",
+   "sides": "正官 with 正印 or 偏印",
+   "domains": [
+    "Career",
+    "Mind"
+   ],
+   "existing_reading_for_meaning_only": "A protected road runs underneath: structure keeps converting into learning for you, and position into shelter. Mentors appear inside hierarchies, promotions arrive without scandal, and your name gathers weight the slow, durable way. The only hazard is staying past a frame’s worth. Audit the ladder every few years, then climb on.",
+   "template": "TG_PATTERN bi_jie_duo_cai · blueprint_line: Equals and money share your chart, and you lose most where you share most, with friends and family and partners."
+  }
+ }
+]

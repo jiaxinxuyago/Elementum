@@ -21,7 +21,7 @@
       "Wealth"
     ],
     "defline": "The Steward lives inside your Hour Gate: underneath your later years sits a quiet habit of keeping everything provided for.",
-    "reading": "You want your later life settled, with savings kept, care arranged and nothing left to chance. Because providing is how you love, you make arrangements for others long before they are needed, and you speak through them more than through words. After your late forties the younger people around you learn thrift by watching you. Your hardest task in those years is enjoying what you have secured, and you come to it slowly.",
+    "reading": "In later life you want things settled, with savings kept, care arranged and nothing left to chance. Because providing is how you love, you make arrangements for others long before they are needed, and you keep your own sleep and meals in the same good order. Those who come after you, children or younger relatives or someone you train, learn thrift by watching you. Your hardest task in these years is enjoying what you have secured, and you come to it slowly.",
     "teaser": "Security deepens with age: the root of your late years is provision done right. Children learn thrift from you, and your estate lands where you intend it.",
     "domain_readings": {
       "Family": "Your late family rests on your provision: the root of the last decades is a household squared away, heirs taught thrift by demonstration, care funded before it is needed. Narrate the choices occasionally. The lesson outlasts the money, and it cannot be misspent.",
@@ -38,20 +38,33 @@
       "Family": {
         "headline": "Your family rests on what you quietly arrange.",
         "recognition": "You look after your family through arrangements, the bills covered and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. Your family sees the comfort and rarely the work behind it, and you prefer it that way.",
-        "lived": "Since your late forties you have been the one who keeps your family covered, with help ready before anyone asks. You have taught children or younger relatives or someone you trained to be careful with money, mostly by example.",
-        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud."
+        "lived": "You have been the one keeping your family covered since your late forties, with help ready before anyone asks. You have taught the younger people in your family to be careful with money, mostly by example.",
+        "ahead": "From your late forties the people after you rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud."
       },
       "Health": {
         "headline": "Your body does best on steady upkeep.",
-        "recognition": "You look after your body the way you look after your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early.",
-        "lived": "Since your late forties your energy has held steady because you kept your sleep and your meals in order. You have aged more gently than people who pushed hard and rested little.",
-        "ahead": "From your late forties your body repays the care you keep giving it, with steady energy and good sleep. You age slowly in these years, and you feel the benefit of every ordinary habit."
+        "recognition": "Your body gets the same care as your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early.",
+        "lived": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have kept more of it than people who pushed hard and rested little.",
+        "ahead": "Your body repays the care you keep giving it from your late forties, with steady energy and good sleep. You stay strong in these years, and you feel the benefit of every ordinary habit."
       },
       "Wealth": {
         "headline": "Your money ends up settled and secure.",
         "recognition": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more comfort available than you let yourself use.",
-        "lived": "Since your late forties your finances have settled, with reserves kept and your household untouched by hard times around you. You have spent more on others than on your own comfort in that time.",
-        "ahead": "From your late forties your money stays steady while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it."
+        "lived": "Your finances have settled since your late forties, and your household has felt the hard times around it less than most. You have spent more on others than on your own comfort in that time.",
+        "ahead": "Your money stays steady from your late forties while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "You want your later life settled, with savings kept, care arranged and nothing left to chance. Because providing is how you love, you make arrangements for others long before they are needed, and you speak through them more than through words. After your late forties the younger people around you learn thrift by watching you. Your hardest task in those years is enjoying what you have secured, and you come to it slowly.",
+        "domain_climb.Family.lived": "Since your late forties you have been the one who keeps your family covered, with help ready before anyone asks. You have taught children or younger relatives or someone you trained to be careful with money, mostly by example.",
+        "domain_climb.Family.ahead": "From your late forties the people after you, children or younger relatives or someone you train, rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud.",
+        "domain_climb.Health.recognition": "You look after your body the way you look after your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early.",
+        "domain_climb.Health.lived": "Since your late forties your energy has held steady because you kept your sleep and your meals in order. You have aged more gently than people who pushed hard and rested little.",
+        "domain_climb.Health.ahead": "From your late forties your body repays the care you keep giving it, with steady energy and good sleep. You age slowly in these years, and you feel the benefit of every ordinary habit.",
+        "domain_climb.Wealth.lived": "Since your late forties your finances have settled, with reserves kept and your household untouched by hard times around you. You have spent more on others than on your own comfort in that time.",
+        "domain_climb.Wealth.ahead": "From your late forties your money stays steady while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it."
       }
     }
   },
@@ -89,6 +102,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-3.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "You want your later life settled, with savings kept, care arranged and nothing left to chance. Because providing is how you love, you make arrangements for others long before they are needed, and you speak through them more than through words. After your late forties the younger people around you learn thrift by watching you. Your hardest task in those years is enjoying what you have secured, and you come to it slowly."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-3.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

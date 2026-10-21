@@ -33,16 +33,16 @@
 | `family_element.notAlone` | not talent alone, but everything you shape and send outward |
 | `ruling_domains` | Mind · Career · Social |
 | `decade_lines.Social.helping.ahead` | You become more outspoken in these years, and the people who like it like it a great deal. You gather an audience of your own, and you lose patience with company that asks you to be quieter. |
-| `decade_lines.Social.helping.lived` | In company you were the lively one in those years, quick with a joke and a sharp opinion. People sought you out for the spark, and you enjoyed being heard. |
-| `decade_lines.Social.heavy.lived` | Your sharp tongue cost you friends in those years, and a few groups closed ranks against you. You kept the people who liked your honesty, and those few saw you through. |
+| `decade_lines.Social.helping.lived` | In company you were the lively one in those years, quick with a joke and a sharp opinion. People sought you out for your wit, and you enjoyed being heard. |
+| `decade_lines.Social.heavy.lived` | Things you said aloud cost you friends in those years, and more than one group left you out afterwards. You kept the people who liked your honesty, and those few saw you through. |
 | `decade_lines.Social.heavy.ahead` | Bluntness strains your friendships in these years, and some people take offence at what you meant as wit. The friends who stay value your candour, and you find them worth more than a wide circle. |
 | `decade_lines.Mind.helping.ahead` | You turn your thinking outward in these years, and you say in public what you used to keep to yourself. You are quicker and bolder with ideas than at any time before. |
 | `decade_lines.Mind.helping.lived` | Ideas came fast in those years, and you spoke them aloud with confidence. You were quicker than the people around you, and you enjoyed proving it in argument. |
-| `decade_lines.Mind.heavy.lived` | Restless thinking ran through those years, and you argued with every idea that came from above. Your mind never settled, and what carried you was one project worth all that energy. |
-| `decade_lines.Mind.heavy.ahead` | Your thoughts run hot in these years, and every rule you meet invites a quarrel. Work that uses the energy keeps you clear, and you sleep better on the days you finish something. |
-| `decade_lines.Career.helping.lived` | Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who hired you wanted exactly that. |
-| `decade_lines.Career.helping.ahead` | Original work brings you recognition in these ten years. You win clients and audiences by doing what others will not, and your reputation grows on your own terms. |
-| `decade_lines.Career.heavy.lived` | Clashes with bosses marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next job each time. |
+| `decade_lines.Mind.heavy.lived` | Restless thinking ran through those years, and you argued with most ideas that came from above. Your mind rarely settled, and what carried you was one project worth all that energy. |
+| `decade_lines.Mind.heavy.ahead` | You argue with more of what you are told in these years, and every rule you meet feels like a challenge. One piece of work big enough to take all that argument carries you through, and you are calmest on the days you finish something. |
+| `decade_lines.Career.helping.lived` | Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who chose you wanted exactly that. |
+| `decade_lines.Career.helping.ahead` | Original work brings you recognition in these ten years. You win people over by doing what others will not, and your reputation grows on your own terms. |
+| `decade_lines.Career.heavy.lived` | Clashes with the people in charge marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next chance each time. |
 | `decade_lines.Career.heavy.ahead` | Authority pushes back on you in these years, and a frank remark costs more than it used to. Work that is yours alone carries you through, and you do better outside a strict chain of command. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -83,3 +83,11 @@
 | `domainSignatures.health.text` | When the output has nowhere to land, the friction turns inward. The body bears the cost of sustained structural tension between what is produced and what the environment can receive. |
 | `sixRelations` | *(unauthored)* |
 | `retired_2026-09-20_evaluation_rulings.definition_line` | Cross-current output — brilliance made of what it meets |
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.decade_lines.Social.helping.lived` | In company you were the lively one in those years, quick with a joke and a sharp opinion. People sought you out for the spark, and you enjoyed being heard. |
+| `domains_round1_retired_2026-10-21.decade_lines.Social.heavy.lived` | Your sharp tongue cost you friends in those years, and a few groups closed ranks against you. You kept the people who liked your honesty, and those few saw you through. |
+| `domains_round1_retired_2026-10-21.decade_lines.Mind.heavy.lived` | Restless thinking ran through those years, and you argued with every idea that came from above. Your mind never settled, and what carried you was one project worth all that energy. |
+| `domains_round1_retired_2026-10-21.decade_lines.Mind.heavy.ahead` | Your thoughts run hot in these years, and every rule you meet invites a quarrel. Work that uses the energy keeps you clear, and you sleep better on the days you finish something. |
+| `domains_round1_retired_2026-10-21.decade_lines.Career.helping.lived` | Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who hired you wanted exactly that. |
+| `domains_round1_retired_2026-10-21.decade_lines.Career.helping.ahead` | Original work brings you recognition in these ten years. You win clients and audiences by doing what others will not, and your reputation grows on your own terms. |
+| `domains_round1_retired_2026-10-21.decade_lines.Career.heavy.lived` | Clashes with bosses marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next job each time. |

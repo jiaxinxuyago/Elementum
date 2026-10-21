@@ -1,0 +1,1471 @@
+[
+ {
+  "key": "SEASON ji.yin · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "early spring (正月, month branch 寅)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "壬 Water (yang, the river)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "壬多：须戊作堤"
+    },
+    {
+     "stem": "庚",
+     "when": "一派甲木：庚出干"
+    },
+    {
+     "stem": "甲",
+     "when": "一派戊土：甲出制"
+    },
+    {
+     "stem": "丁",
+     "when": "甲多无庚：宜用丁洩"
+    }
+   ],
+   "classical": "正月己土，田园犹冻，盖因腊气未除，余寒未退，故丙为尊。得丙照暖，万物自生，忌见壬水，反为己病",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.mao · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "mid-spring (二月, month branch 卯)",
+   "asks_first": [
+    "甲 Wood (yang, the tree)",
+    "癸 Water (yin, the rain)"
+   ],
+   "asks_also": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "avoids": [
+    "壬 Water (yang, the river)"
+   ],
+   "conditional": [
+    {
+     "stem": "丁",
+     "when": "支成木局、乙多屈庚：用丁洩之"
+    }
+   ],
+   "classical": "二月己土，阳气渐升，虽禾稼未成，万物出土，田园未展，先取甲木疏之，忌合。次取癸水润之。甲癸出干，定主科甲，加以一丙出透，势压百僚。一见壬水，微末官职。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.chen · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "late spring (三月, month branch 辰)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)",
+    "癸 Water (yin, the rain)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "conditional": [],
+   "classical": "三月己土，正栽培禾稼之时，先丙后癸，土暖而润，随用甲疏，三者俱透天干，必官居黄阁。……却以庚金为病。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.si · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "early summer (四月, month branch 巳)",
+   "asks_first": [
+    "癸 Water (yin, the rain)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [
+    {
+     "stem": "壬",
+     "when": "有丙无癸：有壬亦可"
+    }
+   ],
+   "classical": "三夏己土，杂气才官，禾稼在田，最喜甘沛，取癸为要，次用丙火。……或丙癸两透，又加辛金生癸，此富贵之格，名水火既济，鼎甲之人。却忌戊癸化合。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.wu · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "midsummer (五月, month branch 午)",
+   "asks_first": [
+    "癸 Water (yin, the rain)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [
+    {
+     "stem": "壬",
+     "when": "有丙无癸：有壬亦可"
+    }
+   ],
+   "classical": "三夏己土，杂气才官，禾稼在田，最喜甘沛，取癸为要，次用丙火。……却忌戊癸化合。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.wei · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "late summer (六月, month branch 未)",
+   "asks_first": [
+    "癸 Water (yin, the rain)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [
+    {
+     "stem": "壬",
+     "when": "有丙无癸：有壬亦可"
+    }
+   ],
+   "classical": "三夏己土，杂气才官，禾稼在田，最喜甘沛，取癸为要，次用丙火。……却忌戊癸化合。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.shen · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "early autumn (七月, month branch 申)",
+   "asks_first": [
+    "癸 Water (yin, the rain)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [],
+   "classical": "须丙火温之，癸水润之，不特此也，且癸能洩金，丙能制金，补土精神，则秋生之物咸茂矣。癸先丙后。……总之，三秋己土，先癸后丙，取辛辅癸。……见戊透者，主遭凶厄且贫。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.you · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "mid-autumn (八月, month branch 酉)",
+   "asks_first": [
+    "癸 Water (yin, the rain)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [
+    {
+     "stem": "丙",
+     "when": "支成金局：丙透丁藏，生己元神"
+    },
+    {
+     "stem": "丁",
+     "when": "支成金局：丙丁出救"
+    }
+   ],
+   "classical": "总之，三秋己土，先癸后丙，取辛辅癸。……八月支成金局，无丙丁出救，此人零丁孤苦。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.xu · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "late autumn (九月, month branch 戌)",
+   "asks_first": [
+    "甲 Wood (yang, the tree)",
+    "癸 Water (yin, the rain)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [],
+   "classical": "总之，三秋己土，先癸后丙，取辛辅癸。九月土盛，宜甲木疏之，余皆酌用。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.hai · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "early winter (十月, month branch 亥)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [
+    "癸 Water (yin, the rain)",
+    "壬 Water (yang, the river)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "初冬壬旺：取戊制之"
+    }
+   ],
+   "classical": "三冬己土，溼泥寒冻，非丙暖不生，取丙为尊，甲木参酌。戊土癸水不用。惟初冬壬旺，取戊制之。……见壬水出干，为水浸湖田，此人孤苦。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.zi · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "midwinter (十一月, month branch 子)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [
+    "癸 Water (yin, the rain)",
+    "壬 Water (yang, the river)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "多壬水：得戊透制之"
+    },
+    {
+     "stem": "丁",
+     "when": "无丙用丁，但丁不能解冻除寒"
+    }
+   ],
+   "classical": "三冬己土，溼泥寒冻，非丙暖不生，取丙为尊，甲木参酌。戊土癸水不用。……或多壬水，得戊透制之，此命安然",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ji.chou · reading",
+  "kind": "season",
+  "page": "season-ji",
+  "context": {
+   "dayMaster": "己 Earth (yin, the field)",
+   "born": "late winter (十二月, month branch 丑)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [
+    "癸 Water (yin, the rain)",
+    "壬 Water (yang, the river)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "多壬水：得戊透制之"
+    },
+    {
+     "stem": "丁",
+     "when": "一片辛庚：须丙，还须丁火为助"
+    }
+   ],
+   "classical": "三冬己土，溼泥寒冻，非丙暖不生，取丙为尊，甲木参酌。戊土癸水不用。……或一派辛庚，须用丙火，还须丁火为助。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.yin · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "early spring (正月, month branch 寅)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "avoids": [
+    "癸 Water (yin, the rain)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "火多则用土"
+    },
+    {
+     "stem": "壬",
+     "when": "支成火局：壬透有根"
+    }
+   ],
+   "classical": "正月庚金，木旺之际，有土皆死，不能生金，且金之寒气未除，先用丙暖庚性，又虑土厚埋金，须甲疏洩。……或丙遭癸困，无戊制者亦然。……总之，正月庚金，丙甲为上，丁火次之。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.mao · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "mid-spring (二月, month branch 卯)",
+   "asks_first": [
+    "丁 Fire (yin, the flame)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [
+    "乙 Wood (yin, the vine)",
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [
+    {
+     "stem": "丙",
+     "when": "无丁用丙（富贵多出于勉强）"
+    }
+   ],
+   "classical": "故二月庚金，专用丁火，借甲引丁，借庚噼甲。无丁用丙者，富贵多出于勉强。……乙木虽多，又忌溼乙伤丁……死金嫌盖顶之泥，重见戊土",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.si · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "early summer (四月, month branch 巳)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "戊 Earth (yang, the mountain)"
+   ],
+   "asks_also": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "丁",
+     "when": "支成金局，变弱为强：用丁方妙"
+    }
+   ],
+   "classical": "四月庚金，长生于巳，巳内有戊。丙不镕金，故不畏火炎，丙亦可作用，但先壬水，方得中和……次取戊土，丙火佐之。……四月庚金，须用壬丙戊，但非拘执先后，宜分病用药。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.wu · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "midsummer (五月, month branch 午)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "癸 Water (yin, the rain)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "戊 Earth (yang, the mountain)",
+    "己 Earth (yin, the field)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "支成火局、无壬癸：戊己出干补金洩火"
+    },
+    {
+     "stem": "己",
+     "when": "同上"
+    }
+   ],
+   "classical": "五月庚金，丁火旺烈，庚金败地，专用壬水，癸又次之。……切忌戊己透干制水",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.wei · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "late summer (六月, month branch 未)",
+   "asks_first": [
+    "丁 Fire (yin, the flame)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "癸 Water (yin, the rain)"
+   ],
+   "conditional": [
+    {
+     "stem": "甲",
+     "when": "支会土局：甲先丁后"
+    }
+   ],
+   "classical": "六月庚金，三伏生寒，顽钝极矣，先用丁火，次取甲木。丁甲两透名显身荣，忌癸伤丁。……支会土局，甲先丁后。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.shen · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "early autumn (七月, month branch 申)",
+   "asks_first": [
+    "丁 Fire (yin, the flame)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "壬 Water (yang, the river)",
+    "癸 Water (yin, the rain)"
+   ],
+   "conditional": [
+    {
+     "stem": "丙",
+     "when": "支成水局：乏丁用丙"
+    },
+    {
+     "stem": "甲",
+     "when": "支成土局：先甲后丁"
+    }
+   ],
+   "classical": "七月庚金，刚锐极矣。专用丁火煅炼，次取甲木引丁，故曰：秋金锐锐最为奇，壬癸相逢总不宜",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.you · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "mid-autumn (八月, month branch 酉)",
+   "asks_first": [
+    "丁 Fire (yin, the flame)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "八月庚金，刚锐未退，用丁用甲，丙不可少。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.xu · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "late autumn (九月, month branch 戌)",
+   "asks_first": [
+    "甲 Wood (yang, the tree)",
+    "壬 Water (yang, the river)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "己 Earth (yin, the field)"
+   ],
+   "conditional": [
+    {
+     "stem": "丙",
+     "when": "支成水局：丙透救之"
+    }
+   ],
+   "classical": "九月庚金，戊土司令，最怕土厚埋金，宜先用甲疏，后用壬洗，则金自出矣。忌见己土浊壬。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.hai · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "early winter (十月, month branch 亥)",
+   "asks_first": [
+    "丁 Fire (yin, the flame)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "己",
+     "when": "支见亥子：得己出制"
+    }
+   ],
+   "classical": "十月庚金，水冷性寒，非丁莫造，非丙不暖。丁甲两透，支无水局，一榜有之。……书曰：水冷金寒爱丙丁。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.zi · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "midwinter (十一月, month branch 子)",
+   "asks_first": [
+    "丁 Fire (yin, the flame)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "avoids": [
+    "癸 Water (yin, the rain)"
+   ],
+   "conditional": [],
+   "classical": "十一月庚金，天气严寒，仍取丁甲，次取丙火照暖。……若见癸透。一介寒儒。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON geng.chou · reading",
+  "kind": "season",
+  "page": "season-geng",
+  "context": {
+   "dayMaster": "庚 Metal (yang, the blade)",
+   "born": "late winter (十二月, month branch 丑)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)",
+    "丁 Fire (yin, the flame)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "十二月庚金，寒气太重，且多湿泥，愈寒愈冻，先取丙火解冻，次取丁火炼金，甲亦不可少。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.yin · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "early spring (正月, month branch 寅)",
+   "asks_first": [
+    "己 Earth (yin, the field)",
+    "壬 Water (yang, the river)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "conditional": [
+    {
+     "stem": "丙",
+     "when": "支成水局、不见丙火：得丙照暖"
+    }
+   ],
+   "classical": "忌甲木司权，辛金失令，取己土为生身之本，欲得辛金发现，全赖壬水之功……故正月辛金，先己后壬。己为君，庚为佐。如用丙火须参看。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.mao · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "mid-spring (二月, month branch 卯)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "戊 Earth (yang, the mountain)",
+    "己 Earth (yin, the field)"
+   ],
+   "conditional": [
+    {
+     "stem": "庚",
+     "when": "支成木局洩尽壬水：有庚富贵"
+    },
+    {
+     "stem": "戊",
+     "when": "壬水重重：得戊反吉"
+    }
+   ],
+   "classical": "二月辛金，阳和之际，壬水为尊，见戊己为病。得甲制伏，则辛金不致埋没，壬水不致混浊",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.chen · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "late spring (三月, month branch 辰)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "conditional": [
+    {
+     "stem": "癸",
+     "when": "月时皆丙争合：癸出干制丙"
+    }
+   ],
+   "classical": "三月辛金，戊土司令，辛承正气，母旺子相，先壬后甲。……所忌者丙贪合也",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.si · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "early summer (四月, month branch 巳)",
+   "asks_first": [
+    "壬 Water (yang, the river)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)",
+    "癸 Water (yin, the rain)"
+   ],
+   "avoids": [
+    "丙 Fire (yang, the sun)",
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [],
+   "classical": "四月辛金，时逢首夏，忌丙火之燥烈，喜壬水之洗淘。支成金局，水透出干，有木制戊，名一清澈底，科甲功名。……有戊常人。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.wu · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "midsummer (五月, month branch 午)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "己 Earth (yin, the field)"
+   ],
+   "asks_also": [
+    "癸 Water (yin, the rain)"
+   ],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "甲",
+     "when": "水土多见：见甲方妙"
+    },
+    {
+     "stem": "庚",
+     "when": "癸出有庚"
+    }
+   ],
+   "classical": "五月辛金，丁火司权，辛金失令，阴柔之极，不宜煅炼，须己壬兼用……故壬己并用。无壬、癸亦可用。但癸力小。……五月辛金，壬、癸、己、三者皆用。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.wei · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "late summer (六月, month branch 未)",
+   "asks_first": [
+    "壬 Water (yang, the river)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [
+    {
+     "stem": "甲",
+     "when": "戊出：得甲制之（甲须隔位）"
+    }
+   ],
+   "classical": "六月辛金，己土当权，辅助太多，恐掩金光，先用壬水，取庚佐之。……但忌戊出，得甲制之，方吉。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.shen · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "early autumn (七月, month branch 申)",
+   "asks_first": [
+    "壬 Water (yang, the river)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)",
+    "戊 Earth (yang, the mountain)"
+   ],
+   "avoids": [
+    "癸 Water (yin, the rain)"
+   ],
+   "conditional": [],
+   "classical": "七月辛金，壬不在多，故书云：水浅金多，号曰体全之象，壬水为尊，甲戊酌用可也，癸水不可为用。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.you · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "mid-autumn (八月, month branch 酉)",
+   "asks_first": [
+    "壬 Water (yang, the river)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "戊 Earth (yang, the mountain)",
+    "己 Earth (yin, the field)"
+   ],
+   "conditional": [
+    {
+     "stem": "甲",
+     "when": "见戊己：甲制土（无戊不宜用甲）"
+    },
+    {
+     "stem": "丁",
+     "when": "支成金局、无壬淘洗：宜用丁"
+    }
+   ],
+   "classical": "八月辛金，当权得令，旺之极矣，专用壬水淘洗……如见戊己，则生扶太过，故以土为病，见甲制土、方妙。无戊、不宜用甲。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.xu · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "late autumn (九月, month branch 戌)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "戊 Earth (yang, the mountain)",
+    "己 Earth (yin, the field)",
+    "丙 Fire (yang, the sun)",
+    "丁 Fire (yin, the flame)"
+   ],
+   "conditional": [],
+   "classical": "九月辛金，戊土司令，母旺子相，须甲疏土，壬洩旺金，先壬后甲。……九月辛金，火土为病，水木为药。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.hai · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "early winter (十月, month branch 亥)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "壬多：须戊（壬多无戊名辛水汪洋）"
+    }
+   ],
+   "classical": "十月辛金，时值小阳，阳气渐升，寒气将降，先用壬水，次取丙火……十月辛金，先壬后丙，余皆参用。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.zi · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "midwinter (十一月, month branch 子)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "戊 Earth (yang, the mountain)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [
+    "癸 Water (yin, the rain)"
+   ],
+   "conditional": [],
+   "classical": "十一月辛金，癸水司令，为寒冬雨露，切忌癸出冻金，而困丙火，壬丙两透，不见戊癸，衣锦腰金。……或壬多有戊，丙甲出干者，青云之客。……冬月辛金，须丙温暖方妙。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON xin.chou · reading",
+  "kind": "season",
+  "page": "season-xin",
+  "context": {
+   "dayMaster": "辛 Metal (yin, the jewel)",
+   "born": "late winter (十二月, month branch 丑)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)",
+    "壬 Water (yang, the river)"
+   ],
+   "asks_also": [
+    "戊 Earth (yang, the mountain)",
+    "己 Earth (yin, the field)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "十二月辛金，寒冻之极，先丙后壬，无丙不能解冻，无壬不能洗淘。……十二月辛金，丙先壬后，戊己次之。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.yin · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "early spring (正月, month branch 寅)",
+   "asks_first": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "asks_also": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "见比劫：戊透制之"
+    }
+   ],
+   "classical": "正月壬水，汪洋之象，能并百川之流，然水性柔弱，宜用庚金之源……凡壬日无比肩羊刃者，不必用戊，专用庚金，以丙为佐。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.mao · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "mid-spring (二月, month branch 卯)",
+   "asks_first": [
+    "戊 Earth (yang, the mountain)",
+    "辛 Metal (yin, the jewel)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "二月壬水，寒气初除，有并流之象，不用丙暖，专取戊土辛金。二月壬水，先戊后辛，庚金次之。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.chen · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "late spring (三月, month branch 辰)",
+   "asks_first": [
+    "甲 Wood (yang, the tree)",
+    "庚 Metal (yang, the blade)"
+   ],
+   "asks_also": [],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "丙",
+     "when": "水旺多见庚金：须丙制之"
+    },
+    {
+     "stem": "癸",
+     "when": "有癸滋甲"
+    }
+   ],
+   "classical": "三月壬水，戊土司权，恐有推山填海之患，先用甲疏季土，次取庚金。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.si · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "early summer (四月, month branch 巳)",
+   "asks_first": [
+    "壬 Water (yang, the river)",
+    "辛 Metal (yin, the jewel)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "癸",
+     "when": "癸辛两出、加以甲透：癸代壬为比劫"
+    }
+   ],
+   "classical": "四月壬水，丙火司权，水弱极矣，专取壬水比肩为助，次取辛金发源，且暗合丙火，庚金为佐。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.wu · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "midsummer (五月, month branch 午)",
+   "asks_first": [
+    "癸 Water (yin, the rain)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)",
+    "辛 Metal (yin, the jewel)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "五月壬水，丁旺壬弱，取癸为用，取庚为佐。无庚不能发水，无癸不能伤丁。五月壬水，辛癸亦可参用",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.wei · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "late summer (六月, month branch 未)",
+   "asks_first": [
+    "辛 Metal (yin, the jewel)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [
+    "癸 Water (yin, the rain)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "六月壬水，己土当权，丁火退气，先用辛金癸水，次用甲木噼土。六月壬水，先辛后甲，次取癸水。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.shen · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "early autumn (七月, month branch 申)",
+   "asks_first": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "asks_also": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "avoids": [
+    "癸 Water (yin, the rain)"
+   ],
+   "conditional": [],
+   "classical": "七月壬水，庚金司令，壬得申之长生，源流自远，转弱为强，专用戊土，次取丁火佐戊制庚。……特忌戊癸化合。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.you · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "mid-autumn (八月, month branch 酉)",
+   "asks_first": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "天干有壬、支见申亥：戊土作用"
+    }
+   ],
+   "classical": "八月壬水，辛金司权，正金白水清，忌戊土为病，专用甲木。……八月壬水，专用甲木，庚金次之。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.xu · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "late autumn (九月, month branch 戌)",
+   "asks_first": [
+    "甲 Wood (yang, the tree)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "己 Earth (yin, the field)",
+    "庚 Metal (yang, the blade)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "水多乏丙：又用戊土"
+    }
+   ],
+   "classical": "九月壬水，专用甲木，次用丙火。……或一派戊土，无一己庚杂乱，得一甲透时干。玉堂清贵",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.hai · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "early winter (十月, month branch 亥)",
+   "asks_first": [
+    "戊 Earth (yang, the mountain)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "conditional": [],
+   "classical": "十月壬水司权，至旺之极，取戊为用……又须庚制甲，不伤戊土……十月壬水、专用戊丙，次取庚金。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.zi · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "midwinter (十一月, month branch 子)",
+   "asks_first": [
+    "戊 Earth (yang, the mountain)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "conditional": [],
+   "classical": "十一月壬水，阳刃帮身，较前更旺，先取戊土，次用丙火……或丁出时干，名为争合，主名利难成。……十一月壬水，丙戊并用。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON ren.chou · reading",
+  "kind": "season",
+  "page": "season-ren",
+  "context": {
+   "dayMaster": "壬 Water (yang, the river)",
+   "born": "late winter (十二月, month branch 丑)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "丁 Fire (yin, the flame)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "甲",
+     "when": "下半月己土主事：甲木佐之"
+    }
+   ],
+   "classical": "上半月癸辛主事，故旺，专用丙火。下半月己土主事，故衰。亦用丙火，甲木佐之。……腊月壬水，先取丙火，丁甲为佐",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.yin · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "early spring (正月, month branch 寅)",
+   "asks_first": [
+    "辛 Metal (yin, the jewel)",
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "正月癸水，值三阳之候，雨露之精，其性至柔，先用辛金，生癸水之源，次用丙火照暖……正月癸水，辛金为主，庚金次之，丙亦不可少。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.mao · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "mid-spring (二月, month branch 卯)",
+   "asks_first": [
+    "庚 Metal (yang, the blade)",
+    "辛 Metal (yin, the jewel)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "conditional": [],
+   "classical": "二月癸水，不刚不柔，乙木司令，洩弱元神，专以庚金为用，辛金次之。庚辛俱透，无丁出干者，贵由科甲。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.chen · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "late spring (三月, month branch 辰)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "辛 Metal (yin, the jewel)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "三月癸水，要分清明谷雨。清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。……三月癸水，辛甲皆酌用。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.si · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "early summer (四月, month branch 巳)",
+   "asks_first": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "asks_also": [
+    "庚 Metal (yang, the blade)"
+   ],
+   "avoids": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "conditional": [
+    {
+     "stem": "壬",
+     "when": "一派火土：庚壬两透洩制火土"
+    }
+   ],
+   "classical": "四月癸水，喜辛金为用，无辛用庚。若辛高透，不见丁火，加以壬透，主科名荣贵……若有丁破格，贫无立锥，有壬可免。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.wu · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "midsummer (五月, month branch 午)",
+   "asks_first": [
+    "庚 Metal (yang, the blade)",
+    "辛 Metal (yin, the jewel)"
+   ],
+   "asks_also": [
+    "壬 Water (yang, the river)",
+    "癸 Water (yin, the rain)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "五月癸水，至弱无根，必须庚辛为生身之本，但丁火司权，金难敌火，安能滋养癸水，宜见比劫，方得辛金之用。五月癸水，庚辛壬参酌并用可也。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.wei · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "late summer (六月, month branch 未)",
+   "asks_first": [
+    "庚 Metal (yang, the blade)",
+    "辛 Metal (yin, the jewel)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "conditional": [
+    {
+     "stem": "壬",
+     "when": "上半月金神衰弱：宜比劫助身"
+    },
+    {
+     "stem": "癸",
+     "when": "上半月：宜比劫助身"
+    }
+   ],
+   "classical": "六月癸水，有上下月之分。下半月庚辛有气，上半月庚辛休囚。……所以专用庚辛。如上半月金神衰弱，火气炎烈，宜比劫助身……又忌丁透",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.shen · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "early autumn (七月, month branch 申)",
+   "asks_first": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "asks_also": [
+    "甲 Wood (yang, the tree)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "但庚司令刚锐极矣，必取丁火为用。或丁透有甲，名有燄之火，必主科甲。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.you · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "mid-autumn (八月, month branch 酉)",
+   "asks_first": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "asks_also": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "avoids": [],
+   "conditional": [],
+   "classical": "八月癸水，辛金虚灵，非顽金可比，正金白水清，故取辛金为用，丙火佐之。名水暖金温。……八月癸水，丙辛皆用。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.xu · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "late autumn (九月, month branch 戌)",
+   "asks_first": [
+    "辛 Metal (yin, the jewel)",
+    "甲 Wood (yang, the tree)"
+   ],
+   "asks_also": [
+    "癸 Water (yin, the rain)"
+   ],
+   "avoids": [
+    "戊 Earth (yang, the mountain)"
+   ],
+   "conditional": [
+    {
+     "stem": "壬",
+     "when": "有甲见壬：颇许衣衿"
+    }
+   ],
+   "classical": "九月癸水，失令无根，戊土司权，剋制太过，专用辛金发水之源，要比肩滋甲制戊方妙。……九月癸水，辛甲并用。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.hai · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "early winter (十月, month branch 亥)",
+   "asks_first": [
+    "庚 Metal (yang, the blade)",
+    "辛 Metal (yin, the jewel)"
+   ],
+   "asks_also": [],
+   "avoids": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "conditional": [
+    {
+     "stem": "戊",
+     "when": "一派壬水：得戊透"
+    },
+    {
+     "stem": "丁",
+     "when": "一派庚辛：得丁出制"
+    }
+   ],
+   "classical": "十月癸水，旺中有弱，何也？因亥摇木，洩散元神，宜用庚辛为妙。得庚辛两透，不见丁伤者，功名有准。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.zi · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "midwinter (十一月, month branch 子)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "辛 Metal (yin, the jewel)"
+   ],
+   "avoids": [
+    "壬 Water (yang, the river)",
+    "癸 Water (yin, the rain)"
+   ],
+   "conditional": [],
+   "classical": "十一月癸水，值冰冻之时，金水无交欢之象，专用丙火解冻，庶不致成冰，又要辛金滋扶，无丙有辛，不妙。……要不见壬癸",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ },
+ {
+  "key": "SEASON gui.chou · reading",
+  "kind": "season",
+  "page": "season-gui",
+  "context": {
+   "dayMaster": "癸 Water (yin, the rain)",
+   "born": "late winter (十二月, month branch 丑)",
+   "asks_first": [
+    "丙 Fire (yang, the sun)"
+   ],
+   "asks_also": [
+    "丁 Fire (yin, the flame)"
+   ],
+   "avoids": [],
+   "conditional": [
+    {
+     "stem": "庚",
+     "when": "支成火局：庚辛透"
+    },
+    {
+     "stem": "辛",
+     "when": "支成火局：庚辛透"
+    }
+   ],
+   "classical": "十二月癸水，寒极成冰，万物不能舒泰，宜丙火解冻。……有丁出、颇吉。",
+   "template": "SEASON geng.chen · reading: You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  }
+ }
+]

@@ -37,7 +37,7 @@
         "id": "bijian_hour_stem",
         "key": "比肩在时干",
         "canonical_name": "The Twin at the Hour Gate",
-        "value": "The Twin stands at your Hour Gate, in plain view: people see you grow old on your own terms."
+        "value": "The Twin stands at your Hour Gate, in plain view: people see you run your later life on your own terms."
       },
       {
         "id": "bijian_hour_branch",
@@ -103,7 +103,7 @@
         "id": "shishen_month_stem",
         "key": "食神在月干",
         "canonical_name": "The Artisan at the Month Gate",
-        "value": "The Artisan stands at your Month Gate, in plain view: at work you are known as the easy, gifted maker."
+        "value": "The Artisan stands at your Month Gate, in plain view: at work and among friends you are known as the easy, gifted maker."
       },
       {
         "id": "shishen_month_branch",
@@ -145,7 +145,7 @@
         "id": "shangguan_month_stem",
         "key": "伤官在月干",
         "canonical_name": "The Virtuoso at the Month Gate",
-        "value": "The Virtuoso stands at your Month Gate, in plain view: at work you are seen as gifted and hard to manage."
+        "value": "The Virtuoso stands at your Month Gate, in plain view: at work and among friends you are seen as gifted and hard to manage."
       },
       {
         "id": "shangguan_month_branch",
@@ -385,7 +385,7 @@
         "id": "zhengyin_year_stem",
         "key": "正印在年干",
         "canonical_name": "The Sage at the Year Gate",
-        "value": "The Sage stands at your Year Gate, in plain view: your childhood showed the world that you were well protected."
+        "value": "The Sage stands at your Year Gate, in plain view: as a child you were seen to be well looked after and well taught."
       },
       {
         "id": "zhengyin_year_branch",

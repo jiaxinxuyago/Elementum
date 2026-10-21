@@ -21,7 +21,7 @@
       "Social"
     ],
     "defline": "The Rival holds your strongest seat, inside your Month Gate: your working years are built on risk and on people who share it.",
-    "reading": "Underneath your working years is a need to have something at stake, and waiting has always felt riskier to you than acting. Because you measure yourself against the people beside you, you do your best work where results are counted in public and shared with partners. Your income arrives in bursts and much of it goes on the people around you, and your prime builds more than it keeps.",
+    "reading": "Underneath what you do for a living is a need to have something at stake, and waiting has always felt riskier than acting. Because you measure yourself against the people beside you, you do your best work where results are counted in public and shared with partners. Your colleagues and your friends end up as one circle, and your income arrives in surges that you spend on them as fast as it comes. You build more than you keep, and it rarely troubles you.",
     "teaser": "Under your working life runs a gambler’s pulse: bold moves feel safer to you than waiting. Midlife pays your courage well once partners stop holding your purse.",
     "domain_readings": {
       "Career": "Your career pulse is a gambler’s: bold moves feel safer than waiting, and the deep engine of your prime runs on stakes. Sales, ventures, turnarounds, anything scored in public suits the wiring. Pair with one patient operator and your daring becomes a business instead of a story.",
@@ -38,17 +38,29 @@
       "Career": {
         "headline": "You work best with something real at stake.",
         "recognition": "You are at your sharpest in jobs with clear stakes, sales or ventures or anything where the score is public. Because you need to feel the risk to feel awake, you move first and sort out the rest afterwards. Your bold moves pay best beside a colleague who checks the details, and you have little patience for the checking yourself.",
-        "lived": "Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have never once wished for a duller job."
+        "lived": "Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have rarely wished for a duller job."
       },
       "Wealth": {
         "headline": "Your money comes in bursts, and leaves with friends.",
-        "recognition": "Money reaches you suddenly and leaves with the people you celebrate with, a friend's venture or a round for the table. Because generosity is how you show you belong, you lend before you are asked and count only later. Your savings stay thin through the good years as well as the lean ones, and you feel it most after a win.",
-        "lived": "From your late teens your income has come in surges, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it."
+        "recognition": "Money reaches you suddenly and leaves with the people you celebrate with, a friend's venture or a round for the table. Because generosity is how you show you belong, you lend before you are asked and count only later. You save less than you mean to in the good years as well as the lean ones, and you feel it most after a win.",
+        "lived": "Your income has arrived unevenly from your late teens, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it."
       },
       "Social": {
-        "headline": "Your friends and your work are the same circle.",
-        "recognition": "Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because your confidence is catching, others join your plans quickly. You find the warmth real on both sides, and you also lose money and friendships when a shared plan goes wrong.",
-        "lived": "Since your late teens your closest friends have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money."
+        "headline": "Work and friendship are one circle for you.",
+        "recognition": "Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because you trust the people you enjoy, you agree to shared plans before the terms are clear. When one of those plans fails, you lose the friend along with the money.",
+        "lived": "Your closest friends since your late teens have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Underneath your working years is a need to have something at stake, and waiting has always felt riskier to you than acting. Because you measure yourself against the people beside you, you do your best work where results are counted in public and shared with partners. Your income arrives in bursts and much of it goes on the people around you, and your prime builds more than it keeps.",
+        "domain_climb.Career.lived": "Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have never once wished for a duller job.",
+        "domain_climb.Wealth.recognition": "Money reaches you suddenly and leaves with the people you celebrate with, a friend's venture or a round for the table. Because generosity is how you show you belong, you lend before you are asked and count only later. Your savings stay thin through the good years as well as the lean ones, and you feel it most after a win.",
+        "domain_climb.Wealth.lived": "From your late teens your income has come in surges, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it.",
+        "domain_climb.Social.headline": "Your friends and your work are the same circle.",
+        "domain_climb.Social.recognition": "Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because your confidence is catching, others join your plans quickly. You find the warmth real on both sides, and you also lose money and friendships when a shared plan goes wrong.",
+        "domain_climb.Social.lived": "Since your late teens your closest friends have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money."
       }
     }
   },
@@ -86,6 +98,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-1.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Underneath your working years is a need to have something at stake, and waiting has always felt riskier to you than acting. Because you measure yourself against the people beside you, you do your best work where results are counted in public and shared with partners. Your income arrives in bursts and much of it goes on the people around you, and your prime builds more than it keeps."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

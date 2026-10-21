@@ -26,5 +26,12 @@
 | `target_domains` | Wealth |
 | `line` | Self stars and wealth stars share your pillars, the classic contested purse. Money does best held plainly in your name: partnerships loosen it, lending blurs it, and generosity deserves its own budget line. |
 | `reading` | One law runs underneath your money: it attracts company. Friends with ventures, family with needs, partners with opinions, and it thins wherever ownership blurs. The same people would also carry you through droughts no bank would. So formalize every shared asset, price your generosity yearly, and keep one account whose shape nobody knows. |
-| `fused_line` | They share one gate in you, and you rarely own anything that is only yours. |
+| `fused_line` | In you this runs close to home, and you rarely own anything that is only yours. |
 | `domain_lines.Wealth` | You lose money most easily where you share it with friends and family, and you also find your safety net among those same people. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.fused_line` | They share one gate in you, and you rarely own anything that is only yours. |

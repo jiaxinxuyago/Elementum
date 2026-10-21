@@ -24,7 +24,7 @@
 | `slot_kind` | stem |
 | `domains` | Mind · Social |
 | `defline` | The Alchemist stands at your Year Gate, in plain view: as a child you were seen as watchful, deep and a little apart. |
-| `reading` | You were the child who watched before joining in, and adults noticed how differently you learned. Because you took in the world on your own terms, adults found you older than your years and other children found you hard to read. That early difference became the way people still see you, thoughtful and selective and slow to open up. You keep a few close friends in place of a crowd, and you have never regretted the trade. |
+| `reading` | Adults noticed early that you learned differently from other children, and some of them were unsure what to make of it. Because you took in the world on your own terms, teachers found you older than your years and other children found you hard to read. That early difference still shapes how people see you, thoughtful and selective and slow to open up. You let a few friends close in place of a crowd, and you have not regretted the trade. |
 | `teaser` | You were the watchful child, visibly different in how you learned. Your path stays unconventional: the strange skills gathered early become the livelihood nobody predicted. |
 | `domain_readings.Mind` | Your mind was visibly different from the start: reading sideways, learning at strange angles, arriving at answers by unlisted roads. It remains your public signature, the odd lens people eventually pay for. Feed it strangeness on schedule. Ordinary inputs starve extraordinary instruments. |
 | `domain_readings.Social` | You run selective and always have: three real people over thirty acquaintances, depth over circulation. The watchful child became the adult others confide in precisely because you are not everywhere. Keep the ratio. Your social wealth was never meant to be liquid. |
@@ -38,5 +38,14 @@
 | `domain_climb.Mind.recognition` | You come at problems from an unexpected direction, and people notice the answer before they understand the route. Because your mind took its own path from the start, you get bored by the obvious approach and drift toward the strange one. Your way of thinking is the first thing people remember about you. |
 | `domain_climb.Mind.lived` | As a child you learned in a way teachers struggled to mark, reaching the right answer by a route nobody had taught. By your teens you were known for it, as the clever one or the odd one, and you were both. |
 | `domain_climb.Social.headline` | You choose a small circle and keep it close. |
-| `domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. You find parties tiring and long talks restoring. |
-| `domain_climb.Social.lived` | As a child you stood at the edge of groups for a long time, and other children took a while to warm to you. By your teens you had one or two close friends who understood you, and you needed nobody else. |
+| `domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. Only a few people know you well, and you chose it that way. |
+| `domain_climb.Social.lived` | Other children took a while to warm to you as a child, because you stood at the edge of groups for a long time first. By your teens you had one or two close friends who understood you, and they were enough for you. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
+| `domains_round1_retired_2026-10-21.reading` | You were the child who watched before joining in, and adults noticed how differently you learned. Because you took in the world on your own terms, adults found you older than your years and other children found you hard to read. That early difference became the way people still see you, thoughtful and selective and slow to open up. You keep a few close friends in place of a crowd, and you have never regretted the trade. |
+| `domains_round1_retired_2026-10-21.domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. You find parties tiring and long talks restoring. |
+| `domains_round1_retired_2026-10-21.domain_climb.Social.lived` | As a child you stood at the edge of groups for a long time, and other children took a while to warm to you. By your teens you had one or two close friends who understood you, and you needed nobody else. |

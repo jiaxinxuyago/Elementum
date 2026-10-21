@@ -20,7 +20,7 @@
       "Social"
     ],
     "defline": "The Twin lives inside your Day Gate, the seat of your partner: you love as an equal, and only as an equal.",
-    "reading": "At close range you need a partner who stands as tall as you, and you have never stayed long with someone who leans. Because equality is how you feel respected, your home runs with two people deciding and neither one in charge. The cost is a quiet tally of who did what, kept by both of you and spoken by neither. From your mid-thirties your private life settles around one level bond, and you grow easier about being looked after inside it.",
+    "reading": "At home you want two people deciding and neither one in charge, and you lose patience with a partner who leans on you for every choice. Because equality is how you feel respected, you track who conceded the last argument, and you rarely say so. Your friendships run on the same level terms, and you keep the friends a partner also respects. You grow easier about being looked after once someone has proved they stand level with you.",
     "teaser": "In love you need an equal, someone with a spine that matches yours. Marriage will feel like a partnership of captains, and it works when neither keeps score.",
     "domain_readings": {
       "Love": "In love you need a spine that matches yours: romance built on leaning never holds you, and admiration is your real aphrodisiac. The marriage that works is two captains with one map. Practice being carried occasionally. It is the single hardest and most bonding move available to you.",
@@ -36,14 +36,24 @@
       "Love": {
         "headline": "You love best as an equal, or not at all.",
         "recognition": "You fall for people with their own opinions and their own plans, and you lose interest in anyone who needs you to lead. Because a matched partner makes you feel safe, you argue as an equal and keep count of who gave way last. You find it harder to be carried by a partner, even for a day, than to win any argument.",
-        "lived": "The partners who have mattered to you so far were strong-willed people with lives of their own, never ones who leaned. More than once a good relationship of yours turned into a contest over small things, and you kept the score as carefully as they did.",
-        "ahead": "From your mid-thirties love settles into a partnership between two people who each run their own lives. Over these years the tally between you grows shorter, and you find you can lean on a partner without feeling smaller."
+        "lived": "The partners who mattered most to you were strong-willed people with lives of their own, and the ones who leaned did not last. A good relationship of yours turned into a contest at least once, over who apologised first, and you kept that score as carefully as they did.",
+        "ahead": "Love settles from your mid-thirties into a partnership between two people who each run their own lives. Over these years the tally between you grows shorter, and you find you can lean on a partner without feeling smaller."
       },
       "Social": {
         "headline": "Your friends are shared, few and loyal.",
-        "recognition": "Your closest friends are the ones you and a partner both respect, other couples and old friends who treat your home as a unit. Because respect is the only thing that keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle, and every person in it has earned their place.",
-        "lived": "So far your friendships have been between equals, people who never needed you to rescue them. The friends who wanted looking after drifted away, and you let them go without much regret.",
+        "recognition": "Your closest friends are the ones you and a partner both respect, other couples and old friends who treat your home as a unit. Because respect is what keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle, and you can say why each person in it is there.",
+        "lived": "Through your Home Chapter your closest friendships have been between equals, people who did not need you to rescue them. You gave less time to the friends who wanted looking after, and you kept the level ones.",
         "ahead": "From your mid-thirties your circle becomes a shared one, friends who know the two of you as a pair. You spend these years with fewer people than before, and you trust each of them more."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "At close range you need a partner who stands as tall as you, and you have never stayed long with someone who leans. Because equality is how you feel respected, your home runs with two people deciding and neither one in charge. The cost is a quiet tally of who did what, kept by both of you and spoken by neither. From your mid-thirties your private life settles around one level bond, and you grow easier about being looked after inside it.",
+        "domain_climb.Love.lived": "The partners who have mattered to you so far were strong-willed people with lives of their own, never ones who leaned. More than once a good relationship of yours turned into a contest over small things, and you kept the score as carefully as they did.",
+        "domain_climb.Love.ahead": "From your mid-thirties love settles into a partnership between two people who each run their own lives. Over these years the tally between you grows shorter, and you find you can lean on a partner without feeling smaller.",
+        "domain_climb.Social.recognition": "Your closest friends are the ones you and a partner both respect, other couples and old friends who treat your home as a unit. Because respect is the only thing that keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle, and every person in it has earned their place.",
+        "domain_climb.Social.lived": "So far your friendships have been between equals, people who never needed you to rescue them. The friends who wanted looking after drifted away, and you let them go without much regret."
       }
     }
   },
@@ -74,6 +84,27 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-1.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "At close range you need a partner who stands as tall as you, and you have never stayed long with someone who leans. Because equality is how you feel respected, your home runs with two people deciding and neither one in charge. The cost is a quiet tally of who did what, kept by both of you and spoken by neither. From your mid-thirties your private life settles around one level bond, and you grow easier about being looked after inside it."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-1.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]

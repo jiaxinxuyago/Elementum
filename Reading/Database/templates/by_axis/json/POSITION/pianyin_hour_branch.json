@@ -21,7 +21,7 @@
       "Growth"
     ],
     "defline": "The Alchemist lives inside your Hour Gate: your later years turn inward, toward study and a quiet you choose.",
-    "reading": "Your later life gathers around private study, a few deep interests and a home where a closed door is respected. Because you trust what you have worked out alone, you find age easier than youth, and what you understand keeps getting clearer. A few younger people find their way to you one at a time, and you give them your thinking slowly. You are hardest to reach on the very days someone needs you, and you know it.",
+    "reading": "Past your late forties your days gather around a few deep interests and a household that respects a closed door. Because you trust what you have worked out alone, your understanding gets clearer with each decade, and you grow by narrowing your attention. Younger people, children or younger relatives or someone you train, reach you one at a time and get your thinking slowly. You are hardest to reach on the very days someone needs you, and you know it.",
     "teaser": "The root of your late years is the inner library: study, intuition, chosen quiet. Age will suit you, because depth is the one asset that only accrues.",
     "domain_readings": {
       "Family": "Your late family includes the minds you shaped: apprentices as kin, kin as students, a household that respects a shut door. The bonds are quiet and permanent. Emerge for the meals. The family learns you by your returns, and the returns are what they keep.",
@@ -38,20 +38,34 @@
       "Family": {
         "headline": "Your later family is a few people who understand your silences.",
         "recognition": "You keep family life quiet and close, with a small number of people who know when to leave you be. Because your inner life matters more to you than a full house, you see your relatives less than they would like, and you love them no less for it. You show care by what you teach more than by what you say.",
-        "lived": "Since your late forties your household has grown quieter, with fewer visits and long afternoons given to your own work. One of the younger people around you has learned to sit with your silence, and you have trusted them with more than anyone else.",
-        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, come to you for what you understand. You draw one or two of them close, and they carry your way of thinking further than you can."
+        "lived": "Your own work has taken up more of your afternoons since your late forties, and you welcome quiet visits most. One of the younger people around you has learned to sit with your silence, and you have trusted that person with more of your thinking than anyone.",
+        "ahead": "The people after you come to you from your late forties for what you understand, more than for company. You draw one or two of them close, and you watch them carry your way of thinking further than you could."
       },
       "Mind": {
         "headline": "Your mind gets clearer with every year.",
-        "recognition": "You spend your best hours on one subject at a time, reading and thinking until it comes clear. Because understanding is the thing you value most, you guard those hours closely, and you resent the phone call that breaks them. You are sharper at this age than people expect, and you enjoy surprising them.",
-        "lived": "Since your late forties your thinking has narrowed to the few questions that matter to you, and it has grown more exact. You have settled things that puzzled you for decades, and you have shared very little of what you found.",
-        "ahead": "From your late forties your mind keeps its edge because you use it every day, on study and quiet work of your own choosing. You turn what you know into notes or lessons for the people after you, children or younger relatives or someone you train."
+        "recognition": "You spend your best hours on one subject at a time, reading and thinking until it comes clear. Because understanding is the thing you value most, you guard those hours closely, and you resent the phone call that breaks them. You are sharper than people expect, and you enjoy surprising them.",
+        "lived": "The questions you think about have narrowed since your late forties to the few that matter to you, and your answers have grown more exact. You have settled things that puzzled you for decades, and you have shared less of what you found than people would like.",
+        "ahead": "Study and quiet work of your own choosing fill your days from your late forties, and you take each question as far as it will go. You turn what you know into notes or lessons for the people after you, and they come back to them for years."
       },
       "Growth": {
         "headline": "You grow in later life by keeping only what matters.",
-        "recognition": "Interests and habits that no longer teach you anything fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, your life looks smaller from outside while it gets richer inside. You care less each year about keeping up, and more about getting one thing right.",
-        "lived": "Since your late forties you have dropped the commitments that once filled your weeks, the groups and roles you took on from habit. What is left is a handful of practices you return to every day, and you have grown more through them than through anything new.",
-        "ahead": "From your late forties your growth comes from refining what you already know, until a lifetime of odd learning comes down to a few clear ideas. You pass those ideas on in plain words, and they outlast the years it took you to reach them."
+        "recognition": "Interests and habits that no longer teach you anything fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, you look as if you are doing less while you understand more. You care less each year about keeping up, and more about getting one thing right.",
+        "lived": "Commitments you took on from habit have gone since your late forties, the groups and the roles that once filled your weeks. What is left is a handful of practices you return to every day, and you have grown more through them than through anything new.",
+        "ahead": "Your growth from your late forties lies in refining what you already know, until years of odd learning come down to a few clear ideas. You pass those ideas to younger people in plain words, and you see them used long after you worked them out."
+      }
+    },
+    "__ore": {
+      "domains_round1_retired_2026-10-21": {
+        "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
+        "reading": "Your later life gathers around private study, a few deep interests and a home where a closed door is respected. Because you trust what you have worked out alone, you find age easier than youth, and what you understand keeps getting clearer. A few younger people find their way to you one at a time, and you give them your thinking slowly. You are hardest to reach on the very days someone needs you, and you know it.",
+        "domain_climb.Family.lived": "Since your late forties your household has grown quieter, with fewer visits and long afternoons given to your own work. One of the younger people around you has learned to sit with your silence, and you have trusted them with more than anyone else.",
+        "domain_climb.Family.ahead": "From your late forties the people after you, children or younger relatives or someone you train, come to you for what you understand. You draw one or two of them close, and they carry your way of thinking further than you can.",
+        "domain_climb.Mind.recognition": "You spend your best hours on one subject at a time, reading and thinking until it comes clear. Because understanding is the thing you value most, you guard those hours closely, and you resent the phone call that breaks them. You are sharper at this age than people expect, and you enjoy surprising them.",
+        "domain_climb.Mind.lived": "Since your late forties your thinking has narrowed to the few questions that matter to you, and it has grown more exact. You have settled things that puzzled you for decades, and you have shared very little of what you found.",
+        "domain_climb.Mind.ahead": "From your late forties your mind keeps its edge because you use it every day, on study and quiet work of your own choosing. You turn what you know into notes or lessons for the people after you, children or younger relatives or someone you train.",
+        "domain_climb.Growth.recognition": "Interests and habits that no longer teach you anything fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, your life looks smaller from outside while it gets richer inside. You care less each year about keeping up, and more about getting one thing right.",
+        "domain_climb.Growth.lived": "Since your late forties you have dropped the commitments that once filled your weeks, the groups and roles you took on from habit. What is left is a handful of practices you return to every day, and you have grown more through them than through anything new.",
+        "domain_climb.Growth.ahead": "From your late forties your growth comes from refining what you already know, until a lifetime of odd learning comes down to a few clear ideas. You pass those ideas on in plain words, and they outlast the years it took you to reach them."
       }
     }
   },
@@ -89,6 +103,34 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
       "date": "2026-10-17",
       "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": "Your later life gathers around private study, a few deep interests and a home where a closed door is respected. Because you trust what you have worked out alone, you find age easier than youth, and what you understand keeps getting clearer. A few younger people find their way to you one at a time, and you give them your thinking slowly. You are hardest to reach on the very days someone needs you, and you know it."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/out-5.json",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
     }
   ]
