@@ -101,3 +101,17 @@ All rows were ruled as recommended:
 ## Going live (owner 2026-10-21): "Switch it on elementum.life"
 
 `CHAPTERS_ENERGY = true` in `src/components/reading/chaptersResolve.js`. The energy-first page and the seat sheet's energy chapter line (W5) are on elementum.life. Next, retire the round-1 path (`depthChapters.js`, the old body of `resolveChapters`), `DecadePage.jsx` and `LifeChaptersDetail.jsx` (A4).
+
+## Section content audit (2026-10-21): awaiting the owner
+
+- **Brief:** `ComparativeAnalysis/Evaluations/section-audit-2026-10-21/BRIEF.md`, R1.
+- **Records:** `ComparativeAnalysis/Evaluations/section-audit-2026-10-21/life-chapters/` (`STATE.md`, `AUDITOR_BRIEF.md`, `pages/`, `audit/`, `findings.json`, `tweaks-applied.json`).
+- **Report:** https://claude.ai/artifact/FkWXmmASh6EeMP9N4YR3cc (`REPORT.html`, built by `build-report.py`).
+- **Findings:** 141 in all: 17 MAJOR (merged into M1–M9), 76 MINOR and 48 TWEAK.
+- **Scores:** mean B 3.13, C 2.39, A1 3.21. No page meets the done line.
+- **Done:**
+  - 40 TWEAKs applied through the station, with the replaced texts in `__ore`;
+  - the year cards follow 立春;
+  - the round-1 path is retired.
+- **Waiting:** M1–M9 and the MINOR round.
+- **M1 (the calculator's luck-pillar start):** about 4% of charts start their decades ten years off. Fixing it is a shared-engine change and needs the owner.

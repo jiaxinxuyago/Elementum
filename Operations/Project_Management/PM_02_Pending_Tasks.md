@@ -82,9 +82,10 @@ Session "Elementum Life Chapters reading content" (session_01LKbtNcH4nTofFBwRv1H
 - **Content:** 377 units, gated, in the station (`TEMPLATED/tpl_chapters.json`). `tools/build-chapters-content.mjs` builds them into `src/content/depthChaptersEnergy.js`. Handoff: `ComparativeAnalysis/Prompts/out/handoff/2026-10-21-chapters-energy/`.
 - **Code:** `src/components/reading/chaptersResolve.js` and `src/components/journey/ChaptersViews.jsx` with `chapters.css`. The switch is `CHAPTERS_ENERGY = true`, on both sites since 2026-10-21. The seat sheet's chapter line (W5) swapped with it.
 - **Audit:** `node ComparativeAnalysis/Prompts/audit/pages.mjs --surface chapters --out <dir>`.
+- **Section audit (2026-10-21):** report https://claude.ai/artifact/FkWXmmASh6EeMP9N4YR3cc. 40 TWEAKs are done. Waiting on the owner: M1–M9 (M1 is the calculator's luck-pillar start, wrong by ten years for backward births from 6 January to 3 February) and one MINOR polish round. Mean B is 3.13, so the section is not frozen.
 - **Next:**
   - Your Almanac's Year page reads the shared year lines (L9 A; note in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/04_FROM_LIFE_CHAPTERS.md`);
-  - retire `depthChapters.js`, the round-1 resolver path in `resolveChapters`, `DecadePage.jsx` and `LifeChaptersDetail.jsx` (A4).
+  - retire the `DecadePage.jsx` and `LifeChaptersDetail.jsx` routes (A4). The round-1 path went on 2026-10-21.
 
 ## DM — the Day Master diagnosis and the merged "Your reading" (owner 2026-10-17 →)
 
