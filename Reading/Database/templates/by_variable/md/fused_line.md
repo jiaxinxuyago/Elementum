@@ -8,7 +8,7 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **The Artisan tames the General** | 食神制杀 | In you this runs close to the surface, and you turn pressure into calm almost as soon as it lands. |
+| **The Artisan checks the General** | 食神制杀 | In you this runs close to the surface, and you turn pressure into calm almost as soon as it lands. |
 | **The Virtuoso harnessed by the Sage** | 伤官配印 | In you the two never pull apart, and you rarely have to choose between your talent and your training. |
 | **The Alchemist starves the Artisan** | 枭神夺食 | In you this pull is constant, and you feel the tug between thinking and finishing almost every day. |
 | **The Virtuoso confronts the Magistrate** | 伤官见官 | In you this runs deep, and you have argued with your own position since your first job. |

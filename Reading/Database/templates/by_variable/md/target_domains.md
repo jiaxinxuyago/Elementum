@@ -8,7 +8,7 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **The Artisan tames the General** | 食神制杀 | Career · Health |
+| **The Artisan checks the General** | 食神制杀 | Career · Health |
 | **The Virtuoso harnessed by the Sage** | 伤官配印 | Career · Mind |
 | **The Alchemist starves the Artisan** | 枭神夺食 | Mind · Career · Health |
 | **The Virtuoso confronts the Magistrate** | 伤官见官 | Career |

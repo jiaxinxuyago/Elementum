@@ -19,7 +19,7 @@
 
 export const TG_PATTERNS = [
   {
-    key: 'shishen_zhi_sha', zh: '食神制杀', en: 'The Artisan tames the General',
+    key: 'shishen_zhi_sha', zh: '食神制杀', en: 'The Artisan checks the General',
     gods: [['食神'], ['七杀']],
     targets: ['Career', 'Health'],
     line: 'Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline.',

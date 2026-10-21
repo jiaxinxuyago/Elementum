@@ -182,7 +182,7 @@ export function resolveBlueprint(chart, positions, opts = {}) {
   const nGods = positions.filter((p) => p.god === sGod).length;
   const statusUnit = fill(statusKey, { breakers: breakers.join(' and the '), stand: pl(breakers.length, 'stands', 'stand'), gods: `${P}${nGods > 1 ? 's' : ''}` }, statusText);
   const rel = (l) => (l === cur ? 'now' : cur && l.startYear === (luck[luck.indexOf(cur) + 1] || {}).startYear ? 'next' : l.endAge < age ? 'already lived' : 'later');
-  const rescueDecs = s.rescueDecades.map((r) => luck.find((l) => l.startYear === r.startYear)).filter(Boolean);
+  const rescueDecs = s.rescueDecades.map((r) => luck.find((l) => l.startYear === r.startYear)).filter((l) => l && l.startAge <= DEC_MAX);
   const ahead = rescueDecs.filter((l) => rel(l) !== 'already lived');
   const when = [...new Set(ahead.map(rel))].join(' and ');
   const rescueForm = !rescueDecs.length ? '.none' : !ahead.length ? '.lived' : '';
@@ -203,13 +203,14 @@ export function resolveBlueprint(chart, positions, opts = {}) {
     const decs = luck.filter((l) => l.god === g.god && l.startAge <= DEC_MAX);
     const nowOrNext = decs.find((l) => l.endAge >= age);
     const tag = [`no ${persona(g.god)}`, seasonGods.has(g.god) ? 'your season asks for it too' : null,
-      nowOrNext ? `it arrives with your decade ${nowOrNext.startYear} to ${nowOrNext.endYear}` : decs.length ? `your ${persona(g.god)} decade ${decs[decs.length - 1].startYear} to ${decs[decs.length - 1].endYear} is lived` : 'no decade of yours brings it'].filter(Boolean).join(' · ');
+      nowOrNext ? (nowOrNext.startAge <= age ? `it comes with your decade now, ${nowOrNext.startYear} to ${nowOrNext.endYear}` : `it arrives with your decade ${nowOrNext.startYear} to ${nowOrNext.endYear}`) : decs.length ? `your ${persona(g.god)} decade ${decs[decs.length - 1].startYear} to ${decs[decs.length - 1].endYear} is lived` : 'no decade of yours brings it'].filter(Boolean).join(' · ');
     return { god: g.god, label: tag, ...unit(`GOD ${GOD_ID[g.god]} · missing`, `No ${persona(g.god)} sits in your chart, and its ${GLOSS[g.god]} reaches you only from outside.`) };
   });
   const seasonReading = season ? unit(`SEASON ${PINYIN[dm]}.${PINYIN[season.month]} · reading`, `You were born in ${SEASON_PHRASE[season.month]}, and your season asks for ${season.asks.filter((a) => a.rank === 'primary').map((a) => STEM_EL[a.stem]).filter((x, i, arr) => arr.indexOf(x) === i).join(' first and ')}${season.asks.filter((a) => a.rank === 'primary').length > 1 ? ' second' : ''}.`) : null;
   const STATE_WORD = { shown: 'on show', rooted: 'inside a branch, not on show', hidden: 'hidden deep' };
-  const needs = (season?.asks || []).filter((a) => a.state !== 'absent').map((a, i) => ({
-    label: `${a.rank === 'primary' ? (i === 0 ? 'first need' : 'second need') : 'support'} · ${a.stem}, the ${persona(a.god)} · ${STATE_WORD[a.state]}`,
+  const primaryOrder = (season?.asks || []).filter((a) => a.rank === 'primary').map((a) => a.stem);
+  const needs = (season?.asks || []).filter((a) => a.state !== 'absent').map((a) => ({
+    label: `${a.rank === 'primary' ? (primaryOrder.indexOf(a.stem) === 0 ? 'first need' : 'second need') : 'support'} · ${a.stem}, the ${persona(a.god)} · ${STATE_WORD[a.state]}`,
     ...unit(`GOD ${GOD_ID[a.god]} · season_need.${a.state}`, `The ${persona(a.god)} your season asks for ${{ shown: 'shows plainly', rooted: 'sits inside a branch', hidden: 'hides deep' }[a.state]} in your chart.`),
   }));
   const seasonCell = season ? { name: `${season.monthName}${dm}`, asks: season.asks.map((a) => a.stem).join(''), absentNeeds: season.asks.filter((a) => a.state === 'absent').map((a) => persona(a.god)) } : null;
@@ -261,7 +262,9 @@ export function resolveDomainView(page, chart, content, opts = {}) {
     blocks.push({ kind: 'seat', gate: p.gateKey, seat: p, name: p.term, meta, text, src: `POSITION ${p.id} · domain_climb.${d}.${useAhead ? 'ahead' : 'lived'}` });
   }
   // the gap row: the reader's own gate holds no seat for this domain
-  if (page.seats.length && gateNow !== 'year' && !page.seats.some((p) => p.gateKey === gateNow) && !(gateNow === 'hour' && c.hourUnknown)) {
+  // (and never while a decade that rules this domain runs in that gate: the round-1 rule resolveDomains keeps, section audit DA-001)
+  const decInGate = luck.some((l) => RULING[l.god]?.includes(d) && l.startAge <= age && l.endAge >= GATE_START[gateNow]);
+  if (page.seats.length && gateNow !== 'year' && !decInGate && !page.seats.some((p) => p.gateKey === gateNow) && !(gateNow === 'hour' && c.hourUnknown)) {
     const g = content?.gaps?.[d]?.[gateNow];
     if (g) blocks.push({ kind: 'gap', gate: gateNow, label: `${CHAPTER[gateNow]} · ${GATE_START[gateNow]} to now · no ${d} seat.`, text: g, src: `TEMPLATED tpl_domains · domain_gaps.${d}.${gateNow}` });
   }
@@ -270,7 +273,7 @@ export function resolveDomainView(page, chart, content, opts = {}) {
   const n = page.seats.length;
   const intro = n ? `${NUMW[n]} ${pl(n, 'seat rules', 'seats rule')} ${d} in your chart. ${per.map(([g, k], i) => `${i === 0 ? NUMW[k] : NUMW[k].toLowerCase()} ${i === 0 ? pl(k, 'sits', 'sit') + ' ' : ''}in your ${CHAPTER[g]}`).join(', ').replace(/, ([^,]*)$/, ' and $1')}.` : `No seat rules ${d} in your chart, and your decades set its course.`;
   // the Advisor tabs: By decade (the decade lines already written) and By year (drafts)
-  const byDecade = luck.filter((l) => RULING[l.god]?.includes(d) && l.endAge >= DEC_MIN && l.startAge <= DEC_MAX).map((l) => {
+  const byDecade = luck.filter((l) => RULING[l.god]?.includes(d) && l.startAge >= DEC_MIN && l.startAge <= DEC_MAX).map((l) => {
     const t = l.endAge < age ? 'lived' : 'ahead';
     return { label: `${decLabel(l)}${l === cur ? ' · now' : ''}`, text: D[l.god]?.[d]?.[l.pole]?.[t] || null, src: `GOD ${GOD_ID[l.god]} · decade_lines.${d}.${l.pole}.${t}` };
   }).filter((x) => x.text);

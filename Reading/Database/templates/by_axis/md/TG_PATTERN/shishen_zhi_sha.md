@@ -1,4 +1,4 @@
-# 食神制杀 — The Artisan tames the General  ·  TG_PATTERN archetype
+# 食神制杀 — The Artisan checks the General  ·  TG_PATTERN archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | TG_PATTERN |
 | **key** | 食神制杀 |
-| **canonical name** | The Artisan tames the General |
+| **canonical name** | The Artisan checks the General |
 | **construct** | AUTHORED CANON ×9 (refreshed 2026-09-21; owner directives 2026-08-19): a conditional reading angle, triggered when both god sides sit among the chart's resolved positions, FUSED tier when they share a pillar, one per seat, priority = canon order · line ≤40w (Codex ore + the takeaway strip) · reading 45–70w in pure you-language, woven into the seat's first matching domain paragraph (no classics, no persona mechanics) · fused_line ≤25w · name_zh / name_en / trigger_gods / target_domains = metadata (REA_02 §5g). The §2c rows are locked; the axis header in REA_02 §5g still reads PROPOSED, awaiting the owner's formal lock. Prompts: REA_17 §3.7. |
 | **status** | TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart's resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat |
 | **sources** | src/content/tgPatterns.js (TG_PATTERNS — classical pattern canon) |
@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `name_zh` | 食神制杀 |
-| `name_en` | The Artisan tames the General |
+| `name_en` | The Artisan checks the General |
 | `trigger_gods[0].0` | 食神 |
 | `trigger_gods[1].0` | 七杀 |
 | `target_domains` | Career · Health |
@@ -35,3 +35,4 @@
 | `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
 | `domains_round1_retired_2026-10-21.domain_lines.Career` | You do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands. |
 | `domains_round1_retired_2026-10-21.fused_line` | The two share one gate in you, and you turn pressure into calm almost as soon as it lands. |
+| `retired_2026-10-21_section_audit.name_en` | The Artisan tames the General |

@@ -6,7 +6,7 @@
 
 ## TG_PATTERN (×9)
 
-### The Artisan tames the General · 食神制杀
+### The Artisan checks the General · 食神制杀
 
 | Field | Value |
 |---|---|

@@ -15,7 +15,9 @@ const BAN = [/[—–;]/, /\b(room|verdict|legitimate|institutional|destiny|dest
   /\b(delve|tapestry|testament|pivotal|crucial|intricate|robust|seamless|foster|underscore|showcase|leverage|vibrant|nestled|profound|realm|unlock|elevate|resonat\w*|navigate|landscape|journey)\b/i,
   /\b(trauma|trigger|boundaries|attachment style|regulate)\b/i, /\bahead of\b/i, /,\s+so\b/i, /[一-鿿]/, /\d/, /[$£€%]/,
   /\b(illness|disease|cancer|diagnos\w*|surgery|death|die|dies|died|dying|divorce\w*|miscarr\w*|bankrupt\w*)\b/i,
-  /\b(may|might|perhaps|probably|likely)\b/i, /\b(you may feel|tends to|sometimes you|often you)\b/i];
+  /\b(may|might|perhaps|probably|likely)\b/i, /\b(you may feel|tends to|sometimes you|often you)\b/i,
+  // section audit 2026-10-21 (DB): the master prompt's bans this gate had missed
+  /\b(luck|lucky|luckily|unlucky|should|often|sometimes|tends? to|nervous system)\b/i];
 const IMP = /^(Let|Keep|Ask|Take|Give|Make|Pick|Choose|Try|Say|Spend|Set|Put|Hand|Allow|Leave|Stop|Start|Go|Do|Don't|Find|Tell|Trust|Show|Read|Write|Call|Sit|Sleep|Eat|Share|Save|Send|Stay|Wait|Hold|Use|Offer|Finish|Listen|Learn|Rest|Step|Speak|Remember|Notice|Look|Watch|Protect|Guard|Build|Fix|Price|Marry|Audit|Name|Hire|Interview|Emerge|Breach|Join|Attend|Chase|Enter|Declare|Surrender|Loosen|Fund|Back|Claim|Ship|Accept|Close|Translate|Reunite|Train)\b/;
 const fails = []; let n = 0;
 function check(key, kind, t) {

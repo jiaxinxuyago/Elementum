@@ -8,7 +8,7 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **The Artisan tames the General** | 食神制杀 | The Artisan tames the General |
+| **The Artisan checks the General** | 食神制杀 | The Artisan checks the General |
 | **The Virtuoso harnessed by the Sage** | 伤官配印 | The Virtuoso harnessed by the Sage |
 | **The Alchemist starves the Artisan** | 枭神夺食 | The Alchemist starves the Artisan |
 | **The Virtuoso confronts the Magistrate** | 伤官见官 | The Virtuoso confronts the Magistrate |

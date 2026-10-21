@@ -22,6 +22,7 @@
 import { SLOT_RANK, CHAPTERS, GATES, DOMAIN_TAXONOMY } from '../../content/positions.js';
 import { TG_PERSONA } from '../../content/index.js';
 import { TG_PATTERNS } from '../../content/tgPatterns.js';
+import { periodOf } from '../../engine/almanac/index.js';
 
 export const DEC_MIN = 10; export const DEC_MAX = 75;
 export const GATE_ORDER = ['year', 'month', 'day', 'hour'];
@@ -42,7 +43,8 @@ const an = (w) => `${/^[AEIOU]/.test(w) ? 'An' : 'A'} ${w}`;
 // the reader's age this year and their birth year, from the engine's luck pillars
 export function readerAge(chart, year) {
   const lp = chart?.luckPillars?.[0];
-  const nowYear = year ?? chart?.currentFlowYear?.year ?? new Date().getFullYear();
+  // "this year" turns at 立春, not on 1 January (section audit 2026-10-21, M-5; as Life Chapters reads it)
+  const nowYear = year ?? periodOf('year', new Date())?.baziYear ?? chart?.currentFlowYear?.year ?? new Date().getFullYear();
   if (!lp) return null;
   const birthYear = lp.startYear - lp.startAge;
   return { age: nowYear - birthYear, birthYear, nowYear };

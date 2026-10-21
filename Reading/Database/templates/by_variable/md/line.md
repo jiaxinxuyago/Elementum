@@ -8,7 +8,7 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **The Artisan tames the General** | 食神制杀 | Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline. |
+| **The Artisan checks the General** | 食神制杀 | Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline. |
 | **The Virtuoso harnessed by the Sage** | 伤官配印 | Your brilliance and your learning share the chart, and they harness each other: talent with a syllabus. Study before you dazzle, and the shine turns durable. |
 | **The Alchemist starves the Artisan** | 枭神夺食 | The Alchemist and the Artisan share your chart, and they compete: too much theory starves your ease. When output stalls, the cure is one finished thing made with your hands, and fewer perfect plans. |
 | **The Virtuoso confronts the Magistrate** | 伤官见官 | Your chart carries the old collision of brilliance and rank: the Virtuoso chafes exactly where the Magistrate climbs. Careers run smoothest when your talent gets a stage inside the structure, under a title with some give in it. |
