@@ -55,10 +55,11 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
 
 ## DOM — the Domain reading, a new pricing tier (owner 2026-10-17)
 
-### EVT-1 · The event signature system (the Today tab) 🔄 COMPLETE ON DEV (378 units); LIVE AND REMINDERS WAIT ON THE OWNER
+### EVT-1 · The event signature system (the Today tab) ✅ LIVE ON elementum.life 2026-10-21; REMINDERS WAIT ON THE OWNER
 **Status 2026-10-21:** round 1 ruled (N1–F1, all A except D1 B); the owner asked for an energy-first reading, rounds 2 and 3 ruled (all A); built on the dev site 2026-10-21 (engine, pages, 58 golden templates); round 4 (templates K1–K13, P4 reminders, L1 going live) on https://claude.ai/artifact/Rtixt7at5a6gTSre7ZhEhs. Record: `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/03_RULINGS.md`. Owner session: session_01CtFpHCUsMdTUYosYF5mHoy (owns `TodayScreen`, `DayPage`, `MonthPage`, `YearPage`, `engine/temporal.js`, `content/dailyGuidance.js`, `infra/push.js`, `workers/push`).
 - **Done 2026-10-21:** templates ruled (K1–K13 A); the batch of 320 units written by sealed writers, gated, read and landed through the station (`TEMPLATED/tpl_almanac.json`); every Almanac key covered. Reminders built and switched off (P4 A). Back on the dev site only (L1 A, confirmed).
-- **Next (owner):** read the pages on dev.elementum.life; the reminders' steps in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/P4_STEPS.md`; say when the Almanac goes live (`ALMANAC_LIVE` in `src/liveFlags.js`). Still drafts on the Year page, owned elsewhere: Life Chapters `year_bond.*`, Domains `year_domain.*`.
+- **Live 2026-10-21** (owner: "Make it live"): `ALMANAC_LIVE = true`, verified on elementum.life. The Year page reads Life Chapters' shared year lines (L9 A).
+- **Next (owner):** the reminders' steps in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/P4_STEPS.md`. The Year page's By-year domain lines (Domains section, `year_domain.*`) are still drafts and stay hidden on elementum.life until written.
 - **Finding for the owner (F1):** the calculator's solar-term dates drift a day in many years; a calculator change alters existing readers' charts, so it waits for a ruling.
 
 ### DOM-1 · The "who runs it" layer → the Domain reading 🔄 IN PROGRESS (owner rulings round 1, 2026-10-17: Q1–Q15 A; record `ComparativeAnalysis/Handoffs/2026-10-17-domains/03_RULINGS.md`; golden template awaiting the owner's read)
