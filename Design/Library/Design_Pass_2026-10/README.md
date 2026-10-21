@@ -21,6 +21,7 @@ Every image is an existing app asset: backgrounds, `concept-arts/library` plates
 | `V4_The_Five_Gates.html` | The energies as the index; a five-sign lens rail on every page | https://claude.ai/artifact/D9Kdo4mSKm7Rf1pxUTCjz2 |
 | `V5_The_Combination.html` | The recommended combination built out (rows R1–R11, option A), every section, each part labelled with its source variant | https://claude.ai/artifact/Tja5Ak53p4dW8Vq3GKQGtB |
 | `N1_Pair_Illustrations_Brief.md` | The commission brief for the 25 energy-sheet paintings: spec, prompt prefix, one subject per pair | — |
+| `RV_The_Naming_Directions.html` | Follow-up: three directions for the Naming page with rulings RV1–RV3 (awaiting owner) | https://claude.ai/artifact/Q42LUgZBg8ypUruLiPDX8J |
 | `Comparison_and_Rulings.html` | Side-by-side comparison, the 15-row ruling sheet, the new-art proposals | https://claude.ai/artifact/ChLJ9EGXRFtErjBPs8WSWW |
 
 ## The recommended combination ("V5")

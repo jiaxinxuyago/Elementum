@@ -114,3 +114,19 @@ The owner answers in codes, e.g. "R1 A, R2 B". Rulings get recorded below, row b
 
 - Italic is still set in four live places, against DES_04 §AM.10 v3: `components/guidance/InkTile.jsx:156` (the Guidance tile subtitles), `components/dashboard/tabs/CompatScreen.jsx:56` and `:80`, and `components/reading/DayMasterCta.jsx:38`.
 - The wheel's function label under a left-hand disk was hard to read (golden "Action · you shape it"; Vine "Action"). Corrected diagnosis: the label is on top, but grey on the ink ring. FIXED (N4) with a text halo.
+
+## Follow-up · the Naming page (owner question 2026-10-21, AWAITING RULING)
+
+The owner finds today's plate overwhelming at first glance (six text pieces under the painting). Three directions built as real frames: https://claude.ai/artifact/Q42LUgZBg8ypUruLiPDX8J (library copy: `Design/Library/Design_Pass_2026-10/RV_The_Naming_Directions.html`).
+
+| Direction | What the plate carries | Recommendation |
+|---|---|---|
+| 1 · The sign alone | Seal, name, a small vertical inscription at the side (stem line + cast line) | **Recommended.** One concept on screen; the first reading's cards do the telling; the dissolve has one object. |
+| 2 · Sign + five energies | Seal, name, stem line, the five ink dots sized by presence with percentages | Not recommended: shows the distribution before the energies have names (DES_04 §0 ladder), and the wheel repeats it one screen later. |
+| 3 · Today | Seal, name, thesis, edge line, stem line, cast line | The current page. |
+
+Rows: RV1 direction · RV2 where the stem and cast lines sit · RV3 where the thesis and edge line go (A: open card 1 of the first reading above the paragraph). No content changes in any option; the thesis and edge line already live on the Your reading hero.
+
+| Row | Ruling | Date |
+|---|---|---|
+| RV1–RV3 | pending | — |
