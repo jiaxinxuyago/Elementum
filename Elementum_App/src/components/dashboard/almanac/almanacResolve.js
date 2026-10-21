@@ -6,16 +6,17 @@
 // in this reader, the lift, where the period lands, the eight domains with
 // what it favours, the rhythm around it. Units come from content/almanac.js;
 // a unit not yet written gets a plain draft line flagged `draft` (B3). The
-// year's main line and bond are Life Chapters' units, its domain lines the
-// Domains section's By-year units (E4 A), read here, never rewritten.
+// year's energy line and landing are Life Chapters' units (owner L9 A, one
+// set of year lines), its domain lines the Domains section's By-year units
+// (E4 A), read here, never rewritten.
 // ===================================================================
 
 import { ALMANAC_UNITS } from '../../../content/almanac.js';
 import { DEPTH_UNITS } from '../../../content/depth.js';
+import { ENERGY_CHAPTER_UNITS } from '../../../content/depthChaptersEnergy.js';
 import { GATES } from '../../../content/positions.js';
 import { buildEnergyChart, HIDDEN_STEMS, STEM_ELEM } from '../../../engine/index.js';
 import { seasonOf } from '../../../engine/depth/index.js';
-import { decadePole } from '../../reading/domainsResolve.js';
 import {
   almanacContext, periodOf, readPeriod, leadsFor, pushSchedule, isoDay,
   DOMAINS, GATE_LIFE, GOD_ID, KIND,
@@ -23,6 +24,8 @@ import {
 
 const unit = (key, draft) => (ALMANAC_UNITS[key] ? { key, text: ALMANAC_UNITS[key], draft: false } : { key, text: draft, draft: true });
 const depthUnit = (key, draft) => (DEPTH_UNITS[key] ? { key, text: DEPTH_UNITS[key], draft: false } : { key, text: draft, draft: true });
+// owner L9 A: one set of year lines, written by Life Chapters and read by both pages; ours stand in where theirs are not written
+const chapterUnit = (key, fallback) => (ENERGY_CHAPTER_UNITS[key] ? { key, text: ENERGY_CHAPTER_UNITS[key], draft: false } : fallback);
 const pairUnit = (key, draft) => { const u = unit(key, draft); const [lean, over] = String(u.text || '').split('|'); return { ...u, lean, over }; };
 const lc = (s) => String(s || '').toLowerCase();
 
@@ -57,7 +60,8 @@ function energyLine(r, hor) {
   const e = r.energy; const v = hor === 'day' ? `.${Math.floor(Math.round(atNoon(r.period.start) / 86400000) / 10) % 2 ? 'b' : 'a'}` : ''; // V1 A: two day variants, alternating each time the same stem returns
   const draft = `${e.fn}, an energy you ${e.sign > 0 ? 'grow' : e.sign < 0 ? 'release' : 'hold even'}. ${{ need: 'Your chart is short of it, and this brings it.', grow: 'Your chart holds it already, and more of it helps.', heavy: 'Your chart already holds too much of it.', core_over: 'It is your own element, and you already run over.', core_under: 'It is your own element, and it refills you.', core_even: 'It is your own element.', even: 'It neither lifts nor weighs on you.' }[e.state]}`;
   // keyed by the energy's function, so the text holds for every chart in that state; {el} is filled here
-  const u = unit(`ENERGY ${lc(e.fn)} · ${hor}.${e.state}${v}`, draft);
+  const key = `ENERGY ${lc(e.fn)} · ${hor}.${e.state}${v}`;
+  const u = hor === 'year' ? chapterUnit(key, unit(key, draft)) : unit(key, draft);
   return { ...u, text: u.text.replace(/\{el\}/g, e.el) };
 }
 function groundLine(r) {
@@ -70,7 +74,7 @@ function landing(ctx, r, hor) {
     const seat = ctx.gates[L.gate];
     const clause = `${who} ${r.energy.gel} ${VERB[L.kind]} the ${seat.el} in your ${GATES[L.gate]}, the seat of ${GATE_LIFE[L.gate]}.`;
     const body = hor === 'year'
-      ? depthUnit(`TEMPLATED tpl_depth · year_bond.${BOND_KEY_DEPTH[L.kind]}.${L.gate}`, `This year ${GATE_LIFE[L.gate]} ${LAND_PHRASE[L.kind]}.`)
+      ? chapterUnit(`TEMPLATED tpl_almanac · land.year.${L.kind}.${L.gate}`, depthUnit(`TEMPLATED tpl_depth · year_bond.${BOND_KEY_DEPTH[L.kind]}.${L.gate}`, `This year ${GATE_LIFE[L.gate]} ${LAND_PHRASE[L.kind]}.`))
       : unit(`TEMPLATED tpl_almanac · land.${hor}.${L.kind}.${L.gate}`, null);
     const echo = L.echo ? unit(`TEMPLATED tpl_almanac · echo.${L.gate}`, 'The month presses on the same gate, and today it comes to a head.') : null;
     return { clause, body, echo };
@@ -120,7 +124,7 @@ const atNoon = (iso) => { const [y, m, d] = iso.split('-').map(Number); return n
 export function resolveAlmanac(chart, opts = {}) {
   const day = typeof opts.date === 'string' ? opts.date : isoDay(opts.date || new Date());
   const ctx = almanacContext(chart, { hourUnknown: opts.hourUnknown, birthDate: opts.birthDate });
-  const { roles, presence } = rolesOf(chart);
+  const { presence } = rolesOf(chart);
   const kind = opts.kind || 'day';
   if (kind === 'day' || kind === 'hub') {
     // the week (G9 A), with the freshness rule run in order
@@ -149,7 +153,6 @@ export function resolveAlmanac(chart, opts = {}) {
   }
   // the year: Life Chapters' line, the Domains section's By-year lines
   const p = periodOf('year', day); const r = readPeriod(ctx, p, { asOf: day });
-  const pole = decadePole(lc(r.energy.el), roles, ctx.condition);
   const months = []; let d = p.start;
   for (let i = 0; i < 12 && d <= p.end; i++) { const mp = periodOf('month', d); const mr = readPeriod(ctx, mp); const s = seasonSlots(chart, mr, opts.hourUnknown);
     months.push({ ...ribbonItem(mr, atNoon(mp.start).toLocaleString('en-GB', { month: 'short' }).slice(0, 1)), asks: !!s?.some((x) => x.state === 'met'), now: mp.start <= day && day <= mp.end });
@@ -161,7 +164,6 @@ export function resolveAlmanac(chart, opts = {}) {
   for (const g of [['day', 35], ['hour', 48]]) if (ctx.birthYear && r.age < g[1]) ahead.push({ when: String(ctx.birthYear + g[1]), gate: g[0], text: `Your ${GATES[g[0]]} opens, at ${g[1]}` });
   const nextDec = ctx.luck.find((l) => l.startYear > p.baziYear); if (nextDec) ahead.push({ when: String(nextDec.startYear), el: STEM_ELEM[nextDec.stem], text: `A new decade, at ${nextDec.startAge}` });
   return { ...common(ctx, r, 'year', presence), domains: domainBoard(r, 'year', r.god), season: seasonSlots(chart, r, opts.hourUnknown), months,
-    chapters: depthUnit(`GOD ${GOD_ID[r.god]} · year_line.${pole}`, `This year ${pole === 'helping' ? 'works for you' : 'weighs on you'}.`),
     decade: cur ? { el: STEM_ELEM[cur.stem], yearOf: p.baziYear - cur.startYear + 1, startYear: cur.startYear } : null, ahead: ahead.sort((a, b) => (a.when < b.when ? -1 : 1)).slice(0, 3) };
 }
 

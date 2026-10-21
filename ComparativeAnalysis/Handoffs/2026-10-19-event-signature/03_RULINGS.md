@@ -77,3 +77,11 @@ Rulings (owner, 2026-10-21): "K1 A … K13 A, P4 A, L1 A". The 58 templates are 
 - Station first: `node tools/build-almanac-content.mjs --adopt` adopted the 378 units, with provenance per key, into `Reading/Database/templates/by_axis/json/TEMPLATED/tpl_almanac.json`; the default mode transcribes them into `src/content/almanac.js` and the push worker's copy. `export-reading-templates.mjs` now code-maps `tpl_almanac` (no harvest; `_ORDER.json` extended by hand).
 - Coverage: across 400 charts and random dates, no Almanac key renders a draft. The only drafts left on these pages are other sessions' units the Year page reads: Life Chapters' `year_bond.*` lines and the Domains section's `year_domain.*` lines.
 - P4 A: migration `0004_push_schedule.sql`, the worker's `/schedule` and cron (switch `ALMANAC_PUSH`), `syncPushSchedule` in the app (switch `ALMANAC_PUSH` in liveFlags.js), all off. The owner's steps: `P4_STEPS.md`. Push codes are now `<element>.<function>.<grow|release|even>:<lead>` so the worker composes the headline from its copy table.
+
+## Live (2026-10-21)
+
+The owner: "Make it live". `ALMANAC_LIVE = true` in `Elementum_App/src/liveFlags.js`; reminders stay off (`ALMANAC_PUSH`, P4_STEPS.md).
+- The Year page now reads Life Chapters' shared year lines (owner L9 A, their note `04_FROM_LIFE_CHAPTERS.md`): the year's energy line and landing come from `content/depthChaptersEnergy.js`, ours stand in where a state is not theirs; the separate "What it brings" card retired (it repeated the year).
+- On elementum.life a line not yet written is never shown (the Year page's By-year domain lines are the Domains section's and still drafts); the dev site still shows them tagged.
+- With no chart yet, the Today pages fall back to the old pages.
+- Checked before the push: the production build in local preview with the golden chart (free tier), no draft text, no dev hooks, no errors; the station check, voice audit, fixtures, both golden checks, 400 charts with no error and no unwritten Almanac key.

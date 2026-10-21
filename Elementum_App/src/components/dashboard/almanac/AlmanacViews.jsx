@@ -17,6 +17,7 @@ import { GATES } from '../../../content/positions.js';
 import { resolveAlmanac, almanacPushCodes } from './almanacResolve.js';
 import { syncPushSchedule } from '../../../infra/push.js';
 import { ALMANAC_PUSH } from '../../../liveFlags.js';
+import { IS_DEV_TOOLS } from '../../../devtools.js';
 import { isoDay, ELEMENTS, KIND } from '../../../engine/almanac/index.js';
 import './almanac.css';
 
@@ -116,7 +117,9 @@ function Ring({ lvl, dir }) {
 }
 const CUE = { quiet: 'Quiet', open: 'Open', tested: 'Tested', mixed: 'Mixed' };
 function Domains({ rows, hor }) {
-  const lit = rows.filter((r) => r.lvl >= 2).sort((a, b) => b.lvl - a.lvl);
+  // elementum.life never shows an unwritten line; the dev site shows it tagged
+  const written = (r) => IS_DEV_TOOLS || (r.line ? !r.line.draft : !!(r.fav && !r.fav.draft));
+  const lit = rows.filter((r) => r.lvl >= 2 && written(r)).sort((a, b) => b.lvl - a.lvl);
   return (
     <>
       <div className="al-doms">{rows.map((r) => (
@@ -254,7 +257,6 @@ export function AlmanacYear({ onBack }) {
       <Hero el={m.energy.el} sign={m.energy.sign} eyebrow={`${fmt(p.start)} ${p.start.slice(0, 4)} to ${fmt(p.end)} ${p.end.slice(0, 4)}`} head={m.head} />
       {tier === 'advisor' ? <>
         <EnergyCard m={m} who="the year" />
-        <div className="al-card"><div className="al-l"><span>What it brings</span><span className="r">Life Chapters</span></div><T u={m.chapters} /></div>
         <LandingCard m={m} who="this year" />
         <div className="al-card"><div className="al-l"><span>Your domains</span></div><Domains rows={m.domains} hor="year" /></div>
         <div className="al-card"><div className="al-l"><span>The year, month by month</span><span className="r">● brings what your season asks</span></div><Ribbon items={m.months} note="Bars: lift or weight. Signs: each month's lead." /></div>

@@ -15,9 +15,10 @@
 // dev site only (main.jsx marks the live build).
 // ===================================================================
 export const DEPTH_LIVE = true;
-// Owner 2026-10-21 (L1 A, confirmed): Your Almanac stays on the dev site until
-// its batch lands and the owner has read the pages again.
-export const ALMANAC_LIVE = false;
+// Owner 2026-10-21: "Make it live" (after the batch landed: 378 units, every
+// Almanac key written). Unwritten lines it reads from other sections are hidden
+// on elementum.life.
+export const ALMANAC_LIVE = true;
 // Your Almanac's personal reminders (P4 A): the app posts its schedule only
 // when this is on. Turn on after the owner applies migration 0004 and deploys
 // the push worker with ALMANAC_PUSH = '1' (steps: ComparativeAnalysis/Handoffs/

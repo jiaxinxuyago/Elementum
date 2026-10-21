@@ -25,7 +25,8 @@ import { ALMANAC_LIVE } from '../../liveFlags.js';
 // elementum.life keeps this one until the owner rules otherwise.
 const ALMANAC_V1 = ALMANAC_LIVE || IS_DEV_TOOLS;   // dev site always; elementum.life when ALMANAC_LIVE (liveFlags.js)
 export default function MonthPage(props) {
-  return ALMANAC_V1 ? <AlmanacMonth {...props} /> : <MonthPageLegacy {...props} />;
+  const { chart } = useChart();   // no chart yet: the old page and its placeholders
+  return ALMANAC_V1 && chart ? <AlmanacMonth {...props} /> : <MonthPageLegacy {...props} />;
 }
 
 const MONTHS = ['January','February','March','April','May','June',
