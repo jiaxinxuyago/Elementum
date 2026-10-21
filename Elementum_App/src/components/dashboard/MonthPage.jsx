@@ -17,6 +17,15 @@ import {
   ink, inkSoft, inkLight, bronzeDark, gold,
   paperHair, cardstockBg, pigments, withAlpha,
 } from '../../styles/tokens';
+import { AlmanacMonth } from './almanac/AlmanacViews.jsx';
+import { IS_DEV_TOOLS } from '../../devtools.js';
+
+// Your Almanac (EVT-1, rounds 1–3 ruled): the dev build shows the new page;
+// elementum.life keeps this one until the owner rules otherwise.
+const ALMANAC_V1 = IS_DEV_TOOLS;
+export default function MonthPage(props) {
+  return ALMANAC_V1 ? <AlmanacMonth {...props} /> : <MonthPageLegacy {...props} />;
+}
 
 const MONTHS = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
@@ -44,7 +53,7 @@ const MONTH_AVOID = {
   Water: ['Forcing visibility', 'Premature declarations'],
 };
 
-export default function MonthPage({ onBack }) {
+function MonthPageLegacy({ onBack }) {
   const { chart } = useChart();
   const now = new Date();
   const year = now.getFullYear();

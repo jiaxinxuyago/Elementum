@@ -18,12 +18,21 @@ import {
   ink, inkSoft, inkLight, bronzeDark,
   paperHair, cardstockBg, pigments, withAlpha,
 } from '../../styles/tokens';
+import { AlmanacDay } from './almanac/AlmanacViews.jsx';
+import { IS_DEV_TOOLS } from '../../devtools.js';
+
+// Your Almanac (EVT-1, rounds 1–3 ruled): the dev build shows the new page;
+// elementum.life keeps this one until the owner rules otherwise.
+const ALMANAC_V1 = IS_DEV_TOOLS;
+export default function DayPage(props) {
+  return ALMANAC_V1 ? <AlmanacDay {...props} /> : <DayPageLegacy {...props} />;
+}
 
 const MONTHS = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
 const WEEKDAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
-export default function DayPage({ onBack, onOpen }) {
+function DayPageLegacy({ onBack, onOpen }) {
   const { chart } = useChart();
   const guidance = getDailyGuidance(chart);
   const now = new Date();

@@ -27,6 +27,15 @@ import { dedupeArt } from '../../../styles/backgrounds.js';
 import { MoodboardArt } from '../VisualTile.jsx';
 import { Icon, ElementMark } from '../../shared/icons';
 import { ink, inkLight, bronzeDark, silk, pigments, withAlpha } from '../../../styles/tokens';
+import { AlmanacHub } from '../almanac/AlmanacViews.jsx';
+import { IS_DEV_TOOLS } from '../../../devtools.js';
+
+// Your Almanac (EVT-1, rounds 1–3 ruled): the dev build shows the new page;
+// elementum.life keeps this one until the owner rules otherwise.
+const ALMANAC_V1 = IS_DEV_TOOLS;
+export default function TodayScreen(props) {
+  return ALMANAC_V1 ? <AlmanacHub {...props} /> : <TodayScreenLegacy {...props} />;
+}
 
 const MONTHS = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
@@ -49,7 +58,7 @@ const YEAR_PHRASE = {
   Earth: 'Build',   Water: 'Listen',
 };
 
-export default function TodayScreen({ onOpen }) {
+function TodayScreenLegacy({ onOpen }) {
   const { chart } = useChart();
   const guidance = getDailyGuidance(chart);
   const now = new Date();

@@ -1,0 +1,89 @@
+/* ===================================================================
+   ELEMENTUM · Your Almanac (EVT-1) — the Day, Month, Year pages and hub
+   Round 3 visual language (G1–G9 A): energy dots, the lift meter, the
+   chart today, the gate map, loudness, the domain rings, the ribbons.
+   =================================================================== */
+.al{--ink:#2B2722;--inks:#4A433B;--inkl:#857D72;--hair:#CDBE9E;--card:rgba(248,241,225,.92);--bronze:#6b5339;--grow:#587a4d;--rel:#9e5540;--track:#e7dcc4;
+  --Wood:#587a4d;--Fire:#9e5540;--Earth:#927750;--Metal:#6a849a;--Water:#3e5f85;
+  --wWood:#c9d6bf;--wFire:#ecc3b3;--wEarth:#e3d2b2;--wMetal:#cfd9e2;--wWater:#c3d0e0;
+  min-height:100%;padding:54px 18px 28px;display:flex;flex-direction:column;gap:10px;font-family:'EB Garamond',Georgia,serif;color:var(--ink)}
+.al svg{display:block}
+.al-back{appearance:none;border:0;background:none;padding:0;display:flex;align-items:center;gap:6px;font-family:'EB Garamond',Georgia,serif;font-size:11px;letter-spacing:2.4px;text-transform:uppercase;color:var(--inkl);cursor:pointer}
+.al-back svg{width:14px;height:14px}
+.al-card{background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:9px}
+.al-l{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--bronze);font-weight:600}
+.al-l .r{letter-spacing:1px;color:var(--inkl);font-weight:500;text-transform:none;font-size:11.5px}
+.al-t{margin:0;font-size:14.5px;line-height:1.5;color:var(--inks)}
+.al-draft{display:inline-block;margin-left:6px;padding:0 5px;border:1px dashed var(--inkl);border-radius:4px;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--inkl);vertical-align:1px}
+.al-hero{display:flex;gap:12px;align-items:center;padding:14px;border-radius:16px;border:1px solid var(--hair);background:linear-gradient(160deg,#fbf6ea,#efe3c9)}
+.al-hero .e{font-size:10px;letter-spacing:2.2px;text-transform:uppercase;color:var(--inkl)}
+.al-hero h1{margin:2px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:23px;line-height:1.08;text-wrap:balance}
+.al-hero .m{display:flex;gap:10px;align-items:center;margin-top:6px;font-size:11px;letter-spacing:1px;text-transform:uppercase}
+.al-dot{position:relative;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none}
+.al-dot>svg{width:46%;height:46%}
+.al-badge{position:absolute;right:-3px;bottom:-3px;width:18px;height:18px;border-radius:50%;background:#fbf6ea;border:1px solid var(--hair);display:flex;align-items:center;justify-content:center}
+.al-badge svg{width:11px;height:11px}
+.al-row{display:flex;gap:14px;align-items:center}
+.al-fx{display:flex;flex-direction:column;gap:2px;min-width:0}
+.al-fx b{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:600}
+.al-fx span{display:flex;gap:5px;align-items:center;font-size:11px;letter-spacing:1px;color:var(--inkl);text-transform:uppercase}
+.al-fx span svg{width:12px;height:12px}
+.al-mix{display:flex;height:9px;border-radius:99px;overflow:hidden;background:var(--track)}
+.al-mix i{display:block;height:100%}
+.al-meter{display:grid;grid-template-columns:repeat(5,1fr);gap:3px}
+.al-meter i{height:10px;border-radius:3px;background:var(--track)}
+.al-meter i.on{outline:2px solid var(--ink);outline-offset:1px}
+.al-meterl{display:flex;justify-content:space-between;align-items:baseline;font-size:10.5px;letter-spacing:1px;text-transform:uppercase;color:var(--inkl)}
+.al-meterl b{font-size:13.5px;letter-spacing:.3px;text-transform:none;color:var(--ink)}
+.al-pills{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.al-pill{display:flex;flex-direction:column;align-items:center;gap:4px}
+.al-pill>svg{width:14px;height:14px}
+.al-col{width:100%;height:92px;border-radius:99px;background:#efe6d2;border:1px solid var(--hair);position:relative;overflow:hidden}
+.al-col i,.al-col em{position:absolute;left:0;right:0;display:block}
+.al-col em{background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.55) 0 3px,transparent 3px 6px)}
+.al-pill small{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;color:var(--inks)}
+.al-loud{display:flex;gap:2px;align-items:flex-end;height:16px}
+.al-loud i{width:4px;border-radius:1px;background:#d9ccb2}
+.al-loud i.on{background:var(--ink)}
+.al-doms{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 4px}
+.al-dom{display:flex;flex-direction:column;align-items:center;gap:3px;text-align:center}
+.al-ring{width:44px;height:44px;position:relative}
+.al-ring>svg{position:absolute;inset:0;width:100%;height:100%}
+.al-ring>svg.i{inset:auto;left:12px;top:12px;width:20px;height:20px}
+.al-dom b{font-size:11px;font-weight:600;letter-spacing:.6px;color:var(--inks)}
+.al-dom span{font-size:10px;color:var(--inkl)}
+.al-fav{display:grid;grid-template-columns:22px 1fr;gap:8px;align-items:center;padding:6px 0;border-top:1px solid var(--hair)}
+.al-fav>svg{width:20px;height:20px}
+.al-fav .p{display:flex;gap:6px;align-items:baseline;flex-wrap:wrap;min-width:0;font-size:14px}
+.al-fav .lean{color:var(--ink);font-weight:500}
+.al-fav .over{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--inkl)}
+.al-fav .not{color:var(--inkl);text-decoration:line-through;text-decoration-color:rgba(133,125,114,.5)}
+.al-ribbon{display:grid;gap:2px;align-items:end}
+.al-rc{appearance:none;border:0;background:none;padding:0;display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0;font:inherit;color:inherit}
+button.al-rc{cursor:pointer}
+.al-rc .sg{height:12px}
+.al-rc .sg svg{width:11px;height:11px}
+.al-rc .bx{width:100%;height:46px;position:relative}
+.al-rc .bx::after{content:"";position:absolute;left:0;right:0;top:50%;border-top:1px dashed var(--hair)}
+.al-rc .bx i{position:absolute;left:18%;right:18%;border-radius:2px}
+.al-rc .mk svg{width:12px;height:12px}
+.al-rc small{font-size:9px;color:var(--inkl);font-family:'IBM Plex Mono',ui-monospace,monospace}
+.al-rc.now .bx{background:rgba(212,175,55,.14);border-radius:4px}
+.al-rc.now small{color:var(--ink);font-weight:600}
+.al-list{display:flex;flex-direction:column}
+.al-li{appearance:none;border:0;background:none;font:inherit;text-align:left;display:grid;grid-template-columns:56px 18px 1fr;gap:8px;align-items:center;padding:7px 0;border-top:1px solid var(--hair);color:var(--inks);font-size:13.5px}
+.al-li:first-child{border-top:none}
+.al-li .d{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;color:var(--ink)}
+.al-li svg{width:16px;height:16px}
+.al-slots{display:flex;gap:8px;align-items:center}
+.al-slot{width:34px;height:34px;border-radius:50%;border:1.5px dashed var(--hair);display:flex;align-items:center;justify-content:center;flex:none}
+.al-slot svg{width:16px;height:16px}
+.al-prog{display:grid;grid-template-columns:repeat(10,1fr);gap:2px}
+.al-prog i{height:8px;border-radius:2px;background:var(--track)}
+.al-tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.al-tile{appearance:none;font:inherit;text-align:left;color:inherit;cursor:pointer}
+.al-tile h2{margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:16px;line-height:1.1}
+.al-lock{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.al-lock button{appearance:none;border:1px solid var(--bronze);background:var(--bronze);color:#fbf6ea;border-radius:99px;padding:6px 14px;font-family:'EB Garamond',Georgia,serif;font-size:13px;cursor:pointer}
+.al-header span{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--bronze);font-weight:500}
+.al-header h1{margin:4px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:400;line-height:1.1}
