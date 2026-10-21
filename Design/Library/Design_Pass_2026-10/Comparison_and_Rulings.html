@@ -1,0 +1,196 @@
+<meta charset="utf-8">
+<title>Elementum Design Pass Rulings</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600&display=swap">
+<style>
+/* Layout: the four variants side by side as a shelf, a comparison table,
+   then the ruling sheet as one card per row, each a set of option chips.
+   Single paper theme on purpose, matching the app. */
+:root{
+  --paper:#F1E9D6; --cream:#F8F6F0; --card:rgba(248,241,225,0.95); --hair:#CDBE9E; --light:#E5DFD1; --quiet:#EBE5D6;
+  --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#6f6b66; --bronzeDark:#6b5339; --seal:#A04030; --up:#4a7a52; --down:#a85c48; --adv:#7a5e9a;
+  --display:'Cormorant Garamond',Georgia,serif; --body:'EB Garamond',Georgia,serif; --carve:'Cinzel',Georgia,serif; --han:'Noto Serif SC',serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+i,em{font-style:normal}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 120px}
+.wrap{max-width:860px;margin:0 auto}
+header{padding:40px 0 10px}
+.ey{font-size:11px;font-weight:600;letter-spacing:2.4px;text-transform:uppercase;color:var(--bronzeDark)}
+h1{font-family:var(--display);font-weight:400;font-size:42px;line-height:1.05;margin:6px 0 10px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:500;font-size:28px;line-height:1.15;margin:0 0 10px;text-wrap:balance}
+h3{font-family:var(--display);font-weight:600;font-size:20px;line-height:1.2;margin:0}
+p{margin:0 0 10px}
+.lede{font-size:18px;color:var(--inkSoft);max-width:36em}
+section{padding-top:36px}
+.vshelf{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 14px}
+.vcard{flex:0 0 min(300px,80vw);scroll-snap-align:start;background:var(--card);border:1px solid var(--hair);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.vcard .code{font-family:var(--carve);font-size:12px;letter-spacing:2px;color:var(--bronzeDark)}
+.vcard .imgs{display:flex;gap:6px}
+.vcard img{width:50%;border-radius:12px;border:1px solid var(--hair);display:block}
+.vcard p{font-size:15px;margin:0;color:var(--inkSoft)}
+.vcard a{font-size:14px;color:var(--bronzeDark);font-weight:600}
+.scroll{overflow-x:auto;border:1px solid var(--hair);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;min-width:720px;width:100%;font-size:14.5px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-top:1px solid var(--light)}
+thead th{border-top:0;font-family:var(--carve);font-size:10px;letter-spacing:1.4px;color:var(--bronzeDark);font-weight:500}
+tbody th{font-weight:600;white-space:nowrap}
+.good{color:var(--up)} .risk{color:var(--down)}
+.howto{background:var(--quiet);border:1px solid #DCD3C0;border-radius:12px;padding:12px 14px;font-size:15px}
+.row{background:var(--card);border:1px solid var(--hair);border-radius:16px;padding:16px;margin-top:12px}
+.row .rh{display:flex;gap:10px;align-items:baseline}
+.row .rc{font-family:var(--carve);font-size:13px;letter-spacing:1.5px;color:var(--bronzeDark);flex:none}
+.row .why{font-size:14.5px;color:var(--inkSoft);margin:6px 0 10px}
+.opts{display:flex;flex-direction:column;gap:6px}
+.opt{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;text-align:left;border:1px solid var(--hair);background:var(--cream);border-radius:12px;padding:10px 12px;cursor:pointer;font:inherit;color:inherit;font-size:15px;line-height:1.4}
+.opt b{font-family:var(--carve);font-size:13px;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;border:1px solid var(--hair)}
+.opt .rec{display:inline-block;font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--up);margin-left:6px}
+.opt[aria-pressed="true"]{border-color:var(--ink);background:#fff}
+.opt[aria-pressed="true"] b{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.opt:focus-visible{outline:2px solid var(--bronzeDark);outline-offset:2px}
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:rgba(248,246,240,.97);border-top:1px solid var(--hair);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));backdrop-filter:blur(8px)}
+.tray .in{max-width:860px;margin:0 auto;display:flex;gap:10px;align-items:center}
+.tray code{flex:1;min-width:0;font-family:var(--body);font-size:15px;font-weight:600;white-space:nowrap;overflow-x:auto;padding:6px 0}
+.tray button{flex:none;border:0;border-radius:999px;background:var(--ink);color:var(--cream);font:inherit;font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:9px 14px;cursor:pointer}
+.tray .msg{font-size:12px;color:var(--up)}
+.art25{display:grid;grid-template-columns:auto repeat(5,minmax(110px,1fr));font-size:13px;min-width:700px}
+.art25>div{padding:8px;border-top:1px solid var(--light);border-left:1px solid var(--light)}
+.art25 .h{font-family:var(--carve);font-size:10px;letter-spacing:1.2px;color:var(--bronzeDark);background:var(--quiet)}
+.art25 .rel{display:block;font-family:var(--carve);font-size:8.5px;letter-spacing:1px;color:var(--inkLight);margin-bottom:2px;text-transform:uppercase}
+.han{font-family:var(--han)}
+ul{padding-left:20px;margin:6px 0} li{margin:3px 0;font-size:15.5px}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.links a{font-size:14px;color:var(--bronzeDark);border:1px solid var(--hair);border-radius:999px;padding:5px 12px;text-decoration:none;background:var(--cream)}
+@media (max-width:480px){h1{font-size:34px}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="ey">Elementum · Design pass · October 2026</div>
+  <h1>Four variants, one ruling sheet</h1>
+  <p class="lede">The four variants compared, then fifteen rows to rule. Rule them one at a time; my recommendation is always option A. Your answers build a code line at the bottom of the screen, for example "R1 A, R2 B".</p>
+  <div class="links">
+    <a href="https://claude.ai/artifact/VwfAJhcvsAJpAkBsf87qB3" target="_blank" rel="noopener">Research and principles</a>
+    <a href="https://claude.ai/artifact/VS7q4K3h66N6GCy3EGi6Rk" target="_blank" rel="noopener">V1 The Handscroll</a>
+    <a href="https://claude.ai/artifact/Q5o395Dp21HtcMBDjrWX3o" target="_blank" rel="noopener">V2 The Album</a>
+    <a href="https://claude.ai/artifact/YH9NpghZ82RmKvvTqa5Zhh" target="_blank" rel="noopener">V3 The Almanac Home</a>
+    <a href="https://claude.ai/artifact/D9Kdo4mSKm7Rf1pxUTCjz2" target="_blank" rel="noopener">V4 The Five Gates</a>
+  </div>
+</header>
+
+<section>
+  <h2>The four at a glance</h2>
+  <div class="vshelf">
+    <div class="vcard"><span class="code">V1</span><h3>The Handscroll</h3><div class="imgs"><img src="cmp-v1.jpg" alt="V1 depth tiles"><img src="cmp-v1b.jpg" alt="V1 Life Chapters page"></div><p>One unrolling scroll with a progress rod; depth sections become painted tiles that push full pages.</p><a href="https://claude.ai/artifact/VS7q4K3h66N6GCy3EGi6Rk" target="_blank" rel="noopener">Open V1 ›</a></div>
+    <div class="vcard"><span class="code">V2</span><h3>The Album</h3><div class="imgs"><img src="cmp-v2.jpg" alt="V2 tile grid"><img src="cmp-v2b.jpg" alt="V2 a leaf"></div><p>A grid of teaser tiles under the wheel; every section reads as leaves, like the first reading.</p><a href="https://claude.ai/artifact/Q5o395Dp21HtcMBDjrWX3o" target="_blank" rel="noopener">Open V2 ›</a></div>
+    <div class="vcard"><span class="code">V3</span><h3>The Almanac Home</h3><div class="imgs"><img src="cmp-v3b.jpg" alt="V3 Today"><img src="cmp-v3.jpg" alt="V3 contents"></div><p>The app opens on Today; Your reading is a book with a contents page and seven chapters.</p><a href="https://claude.ai/artifact/YH9NpghZ82RmKvvTqa5Zhh" target="_blank" rel="noopener">Open V3 ›</a></div>
+    <div class="vcard"><span class="code">V4</span><h3>The Five Gates</h3><div class="imgs"><img src="cmp-v4.jpg" alt="V4 energy shelf"><img src="cmp-v4b.jpg" alt="V4 lens rail on Domains"></div><p>The energies are the index; a five-sign rail lights each energy across every page.</p><a href="https://claude.ai/artifact/D9Kdo4mSKm7Rf1pxUTCjz2" target="_blank" rel="noopener">Open V4 ›</a></div>
+  </div>
+
+  <div class="scroll"><table>
+    <thead><tr><th></th><th>V1 Handscroll</th><th>V2 Album</th><th>V3 Almanac Home</th><th>V4 Five Gates</th></tr></thead>
+    <tbody>
+      <tr><th>Your reading</th><td>One scroll, seven beats, a rod</td><td>Identity strip, wheel, tile grid</td><td>Cover, wheel, contents page</td><td>Hero, wheel, energy shelf, four lenses</td></tr>
+      <tr><th>Long sections</th><td>Pushed pages with sticky anchors</td><td>Leaves; "read as one page" option</td><td>Chapter pages with a reading bar</td><td>Pages, filterable by energy</td></tr>
+      <tr><th>Where am I</th><td>Seven-knot rod</td><td>Unread dots, a seal stamp when read</td><td>Read marks and minutes on contents</td><td>Rail shows the active energy</td></tr>
+      <tr><th>Next step</th><td>Next tile at every page end</td><td>Next tile on the last leaf</td><td>Next chapter; Continue on Today</td><td>Follow an energy everywhere</td></tr>
+      <tr><th>Visual share</th><td>Medium: art bands on tiles and pages</td><td>High: every tile and most leaves</td><td>Medium: thumbnails and chapter bands</td><td>High: an art card per energy</td></tr>
+      <tr><th>Daily return</th><td>Same as today</td><td>Today as a large painted card</td><td class="good">Strongest: lands on Today, offers to continue</td><td>Layered year, month, day</td></tr>
+      <tr><th>Change to the app</th><td class="good">Smallest; same IA</td><td>Medium; new leaf reader reused everywhere</td><td>Medium; landing tab and chapter shell</td><td class="risk">Largest; lens logic on every page</td></tr>
+      <tr><th>Main risk</th><td class="risk">Still long; least new</td><td class="risk">Leaves can feel slow for skimmers</td><td class="risk">"Book" may read as finite, done once</td><td class="risk">Rail adds a concept; Stars do not map</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>How I would combine them</h2>
+  <div class="howto">My recommended path takes V2’s album and leaves as the base, keeps V1’s full-page reading as the "read it all as one page" mode, borrows V3’s rule that returning visits land on Today with a "continue" card, and takes V4’s sideways pager between energies and its balance graphic at the top of "How am I running?". The lens rail waits for a second phase. The rows below let you accept or change each part of that, one at a time.</div>
+</section>
+
+<section>
+  <h2>Ruling sheet</h2>
+  <p class="lede" style="font-size:16px">Tap one option per row. Rows starting with R are the design; rows starting with N are new art and fixes.</p>
+  <div id="rows"></div>
+</section>
+
+<section>
+  <h2>New art note</h2>
+  <p>No variant swaps in new art. These are proposals only, for you to rule in rows N1 to N3.</p>
+  <h3 style="margin-top:12px">N1 · The 25 pair illustrations for the energy sheet (backlog GO-2)</h3>
+  <p style="font-size:15.5px">One painting per pair of your core element and one of the five energies, so every chart’s five sheets have a picture: 5 core elements × 5 energies = 25. Each shows the relation the sheet names in the locked words (feeds you, shapes you, you feed it, you shape it, more of you).</p>
+  <ul>
+    <li>Format 1100 × 733 (3:2), the same as the <code>concept-arts/library</code> plates, so the sheet slot and any tile can use it.</li>
+    <li>House ink-wash: rice-paper ground, one focal point, the core’s stem motif from DES_14 §1, mist fading to paper on the bottom third so it melts into the sheet.</li>
+    <li>Colour only from the two elements’ pigments; no text, no seal (the screen’s one red stays elsewhere).</li>
+    <li>Yin and yang stems of the same element share a painting; the sheet’s story sentence carries the stem.</li>
+  </ul>
+  <div class="scroll" style="margin-top:10px"><div class="art25">
+    <div class="h">Core ↓ · energy →</div><div class="h">Metal</div><div class="h">Wood</div><div class="h">Fire</div><div class="h">Earth</div><div class="h">Water</div>
+    <div class="h">Metal 庚辛</div><div><span class="rel">more of you</span>Two blades ground edge to edge</div><div><span class="rel">you shape it</span>An axe splitting a log</div><div><span class="rel">shapes you</span>A blade laid in the forge</div><div><span class="rel">feeds you</span>Ore inside a damp hillside</div><div><span class="rel">you feed it</span>Dew gathering on a blade at dawn</div>
+    <div class="h">Wood 甲乙</div><div><span class="rel">shapes you</span>A pruning blade on a branch</div><div><span class="rel">more of you</span>Trunks and vines grown together</div><div><span class="rel">you feed it</span>Kindling catching a small flame</div><div><span class="rel">you shape it</span>Roots splitting stone and soil</div><div><span class="rel">feeds you</span>Roots drinking at a river bank</div>
+    <div class="h">Fire 丙丁</div><div><span class="rel">you shape it</span>Metal softening in the coals</div><div><span class="rel">feeds you</span>Dry branches stacked for a fire</div><div><span class="rel">more of you</span>A lamp burning under the sun</div><div><span class="rel">you feed it</span>Ash settling into a kiln of clay</div><div><span class="rel">shapes you</span>Rain falling on a lantern</div>
+    <div class="h">Earth 戊己</div><div><span class="rel">you feed it</span>A seam of ore in the mountain</div><div><span class="rel">shapes you</span>Tree roots breaking open a field</div><div><span class="rel">feeds you</span>A kiln firing pots in the hillside</div><div><span class="rel">more of you</span>Ranges layered behind ranges</div><div><span class="rel">you shape it</span>Terraced paddies holding water</div>
+    <div class="h">Water 壬癸</div><div><span class="rel">feeds you</span>A spring running out of rock</div><div><span class="rel">you feed it</span>Rain on bamboo</div><div><span class="rel">you shape it</span>Steam where a stream meets embers</div><div><span class="rel">shapes you</span>Banks guiding a river</div><div><span class="rel">more of you</span>A river meeting the sea</div>
+  </div></div>
+  <h3 style="margin-top:18px">N2 · Portrait crops of the existing plates</h3>
+  <p style="font-size:15.5px">Leaves and story cards (V2) want 3:4 crops. Each element already has two portrait plates (<code>t_{element}_{1,2}_p</code>); cropping three more per element from the existing landscape plates gives five per element without new painting.</p>
+  <h3 style="margin-top:12px">N3 · Mirror the yin-stem plates from the vault</h3>
+  <p style="font-size:15.5px">DES_14 §5 gap 2: the yin-stem paintings (丁 candle, 辛 jewel, 癸 dew, 乙 grass, 己 field) already exist in the art vault but are not mirrored into <code>public/</code>. Mirroring them lets energy cards and sheets match a yin chart’s stem. No generation needed.</p>
+  <h3 style="margin-top:12px">N4 · Seven chapter marks (V3 only)</h3>
+  <p style="font-size:15.5px">Small square ink marks, one per reading section, for a picture index. Only needed if V3’s contents page is adopted.</p>
+</section>
+
+<section>
+  <h2>Also found: live defects</h2>
+  <ul>
+    <li>Italic still set in four live places: <code>guidance/InkTile.jsx</code> (the Guidance tile subtitles), <code>tabs/CompatScreen.jsx</code> (two) and <code>reading/DayMasterCta.jsx</code>.</li>
+    <li>The wheel’s function label under a left-hand disk is cut by the center painting (golden "Action · you shape it", Vine "Action"). This is a stacking-order bug, not the wheel’s design; the fix leaves the design unchanged.</li>
+  </ul>
+</section>
+</div>
+
+<div class="tray" role="region" aria-label="Your rulings"><div class="in"><code id="codes">No rows ruled yet</code><span class="msg" id="msg" aria-live="polite"></span><button id="copy" type="button">Copy</button></div></div>
+
+<script>
+const ROWS = [
+  ['R1', 'Base for Your reading', 'Which variant’s layout becomes the base the others borrow from.', ['V2 The Album: identity strip, wheel, then teaser tiles sized by weight', 'V1 The Handscroll: one scroll with a rod and painted depth tiles', 'V3 The Almanac Home: a book with a contents page', 'V4 The Five Gates: an energy shelf and four lenses']],
+  ['R2', 'How long sections read', 'Domains, Life Chapters, Stars, Blueprint, How am I running, and the energy readings.', ['Leaves (one idea each, tap to go on), with "Read it all as one page"', 'Pushed scrolling pages with sticky anchor chips (V1)', 'Chapter pages with a reading bar and minutes left (V3)']],
+  ['R3', 'Where the app opens', 'The landing tab after the first reading and on later visits.', ['First visit lands on Your reading; later visits land on Today with "Continue reading"', 'Always Your reading, as today', 'Always Today (V3)']],
+  ['R4', 'Reading progress', 'How the reader knows what is read and what is next.', ['Unread ink dot on tiles; your stem seal stamps a finished tile (one red per screen)', 'The seven-knot rod at the top of Your reading (V1)', 'Read marks and minutes on a contents list (V3)', 'No progress cues']],
+  ['R5', 'Moving between energies', 'From one energy’s page to the next.', ['Swipe sideways between the five energy pages, with five dots (V4)', 'A Next tile at the end of each energy page (V1)', 'Back to the wheel each time, as today']],
+  ['R6', 'The five-sign lens rail', 'V4’s rail that lights one energy across Domains, Chapters, the birth chart and the Almanac.', ['Later: design it as a second phase once the base ships', 'Now, as part of the base', 'No']],
+  ['R7', 'Your Almanac hub', 'The first screen of the Today tab.', ['Today as one large painted card, the week ribbon under it, month and year as tiles (V2)', 'Year, month and day stacked as layers (V4)', 'Date masthead, today, Continue reading, quiet rows (V3)', 'Keep the current hub']],
+  ['R8', 'Face of a depth tile', 'What sits on the Domains, Life Chapters, Stars and Blueprint tiles.', ['Painted band from an existing plate, the claim, one visual, reading time', 'Text tile with chips, as today']],
+  ['R9', 'The energy sheet’s picture until the pair art lands', 'The slot that shows "illustration" on the dev site.', ['Show the energy’s existing element plate, labelled as interim', 'Keep the placeholder on dev and hide it live, as today', 'Remove the slot']],
+  ['R10', 'Reading time on tiles', 'Showing "5 min" on sections, from Medium’s 265 words a minute.', ['Yes, on every depth tile and section', 'No']],
+  ['R11', 'How the "How am I running?" page opens', 'The first thing on the condition page.', ['The balance graphic from V4: the energies that add to you and the ones that spend you, your seal and the dial between them', 'The dial and headline only, as today']],
+  ['N1', 'The 25 pair illustrations (GO-2)', 'Spec and motif table above.', ['Commission all 25 to this spec', 'Commission the golden chart’s five first, then the rest', 'Not now']],
+  ['N2', 'Portrait crops of existing plates', 'Three more 3:4 crops per element, no new painting.', ['Yes', 'No']],
+  ['N3', 'Mirror the yin-stem plates', 'Already painted, in the vault.', ['Yes', 'No']],
+  ['N4', 'Fix the live defects now', 'Four italic sites and the clipped wheel label.', ['Yes, as a small separate fix before the design build', 'Fold them into the design build']],
+];
+const L = 'ABCD';
+let pick = {};
+try { pick = JSON.parse(localStorage.getItem('elementum-rulings') || '{}') || {}; } catch (e) { pick = {}; }
+const rows = document.getElementById('rows');
+rows.innerHTML = ROWS.map(([c, t, why, opts]) => `<div class="row" id="row-${c}"><div class="rh"><span class="rc">${c}</span><h3>${t}</h3></div><p class="why">${why}</p><div class="opts" role="group" aria-label="${c} ${t}">${opts.map((o, i) => `<button type="button" class="opt" data-row="${c}" data-opt="${L[i]}" aria-pressed="${pick[c] === L[i]}"><b>${L[i]}</b><span>${o}${i === 0 ? '<span class="rec">Recommended</span>' : ''}</span></button>`).join('')}</div></div>`).join('');
+const codes = document.getElementById('codes');
+const render = () => { const s = ROWS.filter(([c]) => pick[c]).map(([c]) => `${c} ${pick[c]}`).join(', '); codes.textContent = s || 'No rows ruled yet'; };
+rows.addEventListener('click', (e) => {
+  const b = e.target.closest('.opt'); if (!b) return;
+  pick[b.dataset.row] = b.dataset.opt;
+  b.parentElement.querySelectorAll('.opt').forEach((x) => x.setAttribute('aria-pressed', x === b));
+  try { localStorage.setItem('elementum-rulings', JSON.stringify(pick)); } catch (err) { /* storage off */ }
+  render();
+});
+document.getElementById('copy').addEventListener('click', () => {
+  const msg = document.getElementById('msg');
+  const t = codes.textContent;
+  navigator.clipboard.writeText(t).then(() => { msg.textContent = 'Copied'; setTimeout(() => (msg.textContent = ''), 1500); })
+    .catch(() => { const r = document.createRange(); r.selectNodeContents(codes); const s = getSelection(); s.removeAllRanges(); s.addRange(r); msg.textContent = 'Selected'; });
+});
+render();
+</script>

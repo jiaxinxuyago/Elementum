@@ -1,0 +1,228 @@
+<meta charset="utf-8">
+<title>V2 The Album</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="kit.css">
+<style>
+/* V2 · The Album (册页): Your reading is a hub of teaser tiles under the
+   wheel, sized by weight in a two-column grid. Every tile opens a leaf
+   sequence that reads like the first reading: segmented progress, tap
+   right to go on, tap left to go back, X to close. A "read" seal stamps
+   the tile when its last leaf is reached. */
+.idstrip{display:flex;align-items:center;gap:10px;padding:4px 2px}
+.idstrip img{width:40px;height:40px;border-radius:50%;border:1px solid var(--paperHair);background:var(--cream)}
+.idstrip .nm{display:flex;flex-direction:column;flex:1;min-width:0}
+.idstrip .nm b{font-family:var(--display);font-size:22px;font-weight:500;color:var(--walnut);line-height:1}
+.bento{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bt{position:relative;border-radius:16px;overflow:hidden;background:var(--cardstock);border:1px solid var(--paperHair);padding:12px;display:flex;flex-direction:column;gap:6px;cursor:pointer;min-height:132px}
+.bt.wide{grid-column:span 2}
+.bt.tall{min-height:200px}
+.bt .kart{position:absolute;inset:0;opacity:.95}
+.bt.artful::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(248,241,225,0) 20%,rgba(248,241,225,.94) 62%)}
+.bt>*:not(.kart){position:relative;z-index:2}
+.bt .ey{font-size:9px}
+.bt .cl{font-family:var(--display);font-size:17px;line-height:1.2;font-weight:500;margin:0;text-wrap:balance}
+.bt .ft{margin-top:auto;display:flex;align-items:center;gap:6px;font-size:11px;color:var(--inkLight)}
+.bt .ft .readcirc{margin-left:auto}
+.bt .stamp{position:absolute;right:10px;top:10px;z-index:3}
+.bt .unread{position:absolute;right:12px;top:12px;z-index:3;width:7px;height:7px;border-radius:50%;background:var(--ink)}
+.domgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:2px}
+.domgrid span{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10px;color:var(--inkSoft)}
+.domgrid span .ic{width:18px;height:18px;color:var(--bronzeDark)}
+.domgrid span.hv .ic{color:var(--ink)}
+.domgrid span.hv{font-weight:700}
+.rxdots{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.rxdots .grp{display:flex;align-items:center;gap:4px}
+.rxdots .lbl{font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase}
+.rxdots .lbl.d{color:var(--down)}.rxdots .lbl.u{color:var(--up)}
+/* leaves */
+.leaf{min-height:100%;display:flex;flex-direction:column;background:var(--silk);position:relative}
+.leaf .lband{position:relative;height:210px;flex:none}
+.leaf .lband .kart{position:absolute;inset:0}
+.leaf .lband::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(241,233,214,0) 35%,var(--silk))}
+.leaf .ltop{position:absolute;top:0;left:0;right:0;z-index:4;padding:10px 14px 0}
+.leaf .lprog{display:flex;gap:3px}
+.leaf .lprog i{flex:1;height:2px;border-radius:1px;background:rgba(43,39,34,.18)}
+.leaf .lprog i.on{background:var(--ink)}
+.leaf .lbar{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+.leaf .lbar .x{width:28px;height:28px;border-radius:50%;background:rgba(248,246,240,.8);display:grid;place-items:center}
+.leaf .lbar .x .ic{width:12px;height:12px}
+.leaf .lbody{padding:6px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.leaf .lbody.top{padding-top:76px;justify-content:center}
+.leaf h3{font-family:var(--display);font-weight:500;font-size:26px;line-height:1.15;margin:0;text-wrap:balance}
+.leaf p{margin:0;font-size:15.5px;line-height:1.55}
+.leaf .zones{position:absolute;inset:60px 0 0;display:grid;grid-template-columns:1fr 2fr;pointer-events:none;z-index:3}
+.leaf .zones span{border:1px dashed rgba(107,83,57,.0)}
+.leaf .lfoot{display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--inkLight);padding:0 20px 16px}
+.leaf.ink{background:var(--night);color:#F3EDDF}
+.leaf.ink .lprog i{background:rgba(243,237,223,.25)} .leaf.ink .lprog i.on{background:#F3EDDF}
+.endleaf{display:flex;flex-direction:column;gap:10px;margin-top:auto}
+.nextleaf{display:flex;gap:12px;align-items:center;border:1px solid var(--paperHair);border-radius:16px;padding:10px;background:var(--cardstock);cursor:pointer}
+.nextleaf .kart{width:70px;height:70px;border-radius:12px;flex:none}
+.alink{font-size:13px;color:var(--bronzeDark);text-align:center;text-decoration:underline;text-underline-offset:3px}
+.reveal{background:#EFE6D2}
+.reveal .bgt{position:absolute;inset:0 0 auto;width:100%}
+.reveal .bgb{position:absolute;inset:auto 0 0;width:100%;opacity:.8}
+.reveal .rin{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;text-align:center;padding:96px 26px 0;gap:10px;min-height:100%}
+.reveal .rseal{width:150px;height:150px}
+.reveal .rname{font-family:var(--display);font-size:40px;font-weight:500;margin:0}
+.wtile{padding:10px 8px 8px}
+.wtile .wh{display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;padding:0 6px 2px}
+.hint{text-align:center;font-size:12.5px;color:var(--inkSoft);margin:2px 0 0}
+.todaycard{position:relative;border-radius:22px;overflow:hidden;min-height:360px;display:flex;flex-direction:column;justify-content:flex-end;cursor:pointer;border:1px solid var(--paperHair)}
+.todaycard .kart{position:absolute;inset:0}
+.todaycard::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(241,233,214,0) 25%,rgba(248,241,225,.96) 70%)}
+.todaycard .tc{position:relative;z-index:2;padding:16px;display:flex;flex-direction:column;gap:8px}
+.todaycard .tc .disp{font-size:26px}
+.tone-d{font-family:var(--carve);font-size:9px;letter-spacing:1.6px;color:var(--down)} .tone-u{font-family:var(--carve);font-size:9px;letter-spacing:1.6px;color:var(--up)}
+.big{width:100%}
+</style>
+<div id="app"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="jny-el-metal" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"></path></symbol>
+<symbol id="jny-el-wood" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"></path></symbol>
+<symbol id="jny-el-fire" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"></path></symbol>
+<symbol id="jny-el-earth" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"></path><path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"></path></symbol>
+<symbol id="jny-el-water" viewBox="0 0 24 24"><path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"></path><path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"></path></symbol>
+<symbol id="jny-ic-charged" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="13.5" r="6.2" fill="currentColor" stroke="none"></circle><path d="M12 3.2v2.4M5.2 6.4l1.7 1.7M18.8 6.4l-1.7 1.7"></path></g></symbol>
+<symbol id="jny-ic-balanced" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="7.2"></circle><path d="M4.8 12h14.4" stroke-linecap="round"></path><path d="M12 12a7.2 7.2 0 0 1-7.2 0v0a7.2 7.2 0 0 0 14.4 0v0a7.2 7.2 0 0 1-7.2 0Z" fill="currentColor" stroke="none" transform="translate(0 0.2)"></path></g></symbol>
+<symbol id="jny-ic-receptive" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="7.2" stroke-dasharray="2.6 3"></circle><circle cx="12" cy="15.2" r="2.1" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-ic-channel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 4.5v5M16.5 14.5v5"></path><path d="M4 12h14.5M15.2 8.7 18.5 12l-3.3 3.3"></path></g></symbol>
+<symbol id="jny-ic-fuel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="17.2" cy="12" r="3.4" fill="currentColor" stroke="none"></circle><path d="M3.5 12h8.3M9.2 8.9 12.3 12l-3.1 3.1"></path></g></symbol>
+<symbol id="jny-ar-up" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6"></path><path d="M6 11l6-6 6 6"></path></g></symbol>
+<symbol id="jny-ar-down" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v13"></path><path d="M6 13l6 6 6-6"></path></g></symbol>
+<symbol id="jny-ico-arrow-r" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12 H19"></path><path d="M14 7 L19 12 L14 17"></path></g></symbol>
+<symbol id="jny-ico-chev-l" viewBox="0 0 24 24"><path d="M15 6 L9 12 L15 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ico-chev-r" viewBox="0 0 24 24"><path d="M9 6 L15 12 L9 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ico-share" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="M8 7l4-4 4 4"></path><path d="M5 12v7a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19v-7"></path></g></symbol>
+<symbol id="jny-ico-close" viewBox="0 0 24 24"><path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"></path></symbol>
+<symbol id="jny-ic-codex" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.4C10.4 5.2 8.2 4.7 5.4 4.9v12c2.8-.2 5 .3 6.6 1.5 1.6-1.2 3.8-1.7 6.6-1.5v-12c-2.8-.2-5 .3-6.6 1.5z"></path><path d="M12 6.4V18.4"></path></g></symbol>
+<symbol id="jny-ic-save" viewBox="0 0 24 24"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ic-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 14.4l4.8-4.8"></path><path d="M8.2 11.1l-1.9 1.9a3 3 0 0 0 4.24 4.24l1.9-1.9"></path><path d="M15.8 12.9l1.9-1.9a3 3 0 0 0-4.24-4.24l-1.9 1.9"></path></g></symbol>
+<symbol id="jny-tab-today" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></g></symbol>
+<symbol id="jny-tab-guidance" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 4.8 L14.5 12 L12 19.2 L9.5 12 Z"></path><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-tab-reading" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5 C 6 4, 9 4, 12 6 C 15 4, 18 4, 21 5 V19 C 18 18, 15 18, 12 20 C 9 18, 6 18, 3 19 Z"></path><path d="M12 6 V20"></path></g></symbol>
+<symbol id="jny-tab-compat" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="12" r="6.5"></circle><circle cx="15.5" cy="12" r="6.5"></circle><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-tab-profile" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></g></symbol>
+<symbol id="jny-fn-body" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.6" r="2.6"></circle><path d="M12 8.4 V14.6"></path><path d="M7.2 12.2 L12 9.8 L16.8 12.2"></path><path d="M12 14.6 L8.6 21"></path><path d="M12 14.6 L15.4 21"></path></g></symbol>
+<symbol id="jny-fn-mind" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.2 C10 5.6 7.2 5.3 3.8 6 V18.6 C7.2 17.9 10 18.2 12 19.8 C14 18.2 16.8 17.9 20.2 18.6 V6 C16.8 5.3 14 5.6 12 7.2 Z"></path><path d="M12 7.2 V19.8"></path><path d="M6.6 9.6 C7.6 9.5 8.6 9.6 9.6 9.9"></path><path d="M6.6 12.6 C7.6 12.5 8.6 12.6 9.6 12.9"></path><path d="M14.4 9.9 C15.4 9.6 16.4 9.5 17.4 9.6"></path><path d="M14.4 12.9 C15.4 12.6 16.4 12.5 17.4 12.6"></path></g></symbol>
+<symbol id="jny-fn-expression" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 4.6 H17.8 A2.4 2.4 0 0 1 20.2 7 V14 A2.4 2.4 0 0 1 17.8 16.4 H10.6 L6.4 19.8 V16.4 H6.2 A2.4 2.4 0 0 1 3.8 14 V7 A2.4 2.4 0 0 1 6.2 4.6 Z"></path><path d="M9.3 12.2 C8.2 11.9 7.9 10.6 8.5 9.7 C9 9 9.9 8.8 10.5 9.3"></path><path d="M14.3 12.2 C13.2 11.9 12.9 10.6 13.5 9.7 C14 9 14.9 8.8 15.5 9.3"></path></g></symbol>
+<symbol id="jny-fn-action" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M10.9 5.6 L14.4 2.1 A1.2 1.2 0 0 1 16.1 2.1 L21.9 7.9 A1.2 1.2 0 0 1 21.9 9.6 L18.4 13.1 Z"></path><path d="M12.9 9.4 L4 18.3 A1.5 1.5 0 0 0 4 20.4 L4.4 20.8 A1.5 1.5 0 0 0 6.5 20.8 L14.6 11.1"></path></g></symbol>
+<symbol id="jny-fn-order" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.2 V20"></path><path d="M8.2 20.4 H15.8"></path><path d="M4.6 7.6 H19.4"></path><path d="M6.2 7.6 L3.2 13.6"></path><path d="M6.2 7.6 L9.2 13.6"></path><path d="M3.2 13.6 A3 3 0 0 0 9.2 13.6"></path><path d="M17.8 7.6 L14.8 13.6"></path><path d="M17.8 7.6 L20.8 13.6"></path><path d="M14.8 13.6 A3 3 0 0 0 20.8 13.6"></path></g></symbol>
+<symbol id="jny-dom-wealth" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6.5" rx="7" ry="2.6"></ellipse><path d="M5 6.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path><path d="M5 11.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path></g></symbol>
+<symbol id="jny-dom-rel" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 5.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4C4.5 11.8 2 10.2 2 7.8c0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z" transform="translate(2 2)"></path><path d="M15.5 9.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4-2-1.4-4.5-3-4.5-5.4 0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z"></path></g></symbol>
+<symbol id="jny-dom-career" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7.5" width="17" height="12" rx="2"></rect><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"></path><path d="M3.5 12.5h17"></path></g></symbol>
+<symbol id="jny-dom-family" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4.5l8 7"></path><path d="M6.2 10v9.5h11.6V10"></path><path d="M10.2 19.5v-5h3.6v5"></path></g></symbol>
+<symbol id="jny-dom-social" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3"></circle><path d="M3.5 19c0-3.2 2.4-5.5 5.5-5.5s5.5 2.3 5.5 5.5"></path><path d="M15.2 5.8a3 3 0 0 1 0 5.4"></path><path d="M16.8 13.6c2.3.5 3.7 2.5 3.7 5.4"></path></g></symbol>
+<symbol id="jny-dom-love" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19.5c-4.2-2.9-8-6.1-8-10 0-2.3 1.7-4 3.9-4 1.6 0 2.9.8 4.1 2.3 1.2-1.5 2.5-2.3 4.1-2.3 2.2 0 3.9 1.7 3.9 4 0 3.9-3.8 7.1-8 10z"></path></g></symbol>
+<symbol id="jny-dom-mind" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17.5h6"></path><path d="M10 20h4"></path><path d="M8.6 14.6C7 13.5 6 11.9 6 10a6 6 0 0 1 12 0c0 1.9-1 3.5-2.6 4.6-.6.4-.9 1-.9 1.6v.3H9.5v-.3c0-.6-.3-1.2-.9-1.6z"></path></g></symbol>
+<symbol id="jny-dom-growth" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5V10.5"></path><path d="M12 13.5c-3.6 0-6-2.2-6.5-6 3.8 0 6.3 2 6.5 6z"></path><path d="M12 11c.3-3.6 2.8-5.6 6.5-5.5-.5 3.8-2.9 5.8-6.5 5.5z"></path><path d="M7 20.5h10"></path></g></symbol>
+<symbol id="jny-ico-lock" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"></rect><path d="M8.5 10.5V7.8a3.5 3.5 0 0 1 7 0v2.7"></path></g></symbol>
+<symbol id="jny-dom-health" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 12.5h3l1.6-4 2.8 8 2.4-6 1.4 2h5.3"></path></g></symbol>
+<symbol id="jny-ico-spark" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v4M12 16.5v4M3.5 12h4M16.5 12h4"></path><path d="M12 8.2 13.6 10.4 16 12 13.6 13.6 12 15.8 10.4 13.6 8 12 10.4 10.4Z"></path></g></symbol></defs></svg>
+<script src="kit.js"></script>
+<script src="blocks.js"></script>
+<script>
+const page = (inner, tab = 'reading') => `<div class="page">${status()}${inner}${tabbar(tab)}</div>`;
+const stamp = (h = '庚') => `<span class="chop stamp">${h}</span>`;
+/* a leaf: n of total, optional art band, body; "go" = next leaf on tap */
+const leaf = ({ n, of, art: a, ey, h, body = '', go, back = 'reading', ink = false, end = '', time = '' }) => `<div class="leaf${ink ? ' ink' : ''}"${go ? ` data-go="${go}"` : ''}>
+  <div class="ltop"><div class="lprog">${Array.from({ length: of }, (_, i) => `<i class="${i < n ? 'on' : ''}"></i>`).join('')}</div><div class="lbar"><span class="carve" style="${ink ? 'color:#D9CFBC' : ''}">${ey}</span><span class="x" data-go="${back}">${use('ico-close')}</span></div></div>
+  ${a ? `<div class="lband">${art(a)}</div>` : ''}
+  <div class="lbody${a ? '' : ' top'}">${h ? `<h3>${h}</h3>` : ''}${body}${end}</div>
+  ${time ? `<div class="lfoot"><span>${n} of ${of}</span><span>${time}</span></div>` : ''}</div>`;
+const nextLeaf = (a, ey, t, go) => `<div class="endleaf"><div class="nextleaf" data-go="${go}">${art(a)}<div style="flex:1"><span class="ey">Next · ${ey}</span><p class="disp" style="font-size:18px">${t}</p></div>${arrowBtn('sm')}</div><span class="alink">Read it all as one page</span></div>`;
+
+const hub = (scroll) => page(`<div class="pad" style="padding-top:8px">
+  <div class="idstrip"><img src="${D.id.seal}" alt=""><div class="nm"><span class="kick">You are</span><b>${D.id.arch}</b></div><span data-go="run">${pill('cond')}</span></div>
+  <div class="card wtile"><div class="wh"><span class="ey">Your five energies</span>${seg('do')}</div>${wheel()}<p class="hint">Tap an energy. Tap the seal for how you run.</p></div>
+  <div class="bento">
+    <div class="bt" data-go="run-1"><span class="ey">How am I running?</span><div style="width:96px;margin:auto">${dial(D.score, D.cond)}</div><span class="ft">${D.runShort}</span>${stamp()}</div>
+    <div class="bt" data-go="sheet-fire"><span class="ey">Start here</span><div style="margin:auto">${dot('fire', 54)}</div><span class="cl" style="font-size:15px">${D.E.fire.head}</span><span class="ft">${pill('cat', 'Grow it')}</span><span class="unread"></span></div>
+    <div class="bt wide" style="min-height:0" data-go="sheet-earth"><span class="ey">What does my chart ask for?</span><div class="rxdots"><span class="grp"><span class="lbl d">↓ Release</span>${D.ease.map((e) => dot(e, 26)).join('')}</span><span class="grp"><span class="lbl u">↑ Grow</span>${D.seek.map((e) => dot(e, 26)).join('')}</span></div><span class="ft">${D.rx}</span></div>
+    <div class="bt wide tall artful" data-go="dom-1">${art('g_hero_3', '', 'center 30%')}<span class="unread"></span><span class="ey" style="margin-top:58px">Your domains</span><p class="cl">${D.domainsHead}</p><div class="domgrid">${D.domains.map(([d, , w]) => `<span class="${w >= 4 ? 'hv' : ''}">${domIcon(d)}${d}</span>`).join('')}</div><span class="ft">1 min · 4 leaves ${arrowBtn('sm')}</span></div>
+    <div class="bt wide tall artful" data-go="ch-1">${art('g_hero_8', '', 'center 40%')}<span class="unread"></span><span class="ey" style="margin-top:58px">Your life chapters</span><p class="cl">${D.chapters.short}</p>${lifeStrip(true)}<span class="ft">5 min · 8 leaves ${arrowBtn('sm')}</span></div>
+    <div class="bt tall artful" data-go="st-1">${art('t_water_6_w', '', '70% center')}<span class="unread"></span><span class="ey" style="margin-top:46px">Your stars</span><p class="cl" style="font-size:15px">${D.stars.head}</p><span class="ft">3 min ${arrowBtn('sm')}</span></div>
+    <div class="bt tall artful" data-go="bp-1">${art('g_hero_10', '', 'center 30%')}<span class="ey" style="margin-top:46px">Your blueprint</span><p class="cl" style="font-size:15px">${D.blueprint.head}</p><span class="ft">${pill('adv', 'Advisor', false)} ${arrowBtn('sm')}</span></div>
+  </div>
+  <div class="card"><span class="ey">The words on this page · tap one</span><div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px">${pill('core', 'Core', false)}${pill('cond')}${pill('cat', 'Catalyst')}${pill('fric', 'Friction')}${['Seat', 'Gate', 'Decade', 'Star'].map((w) => pill('core', w, false)).join('')}</div></div>
+  <span class="alink" data-go="pillars">Birth chart ›</span></div>`);
+
+const V = {
+  code: 'V2', name: 'The Album',
+  thesis: 'Your reading becomes an album of teaser tiles under the wheel. Every tile opens a short run of leaves that read like the first reading, so the whole app has one way to read.',
+  tap: 'Tap a tile to open its leaves. In a leaf: tap the right two-thirds to go on, the left third to go back, X to close. Energies and words still open sheets.',
+  scroll: 'Your reading scrolls once: identity strip, wheel, then the tile grid. Leaves never scroll; a leaf holds one idea. "Read it all as one page" turns any leaf run into a scrolling page for readers who prefer it.',
+  next: 'The last leaf of every run hands you the next tile. Unread tiles carry an ink dot; finished tiles are stamped with your stem seal.',
+  intro: 'Built on the strongest pattern already in the app: the eight-card first reading. Frames are tappable; arrows and tiles travel to their screens.',
+  flows: [
+    { id: 'first', short: 'First run', title: 'The Naming and the first reading', note: 'Unchanged. The first reading teaches the leaf gesture that every section then reuses.',
+      screens: [
+        { id: 'naming', label: 'The Naming', gesture: 'Swipe up', html: `<div class="page reveal">${status()}<img class="bgt" src="bg-reveal-01-distant-peaks.jpg" alt=""><img class="bgb" src="bg-reveal-02-floating-island.jpg" alt=""><div class="rin"><span class="carve">You are</span><img class="rseal" src="${D.id.seal}" alt=""><p class="rname">${D.id.arch}</p><p class="disp" style="font-size:20px">${D.id.thesis}</p><p class="soft" style="margin:0">${D.id.edge}</p><span class="carve" style="border-top:1px solid var(--paperHair);padding-top:10px">${D.id.lit}</span><span style="margin-top:auto;padding-bottom:30px;font-size:13px" data-go="fr-1">Swipe up</span></div></div>` },
+        { id: 'fr-1', label: 'First reading · 1 of 8', gesture: 'The model for every section', html: leaf({ n: 1, of: 8, ey: 'Your first reading', ink: true, h: `You are ${D.id.arch}.`, body: `<img src="${D.id.seal}" alt="" style="width:120px;align-self:center;background:rgba(243,237,223,.92);border-radius:50%;margin:20px 0"><p>${D.id.who}</p>`, go: 'fr-4', back: 'hub' }) },
+        { id: 'fr-4', label: 'First reading · 3 of 8', gesture: 'One energy per leaf', html: leaf({ n: 3, of: 8, ey: D.E.metal.head, h: 'You have 23% of Metal energy.', body: `<div style="align-self:center;margin:6px 0">${dot('metal', 96)}</div><span class="carve" style="text-align:center">Metal is your Body · yourself</span>${presBar('metal')}<p>${D.E.metal.teaser}</p><span>${pill('fric', 'Release it')}</span>`, go: 'fr-8', back: 'hub' }) },
+        { id: 'fr-8', label: 'First reading · 8 of 8', gesture: 'Enter your reading → the album', html: leaf({ n: 8, of: 8, ey: 'What your chart asks for', ink: true, h: D.rx, body: `<p>${D.start}</p><div class="endleaf"><button class="cta light" style="color:#F3EDDF;border-color:rgba(243,237,223,.4)">${use('ico-share')}Share your reading</button><button class="cta" style="background:#F3EDDF;color:var(--ink)" data-go="hub">Enter your reading ${use('ico-arrow-r')}</button></div>`, back: 'hub' }) },
+      ] },
+    { id: 'hub', short: 'Your reading', title: 'The album', note: 'Identity in one strip, the wheel at full width, then tiles sized by weight. Every tile face carries a claim from your reading and a picture: the dial, an ink dot, a painted plate, the life strip, the domain glyphs.',
+      screens: [
+        { id: 'hub', label: 'Your reading · top', gesture: 'Condition pill → How am I running?', html: hub() },
+        { id: 'hub-2', label: 'Your reading · the tiles', gesture: 'Tiles open leaf runs', at: 360, html: hub() },
+        { id: 'hub-3', label: 'Your reading · the end', gesture: 'Words, then Birth chart', at: 900, html: hub() },
+        { id: 'sheet-fire', label: 'Energy sheet · Fire', gesture: 'From a wheel disk or Start here', html: `<div class="page">${status()}<div class="pad"><div class="card wtile">${wheel()}</div></div>${B.sheet('fire', { back: 'hub', read: 'en-1' })}</div>` },
+        { id: 'sheet-earth', label: 'Energy sheet · Earth', gesture: 'Chips open the domain leaves', html: `<div class="page">${status()}<div class="pad"><div class="card wtile">${wheel()}</div></div>${B.sheet('earth', { back: 'hub', read: 'en-1', dom: 'dom-2' })}</div>` },
+      ] },
+    { id: 'energy', short: 'Energy leaves', title: 'An energy, read in leaves', note: '"Read Earth, your Mind" opens five leaves: the claim, the mechanism, the function, the remedy, the domains.',
+      screens: [
+        { id: 'en-1', label: 'Earth · 1 of 5', gesture: 'Claim and keywords on the plate', html: leaf({ n: 1, of: 5, ey: 'Earth · your Mind', art: ART.earth, h: D.earthPage.claim, body: `<div style="display:flex;gap:6px;align-items:center">${pill('fric')}<span class="light">33% · Earth feeds Metal</span></div><p>${D.earthPage.verdict}</p><div style="display:flex;gap:5px;flex-wrap:wrap">${D.earthPage.chips.map((c) => `<span class="domchip">${c}</span>`).join('')}</div>`, go: 'en-2', time: '2 min' }) },
+        { id: 'en-2', label: 'Earth · 2 of 5', gesture: 'The mechanism', html: leaf({ n: 2, of: 5, ey: 'Earth · the mechanism', h: 'Earth feeds Metal = friction', body: `<div style="display:flex;gap:10px;align-items:center;justify-content:center;margin:10px 0">${dot('earth', 64)}<span class="han" style="font-size:22px;color:var(--bronzeDark)">生</span>${dot('metal', 64)}</div><p>${D.earthPage.diag}</p>`, go: 'en-3', time: '2 min' }) },
+        { id: 'en-3', label: 'Earth · 3 of 5', gesture: 'The function', html: leaf({ n: 3, of: 5, ey: 'Earth · the function', h: D.earthPage.claim, body: `<p>${D.earthPage.define}</p>`, go: 'en-4', time: '2 min' }) },
+        { id: 'en-4', label: 'Earth · 4 of 5', gesture: 'The remedy, through Wood', html: leaf({ n: 4, of: 5, ey: 'Earth · the remedy', art: ART.wood, h: 'Release Earth through Wood', body: `<p>${D.earthPage.remedy}</p>`, go: 'en-5', time: '2 min' }) },
+        { id: 'en-5', label: 'Earth · 5 of 5', gesture: 'Domains, then the next energy', html: leaf({ n: 5, of: 5, ey: 'Earth · the domains', h: 'What Earth rules in your life', body: D.earthPage.doms.map(([d, l]) => B.domRow([d, l, 1], 'dom-2')).join(''), end: nextLeaf(ART.fire, 'Fire, your Order', D.E.fire.head, 'sheet-fire'), time: '2 min' }) },
+      ] },
+    { id: 'run', short: 'How I run', title: '"How am I running?" in seven leaves', note: 'The dial, your nature, what Overfueled means, the Codex tests (folded), gifts and costs, scenes, what helps. The last leaf carries the Blueprint door.',
+      screens: [
+        { id: 'run-1', label: 'Run · 1 of 7', gesture: 'The dial and the headline', html: leaf({ n: 1, of: 7, ey: 'How am I running?', ink: true, body: `<div style="width:220px;align-self:center;margin:30px 0 6px" class="dark">${dial(D.score, D.cond)}</div><span style="align-self:center">${pill('cond')}</span><h3 style="text-align:center">${D.runHead}</h3>`, go: 'run-2', time: '2 min' }) },
+        { id: 'run-2', label: 'Run · 2 of 7', gesture: 'Your nature, the stem × band paragraph', html: leaf({ n: 2, of: 7, ey: 'Your nature', art: ART.metal, body: `<p class="disp" style="font-size:20px;line-height:1.4">${D.nature}</p>`, go: 'run-3', time: '2 min' }) },
+        { id: 'run-3', label: 'Run · 3 of 7', gesture: 'What Overfueled means; tap for the Codex', html: leaf({ n: 3, of: 7, ey: 'What Overfueled means', h: 'How it works', body: `${D.mech.map((m) => `<p>${m}</p>`).join('')}${B.onChart(true)}`, go: 'run-5', time: '2 min' }) },
+        { id: 'run-5', label: 'Run · 5 of 7', gesture: 'Gifts and costs', html: leaf({ n: 5, of: 7, ey: 'Gifts and costs', h: 'You will recognise it', body: `${B.giftsCosts()}${B.scenes()}`, go: 'run-7', time: '2 min' }) },
+        { id: 'run-7', label: 'Run · 7 of 7', gesture: 'What helps, then the Blueprint door', html: leaf({ n: 7, of: 7, ey: 'What helps', h: D.helps, body: `<div class="b-hrows">${pill('cat')}<span>${D.grow}</span>${pill('fric')}<span>${D.release}</span></div>`, end: `<div class="endleaf">${B.bpDoor('bp-1')}${nextLeaf('g_hero_3', 'Your domains', D.domainsHead, 'dom-1')}</div>`, time: '2 min' }) },
+        { id: 'run-u', label: 'Underfueled · Run 1 of 7', gesture: 'The Vine: the needle on the other side', html: leaf({ n: 1, of: 7, ey: 'How am I running?', ink: true, body: `<div style="width:220px;align-self:center;margin:30px 0 6px" class="dark">${dial(U.score, U.cond)}</div><span style="align-self:center">${pill('cond', 'Underfueled')}</span><h3 style="text-align:center">You run Underfueled: your Wood spends more than it takes in.</h3><p style="text-align:center">${U.rx}</p>`, time: '2 min' }) },
+      ] },
+    { id: 'depth', short: 'Depth', title: 'Domains, Life Chapters, Stars, Blueprint as leaves', note: 'Each run opens on a plate with its claim, then one idea per leaf. Locked leaves show their headline and name what opens them.',
+      screens: [
+        { id: 'dom-1', label: 'Domains · 1 of 4', gesture: 'Eight tiles; tap one for its leaves', html: leaf({ n: 1, of: 4, ey: 'Your domains', art: 'g_hero_3', h: 'Eight parts of your life, and who rules them', body: `<div class="bento">${D.domains.map(([d, l, w]) => `<div class="bt" style="min-height:0;padding:10px" data-go="dom-2"><span style="display:flex;gap:6px;align-items:center">${domIcon(d)}<span class="ey">${d}</span><span class="b-wt" style="margin-left:auto">${'●'.repeat(w)}</span></span><span style="font-size:12.5px;line-height:1.3">${l}</span></div>`).join('')}</div>`, time: '1 min' }) },
+        { id: 'dom-2', label: 'Wealth · 1 of 6', gesture: 'The domain’s headline and where it sits', html: leaf({ n: 1, of: 6, ey: 'Your domains · Wealth', back: 'dom-1', h: D.wealth.head, body: `<p class="soft">${D.wealth.sub}</p><div class="card">${lifeStrip()}</div><p>${D.wealth.how[0]}</p>`, go: 'dom-3', time: '2 min' }) },
+        { id: 'dom-3', label: 'Wealth · 3 of 6', gesture: 'One seat per leaf', html: leaf({ n: 3, of: 6, ey: 'The seats that rule your wealth', back: 'dom-1', art: 'g_hero_1', h: D.wealth.seats[1][0], body: `<span class="carve">${D.wealth.seats[1][1]}</span><p>${D.wealth.seats[1][2]}</p>`, time: '2 min' }) },
+        { id: 'ch-1', label: 'Life Chapters · 1 of 8', gesture: 'The strip is the table of contents', html: leaf({ n: 1, of: 8, ey: 'Your life chapters', art: 'g_hero_8', h: D.chapters.head, body: `<div class="card">${lifeStrip()}</div><p class="soft">${D.chapters.intro}</p>`, go: 'ch-3', time: '5 min' }) },
+        { id: 'ch-3', label: 'Life Chapters · 3 of 8', gesture: 'The chapter you are in', html: leaf({ n: 3, of: 8, ey: 'The Rising Chapter · now', art: ART.metal, body: B.chapter(D.chapters.list[1]), go: 'ch-4', time: '5 min' }) },
+        { id: 'ch-4', label: 'Life Chapters · 4 of 8', gesture: 'This decade', html: leaf({ n: 4, of: 8, ey: 'This decade', art: ART.fire, body: B.decadeNow(), go: 'ch-5', time: '5 min' }) },
+        { id: 'ch-5', label: 'Life Chapters · 5 of 8', gesture: 'The years, side by side', html: leaf({ n: 5, of: 8, ey: 'The years of this decade', h: '2026 to 2030', body: `<div style="display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -20px;padding:0 20px">${D.chapters.years.map((y) => `<div class="card" style="flex:0 0 82%;scroll-snap-align:start">${B.year(y)}</div>`).join('')}</div><span class="light" style="font-size:12px">Swipe the years sideways · time runs level</span>`, time: '5 min' }) },
+        { id: 'st-1', label: 'Stars · 1 of 5', gesture: 'Stars that help', html: leaf({ n: 1, of: 5, ey: 'Your stars', art: 't_water_6_w', h: D.stars.head, body: `<span class="ey">Stars that help</span>${D.stars.help.map((s) => B.star(s, true)).join('<hr style="border:0;border-top:1px solid var(--borderLight);width:100%">')}`, go: 'st-3', time: '3 min' }) },
+        { id: 'st-3', label: 'Stars · 3 of 5', gesture: 'Stars arriving with your time', html: leaf({ n: 3, of: 5, ey: 'Stars arriving with your time', body: D.stars.arrive.map((s) => `<div class="card">${B.star(s)}</div>`).join(''), time: '3 min' }) },
+        { id: 'bp-1', label: 'Blueprint · 1 of 5 · Advisor', gesture: 'The first leaf is free; the rest unlock', html: leaf({ n: 1, of: 5, ey: 'Your energy blueprint', art: 'g_hero_10', h: D.blueprint.head, body: `<p class="soft">${D.blueprint.sub}</p>${B.bpSec(D.blueprint.secs[0])}<div class="quietc lock">${use('ico-lock')}<span>Leaves 2 to 5 open with Advisor: what your chart runs on and lacks, seen and unseen, pairings and clashes.</span></div>`, time: '3 min' }) },
+      ] },
+    { id: 'almanac', short: 'Almanac', title: 'Your Almanac', note: 'The hub leads with today as one large painted card. Tapping it opens the day as leaves; Month and Year are tiles in the same album grid.',
+      screens: [
+        { id: 'almanac-hub', label: 'The hub', gesture: 'Today card → day leaves', html: page(`<div class="pad" style="padding-top:8px"><span class="ey">Your Almanac · ${D.almanac.today.date}</span>
+          <div class="todaycard" data-go="day-1">${art(ART.earth, '', 'center 30%')}<div class="tc"><span class="ey">Today</span><p class="disp">${D.almanac.today.line}</p><div style="display:flex;align-items:center;gap:8px"><span class="tone-d">${D.almanac.today.tone}</span>${B.bars(2)}<span style="margin-left:auto">${arrowBtn('sm')}</span></div></div></div>
+          <div class="card">${ribbon(D.almanac.week)}</div>
+          <div class="bento"><div class="bt artful" data-go="month">${art('t_earth_4_w')}<span class="ey" style="margin-top:40px">This month</span><span class="cl" style="font-size:14px">${D.almanac.month.line}</span><span class="tone-d">↓ Weighs</span></div><div class="bt artful" data-go="year">${art(ART.fire)}<span class="ey" style="margin-top:40px">This year</span><span class="cl" style="font-size:14px">${D.almanac.year.line}</span><span class="tone-u">↑ Lifts</span></div>
+          <div class="bt wide" style="min-height:0"><span class="ey">Next loud day · 25 Oct</span><span style="font-size:13.5px">Water loosens your tongue, and home shifts</span></div>
+          <div class="bt wide" style="min-height:0" data-go="ch-4"><span class="ey">${D.almanac.decade.label} · ${D.almanac.decade.span}</span><div style="display:grid;grid-template-columns:repeat(10,1fr);gap:3px">${Array.from({ length: 10 }, (_, i) => `<i style="height:6px;border-radius:1px;background:${i < 4 ? 'var(--fireDeep)' : 'var(--silkFold)'}"></i>`).join('')}</div></div></div></div>`, 'today') },
+        { id: 'day-1', label: 'Day · 1 of 5', gesture: 'What today carries', html: leaf({ n: 1, of: 5, ey: 'Wednesday 21 Oct · an Earth day', back: 'almanac-hub', art: ART.earth, h: D.almanac.today.line, body: `<span class="carve">Earth over Earth · Mind · you release it</span><p>${D.almanac.today.carries}</p>`, go: 'day-2', time: '1 min' }) },
+        { id: 'day-2', label: 'Day · 2 of 5', gesture: 'Where it lands', html: leaf({ n: 2, of: 5, ey: 'Where it lands', back: 'almanac-hub', h: 'Your Month Gate, the seat of your work', body: `<p>${D.almanac.today.landsText}</p>${B.domRings(D.almanac.today.doms)}`, go: 'day-4', time: '1 min' }) },
+        { id: 'day-4', label: 'Day · 4 of 5', gesture: 'What the day favours', html: leaf({ n: 4, of: 5, ey: 'What the day favours', back: 'almanac-hub', body: `<div class="card">${B.favours(D.almanac.today.favours)}</div><span class="ey">Loud days ahead</span>${B.loud(3)}`, time: '1 min' }) },
+        { id: 'month', label: 'Month · 1 of 4', gesture: 'Same leaf anatomy', html: leaf({ n: 1, of: 4, ey: D.almanac.month.span, back: 'almanac-hub', art: 't_earth_4_w', h: D.almanac.month.line, body: `<p>${D.almanac.month.carries}</p><div class="card">${B.favours(D.almanac.month.favours)}</div>`, time: '1 min' }) },
+        { id: 'year', label: 'Year · 1 of 4', gesture: 'The twelve months as a ribbon', html: leaf({ n: 1, of: 4, ey: D.almanac.year.span, back: 'almanac-hub', art: ART.fire, h: D.almanac.year.line, body: `<p>${D.almanac.year.carries}</p><div class="card"><span class="ey">Month by month · ● brings what your season asks</span>${ribbon(D.almanac.year.months)}</div>`, time: '1 min' }) },
+      ] },
+    { id: 'more', short: 'Guidance · Chart', title: 'Guidance and the birth chart', note: 'Guidance uses the same album grid. The birth chart is one leaf with the pillars and the seats.',
+      screens: [
+        { id: 'guidance', label: 'Guidance', gesture: 'Album grid of practices', html: page(`<div class="pad" style="padding-top:10px"><span class="ey">Your guidance</span><p class="disp" style="font-size:30px">Paths Forward</p><div class="bento"><div class="bt wide artful" style="min-height:150px">${art('t_metal_4_w')}<span class="ey" style="margin-top:40px">Today’s rite · Earth day</span><p class="cl">Elemental Draw</p><span class="ft">Draw today’s card ${arrowBtn('sm')}</span></div>${D.guidance.slice(1).map(([h, t, s, tag]) => `<div class="bt"><span class="han" style="font-size:24px;color:var(--bronzeDark)">${h}</span><span class="mono">${tag}</span><p class="cl">${t}</p><span class="ft">${s}</span></div>`).join('')}</div></div>`, 'guidance') },
+        { id: 'pillars', label: 'Birth chart', gesture: 'One leaf; seats open their energy', html: leaf({ n: 1, of: 1, ey: 'Four pillars · eight characters', back: 'hub', body: `${B.pillars()}<div class="card" style="padding-top:6px"><span class="ey">Who sits in each seat</span>${B.seats()}</div>`, end: nextLeaf('g_hero_8', 'Your life chapters', D.chapters.short, 'ch-1') }) },
+      ] },
+  ],
+  after: `<section class="newart"><div class="card"><h2>New art note (not used in this variant)</h2><p>Leaves use the existing element plates and general heroes as their bands. A leaf-friendly crop set (portrait 3:4 versions of each plate) would help, and the 25 pair illustrations for the energy sheet are proposed in the comparison sheet.</p></div></section>`,
+};
+renderVariant(V);
+V.flows.forEach((f) => f.screens.forEach((s) => { if (s.at) { const sc = document.querySelector(`#s-${s.id} .screen`); if (sc) sc.scrollTop = s.at; } }));
+</script>

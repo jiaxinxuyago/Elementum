@@ -51,16 +51,28 @@ References studied: Co-Star, The Pattern, CHANI, Nebula, Sanctuary, Headspace, C
 | **V3 The Almanac Home** | The app opens on Today; Your reading is a book with a contents page and seven chapters. | Contents opens chapters; a reading bar shows the minutes left; Continue reading on Today. |
 | **V4 The Five Gates** | The five energies index everything; a five-sign rail lights one energy across pages. | Scroll down for the self; swipe sideways between energies; the rail filters pages. |
 
-**Recommended combination** (rows R1–R10 on the ruling sheet, option A each):
-- V2's album and leaves as the base;
-- V1's page as the "read as one page" mode;
-- returning visits land on Today with "Continue reading" (from V3);
-- a sideways pager between the energies (from V4);
-- the lens rail held back for a second phase.
+## The recommended combination ("V5")
+
+Rows R1 to R11 on the ruling sheet, option A each. The full table is in `Design/Library/Design_Pass_2026-10/README.md`.
+
+- **Hub (V2):** identity strip, wheel, a weighted tile grid.
+- **Tile faces (V1 + V3):** painted band, claim, one visual, reading time.
+- **Long sections (V2 + V1):** leaves by default; "Read it all as one page" opens V1's anchored page.
+- **Energies (V4):** sheet, then the energy page; swipe sideways between the five; each page ends on "{Energy} across your chart".
+- **How am I running? (V4 + V2):** the balance graphic first, then leaves; Codex folded; Blueprint door last.
+- **Progress (V2 + V3 + V1):** unread dot, seal stamp, "2 of 7 read", a Next tile at every end.
+- **Landing (V3):** first visit on Your reading, later visits on Today with Continue reading.
+- **Almanac (V2 + V3):** painted today card, week ribbon, month and year tiles; time runs sideways.
+- **Birth chart (V3):** one page.
+- **Phase 2 (V4):** the lens rail.
+
+## Library copy
+
+`Design/Library/Design_Pass_2026-10/` holds the research page, the four variants and the comparison and ruling sheet, with all the assets they use. Open the files offline.
 
 ## Ruling sheet (rows)
 
-R1 base · R2 long sections · R3 landing tab · R4 progress cues · R5 energy navigation · R6 lens rail · R7 Almanac hub · R8 depth tile face · R9 sheet picture until pair art · R10 reading time · N1 the 25 pair illustrations · N2 portrait crops · N3 mirror the yin-stem plates · N4 fix live defects now.
+R1 base · R2 long sections · R3 landing tab · R4 progress cues · R5 energy navigation · R6 lens rail · R7 Almanac hub · R8 depth tile face · R9 sheet picture until pair art · R10 reading time · R11 how the run page opens · N1 the 25 pair illustrations · N2 portrait crops · N3 mirror the yin-stem plates · N4 fix live defects now.
 
 The owner answers in codes, e.g. "R1 A, R2 B". Rulings get recorded below, row by row.
 

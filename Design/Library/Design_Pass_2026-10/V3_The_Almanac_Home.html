@@ -1,0 +1,208 @@
+<meta charset="utf-8">
+<title>V3 The Almanac Home</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="kit.css">
+<style>
+/* V3 · The Almanac Home: the daily surface comes first after the first
+   reading (the Headspace and Stoic lesson), and Your reading is a bound
+   book: a cover, a contents page of seven numbered chapters with reading
+   times and read marks, and chapter pages that end on the next chapter.
+   "Continue reading" on Today is the bridge between the two. */
+.mast{display:flex;justify-content:space-between;align-items:flex-end;padding:6px 2px 2px}
+.mast .d{font-family:var(--display);font-size:34px;font-weight:500;line-height:1}
+.mast .w{font-family:var(--carve);font-size:9px;letter-spacing:2px;color:var(--inkLight);text-align:right}
+.dayhero{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--paperHair);min-height:300px;display:flex;flex-direction:column;justify-content:flex-end;cursor:pointer}
+.dayhero .kart{position:absolute;inset:0}
+.dayhero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(241,233,214,0) 25%,rgba(248,241,225,.96) 68%)}
+.dayhero .c{position:relative;z-index:2;padding:16px;display:flex;flex-direction:column;gap:6px}
+.dayhero .disp{font-size:25px}
+.tone-d{font-family:var(--carve);font-size:9px;letter-spacing:1.6px;color:var(--down)} .tone-u{font-family:var(--carve);font-size:9px;letter-spacing:1.6px;color:var(--up)}
+.cont{display:flex;gap:12px;align-items:center;cursor:pointer}
+.cont .bk{width:58px;height:78px;border-radius:6px 10px 10px 6px;overflow:hidden;position:relative;flex:none;box-shadow:inset 3px 0 0 rgba(43,39,34,.25);border:1px solid var(--paperHair)}
+.cont .bk .kart{position:absolute;inset:0}
+.cont .ci{flex:1;display:flex;flex-direction:column;gap:3px;min-width:0}
+.prog{height:3px;border-radius:2px;background:var(--silkFold);overflow:hidden}
+.prog i{display:block;height:100%;background:var(--ink)}
+.row{display:flex;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--borderLight);cursor:pointer}
+.row:first-child{border-top:0}
+.cover{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--paperHair);background:var(--cardstock)}
+.cover .band{position:relative;height:120px}
+.cover .band .kart{position:absolute;inset:0}
+.cover .band::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(248,241,225,0) 30%,rgba(248,241,225,.96))}
+.cover .ci{padding:0 16px 16px;margin-top:-48px;position:relative}
+.toc{display:flex;flex-direction:column}
+.toc .ch{display:grid;grid-template-columns:28px 56px 1fr auto;gap:10px;align-items:center;padding:12px 0;border-top:1px solid var(--borderLight);cursor:pointer}
+.toc .n{font-family:var(--carve);font-size:15px;color:var(--bronzeDark);text-align:center}
+.toc .th{width:56px;height:56px;border-radius:12px;overflow:hidden;position:relative;background:var(--cream);border:1px solid var(--paperHair);display:grid;place-items:center}
+.toc .th .kart{position:absolute;inset:0}
+.toc .tt{display:flex;flex-direction:column;gap:2px;min-width:0}
+.toc .tt b{font-family:var(--display);font-size:17px;font-weight:600;line-height:1.15}
+.toc .tt span{font-size:12.5px;color:var(--inkSoft);line-height:1.3}
+.toc .st{display:flex;flex-direction:column;align-items:flex-end;gap:4px;font-size:11px;color:var(--inkLight)}
+.mk{width:18px;height:18px;border-radius:50%;border:1px solid var(--inkMist)}
+.mk.done{background:var(--ink);border-color:var(--ink);position:relative}
+.mk.done::after{content:"";position:absolute;left:6px;top:3px;width:4px;height:8px;border:solid var(--cream);border-width:0 1.5px 1.5px 0;transform:rotate(45deg)}
+.mk.half{background:linear-gradient(90deg,var(--ink) 50%,transparent 50%);border-color:var(--ink)}
+.chap{padding:0 20px 20px;display:flex;flex-direction:column;gap:12px}
+.chap .cnum{font-family:var(--carve);font-size:10px;letter-spacing:2.4px;color:var(--bronzeDark)}
+.chap h2{font-family:var(--display);font-weight:500;font-size:28px;line-height:1.12;margin:0;text-wrap:balance}
+.chap p{margin:0;font-size:16px;line-height:1.62}
+.chapband{position:relative;height:170px;margin-bottom:-30px}
+.chapband .kart{position:absolute;inset:0}
+.chapband::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(241,233,214,0) 35%,var(--silk))}
+.readbar{position:sticky;bottom:52px;z-index:5;display:flex;align-items:center;gap:10px;padding:8px 20px;background:rgba(241,233,214,.94);border-top:1px solid var(--borderLight);font-size:11.5px;color:var(--inkLight)}
+.readbar .prog{flex:1}
+.nextch{border:1px solid var(--paperHair);border-radius:16px;padding:14px;display:flex;gap:12px;align-items:center;background:var(--cardstock);cursor:pointer}
+.nextch .kart{width:60px;height:60px;border-radius:12px;flex:none}
+.reveal{background:#EFE6D2}
+.reveal .bgt{position:absolute;inset:0 0 auto;width:100%}
+.reveal .bgb{position:absolute;inset:auto 0 0;width:100%;opacity:.8}
+.reveal .rin{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;text-align:center;padding:96px 26px 0;gap:10px;min-height:100%}
+.wtile{padding:10px 8px 8px}
+.hint{text-align:center;font-size:12.5px;color:var(--inkSoft);margin:2px 0 0}
+.story{min-height:100%;display:flex;flex-direction:column;padding:12px 18px 26px;background:var(--night);color:#F3EDDF}
+.story .pg{display:flex;gap:3px;margin-top:6px}.story .pg i{flex:1;height:2px;background:#F3EDDF}
+.story .sc{margin:auto 0;display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px}
+.story h3{font-family:var(--display);font-size:26px;font-weight:500;margin:0}
+</style>
+<div id="app"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="jny-el-metal" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"></path></symbol>
+<symbol id="jny-el-wood" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"></path></symbol>
+<symbol id="jny-el-fire" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"></path></symbol>
+<symbol id="jny-el-earth" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"></path><path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"></path></symbol>
+<symbol id="jny-el-water" viewBox="0 0 24 24"><path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"></path><path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"></path></symbol>
+<symbol id="jny-ic-charged" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="13.5" r="6.2" fill="currentColor" stroke="none"></circle><path d="M12 3.2v2.4M5.2 6.4l1.7 1.7M18.8 6.4l-1.7 1.7"></path></g></symbol>
+<symbol id="jny-ic-balanced" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="7.2"></circle><path d="M4.8 12h14.4" stroke-linecap="round"></path><path d="M12 12a7.2 7.2 0 0 1-7.2 0v0a7.2 7.2 0 0 0 14.4 0v0a7.2 7.2 0 0 1-7.2 0Z" fill="currentColor" stroke="none" transform="translate(0 0.2)"></path></g></symbol>
+<symbol id="jny-ic-receptive" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="7.2" stroke-dasharray="2.6 3"></circle><circle cx="12" cy="15.2" r="2.1" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-ic-channel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 4.5v5M16.5 14.5v5"></path><path d="M4 12h14.5M15.2 8.7 18.5 12l-3.3 3.3"></path></g></symbol>
+<symbol id="jny-ic-fuel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="17.2" cy="12" r="3.4" fill="currentColor" stroke="none"></circle><path d="M3.5 12h8.3M9.2 8.9 12.3 12l-3.1 3.1"></path></g></symbol>
+<symbol id="jny-ar-up" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6"></path><path d="M6 11l6-6 6 6"></path></g></symbol>
+<symbol id="jny-ar-down" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v13"></path><path d="M6 13l6 6 6-6"></path></g></symbol>
+<symbol id="jny-ico-arrow-r" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12 H19"></path><path d="M14 7 L19 12 L14 17"></path></g></symbol>
+<symbol id="jny-ico-chev-l" viewBox="0 0 24 24"><path d="M15 6 L9 12 L15 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ico-chev-r" viewBox="0 0 24 24"><path d="M9 6 L15 12 L9 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ico-share" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="M8 7l4-4 4 4"></path><path d="M5 12v7a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19v-7"></path></g></symbol>
+<symbol id="jny-ico-close" viewBox="0 0 24 24"><path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"></path></symbol>
+<symbol id="jny-ic-codex" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.4C10.4 5.2 8.2 4.7 5.4 4.9v12c2.8-.2 5 .3 6.6 1.5 1.6-1.2 3.8-1.7 6.6-1.5v-12c-2.8-.2-5 .3-6.6 1.5z"></path><path d="M12 6.4V18.4"></path></g></symbol>
+<symbol id="jny-ic-save" viewBox="0 0 24 24"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ic-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 14.4l4.8-4.8"></path><path d="M8.2 11.1l-1.9 1.9a3 3 0 0 0 4.24 4.24l1.9-1.9"></path><path d="M15.8 12.9l1.9-1.9a3 3 0 0 0-4.24-4.24l-1.9 1.9"></path></g></symbol>
+<symbol id="jny-tab-today" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></g></symbol>
+<symbol id="jny-tab-guidance" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 4.8 L14.5 12 L12 19.2 L9.5 12 Z"></path><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-tab-reading" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5 C 6 4, 9 4, 12 6 C 15 4, 18 4, 21 5 V19 C 18 18, 15 18, 12 20 C 9 18, 6 18, 3 19 Z"></path><path d="M12 6 V20"></path></g></symbol>
+<symbol id="jny-tab-compat" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="12" r="6.5"></circle><circle cx="15.5" cy="12" r="6.5"></circle><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-tab-profile" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></g></symbol>
+<symbol id="jny-fn-body" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.6" r="2.6"></circle><path d="M12 8.4 V14.6"></path><path d="M7.2 12.2 L12 9.8 L16.8 12.2"></path><path d="M12 14.6 L8.6 21"></path><path d="M12 14.6 L15.4 21"></path></g></symbol>
+<symbol id="jny-fn-mind" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.2 C10 5.6 7.2 5.3 3.8 6 V18.6 C7.2 17.9 10 18.2 12 19.8 C14 18.2 16.8 17.9 20.2 18.6 V6 C16.8 5.3 14 5.6 12 7.2 Z"></path><path d="M12 7.2 V19.8"></path><path d="M6.6 9.6 C7.6 9.5 8.6 9.6 9.6 9.9"></path><path d="M6.6 12.6 C7.6 12.5 8.6 12.6 9.6 12.9"></path><path d="M14.4 9.9 C15.4 9.6 16.4 9.5 17.4 9.6"></path><path d="M14.4 12.9 C15.4 12.6 16.4 12.5 17.4 12.6"></path></g></symbol>
+<symbol id="jny-fn-expression" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 4.6 H17.8 A2.4 2.4 0 0 1 20.2 7 V14 A2.4 2.4 0 0 1 17.8 16.4 H10.6 L6.4 19.8 V16.4 H6.2 A2.4 2.4 0 0 1 3.8 14 V7 A2.4 2.4 0 0 1 6.2 4.6 Z"></path><path d="M9.3 12.2 C8.2 11.9 7.9 10.6 8.5 9.7 C9 9 9.9 8.8 10.5 9.3"></path><path d="M14.3 12.2 C13.2 11.9 12.9 10.6 13.5 9.7 C14 9 14.9 8.8 15.5 9.3"></path></g></symbol>
+<symbol id="jny-fn-action" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M10.9 5.6 L14.4 2.1 A1.2 1.2 0 0 1 16.1 2.1 L21.9 7.9 A1.2 1.2 0 0 1 21.9 9.6 L18.4 13.1 Z"></path><path d="M12.9 9.4 L4 18.3 A1.5 1.5 0 0 0 4 20.4 L4.4 20.8 A1.5 1.5 0 0 0 6.5 20.8 L14.6 11.1"></path></g></symbol>
+<symbol id="jny-fn-order" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.2 V20"></path><path d="M8.2 20.4 H15.8"></path><path d="M4.6 7.6 H19.4"></path><path d="M6.2 7.6 L3.2 13.6"></path><path d="M6.2 7.6 L9.2 13.6"></path><path d="M3.2 13.6 A3 3 0 0 0 9.2 13.6"></path><path d="M17.8 7.6 L14.8 13.6"></path><path d="M17.8 7.6 L20.8 13.6"></path><path d="M14.8 13.6 A3 3 0 0 0 20.8 13.6"></path></g></symbol>
+<symbol id="jny-dom-wealth" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6.5" rx="7" ry="2.6"></ellipse><path d="M5 6.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path><path d="M5 11.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path></g></symbol>
+<symbol id="jny-dom-rel" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 5.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4C4.5 11.8 2 10.2 2 7.8c0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z" transform="translate(2 2)"></path><path d="M15.5 9.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4-2-1.4-4.5-3-4.5-5.4 0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z"></path></g></symbol>
+<symbol id="jny-dom-career" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7.5" width="17" height="12" rx="2"></rect><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"></path><path d="M3.5 12.5h17"></path></g></symbol>
+<symbol id="jny-dom-family" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4.5l8 7"></path><path d="M6.2 10v9.5h11.6V10"></path><path d="M10.2 19.5v-5h3.6v5"></path></g></symbol>
+<symbol id="jny-dom-social" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3"></circle><path d="M3.5 19c0-3.2 2.4-5.5 5.5-5.5s5.5 2.3 5.5 5.5"></path><path d="M15.2 5.8a3 3 0 0 1 0 5.4"></path><path d="M16.8 13.6c2.3.5 3.7 2.5 3.7 5.4"></path></g></symbol>
+<symbol id="jny-dom-love" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19.5c-4.2-2.9-8-6.1-8-10 0-2.3 1.7-4 3.9-4 1.6 0 2.9.8 4.1 2.3 1.2-1.5 2.5-2.3 4.1-2.3 2.2 0 3.9 1.7 3.9 4 0 3.9-3.8 7.1-8 10z"></path></g></symbol>
+<symbol id="jny-dom-mind" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17.5h6"></path><path d="M10 20h4"></path><path d="M8.6 14.6C7 13.5 6 11.9 6 10a6 6 0 0 1 12 0c0 1.9-1 3.5-2.6 4.6-.6.4-.9 1-.9 1.6v.3H9.5v-.3c0-.6-.3-1.2-.9-1.6z"></path></g></symbol>
+<symbol id="jny-dom-growth" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5V10.5"></path><path d="M12 13.5c-3.6 0-6-2.2-6.5-6 3.8 0 6.3 2 6.5 6z"></path><path d="M12 11c.3-3.6 2.8-5.6 6.5-5.5-.5 3.8-2.9 5.8-6.5 5.5z"></path><path d="M7 20.5h10"></path></g></symbol>
+<symbol id="jny-ico-lock" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"></rect><path d="M8.5 10.5V7.8a3.5 3.5 0 0 1 7 0v2.7"></path></g></symbol>
+<symbol id="jny-dom-health" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 12.5h3l1.6-4 2.8 8 2.4-6 1.4 2h5.3"></path></g></symbol>
+<symbol id="jny-ico-spark" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v4M12 16.5v4M3.5 12h4M16.5 12h4"></path><path d="M12 8.2 13.6 10.4 16 12 13.6 13.6 12 15.8 10.4 13.6 8 12 10.4 10.4Z"></path></g></symbol></defs></svg>
+<script src="kit.js"></script>
+<script src="blocks.js"></script>
+<script>
+const page = (inner, tab = 'reading') => `<div class="page">${status()}${inner}${tabbar(tab)}</div>`;
+const CH = [
+  { n: 1, t: 'Who you are', s: `${D.id.arch} · ${D.id.lit}`, min: 1, st: 'done', th: `<img src="${D.id.seal}" style="width:50px" alt="">`, go: 'ch1' },
+  { n: 2, t: 'Your five energies', s: D.rx, min: 2, st: 'done', th: dot('fire', 40), go: 'ch2' },
+  { n: 3, t: 'How you run', s: D.runLine, min: 2, st: 'half', th: `<div style="width:48px">${dial(D.score, D.cond)}</div>`, go: 'run' },
+  { n: 4, t: 'Your domains', s: D.domainsHead, min: 1, st: '', th: art('g_hero_3'), go: 'domains' },
+  { n: 5, t: 'Your life chapters', s: D.chapters.short, min: 5, st: '', th: art('g_hero_8'), go: 'chapters' },
+  { n: 6, t: 'Your stars', s: D.stars.head, min: 3, st: '', th: art('t_water_6_w'), go: 'stars' },
+  { n: 7, t: 'Your energy blueprint', s: D.blueprint.head, min: 3, st: 'lock', th: art('g_hero_10'), go: 'blueprint' },
+];
+const toc = () => `<div class="toc">${CH.map((c) => `<div class="ch" data-go="${c.go}"><span class="n">${['I', 'II', 'III', 'IV', 'V', 'VI', 'VII'][c.n - 1]}</span><span class="th">${c.th}</span><span class="tt"><b>${c.t}</b><span>${c.s}</span></span><span class="st">${c.st === 'lock' ? pill('adv', 'Advisor', false) : `<span class="mk ${c.st}"></span>`}<span>${c.min} min</span></span></div>`).join('')}</div>`;
+const nextCh = (i) => { const c = CH[i]; return `<div class="nextch" data-go="${c.go}">${c.th.includes('kart') ? c.th.replace('kart', 'kart') : `<span style="width:60px;height:60px;display:grid;place-items:center">${c.th}</span>`}<div style="flex:1"><span class="ey">Next · Chapter ${['I', 'II', 'III', 'IV', 'V', 'VI', 'VII'][i]}</span><p class="disp" style="font-size:18px">${c.t}</p><span class="light" style="font-size:12px">${c.min} min</span></div>${arrowBtn('sm')}</div>`; };
+const readbar = (pct, left) => `<div class="readbar"><div class="prog"><i style="width:${pct}%"></i></div><span>${left}</span></div>`;
+const chapterPage = (num, title, a, body, next, left, pct, backTo = 'book') => page(`${back(`Your reading · Chapter ${num}`, backTo)}${a ? `<div class="chapband">${art(a)}</div>` : ''}<div class="chap"><span class="cnum">CHAPTER ${num}</span><h2>${title}</h2>${body}${next !== null ? nextCh(next) : ''}</div>${readbar(pct, left)}`);
+
+const today = () => page(`<div class="pad" style="padding-top:6px">
+  <div class="mast"><span class="d">Wednesday</span><span class="w">21 OCT<br>AN EARTH DAY</span></div>
+  <div class="dayhero" data-go="day">${art(ART.earth, '', 'center 30%')}<div class="c"><span class="ey">Today</span><p class="disp">${D.almanac.today.line}</p><div style="display:flex;align-items:center;gap:8px"><span class="tone-d">${D.almanac.today.tone}</span>${B.bars(2)}<span style="margin-left:auto">${arrowBtn('sm')}</span></div></div></div>
+  <div class="card cont" data-go="run"><span class="bk">${art(ART.metal)}</span><span class="ci"><span class="ey">Continue reading · Chapter III</span><b class="disp" style="font-size:18px">How you run</b><span class="light" style="font-size:12px">2 of 7 chapters read · 1 min left in this one</span><span class="prog"><i style="width:36%"></i></span></span>${arrowBtn('sm')}</div>
+  <div class="card"><span class="ey">This week</span>${ribbon(D.almanac.week)}</div>
+  <div class="card" style="padding-top:4px">
+    <div class="row" data-go="month">${dot('earth', 34)}<span style="flex:1"><span class="ey">This month</span><br><span style="font-size:14px">${D.almanac.month.line}</span></span><span class="tone-d">↓</span></div>
+    <div class="row" data-go="year">${dot('fire', 34)}<span style="flex:1"><span class="ey">This year</span><br><span style="font-size:14px">${D.almanac.year.line}</span></span><span class="tone-u">↑</span></div>
+    <div class="row" data-go="chapters">${dot('fire', 34)}<span style="flex:1"><span class="ey">Your decade · year 4 of 10</span><br><span style="font-size:14px">A Fire decade · 2023 to 2032</span></span>${use('ico-chev-r')}</div>
+  </div>
+  <div class="quietc" style="font-size:13.5px"><b>Next loud day</b> · 25 Oct · Water loosens your tongue, and home shifts</div></div>`, 'today');
+
+const book = () => page(`<div class="pad" style="padding-top:6px">
+  <div class="cover"><div class="band">${art('bg-energymap-01-top-band')}</div><div class="ci">${B.hero({ run: 'run' })}</div></div>
+  <div class="card wtile"><div style="display:flex;justify-content:space-between;align-items:center;padding:0 6px 4px;gap:6px;flex-wrap:wrap"><span class="ey">Frontispiece · your five energies</span>${seg('do')}</div>${wheel()}<p class="hint">Tap an energy. Tap the seal for how you run.</p></div>
+  <div class="card" style="padding-top:8px"><div style="display:flex;justify-content:space-between;align-items:baseline"><span class="ey">Contents</span><span class="light" style="font-size:12px">2 of 7 read · 17 min</span></div>${toc()}</div>
+  <div class="card"><span class="ey">Glossary · the words in this book</span><div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px">${pill('core', 'Core', false)}${pill('cond')}${pill('cat', 'Catalyst')}${pill('fric', 'Friction')}${['Seat', 'Gate', 'Decade', 'Star'].map((w) => pill('core', w, false)).join('')}</div></div>
+  <span style="text-align:center;font-size:13px;color:var(--bronzeDark)" data-go="pillars">Appendix · Birth chart ›</span></div>`);
+
+const V = {
+  code: 'V3', name: 'The Almanac Home',
+  thesis: 'Open on today. Your reading becomes a short book with a cover, a contents page and seven chapters, and Today always offers to continue where you left off.',
+  tap: 'Contents rows open chapter pages. Today’s card opens the day. "Continue reading" jumps to the unfinished chapter. Energies and words open sheets.',
+  scroll: 'Chapters scroll vertically like a book page, with a reading bar above the tabs showing how much is left. Time (week, months, years) scrolls sideways.',
+  next: 'Every chapter ends on the next chapter. The contents page marks each chapter unread, half read, read or locked, so the next step is always visible.',
+  intro: 'The biggest change to navigation: after the first reading the app lands on Today, not on Your reading. The icon-only tab bar stays as locked; only the landing tab changes.',
+  flows: [
+    { id: 'first', short: 'First run', title: 'The Naming, the first reading, then Today', note: 'The ceremony is unchanged. Its last card offers two doors: begin the book, or see today.',
+      screens: [
+        { id: 'naming', label: 'The Naming', gesture: 'Swipe up', html: `<div class="page reveal">${status()}<img class="bgt" src="bg-reveal-01-distant-peaks.jpg" alt=""><img class="bgb" src="bg-reveal-02-floating-island.jpg" alt=""><div class="rin"><span class="carve">You are</span><img src="${D.id.seal}" style="width:150px" alt=""><p class="disp" style="font-size:40px">${D.id.arch}</p><p class="disp" style="font-size:20px">${D.id.thesis}</p><p class="soft" style="margin:0">${D.id.edge}</p><span class="carve" style="border-top:1px solid var(--paperHair);padding-top:10px">${D.id.lit}</span><span style="margin-top:auto;padding-bottom:30px;font-size:13px" data-go="fr-end">Swipe up</span></div></div>` },
+        { id: 'fr-end', label: 'First reading · 8 of 8', gesture: 'Two doors at the end', html: `<div class="story"><div class="pg">${'<i></i>'.repeat(8)}</div><div class="sc"><span class="carve" style="color:#D9CFBC">What your chart asks for</span><h3>${D.rx}</h3><p style="margin:0">${D.start}</p><div style="display:flex;flex-direction:column;gap:8px;width:100%;margin-top:10px"><button class="cta" style="background:#F3EDDF;color:var(--ink)" data-go="book">Begin your reading ${use('ico-arrow-r')}</button><button class="cta light" style="color:#F3EDDF;border-color:rgba(243,237,223,.4)" data-go="today">See today first</button></div></div></div>` },
+      ] },
+    { id: 'today', short: 'Today', title: 'Today is home', note: 'Date as a masthead, today’s line on the day’s element plate, the bridge back into the book, then the week, month, year and decade as quiet rows.',
+      screens: [
+        { id: 'today', label: 'Today · the home tab', gesture: 'Day card → Day; Continue → the open chapter', html: today() },
+        { id: 'day', label: 'Day', gesture: 'A page in chapters of its own', html: page(`${back('Today · Wednesday 21 Oct', 'today')}<div class="chapband">${art(ART.earth)}</div><div class="chap"><span class="cnum">AN EARTH DAY</span><h2>${D.almanac.today.line}</h2><div style="display:flex;gap:8px;align-items:center"><span class="tone-d">Leans against you</span>${B.bars(2)}</div><span class="ey">What today carries · Earth over Earth</span><p>${D.almanac.today.carries}</p><span class="ey">Where it lands</span><p><b>${D.almanac.today.lands}</b> ${D.almanac.today.landsText}</p><span class="ey">Your domains</span>${B.domRings(D.almanac.today.doms)}<span class="ey">What the day favours</span><div>${B.favours(D.almanac.today.favours)}</div><span class="ey">Loud days ahead</span><div>${B.loud()}</div></div>${readbar(30, '2 min left')}`, 'today') },
+        { id: 'month', label: 'Month', gesture: 'Same page anatomy, a month wide', html: page(`${back('Today · This month', 'today')}<div class="chapband">${art('t_earth_4_w')}</div><div class="chap"><span class="cnum">${D.almanac.month.span}</span><h2>${D.almanac.month.line}</h2><span class="tone-d">Weighs on you</span><p>${D.almanac.month.carries}</p><span class="ey">Where it lands</span><p>${D.almanac.month.lands}</p><span class="ey">What the month favours</span><div>${B.favours(D.almanac.month.favours)}</div></div>`, 'today') },
+        { id: 'year', label: 'Year', gesture: 'The months scroll sideways', html: page(`${back('Today · This year', 'today')}<div class="chapband">${art(ART.fire)}</div><div class="chap"><span class="cnum">${D.almanac.year.span}</span><h2>${D.almanac.year.line}</h2><span class="tone-u">Leans with you</span><p>${D.almanac.year.carries}</p><div class="card"><span class="ey">Month by month · ● brings what your season asks</span>${ribbon(D.almanac.year.months)}</div><span class="ey">Where it lands · your Day Gate</span><p>${D.almanac.year.lands}</p></div>`, 'today') },
+      ] },
+    { id: 'book', short: 'Your reading', title: 'Your reading as a book', note: 'The cover is the hero; the wheel is the frontispiece; the contents page is the map of everything, with reading times and read marks. Chapters I–VII are the seven beats.',
+      screens: [
+        { id: 'book', label: 'Cover and frontispiece', gesture: 'Condition pill → Chapter III', html: book() },
+        { id: 'book-2', label: 'Contents', gesture: 'Each row opens its chapter', at: 520, html: book() },
+        { id: 'ch1', label: 'Chapter I · Who you are', gesture: 'The identity chapter; share sits at the end', html: chapterPage('I', `You are ${D.id.arch}.`, ART.metal, `<p class="disp" style="font-size:20px;line-height:1.35">${D.id.thesis}. ${D.id.edge}</p><p>${D.id.who}</p><p class="soft">${D.nature}</p><button class="cta light">${use('ico-share')}Share your identity card</button>`, 1, '1 min left', 60) },
+        { id: 'ch2', label: 'Chapter II · Your five energies', gesture: 'Five energy rows open sheets', html: chapterPage('II', 'Your five energies', null, `<div class="card wtile">${seg('amt')}${wheel('golden', 'amt')}</div><p>${D.rx}</p><div class="card" style="padding-top:2px">${D.order.map((e) => `<div class="row" data-go="sheet-${e === 'earth' ? 'earth' : 'fire'}">${dot(e, 40)}<span style="flex:1"><b style="font-size:14px">${D.E[e].head}</b><br><span class="light" style="font-size:12.5px">${ELN[e]} is your ${D.E[e].fn} · ${D.E[e].p}%</span></span>${pill(D.E[e].pole)}</div>`).join('')}</div>`, 2, '1 min left', 50) },
+      ] },
+    { id: 'energy', short: 'Energies', title: 'The energy sheet and the energy chapter', note: 'Sheets stay sheets. "Read" opens the energy as a chapter page inside Chapter II.',
+      screens: [
+        { id: 'sheet-fire', label: 'Energy sheet · Fire', gesture: 'Start here', html: `<div class="page">${status()}<div class="pad"><div class="card wtile">${wheel()}</div></div>${B.sheet('fire', { back: 'ch2', read: 'energy' })}</div>` },
+        { id: 'sheet-earth', label: 'Energy sheet · Earth', gesture: 'Read → the energy chapter', html: `<div class="page">${status()}<div class="pad"><div class="card wtile">${wheel()}</div></div>${B.sheet('earth', { back: 'ch2', read: 'energy' })}</div>` },
+        { id: 'energy', label: 'Earth, your Mind', gesture: 'A sub-chapter of Chapter II', html: chapterPage('II · EARTH', D.earthPage.claim, ART.earth, `<div style="display:flex;gap:8px;align-items:center">${pill('fric')}<span class="light" style="font-size:12.5px">33% · Earth feeds Metal</span></div><p>${D.earthPage.diag}</p><div style="display:flex;gap:5px;flex-wrap:wrap">${D.earthPage.chips.map((c) => `<span class="domchip">${c}</span>`).join('')}</div><p>${D.earthPage.define}</p><span class="ey">The remedy · release Earth through Wood</span><p>${D.earthPage.remedy}</p><span class="ey">What Earth rules in your life</span><div>${D.earthPage.doms.map(([d, l]) => B.domRow([d, l, 1])).join('')}</div>`, 2, '3 min left', 20, 'ch2') },
+      ] },
+    { id: 'run', short: 'How I run', title: 'Chapter III · How you run', note: 'The chapter is read top to bottom. The Codex tests fold behind one link; the Blueprint door closes the chapter before the next.',
+      screens: [
+        { id: 'run', label: 'Chapter III · top', gesture: 'Continue reading lands here', html: chapterPage('III', D.runHead, null, `<div style="width:170px;align-self:center">${dial(D.score, D.cond)}</div><p class="disp" style="font-size:19px;line-height:1.4;color:var(--inkSoft)">${D.nature}</p>${B.mech()}${B.onChart(false)}`, null, '1 min left', 36) },
+        { id: 'run-2', label: 'Chapter III · Codex open', gesture: 'Tap "How is this worked out?"', at: 520, html: chapterPage('III', D.runHead, null, `<div style="width:170px;align-self:center">${dial(D.score, D.cond)}</div><p class="disp" style="font-size:19px;line-height:1.4;color:var(--inkSoft)">${D.nature}</p>${B.mech()}${B.onChart(true)}${B.giftsCosts()}`, null, '1 min left', 60) },
+        { id: 'run-3', label: 'Chapter III · the end', gesture: 'Blueprint door, then Chapter IV', at: 1500, html: chapterPage('III', D.runHead, null, `<div style="width:170px;align-self:center">${dial(D.score, D.cond)}</div><p class="disp" style="font-size:19px;line-height:1.4;color:var(--inkSoft)">${D.nature}</p>${B.mech()}${B.onChart(false)}${B.giftsCosts()}${B.scenes()}${B.helps()}${B.bpDoor()}`, 3, 'finished', 100) },
+        { id: 'run-u', label: 'Underfueled · Chapter III', gesture: 'The Vine', html: chapterPage('III', 'You run Underfueled: your Wood spends more than it takes in.', null, `<div style="width:170px;align-self:center">${dial(U.score, U.cond)}</div><p class="disp" style="font-size:19px;line-height:1.4;color:var(--inkSoft)">${U.nature}</p><div class="card wtile">${wheel('under', 'do')}</div><p>${U.rx}</p>`, null, '2 min left', 10) },
+      ] },
+    { id: 'depth', short: 'Depth', title: 'Chapters IV to VII', note: 'Domains, Life Chapters, Stars and the Blueprint as chapters. Each opens on its plate, reads down, and hands you the next.',
+      screens: [
+        { id: 'domains', label: 'Chapter IV · Your domains', gesture: 'Rows open each domain', html: chapterPage('IV', D.domainsHead, 'g_hero_3', `<p class="soft">${D.domainsIntro}</p><div>${D.domains.map((d) => B.domRow(d)).join('')}</div><span class="light" style="font-size:12.5px">Every headline and each domain’s first reading are free.</span>`, 4, '1 min left', 40) },
+        { id: 'domain', label: 'IV · Wealth', gesture: 'A sub-chapter', html: chapterPage('IV · WEALTH', D.wealth.head, null, `<p class="soft">${D.wealth.sub}</p>${lifeStrip()}${D.wealth.how.map((p) => `<p>${p}</p>`).join('')}<span class="ey">The four seats that rule your wealth</span><div>${D.wealth.seats.map(B.seat).join('')}</div>`, 4, '2 min left', 25, 'domains') },
+        { id: 'chapters', label: 'Chapter V · Your life chapters', gesture: 'The strip, then each chapter', html: chapterPage('V', D.chapters.head, 'g_hero_8', `${lifeStrip()}<p class="soft">${D.chapters.intro}</p>${D.chapters.list.slice(0, 2).map((c) => `<div class="card">${B.chapter(c)}</div>`).join('')}`, null, '4 min left', 18) },
+        { id: 'chapters-2', label: 'V · This decade and the years', gesture: 'The years scroll sideways', at: 1500, html: chapterPage('V', D.chapters.head, 'g_hero_8', `${lifeStrip()}<p class="soft">${D.chapters.intro}</p>${D.chapters.list.slice(0, 2).map((c) => `<div class="card">${B.chapter(c)}</div>`).join('')}<div class="card">${B.decadeNow()}</div><div style="display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -20px;padding:0 20px">${D.chapters.years.map((y) => `<div class="card" style="flex:0 0 80%;scroll-snap-align:start">${B.year(y)}</div>`).join('')}</div>${D.chapters.list.slice(2).map((c) => `<div class="card">${B.chapter(c)}</div>`).join('')}`, 5, '1 min left', 80) },
+        { id: 'stars', label: 'Chapter VI · Your stars', gesture: 'Help · test · arriving · this year', html: chapterPage('VI', D.stars.head, 't_water_6_w', `<p class="soft">${D.stars.intro}</p><span class="ey">Stars that help</span>${D.stars.help.map((s) => B.star(s)).join('')}<span class="ey">Stars that test</span>${D.stars.test.slice(0, 2).map((s) => B.star(s)).join('')}`, 6, '2 min left', 30) },
+        { id: 'blueprint', label: 'Chapter VII · Blueprint', gesture: 'Advisor; part 1 free', html: chapterPage('VII', D.blueprint.head, 'g_hero_10', `<p class="soft">${D.blueprint.sub}</p>${B.bpSec(D.blueprint.secs[0])}<div class="quietc lock">${use('ico-lock')}<span>Parts 2 to 4 open with Advisor: what your chart runs on and lacks, seen and unseen, pairings and clashes.</span>${pill('adv', 'Advisor', false)}</div>`, null, '3 min', 25) },
+      ] },
+    { id: 'more', short: 'Guidance · Chart', title: 'Guidance and the appendix', note: 'Guidance keeps its hub with upright type. The birth chart becomes the book’s appendix.',
+      screens: [
+        { id: 'guidance', label: 'Guidance', gesture: 'Practices', html: page(`<div class="chapband" style="height:150px">${art('atmo-3', '', 'center top')}</div><div class="chap"><span class="cnum">YOUR GUIDANCE</span><h2>Paths Forward</h2><p class="soft">Five ways to walk with your chart, from a daily question to a reading of your whole life.</p>${D.guidance.map((g, i) => B.guidanceTile(g, i === 0)).join('')}</div>`, 'guidance') },
+        { id: 'pillars', label: 'Appendix · Birth chart', gesture: 'Seats open their energies', html: chapterPage('APPENDIX', 'Four pillars, eight characters', null, `${B.pillars()}<p class="light" style="font-size:12.5px">Each of the eight characters pairs with its element. The day stem is your Day Master.</p><span class="ey">Who sits in each seat</span><div>${B.seats()}</div>`, null, '', 0) },
+      ] },
+  ],
+  after: `<section class="newart"><div class="card"><h2>New art note (not used in this variant)</h2><p>The contents thumbnails reuse existing plates. A set of small square chapter marks in the house ink-wash style (one per chapter) would let the contents page read as a picture index; the proposal is in the comparison sheet with the 25 pair illustrations.</p></div></section>`,
+};
+renderVariant(V);
+V.flows.forEach((f) => f.screens.forEach((s) => { if (s.at) { const sc = document.querySelector(`#s-${s.id} .screen`); if (sc) sc.scrollTop = s.at; } }));
+</script>
