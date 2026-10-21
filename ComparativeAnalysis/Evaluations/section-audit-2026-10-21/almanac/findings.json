@@ -1,0 +1,4108 @@
+{
+ "findings": [
+  {
+   "source": "cross",
+   "id": "X01",
+   "severity": "MAJOR",
+   "criterion": "A1 · D3 · chart invariance",
+   "pages": "D001, D004, D006, D007, D010, D011, M002, M008 and others",
+   "key": "ENERGY body · month.core_over",
+   "quote": "\"more of an energy your chart already holds in excess\" · \"the energy your chart already has too much of\" · \"piling more onto a chart already full of it\" · \"though your chart is already crowded with it\" · \"adding pressure your chart already has in plenty\"",
+   "issue": "`energyState` returns `heavy` for any friction energy whatever its volume (`s < 0 → 'heavy'`). In the 600-chart sample, 315 of 1,173 and 317 of 1,248 heavy energies are thin (≤10%). That is about one heavy line in four telling a reader they hold \"too much\" of an energy they barely have. Example: born 1996-05-19 16h, Overfueled Wood, Water = Mind at 1% → \"Water brings Mind, the energy your chart already has too much of.\" Each unit is shared by every chart in the state, so the claim has to hold for thin charts too.",
+   "fix": "**Rule:** a heavy or core_over line names the *valence*, not the *amount*: \"more than your chart can use\", \"more than your chart is built for\", \"an energy your chart does better with less of\". Never \"already holds / has / carries too much\", \"full of\", \"crowded with\", \"in plenty\", \"in excess\". Examples: `mind · day.heavy.a` (golden) → \"{el} brings Mind, more than your chart can use today. Your thoughts circle, and you get less done than you meant to.\" · `order · day.heavy.b` → \"{el} brings Order, a weight your chart does better with less of. A deadline tightens or a rule bites, and you work twice as hard for the same result.\" · `action · month.heavy` → \"{el} brings Action for a whole month, more reach than your chart is built for. Work spreads thin across too many fronts, and you feel stretched by the third week.\" The same rule applies to Life Chapters' year lines (O1)."
+  },
+  {
+   "source": "cross",
+   "id": "X02",
+   "severity": "MAJOR",
+   "criterion": "A1 · chart invariance",
+   "pages": "Y087, Y104, Y109, Y112, Y117, and the day need lines",
+   "key": "",
+   "quote": "\"the energy your chart lacks most\" · \"the energy you need most\" · \"the support your chart is shortest of\" · \"the outlet you have least of\"",
+   "issue": "`need` means wanted and thin (≤10%), and a chart can have two or three of those. In the sample, 174 of 471 charts (37%) with a need energy have two or more. The same reader is then told on Monday that Order is \"the energy you need most\" and on Tuesday that Action is \"the energy your chart lacks most\".",
+   "fix": "**Rule:** need lines say \"short of\", never \"most\", \"least\" or \"shortest\". Examples: `order · day.need.b` (golden) → \"{el} brings Order, an energy your chart runs short of. A rule or a deadline lands on you, and you meet it at full strength.\" · `action · day.need.a` → \"{el} brings Action, an energy your chart is short of. A chance to earn or to reach further appears today, and you have the strength to take it.\" · `mind · year.need` → \"{el} brings Mind for a whole year, the support your chart goes without. Teachers, books and quiet hours all find you, and you grow wiser through the year.\" The same holds for Life Chapters (O2)."
+  },
+  {
+   "source": "cross",
+   "id": "X03",
+   "severity": "MAJOR",
+   "criterion": "C · relation words",
+   "pages": "every page (the compound checks flag \"and you ×2\" on almost every one)",
+   "key": "",
+   "quote": "\"and you feel it soften as it goes\" · \"and you feel it hold all the way through\" · \"and you feel it at full strength\" · \"which the {e} holds down\" · \"which pushes back against the {e}\"",
+   "issue": "71 of 76 energy lines close \"…, and you …\". The ground line comes right under the energy line and four of five close the same way, so every page shows the joint twice in a row and most show \"you feel\" twice. Across the corpus, 84 prose units carry \", and you\" and 20 carry \"you feel\". The two control verbs are also not the locked word: the labels are \"feeds · shapes\", but the ground lines say \"holds down\" and \"pushes back\", and nothing says \"shapes\".",
+   "fix": "**Rule:** the ground line uses the locked verbs and no \", and you\" joint (the energy line keeps its golden construct). Replacements: **matches** \"Under it runs more {g}, which meets you at full strength.\" · **feeds** \"Under it runs {g}, which feeds the {e} and keeps it with you all the way through.\" · **drains** \"Under it runs {g}, which draws the {e} off and softens it before it reaches you.\" · **presses** \"Under it runs {g}, which the {e} shapes into something you can use.\" · **resists** \"Under it runs {g}, which shapes the {e} from below and leaves you between the two.\" (The ground unit is shared by Day, Month and Year, so none of these names a time of day.)"
+  },
+  {
+   "source": "cross",
+   "id": "X04",
+   "severity": "MINOR",
+   "criterion": "A1 · D (echo fits all kinds)",
+   "pages": "D006",
+   "key": "",
+   "quote": "\"You feel the whole month's clash come to a head today, because the month presses on the same gate.\"",
+   "issue": "The echo fires on clash, punish, harm or repeat, but this line names clash (D006 shows it under a harm landing). It also gets the cause backwards: the *day* hits the gate the month already presses.",
+   "fix": "\"Today hits the gate the month already presses, and the month's strain at work reaches you all at once.\""
+  },
+  {
+   "source": "cross",
+   "id": "X05",
+   "severity": "TWEAK",
+   "criterion": "A1",
+   "pages": "D001",
+   "key": "",
+   "quote": "\"because the day strikes the same gate\"",
+   "issue": "\"strikes\" is the engine's clash verb. D001 shows the line under a harm landing.",
+   "fix": "\"Today the month's strain on your first home comes to a peak, because the day meets the same gate.\""
+  },
+  {
+   "source": "cross",
+   "id": "X06",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "—",
+   "key": "",
+   "quote": "\"The month's pull on your plans for later…\"",
+   "issue": "\"pull\" is the bind word, but this echo only fires for hard bonds. It also names \"the young people around you\" where the gate's label is \"the people after you\".",
+   "fix": "\"The month's strain on your plans for later and the people after you sharpens today, as the day presses the same gate.\""
+  },
+  {
+   "source": "cross",
+   "id": "X07",
+   "severity": "MINOR",
+   "criterion": "D (head ↔ body ↔ push)",
+   "pages": "D001",
+   "key": "",
+   "quote": "\"an older relative misreads you\"",
+   "issue": "It points the wrong way. The body says the relative's remark lands wrong on *you*, and the push says the same. The headline has the relative misreading the reader.",
+   "fix": "\"a family remark hits a nerve\""
+  },
+  {
+   "source": "cross",
+   "id": "X08",
+   "severity": "MINOR",
+   "criterion": "D (head ↔ body)",
+   "pages": "day pages with harm.day",
+   "key": "",
+   "quote": "\"a small word at home stings\"",
+   "issue": "The body and the push are about something *unsaid* (a look or a tone misread). A word that stings contradicts that, and \"small … at home\" repeats the body.",
+   "fix": "\"a tone at home is misread\""
+  },
+  {
+   "source": "cross",
+   "id": "X09",
+   "severity": "MINOR",
+   "criterion": "D (head ↔ kind)",
+   "pages": "punish.day pages",
+   "key": "",
+   "quote": "\"home asks more of you\"",
+   "issue": "It loses the punish meaning (an old friction returns). The body opens \"An old argument at home comes back\" and the push says \"Home friction returns\".",
+   "fix": "\"a home quarrel comes round again\""
+  },
+  {
+   "source": "cross",
+   "id": "X10",
+   "severity": "MINOR",
+   "criterion": "D (head ↔ kind)",
+   "pages": "frame.day pages",
+   "key": "",
+   "quote": "\"home comes to a decision\"",
+   "issue": "Frame means gathering strength. The day and month bodies have people \"pulling the same way\" and \"backing the same plan\", and neither mentions a decision.",
+   "fix": "\"your household joins forces\""
+  },
+  {
+   "source": "cross",
+   "id": "X11",
+   "severity": "MINOR",
+   "criterion": "D (head across horizons)",
+   "pages": "Y003",
+   "key": "",
+   "quote": "\"a remark at work lands badly\"",
+   "issue": "The half is shared by Day, Month and Year. On a Year page it sits above \"Something at work sours quietly this year\", and a single remark is the wrong size for that.",
+   "fix": "\"goodwill at work wears thin\""
+  },
+  {
+   "source": "cross",
+   "id": "X12",
+   "severity": "TWEAK",
+   "criterion": "D · C",
+   "pages": "D004, Y111",
+   "key": "",
+   "quote": "\"an old family plan comes loose\"",
+   "issue": "It does not match the body, where news changes a plan; nothing old comes loose. It is also the third \"comes loose\" in the clash family.",
+   "fix": "\"family news upsets a plan\""
+  },
+  {
+   "source": "cross",
+   "id": "X13",
+   "severity": "TWEAK",
+   "criterion": "A2 · C",
+   "pages": "bind.hour pages",
+   "key": "",
+   "quote": "\"a younger one leans closer\"",
+   "issue": "\"a younger one\" is not idiomatic, and the body opens \"Someone younger leans on you\", so \"leans\" appears twice on the page.",
+   "fix": "\"someone younger seeks you out\""
+  },
+  {
+   "source": "cross",
+   "id": "X14",
+   "severity": "TWEAK",
+   "criterion": "D · C",
+   "pages": "repeat.hour pages",
+   "key": "",
+   "quote": "\"you revisit a promise to someone younger\"",
+   "issue": "The body is about a plan and a repeated question, not a promise. In the reminder the half also nearly repeats its push (\"An old promise to someone younger resurfaces\").",
+   "fix": "\"an old plan for later returns\""
+  },
+  {
+   "source": "cross",
+   "id": "X15",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "D011, M008",
+   "key": "",
+   "quote": "\"a work dispute grinds on\"",
+   "issue": "The engine clause on the same page says \"grinds against\".",
+   "fix": "\"a work dispute drags on\""
+  },
+  {
+   "source": "cross",
+   "id": "X16",
+   "severity": "TWEAK",
+   "criterion": "C · D (verb per kind)",
+   "pages": "M008",
+   "key": "",
+   "quote": "\"The same friction at work wears on all month\"",
+   "issue": "\"wears\" is the harm verb from the clause (\"wears at\"), here on a punish page.",
+   "fix": "\"The same friction at work keeps coming back all month, a process that jams or a rule nobody likes. You learn its pattern and work around it with less effort each week.\""
+  },
+  {
+   "source": "cross",
+   "id": "X17",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "month punish.year pages",
+   "key": "",
+   "quote": "\"grinds on through this month\"",
+   "issue": "It repeats the clause's \"grinds against\" on the same page.",
+   "fix": "\"A family grievance from years back stays alive through this month, raised at each visit or call. You stop feeding it, and by the month's end it has less hold on you.\""
+  },
+  {
+   "source": "cross",
+   "id": "X18",
+   "severity": "MINOR",
+   "criterion": "D (body ↔ favours ↔ month)",
+   "pages": "D001",
+   "key": "",
+   "quote": "\"You let it pass, and the warmth between you stays.\"",
+   "issue": "Its own favours pair says \"An early word with relatives over silent hurt\", and the month line says \"You reach out first\". The day body favours silence.",
+   "fix": "\"A remark from an older relative lands wrong, though nobody meant it unkindly. You say so early and lightly, and the warmth between you stays.\""
+  },
+  {
+   "source": "cross",
+   "id": "X19",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "harm.hour pages",
+   "key": "",
+   "quote": "\"A young person you guide feels overlooked\"",
+   "issue": "It repeats the headline \"someone younger feels overlooked\".",
+   "fix": "\"A young person you guide feels passed over, or a plan for later loses a little of its shine. You spot the quiet change and give it your attention.\""
+  },
+  {
+   "source": "cross",
+   "id": "X20",
+   "severity": "MINOR",
+   "criterion": "C",
+   "pages": "bind.day pages",
+   "key": "",
+   "quote": "\"Home draws you in … You spend the evening closer than usual.\"",
+   "issue": "Under the headline \"home draws you closer\", both \"draws\" and \"closer\" repeat.",
+   "fix": "\"Home pulls you in today, and a small plan with a partner settles without fuss. You spend the evening in each other's company.\""
+  },
+  {
+   "source": "cross",
+   "id": "X21",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "bind.month day pages",
+   "key": "",
+   "quote": "\"You find a task that had stalled moving again with little push from you.\"",
+   "issue": "A garden-path sentence that has to be read twice.",
+   "fix": "\"Work pulls together today, and a colleague who kept apart joins your side. A task that had stalled starts moving again, and you barely have to push it.\""
+  },
+  {
+   "source": "cross",
+   "id": "X22",
+   "severity": "MINOR",
+   "criterion": "C",
+   "pages": "clash.month day pages",
+   "key": "",
+   "quote": "\"someone asks you to defend it. You defend it…\"",
+   "issue": "\"defend\" appears twice. \"comes loose\" also appears three times across the corpus.",
+   "fix": "\"A plan you settled at work is reopened, and someone asks you to justify it. You defend it in fewer words than you expected.\""
+  },
+  {
+   "source": "cross",
+   "id": "X23",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "frame.month day pages",
+   "key": "PUSH · frame.month",
+   "quote": "\"Momentum builds at work\"",
+   "issue": "Word for word the same as `PUSH · frame.month`, so the reader taps the reminder and reads its words again.",
+   "fix": "\"People line up behind a task you care about, and work gains speed. You lead it further today than you thought you would.\""
+  },
+  {
+   "source": "cross",
+   "id": "X24",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "repeat.year day pages",
+   "key": "",
+   "quote": "\"An old family story comes up again\"",
+   "issue": "It repeats the headline \"old family stories come back\".",
+   "fix": "\"A story from your family's past is told again, the way it always is. You hear something new in it this time, and it tells you about yourself.\""
+  },
+  {
+   "source": "cross",
+   "id": "X25",
+   "severity": "MINOR",
+   "criterion": "house limit (assumed people)",
+   "pages": "month clash.year pages",
+   "key": "",
+   "quote": "\"a role among siblings or a care that changes hands\"",
+   "issue": "It assumes siblings, and through \"a care\" a parent who needs care. The Year Gate names only the family you grew up in.",
+   "fix": "\"Something settled in the family you grew up in shifts this month, a family role or a duty that changes hands. You find your place in the new order and hold it.\""
+  },
+  {
+   "source": "cross",
+   "id": "X26",
+   "severity": "TWEAK",
+   "criterion": "A4 · BIZ_04",
+   "pages": "month harm.month pages",
+   "key": "",
+   "quote": "\"and the team notices your calm\"",
+   "issue": "A third party judging the reader (P2 construct: no one looking at the reader).",
+   "fix": "\"Small slights pile up at work this month, a credit not given or a message left unread. You keep your own record straight and stay calm through each one.\""
+  },
+  {
+   "source": "cross",
+   "id": "X27",
+   "severity": "MINOR",
+   "criterion": "A1 · house limit",
+   "pages": "M-quiet ×4, Y037, Y107, Y109",
+   "key": "",
+   "quote": "\"Nothing in the day reaches your gates, and life runs on its usual track.\"",
+   "issue": "The unit is used on Month and Year pages as well, where \"the day\" is wrong. \"usual track\" also repeats `action · month.even`.",
+   "fix": "\"None of your gates is touched, and life keeps its usual course. You have the time and the calm to do things at your own pace.\""
+  },
+  {
+   "source": "cross",
+   "id": "X28",
+   "severity": "MINOR",
+   "criterion": "D (favours ↔ body)",
+   "pages": "repeat.year pages",
+   "key": "",
+   "quote": "`Fresh topics with family \\",
+   "issue": "the old stories`",
+   "fix": "The day body has the reader hearing \"something new\" *in* the old story, and the headline says the old stories come back. The pair advises against the very thing the landing values."
+  },
+  {
+   "source": "cross",
+   "id": "X29",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "clash.month pages",
+   "key": "",
+   "quote": "`One position \\",
+   "issue": "three`",
+   "fix": "Cryptic, and \"three\" is not a noun phrase."
+  },
+  {
+   "source": "cross",
+   "id": "X30",
+   "severity": "TWEAK",
+   "criterion": "C (no repeated phrase)",
+   "pages": "—",
+   "key": "",
+   "quote": "`… \\",
+   "issue": "the familiar lecture`",
+   "fix": "Repeats \"the familiar\" from punish.day (\"the familiar complaint\")."
+  },
+  {
+   "source": "cross",
+   "id": "X31",
+   "severity": "TWEAK",
+   "criterion": "house form",
+   "pages": "return days",
+   "key": "PUSH · return",
+   "quote": "\"Read what comes back.\"",
+   "issue": "Every other push closes \"Read your day/month/year.\"",
+   "fix": "\"Your own day comes round again. Read your day.\""
+  },
+  {
+   "source": "cross",
+   "id": "X32",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "punish.month reminders",
+   "key": "PUSH · punish.month",
+   "quote": "\"Friction at work grinds again today.\"",
+   "issue": "The title is \"…, and a work dispute grinds on\", so the reminder says \"grinds\" twice.",
+   "fix": "\"The same complaint at work returns today. Read your day.\""
+  },
+  {
+   "source": "cross",
+   "id": "X33",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "punish.hour reminders",
+   "key": "PUSH · punish.hour",
+   "quote": "\"Those you look after test you again.\"",
+   "issue": "The title says \"the young test your patience\".",
+   "fix": "\"An old sticking point with someone younger returns. Read your day.\""
+  },
+  {
+   "source": "cross",
+   "id": "X34",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "punish.year reminders",
+   "key": "PUSH · punish.year",
+   "quote": "\"That same family argument resurfaces today.\"",
+   "issue": "\"That same\" assumes the reader already knows which argument.",
+   "fix": "\"An old family argument resurfaces today. Read your day.\""
+  },
+  {
+   "source": "cross",
+   "id": "X35",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "—",
+   "key": "PUSH · mark.decade",
+   "quote": "\"A new ten-year cycle begins today.\"",
+   "issue": "This matches the vocabulary change in X40.",
+   "fix": "\"A new decade of your life begins today. Read your year.\""
+  },
+  {
+   "source": "cross",
+   "id": "X36",
+   "severity": "MINOR",
+   "criterion": "D3 · BIZ_04",
+   "pages": "month pages, Mind heavy",
+   "key": "ENERGY mind · month.heavy",
+   "quote": "\"You move slower and think longer, and you hold your ground well.\"",
+   "issue": "Heavy Mind reads as a cost on Day (\"Your thoughts circle\") and on Year (\"move only when you are sure\"), but the Month line closes on a compliment. It also carries the X01 quantity claim.",
+   "fix": "\"{el} brings Mind for a whole month, more than your chart can use. You think longer and act later, and plans slip from one week to the next.\""
+  },
+  {
+   "source": "cross",
+   "id": "X37",
+   "severity": "MINOR",
+   "criterion": "D3 (.a/.b, grow vs heavy)",
+   "pages": "day pages, Action grow",
+   "key": "ENERGY action · day.grow.b",
+   "quote": "\"It hands you more to work with than you can use\"",
+   "issue": "\"More than you can use\" is the heavy reading. The `.a` variant (\"your effort goes further\") reads it as welcome.",
+   "fix": "\"{el} brings Action, an energy you already hold and still need. It puts useful work within reach, and you pick the tasks worth doing.\""
+  },
+  {
+   "source": "cross",
+   "id": "X38",
+   "severity": "TWEAK",
+   "criterion": "A5 (flattery)",
+   "pages": "—",
+   "key": "ENERGY expression · day.even.a",
+   "quote": "\"and nothing you say comes out wrong\"",
+   "issue": "Overclaims for an even state. `.b` says only \"Talk flows at an easy level\".",
+   "fix": "\"{el} brings Expression, a gentle measure that suits you. You speak and make at your normal pace, and your words come out as you mean them.\""
+  },
+  {
+   "source": "cross",
+   "id": "X39",
+   "severity": "MINOR",
+   "criterion": "A5 · X02",
+   "pages": "Year pages where Life Chapters has no line",
+   "key": "ENERGY expression · year.need",
+   "quote": "\"the energy you need most for giving out … and people start to quote you\"",
+   "issue": "A superlative (X02) plus flattery the readers punish.",
+   "fix": "\"{el} brings Expression for a whole year, an outlet your chart runs short of. Your voice grows bolder through the seasons, and you say what you used to keep back.\""
+  },
+  {
+   "source": "cross",
+   "id": "X40",
+   "severity": "MINOR",
+   "criterion": "A5",
+   "pages": "same",
+   "key": "ENERGY expression · year.grow",
+   "quote": "\"and you become known for it\"",
+   "issue": "Flattery. It also promises a reputation, which the chart cannot know.",
+   "fix": "\"{el} brings Expression for a whole year, building on how well you already speak and make. Your craft grows sharper with use, and you trust it more each season.\""
+  },
+  {
+   "source": "cross",
+   "id": "X41",
+   "severity": "TWEAK",
+   "criterion": "C (stock close)",
+   "pages": "Year stand-ins",
+   "key": "ENERGY action · year.heavy",
+   "quote": "\"and you learn which ones to let pass\"",
+   "issue": "\"you learn\" closes three of the year heavy/over lines (action, body, expression), and six units overall. This replacement also applies X01.",
+   "fix": "\"{el} brings Action for a whole year, more reach than your chart is built for. Chances pull at you from every side, and you let most of them pass.\""
+  },
+  {
+   "source": "cross",
+   "id": "X42",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "Year stand-ins",
+   "key": "ENERGY body · year.core_over",
+   "quote": "\"and you learn where your force stops helping\"",
+   "issue": "The same \"you learn\" close. This replacement also applies X01.",
+   "fix": "\"{el} brings more Body for a whole year, more force than your chart can use. Others give way to you often, and you see where your force stops helping.\""
+  },
+  {
+   "source": "cross",
+   "id": "X43",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "month pages, Action even",
+   "key": "ENERGY action · month.even",
+   "quote": "\"Work and income run on their usual track\"",
+   "issue": "\"usual track\" also appears in land.quiet.",
+   "fix": "\"{el} brings Action this month, at a level your chart neither craves nor resents. Work and income hold their usual pace, and you keep them there with ease.\""
+  },
+  {
+   "source": "cross",
+   "id": "X44",
+   "severity": "MINOR",
+   "criterion": "C (meter ↔ head)",
+   "pages": "Y037 and every Mind-release page",
+   "key": "",
+   "quote": "\"{el} weighs on you\"",
+   "issue": "It is the same as the lift label \"Weighs on you\" printed on the same card. \"slows\" also pairs with grow's \"feeds your thinking\".",
+   "fix": "\"{el} slows your thinking\""
+  },
+  {
+   "source": "cross",
+   "id": "X45",
+   "severity": "TWEAK",
+   "criterion": "C (meter ↔ head)",
+   "pages": "D006, D010, Y111",
+   "key": "",
+   "quote": "\"{el} leans on you\"",
+   "issue": "It echoes the lift labels \"Leans against you\" and \"Leans with you\".",
+   "fix": "\"{el} presses on you\""
+  },
+  {
+   "source": "cross",
+   "id": "X46",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "turned days",
+   "key": "",
+   "quote": "\"your own day turns over\" · \"Today is your own day turned over\"",
+   "issue": "\"turns over\" reads like an engine starting or a page turning. 反吟 means the day meets its own pillar head on.",
+   "fix": "head: \"your own day meets its opposite\" · pillar: \"Today meets your own day head on, its stem striking yours and its branch clashing your Day Gate. Something settled at home is questioned, and you answer for it calmly.\""
+  },
+  {
+   "source": "cross",
+   "id": "X47",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "yuede days",
+   "key": "STAR yuede · day",
+   "quote": "\"Effort turns trouble into gain today\"",
+   "issue": "Word for word the headline half \"effort turns trouble into gain\".",
+   "fix": "\"A setback today turns into something useful once you work at it. You end the day stronger than you began.\""
+  },
+  {
+   "source": "cross",
+   "id": "X48",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "tiande days",
+   "key": "STAR tiande · day",
+   "quote": "\"Trouble passes lightly today\"",
+   "issue": "It repeats the headline \"trouble passes you lightly\", and yuede shares the \"trouble\" image.",
+   "fix": "\"A tense moment softens before it grows, and the day asks little of your nerves. You keep your energy and sleep well tonight.\""
+  },
+  {
+   "source": "cross",
+   "id": "X49",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "wenchang days",
+   "key": "STAR wenchang · day",
+   "quote": "\"Words and study come easily today\"",
+   "issue": "It repeats the headline \"study comes easily\".",
+   "fix": "\"A page or a lesson makes sense at first reading today, and words come without effort. Your mind stays clear and quick.\""
+  },
+  {
+   "source": "cross",
+   "id": "X50",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "hongluan days",
+   "key": "STAR hongluan · day",
+   "quote": "\"Warmth runs through the day\"",
+   "issue": "It echoes the headline \"love warms up\". taohua's body also uses \"warmth\" and the frame \"X runs\".",
+   "fix": "\"Tenderness comes easily today with someone you care for, and small gestures say a lot. You feel loved and show it freely.\""
+  },
+  {
+   "source": "cross",
+   "id": "X51",
+   "severity": "MINOR",
+   "criterion": "A1 · C",
+   "pages": "birthdays",
+   "key": "",
+   "quote": "\"Your new year of age begins today … with your own energy at full strength\"",
+   "issue": "It repeats the headline (\"you begin another year of age\") and the push (\"A new year of your age\"). Nothing in the chart puts the Day Master \"at full strength\" on a birthday.",
+   "fix": "\"Today is your birthday, and a new year of your life starts on it. You meet it with everything the last one taught you.\""
+  },
+  {
+   "source": "cross",
+   "id": "X52",
+   "severity": "MINOR",
+   "criterion": "C",
+   "pages": "立春 days",
+   "key": "",
+   "quote": "\"You feel the turn before you can name it.\"",
+   "issue": "Almost the same close as `mark.month` (\"You feel the change before you can name it\").",
+   "fix": "\"A new year opens today, and its energy runs until next February. You start it with twelve months still unwritten.\""
+  },
+  {
+   "source": "cross",
+   "id": "X53",
+   "severity": "MINOR",
+   "criterion": "consistency with Life Chapters",
+   "pages": "decade birthdays",
+   "key": "ENERGY * · decade.",
+   "quote": "\"A new cycle of luck begins this year\"",
+   "issue": "Life Chapters calls this a \"decade\" (`ENERGY * · decade.*`). The headline says \"chapter\" and the push says \"ten-year cycle\", so there are three names for one thing.",
+   "fix": "\"A new decade of your life begins on this birthday, with its own energy for the next ten years. Your life starts to lean a new way from here.\""
+  },
+  {
+   "source": "cross",
+   "id": "X54",
+   "severity": "MINOR",
+   "criterion": "D2 · D3",
+   "pages": "day pages, Horizon helping",
+   "key": "GOD piancai · favours.day.Wealth.helping",
+   "quote": "`A careful look \\",
+   "issue": "a quick yes`",
+   "fix": "It points the same way as the heavy pair (`A firm budget \\"
+  },
+  {
+   "source": "cross",
+   "id": "X55",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "same",
+   "key": "GOD piancai · favours.day.Social.helping",
+   "quote": "`A short reply \\",
+   "issue": "a long one`",
+   "fix": "Nothing of the Horizon in it. The month helping pair is about widening the circle."
+  },
+  {
+   "source": "cross",
+   "id": "X56",
+   "severity": "MINOR",
+   "criterion": "house form",
+   "pages": "same",
+   "key": "GOD piancai · favours.day.Family.helping",
+   "quote": "`Practical help \\",
+   "issue": "talk about it`",
+   "fix": "\"talk about it\" is not a noun phrase."
+  },
+  {
+   "source": "cross",
+   "id": "X57",
+   "severity": "TWEAK",
+   "criterion": "A2 · C",
+   "pages": "—",
+   "key": "GOD piancai · favours.day.Social.heavy",
+   "quote": "`A few names \\",
+   "issue": "every invitation`",
+   "fix": "\"A few names\" is unclear, and \"every invitation\" repeats exactly in the month pair."
+  },
+  {
+   "source": "cross",
+   "id": "X58",
+   "severity": "TWEAK",
+   "criterion": "C (exact repeat)",
+   "pages": "M008",
+   "key": "GOD piancai · favours.month.Social.heavy",
+   "quote": "`A trusted few contacts \\",
+   "issue": "every invitation`",
+   "fix": "An exact repeat of the day pair."
+  },
+  {
+   "source": "cross",
+   "id": "X59",
+   "severity": "MINOR",
+   "criterion": "D3",
+   "pages": "D001, M pages",
+   "key": "GOD zhengcai · favours.month.Wealth.heavy",
+   "quote": "`Bills paid on time \\",
+   "issue": "new spending plans`",
+   "fix": "On the same pole the day pair loosens thrift (`A small treat \\"
+  },
+  {
+   "source": "cross",
+   "id": "X60",
+   "severity": "MINOR",
+   "criterion": "D2 · D3",
+   "pages": "D007 and others",
+   "key": "GOD shishen · favours.day.Career.heavy",
+   "quote": "`Plain work done well \\",
+   "issue": "a polished show`",
+   "fix": "The month *helping* pair also argues against show (`… \\"
+  },
+  {
+   "source": "cross",
+   "id": "X61",
+   "severity": "MINOR",
+   "criterion": "D2 (day vs month)",
+   "pages": "—",
+   "key": "GOD pianyin · favours.day.Career.heavy",
+   "quote": "`A simple checklist \\",
+   "issue": "endless rethinking`",
+   "fix": "The golden month pair (`Second thoughts \\"
+  },
+  {
+   "source": "cross",
+   "id": "X62",
+   "severity": "MINOR",
+   "criterion": "D3",
+   "pages": "D009",
+   "key": "GOD bijian · favours.day.Social.helping",
+   "quote": "`Old friends \\",
+   "issue": "new faces`",
+   "fix": "It leans the same way as heavy (`One close friend \\"
+  },
+  {
+   "source": "cross",
+   "id": "X63",
+   "severity": "TWEAK",
+   "criterion": "C (exact repeat)",
+   "pages": "—",
+   "key": "GOD bijian · favours.month.Growth.heavy",
+   "quote": "`A study partner \\",
+   "issue": "pushing on unaided`",
+   "fix": "An exact repeat of the day pair."
+  },
+  {
+   "source": "cross",
+   "id": "X64",
+   "severity": "TWEAK",
+   "criterion": "C (exact repeat)",
+   "pages": "—",
+   "key": "GOD zhengcai · favours.month.Family.heavy",
+   "quote": "`Sharing the chores \\",
+   "issue": "holding every one yourself`",
+   "fix": "An exact repeat of the day pair."
+  },
+  {
+   "source": "cross",
+   "id": "X65",
+   "severity": "TWEAK",
+   "criterion": "C (exact repeat)",
+   "pages": "—",
+   "key": "GOD zhengyin · favours.month.Family.heavy",
+   "quote": "`Doing things for yourself \\",
+   "issue": "being looked after`",
+   "fix": "An exact repeat of the day pair."
+  },
+  {
+   "source": "cross",
+   "id": "X66",
+   "severity": "TWEAK",
+   "criterion": "C (exact repeat)",
+   "pages": "—",
+   "key": "GOD zhengyin · favours.month.Mind.helping",
+   "quote": "`A good teacher \\",
+   "issue": "scattered videos`",
+   "fix": "An exact repeat of the day pair."
+  },
+  {
+   "source": "cross",
+   "id": "X67",
+   "severity": "TWEAK",
+   "criterion": "C (exact repeat)",
+   "pages": "M002",
+   "key": "GOD shangguan · favours.month.Social.heavy",
+   "quote": "`Listening more than talking \\",
+   "issue": "the last word`",
+   "fix": "Both halves repeat the day pair."
+  },
+  {
+   "source": "cross",
+   "id": "X68",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD qisha · favours.month.Career.helping",
+   "quote": "`The hardest assignment \\",
+   "issue": "an easy win`",
+   "fix": "Near repeat of the day pair `The hardest task first \\"
+  },
+  {
+   "source": "cross",
+   "id": "X69",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD zhengguan · favours.month.Career.heavy",
+   "quote": "`One duty done properly \\",
+   "issue": "…`",
+   "fix": "Near repeat of the day pair `One duty seen through \\"
+  },
+  {
+   "source": "cross",
+   "id": "X70",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD jiecai · favours.month.Social.heavy",
+   "quote": "`Letting others win \\",
+   "issue": "…`",
+   "fix": "Near repeat of `Letting a rival win`."
+  },
+  {
+   "source": "cross",
+   "id": "X71",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD jiecai · favours.month.Social.helping",
+   "quote": "`Friendly rivalry \\",
+   "issue": "polite distance`",
+   "fix": "Near repeat of `A friendly contest \\"
+  },
+  {
+   "source": "cross",
+   "id": "X72",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD jiecai · favours.month.Wealth.heavy",
+   "quote": "`Separate accounts \\",
+   "issue": "…`",
+   "fix": "Near repeat of `A separate purse`."
+  },
+  {
+   "source": "cross",
+   "id": "X73",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD jiecai · favours.month.Career.heavy",
+   "quote": "`… \\",
+   "issue": "a race with colleagues`",
+   "fix": "Near repeat of `the race for credit`."
+  },
+  {
+   "source": "cross",
+   "id": "X74",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD zhengcai · favours.month.Career.helping",
+   "quote": "`Steady routine work \\",
+   "issue": "a flashy side pitch`",
+   "fix": "Near repeat of `The routine task \\"
+  },
+  {
+   "source": "cross",
+   "id": "X75",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD zhengcai · favours.month.Career.heavy",
+   "quote": "`The basics done well \\",
+   "issue": "taking on extra`",
+   "fix": "\"done well\" repeats shishen, and \"extra\" repeats the day pair."
+  },
+  {
+   "source": "cross",
+   "id": "X76",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD zhengcai · favours.month.Wealth.helping",
+   "quote": "`Saving a set amount \\",
+   "issue": "…`",
+   "fix": "Near repeat of `Regular saving`."
+  },
+  {
+   "source": "cross",
+   "id": "X77",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD zhengcai · favours.month.Family.helping",
+   "quote": "`Running the household well \\",
+   "issue": "…`",
+   "fix": "Near repeat of `Settling the household list`."
+  },
+  {
+   "source": "cross",
+   "id": "X78",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD zhengguan · favours.month.Family.heavy",
+   "quote": "`Gentle house rules \\",
+   "issue": "strict standards`",
+   "fix": "Near repeat of `Bending a house rule`."
+  },
+  {
+   "source": "cross",
+   "id": "X79",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD shishen · favours.month.Family.helping",
+   "quote": "`Cooking for everyone at home \\",
+   "issue": "ordering in` · `Quiet shared hobbies \\",
+   "fix": "big family outings`"
+  },
+  {
+   "source": "cross",
+   "id": "X80",
+   "severity": "TWEAK",
+   "criterion": "C · D2",
+   "pages": "—",
+   "key": "GOD shishen · favours.month.Health.helping",
+   "quote": "`Slow meals and early nights \\",
+   "issue": "late screens`",
+   "fix": "\"early night(s)\" also appears in qisha's heavy pair, and rest belongs to the Sage, not the Artisan."
+  },
+  {
+   "source": "cross",
+   "id": "X81",
+   "severity": "TWEAK",
+   "criterion": "C (near repeat)",
+   "pages": "—",
+   "key": "GOD qisha · favours.month.Health.helping",
+   "quote": "`Hard training sessions \\",
+   "issue": "gentle stretches` · `… \\",
+   "fix": "open defiance` · `… \\"
+  },
+  {
+   "source": "cross",
+   "id": "X82",
+   "severity": "MINOR",
+   "criterion": "A2 · A1 (reads as a relation error)",
+   "pages": "27 of 93 clauses in the sample (D004, D011, M008 and others)",
+   "key": "",
+   "quote": "\"The day's Earth strikes the Earth in your Year Gate\" · \"The day's Water repeats the Water in your Year Gate\"",
+   "issue": "The clause names elements, not branches. For a 辰戌 or 丑未 clash, a 丑戌未 punish or any repeat (自刑, the same branch twice), the reader sees an element attacking itself, right under a ground line that has just taught \"feeds · shapes\". Classically the bond is between branches (三命通会, 六冲 · 三刑 · 自刑), so the clause is accurate but reads as nonsense.",
+   "fix": "When `gel === seat.el`, write \"…strikes the other {el} in your…\" (or \"…the {el} already in your…\"). Change the repeat verb from \"repeats\" to \"meets its double in\": \"The day's Water meets its double in your Year Gate, the seat of your first home.\""
+  },
+  {
+   "source": "cross",
+   "id": "O3",
+   "severity": "MINOR",
+   "criterion": "",
+   "pages": "",
+   "key": "",
+   "quote": "\"a parent changes address or an older relative changes course\"",
+   "issue": "It assumes a parent. The Year Gate names only the family you grew up in.",
+   "fix": "\"Something shifts in the family you came from this year, a home or a family role changes, and you adjust quickly.\""
+  },
+  {
+   "source": "cross",
+   "id": "O4",
+   "severity": "MINOR",
+   "criterion": "",
+   "pages": "",
+   "key": "ENERGY * · year.heavy",
+   "quote": "\"you get moving again through plain work and a firm deadline\" · \"you hold steady through study, a mentor's help and a quiet hour\"",
+   "issue": "Prescriptions inside the energy line. The Almanac allows advice only in favours pairs (ruling D1 B), so the Year page breaks the rule its Day and Month pages keep.",
+   "fix": "The owners settle it between them: either the year lines describe without a remedy, or the Almanac records an exception for L9 A."
+  },
+  {
+   "source": "day-1",
+   "id": "M1",
+   "severity": "MAJOR",
+   "criterion": "A5 · B · A1 · D1",
+   "pages": "11 landing units on 19 pages (D001, D004, D006, D007, D011, D014, D015, D020, D023, D025, D029, D032, D033, D035, D038, D039, D043, D049, D050); 6 grow energy units on 12 pages",
+   "key": "ENERGY * · day.grow.",
+   "quote": "\"You let it pass, and the warmth between you stays\" · \"You take the change in your stride and call back the same day\" · \"You adjust faster than the people around you\" · \"the matter closes faster than last time\" · \"You settle it by evening, on your own terms\" · \"You catch the moment and put it right before bed\" · \"you answer for it calmly\" · \"you pass the test\" · \"you choose well\" · \"you see the answer on your own\"",
+   "issue": "The second sentence of almost every friction landing resolves the bond with the reader's ideal behaviour and a good outcome. That causes four problems. (1) It flatters, which BIZ_04 names as the fastest way to lose this audience. (2) It claims an outcome no twelve-day cycle can know. (3) It is advice dressed as fact, outside the favours rows where ruling D1 B allows advice. (4) It cancels its own bond, so a harm (\"wears thin\") ends with the warmth intact, and it pre-empts the favours row that offers the choice (\"Fixing it quietly over raising it\"). The grow lines do the same with guaranteed wins.",
+   "fix": "**Rule:** a landing's second sentence names what the event stirs in the reader (the felt pull, the old wish, the private conflict), never how it ends and never a comparison with others; the choice belongs to the favours row. A grow line names what becomes possible, not the result. Examples. harm.year: \"A remark from an older relative lands wrong, though nobody meant it unkindly. You hear the old family verdict in it, and it stings more than the words do.\" clash.day: \"A plan at home changes at short notice, with a partner or whoever you live with. You go along with it out loud and keep the disappointment to yourself.\" punish.month: \"Friction at work returns, the same complaint from the same corner of the team. You feel the old tiredness of making the same case twice.\" order.grow.b: \"Wood brings Order, adding to a discipline you already keep. A standard you set yourself gets tested today, and you are glad of the habits you built.\""
+  },
+  {
+   "source": "day-1",
+   "id": "M2",
+   "severity": "MAJOR",
+   "criterion": "C",
+   "pages": "31 of 34 pages trip \"and you\" ×2–4",
+   "key": "ENERGY * · day.",
+   "quote": "\"…, and you feel it hold all the way through\" · \"…, and you feel the two pull apart\" · \"…, and you stand firmer by the afternoon\"",
+   "issue": "The \"and you\" joint and the \"you feel\" frame are built into three stations. Every energy line's second sentence is \"Event, and you result\". Four of five ground lines are \"…, and you feel …\". Most landings repeat it. So the same joint and the same verb repeat on almost every page (D006 \"feel\" ×3; D019 \"and you\" ×4). The ground lines also avoid the locked relation word \"shapes\" (\"pushes back against\", \"holds down\").",
+   "fix": "**Rule:** at most one \"and you\" per page. The ground line takes \"so\" and the locked words. feeds: \"Under it runs {G}, which feeds the {E}, so the push holds for you all day.\" drains: \"Under it runs {G}, which the {E} feeds, so the push reaches you softer by evening.\" resists: \"Under it runs {G}, which shapes the {E} from below, so you feel the day pull two ways.\" presses: \"Under it runs {G}, which the {E} shapes, so the {E} reaches you with some of its force spent.\" matches: \"Under it runs more {E}, so you meet it at full strength.\" Energy second sentences rotate their joints (so, until, by, a full stop) across the 30 energy units."
+  },
+  {
+   "source": "day-1",
+   "id": "m1",
+   "severity": "MINOR",
+   "criterion": "A1 · A2",
+   "pages": "D006",
+   "key": "TEMPLATED tpl_almanac · echo.month",
+   "quote": "\"You feel the whole month's clash come to a head today, because the month presses on the same gate.\"",
+   "issue": "The month's bond on D006 is 丑戌 punish (三命通会 三刑), not a clash, and the unit is used for every bond kind. The causal clause is also reversed: the day, not the month, makes this the peak.",
+   "fix": "\"The month already touches your work, and today the day reaches the same gate, so you feel both at once.\" (one sentence, two commas, 20 words). Better long-term: an echo per bond kind."
+  },
+  {
+   "source": "day-1",
+   "id": "m2",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D001, D020, D033, D044",
+   "key": "TEMPLATED tpl_almanac · echo.year",
+   "quote": "\"Today the month's strain on your first home comes to a peak, because the day strikes the same gate.\"",
+   "issue": "The unit ignores the bond kind. On D044 the month 亥 repeats the Year Gate 亥 and so does the day, so there is no strain and no strike. On D020 the day punishes (grinds), it does not strike.",
+   "fix": "\"The month already touches your first home, and today the day reaches the same gate, so you feel both at once.\""
+  },
+  {
+   "source": "day-1",
+   "id": "m3",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "D010, D044, D050",
+   "key": "TEMPLATED tpl_almanac · ground.presses",
+   "quote": "\"which the Metal holds down, and you put both to work\"",
+   "issue": "It is unclear what \"put both to work\" means, or why the reader does it.",
+   "fix": "See M2: \"Under it runs {G}, which the {E} shapes, so the {E} reaches you with some of its force spent.\""
+  },
+  {
+   "source": "day-1",
+   "id": "m4",
+   "severity": "MINOR",
+   "criterion": "A2 · A3",
+   "pages": "D012",
+   "key": "TEMPLATED tpl_almanac · land.void",
+   "quote": "\"The day falls in your Void. … and you notice it first.\"",
+   "issue": "\"Void\" is jargon the page never explains, and \"you notice it first\" (first before what?) is vague.",
+   "fix": "\"The day falls in your Void, a gap your chart meets two days in every twelve. What you start today lands late or lighter than promised, and you feel the shortfall before anyone else does.\" (33 words)"
+  },
+  {
+   "source": "day-1",
+   "id": "m5",
+   "severity": "MINOR",
+   "criterion": "A1 · A2",
+   "pages": "D019",
+   "key": "TEMPLATED tpl_almanac · pillar.return",
+   "quote": "\"Today repeats the day you were born on\"",
+   "issue": "This reads as the birthday. The fact is the same day pillar (甲午) returning every 60 days.",
+   "fix": "\"Today carries the same pillar as the day you were born, as it does six times a year. What you started in the last two months comes back, and you see it more clearly this time.\" (35 words)"
+  },
+  {
+   "source": "day-1",
+   "id": "m6",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D043, D047",
+   "key": "ENERGY action · day.grow.b",
+   "quote": "\"It hands you more to work with than you can use, and you choose well.\"",
+   "issue": "A grown energy is described as a surplus, which is the heavy state's wording, and it ends on a promise.",
+   "fix": "\"Water brings Action, an energy you already hold and still need. Offers and errands come within reach today, and you have the drive to go after them.\" (27 words)"
+  },
+  {
+   "source": "day-1",
+   "id": "m7",
+   "severity": "MINOR",
+   "criterion": "A4 · A5 · C",
+   "pages": "D050",
+   "key": "ENERGY order · day.grow.b",
+   "quote": "\"Someone checks your work today, and you pass the test.\"",
+   "issue": "It assumes a job beyond what the energy names, promises a result, and adds the fifth \"work\" on D050.",
+   "fix": "\"Wood brings Order, adding to a discipline you already keep. A standard you set yourself gets tested today, and you are glad of the habits you built.\" (27 words)"
+  },
+  {
+   "source": "day-1",
+   "id": "m8",
+   "severity": "MINOR",
+   "criterion": "A4 · A5",
+   "pages": "D040, D048",
+   "key": "ENERGY expression · day.grow.b",
+   "quote": "\"and you enjoy the day more than most\"",
+   "issue": "It compares the reader with unnamed others for no point.",
+   "fix": "\"Metal brings Expression, more of an outlet that already serves you. A joke lands or a sketch comes right, and the day feels like your own.\" (25 words)"
+  },
+  {
+   "source": "day-1",
+   "id": "m9",
+   "severity": "MINOR",
+   "criterion": "A4",
+   "pages": "D048",
+   "key": "STAR tianyi · day",
+   "quote": "\"an older colleague or a person who owes you nothing. You accept it without having to ask twice.\"",
+   "issue": "It assumes a job (a star is not the Month Gate) and implies the reader had to ask.",
+   "fix": "\"Help comes from someone with standing, an elder or a near stranger who owes you nothing. You say yes to it before your pride can refuse.\" (26 words)"
+  },
+  {
+   "source": "day-1",
+   "id": "m10",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "D025",
+   "key": "TEMPLATED tpl_almanac · favours_land.clash.month",
+   "quote": "\"One position over three\"",
+   "issue": "Opaque on first read: three what?",
+   "fix": "\"One clear reason over three defences\""
+  },
+  {
+   "source": "day-1",
+   "id": "m11",
+   "severity": "MINOR",
+   "criterion": "A4 · D4",
+   "pages": "D023",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.hour",
+   "quote": "\"Fresh tactics with the young over the familiar lecture\"",
+   "issue": "\"the familiar lecture\" charges the reader with lecturing.",
+   "fix": "\"A new approach with the young over the old argument\""
+  },
+  {
+   "source": "day-1",
+   "id": "m12",
+   "severity": "MINOR",
+   "criterion": "A4",
+   "pages": "D014, D029",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.hour",
+   "quote": "\"Time spent training others over a personal task list\"",
+   "issue": "It assumes a trainer or manager role.",
+   "fix": "\"Time with younger people over your own list\""
+  },
+  {
+   "source": "day-1",
+   "id": "m13",
+   "severity": "MINOR",
+   "criterion": "A4",
+   "pages": "D010, D020",
+   "key": "GOD zhengguan · favours.day.Family.heavy",
+   "quote": "\"Bending a house rule over enforcing it\"",
+   "issue": "It assumes the reader sets and enforces the rules at home.",
+   "fix": "\"Giving way at home over holding the line\""
+  },
+  {
+   "source": "day-1",
+   "id": "m14",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D047",
+   "key": "GOD piancai · favours.day.Wealth.helping",
+   "quote": "\"A careful look over a quick yes\" · \"A short reply over a long one\"",
+   "issue": "The helping (grow) row for The Horizon advises caution, which belongs to the heavy row (子平真诠: 偏财 is the open-handed, outgoing wealth). The Social pair carries no content.",
+   "fix": "\"A new money idea over the usual route\" · \"A new circle over the usual crowd\""
+  },
+  {
+   "source": "day-1",
+   "id": "m15",
+   "severity": "MINOR",
+   "criterion": "D1 · A1",
+   "pages": "D016",
+   "key": "GOD shishen · favours.day.Family.heavy",
+   "quote": "\"Quiet company over a full house\"",
+   "issue": "On a day whose landing is \"your family gathers round\", the Family favour argues against the gathering.",
+   "fix": "\"Listening at the table over holding the floor\" (it fits Expression released and any gathering)"
+  },
+  {
+   "source": "day-1",
+   "id": "m16",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "D015, D025, D035, D050",
+   "key": "PUSH · clash.month",
+   "quote": "\"Work pushes back today.\"",
+   "issue": "Under the title \"…, and work pushes back\", the body repeats the headline half word for word.",
+   "fix": "\"A settled plan at work comes loose today. Read your day.\""
+  },
+  {
+   "source": "day-1",
+   "id": "m17",
+   "severity": "MINOR",
+   "criterion": "A3 · B",
+   "pages": "D034",
+   "key": "TEMPLATED tpl_almanac · mark.month",
+   "quote": "\"and its energy holds until the next one\"",
+   "issue": "The clause is true of every month and says nothing.",
+   "fix": "\"A new month opens today, and a new element sets the tone until the next one. You feel the change before you can name it.\" (25 words)"
+  },
+  {
+   "source": "day-1",
+   "id": "m18",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "D004, D007, D011, D015, D020, D023, D025, D033, D035, D050",
+   "key": "",
+   "quote": "\"The day's Earth strikes the Earth in your Year Gate\"",
+   "issue": "When both branches share an element (辰戌, 丑未, 丑戌), the clause reads as Earth fighting itself, which jars right after the page has taught the reader feeds and shapes.",
+   "fix": "When the two elements match, write \"another\": \"The day's Earth strikes another Earth in your Year Gate, the seat of your first home.\""
+  },
+  {
+   "source": "day-1",
+   "id": "m19",
+   "severity": "MINOR",
+   "criterion": "D",
+   "pages": "D004, D033 (cf. D038)",
+   "key": "",
+   "quote": "(no favours rows)",
+   "issue": "D038 (clash · year) lights `favours_land.clash.year` at weight 3. D004 and D033 have the same bond and show no favours rows at all, and D004 shows no god rows either. If this is a selection rule and not a bug, say so in STATE.",
+   "fix": "Verify the domain-weight rule for clash · year. Every landing whose bond weighs a domain at 2 or more should show its favours row."
+  },
+  {
+   "source": "day-1",
+   "id": "t1",
+   "severity": "TWEAK",
+   "criterion": "A1",
+   "pages": "D004, D033, D038",
+   "key": "TEMPLATED tpl_almanac · head.land.clash.year",
+   "quote": "\"an old family plan comes loose\"",
+   "issue": "\"old\" is punish and repeat vocabulary. A clash is sudden, and the landing says \"without warning\".",
+   "fix": "\"a family plan comes loose\""
+  },
+  {
+   "source": "day-1",
+   "id": "t2",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "D001, D011, D015",
+   "key": "TEMPLATED tpl_almanac · head.energy.action.release",
+   "quote": "\"Earth piles work on you\"",
+   "issue": "Paired with any Month Gate half it doubles \"work\" (\"Earth piles work on you, and work pushes back\").",
+   "fix": "\"Earth piles tasks on you\" ({E} piles tasks on you)"
+  },
+  {
+   "source": "day-1",
+   "id": "t3",
+   "severity": "TWEAK",
+   "criterion": "A1",
+   "pages": "D010, D022, D041",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.year",
+   "quote": "\"your first home pulls at you\"",
+   "issue": "A bind draws closer; \"pulls at\" reads as strain.",
+   "fix": "\"your first home draws you closer\""
+  },
+  {
+   "source": "day-1",
+   "id": "t4",
+   "severity": "TWEAK",
+   "criterion": "A1",
+   "pages": "D039",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.day",
+   "quote": "\"home asks more of you\"",
+   "issue": "A punish is an old friction returning, and the landing says so (\"An old argument at home comes back\").",
+   "fix": "\"an old argument at home returns\""
+  },
+  {
+   "source": "day-1",
+   "id": "t5",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "D010, D022, D041",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.year",
+   "quote": "\"reaches you, with a call or a message or an old habit\"",
+   "issue": "A person cannot reach you \"with an old habit\".",
+   "fix": "\"Someone from the home you grew up in reaches out, with a call, a message or an old family joke. You answer more warmly than you planned.\""
+  },
+  {
+   "source": "day-1",
+   "id": "t6",
+   "severity": "TWEAK",
+   "criterion": "A1 · A2",
+   "pages": "D041, D044",
+   "key": "ENERGY body · day.core_over.b",
+   "quote": "\"on a day you already hold plenty\"",
+   "issue": "Overfueled is the chart's state, not the day's.",
+   "fix": "\"Earth brings more Body, the energy you are made of, when your chart already holds plenty. You take on more than your share, and the people near you feel the weight.\""
+  },
+  {
+   "source": "day-1",
+   "id": "t7",
+   "severity": "TWEAK",
+   "criterion": "house",
+   "pages": "D019",
+   "key": "PUSH · return",
+   "quote": "\"Read what comes back.\"",
+   "issue": "It breaks the reminder format (\"Read your day.\").",
+   "fix": "\"Your own day comes round again. Read your day.\""
+  },
+  {
+   "source": "day-1",
+   "id": "t8",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "D011, D023",
+   "key": "PUSH · punish.month",
+   "quote": "\"Friction at work grinds again today.\"",
+   "issue": "It repeats \"grinds\" from the title half \"a work dispute grinds on\".",
+   "fix": "\"The same complaint at work comes round again today. Read your day.\""
+  },
+  {
+   "source": "day-1",
+   "id": "t9",
+   "severity": "TWEAK",
+   "criterion": "A1 · A2",
+   "pages": "D043",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.day",
+   "quote": "\"A small thing at home goes unsaid, a look or a tone\"",
+   "issue": "A look or a tone is not \"unsaid\", and the headline calls it \"a small word\".",
+   "fix": "\"A small thing at home is misread, a look or a tone a partner takes differently from how you meant it. You catch the moment and put it right before bed.\" (the close is left to M1)"
+  },
+  {
+   "source": "day-1",
+   "id": "t10",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "D014, D032",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.day",
+   "quote": "\"the people you live with. You adjust faster than the people around you.\"",
+   "issue": "\"people\" twice in two sentences.",
+   "fix": "\"A plan at home changes at short notice, with a partner or whoever you live with. You adjust faster than the people around you.\" (the close is left to M1)"
+  },
+  {
+   "source": "day-2",
+   "id": "D2-M1",
+   "severity": "MAJOR",
+   "criterion": "A5 · B · D4",
+   "pages": "30 of 34; all 13 friction-bond landings (clash, punish, harm): D052 D057 D060 D065 D069 D074 D077 D088 D089 D094 D100 D101 D113",
+   "key": "ENERGY * · day.grow.",
+   "quote": "\"You settle it by evening, on your own terms.\" · \"You adjust faster than the people around you.\" · \"Someone checks your work today, and you pass the test.\" · \"nothing you say comes out wrong\" · \"you choose well\" · \"end the day stronger than you began\" · \"you answer for it calmly\" · \"You catch the moment and put it right before bed.\"",
+   "issue": "The reader wins almost every closing sentence. On friction bonds this removes the cost the bond names (clash = shaken, punish = grinds, harm = wears thin). That fails BIZ_04's sugarcoat test (\"the cost is missing or shrunk\"), and it is the flattery this audience drops apps for. It also states outcomes the day cannot know (\"you pass\", \"you settle it by evening\"). Of 13 friction landings, 13 end in a win. Of the energy lines, 14 of 22 distinct units end on a guaranteed success",
+   "fix": "Rule: on clash, punish and harm, sentence two names the plain cost in the reader's own week and leaves the reader the choice, not the result. Example: \"A plan at home changes at short notice, with a partner or the people you live with. You lose the evening you had set aside and choose what to keep from it.\" On grow and need energy lines, say what the energy makes easier, not that the reader succeeds. Keep at most one win close per page. Rebuild: the 13 friction landings (×4 gates), the grow/need/even energy b-sentences, and the yuede and tiande stars"
+  },
+  {
+   "source": "day-2",
+   "id": "D2-M2",
+   "severity": "MAJOR",
+   "criterion": "A1",
+   "pages": "9 pages: D088 D091 D093 D094 D096 D097 D100 D101 D105",
+   "key": "ENERGY action · day.need.a",
+   "quote": "\"Fire brings Action, the energy your chart lacks most.\" (D088) · \"Earth brings Order, the energy your chart is shortest of.\" (D091) · \"Earth brings Order, the energy you need most.\" (D094), all for the same reader (癸, 1995-12-08)",
+   "issue": "The need state is shared by every needed function, but the unit claims a rank. One reader sees three different energies called \"most\" or \"shortest\" on three days. On this chart Fire is the true shortfall, so the Earth lines are false. A unit cannot know a rank it is not keyed on",
+   "fix": "Rule: no superlative in a need unit unless the engine passes the rank. Rewrite the six openers as \"the energy your chart runs short on\", \"the outlet your chart is short of\", \"the support you run short on\" and similar, then vary the rest of the line. Example: \"Earth brings Order, an energy your chart runs short on. A rule or a deadline lands on you today, and you find it steadies you.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-M3",
+   "severity": "MAJOR",
+   "criterion": "A1 · B · C",
+   "pages": "33 of 34 (every page with a ground line)",
+   "key": "",
+   "quote": "\"Under it runs Water, which the Earth holds down, and you put both to work.\" (D052: Earth is the released Body) · \"which pushes back against the Fire, and you feel the two pull apart\" · \"and you feel it hold all the way through\"",
+   "issue": "(a) The brief locks the relation words as \"feeds · shapes\", but three of the five ground units use other verbs: \"holds down\", \"pushes back against\", \"draws … off\". (b) The tails are the same whether the energy is grown or released. \"You put both to work\" calls a released energy useful (D052, D116-type pages), against A1's rule that a released energy is never welcome. (c) The tails are vague (\"hold all the way through\", \"soften as it goes\") and are the weakest line on most pages",
+   "fix": "Rebuild the five ground units on the locked verbs, with the tail saying what the ground does to the day's energy, not to the reader's mood. presses: \"Under it runs Water, which the Earth shapes, so the day's push lands on solid ground.\" resists: \"Under it runs Water, which shapes the Fire, so the day's energy meets a check from below.\" drains: \"Under it runs Wood, which the Water feeds, so the day's energy spends itself as it goes.\" feeds: \"Under it runs Metal, which feeds the Water, so the day's energy keeps its strength.\" matches: \"Under it runs more Wood, so the day's energy comes at full strength.\" The reader stays in the next unit's last sentence. If a grow/release-aware tail is wanted, that is an engine change"
+  },
+  {
+   "source": "day-2",
+   "id": "D2-M4",
+   "severity": "MAJOR",
+   "criterion": "C",
+   "pages": "31 of 34 pages flagged `joint \"and you\" ×2–3`",
+   "key": "ENERGY * · day.",
+   "quote": "\"…today, and you pass the test.\" · \"…, and you put both to work.\" · \"…, and you feel it soften as it goes.\" · \"…, and you enjoy the day more than most.\"",
+   "issue": "One clause frame (\"X happens, and you Y\") closes the energy line, the ground line and often the landing, so a page reads as three copies of one sentence. The SOP's compound rule allows a frame once a page",
+   "fix": "Rule: the \", and you\" joint appears at most once a page. With D2-M3 the ground drops it, and the energy b-sentences vary their joint (\"so\", \"which\", a plain second clause, the reader as the subject from the start). Example: \"Words come easily today. You say the thing you have been holding back.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m1",
+   "severity": "MINOR",
+   "criterion": "A1 · A2",
+   "pages": "D069 (戌 month on 未 = punish), D108 (丑 month on 午 = harm)",
+   "key": "TEMPLATED tpl_almanac · echo.month",
+   "quote": "\"You feel the whole month's clash come to a head today, because the month presses on the same gate.\"",
+   "issue": "It says \"clash\" whatever the month's bond is, and it is wrong on both pages here. The cause is also backwards: it is the day that lands on the gate the month already presses",
+   "fix": "\"The pressure the month has put on your work comes to a head today, because the day lands on the same gate.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m2",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D061 (亥 day repeats 亥 Year Gate; 巳 month clashes it)",
+   "key": "TEMPLATED tpl_almanac · echo.year",
+   "quote": "\"…because the day strikes the same gate.\"",
+   "issue": "\"Strikes\" is a clash word, and on D061 the day repeats the gate (三命通会 counts 亥亥 as 自刑). The echo fires on any day bond",
+   "fix": "\"Today the month's strain on your first home comes to a peak, because the day lands on the same gate.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m3",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D088 (丁卯 against 癸酉)",
+   "key": "TEMPLATED tpl_almanac · pillar.turned",
+   "quote": "\"its stem striking yours and its branch clashing your Day Gate\"",
+   "issue": "In 天克地冲 either stem can be the one that strikes. Here the reader's 癸 shapes the day's 丁, so \"its stem striking yours\" is wrong for half the turned days (渊海子平, 反吟)",
+   "fix": "\"Today is your own day turned over, its stem at odds with yours and its branch clashing your Day Gate. Something settled at home is questioned, and you are the one asked to answer for it.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m4",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D092 (丙辰, a Fire day)",
+   "key": "TEMPLATED tpl_almanac · mark.birthday",
+   "quote": "\"You start it on your own day, with your own energy at full strength.\"",
+   "issue": "False. The birthday is rarely the reader's own stem day, and on D092 the page's energy is Fire (Action), not the reader's Water",
+   "fix": "\"Your birthday opens a new year for you today. You carry the last year's lessons into it and choose what to leave behind.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m5",
+   "severity": "MINOR",
+   "criterion": "A1 · A2",
+   "pages": "D105",
+   "key": "TEMPLATED tpl_almanac · mark.gate",
+   "quote": "\"A new gate opens on this birthday…\" · \"A new gate opens in your life today.\"",
+   "issue": "In the Almanac \"gate\" means the four seats (Year, Month, Day, Hour Gate). Using it for a decade marker makes the reader look for which Gate is meant",
+   "fix": "Landing: \"A new ten-year stage of your life opens on this birthday, and a fresh part of you comes into its own. You step into it with the years behind you as support.\" Reminder: \"A new ten-year stage begins today. Read your year.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m6",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D067 (辛亥 day: 亥 repeats the Year Gate 亥)",
+   "key": "TEMPLATED tpl_almanac · land.quiet",
+   "quote": "\"Nothing in the day reaches your gates\"",
+   "issue": "Overclaims. The unit shows whenever no bond scores enough to lead, including days with a weak repeat or half-frame",
+   "fix": "\"No strong pull reaches your gates today, and life runs on its usual track. You have the time and the calm to do things at your own pace.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m7",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D060",
+   "key": "ENERGY action · day.grow.b",
+   "quote": "\"It hands you more to work with than you can use, and you choose well.\"",
+   "issue": "It calls a grown energy surplus (\"more than you can use\") and closes on flattery",
+   "fix": "\"Water brings Action, an energy you already hold and still need. It puts more within reach than usual, and you pick the part worth the effort.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m8",
+   "severity": "MINOR",
+   "criterion": "A1 · A4",
+   "pages": "D053 D077",
+   "key": "ENERGY order · day.grow.b",
+   "quote": "\"Someone checks your work today, and you pass the test.\"",
+   "issue": "It assumes a job and a checker that no gate names, and it guarantees the outcome",
+   "fix": "\"Wood brings Order, adding to a discipline you already keep. A rule or a deadline asks for proof today, and you show the care you usually keep quiet.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m9",
+   "severity": "MINOR",
+   "criterion": "A4 · A5",
+   "pages": "D060 D074 D101",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.day",
+   "quote": "\"You adjust faster than the people around you.\"",
+   "issue": "It ranks the reader against partner and household, and it erases the clash's cost",
+   "fix": "\"A plan at home changes at short notice, with a partner or the people you live with. You lose the evening you had set aside and choose what to keep from it.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m10",
+   "severity": "MINOR",
+   "criterion": "A1 · A5",
+   "pages": "D074",
+   "key": "ENERGY expression · day.even.a",
+   "quote": "\"and nothing you say comes out wrong\"",
+   "issue": "An absolute claim the day cannot know, and flattery",
+   "fix": "\"Water brings Expression, a gentle measure that suits you. You talk and make things at your usual pace today, and you say what you mean without rehearsing it.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m11",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "D084 D116",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.month",
+   "quote": "\"You find a task that had stalled moving again with little push from you.\"",
+   "issue": "A garden path: \"find a task … moving\" has to be read twice",
+   "fix": "\"Work pulls together today, and a colleague who kept apart joins your side. A stalled task starts moving again, and you barely have to push it.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m12",
+   "severity": "MINOR",
+   "criterion": "A1 (D3 within page)",
+   "pages": "D098 (月德 on a heavy-Mind day)",
+   "key": "STAR yuede · day",
+   "quote": "\"You work through it and end the day stronger than you began.\"",
+   "issue": "On D098 it contradicts the energy line on the same page (\"your plans stay on paper today\"). The guaranteed \"stronger\" is also a win close",
+   "fix": "\"Trouble turns into something useful today, and a setback teaches more than it costs. You keep one lesson from it for tomorrow.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m13",
+   "severity": "MINOR",
+   "criterion": "A3 · B",
+   "pages": "D061",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.year",
+   "quote": "\"…and it tells you about yourself.\"",
+   "issue": "Vague. It names no tension the reader could recognise",
+   "fix": "\"An old family story comes up again, told the way it always is. You hear it differently this time, and you notice which part of it is about you.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m14",
+   "severity": "MINOR",
+   "criterion": "A3 · B",
+   "pages": "D093",
+   "key": "TEMPLATED tpl_almanac · mark.month",
+   "quote": "\"A new month opens today, and its energy holds until the next one. You feel the change before you can name it.\"",
+   "issue": "Sentence one is a tautology, and sentence two is the same frame as `mark.year` (\"You feel the turn before you can name it\")",
+   "fix": "\"A new month opens today, and the days ahead take on its element. You notice the change in your pace before you can say why.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m15",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "D088",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.month",
+   "quote": "\"A better process at work over last year's fix\"",
+   "issue": "\"Last year's\" is a time claim a twelve-day bond cannot know",
+   "fix": "\"A better process at work over the old fix\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-m16",
+   "severity": "MINOR",
+   "criterion": "A1 · A4",
+   "pages": "D116",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.hour",
+   "quote": "\"Modern methods for youngsters over the way you were raised\"",
+   "issue": "It assumes the reader raises children (the brief bars an assumed child), and \"the way you were raised\" is first-home ground on the Hour Gate",
+   "fix": "\"Fresh answers for younger people over the answers you were given\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-t1",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "D092",
+   "key": "TEMPLATED tpl_almanac · head.mark.birthday",
+   "quote": "\"you begin another year of age\"",
+   "issue": "A clumsy idiom, and \"year of age\" appears 3 times on the page",
+   "fix": "\"your birthday opens a new year\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-t2",
+   "severity": "TWEAK",
+   "criterion": "A2 · C",
+   "pages": "D092",
+   "key": "PUSH · mark.birthday",
+   "quote": "\"A new year of your age begins today. Read your year.\"",
+   "issue": "The same idiom slip, repeated",
+   "fix": "\"Your birthday opens a new year today. Read your year.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-t3",
+   "severity": "TWEAK",
+   "criterion": "A1",
+   "pages": "D065 (and every punish.day reminder)",
+   "key": "PUSH · punish.day",
+   "quote": "\"Home friction returns this evening. Read your day.\"",
+   "issue": "A timing slip: the landing has it settled \"by evening\", so it cannot return \"this evening\"",
+   "fix": "\"An old friction at home returns today. Read your day.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-t4",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "D057",
+   "key": "PUSH · clash.hour",
+   "quote": "\"A plan for later moves today. Read your day.\"",
+   "issue": "It repeats the headline half word for word (\"plan\" ×5 on the page)",
+   "fix": "\"Something you set for later shifts today. Read your day.\""
+  },
+  {
+   "source": "day-2",
+   "id": "D2-t5",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "D052 D079",
+   "key": "ENERGY body · day.core_over.a",
+   "quote": "\"…and you notice it by evening.\"",
+   "issue": "\"Evening\" repeats in the landing it sits above (punish.day \"by evening\", bind.day \"the evening\")",
+   "fix": "\"{Element} brings more Body, your own energy, when you already run over. You push harder than the day needs, and you feel the strain before night.\""
+  },
+  {
+   "source": "month",
+   "id": "F01",
+   "severity": "MAJOR",
+   "criterion": "A1, A5",
+   "pages": "M002 M008 M013 M018 M021 M030 M031 M036 M063 (9 of 36)",
+   "key": "ENERGY expression · month.heavy",
+   "quote": "\"the energy your chart already has too much of\" (M036, M063); \"more strain on a chart already full of it\" (M018, M021); \"though you already pour out plenty\"; \"though your chart is already crowded with it\"",
+   "issue": "The engine sets `heavy` for **every** released energy whatever its share (`engine/almanac/index.js:153`: `if (s < 0) return 'heavy'`), yet all four lines claim volume. Chart 乙亥 庚辰 己卯 癸酉 has no Fire in a stem, branch or hidden stem, and is told it has too much Fire. The 甲 chart holds Metal only as hidden 辛 and is told it is \"full of\" Metal. Classically (子平真诠, 论用神) the energy is released because of the Day Master's strength: an Underfueled core cannot carry the drain of Expression, Action and Order, and an Overfueled core does not need Mind. Its share is not the reason. mind.heavy also ends in praise (\"you hold your ground well\") for an energy the reader releases.",
+   "fix": "Rule: a `heavy` line names why the reader releases the energy (the strength of the core), never its volume, unless the engine splits `heavy` by share (≥20%). Each of these keys reaches only one condition, so the rewrites can say so: **expression.heavy** \"{El} brings Expression for a whole month, more output than your chart can fund. You start many things and show them early, and your strength runs low by the last week.\" **action.heavy** \"{El} brings Action for a whole month, more than your strength can carry. Tasks spread thin across too many fronts, and you feel stretched by the third week.\" **order.heavy** \"{El} brings Order for a whole month, more pressure than your chart can carry. Rules and demands fill your weeks, and you get through them by keeping your head down.\" **mind.heavy** \"{El} brings Mind for a whole month, more support than your strong chart needs. You think longer and move slower, and you hold on where you should let go.\" Check `ENERGY … day.heavy` for the same claim."
+  },
+  {
+   "source": "month",
+   "id": "F02",
+   "severity": "MAJOR",
+   "criterion": "A1, D4, A5",
+   "pages": "M018 M021 M027 M030 M031 M036 M042 M051 M059 M062 M064 M082 M090 M102 M114 M008 (16 of 36)",
+   "key": "TEMPLATED tpl_almanac · land.month.",
+   "quote": "\"You and the people closest to you come out of it on firmer footing\"; \"by the month's end it has less hold on you\"; \"You reach out first, and the distance closes\"; \"trust returns by the month's end\"; \"the arguments shrink as the weeks pass\"; \"You end the month with fewer duties and a firmer hold\"",
+   "issue": "Every clash, punish and harm resolves in the reader's favour inside the month. That predicts a result the cycle cannot know (the brief: no fate). It turns each friction into a reassurance, the sugarcoat BIZ_04 warns this audience punishes. Classically 冲 shakes, 刑 grinds and 害 wears (三命通会, 论刑冲破害), and none of these carries a resolution. The reader also never meets the friction itself, because the closing promise comes too fast.",
+   "fix": "Rule: a landing's second sentence names what the reader meets or feels during the month, not how it ends. Ban \"by the month's end\", \"closes\", \"returns\", \"shrink\", \"firmer footing\". Examples: **clash.day** \"Your home life is shaken up this month, in the furniture, the plans or the shape of a shared week. You feel the ground move under habits you thought were settled.\" **harm.year** \"A coolness creeps into the family you grew up in this month, from a word taken badly or a call left unreturned. You notice the silence before anyone names it.\" **punish.year** \"A family grievance from years back grinds on through this month, raised at each visit or call. You hear the old lines again and know them by heart.\" Check the Day and Year landings for the same pattern."
+  },
+  {
+   "source": "month",
+   "id": "F03",
+   "severity": "MAJOR",
+   "criterion": "A1",
+   "pages": "M046, M110 (2 of 36; every chart where the month repeats one gate's branch and half-frames another)",
+   "key": "",
+   "quote": "M046: \"The month's Water joins the Water in your Year Gate\" (亥 month, 亥 year); M110: \"The month's Water joins the Water in your Month Gate\" (亥 month, 亥 month gate)",
+   "issue": "The real bond is the 亥卯 half-frame with the **Day Gate's** 卯. `branchBonds` puts every node whose branch belongs to the frame into `gates`, so a gate that holds the same 亥 as the month counts as a frame partner, and the almanac lands on it. A branch cannot frame itself (三命通会, 论三合: three different branches, or two with the 旺 centre). So the reader gets \"your wider family pulls together\" (Year Gate) or \"Work builds speed\" (Month Gate) when the bond sits in home and partner.",
+   "fix": "Code rule: in a frame, leave out any gate whose branch equals the passing branch, and land on a gate holding a different member (here the Day Gate's 卯, giving `land.month.frame.day`). Add a golden case: 1995-04-18 18:00 × 2026-11; 1992-12-05 22:00 × 2026-11."
+  },
+  {
+   "source": "month",
+   "id": "F04",
+   "severity": "MINOR",
+   "criterion": "A1, A2, C",
+   "pages": "presses: M002 M013 M027 M036 M046 M059 M076 M086 M095 M102 M106 M110; drains, feeds, matches: the other 24",
+   "key": "TEMPLATED tpl_almanac · ground.presses",
+   "quote": "\"Under it runs Metal, which the Fire holds down, and you put both to work.\"",
+   "issue": "\"holds down\" replaces the locked relation word \"shapes\". \"you put both to work\" means nothing a reader can check, and it adds a \"work\" to pages already stacking it (7 pages at \"work\" ×3–5). All four ground units close on \", and you …\", which puts the joint \"and you\" twice or more on 30 of 36 pages. The relations themselves are all right: 干克支 spends the stem's force (盖头), 干生支 leaks it, 支生干 roots it.",
+   "fix": "**presses** \"Under it runs {G}, which the {El} shapes, so part of its push is spent before it reaches you.\" **drains** \"Under it runs {G}, which the {El} feeds, so the push reaches you softer week by week.\" **feeds** \"Under it runs {G}, which feeds the {El}, so it stays with you from the first week to the last.\" **matches** \"Under it runs more {El}, so it reaches you at full strength.\""
+  },
+  {
+   "source": "month",
+   "id": "F05",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "M013 M028 M063 M086",
+   "key": "TEMPLATED tpl_almanac · land.quiet",
+   "quote": "\"Nothing in the day reaches your gates, and life runs on its usual track. You have the time and the calm to do things at your own pace.\"",
+   "issue": "On a Month page it says \"the day\". On M013 it promises \"time and the calm\" under an energy line that says \"you feel stretched by the third week\". On M086 the month's 酉 repeats the Day Gate's 酉, a classical 自刑 (scored as `repeat` and below the lead bar, a known structural point), so \"Nothing … reaches your gates\" overstates.",
+   "fix": "\"Nothing pulls hard on your gates this time, and life keeps to its usual track. What you meet comes from the energy alone, and you set your own pace.\""
+  },
+  {
+   "source": "month",
+   "id": "F06",
+   "severity": "TWEAK",
+   "criterion": "A1",
+   "pages": "M086 M110 M114",
+   "key": "ENERGY action · month.need",
+   "quote": "\"the energy you need most\"",
+   "issue": "`need` means only that the share is ≤10%. On the 癸 1995 chart Fire is \"the energy you need most\" in September and Earth is \"the structure your chart is shortest of\" in October, so the two superlatives cannot both be true.",
+   "fix": "\"{El} brings Action for a whole month, an energy your chart runs short of. New openings turn up at work and in trade, and you claim more of them than usual.\""
+  },
+  {
+   "source": "month",
+   "id": "F07",
+   "severity": "TWEAK",
+   "criterion": "A1",
+   "pages": "M090 M106",
+   "key": "ENERGY order · month.need",
+   "quote": "\"the structure your chart is shortest of\"",
+   "issue": "Same superlative slip. M090's chart has no Fire, so Earth is not its shortest energy.",
+   "fix": "\"{El} brings Order for a whole month, a structure your chart runs short of. Deadlines and duties give your weeks a frame, and you get more done inside it.\""
+  },
+  {
+   "source": "month",
+   "id": "F08",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "M058 M073",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.hour",
+   "quote": "\"Long plans come apart and reform this month\"",
+   "issue": "\"reform\" reads as \"improve\". The meaning is \"form again\".",
+   "fix": "\"Long plans come apart and re-form this month, and the young people around you change course. You keep track of what matters and let the rest go.\""
+  },
+  {
+   "source": "month",
+   "id": "F09",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "M008 M013",
+   "key": "TEMPLATED tpl_almanac · head.energy.action.release",
+   "quote": "\"Earth piles work on you, and a work dispute grinds on\"",
+   "issue": "\"work\" twice in one headline. Action is broader than work.",
+   "fix": "\"{El} piles tasks on you\""
+  },
+  {
+   "source": "month",
+   "id": "F10",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "M085 M106",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.month",
+   "quote": "\"You work with steadier support than you had last month.\"",
+   "issue": "\"work\" and \"month\" each twice in two sentences.",
+   "fix": "\"Your place at work settles this month, and an agreement with a colleague or a client holds firm. You go about your tasks with steadier support than before.\""
+  },
+  {
+   "source": "month",
+   "id": "F11",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "M002 M110",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.month",
+   "quote": "\"tasks clicking into line\"",
+   "issue": "Two idioms mixed (\"click into place\", \"fall into line\").",
+   "fix": "\"Work builds speed this month, with new people joining and tasks falling into place. You ride the momentum and finish more than you planned.\""
+  },
+  {
+   "source": "month",
+   "id": "F12",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "M008",
+   "key": "GOD piancai · favours.month.Wealth.heavy",
+   "quote": "\"Tracking every outgoing over generous rounds for all\"",
+   "issue": "\"outgoing\" is not a noun in the singular (British \"outgoings\").",
+   "fix": "\"Tracking where money goes over generous rounds for all\""
+  },
+  {
+   "source": "month",
+   "id": "F13",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "M008",
+   "key": "GOD piancai · favours.month.Social.heavy",
+   "quote": "\"A trusted few contacts over every invitation\"",
+   "issue": "\"a trusted few\" is already a noun phrase, so \"contacts\" breaks it.",
+   "fix": "\"A few trusted contacts over every invitation\""
+  },
+  {
+   "source": "month",
+   "id": "F14",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "M013",
+   "key": "GOD zhengcai · favours.month.Family.heavy",
+   "quote": "\"Sharing the chores over holding every one yourself\"",
+   "issue": "\"holding\" a chore is not idiomatic.",
+   "fix": "\"Sharing the chores over doing them all yourself\""
+  },
+  {
+   "source": "month",
+   "id": "F15",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "M080",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.hour",
+   "quote": "\"a younger one leans closer\"",
+   "issue": "\"a younger one\" is not natural English.",
+   "fix": "\"someone younger leans closer\""
+  },
+  {
+   "source": "month",
+   "id": "F16",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "M046",
+   "key": "GOD bijian · favours.month.Family.heavy",
+   "quote": "\"Asking someone close in over going it alone\"",
+   "issue": "Reads first as \"asking someone close\", then as \"asking … in\".",
+   "fix": "\"Letting someone close help over going it alone\""
+  },
+  {
+   "source": "month",
+   "id": "F17",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "M002 M031",
+   "key": "GOD shangguan · favours.month.Social.heavy",
+   "quote": "\"Listening more than talking over the last word\"",
+   "issue": "A comparison inside a comparison, and \"the last word\" lacks its verb.",
+   "fix": "\"Listening to the end over having the last word\""
+  },
+  {
+   "source": "month",
+   "id": "F18",
+   "severity": "MINOR",
+   "criterion": "A1, A3",
+   "pages": "M018 M080",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.hour",
+   "quote": "Family: \"Time spent training others over a personal task list\"",
+   "issue": "Under Family it reads as a work row. The Hour Gate is the people after you, so the row should point at them.",
+   "fix": "\"Time with the younger ones over your own errands\""
+  },
+  {
+   "source": "month",
+   "id": "F19",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "M042 M102",
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.hour",
+   "quote": "\"Fixing it quietly over raising it\"",
+   "issue": "\"it\" has no referent on either page, because neither shows the harm.hour landing. The row also contradicts the harm.year row (\"An early word with relatives over silent hurt\").",
+   "fix": "\"Quiet time together over a talking-to\""
+  },
+  {
+   "source": "month",
+   "id": "F20",
+   "severity": "MINOR",
+   "criterion": "A4, A1",
+   "pages": "M030",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.month",
+   "quote": "\"You keep your own record straight, and the team notices your calm.\"",
+   "issue": "Assumes a team, and ends on a third party watching the reader. It also forecasts (F02).",
+   "fix": "\"Small slights pile up at work this month, a credit not given or a message left unread. You keep your own record straight and let each one pass without a reply.\""
+  },
+  {
+   "source": "month",
+   "id": "F21",
+   "severity": "MINOR",
+   "criterion": "A2, D4",
+   "pages": "M027 M062",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.year",
+   "quote": "\"a role among siblings or a care that changes hands. You find your place in the new order and hold it.\"",
+   "issue": "\"a care that changes hands\" has to be read twice. The close forecasts (F02).",
+   "fix": "\"Something settled in the family you grew up in shifts this month, a role among siblings or who looks after whom. You feel your old place move and look for the new one.\""
+  },
+  {
+   "source": "month",
+   "id": "F22",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "M083 M095",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.day",
+   "quote": "\"Home ties in closer this month … You come home each evening to something calmer.\"",
+   "issue": "\"ties in closer\" is a broken idiom. \"home\" appears ×3 on the page and \"closer\" echoes the headline (\"home draws you closer\").",
+   "fix": "\"The ties at home tighten this month, and a shared plan with a partner or the people you live with settles. You come back each evening to something calmer.\""
+  },
+  {
+   "source": "month",
+   "id": "F23",
+   "severity": "MINOR",
+   "criterion": "A1, A3",
+   "pages": "M051",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.day",
+   "quote": "\"home asks more of you\"",
+   "issue": "A punish is an old friction that returns (the landing says \"An old sore point at home keeps returning\"), and the headline half loses that.",
+   "fix": "\"an old sore point returns at home\""
+  },
+  {
+   "source": "month",
+   "id": "F24",
+   "severity": "MINOR",
+   "criterion": "B, A5",
+   "pages": "M073",
+   "key": "ENERGY body · month.core_even",
+   "quote": "\"Your energy runs level from the first week to the last, and you rely on it.\"",
+   "issue": "The close is flat and says nothing a reader could check. B 2.",
+   "fix": "\"{El} brings more Body this month, and your balanced chart takes it in calmly. Your energy holds level from the first week to the last, steady enough to lean on when others tire.\""
+  },
+  {
+   "source": "year",
+   "id": "M1",
+   "severity": "MAJOR",
+   "criterion": "A1",
+   "pages": "Y099, Y103 (2 of 14 Year pages; same code serves Day and Month)",
+   "key": "",
+   "quote": "\"The year's Fire joins the Fire in your Year Gate, the seat of your first home.\"",
+   "issue": "For 半合/三合, `engine/almanac/index.js:182` takes `b.gates.find(g => g !== 'now')`, which is the first natal gate holding *any* member of the set. When the natal chart already holds the passing branch (午), it picks that gate. In Y099 (庚午 丙戌 …) the partner is 戌 in the Month Gate. In Y103 (庚午 丁亥 壬寅 …) the partner is 寅 in the Day Gate. \"Fire joins the Fire\" is not a frame. 午 meeting 午 is 自刑 (三命通会 论三刑: 辰午酉亥自刑), which is the house's *repeat*. Result: the landing, the headline (\"your family gathers round\") and the domain weight all go to the wrong gate",
+   "fix": "Rule: a frame lands on the gate whose branch is the **partner**, meaning it is in the 三合 set and is *different* from the passing branch. With several partners, pick the higher-weighted gate. A natal gate holding the same branch as the passing one is read only as repeat/自刑, never as frame. Re-run the Year (and Day/Month) covers after the fix"
+  },
+  {
+   "source": "year",
+   "id": "M2",
+   "severity": "MAJOR",
+   "criterion": "A1, D4",
+   "pages": "U999 (4 units, unreached now; they show the day the repeat score clears 30)",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.day",
+   "quote": "\"You find comfort in them and change one that no longer fits.\" · \"the plan grows sturdier\" · \"each step costs you less\" · \"You play your part with more ease than you used to.\"",
+   "issue": "The engine scores repeat as a test (`KIND.repeat = [20, 1, -1]`, domain turns \"tested\"). Classically 自刑 is self-made trouble (三命通会 论三刑), and the house gloss is \"goes over old ground\". All four lines are pure gain with no cost. On a \"tested\" domain row they would contradict the board. `.hour` also has \"young people ask familiar things\", which is vague and assumes young people",
+   "fix": "Rule for every repeat landing (month here; check the day family too): sentence one names the cost of going over old ground (time lost, an old friction back, a question you thought closed); sentence two gives the reader's own act. Example for `.month`: \"Work runs over familiar ground this month, the same tasks and the same arguments as before. You lose time to questions you thought were closed, and you close them properly this time.\" (31 words)"
+  },
+  {
+   "source": "year",
+   "id": "m1",
+   "severity": "MINOR",
+   "criterion": "A1, D",
+   "pages": "Y037, Y107, Y109",
+   "key": "TEMPLATED tpl_almanac · land.quiet",
+   "quote": "\"Nothing in the day reaches your gates, and life runs on its usual track. You have the time and the calm to do things at your own pace.\"",
+   "issue": "(1) \"in the day\" is wrong on Month and Year pages, and the unit is horizon-shared. (2) \"Nothing … reaches\" is false whenever a bond scores under 30: on Y107 the passing 午 self-punishes the Month, Day and Hour Gates (repeat, score 20). (3) \"time and the calm\" contradicts heavy-state energy lines on the same page (Y107: \"more to manage than hours to manage it\"). (4) \"runs\" collides with `ground.matches` \"Under it runs\"",
+   "fix": "\"No strong bond reaches your gates this time, and life keeps to its usual track. The energy above is the whole story, so you meet it on your own terms.\" (29 words, 2 sentences)"
+  },
+  {
+   "source": "year",
+   "id": "m2",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "Y003",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.month",
+   "quote": "\"a remark at work lands badly\"",
+   "issue": "The headline half is shared by Day, Month and Year. On a Year page it shrinks a year-long 丑午害 on the work gate to one remark, and it does not match the year landing (\"Something at work sours quietly\")",
+   "fix": "\"something at work quietly sours\""
+  },
+  {
+   "source": "year",
+   "id": "m3",
+   "severity": "MINOR",
+   "criterion": "A4, D4",
+   "pages": "Y112, Y118",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.hour",
+   "quote": "\"someone younger feels overlooked\"",
+   "issue": "It states another person's feeling as fact and casts the reader as the one who overlooked them (BIZ_04: no third party as the reader's victim). The landing beneath says only that they \"pull back\"",
+   "fix": "\"someone younger pulls away\""
+  },
+  {
+   "source": "year",
+   "id": "m4",
+   "severity": "MINOR",
+   "criterion": "A3, B",
+   "pages": "Y037",
+   "key": "TEMPLATED tpl_almanac · head.energy.mind.release",
+   "quote": "\"Fire weighs on you\"",
+   "issue": "Word for word the code's draft fallback (`{el} weighs on you`), and it repeats the lift chip on the same sub-line (\"Weighs on you\"). It says nothing about Mind. The other release halves name the function (\"draws on your reserves\", \"piles work on you\")",
+   "fix": "\"{el} keeps you in your head\""
+  },
+  {
+   "source": "year",
+   "id": "m5",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "U999 (reached on a decade-start birthday)",
+   "key": "TEMPLATED tpl_almanac · mark.decade",
+   "quote": "\"A new cycle of luck begins this year … You feel the season of your life change its direction.\"",
+   "issue": "\"change its direction\" is a broken idiom. \"new\" repeats the headline half (\"a long new chapter starts\"), and \"begins\" and \"change\" restate each other",
+   "fix": "\"Your next cycle of luck begins this year and runs ten years from this birthday. You step into a different season of your life.\" (24 words)"
+  },
+  {
+   "source": "year",
+   "id": "t1",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "all 14 Year pages (and every Day/Month page where the ground matches)",
+   "key": "TEMPLATED tpl_almanac · ground.matches",
+   "quote": "\"Under it runs more {g}, and you feel it at full strength.\"",
+   "issue": "It is the second or third \", and you\" on every page, because the energy line above always ends on \", and you …\"",
+   "fix": "Under it runs more {g}, so you feel it at full strength."
+  },
+  {
+   "source": "year",
+   "id": "t2",
+   "severity": "TWEAK",
+   "criterion": "A2 (house form)",
+   "pages": "U999",
+   "key": "ENERGY body · year.core_even",
+   "quote": "\"{el} brings more Body for a whole year\"",
+   "issue": "The opener must be \"{Element} brings <Function>\". \"more\" breaks it",
+   "fix": "{el} brings Body for a whole year, a steady flow of your own energy. It neither crowds nor empties you, and you keep a sure stride from spring to winter."
+  },
+  {
+   "source": "year",
+   "id": "t3",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "U999",
+   "key": "ENERGY action · year.even",
+   "quote": "\"No great leap and no great loss arrives\"",
+   "issue": "A compound subject with a singular verb, which reads as a slip",
+   "fix": "{el} brings Action for a whole year, a steady current through your working life. Neither a great leap nor a great loss arrives, and you build at an even rate."
+  },
+  {
+   "source": "year",
+   "id": "t4",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "U999",
+   "key": "ENERGY expression · year.even",
+   "quote": "\"for a whole year … stays your own all year\"",
+   "issue": "\"year\" twice in one unit",
+   "fix": "{el} brings Expression for a whole year, at a level your chart holds without strain. Your voice stays your own, and you share as much as you mean to."
+  },
+  {
+   "source": "year",
+   "id": "t5",
+   "severity": "TWEAK",
+   "criterion": "A2, C",
+   "pages": "U999",
+   "key": "STAR wenchang · day",
+   "quote": "\"Words and study come easily today … at first reading\"",
+   "issue": "The idiom is \"on first reading\". \"study\" and \"easily\" repeat its own headline half (\"study comes easily\")",
+   "fix": "Words flow today, and a page or a lesson makes sense on first reading. Your mind stays clear and quick."
+  },
+  {
+   "source": "year",
+   "id": "t6",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "U999",
+   "key": "STAR hongluan · day",
+   "quote": "\"Warmth runs through the day\"",
+   "issue": "\"Warmth\" repeats its headline half (\"love warms up\"), and \"runs\" repeats the ground line",
+   "fix": "Affection fills the day, and tenderness comes easily with someone you care for. You feel loved and show it freely."
+  },
+  {
+   "source": "year",
+   "id": "t7",
+   "severity": "TWEAK",
+   "criterion": "A1 (house: no assumed role)",
+   "pages": "U999",
+   "key": "PUSH · frame.hour",
+   "quote": "\"People you train rally behind you.\"",
+   "issue": "It assumes the reader trains people (the Hour Gate names only \"the people after you\"). It is also the only frame push without \"today\"",
+   "fix": "Younger people rally behind you today. Read your day."
+  },
+  {
+   "source": "year",
+   "id": "t8",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "U999",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.year",
+   "quote": "\"A family gathering\\",
+   "issue": "private visits\"",
+   "fix": "\"private visits\" is unclear (private from whom?). The intended contrast is group versus one-to-one"
+  },
+  {
+   "source": "year",
+   "id": "LC1",
+   "severity": "MAJOR",
+   "criterion": "",
+   "pages": "9 pages",
+   "key": "ENERGY * · year.",
+   "quote": "—",
+   "issue": "7 of 13 year energy lines break the 16–32 word cap: expression.heavy 40, order.heavy 41, action.heavy 38, mind.heavy 36, body.core_over 35, action.grow 35, mind.need 33. All four heavy lines run long because of a \"through X and Y\" remedy tail, which is also advice outside the favours pairs (ruling D1 B)",
+   "fix": "Hold to 32 words. Make the heavy close a result the reader lives, not a means (\"…and you end the year harder to bend\" is the model)"
+  },
+  {
+   "source": "year",
+   "id": "LC2",
+   "severity": "MAJOR",
+   "criterion": "",
+   "pages": "11 pages",
+   "key": "",
+   "quote": "\"You leave a role or a team you have outgrown this year, by your own choice or by theirs.\"",
+   "issue": "Every year landing is one sentence. The house limit is two sentences of 16–38 words. Either the owner rules that a one-sentence year landing is allowed, or all 24 get a second sentence",
+   "fix": "Owner ruling, then a rebuild if needed"
+  },
+  {
+   "source": "year",
+   "id": "LC3",
+   "severity": "MINOR",
+   "criterion": "",
+   "pages": "Y003",
+   "key": "ENERGY expression · year.heavy",
+   "quote": "\"you keep your footing through a fixed routine and someone who holds you to your word\"",
+   "issue": "The cure is Order (官). For an Underfueled reader Order is released, and Expression meeting Order is the classic 伤官见官 (子平真诠 论伤官). The classical cure for excess Expression on a weak chart is Mind (伤官佩印)",
+   "fix": "\"{el} brings Expression for a whole year, the voice your chart already overflows with. Words come out sharper than you mean, so you slow them with study and an hour alone.\" (30)"
+  },
+  {
+   "source": "year",
+   "id": "LC4",
+   "severity": "MINOR",
+   "criterion": "",
+   "pages": "Y078",
+   "key": "ENERGY body · year.core_over",
+   "quote": "\"the force your chart already runs over with. Competition with peers runs hot, and you come through it by sharing the load\"",
+   "issue": "\"runs\" twice in one unit (three times on the page). \"sharing the load\" with peers adds Body, which an Overfueled reader releases",
+   "fix": "\"{el} brings Body for a whole year, the force your chart already runs over with. Rivalry with peers heats up, and you come through by putting the surplus into work you can show.\" (32)"
+  },
+  {
+   "source": "year",
+   "id": "LC5",
+   "severity": "TWEAK",
+   "criterion": "",
+   "pages": "Y087, Y112",
+   "key": "ENERGY action · year.need",
+   "quote": "\"more than you have in years\"",
+   "issue": "Tense slip",
+   "fix": "…and you get your hands on more than you have had in years. (The line is still filler, B 2)"
+  },
+  {
+   "source": "year",
+   "id": "LC6",
+   "severity": "TWEAK",
+   "criterion": "",
+   "pages": "Y103",
+   "key": "ENERGY action · year.grow",
+   "quote": "\"Effort pays back promptly\"",
+   "issue": "Broken idiom, and the unit is 35 words",
+   "fix": "\"{el} brings Action for a whole year, the reach your chart holds and still wants. Effort pays off quickly, and you finish the year with more to show for your work.\" (31)"
+  },
+  {
+   "source": "year",
+   "id": "LC7",
+   "severity": "MINOR",
+   "criterion": "",
+   "pages": "Y087, Y117",
+   "key": "",
+   "quote": "\"by your own choice or by theirs\"",
+   "issue": "It forecasts leaving a job, possibly being let go: an outcome the reading cannot know (D4: no fate)",
+   "fix": "\"Your place at work shifts this year, and a role or team you have outgrown stops fitting. You decide what you keep and what you leave behind.\""
+  },
+  {
+   "source": "year",
+   "id": "LC8",
+   "severity": "MINOR",
+   "criterion": "",
+   "pages": "Y003",
+   "key": "",
+   "quote": "\"a colleague or an arrangement that stops serving you\"",
+   "issue": "A colleague who \"serves\" the reader is odd and instrumental, and it uses \"that\" for a person",
+   "fix": "\"Something at work sours quietly this year, a working tie or an arrangement that stops fitting you. You see it before anyone says it.\""
+  },
+  {
+   "source": "year",
+   "id": "LC9",
+   "severity": "MINOR",
+   "criterion": "",
+   "pages": "Y111",
+   "key": "",
+   "quote": "\"this year, a parent changes address or an older relative changes course, and you adjust\"",
+   "issue": "A comma splice (an independent clause used as an appositive), and it names a parent outright",
+   "fix": "\"Something shifts in the family you came from this year, a move or a change of course for an older relative. You adjust quickly and keep your own footing.\""
+  },
+  {
+   "source": "year",
+   "id": "LC10",
+   "severity": "TWEAK",
+   "criterion": "",
+   "pages": "Y117",
+   "key": "ENERGY mind · year.need",
+   "quote": "\"you learn more in these months than in several years before\"",
+   "issue": "Awkward, and 33 words",
+   "fix": "\"{el} brings Mind for a whole year, the energy you need most. Help and good teachers find their way to you, and you learn more than in the years before.\" (31)"
+  }
+ ],
+ "scores": [
+  {
+   "source": "day-1",
+   "page": "D001",
+   "B": 3,
+   "row": [
+    "D001",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Accurate harm day; the landing turns a \"wears thin\" bond into \"the warmth between you stays\""
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D004",
+   "B": 3,
+   "row": [
+    "D004",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Clean clash; headline \"old\" misfits a sudden clash; no favours rows at all"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D005",
+   "B": 3,
+   "row": [
+    "D005",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "Correct quiet day, pleasant and generic"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D006",
+   "B": 3,
+   "row": [
+    "D006",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "The echo calls a punish month a \"clash\" and reverses its own logic; \"feel\" ×3"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D007",
+   "B": 3,
+   "row": [
+    "D007",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "Good punish landing; it still ends on the reader winning"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D009",
+   "B": 3,
+   "row": [
+    "D009",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "Yima day reads well, light"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D010",
+   "B": 3,
+   "row": [
+    "D010",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Bind headline \"pulls at you\" reads as strain; \"you put both to work\" is unclear"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D011",
+   "B": 3,
+   "row": [
+    "D011",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "4",
+    "\"work\" ×4 across headline, landing, favours and reminder"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D012",
+   "B": 2,
+   "row": [
+    "D012",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "3",
+    "Void unexplained; \"you notice it first\" is vague; no favours"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D014",
+   "B": 3,
+   "row": [
+    "D014",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Clash day; \"You adjust faster than the people around you\" flatters"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D015",
+   "B": 3,
+   "row": [
+    "D015",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "4",
+    "\"work\" ×4; the reminder repeats the headline half word for word"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D016",
+   "B": 4,
+   "row": [
+    "D016",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Strong energy line; Family favour \"Quiet company over a full house\" fights \"your family gathers round\""
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D017",
+   "B": 3,
+   "row": [
+    "D017",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Sound frame day, safe"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D019",
+   "B": 3,
+   "row": [
+    "D019",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "\"repeats the day you were born on\" reads as a birthday; the reminder breaks the format"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D020",
+   "B": 3,
+   "row": [
+    "D020",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "The echo says \"strikes\" on a punish day"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D022",
+   "B": 3,
+   "row": [
+    "D022",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Bind landing \"reaches you … with an old habit\" is a broken image"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D023",
+   "B": 3,
+   "row": [
+    "D023",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Family favour \"the familiar lecture\" is a charge"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D025",
+   "B": 3,
+   "row": [
+    "D025",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "4",
+    "\"One position over three\" is opaque; \"work\" ×3, \"push\" ×3, \"back\" ×3"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D029",
+   "B": 3,
+   "row": [
+    "D029",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Correct 反吟; \"turned over\" needs the sentence after it to explain it"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D032",
+   "B": 3,
+   "row": [
+    "D032",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Clash day; same flattering close as D014"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D033",
+   "B": 3,
+   "row": [
+    "D033",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The echo adds little; \"today\" ×3; no favours row on a clash day"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D034",
+   "B": 2,
+   "row": [
+    "D034",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "The month-mark line's first clause says nothing"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D035",
+   "B": 3,
+   "row": [
+    "D035",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Correct; \"work\" ×4"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D038",
+   "B": 4,
+   "row": [
+    "D038",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Best page: \"You think a step past where thinking helps\""
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D039",
+   "B": 3,
+   "row": [
+    "D039",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Punish headline \"home asks more of you\" drops the \"returns\""
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D040",
+   "B": 3,
+   "row": [
+    "D040",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "\"you enjoy the day more than most\" is a comparison with no point"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D041",
+   "B": 4,
+   "row": [
+    "D041",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Good named cost; \"on a day you already hold plenty\" should read \"chart\"; \"pulls at\" again"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D043",
+   "B": 3,
+   "row": [
+    "D043",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "A grown Action is called \"more than you can use\"; the headline says \"word\", the landing \"unsaid\""
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D044",
+   "B": 4,
+   "row": [
+    "D044",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Good repeat landing; the echo calls a repeat month \"strain\" that \"strikes\""
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D045",
+   "B": 3,
+   "row": [
+    "D045",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "Quiet day, honest heavy line"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D047",
+   "B": 3,
+   "row": [
+    "D047",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Grow line calls the energy a surplus; the helping Wealth favour advises caution"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D048",
+   "B": 3,
+   "row": [
+    "D048",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Tianyi line assumes \"an older colleague\"; no favours"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D049",
+   "B": 3,
+   "row": [
+    "D049",
+    "4",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "Good clash.hour landing; \"plan\" ×3"
+   ]
+  },
+  {
+   "source": "day-1",
+   "page": "D050",
+   "B": 3,
+   "row": [
+    "D050",
+    "4",
+    "4",
+    "2",
+    "4",
+    "3",
+    "3",
+    "2",
+    "4",
+    "\"work\" ×5; \"you pass the test\""
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D052",
+   "B": 3,
+   "row": [
+    "D052",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Correct punish read. The ground says \"put both to work\" about a released Body, and \"evening\" appears twice"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D053",
+   "B": 3,
+   "row": [
+    "D053",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "The frame landing is warm. The energy line hands the reader a passed test"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D054",
+   "B": 3,
+   "row": [
+    "D054",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "Clean bind page. \"You answer more warmly than you planned\" is the best beat"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D057",
+   "B": 3,
+   "row": [
+    "D057",
+    "4",
+    "5",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "4",
+    "Good clash landing. \"Plan\" appears 5 times, and the reminder repeats the headline"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D060",
+   "B": 2,
+   "row": [
+    "D060",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "4",
+    "The grown Action is \"more than you can use\". The reader wins against \"the people around you\""
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D061",
+   "B": 3,
+   "row": [
+    "D061",
+    "3",
+    "5",
+    "3",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "The echo says \"strikes\" on a repeat day. The repeat landing ends vague"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D065",
+   "B": 3,
+   "row": [
+    "D065",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Accurate. The punish landing closes on a win, and the reminder's timing contradicts it"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D066",
+   "B": 2,
+   "row": [
+    "D066",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "4",
+    "4",
+    "天德 correct (辰 month, 壬 day). \"Sleep well tonight\" is horoscope filler"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D067",
+   "B": 2,
+   "row": [
+    "D067",
+    "3",
+    "5",
+    "3",
+    "4",
+    "3",
+    "2",
+    "4",
+    "4",
+    "The quiet line says nothing reaches the gates, but 亥 repeats the Year Gate 亥"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D069",
+   "B": 3,
+   "row": [
+    "D069",
+    "3",
+    "5",
+    "4",
+    "4",
+    "4",
+    "3",
+    "2",
+    "4",
+    "\"Fewer words than you expected\" is strong. The echo calls a punish month a \"clash\", and \"work\" appears 5 times"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D070",
+   "B": 2,
+   "row": [
+    "D070",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "Accurate frame. Every line is pleasant and none is specific"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D071",
+   "B": 3,
+   "row": [
+    "D071",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "Accurate. The even line \"deal with each before the next\" is plain and fair"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D072",
+   "B": 2,
+   "row": [
+    "D072",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "4",
+    "4",
+    "咸池 correct. The star and energy lines are generic"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D074",
+   "B": 2,
+   "row": [
+    "D074",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "4",
+    "\"Nothing you say comes out wrong\" overclaims. The clash landing ranks the reader against others"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D077",
+   "B": 3,
+   "row": [
+    "D077",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "2",
+    "4",
+    "\"Test\" appears 4 times (energy, landing, headline, reminder). \"Hold the line without raising your voice\" is good"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D079",
+   "B": 3,
+   "row": [
+    "D079",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Accurate bind. \"Evening\" appears twice in consecutive units"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D081",
+   "B": 2,
+   "row": [
+    "D081",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "Accurate 卯戌 bind. \"Follow it with ease\" and \"feel sure of it\" both flatter"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D084",
+   "B": 2,
+   "row": [
+    "D084",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "4",
+    "4",
+    "Accurate. The bind.month close is a garden path"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D088",
+   "B": 3,
+   "row": [
+    "D088",
+    "2",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "The turned line gets the strike direction wrong for 丁卯 vs 癸. \"Lacks most\" contradicts D091 and D094"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D089",
+   "B": 3,
+   "row": [
+    "D089",
+    "4",
+    "5",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "The harm landing (\"a tone a partner reads differently\") is recognisable"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D091",
+   "B": 2,
+   "row": [
+    "D091",
+    "2",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "4",
+    "4",
+    "\"The energy your chart is shortest of\" (Earth) contradicts the same reader's Fire \"lacks most\""
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D092",
+   "B": 2,
+   "row": [
+    "D092",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "2",
+    "2",
+    "4",
+    "The birthday line claims \"your own energy at full strength\" on a Fire day. \"Year of age\" is clumsy and appears 3 times"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D093",
+   "B": 2,
+   "row": [
+    "D093",
+    "3",
+    "5",
+    "2",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "The month mark says nothing. \"Least of\" is a superlative the unit cannot know"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D094",
+   "B": 2,
+   "row": [
+    "D094",
+    "2",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "4",
+    "4",
+    "\"The energy you need most\" (Earth) is the third different \"most\" for this reader"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D096",
+   "B": 3,
+   "row": [
+    "D096",
+    "3",
+    "5",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "The repeat.day landing is among the best units. The need superlative repeats"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D097",
+   "B": 2,
+   "row": [
+    "D097",
+    "3",
+    "5",
+    "3",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "立春 correct. The mark.year line is filler, and \"need most\" appears again"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D098",
+   "B": 3,
+   "row": [
+    "D098",
+    "3",
+    "5",
+    "4",
+    "4",
+    "4",
+    "3",
+    "5",
+    "4",
+    "heavy.b is excellent, but the 月德 star contradicts it (\"plans stay on paper\" vs \"work through it, end stronger\")"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D100",
+   "B": 2,
+   "row": [
+    "D100",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "4",
+    "4",
+    "Accurate 子午 clash. \"Take the change in your stride\" is a stock phrase"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D101",
+   "B": 2,
+   "row": [
+    "D101",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "4",
+    "\"Lack most\" again. The clash.day close ranks the reader against others"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D105",
+   "B": 2,
+   "row": [
+    "D105",
+    "3",
+    "4",
+    "3",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "The mark.gate's \"gate\" collides with the four Gates. \"Lacks most\" again"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D108",
+   "B": 3,
+   "row": [
+    "D108",
+    "3",
+    "5",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "heavy.a is strong. The echo calls a 丑午 harm month a \"clash\""
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D113",
+   "B": 3,
+   "row": [
+    "D113",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "Accurate 午丑 harm on both Hour and Month. The landing assumes \"a young person you guide\""
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D115",
+   "B": 3,
+   "row": [
+    "D115",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "Accurate 酉酉 repeat. Clean but expected"
+   ]
+  },
+  {
+   "source": "day-2",
+   "page": "D116",
+   "B": 3,
+   "row": [
+    "D116",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "Accurate 午未 bind. The bind.month garden path recurs, and the favours pair assumes parenting"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M002",
+   "B": 3,
+   "row": [
+    "M002",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Logic right; Family favours row answers a 酉戌 harm the page never names; \"work\" ×3"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M008",
+   "B": 3,
+   "row": [
+    "M008",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "\"work\" ×5, twice in the headline; two broken favours phrases"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M013",
+   "B": 2,
+   "row": [
+    "M013",
+    "3",
+    "3",
+    "3",
+    "4",
+    "2",
+    "2",
+    "3",
+    "2",
+    "Quiet line says \"the day\" on a Month page and promises calm under \"stretched by the third week\""
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M018",
+   "B": 3,
+   "row": [
+    "M018",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"a chart already full of\" Metal that holds Metal only hidden; clash resolves on \"firmer footing\""
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M021",
+   "B": 4,
+   "row": [
+    "M021",
+    "3",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Best page: the grievance \"raised at each visit or call\" is named exactly; heavy line overclaims volume"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M024",
+   "B": 3,
+   "row": [
+    "M024",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Sound; frame landing ends on a group outcome"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M026",
+   "B": 3,
+   "row": [
+    "M026",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "Bind landing fits the Year Gate well; \"feel\" ×3"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M027",
+   "B": 3,
+   "row": [
+    "M027",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"a care that changes hands\" reads twice"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M028",
+   "B": 2,
+   "row": [
+    "M028",
+    "3",
+    "3",
+    "4",
+    "4",
+    "2",
+    "2",
+    "3",
+    "2",
+    "Quiet \"day\" line on a Month page; nothing to keep"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M030",
+   "B": 3,
+   "row": [
+    "M030",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "\"the team notices your calm\" puts an assumed team in the reader's place"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M031",
+   "B": 3,
+   "row": [
+    "M031",
+    "3",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Five favours rows, two from bonds the page never names"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M036",
+   "B": 2,
+   "row": [
+    "M036",
+    "2",
+    "4",
+    "4",
+    "4",
+    "2",
+    "2",
+    "3",
+    "3",
+    "Told Fire is \"the energy your chart already has too much of\" on a chart with no Fire; released Mind praised"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M042",
+   "B": 3,
+   "row": [
+    "M042",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Strong energy line; \"Fixing it quietly over raising it\" has no referent; \"and you\" ×3"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M046",
+   "B": 3,
+   "row": [
+    "M046",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Engine lands a 亥卯 frame on the Year Gate's own 亥; \"Asking someone close in\" misparses"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M051",
+   "B": 3,
+   "row": [
+    "M051",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Headline \"home asks more of you\" loses the punish (returning friction)"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M055",
+   "B": 3,
+   "row": [
+    "M055",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "Clean and accurate; frame landing gentle and fitting"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M056",
+   "B": 3,
+   "row": [
+    "M056",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Accurate; bind landing reused verbatim from M026"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M058",
+   "B": 3,
+   "row": [
+    "M058",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"come apart and reform\" reads as \"reform\""
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M059",
+   "B": 3,
+   "row": [
+    "M059",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "Accurate; harm landing ends on a forecast"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M062",
+   "B": 3,
+   "row": [
+    "M062",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "\"a care that changes hands\" again"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M063",
+   "B": 2,
+   "row": [
+    "M063",
+    "2",
+    "3",
+    "4",
+    "4",
+    "2",
+    "2",
+    "3",
+    "2",
+    "Same no-Fire chart told it has too much Fire; quiet \"day\" line"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M064",
+   "B": 3,
+   "row": [
+    "M064",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Harm landing \"You reach out first, and the distance closes\" forecasts"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M073",
+   "B": 2,
+   "row": [
+    "M073",
+    "4",
+    "3",
+    "4",
+    "4",
+    "2",
+    "2",
+    "3",
+    "3",
+    "Balanced energy line bland (\"and you rely on it\"); \"reform\""
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M075",
+   "B": 2,
+   "row": [
+    "M075",
+    "4",
+    "4",
+    "4",
+    "4",
+    "2",
+    "2",
+    "3",
+    "3",
+    "Even Expression line says nothing a reader could check"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M076",
+   "B": 3,
+   "row": [
+    "M076",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Accurate; \"work\" ×3 via the ground line"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M080",
+   "B": 3,
+   "row": [
+    "M080",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"a younger one leans closer\"; Family row about \"training others\""
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M082",
+   "B": 3,
+   "row": [
+    "M082",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"pushes against your rules\" assumes authority over someone younger"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M083",
+   "B": 3,
+   "row": [
+    "M083",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Home ties in closer\"; \"home\" ×3, \"closer\" in headline and landing"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M085",
+   "B": 3,
+   "row": [
+    "M085",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "\"work\" ×4, \"month\" ×3"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M086",
+   "B": 2,
+   "row": [
+    "M086",
+    "3",
+    "3",
+    "4",
+    "4",
+    "2",
+    "2",
+    "3",
+    "2",
+    "\"the energy you need most\" (superlative not true); quiet line while the month's 酉 repeats the Day Gate"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M090",
+   "B": 3,
+   "row": [
+    "M090",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Earth \"the structure your chart is shortest of\" one month after Fire was \"need most\" on the same chart"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M095",
+   "B": 3,
+   "row": [
+    "M095",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Home ties in closer\"; \"home\" ×3"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M102",
+   "B": 3,
+   "row": [
+    "M102",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "\"Fixing it quietly over raising it\"; \"month\" ×4, \"and you\" ×3"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M106",
+   "B": 3,
+   "row": [
+    "M106",
+    "3",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Superlative need line; \"work\" ×4, \"month\" ×3"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M110",
+   "B": 2,
+   "row": [
+    "M110",
+    "2",
+    "4",
+    "3",
+    "4",
+    "3",
+    "2",
+    "2",
+    "3",
+    "Engine lands a 亥卯 frame on the Month Gate's own 亥; \"work\" ×4"
+   ]
+  },
+  {
+   "source": "month",
+   "page": "M114",
+   "B": 3,
+   "row": [
+    "M114",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Superlative need line; harm landing ends \"trust returns by the month's end\""
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y003",
+   "B": 3,
+   "row": [
+    "Y003 · 甲 Underfueled · Expression ↓ · harm/month",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The energy line's cure is Order, which this reader releases (伤官见官). The headline shrinks a year of harm to one remark"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y037",
+   "B": 3,
+   "row": [
+    "Y037 · 己 Overfueled · Mind ↓ · quiet",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Plans stay on paper\" lands. The quiet line says \"in the day\" on a Year page, and the headline repeats the lift chip"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y068",
+   "B": 3,
+   "row": [
+    "Y068 · 庚 Balanced · Order ↑ · clash/day",
+    "4",
+    "5",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "Clean and correct (子午冲 on the Day Gate). \"the one others count on\" is earned"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y078",
+   "B": 3,
+   "row": [
+    "Y078 · 丁 Overfueled · Body ↓ · frame/month",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The cure \"sharing the load\" adds Body, which this reader releases. \"run\" ×3"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y087",
+   "B": 2,
+   "row": [
+    "Y087 · 癸 Overfueled · Action ↑ · clash/month",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "3",
+    "\"Offers and money come within reach\" is horoscope filler. The landing forecasts losing a job (\"by theirs\")"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y099",
+   "B": 3,
+   "row": [
+    "Y099 · 丙 Underfueled · Body ↑ · frame/year",
+    "2",
+    "5",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Engine says \"Fire joins the Fire in your Year Gate\". The frame partner 戌 sits in the Month Gate"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y103",
+   "B": 2,
+   "row": [
+    "Y103 · 壬 Overfueled · Action ↑ · frame/year",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "2",
+    "3",
+    "Same engine fault (partner 寅 is in the Day Gate). \"pays back promptly\", 35-word energy line"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y104",
+   "B": 4,
+   "row": [
+    "Y104 · 庚 Overfueled · Order ↑ · clash/day",
+    "4",
+    "5",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The best page. \"harder to bend\" is Pattern-level"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y107",
+   "B": 3,
+   "row": [
+    "Y107 · 壬 Underfueled · Action ↓ · quiet",
+    "2",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "2",
+    "Quiet says \"nothing reaches your gates\" while 午 self-punishes three gates. \"time and calm\" contradicts \"more to manage than hours\""
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y109",
+   "B": 3,
+   "row": [
+    "Y109 · 乙 Overfueled · Expression ↑ · quiet",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Sound. The quiet line's \"in the day\" is wrong on a Year page"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y111",
+   "B": 3,
+   "row": [
+    "Y111 · 庚 Underfueled · Order ↓ · clash/year",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The cure is classical (杀印相生). The energy line has 41 words, and the landing is a comma splice that names a parent"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y112",
+   "B": 3,
+   "row": [
+    "Y112 · 癸 Overfueled · Action ↑ · harm/hour",
+    "4",
+    "3",
+    "4",
+    "3",
+    "4",
+    "3",
+    "2",
+    "3",
+    "\"notice the distance before it hardens\" is strong. \"than you have in years\" is a slip. The headline casts the reader as the neglecter"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y117",
+   "B": 3,
+   "row": [
+    "Y117 · 戊 Underfueled · Mind ↑ · clash/month",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Correct (印 for a weak Earth). \"in several years before\" is awkward. The landing forecasts losing a job"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "Y118",
+   "B": 3,
+   "row": [
+    "Y118 · 甲 Overfueled · Expression ↑ · harm/hour",
+    "4",
+    "5",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "4",
+    "Coherent and warm. The headline casts blame"
+   ]
+  },
+  {
+   "source": "year",
+   "page": "U999",
+   "B": 2,
+   "row": [
+    "U999 · 44 unreached units, raw",
+    "3",
+    "3",
+    "3",
+    "4",
+    "2",
+    "2",
+    "1*",
+    "3",
+    "The repeat landings read as gain on a bond the engine scores as a test. The even lines describe nothing happening"
+   ]
+  }
+ ]
+}

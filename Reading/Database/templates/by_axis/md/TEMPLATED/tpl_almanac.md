@@ -25,18 +25,18 @@
 | `units.ENERGY action · day.heavy.b` | {el} brings Action, more effort and reach than your chart can use. Every gain costs more than it returns, and you end the day tired of chasing. |
 | `units.ENERGY action · day.need.a` | {el} brings Action, the energy your chart lacks most. A chance to earn or to reach further appears today, and you have the strength to take it. |
 | `units.ENERGY action · day.need.b` | {el} brings Action, the reach you are usually short of. Effort pays back quickly today, and you see results before evening. |
-| `units.ENERGY action · month.even` | {el} brings Action this month, at a level your chart neither craves nor resents. Work and income run on their usual track, and you keep them there with ease. |
+| `units.ENERGY action · month.even` | {el} brings Action this month, at a level your chart neither craves nor resents. Work and income hold their usual pace, and you keep them there with ease. |
 | `units.ENERGY action · month.grow` | {el} brings Action this month, adding fuel to work you already do well. Money and effort move in step, and you widen what you manage. |
 | `units.ENERGY action · month.heavy` | {el} brings Action for a whole month, though your chart is already crowded with it. Work spreads thin across too many fronts, and you feel stretched by the third week. |
 | `units.ENERGY action · month.need` | {el} brings Action for a whole month, the energy you need most. New openings turn up at work and in trade, and you claim more of them than usual. |
-| `units.ENERGY action · year.even` | {el} brings Action for a whole year, a steady current through your working life. No great leap and no great loss arrives, and you build at an even rate. |
+| `units.ENERGY action · year.even` | {el} brings Action for a whole year, a steady current through your working life. Neither a great leap nor a great loss arrives, and you build at an even rate. |
 | `units.ENERGY action · year.grow` | {el} brings Action for a whole year, growing a reach you already have. Each season adds a fresh field to work in, and you harvest more than you sow. |
 | `units.ENERGY action · year.heavy` | {el} brings Action for a whole year, more of a load you already carry. Chances pull at you from every side, and you learn which ones to let pass. |
 | `units.ENERGY action · year.need` | {el} brings Action for a whole year, filling the gap your chart has always had. Your reach stretches into new places, and you build something you can hold. |
 | `units.ENERGY body · day.core_even.a` | {el} brings more Body, your own energy, on a day you stand in balance. It adds a steady push without tipping you, and you keep an even pace until night. |
 | `units.ENERGY body · day.core_even.b` | {el} brings more Body, a measure of your own strength that fits you well. Nothing pulls you off centre today, and your effort matches each task you meet. |
 | `units.ENERGY body · day.core_over.a` | {el} brings more Body, your own energy, when you already run over. You push harder than the day needs, and you notice it by evening. |
-| `units.ENERGY body · day.core_over.b` | {el} brings more Body, the energy you are made of, on a day you already hold plenty. You take on more than your share, and the people near you feel the weight. |
+| `units.ENERGY body · day.core_over.b` | {el} brings more Body, the energy you are made of, when your chart already holds plenty. You take on more than your share, and the people near you feel the weight. |
 | `units.ENERGY body · day.core_under.a` | {el} brings more Body, a fresh supply of your own strength when your chart runs thin. Your stamina returns in steps, and you stand firmer by the afternoon. |
 | `units.ENERGY body · day.core_under.b` | {el} brings more Body, the energy your chart runs low on. Tired limbs and a tired will both fill up today, and you hold your own in every exchange. |
 | `units.ENERGY body · month.core_even` | {el} brings more Body this month, and your balanced chart takes it in calmly. Your energy runs level from the first week to the last, and you rely on it. |
@@ -45,7 +45,7 @@
 | `units.ENERGY body · year.core_even` | {el} brings more Body for a whole year, a steady flow of your own energy. It neither crowds nor empties you, and you keep a sure stride from spring to winter. |
 | `units.ENERGY body · year.core_over` | {el} brings more Body for a whole year, more of the strength you already carry in excess. Others give way to you often, and you learn where your force stops helping. |
 | `units.ENERGY body · year.core_under` | {el} brings more Body for a whole year, the energy your chart has least of. Your footing grows solid as the seasons turn, and you end the year standing on your own. |
-| `units.ENERGY expression · day.even.a` | {el} brings Expression, a gentle measure that suits you. You speak and make at your normal pace, and nothing you say comes out wrong. |
+| `units.ENERGY expression · day.even.a` | {el} brings Expression, a gentle measure that suits you. You speak and make at your normal pace, and your words come out as you mean them. |
 | `units.ENERGY expression · day.even.b` | {el} brings Expression, in an amount that neither lifts you nor tires you. Talk flows at an easy level today, and you enjoy it without effort. |
 | `units.ENERGY expression · day.grow.a` | {el} brings Expression, adding to a gift you already use. Your hands or your words work fast today, and you finish something worth showing. |
 | `units.ENERGY expression · day.grow.b` | {el} brings Expression, more of an outlet that already serves you. A joke lands or a sketch comes right, and you enjoy the day more than most. |
@@ -57,7 +57,7 @@
 | `units.ENERGY expression · month.grow` | {el} brings Expression this month, feeding a talent you already have. Work you share draws warm replies, and you make more than you planned. |
 | `units.ENERGY expression · month.heavy` | {el} brings Expression for a whole month, though you already pour out plenty. You start many things and show them early, and your strength runs low by the last week. |
 | `units.ENERGY expression · month.need` | {el} brings Expression for a whole month, the outlet your chart is short of. Ideas leave your head and reach the page, and you enjoy showing them. |
-| `units.ENERGY expression · year.even` | {el} brings Expression for a whole year, at a level your chart holds without strain. Your voice stays your own all year, and you share as much as you mean to. |
+| `units.ENERGY expression · year.even` | {el} brings Expression for a whole year, at a level your chart holds without strain. Your voice stays your own, and you share as much as you mean to. |
 | `units.ENERGY expression · year.grow` | {el} brings Expression for a whole year, building on how well you already speak and make. Your craft grows sharper with use, and you become known for it. |
 | `units.ENERGY expression · year.heavy` | {el} brings Expression for a whole year, swelling an outlet that already runs wide. Pleasure and talk fill your calendar, and you learn to keep some of yourself back. |
 | `units.ENERGY expression · year.need` | {el} brings Expression for a whole year, the energy you need most for giving out. Your voice grows bolder through the seasons, and people start to quote you. |
@@ -99,7 +99,7 @@
 | `units.GOD bijian · favours.day.Growth.helping` | A self-made plan\|a borrowed one |
 | `units.GOD bijian · favours.day.Social.heavy` | One close friend\|a busy party |
 | `units.GOD bijian · favours.day.Social.helping` | Old friends\|new faces |
-| `units.GOD bijian · favours.month.Family.heavy` | Asking someone close in\|going it alone |
+| `units.GOD bijian · favours.month.Family.heavy` | Letting someone close help\|going it alone |
 | `units.GOD bijian · favours.month.Family.helping` | Carrying your own load\|waiting for a hand |
 | `units.GOD bijian · favours.month.Growth.heavy` | A study partner\|pushing on unaided |
 | `units.GOD bijian · favours.month.Growth.helping` | A path you set yourself\|a course everyone takes |
@@ -125,9 +125,9 @@
 | `units.GOD piancai · favours.day.Wealth.helping` | A careful look\|a quick yes |
 | `units.GOD piancai · favours.month.Family.heavy` | Time given freely\|presents bought to please |
 | `units.GOD piancai · favours.month.Family.helping` | Gifts to relatives\|strict household budgets |
-| `units.GOD piancai · favours.month.Social.heavy` | A trusted few contacts\|every invitation |
+| `units.GOD piancai · favours.month.Social.heavy` | A few trusted contacts\|every invitation |
 | `units.GOD piancai · favours.month.Social.helping` | Meeting friends of friends\|the usual crowd |
-| `units.GOD piancai · favours.month.Wealth.heavy` | Tracking every outgoing\|generous rounds for all |
+| `units.GOD piancai · favours.month.Wealth.heavy` | Tracking where money goes\|generous rounds for all |
 | `units.GOD piancai · favours.month.Wealth.helping` | Side projects with reach\|one income stream |
 | `units.GOD pianyin · favours.day.Career.heavy` | A simple checklist\|endless rethinking |
 | `units.GOD pianyin · favours.day.Career.helping` | A desk to yourself\|an open office |
@@ -163,7 +163,7 @@
 | `units.GOD shangguan · favours.month.Career.helping` | Pitching an idea of yours\|the agreed script |
 | `units.GOD shangguan · favours.month.Mind.heavy` | Writing it down first\|arguing it out |
 | `units.GOD shangguan · favours.month.Mind.helping` | Questioning the standard answer\|following the textbook |
-| `units.GOD shangguan · favours.month.Social.heavy` | Listening more than talking\|the last word |
+| `units.GOD shangguan · favours.month.Social.heavy` | Listening to the end\|having the last word |
 | `units.GOD shangguan · favours.month.Social.helping` | Speaking up in a group\|the back row |
 | `units.GOD shishen · favours.day.Career.heavy` | Plain work done well\|a polished show |
 | `units.GOD shishen · favours.day.Career.helping` | Making something by hand\|another meeting |
@@ -185,7 +185,7 @@
 | `units.GOD zhengcai · favours.day.Wealth.helping` | Regular saving\|a lucky chance |
 | `units.GOD zhengcai · favours.month.Career.heavy` | The basics done well\|taking on extra |
 | `units.GOD zhengcai · favours.month.Career.helping` | Steady routine work\|a flashy side pitch |
-| `units.GOD zhengcai · favours.month.Family.heavy` | Sharing the chores\|holding every one yourself |
+| `units.GOD zhengcai · favours.month.Family.heavy` | Sharing the chores\|doing them all yourself |
 | `units.GOD zhengcai · favours.month.Family.helping` | Running the household well\|leaving it to others |
 | `units.GOD zhengcai · favours.month.Wealth.heavy` | Bills paid on time\|new spending plans |
 | `units.GOD zhengcai · favours.month.Wealth.helping` | Saving a set amount\|a gamble on a tip |
@@ -222,39 +222,39 @@
 | `units.PUSH · clash.month` | Work pushes back today. Read your day. |
 | `units.PUSH · clash.year` | Something in your first home shifts today. Read your day. |
 | `units.PUSH · frame.day` | Home life picks up speed today. Read your day. |
-| `units.PUSH · frame.hour` | People you train rally behind you. Read your day. |
-| `units.PUSH · frame.month` | Momentum builds at work today. Read your day. |
+| `units.PUSH · frame.hour` | Younger people rally behind you today. Read your day. |
+| `units.PUSH · frame.month` | People line up behind a task you care about today. Read your day. |
 | `units.PUSH · frame.year` | Relatives gather around you today. Read your day. |
 | `units.PUSH · harm.day` | Something small at home goes unsaid. Read your day. |
 | `units.PUSH · harm.hour` | A younger person takes something to heart. Read your day. |
 | `units.PUSH · harm.month` | A colleague misreads you today. Read your day. |
 | `units.PUSH · harm.year` | A family remark lands wrong today. Read your day. |
-| `units.PUSH · mark.birthday` | A new year of your age begins today. Read your year. |
-| `units.PUSH · mark.decade` | A new ten-year cycle begins today. Read your year. |
+| `units.PUSH · mark.birthday` | Your birthday opens a new year today. Read your year. |
+| `units.PUSH · mark.decade` | A new decade of your life begins today. Read your year. |
 | `units.PUSH · mark.gate` | A new gate opens in your life today. Read your year. |
 | `units.PUSH · mark.month` | The month changes today. Read your month. |
 | `units.PUSH · mark.year` | The new year opens today. Read your year. |
-| `units.PUSH · punish.day` | Home friction returns this evening. Read your day. |
-| `units.PUSH · punish.hour` | Those you look after test you again. Read your day. |
-| `units.PUSH · punish.month` | Friction at work grinds again today. Read your day. |
-| `units.PUSH · punish.year` | That same family argument resurfaces today. Read your day. |
+| `units.PUSH · punish.day` | An old friction at home returns today. Read your day. |
+| `units.PUSH · punish.hour` | An old sticking point with someone younger returns. Read your day. |
+| `units.PUSH · punish.month` | The same complaint at work returns today. Read your day. |
+| `units.PUSH · punish.year` | An old family argument resurfaces today. Read your day. |
 | `units.PUSH · repeat.day` | A familiar talk at home returns. Read your day. |
 | `units.PUSH · repeat.hour` | An old promise to someone younger resurfaces. Read your day. |
 | `units.PUSH · repeat.month` | A finished task at work reopens. Read your day. |
 | `units.PUSH · repeat.year` | Family history comes up again today. Read your day. |
 | `units.PUSH · return` | Your own day comes round again. Read what comes back. |
 | `units.PUSH · turned` | Something settled at home gets questioned today. Read your day. |
-| `units.STAR hongluan · day` | Warmth runs through the day, and tenderness comes easily with someone you care for. You feel loved and show it freely. |
+| `units.STAR hongluan · day` | Affection fills the day, and tenderness comes easily with someone you care for. You feel loved and show it freely. |
 | `units.STAR taohua · day` | Attraction runs high today, and people notice you more than usual. You draw warmth from glances and easy talk. |
 | `units.STAR tiande · day` | Trouble passes lightly today, and a tense moment softens before it grows. You keep your energy and sleep well tonight. |
 | `units.STAR tianyi · day` | Help comes from someone with standing, an older colleague or a person who owes you nothing. You accept it without having to ask twice. |
-| `units.STAR wenchang · day` | Words and study come easily today, and a page or a lesson makes sense at first reading. Your mind stays clear and quick. |
+| `units.STAR wenchang · day` | Words flow today, and a page or a lesson makes sense on first reading. Your mind stays clear and quick. |
 | `units.STAR yima · day` | The day moves you, with travel, an errand across town or a change of place. You cover more ground than you planned and enjoy the motion. |
 | `units.STAR yuede · day` | Effort turns trouble into gain today, and a setback gives you something useful. You work through it and end the day stronger than you began. |
 | `units.TEMPLATED tpl_almanac · echo.day` | Pressure at home that has built all month peaks today, because the day lands on the same gate and you feel both at once. |
 | `units.TEMPLATED tpl_almanac · echo.hour` | The month's pull on your plans for later and the young people around you sharpens today, as the day presses the same gate. |
 | `units.TEMPLATED tpl_almanac · echo.month` | You feel the whole month's clash come to a head today, because the month presses on the same gate. |
-| `units.TEMPLATED tpl_almanac · echo.year` | Today the month's strain on your first home comes to a peak, because the day strikes the same gate. |
+| `units.TEMPLATED tpl_almanac · echo.year` | Today the month's strain on your first home comes to a peak, because the day meets the same gate. |
 | `units.TEMPLATED tpl_almanac · favours_land.bind.day` | Settling in together\|keeping options open |
 | `units.TEMPLATED tpl_almanac · favours_land.bind.hour` | Time spent training others\|a personal task list |
 | `units.TEMPLATED tpl_almanac · favours_land.bind.month` | Closer ties with the team\|working apart |
@@ -286,7 +286,7 @@
 | `units.TEMPLATED tpl_almanac · ground.resists` | Under it runs {g}, which pushes back against the {e}, and you feel the two pull apart. |
 | `units.TEMPLATED tpl_almanac · head.energy.action.even` | {el} gives you a fair load |
 | `units.TEMPLATED tpl_almanac · head.energy.action.grow` | {el} widens your reach |
-| `units.TEMPLATED tpl_almanac · head.energy.action.release` | {el} piles work on you |
+| `units.TEMPLATED tpl_almanac · head.energy.action.release` | {el} piles tasks on you |
 | `units.TEMPLATED tpl_almanac · head.energy.body.even` | {el} keeps you level |
 | `units.TEMPLATED tpl_almanac · head.energy.body.grow` | {el} steadies you |
 | `units.TEMPLATED tpl_almanac · head.energy.body.release` | {el} crowds you |
@@ -298,15 +298,15 @@
 | `units.TEMPLATED tpl_almanac · head.energy.mind.release` | {el} weighs on you |
 | `units.TEMPLATED tpl_almanac · head.energy.order.even` | {el} keeps you on time |
 | `units.TEMPLATED tpl_almanac · head.energy.order.grow` | {el} sharpens you |
-| `units.TEMPLATED tpl_almanac · head.energy.order.release` | {el} leans on you |
+| `units.TEMPLATED tpl_almanac · head.energy.order.release` | {el} presses on you |
 | `units.TEMPLATED tpl_almanac · head.land.bind.day` | home draws you closer |
-| `units.TEMPLATED tpl_almanac · head.land.bind.hour` | a younger one leans closer |
+| `units.TEMPLATED tpl_almanac · head.land.bind.hour` | someone younger leans closer |
 | `units.TEMPLATED tpl_almanac · head.land.bind.month` | a deal at work settles |
 | `units.TEMPLATED tpl_almanac · head.land.bind.year` | your first home pulls at you |
 | `units.TEMPLATED tpl_almanac · head.land.clash.day` | home shifts |
 | `units.TEMPLATED tpl_almanac · head.land.clash.hour` | a plan for later moves |
 | `units.TEMPLATED tpl_almanac · head.land.clash.month` | work pushes back |
-| `units.TEMPLATED tpl_almanac · head.land.clash.year` | an old family plan comes loose |
+| `units.TEMPLATED tpl_almanac · head.land.clash.year` | a family plan comes loose |
 | `units.TEMPLATED tpl_almanac · head.land.frame.day` | home comes to a decision |
 | `units.TEMPLATED tpl_almanac · head.land.frame.hour` | plans for later gain strength |
 | `units.TEMPLATED tpl_almanac · head.land.frame.month` | work gathers pace |
@@ -320,10 +320,10 @@
 | `units.TEMPLATED tpl_almanac · head.land.punish.month` | a work dispute grinds on |
 | `units.TEMPLATED tpl_almanac · head.land.punish.year` | a family quarrel returns |
 | `units.TEMPLATED tpl_almanac · head.land.repeat.day` | home replays an old scene |
-| `units.TEMPLATED tpl_almanac · head.land.repeat.hour` | you revisit a promise to someone younger |
+| `units.TEMPLATED tpl_almanac · head.land.repeat.hour` | an old plan for later returns |
 | `units.TEMPLATED tpl_almanac · head.land.repeat.month` | work goes over old ground |
 | `units.TEMPLATED tpl_almanac · head.land.repeat.year` | old family stories come back |
-| `units.TEMPLATED tpl_almanac · head.mark.birthday` | you begin another year of age |
+| `units.TEMPLATED tpl_almanac · head.mark.birthday` | your birthday opens a new year |
 | `units.TEMPLATED tpl_almanac · head.mark.decade` | a long new chapter starts |
 | `units.TEMPLATED tpl_almanac · head.mark.gate` | a new stage of life opens |
 | `units.TEMPLATED tpl_almanac · head.mark.month` | a new month begins |
@@ -340,7 +340,7 @@
 | `units.TEMPLATED tpl_almanac · head.void` | the day runs light |
 | `units.TEMPLATED tpl_almanac · land.day.bind.day` | Home draws you in, and a small plan with a partner settles easily. You spend the evening closer than usual. |
 | `units.TEMPLATED tpl_almanac · land.day.bind.hour` | Someone younger leans on you, asking for help or simply wanting your company. A plan for later falls into place, and you feel sure of it. |
-| `units.TEMPLATED tpl_almanac · land.day.bind.month` | Work pulls together today, and a colleague who kept apart joins your side. You find a task that had stalled moving again with little push from you. |
+| `units.TEMPLATED tpl_almanac · land.day.bind.month` | Work pulls together today, and a colleague who kept apart joins your side. A task that had stalled starts moving again, and you barely have to push it. |
 | `units.TEMPLATED tpl_almanac · land.day.bind.year` | Someone from the home you grew up in reaches you, with a call or a message or an old habit. You answer more warmly than you planned. |
 | `units.TEMPLATED tpl_almanac · land.day.clash.day` | A plan at home changes at short notice, with a partner or the people you live with. You adjust faster than the people around you. |
 | `units.TEMPLATED tpl_almanac · land.day.clash.hour` | A plan for later gets pushed back, a promise to someone younger or a date you set. You keep the plan and let the date move. |
@@ -350,8 +350,8 @@
 | `units.TEMPLATED tpl_almanac · land.day.frame.hour` | Younger people gather round your ideas, and a long plan picks up speed. You see the first real shape of something you set going a while back. |
 | `units.TEMPLATED tpl_almanac · land.day.frame.month` | Momentum builds at work, and people line up behind a task you care about. You lead it further today than you thought you would. |
 | `units.TEMPLATED tpl_almanac · land.day.frame.year` | Relatives from your first home gather round, in person or by message, and old ties feel strong again. You find yourself at the centre of it. |
-| `units.TEMPLATED tpl_almanac · land.day.harm.day` | A small thing at home goes unsaid, a look or a tone a partner reads differently from how you meant it. You catch the moment and put it right before bed. |
-| `units.TEMPLATED tpl_almanac · land.day.harm.hour` | A young person you guide feels overlooked, or a plan for later loses a little of its shine. You spot the quiet change and give it your attention. |
+| `units.TEMPLATED tpl_almanac · land.day.harm.day` | A small thing at home is misread, a look or a tone a partner takes differently from how you meant it. You catch the moment and put it right before bed. |
+| `units.TEMPLATED tpl_almanac · land.day.harm.hour` | A young person you guide feels passed over, or a plan for later loses a little of its shine. You spot the quiet change and give it your attention. |
 | `units.TEMPLATED tpl_almanac · land.day.harm.month` | A colleague takes a word of yours the wrong way, and the air at work cools a little. You notice it early and clear it up with one plain sentence. |
 | `units.TEMPLATED tpl_almanac · land.day.harm.year` | A remark from an older relative lands wrong, though nobody meant it unkindly. You let it pass, and the warmth between you stays. |
 | `units.TEMPLATED tpl_almanac · land.day.punish.day` | An old argument at home comes back, or a chore that never stays done. You settle it by evening, on your own terms. |
@@ -361,27 +361,27 @@
 | `units.TEMPLATED tpl_almanac · land.day.repeat.day` | Home repeats an old pattern, the same talk over dinner or the same small habit. You see it plainly today and choose which part to keep. |
 | `units.TEMPLATED tpl_almanac · land.day.repeat.hour` | An old plan for later returns to the table in nearly its first form, or a young person asks the same question twice. You give a clearer answer than you did before. |
 | `units.TEMPLATED tpl_almanac · land.day.repeat.month` | Work brings back a task you thought was finished, or a meeting that covers familiar points. You get through it faster because you know the way. |
-| `units.TEMPLATED tpl_almanac · land.day.repeat.year` | An old family story comes up again, told the way it always is. You hear something new in it this time, and it tells you about yourself. |
+| `units.TEMPLATED tpl_almanac · land.day.repeat.year` | A story from your family's past is told again, the way it always is. You hear something new in it this time, and it tells you about yourself. |
 | `units.TEMPLATED tpl_almanac · land.month.bind.day` | Home ties in closer this month, and a shared plan with a partner or the people you live with settles. You come home each evening to something calmer. |
 | `units.TEMPLATED tpl_almanac · land.month.bind.hour` | Bonds with the people after you deepen this month, a child, a younger relative or someone you train. You see your care for them returned in small ways. |
-| `units.TEMPLATED tpl_almanac · land.month.bind.month` | Your place at work settles this month, and an agreement with a colleague or a client holds firm. You work with steadier support than you had last month. |
+| `units.TEMPLATED tpl_almanac · land.month.bind.month` | Your place at work settles this month, and an agreement with a colleague or a client holds firm. You go about your tasks with steadier support than before. |
 | `units.TEMPLATED tpl_almanac · land.month.bind.year` | The family you grew up in draws you back this month, through visits, old recipes or a shared decision. You feel more at ease with them than you have in a long while. |
 | `units.TEMPLATED tpl_almanac · land.month.clash.day` | Your home life is shaken up this month, in the furniture, the plans or the shape of a shared week. You and the people closest to you come out of it on firmer footing. |
-| `units.TEMPLATED tpl_almanac · land.month.clash.hour` | Long plans come apart and reform this month, and the young people around you change course. You keep track of what matters and let the rest go. |
+| `units.TEMPLATED tpl_almanac · land.month.clash.hour` | Long plans come apart and re-form this month, and the young people around you change course. You keep track of what matters and let the rest go. |
 | `units.TEMPLATED tpl_almanac · land.month.clash.month` | A role or a routine you settled comes loose this month, and you rebuild it in a different shape. You end the month with fewer duties and a firmer hold on the ones you keep. |
 | `units.TEMPLATED tpl_almanac · land.month.clash.year` | Something settled in the family you grew up in shifts this month, a role among siblings or a care that changes hands. You find your place in the new order and hold it. |
 | `units.TEMPLATED tpl_almanac · land.month.frame.day` | Life at home gains strength this month, with a partner or the people you live with backing the same plan. You feel the house working with you, week by week. |
 | `units.TEMPLATED tpl_almanac · land.month.frame.hour` | Plans for later gather support this month, and young people around you bring fresh energy to them. You watch a long project gain its first real weight. |
-| `units.TEMPLATED tpl_almanac · land.month.frame.month` | Work builds speed this month, with new people joining and tasks clicking into line. You ride the momentum and finish more than you planned. |
+| `units.TEMPLATED tpl_almanac · land.month.frame.month` | Work builds speed this month, with new people joining and tasks falling into place. You ride the momentum and finish more than you planned. |
 | `units.TEMPLATED tpl_almanac · land.month.frame.year` | Your wider family pulls together this month around an event or a shared need. You add your strength to theirs, and the whole group stands taller for it. |
 | `units.TEMPLATED tpl_almanac · land.month.harm.day` | Little misreadings gather at home this month, with a partner or the people you live with. You talk things through early each week, and nothing grows larger than it is. |
 | `units.TEMPLATED tpl_almanac · land.month.harm.hour` | This month a quiet gap opens between you and someone you teach or look after. You close it with time rather than words, and trust returns by the month's end. |
-| `units.TEMPLATED tpl_almanac · land.month.harm.month` | Small slights pile up at work this month, a credit not given or a message left unread. You keep your own record straight, and the team notices your calm. |
+| `units.TEMPLATED tpl_almanac · land.month.harm.month` | Small slights pile up at work this month, a credit not given or a message left unread. You keep your own record straight and stay calm through each one. |
 | `units.TEMPLATED tpl_almanac · land.month.harm.year` | A coolness creeps into the family you grew up in this month, from a word taken badly or a call left unreturned. You reach out first, and the distance closes. |
 | `units.TEMPLATED tpl_almanac · land.month.punish.day` | An old sore point at home keeps returning this month, usually over who does what. You stay steady through each round, and the arguments shrink as the weeks pass. |
 | `units.TEMPLATED tpl_almanac · land.month.punish.hour` | A long plan keeps catching on the same problem this month, and someone younger pushes against your rules. Your patience wears the problem down over the weeks. |
-| `units.TEMPLATED tpl_almanac · land.month.punish.month` | The same friction at work wears on all month, a process that jams or a rule nobody likes. You learn its pattern and work around it with less effort each week. |
-| `units.TEMPLATED tpl_almanac · land.month.punish.year` | A family grievance from years back grinds on through this month, raised at each visit or call. You stop feeding it, and by the month's end it has less hold on you. |
+| `units.TEMPLATED tpl_almanac · land.month.punish.month` | The same friction at work keeps coming back all month, a process that jams or a rule nobody likes. You learn its pattern and work around it with less effort each week. |
+| `units.TEMPLATED tpl_almanac · land.month.punish.year` | A family grievance from years back stays alive through this month, raised at each visit or call. You stop feeding it, and by the month's end it has less hold on you. |
 | `units.TEMPLATED tpl_almanac · land.month.repeat.day` | Home life circles back this month to habits you know well, the same routines and the same small rituals. You find comfort in them and change one that no longer fits. |
 | `units.TEMPLATED tpl_almanac · land.month.repeat.hour` | A plan for later comes round again this month, much as you first drew it, and young people ask familiar things. You answer with experience, and the plan grows sturdier. |
 | `units.TEMPLATED tpl_almanac · land.month.repeat.month` | Work runs over familiar ground this month, with tasks and talks you have met before. You use what you learned last time, and each step costs you less. |

@@ -1,0 +1,226 @@
+{
+ "units": [
+  {
+   "id": "day-1:t1",
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.clash.year",
+   "text": "a family plan comes loose"
+  },
+  {
+   "id": "month:F15",
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.hour",
+   "text": "someone younger leans closer"
+  },
+  {
+   "id": "cross:X14",
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.hour",
+   "text": "an old plan for later returns"
+  },
+  {
+   "id": "day-1:t2",
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.action.release",
+   "text": "{el} piles tasks on you"
+  },
+  {
+   "id": "cross:X45",
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.order.release",
+   "text": "{el} presses on you"
+  },
+  {
+   "id": "day-2:D2-t1",
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.birthday",
+   "text": "your birthday opens a new year"
+  },
+  {
+   "id": "month:F08",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.hour",
+   "text": "Long plans come apart and re-form this month, and the young people around you change course. You keep track of what matters and let the rest go."
+  },
+  {
+   "id": "month:F11",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.month",
+   "text": "Work builds speed this month, with new people joining and tasks falling into place. You ride the momentum and finish more than you planned."
+  },
+  {
+   "id": "cross:X21",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.month",
+   "text": "Work pulls together today, and a colleague who kept apart joins your side. A task that had stalled starts moving again, and you barely have to push it."
+  },
+  {
+   "id": "month:F10",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.month",
+   "text": "Your place at work settles this month, and an agreement with a colleague or a client holds firm. You go about your tasks with steadier support than before."
+  },
+  {
+   "id": "cross:X19",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.hour",
+   "text": "A young person you guide feels passed over, or a plan for later loses a little of its shine. You spot the quiet change and give it your attention."
+  },
+  {
+   "id": "cross:X16",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.month",
+   "text": "The same friction at work keeps coming back all month, a process that jams or a rule nobody likes. You learn its pattern and work around it with less effort each week."
+  },
+  {
+   "id": "cross:X17",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.year",
+   "text": "A family grievance from years back stays alive through this month, raised at each visit or call. You stop feeding it, and by the month's end it has less hold on you."
+  },
+  {
+   "id": "cross:X24",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.year",
+   "text": "A story from your family's past is told again, the way it always is. You hear something new in it this time, and it tells you about yourself."
+  },
+  {
+   "id": "cross:X26",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.month",
+   "text": "Small slights pile up at work this month, a credit not given or a message left unread. You keep your own record straight and stay calm through each one."
+  },
+  {
+   "id": "day-1:t9",
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.day",
+   "text": "A small thing at home is misread, a look or a tone a partner takes differently from how you meant it. You catch the moment and put it right before bed."
+  },
+  {
+   "id": "cross:X05",
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.year",
+   "text": "Today the month's strain on your first home comes to a peak, because the day meets the same gate."
+  },
+  {
+   "id": "cross:X32",
+   "kind": "push",
+   "key": "PUSH · punish.month",
+   "text": "The same complaint at work returns today. Read your day."
+  },
+  {
+   "id": "cross:X33",
+   "kind": "push",
+   "key": "PUSH · punish.hour",
+   "text": "An old sticking point with someone younger returns. Read your day."
+  },
+  {
+   "id": "cross:X34",
+   "kind": "push",
+   "key": "PUSH · punish.year",
+   "text": "An old family argument resurfaces today. Read your day."
+  },
+  {
+   "id": "day-2:D2-t3",
+   "kind": "push",
+   "key": "PUSH · punish.day",
+   "text": "An old friction at home returns today. Read your day."
+  },
+  {
+   "id": "cross:X35",
+   "kind": "push",
+   "key": "PUSH · mark.decade",
+   "text": "A new decade of your life begins today. Read your year."
+  },
+  {
+   "id": "day-2:D2-t2",
+   "kind": "push",
+   "key": "PUSH · mark.birthday",
+   "text": "Your birthday opens a new year today. Read your year."
+  },
+  {
+   "id": "year:t7",
+   "kind": "push",
+   "key": "PUSH · frame.hour",
+   "text": "Younger people rally behind you today. Read your day."
+  },
+  {
+   "id": "cross:X23",
+   "kind": "push",
+   "key": "PUSH · frame.month",
+   "text": "People line up behind a task you care about today. Read your day."
+  },
+  {
+   "id": "day-1:t6",
+   "kind": "energy",
+   "key": "ENERGY body · day.core_over.b",
+   "text": "{el} brings more Body, the energy you are made of, when your chart already holds plenty. You take on more than your share, and the people near you feel the weight."
+  },
+  {
+   "id": "cross:X38",
+   "kind": "energy",
+   "key": "ENERGY expression · day.even.a",
+   "text": "{el} brings Expression, a gentle measure that suits you. You speak and make at your normal pace, and your words come out as you mean them."
+  },
+  {
+   "id": "cross:X43",
+   "kind": "energy",
+   "key": "ENERGY action · month.even",
+   "text": "{el} brings Action this month, at a level your chart neither craves nor resents. Work and income hold their usual pace, and you keep them there with ease."
+  },
+  {
+   "id": "year:t3",
+   "kind": "energy",
+   "key": "ENERGY action · year.even",
+   "text": "{el} brings Action for a whole year, a steady current through your working life. Neither a great leap nor a great loss arrives, and you build at an even rate."
+  },
+  {
+   "id": "year:t4",
+   "kind": "energy",
+   "key": "ENERGY expression · year.even",
+   "text": "{el} brings Expression for a whole year, at a level your chart holds without strain. Your voice stays your own, and you share as much as you mean to."
+  },
+  {
+   "id": "year:t5",
+   "kind": "star",
+   "key": "STAR wenchang · day",
+   "text": "Words flow today, and a page or a lesson makes sense on first reading. Your mind stays clear and quick."
+  },
+  {
+   "id": "year:t6",
+   "kind": "star",
+   "key": "STAR hongluan · day",
+   "text": "Affection fills the day, and tenderness comes easily with someone you care for. You feel loved and show it freely."
+  },
+  {
+   "id": "month:F12",
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Wealth.heavy",
+   "text": "Tracking where money goes|generous rounds for all"
+  },
+  {
+   "id": "month:F13",
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Social.heavy",
+   "text": "A few trusted contacts|every invitation"
+  },
+  {
+   "id": "month:F14",
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Family.heavy",
+   "text": "Sharing the chores|doing them all yourself"
+  },
+  {
+   "id": "month:F16",
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Family.heavy",
+   "text": "Letting someone close help|going it alone"
+  },
+  {
+   "id": "month:F17",
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Social.heavy",
+   "text": "Listening to the end|having the last word"
+  }
+ ]
+}
