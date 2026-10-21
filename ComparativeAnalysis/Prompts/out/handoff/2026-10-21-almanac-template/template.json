@@ -1,0 +1,353 @@
+{
+ "about": "Your Almanac (EVT-1): golden-chart templates of each unit kind, for the owner to read before any batch. Golden chart 1995-04-29 18:00 Beijing (庚, Overfueled). {el}, {g} and {e} are filled by the engine with element names.",
+ "units": [
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.order.grow",
+   "text": "{el} sharpens you",
+   "shows": "20 Oct (Fire), the 2026 year (Fire)"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.action.grow",
+   "text": "{el} widens your reach",
+   "shows": "27 Oct (Wood)"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.mind.release",
+   "text": "{el} weighs on you",
+   "shows": "21 Oct, the Cold Dew month (Earth)"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.body.release",
+   "text": "{el} crowds you",
+   "shows": "23 Oct (Metal)"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.expression.grow",
+   "text": "{el} loosens your tongue",
+   "shows": "25 Oct (Water)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.clash.hour",
+   "text": "a plan for later moves",
+   "shows": "20 Oct"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.clash.month",
+   "text": "work pushes back",
+   "shows": "27 Oct, the Cold Dew month"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.clash.day",
+   "text": "home shifts",
+   "shows": "25 Oct"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.day",
+   "text": "home asks more of you",
+   "shows": "22 Oct"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.year",
+   "text": "your first home pulls at you",
+   "shows": "19 Oct"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.day",
+   "text": "home draws you closer",
+   "shows": "28 Oct, the Start of Winter month"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.frame.day",
+   "text": "home comes to a decision",
+   "shows": "the 2026 year"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.void",
+   "text": "the day runs light",
+   "shows": "23 Oct"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.month",
+   "text": "work goes over old ground",
+   "shows": "21 Oct"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.frame.month",
+   "text": "work gathers pace",
+   "shows": "29 Oct"
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.need.a",
+   "text": "{el} brings Order, the energy your chart is shortest of. It gives your strength a shape, and you finish what you start today.",
+   "shows": "19 Oct, 20 Oct"
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.need.b",
+   "text": "{el} brings Order, the energy you need most. A rule or a deadline lands on you, and you meet it at full strength.",
+   "shows": "29 Oct, 30 Oct"
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.grow.b",
+   "text": "{el} brings Action, an energy you already hold and still need. It hands you more to work with than you can use, and you choose well.",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.heavy.a",
+   "text": "{el} brings Mind, the energy your chart already has too much of. Your thoughts circle, and you get less done than you meant to.",
+   "shows": "21 Oct"
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_over.a",
+   "text": "{el} brings more Body, your own energy, when you already run over. You push harder than the day needs, and you notice it by evening.",
+   "shows": "23 Oct"
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.need.b",
+   "text": "{el} brings Expression, the outlet your chart is short of. Words come easily today, and you say what you have been holding back.",
+   "shows": "25 Oct"
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · month.heavy",
+   "text": "{el} brings Mind for a whole month, the energy your chart already has too much of. You move slower and think longer, and you hold your ground well.",
+   "shows": "the Cold Dew month"
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · year.need",
+   "text": "{el} brings Order for a whole year, the energy you need most. It presses on you from outside, and you end the year harder to bend.",
+   "shows": "the 2026 year"
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.feeds",
+   "text": "Under it runs {g}, which feeds the {e}, and you feel it hold all the way through.",
+   "shows": "20 Oct"
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.drains",
+   "text": "Under it runs {g}, which draws the {e} off, and you feel it soften as it goes.",
+   "shows": "28 Oct"
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.presses",
+   "text": "Under it runs {g}, which the {e} holds down, and you put both to work.",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.resists",
+   "text": "Under it runs {g}, which pushes back against the {e}, and you feel the two pull apart.",
+   "shows": "22 Oct"
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.matches",
+   "text": "Under it runs more {g}, and you feel it at full strength.",
+   "shows": "21 Oct, the Cold Dew month, the 2026 year"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.hour",
+   "text": "A plan for later gets pushed back, a promise to someone younger or a date you set. You keep the plan and let the date move.",
+   "shows": "20 Oct"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.month",
+   "text": "A plan you settled at work comes loose, and someone asks you to defend it. You defend it in fewer words than you expected.",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.day",
+   "text": "A plan at home changes at short notice, with a partner or the people you live with. You adjust faster than the people around you.",
+   "shows": "25 Oct"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.day",
+   "text": "An old argument at home comes back, or a chore that never stays done. You settle it by evening, on your own terms.",
+   "shows": "22 Oct"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.year",
+   "text": "Someone from the home you grew up in reaches you, with a call or a message or an old habit. You answer more warmly than you planned.",
+   "shows": "19 Oct"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.day",
+   "text": "Home draws you in, and a small plan with a partner settles easily. You spend the evening closer than usual.",
+   "shows": "28 Oct"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.month",
+   "text": "A role or a routine you settled comes loose this month, and you rebuild it in a different shape. You end the month with fewer duties and a firmer hold on the ones you keep.",
+   "shows": "the Cold Dew month"
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.month",
+   "text": "You feel the whole month's clash come to a head today, because the month presses on the same gate.",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "pillar",
+   "key": "TEMPLATED tpl_almanac · pillar.return",
+   "text": "Today repeats the day you were born on, as it does six times a year. What you started in the last two months comes back, and you see it more clearly this time.",
+   "shows": "12 Nov"
+  },
+  {
+   "kind": "pillar",
+   "key": "TEMPLATED tpl_almanac · pillar.turned",
+   "text": "Today is your own day turned over, its stem striking yours and its branch clashing your Day Gate. Something settled at home is questioned, and you answer for it calmly.",
+   "shows": "6 Nov"
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.month",
+   "text": "A new month opens today, and its energy holds until the next one. You feel the change before you can name it.",
+   "shows": "7 Nov (Start of Winter)"
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.year",
+   "text": "A new year opens today, and its energy runs until next February. You feel the turn before you can name it.",
+   "shows": "4 Feb 2027"
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.birthday",
+   "text": "Your new year of age begins today. You start it on your own day, with your own energy at full strength.",
+   "shows": "29 Apr 2027"
+  },
+  {
+   "kind": "void",
+   "key": "TEMPLATED tpl_almanac · land.void",
+   "text": "The day falls in your Void. What starts today arrives late or lighter than promised, and you notice it first.",
+   "shows": "23 Oct, 4 Nov"
+  },
+  {
+   "kind": "star",
+   "key": "STAR tianyi · day",
+   "text": "Help comes from someone with standing, an older colleague or a person who owes you nothing. You accept it without having to ask twice.",
+   "shows": "a Nobleman day that leads (the domain line on 24 Oct and 30 Oct)"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Career.helping",
+   "text": "Keeping a promise|starting a new one",
+   "shows": "20 Oct"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Family.helping",
+   "text": "Your word at home|winning a point",
+   "shows": "20 Oct"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Social.helping",
+   "text": "A formal setting|a loose one",
+   "shows": "20 Oct"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Wealth.helping",
+   "text": "A careful look|a quick yes",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Family.helping",
+   "text": "Practical help|talk about it",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Social.helping",
+   "text": "A short reply|a long one",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Career.heavy",
+   "text": "Finishing|starting",
+   "shows": "the Cold Dew month"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Mind.heavy",
+   "text": "Second thoughts|quick decisions",
+   "shows": "the Cold Dew month"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Growth.heavy",
+   "text": "One subject|many",
+   "shows": "the Cold Dew month"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.clash.month",
+   "text": "One position|three",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.hour",
+   "text": "Fixing it quietly|raising it",
+   "shows": "the Cold Dew month"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.clash.hour",
+   "text": "Patience with the young|a fixed date",
+   "shows": "1 Nov"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.hour",
+   "text": "A plan for later moves today. Read your day.",
+   "shows": "20 Oct, under the headline as title"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.month",
+   "text": "Work pushes back today. Read your day.",
+   "shows": "27 Oct"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · return",
+   "text": "Your own day comes round again. Read what comes back.",
+   "shows": "12 Nov"
+  }
+ ]
+}

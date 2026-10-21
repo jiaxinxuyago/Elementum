@@ -193,7 +193,9 @@ export function readPeriod(ctx, period, opts = {}) {
     if (STEM_CLASH[stem] === nd.stem && BRANCH_CLASH[branch] === nd.branch) sigs.push({ key: 'turned', kind: 'turned', score: 92 });
     for (const m of markersOn(ctx, day)) sigs.push({ key: `mark.${m.mark}`, ...m, score: MARK_SCORE[m.mark] });
   }
-  // freshness (S2 A): a signature that led in the last six days scores half; markers always lead
+  // freshness (S2 A): a signature that topped any of the last six days scores half; markers always lead.
+  // "Topped" is read before freshness, so a day's lead never depends on where a list of days starts.
+  const rawTop = sigs.length ? sigs.reduce((a, b) => (b.score > a.score ? b : a)) : null;
   const recent = new Set(opts.recent || []);
   for (const s of sigs) { s.raw = s.score; if (s.kind !== 'mark' && recent.has(s.key)) s.score /= 2; }
   sigs.sort((a, b) => b.score - a.score);
@@ -209,7 +211,7 @@ export function readPeriod(ctx, period, opts = {}) {
   const isVoid = stars.includes('kongwang') && kind === 'day';
   for (const d of DOMAINS) { const r = doms[d]; r.lvl = isVoid ? Math.min(1, r.v ? 1 : 0) : r.v >= 4 ? 3 : r.v >= 2 ? 2 : r.v >= 1 ? 1 : 0; r.dir = r.lvl === 0 ? 'quiet' : r.s > 0 ? 'open' : r.s < 0 ? 'tested' : 'mixed'; }
   return {
-    period, kind, stem, branch, god, pole,
+    period, kind, stem, branch, god, pole, rawTop: rawTop && rawTop.raw >= 30 ? rawTop.key : null,
     energy: { el, gel, fn: ctx.fn[el], fnGround: ctx.fn[gel], sign: ctx.sign[el] || 0, signGround: ctx.sign[gel] || 0, state: energyState(ctx, el), ground: groundRelation(el, gel) },
     mix, lift, bonds, stars, isVoid, sigs, lead, loud, rarity, live, age, domains: doms,
   };
@@ -220,7 +222,7 @@ export function leadsFor(ctx, from, n) {
   const start = typeof from === 'string' ? from : isoDay(from); const out = []; const recent = [];
   for (let i = -6; i < n; i++) {
     const day = addDays(start, i); const r = readPeriod(ctx, periodOf('day', day), { recent: recent.slice(-6) });
-    recent.push(r.lead.key); if (i >= 0) out.push(r);
+    recent.push(r.rawTop); if (i >= 0) out.push(r);
   }
   return out;
 }

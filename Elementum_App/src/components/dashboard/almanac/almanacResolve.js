@@ -43,7 +43,8 @@ function rolesOf(chart) {
 // ── the parts of a reading ────────────────────────────────────────
 function headline(r) {
   const e = r.energy; const s = SIGN_WORD(e.sign);
-  const a = unit(`TEMPLATED tpl_almanac · head.energy.${e.el}.${s}`, `${e.el} ${s === 'grow' ? 'lifts' : s === 'release' ? 'weighs on' : 'steadies'} you`);
+  const a0 = unit(`TEMPLATED tpl_almanac · head.energy.${lc(e.fn)}.${s}`, `{el} ${s === 'grow' ? 'lifts' : s === 'release' ? 'weighs on' : 'steadies'} you`);
+  const a = { ...a0, text: a0.text.replace(/\{el\}/g, e.el) };
   const L = r.lead; let b = null;
   if (L.gate) b = unit(`TEMPLATED tpl_almanac · head.land.${L.kind}.${L.gate}`, `your ${GATES[L.gate]} ${LAND_PHRASE[L.kind]}`);
   else if (L.kind === 'mark') b = unit(`TEMPLATED tpl_almanac · head.mark.${L.mark}`, lc(MARK_HEAD[L.mark]));
@@ -53,9 +54,11 @@ function headline(r) {
   return { text: b ? `${a.text}, and ${b.text}` : a.text, draft: a.draft || !!b?.draft, keys: [a.key, b?.key].filter(Boolean) };
 }
 function energyLine(r, hor) {
-  const e = r.energy; const v = hor === 'day' ? `.${r.period.start.slice(-1) % 2 ? 'a' : 'b'}` : ''; // V1 A: two day variants
+  const e = r.energy; const v = hor === 'day' ? `.${Math.floor(Math.round(atNoon(r.period.start) / 86400000) / 10) % 2 ? 'b' : 'a'}` : ''; // V1 A: two day variants, alternating each time the same stem returns
   const draft = `${e.fn}, an energy you ${e.sign > 0 ? 'grow' : e.sign < 0 ? 'release' : 'hold even'}. ${{ need: 'Your chart is short of it, and this brings it.', grow: 'Your chart holds it already, and more of it helps.', heavy: 'Your chart already holds too much of it.', core_over: 'It is your own element, and you already run over.', core_under: 'It is your own element, and it refills you.', core_even: 'It is your own element.', even: 'It neither lifts nor weighs on you.' }[e.state]}`;
-  return unit(`ENERGY ${lc(e.el)} · ${hor}.${e.state}${v}`, draft);
+  // keyed by the energy's function, so the text holds for every chart in that state; {el} is filled here
+  const u = unit(`ENERGY ${lc(e.fn)} · ${hor}.${e.state}${v}`, draft);
+  return { ...u, text: u.text.replace(/\{el\}/g, e.el) };
 }
 function groundLine(r) {
   const e = r.energy; const u = unit(`TEMPLATED tpl_almanac · ground.${e.ground}`, `Under it runs ${GROUND[e.ground]}.`);

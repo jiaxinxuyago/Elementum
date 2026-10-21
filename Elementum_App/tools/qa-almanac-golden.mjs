@@ -34,7 +34,7 @@ eq('20 Oct domains', A.DOMAINS.map((d) => `${d}${d20.domains[d].lvl}${d20.domain
 const mo = A.readPeriod(ctx, A.periodOf('month', '2026-10-20'), { asOf: '2026-10-20' });
 eq('month lead', `${mo.lead.key} ${mo.loud} ${mo.lift.value}`, 'clash.month 4 -0.9');
 eq('leads', A.leadsFor(ctx, '2026-10-19', 26).map((r) => `${r.period.start.slice(5)}:${r.lead.key}`).join(' '),
-  '10-19:bind.year 10-20:clash.hour 10-21:repeat.month 10-22:punish.day 10-23:void 10-24:quiet.劫财 10-25:clash.day 10-26:bind.month 10-27:clash.month 10-28:bind.day 10-29:frame.month 10-30:star.tianyi 10-31:bind.year 11-01:clash.hour 11-02:repeat.month 11-03:punish.day 11-04:void 11-05:quiet.伤官 11-06:turned 11-07:mark.month 11-08:clash.month 11-09:bind.day 11-10:frame.month 11-11:star.tianyi 11-12:return 11-13:clash.hour');
+  '10-19:bind.year 10-20:clash.hour 10-21:repeat.month 10-22:punish.day 10-23:void 10-24:quiet.劫财 10-25:clash.day 10-26:bind.month 10-27:clash.month 10-28:bind.day 10-29:frame.month 10-30:frame.hour 10-31:bind.year 11-01:clash.hour 11-02:repeat.month 11-03:punish.day 11-04:void 11-05:quiet.伤官 11-06:turned 11-07:mark.month 11-08:clash.month 11-09:bind.day 11-10:frame.month 11-11:frame.hour 11-12:return 11-13:clash.hour');
 eq('push', A.pushSchedule(ctx, '2026-10-19', 35).map((x) => `${x.date.slice(5)}:${x.code}`).join(' '),
   '10-20:Fire:clash.hour 10-25:Water:clash.day 10-27:Wood:clash.month 11-01:Earth:clash.hour 11-06:Wood:turned 11-07:Wood:mark.month 11-12:Metal:return 11-15:Water:clash.year 11-18:Fire:clash.day 11-20:Earth:clash.month');
 
