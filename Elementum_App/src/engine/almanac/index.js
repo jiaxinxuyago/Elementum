@@ -179,7 +179,9 @@ export function readPeriod(ctx, period, opts = {}) {
   const gw = (g) => (g === live ? 1.3 : g === 'day' ? 1.2 : 1);
   // landings
   const bonds = branchBonds(ctx.chart, { hourUnknown: ctx.hourUnknown, extra: { label: 'now', branch } })
-    .map((b) => ({ kind: BOND_KIND[b.type], type: b.type, gate: b.gates.find((g) => g !== 'now'), branches: b.branches }))
+    // a frame lands on the gate holding its partner branch, never on a gate holding the passing branch itself
+    // (that pair is 自刑 or nothing, 三命通会; section audit 2026-10-21, F03 / Y-M1)
+    .map((b) => ({ kind: BOND_KIND[b.type], type: b.type, gate: b.gates.find((g) => g !== 'now' && (!/合$/.test(b.type) || b.type === '六合' || ctx.gates[g]?.branch !== branch)), branches: b.branches }))
     .filter((b) => b.gate && GATE_KEYS.includes(b.gate));
   // the echo: a day hits, hard, the gate the month already hits hard
   let monthHard = new Set();
