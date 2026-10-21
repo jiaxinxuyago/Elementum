@@ -90,7 +90,7 @@ Session "Elementum Life Chapters reading content" (session_01LKbtNcH4nTofFBwRv1H
 
 ### DM-2 · The merged reading ✅ LIVE ON elementum.life (2026-10-21), POLISH NEXT
 **2026-10-21 · everything ported live:** the depth sections, Your Almanac and the merge are on elementum.life (`src/liveFlags.js`). The Life Chapters and Stars samples are piped in (`tools/build-depth-samples.mjs`). Draft tags show on the dev site only.
-The catalogue and the Day Master page are one page, "Your reading" (option 1, 2026-10-18). It is built on dev.elementum.life behind `MERGE_V1 = IS_DEV_TOOLS` (2026-10-20) and contains:
+The catalogue and the Day Master page are one page, "Your reading" (option 1, 2026-10-18). It is live behind `MERGE_V1 = true` (built on dev 2026-10-20, live 2026-10-21) and contains:
 - the first reading's eight cards after the Naming, then the dissolve into the wheel;
 - beats 1–3: the hero with Birth chart and the condition pill, the wheel with arrows by default, the dial, Start here, and what your chart asks for;
 - one energy sheet for every energy tap; its domain chips open the domain reading;
@@ -103,6 +103,17 @@ Open:
 - polish each page;
 - the 14 merged-journey drafts (only the golden chart is written; the other charts fall back);
 - the remaining 29 band paragraphs;
+
+## GO-LIVE — dev-only on purpose; each goes live on elementum.life the day it is done (owner 2026-10-21: "backlog these items and build them into official link until they are completed")
+
+### GO-1 · Almanac reminders ⏳ WAITS ON THE OWNER'S P4 STEPS
+`ALMANAC_PUSH = false` in `src/liveFlags.js`. The code is built (`infra/push.js`, `workers/push`). The Supabase migration and the push keys in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/P4_STEPS.md` need to be run by the owner. When they are done: set `ALMANAC_PUSH = true`, push, and check on elementum.life. Owner session: session_01CtFpHCUsMdTUYosYF5mHoy.
+
+### GO-2 · Energy-sheet illustrations ⏳ ART NOT MADE
+The energy sheet keeps an illustration slot (`art={IS_DEV_TOOLS}` in `JourneyStage.jsx`). Only the dev site shows the placeholder. It needs 25 pair illustrations (5 cores × 5 energies) in the house ink-wash style. The design-director session is to propose them. When the art is in: drop the `IS_DEV_TOOLS` gate, push, and check on elementum.life.
+
+### GO-3 · Test tooling — stays dev-only by design
+The DevBar, the seeding hooks and the draft tags. These are not backlog; they are listed here so nobody ports them.
 
 ## EP — the element-page restructure (owner feedback + rulings ×4, 2026-08-19; REA_03 ELEMENT_PAIR row)
 
