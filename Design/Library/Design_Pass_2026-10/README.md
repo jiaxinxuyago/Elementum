@@ -1,6 +1,6 @@
 # Design Pass, October 2026: library copy
 
-> **Status: RULED 2026-10-21. V5 The Combination is adopted** (R1–R11 A, N1–N4 A). The rulings are logged in DES_15.
+> **Status: SHIPPED 2026-10-21. V5 The Combination is live on elementum.life** (R1–R11 A, N1–N4 A). Switch: `V5_LIVE` in `Elementum_App/src/liveFlags.js`. Locked rules: DES_04 §AM.12. Rulings: DES_15.
 >
 > **Record:** `Design/Documents/DES_15_Design_Pass_2026-10.md`. The rulings get logged there, row by row.
 

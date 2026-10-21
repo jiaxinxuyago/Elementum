@@ -351,88 +351,96 @@ async function scenarioB(browser) {
       else await page.evaluate(() => window.__goto('app-reading')); // recovery-only teleport
       await waitForHash(page, 'app-reading');
     }
-    const back = page.locator('.jscreen[data-screen="element"].active .backrow');
-    if (await back.count()) await back.click();
+    for (const scr of ['element', 'run', 'elsec']) {
+      const back = page.locator(`.jscreen[data-screen="${scr}"].active .backrow`);
+      if (await back.count()) await back.click();
+    }
     await page.waitForSelector('.jscreen[data-screen="catalogue"].active .wheel .node', { timeout: 8000 });
+    // THE MERGE: the energy sheet stays open behind an energy page and is
+    // there on back; close it (its scrim, as a reader would) before the next tap
+    const scrim = page.locator('.mg-sheetwrap .mg-scrim');
+    if (await scrim.count()) { await scrim.click({ position: { x: 20, y: 20 } }); await page.waitForSelector('.mg-sheetwrap', { state: 'detached', timeout: 5000 }); }
   };
 
-  // Real-interaction "open energy" (adapted 2026-08-19, merge-and-retire):
-  // the wheel dot opens the dot card — THE single entry — and its "Open the
-  // full reading" CTA lands on the in-stage element screen, which IS the full
-  // depth home now (the app-energy faces page is retired; hash stays
-  // app-reading throughout). Returns the mechanism equation line for assertions.
-  // The element screen's stable anchor is the mechanism equation line
-  // (.el-mecheq — "Metal feeds Water" / "Metal is your Core"), which always
-  // names the element (EP restructure 2026-08-19).
+  // Real-interaction "open energy" (adapted 2026-10-21, THE MERGE + V5, DES_04
+  // §AM.12): the wheel disk opens the ENERGY SHEET (.mg-sheet, the dot card
+  // retired with the merge); its "Read {El}, your {Function}" button lands on
+  // the in-stage element screen (hash stays app-reading). The stable anchor is
+  // still the mechanism equation line (.el-mecheq), which names the element.
+  const elementFace = () => page.evaluate(() => document.querySelector('.jscreen[data-screen="element"].active .el-mecheq')?.textContent.trim() || '');
   const openEnergyFor = async (el) => {
     await toCatalogue();
     await page.click(`.wheel .node[data-el="${el}"]`);
-    // the CTA is the thumbnail itself (owner 2026-09-04; wp-codex retired)
-    await page.waitForSelector('.wp-sheet.wp-dotcard .wp-thumbcta', { timeout: 5000 });
-    await page.click('.wp-sheet.wp-dotcard .wp-thumbcta');
+    await page.waitForSelector('.mg-sheet .mg-next', { timeout: 5000 });
+    await page.click('.mg-sheet .mg-next');
     await page.waitForFunction(() => {
       const f = document.querySelector('.jscreen[data-screen="element"].active .el-mecheq');
       return f && (f.textContent || '').trim().length > 0;
     }, { timeout: 8000 });
-    return page.evaluate(() => document.querySelector('.jscreen[data-screen="element"].active .el-mecheq').textContent.trim());
+    return elementFace();
   };
 
-  await step(page, 'B', '1 · reveal swipe-up → dissolve → catalogue', async () => {
-    const sc = await page.waitForSelector('.scrollwrap', { timeout: 8000 });
+  await step(page, 'B', '1 · reveal swipe-up → first reading → dissolve → Your reading', async () => {
+    const sc = await page.waitForSelector('.rvl-overlay', { timeout: 8000 });
     const box = await sc.boundingBox();
     const cx = box.x + box.width / 2;
-    // swipe UP from lower third — any >6px pointer move plays the dissolve
-    await page.mouse.move(cx, box.y + box.height * 0.7);
+    await sleep(3000); // let the Naming cascade settle
+    // swipe UP from lower third: past 30% it opens the first reading's cards
+    await page.mouse.move(cx, box.y + box.height * 0.75);
     await page.mouse.down();
-    for (let i = 1; i <= 8; i++) {
-      await page.mouse.move(cx, box.y + box.height * 0.7 - (200 * i) / 8, { steps: 2 });
+    for (let i = 1; i <= 10; i++) {
+      await page.mouse.move(cx, box.y + box.height * 0.75 - (320 * i) / 10, { steps: 2 });
       await sleep(15);
     }
     await page.mouse.up();
-    await waitForHash(page, 'app-reading', 10000); // 1.2s ceremony → handoff
-    const nodes = await page.locator('.wheel .node').count();
+    await page.waitForSelector('.mg-fr', { timeout: 8000 });
+    await page.click('.mg-fr .mg-skip'); // Skip runs the dissolve
+    await waitForHash(page, 'app-reading', 15000);
+    await page.waitForSelector('.jscreen[data-screen="catalogue"].active .wheel .node', { timeout: 8000 });
+    const nodes = await page.locator('.jscreen[data-screen="catalogue"] .wheel .node').count();
     if (nodes !== 5) throw new Error(`catalogue wheel has ${nodes} nodes, expected 5`);
-    return 'dissolve played → catalogue (5 wheel nodes)';
+    return 'Naming → first reading (Skip) → dissolve → Your reading (5 wheel nodes)';
   });
 
-  await step(page, 'B', '2 · tap wheel node → dot card → element reading', async () => {
+  await step(page, 'B', '2 · tap wheel node → energy sheet → energy page', async () => {
     await toCatalogue();
     const el = await page.evaluate(() => document.querySelector('.wheel .node')?.dataset.el);
     if (!el) throw new Error('no wheel node found');
     const face = await openEnergyFor(el);
     const expected = CAP[el] || el;
     if (!face.includes(expected)) throw new Error(`element screen shows "${face}" for node "${el}"`);
-    return `node "${el}" → dot card → "${face}"`;
+    return `node "${el}" → sheet → "${face}"`;
   });
 
-  await step(page, 'B', '3 · cycle all 5 energies (active energy changes)', async () => {
-    // NOTE (adapted 2026-08-19, merge-and-retire): the app-energy faces page
-    // is retired — the per-energy journey is wheel dot → dot card → in-stage
-    // element screen; openEnergyFor's toCatalogue backs out via .backrow.
+  await step(page, 'B', '3 · cycle all 5 energies (V5 pager, sheet fallback)', async () => {
     await toCatalogue();
-    const els = await page.evaluate(() =>
-      [...document.querySelectorAll('.wheel .node')].map((n) => n.dataset.el));
+    const els = await page.evaluate(() => [...document.querySelectorAll('.wheel .node')].map((n) => n.dataset.el));
     if (els.length !== 5) throw new Error(`wheel has ${els.length} nodes, expected 5`);
-    const seen = [];
-    for (const el of els) {
-      const face = await openEnergyFor(el);
-      const expected = CAP[el] || el;
-      if (!face.includes(expected)) throw new Error(`element screen for "${el}" shows "${face}"`);
-      if (seen.includes(face)) throw new Error(`active energy did not change — "${face}" repeated`);
-      seen.push(face);
+    const seen = [await openEnergyFor(els[0])];
+    for (let i = 1; i < 5; i++) {
+      const pager = page.locator('.jscreen[data-screen="element"].active .v5-pager button').nth(1);
+      if (await pager.count()) {
+        const before = seen[seen.length - 1];
+        await pager.click();
+        await page.waitForFunction((b) => {
+          const f = document.querySelector('.jscreen[data-screen="element"].active .el-mecheq');
+          return f && f.textContent.trim() && f.textContent.trim() !== b;
+        }, before, { timeout: 8000 });
+        seen.push(await elementFace());
+      } else {
+        seen.push(await openEnergyFor(els[i]));
+      }
+      if (seen.slice(0, -1).includes(seen[seen.length - 1])) throw new Error(`energy repeated: "${seen[seen.length - 1]}"`);
     }
     return `cycled: ${seen.join(' → ')}`;
   });
 
-  await step(page, 'B', '4 · Day Master hero arrow → full Day Master page → Pillar Chart glyphs', async () => {
+  await step(page, 'B', '4 · Birth chart › → pillar chart glyphs', async () => {
     await toCatalogue();
-    // NOTE (adapted): the in-stage Day Master card this step used to hop
-    // through no longer exists — 092d8a5 wired the hero "Read your Day Master"
-    // arrow STRAIGHT to the app Day Master page (app-daymaster), leaving the
-    // JourneyStage screen='daymaster' sub-screen unreachable. One hop now.
-    await page.click('button[aria-label="Read your Day Master"]');
-    await waitForHash(page, 'app-daymaster');
-    await page.click('button.birth-chart-btn');
+    // THE MERGE retired the hero arrow to the Day Master page (owner
+    // 2026-10-20); "Birth chart ›" on the hero (V5: the identity strip) opens
+    // the pillar chart directly.
+    await page.click('.jscreen[data-screen="catalogue"].active .mg-bchart');
     await waitForHash(page, 'app-pillars');
     await page.waitForSelector('.bazi-chart .bz-glyph', { timeout: 8000 });
     const glyphs = await page.evaluate(() =>
@@ -441,6 +449,23 @@ async function scenarioB(browser) {
     const golden = `${GOLDEN.year.stem}${GOLDEN.year.branch}${GOLDEN.month.stem}${GOLDEN.month.branch}${GOLDEN.day.stem}${GOLDEN.day.branch}${GOLDEN.hour.stem}${GOLDEN.hour.branch}`;
     if (glyphs !== golden) throw new Error(`pillar glyphs "${glyphs}" ≠ golden "${golden}"`);
     return `glyphs ${glyphs}`;
+  });
+
+  await step(page, 'B', '4b · V5 card reader: How am I running? reads to its last card', async () => {
+    await toCatalogue();
+    const tile = page.locator('.jscreen[data-screen="catalogue"].active .v5-bento .v5-bt').first();
+    if (!(await tile.count())) return 'V5 off (no album) — skipped';
+    await tile.click();
+    await page.waitForSelector('.jscreen[data-screen="run"].active .lf-cards', { timeout: 8000 });
+    const total = await page.locator('.jscreen[data-screen="run"].active .lf-prog i').count();
+    if (total < 2) throw new Error(`run page has ${total} cards`);
+    for (let i = 1; i < total; i++) { await page.click('.jscreen[data-screen="run"].active .lf-nav.dark'); await sleep(120); }
+    const meta = await page.evaluate(() => document.querySelector('.jscreen[data-screen="run"].active .lf-meta span')?.textContent || '');
+    if (!meta.startsWith(`${total} of ${total}`)) throw new Error(`reader stopped at "${meta}"`);
+    const read = await page.evaluate(() => JSON.parse(localStorage.getItem('elm.v5.read') || '{}').run);
+    if (!read) throw new Error('reaching the last card did not mark the section read');
+    await page.click('.jscreen[data-screen="run"].active .backrow');
+    return `${total} cards, last card reached, marked read`;
   });
 
   await step(page, 'B', '5 · tab bar routes all 5 tabs', async () => {
@@ -454,23 +479,30 @@ async function scenarioB(browser) {
   });
 
   await step(page, 'B', '6 · Today hub drill-downs (day/month/year/decade)', async () => {
+    // Your Almanac (live 2026-10-21): the day card (.al-hero), the month and
+    // year tiles, and the life-chapter tile, which opens Life Chapters on
+    // Your reading (DEPTH_LIVE).
     const drills = [
-      { label: 'Today ·', route: 'app-day' },
-      { label: 'This Month', route: 'app-month' },
-      { label: 'This Year', route: 'app-year' },
-      { label: 'Life Chapter', route: 'app-decade' },
+      { sel: '.al .al-hero', route: 'app-day' },
+      { sel: '.al .al-tile:has-text("This month")', route: 'app-month' },
+      { sel: '.al .al-tile:has-text("This year")', route: 'app-year' },
+      { sel: '.al .al-tile:has-text("Life chapter")', route: 'app-reading', screen: 'chapters' },
     ];
     const opened = [];
-    for (const { label, route } of drills) {
+    for (const { sel, route, screen } of drills) {
       await page.click('.reading-tabhost .tab[aria-label="today"]');
       await waitForHash(page, 'app-today');
-      await page.click(`button:has-text("${label}")`, { timeout: 8000 });
+      await page.click(sel, { timeout: 8000 });
       await waitForHash(page, route);
-      await page.waitForFunction(() => {
-        const f = document.querySelector('.el-frame');
-        return f && (f.innerText || '').trim().length > 80; // page mounted with real content
-      }, { timeout: 10000 });
-      opened.push(route);
+      if (screen) {
+        await page.waitForSelector(`.jscreen[data-screen="${screen}"].active`, { timeout: 10000 });
+      } else {
+        await page.waitForFunction(() => {
+          const f = document.querySelector('main.al');
+          return f && (f.innerText || '').trim().length > 80; // page mounted with real content
+        }, { timeout: 10000 });
+      }
+      opened.push(screen ? `${route}/${screen}` : route);
     }
     return opened.join(' ');
   });
@@ -507,7 +539,8 @@ async function scenarioB(browser) {
     driverNotes: [
       'ScrollPicker: at-rest pointer drags (pause before release) move exact rows; wheel ticks (|dY|>=30, >90ms apart) step +/-1 as corrector; centered value read via elementFromPoint.',
       'RevealDissolve: any >6px pointer drag plays the full 1.2s dissolve once, then routes to app-reading.',
-      'Energy cycling adapted 2026-08-19 (merge-and-retire): the app-energy faces page is retired; wheel dot → dot card → in-stage element screen is the per-energy journey.',
+      'Energy cycling adapted 2026-10-21 (THE MERGE + V5): wheel disk → energy sheet → in-stage element screen; the V5 pager steps through the other four.',
+      'Reveal adapted 2026-10-21: swipe-up opens the first reading; Skip runs the dissolve to Your reading.',
     ],
   };
   fs.writeFileSync(path.join(OUT_ROOT, 'report.json'), JSON.stringify({ summary, results }, null, 2));
