@@ -69,39 +69,92 @@ async function functionSurface() {
 // real birth charts. Charts are picked greedily so every unit the corpus holds is reached on some page; a unit no
 // chart reaches (a low-ranked seat that never leads) is listed on a closing "unreached" page, so nothing goes unread.
 async function domainsSurface() {
+  // THE DOMAINS By position (owner B4 A; section audit R2 A 2026-10-21): each domain page as the app renders it
+  // (depthResolve.resolveDomainView): the title and intro, How you are with the pair line, one block per ruling seat
+  // in gate order with the gap row, the notes, and the Advisor tabs By decade and By year; the seat card (the seat
+  // sheet's reading) closes each page for context. Greedy over real charts so every unit is reached.
   const { calculateBaziChart } = await import(ROOT + 'Elementum_App/src/engine/calculator.js');
   const { buildEnergyChart } = await import(ROOT + 'Elementum_App/src/engine/buildEnergyChart.js');
   const { buildJourneyModel } = await import(ROOT + 'Elementum_App/src/components/journey/journeyData.js');
   const { STEM_CARD_DATA } = await import(A + 'index.js');
   const { resolvePositions } = await import(ROOT + 'Elementum_App/src/components/reading/positionsResolve.js');
   const { resolveDomains } = await import(ROOT + 'Elementum_App/src/components/reading/domainsResolve.js');
+  const { resolveDomainView } = await import(ROOT + 'Elementum_App/src/components/reading/depthResolve.js');
   const { DOMAINS_CONTENT } = await import(A + 'domains.js');
+  const { DEPTH_UNITS } = await import(A + 'depth.js');
   const compose = (c, hu) => { const chart = calculateBaziChart(c); const ec = buildEnergyChart(chart); const m = buildJourneyModel({ chart, ec, identity: {}, card: STEM_CARD_DATA[chart.pillars.day.stem] });
-    const pos = resolvePositions(chart, hu); return { m, pos, r: resolveDomains(chart, pos, DOMAINS_CONTENT, { hourUnknown: hu, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])), year: 2026 }) }; };
-  const unitsOf = (p) => [p.headlineSrc, p.howSrc, p.pattern?.src, ...p.past.map((b) => b.src), ...p.future.map((b) => b.src)].filter(Boolean);
-  const all = new Set(); for (const [id, s] of Object.entries(DOMAINS_CONTENT.seats)) for (const [d, u] of Object.entries(s.domains)) for (const k of Object.keys(u)) all.add(`POSITION ${id} · domain_climb.${d}.${k}`);
-  const seen = new Set(); const pages = []; let n = 0; let i = 0;
+    const opts = { hourUnknown: hu, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])), year: 2026 };
+    const pos = resolvePositions(chart, hu); const r = resolveDomains(chart, pos, DOMAINS_CONTENT, opts);
+    return { m, r, views: r.pages.map((p) => ({ p, v: resolveDomainView(p, chart, DOMAINS_CONTENT, opts) })) }; };
+  const sectionsOf = ({ p, v }) => {
+    const sec = [{ head: 'TITLE', sub: v.intro, key: p.headlineSrc, text: v.headline || '(none)' }, { head: 'HOW YOU ARE', sub: '', key: p.howSrc, text: v.how || '(none)' }];
+    if (v.pattern) sec.push({ head: 'HOW YOU ARE · the pair line', sub: '', key: v.pattern.src, text: v.pattern.text });
+    for (const b of v.blocks) sec.push(b.kind === 'gap' ? { head: 'GAP ROW', sub: b.label, key: b.src, text: b.text } : { head: 'SEAT', sub: `${b.name} · ${b.meta}`, key: b.src, text: b.text || '(none)' });
+    for (const t of v.notes || []) sec.push({ head: 'NOTE', sub: '', key: '', text: t, nonProse: true });
+    for (const x of v.byDecade) sec.push({ head: 'BY DECADE (Advisor)', sub: x.label, key: x.src, text: x.text });
+    for (const x of v.byYear) sec.push({ head: 'BY YEAR (Advisor)', sub: x.label, key: x.key, text: x.draft ? '(placeholder)' : x.text });
+    for (const st of p.seats) sec.push({ head: 'SEAT CARD (context)', sub: st.term, key: `POSITION ${st.id} · reading`, text: `${st.defline} ${st.reading}` });
+    return sec;
+  };
+  const all = new Set();
+  for (const [id, st] of Object.entries(DOMAINS_CONTENT.seats)) for (const [d, u] of Object.entries(st.domains)) for (const k of Object.keys(u)) all.add(`POSITION ${id} · domain_climb.${d}.${k}`);
+  for (const k of Object.keys(DEPTH_UNITS)) if (/· year_domain\./.test(k)) all.add(k);
+  const seen = new Set(); const pages = []; let i = 0;
   // the target reader first (owner audience 18 to 35, audit round 1): births 1986 to 2008, then the older band
   const YEARS = [...Array.from({ length: 18 }, (_, k) => 1991 + k), ...Array.from({ length: 33 }, (_, k) => 1958 + k)];
-  for (const y of YEARS) for (const [mo, hr] of [[2, 3], [5, 9], [8, 15], [11, 21]]) { if (pages.length >= 220) break;
+  for (const y of YEARS) for (const [mo, hr] of [[2, 3], [5, 9], [8, 15], [11, 21]]) { if (pages.length >= 240) break;
     i++; const hu = i % 9 === 0; const c = { year: y, month: mo, day: 1 + ((y * 7 + mo) % 27), hour: hr, location: 'Beijing', gender: i % 2 ? 'male' : 'female' };
     let res; try { res = compose(c, hu); } catch { continue; }
-    for (const p of res.r.pages) {
-      const u = unitsOf(p); const fresh = u.filter((x) => !seen.has(x)); if (!fresh.length || pages.length >= 220) continue; u.forEach((x) => seen.add(x));
-      const sec = [{ head: 'TITLE', sub: p.count, key: p.headlineSrc, text: p.headline || '(none)' }, { head: 'HOW YOU ARE', sub: '', key: p.howSrc, text: p.how || '(none)' }];
-      if (p.pattern) sec.push({ head: 'HOW YOU ARE · the pair line', sub: '', key: p.pattern.src, text: p.pattern.text });
-      for (const b of p.past) sec.push({ head: 'ALREADY HAPPENED', sub: b.label, key: b.src, text: (b.lead ? b.lead + ' ' : '') + b.text });
-      for (const b of p.future) sec.push({ head: 'COMING', sub: b.label, key: b.src, text: (b.lead ? b.lead + ' ' : '') + b.text });
-      for (const t of p.notes) sec.push({ head: 'NOTE', sub: '', key: '', text: t, nonProse: true });
-      for (const s of p.seats) sec.push({ head: 'SEAT CARD', sub: s.term, key: `POSITION ${s.id} · reading`, text: `${s.defline} ${s.reading}` });
-      n++; pages.push({ id: `D${String(n).padStart(3, '0')}`, group: p.domain.toLowerCase(), title: `${p.domain} · ${res.m.archetype || ''} ${res.m.condition} · age ${res.r.age}${hu ? ' · no birth hour' : ''} · born ${c.year}-${c.month}-${c.day} ${c.hour}:00 ${c.gender}`, sections: sec, exempt: [p.domain] });
+    for (const pv of res.views) {
+      const sec = sectionsOf(pv); const fresh = sec.filter((x) => x.key && all.has(x.key) && !seen.has(x.key)); if (!fresh.length || pages.length >= 240) continue;
+      sec.forEach((x) => x.key && seen.add(x.key));
+      pages.push({ id: `D${String(pages.length + 1).padStart(3, '0')}`, group: pv.p.domain.toLowerCase(), title: `${pv.p.domain} · ${res.m.condition} · age ${res.r.age}${hu ? ' · no birth hour' : ''} · born ${c.year}-${c.month}-${c.day} ${c.hour}:00 ${c.gender}`, sections: sec, exempt: [pv.p.domain] });
     }
   }
   const miss = [...all].filter((x) => !seen.has(x));
   if (miss.length) {
-    const get = (k) => { const m = k.match(/^POSITION (\S+) · domain_climb\.(\w+)\.(\w+)$/); return m ? DOMAINS_CONTENT.seats[m[1]]?.domains?.[m[2]]?.[m[3]] : ''; };
+    const get = (k) => { const m = k.match(/^POSITION (\S+) · domain_climb\.(\w+)\.(\w+)$/); return m ? DOMAINS_CONTENT.seats[m[1]]?.domains?.[m[2]]?.[m[3]] : DEPTH_UNITS[k] || ''; };
     pages.push({ id: 'D999', group: 'unreached', title: `Units no sampled chart reaches (${miss.length}); read as a seat sheet`, sections: miss.map((k) => ({ head: 'UNIT', sub: '', key: k, text: get(k) || '' })), exempt: [] });
   }
+  return pages;
+}
+
+// THE ENERGY BLUEPRINT (Advisor; section audit R2 A 2026-10-21): the four parts as depthResolve.resolveBlueprint composes
+// them for real charts, greedy so every unit of tpl_depth the Blueprint reads (119 + 1 season readings, the structures,
+// the strain notes, the god lines, the pairings, the bonds, the slot templates) is reached on some page.
+async function blueprintSurface() {
+  const { calculateBaziChart } = await import(ROOT + 'Elementum_App/src/engine/calculator.js');
+  const { buildEnergyChart } = await import(ROOT + 'Elementum_App/src/engine/buildEnergyChart.js');
+  const { buildJourneyModel } = await import(ROOT + 'Elementum_App/src/components/journey/journeyData.js');
+  const { STEM_CARD_DATA } = await import(A + 'index.js');
+  const { resolvePositions } = await import(ROOT + 'Elementum_App/src/components/reading/positionsResolve.js');
+  const { resolveBlueprint } = await import(ROOT + 'Elementum_App/src/components/reading/depthResolve.js');
+  const { DEPTH_UNITS } = await import(A + 'depth.js');
+  const BP = /^(SEASON |STRUCTURE |TG_PATTERN \S+ · blueprint_line|GOD \S+ · (missing|seen|season_need)|TEMPLATED tpl_depth · (bond|seen\.close|structure_rule|rescue|strongest))/;
+  const all = new Set(Object.keys(DEPTH_UNITS).filter((k) => BP.test(k)));
+  const sectionsOf = (B) => {
+    const { structure: s, runs: r, seen: sn, pairs } = B; const sec = [];
+    const add = (head, sub, u) => u && sec.push({ head, sub, key: u.key, text: u.draft ? '(placeholder)' : u.text });
+    add('1 · STRUCTURE', B.title, s.reading); add('1 · WHY', '', s.rule); add('1 · STATE', s.statusLabel, s.status); if (s.rescue) add('1 · WHAT PROTECTS IT', s.rescue.label, s.rescue);
+    add('2 · STRONGEST', '', r.strongest); for (const x of r.missing) add('2 · MISSING', x.label, x);
+    if (r.season) add('2 · SEASON', r.seasonCell?.name || '', r.season); for (const x of r.needs) add('2 · SEASON NEED', x.label, x);
+    for (const x of sn.plain) add('3 · IN PLAIN VIEW', x.label, x); for (const x of sn.inside) add('3 · INSIDE', x.label, x); add('3 · CLOSE', '', sn.close);
+    for (const x of pairs.pairs) add('4 · PAIRING', x.label, x); for (const x of pairs.bonds) add('4 · BOND', x.label, x); if (pairs.noneHard) add('4 · NO HARD BOND', '', pairs.noneHard);
+    return sec;
+  };
+  let sd = 20261021; const rnd = () => ((sd = (sd * 1103515245 + 12345) % 2147483648) / 2147483648);
+  const seen = new Set(); const pages = [];
+  for (let i = 0; i < 6000 && pages.length < 160; i++) {
+    const c = { year: 1958 + Math.floor(rnd() * 50), month: 1 + Math.floor(rnd() * 12), day: 1 + Math.floor(rnd() * 28), hour: Math.floor(rnd() * 24), location: 'Beijing', gender: rnd() < 0.5 ? 'male' : 'female' }; const hu = rnd() < 0.08;
+    let chart; try { chart = calculateBaziChart(c); } catch { continue; }
+    const ec = buildEnergyChart(chart); const m = buildJourneyModel({ chart, ec, identity: {}, card: STEM_CARD_DATA[chart.pillars.day.stem] });
+    const B = resolveBlueprint(chart, resolvePositions(chart, hu), { hourUnknown: hu, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])), year: 2026 });
+    const sec = sectionsOf(B); if (!sec.some((x) => all.has(x.key) && !seen.has(x.key))) continue;
+    sec.forEach((x) => seen.add(x.key));
+    pages.push({ id: `B${String(pages.length + 1).padStart(3, '0')}`, group: 'blueprint', title: `Blueprint · ${B.title} · ${chart.pillars.day.stem} ${m.condition}${hu ? ' · no birth hour' : ''} · born ${c.year}-${c.month}-${c.day} ${c.hour}:00`, sections: sec, exempt: [] });
+  }
+  const miss = [...all].filter((k) => !seen.has(k));
+  if (miss.length) pages.push({ id: 'B999', group: 'unreached', title: `Units no sampled chart reaches (${miss.length}), read raw`, sections: miss.map((k) => ({ head: 'UNIT', sub: '', key: k, text: DEPTH_UNITS[k] })), exempt: [] });
   return pages;
 }
 
@@ -199,7 +252,7 @@ async function almanacSurface() {
   return pages;
 }
 
-export const SURFACES = { almanac: { describe: 'YOUR ALMANAC: the Day, Month and Year pages and the reminder as composed for real charts and dates (greedy cover of tpl_almanac) plus the unreached units', build: almanacSurface }, chapters: { describe: 'LIFE CHAPTERS, energy first: the chapters page as composed for real charts (greedy cover of every unit) plus the unreached units', build: chaptersSurface }, domains: { describe: 'THE DOMAINS: domain pages as composed for real charts (greedy cover of every unit) plus the unreached units', build: domainsSurface }, function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
+export const SURFACES = { blueprint: { describe: 'THE ENERGY BLUEPRINT: the four parts as composed for real charts (greedy cover of the tpl_depth Blueprint units) plus the unreached units', build: blueprintSurface }, almanac: { describe: 'YOUR ALMANAC: the Day, Month and Year pages and the reminder as composed for real charts and dates (greedy cover of tpl_almanac) plus the unreached units', build: almanacSurface }, chapters: { describe: 'LIFE CHAPTERS, energy first: the chapters page as composed for real charts (greedy cover of every unit) plus the unreached units', build: chaptersSurface }, domains: { describe: 'THE DOMAINS By position: domain pages as the app renders them (By decade and By year included), greedy cover of every unit, plus the unreached units', build: domainsSurface }, function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
 
 export function toMarkdown(pages, group) {
   const parts = [`# ${group} · pages as read`, ''];
