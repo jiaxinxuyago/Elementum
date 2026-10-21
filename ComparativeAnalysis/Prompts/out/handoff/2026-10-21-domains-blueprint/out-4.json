@@ -1,0 +1,214 @@
+{
+ "units": [
+  {
+   "key": "STRUCTURE zhengguan_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Your chart is built around duty kept and a role held in public. You do best inside a clear order, with a title and terms written down, and you keep your word long after others have bent theirs."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Your chart answers to pressure, the hard test and the person who pushes back. You rise when the stakes are real and the deadline is close, and you are steadiest in the thick of a fight."
+  },
+  {
+   "key": "STRUCTURE piancai_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Your chart runs on range, money that moves and openings that arrive through side doors. You do best with several things in play at once, a deal here and a contact there, and you earn most where you are free to roam."
+  },
+  {
+   "key": "STRUCTURE zhengyin_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Your chart rests on shelter and learning, on teachers who back you and places that look after their own. You do your best work where study is valued and someone senior vouches for you, and you repay that care with years of loyalty."
+  },
+  {
+   "key": "STRUCTURE pianyin_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "At the centre of your chart sits private study, the strange and specialist knowledge few people share. You are at your best in a niche of your own, on a problem nobody else can read, and you trust what you worked out over what you were taught."
+  },
+  {
+   "key": "STRUCTURE shishen_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Your chart grows out of ease and appetite, the pleasure of making something well and sharing it. You thrive at your own pace on work you enjoy, and what you make with a light hand is what people come back for."
+  },
+  {
+   "key": "STRUCTURE shangguan_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Your chart turns on a sharp voice and a talent that refuses to sit quietly. You shine where you are judged on what you can do, on a stage or under your own name, and you do your finest work when nobody stands over you."
+  },
+  {
+   "key": "STRUCTURE jianlu_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Your chart takes its shape from your own strength, with little handed down and most things built by hand. You do best where effort is paid to you directly, and you are proudest of what you made with nobody's help."
+  },
+  {
+   "key": "STRUCTURE yueren_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Everything in your chart gathers around the Rival, a hard and competitive will that does not back down. You do best against a real opponent or under strict discipline, and you are at your most useful when that edge has something to guard."
+  },
+  {
+   "key": "STRUCTURE yuejie_ge · reading",
+   "kind": "structure",
+   "page": "structure",
+   "text": "Your chart centres on the Rival, on equals who compete with you and share in whatever you have. You work hardest in a team where everyone can see the score, and you win more in an open contest than in a quiet deal."
+  },
+  {
+   "key": "STRUCTURE officer · status.broken.unchecked",
+   "kind": "status",
+   "page": "status-officer",
+   "text": "The General bears down with nothing to check it, and more is asked of you than you can carry alone. You get through on the allies beside you, and each hard stretch leaves you tougher."
+  },
+  {
+   "key": "STRUCTURE officer · status.broken.virtuoso",
+   "kind": "status",
+   "page": "status-officer",
+   "text": "The Virtuoso talks back to the Magistrate unchecked, and you lose roles over what you say to the people above you. You come through on work judged by results more than rank."
+  },
+  {
+   "key": "STRUCTURE officer · status.formed.none",
+   "kind": "status",
+   "page": "status-officer",
+   "text": "Duty and pressure work in your favour, and the demands placed on you come with standing attached. You can lean on your title and your word, and you carry heavy roles without losing your footing."
+  },
+  {
+   "key": "STRUCTURE officer · status.strained.general",
+   "kind": "status",
+   "page": "status-officer",
+   "text": "The General stands beside your Magistrate, and you answer to two bosses with different rules. You spend effort working out whose terms apply, and your record looks less settled than your work deserves."
+  },
+  {
+   "key": "STRUCTURE officer · status.strained.mixed",
+   "kind": "status",
+   "page": "status-officer",
+   "text": "The Magistrate shows beside your General, and you switch between fighting for ground and asking for it politely. People above you get mixed signals, and you lose credit that one clear approach would win."
+  },
+  {
+   "key": "STRUCTURE officer · status.strained.unchecked",
+   "kind": "status",
+   "page": "status-officer",
+   "text": "Nothing in your chart softens the General, and every demand reaches you at full force. You bear it, and you pay in rest and goodwill for meeting each fight head on."
+  },
+  {
+   "key": "STRUCTURE output · status.broken.alchemist",
+   "kind": "status",
+   "page": "status-output",
+   "text": "The Alchemist crowds out the Artisan, and what you mean to make stays unmade while you study it. You come through on what you learn meanwhile, and it becomes work only a specialist can do."
+  },
+  {
+   "key": "STRUCTURE output · status.broken.magistrate",
+   "kind": "status",
+   "page": "status-output",
+   "text": "The Magistrate stands over your Virtuoso, and every rule you work under becomes a quarrel. You get through on talent people pay for in its own right, outside the chain of command."
+  },
+  {
+   "key": "STRUCTURE output · status.formed.none",
+   "kind": "status",
+   "page": "status-output",
+   "text": "What you make and say reaches people without getting stuck on the way. You can lean on your talent to open doors, and the work you enjoy keeps finding someone who wants it."
+  },
+  {
+   "key": "STRUCTURE seal · status.formed.none",
+   "kind": "status",
+   "page": "status-seal",
+   "text": "Learning and shelter hold steady around you, from teachers, credentials and people who vouch for you. What you know keeps you safe, and you recover from a setback faster than the people around you."
+  },
+  {
+   "key": "STRUCTURE seal · status.strained.money",
+   "kind": "status",
+   "page": "status-seal",
+   "text": "Money pulls at your learning, and study keeps losing out to whatever pays this month. You trade courses and mentors for earnings, and the shelter behind you wears thinner each time."
+  },
+  {
+   "key": "STRUCTURE seal · status.strained.starved",
+   "kind": "status",
+   "page": "status-seal",
+   "text": "The Alchemist leaves the Artisan little to eat, and you lose finished work and easy pleasures to second thoughts. You know far more than you have shown anyone."
+  },
+  {
+   "key": "STRUCTURE self · status.formed.none",
+   "kind": "status",
+   "page": "status-self",
+   "text": "Your own strength carries you, and you finish what you start without waiting for help. You can lean on your nerve and your circle of equals, and you stand firm when others wobble."
+  },
+  {
+   "key": "STRUCTURE self · status.strained.idle",
+   "kind": "status",
+   "page": "status-self",
+   "text": "Your strength has nothing to work on, no task or prize or person to answer to. You spend it on restless plans and contests with friends, and you get back less than you put in."
+  },
+  {
+   "key": "STRUCTURE wealth · status.broken.peers",
+   "kind": "status",
+   "page": "status-wealth",
+   "text": "Equals reach your money with nothing to stop them, and what you earn leaves through friends, partners and shared plans. You come through because you earn it back faster than it goes."
+  },
+  {
+   "key": "STRUCTURE wealth · status.formed.none",
+   "kind": "status",
+   "page": "status-wealth",
+   "text": "What you earn arrives on time and stays long enough to build on. You can count on a steady return from your work, and you keep hold of it without a fight."
+  },
+  {
+   "key": "STRUCTURE wealth · status.formed.peers",
+   "kind": "status",
+   "page": "status-wealth",
+   "text": "Equals stand close to your money, and a rule or contract keeps each share in place. You can lean on clear terms with friends and partners, and you come out with your part intact."
+  },
+  {
+   "key": "STRUCTURE wealth · status.strained.none",
+   "kind": "status",
+   "page": "status-wealth",
+   "text": "Money and the duties that come with it arrive faster than you can hold them. You work hard for gains that slip away, and you tire of the upkeep before you enjoy the reward."
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "pairings",
+   "text": "A hard deadline settles you instead of rattling you, and you turn out your best work when the stakes are high and the clock runs short."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "pairings",
+   "text": "Your sharpest talent has years of study behind it, and you are known for being both daring and right."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_jian_guan · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "pairings",
+   "text": "Your talent argues with whoever is in charge, and you are at your sharpest where nobody signs off on every line."
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "pairings",
+   "text": "Every hard test you go through becomes something you know, and you leave each demanding stretch with a qualification or a title you did not have before."
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "pairings",
+   "text": "Things you make sell without much pushing, and you earn the most from the projects you would have done for nothing."
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "pairings",
+   "text": "Good results keep earning you a bigger role, and you get promoted on your record more than on anything you ask for."
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "pairings",
+   "text": "Each role you take on comes with someone senior who teaches you, and you rise slowly and cleanly inside the places that take you in."
+  }
+ ]
+}

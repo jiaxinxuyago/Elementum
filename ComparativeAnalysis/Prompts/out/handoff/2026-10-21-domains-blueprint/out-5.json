@@ -1,0 +1,238 @@
+{
+ "units": [
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.day_hour",
+   "kind": "bond",
+   "page": "bonds-bind",
+   "text": "The home you make with a partner draws in the younger people around you, and you spend your later years inside the household you built."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.month_day",
+   "kind": "bond",
+   "page": "bonds-bind",
+   "text": "You find a partner close to your work or your parents' circle, and the line between your job and your home stays thin for years."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_hour",
+   "kind": "bond",
+   "page": "bonds-bind",
+   "text": "You pass the customs of your first family to the young people you raise or train, and your later years come to resemble your earliest ones."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_month",
+   "kind": "bond",
+   "page": "bonds-bind",
+   "text": "Your first family stays tied to your working life, and you take a trade or a contact or a loyalty from home into every job you hold."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.day_hour",
+   "kind": "bond",
+   "page": "bonds-clash",
+   "text": "The young people in your life pull against the home you share with a partner, and you move house or rework your days to keep both."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.month_day",
+   "kind": "bond",
+   "page": "bonds-clash",
+   "text": "Work and home compete for the same hours in your life, and you change jobs or addresses when the strain between them gets too loud."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.month_hour",
+   "kind": "bond",
+   "page": "bonds-clash",
+   "text": "What you built at work in your rising years stops fitting your later life, and you change course in your late forties rather than hold on to it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_day",
+   "kind": "bond",
+   "page": "bonds-clash",
+   "text": "Your own household breaks sharply from the one you grew up in, and you keep a partner and your first family at a careful distance."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_hour",
+   "kind": "bond",
+   "page": "bonds-clash",
+   "text": "Nothing from the house you grew up in passes cleanly to the young people after you, and you raise or train them by rules you wrote yourself."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_month",
+   "kind": "bond",
+   "page": "bonds-clash",
+   "text": "Your choice of work breaks with what your family expected, and you leave home early to make your own way in a trade nobody there chose."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.day_hour",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "A partner and the young ones you raise or train pull together around one shared aim, and you see your household grow stronger with each passing year."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_day",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "Your working years feed straight into your home, and you and a partner end up backing the same plan or running something together."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_day_hour",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "Work, home and the people after you build on each other, and what you start in your rising years keeps growing through every later decade."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_hour",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "The momentum you build at work carries well into your later life, and the people you train along the way become your strongest allies."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_day",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "Your first family stands behind the home you make, and you build a household with a partner while their help stays close at hand."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_day_hour",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "You link the house you grew up in to the people after you, and your own home becomes the place where three generations meet."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_hour",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "Something your first family began passes to the young ones after you, and you spend your later years adding to it alongside them."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "The household you grew up in gives your working life a running start, and you build on doors your parents or siblings opened for you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_day",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "One aim gathers force from your childhood through your working years into your own home, and you carry it from one stage to the next."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_day_hour",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "Every part of your life adds to one story, from your first home through work and partnership to those who follow you, and you watch it gather weight."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_hour",
+   "kind": "bond",
+   "page": "bonds-frame",
+   "text": "Skills learned at home run through your career into the people you train, and you become the link that carries them forward."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.day_hour",
+   "kind": "bond",
+   "page": "bonds-harm",
+   "text": "A quiet friction runs between your partner and the people after you, and you spend years smoothing over complaints nobody says out loud."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.month_day",
+   "kind": "bond",
+   "page": "bonds-harm",
+   "text": "Late evenings and calls on days off wear quietly at your home life, and you guard one part of every week from your work."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.month_hour",
+   "kind": "bond",
+   "page": "bonds-harm",
+   "text": "Your work rubs at the people after you in small ways, a missed evening or a forgotten promise, and you make it up to them in person."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_day",
+   "kind": "bond",
+   "page": "bonds-harm",
+   "text": "An old irritation from your first home follows you into the one you share with a partner, and you settle it one small argument at a time."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_hour",
+   "kind": "bond",
+   "page": "bonds-harm",
+   "text": "Something from your own childhood wears at how you treat the young ones in your care, and you catch yourself repeating it and correct it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_month",
+   "kind": "bond",
+   "page": "bonds-harm",
+   "text": "Your family never quite approves of the work you choose, and you answer that quiet doubt with results more than with arguments."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.day_hour",
+   "kind": "bond",
+   "page": "bonds-punish",
+   "text": "The same argument returns at home between you and the people after you, and you break the loop by changing your own rule first."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.month_day",
+   "kind": "bond",
+   "page": "bonds-punish",
+   "text": "You bring the standards of your work home, and a partner meets the same demands you make of colleagues until you draw a line where the job stops."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.month_hour",
+   "kind": "bond",
+   "page": "bonds-punish",
+   "text": "The pressure you put on yourself at work passes to the people you train, and you ease it once you see them repeat your hardest years."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_day",
+   "kind": "bond",
+   "page": "bonds-punish",
+   "text": "Old house rules from your childhood come back inside your own home, and you hear them in your voice with a partner and rewrite them one at a time."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_hour",
+   "kind": "bond",
+   "page": "bonds-punish",
+   "text": "You hold the people after you to the standards you were raised on, and the same friction repeats until you decide which of those rules you keep."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_month",
+   "kind": "bond",
+   "page": "bonds-punish",
+   "text": "Your family's expectations follow you into every job, and you drive yourself harder than any boss asks until you settle on your own measure."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.day_hour",
+   "kind": "bond",
+   "page": "bonds-selfpunish",
+   "text": "What you struggle with at home reappears in the people after you, and you break the habit in yourself first so they do not inherit it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.month_day",
+   "kind": "bond",
+   "page": "bonds-selfpunish",
+   "text": "You make the same mistake at work and at home, taking on too much and resenting it later, and you catch it sooner each time it returns."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.month_hour",
+   "kind": "bond",
+   "page": "bonds-selfpunish",
+   "text": "A habit that holds you back at work returns in your later life, and you see it coming the second time and turn it down."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_day",
+   "kind": "bond",
+   "page": "bonds-selfpunish",
+   "text": "The quarrel you grew up around repeats in your own home with a partner, and you end it by changing your own part in it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_hour",
+   "kind": "bond",
+   "page": "bonds-selfpunish",
+   "text": "Your childhood plays out again around the young ones in your care, and you recognise the old scene early enough to give it a different ending."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_month",
+   "kind": "bond",
+   "page": "bonds-selfpunish",
+   "text": "The role you played in your family returns at work, the peacemaker or the one who carries everything, and you change it once you see it twice."
+  }
+ ]
+}
