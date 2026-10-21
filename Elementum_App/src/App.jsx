@@ -67,6 +67,7 @@ const SeasonalCalibrationDetail = lazy(() => import('./components/dashboard/read
 const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/LockedDetail.jsx'));
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 import { IS_DEV_TOOLS } from './devtools.js';
+import { MERGE_V1 } from './components/journey/mergeFlag.js';
 const ReadingWheelPreview = lazy(() => import('./components/reading/ReadingWheelPreview.jsx'));
 const ReadingDayMasterScreen = lazy(() => import('./components/reading/ReadingDayMasterScreen.jsx'));
 const ReadingPillarChartScreen = lazy(() => import('./components/reading/ReadingPillarChartScreen.jsx'));
@@ -426,9 +427,9 @@ export default function App() {
   // deep-linkable during development).
   const setScreen = (next) => {
     const asked = typeof next === 'function' ? next(screen) : next;
-    // THE MERGE (owner 2026-10-18/20, dev build): the Day Master page is part
-    // of Your reading now, so its routes land there.
-    const name = IS_DEV && (asked === 'app-daymaster' || asked === 'read-daymaster') ? 'app-reading' : asked;
+    // THE MERGE (owner 2026-10-18/20; live 2026-10-21): the Day Master page
+    // is part of Your reading now, so its routes land there.
+    const name = MERGE_V1 && (asked === 'app-daymaster' || asked === 'read-daymaster') ? 'app-reading' : asked;
     if (name !== 'app-reading') { setEnergyTarget(null); setSectionTarget(null); }
     startTransition(() => setScreenState(name));
     if (typeof window !== 'undefined') {
@@ -686,9 +687,9 @@ export default function App() {
       rendered = <JourneyStage key={sectionTarget || 'reading'} openEl={energyTarget} openSection={sectionTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} />;
       break;
     case 'app-daymaster':
-      // THE MERGE (dev build): a hash or old link to the Day Master page
-      // lands on Your reading.
-      if (IS_DEV) { rendered = <JourneyStage key="reading" onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} />; break; }
+      // THE MERGE: a hash or old link to the Day Master page lands on Your
+      // reading.
+      if (MERGE_V1) { rendered = <JourneyStage key="reading" onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} />; break; }
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
       // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
       // the journey (the same hook the DevBar uses, set by JourneyStage).
@@ -696,7 +697,7 @@ export default function App() {
       break;
     case 'app-pillars':
       // D13 P5 — the 八字 Four-Pillars data page; "Discover it" → hour flow.
-      rendered = <ReadingPillarChartScreen onBack={goto(IS_DEV ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={IS_DEV ? () => openSection('chapters') : undefined} />;
+      rendered = <ReadingPillarChartScreen onBack={goto(MERGE_V1 ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={IS_DEV ? () => openSection('chapters') : undefined} />;
       break;
     case 'app-compat':
       rendered = (
@@ -761,7 +762,7 @@ export default function App() {
       break;
     case 'chart-reveal':
       // Retired RawChartPage — aliased to the D13 八字 Pillar Chart (P5).
-      rendered = <ReadingPillarChartScreen onBack={goto(IS_DEV ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={IS_DEV ? () => openSection('chapters') : undefined} />;
+      rendered = <ReadingPillarChartScreen onBack={goto(MERGE_V1 ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={IS_DEV ? () => openSection('chapters') : undefined} />;
       break;
     case 'chart-resonance':
       // After recovering the hour, land on the D13 Pillar Chart (not the old raw chart).

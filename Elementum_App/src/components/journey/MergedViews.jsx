@@ -149,7 +149,7 @@ export function WheelArrows({ m, g }) {
 }
 
 // ── the energy sheet ──────────────────────────────────────────────
-export function EnergySheet({ row, first, Use, DOM, onClose, onRead, onDomain }) {
+export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead, onDomain }) {
   if (!row) return null;
   return (
     <div className="mg-sheetwrap" role="dialog" aria-label={row.head}>
@@ -161,11 +161,15 @@ export function EnergySheet({ row, first, Use, DOM, onClose, onRead, onDomain })
           <span className="mg-rt"><b>{row.head}</b><small>{row.name} is your {row.fn}{row.isCore ? ' · yourself' : ''}</small></span>
           <span className="mg-rr"><Pill row={row} Use={Use} /><em>{row.presence}%</em></span>
         </div>
-        <div className={`mg-ill e-${row.el}`}><Use id={`el-${row.el}`} /><span>illustration</span></div>
+        {/* the illustration slot: a placeholder on the dev site only, until the
+            pair art exists */}
+        {art ? <div className={`mg-ill e-${row.el}`}><Use id={`el-${row.el}`} /><span>illustration</span></div> : null}
         {row.story ? <p className="mg-story">{row.story}</p> : null}
         {row.now || first ? <p className="mg-now">{first ? <span className="mg-start">START HERE</span> : null} {row.now || ''}</p> : null}
         <div className="mg-doms">
-          {row.domains.map((d) => <button key={d} className="mg-domchip" onClick={() => onDomain(d)}><Use id={DOM[d] || 'dom-career'} />{d}<Use id="ico-chev-r" className="mg-chev" /></button>)}
+          {row.domains.map((d) => (onDomain
+            ? <button key={d} className="mg-domchip" onClick={() => onDomain(d)}><Use id={DOM[d] || 'dom-career'} />{d}<Use id="ico-chev-r" className="mg-chev" /></button>
+            : <span key={d} className="mg-domchip"><Use id={DOM[d] || 'dom-career'} />{d}</span>))}
         </div>
         <button className="mg-next" onClick={onRead}>Read {row.name}, your {row.fn} <Use id="ico-arrow-r" /></button>
       </div>

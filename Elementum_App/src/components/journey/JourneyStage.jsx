@@ -63,6 +63,7 @@ function MetricBars({ m }) {
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
 import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading } from './MergedViews.jsx';
+import { MERGE_V1 } from './mergeFlag.js';
 import { resolveDayMasterReading } from '../reading/readingResolve.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
 import { resolveDomains } from '../reading/domainsResolve.js';
@@ -118,9 +119,8 @@ const DEPTH_SCREENS = ['domains', 'chapters', 'stars', 'blueprint'];
 // for), one energy sheet for every energy tap, "How am I running?" as a full
 // page, and the first reading's eight cards after the Naming. The energy
 // manual, the GROW/RELEASE rails, the hero arrow, the dot card and the
-// seal's share action retire under it (owner 2026-10-20). Dev site only
-// until the owner has seen it.
-const MERGE_V1 = IS_DEV_TOOLS;
+// seal's share action retire under it (owner 2026-10-20). Live on
+// elementum.life from 2026-10-21 (the switch is in mergeFlag.js).
 const WHEEL_VIEW_KEY = 'elm.wheelView';
 const readWheelView = () => { try { return localStorage.getItem(WHEEL_VIEW_KEY) || 'do'; } catch { return 'do'; } };
 // the words note's new words (R3), shown with the sections
@@ -1318,9 +1318,10 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
           behind an energy page or a domain reading and is there on back */}
       {MERGE_V1 && merged && sheetEl && screen === 'catalogue' && (
         <EnergySheet row={merged.rows[sheetEl]} first={merged.first === sheetEl} Use={Use} DOM={DOM}
+          art={IS_DEV_TOOLS}
           onClose={() => setSheetEl(null)}
           onRead={() => goElement(sheetEl)}
-          onDomain={(d) => openDepth('domain', d, 'catalogue')} />
+          onDomain={depth ? (d) => openDepth('domain', d, 'catalogue') : null} />
       )}
       {dot && (
         <div className="wordpop open" role="presentation">

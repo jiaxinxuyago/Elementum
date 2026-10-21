@@ -54,7 +54,11 @@ Ruled on https://claude.ai/artifact/GzdMe6msCVoNb7QbtXnxrc, one by one in the se
 
 **Built on the dev site (owner: "I want to see this build in before we start finessing"):** the merged Your reading behind `MERGE_V1 = IS_DEV_TOOLS` (JourneyStage.jsx), with the first reading's eight cards after the Naming, beats 1–3, the energy sheet, "How am I running?" as a full page, the depth beats as built, the Day Master routes landing on Your reading. elementum.life is unchanged.
 
+## 2026-10-21 · live
+
+Owner: "can we also push this to our official live link: elementum.life?" The merge goes live behind its own switch (`src/components/journey/mergeFlag.js`, `MERGE_V1 = true`). The depth sections stay dev only (DEPTH_V1, Domains session): on elementum.life the energy sheet's domain chips are labels, "How am I running?" has no Blueprint door, and the illustration slot is hidden.
+
 ## Still open
 
 - The merged-journey drafts in the station (14 fields after the relation labels were locked).
-- Finessing each page on the dev build, then switching the merge on for elementum.life.
+- Finessing each page.
