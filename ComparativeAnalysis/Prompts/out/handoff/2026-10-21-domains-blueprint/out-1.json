@@ -10,7 +10,7 @@
    "key": "SEASON jia.mao · reading",
    "kind": "season",
    "page": "season-jia",
-   "text": "Mid-spring brings your Wood to full strength, a tree growing faster than its own shape. This month calls for Metal before anything else, a blade that prunes you into form, with Earth behind it to keep the blade supplied. You do your finest work under a firm hand, and too much rain dulls that edge."
+   "text": "Mid-spring brings your Wood to full strength, a tree growing too fast to hold its shape. This month calls for Metal before anything else, a blade that prunes you into form, with Earth behind it to keep the blade supplied. You do your finest work under a firm hand, and too much rain dulls that edge."
   },
   {
    "key": "SEASON jia.chen · reading",
@@ -22,7 +22,7 @@
    "key": "SEASON jia.si · reading",
    "kind": "season",
    "page": "season-jia",
-   "text": "Your birth falls in early summer, when the sun takes charge and your sap starts to drain. The month turns to Water first, a rain that cools you, and to Fire second as a small flame that lets your growth be seen. You keep your green when the rain gets there before the heat."
+   "text": "Your birth falls in early summer, when the sun takes charge and your sap starts to drain. The month turns to Water first, a rain that cools you, and to Fire second as a small flame that lets your growth be seen. You stay green through the long days when rain reaches you first."
   },
   {
    "key": "SEASON jia.wu · reading",
@@ -298,7 +298,7 @@
    "key": "SEASON wu.mao · reading",
    "kind": "season",
    "page": "season-wu",
-   "text": "In mid-spring green growth climbs your slopes while the stone beneath still holds some cold. The sun's Fire comes before anything to warm you, with Wood next to loosen the soil and rain last of all to feed it. You turn from bare rock into a hill people want to walk on once that warmth comes through."
+   "text": "In mid-spring green growth climbs your slopes while the stone beneath still holds some cold. The sun's Fire comes before anything to warm you, with Wood next to loosen the soil and Water last of all to feed it. You turn from bare rock into a hill people want to walk on once that warmth comes through."
   },
   {
    "key": "SEASON wu.chen · reading",
@@ -334,7 +334,7 @@
    "key": "SEASON wu.you · reading",
    "kind": "season",
    "page": "season-wu",
-   "text": "Mid-autumn draws Metal out of your mountain and leaves the rock colder and thinner than before. The season relies on Fire to warm you back and on Water to keep the ground soft, and it has no need of Wood this time. You give generously in these months, and you keep your strength when the sun stays on you."
+   "text": "Mid-autumn draws Metal out of your mountain and leaves the rock colder and thinner than before. The season relies on Fire to warm you back and on Water to keep the ground soft, and it can do without Wood. You give generously in these months, and you keep your strength when the sun stays on you."
   },
   {
    "key": "SEASON wu.xu · reading",
