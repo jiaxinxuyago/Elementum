@@ -22,7 +22,7 @@ Every image is an existing app asset: backgrounds, `concept-arts/library` plates
 | `V5_The_Combination.html` | The recommended combination built out (rows R1–R11, option A), every section, each part labelled with its source variant | https://claude.ai/artifact/Tja5Ak53p4dW8Vq3GKQGtB |
 | `N1_Pair_Illustrations_Brief.md` | The commission brief for the 25 energy-sheet paintings: spec, prompt prefix, one subject per pair | — |
 | `RV_The_Naming_Directions.html` | Follow-up: three directions for the Naming page. Ruled RV1 B · RV2 A · RV3 B and shipped 2026-10-21 | https://claude.ai/artifact/Q42LUgZBg8ypUruLiPDX8J |
-| `RS_The_Revelation_Sequence_Directions.html` | Follow-up: three directions for the revelation sequence (the Naming, the eight cards, the dissolve) on the Naming's own ground; the energy cards named by function, with THE FUNCTION's opening; rows RS1–RS7 awaiting the owner | https://claude.ai/artifact/AJbo7tbpCjz8yTfQDQar14 |
+| `RS_The_Revelation_Sequence_Directions.html` | Follow-up: three directions for the revelation sequence (the Naming, the eight cards, the dissolve) on the Naming's own ground; the energy cards named by function, with THE FUNCTION's opening. Ruled RS1 A (Direction 1), RS2–RS7 A, and shipped 2026-10-21 | https://claude.ai/artifact/AJbo7tbpCjz8yTfQDQar14 |
 | `Comparison_and_Rulings.html` | Side-by-side comparison, the 15-row ruling sheet, the new-art proposals | https://claude.ai/artifact/ChLJ9EGXRFtErjBPs8WSWW |
 
 ## The recommended combination ("V5")

@@ -955,6 +955,8 @@ export function buildMergedModel(m, chart) {
       now: r.isCore ? NOW_LINE.core[cond] : (clause && vol ? `${clause}, and ${vol}.` : null),
       fn: fnLabelFor(m, r), fnKey,
       teaser: s?.verdict || '',
+      // the first reading's energy card (DES_15 RS3 A): THE FUNCTION's first two sentences
+      fnHead: ((s?.fnReading?.define || '').match(/[^.!?]+[.!?]+/g) || []).slice(0, 2).map((x) => x.trim()).join(' '),
       pole: m.balanced ? 'balanced' : (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst',
       domains: GOD_RULING_DOMAINS[r.god] || [],
       presenceLine: r.presence > 0.5 ? fillT(PRESENCE_LINE.pattern, { n: r.presence, El: r.name }) : fillT(PRESENCE_LINE.clauses.absent, { El: r.name }),

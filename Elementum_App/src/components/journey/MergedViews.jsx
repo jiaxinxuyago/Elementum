@@ -13,7 +13,7 @@
 //   EnergySheet     one sheet for every energy tap (replaces the dot card)
 //   RunPage         "How am I running?": the stem × band paragraph, the
 //                   condition reading, the Blueprint door, the Codex panel
-//   FirstReading    the eight cards after the Naming
+//   FirstReading    the eight cards after the Naming, on the Naming's ground
 // ===================================================================
 
 import { useState } from 'react';
@@ -242,55 +242,77 @@ export function RunPage({ m, g, nature, Use, condIcon, onBlueprint, balance = nu
 }
 
 // ── the first reading: eight cards after the Naming ───────────────
-const DEEP = { earth: '#927750', metal: '#6A849A', fire: '#9E5540', water: '#3E5F85', wood: '#587a4d' };
-export function FirstReading({ m, g, sealSrc, Use, onShare, onEnter, start = 0 }) {
+// The first reading on the Naming's own ground (owner 2026-10-21, DES_15
+// RS1–RS7 A, "Direction 1 · One ground"): paper, the distant peaks, the
+// floating island, fog and a veil, under all eight cards. The seal gives way
+// to the energy's ink dot in the same place, sized by presence; each energy
+// is named by its function over THE FUNCTION's opening; card 8 shows the
+// ribbon as two groups of dots. InkDot comes in as a prop (V5Views imports
+// Dial from here, so importing it back would be a cycle).
+export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, start = 0 }) {
   const [i, setI] = useState(start);   // `start`: the DevBar opens a card directly
-  const track = [...m.els].sort((a, b) => b.presence - a.presence);
+  const pmax = Math.max(1, ...m.els.map((r) => r.presence));
   const cards = [
-    { k: 'ink', ey: 'Your first reading', seal: true, h: `You are ${m.archetype}.`, b: g.who },
-    { k: 'cond', ey: 'How you run', dial: true, h: `${g.condition}.`, b: g.runLine },
+    { k: 'who', ey: 'Your first reading', seal: true, h: `You are ${m.archetype}.`, b: g.who },
+    { k: 'cond', ey: 'How you run', dial: true, h: `You run ${g.condition}.`, b: g.runLine },
     ...g.order.map((el) => ({ k: el, el })),
-    { k: 'ink', ey: 'What your chart asks for', h: g.rx, b: g.start, end: true },
+    { k: 'rx', ey: 'What your chart asks for', h: g.rx, b: g.start, end: true },
   ];
   const n = cards.length;
   const go = (d) => setI((v) => Math.max(0, Math.min(n - 1, v + d)));
   const c = cards[i];
-  const dark = c.k === 'ink' || c.k === 'cond';
   const tap = (e) => {
     if (e.target.closest('button')) return;
     const r = e.currentTarget.getBoundingClientRect();
     go((e.clientX - r.left) < r.width / 3 ? -1 : 1);
   };
   const row = c.el ? g.rows[c.el] : null;
+  const stateOf = (r) => (r.isCore ? g.condition : r.pole === 'friction' ? 'Friction' : r.pole === 'catalyst' ? 'Catalyst' : 'Balanced');
+  const groups = g.balanced
+    ? [{ k: 'keep', label: 'Keep', els: g.order }]
+    : [{ k: 'rel', label: 'Release', els: g.ease }, { k: 'gro', label: 'Grow', els: g.seek }];
   return (
-    <div className={`mg-fr t-${c.k}${dark ? ' dark' : ''}`} onClick={tap} role="group" aria-label="Your first reading"
+    <div className={`mg-fr t-${c.k}`} onClick={tap} role="group" aria-label="Your first reading"
       tabIndex={0} onKeyDown={(e) => { if (e.key === 'ArrowRight') go(1); if (e.key === 'ArrowLeft') go(-1); }}>
+      <div className="mg-frg" aria-hidden="true">
+        <img className="mg-frtop" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
+        <img className="mg-frbot" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
+        <span className="mg-frfog" /><span className="mg-frveil" />
+      </div>
       <div className="mg-prog">{cards.map((_, k) => <i key={k} className={k <= i ? 'on' : ''} />)}</div>
       <button className="mg-skip" onClick={onEnter}>Skip</button>
       <div className="mg-card" key={i}>
         {row ? (
           <>
             <span className="mg-sk">{row.head}</span>
-            <span className={`mg-sglyph e-${row.el}`}><Use id={`el-${row.el}`} /></span>
-            <span className="mg-sfn">{row.name} is your {row.fn}</span>
-            <div className="mg-dbar"><span className="mg-dtrack">{track.map((t) => (t.presence > 0.5
-              ? <i key={t.el} style={{ width: `${t.presence}%`, background: t.el === row.el ? DEEP[t.el] : `color-mix(in srgb, ${DEEP[t.el]} 40%, #ECE2C9)` }} />
-              : <i key={t.el} className="gh" style={{ width: '2%' }} />))}</span><b>{row.presence}%</b></div>
-            <h3 className="mg-have">{row.presenceLine}</h3>
-            <p>{row.teaser}</p>
-            <Pill row={row} it Use={Use} />
+            <span className="mg-bigdot"><InkDot el={row.el} size={Math.round(96 + 72 * (row.presence / pmax))} Use={Use} label={`${row.name}, ${row.presence} percent`} /></span>
+            <h3>{row.name} is your {row.fn} energy.</h3>
+            <p>{row.fnHead || row.teaser}</p>
+            <span className="mg-state"><b>{row.presence}%</b><span>· {stateOf(row)} ·</span><Pill row={row} it Use={Use} /></span>
           </>
         ) : (
           <>
             <span className="mg-sk">{c.ey}</span>
             {c.seal ? <img className="mg-sseal" src={sealSrc} alt="" /> : null}
             {c.dial ? <Dial score={g.score} condition={g.condition} /> : null}
+            {c.end ? (
+              <div className="mg-rail" aria-label={g.rx}>
+                {groups.map((gr) => (
+                  <span key={gr.k} className={`mg-grp ${gr.k}`}>
+                    <span className="mg-gl">{gr.label}</span>
+                    <span className="mg-gd">{gr.els.map((el) => { const r = g.rows[el]; return (
+                      <span key={el}><InkDot el={el} size={Math.round(34 + 30 * (r.presence / pmax))} Use={Use} label={`${r.name}, ${r.presence} percent`} /><small>{r.name}</small></span>
+                    ); })}</span>
+                  </span>
+                ))}
+              </div>
+            ) : null}
             <h3>{c.h}</h3>
-            {c.b ? <p>{c.b}</p> : null}
+            {c.b ? <p className={c.end ? 'mg-quiet' : ''}>{c.b}</p> : null}
             {c.end ? (
               <div className="mg-send">
-                <button className="mg-next light" onClick={onShare}><Use id="ico-share" />Share your reading</button>
                 <button className="mg-next" onClick={onEnter}>Enter your reading <Use id="ico-arrow-r" /></button>
+                <button className="mg-next ghost" onClick={onShare}><Use id="ico-share" />Share your reading</button>
               </div>
             ) : null}
             {i === 0 ? <span className="mg-hint">Tap to continue</span> : null}

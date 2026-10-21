@@ -697,7 +697,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
 
           {/* THE MERGE: the first reading's eight cards, between the Naming and the dissolve */}
           {playingReveal && MERGE_V1 && merged && storyOn && (
-            <FirstReading key={storyStart} start={storyStart} m={m} g={merged} sealSrc={sealSrc} Use={Use} onShare={() => setShowShare(true)}
+            <FirstReading key={storyStart} start={storyStart} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
               onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
           )}
 

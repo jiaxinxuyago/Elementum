@@ -135,7 +135,7 @@ Rows: RV1 direction · RV2 where the stem and cast lines sit · RV3 where the th
 
 Built straight into elementum.life (same release rule as V5). The plate now reads: YOU ARE · seal · name · YOUR FIVE ENERGIES · five ink dots sized by presence with % and name (first-reading order) · the inscription 「庚 · YANG METAL · 1995 · APRIL 29 · 17–19 CST」 vertical at the right · Swipe up. The name's h2 margin is halved at every height so the swipe affordance fits (checked at 390×844 and 375×667). Code: `JourneyStage.jsx` (rvl-dist, rvl-inscr), `journey.css`.
 
-## Follow-up · the revelation sequence (owner feedback 2026-10-21, AWAITING RULING)
+## Follow-up · the revelation sequence (owner feedback 2026-10-21, RULED AND SHIPPED)
 
 The owner's feedback on the first reading's eight cards (screenshots of cards 1, 2 and 3): a paper gap above every card at the top edge; the cards' flat colours (ink, walnut, five tints) are new colours on top of the original background design; each energy should carry the wheel's ink dot sign, integrated into the background; each energy card's title should say "{Energy} is your {Function} energy" and reveal the function reading's teaser.
 
@@ -155,4 +155,7 @@ Rows: RS1 direction · RS2 the energy's sign · RS3 the title and teaser · RS4 
 
 | Row | Ruling | Date |
 |---|---|---|
-| RS1–RS7 | awaiting the owner | — |
+| RS1 | A · Direction 1, One ground. Owner: "Direction 1 is the best, Direction 2 technically has the best aesthetics, however there is too much written text that would compact the reading experience of the revelation sequence, plus compromise the actual reading content where we land the actual content." | 2026-10-21 |
+| RS2–RS7 | A each, taken at the recommended option: they are Direction 1 exactly as shown (one dot sized by presence; function title over THE FUNCTION's opening; "You run Overfueled." over the run line; the state line; the two dot groups on card 8; the Naming's ground) | 2026-10-21 |
+
+Built straight into elementum.life (same release rule as V5 and the Naming). Code: `MergedViews.jsx` (FirstReading), `merged.css` (the first-reading block), `journeyData.js` (`fnHead` on each merged row), `JourneyStage.jsx` (passes InkDot). Gates: eslint 0 errors, engine golden match, build, journey sweep 17/17; no overflow at 375×667.
