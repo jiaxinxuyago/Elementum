@@ -14,11 +14,11 @@ import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
 import { ink, inkLight, bronzeDark, gold, paperHair, cardstockBg, pigments, withAlpha } from '../../styles/tokens';
 import { AlmanacYear } from './almanac/AlmanacViews.jsx';
-import { IS_DEV_TOOLS } from '../../devtools.js';
+import { ALMANAC_LIVE } from '../../liveFlags.js';
 
 // Your Almanac (EVT-1, rounds 1–3 ruled): the dev build shows the new page;
 // elementum.life keeps this one until the owner rules otherwise.
-const ALMANAC_V1 = IS_DEV_TOOLS;
+const ALMANAC_V1 = ALMANAC_LIVE;   // live 2026-10-21 (liveFlags.js)
 export default function YearPage(props) {
   return ALMANAC_V1 ? <AlmanacYear {...props} /> : <YearPageLegacy {...props} />;
 }

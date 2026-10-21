@@ -96,3 +96,6 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* the live build hides the draft tags (main.jsx adds .is-live; owner 2026-10-21) */
+.is-live .dp-draft, .is-live .al-draft { display: none !important; }

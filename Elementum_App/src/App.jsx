@@ -68,6 +68,7 @@ const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/Lo
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 import { IS_DEV_TOOLS } from './devtools.js';
 import { MERGE_V1 } from './components/journey/mergeFlag.js';
+import { DEPTH_LIVE } from './liveFlags.js';
 const ReadingWheelPreview = lazy(() => import('./components/reading/ReadingWheelPreview.jsx'));
 const ReadingDayMasterScreen = lazy(() => import('./components/reading/ReadingDayMasterScreen.jsx'));
 const ReadingPillarChartScreen = lazy(() => import('./components/reading/ReadingPillarChartScreen.jsx'));
@@ -473,7 +474,7 @@ export default function App() {
   // the Day Master page → the Blueprint, the pillar chart → Life Chapters,
   // the Guidance tab's Energy Manual (retired, E8) → Domains.
   const openSection = (name) => { setScreen('app-reading'); setSectionTarget(name); };
-  const routeOpen = (route) => (IS_DEV && route === 'app-decade' ? openSection('chapters') : IS_DEV && route === 'app-manual' ? openSection('domains') : setScreen(route));
+  const routeOpen = (route) => (DEPTH_LIVE && route === 'app-decade' ? openSection('chapters') : DEPTH_LIVE && route === 'app-manual' ? openSection('domains') : setScreen(route));
 
   // Where Loading hands off once the chart is computed and the dwell ends:
   // 'reveal' (the Naming ceremony — a chart drawn for the first time through
@@ -693,11 +694,11 @@ export default function App() {
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
       // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
       // the journey (the same hook the DevBar uses, set by JourneyStage).
-      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} onOpenBlueprint={IS_DEV ? () => openSection('blueprint') : undefined} />;
+      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} onOpenBlueprint={DEPTH_LIVE ? () => openSection('blueprint') : undefined} />;
       break;
     case 'app-pillars':
       // D13 P5 — the 八字 Four-Pillars data page; "Discover it" → hour flow.
-      rendered = <ReadingPillarChartScreen onBack={goto(MERGE_V1 ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={IS_DEV ? () => openSection('chapters') : undefined} />;
+      rendered = <ReadingPillarChartScreen onBack={goto(MERGE_V1 ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={DEPTH_LIVE ? () => openSection('chapters') : undefined} />;
       break;
     case 'app-compat':
       rendered = (
@@ -743,7 +744,7 @@ export default function App() {
       // Retired DayMasterDetail — aliased to the D13 Day Master card (P4).
       // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
       // the journey (the same hook the DevBar uses, set by JourneyStage).
-      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} onOpenBlueprint={IS_DEV ? () => openSection('blueprint') : undefined} />;
+      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} onOpenBlueprint={DEPTH_LIVE ? () => openSection('blueprint') : undefined} />;
       break;
     case 'read-tengods':
       rendered = <TenGodsDetail onBack={goto('app-reading')} />;
@@ -762,7 +763,7 @@ export default function App() {
       break;
     case 'chart-reveal':
       // Retired RawChartPage — aliased to the D13 八字 Pillar Chart (P5).
-      rendered = <ReadingPillarChartScreen onBack={goto(MERGE_V1 ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={IS_DEV ? () => openSection('chapters') : undefined} />;
+      rendered = <ReadingPillarChartScreen onBack={goto(MERGE_V1 ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={DEPTH_LIVE ? () => openSection('chapters') : undefined} />;
       break;
     case 'chart-resonance':
       // After recovering the hour, land on the D13 Pillar Chart (not the old raw chart).

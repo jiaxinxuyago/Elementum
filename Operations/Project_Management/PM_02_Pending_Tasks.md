@@ -77,6 +77,7 @@ The owner's framing (2026-10-17): "Who runs it layer is a major Domain reading t
 ## DM — the Day Master diagnosis and the merged "Your reading" (owner 2026-10-17 →)
 
 ### DM-2 · The merged reading ✅ LIVE ON elementum.life (2026-10-21), POLISH NEXT
+**2026-10-21 · everything ported live:** the depth sections, Your Almanac and the merge are on elementum.life (`src/liveFlags.js`). The Life Chapters and Stars samples are piped in (`tools/build-depth-samples.mjs`). Draft tags show on the dev site only.
 The catalogue and the Day Master page are one page, "Your reading" (option 1, 2026-10-18). It is built on dev.elementum.life behind `MERGE_V1 = IS_DEV_TOOLS` (2026-10-20) and contains:
 - the first reading's eight cards after the Naming, then the dissolve into the wheel;
 - beats 1–3: the hero with Birth chart and the condition pill, the wheel with arrows by default, the dial, Start here, and what your chart asks for;
@@ -90,7 +91,6 @@ Open:
 - polish each page;
 - the 14 merged-journey drafts (only the golden chart is written; the other charts fall back);
 - the remaining 29 band paragraphs;
-- the depth sections go live with the Domains session; until then, the live sheet's domain chips are labels and there is no Blueprint door.
 
 ## EP — the element-page restructure (owner feedback + rulings ×4, 2026-08-19; REA_03 ELEMENT_PAIR row)
 

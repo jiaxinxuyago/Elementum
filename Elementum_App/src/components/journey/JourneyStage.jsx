@@ -76,6 +76,7 @@ import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
+import { DEPTH_LIVE } from '../../liveFlags.js';
 
 const FIRSTRUN_KEY = 'elementum_journey_v1_done';
 const CEREMONY_MS = 2800;
@@ -110,7 +111,7 @@ const DOMAINS_V2 = false;
 // sections below the wheel (Domains, Life Chapters, Stars, the Energy
 // Blueprint) and their pages, on the dev site only until the real content
 // lands. Units not yet written render their draft lines (B3).
-const DEPTH_V1 = IS_DEV_TOOLS;
+const DEPTH_V1 = DEPTH_LIVE;   // live 2026-10-21 (liveFlags.js)
 const DEPTH_SCREENS = ['domains', 'chapters', 'stars', 'blueprint'];
 // THE MERGE (owner 2026-10-18, option 1; rulings 2026-10-19 Q1–Q6 A and
 // 2026-10-20): the catalogue and the Day Master page as one page, "Your

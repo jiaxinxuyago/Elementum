@@ -28,11 +28,11 @@ import { MoodboardArt } from '../VisualTile.jsx';
 import { Icon, ElementMark } from '../../shared/icons';
 import { ink, inkLight, bronzeDark, silk, pigments, withAlpha } from '../../../styles/tokens';
 import { AlmanacHub } from '../almanac/AlmanacViews.jsx';
-import { IS_DEV_TOOLS } from '../../../devtools.js';
+import { ALMANAC_LIVE } from '../../../liveFlags.js';
 
 // Your Almanac (EVT-1, rounds 1–3 ruled): the dev build shows the new page;
 // elementum.life keeps this one until the owner rules otherwise.
-const ALMANAC_V1 = IS_DEV_TOOLS;
+const ALMANAC_V1 = ALMANAC_LIVE;   // live 2026-10-21 (liveFlags.js)
 export default function TodayScreen(props) {
   return ALMANAC_V1 ? <AlmanacHub {...props} /> : <TodayScreenLegacy {...props} />;
 }

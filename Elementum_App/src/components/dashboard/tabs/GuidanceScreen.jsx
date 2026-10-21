@@ -12,10 +12,10 @@
 // ===================================================================
 
 import { useChart } from '../../../store/chartContext.jsx';
-import { IS_DEV_TOOLS } from '../../../devtools.js'; // THE DEPTH (E8): the Energy Manual retires into Domains and Life Chapters on the dev site
 import { useUpgrade } from '../UpgradeModal.jsx';
 import HorizonHeader from '../../guidance/HorizonHeader.jsx';
 import InkTile from '../../guidance/InkTile.jsx';
+import { DEPTH_LIVE } from '../../../liveFlags.js';
 
 const TIER_RANK = { free: 0, seeker: 1, advisor: 2 };
 
@@ -83,7 +83,7 @@ export default function GuidanceScreen({ onOpen }) {
 
       {/* 2×2 feature grid */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 11, marginTop: 11 }}>
-        {GRID.filter((c) => !(IS_DEV_TOOLS && c.key === 'manual')).map((c) => (
+        {GRID.filter((c) => !(DEPTH_LIVE && c.key === 'manual')).map((c) => (
           <InkTile
             key={c.key}
             variant="grid"
