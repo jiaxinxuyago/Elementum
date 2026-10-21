@@ -23,6 +23,7 @@ No italic is used anywhere. The relation labels stay locked.
 | V2 The Album | https://claude.ai/artifact/Q5o395Dp21HtcMBDjrWX3o |
 | V3 The Almanac Home | https://claude.ai/artifact/YH9NpghZ82RmKvvTqa5Zhh |
 | V4 The Five Gates | https://claude.ai/artifact/D9Kdo4mSKm7Rf1pxUTCjz2 |
+| V5 The Combination (recommended) | https://claude.ai/artifact/Tja5Ak53p4dW8Vq3GKQGtB |
 | Comparison and ruling sheet | https://claude.ai/artifact/ChLJ9EGXRFtErjBPs8WSWW |
 
 All content comes from the running app: the golden chart (庚 The Blade, 1995-04-29 18:00 Beijing, Overfueled) and an Underfueled sample (乙 The Vine, 1990-09-17 05:00). Almanac ribbon values were read from the live DOM on 2026-10-21.

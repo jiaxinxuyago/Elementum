@@ -19,9 +19,12 @@ Every image is an existing app asset: backgrounds, `concept-arts/library` plates
 | `V2_The_Album.html` | Wheel plus a grid of teaser tiles; every section reads as leaves | https://claude.ai/artifact/Q5o395Dp21HtcMBDjrWX3o |
 | `V3_The_Almanac_Home.html` | Opens on Today; Your reading as a book with a contents page | https://claude.ai/artifact/YH9NpghZ82RmKvvTqa5Zhh |
 | `V4_The_Five_Gates.html` | The energies as the index; a five-sign lens rail on every page | https://claude.ai/artifact/D9Kdo4mSKm7Rf1pxUTCjz2 |
+| `V5_The_Combination.html` | The recommended combination built out (rows R1–R11, option A), every section, each part labelled with its source variant | https://claude.ai/artifact/Tja5Ak53p4dW8Vq3GKQGtB |
 | `Comparison_and_Rulings.html` | Side-by-side comparison, the 15-row ruling sheet, the new-art proposals | https://claude.ai/artifact/ChLJ9EGXRFtErjBPs8WSWW |
 
 ## The recommended combination ("V5")
+
+Built out as `V5_The_Combination.html` (https://claude.ai/artifact/Tja5Ak53p4dW8Vq3GKQGtB).
 
 Each part comes from the variant that does it best. These are rows R1 to R11 on the ruling sheet, option A each.
 
