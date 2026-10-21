@@ -14,4 +14,6 @@
 // dev site only (main.jsx marks the live build).
 // ===================================================================
 export const DEPTH_LIVE = true;
-export const ALMANAC_LIVE = true;
+// Owner 2026-10-21 (L1 A, confirmed): Your Almanac stays on the dev site until
+// its batch lands and the owner has read the pages again.
+export const ALMANAC_LIVE = false;

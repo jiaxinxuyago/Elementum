@@ -68,3 +68,5 @@ Rulings (owner, 2026-10-21): "G1 A, G2 A, G3 A, G4 A, G5 A, G6 A, G7 A, G8 A, G9
 ## Round 4, the templates (2026-10-21): awaiting the owner
 
 Same review page, version 4: 58 golden-chart templates across the 13 unit kinds (K1–K13), the dev build's pages, the batch plan (378 units, 320 to write), and P4 (personal reminders need a Supabase migration and a push-worker deploy, neither of which runs on push to main) and L1 (going live).
+
+Rulings (owner, 2026-10-21): "K1 A … K13 A, P4 A, L1 A". The 58 templates are approved as the voice of the batch. P4 A: write the migration, the worker change and the client now, switched off, with the owner's exact steps. L1 A: the Almanac stays on the dev site until the batch lands; asked about the Day Master session's port that had just made it live, the owner chose "Back to dev now" (ALMANAC_LIVE = false).
