@@ -387,6 +387,19 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [playingReveal, model]);
 
+  // ── THE EDGE's door + domain sheet state ─────────────────────────
+  // Hooks for the Domains door/sheet live here (above the `!model` return)
+  // so they run in the same order on every render; their handlers stay
+  // beside the element-screen code below.
+  const [domScroll, setDomScroll] = useState(null);   // the domain word to scroll to once THE DOMAINS renders
+  const [domSheet, setDomSheet] = useState(null);     // the open domain sheet, or null
+  // The sheet never outlives its page: whenever the page key (screen,
+  // element, section) changes, the sheet is dropped before paint.
+  const domPageKey = `${screen}|${elOpen}|${elSec}`;
+  const [domSheetPage, setDomSheetPage] = useState(domPageKey);
+  if (domSheetPage !== domPageKey) { setDomSheetPage(domPageKey); setDomSheet(null); }
+  useEffect(() => { if (!domScroll) return; const t = setTimeout(() => { const el = document.querySelector(`.elpos-domread[data-dom="${domScroll}"]`) || document.querySelector('.elpos-row.open'); el?.scrollIntoView({ block: 'center', behavior: 'smooth' }); setDomScroll(null); }, 80); return () => clearTimeout(t); }, [domScroll, elSec, posOpen]);
+
   if (!model) return null;
 
   const m = model;
@@ -430,18 +443,14 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   // reading carries this domain word (the edge's own god first, then the
   // deepest seat with the word), and scroll to its
   // paragraph once rendered; a word no seat carries lands on the first seat.
-  const [domScroll, setDomScroll] = useState(null);
   // THE EDGE's domain sheet (owner 2026-10-15, late): a row's domain mark
   // opens a sheet with the seat's teaser line and the unlock to the Domains
   // tier; unlocked, "Read it" lands in THE DOMAINS at that word.
   // The title and the button name a seat only when that seat rules the word
   // (`rules`); otherwise they promise no reading for it (bug check D2, owner
   // 2026-10-17). The full landing is rebuilt with the Domain reading (DOM-1).
-  const [domSheet, setDomSheet] = useState(null);
-  useEffect(() => { setDomSheet(null); }, [screen, elOpen, elSec]);   // the sheet never outlives its page
   const openDomainSheet = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0] || null; const face = elFaces.find((f) => f.god === god) || elFaces[0] || null; setDomSheet({ word, god, seat, rules: !!seat && has(seat), face, elName: elScreen?.elName, el: elScreen?.el, teaser: seat ? (seat.teaser || seat.defline || firstSent(seat.reading || '')) : (face?.defline ? `${face.defline}. ${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.` : `${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.`) }); };
   const openDomainAt = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0]; setElSec('dom'); setPosOpen(seat?.id ?? null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); setDomScroll(seat ? word : null); };
-  useEffect(() => { if (!domScroll) return; const t = setTimeout(() => { const el = document.querySelector(`.elpos-domread[data-dom="${domScroll}"]`) || document.querySelector('.elpos-row.open'); el?.scrollIntoView({ block: 'center', behavior: 'smooth' }); setDomScroll(null); }, 80); return () => clearTimeout(t); }, [domScroll, elSec, posOpen]);
   // The mechanism equation graphic (capsules + 生/克 link, wp-dotcard scope) —
   // shared by the mechanism teaser card and its detail screen.
   // The graphic is a true EQUATION (owner 2026-09-01): the core capsule

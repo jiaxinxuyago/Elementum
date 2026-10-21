@@ -20,7 +20,7 @@
 // ===================================================================
 
 import { SLOT_RANK, CHAPTERS, GATES, DOMAIN_TAXONOMY } from '../../content/positions.js';
-import { TG_PERSONA } from '../../content/tgNames.js';
+import { TG_PERSONA } from '../../content/index.js';
 import { TG_PATTERNS } from '../../content/tgPatterns.js';
 
 export const DEC_MIN = 10; export const DEC_MAX = 75;

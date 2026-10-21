@@ -16,7 +16,7 @@
 // ===================================================================
 
 import { GATE_SPAN } from '../reading/domainsResolve.js';
-import { TG_DEFLINE } from '../../content/tgNames.js';
+import { TG_DEFLINE } from '../../content/index.js';
 
 const GATES = ['year', 'month', 'day', 'hour'];
 const GATE_NAME = { year: 'Year Gate', month: 'Month Gate', day: 'Day Gate', hour: 'Hour Gate' };
@@ -139,7 +139,7 @@ function Beats({ beats }) {
   });
 }
 
-export function DomainPage({ page, dm, positions, content, tier, onUpgrade, onDiscoverHour, Use, DOM }) {
+export function DomainPage({ page, dm, positions, tier, onUpgrade, onDiscoverHour, Use, DOM }) {
   if (!page) return null;
   const locked = tier === 'free';
   const lit = new Set(page.seats.map((s) => s.id));
