@@ -62,6 +62,19 @@ One hour with a New York CPA. Questions:
 ### 1.7 Google OAuth brand verification (OWNER-4)
 Google Cloud console → APIs & Services → OAuth consent screen → check the status; answer any email from the Trust and Safety team. Until it clears, the consent screen shows supabase.co.
 
+### 1.8 Billing: the Founding Pass term and subscriptions (S5 A, S6 A) · code is in `main`, these steps switch it on
+Do them in this order. The app already reads both the old and the new columns, so nothing breaks between steps.
+1. **Migration.** Supabase → SQL editor → paste and run `Elementum_App/supabase/migrations/0005_billing_terms.sql` (adds `advisor_until`, `sub_tier`, `sub_status` and an index).
+2. **Deploy the two workers** (PowerShell on the laptop, from `Elementum_App/`):
+   `npx wrangler deploy --config workers/stripe-webhook/wrangler.jsonc` then `npx wrangler deploy --config workers/llm/wrangler.jsonc`.
+   From now on a new Founding Pass is Seeker for life plus 12 months of Advisor. Earlier buyers keep Advisor for life.
+3. **Cap the pass.** Stripe → Payment Links → the $9 Founding link → Edit → Advanced → "Limit the number of payments" → 300. At public launch: Deactivate.
+4. **Webhook events.** Stripe → Developers → Webhooks → the elementum endpoint → add `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted` (keep `checkout.session.completed`).
+5. **Products.** Stripe → Product catalogue → "Seeker" with prices $9.99 monthly and $59.99 yearly; "Advisor" with $19.99 monthly and $119.99 yearly.
+6. **Four Payment Links**, one per price. For each: Metadata `plan` = `seeker` or `advisor`; under the subscription settings set the same metadata on the subscription; on the two yearly links add a 7-day free trial. After payment: "Don't show confirmation page", redirect to `https://elementum.life/`.
+7. **Customer Portal.** Stripe → Settings → Billing → Customer portal → allow cancel and switching between the four prices → copy the login link.
+8. Send the four Payment Link URLs and the portal link to the strategy session. It puts them in `src/infra/links.js` (`seekerCheckout`, `seekerAnnualCheckout`, `advisorCheckout`, `advisorAnnualCheckout`, `billingPortal`); the design director places the annual and monthly choice in the upgrade sheet.
+
 ## 2 · The deploy gate (live since 2026-10-22, S15 A)
 
 A `check` script in `Elementum_App/package.json`, run by both deploy workflows before the build. A failure stops the deploy.

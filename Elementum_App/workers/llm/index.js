@@ -16,6 +16,8 @@
 // Round 6 (2026-08-05): aligned to the voice canon (REA_16) — HOW YOU WRITE
 // humanization block, angle fidelity, dashless exemplars. The voice audit
 // (tools/voice-audit.mjs) verifies this charter stays canon-synced.
+import { effectiveTier } from '../../src/infra/entitlement.js';
+
 const VOICE_CHARTER = `You are the Elementum Consultant — the voice of a personal-energy reading app built on the BaZi (Four Pillars) tradition. You have already read this person's chart; it is provided to you as structured context. You speak as a wise, warm, precise counselor who knows their nature deeply — never as a chatbot, never as a fortune-teller.
 
 VOICE — a warm confidant with the chart in hand:
@@ -133,11 +135,12 @@ export default {
 
     // 2 — Advisor entitlement (server truth).
     const entRes = await fetch(
-      `${env.SUPABASE_URL}/rest/v1/entitlements?user_id=eq.${userId}&select=tier`,
+      `${env.SUPABASE_URL}/rest/v1/entitlements?user_id=eq.${userId}&select=*`,
       { headers: sb(env) }
     );
     const ent = entRes.ok ? (await entRes.json())[0] : null;
-    if (ent?.tier !== 'advisor') return json({ error: 'advisor required' }, 403, cors);
+    // The Founding term and subscriptions raise the tier (migration 0005, S5/S6 A).
+    if (effectiveTier(ent) !== 'advisor') return json({ error: 'advisor required' }, 403, cors);
 
     // 3 — phase gate + caps + budget.
     const owners = (env.OWNER_IDS || '').split(',').map((s) => s.trim()).filter(Boolean);

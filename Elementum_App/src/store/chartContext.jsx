@@ -9,6 +9,7 @@
 import { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
 import { calculateBaziChart, ENGINE_VERSION } from '../engine/index.js';
 import { supabase } from '../infra/supabase.js';
+import { effectiveTier } from '../infra/entitlement.js';
 import { useAuth } from './authContext.jsx';
 
 const ChartContext = createContext(null);
@@ -143,15 +144,18 @@ export function ChartProvider({ children }) {
     if (!supabase || !user) return null;
     const { data, error } = await supabase
       .from('entitlements')
-      .select('tier, has_founding, has_self_report')
+      // '*' so the read works before and after migration 0005 (the term and
+      // subscription columns); effectiveTier() folds them into one tier.
+      .select('*')
       .eq('user_id', user.id)
       .maybeSingle();
     if (error || !data) return null;
-    setTier(data.tier);
+    const t = effectiveTier(data);
+    setTier(t);
     setHasFoundingState(!!data.has_founding);
     setHasSelfReportState(!!data.has_self_report);
-    writeTierCache(user.id, data.tier, !!data.has_founding, !!data.has_self_report);
-    return { tier: data.tier, hasFounding: !!data.has_founding, hasSelfReport: !!data.has_self_report };
+    writeTierCache(user.id, t, !!data.has_founding, !!data.has_self_report);
+    return { tier: t, hasFounding: !!data.has_founding, hasSelfReport: !!data.has_self_report };
   }, [user]);
 
   // Entitlement follows the session: fetch on sign-in / account switch; a

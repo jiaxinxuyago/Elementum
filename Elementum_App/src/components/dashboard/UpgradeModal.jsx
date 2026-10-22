@@ -88,10 +88,11 @@ const ADVISOR_FEATURES = [
   'AI Consultant — full chat',
   'AI-tailored daily readings',
 ];
-// Founding pass — beta-only one-time offer granting lifetime full (Advisor) access.
+// Founding pass — beta-only one-time offer (S5 A, 2026-10-22): Seeker for life
+// plus 12 months of Advisor; capped at 300 passes, closed at public launch.
 const FOUNDING_FEATURES = [
-  'Lifetime full access — everything, forever',
-  'AI Consultant + AI-tailored daily readings',
+  'Seeker for life — every full reading, forever',
+  'Advisor for your first 12 months: AI Consultant + AI-tailored daily readings',
   'Energy Manual, full readings, Codex, unlimited Draw',
   'Founding member — locked in before public launch',
 ];

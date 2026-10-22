@@ -292,4 +292,6 @@ Round 1, in the owner's words: "S1 B, S2 A, S3 A, S4 A, S5 A, S6 A, S7 A, S8 A, 
 | Item | State |
 |---|---|
 | Rulings recorded | done 2026-10-22 |
+| E1, E2, E3 | done 2026-10-22, live: record in `DEV_04` run log 2026-10-22; notice to the content sessions in `ComparativeAnalysis/Handoffs/2026-10-22-engine-accuracy/NOTICE.md` |
+| B1, B2 billing code (S5 A, S6 A) | done 2026-10-22 in `main`: migration 0005, `src/infra/entitlement.js`, the webhook and llm worker; switched on by the owner's steps in `INF_02` §1.8 |
 | I3 the deploy gate | done 2026-10-22: `npm run check` (lint plus seven QA checks) runs before the build in both deploy workflows (`INF_02` §2) |

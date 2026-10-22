@@ -9,10 +9,16 @@
 // Stripe checkout / payment links, per pricing tier.
 // TODO(beta): populate when Stripe is wired (see INF_01 backend architecture).
 export const PAYMENT = {
+  // Subscriptions (S6 A): one Payment Link per plan, each with metadata
+  // plan=seeker|advisor (INF_02 §1.8). Null until the owner creates them.
   seekerCheckout: null,
+  seekerAnnualCheckout: null,
   advisorCheckout: null,
-  // Founding pass — one-time LIVE Stripe Payment Link. Grants lifetime Advisor
-  // access. ($9 founding launch price — keep this and the Stripe price in sync.)
+  advisorAnnualCheckout: null,
+  // Stripe Customer Portal login link (manage or cancel a subscription).
+  billingPortal: null,
+  // Founding pass — one-time LIVE Stripe Payment Link ($9, capped at 300 in
+  // Stripe). Seeker for life plus 12 months of Advisor (S5 A).
   foundingCheckout: 'https://buy.stripe.com/fZu3coeb9dQwgihctm7Re00',
   // Self-Report — one-time LIVE Payment Link ($6.99). ⚠ The webhook routes
   // products by amount (workers/stripe-webhook PRODUCTS) — price changes in

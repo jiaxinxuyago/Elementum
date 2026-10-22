@@ -3,8 +3,11 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // Stripe POSTs events here. On a verified checkout.session.completed carrying
 // a client_reference_id (the buyer's Supabase user id — attached by the app's
-// purchase flow), write the Founding entitlement server-side:
-//   tier=advisor · has_founding=true · stripe_customer_id
+// purchase flow), write the entitlement server-side (migration 0005):
+//   Founding Pass → tier=seeker · has_founding · advisor_until = +12 months (S5 A)
+//   Self-Report   → has_self_report
+//   Subscription  → sub_tier · sub_status · stripe_customer_id (S6 A); later
+//                   customer.subscription.* events find the row by customer id.
 // This makes "paid" server-truth: the client can only READ its entitlement
 // (RLS); only this Worker (service-role) can write it. Idempotent — Stripe
 // retries and duplicate events converge on the same row state.
@@ -69,10 +72,50 @@ async function grantEntitlement(env, userId, fields) {
 // the 100%-off testing coupon — still identify the product; amount_total is
 // the fallback for events without a subtotal.
 // ⚠ If a price changes in Stripe, change it here IN THE SAME DEPLOY.
+// Founding buyers before 2026-10-22 hold tier 'advisor' for life and are never
+// touched; from the S5 A ruling a new pass is Seeker for life plus 12 months of
+// Advisor (src/infra/entitlement.js reads advisor_until).
+const YEAR_MS = 365 * 24 * 60 * 60 * 1000;
 const PRODUCTS = {
-  900: { name: 'founding-pass', fields: { tier: 'advisor', has_founding: true } }, // $9.00
-  699: { name: 'self-report',   fields: { has_self_report: true } },               // $6.99
+  900: { name: 'founding-pass', fields: () => ({ tier: 'seeker', has_founding: true, advisor_until: new Date(Date.now() + YEAR_MS).toISOString() }) }, // $9.00
+  699: { name: 'self-report',   fields: () => ({ has_self_report: true }) },                                                                          // $6.99
 };
+
+// Subscriptions (S6 A). Each subscription Payment Link carries metadata
+// plan=seeker|advisor, copied to the checkout session and (through
+// subscription_data.metadata) to the subscription. The recurring amount is the
+// fallback, so a link set up without metadata still routes.
+// ⚠ Same rule as PRODUCTS: a price change in Stripe ships with this table.
+const PLANS = {
+  999: 'seeker', 5999: 'seeker',     // $9.99/mo · $59.99/yr
+  1999: 'advisor', 11999: 'advisor', // $19.99/mo · $119.99/yr
+};
+const planOf = (obj) => {
+  const meta = obj?.metadata?.plan;
+  if (meta === 'seeker' || meta === 'advisor') return meta;
+  const price = obj?.items?.data?.[0]?.price;
+  return PLANS[price?.unit_amount ?? obj?.amount_subtotal] || null;
+};
+
+// Update the row that holds this Stripe customer. Returns the rows written; an
+// empty result means the checkout that links customer → user has not landed
+// yet, and the caller answers 500 so Stripe retries the event later.
+async function updateByCustomer(env, customerId, fields) {
+  const res = await fetch(`${env.SUPABASE_URL}/rest/v1/entitlements?stripe_customer_id=eq.${encodeURIComponent(customerId)}`, {
+    method: 'PATCH',
+    headers: {
+      apikey: env.SUPABASE_SERVICE_ROLE_KEY,
+      Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
+      'Content-Type': 'application/json',
+      Prefer: 'return=representation',
+    },
+    body: JSON.stringify({ ...fields, updated_at: new Date().toISOString() }),
+  });
+  if (!res.ok) throw new Error(`supabase update failed: ${res.status} ${await res.text()}`);
+  return res.json();
+}
+
+const SUB_EVENTS = new Set(['customer.subscription.created', 'customer.subscription.updated', 'customer.subscription.deleted']);
 
 export default {
   async fetch(request, env) {
@@ -95,7 +138,21 @@ export default {
       // 'no_payment_required' = a zero-total checkout (100%-off promotion
       // code) — legitimate and complete; Stripe never marks those 'paid'.
       const settled = session.payment_status === 'paid' || session.payment_status === 'no_payment_required';
-      if (settled && userId) {
+      if (userId && session.mode === 'subscription') {
+        // A subscription checkout (a trial completes with nothing paid yet).
+        const plan = planOf(session);
+        if (!plan) {
+          console.error(`UNKNOWN PLAN subtotal=${session.amount_subtotal} user=${userId} session=${session.id} — set metadata plan on the Payment Link`);
+          return new Response('received (unknown plan — logged)', { status: 200 });
+        }
+        try {
+          await grantEntitlement(env, userId, { sub_tier: plan, sub_status: session.payment_status === 'paid' ? 'active' : 'trialing', stripe_customer_id: session.customer || null });
+          console.log(`subscription ${plan} started: user=${userId} session=${session.id}`);
+        } catch (err) {
+          console.error(String(err));
+          return new Response('entitlement write failed', { status: 500 });
+        }
+      } else if (settled && userId) {
         const cents = session.amount_subtotal ?? session.amount_total;
         const product = PRODUCTS[cents];
         if (!product) {
@@ -106,7 +163,7 @@ export default {
           return new Response('received (unknown product — logged)', { status: 200 });
         }
         try {
-          await grantEntitlement(env, userId, { ...product.fields, stripe_customer_id: session.customer || null });
+          await grantEntitlement(env, userId, { ...product.fields(), stripe_customer_id: session.customer || null });
           console.log(`${product.name} granted: user=${userId} session=${session.id}`);
         } catch (err) {
           // 500 → Stripe retries with backoff; nothing is lost.
@@ -117,6 +174,32 @@ export default {
         // Paid but no user id = a checkout that bypassed the app's account gate
         // (e.g. the bare Payment Link opened directly). Log for manual backfill.
         console.warn(`checkout completed without client_reference_id: session=${session.id} email=${session.customer_details?.email || '?'}`);
+      }
+    }
+
+    if (SUB_EVENTS.has(event.type)) {
+      // Renewals, plan changes, failed cards and cancellations (the Customer
+      // Portal and dunning both end here).
+      const sub = event.data?.object || {};
+      const ended = event.type === 'customer.subscription.deleted';
+      const plan = planOf(sub);
+      const fields = { sub_status: ended ? 'canceled' : sub.status };
+      if (plan) fields.sub_tier = plan;
+      try {
+        const rows = sub.customer ? await updateByCustomer(env, sub.customer, fields) : [];
+        if (!rows.length) {
+          // A fresh event usually beat its own checkout.session.completed: ask
+          // Stripe to retry. Past an hour (or a cancellation) the customer never
+          // came through the app: log for manual backfill and acknowledge.
+          const fresh = Date.now() / 1000 - (event.created || 0) < 3600;
+          console.warn(`${event.type}: no entitlement row for customer=${sub.customer}${fresh && !ended ? ' yet — Stripe will retry' : ' — backfill by hand'}`);
+          if (fresh && !ended) return new Response('customer not linked yet', { status: 500 });
+          return new Response('received (customer not linked — logged)', { status: 200 });
+        }
+        console.log(`${event.type}: customer=${sub.customer} status=${fields.sub_status} plan=${plan || 'unchanged'}`);
+      } catch (err) {
+        console.error(String(err));
+        return new Response('entitlement write failed', { status: 500 });
       }
     }
 
