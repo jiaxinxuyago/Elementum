@@ -15,7 +15,7 @@
 //
 // The header bleeds out of its <main> via negative margins, so `sidePad`
 // must match the consuming <main>'s horizontal padding (feature mains pad
-// 20px → sidePad 20; the hub pads 18px but bleeds 22px → sidePad 22).
+// every tab page pads 18px → the default; pass sidePad only for an exception).
 // ===================================================================
 
 const SILK = 'rgb(241,233,214)';
@@ -62,7 +62,7 @@ export default function HorizonHeader({
   sidePad,
 }) {
   if (variant === 'hero') {
-    const pad = sidePad ?? 22;
+    const pad = sidePad ?? 18;   // every page pads 18px (visual pass 2026-10-22)
     return (
       <div style={{ position: 'relative', margin: `-54px -${pad}px 0px`, height: 268, overflow: 'hidden' }}>
         {/* image — radial-masked, desaturated */}

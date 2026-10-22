@@ -81,7 +81,7 @@ export default function EnergyManualScreen({ onBack, onOpenConsultant }) {
   // ── Setup gate ────────────────────────────────────────────────
   if (!setup) {
     return (
-      <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
+      <main style={{ minHeight: '100%', padding: '54px 18px 24px' }}>
         {MANUAL_HEADER(onBack)}
         <div style={{ height: 14 }} />
         <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.65, color: inkSoft, margin: '0 0 18px' }}>
@@ -133,7 +133,7 @@ export default function EnergyManualScreen({ onBack, onOpenConsultant }) {
     : `Your current decade and year shape how ${active.label.toLowerCase()} unfolds now.`;
 
   return (
-    <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
+    <main style={{ minHeight: '100%', padding: '54px 18px 24px' }}>
       {MANUAL_HEADER(onBack)}
       <div style={{ height: 14 }} />
 

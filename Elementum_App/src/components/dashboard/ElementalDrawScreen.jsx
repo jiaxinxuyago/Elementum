@@ -75,7 +75,7 @@ export default function ElementalDrawScreen({ onBack }) {
   const pick = (i) => { setSelected(i); setPhase('revealed'); };
 
   return (
-    <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
+    <main style={{ minHeight: '100%', padding: '54px 18px 24px' }}>
       <HorizonHeader
         art="/art/fhdr-draw.png"
         bgPosition="50% 30%"

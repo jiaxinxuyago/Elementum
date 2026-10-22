@@ -82,7 +82,7 @@ export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIco
           {stamp('run')}
           <span className="v5-ey">How am I running?</span>
           <span className="v5-dial"><Dial score={g.score} condition={g.condition} /></span>
-          <span className="v5-ft">{g.runShort}{mins.run ? <em> · {mins.run} min</em> : null}</span>
+          <span className="v5-ft"><span>{g.runShort}</span>{mins.run ? <em> · {mins.run} min</em> : null}</span>
         </button>
         {first ? (
           <button type="button" className="v5-bt" onClick={() => onEnergy(first.el)}>

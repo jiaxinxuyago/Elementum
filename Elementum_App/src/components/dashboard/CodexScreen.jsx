@@ -139,7 +139,7 @@ export default function CodexScreen({ onBack }) {
   });
 
   return (
-    <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
+    <main style={{ minHeight: '100%', padding: '54px 18px 24px' }}>
       <HorizonHeader
         art="/art/fhdr-codex.png"
         bgPosition="50% 16%"

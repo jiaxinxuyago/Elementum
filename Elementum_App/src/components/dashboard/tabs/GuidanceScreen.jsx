@@ -51,7 +51,7 @@ export default function GuidanceScreen({ onOpen }) {
         variant="hero"
         art="/art/guidance-hero.png"
         bgPosition="50% 20%"
-        sidePad={22}
+        sidePad={18}
         eyebrow="Your Guidance"
         title="Paths Forward"
         subtitle="Five ways to walk with your chart — from a daily question to a reading of your whole life."

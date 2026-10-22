@@ -171,7 +171,7 @@ export default function ChartResonanceScreen({ onBack, onDone }) {
 // ── layout pieces ──
 function Shell({ onBack, children }) {
   return (
-    <div style={{ minHeight: '100%', background: silk, padding: '54px 22px 28px', display: 'flex', flexDirection: 'column' }}>
+    <div style={{ minHeight: '100%', background: silk, padding: '54px 18px 28px', display: 'flex', flexDirection: 'column' }}>
       <button type="button" onClick={onBack} style={{
         appearance: 'none', background: 'transparent', border: 'none', color: inkLight, cursor: 'pointer',
         padding: 0, marginBottom: 18, display: 'inline-flex', alignItems: 'center', gap: 6,

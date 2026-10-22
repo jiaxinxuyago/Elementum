@@ -227,7 +227,7 @@ export default function AIConsultantScreen({ onBack }) {
   return (
     <div style={{ position: 'relative', height: '100%', display: 'flex', flexDirection: 'column', background: silk }}>
       {/* Header — horizon band (no cloud veil; chat fills the frame) */}
-      <div style={{ flexShrink: 0, padding: '54px 20px 10px' }}>
+      <div style={{ flexShrink: 0, padding: '54px 18px 10px' }}>
         <HorizonHeader
           art="/art/fhdr-consult.png"
           bgPosition="50% 34%"

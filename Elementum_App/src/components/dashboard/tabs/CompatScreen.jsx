@@ -35,9 +35,9 @@ export default function CompatScreen({ onStartCompare, onCompareAgain }) {
   // ── INTRO ─ ceremonial compat-hero invitation ──────────────────
   if (!result) {
     return (
-      <main style={{ minHeight: '100%', background: silk, padding: '54px 22px 24px' }}>
+      <main style={{ minHeight: '100%', background: silk, padding: '54px 18px 24px' }}>
         {/* Full-bleed pavilion hero */}
-        <div style={{ position: 'relative', margin: '-54px -22px 0', height: 330, overflow: 'hidden' }}>
+        <div style={{ position: 'relative', margin: '-54px -18px 0', height: 330, overflow: 'hidden' }}>
           <div aria-hidden="true" style={{ position: 'absolute', inset: 0, backgroundImage: 'url("/art/compat-hero.png")', backgroundSize: 'cover', backgroundPosition: '50% 32%' }} />
           <div aria-hidden="true" style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 120, background: 'linear-gradient(to bottom, rgba(28,24,19,0.34), rgba(28,24,19,0))', pointerEvents: 'none' }} />
           <div aria-hidden="true" style={{ position: 'absolute', left: 0, right: 0, bottom: -1, height: '62%', background: 'linear-gradient(to top, rgb(241,233,214) 4%, rgba(241,233,214,0.72) 32%, rgba(241,233,214,0) 100%)', pointerEvents: 'none' }} />
@@ -91,7 +91,7 @@ export default function CompatScreen({ onStartCompare, onCompareAgain }) {
   const otherPigKey = ELEMENT_TO_PIGMENT[r.other.element] || 'metal';
   const medallionPig = pigments[userPigKey].deep;
   return (
-    <main style={{ minHeight: '100%', padding: '54px 22px 24px' }}>
+    <main style={{ minHeight: '100%', padding: '54px 18px 24px' }}>
       <div style={{ position: 'relative', display: 'flex', gap: 10, marginBottom: 56 }}>
         <PersonCell label="You" stem={r.user.stem} element={r.user.element} sub={r.user.label} archetype={r.user.archetype} pigKey={userPigKey} />
         <PersonCell label={r.name} stem={r.other.stem} element={r.other.element} sub={r.other.label} archetype={r.other.archetype} pigKey={otherPigKey} />
