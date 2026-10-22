@@ -326,8 +326,10 @@ export function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
   // fields only; strength and strengthScore are unchanged.
   const tests = {score:g, season:{ok:gotLing, monthEl:monthMainQi}, root:{ok:gotDi}, allies:{ok:gotShi, n:supporting.length, of:nonDMStems.length}};
   if (g===7) return {strength:"extremely_strong",strengthScore:0.92,tests};
-  if (g===6||g===5||g===3) return {strength:"strong",strengthScore:0.72,tests};
-  if (g===4) return {strength:"moderate",strengthScore:0.50,tests};
+  // The month decides (子平真诠 论用神; 滴天髓 得时): out of season, a root and
+  // allies (3) read balanced, not strong (E2, owner 2026-10-22).
+  if (g===6||g===5) return {strength:"strong",strengthScore:0.72,tests};
+  if (g===4||g===3) return {strength:"moderate",strengthScore:0.50,tests};
   if (g===2||g===1) return {strength:"weak",strengthScore:0.30,tests};
   return {strength:"extremely_weak",strengthScore:0.12,tests};
 }

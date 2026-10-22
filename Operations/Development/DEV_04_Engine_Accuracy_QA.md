@@ -122,3 +122,9 @@ Found by `tools/qa-pillar-crosscheck.mjs` (independent sexagenary derivation, an
 2. **五虎遁 wrap-month stem** (小寒→立春 births): 丑 month offset from 寅 is +11, not −1. Guard case: `庚 pre-立春 year boundary` (1997-01-28 → 丙子年 **辛丑**月).
 
 Verification: crosscheck **6/6 agreement** · goldens re-blessed at 6 cases · all previously verified charts byte-identical (golden 乙亥 庚辰 庚寅 乙酉 unchanged) · journey suite 16/16 through the UI · ENGINE_VERSION 2→3 (cached charts recompute on next open). Cross-site spot-check of the two new guard cases per the §-protocol remains a recommended owner errand (independent-derivation verification applied in its place).
+
+## Run log addendum · 2026-10-22 · E1, E2, E3 (owner rulings, BIZ_05 §8)
+
+- **E1, the luck-pillar start.** The backward search now checks the next Gregorian year's 小寒 first. Against the minute-exact check (`ComparativeAnalysis/Evaluations/section-audit-2026-10-21/life-chapters/qa/qiyun.mjs`) the January backward cluster is gone; what is left is births within two days of a 节 (the day-level term dates, not ruled). 738 of 20,000 sampled charts move ten years; no golden case changed.
+- **E3, the unknown hour.** `calculateBaziChart({ hourUnknown: true })` scores from a null hour pillar (the display pillar is still noon). Known-hour output is identical; no golden case changed.
+- **E2, the strength band.** Test score 3 (out of season, rooted, with allies) maps to moderate, band balanced (子平真诠 论用神; 滴天髓 得时). Bands on 20,000 charts: concentrated 55.7% → 38.4%, balanced 1.1% → 18.5%, open unchanged at 43.1%; concentrated charts whose self plus resource share is under 35% fall from 11.2% to 1.2%. One golden case re-blessed by the owner's ruling: 丁 yin-fire winter female (戊辰 甲子 丁未 甲辰; Fire 3%, Wood 34%, Water 49%) strong → moderate, band concentrated → balanced, so its catalyst and friction roles swap. Tier A (pillars) unchanged; crosscheck green.

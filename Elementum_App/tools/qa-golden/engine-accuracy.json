@@ -1,5 +1,5 @@
 {
-  "blessedAt": "2026-09-17T21:28:57.644Z",
+  "blessedAt": "2026-10-22T02:25:58.595Z",
   "cases": [
     {
       "label": "REFERENCE 庚 (strong)",
@@ -117,9 +117,9 @@
         ]
       },
       "tierB": {
-        "strength": "strong",
-        "strengthScore": 0.72,
-        "band": "concentrated",
+        "strength": "moderate",
+        "strengthScore": 0.5,
+        "band": "balanced",
         "catalyst": "Water",
         "energies": [
           {
@@ -139,7 +139,7 @@
             "presence": 34,
             "score": 0.336,
             "roles": [
-              "friction"
+              "catalyst"
             ],
             "leadGod": "正印",
             "faces": [
@@ -152,7 +152,7 @@
             "presence": 14,
             "score": 0.142,
             "roles": [
-              "catalyst"
+              "friction"
             ],
             "leadGod": "伤官",
             "faces": [
@@ -166,7 +166,7 @@
             "score": 0.032,
             "roles": [
               "core",
-              "friction"
+              "catalyst"
             ],
             "leadGod": "比肩",
             "faces": [
@@ -179,7 +179,7 @@
             "score": 0,
             "roles": [
               "missing",
-              "catalyst"
+              "friction"
             ],
             "leadGod": "偏财",
             "faces": []
