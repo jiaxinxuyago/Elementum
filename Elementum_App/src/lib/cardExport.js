@@ -28,10 +28,10 @@ async function ready() {
 // Scoped font embed (Latin display families only). Passing fontEmbedCSS stops
 // html-to-image from walking every @font-face in the doc — including the CJK
 // families — which otherwise stalls the raster. '' → let it skip fonts.
-async function opts() {
+async function opts(pixelRatio) {
   const fontEmbedCSS = await getCardFontEmbedCSS();
   return {
-    pixelRatio: PIXEL_RATIO,
+    pixelRatio: pixelRatio || PIXEL_RATIO,
     cacheBust: true,
     backgroundColor: BG,
     ...(fontEmbedCSS ? { fontEmbedCSS } : { skipFonts: true }),
@@ -50,10 +50,12 @@ function saveObject(href, filename, revoke) {
 }
 
 // PNG download. Returns true on success.
-export async function downloadCardPng(node, filename = 'elementum-card.png') {
+// `pixelRatio` (optional): a card narrower than 540px passes its own ratio to
+// reach the 1080-wide story canvas (the identity card: 306 × 544 at 1080/306).
+export async function downloadCardPng(node, filename = 'elementum-card.png', { pixelRatio } = {}) {
   if (!node) return false;
   await ready();
-  const dataUrl = await toPng(node, await opts());
+  const dataUrl = await toPng(node, await opts(pixelRatio));
   if (!dataUrl) return false;
   saveObject(dataUrl, filename, false);
   track('share_click', { method: 'save' });
@@ -62,10 +64,10 @@ export async function downloadCardPng(node, filename = 'elementum-card.png') {
 
 // Native share with the image file where supported (mobile share sheet), else a
 // download. Returns 'shared' | 'cancelled' | 'downloaded' | 'error'.
-export async function shareCard(node, { filename = 'elementum-card.png', title, text } = {}) {
+export async function shareCard(node, { filename = 'elementum-card.png', title, text, pixelRatio } = {}) {
   if (!node) return 'error';
   await ready();
-  const blob = await toBlob(node, await opts());
+  const blob = await toBlob(node, await opts(pixelRatio));
   if (!blob) return 'error';
   const file = new File([blob], filename, { type: 'image/png' });
 

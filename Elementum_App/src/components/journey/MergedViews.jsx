@@ -255,14 +255,18 @@ export function RunPage({ m, g, nature, Use, condIcon, onBlueprint, balance = nu
 // is named by its function over THE FUNCTION's opening; card 8 shows the
 // ribbon as two groups of dots. InkDot comes in as a prop (V5Views imports
 // Dial from here, so importing it back would be a cycle).
-export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, start = 0 }) {
+export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, start = 0, door = false }) {
   const [i, setI] = useState(start);   // `start`: the DevBar opens a card directly
   const pmax = Math.max(1, ...m.els.map((r) => r.presence));
   const cards = [
     { k: 'who', ey: 'Your first reading', seal: true, h: `You are ${m.archetype}.`, b: g.who },
     { k: 'cond', ey: 'How you run', dial: true, h: `You run ${g.condition}.`, b: g.runLine },
     ...g.order.map((el) => ({ k: el, el })),
-    { k: 'rx', ey: 'What your chart asks for', h: g.rx, b: g.start, end: true },
+    // Card 8 as the door (owner 2026-10-22, DES_15 SC1 A): where to begin, the
+    // start energy lit among the five, its pair head and now line, one button.
+    door
+      ? { k: 'rx', ey: 'Where to begin', h: g.start || g.rx, b: g.first ? `${g.rows[g.first].head}. ${g.rows[g.first].now || ''}`.trim() : null, end: true }
+      : { k: 'rx', ey: 'What your chart asks for', h: g.rx, b: g.start, end: true },
   ];
   const n = cards.length;
   const go = (d) => setI((v) => Math.max(0, Math.min(n - 1, v + d)));
@@ -301,7 +305,17 @@ export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, sta
             <span className="mg-sk">{c.ey}</span>
             {c.seal ? <img className="mg-sseal" src={sealSrc} alt="" /> : null}
             {c.dial ? <Dial score={g.score} condition={g.condition} /> : null}
-            {c.end ? (
+            {c.end && door ? (
+              <div className="mg-dist" aria-label={g.start || g.rx}>
+                {g.order.map((el) => { const r = g.rows[el]; const lit = !g.first || el === g.first; return (
+                  <span key={el} className={lit ? 'on' : 'off'}>
+                    <InkDot el={el} size={Math.round(30 + 34 * (r.presence / pmax))} Use={Use} label={`${r.name}, ${r.presence} percent`} />
+                    <small>{r.presence}%</small><span>{r.name}</span>
+                    {g.first === el ? <em>Start here</em> : null}
+                  </span>
+                ); })}
+              </div>
+            ) : c.end ? (
               <div className="mg-rail" aria-label={g.rx}>
                 {groups.map((gr) => (
                   <span key={gr.k} className={`mg-grp ${gr.k}`}>
@@ -318,7 +332,7 @@ export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, sta
             {c.end ? (
               <div className="mg-send">
                 <button className="mg-next" onClick={onEnter}>Enter your reading <Use id="ico-arrow-r" /></button>
-                <button className="mg-next ghost" onClick={onShare}><Use id="ico-share" />Share your reading</button>
+                {door ? null : <button className="mg-next ghost" onClick={onShare}><Use id="ico-share" />Share your reading</button>}
               </div>
             ) : null}
             {i === 0 ? <span className="mg-hint">Tap to continue</span> : null}

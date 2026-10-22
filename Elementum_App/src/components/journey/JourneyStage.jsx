@@ -60,7 +60,7 @@ function MetricBars({ m }) {
     </div>
   );
 }
-import { APP_URL } from '../../infra/index.js';
+import { APP_URL, APP_HOST } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
 import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading } from './MergedViews.jsx';
 import { MERGE_V1 } from './mergeFlag.js';
@@ -76,7 +76,7 @@ import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
-import { DEPTH_LIVE, V5_LIVE, EJ_LIVE } from '../../liveFlags.js';
+import { DEPTH_LIVE, V5_LIVE, EJ_LIVE, SC_LIVE } from '../../liveFlags.js';
 import { EnergyLadder, NameRung, DomainMap, ArtSlot, FN_ART, PERSONA_ART } from './EnergyJourney.jsx';
 import { AlbumHub, LeafReader, Balance, EnergyPager, AcrossChart, useSwipe, markRead, SECTION_ART, InkDot } from './V5Views.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
@@ -115,6 +115,12 @@ function DevDoor({ go, route }) {
 const DOM = { Wealth: 'dom-wealth', Career: 'dom-career', Health: 'dom-health', Love: 'dom-love', Family: 'dom-family', Social: 'dom-social', Mind: 'dom-mind', Growth: 'dom-growth', career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health' };
 const Use = ({ id, className }) => (
   <svg className={className} viewBox="0 0 24 24"><use href={U(id)} /></svg>
+);
+// The share card's signs: html-to-image copies a sprite symbol into the
+// exported image only when the <use> names it through xlink:href, so the card
+// sets both (without it the exported dots lose their element signs).
+const UseX = ({ id, className }) => (
+  <svg className={className} viewBox="0 0 24 24"><use href={U(id)} xlinkHref={U(id)} /></svg>
 );
 const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
@@ -230,11 +236,11 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   }, []);
   const doShare = async (platform) => {
     flashCard('Rendering your card…');
-    const r = await shareCard(cardRef.current, { filename: 'elementum-identity.png', title: 'Elementum', text: 'My identity on Elementum' });
+    const r = await shareCard(cardRef.current, { filename: 'elementum-identity.png', title: 'Elementum', text: 'My identity on Elementum', pixelRatio: SC_LIVE ? 1080 / 306 : undefined });
     flashCard(r === 'shared' ? `Shared — finish in ${platform}` : r === 'downloaded' ? 'Image saved — post it anywhere' : r === 'cancelled' ? null : 'Could not share');
   };
   const doSave = async () => {
-    const ok = await downloadCardPng(cardRef.current, 'elementum-identity.png');
+    const ok = await downloadCardPng(cardRef.current, 'elementum-identity.png', SC_LIVE ? { pixelRatio: 1080 / 306 } : undefined);
     flashCard(ok ? 'Clean image saved' : 'Could not save');
   };
   const doCopy = async () => {
@@ -702,7 +708,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
 
           {/* THE MERGE: the first reading's eight cards, between the Naming and the dissolve */}
           {playingReveal && MERGE_V1 && merged && storyOn && (
-            <FirstReading key={storyStart} start={storyStart} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
+            <FirstReading key={storyStart} start={storyStart} door={SC_LIVE} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
               onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
           )}
 
@@ -850,6 +856,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                             <button type="button" aria-pressed={wheelView === 'do'} onClick={() => setWheelView('do')}>What they do to you</button>
                             <button type="button" aria-pressed={wheelView === 'amt'} onClick={() => setWheelView('amt')}>By amount</button>
                           </div>
+                          {SC_LIVE ? <button type="button" className="sharebtn iconly mg-wshare" aria-label="Share your identity card" onClick={() => setShowShare(true)}><Use id="ico-share" /></button> : null}
                         </div>
                         {mergedWheel}
                         <p className="mg-whint">Tap an energy. Tap the seal for how you run.</p>
@@ -1608,6 +1615,32 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
           <div className="scbody">
             <span className="sc-hint">Your identity card</span>
             <button className="scclose" aria-label="Close" onClick={() => setShowShare(false)}><Use id="ico-close" /></button>
+            {SC_LIVE ? (
+            <div className="share-card" data-var="naming" ref={cardRef}>
+              {/* The Naming made portable (owner 2026-10-22, DES_15 SC3 A): its ground,
+                  its plate, the name, the manifesto, the five dots and the inscription. */}
+              <img className="sn-bgt" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
+              <img className="sn-bgb" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
+              <span className="sn-fog" /><span className="sn-veil" />
+              <span className="sn-inscr">{m.stemLit} · {m.cast.replace(/^CAST FROM /, '')}</span>
+              <div className="scin">
+                <div className="scey">ELEMENTUM</div>
+                <span className="sn-ey">YOU ARE</span>
+                <img className="sn-plate" src={paintSrc} alt={`${m.stem}, ${m.archetype}`} />
+                <div className="sn-name">{m.archetype}</div>
+                <p className="sn-man">{m.manifesto}</p>
+                <div className="sn-dist">
+                  {rvlOrder.map((r) => (
+                    <span key={r.el}>
+                      <InkDot el={r.el} size={Math.round(24 + 26 * (r.presence / rvlMax))} Use={UseX} label={`${r.name} ${r.presence} percent`} />
+                      <small>{r.presence}%</small>{r.name}
+                    </span>
+                  ))}
+                </div>
+                <span className="sn-foot">{APP_HOST}</span>
+              </div>
+            </div>
+            ) : (
             <div className="share-card" data-var="tiles" ref={cardRef}>
               <div className="scv" />
               <div className="scin">
@@ -1668,6 +1701,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 </div>
               </div>
             </div>
+            )}
             <div className="sctray">
               <button className="scp ig" aria-label="Share to Instagram" onClick={() => doShare('Instagram')}><span className="ico"><IgGlyph /></span><span className="lbl">Instagram</span></button>
               <button className="scp tt" aria-label="Share to TikTok" onClick={() => doShare('TikTok')}><span className="ico"><TtGlyph /></span><span className="lbl">TikTok</span></button>

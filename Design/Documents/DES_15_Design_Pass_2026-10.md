@@ -197,7 +197,7 @@ Rows: EJ1 the folding · EJ2 the cover · EJ3 the name rung · EJ4 the relation 
 
 Built straight into elementum.life. Switch: `EJ_LIVE` in `src/liveFlags.js`. Code: `components/journey/EnergyJourney.jsx` (NameRung, Equation, Box, TeaserCard, DomainMap, Relay, ArtSlot, the ladder), `energy.css`, `JourneyStage.jsx` (the element page under the switch; the function page keeps the definition and the keywords; the domains page leads with the map and the tiles), `MergedViews.jsx` (the cover), `journeyData.js` (the law's picture line on the mechanism and the merged rows), `content/cycles.js` (`CYCLE_IMAGE_LINES`, transcribed from tpl_cycle_line). The journey sweep's anchor moved to the name rung.
 
-## Follow-up · card 8 and the share card (owner 2026-10-22, PROPOSED, awaiting ruling)
+## Follow-up · card 8 and the share card (owner 2026-10-22, RULED AND SHIPPED)
 
 Owner: card 8 should be solely for entering the reading; the shareable card stays on the album (catalogue) so the reader can share it at every revisit; reconsider the card's design for the current app; replace the grow/release sentence on card 8 with something else; two to three variations of each.
 
@@ -229,7 +229,22 @@ S-A is the screen that named the reader, made portable; it reads at thumb size (
 
 **The tray:** T-A the rail as today (Instagram, TikTok, X, Save, Copy link) · T-B one Share button to the phone's own sheet (Web Share on the PWA; the native sheet once the store build ships, wired on `capacitor-shell`) with Save and Copy link beside it. A 1:1 crop is drawn on the export shelf for SC5.
 
-Rows: SC1 card 8's direction (8A/8B/8C) · SC2 card 8's button ("Enter your reading" / "Open your reading" / "Start with Fire", opening Fire's sheet first) · SC3 the share card (S-A/S-B/S-C) · SC4 the album entry (E-A/E-B/E-C) · SC5 formats (9:16 only / 9:16 and 1:1) · SC6 the tray (T-A/T-B). Recommended: SC1 A, SC2 A, SC3 A, SC4 A, SC5 A, SC6 A. Not built until ruled.
+Rows: SC1 card 8's direction (8A/8B/8C) · SC2 card 8's button ("Enter your reading" / "Open your reading" / "Start with Fire", opening Fire's sheet first) · SC3 the share card (S-A/S-B/S-C) · SC4 the album entry (E-A/E-B/E-C) · SC5 formats (9:16 only / 9:16 and 1:1) · SC6 the tray (T-A/T-B). Recommended: SC1 A, SC2 A, SC3 A, SC4 A, SC5 A, SC6 A.
+
+| Row | Ruling | Date |
+|---|---|---|
+| SC1 | A · card 8 is "Where to begin": the five dots with the start energy lit ("Start here") and the other four ghosted, "Start with {El}, your {Function}.", the pair head and the now line. A Balanced chart (no start) keeps all five lit under the ribbon's Keep line | 2026-10-22 |
+| SC2 | A · one button, "Enter your reading"; the share button leaves card 8 | 2026-10-22 |
+| SC3 | A · the share card is the Naming plate: the Naming's ground, the stem plate, You are · {archetype}, the manifesto, the five dots with their shares, the inscription at the right, elementum.life. The A1 "tiles" card stays in the code behind the switch | 2026-10-22 |
+| SC4 | C · the album's entry is the round share button at the head of the wheel tile (YOUR FIVE ENERGIES), right of the wheel-view switch | 2026-10-22 |
+| SC5 | A · 9:16 only: the card is 306 × 544 and exports at 1080 × 1920 | 2026-10-22 |
+| SC6 | A · the tray as it ships: Instagram, TikTok, X, Save, Copy link | 2026-10-22 |
+
+Built straight into elementum.life. Switch: `SC_LIVE` in `src/liveFlags.js` (off restores card 8's two buttons and the A1 card). Code: `FirstReading` takes `door` (`MergedViews.jsx`, `.mg-dist` in `merged.css`); the card is `.share-card[data-var="naming"]` in `JourneyStage.jsx` with its styles in `merged.css`; the wheel tile's `.mg-wshare` button opens it.
+
+Found and fixed while building: exported share cards lost every element sign. html-to-image copies a sprite symbol into the image only when the `<use>` names it through `xlink:href`, and the app writes `href`. The card's dots now set both (`UseX`). The A1 card had the same gap. `cardExport.js` now takes an optional `pixelRatio`, so the 306px card reaches the 1080-wide story canvas; other callers keep the default.
+
+Gates: eslint 0 errors, engine regression matches golden, build, route sweep clean, journey sweep 17/17; the export probe saves a 1080 × 1920 PNG with all five signs.
 
 ## Follow-up · the store build (owner question 2026-10-22)
 
