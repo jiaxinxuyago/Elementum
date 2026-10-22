@@ -10,6 +10,7 @@
 import { toPng, toBlob } from 'html-to-image';
 import { getCardFontEmbedCSS } from './fontEmbed.js';
 import { track } from '../infra/analytics.js';
+import { shareFile } from '../infra/native.js';
 
 // 2× so a 540×960 logical card exports at 1080×1920 — the native story canvas.
 const PIXEL_RATIO = 2;
@@ -68,6 +69,12 @@ export async function shareCard(node, { filename = 'elementum-card.png', title, 
   const blob = await toBlob(node, await opts());
   if (!blob) return 'error';
   const file = new File([blob], filename, { type: 'image/png' });
+
+  // Inside the native shell the share sheet takes the file through the
+  // Capacitor plugins; 'web' means we are in a browser and carry on below.
+  const native = await shareFile(blob, { filename, title, text });
+  if (native === 'shared') { track('share_click', { method: 'native' }); return 'shared'; }
+  if (native === 'cancelled') return 'cancelled';
 
   if (navigator.canShare && navigator.canShare({ files: [file] })) {
     try {

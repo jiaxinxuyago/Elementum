@@ -3,8 +3,10 @@ import './styles/global.css';
 import App from './App.jsx';
 import { IS_DEV_TOOLS } from './devtools.js';
 import { initMonitoring } from './infra/monitoring.js';
+import { initNative } from './infra/native.js';
 
 initMonitoring();
+initNative();   // the Capacitor shell (STORE-3): a no-op on the web
 
 // The live build hides the "draft" tags on units still being written (owner
 // 2026-10-21: the sections go live with their drafts); the dev site keeps them.
