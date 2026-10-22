@@ -63,12 +63,13 @@ One hour with a New York CPA. Questions:
 Google Cloud console → APIs & Services → OAuth consent screen → check the status; answer any email from the Trust and Safety team. Until it clears, the consent screen shows supabase.co.
 
 ### 1.8 Billing: the Founding Pass term and subscriptions (S5 A, S6 A) · code is in `main`, these steps switch it on
+Progress: A (migration) and B (workers) done 2026-10-22; C deferred.
 Do them in this order. The app already reads both the old and the new columns, so nothing breaks between steps.
 1. **Migration.** Supabase → SQL editor → paste and run `Elementum_App/supabase/migrations/0005_billing_terms.sql` (adds `advisor_until`, `sub_tier`, `sub_status` and an index).
 2. **Deploy the two workers** (PowerShell on the laptop, from `Elementum_App/`):
    `npx wrangler deploy --config workers/stripe-webhook/wrangler.jsonc` then `npx wrangler deploy --config workers/llm/wrangler.jsonc`.
    From now on a new Founding Pass is Seeker for life plus 12 months of Advisor. Earlier buyers keep Advisor for life.
-3. **Cap the pass.** Stripe → Payment Links → the $9 Founding link → Edit → Advanced → "Limit the number of payments" → 300. At public launch: Deactivate.
+3. **Cap the pass (deferred by the owner to before the first public post).** The live $9 link was created through the API, so the dashboard cannot edit it, and Workbench is read-only in live mode. Duplicate it in the dashboard (⋯ → Duplicate) with "Limit the number of payments" 300, the deactivation message, the same redirect `https://elementum.life/?founding=ok` and the same promotion-code setting; send the new URL so `foundingCheckout` in `src/infra/links.js` is swapped; deactivate the old link only after that deploy.
 4. **Webhook events.** Stripe → Developers → Webhooks → the elementum endpoint → add `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted` (keep `checkout.session.completed`).
 5. **Products.** Stripe → Product catalogue → "Seeker" with prices $9.99 monthly and $59.99 yearly; "Advisor" with $19.99 monthly and $119.99 yearly.
 6. **Four Payment Links**, one per price. On the two yearly links add a 7-day free trial. After payment: redirect to `https://elementum.life/`. No metadata is needed: the webhook routes by the price (a `plan` metadata key is honoured if present).
