@@ -197,6 +197,40 @@ Rows: EJ1 the folding · EJ2 the cover · EJ3 the name rung · EJ4 the relation 
 
 Built straight into elementum.life. Switch: `EJ_LIVE` in `src/liveFlags.js`. Code: `components/journey/EnergyJourney.jsx` (NameRung, Equation, Box, TeaserCard, DomainMap, Relay, ArtSlot, the ladder), `energy.css`, `JourneyStage.jsx` (the element page under the switch; the function page keeps the definition and the keywords; the domains page leads with the map and the tiles), `MergedViews.jsx` (the cover), `journeyData.js` (the law's picture line on the mechanism and the merged rows), `content/cycles.js` (`CYCLE_IMAGE_LINES`, transcribed from tpl_cycle_line). The journey sweep's anchor moved to the name rung.
 
+## Follow-up · card 8 and the share card (owner 2026-10-22, PROPOSED, awaiting ruling)
+
+Owner: card 8 should be solely for entering the reading; the shareable card stays on the album (catalogue) so the reader can share it at every revisit; reconsider the card's design for the current app; replace the grow/release sentence on card 8 with something else; two to three variations of each.
+
+Found first: under V5 the album has no share entry at all (the wheel's centre seal opens "How am I running?"), so card 8's ghost button was the only way to the card. The card itself is still the A1 "tiles" card from the September share flow (its own wheel drawing, Seek and Skip columns, the platform rail).
+
+Page: `Design/Library/Design_Pass_2026-10/SC_Card_8_and_the_Share_Card.html` · https://claude.ai/artifact/1pUBv5azMG6BSZ2NpKt6MQ. Golden chart. Every line is the app's or the station's: `tpl_rx_ribbon` (the start line, promoted to the title), `ELEMENT_PAIR.head`, `tpl_now_line`, `CONDITION_READING.verb` and `helps`, `STEM.who`, `identity.manifesto`, the Naming's inscription, the album's section titles and read line.
+
+**Card 8 (the door; the share button and the grow/release sentence leave; the sentence stays on the album's "What does my chart ask for?" tile and the How-you-run ribbon).**
+
+| | Picture | Words |
+|---|---|---|
+| 8A · Where to begin (recommended) | The Naming's five dots return, the start energy lit, the other four ghosted, "Start here" under it | "Start with Fire, your Order." · "Fire forges the Blade. It gives your surplus a shape and a use, and you have very little of it." · Enter your reading |
+| 8B · What helps | The seal, the condition's verb with its glyph | "Give your extra force a place to go — aim it, don't store it." · "Start with Fire, your Order." · Enter |
+| 8C · The contents | The seal, the album's six sections as a table of contents with minutes | "Start with Fire, your Order." · the six titles · Enter |
+
+8A lands on the album's own "Start here" tile (same dot, same head), and its five dots are already on screen for the dissolve onto the wheel's disks.
+
+**The share card (9:16, 540 × 960 as today; the A1 "tiles" card retires to `__ore`).**
+
+| | Ground | Content |
+|---|---|---|
+| S-A · The Naming plate (recommended) | The Naming's: peaks, island, fog, veil | ELEMENTUM · You are · seal 150px · The Blade · the manifesto · the five dots with their shares · the inscription 庚 · YANG METAL · 1995 · APRIL 29 · 17–19 CST at the right · elementum.life |
+| S-B · The wheel | Rice paper | You are · The Blade · the dominance wheel as the album draws it (locked design, relation labels) · Overfueled · "Your Metal takes in more than it spends." |
+| S-C · The first card | The mist veil | The seal · "You are The Blade." · the who line · the five dots small |
+
+S-A is the screen that named the reader, made portable; it reads at thumb size (seal and name) and all its assets ship today. S-B's wheel labels fall below legibility at story size.
+
+**Where it lives on the album:** E-A the app's own 32px round share button in the identity strip, between the name and Birth chart / Overfueled (recommended) · E-B a wide "Your identity card" tile with the card's thumbnail in the bento · E-C the share button on the wheel tile's corner (only makes sense with S-B).
+
+**The tray:** T-A the rail as today (Instagram, TikTok, X, Save, Copy link) · T-B one Share button to the phone's own sheet (Web Share on the PWA; the native sheet once the store build ships, wired on `capacitor-shell`) with Save and Copy link beside it. A 1:1 crop is drawn on the export shelf for SC5.
+
+Rows: SC1 card 8's direction (8A/8B/8C) · SC2 card 8's button ("Enter your reading" / "Open your reading" / "Start with Fire", opening Fire's sheet first) · SC3 the share card (S-A/S-B/S-C) · SC4 the album entry (E-A/E-B/E-C) · SC5 formats (9:16 only / 9:16 and 1:1) · SC6 the tray (T-A/T-B). Recommended: SC1 A, SC2 A, SC3 A, SC4 A, SC5 A, SC6 A. Not built until ruled.
+
 ## Follow-up · the store build (owner question 2026-10-22)
 
 The planned path is the Capacitor wrap (PM_02 STORE-3), under which the React code, the CSS motion and the dissolve carry over unchanged; the browser beneath becomes WebKit on iOS. Prepared now:

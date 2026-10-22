@@ -1,0 +1,368 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Card 8 and Share</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="kit.css">
+<style>
+/* The Naming's ground, as the first reading ships it (paper, the distant peaks,
+   the floating island, fog). Card 8 and the share card both sit on it. */
+.reveal{background:linear-gradient(180deg,#F5EEDE 0%,#F1E9D6 52%,#ECE2C9 100%);position:relative;height:100%;overflow:hidden}
+.reveal .bgt,.reveal .bgb{position:absolute;left:0;width:100%;height:50%;object-fit:cover;pointer-events:none;z-index:0}
+.reveal .bgt{top:0;object-position:center top;-webkit-mask-image:linear-gradient(to bottom,#000 56%,transparent 100%);mask-image:linear-gradient(to bottom,#000 56%,transparent 100%)}
+.reveal .bgb{top:50%;object-position:center bottom;mix-blend-mode:multiply;opacity:.72;-webkit-mask-image:linear-gradient(to top,#000 60%,transparent 100%);mask-image:linear-gradient(to top,#000 60%,transparent 100%)}
+.reveal .fog{position:absolute;left:-8%;right:-8%;top:24%;height:52%;z-index:1;pointer-events:none;background:linear-gradient(to bottom,rgba(243,236,221,0) 0%,rgba(243,236,221,.14) 34%,rgba(244,238,224,.32) 50%,rgba(243,236,221,.14) 66%,rgba(243,236,221,0) 100%);filter:blur(20px)}
+.reveal .veil{position:absolute;left:0;right:0;top:46%;bottom:0;z-index:1;pointer-events:none;background:linear-gradient(to bottom,rgba(241,233,214,0) 0%,rgba(241,233,214,.55) 30%,rgba(241,233,214,.72) 100%)}
+.reveal .kstatus{position:absolute;left:0;right:0;top:0;z-index:5;background:none}
+.reveal .prog{position:absolute;top:40px;left:12px;right:12px;display:flex;gap:4px;z-index:5}
+.reveal .prog i{flex:1;height:3px;border-radius:2px;background:rgba(43,39,34,.18)} .reveal .prog i.on{background:#2b2722}
+.reveal .skip{position:absolute;top:52px;right:14px;z-index:5;font-family:var(--body);font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;opacity:.7}
+.reveal .rin{position:relative;z-index:3;display:flex;flex-direction:column;align-items:center;text-align:center;padding:74px 26px 44px;gap:12px;height:100%}
+.reveal .rin.mid{justify-content:center}
+.reveal .rey{font-family:var(--carve);font-size:9px;letter-spacing:3.2px;text-transform:uppercase;color:var(--bronzeDark)}
+.reveal .rtitle{font-family:var(--display);font-size:31px;font-weight:600;line-height:1.1;margin:0;text-wrap:balance}
+.reveal .rtitle.name{font-size:40px;font-weight:500;line-height:1.05}
+.reveal .rtitle.soft{font-weight:500;font-size:27px}
+.reveal .rp{font-size:16px;line-height:1.5;margin:0;max-width:30ch}
+.reveal .rp.quiet{color:var(--inkSoft);font-size:15px}
+.reveal .rseal{width:150px;height:150px}
+.reveal .rseal.sm{width:110px;height:110px}
+.reveal .inscr{position:absolute;right:22px;bottom:92px;z-index:3;writing-mode:vertical-rl;font-family:var(--carve);font-size:8.5px;letter-spacing:3px;color:var(--inkLight);opacity:.85;text-shadow:0 0 6px #F1E9D6,0 0 2px #F1E9D6}
+.reveal .inscr .han{font-family:var(--han);font-size:12px;letter-spacing:4px}
+.reveal .btns{display:flex;flex-direction:column;gap:10px;width:100%;max-width:300px;margin-top:6px}
+.reveal .btn{display:flex;align-items:center;justify-content:center;gap:8px;border-radius:999px;padding:13px 18px;font-family:var(--body);font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase}
+.reveal .btn.ink{background:var(--ink);color:var(--cream)}
+.reveal .btn.ghost{color:var(--ink);border:1px solid var(--paperHair);background:rgba(248,246,240,.55)}
+/* the distribution row (the Naming) */
+.dist{display:flex;align-items:flex-end;justify-content:center;gap:10px;margin-top:6px}
+.dist span{display:flex;flex-direction:column;align-items:center;gap:4px;font-family:var(--carve);font-size:9px;letter-spacing:1px;color:var(--inkSoft);transition:opacity .3s}
+.dist span.off{opacity:.36}
+.dist small{font-family:var(--body);font-size:12px;color:var(--ink)}
+.dist .lit{font-family:var(--carve);font-size:8px;letter-spacing:2px;color:var(--up);margin-top:2px}
+/* the big ink dot */
+.bigdot{display:flex;flex-direction:column;align-items:center;gap:6px}
+.bigdot .kdot{filter:drop-shadow(0 6px 16px rgba(43,39,34,.18))}
+/* today's card 8: the two groups */
+.rail{display:flex;align-items:flex-end;justify-content:center;gap:22px;min-height:120px;max-width:100%}
+.rail .grp{display:flex;flex-direction:column;align-items:center;gap:8px}
+.rail .grp .gl{font-family:var(--carve);font-size:9px;letter-spacing:2.4px;color:var(--bronzeDark)}
+.rail .grp .gd{display:flex;align-items:flex-end;gap:10px}
+.rail .grp .gd span{display:flex;flex-direction:column;align-items:center;gap:5px;font-family:var(--carve);font-size:8.5px;letter-spacing:1px;color:var(--inkSoft)}
+.rail .grp.rel .gl{color:var(--down)} .rail .grp.gro .gl{color:var(--up)}
+/* card 8C: the contents */
+.toc{display:flex;flex-direction:column;gap:0;width:100%;max-width:280px;margin-top:2px;background:rgba(248,246,240,.55);border:1px solid var(--paperHair);border-radius:14px;padding:4px 14px}
+.toc span{display:flex;align-items:center;gap:10px;padding:8px 0;border-top:1px dashed var(--paperHair);font-family:var(--display);font-weight:500;font-size:16px;color:var(--ink);text-align:left}
+.toc span:first-child{border-top:0}
+.toc span i{font-family:var(--carve);font-style:normal;font-size:9px;letter-spacing:1.2px;color:var(--bronzeDark);width:14px;flex:none}
+.toc span em{font-style:normal;margin-left:auto;font-family:var(--body);font-size:11.5px;color:var(--inkLight)}
+.toc .kdot{flex:none}
+/* the verb line on 8B */
+.verb{display:flex;align-items:center;gap:8px;font-family:var(--carve);font-size:10px;letter-spacing:2.4px;text-transform:uppercase;color:var(--bronzeDark)}
+.verb .ic{width:14px;height:14px}
+/* ── the share overlay, as the app draws it (dark scrim, the card, the tray) ── */
+.scov{position:absolute;inset:0;background:rgba(26,22,17,.62);backdrop-filter:blur(3px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;z-index:8}
+.scov .hint{font-family:var(--body);font-size:11px;letter-spacing:1px;color:#F4ECD9;opacity:.9}
+.scov .close{position:absolute;top:50px;right:16px;width:30px;height:30px;border-radius:50%;background:rgba(248,244,236,.92);display:grid;place-items:center;color:var(--ink)}
+.scov .close .ic{width:14px;height:14px}
+.scov .tray2{display:flex;gap:12px;align-items:flex-start;margin-top:2px}
+.scov .scp{display:flex;flex-direction:column;align-items:center;gap:4px;color:#F4ECD9;font-family:var(--mono);font-size:8px;letter-spacing:.4px}
+.scov .scp .ico{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;box-shadow:0 3px 10px rgba(0,0,0,.4);color:#fff;font-family:var(--body);font-weight:700;font-size:13px}
+.scov .scp.ig .ico{background:linear-gradient(45deg,#F9CE34 4%,#EE2A7B 48%,#6228D7 96%)}
+.scov .scp.tt .ico,.scov .scp.xx .ico{background:#050505}
+.scov .scp.util .ico{background:rgba(255,255,255,.09);box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
+.scov .scp.util .ico .ic{width:15px;height:15px;color:#F4ECD9}
+.scov .st-div{width:1px;height:36px;background:rgba(255,255,255,.22)}
+.scov .scp.one .ico{display:flex;align-items:center;gap:8px;width:auto;border-radius:999px;padding:0 18px;height:38px;background:#F4ECD9;color:var(--ink);font-size:11px;letter-spacing:1.6px;text-transform:uppercase;font-family:var(--body);font-weight:600}
+.scov .scp.one .ico .ic{width:14px;height:14px}
+.underlay{position:absolute;inset:0;overflow:hidden;filter:saturate(.9)}
+.underlay img{width:100%;display:block}
+/* the card itself: 9:16 at 300×533, scaled where it sits */
+.scwrap{width:261px;height:464px;flex:none}
+.scwrap .sc{transform:scale(.87);transform-origin:top left}
+.sc{width:300px;height:533px;border-radius:14px;overflow:hidden;position:relative;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.sc .rin{padding:24px 22px 20px;gap:10px}
+.sc .scey{font-family:var(--mono);font-size:7.5px;letter-spacing:2.6px;color:var(--inkLight)}
+.sc .rseal{width:150px;height:150px}
+.sc .rtitle.name{font-size:38px}
+.sc .rman{font-family:var(--display);font-weight:500;font-size:16px;line-height:1.3;color:var(--inkSoft);margin:0;max-width:26ch;text-wrap:balance}
+.sc .scfoot{margin-top:auto;font-family:var(--carve);font-size:8.5px;letter-spacing:3px;color:var(--bronzeDark)}
+.sc .inscr{top:34px;bottom:auto;right:13px}
+.sc .dist{margin-top:2px}
+.sc.paper{background:url(bg-reading-04-rice-paper.jpg) center/cover,#F1E9D6}
+.sc .scwheel{width:252px;margin:2px 0 0}
+.sc .scwheel img{width:100%;display:block}
+.sc .rp.who{font-size:15px;max-width:27ch}
+.sc .sc-run{display:flex;flex-direction:column;align-items:center;gap:6px}
+.sc .sc-run .rp{font-size:15px;max-width:27ch}
+.sc .sq{position:absolute;left:0;right:0;top:50%;height:300px;transform:translateY(-50%);border:1px dashed rgba(43,39,34,.45);pointer-events:none;z-index:4}
+.sc .sq::after{content:"1:1 crop";position:absolute;right:6px;bottom:4px;font-family:var(--carve);font-size:8px;letter-spacing:1.5px;color:var(--inkSoft)}
+.export{background:#1c1814;height:100%;display:flex;align-items:center;justify-content:center}
+/* ── the album (the V5 hub as it ships) ── */
+.hub{display:flex;flex-direction:column;gap:10px;padding:8px 14px 70px}
+.v5id{display:flex;align-items:center;gap:10px}
+.v5id .idseal{width:44px;height:44px;border-radius:50%;overflow:hidden;border:1px solid var(--paperHair);background:var(--cream);flex:none}
+.v5id .idseal img{width:100%;height:100%;object-fit:cover}
+.v5id .idnm{display:flex;flex-direction:column;min-width:0;flex:1}
+.v5id .idnm b{font-family:var(--display);font-weight:500;font-size:24px;line-height:1;color:var(--walnut,#5a4430)}
+.v5id .idact{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+.v5id .bchart{white-space:nowrap;font-family:var(--body);font-size:13px;font-weight:600;color:var(--bronzeDark)}
+.v5id .shic{width:32px;height:32px;border-radius:50%;background:#26221D;color:#F3EDDF;display:grid;place-items:center;flex:none;align-self:flex-start}
+.v5id .shic .ic{width:14px;height:14px}
+.v5mani{margin:0;font-family:var(--display);font-weight:500;font-size:16.5px;line-height:1.3;color:var(--inkSoft);border-left:3px solid var(--seal,#A0452E);padding-left:10px}
+.wtile{padding:10px 8px 8px;position:relative;display:flex;flex-direction:column;align-items:center;gap:6px}
+.wtile .shic{position:absolute;top:10px;right:10px;width:30px;height:30px;border-radius:50%;background:#26221D;color:#F3EDDF;display:grid;place-items:center}
+.wtile .shic .ic{width:13px;height:13px}
+.readline{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--inkLight);padding:0 2px}
+.readline .rl{flex:1;height:4px;border-radius:2px;background:var(--paperHair);overflow:hidden}
+.bento{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bt{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start;gap:6px;min-height:136px;padding:12px;border-radius:16px;border:1px solid var(--paperHair);background:var(--cardstock);text-align:left}
+.bt.wide{grid-column:1/-1;min-height:0}
+.bt .v5ey{font-family:var(--body);font-size:9.5px;font-weight:600;letter-spacing:2.2px;text-transform:uppercase;color:var(--bronzeDark)}
+.bt .cl{font-family:var(--display);font-weight:500;font-size:17px;line-height:1.2;color:var(--ink)}
+.bt .ft{display:flex;align-items:center;gap:6px;width:100%;margin-top:auto;font-size:12px;color:var(--inkLight);line-height:1.3}
+.bt .ft .readcirc{margin-left:auto}
+.bt .unread{position:absolute;top:10px;right:10px;width:8px;height:8px;border-radius:50%;border:1px solid var(--paperHair);background:var(--cream)}
+.bt .mg-dial{width:92px;margin:0 auto}
+.bt.idcard{flex-direction:row;align-items:center;gap:12px;padding:10px 12px}
+.bt.idcard .thumb{width:46px;height:82px;border-radius:6px;overflow:hidden;flex:none;box-shadow:0 2px 8px rgba(43,39,34,.18);position:relative;background:#F1E9D6}
+.bt.idcard .thumb .sc{transform:scale(.1533);transform-origin:top left;box-shadow:none;border-radius:0}
+.bt.idcard .idt{display:flex;flex-direction:column;gap:3px;flex:1}
+.bt.idcard .idt .cl{font-size:16px}
+.bt.idcard .idt small{font-size:12px;color:var(--inkLight)}
+.bt.idcard .shic{width:32px;height:32px;border-radius:50%;background:#26221D;color:#F3EDDF;display:grid;place-items:center;flex:none}
+.bt.idcard .shic .ic{width:14px;height:14px}
+.rx2{display:flex;gap:14px;align-items:center}
+.rx2 .g{display:flex;align-items:center;gap:6px}
+.rx2 .gl{font-family:var(--carve);font-size:8.5px;letter-spacing:1.6px}
+.rx2 .gl.r{color:var(--down)} .rx2 .gl.g{color:var(--up)}
+.shot{height:100%;background:#1c1814;overflow:hidden}
+.shot img{width:100%;display:block}
+/* page furniture */
+.cmp{max-width:880px;margin:26px auto 0}
+.cmp table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:640px}
+.cmp th,.cmp td{text-align:left;vertical-align:top;padding:9px 10px;border-top:1px solid var(--borderLight)}
+.cmp th{font-family:var(--carve);font-size:10px;letter-spacing:1.4px;color:var(--bronzeDark);font-weight:500}
+.cmp .scroll{overflow-x:auto;background:var(--cardstock);border:1px solid var(--paperHair);border-radius:12px}
+.good{color:var(--up)} .risk{color:var(--down)}
+.words{max-width:880px;margin:26px auto 0;background:var(--cardstock);border:1px solid var(--paperHair);border-radius:16px;padding:16px 18px}
+.words h2{font-family:var(--display);font-weight:500;font-size:26px;margin:0 0 6px}
+.words dl{display:grid;grid-template-columns:minmax(120px,180px) 1fr;gap:8px 14px;margin:0;font-size:14.5px}
+.words dt{font-family:var(--carve);font-size:10px;letter-spacing:1.4px;color:var(--bronzeDark);padding-top:3px}
+.words dd{margin:0}
+.words code{font-family:var(--mono);font-size:12px;color:var(--inkLight)}
+.words p{font-size:14.5px;color:var(--inkSoft);margin:8px 0 0}
+.rows{max-width:880px;margin:0 auto}
+.row{background:var(--cardstock);border:1px solid var(--paperHair);border-radius:16px;padding:16px;margin-top:12px}
+.row .rh{display:flex;gap:10px;align-items:baseline}
+.row .rc{font-family:var(--carve);font-size:13px;letter-spacing:1.5px;color:var(--bronzeDark)}
+.row h3{font-family:var(--display);font-weight:600;font-size:20px;margin:0}
+.row .why{font-size:14.5px;color:var(--inkSoft);margin:6px 0 10px}
+.opts{display:flex;flex-direction:column;gap:6px}
+.opt{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;text-align:left;border:1px solid var(--paperHair);background:var(--cream);border-radius:12px;padding:10px 12px;cursor:pointer;font:inherit;color:inherit;font-size:15px;line-height:1.4}
+.opt b{font-family:var(--carve);font-size:13px;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;border:1px solid var(--paperHair)}
+.opt .rec{display:inline-block;font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--up);margin-left:6px}
+.opt[aria-pressed="true"]{border-color:var(--ink);background:#fff}
+.opt[aria-pressed="true"] b{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:rgba(248,246,240,.97);border-top:1px solid var(--paperHair);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.tray .in{max-width:880px;margin:0 auto;display:flex;gap:10px;align-items:center}
+.tray code{flex:1;min-width:0;font-family:var(--body);font-size:15px;font-weight:600;white-space:nowrap;overflow-x:auto;padding:6px 0}
+.tray button{flex:none;border:0;border-radius:999px;background:var(--ink);color:var(--cream);font:inherit;font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:9px 14px;cursor:pointer}
+.tray .msg{font-size:12px;color:var(--up)}
+body{padding-bottom:120px}
+</style>
+<div id="app"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="jny-el-metal" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"></path></symbol>
+<symbol id="jny-el-wood" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"></path></symbol>
+<symbol id="jny-el-fire" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"></path></symbol>
+<symbol id="jny-el-earth" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"></path><path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"></path></symbol>
+<symbol id="jny-el-water" viewBox="0 0 24 24"><path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"></path><path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"></path></symbol>
+<symbol id="jny-ic-charged" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="13.5" r="6.2" fill="currentColor" stroke="none"></circle><path d="M12 3.2v2.4M5.2 6.4l1.7 1.7M18.8 6.4l-1.7 1.7"></path></g></symbol>
+<symbol id="jny-ic-balanced" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="7.2"></circle><path d="M4.8 12h14.4" stroke-linecap="round"></path><path d="M12 12a7.2 7.2 0 0 1-7.2 0v0a7.2 7.2 0 0 0 14.4 0v0a7.2 7.2 0 0 1-7.2 0Z" fill="currentColor" stroke="none" transform="translate(0 0.2)"></path></g></symbol>
+<symbol id="jny-ic-receptive" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="7.2" stroke-dasharray="2.6 3"></circle><circle cx="12" cy="15.2" r="2.1" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-ic-channel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 4.5v5M16.5 14.5v5"></path><path d="M4 12h14.5M15.2 8.7 18.5 12l-3.3 3.3"></path></g></symbol>
+<symbol id="jny-ic-fuel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="17.2" cy="12" r="3.4" fill="currentColor" stroke="none"></circle><path d="M3.5 12h8.3M9.2 8.9 12.3 12l-3.1 3.1"></path></g></symbol>
+<symbol id="jny-ar-up" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6"></path><path d="M6 11l6-6 6 6"></path></g></symbol>
+<symbol id="jny-ar-down" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v13"></path><path d="M6 13l6 6 6-6"></path></g></symbol>
+<symbol id="jny-ico-arrow-r" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12 H19"></path><path d="M14 7 L19 12 L14 17"></path></g></symbol>
+<symbol id="jny-ico-chev-l" viewBox="0 0 24 24"><path d="M15 6 L9 12 L15 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ico-chev-r" viewBox="0 0 24 24"><path d="M9 6 L15 12 L9 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ico-share" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="M8 7l4-4 4 4"></path><path d="M5 12v7a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19v-7"></path></g></symbol>
+<symbol id="jny-ico-close" viewBox="0 0 24 24"><path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"></path></symbol>
+<symbol id="jny-ic-codex" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.4C10.4 5.2 8.2 4.7 5.4 4.9v12c2.8-.2 5 .3 6.6 1.5 1.6-1.2 3.8-1.7 6.6-1.5v-12c-2.8-.2-5 .3-6.6 1.5z"></path><path d="M12 6.4V18.4"></path></g></symbol>
+<symbol id="jny-ic-save" viewBox="0 0 24 24"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ic-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 14.4l4.8-4.8"></path><path d="M8.2 11.1l-1.9 1.9a3 3 0 0 0 4.24 4.24l1.9-1.9"></path><path d="M15.8 12.9l1.9-1.9a3 3 0 0 0-4.24-4.24l-1.9 1.9"></path></g></symbol>
+<symbol id="jny-tab-today" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></g></symbol>
+<symbol id="jny-tab-guidance" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 4.8 L14.5 12 L12 19.2 L9.5 12 Z"></path><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-tab-reading" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5 C 6 4, 9 4, 12 6 C 15 4, 18 4, 21 5 V19 C 18 18, 15 18, 12 20 C 9 18, 6 18, 3 19 Z"></path><path d="M12 6 V20"></path></g></symbol>
+<symbol id="jny-tab-compat" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="12" r="6.5"></circle><circle cx="15.5" cy="12" r="6.5"></circle><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-tab-profile" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></g></symbol>
+<symbol id="jny-fn-body" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.6" r="2.6"></circle><path d="M12 8.4 V14.6"></path><path d="M7.2 12.2 L12 9.8 L16.8 12.2"></path><path d="M12 14.6 L8.6 21"></path><path d="M12 14.6 L15.4 21"></path></g></symbol>
+<symbol id="jny-fn-mind" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.2 C10 5.6 7.2 5.3 3.8 6 V18.6 C7.2 17.9 10 18.2 12 19.8 C14 18.2 16.8 17.9 20.2 18.6 V6 C16.8 5.3 14 5.6 12 7.2 Z"></path><path d="M12 7.2 V19.8"></path><path d="M6.6 9.6 C7.6 9.5 8.6 9.6 9.6 9.9"></path><path d="M6.6 12.6 C7.6 12.5 8.6 12.6 9.6 12.9"></path><path d="M14.4 9.9 C15.4 9.6 16.4 9.5 17.4 9.6"></path><path d="M14.4 12.9 C15.4 12.6 16.4 12.5 17.4 12.6"></path></g></symbol>
+<symbol id="jny-fn-expression" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 4.6 H17.8 A2.4 2.4 0 0 1 20.2 7 V14 A2.4 2.4 0 0 1 17.8 16.4 H10.6 L6.4 19.8 V16.4 H6.2 A2.4 2.4 0 0 1 3.8 14 V7 A2.4 2.4 0 0 1 6.2 4.6 Z"></path><path d="M9.3 12.2 C8.2 11.9 7.9 10.6 8.5 9.7 C9 9 9.9 8.8 10.5 9.3"></path><path d="M14.3 12.2 C13.2 11.9 12.9 10.6 13.5 9.7 C14 9 14.9 8.8 15.5 9.3"></path></g></symbol>
+<symbol id="jny-fn-action" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M10.9 5.6 L14.4 2.1 A1.2 1.2 0 0 1 16.1 2.1 L21.9 7.9 A1.2 1.2 0 0 1 21.9 9.6 L18.4 13.1 Z"></path><path d="M12.9 9.4 L4 18.3 A1.5 1.5 0 0 0 4 20.4 L4.4 20.8 A1.5 1.5 0 0 0 6.5 20.8 L14.6 11.1"></path></g></symbol>
+<symbol id="jny-fn-order" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.2 V20"></path><path d="M8.2 20.4 H15.8"></path><path d="M4.6 7.6 H19.4"></path><path d="M6.2 7.6 L3.2 13.6"></path><path d="M6.2 7.6 L9.2 13.6"></path><path d="M3.2 13.6 A3 3 0 0 0 9.2 13.6"></path><path d="M17.8 7.6 L14.8 13.6"></path><path d="M17.8 7.6 L20.8 13.6"></path><path d="M14.8 13.6 A3 3 0 0 0 20.8 13.6"></path></g></symbol>
+<symbol id="jny-dom-wealth" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6.5" rx="7" ry="2.6"></ellipse><path d="M5 6.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path><path d="M5 11.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path></g></symbol>
+<symbol id="jny-dom-rel" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 5.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4C4.5 11.8 2 10.2 2 7.8c0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z" transform="translate(2 2)"></path><path d="M15.5 9.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4-2-1.4-4.5-3-4.5-5.4 0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z"></path></g></symbol>
+<symbol id="jny-dom-career" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7.5" width="17" height="12" rx="2"></rect><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"></path><path d="M3.5 12.5h17"></path></g></symbol>
+<symbol id="jny-dom-family" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4.5l8 7"></path><path d="M6.2 10v9.5h11.6V10"></path><path d="M10.2 19.5v-5h3.6v5"></path></g></symbol>
+<symbol id="jny-dom-social" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3"></circle><path d="M3.5 19c0-3.2 2.4-5.5 5.5-5.5s5.5 2.3 5.5 5.5"></path><path d="M15.2 5.8a3 3 0 0 1 0 5.4"></path><path d="M16.8 13.6c2.3.5 3.7 2.5 3.7 5.4"></path></g></symbol>
+<symbol id="jny-dom-love" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19.5c-4.2-2.9-8-6.1-8-10 0-2.3 1.7-4 3.9-4 1.6 0 2.9.8 4.1 2.3 1.2-1.5 2.5-2.3 4.1-2.3 2.2 0 3.9 1.7 3.9 4 0 3.9-3.8 7.1-8 10z"></path></g></symbol>
+<symbol id="jny-dom-mind" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17.5h6"></path><path d="M10 20h4"></path><path d="M8.6 14.6C7 13.5 6 11.9 6 10a6 6 0 0 1 12 0c0 1.9-1 3.5-2.6 4.6-.6.4-.9 1-.9 1.6v.3H9.5v-.3c0-.6-.3-1.2-.9-1.6z"></path></g></symbol>
+<symbol id="jny-dom-growth" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5V10.5"></path><path d="M12 13.5c-3.6 0-6-2.2-6.5-6 3.8 0 6.3 2 6.5 6z"></path><path d="M12 11c.3-3.6 2.8-5.6 6.5-5.5-.5 3.8-2.9 5.8-6.5 5.5z"></path><path d="M7 20.5h10"></path></g></symbol>
+<symbol id="jny-ico-lock" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"></rect><path d="M8.5 10.5V7.8a3.5 3.5 0 0 1 7 0v2.7"></path></g></symbol>
+<symbol id="jny-dom-health" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 12.5h3l1.6-4 2.8 8 2.4-6 1.4 2h5.3"></path></g></symbol>
+<symbol id="jny-ico-spark" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v4M12 16.5v4M3.5 12h4M16.5 12h4"></path><path d="M12 8.2 13.6 10.4 16 12 13.6 13.6 12 15.8 10.4 13.6 8 12 10.4 10.4Z"></path></g></symbol></defs></svg>
+<script src="kit.js"></script>
+<script src="blocks.js"></script>
+<script>
+/* ── the words, all from the running app and the station (golden chart, 2026-10-22) ──
+   tpl_rx_ribbon (rx, start) · ELEMENT_PAIR.head · tpl_now_line · CONDITION_READING.helps
+   and its verb · STEM.who · identity.manifesto · the Naming's inscription · the album's
+   section titles and read line. Nothing new was written. */
+const P = Object.fromEntries(EL.map((e) => [e, D.E[e].p]));
+const PMAX = Math.max(...Object.values(P));
+const ORDER = D.order;
+const n = 8;
+const MANI = 'Precision before intention. You are the Metal that cuts things clean.';
+const INSCR = '庚 · YANG METAL · 1995 · APRIL 29 · 17–19 CST';
+const SECTIONS = [['How am I running?', 'metal', '1 min'], ['Your five energies', null, ''], ['Your domains', null, ''], ['Your life chapters', null, ''], ['Your stars', null, '1 min'], ['Your energy blueprint', null, '']];
+const prog = (i) => `<div class="prog">${Array.from({ length: n }, (_, k) => `<i class="${k <= i ? 'on' : ''}"></i>`).join('')}</div><span class="skip">Skip</span>`;
+const ground = (inner, { card = null, extra = '', cls = 'mid', veil = true } = {}) => `<div class="page reveal">${status()}<img class="bgt" src="bg-reveal-01-distant-peaks.jpg" alt=""><img class="bgb" src="bg-reveal-02-floating-island.jpg" alt=""><div class="fog"></div>${veil ? '<div class="veil"></div>' : ''}${card === null ? '' : prog(card)}${extra}<div class="rin ${cls}">${inner}</div></div>`;
+const seal = (cls = '') => `<img class="rseal ${cls}" src="${D.id.seal}" alt="庚, The Blade">`;
+const enter = `<div class="btns"><span class="btn ink">Enter your reading ${use('ico-arrow-r')}</span></div>`;
+const rxDots = () => `<div class="rail"><div class="grp rel"><span class="gl">Release</span><div class="gd">${D.ease.map((e) => `<span>${dot(e, Math.round(34 + (P[e] / PMAX) * 30))}${ELN[e]}</span>`).join('')}</div></div><div class="grp gro"><span class="gl">Grow</span><div class="gd">${D.seek.map((e) => `<span>${dot(e, Math.round(34 + (P[e] / PMAX) * 30))}${ELN[e]}</span>`).join('')}</div></div></div>`;
+const distRow = (hi = null, lit = false) => `<div class="dist">${ORDER.map((e) => `<span class="${hi && hi !== e ? 'off' : ''}">${dot(e, Math.round(30 + (P[e] / PMAX) * 34))}<small>${P[e]}%</small>${ELN[e]}${lit && hi === e ? '<span class="lit">Start here</span>' : ''}</span>`).join('')}</div>`;
+
+/* ── 1 · today ─────────────────────────────────────────────────────── */
+const today8 = ground(`<span class="rey">What your chart asks for</span>${rxDots()}<h3 class="rtitle">${D.rx}</h3><p class="rp quiet">${D.start}</p><div class="btns"><span class="btn ink">Enter your reading ${use('ico-arrow-r')}</span><span class="btn ghost">${use('ico-share')} Share your reading</span></div>`, { card: 7 });
+const shot = (src) => `<div class="shot"><img src="${src}" alt=""></div>`;
+
+/* ── 2 · card 8, entry only ────────────────────────────────────────── */
+const c8 = {
+  a: ground(`<span class="rey">Where to begin</span>${distRow('fire', true)}<h3 class="rtitle">${D.start}</h3><p class="rp quiet">${D.E.fire.head}. ${D.E.fire.now}</p>${enter}`, { card: 7 }),
+  b: ground(`<span class="rey">What helps</span>${seal('sm')}<span class="verb">${use('ic-channel')}${D.verb}</span><h3 class="rtitle soft">${D.helps}</h3><p class="rp quiet">${D.start}</p>${enter}`, { card: 7 }),
+  c: ground(`<span class="rey">Your reading</span>${seal('sm')}<h3 class="rtitle soft">${D.start}</h3><div class="toc">${SECTIONS.map(([t, el, m], i) => `<span><i>${i + 1}</i>${t}${m ? `<em>${m}</em>` : ''}</span>`).join('')}</div>${enter}`, { card: 7 }),
+};
+
+/* ── 3 · the share card ─────────────────────────────────────────────── */
+const cardA = (sq = false) => `<div class="sc reveal"><img class="bgt" src="bg-reveal-01-distant-peaks.jpg" alt=""><img class="bgb" src="bg-reveal-02-floating-island.jpg" alt=""><div class="fog"></div><div class="veil"></div>${sq ? '<span class="sq"></span>' : ''}<span class="inscr"><span class="han">庚</span> · YANG METAL · 1995 · APRIL 29 · 17–19 CST</span><div class="rin"><span class="scey">ELEMENTUM</span><span class="rey">You are</span>${seal()}<p class="rtitle name">${D.id.arch}</p><p class="rman">${MANI}</p>${distRow()}<span class="scfoot">elementum.life</span></div></div>`;
+const cardB = (sq = false) => `<div class="sc paper reveal">${sq ? '<span class="sq"></span>' : ''}<div class="rin"><span class="scey">ELEMENTUM</span><span class="rey">You are</span><p class="rtitle name" style="margin-top:-4px">${D.id.arch}</p><div class="scwheel"><img src="wheel-sm.png" alt="The dominance wheel"></div><div class="sc-run">${pill('cond', D.cond)}<p class="rp">${D.runLine}</p></div><span class="scfoot">elementum.life</span></div></div>`;
+const cardC = (sq = false) => `<div class="sc reveal"><img class="bgt" src="bg-reveal-04-mist-veil.jpg" alt="" style="height:100%;opacity:.9;-webkit-mask-image:none;mask-image:none">${sq ? '<span class="sq"></span>' : ''}<div class="rin"><span class="scey">ELEMENTUM</span>${seal()}<p class="rtitle">You are ${D.id.arch}.</p><p class="rp who">${D.id.who}</p><div class="dist" style="margin-top:auto">${ORDER.map((e) => `<span>${dot(e, Math.round(22 + (P[e] / PMAX) * 18))}<small>${P[e]}%</small></span>`).join('')}</div><span class="scfoot" style="margin-top:10px">elementum.life</span></div></div>`;
+const trayRail = `<div class="tray2"><span class="scp ig"><span class="ico">Ig</span>Instagram</span><span class="scp tt"><span class="ico">Tt</span>TikTok</span><span class="scp xx"><span class="ico">X</span>X</span><span class="st-div"></span><span class="scp util"><span class="ico">${use('ic-save')}</span></span><span class="scp util"><span class="ico">${use('ic-link')}</span></span></div>`;
+const trayOne = `<div class="tray2"><span class="scp one"><span class="ico">${use('ico-share')}Share</span></span><span class="scp util"><span class="ico">${use('ic-save')}</span></span><span class="scp util"><span class="ico">${use('ic-link')}</span></span></div>`;
+const overlay = (card, tray = trayRail) => `<div class="page" style="position:relative;height:100%"><div class="underlay"><img src="sc-today-album.jpg" alt=""></div><div class="scov"><span class="hint">Your identity card</span><span class="close">${use('ico-close')}</span><div class="scwrap">${card}</div>${tray}</div></div>`;
+const exportFrame = (card) => `<div class="export">${card}</div>`;
+
+/* ── 4 · the album ─────────────────────────────────────────────────── */
+const hub = ({ strip = false, tile = false, onWheel = false } = {}) => `<div class="page">${status()}<div class="hub">
+  <div class="v5id"><span class="idseal"><img src="${D.id.seal}" alt=""></span><div class="idnm"><span class="kick">You are</span><b>${D.id.arch}</b></div>${strip ? `<span class="shic">${use('ico-share')}</span>` : ''}<span class="idact"><span class="bchart">Birth chart ›</span>${pill('cond', D.cond)}</span></div>
+  <p class="v5mani">${MANI}</p>
+  <div class="card wtile">${onWheel ? `<span class="shic">${use('ico-share')}</span>` : ''}${seg('do')}${wheel('golden', 'do')}</div>
+  <div class="readline"><span>0 of 6 read</span><span class="rl"><i></i></span><span>5 min left</span></div>
+  <div class="bento">
+    ${tile ? `<div class="bt wide idcard"><span class="thumb">${cardA()}</span><span class="idt"><span class="v5ey">Your identity card</span><span class="cl">${D.id.arch} · ${D.id.lit}</span><small>Share it, or save the image</small></span><span class="shic">${use('ico-share')}</span></div>` : ''}
+    <div class="bt"><span class="unread"></span><span class="v5ey">How am I running?</span>${dial(D.score, D.cond)}<span class="ft"><span>${D.runShort}</span><em style="font-style:normal"> · 1 min</em></span></div>
+    <div class="bt"><span class="unread"></span><span class="v5ey">Start here</span><span style="margin:0 auto">${dot('fire', 54)}</span><b class="cl" style="font-size:15px">${D.E.fire.head}</b>${pill('cat', 'Grow it')}</div>
+    <div class="bt wide"><span class="v5ey">What does my chart ask for?</span><div class="rx2"><span class="g"><span class="gl r">${use('ar-down')} Release</span>${D.ease.map((e) => dot(e, 30)).join('')}</span><span class="g"><span class="gl g">${use('ar-up')} Grow</span>${D.seek.map((e) => dot(e, 30)).join('')}</span></div></div>
+    <div class="bt wide"><span class="unread"></span><span class="v5ey">Your domains</span><b class="cl">${D.domainsHead}</b></div>
+  </div></div>${tabbar('reading')}</div>`;
+
+const V = {
+  code: 'SC', name: 'Card 8 and the Share Card',
+  thesis: 'Card 8 closes the first reading with one thing to do: enter. The share card moves to the album, where the reader can send it at every revisit, and it becomes the Naming made portable: the same ground, seal, name and five dots the reader was just shown.',
+  tap: 'Card 8: tap the right two-thirds to go on, the left third to go back, Skip at the top; the one button enters the reading. Album: the share icon opens the overlay; the overlay’s tray sends or saves the card.',
+  scroll: 'None on card 8 or the card. The album scrolls as today.',
+  next: 'Card 8 gives the reader a first step and a door. The album gives the card a permanent home next to the name it shows.',
+  intro: 'Golden chart (庚 The Blade, Overfueled). Every line is the app’s or the station’s: the ribbon’s two lines, the pair head, the now line, the helps line and its verb, the who-you-are line, the manifesto, the Naming’s inscription, the album’s section titles and read line. Today, under V5, the album has no share entry at all (the wheel’s centre seal opens “How am I running?”), so card 8’s ghost button is the only way to the card.',
+  flows: [
+    { id: 'today', short: '1 · Today', title: 'Today, as it ships', note: 'Card 8 carries the ribbon’s two groups, the grow/release sentence and two buttons. The share card is the A1 “tiles” card from the share flow of September: its own wheel drawing, Seek and Skip columns, and a platform rail. The album has no share entry.',
+      screens: [
+        { id: 'today-8', label: 'Card 8 today', gesture: 'Two groups, the grow/release sentence, two buttons', html: today8 },
+        { id: 'today-sc', label: 'The share card today', gesture: 'The A1 “tiles” card, opened from card 8’s ghost button', html: shot('sc-today-share.jpg') },
+        { id: 'today-album', label: 'The album today', gesture: 'Identity strip, wheel tile, read line, bento; no share entry', html: shot('sc-today-album.jpg') },
+      ] },
+    { id: 'c8', short: '2 · Card 8', title: 'Card 8 · the door (three variations)', note: 'All three drop the share button and the grow/release sentence. The sentence that replaces it is already the card’s second line today: “Start with Fire, your Order.” It names one step instead of five instructions, and it is the exact tile the album opens on (“Start here”). What differs is the picture and the supporting line.',
+      screens: [
+        { id: 'c8-a', label: '8A · Where to begin (recommended)', gesture: 'The Naming’s five dots return; the start energy stays lit, the other four ghost. The pair head and the now line say why it is first.', html: c8.a },
+        { id: 'c8-b', label: '8B · What helps', gesture: 'The seal returns above the condition’s verb and its helps line; the start line sits under it.', html: c8.b },
+        { id: 'c8-c', label: '8C · The contents', gesture: 'The seal, the start line, and the album’s six sections as a table of contents.', html: c8.c },
+      ] },
+    { id: 'sc', short: '3 · The card', title: 'The share card · on the album (three variations)', note: 'Each card is a 9:16 export (540 × 960 as today) shown inside the overlay the app already has: the dark scrim, the card, the tray. The tray stays as it ships (Instagram, TikTok, X, Save, Copy link); a one-button native sheet is a separate ruling (SC6). S-A is the Naming itself: the reader shares the screen that named them.',
+      screens: [
+        { id: 'sc-a', label: 'S-A · The Naming plate (recommended)', gesture: 'Peaks, island, fog; seal, “You are The Blade”, the manifesto, the five dots with their shares, the painter’s inscription, elementum.life', html: overlay(cardA()) },
+        { id: 'sc-b', label: 'S-B · The wheel', gesture: 'Rice paper; the name, the dominance wheel as the app draws it, the condition pill and the run line', html: overlay(cardB()) },
+        { id: 'sc-c', label: 'S-C · The first card', gesture: 'The mist veil; the seal, “You are The Blade.”, the who-you-are line, the five dots small', html: overlay(cardC()) },
+      ] },
+    { id: 'exp', short: '4 · Exports', title: 'The three cards at export size, with the 1:1 crop', note: 'The dashed square is where a 1:1 crop would fall if a second format is wanted (SC5). On S-A and S-C the crop keeps the seal and the name; on S-B it keeps the wheel.',
+      screens: [
+        { id: 'exp-a', label: 'S-A · 9:16', gesture: 'The crop keeps seal, name and manifesto', html: exportFrame(cardA(true)) },
+        { id: 'exp-b', label: 'S-B · 9:16', gesture: 'The crop keeps the wheel', html: exportFrame(cardB(true)) },
+        { id: 'exp-c', label: 'S-C · 9:16', gesture: 'The crop keeps seal, title and the who line', html: exportFrame(cardC(true)) },
+      ] },
+    { id: 'album', short: '5 · The album', title: 'Where the card lives on the album (three placements)', note: 'The album is the page the reader returns to. The entry should sit next to the name the card shows, be one tap, and not add a tile the reader has to read past every visit.',
+      screens: [
+        { id: 'al-a', label: 'E-A · Icon in the identity strip (recommended)', gesture: 'The app’s own 32px share button, between the name and Birth chart / Overfueled', html: hub({ strip: true }) },
+        { id: 'al-b', label: 'E-B · A tile in the bento', gesture: 'A wide “Your identity card” tile with the card’s thumbnail, above How am I running?', html: hub({ tile: true }) },
+        { id: 'al-c', label: 'E-C · Icon on the wheel tile', gesture: 'The share button in the wheel tile’s corner; the wheel is the card’s picture (S-B)', html: hub({ onWheel: true }) },
+      ] },
+    { id: 'tray', short: '6 · The tray', title: 'The overlay’s tray', note: 'Two shapes. Today’s rail names three platforms and keeps Save and Copy link. The one-button sheet hands the image to the phone’s own share sheet (Web Share on the PWA; the native sheet once the store build ships, which is already wired on the capacitor-shell branch) and keeps Save and Copy link beside it.',
+      screens: [
+        { id: 'tr-a', label: 'T-A · The rail, as today', gesture: 'Instagram, TikTok, X · Save · Copy link', html: overlay(cardA(), trayRail) },
+        { id: 'tr-b', label: 'T-B · One Share button', gesture: 'The phone’s own share sheet; Save and Copy link beside it', html: overlay(cardA(), trayOne) },
+      ] },
+  ],
+  after: `<section class="words"><h2>The words, and where they come from</h2>
+  <dl>
+    <dt>Card 8, title</dt><dd>“Start with Fire, your Order.” The ribbon’s second line, promoted. <code>tpl_rx_ribbon</code></dd>
+    <dt>8A, line</dt><dd>“Fire forges the Blade. It gives your surplus a shape and a use, and you have very little of it.” The pair head and the sheet’s now line. <code>ELEMENT_PAIR.head · tpl_now_line</code></dd>
+    <dt>8B, line</dt><dd>“Channel” and “Give your extra force a place to go — aim it, don’t store it.” The condition’s verb and helps line, from the How-you-run page. <code>CONDITION_READING.verb · helps</code></dd>
+    <dt>8C, list</dt><dd>The album’s six section titles and their minutes, as the album computes them. <code>V5_SECTIONS · minutesOf</code></dd>
+    <dt>S-A</dt><dd>“You are”, “The Blade”, the manifesto, the five shares, the inscription “庚 · YANG METAL · 1995 · APRIL 29 · 17–19 CST”. All from the Naming. <code>identity.manifesto · the Naming overlay</code></dd>
+    <dt>S-B</dt><dd>The wheel as the album draws it (the locked design, relation labels included), “Overfueled”, “Your Metal takes in more than it spends.” <code>CONDITION.run_headline</code></dd>
+    <dt>S-C</dt><dd>“You are The Blade.” and the who-you-are line, card 1 of the first reading. <code>STEM.who</code></dd>
+    <dt>Retired, if ruled</dt><dd>The A1 “tiles” card (its wheel drawing, Seek and Skip columns) goes to station <code>__ore</code> with the share-flow note, not deleted.</dd>
+  </dl>
+  <p>The grow/release sentence (“Release Metal and Earth. Grow Fire, Wood and Water.”) stays where it already lives on the album, in the “What does my chart ask for?” tile, and in the ribbon on the How-you-run page. Card 8 no longer repeats it.</p></section>
+  <section class="cmp"><h2 style="font-family:var(--display);font-weight:500;font-size:26px;margin:26px 0 8px">Why 8A, S-A, E-A</h2>
+  <div class="scroll"><table>
+    <tr><th></th><th>8A · Where to begin</th><th>8B · What helps</th><th>8C · The contents</th></tr>
+    <tr><td>What the reader leaves with</td><td class="good">One step and the reason it is first</td><td>The condition’s advice, which the How-you-run page repeats in full</td><td>A menu; nothing to feel yet</td></tr>
+    <tr><td>Lands on the album’s</td><td class="good">“Start here” tile, the same dot and head</td><td>“How am I running?” tile</td><td>The bento as a whole</td></tr>
+    <tr><td>The dissolve after it</td><td class="good">Five dots already on screen settle onto the wheel’s disks</td><td class="good">The seal descends, as today</td><td class="good">The seal descends, as today</td></tr>
+    <tr><td>Words on the card</td><td class="good">Title, two sentences, one button</td><td>Title of 11 words plus a line</td><td class="risk">Six list rows plus a line</td></tr>
+  </table></div>
+  <div class="scroll" style="margin-top:12px"><table>
+    <tr><th></th><th>S-A · The Naming plate</th><th>S-B · The wheel</th><th>S-C · The first card</th></tr>
+    <tr><td>Continuity with the app</td><td class="good">It is the Naming; the reader has seen this exact frame</td><td class="good">The locked wheel, as the album draws it</td><td>Card 1’s words on a plainer ground</td></tr>
+    <tr><td>Reads in a feed at thumb size</td><td class="good">Seal and name at 150px and 38px; five dots</td><td class="risk">The wheel’s labels fall below legibility at story size</td><td class="good">Seal and name; the who line is small</td></tr>
+    <tr><td>Curiosity for a stranger</td><td class="good">A name, a seal, five shares to compare</td><td class="good">The wheel invites a question</td><td>A sentence about one person</td></tr>
+    <tr><td>Assets</td><td class="good">All shipped: ground, seal, dots</td><td>A wheel capture at export size (html-to-image renders it)</td><td class="good">All shipped</td></tr>
+    <tr><td>1:1 crop</td><td class="good">Seal, name, manifesto</td><td class="good">The wheel alone</td><td class="good">Seal and title</td></tr>
+  </table></div>
+  <p style="font-size:14.5px;color:var(--inkSoft);margin-top:10px">E-A puts the entry where the card’s own name sits, with the button the app already has (the 32px round share button from the merged beats). E-B is the loudest and costs a tile on every visit. E-C ties the entry to the wheel, which only makes sense with S-B.</p></section>
+  <section class="rows"><h2 style="font-family:var(--display);font-weight:500;font-size:26px;margin:26px 0 4px">Rulings</h2><div id="rows"></div></section>`,
+};
+renderVariant(V);
+
+const ROWS = [
+  ['SC1', 'Card 8’s direction', 'What the last card shows above the one button. All three drop the share button and the grow/release sentence.', ['8A · Where to begin: the five dots with the start energy lit, “Start with Fire, your Order.”, the pair head and the now line', '8B · What helps: the seal, the condition’s verb and helps line, the start line under it', '8C · The contents: the seal, the start line, the album’s six sections']],
+  ['SC2', 'Card 8’s button', 'The one button’s words.', ['“Enter your reading”, as today', '“Open your reading”', '“Start with Fire”: the button names the step and opens Fire’s sheet first']],
+  ['SC3', 'The share card', 'Which card the album shares. The A1 “tiles” card retires to __ore in every case.', ['S-A · The Naming plate: ground, seal, name, manifesto, five dots, inscription', 'S-B · The wheel: paper, name, the dominance wheel, condition, run line', 'S-C · The first card: the seal, “You are The Blade.”, the who line, small dots']],
+  ['SC4', 'Where it lives on the album', 'The entry point the reader taps at every revisit.', ['E-A · The share icon in the identity strip', 'E-B · A “Your identity card” tile in the bento', 'E-C · The share icon on the wheel tile']],
+  ['SC5', 'Formats', 'What the overlay exports.', ['9:16 only (540 × 960), as today', '9:16 and a 1:1 crop, with a toggle in the overlay']],
+  ['SC6', 'The tray', 'How the card leaves the phone.', ['T-A · The rail as today: Instagram, TikTok, X, Save, Copy link', 'T-B · One Share button to the phone’s own sheet, with Save and Copy link']],
+];
+const L = 'ABC';
+let pick = {};
+try { pick = JSON.parse(localStorage.getItem('elementum-rulings-sharecard') || '{}') || {}; } catch (e) { pick = {}; }
+const rows = document.getElementById('rows');
+rows.innerHTML = ROWS.map(([c, t, why, opts]) => `<div class="row"><div class="rh"><span class="rc">${c}</span><h3>${t}</h3></div><p class="why">${why}</p><div class="opts">${opts.map((o, i) => `<button type="button" class="opt" data-row="${c}" data-opt="${L[i]}" aria-pressed="${pick[c] === L[i]}"><b>${L[i]}</b><span>${o}${i === 0 ? '<span class="rec">Recommended</span>' : ''}</span></button>`).join('')}</div></div>`).join('');
+document.body.insertAdjacentHTML('beforeend', '<div class="tray"><div class="in"><code id="codes">No rows ruled yet</code><span class="msg" id="msg" aria-live="polite"></span><button id="copy" type="button">Copy</button></div></div>');
+const codes = document.getElementById('codes');
+const render = () => { const s = ROWS.filter(([c]) => pick[c]).map(([c]) => `${c} ${pick[c]}`).join(', '); codes.textContent = s || 'No rows ruled yet'; };
+rows.addEventListener('click', (e) => { const b = e.target.closest('.opt'); if (!b) return; pick[b.dataset.row] = b.dataset.opt; b.parentElement.querySelectorAll('.opt').forEach((x) => x.setAttribute('aria-pressed', x === b)); try { localStorage.setItem('elementum-rulings-sharecard', JSON.stringify(pick)); } catch (err) { /* storage may be off */ } render(); });
+document.getElementById('copy').addEventListener('click', () => { const msg = document.getElementById('msg'); navigator.clipboard.writeText(codes.textContent).then(() => { msg.textContent = 'Copied'; setTimeout(() => (msg.textContent = ''), 1500); }).catch(() => { const r = document.createRange(); r.selectNodeContents(codes); const s = window.getSelection(); s.removeAllRanges(); s.addRange(r); msg.textContent = 'Selected: press copy'; }); });
+render();
+</script>
