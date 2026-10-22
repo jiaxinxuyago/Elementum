@@ -71,7 +71,7 @@ Do them in this order. The app already reads both the old and the new columns, s
 3. **Cap the pass.** Stripe → Payment Links → the $9 Founding link → Edit → Advanced → "Limit the number of payments" → 300. At public launch: Deactivate.
 4. **Webhook events.** Stripe → Developers → Webhooks → the elementum endpoint → add `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted` (keep `checkout.session.completed`).
 5. **Products.** Stripe → Product catalogue → "Seeker" with prices $9.99 monthly and $59.99 yearly; "Advisor" with $19.99 monthly and $119.99 yearly.
-6. **Four Payment Links**, one per price. For each: Metadata `plan` = `seeker` or `advisor`; under the subscription settings set the same metadata on the subscription; on the two yearly links add a 7-day free trial. After payment: "Don't show confirmation page", redirect to `https://elementum.life/`.
+6. **Four Payment Links**, one per price. On the two yearly links add a 7-day free trial. After payment: redirect to `https://elementum.life/`. No metadata is needed: the webhook routes by the price (a `plan` metadata key is honoured if present).
 7. **Customer Portal.** Stripe → Settings → Billing → Customer portal → allow cancel and switching between the four prices → copy the login link.
 8. Send the four Payment Link URLs and the portal link to the strategy session. It puts them in `src/infra/links.js` (`seekerCheckout`, `seekerAnnualCheckout`, `advisorCheckout`, `advisorAnnualCheckout`, `billingPortal`); the design director places the annual and monthly choice in the upgrade sheet.
 

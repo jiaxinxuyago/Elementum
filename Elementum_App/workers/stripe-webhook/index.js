@@ -81,10 +81,9 @@ const PRODUCTS = {
   699: { name: 'self-report',   fields: () => ({ has_self_report: true }) },                                                                          // $6.99
 };
 
-// Subscriptions (S6 A). Each subscription Payment Link carries metadata
-// plan=seeker|advisor, copied to the checkout session and (through
-// subscription_data.metadata) to the subscription. The recurring amount is the
-// fallback, so a link set up without metadata still routes.
+// Subscriptions (S6 A). Routed by the recurring price (PLANS); a `plan`
+// metadata key (seeker|advisor) on the Payment Link or the subscription wins
+// when present, but is optional.
 // ⚠ Same rule as PRODUCTS: a price change in Stripe ships with this table.
 const PLANS = {
   999: 'seeker', 5999: 'seeker',     // $9.99/mo · $59.99/yr
@@ -140,14 +139,15 @@ export default {
       const settled = session.payment_status === 'paid' || session.payment_status === 'no_payment_required';
       if (userId && session.mode === 'subscription') {
         // A subscription checkout (a trial completes with nothing paid yet).
+        // A yearly trial checks out at $0, so the plan may be unknown here; the
+        // customer link is stored either way and customer.subscription.created
+        // sets the plan from its price.
         const plan = planOf(session);
-        if (!plan) {
-          console.error(`UNKNOWN PLAN subtotal=${session.amount_subtotal} user=${userId} session=${session.id} — set metadata plan on the Payment Link`);
-          return new Response('received (unknown plan — logged)', { status: 200 });
-        }
+        const fields = { stripe_customer_id: session.customer || null };
+        if (plan) Object.assign(fields, { sub_tier: plan, sub_status: session.payment_status === 'paid' ? 'active' : 'trialing' });
         try {
-          await grantEntitlement(env, userId, { sub_tier: plan, sub_status: session.payment_status === 'paid' ? 'active' : 'trialing', stripe_customer_id: session.customer || null });
-          console.log(`subscription ${plan} started: user=${userId} session=${session.id}`);
+          await grantEntitlement(env, userId, fields);
+          console.log(`subscription checkout: user=${userId} plan=${plan || 'from the subscription event'} session=${session.id}`);
         } catch (err) {
           console.error(String(err));
           return new Response('entitlement write failed', { status: 500 });
