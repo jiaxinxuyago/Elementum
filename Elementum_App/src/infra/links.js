@@ -11,10 +11,11 @@
 export const PAYMENT = {
   // Subscriptions (S6 A): one Payment Link per plan, each with metadata
   // plan=seeker|advisor (INF_02 §1.8). Null until the owner creates them.
-  seekerCheckout: null,
-  seekerAnnualCheckout: null,
-  advisorCheckout: null,
-  advisorAnnualCheckout: null,
+  // LIVE 2026-10-22; open them only through checkoutUrl() below.
+  seekerCheckout: 'https://buy.stripe.com/6oU8wIaYX3bSd651OI7Re06',        // $9.99/mo
+  seekerAnnualCheckout: 'https://buy.stripe.com/6oUeV63wvh2Ic21ale7Re07',  // $59.99/yr, 7-day trial
+  advisorCheckout: 'https://buy.stripe.com/9B614g1onh2IaXXgJC7Re04',       // $19.99/mo
+  advisorAnnualCheckout: 'https://buy.stripe.com/7sYaEQ6IHbIo1nn8d67Re05', // $119.99/yr, 7-day trial
   // Stripe Customer Portal login link (manage or cancel a subscription).
   billingPortal: null,
   // Founding pass — one-time LIVE Stripe Payment Link ($9, capped at 300 in
@@ -25,6 +26,17 @@ export const PAYMENT = {
   // Stripe must ship with a matching worker update.
   selfReportCheckout: 'https://buy.stripe.com/3cIcMY4Az8wcc21gJC7Re03',
 };
+
+// A checkout URL carrying the buyer's account (client_reference_id), which is
+// how the Stripe webhook knows whose entitlement to write (INF_01 §4.2). Every
+// purchase button opens its link through this; null when the link is unset.
+export function checkoutUrl(link, user) {
+  if (!link) return null;
+  const url = new URL(link);
+  if (user?.id) url.searchParams.set('client_reference_id', user.id);
+  if (user?.email) url.searchParams.set('prefilled_email', user.email);
+  return url.toString();
+}
 
 // Social profiles.
 export const SOCIAL = {

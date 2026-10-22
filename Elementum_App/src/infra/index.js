@@ -8,7 +8,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 export { GEOCODING } from './endpoints.js';
-export { PAYMENT, SOCIAL, APP_STORE, APP_URL, APP_HOST } from './links.js';
+export { PAYMENT, SOCIAL, APP_STORE, APP_URL, APP_HOST, checkoutUrl } from './links.js';
 export { TIERS, TIER_LABELS, TIER_PRICES, TIER_PRICES_ANNUAL, SELF_REPORT_PRICE, FOUNDING_PRICE, FOUNDING_GRANTS_TIER } from './pricing.js';
 export { pushSupported, enablePush, disablePush, getPushSubscription, localHourToUtc, sendPreview } from './push.js';
 export { supabase, hasAuth } from './supabase.js';
