@@ -97,6 +97,7 @@ Legacy **section** citations resolve at the same § numbers in the current books
 | PM_01 | Automation_Runbook | Inventory of record for the automation routines + machine-local rebuild list |
 | PM_02 | Pending_Tasks | THE TASK BOARD — deferred/trigger-gated/owner-pending work (STORE onboarding, INFRA gates, OWNER reviews, housekeeping); agents check here for "what's open?" |
 | PM_03 | Day_Log | THE daily project record — Done / Pending / Pivots per day; append-only; written each weekday (Mon–Fri ~11:45 PM) by the project-manager routine |
+| PM_04 | Ruling_Queue | THE ONE QUEUE of owner rulings across sessions (D1–D3, 2026-10-22): one weekly ruling day, TWEAK and MINOR items adopted by sessions, a 7-day default to A except money, engine, legal and live items |
 
 ## DOC# alias table (legacy citations)
 

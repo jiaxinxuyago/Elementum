@@ -9,3 +9,9 @@ From the strategy session (session_019UR4wQXx6NmFH7gv99Zf7U). Three owner-ruled 
 | E2 | Strength test score 3 reads moderate (band balanced) instead of strong | 17.4% of all charts move concentrated → balanced | Band-keyed lines read by balanced charts far more often now (balanced was 1.1% of charts, now 18.5%). Read the balanced variants in your section once. |
 
 Golden files: only `tools/qa-golden/engine-accuracy.json` was re-blessed (the 丁 winter case, E2). `qa-depth-golden`, `qa-almanac-golden`, `qa-selection-fixtures`, `qa-domains-coverage` and `qa-blend-clashes` pass unchanged. Every deploy now runs these checks first (`npm run check`), so a stale golden file in your next push will stop the deploy: re-bless only what your owner ruling covers.
+
+## Also from 2026-10-22, for every session
+
+- **Rulings go to one queue.** `Operations/Project_Management/PM_04_Ruling_Queue.md` (owner D1–D3 A). Queue your owner rulings there; adopt TWEAK and MINOR items yourself when your gates pass and list them in its §4; a queued ruling takes A after 7 days unless it is money, engine, legal or live.
+- **Deploys are gated.** Both deploy workflows run `npm run check` (lint plus seven QA checks) before the build.
+- **Analytics.** `track()` from `src/infra/analytics.js` is the one way to add an event; its allow-list holds the props. Never pass birth data, chart fields or reading text.
