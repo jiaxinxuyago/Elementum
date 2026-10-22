@@ -116,6 +116,37 @@
 .sheet .b-rr em{font-style:normal;font-size:13px;font-weight:600}
 .hl{position:absolute;z-index:7;border:2px solid var(--seal);border-radius:50%;box-shadow:0 0 0 6px rgba(160,64,48,.18)}
 .hl::after{content:"tap";position:absolute;left:50%;top:100%;transform:translate(-50%,6px);font-family:var(--carve);font-size:9px;letter-spacing:2px;color:var(--seal)}
+/* imagery placeholders: where a picture beats the words. Dashed = not yet painted. */
+.ph{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border:1.5px dashed var(--bronze);border-radius:12px;background:repeating-linear-gradient(135deg,rgba(139,115,85,.06) 0 6px,rgba(139,115,85,0) 6px 14px),rgba(248,241,225,.6);color:var(--bronzeDark);text-align:center;padding:8px 10px}
+.ph .pk{font-family:var(--carve);font-size:8px;letter-spacing:2px}
+.ph .pt{font-family:var(--display);font-size:14px;line-height:1.2;color:var(--inkSoft)}
+.ph .ps{font-size:10.5px;color:var(--inkLight);line-height:1.3}
+.ph.band{width:100%;aspect-ratio:3/2}
+.ph.sq{width:96px;height:96px;flex:none;border-radius:14px;padding:6px}
+.ph.sq .pt{font-size:12px}
+.ph.seal{width:44px;height:44px;border-radius:50%;padding:0;flex:none}
+.ph.seal .pk{font-size:7px;letter-spacing:1px}
+.ph.tag{position:absolute;left:10px;bottom:10px;padding:3px 8px;border-radius:999px;flex-direction:row;gap:6px;background:rgba(248,241,225,.92)}
+.fnrow{display:flex;gap:12px;align-items:flex-start}
+.fnrow p{flex:1}
+/* derived diagrams, drawn from the existing signs */
+.dmap{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;padding:6px 0 2px}
+.dmap span{display:flex;flex-direction:column;align-items:center;gap:3px;font-family:var(--carve);font-size:7px;letter-spacing:.6px;color:var(--inkMist)}
+.dmap span .ic{width:16px;height:16px;color:var(--inkMist)}
+.dmap span.on{color:var(--ink)}.dmap span.on .ic{color:var(--earthDeep)}
+.dmap span.on::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--earthDeep)}
+.relay{display:flex;align-items:center;justify-content:center;gap:12px;padding:4px 0}
+.relay .side{display:flex;flex-direction:column;align-items:center;gap:3px;font-family:var(--carve);font-size:8.5px;letter-spacing:1.4px;color:var(--inkSoft)}
+.relay .law{display:flex;flex-direction:column;align-items:center;gap:2px;color:var(--up)}
+.relay .law .han{font-size:18px;line-height:1}
+.relay .law .ln{width:70px;height:1px;background:var(--up);position:relative}
+.relay .law .ln::after{content:"";position:absolute;right:-1px;top:-3px;border:3.5px solid transparent;border-left:6px solid var(--up)}
+.relay .law span{font-family:var(--carve);font-size:7.5px;letter-spacing:1.6px;text-align:center;max-width:110px;line-height:1.3}
+.imgdoc{max-width:880px;margin:26px auto 0;background:var(--cardstock);border:1px dashed var(--bronze);border-radius:16px;padding:16px 18px}
+.imgdoc h2{font-family:var(--display);font-weight:500;font-size:26px;margin:0 0 6px}
+.imgdoc table{width:100%;border-collapse:collapse;font-size:14px}
+.imgdoc th,.imgdoc td{text-align:left;vertical-align:top;padding:8px 8px;border-top:1px solid var(--borderLight)}
+.imgdoc th{font-family:var(--carve);font-size:10px;letter-spacing:1.4px;color:var(--bronzeDark);font-weight:500}
 /* page furniture */
 .ladderdoc{max-width:880px;margin:26px auto 0;background:var(--cardstock);border:1px solid var(--paperHair);border-radius:16px;padding:16px 18px}
 .ladderdoc h2{font-family:var(--display);font-weight:500;font-size:26px;margin:0 0 6px}
@@ -232,19 +263,22 @@ const eq = (mini = false) => `<div class="eq${mini ? ' mini' : ''}"><span class=
 const metrics = () => `<div class="met"><span>Intuition</span><span class="bars">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= 5 ? 'on' : ''}"></i>`).join('')}</span><span>Stability</span><span class="bars">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= 1 ? 'on' : ''}"></i>`).join('')}</span><span>Instinct · Research</span><span class="style">${[1, 2, 3, 4, 5].map((i) => `<i class="${i === 4 ? 'on' : ''}"></i>`).join('')}</span><span class="ends"><span>Instinct</span><span>Research</span></span></div>`;
 const kchips = () => `<div class="chips">${E.chips.map((c) => `<span class="domchip k">${c}<span class="plus">+</span></span>`).join('')}</div>`;
 const stateLine = () => `<div class="state">${pill('fric', 'Friction')}<span class="rel">Release it.</span><span class="light" style="margin-left:auto;font-size:12px">33% of you</span></div>`;
-const remedyBox = () => `<div class="remedy"><div class="rh">${dot('wood', 34)}<div><span class="ey">↓ Release Earth through</span><b>Wood, the Action energy</b></div></div><p>${E.remedy}</p></div>`;
+const remedyBox = () => `<div class="remedy"><div class="rh">${dot('wood', 34)}<div><span class="ey">↓ Release Earth through</span><b>Wood, the Action energy</b></div></div>${relay()}<p>${E.remedy}</p></div>`;
 const domTiles = () => `<div class="dtiles">${E.doms.map(([d, l, s]) => `<div class="dtile"><span class="dh">${domIcon(d)}${d}</span><span class="ds">${s}</span><p>${l}</p></div>`).join('')}</div>`;
-const seatRow = () => `<div class="seat"><span class="han">${E.seat[0]}</span><div><b>${E.seat[1]}</b><small>${E.seat[2]}</small></div>${use('ico-chev-r')}</div>`;
+const seatRow = () => `<div class="seat">${ph('seal', 'P3', '')}<span class="han">${E.seat[0]}</span><div><b>${E.seat[1]}</b><small>${E.seat[2]}</small></div>${use('ico-chev-r')}</div>`;
 const across = () => `<div class="across"><span class="ey">Earth across your chart</span><div class="row"><span class="ey">When it comes</span><span class="ladder">${E.decades.map(([a, e]) => `<span class="${e === 'earth' ? '' : 'dim'}">${dot(e, e === 'earth' ? 24 : 18)}${a}</span>`).join('')}</span></div><div class="row"><span class="ey">When it returns</span><span style="font-size:13px">${E.acrossNow} Open your Almanac.</span></div></div>`;
 const nextFire = () => `<div class="next">${art('t_fire_5_w')}<div style="flex:1;display:flex;flex-direction:column"><span class="ey">Next · Fire, your Order</span><span class="disp" style="font-size:18px">${D.E.fire.head}</span></div>${arrowBtn('sm')}</div>`;
+const ph = (cls, kind, title, spec = '') => `<div class="ph ${cls}"><span class="pk">${kind}</span>${title ? `<span class="pt">${title}</span>` : ''}${spec ? `<span class="ps">${spec}</span>` : ''}</div>`;
+const domMap = () => `<div class="dmap">${['Wealth', 'Family', 'Career', 'Social', 'Health', 'Love', 'Mind', 'Growth'].map((d) => `<span class="${['Career', 'Mind', 'Growth'].includes(d) ? 'on' : ''}">${domIcon(d)}${d}</span>`).join('')}</div>`;
+const relay = () => `<div class="relay"><span class="side">${dot('earth', 40)}Earth<small style="font-family:var(--body);font-size:11px;letter-spacing:0">stores</small></span><span class="law"><span class="han">克</span><span class="ln"></span><span>Wood spends it · roots hold the hillside</span></span><span class="side">${dot('wood', 40)}Wood<small style="font-family:var(--body);font-size:11px;letter-spacing:0">builds</small></span></div>`;
 const box = (id, ey, line, body, open = false) => `<div class="box${open ? ' open' : ''}"><div class="bh"><div><span class="ey">${ey}</span><span class="bl">${line}</span></div><span class="chev">${open ? '–' : '+'}</span></div><div class="bb">${body}</div></div>`;
 
 /* the boxes' content, shared by A and C */
-const RELATION = { ey: 'The relation · 生', line: eq(true), body: `<p class="cls">「${E.classic}」</p><p>${E.base}</p><div class="turn"><span class="ey">Your friction · release it</span><p>${E.turn}</p></div><p class="soft" style="font-size:13.5px">${E.diag}</p>` };
-const FUNCTION = { ey: 'The function', line: `${E.claim} <span class="light" style="font-size:14px">${E.verdict}</span>`, body: `<p>${E.define}</p>` };
+const RELATION = { ey: 'The relation · 生', line: eq(true), body: `${ph('band', 'Image · pair painting · P1', 'Earth feeds Metal: ore grows in the mountain', '3:2 · house ink-wash · the N1 brief (GO-2), 25 pairs · until it lands, the Earth plate')}<p class="cls">「${E.classic}」</p><p>${E.base}</p><div class="turn"><span class="ey">Your friction · release it</span><p>${E.turn}</p></div><p class="soft" style="font-size:13.5px">${E.diag}</p>` };
+const FUNCTION = { ey: 'The function', line: `${E.claim} <span class="light" style="font-size:14px">${E.verdict}</span>`, body: `<div class="fnrow">${ph('sq', 'Image · P2', 'The Mind', '1:1 · one vignette per function · 5')}<p>${E.define}</p></div>` };
 const CHARACTER = { ey: 'The character · Earth in your chart', line: `<span class="light" style="font-size:14px">${E.chips.join(' · ')}</span>`, body: `<p style="font-family:var(--display);font-size:16.5px">${E.functional}</p>${metrics()}${kchips()}<span class="light" style="font-size:12px">Tap a keyword to read it.</span>` };
 const STATE = { ey: 'What it means now', line: `<span style="display:flex;flex-direction:column;align-items:flex-start;gap:5px">${pill('fric', 'Release it')}<span>${E.carry.charAt(0).toUpperCase() + E.carry.slice(1)}.</span></span>`, body: `<p>${E.now}</p><div class="turn"><span class="ey">The carry</span><p>${E.carry.charAt(0).toUpperCase() + E.carry.slice(1)}. ${E.carryRemedy}</p></div>${remedyBox()}` };
-const DOMAINS = { ey: 'The domains', line: 'Earth rules your Career, your Mind and your Growth.', body: `<p class="soft" style="font-size:14px">${E.domLine}</p>${domTiles()}${seatRow()}<span class="light" style="font-size:12px">Each tile opens the full domain, with every seat that rules it.</span>` };
+const DOMAINS = { ey: 'The domains', line: 'Earth rules your Career, your Mind and your Growth.', body: `${domMap()}<p class="soft" style="font-size:14px">${E.domLine}</p>${domTiles()}${seatRow()}<span class="light" style="font-size:12px">Each tile opens the full domain, with every seat that rules it.</span>` };
 
 /* Variation A · boxes that open in place */
 const pageA = (openKey = null) => ep(`${backrow('Your energies · Earth')}<div class="pad">${pager()}${nameRung()}
@@ -263,9 +297,9 @@ const pageB = () => ep(`${backrow('Your energies · Earth')}<div class="pad">${p
   ${tcard('What it means now', `<span style="display:flex;flex-direction:column;align-items:flex-start;gap:5px">${pill('fric', 'Release it')}<span>through Wood, the Action energy</span></span>`, `${E.carry.charAt(0).toUpperCase() + E.carry.slice(1)}. ${E.carryRemedy}`)}
   ${tcard('The domains', 'Earth rules your Career, your Mind and your Growth.', E.domLine, `<div class="chips">${E.doms.map(([d]) => `<span class="domchip">${domIcon(d)}${d}</span>`).join('')}</div>`)}
   ${across()}${nextFire()}</div>`);
-const subRelation = () => ep(`${backrow('Earth · The relation')}<div class="pad"><div class="card">${eq()}<h3>Why Earth is your Mind</h3><p class="cls" style="font-family:var(--han);text-align:center;color:var(--inkSoft)">「${E.classic}」</p><p>${E.base}</p><div class="turn" style="border-left:3px solid var(--seal);padding-left:10px"><span class="ey">Your friction · release it</span><p>${E.turn}</p></div></div><div class="card"><span class="ey">In your chart</span><p>${E.diag}</p></div></div>`, 'sub');
-const subFunction = () => ep(`${backrow('Earth · The function')}<div class="pad"><div class="card"><h3>${E.claim}</h3><p>${E.define}</p></div><div class="card"><span class="ey">The character · Earth in your chart</span><p style="font-family:var(--display);font-size:16.5px">${E.functional}</p>${stateLine()}${metrics()}${kchips()}<span class="light" style="font-size:12px">Tap a keyword to read it.</span></div><div class="card">${remedyBox()}</div></div>`, 'sub');
-const subDomains = () => ep(`${backrow('Earth · The domains')}<div class="pad"><div class="card"><h3>What Earth rules in your life</h3><p class="soft" style="font-size:14px">${E.domLine}</p>${domTiles()}</div><div class="card"><span class="ey">Its seat in your pillars</span>${seatRow()}<span class="ey" style="margin-top:4px">Who runs it</span><p><b>The Alchemist · 偏印</b><br><span class="light" style="font-size:13px">runs your Mind · insight</span></p></div></div>`, 'sub');
+const subRelation = () => ep(`${backrow('Earth · The relation')}<div class="pad"><div class="card">${eq()}${ph('band', 'Image · pair painting · P1', 'Earth feeds Metal: ore grows in the mountain', '3:2 · the N1 brief (GO-2) · until it lands, the Earth plate')}<h3>Why Earth is your Mind</h3><p class="cls" style="font-family:var(--han);text-align:center;color:var(--inkSoft)">「${E.classic}」</p><p>${E.base}</p><div class="turn" style="border-left:3px solid var(--seal);padding-left:10px"><span class="ey">Your friction · release it</span><p>${E.turn}</p></div></div><div class="card"><span class="ey">In your chart</span><p>${E.diag}</p></div></div>`, 'sub');
+const subFunction = () => ep(`${backrow('Earth · The function')}<div class="pad"><div class="card"><h3>${E.claim}</h3><div class="fnrow">${ph('sq', 'Image · P2', 'The Mind', '1:1 · one per function · 5')}<p>${E.define}</p></div></div><div class="card"><span class="ey">The character · Earth in your chart</span><p style="font-family:var(--display);font-size:16.5px">${E.functional}</p>${stateLine()}${metrics()}${kchips()}<span class="light" style="font-size:12px">Tap a keyword to read it.</span></div><div class="card">${remedyBox()}</div></div>`, 'sub');
+const subDomains = () => ep(`${backrow('Earth · The domains')}<div class="pad"><div class="card"><h3>What Earth rules in your life</h3>${domMap()}<p class="soft" style="font-size:14px">${E.domLine}</p>${domTiles()}</div><div class="card"><span class="ey">Its seat in your pillars</span>${seatRow()}<span class="ey" style="margin-top:4px">Who runs it</span><p><b>The Alchemist · 偏印</b><br><span class="light" style="font-size:13px">runs your Mind · insight</span></p></div></div>`, 'sub');
 
 /* Variation C · the hybrid: short rungs open in place, long readings push */
 const pageC = (openKey = null) => ep(`${backrow('Your energies · Earth')}<div class="pad">${pager()}${nameRung()}
@@ -279,7 +313,7 @@ const pageC = (openKey = null) => ep(`${backrow('Your energies · Earth')}<div c
 const sheet = () => `<div class="page">${status()}<img class="shot" src="today-album.jpg" alt="" style="position:absolute;inset:0"><div class="sheet-scrim"></div><div class="sheet">
   <span class="grab"></span>
   <div class="b-shhead">${dot('earth', 44)}<span class="b-rt"><b>${E.head}</b><small>Earth is your Mind</small></span><span class="b-rr">${pill('fric', 'Release')}<em>33%</em></span></div>
-  <div class="b-ill">${art('t_earth_1_w', '', 'center 40%')}</div>
+  <div class="b-ill">${art('t_earth_1_w', '', 'center 40%')}${ph('tag', 'P1', 'pair painting lands here (N1)')}</div>
   <p class="b-story">${E.story}</p>
   <span class="b-cyc">${E.cyc}</span>
   <button class="cta">Read Earth, your Mind ${use('ico-arrow-r')}</button></div></div>`;
@@ -292,7 +326,7 @@ const V = {
   tap: 'The wheel disk opens the sheet, the cover. Read opens the page, which carries the same sign and head on top so it reads as one object. Boxes open in place (A), cards push pages (B), or the short rungs open in place and the two long readings push (C).',
   scroll: 'The page scrolls once. Swipe sideways for the other energies (the pager stays). The domains are the page’s last rung and the door into Domains.',
   next: 'Every energy page ends on Earth across your chart and a Next card for the next energy in the first reading’s order.',
-  intro: 'Golden chart, the Earth energy (friction, 33%). Every line is in the app or the station today: the pair’s head, story, mechanism, function and carry; the cycle image line; the god’s functional line and keywords; the Mind metrics; the live diagnosis, domain lines and seat. Section titles are reworded for display only.',
+  intro: 'Golden chart, the Earth energy (friction, 33%). Every line is in the app or the station today: the pair’s head, story, mechanism, function and carry; the cycle image line; the god’s functional line and keywords; the Mind metrics; the live diagnosis, domain lines and seat. Section titles are reworded for display only. Dashed frames mark where a picture would carry the rung better than its words (P1 to P3, specified below); the domain map and the remedy diagram are drawn from the existing signs.',
   flows: [
     { id: 'today', short: '1 · Today', title: 'The journey as it ships', note: 'Album → sheet → page → sub-pages. The page opens on the dark equation thumbnail and the diagnosis, then THE FUNCTION, then THE DOMAINS, then across your chart. The relation is told before the energy is named for the reader; the function and the mechanism each push their own page.',
       screens: [
@@ -338,6 +372,19 @@ const V = {
     <li><b>THE DOMAINS</b> · "Earth rules your Career, your Mind and your Growth." · the three tiles with the live domain lines · the seat (The Alchemist inside the Month Gate). <code>the live domain tiles · seat row · GOD pianyin</code></li>
   </ol>
   <p style="font-size:14.5px;color:var(--inkSoft);margin:10px 0 0">Not changed: the wheel, the signs, the dots, the plates, the pager, Earth across your chart, the Domains pages themselves (another session owns them; this journey ends at their door).</p></section>
+  <section class="imgdoc"><h2>Where a picture beats the words</h2>
+  <p style="font-size:14.5px;color:var(--inkSoft);margin:0 0 8px">Reviewed rung by rung. Three places want new imagery (dashed in the frames, listed here as briefs, not used as art). Two places are already drawable from the existing signs and are drawn in the frames.</p>
+  <table>
+    <tr><th>Slot</th><th>What it shows</th><th>Why a picture</th><th>Format · count</th><th>Status</th></tr>
+    <tr><td><b>P1</b> · the relation rung and the sheet's plate slot</td><td>The pair as a scene: Earth feeding Metal, "ore grows in the mountain". The classic line 「金居石依山，津潤而生」 is literally a picture.</td><td>The relation is the hardest idea on the page and today it is told three times in words (head, equation caption, base text). One painting teaches 生 at a glance.</td><td>3:2 band · 25 pairs (5 × 5), yin and yang share</td><td>Brief exists: N1 (GO-2). Until it lands, the element plate (R9).</td></tr>
+    <tr><td><b>P2</b> · the function rung</td><td>One vignette per function: the Body, the Mind, the Expression, the Action, the Order. Element-agnostic, so the same Mind vignette serves Earth-as-Mind and Water-as-Mind.</td><td>"Your Mind is where the world soaks in and becomes yours" is a spatial image; a small picture anchors the definition and makes the five functions recognisable across every energy page.</td><td>1:1 · 96px slot · 5</td><td>New brief (below).</td></tr>
+    <tr><td><b>P3</b> · the seat row (who runs it)</td><td>A seal for each of the ten personas (the Alchemist, the Sage, the Steward…), in the stem seals' manner.</td><td>The seat row is the one line that names a person; a seal makes "who runs it" a face the reader meets again in Domains and the pillar chart.</td><td>Round · 44px slot · 10</td><td>New brief (below). Shared with the Domains pages (another session owns them; the brief is offered, not imposed).</td></tr>
+    <tr><td>Domain map · the domains rung</td><td>The eight domain glyphs in a strip, Earth's three lit.</td><td>"Earth rules your Career, your Mind and your Growth" as a map, so the reader sees three of eight at once.</td><td>Drawn from the existing domain icons</td><td class="good">Drawn in the frames; no new art.</td></tr>
+    <tr><td>Remedy diagram · what it means now</td><td>Earth stores → 克 → Wood spends it, with the cycle image line "roots hold the hillside".</td><td>"Release Earth through Wood" is a direction; the two dots and the law glyph show it before the paragraph explains it.</td><td>Drawn from the ink dots and the locked cycle vocabulary</td><td class="good">Drawn in the frames; no new art.</td></tr>
+  </table>
+  <h2 style="font-size:20px;margin-top:16px">New art · briefs (proposal only, not used in any frame)</h2>
+  <p style="font-size:14.5px;margin:0 0 6px"><b>P2 · five function vignettes.</b> House ink-wash, the spot-illustration register of the stem seals (concept-arts/stems/proc): one object on open paper, no text, no seal, 1:1 at 480 × 480, mist to paper at the edges. Subjects: the Body, a standing stone; the Mind, a bowl of still water; the Expression, a brush leaving the paper; the Action, a hand on a plough; the Order, a weight on a balance. Palette: ink and one pigment, the function's own (Body dmBorder, Mind water, Expression metal, Action wood, Order fire).</p>
+  <p style="font-size:14.5px;margin:0"><b>P3 · ten persona seals.</b> Round chop-style marks, 240 × 240, in the manner of the stem seals but ink-and-paper (not chop red, which stays one per screen): the Alchemist a crucible, the Sage a lantern, the Steward a key, the Horizon an open gate, the Artisan a chisel, the Performer a bell, the Twin two strokes, the Rival a crossed stroke, the Magistrate a square seal, the General a banner. Names are the locked persona vocabulary (REA_02 §5e).</p></section>
   <section class="cmp"><h2 style="font-family:var(--display);font-weight:500;font-size:26px;margin:26px 0 8px">Boxes against cards</h2>
   <div class="scroll"><table>
     <tr><th></th><th>A · Boxes in place</th><th>B · Teaser cards</th><th>C · Hybrid</th></tr>
@@ -361,6 +408,7 @@ const ROWS = [
   ['EJ5', 'The character', 'Where the keywords and the Mind metrics live.', ['Its own rung, after the function', 'Inside the function, as today']],
   ['EJ6', 'The domains rung', 'How the page ends before across your chart.', ['One sentence, then the three tiles and the seat (opened in place or on a page)', 'One sentence and three chips; everything else on the Domains page']],
   ['EJ7', 'Across your chart and Next', 'The page’s tail.', ['Keep both, as today', 'Fold across your chart into the domains rung; keep Next']],
+  ['EJ8', 'The imagery', 'Which of the three picture slots to commission. The domain map and the remedy diagram need no art and ship with the build.', ['All three: the pair paintings (N1, already briefed), the five function vignettes (P2), the ten persona seals (P3)', 'The pair paintings only (N1); P2 and P3 stay placeholders', 'None yet; the slots stay dashed in the design and the build shows the element plate']],
 ];
 const L = 'ABC';
 let pick = {};

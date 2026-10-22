@@ -178,8 +178,10 @@ Shared by all three: the sheet trimmed to the hook (sign, head, function, state,
 
 Sources, all existing: `ELEMENT_PAIR 金_土` (head, story, mechanism, function, cta_verdict, carry), `tpl_cycle_line.image_lines`, `tpl_now_line`, `ELEMENT_GOD 土_偏印` (k2_functional, adj_chips, edge), `FUNCTION_METRICS Mind`, `GOD pianyin`, the live diagnosis, domain lines, seat and across-your-chart. The Domains pages themselves are another session's and are not redrawn.
 
-Rows: EJ1 the folding · EJ2 the cover · EJ3 the name rung · EJ4 the relation picture · EJ5 the character · EJ6 the domains rung · EJ7 across your chart and Next.
+**Imagery (owner 2026-10-22: "think about what can be better illustrated… leave spaces and placeholders").** Reviewed rung by rung. Three slots want new imagery and are drawn as dashed placeholders with a spec in the frames, listed as briefs, not used as art: P1 the pair painting on the relation rung and in the sheet's plate slot (the N1 brief, GO-2; the element plate until it lands), P2 one vignette per function (5, 1:1, house ink-wash spot register, subjects: a standing stone, a bowl of still water, a brush leaving the paper, a hand on a plough, a weight on a balance), P3 ten persona seals for the seat row (round, ink-and-paper, one object per persona). Two pictures need no art and are drawn in the frames from the existing signs: the domain map (eight domain glyphs, the energy's three lit) on the domains rung, and the remedy diagram (Earth stores → 克 → Wood spends it, with the locked cycle image line) in the remedy box.
+
+Rows: EJ1 the folding · EJ2 the cover · EJ3 the name rung · EJ4 the relation picture · EJ5 the character · EJ6 the domains rung · EJ7 across your chart and Next · EJ8 the imagery (all three slots · the pair paintings only · none yet).
 
 | Row | Ruling | Date |
 |---|---|---|
-| EJ1–EJ7 | awaiting the owner | — |
+| EJ1–EJ8 | awaiting the owner | — |
