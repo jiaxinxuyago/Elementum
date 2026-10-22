@@ -42,6 +42,9 @@ New-Item -ItemType File -Force $lock | Out-Null
 try {
     Set-Location $app
     "=== sync-live $(Get-Date -Format s) fingerprint $($sha.Substring(0,12)) ===" | Set-Content $log
+    # The same gate as the deploy workflows (INF_02 section 2): lint plus the QA checks.
+    cmd /c "npm run check >> `"$log`" 2>&1"
+    if ($LASTEXITCODE -ne 0) { Write-Output ('{"systemMessage":"Live-demo sync: CHECK FAILED (lint or QA) - not deployed, see ' + $log.Replace('\', '/') + '"}'); exit 0 }
     cmd /c "npm run build >> `"$log`" 2>&1"
     if ($LASTEXITCODE -ne 0) { Write-Output ('{"systemMessage":"Live-demo sync: BUILD FAILED - see ' + $log.Replace('\', '/') + '"}'); exit 0 }
     cmd /c "npx wrangler deploy >> `"$log`" 2>&1"

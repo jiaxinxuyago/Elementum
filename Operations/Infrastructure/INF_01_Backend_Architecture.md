@@ -4,10 +4,16 @@
 
 ## Accounts · Payments · LLM · Push — a server-free, managed-backend plan
 
-**Version:** 0.6 · September 2026
+**Version:** 0.7 · October 2026
 **Related docs:** DEV_02 (code architecture) · DES_04 §19 (pricing & content tiers) · DEV_01 (calculation engine — client-side) · DES_13 §D7 (Self-Report)
-**Status:** **Planning.** No *server* backend exists yet. The app runs **fully client-side** with deliberate demo stubs placed at clean integration seams (tier, entitlement, consultant, notifications). This document is the spec + sequencing for the eventual build, and the rationale for **deferring it to a pre-beta phase**.
-> **Update (2026-07):** §4.1 Auth and §4.2 Payments are **SHIPPED** — Supabase accounts (purchase-gated sign-in) + the Founding Pass with a **server-verified entitlement pipeline** (Stripe webhook → entitlements DB; see §4.2). §4.3 LLM and §4.4 Push remain client-side stubs.
+**Status:** **Live.** §4.1 Auth, §4.2 Payments, §4.3 LLM (Phase 0, owner-only) and §4.4 Push shipped in 2026-07 (the original plan text below is kept as the record). The October 2026 additions (billing terms, subscriptions, analytics, monitoring, the deploy gate) are summarised in the 2026-10-22 update below; their steps live in `INF_02_Launch_Runbook.md`.
+> **Update (2026-07):** §4.1 Auth and §4.2 Payments are **SHIPPED** — Supabase accounts (purchase-gated sign-in) + the Founding Pass with a **server-verified entitlement pipeline** (Stripe webhook → entitlements DB; see §4.2). §4.3 LLM and §4.4 Push followed later in 2026-07 (see their SHIPPED notes).
+
+> **Update (2026-10-22, owner rulings `BIZ_05` §8):**
+> - **Billing (S5 A, S6 A).** A new Founding Pass is Seeker for life plus 12 months of Advisor (`advisor_until`), capped at 300; earlier buyers keep Advisor for life. Seeker and Advisor subscriptions (monthly and yearly, 7-day trial on yearly) route through the webhook by Payment Link metadata `plan`, with `customer.subscription.*` events writing `sub_tier` / `sub_status`. Migration `supabase/migrations/0005_billing_terms.sql`; the one effective-tier rule is `src/infra/entitlement.js`, read by the app and the llm worker. Switch-on steps: `INF_02` §1.8.
+> - **Analytics (S3 A).** A sixth Worker, `elementum-analytics` (`workers/analytics/`), writes app events to Workers Analytics Engine; the app side is `src/infra/analytics.js`, off until `ANALYTICS_URL` is set (`INF_02` §1.9, §3).
+> - **Error monitoring (S4 A).** Sentry for the app (`src/infra/monitoring.js`), off until `SENTRY_DSN` is set (`INF_02` §1.10, §4).
+> - **The deploy gate.** Both deploy workflows run `npm run check` before the build (`INF_02` §2).
 
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `_ARCHIVE_Reading_V2.1_Reconciliation_Audit.md`).** When the LLM-consultant payload is assembled, the Canonical JSON sent to the proxy must carry the **per-element polarity resolution** `{ element: { presentFaces:[{god,weight}], absentGod } }` (post-rewire), so the consultant sees the same faces the reading surfaces — not the old single polarity-blind god. It must also carry **`chart.tenGods`** (the per-pillar Ten Gods) so the consultant has the **positional (宫位) axis** the reading now uses (B6).
 
@@ -15,7 +21,7 @@
 
 ## 0. TL;DR
 
-- **Designated server: NO.** Everything is achievable with a **managed BaaS + ~3 small serverless functions + third-party SaaS**. No VM, container, or long-running server to operate.
+- **Designated server: NO.** Everything is achievable with a **managed BaaS + a few small serverless functions (four satellite Workers as of 2026-10) + third-party SaaS**. No VM, container, or long-running server to operate.
 - **The core never needs a server.** The BaZi engine (`engine/calculator.js`, DEV_01) and all reading content are 100% client-side. The backend is commodity glue: accounts, payments, an LLM proxy, push.
 - **Three things must run server-side** (security): the LLM API key, payment verification + entitlement writes, and the push-send scheduler. Each is a tiny serverless function.
 - **Timing: defer the full backend to a focused pre-beta phase.** The seams are already clean, so integration is a *swap*, not a rewrite. Pull one item early only if a specific alpha goal demands it.
@@ -88,12 +94,12 @@ Each item lists: **what**, the **server piece**, the **client seam it replaces**
 - **Workload:** medium (days code) + non-code: Stripe account, products/prices, **tax** (consider a Merchant-of-Record to offload VAT).
 - **Depends on:** §4.1 (Stripe customer ↔ user mapping).
 
-> **✅ SHIPPED 2026-07 — server-verified (the honor-system stopgap is retired).** The **Founding Pass** ($9 one-time, lifetime Advisor — beta-only launch offer) runs the full §4.2 pipeline:
+> **✅ SHIPPED 2026-07 — server-verified (the honor-system stopgap is retired).** The **Founding Pass** ($9 one-time; lifetime Advisor until 2026-10-22, then Seeker for life plus 12 months of Advisor per S5 A — see the 2026-10-22 update at the top) runs the full §4.2 pipeline:
 > 1. **Purchase-gated sign-in** — the Founding CTA requires an account; the Stripe Payment Link URL carries `client_reference_id=<user.id>` + `prefilled_email` (`UpgradeModal.buyFounding`).
 > 2. **Webhook** — a standalone Cloudflare Worker (`elementum-stripe-webhook`, code at `Elementum_App/workers/stripe-webhook/`) verifies the `stripe-signature` HMAC and, on `checkout.session.completed` (paid), **upserts the buyer's `entitlements` row** (tier=advisor, has_founding, stripe_customer_id) via Supabase REST with the service-role key (Worker secret). Idempotent on retries; paid sessions without a user id are logged for manual backfill.
 > 3. **Server-truth client** — signed-in users' `tier` is read from `entitlements` (RLS: read-own-row only; no client write path). The localStorage grant was deleted; `?founding=ok` only polls `refreshEntitlements()` and plays the ceremony **after** the server confirms. A forged URL unlocks nothing.
 >
-> Still open within §4.2: Seeker/Advisor **subscriptions** (their cards are disabled "Available after beta"), and tax/MoR. **Self-Report SHIPPED wired 2026-07-07**: real $6.99 Payment Link, account-gated buy, webhook routes products by **amount_subtotal** (pre-discount: 900=Founding, 699=Self-Report — ⚠ price changes must ship with a matching PRODUCTS update in workers/stripe-webhook; subtotal-keying means promotion codes — incl. the 100%-off testing coupon, whose zero-total checkouts arrive as payment_status=no_payment_required and are accepted — route correctly), has_self_report is server-truth (RLS read, webhook write; the localStorage demo flip no longer grants). URL single-sourced in `infra/links.js`; display price in `infra/pricing.js`.
+> Still open within §4.2 (2026-10-22): the subscription code is in `main` (S6 A) and waits on the owner's Stripe links (`INF_02` §1.8); tax and merchant of record are ruled S7 A (Stripe Managed Payments, `INF_02` §1.5–1.6). **Self-Report SHIPPED wired 2026-07-07**: real $6.99 Payment Link, account-gated buy, webhook routes products by **amount_subtotal** (pre-discount: 900=Founding, 699=Self-Report — ⚠ price changes must ship with a matching PRODUCTS update in workers/stripe-webhook; subtotal-keying means promotion codes — incl. the 100%-off testing coupon, whose zero-total checkouts arrive as payment_status=no_payment_required and are accepted — route correctly), has_self_report is server-truth (RLS read, webhook write; the localStorage demo flip no longer grants). URL single-sourced in `infra/links.js`; display price in `infra/pricing.js`.
 
 ### §4.2b — Payment user journey (local) — TRACKED FIX (owner-reported 2026-07-07)
 
@@ -177,7 +183,7 @@ Apple Pay / Google Pay are **not a separate integration** — their availability
 
 - **What:** the "daily reading" reminder actually firing, as Web Push from `elementum.life` (no app store).
 - **Platform reality:** Android/desktop — works from the browser directly. **iOS 16.4+ — works ONLY for the installed PWA** (Add to Home Screen first); Safari browsing alone cannot receive push. The install step is the iOS friction; the A2HS prompt is therefore part of the push funnel.
-- **Server piece:** `elementum-push` Cloudflare Worker — (a) subscribe/unsubscribe API writing `push_subscriptions` via service-role (no client RLS surface), (b) hourly **cron** that sends to every subscription whose preferred UTC hour matches, (c) `/message` endpoint serving today's date-based text. Sends are **payload-less** (VAPID auth only — sidesteps RFC 8291 payload encryption); the service worker fetches `/message` on wake and shows the notification.
+- **Server piece:** `elementum-push` Cloudflare Worker — (a) subscribe/unsubscribe API writing `push_subscriptions` via service-role (no client RLS surface), (b) hourly **cron** that sends to every subscription whose preferred UTC hour matches, (c) `/message` endpoint serving today's date-based text. Sends carry **RFC 8291 encrypted payloads (aes128gcm)** with VAPID auth: Apple silently drops payload-less pushes (see the SHIPPED note above). `/message` stays as a fallback text source. Later routes: `/schedule` (Your Almanac reminder codes, behind `ALMANAC_PUSH`) and `/report`, plus the `EMAIL` send binding (`workers/push/wrangler.jsonc`).
 - **Client seam:** onboarding step 7 + the Profile notify toggle stop being cosmetic: permission request → `pushManager.subscribe(VAPID public key)` → POST to the Worker. Custom SW push/notificationclick handlers ride `importScripts` into the vite-plugin-pwa generated SW.
 - **Depends on:** nothing server-side beyond the Worker + one table (deliberately NOT on §4.1 accounts — anonymous users can subscribe; `user_id` is attached when a session exists).
 
@@ -192,7 +198,7 @@ The app was built so each backend item is a localized swap, not a rewrite:
 | `tier` (in-memory demo flip) | `store/chartContext.jsx`, `UpgradeModal.jsx` | server entitlement read (DB) |
 | `hasSelfReport` + `purchaseSelfReport()` (localStorage) | `store/chartContext.jsx`, `SelfReportScreen.jsx` | Stripe purchase → webhook → DB |
 | `buildReplies()` scripted + simulated stream | `AIConsultantScreen.jsx` | `fetch` LLM proxy (real stream) |
-| Sign Out no-op | `ProfileScreen.jsx` | auth provider sign-out |
+| Sign Out no-op | `ProfileScreen.jsx` | auth provider sign-out (done 2026-07: `signOut()`) |
 | Notify toggle cosmetic | `ProfileScreen.jsx`, onboarding | push permission + provider |
 | `window.__setTier` / `__buySelfReport` | `App.jsx` (IS_DEV-gated) | remove authority once entitlements are server-side |
 
@@ -264,7 +270,7 @@ Keeping `useChart()` as the single accessor for `tier`/`hasSelfReport` means the
 - **Addresses are dashboard-managed custom domains.** Both hostnames are attached in the Cloudflare dashboard (Workers → *worker* → Domains → Add Domain) and deliberately NOT declared in `wrangler.jsonc`: declaring a domain makes wrangler sync zone routes on every deploy, which needs zone-level token permissions the account-owned deploy token cannot carry. Both Workers set `workers_dev: false` and `preview_urls: false`, so each site has exactly one public address. If either Worker is ever recreated, re-attach its domain in the dashboard first. The `dev` subdomain is a record inside the elementum.life zone, never a zone of its own (the "Add a site" flow is the wrong door).
 - **What the dev-mirror build turns on** (`src/devtools.js` → `IS_DEV_TOOLS`, true under the vite dev server OR the `VITE_DEVTOOLS=1` flag): the DevBar (Chart + Schema tabs), the `window.__seedData` / `__goto` / `__setTier` QA hooks, and the ProfileScreen dev controls. The build is also marked `noindex, nofollow`, ships a disallow-all `robots.txt`, and installs as the PWA "Elementum Dev" (`vite.config.js`). The release build never sets the flag, so elementum.life carries none of this. A diff that sets the flag in `deploy.yml`, or unsets it in `deploy-dev.yml`, is a DEV_03 K5 exposure-flag finding (HIGH).
 - **Why it exists (owner 2026-09-15):** cloud sessions (claude.ai/code) have no local dev server the owner can open, and the egress proxy blocks our own hostnames from inside the session. dev.elementum.life gives a cloud session the same live, DevBar-equipped surface that `npm run dev` gives the laptop. It is a viewing surface, not a staging gate. Optional hardening, not yet done: Cloudflare Access (Zero Trust) in front of `dev.elementum.life` to keep the dev build owner-only.
-- **Secrets:** both workflows use the same repository secrets, `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. Neither app Worker holds runtime secrets; the satellite Workers (§4.2 stripe-webhook, §4.3 llm, §4.4 push) keep their own documented `wrangler secret put` sets and still deploy manually with their documented command.
+- **Secrets:** both workflows use the same repository secrets, `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. Neither app Worker holds runtime secrets; the satellite Workers (§4.2 stripe-webhook, §4.3 llm, §4.4 push, and from 2026-10-22 analytics) keep their own documented `wrangler secret put` sets and still deploy manually with their documented command.
 
 ### §10.0 Public address inventory (owner ruling 2026-09-15)
 
@@ -275,8 +281,9 @@ Keeping `useChart()` as the single accessor for `tier`/`hasSelfReport` means the
 | `http://localhost:<port>` | the vite dev server (`npm run dev`) | KEEP — local-session testing (not a public address) |
 | `jiaxinxuyago.github.io/Elementum` (GitHub Pages) | GitHub's built-in "pages build and deployment" of the `main` tree | **KEEP (owner 2026-09-15)** — it publishes the repository tree, not the app, and stays on; it never updates elementum.life |
 | `elementum-push` / `elementum-llm` / `elementum-stripe-webhook` `.jiaxinxuyago.workers.dev` | API endpoints only (browser, service worker, Stripe) | KEEP — load-bearing, never user-facing pages; their `preview_urls` are retired |
+| `elementum-analytics.jiaxinxuyago.workers.dev` | the analytics event endpoint (app beacons only; origin-checked) | KEEP from its first deploy (owner S3 A, 2026-10-22; `INF_02` §1.9); `preview_urls:false` |
 | `elementum.<account>.workers.dev`, `elementum-dev.<account>.workers.dev` | duplicate app addresses | RETIRED (`workers_dev:false` on both app Workers) |
-| `*-<worker>.<account>.workers.dev` preview URLs | version previews | RETIRED (`preview_urls:false` on all five Workers; satellites take effect on their next manual deploy, or flip the Preview toggle on each Worker's Domains tab) |
+| `*-<worker>.<account>.workers.dev` preview URLs | version previews | RETIRED (`preview_urls:false` on all six Workers; satellites take effect on their next manual deploy, or flip the Preview toggle on each Worker's Domains tab) |
 | a `dev.elementum.life` **zone** under Websites | an accidental "Add a site" from the first attachment attempt, if it was completed | RETIRE if present (Websites → dev.elementum.life → Overview → Remove site) |
 
 No `www.elementum.life` exists and none is planned; the apex is the address.
@@ -293,7 +300,7 @@ No `www.elementum.life` exists and none is planned; the apex is the address.
 
 The road for a change that touches `Elementum_App/`:
 
-1. **Gates on the working tree, before the push:** `npm run lint` · `node tools/voice-audit.mjs` · `node tools/export-reading-templates.mjs` (sync audit, never `--harvest`) · `node tools/qa-journey-sweep.mjs` · `npm run build`. The gates are the test; the sites are where the owner looks.
+1. **Gates on the working tree, before the push:** `npm run check` (lint plus seven QA checks; the deploy workflows run the same gate and stop on a failure, `INF_02` §2) · `node tools/voice-audit.mjs` · `node tools/export-reading-templates.mjs` (sync audit, never `--harvest`) · `node tools/qa-journey-sweep.mjs` · `npm run build`. The gates are the test; the sites are where the owner looks.
 2. **Push to `main`.** Both workflows run (about a minute each; the Actions run is the receipt a cloud session can read, since its proxy cannot reach either hostname).
 3. **Look at it:** a cloud session on dev.elementum.life with the DevBar and the QA hooks, a local session on localhost. Reload twice on first visit after a deploy (the PWA is `autoUpdate`: the first load fetches the new service worker, the second shows it).
 4. **Confirm on elementum.life** the same way. Doc-only commits (no `Elementum_App/` paths) trigger neither workflow.

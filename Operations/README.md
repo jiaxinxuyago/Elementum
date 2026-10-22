@@ -58,7 +58,7 @@
 | *(retired)* Content_Generation_Guide | REA_06 | — | REA_05 | DES_06 |
 | *(retired)* Format_Audit / Content_Review | REA_09 / REA_10 | — | REA_09 / REA_10 | DES_10 / DES_11 |
 
-Legacy **section** citations resolve at the same § numbers in the current books: old Concept_Inventory §1–3 = REA_02 §1–3 · old Identity_Vocabulary §4–6 = REA_02 §4–6 · old Reading_Schema §7 = REA_03 §7 · old Concept_Inventory §6–12 = REA_06 §6–12 · old Knowledge_Pool PARTs/§§ = REA_04 same. Ids REA_07–REA_15 are RETIRED (transition/legacy), never reused; REA_16 (The_Voice) was born 2026-08-05; REA_17 was born 2026-09-21 and REA_18 on 2026-09-29; the next new Reading doc is born REA_19.
+Legacy **section** citations resolve at the same § numbers in the current books: old Concept_Inventory §1–3 = REA_02 §1–3 · old Identity_Vocabulary §4–6 = REA_02 §4–6 · old Reading_Schema §7 = REA_03 §7 · old Concept_Inventory §6–12 = REA_06 §6–12 · old Knowledge_Pool PARTs/§§ = REA_04 same. Ids REA_07–REA_15 are RETIRED (transition/legacy), never reused; REA_16 (The_Voice) was born 2026-08-05; REA_17 was born 2026-09-21 and REA_18 on 2026-09-29; the next new Reading doc is born REA_20 (REA_19 was born 2026-10-14).
 
 ### Development/ — engine spec, code architecture, engineering protocols
 | ID | Title | Purpose | Formerly |

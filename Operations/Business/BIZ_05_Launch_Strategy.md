@@ -296,4 +296,5 @@ Round 1, in the owner's words: "S1 B, S2 A, S3 A, S4 A, S5 A, S6 A, S7 A, S8 A, 
 | B1, B2 billing code (S5 A, S6 A) | done 2026-10-22 in `main`: migration 0005, `src/infra/entitlement.js`, the webhook and llm worker; switched on by the owner's steps in `INF_02` §1.8 |
 | I1 analytics, I2 monitoring (app) | done 2026-10-22 in `main`, off until the owner's steps `INF_02` §1.9 and §1.10; /legal updated and snapshotted (`Operations/Legal_Admin/Elementum_Legal_Terms_Snapshot_2026-10-22.html`) |
 | D1, D2, D3 | done 2026-10-22: `Operations/Project_Management/PM_04_Ruling_Queue.md` |
+| Doc drift (task 5) | done 2026-10-22: Operations audit, 15 of 18 findings fixed (INF_01 v0.7, BIZ_01, DEV_01, DEV_03, PM_01, PM_02, PM_03 header, README, INF_02); the laptop's `sync-live.ps1` and `merge-fix-branches.mjs` now run `npm run check` too. Left for their owners: the Day Log has no entry since 2026-09-30 (the PM routine is not writing), two unregistered files in `Design/Documents/`, a unit count in PM_02 EVT-1 |
 | I3 the deploy gate | done 2026-10-22: `npm run check` (lint plus seven QA checks) runs before the build in both deploy workflows (`INF_02` §2) |

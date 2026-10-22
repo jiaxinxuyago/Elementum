@@ -6,11 +6,13 @@
 //   POST /unsubscribe  {endpoint}                       → delete row
 //   POST /schedule     {endpoint, schedule, tzOffset}   → Your Almanac codes (ALMANAC_PUSH=1 only)
 //   GET  /message      → today's DATE-BASED reading hook (no PII — same for all)
-//   cron (hourly)      → payload-less push to every sub whose utc_hour matches;
-//                        the service worker wakes, fetches /message, shows it.
+//   cron (hourly)      → an encrypted push to every sub whose utc_hour matches;
+//                        the service worker shows the payload (/message is the
+//                        fallback text source).
 //
-// Payload-less sends need only VAPID auth (ES256 JWT) — no RFC 8291 payload
-// encryption. Dead subscriptions (404/410 from the push service) are pruned.
+// Sends carry RFC 8291 aes128gcm payloads with VAPID auth (ES256 JWT): Apple
+// silently drops payload-less pushes (INF_01 §4.4). Dead subscriptions (404/410
+// from the push service) are pruned.
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { ALMANAC_COPY } from './almanacCopy.js';

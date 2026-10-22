@@ -2,7 +2,7 @@
 
 **Born:** 2026-10-22, strategy session (session_019UR4wQXx6NmFH7gv99Zf7U), from `BIZ_05` (the launch plan).
 **Purpose:** the exact steps for the launch safety net. Steps marked OWNER need the owner's accounts or card; agents never hold billing or bank credentials (standing rule, `BIZ_01`). Steps marked AGENT are code a session builds after the owner rules.
-**Status:** proposed. Each section says what it waits on.
+**Status:** ruled 2026-10-22 (`BIZ_05` §8); code for §2–§4 is in `main`. Each section says what it waits on.
 
 ---
 

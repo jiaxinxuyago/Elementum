@@ -11,7 +11,7 @@
 | Service | Account owner | Plan today | Cost today | Role |
 |---|---|---|---|---|
 | **Cloudflare Registrar** (elementum.life) | personal | annual registration | 🟢 **~$25–30/yr ≈ $2.50/mo** *(at-cost; CONFIRM actual from receipt)* | the domain |
-| **Cloudflare Workers** ×5 (`elementum`, `elementum-stripe-webhook`, `elementum-push`, `elementum-llm`, `elementum-dev`) | personal | Free plan | ⚪ $0 (well under 100k req/day; cron free) | hosting, payments webhook, push, AI consultant |
+| **Cloudflare Workers** ×6 (`elementum`, `elementum-dev`, `elementum-stripe-webhook`, `elementum-push`, `elementum-llm`, and `elementum-analytics` from its first deploy, S3 A 2026-10-22) | personal | Free plan | ⚪ $0 (well under 100k req/day; cron free) | hosting, payments webhook, push, AI consultant |
 | **Cloudflare Email Routing** | personal | — not set up | ⚪ $0 (free when enabled) | future `support@elementum.life` |
 | **Supabase** (`nbactbfxqslzehzbgetp`) | personal | Free tier | ⚪ $0 | accounts, entitlements, push subscriptions |
 | **Stripe** | company (Lantern Digital) | pay-per-transaction | ⚪ $0 fixed · **2.9% + 30¢ per sale** (variable) | both payment links |
@@ -82,6 +82,8 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 
 > **The honest read:** covering the all-in number with one-time $9 passes means ~25–35 *new* buyers every month indefinitely — not a plan. The realistic paths to all-in break-even are (a) post-beta **subscriptions** ($9.99/$19.99 recurring: ~20–25 Seeker subs covers everything), and/or (b) treating Claude Max as a bounded **investment phase** that downshifts once the build stabilizes. Runtime-only break-even, by contrast, is nearly free — the product itself is cheap to keep alive.
 
+> **Update 2026-10-22 (owner rulings, `BIZ_05` §8):** S5 A bounds the Founding Pass for new buyers to 12 months of Advisor (then Seeker for life), so the inference cost below is bounded for every pass sold from that date; S6 A rules the subscriptions (Seeker $9.99/mo or $59.99/yr, Advisor $19.99/mo or $119.99/yr; code in `main`); S7 A adds Stripe Managed Payments (about +3.5% per sale) and one CPA hour (about $300 once); S4 A adds Sentry (free tier, $0); S11 A caps spend above Claude Max at $100/mo for the next 90 days.
+
 > **Structural note (from INF_01 §4.3):** the Founding Pass is one-time revenue against forever inference cost — a typical consultant user consumes their $9 in ~a year, a heavy user in ~3 months. At Phase-3 scale the LLM must be funded by **recurring** revenue: that is the standing business case for launching the Seeker/Advisor subscriptions post-beta, and the reason the open-model switch trigger exists.
 
 ---
@@ -103,7 +105,7 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 
 | Item | Cost | Trigger | Unlocks |
 |---|---|---|---|
-| Cloudflare Workers Paid | $5/mo | ~4 wks before first external users (early Aug for Sept ship, or validation-sprint wave) | Analytics pipeline (WAE) + customer email (support@) |
+| Cloudflare Workers Paid | $5/mo | Now (S3 A, 2026-10-22; `INF_02` §1.2) | Analytics pipeline (WAE). support@ no longer needs it: Email Routing receives, Resend sends (`INF_02` §1.1) |
 | Supabase Pro | ~$25/mo | Before beta marketing (idle-pause already mitigated by push cron) | Capacity/SLA |
 | Apple Developer (Lantern Digital org) | $99/yr | Phase B scheduled (D-U-N-S secured) | App Store distribution |
 

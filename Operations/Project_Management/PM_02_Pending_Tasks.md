@@ -9,7 +9,7 @@
 ## STORE — Apple / Google Play onboarding (Phase B)
 
 ### STORE-1 · Apple Developer Program — Organization enrollment ⏳ READY, Phase-B-gated
-- **State (2026-07-09):** all prerequisites DONE. **D-U-N-S secured: 14-193-9711** (record: `Documents/Legal_Admin/Lantern_Digital_DUNS_Record_2026-07-09.pdf`); entity paperwork complete (NY LLC DOS 7668771, EIN 39-3447554).
+- **State (2026-07-09):** all prerequisites DONE. **D-U-N-S secured: 14-193-9711** (record: `Operations/Legal_Admin/Lantern_Digital_DUNS_Record_2026-07-09.pdf` (on the laptop; not in git)); entity paperwork complete (NY LLC DOS 7668771, EIN 39-3447554).
 - **Trigger:** owner schedules Phase B (native bundle). Do NOT enroll early — the $99/yr membership clock starts at purchase.
 - **Steps at trigger:** ① Apple ID on the Lantern Digital email + 2FA (verify done) → ② developer.apple.com/programs/enroll → Organization → legal name `Lantern Digital LLC` + D-U-N-S 14-193-9711 + elementum.life; enroller = Jiaxin Xu (sole member, has binding authority); expect possible phone verification → ③ pay $99 → ④ add ~$8.25/mo amortized line to `BIZ_01` §1/§2.
 - **Known risk:** D&B's structured record shows "Corporation"/"Start Year 2026" (both wrong, documented in the Legal_Admin PDF) — if Apple's form objects to entity type, correct via D&B support first.
@@ -34,9 +34,9 @@ Record: `Operations/Business/BIZ_05_Launch_Strategy.md`; report with the rulings
 |---|---|---|---|
 | INFRA-1 | Phase 1 consultant rollout: `OWNER_IDS=""` + redeploy elementum-llm | After the owner's voice-polish session | `INF_01` §4.3 |
 | INFRA-2 | Supabase Pro (~$25/mo) | Before beta marketing | ownership-map memory |
-| INFRA-3 | Workers Paid ($5/mo) → support@ outbound email | When onboarding more customers | ownership-map memory |
+| INFRA-3 | Workers Paid ($5/mo) for analytics (S3 A); support@ is free through Email Routing + Resend | Now (owner, 2026-10-22) | `INF_02` §1.1, §1.2 |
 | INFRA-4 | Open-model arm (Workers AI) in elementum-llm — NOT yet implemented | LLM spend nears $50/mo or 20% of revenue | `INF_01` §4.3 cost gates |
-| INFRA-5 | Subscriptions + tax/merchant-of-record | Post-beta | `BIZ_01` structural note |
+| INFRA-5 | Subscriptions + tax/merchant-of-record — RULED S6 A, S7 A (2026-10-22); code in `main` | The owner's Stripe steps | `INF_02` §1.5, §1.6, §1.8 |
 
 ## BAND — the band-tier content campaign (scoped 2026-08-05 · construct ratified, REA_16 §6 / REA_03 §3)
 

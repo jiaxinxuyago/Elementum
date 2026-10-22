@@ -66,8 +66,8 @@ if (!merged.length) {
 } else {
   // ---- Gates: the same bars every fixer already had to clear --------
   const gates = [
-    { name: 'eslint 0-errors', cmd: 'npx eslint . --max-warnings=9999', cwd: APP },
-    { name: 'engine golden regression', cmd: 'node tools/qa-engine-regression.mjs', cwd: APP },
+    // npm run check = the deploy workflows' gate (INF_02 §2): eslint + the QA checks.
+    { name: 'npm run check (lint + QA)', cmd: 'npm run check', cwd: APP },
     { name: 'production build', cmd: 'npm run build', cwd: APP },
   ];
   let gateFail = null;

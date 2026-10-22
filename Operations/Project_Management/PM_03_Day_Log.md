@@ -2,7 +2,7 @@
 
 **THE one file for daily project state.** Newest day on top; entries are
 APPEND-ONLY (this is a RECORD doc — never rewrite past days). Written daily
-by the project-manager routine (~4:41 PM, after the QA/review/dispatch cycle)
+by the project-manager routine (Mon–Fri ~11:45 PM, after the QA/review/dispatch cycle)
 — the ONE sanctioned automation write inside Operations/ — and by any session
 the owner asks. Each entry: **Done** (what shipped/landed, from git + the QA
 journals) · **Pending** (open items: awaiting-merge branches, owner rulings,

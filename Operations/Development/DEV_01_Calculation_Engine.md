@@ -14,7 +14,9 @@
 
 ```
 LAYER 1: JavaScript Calculation Engine          ← THIS DOCUMENT
-  Input:  { birthDate, birthHour, gender, location }
+  Input:  { birthDate, birthHour, gender, location, hourUnknown? }
+          hourUnknown: true scores three pillars (E3 A, 2026-10-22); the
+          hour pillar is returned for display only
   Output: Canonical JSON (see §4)
   Rules:  Pure computation. No LLM. Fully deterministic.
           All 10 stems × all 5 strengths × all combinations verified.
@@ -377,7 +379,7 @@ Does the month branch's 本気 element equal the DM element, or generate the DM 
 | ✓ | ✓ | ✓ | `extremely_strong` | 0.92 | concentrated |
 | ✓ | ✓ | — | `strong` | 0.72 | concentrated |
 | ✓ | — | ✓ | `strong` | 0.72 | concentrated |
-| — | ✓ | ✓ | `strong` | 0.72 | concentrated |
+| — | ✓ | ✓ | `moderate` | 0.50 | balanced *(was strong until 2026-10-22; E2 A: out of season reads balanced at most)* |
 | ✓ | — | — | `moderate` | 0.50 | balanced |
 | — | ✓ | — | `weak` | 0.30 | open |
 | — | — | ✓ | `weak` | 0.30 | open |
