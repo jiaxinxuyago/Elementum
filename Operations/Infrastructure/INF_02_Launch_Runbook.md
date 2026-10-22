@@ -62,7 +62,7 @@ One hour with a New York CPA. Questions:
 ### 1.7 Google OAuth brand verification (OWNER-4)
 Google Cloud console → APIs & Services → OAuth consent screen → check the status; answer any email from the Trust and Safety team. Until it clears, the consent screen shows supabase.co.
 
-## 2 · The deploy gate (AGENT, prepared, waits on the owner's go)
+## 2 · The deploy gate (live since 2026-10-22, S15 A)
 
 A `check` script in `Elementum_App/package.json`, run by both deploy workflows before the build. A failure stops the deploy.
 

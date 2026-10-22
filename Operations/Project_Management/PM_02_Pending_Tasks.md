@@ -23,9 +23,10 @@
 
 ## STRAT — launch strategy
 
-### STRAT-1 · The launch plan ⏳ WAITS ON THE OWNER'S RULINGS S1–S15
+### STRAT-1 · The launch plan 🔄 RULED 2026-10-22, BUILDING
 Record: `Operations/Business/BIZ_05_Launch_Strategy.md`; report with the rulings: https://claude.ai/artifact/WU74C1XQ1bD6QBUHCoFrSB. The stage is a feature-rich private alpha with no market evidence. The proposal: freeze new sections, ship the freeze list F1 to F10 (about two weeks), then 30 to 50 strangers through the reveal, with the gates in BIZ_05 §5.4 deciding the public launch. Key finding: Paddle bans horoscope products, so the merchant-of-record route is Stripe Managed Payments (S7). Once ruled, INFRA-2, INFRA-3, INFRA-5 and HK-10 are scheduled from the plan. Strategy session: session_019UR4wQXx6NmFH7gv99Zf7U.
 - **2026-10-22, round 2:** the owner handed this session the open items (measurement, the safety net, billing, engine accuracy, the ruling bottleneck). New rulings E1–E3 (engine, with chart counts), G1 (the deploy gate, patch ready, all checks green), D1–D3 (one ruling day, delegation, a 7-day default); S3 now recommends the July first-party analytics. Owner steps in `Operations/Infrastructure/INF_02_Launch_Runbook.md` §1. Code waits on the rulings and the owner's go.
+- **Ruled 2026-10-22:** S1 B (the section rulings close first, then the freeze), every other S row A, S3 = the July first-party analytics, E1 A, E2 A, E3 A (= S13 A), D1–D3 A. Progress table: `BIZ_05` §8.1.
 
 ## INFRA — trigger-gated
 

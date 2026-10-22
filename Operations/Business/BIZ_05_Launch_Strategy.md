@@ -5,7 +5,7 @@
 **Report page (phone-friendly, with the rulings):** https://claude.ai/artifact/WU74C1XQ1bD6QBUHCoFrSB
 **Companions:** `BIZ_01` (costs), `BIZ_02` (the June validation sprint, never run), `INF_01` (backend), `PM_02` (task board, row STRAT-1).
 
-Status: proposed. Nothing in here is ruled until the owner answers the S-codes in section 6.
+Status: **ruled 2026-10-22** (section 8). The plan below is the working plan.
 
 ---
 
@@ -261,3 +261,35 @@ Counts from 20,000 random births, 1950 to 2007, all hours, both genders, Beijing
 | D3 | A default | **A.** A ruling unanswered after 7 days takes option A, except money, engine, legal and anything live on elementum.life. | No default. | |
 
 Order once ruled: G1, then E1 (smallest, clearest), then E3, then E2 (largest; the content sessions are told first). Each engine change follows `DEV_04`: crosscheck, regression, re-bless only what is ruled, and a note to the Life Chapters, Almanac and Domains sessions listing the changed charts.
+
+## 8 · The owner's rulings (2026-10-22)
+
+Round 1, in the owner's words: "S1 B, S2 A, S3 A, S4 A, S5 A, S6 A, S7 A, S8 A, S9 A, S10 A, S11 A, S12 A, S13 A, S14 A, S15 A". Round 2 by the owner's answers the same day: S3 means the July first-party design, E1 A, E2 A, D1 to D3 all A. S13 A and E3 A are the same ruling (a three-pillar chart for an unknown hour).
+
+| Code | Ruled | What it means now |
+|---|---|---|
+| S1 | **B** | The open section rulings close first (2 to 3 weeks), then the freeze. F1 to F10 still go first when the freeze starts. |
+| S2 | A | 30 to 50 strangers from communities and warm DMs, free, 8 interviews. |
+| S3 | A (July) | The first-party worker on Workers Analytics Engine; Workers Paid ($5) is bought for it (`INF_02` §1.2). |
+| S4 | A | Sentry free tier on the app and the workers. |
+| S5 | A | The $9 pass is capped at 300 and closes at public launch. New buyers get Seeker for life plus Advisor for 12 months; existing buyers keep Advisor for life. |
+| S6 | A | Seeker $59.99 a year or $9.99 a month (7-day trial on annual), Advisor $119.99 a year or $19.99 a month, by day 60 to 75. |
+| S7 | A | Apply to Stripe Managed Payments; plain Stripe until launch; one CPA hour. |
+| S8 | A | PWA to day 90; then an Android TWA test; iOS only after the gate. |
+| S9 | A | Faceless short video with the share card; creators from day 45. |
+| S10 | A | Resend. |
+| S11 | A | Up to $100 a month above Claude Max; no paid ads before day 60. |
+| S12 | A | The gates in §5.4. |
+| S13, E3 | A | "I don't know my hour" gives a three-pillar chart. |
+| S14 | A | Supabase Pro at the first public post. |
+| S15 | A | This session builds I1 to I8 and B1 to B2. G1 (the deploy gate) goes in under S15. |
+| E1 | A | The one-line luck-pillar fix. |
+| E2 | A | Score 3 (out of season, rooted, with allies) reads balanced. |
+| D1, D2, D3 | A | One weekly ruling page; sessions adopt TWEAK and MINOR items themselves; a 7-day default to A except money, engine, legal and live items. |
+
+### 8.1 Progress
+
+| Item | State |
+|---|---|
+| Rulings recorded | done 2026-10-22 |
+| I3 the deploy gate | done 2026-10-22: `npm run check` (lint plus seven QA checks) runs before the build in both deploy workflows (`INF_02` §2) |
