@@ -22,6 +22,23 @@
    the home screen, the frame must dissolve: edge-to-edge fill, no
    card chrome, and safe-area padding so content clears the notch.
    `!important` is required — PhoneFrame/Shell use inline styles. */
+/* The device shell (DevBar toggle, dev-only): html.el-device applies the same rules
+   inside the desktop phone frame, with --sai-top / --sai-bottom standing in for the
+   real insets, a dynamic island and a home indicator drawn on the frame. */
+html.el-device .el-frame { padding-top: var(--sai-top, 0px); }
+html.el-device .el-frame::before { content: ""; position: absolute; z-index: 60; top: 11px; left: 50%; width: 120px; height: 36px; margin-left: -60px; border-radius: 20px; background: #0f0d0b; pointer-events: none; }
+html.el-device .el-frame::after { content: ""; position: absolute; z-index: 60; bottom: 8px; left: 50%; width: 134px; height: 5px; margin-left: -67px; border-radius: 3px; background: rgba(43,39,34,.55); pointer-events: none; }
+html.el-device .el-statusbar, html.el-device .reading .status { display: none !important; }
+html.el-device .jny .status2 { visibility: hidden !important; pointer-events: none !important; }
+/* The journey is absolutely positioned inside the frame, so the frame's safe-area padding
+   never reaches it (found with the device shell, 2026-10-22: its first row sat under the
+   island). Its own status clearance grows to the real inset instead: 48px on a plain
+   screen, the inset on a notched phone. */
+@media (max-width: 520px), (display-mode: standalone) {
+  .jny { --st: max(48px, env(safe-area-inset-top, 0px)); }
+}
+html.el-device .jny { --st: max(48px, var(--sai-top, 0px)); }
+
 @media (max-width: 520px), (display-mode: standalone) {
   .el-shell {
     padding: 0 !important;
@@ -39,7 +56,7 @@
     border-radius: 0 !important;
     box-shadow: none !important;
     /* Status-bar clearance — frame background (silk) shows through. */
-    padding-top: env(safe-area-inset-top, 0px);
+    padding-top: var(--sai-top, env(safe-area-inset-top, 0px));
   }
   /* The mock iOS status bar is part of the desktop phone-frame illusion — on a
      real device the OS draws the real one, so every mock hides:

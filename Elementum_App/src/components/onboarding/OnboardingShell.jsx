@@ -429,7 +429,7 @@ export function OnboardingShell({
         style={{
           position: 'absolute',
           inset: 0,
-          padding: '130px 34px calc(8px + env(safe-area-inset-bottom, 0px))',
+          padding: '130px 34px calc(8px + var(--sai-bottom, env(safe-area-inset-bottom, 0px)))',
           display: 'flex',
           flexDirection: 'column',
           zIndex: 10,

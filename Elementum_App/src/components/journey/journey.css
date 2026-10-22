@@ -26,7 +26,7 @@
     flex-shrink: 0; margin: 0 auto;
   }
 .jny .scr2{ position: absolute; inset: 8px; border-radius: 40px; overflow: hidden; display: flex; flex-direction: column; background: var(--silk); }
-.jny .status2{ height: 48px; flex-shrink: 0; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 30px 4px;
+.jny .status2{ height: var(--st, 48px); flex-shrink: 0; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 30px 4px;
     font-size: 13px; font-weight: 600; color: var(--ink); position: relative; z-index: 95; }
 .jny .status2 .dots{ font-size: 11px; letter-spacing: 1px; color: var(--inkSoft); }
 .jny .jstage{ flex: 1; min-height: 0; position: relative; }
@@ -131,7 +131,7 @@
 }
 .jny .sec-eyebrow{ font-family: 'EB Garamond', Georgia, serif; font-size: 10px; font-weight: 500; letter-spacing: 2.5px; color: var(--bronzeDark); }
 .jny .kick{ font-family: Cinzel, Georgia, serif; font-size: 9.5px; font-weight: 400; letter-spacing: 2px; color: var(--bronzeDark); text-transform: uppercase; }
-.jny .rvl-overlay{position:absolute;inset:-48px 0 0;padding-top:48px;z-index:90;overflow:hidden;background:var(--paper,#F1E9D6);display:flex;flex-direction:column;touch-action:none;will-change:transform}
+.jny .rvl-overlay{position:absolute;inset:calc(-1 * var(--st, 48px)) 0 0;padding-top:var(--st, 48px);z-index:90;overflow:hidden;background:var(--paper,#F1E9D6);display:flex;flex-direction:column;touch-action:none;will-change:transform}
 .jny .ground-img2{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;pointer-events:none}
 .jny .jscreen>.ground-img2{top:-48px;height:calc(100% + 48px)}
 .jny .bg-energy2{opacity:0.82}
@@ -458,7 +458,11 @@
 .jny .scwheel .node{cursor:default}
 
 /* ═══════════ app-integration overrides (round 2) ═══════════ */
-.jny{position:absolute;inset:0;overflow:hidden;font-family:'EB Garamond',Georgia,serif}
+/* --st: the status clearance the journey draws for itself (it is absolutely positioned, so the
+   frame's safe-area padding never reaches it): 48px on desktop, the real inset on a notched
+   phone (global.css sets it under the device rules). The Naming overlay, the first reading's
+   cards and their progress bar are all offset by it. */
+.jny{position:absolute;inset:0;overflow:hidden;font-family:'EB Garamond',Georgia,serif;--st:48px}
 .jny.jphone{width:100%!important;height:100%!important;min-height:0;border:none!important;border-radius:0!important;box-shadow:none!important;background:var(--silk,#F1E9D6);transform:none!important;margin:0!important}
 .jny .scr2{inset:0;border-radius:0}
 .jny .gseal.gimg{background-size:contain;background-repeat:no-repeat}

@@ -126,6 +126,33 @@ const STEM_CYCLE = [
   { key: 'gui',  hanzi: '癸', label: 'Rain'  },
 ];
 
+const DEVICES = [
+  { key: 'off', label: 'Desktop frame', top: null, bottom: null },
+  { key: 'iphone15', label: 'iPhone 15 · island', top: 59, bottom: 34 },
+  { key: 'iphone8', label: 'iPhone SE · no notch', top: 20, bottom: 0 },
+  { key: 'android', label: 'Android · gesture bar', top: 24, bottom: 16 },
+];
+function DeviceShellToggle() {
+  const [dev, setDev] = useState(() => { try { return localStorage.getItem('elm.dev.device') || 'off'; } catch { return 'off'; } });
+  useEffect(() => {
+    const d = DEVICES.find((x) => x.key === dev) || DEVICES[0];
+    const root = document.documentElement;
+    if (d.top === null) { root.classList.remove('el-device'); root.style.removeProperty('--sai-top'); root.style.removeProperty('--sai-bottom'); }
+    else { root.classList.add('el-device'); root.style.setProperty('--sai-top', `${d.top}px`); root.style.setProperty('--sai-bottom', `${d.bottom}px`); }
+    try { localStorage.setItem('elm.dev.device', dev); } catch { /* storage off */ }
+  }, [dev]);
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+      {DEVICES.map((d) => (
+        <button key={d.key} type="button" onClick={() => setDev(d.key)} aria-pressed={dev === d.key}
+          style={{ textAlign: 'left', padding: '7px 10px', borderRadius: 6, border: `1px solid ${dev === d.key ? '#8b7355' : '#3a342d'}`, background: dev === d.key ? 'rgba(139,115,85,0.22)' : '#2a2621', color: dev === d.key ? '#e0d6c3' : '#9d968a', cursor: 'pointer', fontFamily: 'inherit', fontSize: 12 }}>
+          {d.label}{d.top !== null ? <span style={{ float: 'right', fontSize: 10, color: '#8b8172' }}>{d.top} · {d.bottom}</span> : null}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export default function DevBar() {
   const { birthData, chart, tier, setTier, resetFlow } = useChart();
   const [hash, setHash] = useState(
@@ -299,6 +326,13 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
           <Row k="Gender" v={birthData.gender || '—'} />
           {birthData.polarity && <Row k="Polarity" v={birthData.polarity} />}
         </div>
+      </DevSection>
+
+      <DevSection label="Device shell">
+        {/* The installed-app layout inside the desktop frame (2026-10-22, the store
+            build prep): the mock status bars hide, the frame pads by an iPhone's
+            insets, a dynamic island and a home indicator draw on the frame. */}
+        <DeviceShellToggle />
       </DevSection>
 
       <DevSection label="Exemplar chart">

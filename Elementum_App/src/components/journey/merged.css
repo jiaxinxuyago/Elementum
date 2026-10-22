@@ -112,16 +112,16 @@
 
 /* the first reading — on the Naming's ground (owner 2026-10-21, DES_15 RS1–RS7 A).
    inset:-48px + padding-top:48px, like .rvl-overlay: the ground reaches the top edge. */
-.jny .mg-fr{ position:absolute; inset:-48px 0 0; padding-top:48px; z-index:120; display:flex; flex-direction:column; color:#2b2722; cursor:pointer; outline:none; overflow:hidden; background:linear-gradient(180deg,#F5EEDE 0%,#F1E9D6 52%,#ECE2C9 100%); }
+.jny .mg-fr{ position:absolute; inset:calc(-1 * var(--st, 48px)) 0 0; padding-top:var(--st, 48px); z-index:120; display:flex; flex-direction:column; color:#2b2722; cursor:pointer; outline:none; overflow:hidden; background:linear-gradient(180deg,#F5EEDE 0%,#F1E9D6 52%,#ECE2C9 100%); }
 .jny .mg-frg{ position:absolute; inset:0; pointer-events:none; }
 .jny .mg-frtop,.jny .mg-frbot{ position:absolute; left:0; width:100%; height:50%; object-fit:cover; }
 .jny .mg-frtop{ top:0; object-position:center top; -webkit-mask-image:linear-gradient(to bottom,#000 56%,transparent 100%); mask-image:linear-gradient(to bottom,#000 56%,transparent 100%); }
 .jny .mg-frbot{ top:50%; object-position:center bottom; mix-blend-mode:multiply; opacity:.72; -webkit-mask-image:linear-gradient(to top,#000 60%,transparent 100%); mask-image:linear-gradient(to top,#000 60%,transparent 100%); }
 .jny .mg-frfog{ position:absolute; left:-8%; right:-8%; top:24%; height:52%; background:linear-gradient(to bottom,rgba(243,236,221,0) 0%,rgba(243,236,221,.14) 34%,rgba(244,238,224,.32) 50%,rgba(243,236,221,.14) 66%,rgba(243,236,221,0) 100%); filter:blur(20px); }
 .jny .mg-frveil{ position:absolute; left:0; right:0; top:46%; bottom:0; background:linear-gradient(to bottom,rgba(241,233,214,0) 0%,rgba(241,233,214,.55) 30%,rgba(241,233,214,.72) 100%); }
-.jny .mg-prog{ position:absolute; top:82px; left:12px; right:12px; display:flex; gap:4px; z-index:2; }
+.jny .mg-prog{ position:absolute; top:calc(34px + var(--st, 48px)); left:12px; right:12px; display:flex; gap:4px; z-index:2; }
 .jny .mg-prog i{ flex:1; height:3px; border-radius:2px; background:rgba(43,39,34,.18); } .jny .mg-prog i.on{ background:#2b2722; }
-.jny .mg-skip{ position:absolute; top:94px; right:14px; z-index:3; border:0; background:none; color:inherit; opacity:.75; font-family:'EB Garamond',Georgia,serif; font-size:10px; font-weight:600; letter-spacing:2px; text-transform:uppercase; cursor:pointer; }
+.jny .mg-skip{ position:absolute; top:calc(46px + var(--st, 48px)); right:14px; z-index:3; border:0; background:none; color:inherit; opacity:.75; font-family:'EB Garamond',Georgia,serif; font-size:10px; font-weight:600; letter-spacing:2px; text-transform:uppercase; cursor:pointer; }
 .jny .mg-card{ position:relative; z-index:1; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; text-align:center; padding:70px 26px 44px; animation:mgfade .35s ease; }
 @keyframes mgfade{ from{ opacity:0; } to{ opacity:1; } }
 @media (prefers-reduced-motion: reduce){ .jny .mg-card{ animation:none; } }

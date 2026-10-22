@@ -196,3 +196,13 @@ Rows: EJ1 the folding · EJ2 the cover · EJ3 the name rung · EJ4 the relation 
 | EJ8 | A · all three slots commissioned: P1 the pair paintings (N1, GO-2), P2 the five function vignettes (GO-4, brief `P2_Function_Vignettes_Brief.md`), P3 the ten persona seals (GO-5, brief `P3_Persona_Seals_Brief.md`). Each slot renders its asset from its path and shows nothing until it lands; the relation box shows the element plate until the pair painting lands | 2026-10-22 |
 
 Built straight into elementum.life. Switch: `EJ_LIVE` in `src/liveFlags.js`. Code: `components/journey/EnergyJourney.jsx` (NameRung, Equation, Box, TeaserCard, DomainMap, Relay, ArtSlot, the ladder), `energy.css`, `JourneyStage.jsx` (the element page under the switch; the function page keeps the definition and the keywords; the domains page leads with the map and the tiles), `MergedViews.jsx` (the cover), `journeyData.js` (the law's picture line on the mechanism and the merged rows), `content/cycles.js` (`CYCLE_IMAGE_LINES`, transcribed from tpl_cycle_line). The journey sweep's anchor moved to the name rung.
+
+## Follow-up · the store build (owner question 2026-10-22)
+
+The planned path is the Capacitor wrap (PM_02 STORE-3), under which the React code, the CSS motion and the dissolve carry over unchanged; the browser beneath becomes WebKit on iOS. Prepared now:
+
+- **The device shell** (DevBar · Device shell, dev-only): the installed-app layout inside the desktop frame. Picks iPhone 15 (island, 59 / 34), iPhone SE (20 / 0) or Android gesture bar (24 / 16): the mock status bars hide, the frame pads by the insets, a dynamic island and a home indicator draw on the frame. The four safe-area call sites read a dev override first (`--sai-top` / `--sai-bottom`), the real inset otherwise.
+- **A real device bug it found and fixed:** the journey (`.jny`) is absolutely positioned, so the frame's safe-area padding never reached it, and on a notched phone its first row (YOUR READING, the back rows, the pager) sat under the status bar. The journey now draws its own clearance `--st = max(48px, inset)`; the Naming overlay, the first reading's cards and their progress bar are offset by the same variable.
+- **The Capacitor scaffold** on branch `capacitor-shell` (not on main): config, the native adapter (status bar, Android back, the share sheet through the native plugins when running native, the web paths otherwise), npm scripts and the Mac steps in `ComparativeAnalysis/Handoffs/2026-10-22-capacitor-shell/STEPS.md`.
+
+Not possible from this container: a WebKit render pass (no WebKit build here; the owner's iPhone on dev.elementum.life is the check), the push transport move (APNs/FCM) and Sign in with Apple (STORE-3, owner accounts).

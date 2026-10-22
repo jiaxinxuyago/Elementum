@@ -243,7 +243,7 @@
    84px bottom pad (+ safe-area) clears the persistent tab bar so the last
    row of content is always reachable. */
 .reading .screen-pad {
-  padding: 6px 22px calc(84px + env(safe-area-inset-bottom, 0px));
+  padding: 6px 22px calc(84px + var(--sai-bottom, env(safe-area-inset-bottom, 0px)));
   display: flex; flex-direction: column; flex: 1; min-height: 0;
   position: relative; z-index: 5;
   overflow-y: auto; overflow-x: hidden;
