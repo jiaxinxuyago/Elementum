@@ -76,7 +76,8 @@ import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
-import { DEPTH_LIVE, V5_LIVE } from '../../liveFlags.js';
+import { DEPTH_LIVE, V5_LIVE, EJ_LIVE } from '../../liveFlags.js';
+import { EnergyLadder, NameRung, DomainMap, ArtSlot, FN_ART, PERSONA_ART } from './EnergyJourney.jsx';
 import { AlbumHub, LeafReader, Balance, EnergyPager, AcrossChart, useSwipe, markRead, SECTION_ART, InkDot } from './V5Views.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
 import { resolveAlmanac } from '../dashboard/almanac/almanacResolve.js';
@@ -925,6 +926,21 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
               </button>
               <div className="scrollwrap"><div className="padv2">
                 {V5_LIVE && v5Order.length ? <EnergyPager order={v5Order} el={elScreen.el} names={v5Names} onGo={(el) => { goElement(el); requestAnimationFrame(() => { const sw = stageRef.current?.querySelector('.jscreen[data-screen="element"] .scrollwrap'); if (sw) sw.scrollTop = 0; }); }} Use={Use} /> : null}
+                {EJ_LIVE ? (
+                  <>
+                    {/* THE ENERGY JOURNEY (owner rulings 2026-10-22, DES_15 EJ1 C, EJ2–EJ8 A):
+                        the page as a ladder. ① THE NAME, open: the plate as a band, the
+                        dot, the name and 汉字, "{Energy} is your {Function} energy.", the
+                        pair head, the law's picture line, the presence bar. Then the
+                        boxes and the cards (EnergyJourney.jsx). The previous cards sit
+                        under the switch. */}
+                    <NameRung s={elScreen} r={m.byEl[elScreen.el]} towers={towers} art={elementArt(elScreen.el, chart?.dayMaster?.stem)} Use={Use} InkDot={InkDot} />
+                    <EnergyLadder s={elScreen} m={m} condition={m.condition} dm={dm} art={elementArt(elScreen.el, chart?.dayMaster?.stem)} Use={Use} InkDot={InkDot} DOM={DOM} MetricBars={MetricBars}
+                      onFunction={() => openSec('fn')} onDomains={() => openSec('dom')} onEnergy={(el) => goElement(el)}
+                      onDomain={(d) => openDomain(d, 'element')}
+                      onKeyword={(c) => setKwOpen({ word: c.word, text: c.text, pole: (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? 'friction' : 'catalyst', fnLabel: elScreen.fnLabel, fnKey: elScreen.fnKey, elName: elScreen.elName })} />
+                  </>
+                ) : (<>
                 {/* THE HERO CARD (owner 2026-09-01): the art band and the
                     mechanism card CONSOLIDATED — the old energy-pill expanded
                     card reborn at element grain. Anatomy by significance:
@@ -1000,6 +1016,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 ) : null}
+                </>)}
                 {V5_LIVE ? <AcrossChart name={elScreen.elName} L={depth?.chapters} today={v5Today} Use={Use} onChapters={() => openDepth('chapters', null, 'element')} onToday={onOpenToday} /> : null}
               </div></div>
             </div>
@@ -1047,13 +1064,19 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                         definition follows the title directly, function first
                         (the three-beat construct, D14), and the chips come
                         after it. */}
-                    <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
+                    {EJ_LIVE ? (
+                      <div className="ej-fnrow">
+                        <ArtSlot src={FN_ART(elScreen.fnKey)} className="ej-fnart" alt={`${elScreen.fnLabel}, painted`} />
+                        <p className="body2 el-fnbody">{elScreen.fnReading.define}</p>
+                      </div>
+                    ) : <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>}
                     {/* THE CHARACTER (owner 2026-10-14, the eyebrow rulings):
                         the page is three moves under three eyebrows, THE
                         FUNCTION (what it is), THE CHARACTER (how it runs in
                         you: the bars, then the keywords) and THE REMEDY or
                         THE ADVICE (what to do). The character's title line is
                         pole-specific, the state the chart gives this energy. */}
+                    {!EJ_LIVE && (<>
                     <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE CHARACTER</span>
                     {/* The opening (owner 2026-10-16): the pole as the glossary pill
                         (a tap defines it), a two-word verdict echoing the edge
@@ -1092,6 +1115,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                         three bars open the character section; the bars lead
                         into the keywords. */}
                     <MetricBars m={elScreen.fnReading.metrics} />
+                    </>)}
                     {/* THE GOD-GRAIN READING (owner 2026-09-03, three-doors
                         fashion; both corpora complete 2026-09-04, v3 fallback
                         retired): chip row (the scannable summary) → define ¶
@@ -1121,6 +1145,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                           <span className="el-kwhint">Tap a keyword to read it.</span>
                         </div>
                       ) : null; })()}
+                    {!EJ_LIVE && (<>
                     {/* THE REMEDY (owner 2026-10-14): the advice is sectioned
                         out under its own label after the ledger. On the
                         friction pole it is the remedy, opening on the energy
@@ -1254,12 +1279,17 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                         </>
                       );
                     })()}
+                    </>)}
                   </div>
                 )}
                 {elSec === 'dom' && elFaces.length ? (
                   <div className="cardstock">
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
+                    {EJ_LIVE && dm ? (<>
+                      <DomainMap dm={dm} el={elScreen.el} Use={Use} DOM={DOM} />
+                      <DomainTiles dm={dm} el={elScreen.el} elName={elScreen.elName} onOpen={(d) => openDomain(d, 'elsec')} Use={Use} DOM={DOM} />
+                    </>) : null}
                     {/* order (owner 2026-08-19): THE SEATS first (the Position
                         axis does the talking) → the gods last, as the
                         supplementary "who runs it" layer. */}
@@ -1269,6 +1299,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                         {elPositions.map((p) => (
                           <div className={`elpos-row acc${posOpen === p.id ? ' open' : ''}`} key={p.id}>
                             <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => { setDeepOpen(false); setPosOpen((v) => (v === p.id ? null : p.id)); }}>
+                              {EJ_LIVE ? <ArtSlot src={PERSONA_ART(p.god || '')} className="ej-seal" alt={p.term} /> : null}
                               <span className="elpos-slot">{p.slotZh}</span>
                               <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
                               <Use id="ico-chev-r" className="elpos-chev" />
@@ -1461,7 +1492,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
       {/* THE MERGE: one energy sheet for every energy tap; it stays open
           behind an energy page or a domain reading and is there on back */}
       {MERGE_V1 && merged && sheetEl && screen === 'catalogue' && (
-        <EnergySheet row={merged.rows[sheetEl]} first={merged.first === sheetEl} Use={Use} DOM={DOM}
+        <EnergySheet row={merged.rows[sheetEl]} first={merged.first === sheetEl} Use={Use} DOM={DOM} cover={EJ_LIVE}
           art={V5_LIVE ? elementArt(sheetEl, chart?.dayMaster?.stem) : IS_DEV_TOOLS}
           onClose={() => setSheetEl(null)}
           onRead={() => goElement(sheetEl)}

@@ -160,11 +160,11 @@ Rows: RS1 direction · RS2 the energy's sign · RS3 the title and teaser · RS4 
 
 Built straight into elementum.life (same release rule as V5 and the Naming). Code: `MergedViews.jsx` (FirstReading), `merged.css` (the first-reading block), `journeyData.js` (`fnHead` on each merged row), `JourneyStage.jsx` (passes InkDot). Gates: eslint 0 errors, engine golden match, build, journey sweep 17/17; no overflow at 375×667.
 
-## Follow-up · the visual pass and the energy journey (owner 2026-10-22)
+## Follow-up · the visual pass and the energy journey (owner 2026-10-22, RULED AND SHIPPED)
 
 **The visual pass (shipped, `db7da27`).** All 36 live screens captured at 390×844 and 390×1700 with alignment, gap and image metrics. Fixed: one 18px gutter on every tab page (Compat and Chart Resonance padded 22; Codex, Draw, Self-Report, Consultant and the Manual fallback padded 20) and the hero header's default bleed set to 18 so the Guidance and Codex bands no longer overhang the viewport; the album tile "How am I running?" no longer wraps its minutes into a second column; painted album tiles carry the paper halo on eyebrow and claim; the balance box's captions balance. Not defects, noted: the onboarding progress bar reads as a dark strip at the top in tall captures; the hero equation thumbnail on the energy page is the darkest object in the journey (addressed by EJ4 below).
 
-**The energy journey (AWAITING RULING).** Owner brief: redesign one journey, the energy reading, from the catalogue page; fold sections into boxes or teasers; curate each page so the reader ramps (name → relation → function → what it means → domains); refer to the app and the station for every word. Owner answers to the four questions: the sheet stays as the cover; the ladder order name → relation → function → character → state → domains; boxes against teaser cards to be compared and decided later; derive and retitle, no new corpus.
+**The energy journey (ruled EJ1 C, EJ2–EJ8 A; shipped).** Owner brief: redesign one journey, the energy reading, from the catalogue page; fold sections into boxes or teasers; curate each page so the reader ramps (name → relation → function → what it means → domains); refer to the app and the station for every word. Owner answers to the four questions: the sheet stays as the cover; the ladder order name → relation → function → character → state → domains; boxes against teaser cards to be compared and decided later; derive and retitle, no new corpus.
 
 Artifact: https://claude.ai/artifact/JVfHjUarh8Jaf2dHNFQVvN (library copy: `Design/Library/Design_Pass_2026-10/EJ_The_Energy_Journey_Directions.html`).
 
@@ -184,4 +184,13 @@ Rows: EJ1 the folding · EJ2 the cover · EJ3 the name rung · EJ4 the relation 
 
 | Row | Ruling | Date |
 |---|---|---|
-| EJ1–EJ8 | awaiting the owner | — |
+| EJ1 | C · the hybrid: the relation, the character and what it means now open in place; the function and the domains push their pages | 2026-10-22 |
+| EJ2 | A · the sheet trimmed to the cover: sign, head, function, state, plate, the pair story, the law's picture line, Read | 2026-10-22 |
+| EJ3 | A · the name rung: the plate as a band, the dot, the name and 汉字, "{Energy} is your {Function} energy.", the head, the picture line, the presence bar | 2026-10-22 |
+| EJ4 | A · the 生/克 equation on paper (two dots, the law glyph and arrow, = the state); a core reads "= 主 your core · {Condition}" | 2026-10-22 |
+| EJ5 | A · the character as its own rung (the god's functional line, the state row, the metrics, the keywords; a keyword opens its sheet) | 2026-10-22 |
+| EJ6 | A · the domains rung ends on the three tiles and the seat (on the domains page, with the domain map leading); the card carries the sentence and the map | 2026-10-22 |
+| EJ7 | A · across your chart and the pager kept as today | 2026-10-22 |
+| EJ8 | A · all three slots commissioned: P1 the pair paintings (N1, GO-2), P2 the five function vignettes (GO-4, brief `P2_Function_Vignettes_Brief.md`), P3 the ten persona seals (GO-5, brief `P3_Persona_Seals_Brief.md`). Each slot renders its asset from its path and shows nothing until it lands; the relation box shows the element plate until the pair painting lands | 2026-10-22 |
+
+Built straight into elementum.life. Switch: `EJ_LIVE` in `src/liveFlags.js`. Code: `components/journey/EnergyJourney.jsx` (NameRung, Equation, Box, TeaserCard, DomainMap, Relay, ArtSlot, the ladder), `energy.css`, `JourneyStage.jsx` (the element page under the switch; the function page keeps the definition and the keywords; the domains page leads with the map and the tiles), `MergedViews.jsx` (the cover), `journeyData.js` (the law's picture line on the mechanism and the merged rows), `content/cycles.js` (`CYCLE_IMAGE_LINES`, transcribed from tpl_cycle_line). The journey sweep's anchor moved to the name rung.

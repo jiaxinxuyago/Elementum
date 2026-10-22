@@ -149,7 +149,7 @@ export function WheelArrows({ m, g }) {
 }
 
 // ── the energy sheet ──────────────────────────────────────────────
-export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead, onDomain }) {
+export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead, onDomain, cover = false }) {
   if (!row) return null;
   return (
     <div className="mg-sheetwrap" role="dialog" aria-label={row.head}>
@@ -167,12 +167,18 @@ export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead
           ? <div className={`mg-ill v5-plate e-${row.el}`} style={{ backgroundImage: `url('${art}')` }} role="img" aria-label={`${row.name}, painted`} />
           : art ? <div className={`mg-ill e-${row.el}`}><Use id={`el-${row.el}`} /><span>illustration</span></div> : null}
         {row.story ? <p className="mg-story">{row.story}</p> : null}
-        {row.now || first ? <p className="mg-now">{first ? <span className="mg-start">START HERE</span> : null} {row.now || ''}</p> : null}
-        <div className="mg-doms">
-          {row.domains.map((d) => (onDomain
-            ? <button key={d} className="mg-domchip" onClick={() => onDomain(d)}><Use id={DOM[d] || 'dom-career'} />{d}<Use id="ico-chev-r" className="mg-chev" /></button>
-            : <span key={d} className="mg-domchip"><Use id={DOM[d] || 'dom-career'} />{d}</span>))}
-        </div>
+        {/* the cover (owner 2026-10-22, DES_15 EJ2 A): the sheet keeps the sign,
+            the head, the function, the state, the plate and the story, with the
+            law's picture line as its caption; the now line and the domain chips
+            return on the page as the state rung and the domains rung. */}
+        {cover ? (row.cycle ? <span className="mg-cyc">{row.cycle}</span> : null) : (<>
+          {row.now || first ? <p className="mg-now">{first ? <span className="mg-start">START HERE</span> : null} {row.now || ''}</p> : null}
+          <div className="mg-doms">
+            {row.domains.map((d) => (onDomain
+              ? <button key={d} className="mg-domchip" onClick={() => onDomain(d)}><Use id={DOM[d] || 'dom-career'} />{d}<Use id="ico-chev-r" className="mg-chev" /></button>
+              : <span key={d} className="mg-domchip"><Use id={DOM[d] || 'dom-career'} />{d}</span>))}
+          </div>
+        </>)}
         <button className="mg-next" onClick={onRead}>Read {row.name}, your {row.fn} <Use id="ico-arrow-r" /></button>
       </div>
     </div>

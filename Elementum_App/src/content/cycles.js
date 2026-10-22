@@ -38,3 +38,12 @@ export const CYCLE_LINE = {
 // Outflow = Voice (you feed) + Drive (you tame) + Duty (tames you).
 export const TEAM_NOUN = { inflow: 'Inflow', outflow: 'Outflow' };
 export const FAMILY_TEAM = { resource: 'inflow', self: 'inflow', output: 'outflow', wealth: 'outflow', officer: 'outflow' };
+
+// The image lines (tpl_cycle_line.image_lines, station truth): one picture per
+// law, for the energy page's name rung and the remedy relay (owner 2026-10-22).
+export const CYCLE_IMAGE_LINES = {
+  'wood>fire': 'dry branches make the flame', 'fire>earth': 'ash becomes soil', 'earth>metal': 'ore grows in the mountain',
+  'metal>water': 'dew beads on the cold blade', 'water>wood': 'rain raises the forest',
+  'wood>earth': 'roots hold the hillside', 'earth>water': 'banks give the river its path', 'water>fire': 'rain ends the blaze',
+  'fire>metal': 'the forge softens the blade', 'metal>wood': 'the knife prunes the branch',
+};

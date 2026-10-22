@@ -30,3 +30,9 @@ export const ALMANAC_PUSH = false;
 // running?", the existing element plate in the energy sheet, Today as home for
 // return visits with Continue reading. Turn off to restore the previous layout.
 export const V5_LIVE = true;
+// The energy reading journey (owner rulings 2026-10-22, DES_15 EJ1 C, EJ2–EJ8 A):
+// the sheet trimmed to the cover, the energy page as a ladder (name, relation,
+// function, character, what it means now, domains), the relation and the state
+// and the character as boxes that open in place, the function and the domains
+// as cards that push their pages. Turn off to restore the previous page.
+export const EJ_LIVE = true;

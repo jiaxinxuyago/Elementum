@@ -15,7 +15,7 @@
 
 import { getEnergyBand, relationOf, STEM_YIN, volumeOf } from '../../engine/index.js';
 import { TG_PERSONA, TG_DEFLINE } from '../../content/index.js';
-import { FEEDS, TAMES } from '../../content/cycles.js';
+import { FEEDS, TAMES, CYCLE_IMAGE_LINES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN, GOD_RULING_DOMAINS } from '../../content/k2.js';
 import { STEM_WHO, RUN_LINES, PAIR_HEAD, PAIR_STORY, NOW_LINE, PRESENCE_LINE, RX_RIBBON, RELATION_LABELS, CODEX_TESTS } from '../../content/mergedReading.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
@@ -628,6 +628,7 @@ export function buildElementScreen(model, el) {
     eq: r.isCore ? `${r.name} is your Core` : `${model.byEl[edge.a].name} ${edge.verb} ${model.byEl[edge.b].name}`,
     // the 汉字 classical epigraph (mechanism v2, owner 2026-09-02)
     classic: mechanism.classic || '',
+    image: r.isCore ? '' : (CYCLE_IMAGE_LINES[`${edge.a}>${edge.b}`] || ''),   // the law's picture line (EJ3)
     base: mechanism.base,
     turn: stateTurn || (r.dx?.condition === 'Overfueled' ? mechanism.friction_turn
       : r.dx?.condition === 'Underfueled' ? mechanism.catalyst_turn : null),
@@ -960,6 +961,8 @@ export function buildMergedModel(m, chart) {
       pole: m.balanced ? 'balanced' : (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst',
       domains: GOD_RULING_DOMAINS[r.god] || [],
       presenceLine: r.presence > 0.5 ? fillT(PRESENCE_LINE.pattern, { n: r.presence, El: r.name }) : fillT(PRESENCE_LINE.clauses.absent, { El: r.name }),
+      // the cover's caption (EJ2 A): the law's picture line between this energy and the core
+      cycle: r.isCore ? '' : (CYCLE_IMAGE_LINES[FEEDS[r.el] === m.core.el ? `${r.el}>${m.core.el}` : FEEDS[m.core.el] === r.el ? `${m.core.el}>${r.el}` : TAMES[r.el] === m.core.el ? `${r.el}>${m.core.el}` : `${m.core.el}>${r.el}`] || ''),
     }];
   }));
   const order = m.balanced ? [...m.els].sort((a, b) => b.presence - a.presence) : [...m.skip, ...m.seek];

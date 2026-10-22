@@ -1,0 +1,92 @@
+/* ───────────────────────────────────────────────────────────────────
+   The energy reading journey (owner rulings 2026-10-22, DES_15 EJ1 C,
+   EJ2–EJ8 A): the name rung, the boxes that open in place, the teaser
+   cards, the equation on paper, the domain map, the remedy relay, and
+   the three imagery slots. Grounds, signs, dots and plates are the
+   app's own; no italic.
+   ─────────────────────────────────────────────────────────────────── */
+
+/* rung 1 · the name: the plate as a band, the words on paper below it */
+.jny .ej-name{ position:relative; overflow:hidden; border-radius:18px; border:1px solid var(--paperHair); background:var(--cardstock) center 35%/cover no-repeat; min-height:168px; display:flex; flex-direction:column; justify-content:flex-end; padding:12px 14px; box-shadow:var(--shadow-card); }
+.jny .ej-name::before{ content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(248,241,225,.22) 0%,rgba(248,241,225,.45) 40%,rgba(248,241,225,.96) 72%); }
+.jny .ej-name .ej-ey,.jny .ej-name .ej-ntitle b{ text-shadow:0 0 2px #F8F1E1,0 0 8px #F8F1E1,0 0 14px #F8F1E1; }
+.jny .ej-name > *{ position:relative; }
+.jny .ej-nrow{ display:flex; align-items:center; gap:12px; }
+.jny .ej-nrow .v5-dot{ filter:drop-shadow(0 4px 12px rgba(43,39,34,.18)); }
+.jny .ej-ntitle{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+.jny .ej-ey{ font-family:Cinzel,Georgia,serif; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; color:var(--bronzeDark); }
+.jny .ej-ntitle b{ font-family:'Cormorant Garamond',Georgia,serif; font-size:26px; font-weight:500; line-height:1.05; color:var(--walnut,#5a4430); }
+.jny .ej-han{ font-family:'Noto Serif SC',serif; font-size:20px; color:var(--bronzeDark); margin-left:6px; }
+.jny .ej-nfn{ margin:8px 0 0; font-family:'Cormorant Garamond',Georgia,serif; font-size:19px; font-weight:500; line-height:1.15; color:var(--ink); text-wrap:balance; }
+.jny .ej-nline{ display:flex; flex-direction:column; align-items:flex-start; gap:3px; margin-top:6px; font-size:13.5px; color:var(--inkSoft); }
+.jny .ej-cyc{ font-family:Cinzel,Georgia,serif; font-size:8.5px; letter-spacing:1.6px; text-transform:uppercase; color:var(--bronzeDark); }
+.jny .ej-nbar{ display:flex; align-items:center; gap:8px; margin-top:8px; font-size:12px; color:var(--inkLight); }
+.jny .ej-nbar b{ font-size:13px; color:var(--ink); }
+.jny .ej-track{ flex:1; display:flex; gap:1px; height:5px; border-radius:2px; overflow:hidden; }
+.jny .ej-track i{ display:block; height:100%; }
+
+/* the boxes */
+.jny .ej-box{ padding:0; overflow:hidden; }
+.jny .ej-bh{ display:grid; grid-template-columns:1fr auto; gap:10px; align-items:center; width:100%; padding:11px 14px; border:0; background:none; text-align:left; cursor:pointer; font:inherit; color:inherit; }
+.jny .ej-bhin{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+.jny .ej-bh .laylab{ margin-bottom:3px; }
+.jny .ej-bl{ font-family:'Cormorant Garamond',Georgia,serif; font-size:16.5px; font-weight:500; line-height:1.25; color:var(--ink); text-wrap:pretty; }
+.jny .ej-chev{ width:26px; height:26px; border-radius:50%; border:1px solid var(--paperHair); display:grid; place-items:center; color:var(--inkSoft); font-size:14px; line-height:1; background:var(--cream); flex:none; }
+.jny .ej-box.open .ej-chev{ background:var(--ink); color:var(--cream); border-color:var(--ink); }
+.jny .ej-bb{ display:flex; flex-direction:column; gap:10px; padding:12px 14px 14px; border-top:1px dashed var(--paperHair); }
+.jny .ej-bb .el-classic{ margin:0; }
+.jny .ej-bb .el-mechbase{ margin:0; }
+.jny .ej-diag{ margin:0; color:var(--inkLight); font-size:13px; }
+.jny .ej-bb .el-mechturn{ margin:0; }
+.jny .ej-bb .el-remedybox{ margin:0; }
+.jny .ej-chline{ font-family:'EB Garamond',Georgia,serif; font-size:14px; color:var(--inkSoft); }
+.jny .ej-fnline{ display:block; font-size:16.5px; }
+.jny .ej-stline{ display:flex; flex-direction:column; align-items:flex-start; gap:5px; }
+.jny .ej-stline > span:last-child{ font-size:16.5px; }
+
+/* the cards */
+.jny .ej-card{ padding-bottom:48px; }
+.jny .ej-card .ej-ct{ display:flex; align-items:center; gap:6px; }
+.jny .ej-card .ej-dmap{ margin-top:8px; }
+
+/* the equation on paper */
+.jny .ej-eq{ display:flex; align-items:center; justify-content:center; gap:10px; padding:2px 0; flex-wrap:wrap; }
+.jny .ej-eq.mini{ gap:7px; justify-content:flex-start; }
+.jny .ej-eqside{ display:flex; flex-direction:column; align-items:center; gap:3px; font-family:Cinzel,Georgia,serif; font-size:8.5px; letter-spacing:1.4px; text-transform:uppercase; color:var(--inkSoft); }
+.jny .ej-eqside small{ font-family:'EB Garamond',Georgia,serif; font-size:12px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.jny .ej-eqlaw{ display:flex; flex-direction:column; align-items:center; gap:2px; color:var(--up); }
+.jny .ej-eqlaw.shapes{ color:var(--down); }
+.jny .ej-eqlaw.core{ color:var(--bronzeDark); }
+.jny .ej-eqhan{ font-family:'Noto Serif SC',serif; font-size:20px; line-height:1; }
+.jny .ej-eq.mini .ej-eqhan{ font-size:15px; }
+.jny .ej-eqlaw > span:last-child{ font-family:Cinzel,Georgia,serif; font-size:7.5px; letter-spacing:1.6px; text-transform:uppercase; text-align:center; max-width:120px; line-height:1.3; }
+.jny .ej-eqln{ width:54px; height:1px; background:currentColor; position:relative; }
+.jny .ej-eq.mini .ej-eqln{ width:30px; }
+.jny .ej-eqln::after{ content:""; position:absolute; right:-1px; top:-3px; border:3.5px solid transparent; border-left:6px solid currentColor; }
+.jny .ej-eqis{ font-family:'Cormorant Garamond',Georgia,serif; font-size:20px; color:var(--inkSoft); }
+
+/* the pair painting slot (P1): the asset, or the plate until it lands */
+.jny .ej-pairart{ display:block; width:100%; aspect-ratio:3/2; border-radius:12px; object-fit:cover; background:center 35%/cover no-repeat; }
+
+/* the remedy relay */
+.jny .ej-relay{ display:flex; align-items:center; justify-content:center; gap:12px; padding:6px 0 4px; }
+.jny .ej-relay .ej-eqln{ width:70px; }
+
+/* the domain map */
+.jny .ej-dmap{ display:grid; grid-template-columns:repeat(8,1fr); gap:4px; width:100%; padding:4px 0 2px; }
+.jny .ej-dmap span{ display:flex; flex-direction:column; align-items:center; gap:3px; font-family:Cinzel,Georgia,serif; font-size:6.5px; letter-spacing:.5px; text-transform:uppercase; color:var(--inkMist); }
+.jny .ej-dmap span svg{ width:16px; height:16px; fill:currentColor; color:var(--inkMist); }
+.jny .ej-dmap span.on{ color:var(--ink); }
+.jny .ej-dmap span.on svg{ color:var(--bronzeDark); }
+.jny .ej-dmap span.on::after{ content:""; width:5px; height:5px; border-radius:50%; background:var(--bronzeDark); }
+
+/* the function vignette slot (P2) beside the definition */
+.jny .ej-fnrow{ display:flex; gap:12px; align-items:flex-start; margin-top:8px; }
+.jny .ej-fnrow .el-fnbody{ margin:0; flex:1; }
+.jny .ej-fnart{ width:84px; height:84px; flex:none; border-radius:14px; object-fit:cover; }
+
+/* the persona seal slot (P3) on the seat row */
+.jny .ej-seal{ width:36px; height:36px; border-radius:50%; object-fit:cover; flex:none; margin-right:8px; border:1px solid var(--paperHair); }
+
+/* the cover (EJ2 A): the cycle line under the story */
+.jny .mg-cyc{ display:block; text-align:center; font-family:Cinzel,Georgia,serif; font-size:8.5px; letter-spacing:1.8px; text-transform:uppercase; color:var(--bronzeDark); margin:-2px 0 2px; }

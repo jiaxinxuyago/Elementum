@@ -366,15 +366,16 @@ async function scenarioB(browser) {
   // §AM.12): the wheel disk opens the ENERGY SHEET (.mg-sheet, the dot card
   // retired with the merge); its "Read {El}, your {Function}" button lands on
   // the in-stage element screen (hash stays app-reading). The stable anchor is
-  // still the mechanism equation line (.el-mecheq), which names the element.
-  const elementFace = () => page.evaluate(() => document.querySelector('.jscreen[data-screen="element"].active .el-mecheq')?.textContent.trim() || '');
+  // the name rung's title (.ej-ntitle b, the energy journey 2026-10-22) or the
+  // pre-EJ equation line (.el-mecheq); either names the element.
+  const elementFace = () => page.evaluate(() => document.querySelector('.jscreen[data-screen="element"].active .ej-ntitle b, .jscreen[data-screen="element"].active .el-mecheq')?.textContent.trim() || '');
   const openEnergyFor = async (el) => {
     await toCatalogue();
     await page.click(`.wheel .node[data-el="${el}"]`);
     await page.waitForSelector('.mg-sheet .mg-next', { timeout: 5000 });
     await page.click('.mg-sheet .mg-next');
     await page.waitForFunction(() => {
-      const f = document.querySelector('.jscreen[data-screen="element"].active .el-mecheq');
+      const f = document.querySelector('.jscreen[data-screen="element"].active .ej-ntitle b, .jscreen[data-screen="element"].active .el-mecheq');
       return f && (f.textContent || '').trim().length > 0;
     }, { timeout: 8000 });
     return elementFace();
@@ -423,7 +424,7 @@ async function scenarioB(browser) {
         const before = seen[seen.length - 1];
         await pager.click();
         await page.waitForFunction((b) => {
-          const f = document.querySelector('.jscreen[data-screen="element"].active .el-mecheq');
+          const f = document.querySelector('.jscreen[data-screen="element"].active .ej-ntitle b, .jscreen[data-screen="element"].active .el-mecheq');
           return f && f.textContent.trim() && f.textContent.trim() !== b;
         }, before, { timeout: 8000 });
         seen.push(await elementFace());
