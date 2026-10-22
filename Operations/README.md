@@ -75,6 +75,7 @@ Legacy **section** citations resolve at the same § numbers in the current books
 | ID | Title | Purpose | Formerly |
 |---|---|---|---|
 | INF_01 | Backend_Architecture | Workers, Stripe, Supabase, push, LLM, §4.2a store runbooks, §10 deploy topology, §10.0 the closed public-address inventory, §10.1 the standard workflow (all edits to `main`; cloud sessions look on dev.elementum.life, local on localhost, deliverable elementum.life) | DOC10 |
+| INF_02 | Launch_Runbook | The launch safety net: the owner's account steps (support@, Workers Paid, Supabase Pro, the backup revival, Stripe Managed Payments, the tax hour), the deploy gate, the analytics events, error monitoring, privacy and GDPR basics, incident basics (2026-10-22, from BIZ_05) | — |
 
 ### Business/ — strategy, financials
 | ID | Title | Purpose |

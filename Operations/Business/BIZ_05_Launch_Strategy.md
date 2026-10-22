@@ -214,7 +214,7 @@ Answer in short codes, row by row (for example "S1 A, S2 A, S3 B"). The recommen
 |---|---|---|---|---|
 | S1 | The freeze | **A.** Freeze new sections now; only the F1 to F10 list ships until 30 strangers have been through. | Finish the open section rulings first (2 to 3 more weeks), then freeze. | Keep building and validate in parallel. |
 | S2 | The first strangers | **A.** 30 to 50 strangers from communities and warm DMs, free, 8 interviews. | A paid testing panel (about $300 for 20 sessions). | Skip and go straight to short video. |
-| S3 | Analytics | **A.** PostHog Cloud free, cookieless, plus Cloudflare Web Analytics. | Cloudflare Web Analytics only. | Plausible ($9 a month), page views and goals only. |
+| S3 | Analytics | **A.** The July design: a first-party worker writing to Workers Analytics Engine (needs Workers Paid, $5 a month), the 14 events in `INF_02` §3, the weekly analyst routine already written for it. No third party, no cookies. | PostHog Cloud free, cookieless: funnels and retention out of the box, but a third party. | Cloudflare Web Analytics only (traffic, no funnel). |
 | S4 | Error monitoring | **A.** Sentry free tier, app and workers. | Cloudflare logs only. | None until launch. |
 | S5 | The Founding Pass | **A.** Keep $9, cap at 300 passes, close at public launch; new buyers get Seeker depth for life plus the AI consultant for 12 months. Existing buyers keep what they bought. | Raise to $29, cap at 500, keep Advisor for life. | Keep as it is. |
 | S6 | Subscriptions | **A.** Annual first. Seeker $59.99 a year or $9.99 a month, 7-day free trial on annual only. Advisor $119.99 a year or $19.99 a month. Live by day 60 to 75 on Stripe Billing. | Lower: Seeker $39.99 a year or $6.99 a month, Advisor $79.99 a year or $14.99 a month. | Monthly only, as coded today. |
@@ -224,6 +224,40 @@ Answer in short codes, row by row (for example "S1 A, S2 A, S3 B"). The recommen
 | S10 | The email tool | **A.** Resend (already connected to this workspace: audiences, broadcasts, automations). | Loops (free to 1,000 contacts). | Kit (free to 10,000 contacts). |
 | S11 | The 90-day budget, above Claude Max | **A.** Up to $100 a month: Supabase Pro $25, small tools, creator gift passes. No paid ads before the day-60 gate. | Up to $400 a month with a $300 paid-ad test at day 60. | $0, free tiers only, Supabase Pro deferred. |
 | S12 | The gates | **A.** Adopt the thresholds and gates in section 5.4. | Adopt the thresholds, no hard gates. | Set other numbers. |
-| S13 | The unknown birth hour | **A.** Ask "I don't know my hour" in onboarding and show an honest three-pillar reading with a note. (Ruling for the Day Master session to build.) | Keep the default hour with a visible note. | Require an hour. |
+| S13 | The unknown birth hour | Superseded by E3 below. | | |
 | S14 | Supabase Pro timing | **A.** At the first public post (about day 30). | Now. | At 500 users. |
 | S15 | Who runs this plan | **A.** One infra agent session takes I1 to I8 and B1 to B2 in one sprint; this strategy session keeps the marketing scripts and the weekly funnel read. | Split infra items across the existing sessions. | The owner does it by hand. |
+
+## 7 · Round 2 (2026-10-22): the pending items handed to this session
+
+A scheduled task on the owner's account handed this session the open items: measurement, the safety net, billing, the engine accuracy issues, and the ruling bottleneck. Steps the owner runs are in `INF_02_Launch_Runbook.md`. Code waits for these rulings and for the owner's go on G1.
+
+### 7.1 The engine (shared code; each fix moves readings on every section)
+
+Counts from 20,000 random births, 1950 to 2007, all hours, both genders, Beijing (study scripts kept in the session scratchpad; the method matches `ComparativeAnalysis/Evaluations/section-audit-2026-10-21/life-chapters/qa/qiyun.mjs`).
+
+**E1 · The luck-pillar start.** Classical rule (渊海子平; 三命通会 卷二 起大运): count from the birth to the next 节 (forward) or back to the previous 节 (backward), three days to a year. The backward search in `engine/calculator.js` (line 570) looks only at the bazi year's own terms, so births from 小寒 to 立春 (about 6 January to 3 February) count back to 大雪 instead of 小寒. Ten extra years.
+- The one-line fix (search the next Gregorian year's 小寒 first) changes **738 of 20,000 charts (3.7%)**, every one by about ten years, and no other chart.
+- Golden files: `qa-engine-regression` re-blessed only if a golden case is a January backward birth.
+
+**E2 · The strength band against the element shares.** Classical weight: the month decides (子平真诠 论用神, "八字用神，专求月令"; 滴天髓, 得时). `computeDMStrength` scores season 4, root 2, allies 1, and maps a score of 3 (out of season, rooted, with allies) to "strong".
+- Today: concentrated 55.7%, open 43.1%, balanced only **1.1%** (score 4 alone). **11.2%** of charts read concentrated while self plus resource is under 35% of the chart (the 甲 in 酉 case).
+- Fix A (score 3 reads balanced): changes **17.4%** of charts; the contradiction falls to 1.2%; balanced rises to 18.5%.
+- Fix B (band from the share of self plus resource: 50% and over concentrated, 36% to 50% balanced): changes 24.9%; no contradiction; the three classical tests stop deciding.
+- The band is part of every archetype key (`stem_band_pattern`) and the catalyst, so a changed band changes which written reading the reader sees.
+
+**E3 · The unknown birth hour.** `chartContext.resolveHourForCalc` fills an unknown hour with 12:00 (a known window uses its midpoint). For an unknown hour the noon band differs from the true-hour band in **16%** of births (3,200 of 20,000), and the hour pillar is wrong 11 times in 12. The classical practice without the hour is a three-pillar reading (三柱). The depth layer already takes `hourUnknown` (`engine/depth/season.js`, `stars.js`).
+
+### 7.2 The rulings
+
+| Code | Question | A (recommended) | B | C |
+|---|---|---|---|---|
+| E1 | Luck-pillar start | **A.** The one-line backward fix now (3.7% of charts move ten years to the right decade). | The fix plus minute-exact 节 times with the birth hour (about one chart in five moves by a year). | Leave it. |
+| E2 | Strength band | **A.** Score 3 reads balanced (17.4% of charts change; contradictions 11.2% to 1.2%). The Domains, Life Chapters and Almanac sessions re-check their band-keyed lines. | Band from the support share (24.9% change, no contradiction, classical tests advisory only). | Leave it. |
+| E3 | Unknown hour | **A.** "I don't know" gives a three-pillar chart: the hour is left out of the strength tests and shares, and hour-palace lines show "needs your birth hour". | Keep noon with a visible "approximate" note. | Require an hour or a window. |
+| G1 | The deploy gate (`INF_02` §2, patch ready, all checks green today) | **A.** Push it now to both workflows. | Push it to the dev workflow only for a week, then production. | Hold. |
+| D1 | One ruling day | **A.** Every session queues its rulings to one weekly page; the owner rules once a week in one sitting. | Keep a page per session, as now. | |
+| D2 | Delegated rulings | **A.** Sessions adopt TWEAK and MINOR items themselves when the gates pass, and list them in the weekly page, where the owner can reverse them. The owner rules MAJOR items, money, the engine, legal and design direction. | The owner rules everything. | |
+| D3 | A default | **A.** A ruling unanswered after 7 days takes option A, except money, engine, legal and anything live on elementum.life. | No default. | |
+
+Order once ruled: G1, then E1 (smallest, clearest), then E3, then E2 (largest; the content sessions are told first). Each engine change follows `DEV_04`: crosscheck, regression, re-bless only what is ruled, and a note to the Life Chapters, Almanac and Domains sessions listing the changed charts.
