@@ -566,8 +566,10 @@ export function calculateBaziChart(input) {
   if (forward) {
     outer: for (let off=0;off<=1;off++) for (let ti=0;ti<12;ti++) { const td=getSolarTermDate(baziYear+off,ti); if (td>birthDate){termDays=Math.round((td-birthDate)/86400000);break outer;} }
   } else {
+    // Backward: the previous 节. A birth from 小寒 to 立春 sits in the NEXT
+    // Gregorian year, so that year's 小寒 is checked first (E1, owner 2026-10-22).
     let prev=null;
-    for (let ti=11;ti>=0;ti--) { const td=getSolarTermDate(baziYear,ti); if (td<birthDate){prev=td;break;} }
+    outer: for (const yy of [baziYear+1, baziYear]) for (let ti=11;ti>=0;ti--) { const td=getSolarTermDate(yy,ti); if (td<birthDate){prev=td;break outer;} }
     if (!prev) prev=getSolarTermDate(baziYear-1,11);
     termDays=Math.round((birthDate-prev)/86400000);
   }
