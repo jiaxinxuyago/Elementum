@@ -159,3 +159,27 @@ Rows: RS1 direction · RS2 the energy's sign · RS3 the title and teaser · RS4 
 | RS2–RS7 | A each, taken at the recommended option: they are Direction 1 exactly as shown (one dot sized by presence; function title over THE FUNCTION's opening; "You run Overfueled." over the run line; the state line; the two dot groups on card 8; the Naming's ground) | 2026-10-21 |
 
 Built straight into elementum.life (same release rule as V5 and the Naming). Code: `MergedViews.jsx` (FirstReading), `merged.css` (the first-reading block), `journeyData.js` (`fnHead` on each merged row), `JourneyStage.jsx` (passes InkDot). Gates: eslint 0 errors, engine golden match, build, journey sweep 17/17; no overflow at 375×667.
+
+## Follow-up · the visual pass and the energy journey (owner 2026-10-22)
+
+**The visual pass (shipped, `db7da27`).** All 36 live screens captured at 390×844 and 390×1700 with alignment, gap and image metrics. Fixed: one 18px gutter on every tab page (Compat and Chart Resonance padded 22; Codex, Draw, Self-Report, Consultant and the Manual fallback padded 20) and the hero header's default bleed set to 18 so the Guidance and Codex bands no longer overhang the viewport; the album tile "How am I running?" no longer wraps its minutes into a second column; painted album tiles carry the paper halo on eyebrow and claim; the balance box's captions balance. Not defects, noted: the onboarding progress bar reads as a dark strip at the top in tall captures; the hero equation thumbnail on the energy page is the darkest object in the journey (addressed by EJ4 below).
+
+**The energy journey (AWAITING RULING).** Owner brief: redesign one journey, the energy reading, from the catalogue page; fold sections into boxes or teasers; curate each page so the reader ramps (name → relation → function → what it means → domains); refer to the app and the station for every word. Owner answers to the four questions: the sheet stays as the cover; the ladder order name → relation → function → character → state → domains; boxes against teaser cards to be compared and decided later; derive and retitle, no new corpus.
+
+Artifact: https://claude.ai/artifact/JVfHjUarh8Jaf2dHNFQVvN (library copy: `Design/Library/Design_Pass_2026-10/EJ_The_Energy_Journey_Directions.html`).
+
+| Variation | What it is | Note |
+|---|---|---|
+| A · Boxes in place | Rung 1 (the name) open; five closed boxes, one derived line each (the relation as a miniature equation, the claim and verdict, the three keywords, the pill and the carry clause, one domains sentence); tapping opens the reading under the line. | Three taps from the wheel to the domains door; the whole ladder visible on arrival; a new grammar beside the card runs. |
+| B · Teaser cards | Rung 1, then four teaser cards in the ladder's order, each pushing its page (relation, function with the character and the remedy, domains with the seat and who runs it). | Today's grammar; the page stays short; every rung costs a push and a back. |
+| C · Hybrid | The short rungs (relation, what it means now) open in place; the long readings (function, domains) push. | |
+
+Shared by all three: the sheet trimmed to the hook (sign, head, function, state, plate, the pair story, the cycle image line, Read); the name rung as the plate band with the dot, Earth · 土, "Earth is your Mind energy.", the head and the cycle line, the presence bar; the 生 equation drawn on paper (two dots, the law glyph and arrow, = Friction); the character as its own rung (the god's functional line, the Mind metrics, the keywords); the domains rung ending on the three tiles and the seat; Earth across your chart and Next unchanged.
+
+Sources, all existing: `ELEMENT_PAIR 金_土` (head, story, mechanism, function, cta_verdict, carry), `tpl_cycle_line.image_lines`, `tpl_now_line`, `ELEMENT_GOD 土_偏印` (k2_functional, adj_chips, edge), `FUNCTION_METRICS Mind`, `GOD pianyin`, the live diagnosis, domain lines, seat and across-your-chart. The Domains pages themselves are another session's and are not redrawn.
+
+Rows: EJ1 the folding · EJ2 the cover · EJ3 the name rung · EJ4 the relation picture · EJ5 the character · EJ6 the domains rung · EJ7 across your chart and Next.
+
+| Row | Ruling | Date |
+|---|---|---|
+| EJ1–EJ7 | awaiting the owner | — |
