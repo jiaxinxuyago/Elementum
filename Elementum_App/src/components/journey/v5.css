@@ -62,7 +62,9 @@
 .jny .v5-zh{ font-family:'Noto Serif SC',serif; font-size:13px; color:var(--bronzeDark); }
 .jny .v5-ft{ display:flex; align-items:center; gap:6px; width:100%; margin-top:auto; font-size:12px; color:var(--inkLight); line-height:1.3; }
 .jny .v5-ft em{ font-style:normal; white-space:nowrap; }
-.jny .v5-ft > span:first-child{ flex:1; min-width:0; }
+/* only the run tile’s claim shrinks; arrows and pills keep their size (fix 2026-10-22: the first-child rule stretched the Domains, Chapters, Stars arrows and the Advisor pill on real phones) */
+.jny .v5-ft .v5-ftt{ flex:1; min-width:0; }
+.jny .v5-ft .readcirc,.jny .v5-ft .role-pill{ flex:none; }
 .jny .v5-ft .readcirc{ margin-left:auto; }
 .jny .v5-dial{ width:96px; align-self:center; margin:auto 0; }
 .jny .v5-center{ align-self:center; margin:auto 0 2px; }
