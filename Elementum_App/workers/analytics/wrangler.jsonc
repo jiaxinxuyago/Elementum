@@ -1,0 +1,14 @@
+{
+  // Product analytics receiver (BIZ_05 S3 A; INF_02 §3). The app beacons events
+  // here; the Worker writes them to the Analytics Engine dataset below.
+  // Deploy:  npx wrangler deploy --config workers/analytics/wrangler.jsonc
+  // No secrets. The dataset is created on the first write.
+  "name": "elementum-analytics",
+  "main": "index.js",
+  "compatibility_date": "2025-11-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "analytics_engine_datasets": [
+    { "binding": "EVENTS", "dataset": "elementum_events" }
+  ]
+}

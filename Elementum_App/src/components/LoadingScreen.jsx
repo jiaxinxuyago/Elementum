@@ -29,6 +29,7 @@ import {
   resolveLocationName,
 } from '../store/chartContext.jsx';
 import { calculateBaziChart } from '../engine/index.js';
+import { track } from '../infra/analytics.js';
 
 // Ceremonial handoff timing — DES_04 §8 → §9
 const SPOT_MS = 820;          // each energy's moment in the front spotlight
@@ -71,6 +72,7 @@ export default function LoadingScreen({ onComplete }) {
 
     const run = async () => {
       const start = Date.now();
+      track('onboarding_complete', { hour_known: birthData.hour != null ? 'yes' : birthData.hourWindow ? 'window' : 'no' });
       try {
         const chart = calculateBaziChart({
           year: birthData.year,

@@ -8,6 +8,7 @@
 // ===================================================================
 
 import React from 'react';
+import { reportError } from '../infra/monitoring.js';
 
 export default class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -22,6 +23,7 @@ export default class ErrorBoundary extends React.Component {
   componentDidCatch(error, info) {
     // Log for debugging; never surface raw codes to the user.
     console.error('[Elementum] recovered from render error:', error, info);
+    reportError(error, info);
   }
 
   reset = () => {

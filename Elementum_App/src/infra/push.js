@@ -10,6 +10,7 @@
 // in the browser tab — install-to-home-screen is required there, INF_01 §4.4).
 // ─────────────────────────────────────────────────────────────────────────────
 import siteConfig from '../../site.config.json';
+import { track } from './analytics.js';
 
 const WORKER = siteConfig.pushWorkerUrl;
 const VAPID = siteConfig.vapidPublicKey;
@@ -66,6 +67,7 @@ export async function enablePush(localHour = 8, userId = null) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ subscription: sub.toJSON(), utcHour: localHourToUtc(localHour), userId }),
     });
+    if (res.ok) track('push_opt_in');
     return res.ok ? 'enabled' : 'error';
   } catch (err) {
     console.warn('[push] enable failed:', err);

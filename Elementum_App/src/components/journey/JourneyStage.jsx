@@ -81,6 +81,7 @@ import { AlbumHub, LeafReader, Balance, EnergyPager, AcrossChart, useSwipe, mark
 import { elementArt } from '../../styles/backgrounds.js';
 import { resolveAlmanac } from '../dashboard/almanac/almanacResolve.js';
 import { isoDay } from '../../engine/almanac/index.js';
+import { track } from '../../infra/analytics.js';
 
 const FIRSTRUN_KEY = 'elementum_journey_v1_done';
 const CEREMONY_MS = 2800;
@@ -237,6 +238,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   };
   const doCopy = async () => {
     const ok = await copyText(APP_URL);
+    if (ok) track('share_click', { method: 'link' });
     flashCard(ok ? 'Link copied' : 'Could not copy');
   };
 
@@ -302,6 +304,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
 
     // ceremony starts immediately (the stage IS on screen in-app)
     rv.classList.add('play'); playT = Date.now();
+    track('reveal_shown');
     const ceremonyDone = () => rv.classList.contains('done') || (playT && Date.now() - playT > CEREMONY_MS);
 
     const centerWheel = () => {
@@ -349,6 +352,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
     const finish = () => {
       if (finished) return; finished = true;
       markFirstRun();
+      track('reveal_complete', { seconds_since_shown: playT ? Math.round((Date.now() - playT) / 1000) : null });
       spring(1, () => {
         rv.style.display = 'none';
         if (ghost) { ghost.remove(); ghost = null; }

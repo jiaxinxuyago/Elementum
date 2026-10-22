@@ -9,6 +9,7 @@
 
 import { toPng, toBlob } from 'html-to-image';
 import { getCardFontEmbedCSS } from './fontEmbed.js';
+import { track } from '../infra/analytics.js';
 
 // 2× so a 540×960 logical card exports at 1080×1920 — the native story canvas.
 const PIXEL_RATIO = 2;
@@ -55,6 +56,7 @@ export async function downloadCardPng(node, filename = 'elementum-card.png') {
   const dataUrl = await toPng(node, await opts());
   if (!dataUrl) return false;
   saveObject(dataUrl, filename, false);
+  track('share_click', { method: 'save' });
   return true;
 }
 
@@ -70,6 +72,7 @@ export async function shareCard(node, { filename = 'elementum-card.png', title, 
   if (navigator.canShare && navigator.canShare({ files: [file] })) {
     try {
       await navigator.share({ files: [file], title, text });
+      track('share_click', { method: 'share' });
       return 'shared';
     } catch (e) {
       if (e && e.name === 'AbortError') return 'cancelled';
@@ -77,6 +80,7 @@ export async function shareCard(node, { filename = 'elementum-card.png', title, 
     }
   }
   saveObject(URL.createObjectURL(blob), filename, true);
+  track('share_click', { method: 'download' });
   return 'downloaded';
 }
 

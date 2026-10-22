@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sentry/browser": "11.5.0",
     "@supabase/supabase-js": "^2.110.0",
     "framer-motion": "^12.40.0",
     "html-to-image": "^1.11.13",

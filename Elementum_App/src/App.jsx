@@ -173,6 +173,7 @@ function ScreenFallback() {
 import { SILK, INK_LIGHT } from './styles/tokens.jsx';
 import { SCREEN_BG, PLATE_BG } from './styles/backgrounds.js';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
+import { track, trackAppOpen } from './infra/analytics.js';
 
 // Dev-only. DevBar + phone-frame sit side-by-side on desktop; on mobile
 // viewports the DevBar hides so the phone frame fills the screen.
@@ -419,6 +420,7 @@ export default function App() {
     const name = MERGE_V1 && (asked === 'app-daymaster' || asked === 'read-daymaster') ? 'app-reading' : asked;
     if (name !== 'app-reading') { setEnergyTarget(null); setSectionTarget(null); }
     startTransition(() => setScreenState(name));
+    track('screen_view', { screen: name });
     if (typeof window !== 'undefined') {
       window.location.hash = `#/${name}`;
     }
@@ -434,6 +436,9 @@ export default function App() {
   // Warm all on-demand screen chunks on idle so tab/nav/reveal transitions
   // are instant (no Suspense "white blink"). Runs once; first paint unaffected.
   useEffect(() => { prefetchScreens(); prefetchBackgrounds(); }, []);
+
+  // Analytics: where this visit came from, then the screen it opened on.
+  useEffect(() => { trackAppOpen(); track('screen_view', { screen: readHash() }); }, []);
 
   // Dev-only helper: window.__goto('step3') to jump to any screen for testing.
   // Gated to dev builds (IS_DEV) so the navigation/test hook never ships to users.

@@ -52,7 +52,10 @@ export function UpgradeModalProvider({ children }) {
   const [welcomeBack, setWelcomeBack] = useState(false); // §21 Step B returning-user welcome
   const [advisorGlow, setAdvisorGlow] = useState(false); // §21 Seeker→Advisor in-place glow
 
-  const openUpgrade = useCallback((featureLabel) => setFeature(featureLabel || 'this feature'), []);
+  const openUpgrade = useCallback((featureLabel) => {
+    track('paywall_view', { surface: featureLabel || 'unspecified' });
+    setFeature(featureLabel || 'this feature');
+  }, []);
   const closeUpgrade = useCallback(() => setFeature(null), []);
   const playCeremony = useCallback(() => setCeremony(true), []);
   const endCeremony = useCallback(() => setCeremony(false), []);
@@ -102,6 +105,7 @@ const FOUNDING_FEATURES = [
 // the phone frame (App.jsx) so it overlays only the phone surface.
 // ───────────────────────────────────────────────────────────────────
 import { STEM_PINYIN as STEM_KEY } from '../../engine/index.js';
+import { track } from '../../infra/analytics.js';
 
 export function UpgradeModalHost() {
   const {
@@ -137,6 +141,7 @@ export function UpgradeModalHost() {
     if (u?.email) url.searchParams.set('prefilled_email', u.email);
     // NOTE: 'noopener' in the features string makes open() return null even on
     // success — sever the opener manually so blocked-detection stays reliable.
+    track('checkout_click', { product: 'founding' });
     const tab = window.open(url.toString(), '_blank');
     if (tab) {
       try { tab.opener = null; } catch { /* cross-origin — already severed */ }

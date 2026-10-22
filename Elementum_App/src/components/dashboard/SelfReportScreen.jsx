@@ -20,6 +20,7 @@ import {
   ink, inkSoft, inkLight, bronzeDark, gold, silk,
   paperHair, cardstockBg, pigments, withAlpha,
 } from '../../styles/tokens';
+import { track } from '../../infra/analytics.js';
 
 const KEY = 'elementum_selfreport_v1';
 const CHAPTERS = ['Transition', 'Building', 'Thriving', 'Challenging', 'Exploring'];
@@ -45,6 +46,7 @@ export default function SelfReportScreen({ onBack }) {
   const goToStripe = (u) => {
     if (typeof window === 'undefined' || !PAYMENT.selfReportCheckout) return;
     const url = new URL(PAYMENT.selfReportCheckout);
+    track('checkout_click', { product: 'self-report' });
     if (u?.id) url.searchParams.set('client_reference_id', u.id);
     if (u?.email) url.searchParams.set('prefilled_email', u.email);
     // NOTE: 'noopener' in the features string makes open() return null even on

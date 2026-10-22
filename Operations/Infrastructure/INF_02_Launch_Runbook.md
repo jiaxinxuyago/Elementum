@@ -75,6 +75,16 @@ Do them in this order. The app already reads both the old and the new columns, s
 7. **Customer Portal.** Stripe → Settings → Billing → Customer portal → allow cancel and switching between the four prices → copy the login link.
 8. Send the four Payment Link URLs and the portal link to the strategy session. It puts them in `src/infra/links.js` (`seekerCheckout`, `seekerAnnualCheckout`, `advisorCheckout`, `advisorAnnualCheckout`, `billingPortal`); the design director places the annual and monthly choice in the upgrade sheet.
 
+### 1.9 Analytics on (S3 A) · after Workers Paid (§1.2)
+1. From `Elementum_App/`: `npx wrangler deploy --config workers/analytics/wrangler.jsonc`. Note the `https://elementum-analytics.<account>.workers.dev` address it prints.
+2. Send the address to the strategy session. It sets `ANALYTICS_URL` in `src/infra/analytics.js` and pushes; events start with that deploy. (/legal already describes them.)
+3. For the weekly analyst routine: Cloudflare → My Profile → API Tokens → a token with "Account Analytics: Read", stored only on the laptop as the `CF_ANALYTICS_TOKEN` user env var.
+
+### 1.10 Error monitoring on (S4 A)
+1. sentry.io → sign up (free Developer plan) → new project, platform "Browser JavaScript", name `elementum`. Alerts: email on every new issue.
+2. Copy the DSN (`https://…@….ingest.sentry.io/…`; it is public by design) and send it to the strategy session; it sets `SENTRY_DSN` in `src/infra/monitoring.js`.
+3. Workers: a second project, platform "Cloudflare Workers", for the webhook, llm and push workers (the next code step; the DSN goes in as a Worker secret `SENTRY_DSN`).
+
 ## 2 · The deploy gate (live since 2026-10-22, S15 A)
 
 A `check` script in `Elementum_App/package.json`, run by both deploy workflows before the build. A failure stops the deploy.
@@ -94,7 +104,7 @@ All pass on `main` at `beb5574` (2026-10-22). Browser checks (`qa-route-sweep`, 
 
 Effect on other sessions: a push that breaks a golden file no longer reaches elementum.life. An intended engine change must re-bless its golden file in the same push (`DEV_04`).
 
-## 3 · Analytics (AGENT, waits on S3)
+## 3 · Analytics (code in `main` since 2026-10-22; off until §1.9)
 
 **The July 2026 design** (`Elementum_App/tools/routines/analytics-report.prompt.md`): the app sends events to a small first-party worker, which writes them to Workers Analytics Engine. No third party, no cookies, an anonymous device id. The weekly analyst routine answers five fixed questions: activation, resonance, depth, retention, monetization. The full July list of 14 events lives in the owner's local memory; the list below rebuilds it from the routine's definitions and the `BIZ_02` funnel. The owner confirms or corrects it before the build.
 
@@ -105,11 +115,12 @@ Effect on other sessions: a push that breaks a golden file no longer reaches ele
 | 3 | `onboarding_complete` | birth data submitted | hour_known (yes, window, no) | activation; BIZ_02 reveal_started |
 | 4 | `reveal_shown` | the first reading's first card | none | resonance |
 | 5 | `reveal_continue` | the reader moves past the first card | seconds_since_shown | resonance (within 60 s) |
-| 6 | `reveal_complete` | the eighth card, into Your reading | none | BIZ_02 reveal_completed |
-| 7 | `read_depth` | a reading surface closes | surface, bucket (25, 50, 75, 100), dwell_s | depth |
+| 6 | `reveal_complete` | the Naming ceremony finishes, into Your reading | seconds_since_shown | BIZ_02 reveal_completed |
+| 7 | `read_depth` | a reading surface closes (allowed, not wired yet; `screen_view` with its timestamps gives dwell for now) | surface, bucket, dwell_s | depth |
+| 7b | `screen_view` | every screen change | screen (the route name) | depth, activation funnel |
 | 8 | `share_click` | the share card is exported or shared | card | BIZ_02 share_clicked |
-| 9 | `invite_sent` | a compatibility invite or friend compare | none | virality |
-| 10 | `email_captured` | the email form succeeds | placement | BIZ_02 email_captured |
+| 9 | `invite_sent` | a compatibility invite (allowed, not wired: the app has no invite link yet) | none | virality |
+| 10 | `email_captured` | the email form succeeds (wired with F5) | placement | BIZ_02 email_captured |
 | 11 | `push_opt_in` | the browser grants push | none | retention |
 | 12 | `push_open` | a push notification opens the app | kind | retention |
 | 13 | `paywall_view` | an upgrade sheet or locked card is opened | surface, tier | monetization |
@@ -118,7 +129,7 @@ Effect on other sessions: a push that breaks a golden file no longer reaches ele
 
 Rules: no birth date, time, place, chart, stem, element or reading text in any event. The device id is random, stored on the device, and reset by "delete my data". `/legal` changes in the same push.
 
-## 4 · Error monitoring (AGENT, waits on S4)
+## 4 · Error monitoring (app code in `main` since 2026-10-22; off until §1.10)
 
 Sentry free tier (5,000 errors a month): the browser SDK in `main.jsx` beside the ErrorBoundary, and the Cloudflare SDK in the three workers. `sendDefaultPii: false`; a `beforeSend` that drops request bodies, so no birth data or chat text leaves. Source maps uploaded in the deploy workflow with a `SENTRY_AUTH_TOKEN` repo secret (OWNER adds it). An alert email on any new issue to support@.
 
