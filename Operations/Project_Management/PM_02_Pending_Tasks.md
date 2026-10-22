@@ -18,7 +18,8 @@
 ### STORE-2 · Google Play Console — Organization account ⏳ READY, Phase-B-gated
 - Same D-U-N-S (14-193-9711), same trigger, same identity (Lantern Digital LLC). $25 one-time. Org account skips the personal-account 20-testers×14-days production gate. Evaluate the TWA (PWA-wrap) path for an Android-first ship. Runbook: `INF_01` §4.2a (Google counterpart).
 
-### STORE-3 · Phase-B platform bundle (after STORE-1/2)
+### STORE-3 · Phase-B platform bundle (after STORE-1/2) · SEQUENCED AFTER THE DESIGN POLISH (owner 2026-10-22)
+Owner 2026-10-22: "Backlog this item after the design polish is fully done, and remind me when we get there." Ready and waiting on branch `capacitor-shell` (config, the native adapter, the scripts, the Mac steps in `ComparativeAnalysis/Handoffs/2026-10-22-capacitor-shell/STEPS.md`). The design polish counts as done when: every DES_15 row is shipped (all are, as of 2026-10-22), the three art sets have landed (GO-2 pair paintings, GO-4 function vignettes, GO-5 persona seals) plus the yin-stem plates (DES_15 N3), and the owner's iPhone check on dev.elementum.life has passed (the list in the STEPS file §3). The design session holds a check-in to raise it then.
 - Capacitor wrap → IAP + Play Billing with a dual-grantor store webhook (grants the same `entitlements` rows as the Stripe webhook) → APNs/FCM push migration (Web Push does NOT carry over — `INF_01` §4.4 decision 3) → Sign in with Apple (mandatory once Google sign-in ships in-store, guideline 4.8) → TestFlight → review (budget one rejection cycle; astrology-category scrutiny).
 
 ## STRAT — launch strategy
