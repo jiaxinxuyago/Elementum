@@ -2,7 +2,7 @@
 
 **Purpose:** the single place where deferred, trigger-gated, and owner-pending work is tracked so any agent (session preflights, the doc-auditor, future PM routines) can answer "what's open?" without archaeology. Status changes are edited in place; completed tasks move to the log at the bottom. Detailed runbooks stay in their home docs — entries here carry the trigger, the first step, and the pointer.
 
-**Convention:** `[AREA]-[N]` IDs, append-only. Areas: `STORE` (app-store onboarding) · `INFRA` · `OWNER` (owner-review items) · `HK` (housekeeping/maintenance).
+**Convention:** `[AREA]-[N]` IDs, append-only. Areas: `STORE` (app-store onboarding) · `STRAT` (launch strategy) · `INFRA` · `OWNER` (owner-review items) · `HK` (housekeeping/maintenance).
 
 ---
 
@@ -20,6 +20,11 @@
 
 ### STORE-3 · Phase-B platform bundle (after STORE-1/2)
 - Capacitor wrap → IAP + Play Billing with a dual-grantor store webhook (grants the same `entitlements` rows as the Stripe webhook) → APNs/FCM push migration (Web Push does NOT carry over — `INF_01` §4.4 decision 3) → Sign in with Apple (mandatory once Google sign-in ships in-store, guideline 4.8) → TestFlight → review (budget one rejection cycle; astrology-category scrutiny).
+
+## STRAT — launch strategy
+
+### STRAT-1 · The launch plan ⏳ WAITS ON THE OWNER'S RULINGS S1–S15
+Record: `Operations/Business/BIZ_05_Launch_Strategy.md`; report with the rulings: https://claude.ai/artifact/WU74C1XQ1bD6QBUHCoFrSB. The stage is a feature-rich private alpha with no market evidence. The proposal: freeze new sections, ship the freeze list F1 to F10 (about two weeks), then 30 to 50 strangers through the reveal, with the gates in BIZ_05 §5.4 deciding the public launch. Key finding: Paddle bans horoscope products, so the merchant-of-record route is Stripe Managed Payments (S7). Once ruled, INFRA-2, INFRA-3, INFRA-5 and HK-10 are scheduled from the plan. Strategy session: session_019UR4wQXx6NmFH7gv99Zf7U.
 
 ## INFRA — trigger-gated
 

@@ -83,6 +83,7 @@ Legacy **section** citations resolve at the same § numbers in the current books
 | BIZ_02 | Elementum_Validation_Sprint | Beta validation strategy |
 | BIZ_03 | Audience_Tone_Research | Target-audience demographics + competitor voice matrix + tone-of-voice variants for the Reading corpus (2026-08-05; §8 tone ratified 2026-08-05 — operating canon now REA_16) |
 | BIZ_04 | Friction_Framing_Research | How the friction pages frame the reader's downsides: audience evidence, blunt-versus-gentle feedback, feedback psychology, framework language; recommendation "plain cost, owned cause, open door" (2026-10-16, adopted; notes in `Business/research/BIZ_04_friction_framing_notes/`) |
+| BIZ_05 | Launch_Strategy | The stage (feature-rich private alpha), a state assessment, market and positioning research, the development freeze point, the 30/60/90 day plan in marketing, infrastructure and business tracks, and owner rulings S1–S15 (2026-10-22, proposed; report https://claude.ai/artifact/WU74C1XQ1bD6QBUHCoFrSB) |
 
 ### Legal_Admin/ — legal records, entity paperwork
 | File | Purpose |
