@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useTransition, Suspense, lazy } fro
 import {
   ChartProvider,
   useChart,
-  resolveHourForCalc,
+  resolveHourForCalc, resolveHourUnknownForCalc,
   resolveGenderForCalc,
   resolveLongitudeForCalc,
   resolveLocationName,
@@ -841,7 +841,7 @@ function DevHelpers() {
             year: clean.year,
             month: clean.month,
             day: clean.day,
-            hour: resolveHourForCalc(clean),
+            hour: resolveHourForCalc(clean), hourUnknown: resolveHourUnknownForCalc(clean),
             gender: resolveGenderForCalc(clean),
             longitude: resolveLongitudeForCalc(clean),
             location: resolveLocationName(clean),
@@ -858,7 +858,7 @@ function DevHelpers() {
         const clean = { ...base, ...b };
         updateBirthData(clean);
         try {
-          setChart(calculateBaziChart({ year: clean.year, month: clean.month, day: clean.day, hour: resolveHourForCalc(clean), gender: resolveGenderForCalc(clean), longitude: resolveLongitudeForCalc(clean), location: resolveLocationName(clean) }));
+          setChart(calculateBaziChart({ year: clean.year, month: clean.month, day: clean.day, hour: resolveHourForCalc(clean), hourUnknown: resolveHourUnknownForCalc(clean), gender: resolveGenderForCalc(clean), longitude: resolveLongitudeForCalc(clean), location: resolveLocationName(clean) }));
         } catch (err) {
           console.error('[seed] calculateBaziChart failed:', err);
         }

@@ -314,7 +314,7 @@ export function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
   };
   const gotDi = Object.keys(branchAt).some(pos =>
     (HIDDEN_STEMS[branchAt[pos]]||[]).some(h=>h.e===dmEl) && !uprooted(pos));
-  const nonDMStems = [pillars.year.stem,pillars.month.stem,pillars.hour.stem];
+  const nonDMStems = [pillars.year.stem,pillars.month.stem,pillars.hour.stem].filter(Boolean); // two when the hour is unknown
   const supporting = nonDMStems.filter(s=>{
     const el = STEM_ELEM[s];
     return el===dmEl || GEN[el]===dmEl || bondedDMStems.has(s);
@@ -498,6 +498,10 @@ export const TG_PATTERN_LABELS = {
 // the calc falls back silently to Beijing longitude (120°E) per DES_04 §22.
 export function calculateBaziChart(input) {
   const { year, month, day, hour, gender, longitude, location } = input;
+  // An unknown birth hour reads as three pillars (E3, owner 2026-10-22): the
+  // hour pillar is still returned for display, but scores from a null hour, so
+  // it adds nothing to the element shares, the strength tests or the bonds.
+  const hourUnknown = !!input.hourUnknown;
   const cityLongitudes = { beijing: 120, shanghai: 121, guangzhou: 113, chengdu: 104, newyork: -74, london: 0, tokyo: 139, paris: 2, sydney: 151 };
   const lon =
     typeof longitude === 'number' && !Number.isNaN(longitude)
@@ -530,7 +534,7 @@ export function calculateBaziChart(input) {
   const hourBranch = EB[hourBranchIdx];
   const hourStem = HS[(HS.indexOf(dayStem)*2+hourBranchIdx)%10];
 
-  const pillarsObj = {year:{stem:yearStem,branch:yearBranch},month:{stem:monthStem,branch:monthBranch},day:{stem:dayStem,branch:dayBranch},hour:{stem:hourStem,branch:hourBranch}};
+  const pillarsObj = {year:{stem:yearStem,branch:yearBranch},month:{stem:monthStem,branch:monthBranch},day:{stem:dayStem,branch:dayBranch},hour:hourUnknown?{stem:null,branch:null}:{stem:hourStem,branch:hourBranch}};
   const {raw: rawScores, posContrib} = computeElementComposition(pillarsObj);
   const {adj: bondAdj, bondedDMStems} = applyBondModifiers(rawScores, posContrib, pillarsObj, dayStem);
   const totalRaw = Object.values(bondAdj).reduce((s,v)=>s+v,0)||1;
@@ -547,7 +551,7 @@ export function calculateBaziChart(input) {
   const { strength, strengthScore } = dmStrengthResult;
 
   const combinations = [];
-  const tgMap = k => ({yearStem:getTenGod(dayStem,yearStem),monthStem:getTenGod(dayStem,monthStem),hourStem:getTenGod(dayStem,hourStem)}[k]);
+  const tgMap = k => ({yearStem:getTenGod(dayStem,yearStem),monthStem:getTenGod(dayStem,monthStem),hourStem:getTenGod(dayStem,pillarsObj.hour.stem)}[k]);
   const outputCt = ["食神","伤官"].filter(g=>["yearStem","monthStem","hourStem"].some(k=>tgMap(k)?.zh===g)).length;
   const wealthCt  = ["偏财","正财"].filter(g=>["yearStem","monthStem","hourStem"].some(k=>tgMap(k)?.zh===g)).length;
   const officerCt = ["七杀","正官"].filter(g=>["yearStem","monthStem","hourStem"].some(k=>tgMap(k)?.zh===g)).length;
@@ -600,14 +604,14 @@ export function calculateBaziChart(input) {
       year:  { stem: yearStem,  branch: yearBranch  },
       month: { stem: monthStem, branch: monthBranch },
       day:   { stem: dayStem,   branch: dayBranch   },
-      hour:  { stem: hourStem,  branch: hourBranch  },
+      hour:  { stem: pillarsObj.hour.stem, branch: pillarsObj.hour.branch },
     },
   };
   const tgPattern    = computeTgPattern(partialChart);
   const catalyst     = getPrimaryCatalyst(partialChart);
   const archetypeKey = `${dayStem}_${getEnergyBand(strength)}_${tgPattern}`;
   return {
-    meta:{birthDate:`${year}-${String(month).padStart(2,"0")}-${String(day).padStart(2,"0")}`,birthHour:hour,location:location||"Beijing",longitude:lon,gender,calculatedAt:now.toISOString().split("T")[0]},
+    meta:{birthDate:`${year}-${String(month).padStart(2,"0")}-${String(day).padStart(2,"0")}`,birthHour:hour,hourUnknown,location:location||"Beijing",longitude:lon,gender,calculatedAt:now.toISOString().split("T")[0]},
     pillars:{year:{stem:yearStem,branch:yearBranch,stemElement:STEM_ELEM[yearStem],branchElement:BRANCH_ELEM[yearBranch],stemPolarity:STEM_YIN[yearStem]?"yin":"yang",branchPolarity:BRANCH_YIN[yearBranch]?"yin":"yang"},month:{stem:monthStem,branch:monthBranch,stemElement:STEM_ELEM[monthStem],branchElement:BRANCH_ELEM[monthBranch],stemPolarity:STEM_YIN[monthStem]?"yin":"yang",branchPolarity:BRANCH_YIN[monthBranch]?"yin":"yang"},day:{stem:dayStem,branch:dayBranch,stemElement:STEM_ELEM[dayStem],branchElement:BRANCH_ELEM[dayBranch],stemPolarity:STEM_YIN[dayStem]?"yin":"yang",branchPolarity:BRANCH_YIN[dayBranch]?"yin":"yang"},hour:{stem:hourStem,branch:hourBranch,stemElement:STEM_ELEM[hourStem],branchElement:BRANCH_ELEM[hourBranch],stemPolarity:STEM_YIN[hourStem]?"yin":"yang",branchPolarity:BRANCH_YIN[hourBranch]?"yin":"yang"}},
     dayMaster:{stem:dayStem,element:dmEl,polarity:STEM_YIN[dayStem]?"yin":"yang",strength,strengthScore,strengthTests:dmStrengthResult.tests},
     elements,

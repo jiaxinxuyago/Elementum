@@ -12,7 +12,7 @@
 import { useState } from 'react';
 import {
   useChart,
-  resolveHourForCalc,
+  resolveHourForCalc, resolveHourUnknownForCalc,
   resolveGenderForCalc,
   resolveLongitudeForCalc,
   resolveLocationName,
@@ -45,7 +45,7 @@ export default function CompatFriendFlow({ onExit, onDone }) {
     if (user) {
       const other = calculateBaziChart({
         year: f.year, month: f.month, day: f.day,
-        hour: resolveHourForCalc(f),
+        hour: resolveHourForCalc(f), hourUnknown: resolveHourUnknownForCalc(f),
         gender: resolveGenderForCalc(f),
         longitude: resolveLongitudeForCalc(f),
         location: resolveLocationName(f),

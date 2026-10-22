@@ -24,7 +24,7 @@ import {
 import {
   useChart,
   resolveGenderForCalc,
-  resolveHourForCalc,
+  resolveHourForCalc, resolveHourUnknownForCalc,
   resolveLongitudeForCalc,
   resolveLocationName,
 } from '../store/chartContext.jsx';
@@ -76,7 +76,7 @@ export default function LoadingScreen({ onComplete }) {
           year: birthData.year,
           month: birthData.month,
           day: birthData.day,
-          hour: resolveHourForCalc(birthData),
+          hour: resolveHourForCalc(birthData), hourUnknown: resolveHourUnknownForCalc(birthData),
           gender: resolveGenderForCalc(birthData),
           longitude: resolveLongitudeForCalc(birthData), // exact numeric longitude (Open-Meteo or well-known fallback)
           location: resolveLocationName(birthData),       // display name only — preserved in chart.meta.location

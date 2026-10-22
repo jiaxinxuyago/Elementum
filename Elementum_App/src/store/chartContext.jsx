@@ -81,6 +81,7 @@ function computeChart(b) {
       month: b.month,
       day: b.day,
       hour: resolveHourForCalc(b),
+      hourUnknown: resolveHourUnknownForCalc(b),
       gender: resolveGenderForCalc(b),
       longitude: resolveLongitudeForCalc(b),
       location: resolveLocationName(b),
@@ -287,9 +288,9 @@ export function resolveGenderForCalc(birthData) {
 // Resolve the hour to pass into calculateBaziChart():
 // - Exact hour (0–23): returned as-is
 // - Approximate window: use the midpoint of the selected 4-hour window
-// - Unknown: default to 12 (midday) — DES_04 §22 documents a 3-pillar path
-//   for unknown hour, but the v1 calculator expects an hour value;
-//   callers can read birthData.hourUnknown to suppress hour-pillar display.
+// - Unknown: 12 (midday) for the display pillar only; pass
+//   resolveHourUnknownForCalc() too, so the calculator scores three pillars
+//   (DES_04 §22). Callers read birthData.hourUnknown to suppress hour display.
 const WINDOW_MIDPOINTS = {
   'late-night': 1,   // 11pm–3am window centered at 1am
   'early':      5,   // 3am–7am centered at 5am
@@ -302,6 +303,11 @@ export function resolveHourForCalc(birthData) {
   if (birthData.hour != null) return birthData.hour;
   if (birthData.hourWindow) return WINDOW_MIDPOINTS[birthData.hourWindow] ?? 12;
   return 12;
+}
+// True when no hour and no window was given ("I don't know"): the calculator
+// then scores three pillars and leaves the noon hour out (E3, owner 2026-10-22).
+export function resolveHourUnknownForCalc(birthData) {
+  return birthData.hour == null && !birthData.hourWindow;
 }
 
 // ── LOCATION → longitude resolution ───────────────────────────────────────
