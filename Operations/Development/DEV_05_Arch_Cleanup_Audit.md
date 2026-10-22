@@ -56,3 +56,14 @@ Also remove the now-unused `lazy()` consts + idle-prefetch entries for these fro
 1. **Tier-2 `reading-detail/` (the §11 IA): retire & delete, or keep?**
 2. **Phase scope/order** to green-light when the session runs.
 3. **`D13*` de-prefix timing** (Phase 5) and whether the `archetypeSource` HTML mirror splits with the JS.
+
+## Resolution 2026-10-22 · open decision 1 (owner: "retire the other unused pages")
+
+Retired from the app and deleted (precedent: Life Chapters round-1 path, `f8088a4`):
+- Routes: `app-energymap`, `read-elemental`, `read-daymaster`, `read-tengods`, `read-forces`, `read-chapters`, `read-patterns`, `read-seasonal`, `read-locked`, `chart-reveal`, and the dev harness `d13preview`. Old deep links land on the live page through `ROUTE_ALIAS` in `App.jsx` (`app-reading`, or `app-pillars` for `chart-reveal`).
+- Files: `components/dashboard/reading-detail/` (the whole §11 IA: DetailShell, sections, the six detail pages), `components/dashboard/TGRing.jsx`, and the pre-journey reading surface `components/reading/ReadingScreen.jsx` with `EnergyCatalogue.jsx`, `EnergyShelf.jsx`, `DayMasterCta.jsx`, `RevealDissolve.jsx`, `ReadingWheelPreview.jsx`, `DominanceWheel.jsx` (the D13 wheel component; the live wheel is JourneyStage's own and is unchanged).
+- Call sites moved: Profile "View birth chart" → `app-pillars`; the upgrade ceremony's hand-off → `app-reading`.
+
+Kept on purpose, as flag-backed fallbacks: `app-daymaster` (`ReadingDayMasterScreen`, only when `MERGE_V1` is off) and `app-manual` (`EnergyManualScreen`, only when `DEPTH_LIVE` is off). They are not on the DevBar.
+
+Gates: eslint 0 errors, build, route sweep over every live route, journey sweep.

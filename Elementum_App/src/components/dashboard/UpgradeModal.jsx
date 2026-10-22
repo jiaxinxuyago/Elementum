@@ -213,7 +213,7 @@ export function UpgradeModalHost() {
       <WelcomeToSeekerScreen
         element={dmElement} stemKey={stemKey}
         archetype={ARCHETYPE_NAMES[chart?.dayMaster?.stem] || `${dmElement} Day Master`}
-        onDone={() => { endWelcomeBack(); if (typeof window !== 'undefined') window.location.hash = '#/app-energymap'; }}
+        onDone={() => { endWelcomeBack(); if (typeof window !== 'undefined') window.location.hash = '#/app-reading'; }}
       />
     );
   }
@@ -226,7 +226,7 @@ export function UpgradeModalHost() {
         stemKey={stemKey}
         onDone={() => {
           endCeremony();
-          if (typeof window !== 'undefined') window.location.hash = '#/app-energymap';
+          if (typeof window !== 'undefined') window.location.hash = '#/app-reading';
         }}
       />
     );

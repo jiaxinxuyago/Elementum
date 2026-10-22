@@ -148,7 +148,7 @@ export default function ProfileScreen() {
         <div style={{
           display: 'flex', gap: 18, marginTop: 14, flexWrap: 'wrap',
         }}>
-          <Plink label="View birth chart" onClick={goHash('chart-reveal')} />
+          <Plink label="View birth chart" onClick={goHash('app-pillars')} />
           <Plink label="Edit" onClick={goHash('step1')} />
         </div>
       </Card>

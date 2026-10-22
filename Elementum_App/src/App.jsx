@@ -40,7 +40,6 @@ import ReadingSprite from './components/reading/ReadingSprite.jsx';
 // needs the moment it plays anyway; the long onboarding flow gives the bundle
 // plenty of time to arrive before first paint of any of them.
 import JourneyStage from './components/journey/JourneyStage.jsx';
-import ReadingScreen from './components/reading/ReadingScreen.jsx';
 import TodayScreen from './components/dashboard/tabs/TodayScreen.jsx';
 import GuidanceScreen from './components/dashboard/tabs/GuidanceScreen.jsx';
 import CompatScreen from './components/dashboard/tabs/CompatScreen.jsx';
@@ -59,18 +58,11 @@ const DayPage = lazy(() => import('./components/dashboard/DayPage.jsx'));
 const MonthPage = lazy(() => import('./components/dashboard/MonthPage.jsx'));
 const YearPage = lazy(() => import('./components/dashboard/YearPage.jsx'));
 const DecadePage = lazy(() => import('./components/dashboard/DecadePage.jsx'));
-const TenGodsDetail = lazy(() => import('./components/dashboard/reading-detail/TenGodsDetail.jsx'));
-const ForcesInMotionDetail = lazy(() => import('./components/dashboard/reading-detail/ForcesInMotionDetail.jsx'));
-const LifeChaptersDetail = lazy(() => import('./components/dashboard/reading-detail/LifeChaptersDetail.jsx'));
-const ChartPatternsDetail = lazy(() => import('./components/dashboard/reading-detail/ChartPatternsDetail.jsx'));
-const SeasonalCalibrationDetail = lazy(() => import('./components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx'));
-const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/LockedDetail.jsx'));
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 import { IS_DEV_TOOLS } from './devtools.js';
 import { MERGE_V1 } from './components/journey/mergeFlag.js';
 import { DEPTH_LIVE, V5_LIVE } from './liveFlags.js';
 import { hasSeenReading } from './components/journey/v5State.js';
-const ReadingWheelPreview = lazy(() => import('./components/reading/ReadingWheelPreview.jsx'));
 const ReadingDayMasterScreen = lazy(() => import('./components/reading/ReadingDayMasterScreen.jsx'));
 const ReadingPillarChartScreen = lazy(() => import('./components/reading/ReadingPillarChartScreen.jsx'));
 const CompatFriendFlow = lazy(() => import('./components/dashboard/CompatFriendFlow.jsx'));
@@ -80,7 +72,7 @@ const CompatFriendFlow = lazy(() => import('./components/dashboard/CompatFriendF
 // paths as the lazy() calls above, so Vite/the browser serve the identical
 // cached chunk — by the time the user taps a tab or the reveal hands off to
 // the catalogue, the code is already in memory and the swap is instant.
-// Runs once; dev-only harnesses (DevBar, ReadingWheelPreview) are intentionally
+// Runs once; the dev-only DevBar is intentionally
 // excluded. First paint is unaffected — this only fires when the main thread
 // is idle.
 let _prefetchedScreens = false;
@@ -99,12 +91,6 @@ function prefetchScreens() {
       import('./components/dashboard/MonthPage.jsx'),
       import('./components/dashboard/YearPage.jsx'),
       import('./components/dashboard/DecadePage.jsx'),
-      import('./components/dashboard/reading-detail/TenGodsDetail.jsx'),
-      import('./components/dashboard/reading-detail/ForcesInMotionDetail.jsx'),
-      import('./components/dashboard/reading-detail/LifeChaptersDetail.jsx'),
-      import('./components/dashboard/reading-detail/ChartPatternsDetail.jsx'),
-      import('./components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx'),
-      import('./components/dashboard/reading-detail/LockedDetail.jsx'),
       import('./components/reading/ReadingDayMasterScreen.jsx'),
       import('./components/reading/ReadingPillarChartScreen.jsx'),
       import('./components/dashboard/CompatFriendFlow.jsx'),
@@ -280,7 +266,6 @@ const FLOW = [
   'app-reading',     // catalogue (DES_04 §11)
   'app-daymaster',   // D13 P4 — Day Master card (wheel-centre seal)
   'app-pillars',     // D13 P5 — 八字 Pillar Chart (from the Day Master)
-  'app-energymap',   // Energy Map destination (DES_04 §AM.1 — same as Reveal, no first-time CTA)
   'app-codex',       // BaZi Codex (Guidance §12 Card 5)
   'app-draw',        // Elemental Draw (Guidance §12 Card 1)
   'app-manual',      // Energy Manual (Guidance §12 Card 2)
@@ -289,21 +274,22 @@ const FLOW = [
   'app-compat',
   'compat-friends',  // full-frame "their birth" friend onboarding flow (no tab bar)
   'app-profile',
-  // Reading detail destinations (DES_04 §11 drill-downs)
-  'read-elemental',  // Elemental Nature (built fully)
-  'read-daymaster',  // Day Master (built fully)
-  'read-tengods',    // Ten Gods (built fully)
-  'read-forces',     // Forces in Motion — Catalyst + Resistance
-  'read-chapters',   // Life Chapters — decade timeline
-  'read-patterns',   // Chart/Pillar Patterns — 合冲刑害
-  'read-seasonal',   // Seasonal Calibration — missing-element prescription
-  'chart-reveal',    // Birth Chart Raw Data — four-pillar grid
   'chart-resonance', // Chart Resonance — hour-discovery flow (§11/§22)
-  'read-locked',     // generic locked-card for not-yet-built sections
-  // Dev-only reading-component render harness (#/d13preview) — excluded from
-  // FLOW in prod builds so readHash() rejects the route for real users.
-  ...(IS_DEV ? ['d13preview'] : []),
+  // RETIRED 2026-10-22 (owner: "retire the other unused pages"; DEV_05 open
+  // decision 1 resolved): the §11 reading-detail stack (read-elemental,
+  // read-daymaster, read-tengods, read-forces, read-chapters, read-patterns,
+  // read-seasonal, read-locked), the pre-journey Energy Map (app-energymap),
+  // the raw chart alias (chart-reveal) and the d13preview harness. Old links
+  // land on the live page through ROUTE_ALIAS below.
 ];
+
+// Old deep links from the retired routes land on the page that replaced them.
+const ROUTE_ALIAS = {
+  'app-energymap': 'app-reading', 'read-elemental': 'app-reading', 'read-daymaster': 'app-reading',
+  'read-tengods': 'app-reading', 'read-forces': 'app-reading', 'read-chapters': 'app-reading',
+  'read-patterns': 'app-reading', 'read-seasonal': 'app-reading', 'read-locked': 'app-reading',
+  'chart-reveal': 'app-pillars',
+};
 
 // Which dashboard tab is "active" for a given screen — drives the single
 // persistent D13 tab bar (rendered once by App, outside the page). Screens
@@ -315,8 +301,6 @@ const DASHBOARD_TAB = {
   'app-guidance': 'guidance', 'app-codex': 'guidance', 'app-draw': 'guidance', 'app-manual': 'guidance',
   'app-selfreport': 'guidance', 'app-consultant': 'guidance',
   'app-reading': 'reading', 'app-daymaster': 'reading', 'app-pillars': 'reading',
-  // retired routes aliased to the D13 screens above
-  'read-daymaster': 'reading', 'chart-reveal': 'reading', 'app-energymap': 'reading',
   'app-compat': 'compat',
   'app-profile': 'profile',
 };
@@ -326,7 +310,8 @@ function readHash() {
   const h = (typeof window !== 'undefined' ? window.location.hash : '')
     .replace(/^#\/?/, '')
     .toLowerCase();
-  return FLOW.includes(h) ? h : 'welcome';
+  const r = ROUTE_ALIAS[h] || h;
+  return FLOW.includes(r) ? r : 'welcome';
 }
 
 // Stripe's Payment Link success URLs return here as `<origin>/?founding=ok`
@@ -513,11 +498,6 @@ export default function App() {
       }
     });
   };
-
-  // Dev-only D13 component harness — renders isolated (no phone-frame wrapper).
-  if (screen === 'd13preview') {
-    return <Suspense fallback={null}><ReadingWheelPreview /></Suspense>;
-  }
 
   let rendered;
   switch (screen) {
@@ -723,57 +703,9 @@ export default function App() {
       );
       break;
 
-    // ────────────────────────────────────────────────────────────────
-    // Reading-detail destinations + Energy Map (Phase 2).
-    // Detail pages share DetailShell (back button + section header).
-    // All render OUTSIDE DashboardShell — they push over the tab bar
-    // like a page in a stack, per DES_04 §11 v1.7 "DetailShell wrapper"
-    // (carried forward by §AM.1 as authoritative).
-    // ────────────────────────────────────────────────────────────────
-    case 'app-energymap':
-      // The standalone Energy Map is retired; this is now the last route that
-      // reaches ReadingScreen (the pre-journey reading surface) — `app-reading`
-      // renders JourneyStage. Energy taps route to the catalogue (merge-and-
-      // retire 2026-08-19: the faces page is gone; the dot card is THE entry).
-      rendered = <ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={goto('app-reading')} />;
-      break;
-    case 'read-elemental':
-      // RETIRED d12 Elemental Nature detail (owner 2026-09-15, REA_02 §5h):
-      // aliased to the journey's core energy page (the Body corpus); its
-      // stem-axis sections stay Codex ore.
-      rendered = <JourneyStage openCore onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} />;
-      break;
-    case 'read-daymaster':
-      // Retired DayMasterDetail — aliased to the D13 Day Master card (P4).
-      // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
-      // the journey (the same hook the DevBar uses, set by JourneyStage).
-      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} onOpenBlueprint={DEPTH_LIVE ? () => openSection('blueprint') : undefined} />;
-      break;
-    case 'read-tengods':
-      rendered = <TenGodsDetail onBack={goto('app-reading')} />;
-      break;
-    case 'read-forces':
-      rendered = <ForcesInMotionDetail onBack={goto('app-reading')} />;
-      break;
-    case 'read-chapters':
-      rendered = <LifeChaptersDetail onBack={goto('app-reading')} />;
-      break;
-    case 'read-patterns':
-      rendered = <ChartPatternsDetail onBack={goto('app-reading')} />;
-      break;
-    case 'read-seasonal':
-      rendered = <SeasonalCalibrationDetail onBack={goto('app-reading')} />;
-      break;
-    case 'chart-reveal':
-      // Retired RawChartPage — aliased to the D13 八字 Pillar Chart (P5).
-      rendered = <ReadingPillarChartScreen onBack={goto(MERGE_V1 ? 'app-reading' : 'app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={DEPTH_LIVE ? () => openSection('chapters') : undefined} />;
-      break;
     case 'chart-resonance':
       // After recovering the hour, land on the D13 Pillar Chart (not the old raw chart).
       rendered = <ChartResonanceScreen onBack={goto('app-profile')} onDone={goto('app-pillars')} />;
-      break;
-    case 'read-locked':
-      rendered = <LockedDetail onBack={goto('app-reading')} />;
       break;
     default:
       rendered = <WelcomeScreen onContinue={goto('step1')} onEnterApp={enterReturning} />;

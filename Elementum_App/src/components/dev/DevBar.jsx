@@ -41,9 +41,10 @@ const STATUS_ACCENT = {
 // The CURRENT user journey's screens, grouped for scannability (re-mapped
 // 2026-10-21 after THE MERGE, THE DEPTH, Your Almanac, V5 and the re-ruled
 // Naming). Source of truth: App.jsx FLOW for hash routes; JourneyStage's
-// internal screens arrive through window.__journeyGo (dev-only). Retired
-// aliases (app-daymaster, app-energymap, chart-reveal, the read-* stack) all
-// land on Your reading or the pillar chart and are deliberately not listed.
+// internal screens arrive through window.__journeyGo (dev-only). The old
+// aliases (app-energymap, chart-reveal, the read-* stack, d13preview) were
+// retired from the app on 2026-10-22; app-daymaster and app-manual survive
+// only as flag-backed fallbacks (MERGE_V1, DEPTH_LIVE) and are not listed.
 const SCREEN_GROUPS = [
   { label: 'Onboarding', screens: ['welcome', 'step1', 'step2', 'step3', 'step4', 'step4a', 'step5', 'step6', 'step6a', 'step7', 'step7a', 'loading'] },
   { label: 'Tabs', screens: ['app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile'] },
@@ -487,7 +488,7 @@ const SURFACE = {
 };
 function surfacesFor(screen, journeyScreen) {
   if (screen === 'reveal') return [SURFACE.identity];
-  if (screen === 'app-reading' || screen === 'app-energymap') {
+  if (screen === 'app-reading') {
     if (journeyScreen === 'element' || journeyScreen === 'elsec') return [SURFACE.element, SURFACE.deep];
     return [SURFACE.identity, SURFACE.catalogue];
   }
@@ -541,7 +542,7 @@ function SchemaView({ chart, birthData, currentScreen }) {
           <span style={{ fontSize: 10, color: '#6c655a' }}>
             on{' '}
             <span style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', color: '#9d968a' }}>
-              {currentScreen}{journeyScreen && (currentScreen === 'app-reading' || currentScreen === 'app-energymap') ? ` · ${journeyScreen}` : ''}{activeEl ? ` · ${activeEl}` : ''}
+              {currentScreen}{journeyScreen && currentScreen === 'app-reading' ? ` · ${journeyScreen}` : ''}{activeEl ? ` · ${activeEl}` : ''}
             </span>
           </span>
           <TabBtn active={showAll} onClick={() => setShowAll((v) => !v)}>all</TabBtn>

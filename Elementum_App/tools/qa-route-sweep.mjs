@@ -44,8 +44,8 @@ const VIEWPORTS = [
   { name: 'canonical', width: 390, height: 844 },
 ];
 
-// Screens that are meaningless to sweep: d13preview is a bare dev harness.
-const EXCLUDE = new Set(['d13preview']);
+// Screens that are meaningless to sweep (none since the d13preview harness retired, 2026-10-22).
+const EXCLUDE = new Set([]);
 
 const SEED_PRESET = 'geng'; // canonical 庚 "The Blade" chart
 const SETTLE_MS = 900;      // post-navigation settle (reduced motion is on)
