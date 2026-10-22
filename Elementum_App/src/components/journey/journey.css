@@ -190,6 +190,18 @@
 .jny .padv2.pgin>*,.jny .padv2.pgin>.beat[data-beat="2"]>*{transition:opacity 720ms ease}
 .jny .padv2.pgin>.beat[data-beat="1"]{transition-delay:120ms}
 .jny .padv2.pgin>.beat[data-beat="3"]{transition-delay:280ms}
+/* V5 (the album hub, 2026-10-22 fix): the wheel sits inside .v5-hub, so the pre-reveal
+   state keeps the hub and its wheel tile visible (the wheel alone on paper, the tile's
+   card transparent) while the ink dots ink in; everything else emerges after. Owner
+   recording 2026-10-22: the screen was blank paper during the dot intro. */
+.jny .padv2.pgpre>.v5-hub{opacity:1!important}
+.jny .padv2.pgpre>.v5-hub>*{opacity:0!important}
+.jny .padv2.pgpre>.v5-hub>.mg-wtile{opacity:1!important;background:transparent;border-color:transparent;box-shadow:none}
+.jny .padv2.pgpre>.v5-hub>.mg-wtile>*:not(.wheel){opacity:0!important}
+.jny .padv2.pgin>.v5-hub>*,.jny .padv2.pgin>.v5-hub>.mg-wtile>*{transition:opacity 720ms ease}
+.jny .padv2.pgin>.v5-hub>.mg-wtile{transition:background 720ms ease,border-color 720ms ease,box-shadow 720ms ease}
+.jny .padv2.pgin>.v5-hub>.v5-id,.jny .padv2.pgin>.v5-hub>.v5-mani{transition-delay:120ms}
+.jny .padv2.pgin>.v5-hub>.v5-readline,.jny .padv2.pgin>.v5-hub>.v5-bento{transition-delay:280ms}
 @media (prefers-reduced-motion: reduce){
 .jny .rvl-wash,.jny .rvl-img,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-edge,.jny .rvl-rule,.jny .rvl-kw,.jny .rvl-cast,.jny .rvl-distey,.jny .rvl-dist,.jny .rvl-inscr,.jny .rvl-swipe{animation:none!important;opacity:1!important;transform:none!important}
 /* The un-blur lives in the rvlImg animation; killing animations above leaves
@@ -201,6 +213,7 @@
 .jny .rvl-swipe svg{animation:none}
 .jny .wheel.wintro .node{animation:none;opacity:1}
 .jny .padv2.pgin>*,.jny .padv2.pgin>.beat[data-beat="2"]>*{transition:none}
+.jny .padv2.pgin>.v5-hub>*,.jny .padv2.pgin>.v5-hub>.mg-wtile>*{transition:none}
 }
 /* ═══════════ reveal plate · short-viewport rhythm (BUG-20260805-1) ═══════════
    The reveal column is overflow:hidden and NOT scrollable, so anything the
