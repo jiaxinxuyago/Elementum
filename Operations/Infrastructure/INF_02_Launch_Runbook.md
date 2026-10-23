@@ -10,7 +10,10 @@
 
 Do them in this order. Each takes under 15 minutes.
 
-### 1.1 support@elementum.life (INFRA-3, free) · waits on nothing
+### 1.1 support@elementum.life (INFRA-3, free) · DONE 2026-10-23
+Done: Cloudflare Email Routing (already on) forwards `support@` and `privacy@` to the Lantern Digital Gmail (catch-all stays disabled); both tested. Resend (the connected account): `elementum.life` verified for replies as support@ (records `resend._domainkey`, `send` MX and TXT, `rsend` CNAME DNS-only); `mail.elementum.life` verified for app email (the same four under `.mail`); DMARC `_dmarc` TXT `v=DMARC1; p=none;` on the apex covers both. Supabase Auth sends through Resend SMTP (`smtp.resend.com:465`, user `resend`, a sending-only key `supabase-auth-smtp` limited to mail.elementum.life, sender `Elementum <hello@mail.elementum.life>`); auth email rate limit 100 an hour. /legal names support@ and privacy@. Open: Gmail "Send mail as" support@ (steps below, a sending-only key `gmail-support` limited to elementum.life, SMTP `smtp.resend.com:587`); tighten DMARC to `p=quarantine` after a few clean weeks.
+
+Original steps:
 Receiving:
 1. Cloudflare dashboard → elementum.life → Email → Email Routing → Enable. Accept the DNS records it adds (MX and SPF).
 2. Destination addresses → add the inbox you read daily → click the link in the verification email.
