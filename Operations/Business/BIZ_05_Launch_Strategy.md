@@ -310,3 +310,5 @@ Not yet: the AI Consultant answers only the owner (`OWNER_IDS` in `workers/llm/w
 |---|---|---|---|---|
 | L1 | The AI Consultant for founders | **A.** Open it to every Advisor with `DAILY_CAP` 10 and `MONTHLY_BUDGET_USD` 150 (worker vars), `OWNER_IDS` emptied; the Anthropic console limit (HK-3) set to match; review at day 30. | Open it with today's limits (30 a day, $50 a month); it pauses for everyone once $50 is spent. | Keep it owner-only; take the Consultant off the pass wording until it opens. |
 | L2 | Launch-week sign-up email | **A.** Resend Pro ($20) for the launch month only, then back to free. | Stay free; spread invites under 100 sign-ups a day. | |
+
+**Ruled 2026-10-23:** L1 A (the Consultant opens to every Advisor: `OWNER_IDS` emptied, `DAILY_CAP` 10, `MONTHLY_BUDGET_USD` 150 in `workers/llm/wrangler.jsonc`; live when the owner redeploys the llm worker; the Anthropic console limit HK-3 set at or above $150; spend reviewed at day 30). L2 B (Resend stays on the free plan: invites are paced so under 100 people sign up a day; the launch sequence M1 and M8 plans invite waves accordingly).

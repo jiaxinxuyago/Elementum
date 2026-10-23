@@ -22,10 +22,12 @@
     // The model switch (INF_01 §4.3): Sonnet for beta; flip to the open arm
     // (model id prefixed "workersai/") when the cost trigger fires.
     "MODEL": "claude-sonnet-5",
-    "DAILY_CAP": "30",
-    "MONTHLY_BUDGET_USD": "50",
-    // Phase 0: owner-only. Comma-separated user ids; set to "" to open to all
-    // Advisor users (Phase 1) — REQUIRES the /legal privacy amendment first.
-    "OWNER_IDS": "ca4bbe43-c36e-4441-97ae-83e63781fbad"
+    // Phase 1, open to every Advisor (owner ruling L1 A, 2026-10-23, BIZ_05 §9):
+    // 10 messages a day each, a $150 monthly safety limit; review at day 30.
+    "DAILY_CAP": "10",
+    "MONTHLY_BUDGET_USD": "150",
+    // Comma-separated user ids to limit the consultant to; "" = every Advisor.
+    // (The /legal AI Consultant section has been live since 2026-07.)
+    "OWNER_IDS": ""
   }
 }

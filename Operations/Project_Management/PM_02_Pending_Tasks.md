@@ -33,7 +33,7 @@ Record: `Operations/Business/BIZ_05_Launch_Strategy.md`; report with the rulings
 
 | ID | Task | Trigger | Pointer |
 |---|---|---|---|
-| INFRA-1 | Phase 1 consultant rollout: `OWNER_IDS=""` + redeploy elementum-llm | After the owner's voice-polish session | `INF_01` §4.3 |
+| INFRA-1 | Phase 1 consultant rollout — RULED L1 A 2026-10-23: `OWNER_IDS=""`, `DAILY_CAP` 10, `MONTHLY_BUDGET_USD` 150 committed; waits on the owner's redeploy of elementum-llm and the Anthropic console limit (HK-3) | Now | `BIZ_05` §9, `INF_01` §4.3 |
 | INFRA-2 | Supabase Pro (~$25/mo) | Before beta marketing | ownership-map memory |
 | INFRA-3 | Workers Paid ($5/mo): not needed for analytics (free plan covers it, 2026-10-23); support@ is free through Email Routing + Resend | Low-thousands of daily visitors | `INF_02` §1.1, §1.2 |
 | INFRA-4 | Open-model arm (Workers AI) in elementum-llm — NOT yet implemented | LLM spend nears $50/mo or 20% of revenue | `INF_01` §4.3 cost gates |
