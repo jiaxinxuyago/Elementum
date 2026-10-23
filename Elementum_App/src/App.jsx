@@ -27,6 +27,7 @@ import LoadingScreen from './components/LoadingScreen.jsx';
 import DashboardShell from './components/dashboard/DashboardShell.jsx';
 import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components/dashboard/UpgradeModal.jsx';
 import { PURCHASE_INTENT_KEY } from './components/dashboard/AuthModal.jsx';
+import PasswordRecoveryModal from './components/dashboard/PasswordRecoveryModal.jsx';
 // Eager — the persistent dashboard chrome: the static D13 tab bar + the
 // shared SVG sprite that supplies every D13 glyph (tabs, element marks, …).
 import ReadingTabBar from './components/reading/ReadingTabBar.jsx';
@@ -750,6 +751,8 @@ export default function App() {
             {DASHBOARD_TAB[screen] && <ReadingTabBar active={DASHBOARD_TAB[screen]} onTab={routeTab} />}
             {/* Upgrade modal overlays only the phone frame (DES_04 §21) */}
             <UpgradeModalHost />
+            {/* Return trip from a password-reset email (authContext recovery). */}
+            <PasswordRecoveryModal />
           </PhoneFrame>
         </Shell>
       </UpgradeModalProvider>

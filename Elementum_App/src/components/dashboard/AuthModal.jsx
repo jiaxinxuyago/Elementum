@@ -29,8 +29,11 @@ export const PURCHASE_INTENT_KEY = 'elementum_purchase_intent_v1';
 // `initialMode` — which face the sheet opens with: 'signup' (default; purchase +
 // profile flows) or 'signin' (the Welcome screen's returning-user entrance).
 export default function AuthModal({ open, onClose, onSuccess, purchase = false, initialMode = 'signup', intent = 'founding' }) {
-  const { signUp, signIn, signInWithGoogle } = useAuth();
+  const { signUp, signIn, signInWithGoogle, resendConfirmation, resetPassword } = useAuth();
   const [mode, setMode] = useState(initialMode); // 'signup' | 'signin'
+  // 'form' · 'check' (confirm your email) · 'forgot' (ask for the reset link) · 'resetSent'
+  const [view, setView] = useState('form');
+  const [note, setNote] = useState(null);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
@@ -43,20 +46,65 @@ export default function AuthModal({ open, onClose, onSuccess, purchase = false, 
     setErr(null); setBusy(true);
     const { data, error } = await (mode === 'signup' ? signUp : signIn)(email.trim(), password);
     setBusy(false);
-    if (error) { setErr(error.message); return; }
+    if (error) {
+      // Signed up earlier but never confirmed: offer the email again.
+      if (/not confirmed/i.test(error.message)) { setNote(null); setView('check'); return; }
+      setErr(error.message);
+      return;
+    }
+    // Email confirmation is on: no session until the link is opened. A buyer
+    // who opens it in this tab comes back signed in to a one-tap checkout
+    // (the same resume path as the Google return trip).
+    if (mode === 'signup' && !data?.session) {
+      try { if (purchase) sessionStorage.setItem(PURCHASE_INTENT_KEY, intent); } catch { /* storage unavailable */ }
+      setNote(null);
+      setView('check');
+      return;
+    }
     onClose?.();
     onSuccess?.(data?.user || null);
   };
 
-  const eyebrow = purchase
-    ? (mode === 'signup' ? 'One step before checkout' : 'Welcome back')
-    : (mode === 'signup' ? 'Create account' : 'Welcome back');
-  const title = purchase
-    ? 'Make your pass yours'
-    : (mode === 'signup' ? 'Save your readings' : 'Sign in');
-  const blurb = purchase
-    ? 'Your Founding Pass is tied to this account — so it’s yours forever, restorable on any device. Birth data stays on this device.'
-    : 'Your birth data stays on this device — an account just keeps your unlocks and lets you restore them on any device.';
+  const resend = async () => {
+    setErr(null); setBusy(true);
+    const { error } = await resendConfirmation(email.trim());
+    setBusy(false);
+    if (error) setErr(error.message); else setNote('Sent again. It can take a minute; check spam too.');
+  };
+
+  const sendReset = async (e) => {
+    e.preventDefault();
+    setErr(null); setBusy(true);
+    const { error } = await resetPassword(email.trim());
+    setBusy(false);
+    if (error) { setErr(error.message); return; }
+    setView('resetSent');
+  };
+
+  const eyebrow = view === 'check' ? 'One more step'
+    : view === 'forgot' || view === 'resetSent' ? 'Reset password'
+    : purchase
+      ? (mode === 'signup' ? 'One step before checkout' : 'Welcome back')
+      : (mode === 'signup' ? 'Create account' : 'Welcome back');
+  const title = view === 'check' ? 'Confirm your email'
+    : view === 'forgot' ? 'Forgot your password?'
+    : view === 'resetSent' ? 'Check your email'
+    : purchase
+      ? 'Make your pass yours'
+      : (mode === 'signup' ? 'Save your readings' : 'Sign in');
+  const blurb = view === 'check'
+    ? `We sent a link to ${email.trim() || 'your email'}. Open it to confirm your account${purchase ? ', then come back and continue to checkout' : ''}. Opening it on this device signs you in.`
+    : view === 'forgot'
+      ? 'Enter the email on your account and we’ll send a link to set a new password.'
+      : view === 'resetSent'
+        ? `If ${email.trim() || 'that email'} has an account, a reset link is on its way. Open it on this device to set a new password.`
+        : purchase
+          ? 'Your Founding Pass is tied to this account — so it’s yours forever, restorable on any device. Birth data stays on this device.'
+          : 'Your birth data stays on this device — an account just keeps your unlocks and lets you restore them on any device.';
+  const linkBtn = { display: 'block', margin: '14px auto 0', background: 'transparent', border: 'none', color: inkLight, fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13, cursor: 'pointer' };
+  const mainBtn = { width: '100%', padding: '13px 0', borderRadius: 999, border: 'none', background: bronzeDark, color: '#F8F6F0', fontFamily: 'Cinzel, serif', fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', cursor: busy ? 'default' : 'pointer', opacity: busy ? 0.7 : 1 };
+  const errLine = err && <div style={{ color: '#B0452F', fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, margin: '2px 2px 10px' }}>{err}</div>;
+  const back = () => { setErr(null); setNote(null); setView('form'); };
 
   return (
     <div
@@ -93,9 +141,15 @@ export default function AuthModal({ open, onClose, onSuccess, purchase = false, 
           {blurb}
         </p>
 
+{view === 'form' && (<>
         <form onSubmit={submit}>
           <input type="email" required placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" style={inputStyle} />
           <input type="password" required minLength={6} placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} autoComplete={mode === 'signup' ? 'new-password' : 'current-password'} style={inputStyle} />
+          {mode === 'signin' && (
+            <button type="button" onClick={() => { setErr(null); setView('forgot'); }} style={{ ...linkBtn, margin: '-4px 2px 10px auto', fontSize: 12.5 }}>
+              Forgot password?
+            </button>
+          )}
           {err && <div style={{ color: '#B0452F', fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, margin: '2px 2px 10px' }}>{err}</div>}
           <button
             type="submit" disabled={busy}
@@ -147,6 +201,26 @@ export default function AuthModal({ open, onClose, onSuccess, purchase = false, 
         >
           {mode === 'signup' ? 'Already have an account? Sign in' : 'New here? Create an account'}
         </button>
+        </>)}
+        {view === 'check' && (
+          <>
+            {errLine}
+            {note && <div style={{ color: inkSoft, fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, margin: '2px 2px 10px' }}>{note}</div>}
+            <button type="button" onClick={resend} disabled={busy} style={mainBtn}>{busy ? 'One moment…' : 'Send the email again'}</button>
+            <button type="button" onClick={() => { back(); setMode('signin'); }} style={linkBtn}>Confirmed already? Sign in</button>
+          </>
+        )}
+        {view === 'forgot' && (
+          <form onSubmit={sendReset}>
+            <input type="email" required placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" style={inputStyle} />
+            {errLine}
+            <button type="submit" disabled={busy} style={mainBtn}>{busy ? 'One moment…' : 'Send reset link'}</button>
+            <button type="button" onClick={back} style={linkBtn}>Back to sign in</button>
+          </form>
+        )}
+        {view === 'resetSent' && (
+          <button type="button" onClick={back} style={linkBtn}>Back to sign in</button>
+        )}
       </div>
     </div>
   );

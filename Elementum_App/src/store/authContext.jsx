@@ -16,6 +16,9 @@ const NO_AUTH = { data: null, error: { message: 'Sign-in is not configured in th
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [ready, setReady] = useState(!hasAuth); // no backend → immediately "ready" (anonymous)
+  // True after the reader opens a password-reset link: Supabase signs them in
+  // with a recovery session, and PasswordRecoveryModal asks for a new password.
+  const [recovery, setRecovery] = useState(false);
 
   useEffect(() => {
     if (!hasAuth) return;
@@ -25,8 +28,9 @@ export function AuthProvider({ children }) {
       setUser(data.session?.user ?? null);
       setReady(true);
     });
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
+    const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
       setUser(session?.user ?? null);
+      if (event === 'PASSWORD_RECOVERY') setRecovery(true);
     });
     return () => { active = false; sub.subscription.unsubscribe(); };
   }, []);
@@ -35,7 +39,16 @@ export function AuthProvider({ children }) {
   // to supabase-js's { error } shape instead of throwing, so callers' error
   // paths render normally and submit buttons never strand on their busy state.
 
-  const signUp = useCallback((email, password) => (supabase ? supabase.auth.signUp({ email, password }) : Promise.resolve(NO_AUTH)), []);
+  // Links in auth emails return to the origin the reader started from.
+  const origin = typeof window !== 'undefined' ? window.location.origin : undefined;
+  const signUp = useCallback((email, password) => (supabase ? supabase.auth.signUp({ email, password, options: { emailRedirectTo: origin } }) : Promise.resolve(NO_AUTH)), [origin]);
+  // Sends the sign-up confirmation email again (Resend SMTP, INF_02 §1.1).
+  const resendConfirmation = useCallback((email) => (supabase ? supabase.auth.resend({ type: 'signup', email, options: { emailRedirectTo: origin } }) : Promise.resolve(NO_AUTH)), [origin]);
+  // Forgot password: emails a link back to the app; its return trip fires
+  // PASSWORD_RECOVERY (above) and updatePassword() finishes the reset.
+  const resetPassword = useCallback((email) => (supabase ? supabase.auth.resetPasswordForEmail(email, { redirectTo: origin }) : Promise.resolve(NO_AUTH)), [origin]);
+  const updatePassword = useCallback((password) => (supabase ? supabase.auth.updateUser({ password }) : Promise.resolve(NO_AUTH)), []);
+  const endRecovery = useCallback(() => setRecovery(false), []);
   const signIn = useCallback((email, password) => (supabase ? supabase.auth.signInWithPassword({ email, password }) : Promise.resolve(NO_AUTH)), []);
   const signInWithGoogle = useCallback(
     () => (supabase
@@ -49,7 +62,7 @@ export function AuthProvider({ children }) {
   const signOut = useCallback(async () => { if (supabase) await supabase.auth.signOut(); }, []);
 
   return (
-    <AuthContext.Provider value={{ user, ready, hasAuth, signUp, signIn, signInWithGoogle, signOut }}>
+    <AuthContext.Provider value={{ user, ready, hasAuth, signUp, signIn, signInWithGoogle, signOut, resendConfirmation, resetPassword, updatePassword, recovery, endRecovery }}>
       {children}
     </AuthContext.Provider>
   );
@@ -64,5 +77,10 @@ export function useAuth() {
     signIn: async () => ({ error: new Error('auth unavailable') }),
     signInWithGoogle: async () => {},
     signOut: async () => {},
+    resendConfirmation: async () => ({ error: new Error('auth unavailable') }),
+    resetPassword: async () => ({ error: new Error('auth unavailable') }),
+    updatePassword: async () => ({ error: new Error('auth unavailable') }),
+    recovery: false,
+    endRecovery: () => {},
   };
 }
