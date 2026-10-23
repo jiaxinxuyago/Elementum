@@ -299,3 +299,14 @@ Round 1, in the owner's words: "S1 B, S2 A, S3 A, S4 A, S5 A, S6 A, S7 A, S8 A, 
 | Doc drift (task 5) | done 2026-10-22: Operations audit, 15 of 18 findings fixed (INF_01 v0.7, BIZ_01, DEV_01, DEV_03, PM_01, PM_02, PM_03 header, README, INF_02); the laptop's `sync-live.ps1` and `merge-fix-branches.mjs` now run `npm run check` too. Left for their owners: the Day Log has no entry since 2026-09-30 (the PM routine is not writing), two unregistered files in `Design/Documents/`, a unit count in PM_02 EVT-1 |
 | I6 support@ and email (S10 A) | done 2026-10-23: support@ and privacy@ forward to the owner's Gmail; Resend verified for elementum.life and mail.elementum.life with DMARC; Supabase sign-in emails go through Resend (the built-in mailer would not reach strangers); /legal names the two addresses (`INF_02` §1.1) |
 | I3 the deploy gate | done 2026-10-22: `npm run check` (lint plus seven QA checks) runs before the build in both deploy workflows (`INF_02` §2) |
+
+## 9 · Round 3 (2026-10-23): ready for 300 founders?
+
+Works: onboarding, the reveal, the free reading; account, checkout, the webhook grant and unlocks; profile and restore; sign-up confirmation and forgot password (built 2026-10-23); analytics, error reports, support@ and privacy@, /legal.
+
+Not yet: the AI Consultant answers only the owner (`OWNER_IDS` in `workers/llm/wrangler.jsonc`); Resend's free plan sends 100 emails a day (checked 2026-10-23: 100 a day, 3,000 a month, 3 of 3 domains used); paid sections average about 3 of 5 and most charts read fallback text (S1 B); no real test purchase; the 300 cap (Part C); no delete-account button; the Google consent screen shows supabase.co.
+
+| Code | Question | A (recommended) | B | C |
+|---|---|---|---|---|
+| L1 | The AI Consultant for founders | **A.** Open it to every Advisor with `DAILY_CAP` 10 and `MONTHLY_BUDGET_USD` 150 (worker vars), `OWNER_IDS` emptied; the Anthropic console limit (HK-3) set to match; review at day 30. | Open it with today's limits (30 a day, $50 a month); it pauses for everyone once $50 is spent. | Keep it owner-only; take the Consultant off the pass wording until it opens. |
+| L2 | Launch-week sign-up email | **A.** Resend Pro ($20) for the launch month only, then back to free. | Stay free; spread invites under 100 sign-ups a day. | |

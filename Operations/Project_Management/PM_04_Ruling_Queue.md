@@ -25,7 +25,8 @@
 
 | Code | Queued | Session | Kind | Question | A (recommended) | B | C | Detail | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| | | | | *(empty: the 2026-10-22 strategy rulings are all ruled, `BIZ_05` §8)* | | | | | |
+| L1 | 2026-10-23 | strategy | money | Open the AI Consultant to founders? | Open to every Advisor, 10 messages a day, $150 a month safety limit, review at day 30 | Open with today's limits (30 a day, $50) | Keep owner-only; drop it from the pass wording | `BIZ_05` §9 | queued |
+| L2 | 2026-10-23 | strategy | money | Launch-week sign-up email | Resend Pro ($20) for the launch month only | Stay free; under 100 sign-ups a day | | `BIZ_05` §9 | queued |
 
 Open rulings that live on other pages today and should move here at the next ruling day: Domains R1–R17, G1, MN (`ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains/`), Life Chapters M2–M9 (M1 closed by E1), Your Almanac P4 steps and F1, DES_15 directions. Each owning session moves its own rows.
 
