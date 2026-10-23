@@ -17,7 +17,7 @@ export const PAYMENT = {
   advisorCheckout: 'https://buy.stripe.com/9B614g1onh2IaXXgJC7Re04',       // $19.99/mo
   advisorAnnualCheckout: 'https://buy.stripe.com/7sYaEQ6IHbIo1nn8d67Re05', // $119.99/yr, 7-day trial
   // Stripe Customer Portal login link (manage or cancel a subscription).
-  billingPortal: null,
+  billingPortal: 'https://billing.stripe.com/p/login/fZu3coeb9dQwgihctm7Re00', // LIVE 2026-10-23
   // Founding pass — one-time LIVE Stripe Payment Link ($9, capped at 300 in
   // Stripe). Seeker for life plus 12 months of Advisor (S5 A).
   foundingCheckout: 'https://buy.stripe.com/fZu3coeb9dQwgihctm7Re00',
