@@ -21,10 +21,8 @@ Sending as support@ (to answer customers), without Workers Paid:
 5. Resend is already connected to this workspace. Resend → Domains → Add `elementum.life` → add the DKIM and return-path records it shows in Cloudflare DNS → Verify. Free tier: 3,000 emails a month.
 6. Tell the strategy session when the domain shows Verified; it then sets up replies and the email list through Resend.
 
-### 1.2 Workers Paid ($5 a month) · waits on S3
-Only needed if S3 is A (the July first-party analytics on Workers Analytics Engine).
-1. Cloudflare dashboard → Workers & Pages → Plans → Workers Paid → Purchase.
-2. Add the $5 line to `BIZ_01` §1 (or tell the strategy session to).
+### 1.2 Workers Paid ($5 a month) · DEFERRED 2026-10-23: not needed yet
+Workers Analytics Engine runs on the Workers Free plan (100,000 data points written and 10,000 read queries a day; Cloudflare does not bill Analytics Engine yet; developers.cloudflare.com/analytics/analytics-engine/pricing, read 2026-10-23). At 20–50 events a visitor that covers 2,000–5,000 visitors a day. Buy it when daily visitors reach the low thousands or total Workers requests near 100,000 a day (Workers & Pages → usage): Cloudflare dashboard → Workers & Pages → Plans → Workers Paid → Purchase, then add the $5 line to `BIZ_01` §1.
 
 ### 1.3 Supabase Pro ($25 a month) · waits on S14 (recommended: at the first public post)
 1. supabase.com → the organization that holds project `nbactbfxqslzehzbgetp` → Billing → Change subscription plan → Pro.
@@ -76,7 +74,7 @@ Do them in this order. The app already reads both the old and the new columns, s
 7. **Customer Portal.** Stripe → Settings → Billing → Customer portal → allow cancel and switching between the four prices → copy the login link.
 8. Send the four Payment Link URLs and the portal link to the strategy session. It puts them in `src/infra/links.js` (`seekerCheckout`, `seekerAnnualCheckout`, `advisorCheckout`, `advisorAnnualCheckout`, `billingPortal`); the design director places the annual and monthly choice in the upgrade sheet.
 
-### 1.9 Analytics on (S3 A) · after Workers Paid (§1.2)
+### 1.9 Analytics on (S3 A) · works on the free plan
 1. From `Elementum_App/`: `npx wrangler deploy --config workers/analytics/wrangler.jsonc`. Note the `https://elementum-analytics.<account>.workers.dev` address it prints.
 2. Send the address to the strategy session. It sets `ANALYTICS_URL` in `src/infra/analytics.js` and pushes; events start with that deploy. (/legal already describes them.)
 3. For the weekly analyst routine: Cloudflare → My Profile → API Tokens → a token with "Account Analytics: Read", stored only on the laptop as the `CF_ANALYTICS_TOKEN` user env var.

@@ -105,7 +105,7 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 
 | Item | Cost | Trigger | Unlocks |
 |---|---|---|---|
-| Cloudflare Workers Paid | $5/mo | Now (S3 A, 2026-10-22; `INF_02` §1.2) | Analytics pipeline (WAE). support@ no longer needs it: Email Routing receives, Resend sends (`INF_02` §1.1) |
+| Cloudflare Workers Paid | $5/mo | Deferred 2026-10-23: Analytics Engine runs on the free plan (100k events/day); buy at low-thousands of daily visitors (`INF_02` §1.2) | Analytics pipeline (WAE). support@ no longer needs it: Email Routing receives, Resend sends (`INF_02` §1.1) |
 | Supabase Pro | ~$25/mo | Before beta marketing (idle-pause already mitigated by push cron) | Capacity/SLA |
 | Apple Developer (Lantern Digital org) | $99/yr | Phase B scheduled (D-U-N-S secured) | App Store distribution |
 

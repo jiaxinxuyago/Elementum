@@ -35,7 +35,7 @@ Record: `Operations/Business/BIZ_05_Launch_Strategy.md`; report with the rulings
 |---|---|---|---|
 | INFRA-1 | Phase 1 consultant rollout: `OWNER_IDS=""` + redeploy elementum-llm | After the owner's voice-polish session | `INF_01` §4.3 |
 | INFRA-2 | Supabase Pro (~$25/mo) | Before beta marketing | ownership-map memory |
-| INFRA-3 | Workers Paid ($5/mo) for analytics (S3 A); support@ is free through Email Routing + Resend | Now (owner, 2026-10-22) | `INF_02` §1.1, §1.2 |
+| INFRA-3 | Workers Paid ($5/mo): not needed for analytics (free plan covers it, 2026-10-23); support@ is free through Email Routing + Resend | Low-thousands of daily visitors | `INF_02` §1.1, §1.2 |
 | INFRA-4 | Open-model arm (Workers AI) in elementum-llm — NOT yet implemented | LLM spend nears $50/mo or 20% of revenue | `INF_01` §4.3 cost gates |
 | INFRA-5 | Subscriptions + tax/merchant-of-record — RULED S6 A, S7 A (2026-10-22); code in `main` | The owner's Stripe steps | `INF_02` §1.5, §1.6, §1.8 |
 
