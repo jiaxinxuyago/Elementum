@@ -9,8 +9,8 @@
 // ─────────────────────────────────────────────────────────────────────────────
 import { IS_DEV_TOOLS } from '../devtools.js';
 
-// The project's public DSN, set once the owner creates it (INF_02 §1.10).
-export const SENTRY_DSN = null;
+// The project's public DSN (project `elementum`, created 2026-10-23, INF_02 §1.10).
+export const SENTRY_DSN = 'https://e6bc99417d4e431e1631edaf5630ce29@o4512303281995776.ingest.us.sentry.io/4512303295889408';
 
 let sentry = null;
 

@@ -79,7 +79,7 @@ Do them in this order. The app already reads both the old and the new columns, s
 2. Send the address to the strategy session. It sets `ANALYTICS_URL` in `src/infra/analytics.js` and pushes; events start with that deploy. (/legal already describes them.)
 3. For the weekly analyst routine: Cloudflare → My Profile → API Tokens → a token with "Account Analytics: Read", stored only on the laptop as the `CF_ANALYTICS_TOKEN` user env var.
 
-### 1.10 Error monitoring on (S4 A)
+### 1.10 Error monitoring on (S4 A) · DONE 2026-10-23 for the app: project `elementum` (org Lantern Digital, US region, Browser JavaScript, errors only; replay, tracing, logs and metrics off), `SENTRY_DSN` set; /legal lists Sentry. Open: Security & Privacy → Allowed Domains `elementum.life` and "Prevent Storing of IP Addresses" on (owner, 1 minute); the Workers project (step 3)
 1. sentry.io → sign up (free Developer plan) → new project, platform "Browser JavaScript", name `elementum`. Alerts: email on every new issue.
 2. Copy the DSN (`https://…@….ingest.sentry.io/…`; it is public by design) and send it to the strategy session; it sets `SENTRY_DSN` in `src/infra/monitoring.js`.
 3. Workers: a second project, platform "Cloudflare Workers", for the webhook, llm and push workers (the next code step; the DSN goes in as a Worker secret `SENTRY_DSN`).
