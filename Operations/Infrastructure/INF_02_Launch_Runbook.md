@@ -74,7 +74,7 @@ Do them in this order. The app already reads both the old and the new columns, s
 7. **Customer Portal.** Stripe → Settings → Billing → Customer portal → allow cancel and switching between the four prices → copy the login link.
 8. Send the four Payment Link URLs and the portal link to the strategy session. It puts them in `src/infra/links.js` (`seekerCheckout`, `seekerAnnualCheckout`, `advisorCheckout`, `advisorAnnualCheckout`, `billingPortal`); the design director places the annual and monthly choice in the upgrade sheet.
 
-### 1.9 Analytics on (S3 A) · works on the free plan
+### 1.9 Analytics on (S3 A) · DONE 2026-10-23: `elementum-analytics` deployed (version fb9eec41), GET 405 and test POST 204 verified; `ANALYTICS_URL` set, events flow from the next site deploy. Step 3 (the read token for the weekly analyst) is still open
 1. From `Elementum_App/`: `npx wrangler deploy --config workers/analytics/wrangler.jsonc`. Note the `https://elementum-analytics.<account>.workers.dev` address it prints.
 2. Send the address to the strategy session. It sets `ANALYTICS_URL` in `src/infra/analytics.js` and pushes; events start with that deploy. (/legal already describes them.)
 3. For the weekly analyst routine: Cloudflare → My Profile → API Tokens → a token with "Account Analytics: Read", stored only on the laptop as the `CF_ANALYTICS_TOKEN` user env var.
@@ -103,7 +103,7 @@ All pass on `main` at `beb5574` (2026-10-22). Browser checks (`qa-route-sweep`, 
 
 Effect on other sessions: a push that breaks a golden file no longer reaches elementum.life. An intended engine change must re-bless its golden file in the same push (`DEV_04`).
 
-## 3 · Analytics (code in `main` since 2026-10-22; off until §1.9)
+## 3 · Analytics (live on elementum.life since 2026-10-23)
 
 **The July 2026 design** (`Elementum_App/tools/routines/analytics-report.prompt.md`): the app sends events to a small first-party worker, which writes them to Workers Analytics Engine. No third party, no cookies, an anonymous device id. The weekly analyst routine answers five fixed questions: activation, resonance, depth, retention, monetization. The full July list of 14 events lives in the owner's local memory; the list below rebuilds it from the routine's definitions and the `BIZ_02` funnel. The owner confirms or corrects it before the build.
 

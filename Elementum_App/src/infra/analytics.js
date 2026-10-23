@@ -12,8 +12,8 @@
 // ─────────────────────────────────────────────────────────────────────────────
 import { IS_DEV_TOOLS } from '../devtools.js';
 
-// The Worker's address, set once it is deployed (INF_02 §1.9).
-export const ANALYTICS_URL = null;
+// The Worker's address (deployed 2026-10-23, INF_02 §1.9).
+export const ANALYTICS_URL = 'https://elementum-analytics.jiaxinxuyago.workers.dev';
 
 const DEVICE_KEY = 'elementum_aid';
 const SESSION_KEY = 'elementum_sid';
