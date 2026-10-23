@@ -236,11 +236,14 @@ Rows: SC1 card 8's direction (8A/8B/8C) · SC2 card 8's button ("Enter your read
 | SC1 | A · card 8 is "Where to begin": the five dots with the start energy lit ("Start here") and the other four ghosted, "Start with {El}, your {Function}.", the pair head and the now line. A Balanced chart (no start) keeps all five lit under the ribbon's Keep line | 2026-10-22 |
 | SC2 | A · one button, "Enter your reading"; the share button leaves card 8 | 2026-10-22 |
 | SC3 | A · the share card is the Naming plate: the Naming's ground, the stem plate, You are · {archetype}, the manifesto, the five dots with their shares, the inscription at the right, elementum.life. The A1 "tiles" card stays in the code behind the switch | 2026-10-22 |
+| SC3, revised | Owner 2026-10-23, from S-C's frame: the first card's layout on the mist veil (the stem plate, "You are {archetype}.", the who line), then what the card must also carry: a core line "{Core} is your core" with the condition pill, and the five energies re-grouped as the ribbon's Release and Grow (Keep, all five, when Balanced), each dot with its share and name. elementum.life at the foot. Supersedes the Naming-plate card of the day before | 2026-10-23 |
 | SC4 | C · the album's entry is the round share button at the head of the wheel tile (YOUR FIVE ENERGIES), right of the wheel-view switch | 2026-10-22 |
 | SC5 | A · 9:16 only: the card is 306 × 544 and exports at 1080 × 1920 | 2026-10-22 |
 | SC6 | A · the tray as it ships: Instagram, TikTok, X, Save, Copy link | 2026-10-22 |
 
 Built straight into elementum.life. Switch: `SC_LIVE` in `src/liveFlags.js` (off restores card 8's two buttons and the A1 card). Code: `FirstReading` takes `door` (`MergedViews.jsx`, `.mg-dist` in `merged.css`); the card is `.share-card[data-var="naming"]` in `JourneyStage.jsx` with its styles in `merged.css`; the wheel tile's `.mg-wshare` button opens it.
+
+The tray's Instagram, TikTok and X marks are the platforms' own glyphs (`IgGlyph`, `TtGlyph`, `XGlyph`, unchanged); the proposal page's "Ig / Tt / X" discs were mockup placeholders only.
 
 Found and fixed while building: exported share cards lost every element sign. html-to-image copies a sprite symbol into the image only when the `<use>` names it through `xlink:href`, and the app writes `href`. The card's dots now set both (`UseX`). The A1 card had the same gap. `cardExport.js` now takes an optional `pixelRatio`, so the 306px card reaches the 1080-wide story canvas; other callers keep the default.
 

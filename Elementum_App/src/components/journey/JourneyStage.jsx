@@ -1617,23 +1617,36 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
             <button className="scclose" aria-label="Close" onClick={() => setShowShare(false)}><Use id="ico-close" /></button>
             {SC_LIVE ? (
             <div className="share-card" data-var="naming" ref={cardRef}>
-              {/* The Naming made portable (owner 2026-10-22, DES_15 SC3 A): its ground,
-                  its plate, the name, the manifesto, the five dots and the inscription. */}
-              <img className="sn-bgt" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
-              <img className="sn-bgb" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
-              <span className="sn-fog" /><span className="sn-veil" />
-              <span className="sn-inscr">{m.stemLit} · {m.cast.replace(/^CAST FROM /, '')}</span>
+              {/* The share card (owner 2026-10-22/23, DES_15 SC3): the first card's
+                  layout on the mist veil, then the core, the condition and the five
+                  energies in the ribbon's groups. The dots use UseX so the exported
+                  image keeps the element signs. */}
+              <img className="sn-bg" src="/backgrounds/bg-reveal-04-mist-veil.png" alt="" />
               <div className="scin">
                 <div className="scey">ELEMENTUM</div>
-                <span className="sn-ey">YOU ARE</span>
                 <img className="sn-plate" src={paintSrc} alt={`${m.stem}, ${m.archetype}`} />
-                <div className="sn-name">{m.archetype}</div>
-                <p className="sn-man">{m.manifesto}</p>
-                <div className="sn-dist">
-                  {rvlOrder.map((r) => (
-                    <span key={r.el}>
-                      <InkDot el={r.el} size={Math.round(24 + 26 * (r.presence / rvlMax))} Use={UseX} label={`${r.name} ${r.presence} percent`} />
-                      <small>{r.presence}%</small>{r.name}
+                <div className="sn-name">You are {m.archetype}.</div>
+                <p className="sn-who">{merged?.who || m.manifesto}</p>
+                <div className="sn-core">
+                  <UseX id={`el-${m.core.el}`} className="sn-cmk" />
+                  <span><b>{m.core.name}</b> is your core</span>
+                  <span className="role-pill cond"><UseX id={condIcon} />{m.condition}</span>
+                </div>
+                <div className="sn-groups">
+                  {(merged && !merged.balanced
+                    ? [{ k: 'rel', label: 'Release', els: merged.ease }, { k: 'gro', label: 'Grow', els: merged.seek }]
+                    : [{ k: 'keep', label: merged ? 'Keep' : 'Your five energies', els: rvlOrder.map((r) => r.el) }]
+                  ).map((gr) => (
+                    <span key={gr.k} className={`sn-grp ${gr.k}`}>
+                      <span className="sn-gl">{gr.label}</span>
+                      <span className="sn-gd">
+                        {gr.els.map((el) => { const r = m.byEl[el]; return (
+                          <span key={el}>
+                            <InkDot el={el} size={Math.round(22 + 22 * (r.presence / rvlMax))} Use={UseX} label={`${r.name} ${r.presence} percent`} />
+                            <small>{r.presence}%</small>{r.name}
+                          </span>
+                        ); })}
+                      </span>
                     </span>
                   ))}
                 </div>
