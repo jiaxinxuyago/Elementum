@@ -1,7 +1,7 @@
 # BIZ_06 · Community Traction Plan
 
 **Born:** 2026-10-23, strategy session, on the owner's question "how do we get traction, set up a community and get users". Ruled the same day: C1 A, C2 A, C3 A, C4 A.
-**Owner from 2026-10-23:** the dedicated marketing session (strategies, content, progress tracking). The strategy session keeps `BIZ_05` (launch plan, infra, billing).
+**Owner from 2026-10-23:** the dedicated marketing session, session_01JGiv7YVayvtv8qWChNB3w6 (strategies, content, progress tracking). The strategy session keeps `BIZ_05` (launch plan, infra, billing).
 **Companions:** `BIZ_05` (launch plan, gates §5.4, rulings), `BIZ_03` (audience and tone), `BIZ_04` (friction framing), `REA_16` (the voice), `Reading/Database/Prompts/07_REFERENCE_BENCHMARKS.md` (The Pattern benchmark), `INF_02` §3 (analytics events).
 
 ---
