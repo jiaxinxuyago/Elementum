@@ -24,10 +24,21 @@ Owner 2026-10-22: "Backlog this item after the design polish is fully done, and 
 
 ## STRAT — launch strategy
 
-### STRAT-1 · The launch plan 🔄 RULED 2026-10-22, BUILDING
+### STRAT-1 · The launch plan ⏸ PAUSED 2026-10-23 BY THE OWNER (backlog below)
 Record: `Operations/Business/BIZ_05_Launch_Strategy.md`; report with the rulings: https://claude.ai/artifact/WU74C1XQ1bD6QBUHCoFrSB. The stage is a feature-rich private alpha with no market evidence. The proposal: freeze new sections, ship the freeze list F1 to F10 (about two weeks), then 30 to 50 strangers through the reveal, with the gates in BIZ_05 §5.4 deciding the public launch. Key finding: Paddle bans horoscope products, so the merchant-of-record route is Stripe Managed Payments (S7). Once ruled, INFRA-2, INFRA-3, INFRA-5 and HK-10 are scheduled from the plan. Strategy session: session_019UR4wQXx6NmFH7gv99Zf7U.
 - **2026-10-22, round 2:** the owner handed this session the open items (measurement, the safety net, billing, engine accuracy, the ruling bottleneck). New rulings E1–E3 (engine, with chart counts), G1 (the deploy gate, patch ready, all checks green), D1–D3 (one ruling day, delegation, a 7-day default); S3 now recommends the July first-party analytics. Owner steps in `Operations/Infrastructure/INF_02_Launch_Runbook.md` §1. Code waits on the rulings and the owner's go.
 - **Ruled 2026-10-22:** S1 B (the section rulings close first, then the freeze), every other S row A, S3 = the July first-party analytics, E1 A, E2 A, E3 A (= S13 A), D1–D3 A. Progress table: `BIZ_05` §8.1.
+
+- **Backlog at the pause (2026-10-23), resume in this order:**
+  1. Redeploy `elementum-llm` (L1 A settings committed; task card "Redeploy the Elementum AI consultant worker") and set the Anthropic console limit to at least $150 (HK-3).
+  2. One real test purchase with the 100%-off coupon on a monthly link: checkout → webhook → unlock → portal.
+  3. The test sign-up: confirmation email from `hello@mail.elementum.life`; check Supabase Auth → URL Configuration (Site URL `https://elementum.life`).
+  4. Part C: duplicate the $9 Founding link with a 300 limit, swap the URL in `src/infra/links.js`, deactivate the old link (`INF_02` §1.8).
+  5. The upgrade sheet offers the four subscription links (design director; note in `ComparativeAnalysis/Handoffs/2026-10-22-engine-accuracy/NOTICE.md`).
+  6. Optional: Gmail "Send mail as" support@ (`INF_02` §1.1); the analyst routine's Cloudflare read token (`INF_02` §1.9 step 3); Sentry for the Workers (§1.10 step 3).
+  7. Soon: Stripe Managed Payments application, the CPA hour, Google brand verification (`INF_02` §1.5–1.7).
+  8. Before the first public post: Supabase Pro, the backup revival (HK-10), a delete-account button.
+  9. The freeze waits on the section rulings (S1 B); then F1–F10 and the stranger test (S2).
 
 ## INFRA — trigger-gated
 
