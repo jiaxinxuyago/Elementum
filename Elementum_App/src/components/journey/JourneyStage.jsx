@@ -1644,6 +1644,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                           <span key={el}>
                             <InkDot el={el} size={Math.round(22 + 22 * (r.presence / rvlMax))} Use={UseX} label={`${r.name} ${r.presence} percent`} />
                             <small>{r.presence}%</small>{r.name}
+                            {merged?.rows?.[el]?.fn ? <em>{merged.rows[el].fn}</em> : null}
                           </span>
                         ); })}
                       </span>

@@ -180,5 +180,9 @@
 .jny .share-card[data-var="naming"] .sn-gd{ display:flex; align-items:flex-end; gap:9px; }
 .jny .share-card[data-var="naming"] .sn-gd > span{ display:flex; flex-direction:column; align-items:center; gap:3px; font-family:Cinzel,Georgia,serif; font-size:7.5px; letter-spacing:1px; text-transform:uppercase; color:var(--inkSoft); }
 .jny .share-card[data-var="naming"] .sn-gd small{ font-family:'EB Garamond',Georgia,serif; font-size:11px; letter-spacing:0; text-transform:none; color:var(--ink); }
+/* FN1 A (owner 2026-10-25): the function noun under each name */
+.jny .share-card[data-var="naming"] .sn-gd em{ font-style:normal; font-family:'Cormorant Garamond',Georgia,serif; font-size:12.5px; font-weight:600; letter-spacing:0; text-transform:none; color:var(--ink); line-height:1; }
+.jny .share-card[data-var="naming"] .sn-gd > span{ gap:2px; }
+.jny .share-card[data-var="naming"] .sn-gd .v5-dot{ margin-bottom:3px; }
 .jny .share-card[data-var="naming"] .sn-foot{ margin-top:auto; font-family:Cinzel,Georgia,serif; font-size:8.5px; letter-spacing:3px; text-transform:uppercase; color:var(--bronzeDark); }
 .jny .share-card[data-var="naming"] .scey,.jny .share-card[data-var="naming"] .sn-foot,.jny .share-card[data-var="naming"] .sn-gl{ white-space:nowrap; }

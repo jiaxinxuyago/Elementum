@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Day Master Lines</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="What the share card should say about the Day Master: the forms that work on a shared card, what the corpus already holds, and the rewrites, with 庚 The Blade as the worked example.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:wght@500;600&family=EB+Garamond:wght@400;500;600;700&display=swap">
+<style>
+:root{--paper:#F1E9D6;--cream:#FAF6EE;--ink:#2B2722;--inkSoft:#4A433B;--inkLight:#7A7066;--bronze:#6B5339;--hair:#CDBE9E;--up:#4A7A52;--down:#A85C48;--night:#1C1814}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--paper:#1C1814;--cream:#26221D;--ink:#F3EDDF;--inkSoft:#D9D0C0;--inkLight:#A89E8E;--bronze:#C9A86A;--hair:#4A4034}}
+:root[data-theme="dark"]{--paper:#1C1814;--cream:#26221D;--ink:#F3EDDF;--inkSoft:#D9D0C0;--inkLight:#A89E8E;--bronze:#C9A86A;--hair:#4A4034}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'EB Garamond',Georgia,serif;font-size:16.5px;line-height:1.5;padding:28px 16px 140px}
+main{max-width:880px;margin:0 auto}
+.vk{font-family:Cinzel,Georgia,serif;font-size:10px;letter-spacing:2.6px;text-transform:uppercase;color:var(--bronze)}
+h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:40px;line-height:1.05;margin:6px 0 10px}
+h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:27px;margin:34px 0 8px}
+h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:20px;margin:18px 0 4px}
+p{margin:0 0 10px;color:var(--inkSoft);max-width:72ch}
+.card{background:var(--cream);border:1px solid var(--hair);border-radius:16px;padding:16px 18px;margin:12px 0}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-top:1px solid var(--hair)}
+th{font-family:Cinzel,Georgia,serif;font-size:10px;letter-spacing:1.4px;color:var(--bronze);font-weight:500;text-transform:uppercase}
+.scroll{overflow-x:auto;background:var(--cream);border:1px solid var(--hair);border-radius:12px}
+.scroll table{min-width:620px}
+q{quotes:"“" "”";font-family:'Cormorant Garamond',Georgia,serif;font-size:19px;font-weight:500;color:var(--ink)}
+.line{display:flex;flex-direction:column;gap:2px;padding:9px 0;border-top:1px dashed var(--hair)}
+.line:first-of-type{border-top:0}
+.line .src{font-family:Cinzel,Georgia,serif;font-size:9px;letter-spacing:1.6px;text-transform:uppercase;color:var(--inkLight)}
+.line .src.new{color:var(--down)}
+.line .src.corpus{color:var(--up)}
+.rec{display:inline-block;font-family:Cinzel,Georgia,serif;font-size:9px;letter-spacing:1.4px;text-transform:uppercase;color:var(--up);margin-left:8px}
+.good{color:var(--up)} .risk{color:var(--down)}
+code{font-family:ui-monospace,Consolas,monospace;font-size:12.5px;color:var(--inkLight)}
+.mock{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;max-width:300px;margin:12px auto;padding:18px 16px;border:1px solid var(--hair);border-radius:14px;background:linear-gradient(180deg,#F5EEDE,#ECE2C9);color:#2B2722}
+.mock .n{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:600;line-height:1.1}
+.mock .c{font-family:'EB Garamond',Georgia,serif;font-size:14.5px;line-height:1.4;color:#4A433B;max-width:27ch}
+.mock .k{font-family:Cinzel,Georgia,serif;font-size:9px;letter-spacing:2.4px;text-transform:uppercase;color:#6B5339}
+.mock .f{font-family:Cinzel,Georgia,serif;font-size:8px;letter-spacing:2px;text-transform:uppercase;color:#7A7066;margin-top:4px}
+.opts{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.opt{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;text-align:left;border:1px solid var(--hair);background:var(--cream);border-radius:12px;padding:10px 12px;cursor:pointer;font:inherit;color:inherit;font-size:15px;line-height:1.4}
+.opt b{font-family:Cinzel,Georgia,serif;font-size:13px;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;border:1px solid var(--hair)}
+.opt[aria-pressed="true"]{border-color:var(--ink);background:var(--paper)}
+.opt[aria-pressed="true"] b{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--cream);border-top:1px solid var(--hair);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px))}
+.tray .in{max-width:880px;margin:0 auto;display:flex;gap:10px;align-items:center}
+.tray code{flex:1;min-width:0;font-family:'EB Garamond',Georgia,serif;font-size:15px;font-weight:600;color:var(--ink);white-space:nowrap;overflow-x:auto;padding:6px 0}
+.tray button{flex:none;border:0;border-radius:999px;background:var(--ink);color:var(--paper);font:inherit;font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:9px 14px;cursor:pointer}
+.tray .msg{font-size:12px;color:var(--up)}
+</style></head><body><main>
+<span class="vk">DM · Elementum design pass</span>
+<h1>What the card should say about the Day Master</h1>
+<p>The share card is read by two people: the owner of the chart, who wants to feel recognised, and a stranger in a feed, who has three seconds and no frame. The line under the name has to do both jobs. Today it carries the who line (“You are the Blade, the Metal that has already been through fire…”), which is a frame, not a trait. Below: what works on cards people actually share, what the station already holds for every stem, and the rewrites, with 庚 The Blade worked through.</p>
+
+<h2>1 · What travels on a shared card</h2>
+<div class="card">
+<p>The cards that get posted (the big personality tests, the astrology apps, the year-end wraps) share a grammar. A name. Two or three plain words. One sentence in the second person that is concrete enough to be checked against the person. And, the one that travels furthest, a line about how other people use you, because the audience is other people.</p>
+<ul style="margin:0;padding-left:18px;color:var(--inkSoft)">
+<li><b>Recognisable in three seconds.</b> A trait the reader can test against the person (“People come to you when they need the unsoftened truth”), not a metaphor that needs the app to decode (“Precision before intention”).</li>
+<li><b>Second person, concrete verbs.</b> “You say what others soften” beats “Direct”. Adjectives alone were retired from the plate in September as generic, and that ruling still reads right: three words fit any of ten people.</li>
+<li><b>One cost line earns trust.</b> A trait with its price (“…then quietly pay for being the one who did”) reads as true; pure praise reads as a horoscope.</li>
+<li><b>A social line is the share hook.</b> “People come to you for X” is the sentence a friend screenshots back. Half the station’s claim pairs already are one.</li>
+<li><b>No invented metrics.</b> There is no honest number for a stem; the five shares already are the card’s numbers. A “directness 87%” meter would be decoration.</li>
+</ul>
+</div>
+
+<h2>2 · What the station already holds for 庚</h2>
+<div class="scroll"><table>
+<tr><th>Field</th><th>The Blade</th><th>Status · fit for the card</th></tr>
+<tr><td>Manifesto L2 (identity formula)</td><td>You are the Metal that cuts things clean.</td><td>Locked ×10. A metaphor; on the album hero already.</td></tr>
+<tr><td>Manifesto L1</td><td>Precision before intention <span class="risk">→ ruled 2026-10-14 to become two or three plain adjectives (“Honest, exact, decisive”); the station still carries the old form</span></td><td>Re-cut pending in the Day Master session’s batch.</td></tr>
+<tr><td>Inscription</td><td>You say what others soften, then quietly pay for being the one who did.</td><td class="good">Locked ×10. A trait and its cost in one line. Off the plate since August; unused anywhere live.</td></tr>
+<tr><td>DM claims ×2</td><td>Being vague feels worse to you than being wrong. · People come to you when they need the unsoftened truth.</td><td class="good">Drafted ×10, 10–16 words each, “pending” in the voice registry. Never rendered.</td></tr>
+<tr><td>Who line</td><td>You are the Blade, the Metal that has already been through fire. You are kept plain and kept sharp, and you come out only for the true thing.</td><td>Draft 2026-10-18 for card 1; on the share card today. A frame, 31 words.</td></tr>
+<tr><td>Nature portrait</td><td>You put the truth ahead of your own comfort, and usually ahead of your own company…</td><td>Band-varying, 30–55 words. Too long for a card.</td></tr>
+<tr><td>Stem keywords ×3</td><td>Direct · Decisive · Sharp</td><td class="risk">Retired everywhere 2026-09-10 (“too arbitrary and generic”).</td></tr>
+<tr><td>Ore</td><td>Evaluative · Uncompromising · Precision-first… / The Imperial Executioner / “The Blade is the ancient cutting force of Metal.”</td><td>Mining material only.</td></tr>
+</table></div>
+<p style="margin-top:10px">So the two best forms for a card already exist for all ten stems and have never been shown: the <b>inscription</b> and the <b>claim pair</b>. Neither needs new writing to ship; the claims need their lock.</p>
+
+<h2>3 · The forms, ranked</h2>
+
+<h3>R1 · The claim pair <span class="rec">Recommended</span></h3>
+<p>Two sentences under the name: one about the person, one about how others use them. The second is the share hook. From <code>STEM.dm_claims</code>, ×10 drafted.</p>
+<div class="mock"><span class="n">You are The Blade.</span><span class="c">Being vague feels worse to you than being wrong.</span><span class="c">People come to you when they need the unsoftened truth.</span><span class="f">庚 · Yang Metal</span></div>
+<div class="card">
+<div class="line"><span class="src corpus">甲 The Oak · corpus</span><q>You would rather stand alone upright than bend to belong. People lean on the structure you build without noticing it is yours.</q></div>
+<div class="line"><span class="src corpus">乙 The Vine · corpus</span><q>You bend where others break, and arrive intact. You find the one opening in a wall and grow through it.</q></div>
+<div class="line"><span class="src corpus">丙 The Sun · corpus</span><q>You give warmth before you are asked, and rarely count the cost. A room reads its mood from you before you say a word.</q></div>
+<div class="line"><span class="src corpus">丁 The Candle · corpus</span><q>You keep a small, exact flame the wind has never found. You would rather light one person truly than a crowd dimly.</q></div>
+<div class="line"><span class="src corpus">戊 The Mountain · corpus</span><q>You become the ground others stand on without being asked. When plans wobble, yours is the version everyone quietly adopts.</q></div>
+<div class="line"><span class="src corpus">己 The Field · corpus</span><q>You make things grow by tending, not by forcing. People feel steadier after time with you and cannot say why.</q></div>
+<div class="line"><span class="src corpus">庚 The Blade · corpus</span><q>Being vague feels worse to you than being wrong. People come to you when they need the unsoftened truth.</q></div>
+<div class="line"><span class="src corpus">辛 The Jewel · corpus · one dash to cut</span><q>You notice the flaw everyone else has agreed to overlook. Precision is how you show care, even when it reads as cool.</q></div>
+<div class="line"><span class="src corpus">壬 The Ocean · corpus</span><q>You see the whole current while others watch the wave. You move around obstacles rather than through them, and still arrive first.</q></div>
+<div class="line"><span class="src corpus">癸 The Rain · corpus</span><q>You read the room a beat before it reveals itself. You reach people through the small, quiet door, not the loud one.</q></div>
+</div>
+<p>Two of the ten pairs put the social line first (乙, 壬 have none; 甲, 丙, 己, 戊, 庚, 癸 have one). If the card wants the social line always second, 乙 and 壬 need one each: see the rewrites below.</p>
+
+<h3>R2 · The inscription</h3>
+<p>One line: the trait and what it costs. Already locked for all ten; the most human of the forms and the one with a cost in it. From <code>STEM.inscription</code>.</p>
+<div class="mock"><span class="n">You are The Blade.</span><span class="c">You say what others soften, then quietly pay for being the one who did.</span><span class="f">庚 · Yang Metal</span></div>
+<div class="card">
+<div class="line"><span class="src corpus">甲</span><q>You grow toward a light you can’t prove yet, and never stop to rest under it.</q></div>
+<div class="line"><span class="src corpus">乙</span><q>You find a way around what stops other people, and they call it luck.</q></div>
+<div class="line"><span class="src corpus">丙</span><q>You warm whoever stands near you, and run on warmth nobody returns.</q></div>
+<div class="line"><span class="src corpus">丁</span><q>What you turn toward gets all of you, and everything else waits in the dark.</q></div>
+<div class="line"><span class="src corpus">戊</span><q>You hold what others set down, and nothing has ever offered to hold you.</q></div>
+<div class="line"><span class="src corpus">己</span><q>Everything you tend grows, and the harvest goes home in other people’s hands.</q></div>
+<div class="line"><span class="src corpus">庚</span><q>You say what others soften, then quietly pay for being the one who did.</q></div>
+<div class="line"><span class="src corpus">辛</span><q>You hold your work to a standard nobody set, and it never says finished.</q></div>
+<div class="line"><span class="src corpus">壬</span><q>You understand more than you can explain, and live with the distance that leaves.</q></div>
+<div class="line"><span class="src corpus">癸</span><q>You soak up what everyone around you feels, then wonder which of it is yours.</q></div>
+</div>
+
+<h3>R3 · Keywords over a claim</h3>
+<p>The re-cut manifesto L1 (two or three plain adjectives, ruled 2026-10-14) as a carved line, with the social claim under it. Fastest to scan; the adjectives are the weakest part, which is why the chips were retired once. Keep only if the owner wants words on the card at all.</p>
+<div class="mock"><span class="n">You are The Blade.</span><span class="k">Honest · Exact · Decisive</span><span class="c">People come to you when they need the unsoftened truth.</span><span class="f">庚 · Yang Metal</span></div>
+
+<h3>R4 · Three facets (new writing)</h3>
+<p>Three verb phrases, one each for what you do, how you decide, what it costs. Reads like a signature; needs new lines for all ten and the Day Master session’s pass. Drafted for three stems to show the shape.</p>
+<div class="mock"><span class="n">You are The Blade.</span><span class="c">Says the thing. Decides once. Pays for it quietly.</span><span class="f">庚 · Yang Metal</span></div>
+<div class="card">
+<div class="line"><span class="src new">庚 · new</span><q>Says the thing. Decides once. Pays for it quietly.</q></div>
+<div class="line"><span class="src new">乙 · new</span><q>Finds the gap. Bends, not breaks. Gets there anyway.</q></div>
+<div class="line"><span class="src new">丙 · new</span><q>Warms the room. Gives first. Rarely counts the cost.</q></div>
+</div>
+
+<h3>Not recommended · a metric</h3>
+<p>A stem has no honest number. The condition (Overfueled) and the five shares are the card’s measurements already, and they are the chart’s, not the stem’s.</p>
+
+<h2>4 · The rewrites</h2>
+<p>Under R1 the card needs nothing new for eight stems. Two pairs lack a social line; and the 辛 pair carries a dash the voice law bans. The lines below are proposals for the Day Master session to adopt into <code>STEM.dm_claims</code>; they follow the claim law (10 to 16 words, second person, no absolutes, no dash, mechanism not virtue).</p>
+<div class="card">
+<div class="line"><span class="src new">乙 The Vine · second claim, social</span><q>People watch you get through and call it luck. It was the route.</q><span class="src">replaces “You find the one opening in a wall and grow through it.” (kept as the first claim’s alternate)</span></div>
+<div class="line"><span class="src new">壬 The Ocean · second claim, social</span><q>People bring you the problem nobody else could see the whole of.</q><span class="src">replaces “You move around obstacles rather than through them, and still arrive first.”</span></div>
+<div class="line"><span class="src new">辛 The Jewel · second claim, dash removed</span><q>Precision is how you show care, even when it reads as cool.</q><span class="src">same words, the dash becomes a comma</span></div>
+</div>
+<p>If R2 is chosen, nothing is written: the ten inscriptions are locked. If R4 is chosen, seven more stems need their three facets and the Day Master session should cut them from each stem’s claims and inscription, as the three above were.</p>
+
+<h2>5 · Where it sits on the card</h2>
+<p>The line replaces the who line under “You are The Blade.”; the plate, the core capsule, the five energies with their functions (FN1 A, building now) and the foot stay. Two 14px lines (R1) or one (R2) are shorter than today’s five, which gives the energies more room.</p>
+
+<h2>Ruling</h2>
+<div id="rows"></div>
+</main>
+<script>
+const ROWS = [
+  ['DM1', 'The Day Master line on the card', 'What sits under “You are The Blade.” in place of the who line.', ['R1 · The claim pair: one line about you, one about how people use you', 'R2 · The inscription: the trait and its cost, one line', 'R3 · Keywords over the social claim', 'R4 · Three facets, new writing for all ten']],
+  ['DM2', 'The rewrites', 'Whether the three proposed claim lines go to the Day Master session.', ['Yes, as proposed (乙 and 壬 social lines, 辛 comma)', 'Only the 辛 comma; keep 乙 and 壬 as they stand', 'No new lines']],
+];
+const L = 'ABCD';
+let pick = {};
+try { pick = JSON.parse(localStorage.getItem('elementum-rulings-dm') || '{}') || {}; } catch (e) { pick = {}; }
+const rows = document.getElementById('rows');
+rows.innerHTML = ROWS.map(([c, t, why, opts]) => `<div class="card"><div style="display:flex;gap:10px;align-items:baseline"><span class="vk">${c}</span><h3 style="margin:0">${t}</h3></div><p style="margin:6px 0 0">${why}</p><div class="opts">${opts.map((o, i) => `<button type="button" class="opt" data-row="${c}" data-opt="${L[i]}" aria-pressed="${pick[c] === L[i]}"><b>${L[i]}</b><span>${o}${i === 0 ? '<span class="rec">Recommended</span>' : ''}</span></button>`).join('')}</div></div>`).join('');
+document.body.insertAdjacentHTML('beforeend', '<div class="tray"><div class="in"><code id="codes">No rows ruled yet</code><span class="msg" id="msg" aria-live="polite"></span><button id="copy" type="button">Copy</button></div></div>');
+const codes = document.getElementById('codes');
+const render = () => { const s = ROWS.filter(([c]) => pick[c]).map(([c]) => `${c} ${pick[c]}`).join(', '); codes.textContent = s || 'No rows ruled yet'; };
+rows.addEventListener('click', (e) => { const b = e.target.closest('.opt'); if (!b) return; pick[b.dataset.row] = b.dataset.opt; b.parentElement.querySelectorAll('.opt').forEach((x) => x.setAttribute('aria-pressed', x === b)); try { localStorage.setItem('elementum-rulings-dm', JSON.stringify(pick)); } catch (err) { /* storage may be off */ } render(); });
+document.getElementById('copy').addEventListener('click', () => { const msg = document.getElementById('msg'); navigator.clipboard.writeText(codes.textContent).then(() => { msg.textContent = 'Copied'; setTimeout(() => (msg.textContent = ''), 1500); }).catch(() => { msg.textContent = codes.textContent; }); });
+render();
+</script>
+</body></html>
