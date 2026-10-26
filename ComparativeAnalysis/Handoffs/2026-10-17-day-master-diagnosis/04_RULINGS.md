@@ -123,3 +123,21 @@ The older `Design/Source/icons.svg` (placeholder Yin stems) is no longer used. S
 **Finding:** the run and the heavy-in function move together. Overfueled charts are heavy in Body or Mind, and Underfueled charts in Expression, Action or Order. Five pairs cover 89% of 4,000 charts, at 16–20% each. So the mode is the heavy-in function: 5 modes × 10 archetypes = 50 types ("You are the Deep Blade"). The mode words are working names.
 
 **Rows M1–M7** (awaiting): the type, the card layout, the code chips, ties, the circle, the album hero, the mode words. The T1–T7 rows of pass 1 are superseded.
+
+### Pass 3 (2026-10-26)
+
+The owner kept Card 1 and asked for two changes:
+- show Run and Mode with clearer icons the app already has;
+- name the type in the plainest words, with no adjective before the archetype ("bad for archetype categorization and viral trending").
+
+What changed, on the same page (version 3):
+- **The type name** is "The Blade · Mind mode". The archetype is never renamed. 10 × 5 = 50 types.
+- **The four chips:**
+  - Archetype: the painted seal.
+  - Run: the album's run dial, from the `Dial` component, with the needle at the score.
+  - Mode: the ink dot of the energy held most, named by its function.
+  - Needs: the ink dot of the start element.
+- **The plain line** is built from the locked wheel words: "Mind mode. Most of your chart feeds you, and it holds little of the Fire you need."
+- **The grid tags** read "your mode" and "you need". Card 2 is dropped.
+
+**Rows M1–M6** (awaiting): the name, the chips, the plain line, ties, the circle, the album hero.
