@@ -39,7 +39,7 @@ export const EJ_LIVE = true;
 
 // Card 8 and the share card (owner rulings 2026-10-22, DES_15 SC1 A · SC2 A ·
 // SC3 A · SC4 C · SC5 A · SC6 A): card 8 is the door alone (where to begin, one
-// button); the share card is the Naming made portable and lives on the album,
+// button); the share card is the first card on the mist veil with the core line and the Release/Grow groups (SC3 revised 2026-10-23, FN1 2026-10-25) and lives on the album,
 // opened from the wheel tile. Turn off to restore card 8's two buttons and the
 // A1 "tiles" card.
 export const SC_LIVE = true;

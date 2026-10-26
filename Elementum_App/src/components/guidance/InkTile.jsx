@@ -9,7 +9,7 @@
 //   • variant="featured" — the full-width Elemental Draw card (96px,
 //       54px badge, mono eyebrow row + 23px title + an arrow action link).
 //   • variant="grid"     — the 2×2 feature tiles (128px, 40px badge top-left,
-//       tier eyebrow top-right, 18px title + italic subtitle).
+//       tier eyebrow top-right, 18px title + upright subtitle).
 //
 // `tint` is the element pigment as an "r,g,b" triplet; the alpha variants
 // are composed from it to the exact ladder in the design markup.
