@@ -108,3 +108,18 @@ The owner asked for a shareable archetype that works like MBTI: holistic, built 
 - T5, the circle.
 - T6, what the share image carries.
 - T7, park the 26 October opening-line proposal (OL) until the structure is ruled.
+
+### Pass 2 (2026-10-26, owner: "B is a good basket of data types … use our current iconography and design assets")
+
+Option B redrawn with the live assets only:
+- the painted stem plates `concept-arts/stems/proc/*`;
+- the ink dots `concept-arts/dots/*`;
+- the ReadingSprite signs (`el-*`, `ic-charged/receptive/balanced`, `fn-*`, `ar-up/down`);
+- the Release and Grow pills;
+- the mist veil from today's share card.
+
+The older `Design/Source/icons.svg` (placeholder Yin stems) is no longer used. Same page: https://claude.ai/artifact/BZXjPUyqXC5gQE4onUYrFG (version 2).
+
+**Finding:** the run and the heavy-in function move together. Overfueled charts are heavy in Body or Mind, and Underfueled charts in Expression, Action or Order. Five pairs cover 89% of 4,000 charts, at 16–20% each. So the mode is the heavy-in function: 5 modes × 10 archetypes = 50 types ("You are the Deep Blade"). The mode words are working names.
+
+**Rows M1–M7** (awaiting): the type, the card layout, the code chips, ties, the circle, the album hero, the mode words. The T1–T7 rows of pass 1 are superseded.
