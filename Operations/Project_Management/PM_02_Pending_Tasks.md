@@ -124,6 +124,7 @@ Open:
 - polish each page;
 - the 14 merged-journey drafts (only the golden chart is written; the other charts fall back);
 - the remaining 29 band paragraphs;
+- the Day Master opening line (album hero + share card, 2026-10-26): proposal https://claude.ai/artifact/A23E1m8RQLJ9f3ZY8cUqhN, awaiting the owner (OL1–OL3, 甲–癸);
 
 ## GO-LIVE — dev-only on purpose; each goes live on elementum.life the day it is done (owner 2026-10-21: "backlog these items and build them into official link until they are completed")
 

@@ -62,3 +62,22 @@ Owner: "can we also push this to our official live link: elementum.life?" The me
 
 - The merged-journey drafts in the station (14 fields after the relation labels were locked).
 - Finessing each page.
+
+## The opening line (2026-10-26, from the design session's brief; AWAITING THE OWNER)
+
+The owner asked, relayed by the design-director session, for a better Day Master opening line: the first thing on the album hero and on the share card, remembered, revealing, emotionally resonant. Proposal page: https://claude.ai/artifact/A23E1m8RQLJ9f3ZY8cUqhN. Candidates: `06_OPENING_LINE_CANDIDATES.json`.
+
+- **OL1:** how the line works. A (recommended) is one line in two places. The hero L1 becomes the tell, a short second-person line, with the locked L2 identity formula under it. The card carries the same tell, finished with one beat of cost or of how people meet it.
+- **OL2:** the law changes OL1 A needs. L1 becomes a second-person sentence of at most 7 words, and the couplet cap rises from 14 to 18 words. A new field, `STEM.card_line`, holds a sentence of at most 60 characters that opens with L1. This would supersede the 2026-10-14 L1-as-adjectives ruling.
+- **OL3:** the design session's DM2. A (recommended) fixes only the 辛 claim dash. The 乙 and 壬 social rewrites are not needed once the card reads `card_line`.
+- **甲–癸:** two candidates per stem, plus C (keep what is live).
+
+All candidates were checked: L1 has 4–7 words and no element name; each card line is at most 60 characters; there are no dashes, absolutes or hedges; no four-word run repeats across stems. The backbone verbs and the Angle Map costs are kept.
+
+**On a ruling:**
+1. Station `STEM.manifesto` L1 ×10 and the new `STEM.card_line` ×10.
+2. The REA_16 §2c registry rows and the field card.
+3. Transcribe to `src/content`.
+4. Replace `SHARE_CLAIM_PICK` in `JourneyStage.jsx` with the card line.
+5. The pipeline, push, and verify on both sites.
+6. Tell the design session.

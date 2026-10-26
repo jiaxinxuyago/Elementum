@@ -1,0 +1,152 @@
+{
+ "甲": {
+  "name": "The Oak",
+  "l2": "You are the Wood that rises before the path is clear.",
+  "A": [
+   "You start before you are ready.",
+   "You start before you are ready, and others follow."
+  ],
+  "B": [
+   "You move before the path is there.",
+   "You move before the path is there, and it forms behind you."
+  ],
+  "curL1": "Motion before readiness",
+  "card": "People lean on the structure you build without noticing it is yours.",
+  "ins": "You grow toward a light you can't prove yet, and never stop to rest under it."
+ },
+ "乙": {
+  "name": "The Vine",
+  "l2": "You are the Wood that gets there anyway.",
+  "A": [
+   "You find the way around.",
+   "You find the way around, and people call it luck."
+  ],
+  "B": [
+   "You get there the long way.",
+   "You get there the long way, and the climb goes unseen."
+  ],
+  "curL1": "Route bends. Destination holds.",
+  "card": "You bend where others break, and arrive intact.",
+  "ins": "You find a way around what stops other people, and they call it luck."
+ },
+ "丙": {
+  "name": "The Sun",
+  "l2": "You are the Fire that gives light before anyone asks.",
+  "A": [
+   "You warm people before they ask.",
+   "You warm people before they ask, and rarely warm yourself."
+  ],
+  "B": [
+   "People brighten when you arrive.",
+   "People brighten when you arrive, and feel it when you go."
+  ],
+  "curL1": "Warmth without permission",
+  "card": "A room reads its mood from you before you say a word.",
+  "ins": "You warm whoever stands near you, and run on warmth nobody returns."
+ },
+ "丁": {
+  "name": "The Candle",
+  "l2": "You are the Fire that burns closest, not widest.",
+  "A": [
+   "You give one thing all of you.",
+   "You give one thing all of you, and the rest goes dark."
+  ],
+  "B": [
+   "You light one person fully.",
+   "You light one person fully, and they remember it for years."
+  ],
+  "curL1": "Intimacy over range",
+  "card": "You would rather light one person truly than a crowd dimly.",
+  "ins": "What you turn toward gets all of you, and everything else waits in the dark."
+ },
+ "戊": {
+  "name": "The Mountain",
+  "l2": "You are the Earth others use to find their footing.",
+  "A": [
+   "People lean on you without asking.",
+   "People lean on you without asking, and you let them."
+  ],
+  "B": [
+   "You hold what others set down.",
+   "You hold what others set down, and few think to hold you."
+  ],
+  "curL1": "Immovable by design",
+  "card": "When plans wobble, yours is the version everyone quietly adopts.",
+  "ins": "You hold what others set down, and nothing has ever offered to hold you."
+ },
+ "己": {
+  "name": "The Field",
+  "l2": "You are the Earth that turns what it holds into growth.",
+  "A": [
+   "What you tend grows.",
+   "What you tend grows, and others carry the harvest home."
+  ],
+  "B": [
+   "People feel steadier near you.",
+   "People feel steadier near you and cannot say why."
+  ],
+  "curL1": "Nourish without credit",
+  "card": "People feel steadier after time with you and cannot say why.",
+  "ins": "Everything you tend grows, and the harvest goes home in other people's hands."
+ },
+ "庚": {
+  "name": "The Blade",
+  "l2": "You are the Metal that cuts things clean.",
+  "A": [
+   "You say what others soften.",
+   "You say what others soften, and pay for it alone."
+  ],
+  "B": [
+   "You say the thing out loud.",
+   "You say the thing out loud, then stand alone with it."
+  ],
+  "curL1": "Precision before intention",
+  "card": "People come to you when they need the unsoftened truth.",
+  "ins": "You say what others soften, then quietly pay for being the one who did."
+ },
+ "辛": {
+  "name": "The Jewel",
+  "l2": "You are the Metal that refines until nothing extra remains.",
+  "A": [
+   "You notice the flaw first.",
+   "You notice the flaw first, and your own before anyone's."
+  ],
+  "B": [
+   "You polish what others would ship.",
+   "You polish what others would ship, and call it a draft."
+  ],
+  "curL1": "Refinement over output",
+  "card": "You notice the flaw everyone else has agreed to overlook.",
+  "ins": "You hold your work to a standard nobody set, and it never says finished."
+ },
+ "壬": {
+  "name": "The Ocean",
+  "l2": "You are the Water that keeps moving without losing its depth.",
+  "A": [
+   "You see the whole current.",
+   "You see the whole current, and keep most of it to yourself."
+  ],
+  "B": [
+   "You carry more than you show.",
+   "You carry more than you show, and it reads as distance."
+  ],
+  "curL1": "Depth before disclosure",
+  "card": "You see the whole current while others watch the wave.",
+  "ins": "You understand more than you can explain, and live with the distance that leaves."
+ },
+ "癸": {
+  "name": "The Rain",
+  "l2": "You are the Water that quietly changes whatever it touches.",
+  "A": [
+   "You feel it before they say it.",
+   "You feel it before they say it, then carry it home."
+  ],
+  "B": [
+   "You soak in what others feel.",
+   "You soak in what others feel, then wonder which is yours."
+  ],
+  "curL1": "Felt before spoken",
+  "card": "You reach people through the small, quiet door, not the loud one.",
+  "ins": "You soak up what everyone around you feels, then wonder which of it is yours."
+ }
+}
