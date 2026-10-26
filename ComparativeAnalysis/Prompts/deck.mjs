@@ -1,7 +1,7 @@
 // THE DECK BUILDER (first cut, 2026-10-01): a shuffled, sealed questionnaire deck from one handoff round: original vs the candidates (value and value_b), one question per field. Generalise the paths into arguments before the next round.
 import fs from 'node:fs';
 import path from 'node:path';
-const ROOT = '/home/user/Elementum/';
+import { ROOT } from './lib.mjs';
 const CAND = ROOT + 'ComparativeAnalysis/Prompts/out/handoff/2026-10-01-geng-golden-v07/fable-v07/';
 const ORIG = ROOT + 'ComparativeAnalysis/Handoffs/2026-10-01-geng-golden-v07/benchmark/';
 const OUT = ROOT + 'ComparativeAnalysis/Evaluations/handoff-geng-golden-2026-10-01/owner-read/';

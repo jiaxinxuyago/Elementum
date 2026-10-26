@@ -115,12 +115,12 @@ Status: ✅ taught · ⚠ used-untaught · ◐ partial. *(Concept definitions: R
 
 | # | Violation | Where | Fix |
 |---|---|---|---|
-| V1 | Engine translations ("Seven Killings"…) render on raw-chart per-pillar tags | `RawChartPage.jsx` ← `calculator.js` `en:` names | Map to persona names + 汉字 gloss at render |
-| V3 | DevBar stem shorthand ("Lamp", "Mtn", "River") | `DevBar.jsx` | Dev-only; align (Candle, Mountain, Ocean) — low priority |
+| V1 (closed 2026-10-26: `RawChartPage.jsx` gone from `src/`) | Engine translations ("Seven Killings"…) render on raw-chart per-pillar tags | `RawChartPage.jsx` ← `calculator.js` `en:` names | Map to persona names + 汉字 gloss at render |
+| V3 (closed 2026-10-26: DevBar already uses Candle/Mountain/Ocean) | DevBar stem shorthand ("Lamp", "Mtn", "River") | `DevBar.jsx` | Dev-only; align (Candle, Mountain, Ocean) — low priority |
 | V4 | Profile DB god names (Flow/Trial/Root…) contradict the persona set | `Reading/Database/elementum_profile_database.html` | Annotate DB header: names superseded per REA_02 §2; definitions remain canonical |
 | V5 | Condition terms surfaced without definition | re-audit post-journey (folio deflines may have resolved) | Charter a definition moment if still live |
 | V6 | 正印 card missing from Profile DB body | `Reading/Database/elementum_profile_database.html` | Backfill The Sage before content reconstruction |
-| V7 | `CodexScreen.jsx:46-52` surfaces raw `dm.strength` ("Yang Metal, strong.") | carried from the retired Identity_Vocabulary §7 | Replace with §5c locked terms + definition lines |
+| V7 | `CodexScreen.jsx:46-52` (`src/components/dashboard/CodexScreen.jsx:49–52`) surfaces raw `dm.strength` ("Yang Metal, strong.") | carried from the retired Identity_Vocabulary §7 | Replace with §5c locked terms + definition lines |
 
 ---
 

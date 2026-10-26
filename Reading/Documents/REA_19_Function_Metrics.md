@@ -45,7 +45,7 @@ The steps are a ruled table, not a formula: they can be moved by the owner witho
 
 **v0.2:** the measure panel is static. Nothing on it is tappable; the bars, the labels and the style ends are the whole surface.
 
-The bars sit between the definition and the chips on the function detail page: label on the left, a five-segment track on the right; a trait bar fills its level, a style bar marks its position with its two ends printed beneath. Collapsed at rest; a tap opens the bar's line. On the friction pole the filled segments take the friction tint, so the page's pole shows at a glance.
+The bars sit between the definition and the chips on the function detail page: label on the left, a five-segment track on the right; a trait bar fills its level, a style bar marks its position with its two ends printed beneath. Collapsed at rest; the panel is static (v0.2). On the friction pole the filled segments take the friction tint, so the page's pole shows at a glance.
 
 ## §6 · What is open
 

@@ -2,7 +2,7 @@
 // Synthesize the owner's 54 picks into filled skeletons for a north-star station.
 import fs from 'node:fs';
 import path from 'node:path';
-const ROOT = '/home/user/Elementum/';
+import { ROOT } from './lib.mjs';
 const S = ROOT + 'Reading/Database/templates/by_axis/json/';
 const E = ROOT + 'ComparativeAnalysis/Evaluations/handoff-geng-golden-2026-09-23/owner-read/';
 const BLIND = ROOT + 'ComparativeAnalysis/Prompts/out/handoff/2026-09-23-geng-golden-blind/codex-blind/';
