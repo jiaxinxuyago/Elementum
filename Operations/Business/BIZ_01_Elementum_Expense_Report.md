@@ -55,7 +55,7 @@
 
 **Phase B (native app, whenever):** + Apple Developer **$99/yr** (~$8/mo) + Apple/Google take **15–30% of in-app revenue** (vs Stripe's ~3%; 15% at our size via the Small Business Program) — the single biggest cost event on the roadmap; tracked in INF_01 §4.2a. **Enrollment STARTED 2026-07:** Organization under Lantern Digital (owner-locked); the free D-U-N-S was secured 2026-07-09 (**14-193-9711**); the $99 remains deliberately deferred until Phase B is scheduled (membership year starts at purchase).
 
-**Post-beta compliance (at real revenue):** Merchant-of-Record option (Paddle/Lemon Squeezy) trades ~+2–5% per sale for offloading global VAT/sales-tax — decision parked in INF_01 §9.
+**Post-beta compliance (at real revenue):** Merchant-of-Record option (Paddle/Lemon Squeezy) trades ~+2–5% per sale for offloading global VAT/sales-tax — ruled S7 A 2026-10-22: Stripe Managed Payments (`INF_02` §1.5–1.6).
 
 ---
 

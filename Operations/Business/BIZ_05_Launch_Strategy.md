@@ -48,7 +48,7 @@ Risks
 - No error monitoring beyond a React ErrorBoundary. A crash on a stranger's phone is invisible.
 - Customer-data backup is disabled (PM_02 HK-10) and, when on, it runs from the owner's laptop (Windows Task Scheduler). Supabase Free has no daily backups.
 - No account deletion path found in `src/` (needed for GDPR and app-store rules).
-- Code health is acceptable for the stage but carries debt: `App.jsx` 881 lines, deferred lint items (PM_02 HK-5, HK-6), and the Day Log has no entry since 2026-09-30 (`PM_03`), so the project record has drifted for three weeks.
+- Code health is acceptable for the stage but carries debt: `App.jsx` 889 lines, deferred lint items (PM_02 HK-5, HK-6), and the Day Log has no entry since 2026-09-30 (`PM_03`), so the project record has drifted for three weeks.
 
 ### 2.3 Operations
 

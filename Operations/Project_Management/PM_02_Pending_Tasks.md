@@ -105,7 +105,7 @@ Session "Elementum Life Chapters reading content" (session_01LKbtNcH4nTofFBwRv1H
 - **Section audit (2026-10-21):** report https://claude.ai/artifact/FkWXmmASh6EeMP9N4YR3cc. 40 TWEAKs are done. Waiting on the owner: M1–M9 (M1 is the calculator's luck-pillar start, wrong by ten years for backward births from 6 January to 3 February) and one MINOR polish round. Mean B is 3.13, so the section is not frozen.
 - **Next:**
   - Your Almanac's Year page reads the shared year lines (L9 A; note in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/04_FROM_LIFE_CHAPTERS.md`);
-  - retire the `DecadePage.jsx` and `LifeChaptersDetail.jsx` routes (A4). The round-1 path went on 2026-10-21.
+  - retire the `DecadePage.jsx` route (A4). The round-1 path went on 2026-10-21.
 
 ## DM — the Day Master diagnosis and the merged "Your reading" (owner 2026-10-17 →)
 
@@ -192,7 +192,7 @@ Therapist/psychic register: analytical personality truth + ONE tendency-framed p
 | HK-2 | Account hygiene: add company email to Supabase org + Google Cloud IAM (per the ownership map's dual-identity pattern) |
 | HK-3 | Anthropic console: workspace spend limit for the elementum-llm key (console-enforced cap independent of the worker kill-switch) |
 | HK-4 | One-time check: elementum.life auto-renew enabled in Cloudflare Registrar |
-| HK-5 | Deferred code items: App.jsx size split (906 ln) · ~20 unused engine exports · push-worker per-sub JWT reuse · batchGenerate .js→.mjs |
+| HK-5 | Deferred code items: App.jsx size split (889 ln) · ~20 unused engine exports · push-worker per-sub JWT reuse · batchGenerate .js→.mjs |
 | HK-6 | `DEV_05` Tier-D deferred backlog: reuse extraction (BackBar/SectionCard/PigmentBadge + hooks) + 3 strict-lint react-hooks items |
 | HK-7 | Design-system owner rulings parked for the design-library rebuild: radius scale · InkTile alpha · UpgradeModal palette · un-tokenized grays (`DES_13`) |
 | HK-8 | Optional: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` (stops Windows fighting dev .ps1 tooling) |
