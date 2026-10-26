@@ -61,6 +61,7 @@ function MetricBars({ m }) {
   );
 }
 import { APP_URL, APP_HOST } from '../../infra/index.js';
+import { DM_READING } from '../../content/reading/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
 import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading } from './MergedViews.jsx';
 import { MERGE_V1 } from './mergeFlag.js';
@@ -122,6 +123,10 @@ const Use = ({ id, className }) => (
 const UseX = ({ id, className }) => (
   <svg className={className} viewBox="0 0 24 24"><use href={U(id)} xlinkHref={U(id)} /></svg>
 );
+// The share card's Day Master line: which of the stem's two claims is the
+// social one (how people use you). Claim 2 for most stems; 乙 and 壬 have no
+// social claim yet and 辛's second carries a dash, so those take claim 1.
+const SHARE_CLAIM_PICK = { '乙': 0, '壬': 0, '辛': 0 };
 const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
 );
@@ -1626,7 +1631,11 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 <div className="scey">ELEMENTUM</div>
                 <img className="sn-plate" src={paintSrc} alt={`${m.stem}, ${m.archetype}`} />
                 <div className="sn-name">You are {m.archetype}.</div>
-                <p className="sn-who">{merged?.who || m.manifesto}</p>
+                {/* The identity zone (owner 2026-10-26, DES_15 DM1 E1): the Day
+                    Master's social claim, the one about how people use you. The
+                    claim pairs are the station's dm_claims (pending lock); the
+                    pick per stem is the card's own until the pairs are re-cut. */}
+                <p className="sn-claim">{(DM_READING[m.stem]?.claims || [])[SHARE_CLAIM_PICK[m.stem] ?? 1] || merged?.who || m.manifesto}</p>
                 <div className="sn-core">
                   <UseX id={`el-${m.core.el}`} className="sn-cmk" />
                   <span><b>{m.core.name}</b> is your core</span>
@@ -1638,7 +1647,8 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     : [{ k: 'keep', label: merged ? 'Keep' : 'Your five energies', els: rvlOrder.map((r) => r.el) }]
                   ).map((gr) => (
                     <span key={gr.k} className={`sn-grp ${gr.k}`}>
-                      <span className="sn-gl">{gr.label}</span>
+                      <span className="sn-gh"><span className="sn-gl">{gr.label}</span>
+                        {gr.k === 'rel' ? <span className="role-pill fric"><UseX id="ar-down" />Friction</span> : gr.k === 'gro' ? <span className="role-pill cat"><UseX id="ar-up" />Catalyst</span> : null}</span>
                       <span className="sn-gd">
                         {gr.els.map((el) => { const r = m.byEl[el]; return (
                           <span key={el}>
