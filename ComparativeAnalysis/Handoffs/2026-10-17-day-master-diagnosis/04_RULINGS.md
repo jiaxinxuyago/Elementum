@@ -81,3 +81,30 @@ All candidates were checked: L1 has 4–7 words and no element name; each card l
 4. Replace `SHARE_CLAIM_PICK` in `JourneyStage.jsx` with the card line.
 5. The pipeline, push, and verify on both sites.
 6. Tell the design session.
+
+## The Elementum Type, structure pass (2026-10-26; AWAITING THE OWNER, T1–T7)
+
+The owner asked for a shareable archetype that works like MBTI: holistic, built from the five-energy distribution and its functions, starting from the Day Master (their example: 喜火多木的庚金), with catalyst and friction readable at the surface, viral, and leading into the in-depth reading. Structure first, words after. Proposal: https://claude.ai/artifact/BZXjPUyqXC5gQE4onUYrFG
+
+**The slots, all computed by the engine today:**
+- **Core:** the stem.
+- **Run:** Over / Under / Balanced, with the 7-test score.
+- **Heavy in (多):** the top share and its function.
+- **Hungry for (喜):** the start element.
+- **Circle:** Fuel = the cores of the hungry element; Bond = the 五合 partner; Mirror = the same core.
+
+**Data (4,000 random charts):**
+- Heavy in spreads evenly across the five functions (19–23% each), and it is a friction in 92% of charts.
+- Run: Under 53%, Over 42%, Balanced 5%.
+- Hungry for follows from the core and run: Over starts with the Order energy, Under with the Mind energy.
+- That gives about 100 common types, plus up to 50 rarer Balanced ones.
+- Ties in Heavy in come up in 1.4% of charts, the golden chart among them (Earth 33 = Wood 33).
+
+**Rows:**
+- T1, the structure: the Type Line / Archetype + Mode / the Recipe.
+- T2, the code.
+- T3, the Run on the card.
+- T4, ties.
+- T5, the circle.
+- T6, what the share image carries.
+- T7, park the 26 October opening-line proposal (OL) until the structure is ruled.
