@@ -1622,49 +1622,54 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
             <button className="scclose" aria-label="Close" onClick={() => setShowShare(false)}><Use id="ico-close" /></button>
             {SC_LIVE ? (
             <div className="share-card" data-var="naming" ref={cardRef}>
-              {/* The share card (owner 2026-10-22/23, DES_15 SC3): the first card's
-                  layout on the mist veil, then the core, the condition and the five
-                  energies in the ribbon's groups. The dots use UseX so the exported
-                  image keeps the element signs. */}
+              {/* The share card (owner 2026-10-26, DES_15 AL: L3's column and side
+                  inscription above, L2's panel below). The identity sits in a left
+                  column on the mist veil with the Naming's inscription at the right;
+                  the chart block (the core capsule, Release and Grow, the five on one
+                  grid with their functions) sits on a paper panel anchored low. The
+                  dots use UseX so the exported image keeps the element signs. */}
               <img className="sn-bg" src="/backgrounds/bg-reveal-04-mist-veil.png" alt="" />
+              <span className="sn-inscr">{m.stemLit} · {m.cast.replace(/^CAST FROM /, '')}</span>
               <div className="scin">
-                <div className="scey">ELEMENTUM</div>
-                <img className="sn-plate" src={paintSrc} alt={`${m.stem}, ${m.archetype}`} />
-                <div className="sn-name">You are {m.archetype}.</div>
-                {/* The identity zone (owner 2026-10-26, DES_15 DM1 E1): the Day
-                    Master's social claim, the one about how people use you. The
-                    claim pairs are the station's dm_claims (pending lock); the
-                    pick per stem is the card's own until the pairs are re-cut. */}
-                <p className="sn-claim">{(DM_READING[m.stem]?.claims || [])[SHARE_CLAIM_PICK[m.stem] ?? 1] || merged?.who || m.manifesto}</p>
-                <div className="sn-core">
-                  <UseX id={`el-${m.core.el}`} className="sn-cmk" />
-                  <span><b>{m.core.name}</b> is your core</span>
-                  <span className="role-pill cond"><UseX id={condIcon} />{m.condition}</span>
+                <div className="sn-top">
+                  <div className="scey">ELEMENTUM</div>
+                  <img className="sn-plate" src={paintSrc} alt={`${m.stem}, ${m.archetype}`} />
+                  <div className="sn-name">You are {m.archetype}.</div>
+                  <p className="sn-claim">{(DM_READING[m.stem]?.claims || [])[SHARE_CLAIM_PICK[m.stem] ?? 1] || merged?.who || m.manifesto}</p>
                 </div>
-                <div className="sn-groups">
-                  {(merged && !merged.balanced
-                    ? [{ k: 'rel', label: 'Release', els: merged.ease }, { k: 'gro', label: 'Grow', els: merged.seek }]
-                    : [{ k: 'keep', label: merged ? 'Keep' : 'Your five energies', els: rvlOrder.map((r) => r.el) }]
-                  ).map((gr) => (
-                    <span key={gr.k} className={`sn-grp ${gr.k}`}>
-                      {/* The action pair (REA_02 §5c, owner 2026-10-18; card G2, owner 2026-10-26):
-                          one pill per group in the role's colour, the verb alone. */}
-                      {gr.k === 'rel' ? <span className="role-pill fric sn-gpill"><UseX id="ar-down" />{gr.label}</span>
-                        : gr.k === 'gro' ? <span className="role-pill cat sn-gpill"><UseX id="ar-up" />{gr.label}</span>
-                        : <span className="sn-gl">{gr.label}</span>}
-                      <span className="sn-gd">
-                        {gr.els.map((el) => { const r = m.byEl[el]; return (
-                          <span key={el}>
-                            <InkDot el={el} size={Math.round(22 + 22 * (r.presence / rvlMax))} Use={UseX} label={`${r.name} ${r.presence} percent`} />
+                <div className="sn-panel">
+                  <div className="sn-core">
+                    <UseX id={`el-${m.core.el}`} className="sn-cmk" />
+                    <span><b>{m.core.name}</b> is your core</span>
+                    <span className="role-pill cond"><UseX id={condIcon} />{m.condition}</span>
+                  </div>
+                  {(() => {
+                    const grouped = merged && !merged.balanced;
+                    const els = grouped ? [...merged.ease, ...merged.seek] : rvlOrder.map((r) => r.el);
+                    const nRel = grouped ? merged.ease.length : 0;
+                    return (
+                      <div className="sn-grid" style={{ gridTemplateColumns: `repeat(${els.length}, 1fr)` }}>
+                        {grouped ? (
+                          <>
+                            <span className="sn-hdr" style={{ gridColumn: `1 / ${nRel + 1}` }}><span className="role-pill fric sn-gpill"><UseX id="ar-down" />Release</span></span>
+                            <span className="sn-hdr" style={{ gridColumn: `${nRel + 1} / ${els.length + 1}` }}><span className="role-pill cat sn-gpill"><UseX id="ar-up" />Grow</span></span>
+                            <span className="sn-sep" style={{ gridColumn: nRel + 1 }} />
+                          </>
+                        ) : (
+                          <span className="sn-hdr" style={{ gridColumn: `1 / ${els.length + 1}` }}><span className="sn-gl">{merged ? 'Keep' : 'Your five energies'}</span></span>
+                        )}
+                        {els.map((el) => { const r = m.byEl[el]; return (
+                          <span key={el} className="sn-cell">
+                            <span className="sn-well"><InkDot el={el} size={Math.round(22 + 22 * (r.presence / rvlMax))} Use={UseX} label={`${r.name} ${r.presence} percent`} /></span>
                             <small>{r.presence}%</small>{r.name}
                             {merged?.rows?.[el]?.fn ? <em>{merged.rows[el].fn}</em> : null}
                           </span>
                         ); })}
-                      </span>
-                    </span>
-                  ))}
+                      </div>
+                    );
+                  })()}
+                  <span className="sn-foot">{APP_HOST}</span>
                 </div>
-                <span className="sn-foot">{APP_HOST}</span>
               </div>
             </div>
             ) : (
