@@ -1647,8 +1647,11 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     : [{ k: 'keep', label: merged ? 'Keep' : 'Your five energies', els: rvlOrder.map((r) => r.el) }]
                   ).map((gr) => (
                     <span key={gr.k} className={`sn-grp ${gr.k}`}>
-                      <span className="sn-gh"><span className="sn-gl">{gr.label}</span>
-                        {gr.k === 'rel' ? <span className="role-pill fric"><UseX id="ar-down" />Friction</span> : gr.k === 'gro' ? <span className="role-pill cat"><UseX id="ar-up" />Catalyst</span> : null}</span>
+                      {/* The action pair (REA_02 §5c, owner 2026-10-18; card G2, owner 2026-10-26):
+                          one pill per group in the role's colour, the verb alone. */}
+                      {gr.k === 'rel' ? <span className="role-pill fric sn-gpill"><UseX id="ar-down" />{gr.label}</span>
+                        : gr.k === 'gro' ? <span className="role-pill cat sn-gpill"><UseX id="ar-up" />{gr.label}</span>
+                        : <span className="sn-gl">{gr.label}</span>}
                       <span className="sn-gd">
                         {gr.els.map((el) => { const r = m.byEl[el]; return (
                           <span key={el}>
