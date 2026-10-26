@@ -115,9 +115,9 @@ The "_Icon", "_Icons", "_icons", "Jewel_Icons", "Blade_Icon" PNG sets inside eac
 ## 5 · Mirroring status & gaps (the work this map exposes)
 
 **Currently mirrored into `Elementum_App/public/` (all the app can reach today):**
-- `concept-arts/library/` — **59 assets; the pool the code actually reads** (`src/styles/backgrounds.js:86` → `LIBRARY_DIR = '/concept-arts/library'`): `t_{el}_{n}_w.png` catalogue tiles, `t_{el}_{n}_p.png` portraits, `g_hero_{n}.png` generic heroes. ✓
+- `concept-arts/library/` — **74 assets; the pool the code actually reads** (`src/styles/backgrounds.js:86` → `LIBRARY_DIR = '/concept-arts/library'`): `t_{el}_{n}_w.png` catalogue tiles, `t_{el}_{n}_p.png` portraits, `g_hero_{n}.png` generic heroes. ✓
 - `concept-arts/atmospheric/` — both depth maps. ✓
-- `concept-arts/stems/` — all 10 raw stem paintings, plus `concept-arts/stems/proc/` — the 10 processed stem medallions (`{stem}-{element}.png`), read by `JourneyStage.jsx:273-274`. ✓
+- `concept-arts/stems/` — all 10 raw stem paintings, plus `concept-arts/stems/proc/` — the 10 processed stem medallions (`{stem}-{element}.png`), read by `JourneyStage.jsx` (`paintSrc`, the `stems/proc` medallion). ✓
 - `concept-arts/dots/` — the 5 per-element dot-ink marks (`dotf-{el}.png`). ✓
 - `Stem Thumbnail/` — **`Geng_TheBlade.png` only** (1 of 10 stems). ✗ 9 missing.
 - `backgrounds/` — 24 PNGs, but **only ~5 are finished painted art** (reveal · onboarding · energymap · reading rice-paper); **8 are "PLACEHOLDER" spec cards** that bleed text and are replaced by CSS gradients in `SCREEN_BG`.
