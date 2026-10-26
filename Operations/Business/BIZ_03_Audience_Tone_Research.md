@@ -134,5 +134,5 @@ Scored 1–5 against the evidence (P1/P2/P3 = persona fit):
 | | |
 |---|---|
 | **Document** | BIZ_03 — Audience & Tone Research |
-| **Version** | 1.0 · 2026-08-05 (research sweep + variants; §8 pending owner ruling) |
+| **Version** | 1.0 · 2026-08-05 (research sweep + variants; §8 ratified 2026-08-05) |
 | **Sources** | Time, LSN Global, DataInsights/Research&Markets/GlobalGrowthInsights market reports, Repeller (Co-Star writer profile), Pedestrian/Rolling Stone AU (Co-Star), Bustle/Buro/Aurae/Newsweek (The Pattern), LitHub/chani.com (CHANI), HerCampus/CrystalCrush (backlash), Wikipedia/NessLabs/DecisionLab (Barnum/Forer), Human Design app store copy, Cece analysis (internal, July 2026) |

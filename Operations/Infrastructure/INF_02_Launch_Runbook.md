@@ -93,7 +93,7 @@ A `check` script in `Elementum_App/package.json`, run by both deploy workflows b
 
 | Check | What it guards | Time |
 |---|---|---|
-| `eslint .` | syntax and hook errors (0 errors today, 62 warnings) | about 10 s |
+| `eslint .` | syntax and hook errors (0 errors today, 64 warnings) | about 10 s |
 | `tools/qa-engine-regression.mjs` | engine output against the blessed golden cases | under 1 s |
 | `tools/qa-pillar-crosscheck.mjs` | pillars against an independent derivation | under 1 s |
 | `tools/qa-depth-golden.mjs` | the in-depth layer | under 1 s |
