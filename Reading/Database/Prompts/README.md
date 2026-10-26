@@ -11,7 +11,7 @@ Prompts are tools, iterated and reused like code and data (owner 2026-09-21). Th
 | `04_READING_SYSTEM_PRIMER.md` | for a writer with zero background: the product, the reader, the natures, the functions, the personas, the reasoning chain, the golden chart worked, what is fixed and what is free |
 | `05_CLASSICAL_SOURCES.md` | the reasoning canon and only this canon: the texts, the ten equations, strength · band · valence · volume, the five excess sets, the ten portraits, the translation protocol |
 | `06_CAPS_BY_PAGE.md` | every field's word range (both ends hard) by surface, the Day Master page and the energy page |
-| `fields/<AXIS>/<field>.md` | one card per authored field (36 files): surface, register, person, budget, construct, reasoning chain, style, checks, exemplar, sources, harness key, iteration log |
+| `fields/<AXIS>/<field>.md` | one card per authored field (38 files): surface, register, person, budget, construct, reasoning chain, style, checks, exemplar, sources, harness key, iteration log |
 | `fields/_CARD_FORMAT.md` | the card format |
 
 Assembly rule (REA_16 §3, REA_17 §0): PROMPT = `00_MASTER_PROMPT.md` + the axis pack from `01_INPUT_PACK.md` filled from the station with the target redacted + the field card + the task line the harness writes. `node ComparativeAnalysis/Prompts/assemble.mjs <FIELD> <CELL> --print` shows the assembled prompt for any cell.

@@ -1518,14 +1518,14 @@ Palace/era/relations table and "palace decides WHEN, god decides WHAT" framing c
 | | |
 |---|---|
 | **Document** | REA_04 — Knowledge Pool |
-| **Last Updated** | 2026-04-10 |
-| **Version** | 1.3  ·  2026-09-15 (渊海子平 五行生克制化宜忌 added) |
+| **Last Updated** | 2026-10-26 |
+| **Version** | 1.5  ·  2026-09-15 (渊海子平 五行生克制化宜忌 added) |
 | **Status** | LIVING — grows additively; existing entries rarely change once verified |
 | **Audience** | Content creators, generation system (as reference library) |
 | **Purpose** | Complete source library for all Elementum archetype content. Classical BaZi texts, modern psychological frameworks, and resonance bridges. REA_05 tells you which sources to use for a given key; this document tells you what they are and what each produces. |
 | **Stability** | LOW for additions (grows frequently) · HIGH for existing entries (rarely changed) |
 | **Used by** | REA_05 (generation architecture imports from here) · batchGenerate.js (PSYCH_PROFILES and CLASSICAL_SOURCES constants) |
-| **Compatible with** | REA_01 v1.1 · REA_05 v2.0 · REA_03 v1.1 |
+| **Compatible with** | REA_01 v2.2 · REA_05 v2.0 · REA_03 v1.0 |
 
 ## Version History
 

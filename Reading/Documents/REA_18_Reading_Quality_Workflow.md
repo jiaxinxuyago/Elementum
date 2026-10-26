@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Version** | 0.2 · 2026-10-01 (after the pivot to tension-naming and the study of The Pattern as the benchmark: the pull axis re-anchored to psychological resonance, the north star re-read against the benchmark before Stage 2, the calibration round measuring resonance beside fit and accuracy; Stage 1 restarts at prompt v0.7, record `Reading/Database/Prompts/backlog/2026-10-01_prompt-v07-tension-naming.md`) · 0.1 · 2026-09-29 (the four-stage loop, the tiered selection, the calibration protocol, the harness backlog) |
+| **Version** | 0.3 · 2026-10-16 (after the pivot to tension-naming and the study of The Pattern as the benchmark: the pull axis re-anchored to psychological resonance, the north star re-read against the benchmark before Stage 2, the calibration round measuring resonance beside fit and accuracy; Stage 1 restarts at prompt v0.7, record `Reading/Database/Prompts/backlog/2026-10-01_prompt-v07-tension-naming.md`) · 0.1 · 2026-09-29 (the four-stage loop, the tiered selection, the calibration protocol, the harness backlog) |
 | **Owner touchpoints** | rulings by questionnaire, one field per message, never in bulk (REA_05 §1) |
 | **Never** | a field lands in the station without the owner's ruling and the pipeline · `export-reading-templates.mjs --harvest` · a candidate edited by hand in a rewrite station · similarity to the north star used as a score |
 
@@ -175,14 +175,14 @@ Two rules keep it honest. The scorer never sees the writers' names. The north st
 
 | Tool | Does | Status |
 |---|---|---|
-| `deck.mjs` | builds a shuffled, sealed questionnaire deck from any set of candidates; records picks and notes; the scratch `pick.mjs` promoted | to build |
+| `deck.mjs` | builds a shuffled, sealed questionnaire deck from any set of candidates; records picks and notes; the scratch `pick.mjs` promoted | built |
 | `agreement.mjs` | owner picks against scorer winners: same, split, different, none, per class | to build (logic exists in the 2026-09-29 results script) |
 | `score.mjs` | the three-axis read sheet per field for a reader session, output in the `report.mjs` schema | to build |
 | `triage.mjs` | the three tiers from `scores.json` and the gate, with reasons | to build |
 | `page-check.mjs` | the page-level checks of §6 | to build |
 | `handoff.mjs --scope` | a batch manifest (cells and states) instead of one chart | built 2026-10-14 (`node handoff.mjs --scope runs/batch-1-metal-core.json --pass blind`: one skeleton per ELEMENT_GOD cell and pole, one per ELEMENT_PAIR cell with every state it renders, no chart, no benchmark folder; batch 1 packaged as `ComparativeAnalysis/Handoffs/2026-10-14-batch-1-metal-core`, 25 skeletons, 253 fields) |
-| `handoff.mjs --pass targeted` | one named axis to beat per field, the sentence withheld | to build (Stage 1, 1j) |
-| `file-rewrites.mjs` | two candidates per field (`.a`, `.b`) | to extend |
+| `handoff.mjs --pass targeted` | one named axis to beat per field, the sentence withheld | built |
+| `file-rewrites.mjs` | two candidates per field (`.a`, `.b`) | built (`--candidate`) |
 | `adopt.mjs --batch` | adopt from a triage file, one provenance row per field | to extend |
 | `synth-picks.mjs` | rebuild a north star from a deck's picks (exists for the 2026-09-23 round) | generalise to any deck |
 
