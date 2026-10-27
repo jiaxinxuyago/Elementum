@@ -217,14 +217,15 @@ button.ty-cc{ cursor:pointer; }
 /* on the share card: a smaller plate, the chips and the circle fit the 9:16 frame */
 .jny .share-card[data-type="1"] .sn-plate{ width:84px; height:84px; }
 .jny .share-card[data-type="1"] .sn-name{ font-size:25px; }
-.jny .share-card[data-type="1"] .sn-claim{ font-size:14.5px; max-width:none; padding-right:12px; }
-.jny .share-card[data-type="1"] .ty-chips{ padding-right:12px; gap:4px; }
+.jny .share-card[data-type="1"] .sn-claim{ font-size:14.5px; max-width:none; padding-right:12px; text-wrap:balance; }
+.jny .share-card[data-type="1"] .ty-chips{ padding-right:0; gap:5px; }
+.jny .share-card[data-type="1"] .ty-chip small{ letter-spacing:1.1px; }
 .jny .share-card[data-type="1"] .ty-chip{ padding:5px 2px 6px; }
 .jny .share-card[data-type="1"] .ty-chip b{ font-size:12.5px; }
 .jny .share-card[data-type="1"] .ty-cv{ height:28px; } .jny .share-card[data-type="1"] .ty-cv img{ width:28px; height:28px; }
 .jny .share-card[data-type="1"] .ty-cv .mg-dial{ width:42px; }
 .jny .share-card[data-type="1"] .sn-panel{ gap:8px; }
-.jny .share-card[data-type="1"] .sn-tag{ margin-top:2px; padding-top:2px; border-top:1px solid var(--paperHair); font-style:normal; font-family:Cinzel,Georgia,serif; font-size:6px; letter-spacing:1px; color:var(--bronzeDark); white-space:nowrap; }
+.jny .share-card[data-type="1"] .sn-tag{ margin-top:2px; padding-top:2px; border-top:1px solid var(--paperHair); font-style:normal; font-family:Cinzel,Georgia,serif; font-size:7px; letter-spacing:1.1px; color:var(--bronzeDark); white-space:nowrap; }
 .jny .share-card[data-type="1"] .sn-tag.need{ color:var(--sealRed,#A3402E); border-color:var(--sealRed,#A3402E); }
 .jny .share-card[data-type="1"] .sn-tag.ghost{ border-color:transparent; }
 /* on the album hero */
@@ -259,3 +260,7 @@ button.ty-cc{ cursor:pointer; }
 .jny .dmp-claims{ margin:2px 0 0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-family:'EB Garamond',Georgia,serif; font-size:15.5px; line-height:1.45; color:var(--inkSoft); }
 .jny .dmp-tline{ margin:0; font-family:'Cormorant Garamond',Georgia,serif; font-size:17px; line-height:1.3; color:var(--ink); }
 .jny .dmp-doors{ display:flex; flex-direction:column; gap:4px; margin-top:2px; }
+
+/* polish (design session, 2026-10-27): the type card's inscription is the stem
+   line alone and sits in the top corner; the chips take the full width */
+.jny .share-card[data-type="1"] .sn-inscr{ top:20px; right:16px; }

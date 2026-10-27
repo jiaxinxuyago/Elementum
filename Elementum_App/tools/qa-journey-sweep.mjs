@@ -454,7 +454,11 @@ async function scenarioB(browser) {
 
   await step(page, 'B', '4b · V5 card reader: How am I running? reads to its last card', async () => {
     await toCatalogue();
-    const tile = page.locator('.jscreen[data-screen="catalogue"].active .v5-bento .v5-bt').first();
+    // Under the type (TYPE_V1, always on in the dev server) the Run tile steps
+    // down and the Run chip is the door (K1 A, 2026-10-27); otherwise the first
+    // bento tile is How am I running?.
+    const door = page.locator('.jscreen[data-screen="catalogue"].active .v5-hub .ty-chips .ty-chip.door', { hasText: 'Run' });
+    const tile = (await door.count()) ? door.first() : page.locator('.jscreen[data-screen="catalogue"].active .v5-bento .v5-bt').first();
     if (!(await tile.count())) return 'V5 off (no album) — skipped';
     await tile.click();
     await page.waitForSelector('.jscreen[data-screen="run"].active .lf-cards', { timeout: 8000 });

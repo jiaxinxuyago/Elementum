@@ -28,9 +28,12 @@ export function Dial({ score, condition }) {
   const arc = (t0, t1) => { const [x0, y0] = pt(t0); const [x1, y1] = pt(t1); return `M${x0.toFixed(1)} ${y0.toFixed(1)} A${r} ${r} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}`; };
   return (
     <svg className="mg-dial" viewBox="0 0 120 70" role="img" aria-label={`${condition}: ${s} of 7`}>
-      <path d={arc(0.01, 0.36)} className="z-u" /><path d={arc(0.4, 0.6)} className="z-b" /><path d={arc(0.64, 0.99)} className="z-o" />
-      <line x1={cx} y1={cy} x2={(cx + (r - 8) * Math.cos(a)).toFixed(1)} y2={(cy - (r - 8) * Math.sin(a)).toFixed(1)} className="needle" />
-      <circle cx={cx} cy={cy} r="3.5" className="hub" />
+      {/* Presentation attributes beside the classes: the card export (html-to-image)
+          drops the stylesheet's stroke rules on these paths, so the zones vanished
+          from the exported Run chip (design session, 2026-10-27). */}
+      <path d={arc(0.01, 0.36)} className="z-u" fill="none" stroke="#c9d8e6" strokeWidth="9" /><path d={arc(0.4, 0.6)} className="z-b" fill="none" stroke="#ddd2b8" strokeWidth="9" /><path d={arc(0.64, 0.99)} className="z-o" fill="none" stroke="#e8c7b9" strokeWidth="9" />
+      <line x1={cx} y1={cy} x2={(cx + (r - 8) * Math.cos(a)).toFixed(1)} y2={(cy - (r - 8) * Math.sin(a)).toFixed(1)} className="needle" stroke="#2b2722" strokeWidth="2.5" strokeLinecap="round" />
+      <circle cx={cx} cy={cy} r="3.5" className="hub" fill="#2b2722" />
     </svg>
   );
 }
