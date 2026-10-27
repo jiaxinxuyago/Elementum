@@ -66,3 +66,7 @@ Shared prompt prefix: the N1 prefix, with `{RATIO}` in place of "3:2 landscape" 
 1. Put the 30 files in `public/concept-arts/stems/dm/`. The frames on the Day Master page show them with no code change.
 2. Check all ten stems on dev with the Day Master page in one-page mode.
 3. The page goes live with TYPE_LIVE (PM_02 GO-2).
+
+## Test paintings (2026-10-27)
+
+The owner asked for real paintings in place of the tinted frames. A test of 庚 (D-geng-1, 2, 3) was painted with Figma's image generator, model gpt-image-2.5-sunburst. That model matched the house heroes; gemini-3.1-flash-image gave a flat pen sketch. The test is in `public/concept-arts/stems/dm/geng-d{1,2,3}.png`, cover-cropped to spec and palette-compressed under 300 KB. The Figma file is "Elementum · Day Master illustrations (D1–D3)". The prompt adds to the N1 prefix: "masterful … rich layered ink, dark confident strokes for the subject, pale washes and drifting mist, dry-brush texture … museum-quality".
