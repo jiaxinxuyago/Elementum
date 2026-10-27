@@ -110,7 +110,10 @@ export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIco
             <span className="v5-ey">What does my chart ask for?</span>
             <div className="v5-rx">
               <span className="v5-rxg"><span className="v5-rxl fric"><Use id="ar-down" />Release</span>{g.ease.map((el) => <button type="button" key={el} className="v5-rxb" onClick={() => onEnergy(el)} aria-label={`${g.rows[el].name}: open its sheet`}><InkDot el={el} size={30} Use={Use} /></button>)}</span>
-              <span className="v5-rxg"><span className="v5-rxl cat"><Use id="ar-up" />Grow</span>{g.seek.map((el) => <button type="button" key={el} className="v5-rxb" onClick={() => onEnergy(el)} aria-label={`${g.rows[el].name}: open its sheet`}><InkDot el={el} size={30} Use={Use} /></button>)}</span>
+              <span className="v5-rxg"><span className="v5-rxl cat"><Use id="ar-up" />Grow</span>{g.seek.map((el) => (typeOn && g.type?.need?.el === el
+                // N3 A (2026-10-27): the Needs chip is the door to the needed energy; its dot here is marked, not a second door
+                ? <span key={el} className="v5-rxb need" aria-label={`${g.rows[el].name}: the energy you need`}><InkDot el={el} size={30} Use={Use} /><small>Need</small></span>
+                : <button type="button" key={el} className="v5-rxb" onClick={() => onEnergy(el)} aria-label={`${g.rows[el].name}: open its sheet`}><InkDot el={el} size={30} Use={Use} /></button>))}</span>
             </div>
           </div>
         ) : null}

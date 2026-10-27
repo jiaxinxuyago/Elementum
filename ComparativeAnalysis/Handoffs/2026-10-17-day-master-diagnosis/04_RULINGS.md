@@ -342,3 +342,10 @@ Plus the 25 N1 pair paintings (already briefed) in the card 4 rows. Total: 30 ne
 - A4: quiet placeholder frames on dev now, which render the art by path once it lands.
 
 **Open (asked 2026-10-27):** a per-paragraph button to the energy page, and too many doors pointing at the same energy. See N1–N3.
+
+**Ruled 2026-10-27: N1 A, N2 A, N3 A.**
+- N1: the whole energy row on the Day Master page stays the one tap, with an arrow on its title line. No extra button.
+- N2: an energy tap opens the summary sheet on the album and the wheel, and the full energy page from the Day Master page and the energy pages. The deeper the page, the deeper the tap.
+- N3: the Needs chip is the album's door to the needed energy. Its dot in "What does my chart ask for?" carries a red "Need" mark and is no longer a tap target.
+
+Built on dev the same day, with the A4 frames: D1 `/concept-arts/stems/dm/{py}-d1.png` (16:9, card 2), D2 `-d2` (4:5, card 3), D3 `-d3` (1:1, card 5), and `/concept-arts/pairs/pair_{core}_{energy}.png` (3:2) under each energy title.

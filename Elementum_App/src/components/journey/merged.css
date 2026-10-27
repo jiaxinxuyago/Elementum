@@ -278,3 +278,12 @@ button.ty-cc{ cursor:pointer; }
 .jny .share-card[data-type="1"] .ty-cp img+img{ margin-left:-14px; }
 .jny .share-card[data-type="1"] .ty-cn{ font-size:13.5px; white-space:nowrap; }
 .jny .share-card[data-type="1"] .sn-foot{ margin-top:0; }
+/* The Day Master journey's art slots (A1–A4 A, 2026-10-27): the file by path
+   once it lands, a quiet frame until then. N1 A: the row's arrow. */
+.jny .dmp-art{ display:block; width:100%; margin:6px 0 8px; border-radius:10px; overflow:hidden; background:rgba(120,96,60,.05); }
+.jny .dmp-art img{ display:block; width:100%; height:100%; object-fit:cover; }
+.jny .dmp-art.miss{ display:flex; align-items:center; justify-content:center; border:1px dashed var(--paperHair); }
+.jny .dmp-artl{ font-family:Cinzel,Georgia,serif; font-size:8px; letter-spacing:1.6px; text-transform:uppercase; color:var(--inkLight); }
+.jny .dmp-ftx .dmp-art{ max-width:220px; margin:4px 0 4px; }
+.jny .dmp-go{ width:14px; height:14px; margin-left:auto; align-self:center; color:var(--bronzeDark); flex:none; }
+.jny .dmp-fey{ display:flex; align-items:center; gap:6px; }

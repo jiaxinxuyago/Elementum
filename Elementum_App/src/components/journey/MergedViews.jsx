@@ -47,6 +47,20 @@ const STEM_PY = { 甲: 'jia', 乙: 'yi', 丙: 'bing', 丁: 'ding', 戊: 'wu', �
 const STEM_ELK = { 甲: 'wood', 乙: 'wood', 丙: 'fire', 丁: 'fire', 戊: 'earth', 己: 'earth', 庚: 'metal', 辛: 'metal', 壬: 'water', 癸: 'water' };
 export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${STEM_ELK[stem]}.png`;
 
+// The Day Master journey's art slots (A1–A4 A, 2026-10-27): D1–D3 per stem and
+// the 25 pair paintings (N1 brief). Each renders its file by path once it lands
+// and is a quiet frame until then.
+const dmArt = (stem, n) => `/concept-arts/stems/dm/${STEM_PY[stem]}-d${n}.png`;
+const pairArt = (stem, el) => `/concept-arts/pairs/pair_${STEM_ELK[stem]}_${el}.png`;
+function ArtSlot({ src, ratio, label }) {
+  const [miss, setMiss] = useState(false);
+  return (
+    <span className={`dmp-art${miss ? ' miss' : ''}`} style={{ aspectRatio: ratio }}>
+      {miss ? <span className="dmp-artl">{label}</span> : <img src={src} alt="" loading="lazy" onError={() => setMiss(true)} />}
+    </span>
+  );
+}
+
 function TyChip({ k, cls = '', doors, stamp, children }) {
   return doors?.[k]
     ? <button type="button" className={`ty-chip door ${cls}`} onClick={doors[k]}>{stamp?.(k)}{children}</button>
@@ -87,11 +101,12 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         {m.manifesto ? <p className="dmp-mani">{m.manifesto}</p> : null}
       </div>
       {dm.overview ? (
-        <div className="cardstock dmp-sec"><span className="mg-lab">The sign</span><p className="dmp-body">{dm.overview}</p></div>
+        <div className="cardstock dmp-sec"><span className="mg-lab">The sign</span><ArtSlot src={dmArt(m.stem, 1)} ratio="16 / 9" label="D1 · the sign" /><p className="dmp-body">{dm.overview}</p></div>
       ) : null}
       {dm.nature || dm.inscription ? (
         <div className="cardstock dmp-sec">
           <span className="mg-lab">Your nature</span>
+          <ArtSlot src={dmArt(m.stem, 2)} ratio="4 / 5" label="D2 · your nature" />
           {/* the inscription opens the portrait (owner 2026-10-27: "What people notice is just an opener to Your Nature") */}
           {dm.inscription ? <p className="dmp-ins">{dm.inscription}</p> : null}
           {dm.nature ? <p className="dmp-body">{dm.nature}</p> : null}
@@ -114,13 +129,14 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
                     {f.cell ? (
                       // W1–W3 A: the function as the title, three chips in the Grow/Release colours, the paragraph
                       <span className="dmp-ftx">
-                        <span className="dmp-ftitle">{f.fn}<em>{f.name} · {f.presence}%</em><span className="dp-draft">draft</span></span>
+                        <span className="dmp-ftitle">{f.fn}<em>{f.name} · {f.presence}%</em><span className="dp-draft">draft</span><Use id="ico-arrow-r" className="dmp-go" /></span>
+                        <ArtSlot src={pairArt(m.stem, f.el)} ratio="3 / 2" label={`Pair · ${f.name}`} />
                         <span className="dmp-chips">{f.cell.adj.map((a) => <span key={a} className={`wd-adjchip${f.pole === 'friction' ? ' down' : ''}`}>{a}</span>)}</span>
                         <span className="dmp-fd">{f.cell.p}</span>
                       </span>
                     ) : (
                       <span className="dmp-ftx">
-                        <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}</span>
+                        <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}<Use id="ico-arrow-r" className="dmp-go" /></span>
                         <b>{f.phrase}</b>
                         <span className="dmp-fd">{f.desc}</span>
                       </span>
@@ -133,7 +149,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         </div>
       ) : null}
       {dm.edge ? (
-        <div className="cardstock dmp-sec"><span className="mg-lab">How your edge is built</span><p className="dmp-body">{dm.edge}</p></div>
+        <div className="cardstock dmp-sec"><span className="mg-lab">How your edge is built</span><ArtSlot src={dmArt(m.stem, 3)} ratio="1 / 1" label="D3 · your edge" /><p className="dmp-body">{dm.edge}</p></div>
       ) : null}
       {t ? (
         <div className="cardstock dmp-sec">

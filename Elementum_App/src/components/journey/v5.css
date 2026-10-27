@@ -150,3 +150,6 @@
 .jny .v5-cir .cp{ display:flex; } .jny .v5-cir .cp img{ width:38px; height:38px; object-fit:contain; } .jny .v5-cir .cp img+img{ margin-left:-10px; }
 .jny .v5-cir em{ font-style:normal; font-family:'Cormorant Garamond',Georgia,serif; font-size:14px; font-weight:600; color:var(--ink); }
 .jny .v5-circle .v5-ft{ width:100%; }
+/* N3 A (2026-10-27): the needed energy's dot is marked, the Needs chip is its door */
+.jny .v5-rxb.need{ display:inline-flex; flex-direction:column; align-items:center; gap:1px; cursor:default; border-radius:0; }
+.jny .v5-rxb.need small{ font-family:Cinzel,Georgia,serif; font-size:7px; letter-spacing:1.4px; text-transform:uppercase; color:var(--sealRed,#A3402E); }
