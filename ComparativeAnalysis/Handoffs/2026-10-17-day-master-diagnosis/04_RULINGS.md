@@ -296,3 +296,10 @@ The 庚 template is 10 cells: 5 functions × Grow/Release. Each cell has 2–3 a
   - W1: the layout (D / B / A / C);
   - W2: the manifesto rule;
   - W3: the chip colours.
+- **RULED 2026-10-27: W1 A, W2 A, W3 A.**
+  - Each energy row has the function noun as its title, three adjective chips, then the paragraph.
+  - No chip repeats a word from the stem's manifesto, so 庚 Action reads "Productive, focused, unrelenting".
+  - Chips are green on Grow and red on Release, in the energy pages' colours.
+  - Owner: the ink dots carry their element signs, as in the app's InkDot.
+
+  The template page was updated to this layout (https://claude.ai/artifact/BXa7pkD55Z44f3bJZ6h9v1). Still open: S1–S3 (the field shape, Balanced charts, the pools) and T Body…T Order (the ten 庚 cells).
