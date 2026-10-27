@@ -309,9 +309,11 @@ button.ty-cc{ cursor:pointer; }
 .jny .dmp-ink.edge{ align-self:flex-end; width:60%; aspect-ratio:1 / 1; object-fit:cover; margin:-18px -15px -14px 0; border-radius:0 0 16px 0;
   -webkit-mask-image:linear-gradient(to bottom,transparent 2%,#000 34%),linear-gradient(to right,transparent 2%,#000 36%); -webkit-mask-composite:source-in;
   mask-image:linear-gradient(to bottom,transparent 2%,#000 34%),linear-gradient(to right,transparent 2%,#000 36%); mask-composite:intersect; }
-/* The stage (owner 2026-10-27: no empty space over 40% of the screen): the
-   stem's ground painting along the foot of the Day Master screen, under the
-   cards. Short cards (1, 5, 6) stand on it; its top dissolves into the rice paper. */
-.jny .jscreen > .ground-img2.dmp-stage{ top:auto; bottom:0; height:auto; aspect-ratio:4 / 5; object-fit:cover; mix-blend-mode:multiply;
-  filter:brightness(1.12) contrast(1.12); opacity:.85;
-  -webkit-mask-image:linear-gradient(to bottom,transparent 28%,#000 62%); mask-image:linear-gradient(to bottom,transparent 28%,#000 62%); }
+/* The stage (owner 2026-10-27: no empty space over 40% of the screen; then
+   "too detailed, apply minimal shanshui", "take the background assets as the
+   direction"): the stem's minimal level-distance landscape along the foot of
+   the Day Master screen, toned like the house background plates (pale, warm,
+   mist) and dissolving upward into the rice paper. Short cards stand on it. */
+.jny .jscreen > .ground-img2.dmp-stage{ top:auto; bottom:0; left:-12%; width:124%; max-width:none; height:auto; aspect-ratio:4 / 5; object-fit:cover; object-position:center bottom;
+  mix-blend-mode:multiply; filter:sepia(.25) brightness(1.04); opacity:.9;
+  -webkit-mask-image:linear-gradient(to bottom,transparent 30%,#000 70%); mask-image:linear-gradient(to bottom,transparent 30%,#000 70%); }
