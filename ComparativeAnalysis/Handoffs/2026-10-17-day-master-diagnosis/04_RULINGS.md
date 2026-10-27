@@ -349,3 +349,11 @@ Plus the 25 N1 pair paintings (already briefed) in the card 4 rows. Total: 30 ne
 - N3: the Needs chip is the album's door to the needed energy. Its dot in "What does my chart ask for?" carries a red "Need" mark and is no longer a tap target.
 
 Built on dev the same day, with the A4 frames: D1 `/concept-arts/stems/dm/{py}-d1.png` (16:9, card 2), D2 `-d2` (4:5, card 3), D3 `-d3` (1:1, card 5), and `/concept-arts/pairs/pair_{core}_{energy}.png` (3:2) under each energy title.
+
+**Locked 2026-10-27 (owner: "this is a good direction, let's lock in this iteration"):** the painted Day Master page as of commit 9b50d175.
+- **The painting set:** 30 D1–D3 paintings at F2 xieyi.
+- **The placement:** each painting set into its card's paper (multiplied, masked edges). D1 bleeds off the top of The sign, D2 is a column the nature text flows around, and D3 closes the edge card.
+- **The stage:** one minimal shanshui stage per stem along the foot of the screen, toned like the house background plates.
+- **The layout rule:** no screen leaves more than 40% bare.
+
+Masters are in `Design/Assets/DayMaster/`. Next: card 4 illustrated (the pair paintings, at F2).
