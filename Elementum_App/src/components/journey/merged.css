@@ -225,7 +225,7 @@ button.ty-cc{ cursor:pointer; }
 .jny .share-card[data-type="1"] .ty-cv{ height:28px; } .jny .share-card[data-type="1"] .ty-cv img{ width:28px; height:28px; }
 .jny .share-card[data-type="1"] .ty-cv .mg-dial{ width:42px; }
 .jny .share-card[data-type="1"] .sn-panel{ gap:8px; }
-.jny .share-card[data-type="1"] .sn-tag{ margin-top:2px; padding-top:2px; border-top:1px solid var(--paperHair); font-style:normal; font-family:Cinzel,Georgia,serif; font-size:6.5px; letter-spacing:.7px; color:var(--bronzeDark); white-space:nowrap;  max-width:100%; overflow:hidden; text-overflow:clip; }
+.jny .share-card[data-type="1"] .sn-tag{ margin-top:2px; padding-top:2px; border-top:1px solid var(--paperHair); font-style:normal; font-family:Cinzel,Georgia,serif; font-size:6.5px; letter-spacing:.55px; color:var(--bronzeDark); white-space:nowrap; max-width:100%; overflow:hidden; text-overflow:clip; }
 .jny .share-card[data-type="1"] .sn-tag.need{ color:var(--sealRed,#A3402E); border-color:var(--sealRed,#A3402E); }
 .jny .share-card[data-type="1"] .sn-tag.ghost{ border-color:transparent; }
 /* on the album hero */
