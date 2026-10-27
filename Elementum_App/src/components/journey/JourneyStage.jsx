@@ -1679,7 +1679,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     const els = grouped ? [...merged.ease, ...merged.seek] : rvlOrder.map((r) => r.el);
                     const nRel = grouped ? merged.ease.length : 0;
                     return (
-                      <div className="sn-grid" style={{ gridTemplateColumns: `repeat(${els.length}, 1fr)` }}>
+                      <div className="sn-grid" style={{ gridTemplateColumns: `repeat(${els.length}, minmax(0, 1fr))` }}>
                         {grouped ? (
                           <>
                             <span className="sn-hdr" style={{ gridColumn: `1 / ${nRel + 1}` }}><span className="role-pill fric sn-gpill"><UseX id="ar-down" />Release</span></span>
@@ -1689,8 +1689,11 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                         ) : (
                           <span className="sn-hdr" style={{ gridColumn: `1 / ${els.length + 1}` }}><span className="sn-gl">{merged ? 'Keep' : 'Your five energies'}</span></span>
                         )}
-                        {els.map((el) => { const r = m.byEl[el]; return (
-                          <span key={el} className="sn-cell">
+                        {/* Each cell names its column: the hairline spans both rows in the
+                            split column, and auto-placement would skip past it into an
+                            implicit sixth track (design session, 2026-10-27). */}
+                        {els.map((el, i) => { const r = m.byEl[el]; return (
+                          <span key={el} className="sn-cell" style={{ gridColumn: i + 1 }}>
                             <span className="sn-well"><InkDot el={el} size={Math.round(22 + 22 * (r.presence / rvlMax))} Use={UseX} label={`${r.name} ${r.presence} percent`} /></span>
                             <small>{r.presence}%</small>{r.name}
                             {merged?.rows?.[el]?.fn ? <em>{merged.rows[el].fn}</em> : null}
