@@ -90,7 +90,7 @@ export const TYPE_LINE = {
   },
   // the album's Your circle tile (K4 A, 2026-10-27); balanced is a DRAFT, to rule
   circle: { head: '{Fuel} carry the {El} you need', balanced: '{Bond} is your classical match', cta: 'Who completes your chart?' },
-  // the Day Master page's five energies (2026-10-27): DRAFT, to rule
+  // the Day Master page's five energies (owner 2026-10-27, F1 A; the face by amount, F2 A)
   five: { lead: 'Each energy brings out a side of {the archetype}: a gift through the energies that grow you, a shadow through the ones to release.', balanced: 'Each energy brings out a side of {the archetype}, and in a balanced chart every side shows as a gift.' },
 };
 

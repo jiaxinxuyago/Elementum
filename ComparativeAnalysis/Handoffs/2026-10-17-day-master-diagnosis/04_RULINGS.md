@@ -270,3 +270,6 @@ Owner: "What People Notice is just an opener to Your Nature, and this reading pa
 **Golden chart:**
 - Release: Never reconsiders (Body, shadow) and Overprepared (Mind, shadow).
 - Grow: Crisis performer (Order, gift), Plays the long game (Action, gift) and No dressed-up answers (Expression, gift).
+
+### RULED 2026-10-27: F1 A, F2 A
+The lead line over the five energies (`tpl_type.five`) is RULED. The face follows the amount: Body and Mind take the big face when plentiful (F2 A, the September R1/R2 rule). Open: whether the faces should be picked from the energy pages' own keywords (the 17 October recap precedent) rather than the stem pools.
