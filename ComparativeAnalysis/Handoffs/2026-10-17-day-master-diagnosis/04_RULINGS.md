@@ -304,3 +304,33 @@ The 庚 template is 10 cells: 5 functions × Grow/Release. Each cell has 2–3 a
 
   The template page was updated to this layout (https://claude.ai/artifact/BXa7pkD55Z44f3bJZ6h9v1). Still open: S1–S3 (the field shape, Balanced charts, the pools) and T Body…T Order (the ten 庚 cells).
 - **Built on dev 2026-10-27 (owner: "show me how the day master reading page looks now with this implemented"):** `STEM.energy_faces` (station, 庚 DRAFT, the other nine null; REA_16 §2c row pending, chips and paragraph need their own bands before locking) is transcribed through `build-dm-pools.mjs` and code-mapped. The Day Master page renders the ruled layout from it, tagged draft. Stems without cells keep the gift or shadow face.
+
+## Illustrating the Day Master journey (2026-10-27; AWAITING THE OWNER, A1–A4)
+
+Owner: "if we want each page to be illustrated with more day master sign images, how do we curate this whole day master reading journey with all the vars ruled?" Plan page: https://claude.ai/artifact/QcQYeVQhrhpF6Ux7Srg19w
+
+**Today's art.** The painted seal is the only Day Master image, on cards 1 and 6. The ten library heroes are generic landscapes.
+
+**The plan.** Three new pictures per stem, each subject cut from that stem's locked text:
+
+| Image | Card | Subject from | Ratio |
+|---|---|---|---|
+| D1, the sign | 2 | dm_overview | 16:9 |
+| D2, your nature | 3 | inscription and portrait | 4:5 |
+| D3, your edge | 5 | dm_mechanism | 1:1 |
+
+Plus the 25 N1 pair paintings (already briefed) in the card 4 rows. Total: 30 new + 25 = 55, all in the N1 house spec.
+
+**Order of work:**
+1. Rule S1–S3 and T.
+2. Write the 90 energy_faces cells.
+3. Write the D1–D3 brief.
+4. The owner paints.
+5. Slot the art by path.
+6. Go live.
+
+**Rows:**
+- A1: how many images (55 / 35 / none).
+- A2: the pair paintings in the rows, or only in the energy sheet.
+- A3: who writes the D1–D3 brief.
+- A4: placeholder slots on dev now.
