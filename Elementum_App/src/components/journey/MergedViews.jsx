@@ -56,7 +56,9 @@ export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${ST
 const dmArt = (stem, n) => `/concept-arts/stems/dm/${STEM_PY[stem]}-d${n}.png`;
 // the screen's stage: one ground painting per stem under the cards, so short cards never float over bare paper (owner 2026-10-27: no empty space over 40%)
 export const dmStage = (stem) => `/concept-arts/stems/dm/${STEM_PY[stem]}-stage.png`;
-const pairArt = (stem, el) => `/concept-arts/pairs/pair_${STEM_ELK[stem]}_${el}.png`;
+// card 4's round fan leaves (owner 2026-10-27, B, then "minimalism is the key"): the pair painted as a
+// minimal fan leaf, centred for the circle. The 3:2 pair_ files stay for the energy sheet (N1).
+const fanArt = (stem, el) => `/concept-arts/pairs/fan_${STEM_ELK[stem]}_${el}.png`;
 function InkArt({ src, kind }) {
   const [miss, setMiss] = useState(false);
   if (miss) return null;
@@ -93,9 +95,6 @@ export function TypeChips({ m, g, Use, InkDot, doors = null, stamp = null }) {
 // the circle close it, with the doors on.
 export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay, onEnergy }) {
   const t = g.type;
-  // card 4 layout under review (owner 2026-10-27: "the text more organically integrated, a better thumbnail"):
-  // band (locked pass) · a painted heading · b round fan · c text wraps the picture. Dev switch: localStorage dmp_c4
-  const c4 = (() => { try { return localStorage.getItem('dmp_c4') || 'band'; } catch { return 'band'; } })();
   return (
     <div className="dmp">
       <div className="cardstock dmp-head dmp-sec">
@@ -121,7 +120,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         </div>
       ) : null}
       {g.faces?.length ? (
-        <div className={`cardstock dmp-sec dmp-five c4-${c4}`}>
+        <div className="cardstock dmp-sec dmp-five dmp-fans">
           <span className="mg-lab">Through your five energies</span>
           <p className="dmp-lead">{(g.balanced ? TYPE_LINE.five.balanced : TYPE_LINE.five.lead).replace('{the archetype}', m.archetype.replace(/^The /, 'the '))}</p>
           {[['friction', 'Release', 'fric', 'ar-down'], ['catalyst', 'Grow', 'cat', 'ar-up'], ['balanced', 'Keep', 'cond', 'ic-balanced']].map(([pole, label, cls, ic]) => {
@@ -131,19 +130,19 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
               <div key={pole} className="dmp-group">
                 <span className={`role-pill ${cls}`}><Use id={ic} />{label}</span>
                 {list.map((f) => (
-                  <button type="button" key={f.el} data-i={g.faces.indexOf(f) % 2} className={`dmp-face${f.cell ? ' d' : ''}`} onClick={onEnergy ? () => onEnergy(f.el) : undefined}>
+                  <button type="button" key={f.el} className={`dmp-face${f.cell ? ' d' : ''}`} onClick={onEnergy ? () => onEnergy(f.el) : undefined}>
                     <span className="dmp-fdot"><InkDot el={f.el} size={40} Use={Use} label={`${f.name} ${f.presence} percent`} /></span>
                     {f.cell ? (
                       // W1–W3 A: the function as the title, three chips in the Grow/Release colours, the paragraph
                       <span className="dmp-ftx">
-                        <span className="dmp-ftitle">{f.fn}<em>{f.name} · {f.presence}%</em><span className="dp-draft">draft</span><Use id="ico-arrow-r" className="dmp-go" /></span>
-                        <InkArt src={pairArt(m.stem, f.el)} kind="pair" />
+                        <span className="dmp-ftitle">{f.fn}<em>{f.name} · {f.presence}%</em><span className="dp-draft">draft</span><span className="readcirc dmp-gob" aria-hidden="true"><Use id="ico-arrow-r" /></span></span>
+                        <InkArt src={fanArt(m.stem, f.el)} kind="pair" />
                         <span className="dmp-chips">{f.cell.adj.map((a) => <span key={a} className={`wd-adjchip${f.pole === 'friction' ? ' down' : ''}`}>{a}</span>)}</span>
                         <span className="dmp-fd">{f.cell.p}</span>
                       </span>
                     ) : (
                       <span className="dmp-ftx">
-                        <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}<Use id="ico-arrow-r" className="dmp-go" /></span>
+                        <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}<span className="readcirc dmp-gob" aria-hidden="true"><Use id="ico-arrow-r" /></span></span>
                         <b>{f.phrase}</b>
                         <span className="dmp-fd">{f.desc}</span>
                       </span>

@@ -317,43 +317,19 @@ button.ty-cc{ cursor:pointer; }
 .jny .jscreen > .ground-img2.dmp-stage{ top:auto; bottom:0; left:-12%; width:124%; max-width:none; height:auto; aspect-ratio:4 / 5; object-fit:cover; object-position:center bottom;
   mix-blend-mode:multiply; filter:sepia(.25) brightness(1.04); opacity:.9;
   -webkit-mask-image:linear-gradient(to bottom,transparent 30%,#000 70%); mask-image:linear-gradient(to bottom,transparent 30%,#000 70%); }
-/* Card 4's pair paintings (N1, painted at F2 2026-10-27): a shallow ink band
-   under each energy title, cropped to the painting's middle, every edge
-   dissolving into the row, so the five rows read as one scroll of pictures */
-.jny .dmp-ink.pair{ width:calc(100% + 15px); max-width:none; aspect-ratio:5 / 2; object-fit:cover; object-position:center 55%; margin:2px -15px 2px 0;
-  -webkit-mask-image:linear-gradient(to right,transparent,#000 18%,#000 82%,transparent),linear-gradient(to bottom,transparent,#000 22%,#000 70%,transparent); -webkit-mask-composite:source-in;
-  mask-image:linear-gradient(to right,transparent,#000 18%,#000 82%,transparent),linear-gradient(to bottom,transparent,#000 22%,#000 70%,transparent); mask-composite:intersect; }
-
-/* ── Card 4 layouts under review (owner 2026-10-27) ── */
-/* A · painted heading: the painting is the row's heading, the title written into its empty paper */
-.jny .c4-a .dmp-face{ grid-template-columns:minmax(0,1fr); position:relative; padding-top:6px; }
-.jny .c4-a .dmp-fdot{ position:absolute; left:0; top:16px; z-index:2; }
-.jny .c4-a .dmp-ftx{ display:grid; grid-template-columns:minmax(0,1fr); }
-.jny .c4-a .dmp-ink.pair{ grid-area:1 / 1; width:calc(100% + 30px); margin:0 -15px 0 -15px; aspect-ratio:2 / 1; object-position:78% 55%;
-  -webkit-mask-image:linear-gradient(to right,transparent 4%,#000 46%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 14%,#000 72%,transparent); -webkit-mask-composite:source-in;
-  mask-image:linear-gradient(to right,transparent 4%,#000 46%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 14%,#000 72%,transparent); mask-composite:intersect; }
-.jny .c4-a .dmp-ftitle{ grid-area:1 / 1; align-self:start; z-index:1; padding:12px 0 0 52px; flex-direction:column; align-items:flex-start; gap:3px; max-width:56%; font-size:26px; }
-.jny .c4-a .dmp-ftitle .dmp-go{ position:absolute; right:0; top:16px; }
-.jny .c4-a .dmp-chips{ margin-top:-22px; position:relative; z-index:1; }
-/* B · round fan (团扇): the painting cropped into a round fan leaf replaces the ink dot; the element sign sits on its rim
-   like a seal, and the title, words and reading wrap around the circle */
-.jny .c4-b .dmp-face{ display:block; position:relative; }
-.jny .c4-b .dmp-face::after{ content:""; display:block; clear:both; }
-.jny .c4-b .dmp-ftx{ display:block; }
-.jny .c4-b .dmp-ink.pair{ float:left; width:104px; height:104px; aspect-ratio:1; margin:2px 14px 6px 0; border-radius:50%; object-position:66% 52%;
-  shape-outside:circle(50%); shape-margin:6px; -webkit-mask-image:radial-gradient(circle,#000 64%,transparent 71%); mask-image:radial-gradient(circle,#000 64%,transparent 71%); }
-.jny .c4-b .dmp-ink.pair{ border:1px solid rgba(120,96,60,.22); }
-.jny .c4-b .dmp-fdot{ position:absolute; left:78px; top:128px; z-index:2; transform:scale(.6); transform-origin:top left; }
-.jny .c4-b .dmp-ftitle{ padding:4px 0 8px; }
-.jny .c4-b .dmp-chips{ display:flex; margin:6px 0; }
-.jny .c4-b .dmp-fd{ display:block; }
-/* C · text wraps the picture: a square crop floats on alternating sides, the reading flows around it */
-.jny .c4-c .dmp-face{ grid-template-columns:44px minmax(0,1fr); }
-.jny .c4-c .dmp-ftx{ display:block; }
-.jny .c4-c .dmp-ftitle{ margin-bottom:4px; }
-.jny .c4-c .dmp-chips{ display:flex; }
-.jny .c4-c .dmp-ink.pair{ float:right; width:44%; aspect-ratio:1; margin:0 -15px 2px 8px; object-position:72% 55%; shape-outside:inset(0 0 0 12%);
-  -webkit-mask-image:radial-gradient(ellipse 62% 62% at 55% 50%,#000 55%,transparent 100%); mask-image:radial-gradient(ellipse 62% 62% at 55% 50%,#000 55%,transparent 100%); }
-.jny .c4-c .dmp-face[data-i="1"] .dmp-ink.pair{ float:left; margin:0 10px 2px 0; object-position:62% 55%; shape-outside:inset(0 12% 0 0); }
-.jny .c4-c .dmp-fd{ display:block; }
-.jny .c4-c .dmp-ftx::after{ content:""; display:block; clear:both; }
+/* Card 4, the round fan leaves (owner 2026-10-27: B, "align the body", "the black arrow button",
+   "minimalism is the key"). Each row: the pair painted as a minimal fan leaf on the left, the element
+   sign set on its rim like a seal, and the title, the three words and the reading on one left edge.
+   The black arrow button closes the title line, so the row reads as a door. */
+.jny .dmp-fans .dmp-face{ grid-template-columns:88px minmax(0,1fr); column-gap:14px; row-gap:0; padding:14px 0 6px; position:relative; }
+.jny .dmp-fans .dmp-ftx{ display:contents; }
+.jny .dmp-fans .dmp-ftitle,.jny .dmp-fans .dmp-chips,.jny .dmp-fans .dmp-fd,.jny .dmp-fans .dmp-fey,.jny .dmp-fans .dmp-ftx > b{ grid-column:2; }
+.jny .dmp-fans .dmp-fdot{ grid-column:1; grid-row:1 / span 3; align-self:start; justify-self:center; }
+.jny .dmp-fans .dmp-ink.pair{ grid-column:1; grid-row:1 / span 3; align-self:start; width:88px; height:88px; border-radius:50%; object-fit:cover;
+  filter:none; -webkit-mask-image:radial-gradient(circle,#000 62%,transparent 71%); mask-image:radial-gradient(circle,#000 62%,transparent 71%); }
+.jny .dmp-fans .dmp-face:has(.dmp-ink.pair) .dmp-fdot{ align-self:start; justify-self:end; margin-top:62px; margin-right:-6px; z-index:2; transform:scale(.58); transform-origin:center; }
+.jny .dmp-fans .dmp-ftitle,.jny .dmp-fans .dmp-fey{ align-items:center; min-height:30px; padding-right:40px; }
+.jny .dmp-fans .readcirc.dmp-gob{ position:absolute; right:0; top:14px; width:30px; height:30px; box-shadow:0 3px 9px rgba(40,30,20,.24); }
+.jny .dmp-fans .readcirc.dmp-gob svg{ width:12px; height:12px; fill:currentColor; }
+.jny .dmp-fans .dmp-chips{ margin:4px 0 6px; }
+.jny .dmp-fans .dmp-ink.pair{ mask-image:radial-gradient(circle,#000 66%,transparent 71%); -webkit-mask-image:radial-gradient(circle,#000 66%,transparent 71%); }

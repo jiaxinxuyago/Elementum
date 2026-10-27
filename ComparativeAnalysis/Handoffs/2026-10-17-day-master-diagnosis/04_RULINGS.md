@@ -357,3 +357,10 @@ Built on dev the same day, with the A4 frames: D1 `/concept-arts/stems/dm/{py}-d
 - **The layout rule:** no screen leaves more than 40% bare.
 
 Masters are in `Design/Assets/DayMaster/`. Next: card 4 illustrated (the pair paintings, at F2).
+
+**Ruled 2026-10-27, card 4: B (round fan leaf), with changes.**
+- The body text sits on one left edge.
+- The black arrow button marks each row as a door.
+- The fan leaves are repainted minimal ("minimalism is the key").
+
+Built on dev the same day: the fan on the left, the element seal on its rim, then the title, words and reading. Layouts A and C are retired. The five Metal fans are painted; 20 to go.
