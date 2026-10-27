@@ -46,7 +46,7 @@ export const STEM_CARD_DATA = {
       archetypeName:  `The Oak`,
       archetypeLabel: `Yang Wood — The Oak`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Motion before readiness · You are the Wood that rises before the path is clear.`,
+      manifesto:      `Upright, eager, forward · You are the Wood that rises before the path is clear.`,
       inscription:    `You grow toward a light you can't prove yet, and never stop to rest under it.`,
       keywords:       [`Driven`, `Upright`, `Pioneering`],
       overview:       `The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign.`,
@@ -57,7 +57,7 @@ export const STEM_CARD_DATA = {
         expand: `Forceful and unhurried by doubt, it carries the restless certainty of something already growing toward a light it cannot yet name.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Motion before readiness"
+      //   Line 1 (bold thesis)  → "Upright, eager, forward"
       //   Line 2 (poetic edge)  → "The oak does not negotiate its direction."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -148,7 +148,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeName:  `The Vine`,
       archetypeLabel: `Yin Wood — The Vine`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Route bends. Destination holds. · You are the Wood that gets there anyway.`,
+      manifesto:      `Supple, persistent, resourceful · You are the Wood that gets there anyway.`,
       inscription:    `You find a way around what stops other people, and they call it luck.`,
       keywords:       [`Adaptable`, `Persistent`, `Resourceful`],
       overview:       `The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved.`,
@@ -159,7 +159,7 @@ There's also a specific interpersonal cost: people who care about you often feel
         expand: `Supple and quietly relentless, it carries the intelligence of something that reaches its destination by routes no one thought to watch.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Route bends. Destination holds."
+      //   Line 1 (bold thesis)  → "Supple, persistent, resourceful"
       //   Line 2 (poetic edge)  → "The vine finds every wall a ladder."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -248,7 +248,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeName:  `The Sun`,
       archetypeLabel: `Yang Fire — The Sun`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Warmth without permission · You are the Fire that gives light before anyone asks.`,
+      manifesto:      `Warm, open, bright · You are the Fire that gives light before anyone asks.`,
       inscription:    `You warm whoever stands near you, and run on warmth nobody returns.`,
       keywords:       [`Warm`, `Radiant`, `Unreserved`],
       overview:       `The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders.`,
@@ -259,7 +259,7 @@ There's also a specific interpersonal cost: people who care about you often feel
         expand: `Radiant and indiscriminate, it warms whatever it reaches, making the world around a person feel briefly more possible than before.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Warmth without permission"
+      //   Line 1 (bold thesis)  → "Warm, open, bright"
       //   Line 2 (poetic edge)  → "The sun does not choose who it reaches."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -348,7 +348,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeName:  `The Candle`,
       archetypeLabel: `Yin Fire — The Candle`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Intimacy over range · You are the Fire that burns closest, not widest.`,
+      manifesto:      `Focused, intimate, constant · You are the Fire that burns closest, not widest.`,
       inscription:    `What you turn toward gets all of you, and everything else waits in the dark.`,
       keywords:       [`Focused`, `Devoted`, `Perceptive`],
       overview:       `The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance.`,
@@ -359,7 +359,7 @@ There's also a specific interpersonal cost: people who care about you often feel
         expand: `Precise and intimate, it gives whatever it attends the rare experience of being fully seen, and leaves all else in shadow.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Intimacy over range"
+      //   Line 1 (bold thesis)  → "Focused, intimate, constant"
       //   Line 2 (poetic edge)  → "A candle doesn't reach far — it reaches true."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -450,7 +450,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
       archetypeName:  `The Mountain`,
       archetypeLabel: `Yang Earth — The Mountain`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Immovable by design · You are the Earth others use to find their footing.`,
+      manifesto:      `Steady, solid, unhurried · You are the Earth others use to find their footing.`,
       inscription:    `You hold what others set down, and nothing has ever offered to hold you.`,
       keywords:       [`Steady`, `Centered`, `Dependable`],
       overview:       `The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair.`,
@@ -461,7 +461,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
         expand: `Solid and orienting, it is the reference point others find their position by, holding far more than it ever lets show.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Immovable by design"
+      //   Line 1 (bold thesis)  → "Steady, solid, unhurried"
       //   Line 2 (poetic edge)  → "Others find their bearings and never name why."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -552,7 +552,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeName:  `The Field`,
       archetypeLabel: `Yin Earth — The Field`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Nourish without credit · You are the Earth that turns what it holds into growth.`,
+      manifesto:      `Patient, receptive, quiet · You are the Earth that turns what it holds into growth.`,
       inscription:    `Everything you tend grows, and the harvest goes home in other people's hands.`,
       keywords:       [`Nurturing`, `Patient`, `Receptive`],
       overview:       `The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away.`,
@@ -563,7 +563,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
         expand: `Receptive and quietly generous, it creates the conditions for others to grow into themselves, and asks no credit for the growth.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Nourish without credit"
+      //   Line 1 (bold thesis)  → "Patient, receptive, quiet"
       //   Line 2 (poetic edge)  → "The soil turns whatever it's given into growth."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -654,12 +654,12 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeName:  `The Blade`,
       archetypeLabel: `Yang Metal — The Blade`,      // full label used in pills, headers, share cards
       identityIcon:   `BladeJian`,                   // component key in Engine — 庚-specific sword SVG
-      manifesto:      `Precision before intention · You are the Metal that cuts things clean.`,
+      manifesto:      `Honest, exact, decisive · You are the Metal that cuts things clean.`,
       inscription:    `You say what others soften, then quietly pay for being the one who did.`,
       keywords:       [`Direct`, `Decisive`, `Sharp`],
       overview:       `The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.`,
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Precision before intention"
+      //   Line 1 (bold thesis)  → "Honest, exact, decisive"
       //   Line 2 (poetic edge)  → "An edge is never given — it is forged."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -862,7 +862,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeName:  `The Jewel`,
       archetypeLabel: `Yin Metal — The Jewel`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Refinement over output · You are the Metal that refines until nothing extra remains.`,
+      manifesto:      `Precise, polished, exacting · You are the Metal that refines until nothing extra remains.`,
       inscription:    `You hold your work to a standard nobody set, and it never says finished.`,
       keywords:       [`Refined`, `Discerning`, `Exacting`],
       overview:       `The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.`,
@@ -873,7 +873,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
         expand: `Exacting and aesthetically certain, it senses quality the way others sense cold, and is never quite satisfied with what merely passes.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Refinement over output"
+      //   Line 1 (bold thesis)  → "Precise, polished, exacting"
       //   Line 2 (poetic edge)  → "The flaw is felt before the eye finds it."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -962,7 +962,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeName:  `The Ocean`,
       archetypeLabel: `Yang Water — The Ocean`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Depth before disclosure · You are the Water that keeps moving without losing its depth.`,
+      manifesto:      `Deep, wide, restless · You are the Water that keeps moving without losing its depth.`,
       inscription:    `You understand more than you can explain, and live with the distance that leaves.`,
       keywords:       [`Expansive`, `Fluid`, `Deep`],
       overview:       `The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps.`,
@@ -973,7 +973,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
         expand: `Expansive and unannounced, it processes at a depth most rooms cannot follow, moving currents of intelligence beneath an unremarkable surface.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Depth before disclosure"
+      //   Line 1 (bold thesis)  → "Deep, wide, restless"
       //   Line 2 (poetic edge)  → "The surface stays calm; the current decides."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
@@ -1064,7 +1064,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
       archetypeName:  `The Rain`,
       archetypeLabel: `Yin Water — The Rain`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Felt before spoken · You are the Water that quietly changes whatever it touches.`,
+      manifesto:      `Perceptive, soft, porous · You are the Water that quietly changes whatever it touches.`,
       inscription:    `You soak up what everyone around you feels, then wonder which of it is yours.`,
       keywords:       [`Intuitive`, `Subtle`, `Attuned`],
       overview:       `The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow.`,
@@ -1075,7 +1075,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
         expand: `Permeable and quietly knowing, it senses what is true before it is spoken, absorbing the emotional weather of whatever it falls through.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
-      //   Line 1 (bold thesis)  → "Felt before spoken"
+      //   Line 1 (bold thesis)  → "Perceptive, soft, porous"
       //   Line 2 (poetic edge)  → "What enters water becomes water."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):

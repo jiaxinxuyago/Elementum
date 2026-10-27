@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Oak |
-| `manifesto` | Motion before readiness · You are the Wood that rises before the path is clear. |
+| `manifesto` | Upright, eager, forward · You are the Wood that rises before the path is clear. |
 | `inscription` | You grow toward a light you can't prove yet, and never stop to rest under it. |
 | `stem_keywords` | Driven · Upright · Pioneering |
 | `pinyin_display` | JIǍ · YANG WOOD |
@@ -288,3 +288,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Fire |
 | `retired_2026-10-17_diagnosis.door_note.action` | Earth |
 | `retired_2026-10-17_diagnosis.door_note.order` | Metal |
+| `retired_2026-10-27_manifesto_l1` | Motion before readiness |

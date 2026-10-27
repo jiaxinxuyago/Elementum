@@ -229,3 +229,22 @@ Not shown: `stem_keywords` (retired to ore 2026-09-10); the gifts and shadows po
 - C3: three claims under the 10–16w band (庚, 己 and 乙 claim 1).
 
 **P3, drafted.** Two candidates of two or three adjectives for each of the ten L1s, per the manifesto field card. Every couplet is ≤14w and column A repeats no word across stems. The ruling page with C1–C3 and M甲–M癸 is at the link in the session.
+
+### RULED 2026-10-27: C1 A, C2 A, C3 A, M甲–M癸 A
+
+- **`STEM.dm_claims`:** LOCKED ×20 (REA_16 §2c row: 8–16w).
+  - 丙 claim 2: "People take their mood from you before you say a word."
+  - 癸 claim 1: "You feel the mood shift a beat before anyone names it."
+  - The three short claims stand as written.
+- **`STEM.manifesto` L1 ×10** is re-cut to adjectives. The old L1s are in `__ore.retired_2026-10-27_manifesto_l1`. The new L1s:
+
+  | 甲 | 乙 | 丙 | 丁 | 戊 |
+  |---|---|---|---|---|
+  | Upright, eager, forward | Supple, persistent, resourceful | Warm, open, bright | Focused, intimate, constant | Steady, solid, unhurried |
+
+  | 己 | 庚 | 辛 | 壬 | 癸 |
+  |---|---|---|---|---|
+  | Patient, receptive, quiet | Honest, exact, decisive | Precise, polished, exacting | Deep, wide, restless | Perceptive, soft, porous |
+
+  The change is transcribed to `archetypeSource.js`, and the field card log is updated.
+- **Elementum.life:** the manifesto shows on the live site today (the album hero and the reveal), so the new L1s go live with this push. The claims and the edge lines appear only on the Day Master page, which is on dev only (TYPE_V1).

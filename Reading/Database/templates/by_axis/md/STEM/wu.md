@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Mountain |
-| `manifesto` | Immovable by design · You are the Earth others use to find their footing. |
+| `manifesto` | Steady, solid, unhurried · You are the Earth others use to find their footing. |
 | `inscription` | You hold what others set down, and nothing has ever offered to hold you. |
 | `stem_keywords` | Steady · Centered · Dependable |
 | `pinyin_display` | WÙ · YANG EARTH |
@@ -272,3 +272,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Metal |
 | `retired_2026-10-17_diagnosis.door_note.action` | Water |
 | `retired_2026-10-17_diagnosis.door_note.order` | Wood |
+| `retired_2026-10-27_manifesto_l1` | Immovable by design |

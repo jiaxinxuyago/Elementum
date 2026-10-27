@@ -18,11 +18,11 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Sun |
-| `manifesto` | Warmth without permission · You are the Fire that gives light before anyone asks. |
+| `manifesto` | Warm, open, bright · You are the Fire that gives light before anyone asks. |
 | `inscription` | You warm whoever stands near you, and run on warmth nobody returns. |
 | `stem_keywords` | Warm · Radiant · Unreserved |
 | `pinyin_display` | BǏNG · YANG FIRE |
-| `dm_claims` | You give warmth before you are asked, and rarely count the cost. · A room reads its mood from you before you say a word. |
+| `dm_claims` | You give warmth before you are asked, and rarely count the cost. · People take their mood from you before you say a word. |
 | `dm_mechanism` | Yang Fire that gives without dimming, radiance steadied by what it warms. |
 | `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
 | `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders. |
@@ -325,3 +325,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Earth |
 | `retired_2026-10-17_diagnosis.door_note.action` | Metal |
 | `retired_2026-10-17_diagnosis.door_note.order` | Water |
+| `retired_2026-10-27_manifesto_l1` | Warmth without permission |

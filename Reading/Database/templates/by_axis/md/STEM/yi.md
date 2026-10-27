@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Vine |
-| `manifesto` | Route bends. Destination holds. · You are the Wood that gets there anyway. |
+| `manifesto` | Supple, persistent, resourceful · You are the Wood that gets there anyway. |
 | `inscription` | You find a way around what stops other people, and they call it luck. |
 | `stem_keywords` | Adaptable · Persistent · Resourceful |
 | `pinyin_display` | YǏ · YIN WOOD |
@@ -280,3 +280,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Fire |
 | `retired_2026-10-17_diagnosis.door_note.action` | Earth |
 | `retired_2026-10-17_diagnosis.door_note.order` | Metal |
+| `retired_2026-10-27_manifesto_l1` | Route bends. Destination holds. |

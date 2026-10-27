@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Jewel |
-| `manifesto` | Refinement over output · You are the Metal that refines until nothing extra remains. |
+| `manifesto` | Precise, polished, exacting · You are the Metal that refines until nothing extra remains. |
 | `inscription` | You hold your work to a standard nobody set, and it never says finished. |
 | `stem_keywords` | Refined · Discerning · Exacting |
 | `pinyin_display` | XĪN · YIN METAL |
@@ -275,3 +275,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Water |
 | `retired_2026-10-17_diagnosis.door_note.action` | Wood |
 | `retired_2026-10-17_diagnosis.door_note.order` | Fire |
+| `retired_2026-10-27_manifesto_l1` | Refinement over output |

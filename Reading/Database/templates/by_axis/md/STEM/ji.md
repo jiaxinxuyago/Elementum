@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Field |
-| `manifesto` | Nourish without credit · You are the Earth that turns what it holds into growth. |
+| `manifesto` | Patient, receptive, quiet · You are the Earth that turns what it holds into growth. |
 | `inscription` | Everything you tend grows, and the harvest goes home in other people's hands. |
 | `stem_keywords` | Nurturing · Patient · Receptive |
 | `pinyin_display` | JǏ · YIN EARTH |
@@ -299,3 +299,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Metal |
 | `retired_2026-10-17_diagnosis.door_note.action` | Water |
 | `retired_2026-10-17_diagnosis.door_note.order` | Wood |
+| `retired_2026-10-27_manifesto_l1` | Nourish without credit |

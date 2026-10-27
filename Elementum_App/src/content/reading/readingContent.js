@@ -43,7 +43,7 @@ export const DM_READING = {
   '丙': {
     claims: [
       'You give warmth before you are asked, and rarely count the cost.',
-      'A room reads its mood from you before you say a word.',
+      'People take their mood from you before you say a word.',
     ],
     edge: 'Yang Fire that gives without dimming, radiance steadied by what it warms.',
   },
@@ -77,7 +77,7 @@ export const DM_READING = {
   },
   '癸': {
     claims: [
-      'You read the room a beat before it reveals itself.',
+      'You feel the mood shift a beat before anyone names it.',
       'You reach people through the small, quiet door, not the loud one.',
     ],
     edge: 'Yin Water that finds every opening, perception that travels where pressure cannot.',

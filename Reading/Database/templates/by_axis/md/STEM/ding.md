@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Candle |
-| `manifesto` | Intimacy over range · You are the Fire that burns closest, not widest. |
+| `manifesto` | Focused, intimate, constant · You are the Fire that burns closest, not widest. |
 | `inscription` | What you turn toward gets all of you, and everything else waits in the dark. |
 | `stem_keywords` | Focused · Devoted · Perceptive |
 | `pinyin_display` | DĪNG · YIN FIRE |
@@ -324,3 +324,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Earth |
 | `retired_2026-10-17_diagnosis.door_note.action` | Metal |
 | `retired_2026-10-17_diagnosis.door_note.order` | Water |
+| `retired_2026-10-27_manifesto_l1` | Intimacy over range |

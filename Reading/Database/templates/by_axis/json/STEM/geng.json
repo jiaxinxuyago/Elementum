@@ -13,7 +13,7 @@
   "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
   "candidates": {
     "archetype_name": "The Blade",
-    "manifesto": "Precision before intention · You are the Metal that cuts things clean.",
+    "manifesto": "Honest, exact, decisive · You are the Metal that cuts things clean.",
     "inscription": "You say what others soften, then quietly pay for being the one who did.",
     "stem_keywords": [
       "Direct",
@@ -619,12 +619,15 @@
           "action": "Wood",
           "order": "Fire"
         }
-      }
+      },
+      "retired_2026-10-27_manifesto_l1": "Precision before intention"
     }
   },
   "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (the carry law applied to the pools). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
   "field_status": {
     "who": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule",
-    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)"
+    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
+    "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M庚 A): two or three plain adjectives, replacing \"Precision before intention\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
+    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)"
   }
 }

@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Blade |
-| `manifesto` | Precision before intention · You are the Metal that cuts things clean. |
+| `manifesto` | Honest, exact, decisive · You are the Metal that cuts things clean. |
 | `inscription` | You say what others soften, then quietly pay for being the one who did. |
 | `stem_keywords` | Direct · Decisive · Sharp |
 | `pinyin_display` | GĒNG · YANG METAL |
@@ -337,3 +337,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Water |
 | `retired_2026-10-17_diagnosis.door_note.action` | Wood |
 | `retired_2026-10-17_diagnosis.door_note.order` | Fire |
+| `retired_2026-10-27_manifesto_l1` | Precision before intention |

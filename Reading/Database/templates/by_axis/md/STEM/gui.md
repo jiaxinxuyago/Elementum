@@ -18,11 +18,11 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Rain |
-| `manifesto` | Felt before spoken · You are the Water that quietly changes whatever it touches. |
+| `manifesto` | Perceptive, soft, porous · You are the Water that quietly changes whatever it touches. |
 | `inscription` | You soak up what everyone around you feels, then wonder which of it is yours. |
 | `stem_keywords` | Intuitive · Subtle · Attuned |
 | `pinyin_display` | GUǏ · YIN WATER |
-| `dm_claims` | You read the room a beat before it reveals itself. · You reach people through the small, quiet door, not the loud one. |
+| `dm_claims` | You feel the mood shift a beat before anyone names it. · You reach people through the small, quiet door, not the loud one. |
 | `dm_mechanism` | Yin Water that finds every opening, perception that travels where pressure cannot. |
 | `yourNature_desc` | You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life. |
 | `dm_overview` | The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow. |
@@ -347,3 +347,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Wood |
 | `retired_2026-10-17_diagnosis.door_note.action` | Fire |
 | `retired_2026-10-17_diagnosis.door_note.order` | Earth |
+| `retired_2026-10-27_manifesto_l1` | Felt before spoken |

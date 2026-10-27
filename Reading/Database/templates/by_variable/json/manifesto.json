@@ -7,61 +7,61 @@
         "id": "jia",
         "key": "甲",
         "canonical_name": "The Oak",
-        "value": "Motion before readiness · You are the Wood that rises before the path is clear."
+        "value": "Upright, eager, forward · You are the Wood that rises before the path is clear."
       },
       {
         "id": "yi",
         "key": "乙",
         "canonical_name": "The Vine",
-        "value": "Route bends. Destination holds. · You are the Wood that gets there anyway."
+        "value": "Supple, persistent, resourceful · You are the Wood that gets there anyway."
       },
       {
         "id": "bing",
         "key": "丙",
         "canonical_name": "The Sun",
-        "value": "Warmth without permission · You are the Fire that gives light before anyone asks."
+        "value": "Warm, open, bright · You are the Fire that gives light before anyone asks."
       },
       {
         "id": "ding",
         "key": "丁",
         "canonical_name": "The Candle",
-        "value": "Intimacy over range · You are the Fire that burns closest, not widest."
+        "value": "Focused, intimate, constant · You are the Fire that burns closest, not widest."
       },
       {
         "id": "wu",
         "key": "戊",
         "canonical_name": "The Mountain",
-        "value": "Immovable by design · You are the Earth others use to find their footing."
+        "value": "Steady, solid, unhurried · You are the Earth others use to find their footing."
       },
       {
         "id": "ji",
         "key": "己",
         "canonical_name": "The Field",
-        "value": "Nourish without credit · You are the Earth that turns what it holds into growth."
+        "value": "Patient, receptive, quiet · You are the Earth that turns what it holds into growth."
       },
       {
         "id": "geng",
         "key": "庚",
         "canonical_name": "The Blade",
-        "value": "Precision before intention · You are the Metal that cuts things clean."
+        "value": "Honest, exact, decisive · You are the Metal that cuts things clean."
       },
       {
         "id": "xin",
         "key": "辛",
         "canonical_name": "The Jewel",
-        "value": "Refinement over output · You are the Metal that refines until nothing extra remains."
+        "value": "Precise, polished, exacting · You are the Metal that refines until nothing extra remains."
       },
       {
         "id": "ren",
         "key": "壬",
         "canonical_name": "The Ocean",
-        "value": "Depth before disclosure · You are the Water that keeps moving without losing its depth."
+        "value": "Deep, wide, restless · You are the Water that keeps moving without losing its depth."
       },
       {
         "id": "gui",
         "key": "癸",
         "canonical_name": "The Rain",
-        "value": "Felt before spoken · You are the Water that quietly changes whatever it touches."
+        "value": "Perceptive, soft, porous · You are the Water that quietly changes whatever it touches."
       }
     ]
   }

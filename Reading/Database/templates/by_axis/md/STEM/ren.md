@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Ocean |
-| `manifesto` | Depth before disclosure · You are the Water that keeps moving without losing its depth. |
+| `manifesto` | Deep, wide, restless · You are the Water that keeps moving without losing its depth. |
 | `inscription` | You understand more than you can explain, and live with the distance that leaves. |
 | `stem_keywords` | Expansive · Fluid · Deep |
 | `pinyin_display` | RÉN · YANG WATER |
@@ -331,3 +331,4 @@
 | `retired_2026-10-17_diagnosis.door_note.expression` | Wood |
 | `retired_2026-10-17_diagnosis.door_note.action` | Fire |
 | `retired_2026-10-17_diagnosis.door_note.order` | Earth |
+| `retired_2026-10-27_manifesto_l1` | Depth before disclosure |
