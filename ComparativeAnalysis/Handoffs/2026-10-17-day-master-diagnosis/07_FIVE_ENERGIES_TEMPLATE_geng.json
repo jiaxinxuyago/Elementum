@@ -4,11 +4,15 @@
   "rel": "more of you",
   "catalyst": {
    "adj": "Steady, self-reliant, sure",
-   "p": "When your own Metal runs low, more of it steadies you. You stand on your own judgment again, finish what you start, and stop asking permission to be exact. The edge you carry becomes something to lean on as well as something to use."
+   "p": "When your own Metal runs low, more of it steadies you. You stand on your own judgment again, finish what you start, and stop asking permission to be exact. The edge you carry becomes something to lean on as well as something to use.",
+   "one": "Self-reliant",
+   "two": "Steady, self-reliant"
   },
   "friction": {
    "adj": "Rigid, closed, unyielding",
-   "p": "With more Metal than you need, the edge turns inward. You decide once and stop listening, and people learn to bring you only finished answers. Releasing some of it lets a second opinion reach you before the cut is made."
+   "p": "With more Metal than you need, the edge turns inward. You decide once and stop listening, and people learn to bring you only finished answers. Releasing some of it lets a second opinion reach you before the cut is made.",
+   "one": "Rigid",
+   "two": "Rigid, closed"
   }
  },
  "mind": {
@@ -16,11 +20,15 @@
   "rel": "feeds you",
   "catalyst": {
    "adj": "Patient, grounded, prepared",
-   "p": "Earth is what feeds your edge: study, rest, and the people who back you. With more of it you think before you cut, and your judgment arrives with its reasons attached. People trust the call because they can see what went into it."
+   "p": "Earth is what feeds your edge: study, rest, and the people who back you. With more of it you think before you cut, and your judgment arrives with its reasons attached. People trust the call because they can see what went into it.",
+   "one": "Prepared",
+   "two": "Patient, prepared"
   },
   "friction": {
    "adj": "Hesitant, heavy, guarded",
-   "p": "Fed past use, the Blade stays in its sheath. You gather one more fact and one more opinion, and the moment to act passes while you prepare for it. Releasing some of the preparation lets the edge come out while it still matters."
+   "p": "Fed past use, the Blade stays in its sheath. You gather one more fact and one more opinion, and the moment to act passes while you prepare for it. Releasing some of the preparation lets the edge come out while it still matters.",
+   "one": "Hesitant",
+   "two": "Hesitant, guarded"
   }
  },
  "expression": {
@@ -28,11 +36,15 @@
   "rel": "you feed it",
   "catalyst": {
    "adj": "Clear, candid, fluent",
-   "p": "Water is where your sharpness goes out into the world: words, work, the things you make. With more of it your honesty finds a form people can take in. You say the hard thing once, plainly, and it lands as help."
+   "p": "Water is where your sharpness goes out into the world: words, work, the things you make. With more of it your honesty finds a form people can take in. You say the hard thing once, plainly, and it lands as help.",
+   "one": "Candid",
+   "two": "Clear, candid"
   },
   "friction": {
    "adj": "Blunt, cutting, unfiltered",
-   "p": "When too much runs out through Water, the honesty arrives faster than the care. You say the true thing and the wound comes with it. Releasing some of that flow gives you a beat to choose which truths need saying today."
+   "p": "When too much runs out through Water, the honesty arrives faster than the care. You say the true thing and the wound comes with it. Releasing some of that flow gives you a beat to choose which truths need saying today.",
+   "one": "Blunt",
+   "two": "Blunt, cutting"
   }
  },
  "action": {
@@ -40,11 +52,15 @@
   "rel": "you shape it",
   "catalyst": {
    "adj": "Decisive, productive, focused",
-   "p": "Wood is what you cut and shape: work, money, plans with a deadline. With more of it your edge has something real to do. You trim what will not grow and keep cutting until the result holds its shape."
+   "p": "Wood is what you cut and shape: work, money, plans with a deadline. With more of it your edge has something real to do. You trim what will not grow and keep cutting until the result holds its shape.",
+   "one": "Productive",
+   "two": "Focused, productive"
   },
   "friction": {
    "adj": "Harsh, restless, overworked",
-   "p": "With too much to cut, the Blade rarely rests. You take on every job that needs an edge and trim people as hard as plans. Releasing some of the load keeps you sharp for the work that counts."
+   "p": "With too much to cut, the Blade rarely rests. You take on every job that needs an edge and trim people as hard as plans. Releasing some of the load keeps you sharp for the work that counts.",
+   "one": "Overworked",
+   "two": "Harsh, overworked"
   }
  },
  "order": {
@@ -52,11 +68,15 @@
   "rel": "shapes you",
   "catalyst": {
    "adj": "Tempered, composed, accountable",
-   "p": "Fire is the forge that shapes you: pressure, standards, the people you answer to. With more of it you become the Blade you were made to be. Under a real test you get calmer, and the edge you come out with is the one people remember."
+   "p": "Fire is the forge that shapes you: pressure, standards, the people you answer to. With more of it you become the Blade you were made to be. Under a real test you get calmer, and the edge you come out with is the one people remember.",
+   "one": "Tempered",
+   "two": "Tempered, composed"
   },
   "friction": {
    "adj": "Pressed, anxious, self-critical",
-   "p": "Under too much Fire the forge stays hot. Every rule feels urgent and every mistake feels final, and the harshest voice you hear is your own. Releasing some of the pressure lets you cool enough to hold your shape."
+   "p": "Under too much Fire the forge stays hot. Every rule feels urgent and every mistake feels final, and the harshest voice you hear is your own. Releasing some of the pressure lets you cool enough to hold your shape.",
+   "one": "Self-critical",
+   "two": "Pressed, self-critical"
   }
  }
 }
