@@ -189,3 +189,17 @@ The variants are built from dev screenshots on the golden chart (the wheel and t
 - K2: where the Archetype chip leads (A = the first reading).
 - K3: fold the two tiles into the chips.
 - K4: the circle tile on the album.
+
+### RULED 2026-10-27: K1 A, K2 A, K3 A, K4 A (built on dev, behind TYPE_V1)
+
+- **K1, the chips are the doors.** On the album the four chips are buttons with read marks (TypeChips `doors`, `stamp`). On the share card they stay labels.
+  - Archetype → the first reading's eight cards, replayed from the album (`replayOn` in JourneyStage).
+  - Run → "How am I running?".
+  - Mode → its energy sheet (golden: Earth).
+  - Needs → its energy sheet (golden: Fire).
+- **K3:** the "How am I running?" and "Start here" tiles step down when TYPE_V1.
+- **K4:** the Your circle tile follows "What does my chart ask for?" (`.v5-circle`) and opens Your Circle.
+  - Headline: "{Fuel} carry the {El} you need", e.g. "Suns and Candles carry the Fire you need".
+  - CTA: "Who completes your chart?".
+  - Station: `tpl_type.circle`. The Balanced headline "{Bond} is your classical match" is a DRAFT, to rule.
+- **Verified on the local dev build:** every door opens the right page, the circle goes to #/app-compat, and there are no page errors.

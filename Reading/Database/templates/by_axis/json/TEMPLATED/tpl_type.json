@@ -9,7 +9,7 @@
     "REA_03 §5 (patterns)",
     "ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md (the Elementum Type, M1–M6 A)"
   ],
-  "status_note": "RULED 2026-10-27 (owner M1–M6 A; then the needs clauses ×7 and the opener \"Your chart is heaviest in\", replacing \"Most of your chart\") · the share card and the album hero (TYPE_V1)",
+  "status_note": "RULED 2026-10-27 (owner M1–M6 A; then the needs clauses ×7 and the opener \"Your chart is heaviest in\", replacing \"Most of your chart\") · the circle tile (K4 A) · the share card and the album (TYPE_V1)",
   "budget": "name ≤6w · line ≤22w",
   "candidates": {
     "name": "{Archetype} · {Fn} mode",
@@ -29,12 +29,18 @@
       "dominant": "and the {El} you need is already there to use.",
       "same": "and that is the {El} you need.",
       "balanced": "and your five energies stay close to even."
+    },
+    "circle": {
+      "head": "{Fuel} carry the {El} you need",
+      "balanced": "{Bond} is your classical match",
+      "cta": "Who completes your chart?"
     }
   },
   "field_status": {
     "name": "RULED 2026-10-27 · M1 A",
     "pattern": "RULED 2026-10-27 · \"heaviest in\" (the mode is the largest share, not always a majority)",
     "mode": "RULED 2026-10-27 · the locked wheel words as noun phrases (tpl_cycle_line.relation_labels)",
-    "needs": "RULED 2026-10-27 · all seven clauses, by the needed energy's volume"
+    "needs": "RULED 2026-10-27 · all seven clauses, by the needed energy's volume",
+    "circle": "head and cta RULED 2026-10-27 (K4 A, the album's Your circle tile; cta reuses the Your Circle hero line) · balanced DRAFT 2026-10-27, to rule"
   }
 }

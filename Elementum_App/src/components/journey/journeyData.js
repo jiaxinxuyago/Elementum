@@ -1018,6 +1018,11 @@ export function buildMergedModel(m, chart) {
       mirror: { stem: m.stem, archetype: m.archetype },
     },
   };
+  const plural = (a) => `${a.replace(/^The /, '')}s`;
+  type.circle.head = need
+    ? fillT(TYPE_LINE.circle.head, { Fuel: type.circle.fuel.map((x) => plural(x.archetype)).join(' and '), El: need.name })
+    : fillT(TYPE_LINE.circle.balanced, { Bond: type.circle.bond.archetype });
+  type.circle.cta = TYPE_LINE.circle.cta;
   return {
     condition: cond, balanced: m.balanced, rows, order: order.map((r) => r.el), first: first ? first.el : null,
     who: STEM_WHO[m.stem] || m.maniEdge || '',

@@ -88,6 +88,8 @@ export const TYPE_LINE = {
     same: 'and that is the {El} you need.',
     balanced: 'and your five energies stay close to even.',
   },
+  // the album's Your circle tile (K4 A, 2026-10-27); balanced is a DRAFT, to rule
+  circle: { head: '{Fuel} carry the {El} you need', balanced: '{Bond} is your classical match', cta: 'Who completes your chart?' },
 };
 
 // TEMPLATED/tpl_codex_tests — needs chart.dayMaster.strengthTests

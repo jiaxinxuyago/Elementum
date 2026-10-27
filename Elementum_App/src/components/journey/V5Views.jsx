@@ -20,7 +20,7 @@
 // ===================================================================
 
 import { useEffect, useState } from 'react';
-import { Dial, TypeChips, TypeLine } from './MergedViews.jsx';
+import { Dial, TypeChips, TypeLine, plateOf } from './MergedViews.jsx';
 import { LifeLine } from './DepthViews.jsx';
 import './v5.css';
 
@@ -40,7 +40,7 @@ export function InkDot({ el, size = 40, Use, label }) {
   );
 }
 
-export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIcon, wheelTile, onRun, onEnergy, onOpen, onBirthChart, Use, DOM, typeOn = false }) {
+export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIcon, wheelTile, onRun, onEnergy, onOpen, onBirthChart, Use, DOM, typeOn = false, onFirstReading, onCircle }) {
   const read = useReadMap();
   const [mins, setMins] = useState({});
   useEffect(() => {
@@ -78,12 +78,15 @@ export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIco
       {typeOn && g.type ? (
         <>
           <TypeLine g={g} className="v5-mani" />
-          <TypeChips m={m} g={g} Use={Use} InkDot={InkDot} onRun={onRun} />
+          <TypeChips m={m} g={g} Use={Use} InkDot={InkDot} stamp={(k) => (k === 'run' ? stamp('run') : k === 'needs' ? stamp('energies') : null)}
+            doors={{ archetype: onFirstReading, run: onRun, mode: () => onEnergy(g.type.mode.el), needs: g.type.need ? () => onEnergy(g.type.need.el) : null }} />
         </>
       ) : <p className="v5-mani">{m.manifesto}</p>}
       {wheelTile}
       <div className="v5-readline"><span>{done} of {ids.length} read</span><span className="v5-rlprog"><i style={{ width: `${(done / ids.length) * 100}%` }} /></span><span>{left ? `${left} min left` : 'All read'}</span></div>
       <div className="v5-bento">
+        {/* THE TYPE (K3 A): the Run and Needs chips open these pages, so their two tiles step down */}
+        {typeOn && g.type ? null : (<>
         <button type="button" className="v5-bt" onClick={onRun}>
           {stamp('run')}
           <span className="v5-ey">How am I running?</span>
@@ -101,6 +104,7 @@ export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIco
         ) : (
           <div className="v5-bt"><span className="v5-ey">Start here</span><span className="v5-ft">{g.rx}</span></div>
         )}
+        </>)}
         {!g.balanced ? (
           <div className="v5-bt wide v5-asks">
             <span className="v5-ey">What does my chart ask for?</span>
@@ -109,6 +113,18 @@ export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIco
               <span className="v5-rxg"><span className="v5-rxl cat"><Use id="ar-up" />Grow</span>{g.seek.map((el) => <button type="button" key={el} className="v5-rxb" onClick={() => onEnergy(el)} aria-label={`${g.rows[el].name}: open its sheet`}><InkDot el={el} size={30} Use={Use} /></button>)}</span>
             </div>
           </div>
+        ) : null}
+        {typeOn && g.type ? (
+          <button type="button" className="v5-bt wide v5-circle" onClick={onCircle} disabled={!onCircle}>
+            <span className="v5-ey">Your circle</span>
+            <b className="v5-cl sm">{g.type.circle.head}</b>
+            <span className="v5-cir">
+              {g.type.circle.fuel.length ? <span><small>Fuel</small><span className="cp">{g.type.circle.fuel.map((x) => <img key={x.stem} src={plateOf(x.stem)} alt={x.archetype} />)}</span><em>{g.type.circle.fuel.map((x) => `${x.archetype.replace(/^The /, '')}s`).join(' & ')}</em></span> : null}
+              <span><small>Bond</small><span className="cp"><img src={plateOf(g.type.circle.bond.stem)} alt="" /></span><em>{g.type.circle.bond.archetype}</em></span>
+              <span><small>Mirror</small><span className="cp"><img src={plateOf(m.stem)} alt="" /></span><em>{m.archetype.replace(/^The /, '')}s</em></span>
+            </span>
+            <span className="v5-ft">{g.type.circle.cta}<span className="readcirc sm"><Use id="ico-arrow-r" /></span></span>
+          </button>
         ) : null}
         {dm ? (
           <button type="button" className="v5-bt wide tall art" onClick={() => onOpen('domains')}>

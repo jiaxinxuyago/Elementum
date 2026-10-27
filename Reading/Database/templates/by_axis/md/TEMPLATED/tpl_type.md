@@ -9,7 +9,7 @@
 | **axis** | TEMPLATED |
 | **key** | tpl_type |
 | **construct** | Derived slot template (REA_03 §5; REA_02 §5h) |
-| **status** | RULED 2026-10-27 (owner M1–M6 A; then the needs clauses ×7 and the opener "Your chart is heaviest in", replacing "Most of your chart") · the share card and the album hero (TYPE_V1) |
+| **status** | RULED 2026-10-27 (owner M1–M6 A; then the needs clauses ×7 and the opener "Your chart is heaviest in", replacing "Most of your chart") · the circle tile (K4 A) · the share card and the album (TYPE_V1) |
 | **budget** | name ≤6w · line ≤22w |
 | **sources** | REA_03 §5 (patterns) · ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md (the Elementum Type, M1–M6 A) |
 
@@ -31,3 +31,6 @@
 | `needs.dominant` | and the {El} you need is already there to use. |
 | `needs.same` | and that is the {El} you need. |
 | `needs.balanced` | and your five energies stay close to even. |
+| `circle.head` | {Fuel} carry the {El} you need |
+| `circle.balanced` | {Bond} is your classical match |
+| `circle.cta` | Who completes your chart? |

@@ -137,3 +137,16 @@
 .al .v5-tileart .al-row{ margin-top:46px; }
 
 @media (prefers-reduced-motion: reduce){ .lf-cards .lf-body{ animation:none; } }
+
+/* THE TYPE on the album (owner 2026-10-27, K1–K4 A): the chips are the doors
+   (read marks as on the tiles), and the Your circle tile after "What does my
+   chart ask for?" */
+.jny .v5-hub .ty-chip.door{ position:relative; cursor:pointer; }
+.jny .v5-hub .ty-chip.door .v5-unread,.jny .v5-hub .ty-chip.door .v5-stamp{ position:absolute; top:6px; right:6px; transform:scale(.8); transform-origin:top right; }
+.jny .v5-circle{ gap:8px; }
+.jny .v5-cir{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; width:100%; }
+.jny .v5-cir>span{ display:flex; flex-direction:column; align-items:center; gap:2px; text-align:center; min-width:0; }
+.jny .v5-cir small{ font-family:Cinzel,Georgia,serif; font-size:7.5px; letter-spacing:2px; text-transform:uppercase; color:var(--bronzeDark); }
+.jny .v5-cir .cp{ display:flex; } .jny .v5-cir .cp img{ width:38px; height:38px; object-fit:contain; } .jny .v5-cir .cp img+img{ margin-left:-10px; }
+.jny .v5-cir em{ font-style:normal; font-family:'Cormorant Garamond',Georgia,serif; font-size:14px; font-weight:600; color:var(--ink); }
+.jny .v5-circle .v5-ft{ width:100%; }

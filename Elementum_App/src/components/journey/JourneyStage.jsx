@@ -193,7 +193,8 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const setWheelView = (v) => { setWheelViewS(v); try { localStorage.setItem(WHEEL_VIEW_KEY, v); } catch { /* storage off */ } };
   const [storyOn, setStoryOn] = useState(false);   // THE MERGE: the first reading's eight cards
   const storyDoneRef = useRef(false);
-  const [storyStart, setStoryStart] = useState(0);   // dev: open the first reading at a card
+  const [storyStart, setStoryStart] = useState(0);
+  const [replayOn, setReplayOn] = useState(false);   // THE TYPE (K2 A): the Archetype chip replays the first reading   // dev: open the first reading at a card
   const finishRef = useRef(null);
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom') — fn re-split as the function reading's home (owner re-org 2026-09-02)
@@ -719,6 +720,12 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
               onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
           )}
 
+          {/* THE TYPE (K2 A): the album's Archetype chip replays the first reading's eight cards */}
+          {replayOn && merged && (
+            <FirstReading key="replay" start={0} door={SC_LIVE} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => { setReplayOn(false); setShowShare(true); }}
+              onEnter={() => setReplayOn(false)} />
+          )}
+
           {/* ── the catalogue ── */}
           <div className={`jscreen${screen === 'catalogue' ? ' active' : ''}`} data-screen="catalogue">
             <img className="ground-img2 bg-energy2" src="/backgrounds/bg-energymap-01-top-band.png" alt="" />
@@ -853,6 +860,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 {V5_LIVE && merged && (
                   <AlbumHub m={m} g={merged} depth={depth} positions={allPositions} hourUnknown={hourUnknown}
                     sealSrc={sealSrc} condIcon={condIcon} Use={Use} DOM={DOM} typeOn={TYPE_V1}
+                    onFirstReading={() => setReplayOn(true)} onCircle={onOpenCompat || null}
                     onRun={() => goScreen('run')} onEnergy={(el) => setSheetEl(el)} onBirthChart={onBirthChart}
                     onOpen={(name) => openDepth(name, null, 'catalogue')}
                     wheelTile={(
