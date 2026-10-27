@@ -53,6 +53,8 @@ export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${ST
 // sit in the card's paper (InkArt): multiplied onto the cardstock, edges masked,
 // D1 bleeding off the top, D2 a column the text flows around, D3 closing the card.
 const dmArt = (stem, n) => `/concept-arts/stems/dm/${STEM_PY[stem]}-d${n}.png`;
+// the screen's stage: one ground painting per stem under the cards, so short cards never float over bare paper (owner 2026-10-27: no empty space over 40%)
+export const dmStage = (stem) => `/concept-arts/stems/dm/${STEM_PY[stem]}-stage.png`;
 const pairArt = (stem, el) => `/concept-arts/pairs/pair_${STEM_ELK[stem]}_${el}.png`;
 function ArtSlot({ src, ratio, label }) {
   const [miss, setMiss] = useState(false);

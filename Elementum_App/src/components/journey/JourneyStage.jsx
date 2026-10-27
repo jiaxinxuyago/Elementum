@@ -63,7 +63,7 @@ function MetricBars({ m }) {
 import { APP_URL, APP_HOST } from '../../infra/index.js';
 import { DM_READING } from '../../content/reading/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
-import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeCircle, DayMasterPage } from './MergedViews.jsx';
+import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeCircle, DayMasterPage, dmStage } from './MergedViews.jsx';
 import { MERGE_V1 } from './mergeFlag.js';
 import { resolveDayMasterReading } from '../reading/readingResolve.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
@@ -917,6 +917,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
           {TYPE_V1 && merged?.type && (
             <div className={`jscreen${screen === 'daymaster' ? ' active' : ''}`} data-screen="daymaster">
               <div className="plateimg a-plate-rice" /><div className="eltint" />
+              <img className="ground-img2 dmp-stage" src={dmStage(m.stem)} alt="" />
               <button className="backrow" aria-label="Back to Your reading" onClick={() => goScreen('catalogue')}>
                 <span className="bico"><Use id="ico-chev-l" /></span>
                 <span className="bl el-back">YOUR READING · YOUR DAY MASTER</span>
