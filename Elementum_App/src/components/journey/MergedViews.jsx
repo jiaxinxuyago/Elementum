@@ -72,7 +72,7 @@ export function TypeChips({ m, g, Use, InkDot, doors = null, stamp = null }) {
 // reader's stem, on one page. STEM: archetype_name, pinyin, manifesto, the
 // Sign (dm_overview), your nature (yourNature_desc, the band-invariant
 // baseline; the band paragraph stays on How am I running?), the inscription,
-// dm_claims and dm_mechanism (both pending, tagged draft on dev). The type and
+// dm_claims and dm_mechanism (both locked 2026-10-27). The type and
 // the circle close it, with the doors on.
 export function DayMasterPage({ m, g, dm, Use, onRun, onCircle, onReplay }) {
   const t = g.type;
@@ -93,13 +93,13 @@ export function DayMasterPage({ m, g, dm, Use, onRun, onCircle, onReplay }) {
       ) : null}
       {dm.inscription || dm.claims?.length ? (
         <div className="cardstock dmp-sec">
-          <span className="mg-lab">What people notice{dm.claims?.length ? <span className="dp-draft">draft</span> : null}</span>
+          <span className="mg-lab">What people notice</span>
           {dm.inscription ? <p className="dmp-ins">{dm.inscription}</p> : null}
           {dm.claims?.length ? <ul className="dmp-claims">{dm.claims.map((c) => <li key={c}>{c}</li>)}</ul> : null}
         </div>
       ) : null}
       {dm.edge ? (
-        <div className="cardstock dmp-sec"><span className="mg-lab">How your edge is built<span className="dp-draft">draft</span></span><p className="dmp-body">{dm.edge}</p></div>
+        <div className="cardstock dmp-sec"><span className="mg-lab">How your edge is built</span><p className="dmp-body">{dm.edge}</p></div>
       ) : null}
       {t ? (
         <div className="cardstock dmp-sec">
