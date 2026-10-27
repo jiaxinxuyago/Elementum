@@ -172,3 +172,20 @@ Across 3,000 random charts every line fills, and 47 of the 50 types appear.
 - **Opener:** "Your chart is heaviest in" replaces "Most of your chart", because the mode is the largest share and not always a majority. The mode phrases are the locked wheel words as noun phrases: more of you / what feeds you / what shapes you / what you feed / what you shape.
   - Example: "Mind mode. Your chart is heaviest in what feeds you, and it holds little of the Fire you need."
 - **Fit:** checked on five charts, all within 306×544. `tpl_type` is fully ruled and on dev.
+
+## The album and the card as a pair (2026-10-27; AWAITING THE OWNER, K1–K4)
+
+The owner asked how the share card echoes the catalogue (Your reading) when the reader taps into each reading. They asked for 2–3 album variants with the new metrics, keeping the current design and the dominance wheel, shown side by side with the card. Page: https://claude.ai/artifact/RopRSiD8DoV3ZzwZhyHZUy
+
+The variants are built from dev screenshots on the golden chart (the wheel and the depth tiles are real screenshots). Each card block is numbered to its album door.
+
+**The three variants:**
+- **A, Doors** (recommended): the chip row is the set of doors. The "How am I running?" and "Start here" tiles fold into the Run and Needs chips. A Your circle tile is added.
+- **B, The card on top:** the album opens on the card's face with its share button, and the card's Release/Grow grid becomes the "asks for" tile.
+- **C, Type tiles:** no chip row. The four slots become full tiles at the head of the bento.
+
+**Rows:**
+- K1: the layout.
+- K2: where the Archetype chip leads (A = the first reading).
+- K3: fold the two tiles into the chips.
+- K4: the circle tile on the album.
