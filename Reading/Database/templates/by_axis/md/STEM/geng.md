@@ -24,6 +24,95 @@
 | `pinyin_display` | GĒNG · YANG METAL |
 | `dm_claims` | Being vague feels worse to you than being wrong. · People come to you when they need the unsoftened truth. |
 | `dm_mechanism` | Yang Metal tempered by spring wood, strength that grew against resistance, not in its absence. |
+| `gifts[0].phrase` | Never looks tired |
+| `gifts[0].dim` | running low |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 金_金.function.definition_catalyst |
+| `gifts[0].desc` | You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens. |
+| `gifts[1].phrase` | Finishes properly |
+| `gifts[1].dim` | at work |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 金_金.function.definition_catalyst |
+| `gifts[1].desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
+| `gifts[2].phrase` | First-handshake read |
+| `gifts[2].dim` | first impressions |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 金_土.function.definition_catalyst |
+| `gifts[2].desc` | Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake. |
+| `gifts[3].phrase` | Practices alone |
+| `gifts[3].dim` | practice |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 金_土.carry.wide |
+| `gifts[3].desc` | The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way. |
+| `gifts[4].phrase` | No dressed-up answers |
+| `gifts[4].dim` | communication |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 金_水.function.definition_catalyst |
+| `gifts[4].desc` | What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain. |
+| `gifts[5].phrase` | Plays the long game |
+| `gifts[5].dim` | trimming a plan |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 金_木.function.definition_catalyst |
+| `gifts[5].desc` | You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl. |
+| `gifts[6].phrase` | Crisis performer |
+| `gifts[6].dim` | under pressure |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 金_火.function.definition_catalyst |
+| `gifts[6].desc` | The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved. |
+| `shadows[0].phrase` | Tense all over |
+| `shadows[0].dim` | unspent discipline |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 金_金.function.definition_friction |
+| `shadows[0].desc` | Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak. |
+| `shadows[1].phrase` | Never reconsiders |
+| `shadows[1].dim` | second chances |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 金_金.carry.excess |
+| `shadows[1].desc` | Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut. |
+| `shadows[2].phrase` | Lives inside plans |
+| `shadows[2].dim` | testing the plan |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 金_土.function.definition_friction |
+| `shadows[2].desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
+| `shadows[3].phrase` | Overprepared |
+| `shadows[3].dim` | showing the work |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 金_土.carry.excess |
+| `shadows[3].desc` | Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth. |
+| `shadows[4].phrase` | No filter |
+| `shadows[4].dim` | saying too much |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 金_水.function.definition_friction |
+| `shadows[4].desc` | Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem. |
+| `shadows[5].phrase` | Spins its wheels |
+| `shadows[5].dim` | trimming |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 金_木.function.definition_friction |
+| `shadows[5].desc` | Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in. |
+| `shadows[6].phrase` | Own harshest critic |
+| `shadows[6].dim` | self-worth |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 金_火.function.definition_friction |
+| `shadows[6].desc` | Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days. |
+| `door_note.body` | Metal |
+| `door_note.mind` | Earth |
+| `door_note.expression` | Water |
+| `door_note.action` | Wood |
+| `door_note.order` | Fire |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
 | `dm_overview` | The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech. |
 | `who` | You are the Blade, the Metal that has already been through fire. You are kept plain and kept sharp, and you come out only for the true thing. |
@@ -245,96 +334,6 @@
 | `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.face` | echo |
 | `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.echo_of` | 金_木.function.definition_friction |
 | `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.desc` | Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in. |
-| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
-| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
-| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
-| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Never looks tired |
-| `retired_2026-10-17_diagnosis.gifts[0].dim` | running low |
-| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 金_金.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[0].desc` | You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens. |
-| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Finishes properly |
-| `retired_2026-10-17_diagnosis.gifts[1].dim` | at work |
-| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 金_金.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[1].desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
-| `retired_2026-10-17_diagnosis.gifts[2].phrase` | First-handshake read |
-| `retired_2026-10-17_diagnosis.gifts[2].dim` | first impressions |
-| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 金_土.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[2].desc` | Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake. |
-| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Practices alone |
-| `retired_2026-10-17_diagnosis.gifts[3].dim` | practice |
-| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 金_土.carry.wide |
-| `retired_2026-10-17_diagnosis.gifts[3].desc` | The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way. |
-| `retired_2026-10-17_diagnosis.gifts[4].phrase` | No dressed-up answers |
-| `retired_2026-10-17_diagnosis.gifts[4].dim` | communication |
-| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
-| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 金_水.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[4].desc` | What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain. |
-| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Plays the long game |
-| `retired_2026-10-17_diagnosis.gifts[5].dim` | trimming a plan |
-| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
-| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 金_木.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[5].desc` | You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl. |
-| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Crisis performer |
-| `retired_2026-10-17_diagnosis.gifts[6].dim` | under pressure |
-| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
-| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 金_火.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[6].desc` | The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved. |
-| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Tense all over |
-| `retired_2026-10-17_diagnosis.shadows[0].dim` | unspent discipline |
-| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 金_金.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[0].desc` | Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak. |
-| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Never reconsiders |
-| `retired_2026-10-17_diagnosis.shadows[1].dim` | second chances |
-| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 金_金.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[1].desc` | Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut. |
-| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Lives inside plans |
-| `retired_2026-10-17_diagnosis.shadows[2].dim` | testing the plan |
-| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 金_土.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[2].desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
-| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Overprepared |
-| `retired_2026-10-17_diagnosis.shadows[3].dim` | showing the work |
-| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 金_土.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[3].desc` | Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth. |
-| `retired_2026-10-17_diagnosis.shadows[4].phrase` | No filter |
-| `retired_2026-10-17_diagnosis.shadows[4].dim` | saying too much |
-| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
-| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 金_水.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[4].desc` | Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem. |
-| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Spins its wheels |
-| `retired_2026-10-17_diagnosis.shadows[5].dim` | trimming |
-| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
-| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 金_木.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[5].desc` | Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in. |
-| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Own harshest critic |
-| `retired_2026-10-17_diagnosis.shadows[6].dim` | self-worth |
-| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
-| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 金_火.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[6].desc` | Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days. |
-| `retired_2026-10-17_diagnosis.door_note.body` | Metal |
-| `retired_2026-10-17_diagnosis.door_note.mind` | Earth |
-| `retired_2026-10-17_diagnosis.door_note.expression` | Water |
-| `retired_2026-10-17_diagnosis.door_note.action` | Wood |
-| `retired_2026-10-17_diagnosis.door_note.order` | Fire |
+| `retired_2026-10-17_diagnosis.status` | REVIVED 2026-10-27 |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, "this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions"): gifts, shadows and door_note moved back to candidates. |
 | `retired_2026-10-27_manifesto_l1` | Precision before intention |

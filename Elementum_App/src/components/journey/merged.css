@@ -264,3 +264,13 @@ button.ty-cc{ cursor:pointer; }
 /* polish (design session, 2026-10-27): the type card's inscription is the stem
    line alone and sits in the top corner; the chips take the full width */
 .jny .share-card[data-type="1"] .sn-inscr{ top:20px; right:16px; }
+.jny .dmp-sub{ margin-top:6px; }
+.jny .dmp-lead{ margin:0; font-family:'EB Garamond',Georgia,serif; font-size:14.5px; line-height:1.45; color:var(--inkSoft); }
+.jny .dmp-group{ display:flex; flex-direction:column; align-items:flex-start; gap:8px; padding-top:6px; }
+.jny .dmp-face{ display:grid; grid-template-columns:44px minmax(0,1fr); gap:10px; width:100%; align-items:start; text-align:left; border:0; border-top:1px solid var(--paperHair); background:none; padding:10px 0 2px; font:inherit; color:inherit; cursor:pointer; }
+.jny .dmp-face:focus-visible{ outline:2px solid var(--bronzeDark); outline-offset:2px; border-radius:8px; }
+.jny .dmp-fdot{ display:grid; place-items:center; padding-top:2px; }
+.jny .dmp-ftx{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+.jny .dmp-fey{ font-family:Cinzel,Georgia,serif; font-size:8px; letter-spacing:1.6px; text-transform:uppercase; color:var(--inkLight); }
+.jny .dmp-ftx b{ font-family:'Cormorant Garamond',Georgia,serif; font-size:19px; font-weight:600; line-height:1.15; color:var(--ink); }
+.jny .dmp-fd{ font-family:'EB Garamond',Georgia,serif; font-size:14.5px; line-height:1.45; color:var(--inkSoft); }

@@ -24,6 +24,95 @@
 | `pinyin_display` | WÙ · YANG EARTH |
 | `dm_claims` | You become the ground others stand on without being asked. · When plans wobble, yours is the version everyone quietly adopts. |
 | `dm_mechanism` | Yang Earth that holds its shape, weight that becomes shelter under load. |
+| `gifts[0].phrase` | Everyone's rock |
+| `gifts[0].dim` | being leaned on |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 土_土.function.definition_catalyst |
+| `gifts[0].desc` | The physical calm under everything else. Friends plan around you the way builders plan around bedrock, and it only erodes under skipped meals and moved bedtimes. |
+| `gifts[1].phrase` | Shows up regardless |
+| `gifts[1].dim` | showing up |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 土_土.function.definition_catalyst |
+| `gifts[1].desc` | Storms, funerals, moving days, the long boring middle of hard times. Plenty of steadiness, and you are still there in week six. |
+| `gifts[2].phrase` | Learns from people |
+| `gifts[2].dim` | how you learn |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 土_火.function.definition_catalyst |
+| `gifts[2].desc` | Cold text slides off. What warmed you stays: the person who showed you, the evening it was said, the praise that made it stick. |
+| `gifts[3].phrase` | Keeps the record |
+| `gifts[3].dim` | memory |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 土_火.carry.wide |
+| `gifts[3].desc` | So much has warmed its way in that you remember what was said, when, and by whom. Not to use it. Because it happened. |
+| `gifts[4].phrase` | Says it once |
+| `gifts[4].dim` | speaking up |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 土_金.function.definition_catalyst |
+| `gifts[4].desc` | You say the thing one time, plainly, the exact word, and do not repeat it. People learn to listen the first time. |
+| `gifts[5].phrase` | Safe hands |
+| `gifts[5].dim` | things in motion |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 土_水.function.definition_catalyst |
+| `gifts[5].desc` | Money, chances, people in motion all need somewhere reliable to land. You profit by being the still point in a moving system. |
+| `gifts[6].phrase` | Carries the family |
+| `gifts[6].dim` | obligations |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 土_木.function.definition_catalyst |
+| `gifts[6].desc` | Family, teams, the people who grow back each season and ask you to grow with them. Care is your discipline, and it keeps you moving. |
+| `shadows[0].phrase` | Sinks into routine |
+| `shadows[0].dim` | habits |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 土_土.function.definition_friction |
+| `shadows[0].desc` | Heaviness accumulating. Routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving. |
+| `shadows[1].phrase` | Can't let go |
+| `shadows[1].dim` | endings |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 土_土.carry.excess |
+| `shadows[1].desc` | So much steadiness nothing new can root. Jobs, grudges, houses, roles that ended years ago, all still held, because letting go feels like betraying everyone who leaned on the holding. |
+| `shadows[2].phrase` | Feeds on distraction |
+| `shadows[2].dim` | what counts as input |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 土_火.function.definition_friction |
+| `shadows[2].desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
+| `shadows[3].phrase` | Hard to persuade |
+| `shadows[3].dim` | changing course |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 土_火.carry.excess |
+| `shadows[3].desc` | Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map. |
+| `shadows[4].phrase` | Drained by deadlines |
+| `shadows[4].dim` | output on demand |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 土_金.function.definition_friction |
+| `shadows[4].desc` | More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you. |
+| `shadows[5].phrase` | Micromanages |
+| `shadows[5].dim` | control |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 土_水.function.definition_friction |
+| `shadows[5].desc` | Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. |
+| `shadows[6].phrase` | Never forgives itself |
+| `shadows[6].dim` | being judged |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 土_木.function.definition_friction |
+| `shadows[6].desc` | Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years. |
+| `door_note.body` | Earth |
+| `door_note.mind` | Fire |
+| `door_note.expression` | Metal |
+| `door_note.action` | Water |
+| `door_note.order` | Wood |
 | `yourNature_desc` | You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying. |
 | `dm_overview` | The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair. |
 | `who` | *(unauthored)* |
@@ -180,96 +269,6 @@
 | `retired_2026-09-21_cold_read.shadows.Manages everything.face` | echo |
 | `retired_2026-09-21_cold_read.shadows.Manages everything.echo_of` | 土_水.function.definition_friction |
 | `retired_2026-09-21_cold_read.shadows.Manages everything.desc` | Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. |
-| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
-| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
-| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
-| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Everyone's rock |
-| `retired_2026-10-17_diagnosis.gifts[0].dim` | being leaned on |
-| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 土_土.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[0].desc` | The physical calm under everything else. Friends plan around you the way builders plan around bedrock, and it only erodes under skipped meals and moved bedtimes. |
-| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Shows up regardless |
-| `retired_2026-10-17_diagnosis.gifts[1].dim` | showing up |
-| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 土_土.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[1].desc` | Storms, funerals, moving days, the long boring middle of hard times. Plenty of steadiness, and you are still there in week six. |
-| `retired_2026-10-17_diagnosis.gifts[2].phrase` | Learns from people |
-| `retired_2026-10-17_diagnosis.gifts[2].dim` | how you learn |
-| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 土_火.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[2].desc` | Cold text slides off. What warmed you stays: the person who showed you, the evening it was said, the praise that made it stick. |
-| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Keeps the record |
-| `retired_2026-10-17_diagnosis.gifts[3].dim` | memory |
-| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 土_火.carry.wide |
-| `retired_2026-10-17_diagnosis.gifts[3].desc` | So much has warmed its way in that you remember what was said, when, and by whom. Not to use it. Because it happened. |
-| `retired_2026-10-17_diagnosis.gifts[4].phrase` | Says it once |
-| `retired_2026-10-17_diagnosis.gifts[4].dim` | speaking up |
-| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
-| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 土_金.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[4].desc` | You say the thing one time, plainly, the exact word, and do not repeat it. People learn to listen the first time. |
-| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Safe hands |
-| `retired_2026-10-17_diagnosis.gifts[5].dim` | things in motion |
-| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
-| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 土_水.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[5].desc` | Money, chances, people in motion all need somewhere reliable to land. You profit by being the still point in a moving system. |
-| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Carries the family |
-| `retired_2026-10-17_diagnosis.gifts[6].dim` | obligations |
-| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
-| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 土_木.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[6].desc` | Family, teams, the people who grow back each season and ask you to grow with them. Care is your discipline, and it keeps you moving. |
-| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Sinks into routine |
-| `retired_2026-10-17_diagnosis.shadows[0].dim` | habits |
-| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 土_土.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[0].desc` | Heaviness accumulating. Routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving. |
-| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Can't let go |
-| `retired_2026-10-17_diagnosis.shadows[1].dim` | endings |
-| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 土_土.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[1].desc` | So much steadiness nothing new can root. Jobs, grudges, houses, roles that ended years ago, all still held, because letting go feels like betraying everyone who leaned on the holding. |
-| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Feeds on distraction |
-| `retired_2026-10-17_diagnosis.shadows[2].dim` | what counts as input |
-| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 土_火.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[2].desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
-| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Hard to persuade |
-| `retired_2026-10-17_diagnosis.shadows[3].dim` | changing course |
-| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 土_火.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[3].desc` | Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map. |
-| `retired_2026-10-17_diagnosis.shadows[4].phrase` | Drained by deadlines |
-| `retired_2026-10-17_diagnosis.shadows[4].dim` | output on demand |
-| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
-| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 土_金.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[4].desc` | More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you. |
-| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Micromanages |
-| `retired_2026-10-17_diagnosis.shadows[5].dim` | control |
-| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
-| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 土_水.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[5].desc` | Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. |
-| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Never forgives itself |
-| `retired_2026-10-17_diagnosis.shadows[6].dim` | being judged |
-| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
-| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 土_木.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[6].desc` | Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years. |
-| `retired_2026-10-17_diagnosis.door_note.body` | Earth |
-| `retired_2026-10-17_diagnosis.door_note.mind` | Fire |
-| `retired_2026-10-17_diagnosis.door_note.expression` | Metal |
-| `retired_2026-10-17_diagnosis.door_note.action` | Water |
-| `retired_2026-10-17_diagnosis.door_note.order` | Wood |
+| `retired_2026-10-17_diagnosis.status` | REVIVED 2026-10-27 |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, "this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions"): gifts, shadows and door_note moved back to candidates. |
 | `retired_2026-10-27_manifesto_l1` | Immovable by design |

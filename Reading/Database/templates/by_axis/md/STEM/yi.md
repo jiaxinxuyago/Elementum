@@ -24,6 +24,95 @@
 | `pinyin_display` | YǏ · YIN WOOD |
 | `dm_claims` | You bend where others break, and arrive intact. · You find the one opening in a wall and grow through it. |
 | `dm_mechanism` | Yin Wood that wins by yielding, resilience dressed as softness. |
+| `gifts[0].phrase` | Starts over easily |
+| `gifts[0].dim` | setbacks |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 木_木.function.definition_catalyst |
+| `gifts[0].desc` | Cut back to nothing in March, and by June there is a green line up the wall again. The will to start is your reserve, and it refills. |
+| `gifts[1].phrase` | Thrives on little |
+| `gifts[1].dim` | conditions |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 木_木.function.definition_catalyst |
+| `gifts[1].desc` | Give you a wall, any wall, and by summer there is green on it. Plenty of growing force, and it never waits for ideal conditions. |
+| `gifts[2].phrase` | Remembers the route |
+| `gifts[2].dim` | second attempts |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 木_水.function.definition_catalyst |
+| `gifts[2].desc` | Every wall you have climbed is a map you keep. It goes in quietly, over rest and long conversations, and the second time is never the long way. |
+| `gifts[3].phrase` | Nobody's fool |
+| `gifts[3].dim` | reading people |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 木_水.carry.wide |
+| `gifts[3].desc` | Years of quiet taking-in, and now you clock the difference between what is said and what is meant almost instantly. People stopped managing you long ago. |
+| `gifts[4].phrase` | Wins people over |
+| `gifts[4].dim` | trust |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 木_火.function.definition_catalyst |
+| `gifts[4].desc` | Not loudly, and not fast. But put your name on the work and give it a season, and the skeptics are asking your opinion first. |
+| `gifts[5].phrase` | Settles in |
+| `gifts[5].dim` | holding on |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 木_土.function.definition_catalyst |
+| `gifts[5].desc` | Where you arrive, you stay. The job, the flat, the friendship you climbed toward becomes something held, and it holds you back. |
+| `gifts[6].phrase` | Thrives on feedback |
+| `gifts[6].dim` | under review |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 木_金.function.definition_catalyst |
+| `gifts[6].desc` | Cut back by the right hands, you come back stronger. An editor, a coach, a rule you chose, and the vine climbs straighter. |
+| `shadows[0].phrase` | Tangled in others |
+| `shadows[0].dim` | pulling free |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 木_木.function.definition_friction |
+| `shadows[0].desc` | More growing force than your life has outlets for, so it wraps around people. Pulling free now would take them down too. |
+| `shadows[1].phrase` | Grows over others |
+| `shadows[1].dim` | the shared wall |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 木_木.carry.excess |
+| `shadows[1].desc` | Given a shared wall, you take the sunny side without noticing. Growth so dense no other light gets in, and later you wonder why the other vine went quiet. |
+| `shadows[2].phrase` | Loses the thread |
+| `shadows[2].dim` | direction |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 木_水.function.definition_friction |
+| `shadows[2].desc` | One more opinion, one more book, and the winding forgets where it was going. Reflection has turned into stalling. |
+| `shadows[3].phrase` | Drifts with advice |
+| `shadows[3].dim` | face value |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 木_水.carry.excess |
+| `shadows[3].desc` | So much taken in that the roots lift off the ground. Every opinion moves you a little, and lately the destination moves too. |
+| `shadows[4].phrase` | Announces too early |
+| `shadows[4].dim` | the bare wall |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 木_火.function.definition_friction |
+| `shadows[4].desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |
+| `shadows[5].phrase` | Can't say no |
+| `shadows[5].dim` | saying yes |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 木_土.function.definition_friction |
+| `shadows[5].desc` | A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else. |
+| `shadows[6].phrase` | Blames itself first |
+| `shadows[6].dim` | being judged |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 木_金.function.definition_friction |
+| `shadows[6].desc` | You keep adapting long after the honest move was to stop, and when the shape stops being yours, the first name on the blame list is your own. |
+| `door_note.body` | Wood |
+| `door_note.mind` | Water |
+| `door_note.expression` | Fire |
+| `door_note.action` | Earth |
+| `door_note.order` | Metal |
 | `yourNature_desc` | You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful. |
 | `dm_overview` | The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved. |
 | `who` | *(unauthored)* |
@@ -188,96 +277,6 @@
 | `retired_2026-09-21_cold_read.shadows.Takes every opening.face` | echo |
 | `retired_2026-09-21_cold_read.shadows.Takes every opening.echo_of` | 木_土.function.definition_friction |
 | `retired_2026-09-21_cold_read.shadows.Takes every opening.desc` | A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else. |
-| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
-| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
-| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
-| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Starts over easily |
-| `retired_2026-10-17_diagnosis.gifts[0].dim` | setbacks |
-| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 木_木.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[0].desc` | Cut back to nothing in March, and by June there is a green line up the wall again. The will to start is your reserve, and it refills. |
-| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Thrives on little |
-| `retired_2026-10-17_diagnosis.gifts[1].dim` | conditions |
-| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 木_木.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[1].desc` | Give you a wall, any wall, and by summer there is green on it. Plenty of growing force, and it never waits for ideal conditions. |
-| `retired_2026-10-17_diagnosis.gifts[2].phrase` | Remembers the route |
-| `retired_2026-10-17_diagnosis.gifts[2].dim` | second attempts |
-| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 木_水.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[2].desc` | Every wall you have climbed is a map you keep. It goes in quietly, over rest and long conversations, and the second time is never the long way. |
-| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Nobody's fool |
-| `retired_2026-10-17_diagnosis.gifts[3].dim` | reading people |
-| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 木_水.carry.wide |
-| `retired_2026-10-17_diagnosis.gifts[3].desc` | Years of quiet taking-in, and now you clock the difference between what is said and what is meant almost instantly. People stopped managing you long ago. |
-| `retired_2026-10-17_diagnosis.gifts[4].phrase` | Wins people over |
-| `retired_2026-10-17_diagnosis.gifts[4].dim` | trust |
-| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
-| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 木_火.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[4].desc` | Not loudly, and not fast. But put your name on the work and give it a season, and the skeptics are asking your opinion first. |
-| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Settles in |
-| `retired_2026-10-17_diagnosis.gifts[5].dim` | holding on |
-| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
-| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 木_土.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[5].desc` | Where you arrive, you stay. The job, the flat, the friendship you climbed toward becomes something held, and it holds you back. |
-| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Thrives on feedback |
-| `retired_2026-10-17_diagnosis.gifts[6].dim` | under review |
-| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
-| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 木_金.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[6].desc` | Cut back by the right hands, you come back stronger. An editor, a coach, a rule you chose, and the vine climbs straighter. |
-| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Tangled in others |
-| `retired_2026-10-17_diagnosis.shadows[0].dim` | pulling free |
-| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 木_木.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[0].desc` | More growing force than your life has outlets for, so it wraps around people. Pulling free now would take them down too. |
-| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Grows over others |
-| `retired_2026-10-17_diagnosis.shadows[1].dim` | the shared wall |
-| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 木_木.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[1].desc` | Given a shared wall, you take the sunny side without noticing. Growth so dense no other light gets in, and later you wonder why the other vine went quiet. |
-| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Loses the thread |
-| `retired_2026-10-17_diagnosis.shadows[2].dim` | direction |
-| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 木_水.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[2].desc` | One more opinion, one more book, and the winding forgets where it was going. Reflection has turned into stalling. |
-| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Drifts with advice |
-| `retired_2026-10-17_diagnosis.shadows[3].dim` | face value |
-| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 木_水.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[3].desc` | So much taken in that the roots lift off the ground. Every opinion moves you a little, and lately the destination moves too. |
-| `retired_2026-10-17_diagnosis.shadows[4].phrase` | Announces too early |
-| `retired_2026-10-17_diagnosis.shadows[4].dim` | the bare wall |
-| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
-| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 木_火.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[4].desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |
-| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Can't say no |
-| `retired_2026-10-17_diagnosis.shadows[5].dim` | saying yes |
-| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
-| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 木_土.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[5].desc` | A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else. |
-| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Blames itself first |
-| `retired_2026-10-17_diagnosis.shadows[6].dim` | being judged |
-| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
-| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 木_金.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[6].desc` | You keep adapting long after the honest move was to stop, and when the shape stops being yours, the first name on the blame list is your own. |
-| `retired_2026-10-17_diagnosis.door_note.body` | Wood |
-| `retired_2026-10-17_diagnosis.door_note.mind` | Water |
-| `retired_2026-10-17_diagnosis.door_note.expression` | Fire |
-| `retired_2026-10-17_diagnosis.door_note.action` | Earth |
-| `retired_2026-10-17_diagnosis.door_note.order` | Metal |
+| `retired_2026-10-17_diagnosis.status` | REVIVED 2026-10-27 |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, "this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions"): gifts, shadows and door_note moved back to candidates. |
 | `retired_2026-10-27_manifesto_l1` | Route bends. Destination holds. |

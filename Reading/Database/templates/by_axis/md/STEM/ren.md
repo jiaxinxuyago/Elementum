@@ -24,6 +24,95 @@
 | `pinyin_display` | RÉN · YANG WATER |
 | `dm_claims` | You see the whole current while others watch the wave. · You move around obstacles rather than through them, and still arrive first. |
 | `dm_mechanism` | Yang Water that carves by patience, force that wins by not insisting. |
+| `gifts[0].phrase` | Recharges in silence |
+| `gifts[0].dim` | recovery |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 水_水.function.definition_catalyst |
+| `gifts[0].desc` | The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back. |
+| `gifts[1].phrase` | Deep calm |
+| `gifts[1].dim` | storms |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 水_水.function.definition_catalyst |
+| `gifts[1].desc` | Plenty of depth. Storms cross the surface, and ten fathoms down nothing has moved. |
+| `gifts[2].phrase` | Learns from experts |
+| `gifts[2].dim` | good teachers |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 水_金.function.definition_catalyst |
+| `gifts[2].desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
+| `gifts[3].phrase` | Strategic mind |
+| `gifts[3].dim` | connections |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 水_金.carry.wide |
+| `gifts[3].desc` | Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading. |
+| `gifts[4].phrase` | Makes others grow |
+| `gifts[4].dim` | what grows after you |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 水_木.function.definition_catalyst |
+| `gifts[4].desc` | You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from. |
+| `gifts[5].phrase` | Thinks big |
+| `gifts[5].dim` | horizons |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 水_火.function.definition_catalyst |
+| `gifts[5].desc` | Launches, markets, the moment that rewards whoever read it early. Small plans bore you, and you see the far shore clearly where others squint. |
+| `gifts[6].phrase` | Thrives on structure |
+| `gifts[6].dim` | walls you chose |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 水_土.function.definition_catalyst |
+| `gifts[6].desc` | Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the depth becomes force. |
+| `shadows[0].phrase` | Stagnant |
+| `shadows[0].dim` | recovery |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 水_水.function.definition_friction |
+| `shadows[0].desc` | Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes. |
+| `shadows[1].phrase` | Closed book |
+| `shadows[1].dim` | close bonds |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 水_水.carry.excess |
+| `shadows[1].desc` | So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered. |
+| `shadows[2].phrase` | Over-organized |
+| `shadows[2].dim` | sources |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 水_金.function.definition_friction |
+| `shadows[2].desc` | Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking. |
+| `shadows[3].phrase` | Drowning in advice |
+| `shadows[3].dim` | taking counsel |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 水_金.carry.excess |
+| `shadows[3].desc` | So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore. |
+| `shadows[4].phrase` | Overgives |
+| `shadows[4].dim` | other people's gardens |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 水_木.function.definition_friction |
+| `shadows[4].desc` | Every person developed, every idea watered, your depth spent raising gardens you do not live in. |
+| `shadows[5].phrase` | Chases hot chances |
+| `shadows[5].dim` | focus |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 水_火.function.definition_friction |
+| `shadows[5].desc` | Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. |
+| `shadows[6].phrase` | Carries every blame |
+| `shadows[6].dim` | being judged |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 水_土.function.definition_friction |
+| `shadows[6].desc` | A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm. |
+| `door_note.body` | Water |
+| `door_note.mind` | Metal |
+| `door_note.expression` | Wood |
+| `door_note.action` | Fire |
+| `door_note.order` | Earth |
 | `yourNature_desc` | You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live. |
 | `dm_overview` | The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps. |
 | `who` | *(unauthored)* |
@@ -239,96 +328,6 @@
 | `retired_2026-09-21_cold_read.shadows.Sinks under blame.face` | echo |
 | `retired_2026-09-21_cold_read.shadows.Sinks under blame.echo_of` | 水_土.function.definition_friction |
 | `retired_2026-09-21_cold_read.shadows.Sinks under blame.desc` | A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm. |
-| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
-| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
-| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
-| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Recharges in silence |
-| `retired_2026-10-17_diagnosis.gifts[0].dim` | recovery |
-| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 水_水.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[0].desc` | The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back. |
-| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Deep calm |
-| `retired_2026-10-17_diagnosis.gifts[1].dim` | storms |
-| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 水_水.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[1].desc` | Plenty of depth. Storms cross the surface, and ten fathoms down nothing has moved. |
-| `retired_2026-10-17_diagnosis.gifts[2].phrase` | Learns from experts |
-| `retired_2026-10-17_diagnosis.gifts[2].dim` | good teachers |
-| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 水_金.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[2].desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
-| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Strategic mind |
-| `retired_2026-10-17_diagnosis.gifts[3].dim` | connections |
-| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 水_金.carry.wide |
-| `retired_2026-10-17_diagnosis.gifts[3].desc` | Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading. |
-| `retired_2026-10-17_diagnosis.gifts[4].phrase` | Makes others grow |
-| `retired_2026-10-17_diagnosis.gifts[4].dim` | what grows after you |
-| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
-| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 水_木.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[4].desc` | You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from. |
-| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Thinks big |
-| `retired_2026-10-17_diagnosis.gifts[5].dim` | horizons |
-| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
-| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 水_火.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[5].desc` | Launches, markets, the moment that rewards whoever read it early. Small plans bore you, and you see the far shore clearly where others squint. |
-| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Thrives on structure |
-| `retired_2026-10-17_diagnosis.gifts[6].dim` | walls you chose |
-| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
-| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 水_土.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[6].desc` | Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the depth becomes force. |
-| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Stagnant |
-| `retired_2026-10-17_diagnosis.shadows[0].dim` | recovery |
-| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 水_水.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[0].desc` | Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes. |
-| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Closed book |
-| `retired_2026-10-17_diagnosis.shadows[1].dim` | close bonds |
-| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 水_水.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[1].desc` | So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered. |
-| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Over-organized |
-| `retired_2026-10-17_diagnosis.shadows[2].dim` | sources |
-| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 水_金.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[2].desc` | Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking. |
-| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Drowning in advice |
-| `retired_2026-10-17_diagnosis.shadows[3].dim` | taking counsel |
-| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 水_金.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[3].desc` | So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore. |
-| `retired_2026-10-17_diagnosis.shadows[4].phrase` | Overgives |
-| `retired_2026-10-17_diagnosis.shadows[4].dim` | other people's gardens |
-| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
-| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 水_木.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[4].desc` | Every person developed, every idea watered, your depth spent raising gardens you do not live in. |
-| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Chases hot chances |
-| `retired_2026-10-17_diagnosis.shadows[5].dim` | focus |
-| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
-| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 水_火.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[5].desc` | Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. |
-| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Carries every blame |
-| `retired_2026-10-17_diagnosis.shadows[6].dim` | being judged |
-| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
-| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 水_土.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[6].desc` | A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm. |
-| `retired_2026-10-17_diagnosis.door_note.body` | Water |
-| `retired_2026-10-17_diagnosis.door_note.mind` | Metal |
-| `retired_2026-10-17_diagnosis.door_note.expression` | Wood |
-| `retired_2026-10-17_diagnosis.door_note.action` | Fire |
-| `retired_2026-10-17_diagnosis.door_note.order` | Earth |
+| `retired_2026-10-17_diagnosis.status` | REVIVED 2026-10-27 |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, "this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions"): gifts, shadows and door_note moved back to candidates. |
 | `retired_2026-10-27_manifesto_l1` | Depth before disclosure |

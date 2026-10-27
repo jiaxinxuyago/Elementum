@@ -248,3 +248,25 @@ Not shown: `stem_keywords` (retired to ore 2026-09-10); the gifts and shadows po
 
   The change is transcribed to `archetypeSource.js`, and the field card log is updated.
 - **Elementum.life:** the manifesto shows on the live site today (the album hero and the reveal), so the new L1s go live with this push. The claims and the edge lines appear only on the Day Master page, which is on dev only (TYPE_V1).
+
+### The Day Master page, reworked (owner 2026-10-27)
+
+Owner: "What People Notice is just an opener to Your Nature, and this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions."
+
+**Your nature** now opens on the inscription. The nature paragraph follows, then "What people notice" (the two claims) as a sub-list.
+
+**Through your five energies** (new): one face of the stem's door-tagged pool per energy, grouped Release / Grow / Keep.
+- A friction shows a shadow; a catalyst or a kept energy shows a gift.
+- On a doubled door (Body, Mind), an abundant or dominant energy takes the big face (gifts' wide, shadows' excess); otherwise the echo face shows. This is the retired selector's law, R1/R2.
+- Each row opens that energy's reading page.
+- The lead line is a DRAFT: `tpl_type.five`, with a lead and a Balanced variant.
+
+**The pools revived from ore** (`__ore.retired_2026-10-17_diagnosis`, which is now a REVIVED note):
+- STEM gifts / shadows / door_note are back in candidates ×10.
+- `tools/build-dm-pools.mjs` transcribes them to `src/content/dmPools.js`; its `--check` now runs in `npm run check`.
+- The export mapping is restored. `dim` and `echo_of` stay station-side.
+- The voice audit is clean on the live gifts/shadows rows.
+
+**Golden chart:**
+- Release: Never reconsiders (Body, shadow) and Overprepared (Mind, shadow).
+- Grow: Crisis performer (Order, gift), Plays the long game (Action, gift) and No dressed-up answers (Expression, gift).

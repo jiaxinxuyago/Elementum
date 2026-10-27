@@ -19,6 +19,7 @@ import { FEEDS, TAMES, CYCLE_IMAGE_LINES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN, GOD_RULING_DOMAINS } from '../../content/k2.js';
 import { STEM_WHO, RUN_LINES, PAIR_HEAD, PAIR_STORY, NOW_LINE, PRESENCE_LINE, RX_RIBBON, RELATION_LABELS, CODEX_TESTS, TYPE_LINE } from '../../content/mergedReading.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
+import { DM_POOLS } from '../../content/dmPools.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 import { functionMetrics } from '../../engine/functionMetrics.js';
 
@@ -1023,6 +1024,20 @@ export function buildMergedModel(m, chart) {
     ? fillT(TYPE_LINE.circle.head, { Fuel: type.circle.fuel.map((x) => plural(x.archetype)).join(' and '), El: need.name })
     : fillT(TYPE_LINE.circle.balanced, { Bond: type.circle.bond.archetype });
   type.circle.cta = TYPE_LINE.circle.cta;
+  // THE DAY MASTER PAGE's five energies (owner 2026-10-27): one face of the
+  // stem's door-tagged pool through each energy (REA_02 §5h): a gift through a
+  // catalyst or a kept energy, a shadow through a friction. On a doubled door
+  // (Body, Mind) an abundant or dominant energy takes the big face (gifts'
+  // wide, shadows' excess), else the echo (the retired selector's law, R1/R2).
+  const BIG = new Set(['abundant', 'dominant']);
+  const pool = DM_POOLS[m.stem] || {};
+  const faces = order.map((r) => {
+    const row = rows[r.el]; const kind = row.pole === 'friction' ? 'shadows' : 'gifts';
+    const atDoor = (pool[kind] || []).filter((x) => x.door === row.fnKey);
+    const big = kind === 'shadows' ? 'excess' : 'wide';
+    const pick = (BIG.has(row.volume) && atDoor.find((x) => x.face === big)) || atDoor.find((x) => x.face === 'echo') || atDoor[0];
+    return pick ? { el: r.el, name: row.name, fn: row.fn, pole: row.pole, kind, presence: row.presence, phrase: pick.phrase, desc: pick.desc } : null;
+  }).filter(Boolean);
   return {
     condition: cond, balanced: m.balanced, rows, order: order.map((r) => r.el), first: first ? first.el : null,
     who: STEM_WHO[m.stem] || m.maniEdge || '',
@@ -1030,6 +1045,6 @@ export function buildMergedModel(m, chart) {
     rx, start, codex, score: t ? t.score : null,
     reading: CONDITION_READING[cond] || null, body: coreName, mind: mind ? mind.name : null,
     ease: m.skip.map((r) => r.el), seek: m.seek.map((r) => r.el),
-    type,
+    type, faces,
   };
 }

@@ -923,7 +923,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
               </button>
               <div className="scrollwrap"><div className="padv2">
                 <LeafReader id="daymaster" title={m.archetype} route="section:daymaster" Use={Use} track={false} units=".dmp-sec">
-                  <DayMasterPage m={m} g={merged} Use={Use}
+                  <DayMasterPage m={m} g={merged} Use={Use} InkDot={InkDot} onEnergy={(el) => goElement(el)}
                     dm={{ overview: STEM_CARD_DATA[m.stem]?.identity?.overview, nature: STEM_CARD_DATA[m.stem]?.yourNature?.desc, inscription: STEM_CARD_DATA[m.stem]?.identity?.inscription, claims: DM_READING[m.stem]?.claims, edge: DM_READING[m.stem]?.edge }}
                     onRun={() => goScreen('run')} onCircle={onOpenCompat || null} onReplay={() => setReplayOn(true)} />
                 </LeafReader>

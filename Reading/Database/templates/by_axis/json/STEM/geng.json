@@ -26,6 +26,129 @@
       "People come to you when they need the unsoftened truth."
     ],
     "dm_mechanism": "Yang Metal tempered by spring wood, strength that grew against resistance, not in its absence.",
+    "gifts": [
+      {
+        "phrase": "Never looks tired",
+        "dim": "running low",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "金_金.function.definition_catalyst",
+        "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
+      },
+      {
+        "phrase": "Finishes properly",
+        "dim": "at work",
+        "door": "body",
+        "face": "wide",
+        "echo_of": "金_金.function.definition_catalyst",
+        "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
+      },
+      {
+        "phrase": "First-handshake read",
+        "dim": "first impressions",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "金_土.function.definition_catalyst",
+        "desc": "Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake."
+      },
+      {
+        "phrase": "Practices alone",
+        "dim": "practice",
+        "door": "mind",
+        "face": "wide",
+        "echo_of": "金_土.carry.wide",
+        "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
+      },
+      {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      {
+        "phrase": "Plays the long game",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      }
+    ],
+    "shadows": [
+      {
+        "phrase": "Tense all over",
+        "dim": "unspent discipline",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "金_金.function.definition_friction",
+        "desc": "Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak."
+      },
+      {
+        "phrase": "Never reconsiders",
+        "dim": "second chances",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+      },
+      {
+        "phrase": "Lives inside plans",
+        "dim": "testing the plan",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "金_土.function.definition_friction",
+        "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
+      },
+      {
+        "phrase": "Overprepared",
+        "dim": "showing the work",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+      },
+      {
+        "phrase": "No filter",
+        "dim": "saying too much",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_friction",
+        "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
+      },
+      {
+        "phrase": "Spins its wheels",
+        "dim": "trimming",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_friction",
+        "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
+      },
+      {
+        "phrase": "Own harshest critic",
+        "dim": "self-worth",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_friction",
+        "desc": "Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days."
+      }
+    ],
+    "door_note": {
+      "body": "Metal",
+      "mind": "Earth",
+      "expression": "Water",
+      "action": "Wood",
+      "order": "Fire"
+    },
     "yourNature_desc": "You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.",
     "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
     "who": "You are the Blade, the Metal that has already been through fire. You are kept plain and kept sharp, and you come out only for the true thing.",
@@ -493,132 +616,8 @@
         }
       },
       "retired_2026-10-17_diagnosis": {
-        "status": "HIBERNATING",
-        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages.",
-        "revive": "Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit).",
-        "gifts": [
-          {
-            "phrase": "Never looks tired",
-            "dim": "running low",
-            "door": "body",
-            "face": "echo",
-            "echo_of": "金_金.function.definition_catalyst",
-            "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
-          },
-          {
-            "phrase": "Finishes properly",
-            "dim": "at work",
-            "door": "body",
-            "face": "wide",
-            "echo_of": "金_金.function.definition_catalyst",
-            "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
-          },
-          {
-            "phrase": "First-handshake read",
-            "dim": "first impressions",
-            "door": "mind",
-            "face": "echo",
-            "echo_of": "金_土.function.definition_catalyst",
-            "desc": "Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake."
-          },
-          {
-            "phrase": "Practices alone",
-            "dim": "practice",
-            "door": "mind",
-            "face": "wide",
-            "echo_of": "金_土.carry.wide",
-            "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
-          },
-          {
-            "phrase": "No dressed-up answers",
-            "dim": "communication",
-            "door": "expression",
-            "face": "echo",
-            "echo_of": "金_水.function.definition_catalyst",
-            "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
-          },
-          {
-            "phrase": "Plays the long game",
-            "dim": "trimming a plan",
-            "door": "action",
-            "face": "echo",
-            "echo_of": "金_木.function.definition_catalyst",
-            "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
-          },
-          {
-            "phrase": "Crisis performer",
-            "dim": "under pressure",
-            "door": "order",
-            "face": "echo",
-            "echo_of": "金_火.function.definition_catalyst",
-            "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
-          }
-        ],
-        "shadows": [
-          {
-            "phrase": "Tense all over",
-            "dim": "unspent discipline",
-            "door": "body",
-            "face": "echo",
-            "echo_of": "金_金.function.definition_friction",
-            "desc": "Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak."
-          },
-          {
-            "phrase": "Never reconsiders",
-            "dim": "second chances",
-            "door": "body",
-            "face": "excess",
-            "echo_of": "金_金.carry.excess",
-            "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
-          },
-          {
-            "phrase": "Lives inside plans",
-            "dim": "testing the plan",
-            "door": "mind",
-            "face": "echo",
-            "echo_of": "金_土.function.definition_friction",
-            "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
-          },
-          {
-            "phrase": "Overprepared",
-            "dim": "showing the work",
-            "door": "mind",
-            "face": "excess",
-            "echo_of": "金_土.carry.excess",
-            "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
-          },
-          {
-            "phrase": "No filter",
-            "dim": "saying too much",
-            "door": "expression",
-            "face": "echo",
-            "echo_of": "金_水.function.definition_friction",
-            "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
-          },
-          {
-            "phrase": "Spins its wheels",
-            "dim": "trimming",
-            "door": "action",
-            "face": "echo",
-            "echo_of": "金_木.function.definition_friction",
-            "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
-          },
-          {
-            "phrase": "Own harshest critic",
-            "dim": "self-worth",
-            "door": "order",
-            "face": "echo",
-            "echo_of": "金_火.function.definition_friction",
-            "desc": "Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days."
-          }
-        ],
-        "door_note": {
-          "body": "Metal",
-          "mind": "Earth",
-          "expression": "Water",
-          "action": "Wood",
-          "order": "Fire"
-        }
+        "status": "REVIVED 2026-10-27",
+        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
       },
       "retired_2026-10-27_manifesto_l1": "Precision before intention"
     }
@@ -628,6 +627,8 @@
     "who": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule",
     "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
     "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M庚 A): two or three plain adjectives, replacing \"Precision before intention\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
-    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)"
+    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
+    "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)"
   }
 }

@@ -26,6 +26,129 @@
       "You move around obstacles rather than through them, and still arrive first."
     ],
     "dm_mechanism": "Yang Water that carves by patience, force that wins by not insisting.",
+    "gifts": [
+      {
+        "phrase": "Recharges in silence",
+        "dim": "recovery",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "水_水.function.definition_catalyst",
+        "desc": "The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back."
+      },
+      {
+        "phrase": "Deep calm",
+        "dim": "storms",
+        "door": "body",
+        "face": "wide",
+        "echo_of": "水_水.function.definition_catalyst",
+        "desc": "Plenty of depth. Storms cross the surface, and ten fathoms down nothing has moved."
+      },
+      {
+        "phrase": "Learns from experts",
+        "dim": "good teachers",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "水_金.function.definition_catalyst",
+        "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
+      },
+      {
+        "phrase": "Strategic mind",
+        "dim": "connections",
+        "door": "mind",
+        "face": "wide",
+        "echo_of": "水_金.carry.wide",
+        "desc": "Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading."
+      },
+      {
+        "phrase": "Makes others grow",
+        "dim": "what grows after you",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "水_木.function.definition_catalyst",
+        "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
+      },
+      {
+        "phrase": "Thinks big",
+        "dim": "horizons",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "水_火.function.definition_catalyst",
+        "desc": "Launches, markets, the moment that rewards whoever read it early. Small plans bore you, and you see the far shore clearly where others squint."
+      },
+      {
+        "phrase": "Thrives on structure",
+        "dim": "walls you chose",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "水_土.function.definition_catalyst",
+        "desc": "Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the depth becomes force."
+      }
+    ],
+    "shadows": [
+      {
+        "phrase": "Stagnant",
+        "dim": "recovery",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "水_水.function.definition_friction",
+        "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes."
+      },
+      {
+        "phrase": "Closed book",
+        "dim": "close bonds",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "水_水.carry.excess",
+        "desc": "So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered."
+      },
+      {
+        "phrase": "Over-organized",
+        "dim": "sources",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "水_金.function.definition_friction",
+        "desc": "Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking."
+      },
+      {
+        "phrase": "Drowning in advice",
+        "dim": "taking counsel",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "水_金.carry.excess",
+        "desc": "So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore."
+      },
+      {
+        "phrase": "Overgives",
+        "dim": "other people's gardens",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "水_木.function.definition_friction",
+        "desc": "Every person developed, every idea watered, your depth spent raising gardens you do not live in."
+      },
+      {
+        "phrase": "Chases hot chances",
+        "dim": "focus",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "水_火.function.definition_friction",
+        "desc": "Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you."
+      },
+      {
+        "phrase": "Carries every blame",
+        "dim": "being judged",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "水_土.function.definition_friction",
+        "desc": "A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm."
+      }
+    ],
+    "door_note": {
+      "body": "Water",
+      "mind": "Metal",
+      "expression": "Wood",
+      "action": "Fire",
+      "order": "Earth"
+    },
     "yourNature_desc": "You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live.",
     "dm_overview": "The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps.",
     "who": null,
@@ -418,132 +541,8 @@
         }
       },
       "retired_2026-10-17_diagnosis": {
-        "status": "HIBERNATING",
-        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages.",
-        "revive": "Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit).",
-        "gifts": [
-          {
-            "phrase": "Recharges in silence",
-            "dim": "recovery",
-            "door": "body",
-            "face": "echo",
-            "echo_of": "水_水.function.definition_catalyst",
-            "desc": "The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back."
-          },
-          {
-            "phrase": "Deep calm",
-            "dim": "storms",
-            "door": "body",
-            "face": "wide",
-            "echo_of": "水_水.function.definition_catalyst",
-            "desc": "Plenty of depth. Storms cross the surface, and ten fathoms down nothing has moved."
-          },
-          {
-            "phrase": "Learns from experts",
-            "dim": "good teachers",
-            "door": "mind",
-            "face": "echo",
-            "echo_of": "水_金.function.definition_catalyst",
-            "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
-          },
-          {
-            "phrase": "Strategic mind",
-            "dim": "connections",
-            "door": "mind",
-            "face": "wide",
-            "echo_of": "水_金.carry.wide",
-            "desc": "Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading."
-          },
-          {
-            "phrase": "Makes others grow",
-            "dim": "what grows after you",
-            "door": "expression",
-            "face": "echo",
-            "echo_of": "水_木.function.definition_catalyst",
-            "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
-          },
-          {
-            "phrase": "Thinks big",
-            "dim": "horizons",
-            "door": "action",
-            "face": "echo",
-            "echo_of": "水_火.function.definition_catalyst",
-            "desc": "Launches, markets, the moment that rewards whoever read it early. Small plans bore you, and you see the far shore clearly where others squint."
-          },
-          {
-            "phrase": "Thrives on structure",
-            "dim": "walls you chose",
-            "door": "order",
-            "face": "echo",
-            "echo_of": "水_土.function.definition_catalyst",
-            "desc": "Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the depth becomes force."
-          }
-        ],
-        "shadows": [
-          {
-            "phrase": "Stagnant",
-            "dim": "recovery",
-            "door": "body",
-            "face": "echo",
-            "echo_of": "水_水.function.definition_friction",
-            "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes."
-          },
-          {
-            "phrase": "Closed book",
-            "dim": "close bonds",
-            "door": "body",
-            "face": "excess",
-            "echo_of": "水_水.carry.excess",
-            "desc": "So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered."
-          },
-          {
-            "phrase": "Over-organized",
-            "dim": "sources",
-            "door": "mind",
-            "face": "echo",
-            "echo_of": "水_金.function.definition_friction",
-            "desc": "Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking."
-          },
-          {
-            "phrase": "Drowning in advice",
-            "dim": "taking counsel",
-            "door": "mind",
-            "face": "excess",
-            "echo_of": "水_金.carry.excess",
-            "desc": "So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore."
-          },
-          {
-            "phrase": "Overgives",
-            "dim": "other people's gardens",
-            "door": "expression",
-            "face": "echo",
-            "echo_of": "水_木.function.definition_friction",
-            "desc": "Every person developed, every idea watered, your depth spent raising gardens you do not live in."
-          },
-          {
-            "phrase": "Chases hot chances",
-            "dim": "focus",
-            "door": "action",
-            "face": "echo",
-            "echo_of": "水_火.function.definition_friction",
-            "desc": "Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you."
-          },
-          {
-            "phrase": "Carries every blame",
-            "dim": "being judged",
-            "door": "order",
-            "face": "echo",
-            "echo_of": "水_土.function.definition_friction",
-            "desc": "A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm."
-          }
-        ],
-        "door_note": {
-          "body": "Water",
-          "mind": "Metal",
-          "expression": "Wood",
-          "action": "Fire",
-          "order": "Earth"
-        }
+        "status": "REVIVED 2026-10-27",
+        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
       },
       "retired_2026-10-27_manifesto_l1": "Depth before disclosure"
     }
@@ -553,6 +552,8 @@
     "who": "TO WRITE · opened 2026-10-18",
     "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
     "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M壬 A): two or three plain adjectives, replacing \"Depth before disclosure\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
-    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)"
+    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
+    "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)"
   }
 }

@@ -34,3 +34,5 @@
 | `circle.head` | {Fuel} carry the {El} you need |
 | `circle.balanced` | {Bond} is your classical match |
 | `circle.cta` | Who completes your chart? |
+| `five.lead` | Each energy brings out a side of {the archetype}: a gift through the energies that grow you, a shadow through the ones to release. |
+| `five.balanced` | Each energy brings out a side of {the archetype}, and in a balanced chart every side shows as a gift. |

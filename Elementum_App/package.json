@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "check": "eslint . && node tools/qa-engine-regression.mjs && node tools/qa-pillar-crosscheck.mjs && node tools/qa-depth-golden.mjs && node tools/qa-almanac-golden.mjs && node tools/qa-selection-fixtures.mjs && node tools/qa-domains-coverage.mjs && node tools/qa-blend-clashes.mjs",
+    "check": "eslint . && node tools/qa-engine-regression.mjs && node tools/qa-pillar-crosscheck.mjs && node tools/qa-depth-golden.mjs && node tools/qa-almanac-golden.mjs && node tools/qa-selection-fixtures.mjs && node tools/qa-domains-coverage.mjs && node tools/qa-blend-clashes.mjs && node tools/build-dm-pools.mjs --check",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -24,6 +24,95 @@
 | `pinyin_display` | JIǍ · YANG WOOD |
 | `dm_claims` | You would rather stand alone upright than bend to belong. · People lean on the structure you build without noticing it is yours. |
 | `dm_mechanism` | Yang Wood grown toward light, a spine that rose by reaching, season over season. |
+| `gifts[0].phrase` | Quick to start |
+| `gifts[0].dim` | beginnings |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 木_木.function.definition_catalyst |
+| `gifts[0].desc` | The will to start is your reserve. When it is full you begin things before anyone has finished worrying, and when it dips you feel flat before you feel tired. |
+| `gifts[1].phrase` | Holds its ground |
+| `gifts[1].dim` | standing alone |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 木_木.function.definition_catalyst |
+| `gifts[1].desc` | Wind from every side, and you are still where you were planted, still facing the same way. Plenty of growing force, and all of it rooted. |
+| `gifts[2].phrase` | Takes the lesson |
+| `gifts[2].dim` | hard seasons |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 木_水.function.definition_catalyst |
+| `gifts[2].desc` | One hard season teaches you what a decade of easy ones could not. It goes in quietly, over reading and long talks and rest, and you keep it. |
+| `gifts[3].phrase` | Grows on rest |
+| `gifts[3].dim` | refueling |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 木_水.carry.wide |
+| `gifts[3].desc` | Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own. |
+| `gifts[4].phrase` | Owns the stage |
+| `gifts[4].dim` | influence on others |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 木_火.function.definition_catalyst |
+| `gifts[4].desc` | Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that. |
+| `gifts[5].phrase` | Makes it real |
+| `gifts[5].dim` | commitments |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 木_土.function.definition_catalyst |
+| `gifts[5].desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
+| `gifts[6].phrase` | Sharpened by review |
+| `gifts[6].dim` | under review |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 木_金.function.definition_catalyst |
+| `gifts[6].desc` | You grow fastest under exacting eyes. Give you an editor, a coach, a rule you chose, and the work comes back sharper every round. |
+| `shadows[0].phrase` | Starts five things |
+| `shadows[0].dim` | follow-through |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 木_木.function.definition_friction |
+| `shadows[0].desc` | More growing force than your life has outlets for. Restless, overcommitted, five things begun just to spend the energy, and none of them finished. |
+| `shadows[1].phrase` | Crowds everyone out |
+| `shadows[1].dim` | close bonds |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 木_木.carry.excess |
+| `shadows[1].desc` | Growth so dense no other light gets in. The people around you stop growing in your shade, and one day you notice you have too. |
+| `shadows[2].phrase` | Waits for signs |
+| `shadows[2].dim` | advice |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 木_水.function.definition_friction |
+| `shadows[2].desc` | The move is ready. You are waiting for one more piece of advice before you make it, and the waiting has started to look like thinking. |
+| `shadows[3].phrase` | Floats between plans |
+| `shadows[3].dim` | direction |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 木_水.carry.excess |
+| `shadows[3].desc` | Every new idea is a river, and you have followed so many that the roots are off the ground. Nothing is anchored. |
+| `shadows[4].phrase` | Promises too much |
+| `shadows[4].dim` | announcing early |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 木_火.function.definition_friction |
+| `shadows[4].desc` | The announcement comes before the growth. You say yes on stage and pay for it offstage, and the next thing gets promised before this one is real. |
+| `shadows[5].phrase` | Owns too much |
+| `shadows[5].dim` | what you keep |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 木_土.function.definition_friction |
+| `shadows[5].desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
+| `shadows[6].phrase` | Never good enough |
+| `shadows[6].dim` | being judged |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 木_金.function.definition_friction |
+| `shadows[6].desc` | Every rule met, every critique taken, until the standards stop shaping you and start shrinking you. The harshest voice you hear is your own, and it never says done. |
+| `door_note.body` | Wood |
+| `door_note.mind` | Water |
+| `door_note.expression` | Fire |
+| `door_note.action` | Earth |
+| `door_note.order` | Metal |
 | `yourNature_desc` | You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing. |
 | `dm_overview` | The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign. |
 | `who` | *(unauthored)* |
@@ -196,96 +285,6 @@
 | `retired_2026-09-21_cold_read.gifts.Better when edited.face` | echo |
 | `retired_2026-09-21_cold_read.gifts.Better when edited.echo_of` | 木_金.function.definition_catalyst |
 | `retired_2026-09-21_cold_read.gifts.Better when edited.desc` | You grow fastest under exacting eyes. Give you an editor, a coach, a rule you chose, and the work comes back sharper every round. |
-| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
-| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
-| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
-| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Quick to start |
-| `retired_2026-10-17_diagnosis.gifts[0].dim` | beginnings |
-| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 木_木.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[0].desc` | The will to start is your reserve. When it is full you begin things before anyone has finished worrying, and when it dips you feel flat before you feel tired. |
-| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Holds its ground |
-| `retired_2026-10-17_diagnosis.gifts[1].dim` | standing alone |
-| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 木_木.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[1].desc` | Wind from every side, and you are still where you were planted, still facing the same way. Plenty of growing force, and all of it rooted. |
-| `retired_2026-10-17_diagnosis.gifts[2].phrase` | Takes the lesson |
-| `retired_2026-10-17_diagnosis.gifts[2].dim` | hard seasons |
-| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 木_水.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[2].desc` | One hard season teaches you what a decade of easy ones could not. It goes in quietly, over reading and long talks and rest, and you keep it. |
-| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Grows on rest |
-| `retired_2026-10-17_diagnosis.gifts[3].dim` | refueling |
-| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 木_水.carry.wide |
-| `retired_2026-10-17_diagnosis.gifts[3].desc` | Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own. |
-| `retired_2026-10-17_diagnosis.gifts[4].phrase` | Owns the stage |
-| `retired_2026-10-17_diagnosis.gifts[4].dim` | influence on others |
-| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
-| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 木_火.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[4].desc` | Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that. |
-| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Makes it real |
-| `retired_2026-10-17_diagnosis.gifts[5].dim` | commitments |
-| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
-| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 木_土.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[5].desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
-| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Sharpened by review |
-| `retired_2026-10-17_diagnosis.gifts[6].dim` | under review |
-| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
-| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 木_金.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[6].desc` | You grow fastest under exacting eyes. Give you an editor, a coach, a rule you chose, and the work comes back sharper every round. |
-| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Starts five things |
-| `retired_2026-10-17_diagnosis.shadows[0].dim` | follow-through |
-| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 木_木.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[0].desc` | More growing force than your life has outlets for. Restless, overcommitted, five things begun just to spend the energy, and none of them finished. |
-| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Crowds everyone out |
-| `retired_2026-10-17_diagnosis.shadows[1].dim` | close bonds |
-| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 木_木.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[1].desc` | Growth so dense no other light gets in. The people around you stop growing in your shade, and one day you notice you have too. |
-| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Waits for signs |
-| `retired_2026-10-17_diagnosis.shadows[2].dim` | advice |
-| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 木_水.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[2].desc` | The move is ready. You are waiting for one more piece of advice before you make it, and the waiting has started to look like thinking. |
-| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Floats between plans |
-| `retired_2026-10-17_diagnosis.shadows[3].dim` | direction |
-| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 木_水.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[3].desc` | Every new idea is a river, and you have followed so many that the roots are off the ground. Nothing is anchored. |
-| `retired_2026-10-17_diagnosis.shadows[4].phrase` | Promises too much |
-| `retired_2026-10-17_diagnosis.shadows[4].dim` | announcing early |
-| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
-| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 木_火.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[4].desc` | The announcement comes before the growth. You say yes on stage and pay for it offstage, and the next thing gets promised before this one is real. |
-| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Owns too much |
-| `retired_2026-10-17_diagnosis.shadows[5].dim` | what you keep |
-| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
-| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 木_土.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[5].desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
-| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Never good enough |
-| `retired_2026-10-17_diagnosis.shadows[6].dim` | being judged |
-| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
-| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 木_金.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[6].desc` | Every rule met, every critique taken, until the standards stop shaping you and start shrinking you. The harshest voice you hear is your own, and it never says done. |
-| `retired_2026-10-17_diagnosis.door_note.body` | Wood |
-| `retired_2026-10-17_diagnosis.door_note.mind` | Water |
-| `retired_2026-10-17_diagnosis.door_note.expression` | Fire |
-| `retired_2026-10-17_diagnosis.door_note.action` | Earth |
-| `retired_2026-10-17_diagnosis.door_note.order` | Metal |
+| `retired_2026-10-17_diagnosis.status` | REVIVED 2026-10-27 |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, "this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions"): gifts, shadows and door_note moved back to candidates. |
 | `retired_2026-10-27_manifesto_l1` | Motion before readiness |

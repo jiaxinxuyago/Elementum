@@ -34,6 +34,10 @@
       "head": "{Fuel} carry the {El} you need",
       "balanced": "{Bond} is your classical match",
       "cta": "Who completes your chart?"
+    },
+    "five": {
+      "lead": "Each energy brings out a side of {the archetype}: a gift through the energies that grow you, a shadow through the ones to release.",
+      "balanced": "Each energy brings out a side of {the archetype}, and in a balanced chart every side shows as a gift."
     }
   },
   "field_status": {
@@ -41,6 +45,7 @@
     "pattern": "RULED 2026-10-27 · \"heaviest in\" (the mode is the largest share, not always a majority)",
     "mode": "RULED 2026-10-27 · the locked wheel words as noun phrases (tpl_cycle_line.relation_labels)",
     "needs": "RULED 2026-10-27 · all seven clauses, by the needed energy's volume",
-    "circle": "head and cta RULED 2026-10-27 (K4 A, the album's Your circle tile; cta reuses the Your Circle hero line) · balanced DRAFT 2026-10-27, to rule"
+    "circle": "head and cta RULED 2026-10-27 (K4 A, the album's Your circle tile; cta reuses the Your Circle hero line) · balanced DRAFT 2026-10-27, to rule",
+    "five": "DRAFT 2026-10-27 · the Day Master page's lead over the five energies, to rule"
   }
 }

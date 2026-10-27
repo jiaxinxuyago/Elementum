@@ -16,6 +16,7 @@
 //   FirstReading    the eight cards after the Naming, on the Naming's ground
 // ===================================================================
 
+import { TYPE_LINE } from '../../content/mergedReading.js';
 import { useState } from 'react';
 import './merged.css';
 
@@ -70,11 +71,11 @@ export function TypeChips({ m, g, Use, InkDot, doors = null, stamp = null }) {
 // ── THE DAY MASTER PAGE (owner 2026-10-27) ─────────────────────────
 // The Archetype chip's door: every Day Master field the stations hold for the
 // reader's stem, on one page. STEM: archetype_name, pinyin, manifesto, the
-// Sign (dm_overview), your nature (yourNature_desc, the band-invariant
-// baseline; the band paragraph stays on How am I running?), the inscription,
-// dm_claims and dm_mechanism (both locked 2026-10-27). The type and
+// Sign (dm_overview), your nature (the inscription as its opener, yourNature_desc
+// the band-invariant baseline, dm_claims under it), the five energies (one gift
+// or shadow face per energy from the revived pools), dm_mechanism. The type and
 // the circle close it, with the doors on.
-export function DayMasterPage({ m, g, dm, Use, onRun, onCircle, onReplay }) {
+export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay, onEnergy }) {
   const t = g.type;
   return (
     <div className="dmp">
@@ -88,14 +89,38 @@ export function DayMasterPage({ m, g, dm, Use, onRun, onCircle, onReplay }) {
       {dm.overview ? (
         <div className="cardstock dmp-sec"><span className="mg-lab">The sign</span><p className="dmp-body">{dm.overview}</p></div>
       ) : null}
-      {dm.nature ? (
-        <div className="cardstock dmp-sec"><span className="mg-lab">Your nature</span><p className="dmp-body">{dm.nature}</p></div>
-      ) : null}
-      {dm.inscription || dm.claims?.length ? (
+      {dm.nature || dm.inscription ? (
         <div className="cardstock dmp-sec">
-          <span className="mg-lab">What people notice</span>
+          <span className="mg-lab">Your nature</span>
+          {/* the inscription opens the portrait (owner 2026-10-27: "What people notice is just an opener to Your Nature") */}
           {dm.inscription ? <p className="dmp-ins">{dm.inscription}</p> : null}
-          {dm.claims?.length ? <ul className="dmp-claims">{dm.claims.map((c) => <li key={c}>{c}</li>)}</ul> : null}
+          {dm.nature ? <p className="dmp-body">{dm.nature}</p> : null}
+          {dm.claims?.length ? <><span className="mg-lab dmp-sub">What people notice</span><ul className="dmp-claims">{dm.claims.map((c) => <li key={c}>{c}</li>)}</ul></> : null}
+        </div>
+      ) : null}
+      {g.faces?.length ? (
+        <div className="cardstock dmp-sec dmp-five">
+          <span className="mg-lab">Through your five energies</span>
+          <p className="dmp-lead">{(g.balanced ? TYPE_LINE.five.balanced : TYPE_LINE.five.lead).replace('{the archetype}', m.archetype.replace(/^The /, 'the '))}</p>
+          {[['friction', 'Release', 'fric', 'ar-down'], ['catalyst', 'Grow', 'cat', 'ar-up'], ['balanced', 'Keep', 'cond', 'ic-balanced']].map(([pole, label, cls, ic]) => {
+            const list = g.faces.filter((f) => f.pole === pole);
+            if (!list.length) return null;
+            return (
+              <div key={pole} className="dmp-group">
+                <span className={`role-pill ${cls}`}><Use id={ic} />{label}</span>
+                {list.map((f) => (
+                  <button type="button" key={f.el} className="dmp-face" onClick={onEnergy ? () => onEnergy(f.el) : undefined}>
+                    <span className="dmp-fdot"><InkDot el={f.el} size={40} Use={Use} label={`${f.name} ${f.presence} percent`} /></span>
+                    <span className="dmp-ftx">
+                      <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}</span>
+                      <b>{f.phrase}</b>
+                      <span className="dmp-fd">{f.desc}</span>
+                    </span>
+                  </button>
+                ))}
+              </div>
+            );
+          })}
         </div>
       ) : null}
       {dm.edge ? (

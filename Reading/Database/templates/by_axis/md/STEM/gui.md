@@ -24,6 +24,95 @@
 | `pinyin_display` | GUǏ · YIN WATER |
 | `dm_claims` | You feel the mood shift a beat before anyone names it. · You reach people through the small, quiet door, not the loud one. |
 | `dm_mechanism` | Yin Water that finds every opening, perception that travels where pressure cannot. |
+| `gifts[0].phrase` | Quiet to recharge |
+| `gifts[0].dim` | recovery |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 水_水.function.definition_catalyst |
+| `gifts[0].desc` | Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back. |
+| `gifts[1].phrase` | Keeps secrets safe |
+| `gifts[1].dim` | secrets |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 水_水.function.definition_catalyst |
+| `gifts[1].desc` | Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and they stay where they were put. |
+| `gifts[2].phrase` | Sharpened by method |
+| `gifts[2].dim` | good teachers |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 水_金.function.definition_catalyst |
+| `gifts[2].desc` | Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input. |
+| `gifts[3].phrase` | Feels the undercurrent |
+| `gifts[3].dim` | unspoken feelings |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 水_金.carry.wide |
+| `gifts[3].desc` | Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it. |
+| `gifts[4].phrase` | Wins without arguing |
+| `gifts[4].dim` | influence on others |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 水_木.function.definition_catalyst |
+| `gifts[4].desc` | Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did. |
+| `gifts[5].phrase` | Ahead of the curve |
+| `gifts[5].dim` | timing |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 水_火.function.definition_catalyst |
+| `gifts[5].desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |
+| `gifts[6].phrase` | Blooms on routine |
+| `gifts[6].dim` | walls you chose |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 水_土.function.definition_catalyst |
+| `gifts[6].desc` | Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the rain becomes a river. |
+| `shadows[0].phrase` | Waits to be moved |
+| `shadows[0].dim` | recovery |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 水_水.function.definition_friction |
+| `shadows[0].desc` | So much stillness that nothing moves. You wait for a current to carry you instead of choosing one, and the waiting looks like rest but leaves you flat. |
+| `shadows[1].phrase` | Carries others' feelings |
+| `shadows[1].dim` | whose feeling |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 水_水.carry.excess |
+| `shadows[1].desc` | So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying. |
+| `shadows[2].phrase` | Replays every word |
+| `shadows[2].dim` | moving on |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 水_金.function.definition_friction |
+| `shadows[2].desc` | The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used. |
+| `shadows[3].phrase` | Soaks up everything |
+| `shadows[3].dim` | others' emotions |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 水_金.carry.excess |
+| `shadows[3].desc` | Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you. |
+| `shadows[4].phrase` | Everyone's helper |
+| `shadows[4].dim` | other people's growth |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 水_木.function.definition_friction |
+| `shadows[4].desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
+| `shadows[5].phrase` | Quick to bite |
+| `shadows[5].dim` | chasing warmth |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 水_火.function.definition_friction |
+| `shadows[5].desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns. |
+| `shadows[6].phrase` | Self-punishing |
+| `shadows[6].dim` | being judged |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 水_土.function.definition_friction |
+| `shadows[6].desc` | Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices. |
+| `door_note.body` | Water |
+| `door_note.mind` | Metal |
+| `door_note.expression` | Wood |
+| `door_note.action` | Fire |
+| `door_note.order` | Earth |
 | `yourNature_desc` | You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life. |
 | `dm_overview` | The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow. |
 | `who` | *(unauthored)* |
@@ -255,96 +344,6 @@
 | `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.face` | echo |
 | `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.echo_of` | 水_土.function.definition_friction |
 | `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.desc` | Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices. |
-| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
-| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
-| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
-| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Quiet to recharge |
-| `retired_2026-10-17_diagnosis.gifts[0].dim` | recovery |
-| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 水_水.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[0].desc` | Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back. |
-| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Keeps secrets safe |
-| `retired_2026-10-17_diagnosis.gifts[1].dim` | secrets |
-| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
-| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 水_水.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[1].desc` | Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and they stay where they were put. |
-| `retired_2026-10-17_diagnosis.gifts[2].phrase` | Sharpened by method |
-| `retired_2026-10-17_diagnosis.gifts[2].dim` | good teachers |
-| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 水_金.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[2].desc` | Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input. |
-| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Feels the undercurrent |
-| `retired_2026-10-17_diagnosis.gifts[3].dim` | unspoken feelings |
-| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
-| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
-| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 水_金.carry.wide |
-| `retired_2026-10-17_diagnosis.gifts[3].desc` | Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it. |
-| `retired_2026-10-17_diagnosis.gifts[4].phrase` | Wins without arguing |
-| `retired_2026-10-17_diagnosis.gifts[4].dim` | influence on others |
-| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
-| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 水_木.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[4].desc` | Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did. |
-| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Ahead of the curve |
-| `retired_2026-10-17_diagnosis.gifts[5].dim` | timing |
-| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
-| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 水_火.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[5].desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |
-| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Blooms on routine |
-| `retired_2026-10-17_diagnosis.gifts[6].dim` | walls you chose |
-| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
-| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
-| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 水_土.function.definition_catalyst |
-| `retired_2026-10-17_diagnosis.gifts[6].desc` | Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the rain becomes a river. |
-| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Waits to be moved |
-| `retired_2026-10-17_diagnosis.shadows[0].dim` | recovery |
-| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 水_水.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[0].desc` | So much stillness that nothing moves. You wait for a current to carry you instead of choosing one, and the waiting looks like rest but leaves you flat. |
-| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Carries others' feelings |
-| `retired_2026-10-17_diagnosis.shadows[1].dim` | whose feeling |
-| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
-| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 水_水.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[1].desc` | So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying. |
-| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Replays every word |
-| `retired_2026-10-17_diagnosis.shadows[2].dim` | moving on |
-| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 水_金.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[2].desc` | The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used. |
-| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Soaks up everything |
-| `retired_2026-10-17_diagnosis.shadows[3].dim` | others' emotions |
-| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
-| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
-| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 水_金.carry.excess |
-| `retired_2026-10-17_diagnosis.shadows[3].desc` | Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you. |
-| `retired_2026-10-17_diagnosis.shadows[4].phrase` | Everyone's helper |
-| `retired_2026-10-17_diagnosis.shadows[4].dim` | other people's growth |
-| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
-| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 水_木.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[4].desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
-| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Quick to bite |
-| `retired_2026-10-17_diagnosis.shadows[5].dim` | chasing warmth |
-| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
-| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 水_火.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[5].desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns. |
-| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Self-punishing |
-| `retired_2026-10-17_diagnosis.shadows[6].dim` | being judged |
-| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
-| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
-| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 水_土.function.definition_friction |
-| `retired_2026-10-17_diagnosis.shadows[6].desc` | Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices. |
-| `retired_2026-10-17_diagnosis.door_note.body` | Water |
-| `retired_2026-10-17_diagnosis.door_note.mind` | Metal |
-| `retired_2026-10-17_diagnosis.door_note.expression` | Wood |
-| `retired_2026-10-17_diagnosis.door_note.action` | Fire |
-| `retired_2026-10-17_diagnosis.door_note.order` | Earth |
+| `retired_2026-10-17_diagnosis.status` | REVIVED 2026-10-27 |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, "this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions"): gifts, shadows and door_note moved back to candidates. |
 | `retired_2026-10-27_manifesto_l1` | Felt before spoken |
