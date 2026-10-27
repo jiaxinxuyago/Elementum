@@ -323,3 +323,37 @@ button.ty-cc{ cursor:pointer; }
 .jny .dmp-ink.pair{ width:calc(100% + 15px); max-width:none; aspect-ratio:5 / 2; object-fit:cover; object-position:center 55%; margin:2px -15px 2px 0;
   -webkit-mask-image:linear-gradient(to right,transparent,#000 18%,#000 82%,transparent),linear-gradient(to bottom,transparent,#000 22%,#000 70%,transparent); -webkit-mask-composite:source-in;
   mask-image:linear-gradient(to right,transparent,#000 18%,#000 82%,transparent),linear-gradient(to bottom,transparent,#000 22%,#000 70%,transparent); mask-composite:intersect; }
+
+/* ── Card 4 layouts under review (owner 2026-10-27) ── */
+/* A · painted heading: the painting is the row's heading, the title written into its empty paper */
+.jny .c4-a .dmp-face{ grid-template-columns:minmax(0,1fr); position:relative; padding-top:6px; }
+.jny .c4-a .dmp-fdot{ position:absolute; left:0; top:16px; z-index:2; }
+.jny .c4-a .dmp-ftx{ display:grid; grid-template-columns:minmax(0,1fr); }
+.jny .c4-a .dmp-ink.pair{ grid-area:1 / 1; width:calc(100% + 30px); margin:0 -15px 0 -15px; aspect-ratio:2 / 1; object-position:78% 55%;
+  -webkit-mask-image:linear-gradient(to right,transparent 4%,#000 46%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 14%,#000 72%,transparent); -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent 4%,#000 46%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 14%,#000 72%,transparent); mask-composite:intersect; }
+.jny .c4-a .dmp-ftitle{ grid-area:1 / 1; align-self:start; z-index:1; padding:12px 0 0 52px; flex-direction:column; align-items:flex-start; gap:3px; max-width:56%; font-size:26px; }
+.jny .c4-a .dmp-ftitle .dmp-go{ position:absolute; right:0; top:16px; }
+.jny .c4-a .dmp-chips{ margin-top:-22px; position:relative; z-index:1; }
+/* B · round fan (团扇): the painting cropped into a round fan leaf replaces the ink dot; the element sign sits on its rim
+   like a seal, and the title, words and reading wrap around the circle */
+.jny .c4-b .dmp-face{ display:block; position:relative; }
+.jny .c4-b .dmp-face::after{ content:""; display:block; clear:both; }
+.jny .c4-b .dmp-ftx{ display:block; }
+.jny .c4-b .dmp-ink.pair{ float:left; width:104px; height:104px; aspect-ratio:1; margin:2px 14px 6px 0; border-radius:50%; object-position:66% 52%;
+  shape-outside:circle(50%); shape-margin:6px; -webkit-mask-image:radial-gradient(circle,#000 64%,transparent 71%); mask-image:radial-gradient(circle,#000 64%,transparent 71%); }
+.jny .c4-b .dmp-ink.pair{ border:1px solid rgba(120,96,60,.22); }
+.jny .c4-b .dmp-fdot{ position:absolute; left:78px; top:128px; z-index:2; transform:scale(.6); transform-origin:top left; }
+.jny .c4-b .dmp-ftitle{ padding:4px 0 8px; }
+.jny .c4-b .dmp-chips{ display:flex; margin:6px 0; }
+.jny .c4-b .dmp-fd{ display:block; }
+/* C · text wraps the picture: a square crop floats on alternating sides, the reading flows around it */
+.jny .c4-c .dmp-face{ grid-template-columns:44px minmax(0,1fr); }
+.jny .c4-c .dmp-ftx{ display:block; }
+.jny .c4-c .dmp-ftitle{ margin-bottom:4px; }
+.jny .c4-c .dmp-chips{ display:flex; }
+.jny .c4-c .dmp-ink.pair{ float:right; width:44%; aspect-ratio:1; margin:0 -15px 2px 8px; object-position:72% 55%; shape-outside:inset(0 0 0 12%);
+  -webkit-mask-image:radial-gradient(ellipse 62% 62% at 55% 50%,#000 55%,transparent 100%); mask-image:radial-gradient(ellipse 62% 62% at 55% 50%,#000 55%,transparent 100%); }
+.jny .c4-c .dmp-face[data-i="1"] .dmp-ink.pair{ float:left; margin:0 10px 2px 0; object-position:62% 55%; shape-outside:inset(0 12% 0 0); }
+.jny .c4-c .dmp-fd{ display:block; }
+.jny .c4-c .dmp-ftx::after{ content:""; display:block; clear:both; }

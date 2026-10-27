@@ -93,6 +93,9 @@ export function TypeChips({ m, g, Use, InkDot, doors = null, stamp = null }) {
 // the circle close it, with the doors on.
 export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay, onEnergy }) {
   const t = g.type;
+  // card 4 layout under review (owner 2026-10-27: "the text more organically integrated, a better thumbnail"):
+  // band (locked pass) · a painted heading · b round fan · c text wraps the picture. Dev switch: localStorage dmp_c4
+  const c4 = (() => { try { return localStorage.getItem('dmp_c4') || 'band'; } catch { return 'band'; } })();
   return (
     <div className="dmp">
       <div className="cardstock dmp-head dmp-sec">
@@ -118,7 +121,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         </div>
       ) : null}
       {g.faces?.length ? (
-        <div className="cardstock dmp-sec dmp-five">
+        <div className={`cardstock dmp-sec dmp-five c4-${c4}`}>
           <span className="mg-lab">Through your five energies</span>
           <p className="dmp-lead">{(g.balanced ? TYPE_LINE.five.balanced : TYPE_LINE.five.lead).replace('{the archetype}', m.archetype.replace(/^The /, 'the '))}</p>
           {[['friction', 'Release', 'fric', 'ar-down'], ['catalyst', 'Grow', 'cat', 'ar-up'], ['balanced', 'Keep', 'cond', 'ic-balanced']].map(([pole, label, cls, ic]) => {
@@ -128,7 +131,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
               <div key={pole} className="dmp-group">
                 <span className={`role-pill ${cls}`}><Use id={ic} />{label}</span>
                 {list.map((f) => (
-                  <button type="button" key={f.el} className={`dmp-face${f.cell ? ' d' : ''}`} onClick={onEnergy ? () => onEnergy(f.el) : undefined}>
+                  <button type="button" key={f.el} data-i={g.faces.indexOf(f) % 2} className={`dmp-face${f.cell ? ' d' : ''}`} onClick={onEnergy ? () => onEnergy(f.el) : undefined}>
                     <span className="dmp-fdot"><InkDot el={f.el} size={40} Use={Use} label={`${f.name} ${f.presence} percent`} /></span>
                     {f.cell ? (
                       // W1–W3 A: the function as the title, three chips in the Grow/Release colours, the paragraph
