@@ -273,3 +273,17 @@ Owner: "What People Notice is just an opener to Your Nature, and this reading pa
 
 ### RULED 2026-10-27: F1 A, F2 A
 The lead line over the five energies (`tpl_type.five`) is RULED. The face follows the amount: Body and Mind take the big face when plentiful (F2 A, the September R1/R2 rule). Open: whether the faces should be picked from the energy pages' own keywords (the 17 October recap precedent) rather than the stem pools.
+
+### The five energies as an abstract reading (owner 2026-10-27; template AWAITING THE OWNER)
+
+The question was whether the faces echo or are picked from the energy pages. Answer: they echo the same pair definitions, but they are separate labels; none appear on the reader's energy pages (golden: "Crisis performer" against the Fire page's "Clear under pressure, Takes charge, Loves high stakes").
+
+The owner's direction: "summarize that into 2-3 adjectives that generally describe each energies' functions and expand those into a short paragraph of explanation, this will be an abstract reading of each energy, the angles of this part of the reading should come from how the Stem behaviors, so each adjectives should be the stem's native traits carried out by each energies condition and distributions."
+
+The 庚 template is 10 cells: 5 functions × Grow/Release. Each cell has 2–3 adjectives and a paragraph of 38–46 words, and the voice lint is clean. Cells: `07_FIVE_ENERGIES_TEMPLATE_geng.json`. Ruling page: https://claude.ai/artifact/BXa7pkD55Z44f3bJZ6h9v1
+
+**Rows:**
+- S1, the field shape: 100 cells, with the amount as data; or 300 cells, by amount band.
+- S2, Balanced charts: show the Grow cell, or write Keep cells.
+- S3, the pools: back to the ore, or kept as headings.
+- T Body … T Order: approve or revise each energy's pair of cells.
