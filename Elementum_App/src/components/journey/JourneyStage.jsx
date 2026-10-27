@@ -63,7 +63,7 @@ function MetricBars({ m }) {
 import { APP_URL, APP_HOST } from '../../infra/index.js';
 import { DM_READING } from '../../content/reading/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
-import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeChips, TypeLine, TypeCircle, DayMasterPage } from './MergedViews.jsx';
+import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeCircle, DayMasterPage } from './MergedViews.jsx';
 import { MERGE_V1 } from './mergeFlag.js';
 import { resolveDayMasterReading } from '../reading/readingResolve.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
@@ -1665,15 +1665,22 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                   <div className="scey">ELEMENTUM</div>
                   <img className="sn-plate" src={paintSrc} alt={`${m.stem}, ${m.archetype}`} />
                   <div className="sn-name">You are {m.archetype}.</div>
-                  {TYPE_V1 && merged?.type ? <TypeLine g={merged} className="sn-claim" /> : <p className="sn-claim">{(DM_READING[m.stem]?.claims || [])[SHARE_CLAIM_PICK[m.stem] ?? 1] || merged?.who || m.manifesto}</p>}
+                  {/* The type card (owner 2026-10-27, I1): no sentence; the condition as
+                      the pill under the name; the mode and the need as tags on the
+                      grid; the compatible signs large at the panel's foot. The chips
+                      and the type line stay on the album hero. */}
+                  {TYPE_V1 && merged?.type
+                    ? <span className="role-pill cond sn-cpill"><UseX id={condIcon} />{m.condition}</span>
+                    : <p className="sn-claim">{(DM_READING[m.stem]?.claims || [])[SHARE_CLAIM_PICK[m.stem] ?? 1] || merged?.who || m.manifesto}</p>}
                 </div>
-                {TYPE_V1 && merged?.type ? <TypeChips m={m} g={merged} Use={UseX} InkDot={InkDot} /> : null}
                 <div className="sn-panel">
-                  <div className="sn-core">
-                    <UseX id={`el-${m.core.el}`} className="sn-cmk" />
-                    <span><b>{m.core.name}</b> is your core</span>
-                    <span className="role-pill cond"><UseX id={condIcon} />{m.condition}</span>
-                  </div>
+                  {TYPE_V1 && merged?.type ? null : (
+                    <div className="sn-core">
+                      <UseX id={`el-${m.core.el}`} className="sn-cmk" />
+                      <span><b>{m.core.name}</b> is your core</span>
+                      <span className="role-pill cond"><UseX id={condIcon} />{m.condition}</span>
+                    </div>
+                  )}
                   {(() => {
                     const grouped = merged && !merged.balanced;
                     const els = grouped ? [...merged.ease, ...merged.seek] : rvlOrder.map((r) => r.el);
