@@ -317,3 +317,9 @@ button.ty-cc{ cursor:pointer; }
 .jny .jscreen > .ground-img2.dmp-stage{ top:auto; bottom:0; left:-12%; width:124%; max-width:none; height:auto; aspect-ratio:4 / 5; object-fit:cover; object-position:center bottom;
   mix-blend-mode:multiply; filter:sepia(.25) brightness(1.04); opacity:.9;
   -webkit-mask-image:linear-gradient(to bottom,transparent 30%,#000 70%); mask-image:linear-gradient(to bottom,transparent 30%,#000 70%); }
+/* Card 4's pair paintings (N1, painted at F2 2026-10-27): a shallow ink band
+   under each energy title, cropped to the painting's middle, every edge
+   dissolving into the row, so the five rows read as one scroll of pictures */
+.jny .dmp-ink.pair{ width:calc(100% + 15px); max-width:none; aspect-ratio:5 / 2; object-fit:cover; object-position:center 55%; margin:2px -15px 2px 0;
+  -webkit-mask-image:linear-gradient(to right,transparent,#000 18%,#000 82%,transparent),linear-gradient(to bottom,transparent,#000 22%,#000 70%,transparent); -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent,#000 18%,#000 82%,transparent),linear-gradient(to bottom,transparent,#000 22%,#000 70%,transparent); mask-composite:intersect; }

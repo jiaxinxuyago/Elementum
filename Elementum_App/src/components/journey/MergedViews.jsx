@@ -51,20 +51,12 @@ export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${ST
 // the 25 pair paintings (N1 brief). Each renders its file by path once it lands
 // and is a quiet frame until then. D1–D3 are painted (F2 xieyi, 2026-10-27) and
 // sit in the card's paper (InkArt): multiplied onto the cardstock, edges masked,
-// D1 bleeding off the top, D2 a column the text flows around, D3 closing the card.
+// D1 bleeding off the top, D2 a column the text flows around, D3 closing the card,
+// and each energy row's pair painting a shallow band under its title (card 4).
 const dmArt = (stem, n) => `/concept-arts/stems/dm/${STEM_PY[stem]}-d${n}.png`;
 // the screen's stage: one ground painting per stem under the cards, so short cards never float over bare paper (owner 2026-10-27: no empty space over 40%)
 export const dmStage = (stem) => `/concept-arts/stems/dm/${STEM_PY[stem]}-stage.png`;
 const pairArt = (stem, el) => `/concept-arts/pairs/pair_${STEM_ELK[stem]}_${el}.png`;
-function ArtSlot({ src, ratio, label }) {
-  const [miss, setMiss] = useState(false);
-  return (
-    <span className={`dmp-art${miss ? ' miss' : ''}`} style={{ aspectRatio: ratio }}>
-      {miss ? <span className="dmp-artl">{label}</span> : <img src={src} alt="" loading="lazy" onError={() => setMiss(true)} />}
-    </span>
-  );
-}
-
 function InkArt({ src, kind }) {
   const [miss, setMiss] = useState(false);
   if (miss) return null;
@@ -142,7 +134,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
                       // W1–W3 A: the function as the title, three chips in the Grow/Release colours, the paragraph
                       <span className="dmp-ftx">
                         <span className="dmp-ftitle">{f.fn}<em>{f.name} · {f.presence}%</em><span className="dp-draft">draft</span><Use id="ico-arrow-r" className="dmp-go" /></span>
-                        <ArtSlot src={pairArt(m.stem, f.el)} ratio="3 / 2" label={`Pair · ${f.name}`} />
+                        <InkArt src={pairArt(m.stem, f.el)} kind="pair" />
                         <span className="dmp-chips">{f.cell.adj.map((a) => <span key={a} className={`wd-adjchip${f.pole === 'friction' ? ' down' : ''}`}>{a}</span>)}</span>
                         <span className="dmp-fd">{f.cell.p}</span>
                       </span>
