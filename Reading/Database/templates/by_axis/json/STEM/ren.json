@@ -25,7 +25,7 @@
       "You see the whole current while others watch the wave.",
       "You move around obstacles rather than through them, and still arrive first."
     ],
-    "dm_mechanism": "Yang Water that carves by patience — force that wins by not insisting.",
+    "dm_mechanism": "Yang Water that carves by patience, force that wins by not insisting.",
     "yourNature_desc": "You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live.",
     "dm_overview": "The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps.",
     "who": null,
@@ -549,6 +549,7 @@
   },
   "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
   "field_status": {
-    "who": "TO WRITE · opened 2026-10-18"
+    "who": "TO WRITE · opened 2026-10-18",
+    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)"
   }
 }

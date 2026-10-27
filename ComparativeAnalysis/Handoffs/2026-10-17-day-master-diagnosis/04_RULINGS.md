@@ -219,3 +219,13 @@ The new page (`DayMasterPage`, screen `daymaster`, a LeafReader on dev behind TY
 - the type line, with doors to "How am I running?", Your Circle and the first-reading replay.
 
 Not shown: `stem_keywords` (retired to ore 2026-09-10); the gifts and shadows pools (retired to ore 2026-10-17); `who` (a golden-only draft; it is card 1 of the replayed first reading).
+
+### RULED 2026-10-27: P1 A, P2 A, P3 A (the Day Master page's fields)
+
+**P2, done.** `STEM.dm_mechanism` is LOCKED ×10. In each line the dash became a comma, in the station and in DM_READING `edge`, and the REA_16 §2c row is set to locked.
+
+**P1, in progress.** The dash in 辛's claim 2 became a comma, a mechanical fix. Three calls remain before the twenty claims lock:
+- C1, C2: "room" in 丙 claim 2 and 癸 claim 1; the word is rationed corpus-wide.
+- C3: three claims under the 10–16w band (庚, 己 and 乙 claim 1).
+
+**P3, drafted.** Two candidates of two or three adjectives for each of the ten L1s, per the manifesto field card. Every couplet is ≤14w and column A repeats no word across stems. The ruling page with C1–C3 and M甲–M癸 is at the link in the session.

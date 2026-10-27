@@ -23,7 +23,7 @@
 | `stem_keywords` | Intuitive · Subtle · Attuned |
 | `pinyin_display` | GUǏ · YIN WATER |
 | `dm_claims` | You read the room a beat before it reveals itself. · You reach people through the small, quiet door, not the loud one. |
-| `dm_mechanism` | Yin Water that finds every opening — perception that travels where pressure cannot. |
+| `dm_mechanism` | Yin Water that finds every opening, perception that travels where pressure cannot. |
 | `yourNature_desc` | You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life. |
 | `dm_overview` | The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow. |
 | `who` | *(unauthored)* |

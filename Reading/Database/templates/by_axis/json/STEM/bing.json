@@ -25,7 +25,7 @@
       "You give warmth before you are asked, and rarely count the cost.",
       "A room reads its mood from you before you say a word."
     ],
-    "dm_mechanism": "Yang Fire that gives without dimming — radiance steadied by what it warms.",
+    "dm_mechanism": "Yang Fire that gives without dimming, radiance steadied by what it warms.",
     "yourNature_desc": "You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included.",
     "dm_overview": "The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders.",
     "who": null,
@@ -541,6 +541,7 @@
   },
   "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
   "field_status": {
-    "who": "TO WRITE · opened 2026-10-18"
+    "who": "TO WRITE · opened 2026-10-18",
+    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)"
   }
 }

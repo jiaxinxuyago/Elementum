@@ -15,6 +15,6 @@
 | **The Mountain** | 戊 | You become the ground others stand on without being asked. · When plans wobble, yours is the version everyone quietly adopts. |
 | **The Field** | 己 | You make things grow by tending, not by forcing. · People feel steadier after time with you and cannot say why. |
 | **The Blade** | 庚 | Being vague feels worse to you than being wrong. · People come to you when they need the unsoftened truth. |
-| **The Jewel** | 辛 | You notice the flaw everyone else has agreed to overlook. · Precision is how you show care — even when it reads as cool. |
+| **The Jewel** | 辛 | You notice the flaw everyone else has agreed to overlook. · Precision is how you show care, even when it reads as cool. |
 | **The Ocean** | 壬 | You see the whole current while others watch the wave. · You move around obstacles rather than through them, and still arrive first. |
 | **The Rain** | 癸 | You read the room a beat before it reveals itself. · You reach people through the small, quiet door, not the loud one. |

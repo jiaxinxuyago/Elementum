@@ -25,7 +25,7 @@
       "You read the room a beat before it reveals itself.",
       "You reach people through the small, quiet door, not the loud one."
     ],
-    "dm_mechanism": "Yin Water that finds every opening — perception that travels where pressure cannot.",
+    "dm_mechanism": "Yin Water that finds every opening, perception that travels where pressure cannot.",
     "yourNature_desc": "You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life.",
     "dm_overview": "The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow.",
     "who": null,
@@ -573,6 +573,7 @@
   },
   "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
   "field_status": {
-    "who": "TO WRITE · opened 2026-10-18"
+    "who": "TO WRITE · opened 2026-10-18",
+    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)"
   }
 }

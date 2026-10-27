@@ -23,7 +23,7 @@
 | `stem_keywords` | Focused · Devoted · Perceptive |
 | `pinyin_display` | DĪNG · YIN FIRE |
 | `dm_claims` | You keep a small, exact flame the wind has never found. · You would rather light one person truly than a crowd dimly. |
-| `dm_mechanism` | Yin Fire kept close — a focused heat that endures by staying contained. |
+| `dm_mechanism` | Yin Fire kept close, a focused heat that endures by staying contained. |
 | `yourNature_desc` | You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it. |
 | `dm_overview` | The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance. |
 | `who` | *(unauthored)* |

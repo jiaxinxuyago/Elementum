@@ -23,7 +23,7 @@
 | `stem_keywords` | Nurturing · Patient · Receptive |
 | `pinyin_display` | JǏ · YIN EARTH |
 | `dm_claims` | You make things grow by tending, not by forcing. · People feel steadier after time with you and cannot say why. |
-| `dm_mechanism` | Yin Earth that nourishes quietly — fertile ground that asks for no credit. |
+| `dm_mechanism` | Yin Earth that nourishes quietly, fertile ground that asks for no credit. |
 | `yourNature_desc` | You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late. |
 | `dm_overview` | The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away. |
 | `who` | *(unauthored)* |

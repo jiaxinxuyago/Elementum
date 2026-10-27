@@ -23,7 +23,7 @@
 | `stem_keywords` | Expansive · Fluid · Deep |
 | `pinyin_display` | RÉN · YANG WATER |
 | `dm_claims` | You see the whole current while others watch the wave. · You move around obstacles rather than through them, and still arrive first. |
-| `dm_mechanism` | Yang Water that carves by patience — force that wins by not insisting. |
+| `dm_mechanism` | Yang Water that carves by patience, force that wins by not insisting. |
 | `yourNature_desc` | You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live. |
 | `dm_overview` | The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps. |
 | `who` | *(unauthored)* |

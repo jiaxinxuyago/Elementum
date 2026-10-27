@@ -23,9 +23,9 @@
     "pinyin_display": "XĪN · YIN METAL",
     "dm_claims": [
       "You notice the flaw everyone else has agreed to overlook.",
-      "Precision is how you show care — even when it reads as cool."
+      "Precision is how you show care, even when it reads as cool."
     ],
-    "dm_mechanism": "Yin Metal refined under pressure — an edge made keen by polishing, not by force.",
+    "dm_mechanism": "Yin Metal refined under pressure, an edge made keen by polishing, not by force.",
     "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
     "dm_overview": "The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.",
     "who": null,
@@ -469,6 +469,8 @@
   },
   "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
   "field_status": {
-    "who": "TO WRITE · opened 2026-10-18"
+    "who": "TO WRITE · opened 2026-10-18",
+    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
+    "dm_claims": "claim 2: the dash became a comma 2026-10-27 (P1, mechanical); row pending until C1–C3"
   }
 }
