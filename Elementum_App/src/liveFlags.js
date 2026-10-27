@@ -43,3 +43,10 @@ export const EJ_LIVE = true;
 // opened from the wheel tile. Turn off to restore card 8's two buttons and the
 // A1 "tiles" card.
 export const SC_LIVE = true;
+
+// The Elementum Type (owner rulings 2026-10-27, M1–M6 A): "The Blade · Mind
+// mode" with its plain line, the four chips (archetype seal, run dial, mode and
+// needs ink dots), the your-mode and you-need tags and the circle (Fuel, Bond,
+// Mirror) on the share card and the album hero; the manifesto moves to "How am
+// I running?". Dev site only until the owner says live.
+export const TYPE_LIVE = false;

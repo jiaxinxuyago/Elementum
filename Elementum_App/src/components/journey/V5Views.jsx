@@ -20,7 +20,7 @@
 // ===================================================================
 
 import { useEffect, useState } from 'react';
-import { Dial } from './MergedViews.jsx';
+import { Dial, TypeChips, TypeLine } from './MergedViews.jsx';
 import { LifeLine } from './DepthViews.jsx';
 import './v5.css';
 
@@ -40,7 +40,7 @@ export function InkDot({ el, size = 40, Use, label }) {
   );
 }
 
-export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIcon, wheelTile, onRun, onEnergy, onOpen, onBirthChart, Use, DOM }) {
+export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIcon, wheelTile, onRun, onEnergy, onOpen, onBirthChart, Use, DOM, typeOn = false }) {
   const read = useReadMap();
   const [mins, setMins] = useState({});
   useEffect(() => {
@@ -71,10 +71,16 @@ export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIco
         <div className="v5-idnm"><span className="kick">You are</span><b>{m.archetype}</b></div>
         <span className="v5-idact">
           {onBirthChart ? <button type="button" className="mg-bchart" onClick={onBirthChart}>Birth chart ›</button> : null}
-          <button type="button" className="role-pill cond mg-cpill" onClick={onRun}><Use id={condIcon} />{m.condition}</button>
+          {/* THE TYPE (M6 A): the Run chip carries the condition, so the pill steps down */}
+          {typeOn && g.type ? null : <button type="button" className="role-pill cond mg-cpill" onClick={onRun}><Use id={condIcon} />{m.condition}</button>}
         </span>
       </div>
-      <p className="v5-mani">{m.manifesto}</p>
+      {typeOn && g.type ? (
+        <>
+          <TypeLine g={g} className="v5-mani" />
+          <TypeChips m={m} g={g} Use={Use} InkDot={InkDot} onRun={onRun} />
+        </>
+      ) : <p className="v5-mani">{m.manifesto}</p>}
       {wheelTile}
       <div className="v5-readline"><span>{done} of {ids.length} read</span><span className="v5-rlprog"><i style={{ width: `${(done / ids.length) * 100}%` }} /></span><span>{left ? `${left} min left` : 'All read'}</span></div>
       <div className="v5-bento">

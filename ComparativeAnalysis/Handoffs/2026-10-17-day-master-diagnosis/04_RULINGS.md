@@ -141,3 +141,27 @@ What changed, on the same page (version 3):
 - **The grid tags** read "your mode" and "you need". Card 2 is dropped.
 
 **Rows M1–M6** (awaiting): the name, the chips, the plain line, ties, the circle, the album hero.
+
+### RULED 2026-10-27: M1 A, M2 A, M3 A, M4 A, M5 A, M6 A
+
+Built on the dev site behind `TYPE_LIVE = false` (`TYPE_V1 = TYPE_LIVE || IS_DEV_TOOLS`, `src/liveFlags.js`). elementum.life is unchanged until the owner says live.
+
+**Model.** `buildMergedModel(...).type` in `journeyData.js` carries:
+- the name;
+- the line;
+- the mode: the function held most. A tie takes the function that fits the run.
+- the need: the start element, with its share;
+- the circle: Fuel = the cores of the needed element, Bond = 天干五合, Mirror = the same core.
+
+Across 3,000 random charts every line fills, and 47 of the 50 types appear.
+
+**Station.** `TEMPLATED/tpl_type.json` holds the name, the pattern, the mode phrases (the locked wheel words) and the needs clauses by volume. It is mapped in the export checker and transcribed to `mergedReading.js` as `TYPE_LINE`.
+
+**Draft, to rule.** The other needs clauses: none / could use more / already there to use / that is / Balanced "your five energies stay close to even". The ruled "holds little" fits only the thin needs, 42% of charts.
+
+**UI** (`MergedViews.jsx`: TypeChips, TypeLine, TypeCircle):
+- **Share card:** the type line in place of the claim, four chips, the "your mode" and "you need" tags, and the circle, which opens Your Circle. It fits the 9:16 frame on Overfueled, Underfueled and Balanced charts.
+- **Album hero:** the line with the red rule and the chips. The Run chip opens "How am I running?", and the condition pill steps down.
+- **"How am I running?"** now carries the manifesto.
+
+**Open for the owner:** the needs-clause drafts, and "Most of your chart". The mode is the largest share, not always a majority; for the golden chart it is 33%.

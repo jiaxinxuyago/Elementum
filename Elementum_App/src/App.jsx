@@ -674,12 +674,12 @@ export default function App() {
     case 'app-reading':
       // P6 journey catalogue (answer-first): hero → wheel + Folio → SEEK/SKIP
       // → towers + seal dock. Endpoints route into the existing reading pages.
-      rendered = <JourneyStage key={sectionTarget || 'reading'} openEl={energyTarget} openSection={sectionTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} onOpenToday={goto('app-today')} />;
+      rendered = <JourneyStage key={sectionTarget || 'reading'} openEl={energyTarget} openSection={sectionTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} onOpenToday={goto('app-today')} onOpenCompat={goto('app-compat')} />;
       break;
     case 'app-daymaster':
       // THE MERGE: a hash or old link to the Day Master page lands on Your
       // reading.
-      if (MERGE_V1) { rendered = <JourneyStage key="reading" onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} />; break; }
+      if (MERGE_V1) { rendered = <JourneyStage key="reading" onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} onOpenCompat={goto('app-compat')} />; break; }
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
       // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
       // the journey (the same hook the DevBar uses, set by JourneyStage).

@@ -68,6 +68,27 @@ export const RELATION_LABELS = {
   own: 'more of you', feeds: 'feeds you', tames: 'shapes you', you_feed: 'you feed it', you_tame: 'you shape it',
 };
 
+// TEMPLATED/tpl_type — the Elementum Type (owner 2026-10-27, M1–M6 A): the
+// archetype plus a plain mode, "The Blade · Mind mode", on the share card and
+// the album hero. The mode is the function the chart holds most of; its phrase
+// reads off the locked wheel words, keyed like RELATION_LABELS. The needs
+// clause follows the needed energy's volume. Ruled: name, pattern, mode, thin.
+// The other needs clauses are DRAFTS (2026-10-27), to rule.
+export const TYPE_LINE = {
+  name: '{Archetype} · {Fn} mode',
+  pattern: '{Fn} mode. Most of your chart {mode}, {needs}',
+  mode: { own: 'is more of you', feeds: 'feeds you', tames: 'shapes you', you_feed: 'is what you feed', you_tame: 'is what you shape' },
+  needs: {
+    absent: 'and it holds none of the {El} you need.',
+    thin: 'and it holds little of the {El} you need.',
+    present: 'and it could use more of the {El} you need.',
+    abundant: 'and the {El} you need is already there to use.',
+    dominant: 'and the {El} you need is already there to use.',
+    same: 'and that is the {El} you need.',
+    balanced: 'and your five energies stay close to even.',
+  },
+};
+
 // TEMPLATED/tpl_codex_tests — needs chart.dayMaster.strengthTests
 export const CODEX_TESTS = {
   score: 'You score {score} of 7. {reason} {Condition} means your core {run}.',

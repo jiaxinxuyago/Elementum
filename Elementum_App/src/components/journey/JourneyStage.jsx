@@ -63,7 +63,7 @@ function MetricBars({ m }) {
 import { APP_URL, APP_HOST } from '../../infra/index.js';
 import { DM_READING } from '../../content/reading/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
-import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading } from './MergedViews.jsx';
+import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeChips, TypeLine, TypeCircle } from './MergedViews.jsx';
 import { MERGE_V1 } from './mergeFlag.js';
 import { resolveDayMasterReading } from '../reading/readingResolve.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
@@ -77,7 +77,7 @@ import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
-import { DEPTH_LIVE, V5_LIVE, EJ_LIVE, SC_LIVE } from '../../liveFlags.js';
+import { DEPTH_LIVE, V5_LIVE, EJ_LIVE, SC_LIVE, TYPE_LIVE } from '../../liveFlags.js';
 import { EnergyLadder, NameRung, DomainMap, ArtSlot, FN_ART, PERSONA_ART } from './EnergyJourney.jsx';
 import { AlbumHub, LeafReader, Balance, EnergyPager, AcrossChart, useSwipe, markRead, SECTION_ART, InkDot } from './V5Views.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
@@ -126,6 +126,8 @@ const UseX = ({ id, className }) => (
 // The share card's Day Master line: which of the stem's two claims is the
 // social one (how people use you). Claim 2 for most stems; 乙 and 壬 have no
 // social claim yet and 辛's second carries a dash, so those take claim 1.
+// THE TYPE (owner 2026-10-27, M1–M6 A): dev site until TYPE_LIVE.
+export const TYPE_V1 = TYPE_LIVE || IS_DEV_TOOLS;
 const SHARE_CLAIM_PICK = { '乙': 0, '壬': 0, '辛': 0 };
 const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
@@ -165,7 +167,7 @@ const DEPTH_WORDS = {
   star: { label: 'Star', tint: 't-core', pill: 'core', icon: null, body: 'The symbolic stars are an older, lighter layer of the reading. Each one colours the gate it sits in, and some arrive with a decade or a year.' },
 };
 
-export default function JourneyStage({ reveal = false, openCore = false, openEl = null, openSection = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour, onBirthChart, onOpenToday }) {
+export default function JourneyStage({ reveal = false, openCore = false, openEl = null, openSection = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour, onBirthChart, onOpenToday, onOpenCompat }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const { openUpgrade } = useUpgrade();   // THE EDGE's domain sheet leads to the price gate (owner 2026-10-15)
@@ -850,7 +852,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     identity strip, the wheel tile (unchanged), the read line, the tiles */}
                 {V5_LIVE && merged && (
                   <AlbumHub m={m} g={merged} depth={depth} positions={allPositions} hourUnknown={hourUnknown}
-                    sealSrc={sealSrc} condIcon={condIcon} Use={Use} DOM={DOM}
+                    sealSrc={sealSrc} condIcon={condIcon} Use={Use} DOM={DOM} typeOn={TYPE_V1}
                     onRun={() => goScreen('run')} onEnergy={(el) => setSheetEl(el)} onBirthChart={onBirthChart}
                     onOpen={(name) => openDepth(name, null, 'catalogue')}
                     wheelTile={(
@@ -916,12 +918,12 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                   <LeafReader id="run" title="How am I running?" route="section:run" Use={Use}
                     units=".mg-runhead, .mg-cr > .mg-sec, .mg-bpdoor"
                     next={depth ? { label: 'Your domains', title: v5Next.domains, art: SECTION_ART.domains, onGo: () => openDepth('domains', null, 'catalogue') } : null}>
-                    <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon}
+                    <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon} mani={TYPE_V1 ? m.manifesto : null}
                       balance={<Balance m={m} g={merged} sealSrc={sealSrc} fnNoun={fnNoun} Use={Use} />}
                       onBlueprint={depth ? () => openDepth('blueprint', null, 'run') : null} />
                   </LeafReader>
                 ) : (
-                <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon}
+                <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon} mani={TYPE_V1 ? m.manifesto : null}
                   onBlueprint={depth ? () => openDepth('blueprint', null, 'run') : null} />
                 )}
               </div></div>
@@ -1621,7 +1623,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
             <span className="sc-hint">Your identity card</span>
             <button className="scclose" aria-label="Close" onClick={() => setShowShare(false)}><Use id="ico-close" /></button>
             {SC_LIVE ? (
-            <div className="share-card" data-var="naming" ref={cardRef}>
+            <div className="share-card" data-var="naming" data-type={TYPE_V1 && merged?.type ? '1' : undefined} ref={cardRef}>
               {/* The share card (owner 2026-10-26, DES_15 AL: L3's column and side
                   inscription above, L2's panel below). The identity sits in a left
                   column on the mist veil with the Naming's inscription at the right;
@@ -1635,8 +1637,9 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                   <div className="scey">ELEMENTUM</div>
                   <img className="sn-plate" src={paintSrc} alt={`${m.stem}, ${m.archetype}`} />
                   <div className="sn-name">You are {m.archetype}.</div>
-                  <p className="sn-claim">{(DM_READING[m.stem]?.claims || [])[SHARE_CLAIM_PICK[m.stem] ?? 1] || merged?.who || m.manifesto}</p>
+                  {TYPE_V1 && merged?.type ? <TypeLine g={merged} className="sn-claim" /> : <p className="sn-claim">{(DM_READING[m.stem]?.claims || [])[SHARE_CLAIM_PICK[m.stem] ?? 1] || merged?.who || m.manifesto}</p>}
                 </div>
+                {TYPE_V1 && merged?.type ? <TypeChips m={m} g={merged} Use={UseX} InkDot={InkDot} /> : null}
                 <div className="sn-panel">
                   <div className="sn-core">
                     <UseX id={`el-${m.core.el}`} className="sn-cmk" />
@@ -1663,11 +1666,13 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                             <span className="sn-well"><InkDot el={el} size={Math.round(22 + 22 * (r.presence / rvlMax))} Use={UseX} label={`${r.name} ${r.presence} percent`} /></span>
                             <small>{r.presence}%</small>{r.name}
                             {merged?.rows?.[el]?.fn ? <em>{merged.rows[el].fn}</em> : null}
+                            {TYPE_V1 && merged?.type ? <span className={`sn-tag${merged.type.need?.el === el ? ' need' : merged.type.mode.el === el ? '' : ' ghost'}`}>{merged.type.need?.el === el ? 'You need' : merged.type.mode.el === el ? 'Your mode' : ''}</span> : null}
                           </span>
                         ); })}
                       </div>
                     );
                   })()}
+                  {TYPE_V1 && merged?.type ? <TypeCircle g={merged} onOpen={onOpenCompat ? () => { setShowShare(false); onOpenCompat(); } : null} /> : null}
                   <span className="sn-foot">{APP_HOST}</span>
                 </div>
               </div>

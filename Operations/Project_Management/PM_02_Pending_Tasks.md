@@ -124,7 +124,7 @@ Open:
 - polish each page;
 - the 14 merged-journey drafts (only the golden chart is written; the other charts fall back);
 - the remaining 29 band paragraphs;
-- the Day Master opening line (album hero + share card, 2026-10-26): proposal https://claude.ai/artifact/A23E1m8RQLJ9f3ZY8cUqhN, awaiting the owner (OL1–OL3, 甲–癸);
+- **the Elementum Type** (owner M1–M6 A, 2026-10-27): "The Blade · Mind mode" on the share card and the album hero, built on the dev site behind `TYPE_LIVE = false`. Next: the owner's read on dev, the needs-clause drafts, then live. The 26 October opening-line proposal (OL) is superseded.
 
 ## GO-LIVE — dev-only on purpose; each goes live on elementum.life the day it is done (owner 2026-10-21: "backlog these items and build them into official link until they are completed")
 

@@ -35,6 +35,52 @@ export function Dial({ score, condition }) {
   );
 }
 
+// ── THE TYPE (owner 2026-10-27, M1–M6 A) ─────────────────────────
+// The four chips (Archetype, Run, Mode, Needs) and the circle (Fuel, Bond,
+// Mirror), shared by the share card and the album hero. The seals are the
+// painted stem plates; Run is the album's dial; Mode and Needs are ink dots.
+const STEM_PY = { 甲: 'jia', 乙: 'yi', 丙: 'bing', 丁: 'ding', 戊: 'wu', 己: 'ji', 庚: 'geng', 辛: 'xin', 壬: 'ren', 癸: 'gui' };
+const STEM_ELK = { 甲: 'wood', 乙: 'wood', 丙: 'fire', 丁: 'fire', 戊: 'earth', 己: 'earth', 庚: 'metal', 辛: 'metal', 壬: 'water', 癸: 'water' };
+export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${STEM_ELK[stem]}.png`;
+
+export function TypeChips({ m, g, Use, InkDot, onRun }) {
+  const t = g.type;
+  const Run = onRun ? 'button' : 'span';
+  return (
+    <div className={`ty-chips${t.need ? '' : ' n3'}`} aria-label={t.name}>
+      <span className="ty-chip"><small>Archetype</small><span className="ty-cv"><img src={plateOf(m.stem)} alt="" /></span><b>{m.archetype}</b></span>
+      <Run className="ty-chip" {...(onRun ? { type: 'button', onClick: onRun } : {})}><small>Run</small><span className="ty-cv"><Dial score={g.score} condition={g.condition} /></span><b>{g.condition}</b>{g.score != null ? <em>{g.score} of 7</em> : null}</Run>
+      <span className="ty-chip"><small>Mode</small><span className="ty-cv"><InkDot el={t.mode.el} size={30} Use={Use} label={`${t.mode.name} ${t.mode.presence} percent`} /></span><b>{t.mode.fn}</b><em>{t.mode.name} {t.mode.presence}%</em></span>
+      {t.need ? <span className="ty-chip need"><small>Needs</small><span className="ty-cv"><InkDot el={t.need.el} size={30} Use={Use} label={`${t.need.name} ${t.need.presence} percent`} /></span><b>{t.need.name}</b><em>{t.need.fn} {t.need.presence}%</em></span> : null}
+    </div>
+  );
+}
+
+export function TypeLine({ g, className = '' }) {
+  const t = g.type; const cut = t.line.indexOf('. ');
+  return <p className={`ty-line ${className}`}><b>{t.line.slice(0, cut + 1)}</b>{t.line.slice(cut + 1)}</p>;
+}
+
+export function TypeCircle({ g, onOpen }) {
+  const c = g.type.circle;
+  const Cell = onOpen ? 'button' : 'span';
+  const cell = (k, label, list, name) => (
+    <Cell key={k} className="ty-cc" {...(onOpen ? { type: 'button', onClick: onOpen } : {})}>
+      <span className="ty-ch">{label}</span>
+      <span className="ty-cp">{list.map((x) => <img key={x.stem} src={plateOf(x.stem)} alt={x.archetype} />)}</span>
+      <span className="ty-cn">{name}</span>
+    </Cell>
+  );
+  const plural = (a) => `${a.replace(/^The /, '')}s`;
+  return (
+    <div className="ty-circle">
+      {c.fuel.length ? cell('fuel', 'Fuel', c.fuel, c.fuel.map((x) => plural(x.archetype)).join(' & ')) : null}
+      {cell('bond', 'Bond', [c.bond], c.bond.archetype)}
+      {cell('mirror', 'Mirror', [c.mirror], plural(c.mirror.archetype))}
+    </div>
+  );
+}
+
 const pillOf = (row, it) => (row.pole === 'friction' ? { cls: 'fric', icon: 'ar-down', t: `Release${it ? ' it' : ''}` }
   : row.pole === 'catalyst' ? { cls: 'cat', icon: 'ar-up', t: `Grow${it ? ' it' : ''}` } : { cls: 'cond', icon: 'ic-balanced', t: 'Keep' });
 
@@ -186,13 +232,15 @@ export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead
 }
 
 // ── "How am I running?" ───────────────────────────────────────────
-export function RunPage({ m, g, nature, Use, condIcon, onBlueprint, balance = null }) {
+export function RunPage({ m, g, nature, Use, condIcon, onBlueprint, balance = null, mani = null }) {
   const [codex, setCodex] = useState(false);
   const R = g.reading;
   return (
     <div className="mg-run">
       <div className="cardstock mg-runhead">
         <div className="mg-runtop"><span className="mg-tl">How am I running?</span><span className="role-pill cond"><Use id={condIcon} />{m.condition}</span></div>
+        {/* THE TYPE (M6 A): the manifesto moves here from the album hero */}
+        {mani ? <p className="mg-mani">{mani}</p> : null}
         {/* V5 (R11): the page opens on the balance — what adds to you, what spends you */}
         {balance || <Dial score={g.score} condition={g.condition} />}
         <h2 className="mg-h">{g.runHeadline}</h2>

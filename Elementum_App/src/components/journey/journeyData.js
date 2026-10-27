@@ -14,10 +14,10 @@
 // ===================================================================
 
 import { getEnergyBand, relationOf, STEM_YIN, volumeOf } from '../../engine/index.js';
-import { TG_PERSONA, TG_DEFLINE } from '../../content/index.js';
+import { TG_PERSONA, TG_DEFLINE, STEM_CARD_DATA } from '../../content/index.js';
 import { FEEDS, TAMES, CYCLE_IMAGE_LINES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN, GOD_RULING_DOMAINS } from '../../content/k2.js';
-import { STEM_WHO, RUN_LINES, PAIR_HEAD, PAIR_STORY, NOW_LINE, PRESENCE_LINE, RX_RIBBON, RELATION_LABELS, CODEX_TESTS } from '../../content/mergedReading.js';
+import { STEM_WHO, RUN_LINES, PAIR_HEAD, PAIR_STORY, NOW_LINE, PRESENCE_LINE, RX_RIBBON, RELATION_LABELS, CODEX_TESTS, TYPE_LINE } from '../../content/mergedReading.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 import { functionMetrics } from '../../engine/functionMetrics.js';
@@ -932,6 +932,9 @@ export function buildDiagnosisModel(m) {
 const FAM_REL = { self: 'own', resource: 'feeds', officer: 'tames', output: 'you_feed', wealth: 'you_tame' };
 const REL_HEAD_FALLBACK = { own: '{El} strengthens {the archetype}', feeds: '{El} feeds {the archetype}', tames: '{El} shapes {the archetype}', you_feed: '{El} draws from {the archetype}', you_tame: '{El} is shaped by {the archetype}' };
 const YIN_STEMS = '乙丁己辛癸';
+// the type's circle: each stem's element, and its classical bond (天干五合)
+const STEM_EL = { 甲: 'wood', 乙: 'wood', 丙: 'fire', 丁: 'fire', 戊: 'earth', 己: 'earth', 庚: 'metal', 辛: 'metal', 壬: 'water', 癸: 'water' };
+const STEM_BOND = { 甲: '己', 己: '甲', 乙: '庚', 庚: '乙', 丙: '辛', 辛: '丙', 丁: '壬', 壬: '丁', 戊: '癸', 癸: '戊' };
 const fillT = (t, o) => (t ? t.replace(/\{([^}]+)\}/g, (x, k) => (o[k] != null ? o[k] : x)) : null);
 const listJoin = (a) => (a.length < 2 ? (a[0] || '') : `${a.slice(0, -1).join(', ')} and ${a[a.length - 1]}`);
 const NUM_CAP = ['None', 'One', 'Two', 'Three'];
@@ -991,6 +994,30 @@ export function buildMergedModel(m, chart) {
     };
   }
   const mind = m.els.find((r) => !r.isCore && r.family === 'resource');
+  // THE TYPE (owner 2026-10-27, M1–M6 A): archetype · mode, the run, what the
+  // chart needs, and its circle. The mode is the function held most; a tie takes
+  // the function that fits the run (M4 A): Overfueled takes Body or Mind,
+  // Underfueled takes Expression, Action or Order.
+  const fits = (r) => (cond === 'Overfueled' ? ['self', 'resource'] : cond === 'Underfueled' ? ['output', 'wealth', 'officer'] : []).includes(r.isCore ? 'self' : r.family);
+  const top = Math.max(...m.els.map((r) => r.presence));
+  const tied = m.els.filter((r) => r.presence === top);
+  const modeR = tied.find(fits) || tied[0];
+  const mode = rows[modeR.el];
+  const need = first ? rows[first.el] : null;
+  const needsKey = m.balanced || !need ? 'balanced' : need.el === mode.el ? 'same' : (need.volume || 'thin');
+  const archOf = (stem) => STEM_CARD_DATA[stem]?.identity?.archetypeName || stem;
+  const needStems = need ? Object.keys(STEM_EL).filter((s) => STEM_EL[s] === need.el) : [];
+  const type = {
+    name: fillT(TYPE_LINE.name, { Archetype: m.archetype, Fn: mode.fn }),
+    line: fillT(TYPE_LINE.pattern, { Fn: mode.fn, mode: TYPE_LINE.mode[mode.rel], needs: fillT(TYPE_LINE.needs[needsKey], { El: need ? need.name : '' }) }),
+    mode: { el: mode.el, fn: mode.fn, name: mode.name, presence: mode.presence },
+    need: need ? { el: need.el, fn: need.fn, name: need.name, presence: need.presence } : null,
+    circle: {
+      fuel: needStems.map((s) => ({ stem: s, archetype: archOf(s) })),
+      bond: { stem: STEM_BOND[m.stem], archetype: archOf(STEM_BOND[m.stem]) },
+      mirror: { stem: m.stem, archetype: m.archetype },
+    },
+  };
   return {
     condition: cond, balanced: m.balanced, rows, order: order.map((r) => r.el), first: first ? first.el : null,
     who: STEM_WHO[m.stem] || m.maniEdge || '',
@@ -998,5 +1025,6 @@ export function buildMergedModel(m, chart) {
     rx, start, codex, score: t ? t.score : null,
     reading: CONDITION_READING[cond] || null, body: coreName, mind: mind ? mind.name : null,
     ease: m.skip.map((r) => r.el), seek: m.seek.map((r) => r.el),
+    type,
   };
 }

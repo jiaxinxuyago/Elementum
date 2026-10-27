@@ -1,0 +1,40 @@
+{
+  "$archetype": "tpl_type",
+  "axis": "TEMPLATED",
+  "key": "tpl_type",
+  "canonical_name": null,
+  "construct": "Derived slot template (REA_03 §5; REA_02 §5h)",
+  "candidate_note": "Slot-filled at runtime from derived values only (REA_03 §10 rule 3): the archetype, the mode (the function the chart holds most of; a tie takes the function that fits the run), and the needed energy with its volume.",
+  "sources": [
+    "REA_03 §5 (patterns)",
+    "ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md (the Elementum Type, M1–M6 A)"
+  ],
+  "status_note": "RULED 2026-10-27 (owner M1–M6 A): name, pattern, mode, needs.thin · the other needs clauses DRAFT 2026-10-27, to rule · the share card and the album hero (TYPE_V1)",
+  "budget": "name ≤6w · line ≤22w",
+  "candidates": {
+    "name": "{Archetype} · {Fn} mode",
+    "pattern": "{Fn} mode. Most of your chart {mode}, {needs}",
+    "mode": {
+      "own": "is more of you",
+      "feeds": "feeds you",
+      "tames": "shapes you",
+      "you_feed": "is what you feed",
+      "you_tame": "is what you shape"
+    },
+    "needs": {
+      "absent": "and it holds none of the {El} you need.",
+      "thin": "and it holds little of the {El} you need.",
+      "present": "and it could use more of the {El} you need.",
+      "abundant": "and the {El} you need is already there to use.",
+      "dominant": "and the {El} you need is already there to use.",
+      "same": "and that is the {El} you need.",
+      "balanced": "and your five energies stay close to even."
+    }
+  },
+  "field_status": {
+    "name": "RULED 2026-10-27 · M1 A",
+    "pattern": "RULED 2026-10-27 · M3 A",
+    "mode": "RULED 2026-10-27 · M3 A, the locked wheel words (tpl_cycle_line.relation_labels)",
+    "needs": "thin RULED 2026-10-27 (M3 A); absent, present, abundant, dominant, same, balanced DRAFT 2026-10-27, to rule"
+  }
+}
