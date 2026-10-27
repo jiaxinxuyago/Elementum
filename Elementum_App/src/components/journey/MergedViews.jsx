@@ -49,7 +49,9 @@ export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${ST
 
 // The Day Master journey's art slots (A1–A4 A, 2026-10-27): D1–D3 per stem and
 // the 25 pair paintings (N1 brief). Each renders its file by path once it lands
-// and is a quiet frame until then.
+// and is a quiet frame until then. D1–D3 are painted (F2 xieyi, 2026-10-27) and
+// sit in the card's paper (InkArt): multiplied onto the cardstock, edges masked,
+// D1 bleeding off the top, D2 a column the text flows around, D3 closing the card.
 const dmArt = (stem, n) => `/concept-arts/stems/dm/${STEM_PY[stem]}-d${n}.png`;
 const pairArt = (stem, el) => `/concept-arts/pairs/pair_${STEM_ELK[stem]}_${el}.png`;
 function ArtSlot({ src, ratio, label }) {
@@ -59,6 +61,12 @@ function ArtSlot({ src, ratio, label }) {
       {miss ? <span className="dmp-artl">{label}</span> : <img src={src} alt="" loading="lazy" onError={() => setMiss(true)} />}
     </span>
   );
+}
+
+function InkArt({ src, kind }) {
+  const [miss, setMiss] = useState(false);
+  if (miss) return null;
+  return <img className={`dmp-ink ${kind}`} src={src} alt="" loading="lazy" onError={() => setMiss(true)} />;
 }
 
 function TyChip({ k, cls = '', doors, stamp, children }) {
@@ -101,15 +109,17 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         {m.manifesto ? <p className="dmp-mani">{m.manifesto}</p> : null}
       </div>
       {dm.overview ? (
-        <div className="cardstock dmp-sec"><span className="mg-lab">The sign</span><ArtSlot src={dmArt(m.stem, 1)} ratio="16 / 9" label="D1 · the sign" /><p className="dmp-body">{dm.overview}</p></div>
+        <div className="cardstock dmp-sec dmp-inked"><InkArt src={dmArt(m.stem, 1)} kind="sign" /><span className="mg-lab">The sign</span><p className="dmp-body">{dm.overview}</p></div>
       ) : null}
       {dm.nature || dm.inscription ? (
         <div className="cardstock dmp-sec">
           <span className="mg-lab">Your nature</span>
-          <ArtSlot src={dmArt(m.stem, 2)} ratio="4 / 5" label="D2 · your nature" />
-          {/* the inscription opens the portrait (owner 2026-10-27: "What people notice is just an opener to Your Nature") */}
-          {dm.inscription ? <p className="dmp-ins">{dm.inscription}</p> : null}
-          {dm.nature ? <p className="dmp-body">{dm.nature}</p> : null}
+          {/* the inscription opens the portrait (owner 2026-10-27: "What people notice is just an opener to Your Nature"); the D2 column floats beside both */}
+          <div className="dmp-flow">
+            <InkArt src={dmArt(m.stem, 2)} kind="nature" />
+            {dm.inscription ? <p className="dmp-ins">{dm.inscription}</p> : null}
+            {dm.nature ? <p className="dmp-body">{dm.nature}</p> : null}
+          </div>
           {dm.claims?.length ? <><span className="mg-lab dmp-sub">What people notice</span><ul className="dmp-claims">{dm.claims.map((c) => <li key={c}>{c}</li>)}</ul></> : null}
         </div>
       ) : null}
@@ -149,7 +159,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         </div>
       ) : null}
       {dm.edge ? (
-        <div className="cardstock dmp-sec"><span className="mg-lab">How your edge is built</span><ArtSlot src={dmArt(m.stem, 3)} ratio="1 / 1" label="D3 · your edge" /><p className="dmp-body">{dm.edge}</p></div>
+        <div className="cardstock dmp-sec dmp-inked"><span className="mg-lab">How your edge is built</span><p className="dmp-body">{dm.edge}</p><InkArt src={dmArt(m.stem, 3)} kind="edge" /></div>
       ) : null}
       {t ? (
         <div className="cardstock dmp-sec">

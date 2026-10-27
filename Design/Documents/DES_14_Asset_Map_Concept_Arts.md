@@ -119,6 +119,7 @@ The "_Icon", "_Icons", "_icons", "Jewel_Icons", "Blade_Icon" PNG sets inside eac
 - `concept-arts/atmospheric/` — both depth maps. ✓
 - `concept-arts/stems/` — all 10 raw stem paintings, plus `concept-arts/stems/proc/` — the 10 processed stem medallions (`{stem}-{element}.png`), read by `JourneyStage.jsx` (`paintSrc`, the `stems/proc` medallion). ✓
 - `concept-arts/dots/` — the 5 per-element dot-ink marks (`dotf-{el}.png`). ✓
+- `concept-arts/stems/dm/` — the 30 Day Master page paintings (`{py}-d{1,2,3}.png`, D1 the sign · D2 your nature · D3 your edge), painted 2026-10-27 at F2 xieyi. Masters in `Design/Assets/DayMaster/` (README there). Read by `InkArt` in `MergedViews.jsx`. ✓
 - `Stem Thumbnail/` — **`Geng_TheBlade.png` only** (1 of 10 stems). ✗ 9 missing.
 - `backgrounds/` — 24 PNGs, but **only ~5 are finished painted art** (reveal · onboarding · energymap · reading rice-paper); **8 are "PLACEHOLDER" spec cards** that bleed text and are replaced by CSS gradients in `SCREEN_BG`.
 

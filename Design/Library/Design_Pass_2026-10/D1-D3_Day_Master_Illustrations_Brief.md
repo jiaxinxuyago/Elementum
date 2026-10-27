@@ -70,3 +70,13 @@ Shared prompt prefix: the N1 prefix, with `{RATIO}` in place of "3:2 landscape" 
 ## Test paintings (2026-10-27)
 
 The owner asked for real paintings in place of the tinted frames. A test of 庚 (D-geng-1, 2, 3) was painted with Figma's image generator, model gpt-image-2.5-sunburst. That model matched the house heroes; gemini-3.1-flash-image gave a flat pen sketch. The test is in `public/concept-arts/stems/dm/geng-d{1,2,3}.png`, cover-cropped to spec and palette-compressed under 300 KB. The Figma file is "Elementum · Day Master illustrations (D1–D3)". The prompt adds to the N1 prefix: "masterful … rich layered ink, dark confident strokes for the subject, pale washes and drifting mist, dry-brush texture … museum-quality".
+
+## Painted (2026-10-27): all 30 at F2
+
+The owner compared four fidelity levels on the Blade (F0 detailed, F1 loose brush, F2 xieyi freehand, F3 Zen minimal) and ruled **F2**, then "paint the rest". All 30 are painted with gpt-image-2.5-sunburst, using this prefix:
+
+> Traditional Chinese xieyi freehand ink painting on plain warm rice paper: spontaneous, expressive brushwork, each form suggested in a few bold strokes, ink bleeding softly into the paper, dry-brush flicks, large areas of untouched paper. Black-and-grey ink with a single faint wash of {pale element colour}. {Wide landscape, one-corner composition | Tall portrait | Square}, subject off-centre, most of the paper empty. Subject: {subject}. No people, no text, no calligraphy, no seal, no border.
+
+- **Masters:** `Design/Assets/DayMaster/` (README there).
+- **App copies:** `Elementum_App/public/concept-arts/stems/dm/`.
+- **Known weak painting:** D-geng-3. The branch only touches the blade's tip instead of bowing against its edge. It took two tries, and a repaint is open.

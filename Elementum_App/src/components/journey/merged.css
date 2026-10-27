@@ -287,3 +287,25 @@ button.ty-cc{ cursor:pointer; }
 .jny .dmp-ftx .dmp-art{ max-width:220px; margin:4px 0 4px; }
 .jny .dmp-go{ width:14px; height:14px; margin-left:auto; align-self:center; color:var(--bronzeDark); flex:none; }
 .jny .dmp-fey{ display:flex; align-items:center; gap:6px; }
+
+/* The painted Day Master journey (F2 xieyi, owner 2026-10-27): each painting
+   sits in the card's own paper. Multiply drops the painting's rice paper into
+   the cardstock so only the ink shows; masks dissolve every edge. */
+.jny .dmp-ink{ display:block; mix-blend-mode:multiply; pointer-events:none; user-select:none; filter:brightness(1.14) contrast(1.18) saturate(1.1); }
+/* the filter lifts the painting's paper to white before the multiply, so the card's own paper shows through and only the ink lands */
+.jny .dmp-inked{ overflow:hidden; }
+/* D1 the sign: bleeds off the card's top and sides, the label and text begin in its fading foot */
+.jny .dmp-ink.sign{ width:calc(100% + 30px); max-width:none; aspect-ratio:16 / 9; object-fit:cover; margin:-14px -15px -38px; border-radius:16px 16px 0 0;
+  -webkit-mask-image:linear-gradient(to bottom,#000 52%,transparent 96%); mask-image:linear-gradient(to bottom,#000 52%,transparent 96%); }
+.jny .dmp-inked > .mg-lab{ position:relative; }
+/* D2 your nature: a tall column off the card's right edge, the inscription and the portrait flowing around it */
+.jny .dmp-flow{ display:block; }
+.jny .dmp-flow::after{ content:""; display:block; clear:both; }
+.jny .dmp-flow > p + p{ margin-top:8px; }
+.jny .dmp-ink.nature{ float:right; width:46%; aspect-ratio:4 / 5; object-fit:cover; margin:-6px -15px 4px 10px; shape-outside:inset(0 0 0 14%);
+  -webkit-mask-image:linear-gradient(to left,#000 62%,transparent),linear-gradient(to top,transparent 2%,#000 30%); -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to left,#000 62%,transparent),linear-gradient(to top,transparent 2%,#000 30%); mask-composite:intersect; }
+/* D3 your edge: closes the card, rising out of the bottom-right corner under the last line */
+.jny .dmp-ink.edge{ align-self:flex-end; width:60%; aspect-ratio:1 / 1; object-fit:cover; margin:-18px -15px -14px 0; border-radius:0 0 16px 0;
+  -webkit-mask-image:linear-gradient(to bottom,transparent 2%,#000 34%),linear-gradient(to right,transparent 2%,#000 36%); -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to bottom,transparent 2%,#000 34%),linear-gradient(to right,transparent 2%,#000 36%); mask-composite:intersect; }
