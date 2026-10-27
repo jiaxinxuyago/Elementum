@@ -177,6 +177,7 @@ for (const s of STEMS) {
     gifts: pools.DM_POOLS[s.hz]?.gifts ?? null,
     shadows: pools.DM_POOLS[s.hz]?.shadows ?? null,
     door_note: pools.DM_POOLS[s.hz]?.door_note ?? null,
+    energy_faces: pools.DM_POOLS[s.hz]?.energy_faces ?? null,
     __ore: {
       note: 'legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)',
       subtitle: card.subtitle ?? null, chips: card.chips ?? null,

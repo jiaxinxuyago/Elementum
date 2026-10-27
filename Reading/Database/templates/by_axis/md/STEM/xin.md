@@ -116,6 +116,7 @@
 | `yourNature_desc` | You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required. |
 | `dm_overview` | The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early. |
 | `who` | *(unauthored)* |
+| `energy_faces` | *(unauthored)* |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

@@ -152,6 +152,7 @@
     "yourNature_desc": "You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying.",
     "dm_overview": "The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair.",
     "who": null,
+    "energy_faces": null,
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
@@ -471,6 +472,7 @@
     "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M戊 A): two or three plain adjectives, replacing \"Immovable by design\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
     "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
     "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)"
+    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+    "energy_faces": "TO WRITE · after the 庚 template is ruled"
   }
 }

@@ -152,6 +152,7 @@
     "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
     "dm_overview": "The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.",
     "who": null,
+    "energy_faces": null,
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
@@ -474,6 +475,7 @@
     "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
     "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M辛 A): two or three plain adjectives, replacing \"Refinement over output\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
     "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)"
+    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+    "energy_faces": "TO WRITE · after the 庚 template is ruled"
   }
 }

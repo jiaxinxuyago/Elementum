@@ -109,13 +109,22 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
               <div key={pole} className="dmp-group">
                 <span className={`role-pill ${cls}`}><Use id={ic} />{label}</span>
                 {list.map((f) => (
-                  <button type="button" key={f.el} className="dmp-face" onClick={onEnergy ? () => onEnergy(f.el) : undefined}>
+                  <button type="button" key={f.el} className={`dmp-face${f.cell ? ' d' : ''}`} onClick={onEnergy ? () => onEnergy(f.el) : undefined}>
                     <span className="dmp-fdot"><InkDot el={f.el} size={40} Use={Use} label={`${f.name} ${f.presence} percent`} /></span>
-                    <span className="dmp-ftx">
-                      <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}</span>
-                      <b>{f.phrase}</b>
-                      <span className="dmp-fd">{f.desc}</span>
-                    </span>
+                    {f.cell ? (
+                      // W1–W3 A: the function as the title, three chips in the Grow/Release colours, the paragraph
+                      <span className="dmp-ftx">
+                        <span className="dmp-ftitle">{f.fn}<em>{f.name} · {f.presence}%</em><span className="dp-draft">draft</span></span>
+                        <span className="dmp-chips">{f.cell.adj.map((a) => <span key={a} className={`wd-adjchip${f.pole === 'friction' ? ' down' : ''}`}>{a}</span>)}</span>
+                        <span className="dmp-fd">{f.cell.p}</span>
+                      </span>
+                    ) : (
+                      <span className="dmp-ftx">
+                        <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}</span>
+                        <b>{f.phrase}</b>
+                        <span className="dmp-fd">{f.desc}</span>
+                      </span>
+                    )}
                   </button>
                 ))}
               </div>

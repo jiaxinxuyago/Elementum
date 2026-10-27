@@ -1036,7 +1036,9 @@ export function buildMergedModel(m, chart) {
     const atDoor = (pool[kind] || []).filter((x) => x.door === row.fnKey);
     const big = kind === 'shadows' ? 'excess' : 'wide';
     const pick = (BIG.has(row.volume) && atDoor.find((x) => x.face === big)) || atDoor.find((x) => x.face === 'echo') || atDoor[0];
-    return pick ? { el: r.el, name: row.name, fn: row.fn, pole: row.pole, kind, presence: row.presence, phrase: pick.phrase, desc: pick.desc } : null;
+    // the five energies as an abstract reading (W1–W3 A): the stem's own cell when written
+    const cell = pool.energy_faces?.[row.fnKey]?.[row.pole === 'friction' ? 'friction' : 'catalyst'] || null;
+    return pick || cell ? { el: r.el, name: row.name, fn: row.fn, pole: row.pole, kind, presence: row.presence, phrase: pick?.phrase, desc: pick?.desc, cell } : null;
   }).filter(Boolean);
   return {
     condition: cond, balanced: m.balanced, rows, order: order.map((r) => r.el), first: first ? first.el : null,

@@ -152,6 +152,7 @@
     "yourNature_desc": "You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late.",
     "dm_overview": "The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away.",
     "who": null,
+    "energy_faces": null,
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
@@ -506,6 +507,7 @@
     "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M己 A): two or three plain adjectives, replacing \"Nourish without credit\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
     "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
     "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)"
+    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+    "energy_faces": "TO WRITE · after the 庚 template is ruled"
   }
 }

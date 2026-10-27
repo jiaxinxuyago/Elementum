@@ -116,6 +116,7 @@
 | `yourNature_desc` | You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying. |
 | `dm_overview` | The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair. |
 | `who` | *(unauthored)* |
+| `energy_faces` | *(unauthored)* |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

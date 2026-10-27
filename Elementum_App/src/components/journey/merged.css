@@ -274,3 +274,7 @@ button.ty-cc{ cursor:pointer; }
 .jny .dmp-fey{ font-family:Cinzel,Georgia,serif; font-size:8px; letter-spacing:1.6px; text-transform:uppercase; color:var(--inkLight); }
 .jny .dmp-ftx b{ font-family:'Cormorant Garamond',Georgia,serif; font-size:19px; font-weight:600; line-height:1.15; color:var(--ink); }
 .jny .dmp-fd{ font-family:'EB Garamond',Georgia,serif; font-size:14.5px; line-height:1.45; color:var(--inkSoft); }
+.jny .dmp-ftitle{ display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; font-family:'Cormorant Garamond',Georgia,serif; font-size:22px; font-weight:600; line-height:1.05; color:var(--ink); }
+.jny .dmp-ftitle em{ font-style:normal; font-family:Cinzel,Georgia,serif; font-size:8px; letter-spacing:1.6px; text-transform:uppercase; color:var(--inkLight); }
+.jny .dmp-chips{ display:flex; flex-wrap:wrap; gap:5px; margin:5px 0 4px; }
+.jny .dmp-face.d .dmp-fd{ color:var(--ink); }

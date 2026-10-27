@@ -152,6 +152,7 @@
     "yourNature_desc": "You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included.",
     "dm_overview": "The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders.",
     "who": null,
+    "energy_faces": null,
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
@@ -546,6 +547,7 @@
     "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M丙 A): two or three plain adjectives, replacing \"Warmth without permission\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
     "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A) · claim 2 rewritten (C1 A, \"room\" ration)",
     "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)"
+    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+    "energy_faces": "TO WRITE · after the 庚 template is ruled"
   }
 }

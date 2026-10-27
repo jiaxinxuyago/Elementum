@@ -303,3 +303,4 @@ The 庚 template is 10 cells: 5 functions × Grow/Release. Each cell has 2–3 a
   - Owner: the ink dots carry their element signs, as in the app's InkDot.
 
   The template page was updated to this layout (https://claude.ai/artifact/BXa7pkD55Z44f3bJZ6h9v1). Still open: S1–S3 (the field shape, Balanced charts, the pools) and T Body…T Order (the ten 庚 cells).
+- **Built on dev 2026-10-27 (owner: "show me how the day master reading page looks now with this implemented"):** `STEM.energy_faces` (station, 庚 DRAFT, the other nine null; REA_16 §2c row pending, chips and paragraph need their own bands before locking) is transcribed through `build-dm-pools.mjs` and code-mapped. The Day Master page renders the ruled layout from it, tagged draft. Stems without cells keep the gift or shadow face.
