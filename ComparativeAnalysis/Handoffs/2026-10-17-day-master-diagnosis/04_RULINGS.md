@@ -165,3 +165,10 @@ Across 3,000 random charts every line fills, and 47 of the 50 types appear.
 - **"How am I running?"** now carries the manifesto.
 
 **Open for the owner:** the needs-clause drafts, and "Most of your chart". The mode is the largest share, not always a majority; for the golden chart it is 33%.
+
+### RULED 2026-10-27: the needs clauses and the opener (questionnaire)
+
+- **Needs clause:** all seven are ruled, keyed by the needed energy's volume. They read none / little / could use more / already there to use (plentiful and dominant) / that is (same energy as the mode) / Balanced "your five energies stay close to even".
+- **Opener:** "Your chart is heaviest in" replaces "Most of your chart", because the mode is the largest share and not always a majority. The mode phrases are the locked wheel words as noun phrases: more of you / what feeds you / what shapes you / what you feed / what you shape.
+  - Example: "Mind mode. Your chart is heaviest in what feeds you, and it holds little of the Fire you need."
+- **Fit:** checked on five charts, all within 306×544. `tpl_type` is fully ruled and on dev.

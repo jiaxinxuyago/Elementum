@@ -72,12 +72,13 @@ export const RELATION_LABELS = {
 // archetype plus a plain mode, "The Blade · Mind mode", on the share card and
 // the album hero. The mode is the function the chart holds most of; its phrase
 // reads off the locked wheel words, keyed like RELATION_LABELS. The needs
-// clause follows the needed energy's volume. Ruled: name, pattern, mode, thin.
-// The other needs clauses are DRAFTS (2026-10-27), to rule.
+// clause follows the needed energy's volume. All ruled 2026-10-27 (the needs
+// clauses ×7, and "Your chart is heaviest in": the mode is the largest share,
+// not always a majority).
 export const TYPE_LINE = {
   name: '{Archetype} · {Fn} mode',
-  pattern: '{Fn} mode. Most of your chart {mode}, {needs}',
-  mode: { own: 'is more of you', feeds: 'feeds you', tames: 'shapes you', you_feed: 'is what you feed', you_tame: 'is what you shape' },
+  pattern: '{Fn} mode. Your chart is heaviest in {mode}, {needs}',
+  mode: { own: 'more of you', feeds: 'what feeds you', tames: 'what shapes you', you_feed: 'what you feed', you_tame: 'what you shape' },
   needs: {
     absent: 'and it holds none of the {El} you need.',
     thin: 'and it holds little of the {El} you need.',

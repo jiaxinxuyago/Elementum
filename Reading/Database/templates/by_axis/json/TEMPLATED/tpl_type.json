@@ -9,17 +9,17 @@
     "REA_03 §5 (patterns)",
     "ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md (the Elementum Type, M1–M6 A)"
   ],
-  "status_note": "RULED 2026-10-27 (owner M1–M6 A): name, pattern, mode, needs.thin · the other needs clauses DRAFT 2026-10-27, to rule · the share card and the album hero (TYPE_V1)",
+  "status_note": "RULED 2026-10-27 (owner M1–M6 A; then the needs clauses ×7 and the opener \"Your chart is heaviest in\", replacing \"Most of your chart\") · the share card and the album hero (TYPE_V1)",
   "budget": "name ≤6w · line ≤22w",
   "candidates": {
     "name": "{Archetype} · {Fn} mode",
-    "pattern": "{Fn} mode. Most of your chart {mode}, {needs}",
+    "pattern": "{Fn} mode. Your chart is heaviest in {mode}, {needs}",
     "mode": {
-      "own": "is more of you",
-      "feeds": "feeds you",
-      "tames": "shapes you",
-      "you_feed": "is what you feed",
-      "you_tame": "is what you shape"
+      "own": "more of you",
+      "feeds": "what feeds you",
+      "tames": "what shapes you",
+      "you_feed": "what you feed",
+      "you_tame": "what you shape"
     },
     "needs": {
       "absent": "and it holds none of the {El} you need.",
@@ -33,8 +33,8 @@
   },
   "field_status": {
     "name": "RULED 2026-10-27 · M1 A",
-    "pattern": "RULED 2026-10-27 · M3 A",
-    "mode": "RULED 2026-10-27 · M3 A, the locked wheel words (tpl_cycle_line.relation_labels)",
-    "needs": "thin RULED 2026-10-27 (M3 A); absent, present, abundant, dominant, same, balanced DRAFT 2026-10-27, to rule"
+    "pattern": "RULED 2026-10-27 · \"heaviest in\" (the mode is the largest share, not always a majority)",
+    "mode": "RULED 2026-10-27 · the locked wheel words as noun phrases (tpl_cycle_line.relation_labels)",
+    "needs": "RULED 2026-10-27 · all seven clauses, by the needed energy's volume"
   }
 }

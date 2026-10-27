@@ -9,7 +9,7 @@
 | **axis** | TEMPLATED |
 | **key** | tpl_type |
 | **construct** | Derived slot template (REA_03 §5; REA_02 §5h) |
-| **status** | RULED 2026-10-27 (owner M1–M6 A): name, pattern, mode, needs.thin · the other needs clauses DRAFT 2026-10-27, to rule · the share card and the album hero (TYPE_V1) |
+| **status** | RULED 2026-10-27 (owner M1–M6 A; then the needs clauses ×7 and the opener "Your chart is heaviest in", replacing "Most of your chart") · the share card and the album hero (TYPE_V1) |
 | **budget** | name ≤6w · line ≤22w |
 | **sources** | REA_03 §5 (patterns) · ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md (the Elementum Type, M1–M6 A) |
 
@@ -18,12 +18,12 @@
 | Variable | Value |
 |---|---|
 | `name` | {Archetype} · {Fn} mode |
-| `pattern` | {Fn} mode. Most of your chart {mode}, {needs} |
-| `mode.own` | is more of you |
-| `mode.feeds` | feeds you |
-| `mode.tames` | shapes you |
-| `mode.you_feed` | is what you feed |
-| `mode.you_tame` | is what you shape |
+| `pattern` | {Fn} mode. Your chart is heaviest in {mode}, {needs} |
+| `mode.own` | more of you |
+| `mode.feeds` | what feeds you |
+| `mode.tames` | what shapes you |
+| `mode.you_feed` | what you feed |
+| `mode.you_tame` | what you shape |
 | `needs.absent` | and it holds none of the {El} you need. |
 | `needs.thin` | and it holds little of the {El} you need. |
 | `needs.present` | and it could use more of the {El} you need. |
