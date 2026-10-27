@@ -63,7 +63,7 @@ function MetricBars({ m }) {
 import { APP_URL, APP_HOST } from '../../infra/index.js';
 import { DM_READING } from '../../content/reading/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
-import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeChips, TypeLine, TypeCircle } from './MergedViews.jsx';
+import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeChips, TypeLine, TypeCircle, DayMasterPage } from './MergedViews.jsx';
 import { MERGE_V1 } from './mergeFlag.js';
 import { resolveDayMasterReading } from '../reading/readingResolve.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
@@ -860,7 +860,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 {V5_LIVE && merged && (
                   <AlbumHub m={m} g={merged} depth={depth} positions={allPositions} hourUnknown={hourUnknown}
                     sealSrc={sealSrc} condIcon={condIcon} Use={Use} DOM={DOM} typeOn={TYPE_V1}
-                    onFirstReading={() => setReplayOn(true)} onCircle={onOpenCompat || null}
+                    onFirstReading={() => goScreen('daymaster')} onCircle={onOpenCompat || null}
                     onRun={() => goScreen('run')} onEnergy={(el) => setSheetEl(el)} onBirthChart={onBirthChart}
                     onOpen={(name) => openDepth(name, null, 'catalogue')}
                     wheelTile={(
@@ -913,6 +913,24 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
             </div>
           </div>
 
+          {/* ── THE TYPE: the Day Master page (the Archetype chip's door, owner 2026-10-27) ── */}
+          {TYPE_V1 && merged?.type && (
+            <div className={`jscreen${screen === 'daymaster' ? ' active' : ''}`} data-screen="daymaster">
+              <div className="plateimg a-plate-rice" /><div className="eltint" />
+              <button className="backrow" aria-label="Back to Your reading" onClick={() => goScreen('catalogue')}>
+                <span className="bico"><Use id="ico-chev-l" /></span>
+                <span className="bl el-back">YOUR READING · YOUR DAY MASTER</span>
+              </button>
+              <div className="scrollwrap"><div className="padv2">
+                <LeafReader id="daymaster" title={m.archetype} route="section:daymaster" Use={Use} track={false} units=".dmp-sec">
+                  <DayMasterPage m={m} g={merged} Use={Use}
+                    dm={{ overview: STEM_CARD_DATA[m.stem]?.identity?.overview, nature: STEM_CARD_DATA[m.stem]?.yourNature?.desc, inscription: STEM_CARD_DATA[m.stem]?.identity?.inscription, claims: DM_READING[m.stem]?.claims, edge: DM_READING[m.stem]?.edge }}
+                    onRun={() => goScreen('run')} onCircle={onOpenCompat || null} onReplay={() => setReplayOn(true)} />
+                </LeafReader>
+              </div></div>
+            </div>
+          )}
+
           {/* ── THE MERGE: "How am I running?" ── */}
           {MERGE_V1 && merged && (
             <div className={`jscreen${screen === 'run' ? ' active' : ''}`} data-screen="run">
@@ -926,12 +944,12 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                   <LeafReader id="run" title="How am I running?" route="section:run" Use={Use}
                     units=".mg-runhead, .mg-cr > .mg-sec, .mg-bpdoor"
                     next={depth ? { label: 'Your domains', title: v5Next.domains, art: SECTION_ART.domains, onGo: () => openDepth('domains', null, 'catalogue') } : null}>
-                    <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon} mani={TYPE_V1 ? m.manifesto : null}
+                    <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon}
                       balance={<Balance m={m} g={merged} sealSrc={sealSrc} fnNoun={fnNoun} Use={Use} />}
                       onBlueprint={depth ? () => openDepth('blueprint', null, 'run') : null} />
                   </LeafReader>
                 ) : (
-                <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon} mani={TYPE_V1 ? m.manifesto : null}
+                <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon}
                   onBlueprint={depth ? () => openDepth('blueprint', null, 'run') : null} />
                 )}
               </div></div>

@@ -203,3 +203,19 @@ The variants are built from dev screenshots on the golden chart (the wheel and t
   - CTA: "Who completes your chart?".
   - Station: `tpl_type.circle`. The Balanced headline "{Bond} is your classical match" is a DRAFT, to rule.
 - **Verified on the local dev build:** every door opens the right page, the circle goes to #/app-compat, and there are no page errors.
+
+### The Archetype chip opens the Day Master page (owner 2026-10-27; replaces K2 A's replay)
+
+Owner: "It should tap into the day master reading page with all the variables the day master associated from our stations."
+
+The new page (`DayMasterPage`, screen `daymaster`, a LeafReader on dev behind TYPE_V1) holds every live STEM field for the reader's stem:
+- the painted seal, the archetype name and the stem line;
+- the manifesto, moved here from "How am I running?";
+- the Sign (`dm_overview`);
+- your nature (`yourNature_desc`, the band-invariant baseline; the band paragraph stays on the run page);
+- the inscription;
+- `dm_claims` ×2, tagged draft (pending);
+- `dm_mechanism`, tagged draft (pending; it still carries an em-dash);
+- the type line, with doors to "How am I running?", Your Circle and the first-reading replay.
+
+Not shown: `stem_keywords` (retired to ore 2026-09-10); the gifts and shadows pools (retired to ore 2026-10-17); `who` (a golden-only draft; it is card 1 of the replayed first reading).

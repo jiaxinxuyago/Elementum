@@ -64,6 +64,55 @@ export function TypeChips({ m, g, Use, InkDot, doors = null, stamp = null }) {
   );
 }
 
+// ── THE DAY MASTER PAGE (owner 2026-10-27) ─────────────────────────
+// The Archetype chip's door: every Day Master field the stations hold for the
+// reader's stem, on one page. STEM: archetype_name, pinyin, manifesto, the
+// Sign (dm_overview), your nature (yourNature_desc, the band-invariant
+// baseline; the band paragraph stays on How am I running?), the inscription,
+// dm_claims and dm_mechanism (both pending, tagged draft on dev). The type and
+// the circle close it, with the doors on.
+export function DayMasterPage({ m, g, dm, Use, onRun, onCircle, onReplay }) {
+  const t = g.type;
+  return (
+    <div className="dmp">
+      <div className="cardstock dmp-head dmp-sec">
+        <img className="dmp-plate" src={plateOf(m.stem)} alt={`${m.stem}, ${m.archetype}`} />
+        <span className="dmp-ya">You are</span>
+        <h2 className="dmp-name">{m.archetype}</h2>
+        <span className="dmp-lit">{m.stemLit}</span>
+        {m.manifesto ? <p className="dmp-mani">{m.manifesto}</p> : null}
+      </div>
+      {dm.overview ? (
+        <div className="cardstock dmp-sec"><span className="mg-lab">The sign</span><p className="dmp-body">{dm.overview}</p></div>
+      ) : null}
+      {dm.nature ? (
+        <div className="cardstock dmp-sec"><span className="mg-lab">Your nature</span><p className="dmp-body">{dm.nature}</p></div>
+      ) : null}
+      {dm.inscription || dm.claims?.length ? (
+        <div className="cardstock dmp-sec">
+          <span className="mg-lab">What people notice{dm.claims?.length ? <span className="dp-draft">draft</span> : null}</span>
+          {dm.inscription ? <p className="dmp-ins">{dm.inscription}</p> : null}
+          {dm.claims?.length ? <ul className="dmp-claims">{dm.claims.map((c) => <li key={c}>{c}</li>)}</ul> : null}
+        </div>
+      ) : null}
+      {dm.edge ? (
+        <div className="cardstock dmp-sec"><span className="mg-lab">How your edge is built<span className="dp-draft">draft</span></span><p className="dmp-body">{dm.edge}</p></div>
+      ) : null}
+      {t ? (
+        <div className="cardstock dmp-sec">
+          <span className="mg-lab">Your type · {t.name}</span>
+          <TypeLine g={g} className="dmp-tline" />
+          <div className="dmp-doors">
+            <button type="button" className="mg-link" onClick={onRun}><Use id="ico-arrow-r" />How am I running?</button>
+            {onCircle ? <button type="button" className="mg-link" onClick={onCircle}><Use id="ico-arrow-r" />{t.circle.cta}</button> : null}
+            {onReplay ? <button type="button" className="mg-link" onClick={onReplay}><Use id="ico-arrow-r" />Replay your first reading</button> : null}
+          </div>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
 export function TypeLine({ g, className = '' }) {
   const t = g.type; const cut = t.line.indexOf('. ');
   return <p className={`ty-line ${className}`}><b>{t.line.slice(0, cut + 1)}</b>{t.line.slice(cut + 1)}</p>;
