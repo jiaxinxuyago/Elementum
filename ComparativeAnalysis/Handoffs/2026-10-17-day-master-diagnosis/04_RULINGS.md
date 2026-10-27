@@ -334,3 +334,11 @@ Plus the 25 N1 pair paintings (already briefed) in the card 4 rows. Total: 30 ne
 - A2: the pair paintings in the rows, or only in the energy sheet.
 - A3: who writes the D1–D3 brief.
 - A4: placeholder slots on dev now.
+
+**Ruled 2026-10-27: A1 A, A2 A, A3 A, A4 A.**
+- A1: 55 images (D1–D3 ×10, plus the N1 25).
+- A2: each pair painting sits as a small 3:2 picture under its energy title in the card 4 rows.
+- A3: this session drafts the 30 D1–D3 subjects from the stations, and the design session folds them into the N1 brief.
+- A4: quiet placeholder frames on dev now, which render the art by path once it lands.
+
+**Open (asked 2026-10-27):** a per-paragraph button to the energy page, and too many doors pointing at the same energy. See N1–N3.
