@@ -43,20 +43,23 @@ const STEM_PY = { 甲: 'jia', 乙: 'yi', 丙: 'bing', 丁: 'ding', 戊: 'wu', �
 const STEM_ELK = { 甲: 'wood', 乙: 'wood', 丙: 'fire', 丁: 'fire', 戊: 'earth', 己: 'earth', 庚: 'metal', 辛: 'metal', 壬: 'water', 癸: 'water' };
 export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${STEM_ELK[stem]}.png`;
 
+function TyChip({ k, cls = '', doors, stamp, children }) {
+  return doors?.[k]
+    ? <button type="button" className={`ty-chip door ${cls}`} onClick={doors[k]}>{stamp?.(k)}{children}</button>
+    : <span className={`ty-chip ${cls}`}>{children}</span>;
+}
+
 export function TypeChips({ m, g, Use, InkDot, doors = null, stamp = null }) {
   // On the album (K1 A, 2026-10-27) each chip is a door: Archetype → the first
   // reading, Run → How am I running?, Mode and Needs → their energy pages.
   // On the share card (no doors) they are labels.
   const t = g.type;
-  const Chip = ({ k, cls = '', children }) => (doors?.[k]
-    ? <button type="button" className={`ty-chip door ${cls}`} onClick={doors[k]}>{stamp?.(k)}{children}</button>
-    : <span className={`ty-chip ${cls}`}>{children}</span>);
   return (
     <div className={`ty-chips${t.need ? '' : ' n3'}`} aria-label={t.name}>
-      <Chip k="archetype"><small>Archetype</small><span className="ty-cv"><img src={plateOf(m.stem)} alt="" /></span><b>{m.archetype}</b></Chip>
-      <Chip k="run"><small>Run</small><span className="ty-cv"><Dial score={g.score} condition={g.condition} /></span><b>{g.condition}</b>{g.score != null ? <em>{g.score} of 7</em> : null}</Chip>
-      <Chip k="mode"><small>Mode</small><span className="ty-cv"><InkDot el={t.mode.el} size={30} Use={Use} label={`${t.mode.name} ${t.mode.presence} percent`} /></span><b>{t.mode.fn}</b><em>{t.mode.name} {t.mode.presence}%</em></Chip>
-      {t.need ? <Chip k="needs" cls="need"><small>Needs</small><span className="ty-cv"><InkDot el={t.need.el} size={30} Use={Use} label={`${t.need.name} ${t.need.presence} percent`} /></span><b>{t.need.name}</b><em>{t.need.fn} {t.need.presence}%</em></Chip> : null}
+      <TyChip k="archetype" doors={doors} stamp={stamp}><small>Archetype</small><span className="ty-cv"><img src={plateOf(m.stem)} alt="" /></span><b>{m.archetype}</b></TyChip>
+      <TyChip k="run" doors={doors} stamp={stamp}><small>Run</small><span className="ty-cv"><Dial score={g.score} condition={g.condition} /></span><b>{g.condition}</b>{g.score != null ? <em>{g.score} of 7</em> : null}</TyChip>
+      <TyChip k="mode" doors={doors} stamp={stamp}><small>Mode</small><span className="ty-cv"><InkDot el={t.mode.el} size={30} Use={Use} label={`${t.mode.name} ${t.mode.presence} percent`} /></span><b>{t.mode.fn}</b><em>{t.mode.name} {t.mode.presence}%</em></TyChip>
+      {t.need ? <TyChip k="needs" cls="need" doors={doors} stamp={stamp}><small>Needs</small><span className="ty-cv"><InkDot el={t.need.el} size={30} Use={Use} label={`${t.need.name} ${t.need.presence} percent`} /></span><b>{t.need.name}</b><em>{t.need.fn} {t.need.presence}%</em></TyChip> : null}
     </div>
   );
 }
