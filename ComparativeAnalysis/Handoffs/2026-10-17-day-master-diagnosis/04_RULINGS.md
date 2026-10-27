@@ -288,3 +288,11 @@ The 庚 template is 10 cells: 5 functions × Grow/Release. Each cell has 2–3 a
 - S3, the pools: back to the ore, or kept as headings.
 - T Body … T Order: approve or revise each energy's pair of cells.
 - **Iteration 2 (owner: "debate between having 1 or 2 or 3 keywords"):** the five-energy section on the golden chart with one, two and three adjectives side by side: https://claude.ai/artifact/YU5bf1vuUTiHwe5qxQp8ko. The candidate sets are in the same JSON (`one`, `two`, `adj`). Recommended: two, built as a trait and how it shows. Three repeats the manifesto's rhythm, and for 庚 its word "decisive". One reads as a chip, like the keyword chips retired on 10 September. Rows W1 (how many) and W2 (how the pair is built) await the owner.
+- **Iteration 3 (owner: "highlight the function noun as title and keep the 3 keywords as chips before the paragraph"):** layout D was added beside A–C on the same page (version 2). Each row has the function noun as its title, the element and share beside it, three adjective chips in the energy pages' Grow and Release colours, then the paragraph.
+
+  Recommended: D, with a rule that no chip repeats a word from the stem's manifesto. Under that rule 庚 Action becomes "Productive, focused, unrelenting".
+
+  Rows await the owner:
+  - W1: the layout (D / B / A / C);
+  - W2: the manifesto rule;
+  - W3: the chip colours.
