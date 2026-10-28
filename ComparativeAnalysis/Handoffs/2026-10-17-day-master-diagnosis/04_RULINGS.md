@@ -364,3 +364,7 @@ Masters are in `Design/Assets/DayMaster/`. Next: card 4 illustrated (the pair pa
 - The fan leaves are repainted minimal ("minimalism is the key").
 
 Built on dev the same day: the fan on the left, the element seal on its rim, then the title, words and reading. Layouts A and C are retired. The five Metal fans are painted; 20 to go.
+
+**2026-10-28, card 4: the fan becomes a scroll strip.** Owner: keep this level of detail, but (1) the stem's object must show clearly and carry the relation, and (2) the image should fill the row's left rectangle and bleed into the text.
+- **The layout:** each row opens with a tall minimal scroll painting. It fills the left column for the row's full height, bleeds off the card's left edge, and dissolves rightward under the text. The element seal sits at its foot.
+- **Built on dev** with the five Metal strips.

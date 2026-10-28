@@ -56,9 +56,10 @@ export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${ST
 const dmArt = (stem, n) => `/concept-arts/stems/dm/${STEM_PY[stem]}-d${n}.png`;
 // the screen's stage: one ground painting per stem under the cards, so short cards never float over bare paper (owner 2026-10-27: no empty space over 40%)
 export const dmStage = (stem) => `/concept-arts/stems/dm/${STEM_PY[stem]}-stage.png`;
-// card 4's round fan leaves (owner 2026-10-27, B, then "minimalism is the key"): the pair painted as a
-// minimal fan leaf, centred for the circle. The 3:2 pair_ files stay for the energy sheet (N1).
-const fanArt = (stem, el) => `/concept-arts/pairs/fan_${STEM_ELK[stem]}_${el}.png`;
+// card 4's scroll strips (owner 2026-10-28: "the stem object must show itself clearly", "fill the left
+// rectangle and bleed into the text"): the pair painted as a tall minimal hanging scroll, the stem's own
+// object acting with the energy. The 3:2 pair_ files stay for the energy sheet (N1).
+const stripArt = (stem, el) => `/concept-arts/pairs/strip_${STEM_ELK[stem]}_${el}.png`;
 function InkArt({ src, kind }) {
   const [miss, setMiss] = useState(false);
   if (miss) return null;
@@ -136,7 +137,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
                       // W1–W3 A: the function as the title, three chips in the Grow/Release colours, the paragraph
                       <span className="dmp-ftx">
                         <span className="dmp-ftitle">{f.fn}<em>{f.name} · {f.presence}%</em><span className="dp-draft">draft</span><span className="readcirc dmp-gob" aria-hidden="true"><Use id="ico-arrow-r" /></span></span>
-                        <InkArt src={fanArt(m.stem, f.el)} kind="pair" />
+                        <InkArt src={stripArt(m.stem, f.el)} kind="pair" />
                         <span className="dmp-chips">{f.cell.adj.map((a) => <span key={a} className={`wd-adjchip${f.pole === 'friction' ? ' down' : ''}`}>{a}</span>)}</span>
                         <span className="dmp-fd">{f.cell.p}</span>
                       </span>
