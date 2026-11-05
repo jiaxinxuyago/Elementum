@@ -262,6 +262,24 @@ Found and fixed while building: exported share cards lost every element sign. ht
 
 Gates: eslint 0 errors, engine regression matches golden, build, route sweep clean, journey sweep 17/17; the export probe saves a 1080 × 1920 PNG with all five signs.
 
+## Follow-up · the painted revelation (RS2, owner 2026-11-05 via the Day Master session, BUILT ON DEV)
+
+The owner ruled RS2 A with changes in the Day Master session and handed the brief (`Design/Library/Design_Pass_2026-10/RS2_Revelation_Painted_Brief.md`) to this session to build on the dev link at once, before the Blade strip iteration settles. Built behind `TYPE_V1` (so dev.elementum.life only; `TYPE_LIVE` stays off and production is unchanged), on the real paintings in `public/concept-arts/stems/dm/` and `public/concept-arts/pairs/`:
+
+- **The Naming** stands on the stem's stage painting (`dmStage`) instead of the two reveal backgrounds; the plate, the five ink dots with their glyphs and the inscription are untouched (`.rvl-stage`, multiply, masked from the top).
+- **Card 1 · The sign:** D1 bleeds off the top (16:9, cropped from 40% to 82% of the painting so the Blade's sword sits centred with the moon window at the right edge), the stage faint at the foot with a breath of paper behind the words; heading is the first sentence of the stem's who line, the body the rest. Eyebrow "The sign" is a draft (`dp-draft`).
+- **Card 2 · How you run:** the dial stays; D3 closes the bottom of the frame, fading up.
+- **Cards 3–7:** the stem's scroll strip (`stripArt`) runs the full height on the left and dissolves under a text column from 31%; leading 56px InkDot with its glyph, the amount large with "of your chart", the pair head, `{Energy} is your {Function} energy.`, the dominance bar (five segments in the chart's element order, this energy at full wash, the others at 28%), the state and the Grow / Release pill, THE FUNCTION's first two sentences. A stem without strips keeps the centred energy card and shows the dev-only "art to come" marker (`useArtSrc`).
+- **Card 8 · Your type:** eyebrow "Your type" (draft), the type name and its line, "Where to begin" with the start line and the start energy's pair head, "Enter your reading" and "Share your type" (the share overlay). The stage returns at 60%.
+
+Every painting multiplies into the paper under a mask; the plates, dots, dial, pills, wheel and signs are the same files. Code: `FirstReading` takes `painted` (`MergedViews.jsx`); styles under `.mg-fr.painted` in `merged.css`; the Naming in `JourneyStage.jsx` / `journey.css`.
+
+**Real screens:** https://claude.ai/artifact/EWpTWFz637KmjwESjaSr5G (library copy: `Design/Library/Design_Pass_2026-10/Ink_Painting_Artifacts/08_revelation-built.html`), the Naming and the eight cards on the golden chart (1995-04-29 18:00, the Blade, Overfueled), chart B (1990-09-17 05:00, the Vine, Underfueled, no strips yet) and the Balanced chart (1995-05-13 16:00, the Oak).
+
+Gates: eslint 0 errors, engine regression matches golden, build, journey sweep 17/17, route sweep clean.
+
+Open for the owner: the two draft eyebrows ("The sign", "Your type"); whether "Swipe up" keeps sitting over the stage on the Naming; the other stems' D1 crops once their compositions are checked; the Blade strip template iteration (Earth and Wood carry much landscape, Water faint), which repaints only the Blade's five.
+
 ## Follow-up · the store build (owner question 2026-10-22)
 
 The planned path is the Capacitor wrap (PM_02 STORE-3), under which the React code, the CSS motion and the dissolve carry over unchanged; the browser beneath becomes WebKit on iOS. Prepared now:

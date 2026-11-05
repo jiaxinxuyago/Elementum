@@ -17,7 +17,10 @@
 // ===================================================================
 
 import { TYPE_LINE } from '../../content/mergedReading.js';
-import { dmArt, stripArt, ArtTodo } from './inkArt.jsx';
+import { dmArt, dmStage, stripArt, useArtSrc, ArtTodo } from './inkArt.jsx';
+
+// the five washes (Ink_Painting_System.md): the dominance bar's segments
+const WASH = { metal: '#8ba3b8', wood: '#7a9e6e', fire: '#c4745a', earth: '#b89a6a', water: '#5a7fa8' };
 import { useState } from 'react';
 import './merged.css';
 
@@ -416,18 +419,30 @@ export function RunPage({ m, g, nature, Use, condIcon, onBlueprint, balance = nu
 // is named by its function over THE FUNCTION's opening; card 8 shows the
 // ribbon as two groups of dots. InkDot comes in as a prop (V5Views imports
 // Dial from here, so importing it back would be a cycle).
-export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, start = 0, door = false }) {
+export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, start = 0, door = false, painted = false }) {
   const [i, setI] = useState(start);   // `start`: the DevBar opens a card directly
   const pmax = Math.max(1, ...m.els.map((r) => r.presence));
+  // RS2 (owner 2026-11-05, relayed via the Day Master session): the painted
+  // sequence rides TYPE_V1 with the type. Card 1 is the sign (D1) over STEM_WHO
+  // split at its first sentence; card 2 keeps the dial with D3 in the corner;
+  // the energy cards carry the stem's scroll strip, the amount and the
+  // dominance bar; card 8 names the type and the place to begin. Eyebrows
+  // marked draft are not yet ruled.
+  const whoSplit = (() => { const t = g.who || ''; const k = (t.match(/^[^.!?]+[.!?]/) || [t])[0]; return { h: k.trim(), b: t.slice(k.length).trim() }; })();
+  const t = painted && g.type ? g.type : null;
   const cards = [
-    { k: 'who', ey: 'Your first reading', seal: true, h: `You are ${m.archetype}.`, b: g.who },
-    { k: 'cond', ey: 'How you run', dial: true, h: `You run ${g.condition}.`, b: g.runLine },
+    t
+      ? { k: 'who', ey: 'The sign', draft: true, sign: true, h: whoSplit.h || `You are ${m.archetype}.`, b: whoSplit.b || null }
+      : { k: 'who', ey: 'Your first reading', seal: true, h: `You are ${m.archetype}.`, b: g.who },
+    { k: 'cond', ey: 'How you run', dial: true, corner: !!t, h: `You run ${g.condition}.`, b: g.runLine },
     ...g.order.map((el) => ({ k: el, el })),
     // Card 8 as the door (owner 2026-10-22, DES_15 SC1 A): where to begin, the
     // start energy lit among the five, its pair head and now line, one button.
-    door
-      ? { k: 'rx', ey: 'Where to begin', h: g.start || g.rx, b: g.first ? `${g.rows[g.first].head}. ${g.rows[g.first].now || ''}`.trim() : null, end: true }
-      : { k: 'rx', ey: 'What your chart asks for', h: g.rx, b: g.start, end: true },
+    t
+      ? { k: 'rx', ey: 'Your type', draft: true, type: true, h: t.name, b: t.line, end: true }
+      : door
+        ? { k: 'rx', ey: 'Where to begin', h: g.start || g.rx, b: g.first ? `${g.rows[g.first].head}. ${g.rows[g.first].now || ''}`.trim() : null, end: true }
+        : { k: 'rx', ey: 'What your chart asks for', h: g.rx, b: g.start, end: true },
   ];
   const n = cards.length;
   const go = (d) => setI((v) => Math.max(0, Math.min(n - 1, v + d)));
@@ -438,22 +453,52 @@ export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, sta
     go((e.clientX - r.left) < r.width / 3 ? -1 : 1);
   };
   const row = c.el ? g.rows[c.el] : null;
+  // the stem's scroll strip for this energy (painted per stem; nothing until it is)
+  const strip = useArtSrc(t && row ? stripArt(m.stem, row.el) : null, null);
+  const side = !!(t && row && strip.painted);
   const stateOf = (r) => (r.isCore ? g.condition : r.pole === 'friction' ? 'Friction' : r.pole === 'catalyst' ? 'Catalyst' : 'Balanced');
   const groups = g.balanced
     ? [{ k: 'keep', label: 'Keep', els: g.order }]
     : [{ k: 'rel', label: 'Release', els: g.ease }, { k: 'gro', label: 'Grow', els: g.seek }];
+  const typeLine = (line) => { const k = line.indexOf('. '); return k > 0 ? <><b>{line.slice(0, k + 1)}</b> {line.slice(k + 2)}</> : line; };
   return (
-    <div className={`mg-fr t-${c.k}`} onClick={tap} role="group" aria-label="Your first reading"
+    <div className={`mg-fr t-${c.k}${t ? ' painted' : ''}${side ? ' side' : ''}`} onClick={tap} role="group" aria-label="Your first reading"
       tabIndex={0} onKeyDown={(e) => { if (e.key === 'ArrowRight') go(1); if (e.key === 'ArrowLeft') go(-1); }}>
       <div className="mg-frg" aria-hidden="true">
-        <img className="mg-frtop" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
-        <img className="mg-frbot" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
-        <span className="mg-frfog" /><span className="mg-frveil" />
+        {t ? (
+          <>
+            {c.sign ? <img className="mg-frsign" src={dmArt(m.stem, 1)} alt="" /> : null}
+            {c.sign || c.end ? <img className={`mg-frstage${c.end ? ' s2' : ''}`} src={dmStage(m.stem)} alt="" /> : null}
+            {c.corner ? <img className="mg-frd3" src={dmArt(m.stem, 3)} alt="" /> : null}
+            {side ? <img className="mg-frstrip" src={strip.src} alt="" /> : null}
+          </>
+        ) : (
+          <>
+            <img className="mg-frtop" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
+            <img className="mg-frbot" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
+            <span className="mg-frfog" /><span className="mg-frveil" />
+          </>
+        )}
       </div>
       <div className="mg-prog">{cards.map((_, k) => <i key={k} className={k <= i ? 'on' : ''} />)}</div>
       <button className="mg-skip" onClick={onEnter}>Skip</button>
       <div className="mg-card" key={i}>
-        {row ? (
+        {row && t ? (
+          <>
+            {strip.painted ? null : <ArtTodo path={stripArt(m.stem, row.el)} className="mg-todo" />}
+            <span className="mg-signrow">
+              <InkDot el={row.el} size={56} Use={Use} label={`${row.name}, ${row.presence} percent`} />
+              <span className="mg-amt"><b>{row.presence}%</b><span>of your chart</span></span>
+            </span>
+            <span className="mg-sk">{row.head}</span>
+            <h3>{row.name} is your {row.fn} energy.</h3>
+            <span className="mg-dbar" aria-label={`${row.name}, ${row.presence} percent of your chart`}>
+              {m.els.map((r) => <i key={r.el} className={r.el === row.el ? 'on' : ''} style={{ flex: Math.max(r.presence, 2), background: WASH[r.el] }} />)}
+            </span>
+            <span className="mg-state"><span>{stateOf(row)}</span><Pill row={row} it Use={Use} /></span>
+            <p>{row.fnHead || row.teaser}</p>
+          </>
+        ) : row ? (
           <>
             <span className="mg-sk">{row.head}</span>
             <span className="mg-bigdot"><InkDot el={row.el} size={Math.round(96 + 72 * (row.presence / pmax))} Use={Use} label={`${row.name}, ${row.presence} percent`} /></span>
@@ -463,10 +508,10 @@ export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, sta
           </>
         ) : (
           <>
-            <span className="mg-sk">{c.ey}</span>
+            <span className="mg-sk">{c.ey}{c.draft ? <span className="dp-draft">draft</span> : null}</span>
             {c.seal ? <img className="mg-sseal" src={sealSrc} alt="" /> : null}
             {c.dial ? <Dial score={g.score} condition={g.condition} /> : null}
-            {c.end && door ? (
+            {c.end && door && !t ? (
               <div className="mg-dist" aria-label={g.start || g.rx}>
                 {g.order.map((el) => { const r = g.rows[el]; const lit = !g.first || el === g.first; return (
                   <span key={el} className={lit ? 'on' : 'off'}>
@@ -476,7 +521,7 @@ export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, sta
                   </span>
                 ); })}
               </div>
-            ) : c.end ? (
+            ) : c.end && !t ? (
               <div className="mg-rail" aria-label={g.rx}>
                 {groups.map((gr) => (
                   <span key={gr.k} className={`mg-grp ${gr.k}`}>
@@ -488,12 +533,19 @@ export function FirstReading({ m, g, sealSrc, Use, InkDot, onShare, onEnter, sta
                 ))}
               </div>
             ) : null}
-            <h3>{c.h}</h3>
-            {c.b ? <p className={c.end ? 'mg-quiet' : ''}>{c.b}</p> : null}
+            <h3 className={c.type ? 'mg-tyname' : undefined}>{c.h}</h3>
+            {c.b ? <p className={c.type ? 'mg-tyline' : c.end ? 'mg-quiet' : ''}>{c.type ? typeLine(c.b) : c.b}</p> : null}
+            {c.type ? (
+              <>
+                <span className="mg-sk mg-begin">Where to begin</span>
+                <p className="mg-quiet">{g.start || g.rx}{g.first ? ` ${g.rows[g.first].head}.` : ''}</p>
+              </>
+            ) : null}
             {c.end ? (
               <div className="mg-send">
                 <button className="mg-next" onClick={onEnter}>Enter your reading <Use id="ico-arrow-r" /></button>
-                {door ? null : <button className="mg-next ghost" onClick={onShare}><Use id="ico-share" />Share your reading</button>}
+                {c.type ? <button className="mg-next ghost" onClick={onShare}><Use id="ico-share" />Share your type</button>
+                  : door ? null : <button className="mg-next ghost" onClick={onShare}><Use id="ico-share" />Share your reading</button>}
               </div>
             ) : null}
             {i === 0 ? <span className="mg-hint">Tap to continue</span> : null}

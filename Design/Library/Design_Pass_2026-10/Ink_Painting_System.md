@@ -182,6 +182,7 @@ The published pages are private claude.ai artifacts on the owner's account. Thei
 | `04_day-master-journey-painted.html` | https://claude.ai/artifact/TQcUSqASHj78g6w1MmyRLo | the painted journey and the stage |
 | `05_card4-layouts.html` | https://claude.ai/artifact/H4XdS8kBwufd89DwLVasGb | card 4: band, A, B, C |
 | `06_card4-illustrated.html` | https://claude.ai/artifact/JCdWAaBH4ePxKmbYiZueV3 | card 4 as scroll strips, **the current state** |
+| `08_revelation-built.html` | https://claude.ai/artifact/EWpTWFz637KmjwESjaSr5G | RS2 as built on dev (2026-11-05): real screens of the Naming and the eight cards on the three test charts |
 
 **To iterate on one:** `Artifact` read with its URL, edit, then publish with that `url`. The page keeps its link.
 

@@ -157,6 +157,48 @@
 .jny .mg-dist em{ font-style:normal; font-family:Cinzel,Georgia,serif; font-size:8px; letter-spacing:2px; color:var(--up,#4a7a52); margin-top:2px; }
 @media (max-height: 700px){ .jny .mg-dist{ gap:8px; } .jny .mg-dist .v5-dot{ transform:scale(.86); } }
 
+/* ── RS2: the painted revelation (owner 2026-11-05, behind TYPE_V1) ──
+   Only ink lands on the ground: every painting multiplies and dissolves under a
+   mask, so the paper, the dots and the plates stay what they are. */
+.jny .mg-fr.painted .mg-frg img{ position:absolute; mix-blend-mode:multiply; filter:brightness(1.08) contrast(1.12); }
+.jny .mg-frsign{ left:0; top:0; width:100%; height:62%; object-fit:cover; object-position:69% top; -webkit-mask-image:linear-gradient(to bottom,#000 48%,transparent 96%); mask-image:linear-gradient(to bottom,#000 48%,transparent 96%); }
+.jny .mg-frstage{ left:-10%; bottom:0; width:120%; height:52%; object-fit:cover; object-position:center bottom; opacity:.9; -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 55%); mask-image:linear-gradient(to bottom,transparent 0%,#000 55%); }
+.jny .mg-frstage.s2{ opacity:.6; height:46%; }
+/* the sign card's text band: a breath of paper between the stage's ink and the words */
+.jny .mg-fr.painted.t-who .mg-frstage{ opacity:.72; }
+.jny .mg-fr.painted.t-who .mg-frg::after{ content:''; position:absolute; left:0; right:0; top:56%; bottom:0; background:linear-gradient(to bottom,rgba(243,236,221,0) 0%,rgba(243,236,221,.62) 24%,rgba(243,236,221,.58) 72%,rgba(243,236,221,.1) 100%); }
+.jny .mg-frd3{ left:0; right:0; bottom:-6%; width:100%; height:auto; -webkit-mask-image:linear-gradient(to top,#000 58%,transparent 100%); mask-image:linear-gradient(to top,#000 58%,transparent 100%); }
+.jny .mg-frstrip{ left:-6px; top:0; height:100%; width:37%; object-fit:cover; object-position:38% 42%; -webkit-mask-image:linear-gradient(to right,#000 52%,transparent 100%); mask-image:linear-gradient(to right,#000 52%,transparent 100%); }
+.jny .mg-fr.painted.t-who .mg-card{ justify-content:flex-end; padding-bottom:16%; gap:10px; }
+.jny .mg-fr.painted.t-who .mg-card h3{ font-size:27px; }
+.jny .mg-fr.painted.t-who .mg-card p{ font-size:15px; }
+.jny .mg-fr.painted.t-cond .mg-card{ justify-content:flex-start; align-items:flex-start; text-align:left; padding:24% 24px 44px 22px; gap:10px; }
+.jny .mg-fr.painted.t-cond .mg-card .mg-dial{ max-width:150px; margin:2px 0 6px; }
+.jny .mg-fr.painted.t-cond .mg-card p{ max-width:26ch; }
+.jny .mg-fr.side .mg-card{ align-items:flex-start; text-align:left; justify-content:center; padding:70px 18px 44px 31%; gap:9px; }
+.jny .mg-fr.side .mg-card h3{ font-size:25px; text-wrap:pretty; }
+.jny .mg-fr.side .mg-card p{ font-size:14.5px; max-width:none; }
+.jny .mg-fr.painted:not(.side) .mg-card:has(.mg-signrow){ gap:9px; }
+.jny .mg-signrow{ display:flex; align-items:center; gap:12px; margin-bottom:4px; }
+.jny .mg-signrow .v5-dot{ filter:drop-shadow(0 5px 12px rgba(43,39,34,.16)); }
+.jny .mg-amt{ display:flex; flex-direction:column; align-items:flex-start; line-height:1; gap:3px; }
+.jny .mg-fr.painted:not(.side) .mg-amt{ align-items:flex-start; }
+.jny .mg-amt b{ font-family:'Cormorant Garamond',Georgia,serif; font-size:34px; font-weight:600; letter-spacing:-.5px; color:#2b2722; }
+.jny .mg-amt span{ font-family:Cinzel,Georgia,serif; font-size:7px; letter-spacing:2px; text-transform:uppercase; color:#76695b; }
+.jny .mg-dbar{ display:flex; gap:2px; width:100%; max-width:260px; height:6px; border-radius:3px; overflow:hidden; margin:2px 0; }
+.jny .mg-dbar i{ display:block; height:100%; opacity:.28; }
+.jny .mg-dbar i.on{ opacity:1; }
+.jny .mg-fr.painted .mg-state{ gap:8px; }
+.jny .mg-fr.painted .mg-state .role-pill{ font-size:7px; }
+.jny .mg-todo{ position:absolute; top:calc(60px + var(--st, 48px)); left:18px; }
+.jny .mg-fr.painted.t-rx .mg-card{ justify-content:flex-start; align-items:flex-start; text-align:left; padding:27% 22px 44px; gap:8px; }
+.jny .mg-card h3.mg-tyname{ font-size:27px; }
+.jny .mg-card p.mg-tyline{ font-size:15px; line-height:1.45; max-width:30ch; }
+.jny .mg-card p.mg-tyline b{ font-weight:600; }
+.jny .mg-begin{ margin-top:14px; }
+.jny .mg-fr.painted .mg-send{ max-width:none; margin-top:14px; }
+.jny .mg-fr.painted .mg-sk .dp-draft{ font-size:6px; letter-spacing:1px; vertical-align:middle; }
+
 /* the album's entry (SC4 C): the share button at the wheel tile's head */
 .jny .mg-wthead .mg-wshare{ margin-left:auto; flex:none; }
 

@@ -690,9 +690,14 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
           {playingReveal && (
             <div className="rvl-overlay" ref={rvlRef}>
               <div className="rvl-blank" />
-              <img className="rvl-bgtop" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
-              <img className="rvl-bgbot" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
-              <div className="rvl-fog" />
+              {/* RS2 (owner 2026-11-05): with the type the Naming stands on the stem's painted stage */}
+              {TYPE_V1 && merged?.type
+                ? <img className="rvl-stage" src={dmStage(m.stem)} alt="" />
+                : <>
+                  <img className="rvl-bgtop" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
+                  <img className="rvl-bgbot" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
+                  <div className="rvl-fog" />
+                </>}
               <div className="rvl-inner">
                 <span className="rvl-ey">YOU ARE</span>
                 <div className="rvl-plate" aria-label={`${m.stem} — ${m.archetype}, painted`}>
@@ -722,13 +727,13 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
 
           {/* THE MERGE: the first reading's eight cards, between the Naming and the dissolve */}
           {playingReveal && MERGE_V1 && merged && storyOn && (
-            <FirstReading key={storyStart} start={storyStart} door={SC_LIVE} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
+            <FirstReading key={storyStart} start={storyStart} door={SC_LIVE} painted={TYPE_V1 && !!merged?.type} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
               onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
           )}
 
           {/* THE TYPE (K2 A): the album's Archetype chip replays the first reading's eight cards */}
           {replayOn && merged && (
-            <FirstReading key="replay" start={0} door={SC_LIVE} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => { setReplayOn(false); setShowShare(true); }}
+            <FirstReading key="replay" start={0} door={SC_LIVE} painted={TYPE_V1 && !!merged?.type} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => { setReplayOn(false); setShowShare(true); }}
               onEnter={() => setReplayOn(false)} />
           )}
 
