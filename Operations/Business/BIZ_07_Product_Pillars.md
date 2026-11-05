@@ -1,6 +1,7 @@
 # BIZ_07 · Product Pillars
 
 **Born:** 2026-11-05, the marketing session, on the owner's four pillars ("the high concept, the product anchor, the goals and the pitch of our app"). Ruled the same day: PL1 A, PL2 A, PL3 A, PL4 A, PL5 A (§6).
+**Report page (phone):** https://claude.ai/artifact/A69E539BxAQBpXNgN8y2Dq
 **Status:** canon. Every session reads §1 to §4 before it proposes a feature, a section, a design or a piece of marketing. A change to a pillar is an owner ruling.
 **Companions:** `BIZ_05` (launch plan and gates), `BIZ_06` (traction plan), `BIZ_03` (audience), `DES_04` (app design), `REA_01` (the archetype system), `REA_16` (the voice).
 
