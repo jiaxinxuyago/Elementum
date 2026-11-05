@@ -13,6 +13,7 @@
 // ===================================================================
 import { useState } from 'react';
 import { FEEDS, TAMES, CYCLE_IMAGE_LINES } from '../../content/cycles.js';
+import { ArtTodo } from './inkArt.jsx';
 import './energy.css';
 
 const EL_NAME = { metal: 'Metal', wood: 'Wood', fire: 'Fire', earth: 'Earth', water: 'Water' };
@@ -24,7 +25,8 @@ export const PERSONA_ART = (god) => `/concept-arts/personas/${encodeURIComponent
 // An imagery slot: the asset when it exists, the fallback (or nothing) until it does.
 export function ArtSlot({ src, className = '', alt = '', fallback = null }) {
   const [missing, setMissing] = useState(false);
-  if (!src || missing) return fallback;
+  // not painted yet: the fallback (or nothing) on the live site, plus a marker naming the file on dev
+  if (!src || missing) return fallback ? <>{fallback}<ArtTodo path={src} className="under" /></> : <ArtTodo path={src} className={`hole ${className}`} />;
   return <img className={className} src={src} alt={alt} onError={() => setMissing(true)} />;
 }
 
@@ -40,10 +42,11 @@ function StatePill({ r, condition, Use, it = false }) {
 }
 
 // ── rung 1 · THE NAME: the cover continues (the sheet's sign and head) ──
-export function NameRung({ s, r, towers, art, Use, InkDot }) {
+export function NameRung({ s, r, towers, art, artTodo = null, Use, InkDot }) {
   const image = s.mech?.image || '';
   return (
     <div className="ej-name" style={art ? { backgroundImage: `url('${art}')` } : undefined}>
+      <ArtTodo path={artTodo} className="on-band" />
       <div className="ej-nrow">
         <InkDot el={s.el} size={64} Use={Use} label={`${s.elName}, ${r.presence} percent`} />
         <div className="ej-ntitle">

@@ -63,7 +63,8 @@ function MetricBars({ m }) {
 import { APP_URL, APP_HOST } from '../../infra/index.js';
 import { DM_READING } from '../../content/reading/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
-import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeCircle, DayMasterPage, dmStage } from './MergedViews.jsx';
+import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeCircle, DayMasterPage } from './MergedViews.jsx';
+import { dmStage, energyHero, useArtSrc } from './inkArt.jsx';
 import { MERGE_V1 } from './mergeFlag.js';
 import { resolveDayMasterReading } from '../reading/readingResolve.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
@@ -195,6 +196,11 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const storyDoneRef = useRef(false);
   const [storyStart, setStoryStart] = useState(0);
   const [replayOn, setReplayOn] = useState(false);   // THE TYPE (K2 A): the Archetype chip replays the first reading   // dev: open the first reading at a card
+  // the energy hero (owner 2026-11-05, migrate to the minimal style now): the painted hero per energy and
+  // yin/yang when it exists, the library landscape until it does (inkArt.jsx)
+  const dmStem = chart?.dayMaster?.stem;
+  const heroPage = useArtSrc(elOpen ? energyHero(elOpen, dmStem) : null, elOpen ? elementArt(elOpen, dmStem) : null);
+  const heroSheet = useArtSrc(sheetEl ? energyHero(sheetEl, dmStem) : null, sheetEl ? elementArt(sheetEl, dmStem) : null);
   const finishRef = useRef(null);
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom') — fn re-split as the function reading's home (owner re-org 2026-09-02)
@@ -975,8 +981,8 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                         pair head, the law's picture line, the presence bar. Then the
                         boxes and the cards (EnergyJourney.jsx). The previous cards sit
                         under the switch. */}
-                    <NameRung s={elScreen} r={m.byEl[elScreen.el]} towers={towers} art={elementArt(elScreen.el, chart?.dayMaster?.stem)} Use={Use} InkDot={InkDot} />
-                    <EnergyLadder s={elScreen} m={m} condition={m.condition} dm={dm} art={elementArt(elScreen.el, chart?.dayMaster?.stem)} Use={Use} InkDot={InkDot} DOM={DOM} MetricBars={MetricBars}
+                    <NameRung s={elScreen} r={m.byEl[elScreen.el]} towers={towers} art={heroPage.src} artTodo={heroPage.painted ? null : energyHero(elScreen.el, dmStem)} Use={Use} InkDot={InkDot} />
+                    <EnergyLadder s={elScreen} m={m} condition={m.condition} dm={dm} art={heroPage.src} Use={Use} InkDot={InkDot} DOM={DOM} MetricBars={MetricBars}
                       onFunction={() => openSec('fn')} onDomains={() => openSec('dom')} onEnergy={(el) => goElement(el)}
                       onDomain={(d) => openDomain(d, 'element')}
                       onKeyword={(c) => setKwOpen({ word: c.word, text: c.text, pole: (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? 'friction' : 'catalyst', fnLabel: elScreen.fnLabel, fnKey: elScreen.fnKey, elName: elScreen.elName })} />
@@ -1534,7 +1540,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
           behind an energy page or a domain reading and is there on back */}
       {MERGE_V1 && merged && sheetEl && screen === 'catalogue' && (
         <EnergySheet row={merged.rows[sheetEl]} first={merged.first === sheetEl} Use={Use} DOM={DOM} cover={EJ_LIVE}
-          art={V5_LIVE ? elementArt(sheetEl, chart?.dayMaster?.stem) : IS_DEV_TOOLS}
+          art={V5_LIVE ? heroSheet.src : IS_DEV_TOOLS} artTodo={heroSheet.painted ? null : energyHero(sheetEl, dmStem)}
           onClose={() => setSheetEl(null)}
           onRead={() => goElement(sheetEl)}
           onDomain={depth ? (d) => openDepth('domain', d, 'catalogue') : null} />

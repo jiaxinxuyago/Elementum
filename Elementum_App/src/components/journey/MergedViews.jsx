@@ -17,6 +17,7 @@
 // ===================================================================
 
 import { TYPE_LINE } from '../../content/mergedReading.js';
+import { dmArt, stripArt, ArtTodo } from './inkArt.jsx';
 import { useState } from 'react';
 import './merged.css';
 
@@ -53,16 +54,10 @@ export const plateOf = (stem) => `/concept-arts/stems/proc/${STEM_PY[stem]}-${ST
 // sit in the card's paper (InkArt): multiplied onto the cardstock, edges masked,
 // D1 bleeding off the top, D2 a column the text flows around, D3 closing the card,
 // and each energy row's pair painting a shallow band under its title (card 4).
-const dmArt = (stem, n) => `/concept-arts/stems/dm/${STEM_PY[stem]}-d${n}.png`;
-// the screen's stage: one ground painting per stem under the cards, so short cards never float over bare paper (owner 2026-10-27: no empty space over 40%)
-export const dmStage = (stem) => `/concept-arts/stems/dm/${STEM_PY[stem]}-stage.png`;
-// card 4's scroll strips (owner 2026-10-28: "the stem object must show itself clearly", "fill the left
-// rectangle and bleed into the text"): the pair painted as a tall minimal hanging scroll, the stem's own
-// object acting with the energy. The 3:2 pair_ files stay for the energy sheet (N1).
-const stripArt = (stem, el) => `/concept-arts/pairs/strip_${STEM_ELK[stem]}_${el}.png`;
 function InkArt({ src, kind }) {
   const [miss, setMiss] = useState(false);
-  if (miss) return null;
+  // not painted yet: nothing on the live site, a marker naming the file on dev
+  if (miss) return kind === 'pair' ? <span className="dmp-ink pair todo"><ArtTodo path={src} /></span> : <ArtTodo path={src} className={`dmp-todo ${kind}`} />;
   return <img className={`dmp-ink ${kind}`} src={src} alt="" loading="lazy" onError={() => setMiss(true)} />;
 }
 
@@ -143,6 +138,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
                       </span>
                     ) : (
                       <span className="dmp-ftx">
+                        <InkArt src={stripArt(m.stem, f.el)} kind="pair" />
                         <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}<span className="readcirc dmp-gob" aria-hidden="true"><Use id="ico-arrow-r" /></span></span>
                         <b>{f.phrase}</b>
                         <span className="dmp-fd">{f.desc}</span>
@@ -312,7 +308,7 @@ export function WheelArrows({ m, g }) {
 }
 
 // ── the energy sheet ──────────────────────────────────────────────
-export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead, onDomain, cover = false }) {
+export function EnergySheet({ row, first, Use, DOM, art = false, artTodo = null, onClose, onRead, onDomain, cover = false }) {
   if (!row) return null;
   return (
     <div className="mg-sheetwrap" role="dialog" aria-label={row.head}>
@@ -327,7 +323,7 @@ export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead
         {/* the illustration slot: a placeholder on the dev site only, until the
             pair art exists */}
         {typeof art === 'string'
-          ? <div className={`mg-ill v5-plate e-${row.el}`} style={{ backgroundImage: `url('${art}')` }} role="img" aria-label={`${row.name}, painted`} />
+          ? <div className={`mg-ill v5-plate e-${row.el}`} style={{ backgroundImage: `url('${art}')` }} role="img" aria-label={`${row.name}, painted`}><ArtTodo path={artTodo} className="on-band" /></div>
           : art ? <div className={`mg-ill e-${row.el}`}><Use id={`el-${row.el}`} /><span>illustration</span></div> : null}
         {row.story ? <p className="mg-story">{row.story}</p> : null}
         {/* the cover (owner 2026-10-22, DES_15 EJ2 A): the sheet keeps the sign,
