@@ -1,5 +1,7 @@
 # BIZ_06 · Community Traction Plan
 
+> **Product anchor (owner 2026-11-05, PL1 A):** Elementum is the Five Elements personality system, built on four pillars: (1) a new identity system from BaZi, the Day Master as the sign and fifty types as the depth; (2) the easiest BaZi to understand, energies as plain functions; (3) practical guidance, not what will happen to you but how to use what you have; (4) the most visual app, painted in Chinese ink. Canon and the pillar test every proposal passes: `Operations/Business/BIZ_07_Product_Pillars.md`.
+
 **Born:** 2026-10-23, strategy session, on the owner's question "how do we get traction, set up a community and get users". Ruled the same day: C1 A, C2 A, C3 A, C4 A.
 **Owner from 2026-10-23:** the dedicated marketing session, session_01JGiv7YVayvtv8qWChNB3w6 (strategies, content, progress tracking). The strategy session keeps `BIZ_05` (launch plan, infra, billing).
 **Companions:** `BIZ_05` (launch plan, gates §5.4, rulings), `BIZ_03` (audience and tone), `BIZ_04` (friction framing), `REA_16` (the voice), `Reading/Database/Prompts/07_REFERENCE_BENCHMARKS.md` (The Pattern benchmark), `INF_02` §3 (analytics events).

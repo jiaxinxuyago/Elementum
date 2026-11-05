@@ -1,5 +1,7 @@
 # REA_01 — The Compound Archetype System — an overview
 
+> **Product anchor (owner 2026-11-05, PL1 A):** Elementum is the Five Elements personality system, built on four pillars: (1) a new identity system from BaZi, the Day Master as the sign and fifty types as the depth; (2) the easiest BaZi to understand, energies as plain functions; (3) practical guidance, not what will happen to you but how to use what you have; (4) the most visual app, painted in Chinese ink. Canon and the pillar test every proposal passes: `Operations/Business/BIZ_07_Product_Pillars.md`.
+
 > **Formerly DES_01** (moved to the Reading library 2026-07-23) **and before that DOC2** (2026-07-09). Historical citations of "DES_01" or "DOC2" refer to this file (registry: Operations/README.md).
 
 > **REWRITTEN 2026-07-28 (owner-directed) as the reading library's front door.** The old body (the April-2026 2-layer key system + v2.1 banner) is superseded: its 50-key taxonomy and "why 50" argument moved to **REA_03 §4b**; its 庚 reference derivation to **REA_03 Appendix A**; its locked names live in **REA_02 §2**; its assembly rules in **REA_03 §2**. The old body is in git. This doc explains the system in prose — it defines nothing normatively; every table it mentions has one canonical home elsewhere.

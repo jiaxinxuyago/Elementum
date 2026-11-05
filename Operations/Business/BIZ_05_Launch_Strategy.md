@@ -1,5 +1,7 @@
 # BIZ_05 · Launch Strategy
 
+> **Product anchor (owner 2026-11-05, PL1 A):** Elementum is the Five Elements personality system, built on four pillars: (1) a new identity system from BaZi, the Day Master as the sign and fifty types as the depth; (2) the easiest BaZi to understand, energies as plain functions; (3) practical guidance, not what will happen to you but how to use what you have; (4) the most visual app, painted in Chinese ink. Canon and the pillar test every proposal passes: `Operations/Business/BIZ_07_Product_Pillars.md`.
+
 **Born:** 2026-10-22, strategy session (marketing, infrastructure, business; no app code, no reading content).
 **Question:** what stage are we at, and what must happen right after the current development stage?
 **Report page (phone-friendly, with the rulings):** https://claude.ai/artifact/WU74C1XQ1bD6QBUHCoFrSB
