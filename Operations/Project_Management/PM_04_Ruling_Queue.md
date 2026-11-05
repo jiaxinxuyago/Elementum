@@ -35,7 +35,7 @@
 | PL3 | 2026-11-05 | marketing | MAJOR | The public identity unit | Day Master is the sign (10); 50 types are the depth layer with a sayable name | The 50 types lead | Day Master only | `BIZ_07` §2 | ruled A (2026-11-05) |
 | PL4 | 2026-11-05 | marketing | MINOR | Competitive research scope | BaZi apps plus identity benchmarks, by hand, with sources | BaZi apps only | Owner adds apps | `BIZ_07` §5 | ruled A (2026-11-05) |
 | PL5 | 2026-11-05 | marketing | MAJOR | The production priority list | One ranked list the owner rules; folded into the BIZ_05 freeze list by the strategy session | Replaces the freeze list | Advice only | `BIZ_07` §7 | ruled A (2026-11-05) |
-| PR1 | 2026-11-05 | marketing | MAJOR | The production priority list for the next dev cycle | Adopt BIZ_07 §7 as ranked (P0 this week, P1 the freeze minimum, P2 next cycle); the strategy session folds P0 and P1 into the BIZ_05 freeze list | Adopt with the owner's reordering | Hold | `BIZ_07` §7 | queued |
+| PR1 | 2026-11-05 | marketing | MAJOR | The production priority list for the next dev cycle | Adopt BIZ_07 §7 as ranked (P0 this week, P1 the freeze minimum, P2 next cycle); the strategy session folds P0 and P1 into the BIZ_05 freeze list | Adopt with the owner's reordering | Hold | `BIZ_07` §7 | ruled A (2026-11-05) |
 
 Open rulings that live on other pages today and should move here at the next ruling day: Domains R1–R17, G1, MN (`ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains/`), Life Chapters M2–M9 (M1 closed by E1), Your Almanac P4 steps and F1, DES_15 directions. Each owning session moves its own rows.
 

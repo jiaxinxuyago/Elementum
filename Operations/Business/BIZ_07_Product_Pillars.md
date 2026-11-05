@@ -130,7 +130,7 @@ A new feature, section, design or piece of content states which pillar it serves
 | PL3 | The public identity unit | A | The Day Master is the sign (10). The fifty types are the depth layer with a sayable name. |
 | PL4 | Research scope | A | The BaZi apps and the identity benchmarks above, by hand, with sources. |
 | PL5 | The priority list | A | One ranked list the owner rules; the strategy session folds it into the `BIZ_05` freeze list; the design director and section sessions take their rows. |
-| PR1 | The priority list in §7 | queued | |
+| PR1 | The priority list in §7 | A (2026-11-05) | Adopted as ranked. The strategy session folds P0 and P1 into the `BIZ_05` freeze list; each owner takes its rows (handoff: `ComparativeAnalysis/Handoffs/2026-11-05-priority-list/NOTICE.md`). |
 
 ## 7 · The production priority list (next dev cycle, PL5 A)
 
