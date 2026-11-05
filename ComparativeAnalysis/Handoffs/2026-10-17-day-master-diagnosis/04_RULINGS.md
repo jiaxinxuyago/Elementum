@@ -376,3 +376,14 @@ Built on dev the same day: the fan on the left, the element seal on its rim, the
 - The strips and pairs are per stem (50 + 50).
 
 The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, with its twin `Ink_Painting_Prompts.json`.
+
+**Ruled 2026-11-05, the revelation sequence: RS2 A, the painted scroll, with changes.**
+- **The paintings:** the Naming on the stem's stage; card 1 becomes the sign (D1), so the name is said once; card 2 is closed by D3; each energy card carries the stem's scroll strip; card 8 is the type, where to begin, and Share your type.
+- **Owner changes:**
+  - The five-energy sign is enlarged into each energy card's leading icon, with the amount beside it.
+  - Each energy card adds the dominance bar (all five energies, this one lit), "because it shows how much of this energy you have".
+- **The brief:** `Design/Library/Design_Pass_2026-10/RS2_Revelation_Painted_Brief.md`. The storyboard is https://claude.ai/artifact/KxvFeNPcg1cPVNXER6fMWu.
+
+**Division of work (owner 2026-11-05):**
+- **This session** continues on the ruling and polishing of the content.
+- **The design director session** takes all imagery and all layout and UI design.
