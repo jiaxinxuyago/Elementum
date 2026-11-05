@@ -368,3 +368,11 @@ Built on dev the same day: the fan on the left, the element seal on its rim, the
 **2026-10-28, card 4: the fan becomes a scroll strip.** Owner: keep this level of detail, but (1) the stem's object must show clearly and carry the relation, and (2) the image should fill the row's left rectangle and bleed into the text.
 - **The layout:** each row opens with a tall minimal scroll painting. It fills the left column for the row's full height, bleeds off the card's left edge, and dissolves rightward under the text. The element seal sits at its foot.
 - **Built on dev** with the five Metal strips.
+
+**Ruled 2026-11-05, handoff of the painting work to the design director session.**
+- The 3:2 pairs are repainted minimal.
+- The energy heroes migrate to the minimal style now.
+- New slot types and stems are tested first; a batch runs only after the owner approves the test.
+- The strips and pairs are per stem (50 + 50).
+
+The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, with its twin `Ink_Painting_Prompts.json`.

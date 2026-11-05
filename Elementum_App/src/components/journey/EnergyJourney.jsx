@@ -18,7 +18,7 @@ import './energy.css';
 
 const EL_NAME = { metal: 'Metal', wood: 'Wood', fire: 'Fire', earth: 'Earth', water: 'Water' };
 const HAN = { metal: '金', wood: '木', fire: '火', earth: '土', water: '水' };
-export const PAIR_ART = (core, el) => `/concept-arts/pairs/pair_${core}_${el}.png`;   // the GO-2 path (PM_02)
+export const PAIR_ART = (stemPy, el) => `/concept-arts/pairs/pair_${stemPy}_${el}.png`;   // the GO-2 path (PM_02), per stem (owner 2026-11-05)
 export const FN_ART = (fnKey) => `/concept-arts/functions/${fnKey}.png`;
 export const PERSONA_ART = (god) => `/concept-arts/personas/${encodeURIComponent(god)}.png`;
 
@@ -179,7 +179,7 @@ export function EnergyLadder({ s, m, condition, dm, art, Use, InkDot, DOM, Metri
         <Box id="rel" ey={r.isCore ? 'The relation · 主' : `The relation · ${s.mech.verb === 'feeds' ? '生' : '克'}`} open={open === 'rel'} onToggle={() => toggle('rel')}
           line={<Equation s={s} m={m} Use={Use} InkDot={InkDot} mini condition={condition} />}>
           {!r.isCore ? (
-            <ArtSlot src={PAIR_ART(m.core.el, s.el)} className="ej-pairart" alt={`${s.mech.eq}, painted`}
+            <ArtSlot src={PAIR_ART(m.stemId, s.el)} className="ej-pairart" alt={`${s.mech.eq}, painted`}
               fallback={art ? <span className="ej-pairart plate" style={{ backgroundImage: `url('${art}')` }} role="img" aria-label={`${s.elName}, painted`} /> : null} />
           ) : null}
           {s.mech.classic ? <p className="el-classic" aria-hidden="true">「{s.mech.classic}」</p> : null}

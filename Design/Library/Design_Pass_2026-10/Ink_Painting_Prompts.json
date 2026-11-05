@@ -1,0 +1,362 @@
+{
+ "_doc": "Machine-readable twin of Ink_Painting_System.md. Paint every batch from these templates as they stand; when an owner note changes a rule, change the system doc and this file together.",
+ "model": "gpt-image-2.5-sunburst",
+ "tool": "Figma generate_image",
+ "figma_file": "xNqBs5iqpkgcIOzSljHdHd",
+ "washes": {
+  "metal": "blue-grey",
+  "wood": "pale green",
+  "fire": "vermilion-orange",
+  "earth": "ochre",
+  "water": "indigo blue"
+ },
+ "templates": {
+  "T-D": {
+   "status": "locked",
+   "text": "Traditional Chinese xieyi freehand ink painting on plain warm rice paper: spontaneous, expressive brushwork, each form suggested in a few bold strokes, ink bleeding softly into the paper, dry-brush flicks, large areas of untouched paper. Black-and-grey ink with a single faint wash of {element wash}. {Wide landscape, one-corner composition | Tall portrait | Square}, subject off-centre, most of the paper empty. Subject: {subject}. No people, no text, no calligraphy, no seal, no border.",
+   "sizes": {
+    "D1": [
+     1920,
+     1080
+    ],
+    "D2": [
+     1024,
+     1280
+    ],
+    "D3": [
+     1024,
+     1024
+    ]
+   },
+   "frames": {
+    "D1": "Wide landscape, one-corner composition",
+    "D2": "Tall portrait",
+    "D3": "Square"
+   }
+  },
+  "T-STAGE": {
+   "status": "locked",
+   "text": "Minimal Chinese shanshui ink wash painting in the manner of Ni Zan and Ma Yuan, on plain warm rice paper. Most of the paper is left blank (liubai). Level-distance composition: the whole scene is a thin band along the bottom fifth of the paper, made of very few brushstrokes; distant forms are single pale grey washes with no detail, near forms a handful of light strokes, at most one small dark accent. Soft mist separates the planes. Pale diluted ink with a barely visible tint of {element wash}. Tall portrait. Subject: {subject}. No people, no text, no seal, no border.",
+   "size": [
+    1024,
+    1280
+   ]
+  },
+  "T-STRIP": {
+   "status": "current",
+   "text": "Minimal Chinese ink wash painting in a tall narrow hanging-scroll format, in the manner of Song album leaves and Ma Yuan, on plain warm rice paper. Few brushstrokes, pale grey ink with darker accents on the main subject, soft mist, generous blank paper around it. The main subject is clear and readable, filling the middle height of the scroll; the right side dissolves into mist and blank paper. A faint {energy wash} on the {energy's thing} and a faint {core wash} on the {stem object}. Subject: {stem object acting the relation with the energy}. The {stem object} is the darkest, most distinct form in the painting. No people, no hands, no text, no seal, no border.",
+   "size": [
+    1024,
+    1792
+   ]
+  },
+  "T-PAIR": {
+   "status": "derived, test first",
+   "text": "Minimal Chinese ink wash painting as a landscape album leaf (3:2), in the manner of Song album leaves and Ma Yuan, on plain warm rice paper. Few brushstrokes, pale grey ink with darker accents on the main subject, soft mist, generous blank paper. The main subject is clear and readable, set slightly left of centre; the edges dissolve into mist and blank paper. A faint {energy wash} on the {energy's thing} and a faint {core wash} on the {stem object}. Subject: {the same scene as the stem's strip, widened}. The {stem object} is the darkest, most distinct form in the painting. No people, no hands, no text, no seal, no border.",
+   "size": [
+    1536,
+    1024
+   ]
+  },
+  "T-HERO": {
+   "status": "new, test first",
+   "text": "Minimal Chinese shanshui ink wash painting in the manner of Ma Yuan and Ni Zan, on plain warm rice paper, toned like a pale misty background plate. Landscape 3:2. The subject sits in the upper two thirds; the lower third is mist and blank paper. Few strokes, pale diluted ink, one darker accent, most of the paper blank (liubai). A barely visible {element wash}. Subject: {the energy element's yang or yin image}. No people, no text, no seal, no border.",
+   "size": [
+    1536,
+    1024
+   ]
+  }
+ },
+ "painted": {
+  "D": [
+   {
+    "code": "D-jia-1",
+    "file": "dm-jia-d1",
+    "subject": "a lone young oak on an early-spring hillside at dawn, a faint unmade path at its foot running off into mist"
+   },
+   {
+    "code": "D-jia-2",
+    "file": "dm-jia-d2",
+    "subject": "a tall trunk seen from its base, rising past the top of the frame toward a thin light, a new green shoot already starting beside its roots"
+   },
+   {
+    "code": "D-jia-3",
+    "file": "dm-jia-d3",
+    "subject": "the cut face of a trunk, its growth rings all drawn toward one side, where the light came from"
+   },
+   {
+    "code": "D-yi-1",
+    "file": "dm-yi-d1",
+    "subject": "a vine climbing an old dry-stone wall in late spring, one stone eased out of line by its roots"
+   },
+   {
+    "code": "D-yi-2",
+    "file": "dm-yi-d2",
+    "subject": "a vine stopped by a closed wooden gate, reaching around it and through the lattice of the window beside it"
+   },
+   {
+    "code": "D-yi-3",
+    "file": "dm-yi-d3",
+    "subject": "a thin green stem bent flat under wind beside a stiff reed snapped in half, the stem unbroken"
+   },
+   {
+    "code": "D-bing-1",
+    "file": "dm-bing-d1",
+    "subject": "a full noon sun over low village rooftops, a wide open sky, short shadows under the eaves"
+   },
+   {
+    "code": "D-bing-2",
+    "file": "dm-bing-d2",
+    "subject": "a low wide sun over a field of sunflowers, every head turned toward it"
+   },
+   {
+    "code": "D-bing-3",
+    "file": "dm-bing-d3",
+    "subject": "the sun held whole in a still pond below it, the two lights answering each other across the empty paper"
+   },
+   {
+    "code": "D-ding-1",
+    "file": "dm-ding-d1",
+    "subject": "a single oil lamp in a night window, its circle of light holding one table and an open book, dark beyond"
+   },
+   {
+    "code": "D-ding-2",
+    "file": "dm-ding-d2",
+    "subject": "a candle flame leaning toward one teacup, the cup lit warm and the rest of the room in soft dark"
+   },
+   {
+    "code": "D-ding-3",
+    "file": "dm-ding-d3",
+    "subject": "a flame steady inside a paper lantern while the grass outside bends in the wind"
+   },
+   {
+    "code": "D-wu-1",
+    "file": "dm-wu-d1",
+    "subject": "a great mountain with snow on its shoulders, a river bending around its foot, a thread of road far below"
+   },
+   {
+    "code": "D-wu-2",
+    "file": "dm-wu-d2",
+    "subject": "stone steps cut into a mountainside and worn smooth in the middle, climbing out of mist"
+   },
+   {
+    "code": "D-wu-3",
+    "file": "dm-wu-d3",
+    "subject": "a small hut and a pine sheltered in the lee of a cliff, snow blowing past above them"
+   },
+   {
+    "code": "D-ji-1",
+    "file": "dm-ji-d1",
+    "subject": "a small tilled plot in late summer, dark earth between ripening rows, low warm light"
+   },
+   {
+    "code": "D-ji-2",
+    "file": "dm-ji-d2",
+    "subject": "full harvest baskets set along a path at the field's edge, the field behind them bare and dark"
+   },
+   {
+    "code": "D-ji-3",
+    "file": "dm-ji-d3",
+    "subject": "a cut-away of soil: a sprout above, its roots spreading through dark loam that has drunk in rain and ash"
+   },
+   {
+    "code": "D-geng-1",
+    "file": "dm-geng-d1",
+    "subject": "a plain sword hanging on a bare wall beside an open window, an autumn harvest field outside"
+   },
+   {
+    "code": "D-geng-2",
+    "file": "dm-geng-d2",
+    "subject": "one bamboo stalk cut clean through, its two halves parting, the blade out of frame"
+   },
+   {
+    "code": "D-geng-3",
+    "file": "dm-geng-d3",
+    "subject": "a blade's edge pressed into a living spring branch that bends against it, a fine line of light along the unchipped edge (Metal and Wood)"
+   },
+   {
+    "code": "D-xin-1",
+    "file": "dm-xin-d1",
+    "subject": "a needle, a struck coin and a small cut stone on folded cloth, bare late-autumn branches in the window"
+   },
+   {
+    "code": "D-xin-2",
+    "file": "dm-xin-d2",
+    "subject": "one cut gem on a jeweller's cloth under a lamp, a single facet still rough"
+   },
+   {
+    "code": "D-xin-3",
+    "file": "dm-xin-d3",
+    "subject": "a fine needle's point catching one spark of light over a fold of polishing cloth"
+   },
+   {
+    "code": "D-ren-1",
+    "file": "dm-ren-d1",
+    "subject": "open sea past a harbour mouth in early winter, the surface still, long dark current lines moving beneath"
+   },
+   {
+    "code": "D-ren-2",
+    "file": "dm-ren-d2",
+    "subject": "a cut-away at the waterline: a calm ripple above, deep layered water below, a broad current moving far down"
+   },
+   {
+    "code": "D-ren-3",
+    "file": "dm-ren-d3",
+    "subject": "a narrow canyon whose stone walls are worn into smooth curves, a quiet stream at the bottom"
+   },
+   {
+    "code": "D-gui-1",
+    "file": "dm-gui-d1",
+    "subject": "soft night rain over planted fields at winter's end, mist lying low on the rows"
+   },
+   {
+    "code": "D-gui-2",
+    "file": "dm-gui-d2",
+    "subject": "a stone bowl of water standing in the rain, the rings of many drops overlapping on its surface"
+   },
+   {
+    "code": "D-gui-3",
+    "file": "dm-gui-d3",
+    "subject": "mist moving through a lattice window, passing through every opening into the room"
+   }
+  ],
+  "stage": [
+   {
+    "stem": "jia",
+    "file": "dm-jia-stage",
+    "subject": "a low slope with two young trees, a faint far ridge",
+    "wash": "pale green"
+   },
+   {
+    "stem": "yi",
+    "file": "dm-yi-stage",
+    "subject": "a short low stone wall with a few vine tendrils trailing over it, one faint far hill",
+    "wash": "pale green"
+   },
+   {
+    "stem": "bing",
+    "file": "dm-bing-stage",
+    "subject": "a pale sun disc resting just above a low far horizon, a few village roofs as faint marks below it",
+    "wash": "vermilion-orange"
+   },
+   {
+    "stem": "ding",
+    "file": "dm-ding-stage",
+    "subject": "one small lantern glowing on a low riverbank at dusk, far pale hills in mist",
+    "wash": "vermilion-orange"
+   },
+   {
+    "stem": "wu",
+    "file": "dm-wu-stage",
+    "subject": "one low mountain range as a single pale wash, two small pines at its foot",
+    "wash": "ochre"
+   },
+   {
+    "stem": "ji",
+    "file": "dm-ji-stage",
+    "subject": "a few faint furrow lines across flat farmland, one distant tree",
+    "wash": "ochre"
+   },
+   {
+    "stem": "geng",
+    "file": "dm-geng-stage",
+    "subject": "three bundled sheaves on a bare autumn field, one leafless tree, a faint far ridge",
+    "wash": "blue-grey"
+   },
+   {
+    "stem": "xin",
+    "file": "dm-xin-stage",
+    "subject": "two smooth frosted stones and one bare twig on a near bank, a faint far shore across still water",
+    "wash": "blue-grey"
+   },
+   {
+    "stem": "ren",
+    "file": "dm-ren-stage",
+    "subject": "a few long wave lines on open water, one dark rock, a far low horizon",
+    "wash": "indigo blue"
+   },
+   {
+    "stem": "gui",
+    "file": "dm-gui-stage",
+    "subject": "fine slanted rain over a flat field, one willow, pale far hills",
+    "wash": "indigo blue"
+   }
+  ],
+  "strip": [
+   {
+    "stem": "geng",
+    "energy": "metal",
+    "relation": "more of you",
+    "file": "strip_geng_metal",
+    "subject": "two straight jian swords standing upright side by side, leaning together so their edges touch, a few small ink-dot sparks where the steel meets"
+   },
+   {
+    "stem": "geng",
+    "energy": "earth",
+    "relation": "feeds you",
+    "file": "strip_geng_earth",
+    "subject": "a straight jian sword rising point-up out of a misty mountain slope, half still inside the rock as if born from it, a thin pale seam of ore running down from its hilt into the stone"
+   },
+   {
+    "stem": "geng",
+    "energy": "fire",
+    "relation": "shapes you",
+    "file": "strip_geng_fire",
+    "subject": "a straight jian sword standing upright in the flames of a small forge fire, the lower blade glowing red-orange as it is shaped, a thin wisp of smoke rising up the scroll"
+   },
+   {
+    "stem": "geng",
+    "energy": "wood",
+    "relation": "you shape it",
+    "file": "strip_geng_wood",
+    "subject": "a clearly drawn straight jian sword with a dark hilt, its blade lodged deep in the trunk of a slender young tree, the trunk split open around the steel, a few leaves falling"
+   },
+   {
+    "stem": "geng",
+    "energy": "water",
+    "relation": "you feed it",
+    "file": "strip_geng_water",
+    "subject": "a straight jian sword held point-down above a small stream at dawn, dew gathering along its edge and falling in clear drops from the tip into the water, small ripples below"
+   }
+  ],
+  "pair_older_F2": [
+   {
+    "stem": "geng",
+    "energy": "metal",
+    "file": "pair_geng_metal",
+    "note": "older F2 style, to repaint with T-PAIR using the strip's subject"
+   },
+   {
+    "stem": "geng",
+    "energy": "earth",
+    "file": "pair_geng_earth",
+    "note": "older F2 style, to repaint with T-PAIR using the strip's subject"
+   },
+   {
+    "stem": "geng",
+    "energy": "fire",
+    "file": "pair_geng_fire",
+    "note": "older F2 style, to repaint with T-PAIR using the strip's subject"
+   },
+   {
+    "stem": "geng",
+    "energy": "wood",
+    "file": "pair_geng_wood",
+    "note": "older F2 style, to repaint with T-PAIR using the strip's subject"
+   },
+   {
+    "stem": "geng",
+    "energy": "water",
+    "file": "pair_geng_water",
+    "note": "older F2 style, to repaint with T-PAIR using the strip's subject"
+   }
+  ]
+ },
+ "open": [
+  "D-geng-3 repaint: the branch must bow against the blade's edge",
+  "strips: 45 to paint (test xin first)",
+  "pairs: 50 to paint minimal (test geng first)",
+  "heroes: 10 to paint (test metal yang + yin first)",
+  "function vignettes and persona seals: spec first"
+ ]
+}
