@@ -193,7 +193,7 @@ The images in these pages are embedded JPEGs, so each file is self-contained.
 
 ## 7 · The queue (in order)
 
-1. **Strips, per stem.** Test 辛 the Jewel (five strips), then batch the other eight stems (40). Keep 庚.
+1. **Strips, per stem.** Test 辛 the Jewel (five strips), then batch the other eight stems (40). Keep 庚. *2026-11-05: the 辛 test set is painted from the current T-STRIP (masters `strip_xin_*.jpg`, app copies built), not yet shown or approved. Owner 2026-11-05: pause; iterate on the Blade's template first. No batch has run.*
 2. **Pairs 3:2, minimal, per stem.** Test 庚 (five), then batch 45. The current `pair_geng_*` are the older F2 style.
 3. **Energy heroes.** Test Metal yang and yin, then batch 8.
 4. **D-geng-3 repaint.** The branch must bow against the blade's edge.
