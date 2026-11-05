@@ -21,6 +21,7 @@ The Naming → eight cards → the dissolve into Your reading. Same ground, prog
 
 ### The energy card (cards 3–7), with the owner's changes
 
+- **The element sign is never missing (owner 2026-11-05: "I did not see the five energy icons on their ink dots, they can't be missed").** Every ink dot in the sequence carries its element glyph (`InkDot`, which lays `el-{el}` from the sprite on the dot): the Naming's five dots, each energy card's leading sign, and any small dot. A bare dot image with no glyph is wrong.
 - **The sign leads.** The five-energy sign (`InkDot` with its element glyph, not the plain dot image) is the card's largest icon, at about 56px. It sits at the top of the text column, before the eyebrow and heading, with the amount beside it: **{n}%** large in Cormorant, and "of your chart" small in Cinzel caps beneath. Among the words, it should read as the most important mark on the card.
 - **The dominance bar.** Under the heading goes one bar of all five energies in the reader's order, each segment sized by presence and coloured with its element's wash. This energy's segment is at full strength and the others are at about 28%. It is the same distribution as the energy page's presence bar (`ej-nbar`); reuse that component or its styles. It shows how much of this energy the reader holds next to the other four.
 - **The state pill** (Release it / Grow it / Keep) follows the bar, and then the body text.
