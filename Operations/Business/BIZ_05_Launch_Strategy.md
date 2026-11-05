@@ -312,3 +312,15 @@ Not yet: the AI Consultant answers only the owner (`OWNER_IDS` in `workers/llm/w
 | L2 | Launch-week sign-up email | **A.** Resend Pro ($20) for the launch month only, then back to free. | Stay free; spread invites under 100 sign-ups a day. | |
 
 **Ruled 2026-10-23:** L1 A (the Consultant opens to every Advisor: `OWNER_IDS` emptied, `DAILY_CAP` 10, `MONTHLY_BUDGET_USD` 150 in `workers/llm/wrangler.jsonc`; live when the owner redeploys the llm worker; the Anthropic console limit HK-3 set at or above $150; spend reviewed at day 30). L2 B (Resend stays on the free plan: invites are paced so under 100 people sign up a day; the launch sequence M1 and M8 plans invite waves accordingly).
+
+## 10 · Status check (2026-11-05)
+
+The owner confirmed no account steps since 2026-10-23 (the STRAT-1 backlog in `PM_02` stands). Plan items:
+
+| Status | Items |
+|---|---|
+| Done | F2, F3, F4, F7, F8 · I1, I3, I6, I10 · B4, B5, B6 (ruled) |
+| Partly | F6 / I2 (app only; workers open) · F9 / B1 (terms live; Stripe 300 cap open) · F10 / I7 (delete-account open) · I8 (runbook; uptime check open) · B2 (links live; upgrade sheet open) · M3 (share card redesign under way) · M4 (12 scripts written, nothing posted) |
+| Open | F1, F5 · M1, M2, M5–M9 · I4, I5, I9 · B3, B7 |
+
+Evidence: the app still uses the original $9 Founding link; `ALMANAC_PUSH` is false; Resend shows no sign-up confirmation email since 2026-10-23 (the test sign-up is not done).
