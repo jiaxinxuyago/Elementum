@@ -387,3 +387,9 @@ The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, wit
 **Division of work (owner 2026-11-05):**
 - **This session** continues on the ruling and polishing of the content.
 - **The design director session** takes all imagery and all layout and UI design.
+
+**Flagged 2026-11-05 · CG1 · Labels without ground (owner, from tests with friends).** "They don't understand what Blade, Earth or Mind energy means … how their mind works like earth, and what earth represents."
+- **Score:** the first pass scored 37/100 against the four pillars (`ComparativeAnalysis/Evaluations/revelation-2026-11-05/EVAL.md`), under the owner's 80 bar.
+- **Proposed fix:** the explanation ladder (nature, function, in you, you might notice, try this).
+- **Worked example:** `REWRITE_BLADE_DRAFT.md`.
+- **Rulings:** EV1–EV5 await the owner.
