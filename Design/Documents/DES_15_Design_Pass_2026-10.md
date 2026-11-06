@@ -280,6 +280,8 @@ Gates: eslint 0 errors, engine regression matches golden, build, journey sweep 1
 
 Open for the owner: the two draft eyebrows ("The sign", "Your type"); whether "Swipe up" keeps sitting over the stage on the Naming; the other stems' D1 crops once their compositions are checked; the Blade strip template iteration (Earth and Wood carry much landscape, Water faint), which repaints only the Blade's five.
 
+**Four stems illustrated for review (owner 2026-11-06).** The owner asked for the revelation journey of the Blade, the Jewel, the Oak and the Vine fully illustrated. The 甲 and 乙 strip sets (ten) were painted from the current T-STRIP and built; with the Blade's and the Jewel's that makes twenty strips in the app. All four journeys (the Naming, the eight cards, card 4 of the Day Master page) captured from dev: https://claude.ai/artifact/NM495dzmu5d8C8yJ1Nfyg5 (library copy `Ink_Painting_Artifacts/09_four-stems-revelation.html`). The Jewel, Oak and Vine sets are unapproved. Held per the Day Master session's notice of 2026-11-06 (EV1–EV5 A, the words and order are being rebuilt): no polish on the cards, including the per-stem sign crop the review shows is needed on card 1 (the Jewel's and the Oak's D1 sit further right than the Blade's).
+
 ## Follow-up · the store build (owner question 2026-10-22)
 
 The planned path is the Capacitor wrap (PM_02 STORE-3), under which the React code, the CSS motion and the dissolve carry over unchanged; the browser beneath becomes WebKit on iOS. Prepared now:
