@@ -393,3 +393,10 @@ The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, wit
 - **Proposed fix:** the explanation ladder (nature, function, in you, you might notice, try this).
 - **Worked example:** `REWRITE_BLADE_DRAFT.md`.
 - **Rulings:** EV1–EV5 await the owner.
+
+**Ruled 2026-11-06 · EV1 A, EV2 A, EV3 A, EV4 A, EV5 A.**
+- **EV1:** the evaluation is accepted: 37/100, and the first-pass content is rebuilt.
+- **EV2:** the explanation ladder is content law for every first-pass label, with all five rungs: nature, function, in you, you might notice, try this.
+- **EV3:** the revelation order is the Naming, who the Blade is, the five energies as a model, how you run, each energy, then your type.
+- **EV4:** the first pass holds five named ideas (Day Master, element, the five energies as functions, type, circle). The rest go behind a tap.
+- **EV5:** the Blade script is ruled card by card (V0–V9), then the 126 shared lines are written.
