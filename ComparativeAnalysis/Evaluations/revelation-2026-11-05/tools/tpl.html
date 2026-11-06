@@ -1,0 +1,75 @@
+<title>The Blade Revelation</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:wght@500;600&family=EB+Garamond:wght@400;500&display=swap">
+<style>
+/* layout: one row per revelation card: the phone frame on the left, its ruling rows on the right; stacks on phones */
+:root{--paper:#f1e9da;--card:#faf6ee;--ink:#2b2622;--inkL:#6f6356;--hair:#e0d3bd;--bronze:#8a6a3f;--seal:#a3402e;--grow:#4f7a52;
+--disp:'Cormorant Garamond',Georgia,serif;--body:'EB Garamond',Georgia,serif;--cap:Cinzel,Georgia,serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#1c1916;--card:#25211d;--ink:#ece3d4;--inkL:#a89c8c;--hair:#3a342d;--bronze:#c9a571;--seal:#d77a66;--grow:#8fbf92;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#1c1916;--card:#25211d;--ink:#ece3d4;--inkL:#a89c8c;--hair:#3a342d;--bronze:#c9a571;--seal:#d77a66;--grow:#8fbf92;color-scheme:dark}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+.wrap{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px;display:flex;flex-direction:column;gap:30px}
+.ey0{font-family:var(--cap);font-size:10px;letter-spacing:2.4px;text-transform:uppercase;color:var(--bronze);margin:0}
+h1{font-family:var(--disp);font-weight:600;font-size:38px;line-height:1.05;margin:6px 0 10px;text-wrap:balance}
+.lede{margin:0 0 8px;max-width:68ch}
+.how{border-left:2px solid var(--seal);padding:4px 0 4px 12px;margin:0;max-width:72ch}
+.card{display:grid;grid-template-columns:300px minmax(0,1fr);gap:26px;align-items:start;padding-top:22px;border-top:1px solid var(--hair)}
+.fw{display:flex;flex-direction:column;gap:6px}.cap{margin:0;font-family:var(--cap);font-size:10px;letter-spacing:1.6px;color:var(--seal);text-transform:uppercase}
+.rl .code{margin:0 0 8px;font-family:var(--disp);font-size:24px;font-weight:600}
+.rl table{border-collapse:collapse;width:100%;font-size:15px}
+.rl th{font-family:var(--cap);font-size:9px;letter-spacing:1.4px;text-transform:uppercase;color:var(--inkL);text-align:left;padding:4px 8px;font-weight:600;border-bottom:1px solid var(--hair)}
+.rl td{vertical-align:top;padding:8px;border-bottom:1px solid var(--hair)}
+.rl td.lb{font-family:var(--cap);font-size:9.5px;letter-spacing:1.2px;text-transform:uppercase;color:var(--inkL);width:22%}
+.rl td:nth-child(2){color:var(--ink)}.rl td:nth-child(3){color:var(--inkL)}
+.lk{font-family:var(--cap);font-size:8px;letter-spacing:1.2px;text-transform:uppercase;color:var(--grow);border:1px solid var(--grow);border-radius:999px;padding:0 6px;margin-left:4px;white-space:nowrap}
+/* the phone mock: the app's own paper, type and marks, fixed light like the app */
+.ph{position:relative;width:300px;height:650px;border-radius:26px;overflow:hidden;background:#efe6d4;border:1px solid #e0d3bd;color:#2b2622;font-family:'EB Garamond',Georgia,serif;line-height:1.38}
+.ph img{pointer-events:none}
+.stage{position:absolute;left:-12%;bottom:0;width:124%;mix-blend-mode:multiply;opacity:.88;-webkit-mask-image:linear-gradient(to bottom,transparent 30%,#000 70%);mask-image:linear-gradient(to bottom,transparent 30%,#000 70%)}
+.gd{display:inline-grid;place-items:center;border-radius:50%;background-size:cover;background-position:center;color:#2b2722;flex:none}.gd svg{width:42%;height:42%;fill:currentColor}
+.pg{position:absolute;top:14px;left:14px;right:14px;display:flex;gap:3px;z-index:4}.pg i{flex:1;height:2px;background:rgba(43,38,34,.18)}.pg i.on{background:#2b2622}
+.c0{position:absolute;left:18px;right:18px;top:9%;display:flex;flex-direction:column;align-items:center;text-align:center;gap:3px}
+.ph .ey{margin:0;font-family:Cinzel,Georgia,serif;font-size:8px;letter-spacing:2px;text-transform:uppercase;color:#6f6356}
+.plate{width:118px;height:118px;object-fit:contain}
+.ph h2{margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:34px;font-weight:600;line-height:1.02}
+.ph h2.ty{font-size:28px}
+.ph h3{margin:2px 0 8px;font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:600;line-height:1.14}
+.sub{margin:0;font-size:12.5px;color:#6f6356}
+.recog{margin:12px 0 4px;font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:600;line-height:1.18}
+.five{display:flex;gap:10px;justify-content:center;margin:8px 0 6px}.five span{display:flex;flex-direction:column;align-items:center;gap:2px}.five small{font-size:8.5px;color:#6f6356}
+.fn{margin:0;font-size:10.5px;color:#6f6356;max-width:230px}
+.swipe{position:absolute;bottom:14px;left:0;right:0;text-align:center;margin:0;font-size:9px;color:#6f6356}
+.tx{position:absolute;left:20px;right:18px;z-index:3}
+.tx .b{margin:0 0 7px;font-size:12.5px}.tx .b.sm{font-size:11px;color:#6f6356;margin-top:8px}.tx .b.it{color:#4b4239}
+.tx ul{margin:0 0 8px;padding-left:16px;font-size:12.5px;display:grid;gap:3px}
+.seal{margin:8px 0 0;padding-left:10px;border-left:2px solid #a3402e;font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:600;line-height:1.2}
+.d1{position:absolute;left:0;top:0;width:100%;mix-blend-mode:multiply;-webkit-mask-image:linear-gradient(to bottom,#000 50%,transparent 96%);mask-image:linear-gradient(to bottom,#000 50%,transparent 96%)}
+.d3{position:absolute;right:-10px;bottom:-10px;width:62%;mix-blend-mode:multiply;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 35%),linear-gradient(to right,transparent,#000 35%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,transparent,#000 35%),linear-gradient(to right,transparent,#000 35%);mask-composite:intersect}
+.dial{width:120px;display:block;margin:4px 0 2px}
+.row5{display:grid;grid-template-columns:34px minmax(0,1fr);gap:8px;align-items:start;margin-bottom:7px}
+.rn{margin:0;display:flex;justify-content:space-between;gap:6px;font-size:12.5px}.rn span{color:#6f6356;font-variant-numeric:tabular-nums}
+.rd{margin:0;font-size:11px;color:#4b4239}
+.dbar{display:flex;gap:2px;height:5px;border-radius:3px;overflow:hidden;margin:6px 0 8px}.dbar i{display:block;height:100%}
+.strip{position:absolute;left:-6px;top:0;height:100%;width:120px;object-fit:cover;object-position:38% 42%;mix-blend-mode:multiply;-webkit-mask-image:linear-gradient(to right,#000 55%,transparent);mask-image:linear-gradient(to right,#000 55%,transparent)}
+.tx.side{left:104px;right:14px;top:40px}
+.sign{display:flex;align-items:center;gap:8px;margin-bottom:6px}.amt{display:flex;flex-direction:column;line-height:1.02}.amt b{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:600}.amt span{font-family:Cinzel,Georgia,serif;font-size:6.5px;letter-spacing:1.2px;text-transform:uppercase;color:#6f6356}
+.side p{margin:0 0 6px;font-size:11.5px}
+.side .r1{font-family:'Cormorant Garamond',Georgia,serif;font-size:15.5px;font-weight:600;line-height:1.18}
+.side .r2 b,.side .r1 b{font-weight:600}
+.lab{display:block;font-family:Cinzel,Georgia,serif;font-size:6.5px;letter-spacing:1.4px;text-transform:uppercase;color:#6f6356;margin-bottom:1px}
+.try{margin:8px 0 0;font-size:11.5px;padding:7px 9px;border-radius:10px;background:rgba(79,122,82,.08)}
+.try.rel{background:rgba(163,64,46,.07)}
+.pill{display:inline-block;font-family:Cinzel,Georgia,serif;font-size:6.5px;letter-spacing:1px;text-transform:uppercase;color:#fff;border-radius:999px;padding:2px 7px;margin:0 6px 3px 0}
+.pill.rel{background:#a3402e}.pill.grow{background:#4f7a52}
+.circ{display:grid;grid-template-columns:auto auto 1fr;gap:6px;align-items:center;margin:12px 0 4px}.circ img{width:40px;height:40px;object-fit:contain}.circ p{margin:0;font-size:11.5px}
+.btn{display:block;margin-top:10px;text-align:center;font-family:Cinzel,Georgia,serif;font-size:8.5px;letter-spacing:1.4px;text-transform:uppercase;background:#26221d;color:#f3eddf;border-radius:999px;padding:9px 0}
+.btn.gh{background:none;color:#2b2622;border:1px solid rgba(43,38,34,.4);margin-top:6px}
+@media (max-width:760px){.card{grid-template-columns:minmax(0,1fr)}.fw{align-items:center}.rl td.lb{width:auto}h1{font-size:31px}}
+</style>
+<div class="wrap">
+<div><p class="ey0">The revelation, rewritten · 庚 The Blade · golden chart</p><h1>The Blade's revelation, card by card</h1>
+<p class="lede">The new first pass under your EV rulings: ten cards in the new order, each label climbing the ladder (in nature, in a life, in you, a moment you'd notice, one thing to try), five named ideas on the first pass. The frames use the real paintings and signs. The layout is a sketch for the design session to build properly; what you're ruling here is the words and the order.</p></div>
+<p class="how">Rule each card by its code: "V0 A" keeps every draft line on that card, "V0 B" takes every B option, or mix line by line ("V1 A, contrast B"). Locked lines are already ruled and aren't asked again. Lines marked as shared are ruled with the shared batch for all ten stems.</p>
+{{CARDS}}
+<p class="how">Once you approve this direction, I draft the words for all ten stems in the same shape and bring them to you in batches, then the design session builds it.</p>
+</div>
