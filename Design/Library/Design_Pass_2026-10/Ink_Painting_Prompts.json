@@ -48,7 +48,8 @@
       "size": [
         1024,
         1792
-      ]
+      ],
+      "variety_rule": "Owner 2026-11-13 (1 A, 2 A, 3 A): across a stem's five strips the object changes within the archetype's family (the Blade: sword, sabre, dagger, spearhead, cleaver, axe, knife) and so does the composition; the stem's object stays the darkest form. Strips only: D1-D3, the stage and the plate keep the one emblem. Test on the Blade, then the Jewel, Oak and Vine."
     },
     "T-PAIR": {
       "status": "derived, test first",
@@ -288,35 +289,55 @@
         "energy": "metal",
         "relation": "more of you",
         "file": "strip_geng_metal",
-        "subject": "two straight jian swords standing upright side by side, leaning together so their edges touch, a few small ink-dot sparks where the steel meets"
+        "subject": "a simple wooden weapon rack standing on the left, holding three different blades hung one above another: a straight sword, a curved sabre and a short dagger, their edges catching a few small ink-dot glints",
+        "subject_v1": "two straight jian swords standing upright side by side, leaning together so their edges touch, a few small ink-dot sparks where the steel meets",
+        "painted": "2026-11-13",
+        "approved": false,
+        "note": "v2: varied object per strip (owner 2026-11-13)"
       },
       {
         "stem": "geng",
         "energy": "earth",
         "relation": "feeds you",
         "file": "strip_geng_earth",
-        "subject": "a straight jian sword rising point-up out of a misty mountain slope, half still inside the rock as if born from it, a thin pale seam of ore running down from its hilt into the stone"
+        "subject": "a large close view of a rough dark spearhead and an unfinished blade blank lying half-buried in a heap of raw ore stones at the mouth of a small hillside mine, one pale seam of ore running through the rocks",
+        "subject_v1": "a straight jian sword rising point-up out of a misty mountain slope, half still inside the rock as if born from it, a thin pale seam of ore running down from its hilt into the stone",
+        "painted": "2026-11-13",
+        "approved": false,
+        "note": "v2: varied object per strip (owner 2026-11-13)"
       },
       {
         "stem": "geng",
         "energy": "fire",
         "relation": "shapes you",
         "file": "strip_geng_fire",
-        "subject": "a straight jian sword standing upright in the flames of a small forge fire, the lower blade glowing red-orange as it is shaped, a thin wisp of smoke rising up the scroll"
+        "subject": "a broad cleaver-shaped blade lying across a blacksmith's anvil, its edge glowing red-orange, a hammer resting beside it, a small forge fire below and behind, a thin wisp of smoke rising up the scroll",
+        "subject_v1": "a straight jian sword standing upright in the flames of a small forge fire, the lower blade glowing red-orange as it is shaped, a thin wisp of smoke rising up the scroll",
+        "painted": "2026-11-13",
+        "approved": false,
+        "note": "v2: varied object per strip (owner 2026-11-13)"
       },
       {
         "stem": "geng",
         "energy": "wood",
         "relation": "you shape it",
         "file": "strip_geng_wood",
-        "subject": "a clearly drawn straight jian sword with a dark hilt, its blade lodged deep in the trunk of a slender young tree, the trunk split open around the steel, a few leaves falling"
+        "subject": "a woodcutter's axe with a long handle sunk deep into an upright log on a chopping block, the log split open around the axe head, a few split pieces and green leaves fallen around it",
+        "subject_v1": "a clearly drawn straight jian sword with a dark hilt, its blade lodged deep in the trunk of a slender young tree, the trunk split open around the steel, a few leaves falling",
+        "painted": "2026-11-13",
+        "approved": false,
+        "note": "v2: varied object per strip (owner 2026-11-13)"
       },
       {
         "stem": "geng",
         "energy": "water",
         "relation": "you feed it",
         "file": "strip_geng_water",
-        "subject": "a straight jian sword held point-down above a small stream at dawn, dew gathering along its edge and falling in clear drops from the tip into the water, small ripples below"
+        "subject": "a small knife with a dark wooden handle resting edge-down on a wet whetstone at the bank of a stream, clear water running off the blade's edge and falling in drops into the stream, small ripples below",
+        "subject_v1": "a straight jian sword held point-down above a small stream at dawn, dew gathering along its edge and falling in clear drops from the tip into the water, small ripples below",
+        "painted": "2026-11-13",
+        "approved": false,
+        "note": "v2: varied object per strip (owner 2026-11-13)"
       },
       {
         "stem": "xin",
