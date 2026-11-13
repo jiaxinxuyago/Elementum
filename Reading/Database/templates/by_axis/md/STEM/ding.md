@@ -117,6 +117,12 @@
 | `dm_overview` | The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yin Fire, the flame that burns close and steady. |
+| `ladder.recognition` | When you care about something, it gets all of you. |
+| `ladder.as_line` | As a Candle, you are that focused warmth in a person. |
+| `ladder.behaviour` | You remember the small thing someone told you months ago. |
+| `ladder.contrast` | People see someone quiet and contained. Inside, you are burning steadily for the few things you love. |
+| `ladder.self_nature` | Fire is your own element: the flame you keep. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

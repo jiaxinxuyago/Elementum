@@ -117,6 +117,12 @@
 | `dm_overview` | The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yin Water, the rain that reaches everything quietly. |
+| `ladder.recognition` | You take in what others feel without trying. |
+| `ladder.as_line` | As the Rain, you are that sensitivity in a person. |
+| `ladder.behaviour` | You know a friend is upset from one text. |
+| `ladder.contrast` | People see someone gentle and easy to be with. Inside, you are holding feelings that aren't yours. |
+| `ladder.self_nature` | Water is your own element: the rain itself. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

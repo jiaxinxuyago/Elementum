@@ -117,6 +117,12 @@
 | `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yang Fire, the sun that gives light to everyone. |
+| `ladder.recognition` | You light up a gathering before you've said anything. |
+| `ladder.as_line` | As a Sun, you are that warmth in a person. |
+| `ladder.behaviour` | You notice who is left out and pull them in. |
+| `ladder.contrast` | People see someone with warmth to spare. Inside, you are rarely the one anyone checks on. |
+| `ladder.self_nature` | Fire is your own element: the sunlight itself. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

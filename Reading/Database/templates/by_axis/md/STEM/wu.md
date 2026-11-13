@@ -117,6 +117,12 @@
 | `dm_overview` | The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yang Earth, the mountain others find their footing on. |
+| `ladder.recognition` | You're the steady one when things start to shake. |
+| `ladder.as_line` | As a Mountain, you are that ground in a person. |
+| `ladder.behaviour` | People bring you their plans to see if they hold. |
+| `ladder.contrast` | People see someone unshakeable. Inside, you are carrying more than you've told anyone. |
+| `ladder.self_nature` | Earth is your own element: the mountain itself. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

@@ -117,6 +117,12 @@
 | `dm_overview` | The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yin Earth, the field that turns what it holds into growth. |
+| `ladder.recognition` | The people around you grow, and you are part of the reason. |
+| `ladder.as_line` | As a Field, you are that quiet care in a person. |
+| `ladder.behaviour` | You notice what someone needs before they ask. |
+| `ladder.contrast` | People see someone easy and calm. Inside, you are keeping track of everyone's needs, yours last. |
+| `ladder.self_nature` | Earth is your own element: the soil that grows things. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

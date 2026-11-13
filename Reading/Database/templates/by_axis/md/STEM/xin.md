@@ -117,6 +117,12 @@
 | `dm_overview` | The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yin Metal, the cut stone that holds the light. |
+| `ladder.recognition` | You know good from almost good at a glance. |
+| `ladder.as_line` | As a Jewel, you are that finish in a person. |
+| `ladder.behaviour` | You go back to fix a detail most people would not see. |
+| `ladder.contrast` | People see someone polished and composed. Inside, you are still finding what isn't quite right. |
+| `ladder.self_nature` | Metal is your own element: the cut stone itself. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

@@ -404,3 +404,8 @@ The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, wit
 **Ruled 2026-11-13 · the Blade's revelation script: V0 A, V1 A, V2 A, V3 A, V4–V8 A, V9 A** (`ComparativeAnalysis/Evaluations/revelation-2026-11-05/REWRITE_BLADE_DRAFT.md`, artifact https://claude.ai/artifact/ArtsZDbFaDojriJH8HF2mz). Every draft line is kept.
 - **V2 change:** the five-energies card shows the Day Master's stem sign clearly, so the five energies read as the reader's own.
 - **Next:** the same shape drafted for all ten stems, ruled in batches, then the build brief to the design session.
+
+**Ruled 2026-11-13 · the revelation's words for all ten stems: "Approved".** S1–S7 A and P-甲 … P-癸 A, all 131 draft lines, with the 42 lines carried from the Blade.
+- **Where they live:** the station (`TEMPLATED/tpl_ladder.json`, `STEM/*.json` field `ladder`) and the code (`src/content/ladder.js`). Not rendered yet.
+- **New design rule from the owner:** "when mentioned Yin and Yang, make sure we include yin and yang taichi symbol (each sides) image on the page." It is in the build brief as rule 5.
+- **Build brief to the design session:** `Design/Library/Design_Pass_2026-10/RS3_Revelation_Ladder_Brief.md`.

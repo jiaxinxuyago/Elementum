@@ -117,6 +117,12 @@
 | `dm_overview` | The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yin Wood, the green that climbs and finds a way. |
+| `ladder.recognition` | You get where you're going, one way or another. |
+| `ladder.as_line` | As a Vine, you are that patient reach in a person. |
+| `ladder.behaviour` | You change the route without changing where you're headed. |
+| `ladder.contrast` | People read you as easygoing. Inside, you are working three routes at once. |
+| `ladder.self_nature` | Wood is your own element: the green that climbs. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

@@ -117,6 +117,12 @@
 | `dm_overview` | The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yang Water, the open sea that keeps moving. |
+| `ladder.recognition` | Your mind runs a few moves further out than the conversation. |
+| `ladder.as_line` | As an Ocean, you are that depth in a person. |
+| `ladder.behaviour` | You lose interest once you've understood how something works. |
+| `ladder.contrast` | People see someone calm on the surface. Inside, there is a whole current they don't see. |
+| `ladder.self_nature` | Water is your own element: the open sea itself. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

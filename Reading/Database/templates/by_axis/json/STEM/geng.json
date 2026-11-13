@@ -1,727 +1,741 @@
 {
-  "$archetype": "geng",
-  "axis": "STEM",
-  "key": "庚",
-  "canonical_name": "The Blade",
-  "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
-  "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
-  "sources": [
-    "Elementum_App/src/content/archetypeSource.js",
-    "src/content/reading/readingContent.js (DM_READING)",
-    "buildIdentity"
+ "$archetype": "geng",
+ "axis": "STEM",
+ "key": "庚",
+ "canonical_name": "The Blade",
+ "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
+ "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
+ "sources": [
+  "Elementum_App/src/content/archetypeSource.js",
+  "src/content/reading/readingContent.js (DM_READING)",
+  "buildIdentity"
+ ],
+ "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
+ "candidates": {
+  "archetype_name": "The Blade",
+  "manifesto": "Honest, exact, decisive · You are the Metal that cuts things clean.",
+  "inscription": "You say what others soften, then quietly pay for being the one who did.",
+  "stem_keywords": [
+   "Direct",
+   "Decisive",
+   "Sharp"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
-  "candidates": {
-    "archetype_name": "The Blade",
-    "manifesto": "Honest, exact, decisive · You are the Metal that cuts things clean.",
-    "inscription": "You say what others soften, then quietly pay for being the one who did.",
-    "stem_keywords": [
-      "Direct",
-      "Decisive",
-      "Sharp"
-    ],
-    "pinyin_display": "GĒNG · YANG METAL",
-    "dm_claims": [
-      "Being vague feels worse to you than being wrong.",
-      "People come to you when they need the unsoftened truth."
-    ],
-    "dm_mechanism": "Yang Metal tempered by spring wood, strength that grew against resistance, not in its absence.",
+  "pinyin_display": "GĒNG · YANG METAL",
+  "dm_claims": [
+   "Being vague feels worse to you than being wrong.",
+   "People come to you when they need the unsoftened truth."
+  ],
+  "dm_mechanism": "Yang Metal tempered by spring wood, strength that grew against resistance, not in its absence.",
+  "gifts": [
+   {
+    "phrase": "Never looks tired",
+    "dim": "running low",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "金_金.function.definition_catalyst",
+    "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
+   },
+   {
+    "phrase": "Finishes properly",
+    "dim": "at work",
+    "door": "body",
+    "face": "wide",
+    "echo_of": "金_金.function.definition_catalyst",
+    "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
+   },
+   {
+    "phrase": "First-handshake read",
+    "dim": "first impressions",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "金_土.function.definition_catalyst",
+    "desc": "Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake."
+   },
+   {
+    "phrase": "Practices alone",
+    "dim": "practice",
+    "door": "mind",
+    "face": "wide",
+    "echo_of": "金_土.carry.wide",
+    "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
+   },
+   {
+    "phrase": "No dressed-up answers",
+    "dim": "communication",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "金_水.function.definition_catalyst",
+    "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+   },
+   {
+    "phrase": "Plays the long game",
+    "dim": "trimming a plan",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "金_木.function.definition_catalyst",
+    "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+   },
+   {
+    "phrase": "Crisis performer",
+    "dim": "under pressure",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "金_火.function.definition_catalyst",
+    "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+   }
+  ],
+  "shadows": [
+   {
+    "phrase": "Tense all over",
+    "dim": "unspent discipline",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "金_金.function.definition_friction",
+    "desc": "Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak."
+   },
+   {
+    "phrase": "Never reconsiders",
+    "dim": "second chances",
+    "door": "body",
+    "face": "excess",
+    "echo_of": "金_金.carry.excess",
+    "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+   },
+   {
+    "phrase": "Lives inside plans",
+    "dim": "testing the plan",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "金_土.function.definition_friction",
+    "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
+   },
+   {
+    "phrase": "Overprepared",
+    "dim": "showing the work",
+    "door": "mind",
+    "face": "excess",
+    "echo_of": "金_土.carry.excess",
+    "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+   },
+   {
+    "phrase": "No filter",
+    "dim": "saying too much",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "金_水.function.definition_friction",
+    "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
+   },
+   {
+    "phrase": "Spins its wheels",
+    "dim": "trimming",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "金_木.function.definition_friction",
+    "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
+   },
+   {
+    "phrase": "Own harshest critic",
+    "dim": "self-worth",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "金_火.function.definition_friction",
+    "desc": "Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days."
+   }
+  ],
+  "door_note": {
+   "body": "Metal",
+   "mind": "Earth",
+   "expression": "Water",
+   "action": "Wood",
+   "order": "Fire"
+  },
+  "yourNature_desc": "You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.",
+  "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
+  "who": "You are the Blade, the Metal that has already been through fire. You are kept plain and kept sharp, and you come out only for the true thing.",
+  "energy_faces": {
+   "body": {
+    "catalyst": {
+     "adj": [
+      "Steady",
+      "Self-reliant",
+      "Sure"
+     ],
+     "p": "When your own Metal runs low, more of it steadies you. You stand on your own judgment again, finish what you start, and stop asking permission to be exact. The edge you carry becomes something to lean on as well as something to use."
+    },
+    "friction": {
+     "adj": [
+      "Rigid",
+      "Closed",
+      "Unyielding"
+     ],
+     "p": "With more Metal than you need, the edge turns inward. You decide once and stop listening, and people learn to bring you only finished answers. Releasing some of it lets a second opinion reach you before the cut is made."
+    }
+   },
+   "mind": {
+    "catalyst": {
+     "adj": [
+      "Patient",
+      "Grounded",
+      "Prepared"
+     ],
+     "p": "Earth is what feeds your edge: study, rest, and the people who back you. With more of it you think before you cut, and your judgment arrives with its reasons attached. People trust the call because they can see what went into it."
+    },
+    "friction": {
+     "adj": [
+      "Hesitant",
+      "Heavy",
+      "Guarded"
+     ],
+     "p": "Fed past use, the Blade stays in its sheath. You gather one more fact and one more opinion, and the moment to act passes while you prepare for it. Releasing some of the preparation lets the edge come out while it still matters."
+    }
+   },
+   "expression": {
+    "catalyst": {
+     "adj": [
+      "Clear",
+      "Candid",
+      "Fluent"
+     ],
+     "p": "Water is where your sharpness goes out into the world: words, work, the things you make. With more of it your honesty finds a form people can take in. You say the hard thing once, plainly, and it lands as help."
+    },
+    "friction": {
+     "adj": [
+      "Blunt",
+      "Cutting",
+      "Unfiltered"
+     ],
+     "p": "When too much runs out through Water, the honesty arrives faster than the care. You say the true thing and the wound comes with it. Releasing some of that flow gives you a beat to choose which truths need saying today."
+    }
+   },
+   "action": {
+    "catalyst": {
+     "adj": [
+      "Productive",
+      "Focused",
+      "Unrelenting"
+     ],
+     "p": "Wood is what you cut and shape: work, money, plans with a deadline. With more of it your edge has something real to do. You trim what will not grow and keep cutting until the result holds its shape."
+    },
+    "friction": {
+     "adj": [
+      "Harsh",
+      "Restless",
+      "Overworked"
+     ],
+     "p": "With too much to cut, the Blade rarely rests. You take on every job that needs an edge and trim people as hard as plans. Releasing some of the load keeps you sharp for the work that counts."
+    }
+   },
+   "order": {
+    "catalyst": {
+     "adj": [
+      "Tempered",
+      "Composed",
+      "Accountable"
+     ],
+     "p": "Fire is the forge that shapes you: pressure, standards, the people you answer to. With more of it you become the Blade you were made to be. Under a real test you get calmer, and the edge you come out with is the one people remember."
+    },
+    "friction": {
+     "adj": [
+      "Pressed",
+      "Anxious",
+      "Self-critical"
+     ],
+     "p": "Under too much Fire the forge stays hot. Every rule feels urgent and every mistake feels final, and the harshest voice you hear is your own. Releasing some of the pressure lets you cool enough to hold your shape."
+    }
+   }
+  },
+  "ladder": {
+   "element_line": "Yang Metal, steel that has already been through the fire.",
+   "recognition": "You'd rather say the true thing than the easy one.",
+   "as_line": "As a Blade, you are that edge in a person.",
+   "behaviour": "You see the flaw in a plan before anyone asks.",
+   "contrast": "People see someone sharp and certain. Inside, you are checking every word for whether it is true.",
+   "self_nature": "Metal is your own element: the edge itself.",
+   "overrides": {
+    "in_you.Order.thin": "You have almost none. Without someone real to answer to, you sharpen alone and wait for a test worth meeting.",
+    "notice.Order.low": "you do your best work when someone whose judgement you respect sets the bar.",
+    "need_phrase.Order": "real stakes from outside, someone or something that tests the edge"
+   }
+  },
+  "__ore": {
+   "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+   "subtitle": "Evaluation runs before engagement begins · The Definition Impulse (Yang)",
+   "chips": [
+    "Evaluative",
+    "Uncompromising",
+    "Precision-first",
+    "Self-sufficient",
+    "Justice-oriented"
+   ],
+   "yourNature_phrase": "The Imperial Executioner",
+   "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
+   "elementIntro": {
+    "punch": "The Blade is the ancient cutting force of Metal.",
+    "expand": "Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided."
+   },
+   "manual": {
+    "concentrated": "The evaluating and cutting force is relentless. Everything gets assessed; everything gets cut to shape. Highly productive for those who benefit from defined edges and clear decisions. Damaging for those who needed more time or more flexibility — the cutting happens regardless of readiness. Classical texts warn 金旺伤木 (strong Metal injures Wood) — when Metal is excessive, it cuts down what was still growing, including what should have been given more time. The danger is cutting too early, deciding too harshly, and removing things that needed more development before they were ready to be shaped.",
+    "open": "The ability to make definitive decisions, set clear limits, and close what is finished becomes genuinely harder. Things that are complete don't get properly ended. Ambiguity lingers past the point where it serves anyone. Relationships and projects that should close continue because there is no cutting force available to bring them to a clean conclusion. The environment feels gentler but more cluttered — less decisive, more unresolved, more drained by the energy required to maintain what should have ended.",
+    "catalyst": "Activate it by making the decision you have been deferring. This energy specifically rewards categorical commitment: the contract signed, the option closed, the position stated clearly, the boundary set. Don't hedge — the productive use of this energy is definitiveness. One clear decision is worth ten careful ones that stay provisional. Outcome: clarity replaces ambiguity and frees up the energy that was being spent maintaining the unresolved situation. What was clouded becomes specific. Direction becomes actionable.",
+    "resistance": "When 庚 energy is creating friction — the cutting force is removing what the chart needed to preserve, or pressing on growth energy in a way that damages rather than shapes it. The corrective is to redirect the precision toward what is actually finished rather than what is merely inconvenient or imperfect. Use the Fire quality (clarity of purpose, warmth of direction) to identify what the precision is actually for — so the blade knows what to spare. Outcome: the force becomes surgical rather than indiscriminate, and what was damaging becomes defining."
+   },
+   "energy": null,
+   "psych": null,
+   "archetypes": null,
+   "blocks": [
+    {
+     "label": "How you experience the world",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5,
+      "concentrated": 5
+     },
+     "text": {
+      "default": "You evaluate before you engage. The assessment starts when you enter a room — not as a decision you make but as a process that has already begun. You know what holds up and what doesn't before the conversation has fully started. Others feel this in your presence even when nothing has been said. This is not coldness. It's what it looks like when the first cognitive event is precision rather than warmth.",
+      "concentrated": "You evaluate before you engage. The assessment starts the moment you walk into a room — not as a decision you make but as a process that has already begun before you've chosen to begin it. You know what's real and what isn't, what holds up and what doesn't, before the conversation has fully started. Others feel assessed in your presence even when nothing has been said and nothing was intended. This is not coldness. It's what it looks like when the first cognitive event is precision rather than warmth.",
+      "open": "The evaluation is present, but it doesn't lead. You enter a room and something observes — notes what holds and what doesn't — but that observation doesn't arrive as a completed assessment before engagement has begun. The evaluative quality exists as an undercurrent rather than a first fact. What's different: you can be more present to what's actually in the room before the read closes. The precision functions; it just no longer runs ahead of everything else. The world arrives before the verdict does.",
+      "tested": "The world evaluates back. That's the specific texture when authority energy is dominant: the precision runs as it always does, but now something is running a read on you at the same time. An institutional lens — an external standard — operates in parallel with your own. If the external standard is genuine, this sharpens rather than compresses: there's something real to measure against. If it isn't, you know before the conversation has properly started. What changes is that the assessment is no longer one-directional. You are inside a system that is also assessing you, and that fact is part of what you're evaluating.",
+      "pure": "No dominant Ten God is shaping the deployment of this energy. The evaluative capacity runs as its essential self — not directed outward by a wealth configuration, not grounded by a dominant resource pull, not filtered through a relational or authority register. What arrives is precision without a predetermined channel. The world is a set of things to be assessed, and the question of what to do with those assessments is genuinely more open than it is for configurations where a dominant force has already specified the answer. This is not a weakness. It is the unconstrained form: the precision is free to find the target that actually deserves it, rather than the one a dominant configuration has already selected.",
+      "rooted": "Resource energy supporting the Metal means the evaluation doesn't arrive alone — it arrives backed. Assessments form slower here and land harder once they do: the structural support that generates stability also generates weight. The world arrives not just as something to be cut but as something to be understood at depth, relative to what persists. There is a groundedness in how you encounter things — you don't need to immediately act on what you've assessed, and the holding capacity is real. Where this creates friction: the same structural weight that makes your verdicts reliable makes it harder to move toward things that aren't yet proven. You are well-positioned for durable work. You are less well-positioned for commitments that need to be made before confidence has fully formed."
+     }
+    },
+    {
+     "label": "What you're genuinely good at",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 4
+     },
+     "text": {
+      "default": "Cutting to what's actually true, quickly, without sentimentality — not because you don't care but because accuracy is a form of care for you. Building things that last because you genuinely cannot commit to building things that won't. Being the person whose feedback is the most difficult to hear and the most reliable in the room. The things you build tend to still be in use years later, because you could not have made them any other way.",
+      "flowing": "When expression energy is dominant, the precision creates rather than just evaluates. What you're genuinely good at shifts toward generative output: producing work that carries that same standard into its execution rather than its assessment of others. The evaluative function is still running — now directed inward, at what's being made. The result is work of unusually high internal consistency: precise in execution, not just in judgment. The critique mechanism becomes craft. The edge finds what it was actually for."
+     }
+    },
+    {
+     "label": "Where you consistently get stuck",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5,
+      "concentrated": 5,
+      "open": 3
+     },
+     "text": {
+      "default": "The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.\n\nThe verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system — which is very good at finding reasons why the new information doesn't change anything. You can hold a position longer than the evidence warrants.",
+      "concentrated": "The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.\n\nThe verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system that produced the original conclusion — a system that is very good at finding reasons why the new information doesn't change anything. You can hold a position longer than the evidence warrants, and some part of you knows it.",
+      "open": "The stuck is different in kind. The assessment runs, but verdicts don't close with the same force — positions stay open longer than they should, and the evaluative capacity can circle a question without landing somewhere that holds. Not paralysis: more like a loop that doesn't quite lock. You arrive at something that seems true, find a reason to reconsider, then return to roughly the same place. The care is real; the precision is real. What's missing is the weight that makes the conclusion feel final.",
+      "tested": "The stuck is specific: you know what's right, and the structure wants something else. Not wrong — differently calibrated, optimized for criteria your standard wasn't built around. The temptation is to push the assessment through anyway because it's accurate. The cost is structural: the framework grants standing, and standing determines what gets heard. What holds you back is the gap between maintaining the verdict and operating inside the system that lets you act on it. Most of the time you find a way to manage both. The times you can't are the ones that cost something.",
+      "pure": "The pure configuration produces a specific stuck point: the precision is operational and accurate, but without a dominant directive force, the question of which valid conclusion to act on first doesn't have a built-in answer. Multiple assessments can coexist in equal standing — each accurate, none obviously prioritized. The decision machinery works. The orientational function, which would normally be supplied by a dominant wealth or authority configuration, has to be consciously constructed rather than structurally given. The stuck is subtle: you are not lacking clarity. You may be lacking the frame that tells you which clarity matters most right now.",
+      "rooted": "The structural weight that makes your assessments reliable is the same force that makes revision expensive. A conclusion formed with strong resource backing doesn't revise easily — not because it can't be corrected, but because the same grounding that produced it resists being overturned by anything less than genuinely heavy counter-evidence. The stuck pattern: you identify that something may need to change, the internal evaluation runs, and it runs longer than the situation requires. By the time you've reached full confidence in the revision, the window for acting on it has sometimes closed. The other form: you hold a position past its usefulness not out of stubbornness but out of structural integrity. Same property; different cost."
+     }
+    },
+    {
+     "label": "What changes when conditions are right",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 3,
+      "concentrated": 4
+     },
+     "text": {
+      "default": "The classical principle: raw metal becomes an instrument — shaped for a specific purpose — through contact with fire. The capability was always real. What fire does is specify what the precision is actually for. Without a worthy target, the evaluative apparatus runs on whatever is available. With the right challenge, the precision stops searching and starts producing. The edge was already there. Fire reveals what it was for.",
+      "forging": "When wealth energy is dominant, the directing force is already in place — the precision isn't searching for what to aim at, it has a material target. What shifts is the quality of the direction: conditions are right when the target is genuinely worthy, when the system, resource, or outcome being shaped actually requires the standard. The risk: the directing energy carries the evaluative apparatus on its own momentum, toward outcomes that are achievable but not worthy. The question that matters isn't whether there's a target. It's whether the target deserves the edge."
+     }
+    },
+    {
+     "label": "What you rarely admit",
+     "bands": [
+      "concentrated",
+      "balanced"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 4,
+      "concentrated": 5
+     },
+     "text": {
+      "default": "That you're often less certain than you appear. The conviction is real. The completeness of the assessment is real. But underneath the settled verdict, there is sometimes a quieter question: whether what the precision is currently aimed at actually deserves it.",
+      "concentrated": "That you're often less certain than you appear. The conviction is real. The completeness of the assessment is real. But underneath the settled verdict, there is sometimes a quieter question: whether what the precision is currently aimed at actually deserves it. That question rarely makes it to the surface. It tends to come up at 2 AM."
+     }
+    },
+    {
+     "label": "How you make decisions",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 4,
+      "concentrated": 4,
+      "open": 3
+     },
+     "text": {
+      "default": "Decisions arrive as conclusions. You don't deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn't fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous.",
+      "concentrated": "Decisions arrive as conclusions. You don't deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn't fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous. That's when the evaluative system runs over the same ground twice, then again. You make fast decisions or you make slow, grinding ones. There isn't much in between.",
+      "open": "The structural picture builds, but the resolution hangs. Ambiguity lasts longer; new information reopens what felt settled more easily than it should. This isn't indecision as a character flaw — the evaluative capacity is functioning, just without the finality the concentrated case produces. What helps: external anchors. A deadline. Someone whose judgment you trust. A situation where a decision has to be made and the moment arrives. The conclusion comes when something outside provides the close the internal process didn't.",
+      "tested": "Under authority pressure, a second calculation runs alongside the first: what the institutional context will accept, not just what the assessment says is true. For a mind that produces conclusions, holding both simultaneously creates specific friction — the answer is there; the path to it runs through a framework that doesn't always reach the same place. The decisions that stall longest aren't the complex ones. They're the ones where the answer is clear and the institutional route isn't."
+     }
+    },
+    {
+     "label": "How you show up in relationships",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 4,
+      "concentrated": 4
+     },
+     "text": {
+      "default": "You are more reliable than you are easy. The people who know you well understand that when you give your word, it holds — that your assessment of them is honest even when it's uncomfortable, that your care, once given, is structural and doesn't diminish. What's harder: the relationship that needs reassurance rather than accuracy, warmth rather than honesty, or presence rather than solutions. You deliver real things. Not always the thing that was needed in that specific moment.",
+      "flowing": "When expression energy is dominant, there's more outward movement in the relational texture. The reliability is still there, but it arrives alongside something warmer — a tendency to contribute and express rather than assess and hold position. The precision lands differently: through what's made or shared rather than through direct judgment, which tends to create less friction on entry. The shadow shifts too: the output impulse can overproduce, or push expression in a direction the other person wasn't ready for. The care is more visible. The edge is softer at the start."
+     }
+    },
+    {
+     "label": "What you do with pressure",
+     "bands": [
+      "concentrated",
+      "balanced"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "tested"
+     ],
+     "priority": {
+      "default": 3,
+      "concentrated": 5,
+      "concentrated_pure": 5
+     },
+     "text": {
+      "default": "Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you tend to focus more sharply. The evaluative capacity sharpens. This is the mechanism: fire reveals the edge.",
+      "concentrated": "Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you operate at a different level than ordinary conditions allow. The evaluative capacity sharpens. Focus narrows and deepens simultaneously. This is the mechanism: fire reveals the edge. Without adequate pressure, the precision can turn inward or run on low-stakes targets, producing the same intensity that would serve you under real challenge but creates unnecessary friction where none was required.",
+      "tested": "When authority energy is dominant, pressure changes register. It is no longer generative challenge — it's structural friction that requires its own assessment before it can be used. The evaluative capacity is still running, but part of it is now occupied with the source of the pressure itself. Is this authority genuine? Does the standard behind it hold? Under real institutional standing, the precision sharpens — there's something worthy to cut against, and the edge has a target it can respect. Under authority that doesn't hold up, the same capacity turns resistant. The distinction between those two experiences is one you make quickly and rarely revise."
+     }
+    },
+    {
+     "label": "What holds you back without looking like it",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 4,
+      "concentrated": 5
+     },
+     "text": {
+      "default": "You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system good at spotting confirmation becomes good at producing it. The thing that holds you back isn't doubt. It's certainty applied past its expiration.",
+      "concentrated": "You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system very good at spotting confirmation becomes very good at producing it. This isn't stubbornness as a character flaw. It's structural: the same evaluative rigidity that makes your assessments reliable makes revising them costly. The thing that holds you back isn't doubt. It's certainty applied past its expiration.",
+      "pure": "Without a dominant force specifying what the precision is for, the pure configuration can accumulate something that doesn't look like a problem from outside: technically active, producing accurate reads, operating well — but the precision isn't converging toward anything in particular. The evaluative function runs without a consistent target that builds on itself. This looks like productivity from the outside while something inside registers as drift. What holds you back is not visible failure but the absence of a compounding direction — each assessment accurate in isolation, none building systematically toward something beyond itself. The sharp edge. The unspecified purpose.",
+      "rooted": "The resource backing that stabilizes you also delays you. The structural support makes commitment to unproven paths feel structurally premature — not fearful, just early. And because you are genuinely stable and functional in the current state, the cost of not moving is invisible until it isn't. Opportunities that require early commitment — relationships in their uncertain opening phase, career moves that need to be made before the destination is fully legible, positions that close if you don't act before confidence is established — arrive and pass without you registering them as losses in real time. What holds you back looks like patience from the outside. The recognition of what passed tends to arrive later, when solid is no longer the relevant question."
+     }
+    },
+    {
+     "label": "What activates the best version of this",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 4,
+      "concentrated": 4,
+      "tested": 4,
+      "forging": 4
+     },
+     "text": {
+      "default": "Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for.",
+      "concentrated": "Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. A person capable of meeting the assessment directly without deflecting or collapsing under it. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for. The question that recurs, quietly: is what I'm currently aimed at actually worthy of this?",
+      "tested": "Recognition from something that actually has standing. Not flattery — an encounter with a structure or person that represents a real standard, one capable of assessing the precision and finding it accurate rather than merely efficient. The specific activation: a problem given by someone whose judgment is real, inside a framework where meeting it means something beyond performance. What turns on is the recognition that the standard being applied from outside and the standard running inside are, for once, pointing in the same direction. That alignment is rarer than it should be. When it arrives, the version of you that operates inside it is the clearest version.",
+      "forging": "Material worthy of being shaped. Not just achievable or profitable — genuinely worthy: a system, resource, or situation where the precision has something real to define, improve, or build toward. The specific activation under forging energy: finding that the directing force and the internal standard are aimed at the same thing. When the material is real and the direction is worthy, the output carries a mark that persists. What to watch: the forging pattern can produce the feeling of activation — directed output, visible progress — without the material actually warranting the precision. That version is productive but hollow."
+     }
+    },
+    {
+     "label": "The image and the interior",
+     "bands": [
+      "concentrated",
+      "balanced"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 3,
+      "concentrated": 5,
+      "concentrated_pure": 5
+     },
+     "text": {
+      "default": "What the room sees: precision and an edge that doesn't easily bend. What is underneath: a softer interior than the presence suggests, running a question the assessment doesn't fully answer — whether the verdict holds, whether the standard is being aimed at the right things. The certainty is partly real and partly structural. Most people close to you eventually sense this.",
+      "concentrated": "What the room sees: precision, certainty, an edge that doesn't bend. What is actually underneath: a much softer interior than anyone in the room would guess, running a question that the assessment never quite answers — whether what you've built is actually right, whether the verdict holds, whether the standard is being applied to the right things. The blade in the tongue is protecting something. The certainty is partly real and partly structural armor. You know this. Most people close to you eventually sense it. The gap between the version of you that the room experiences and the version that exists at 2 AM is larger than most people realize."
+     }
+    }
+   ],
+   "retired_band_pools": {
+    "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
     "gifts": [
-      {
-        "phrase": "Never looks tired",
-        "dim": "running low",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "金_金.function.definition_catalyst",
-        "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
-      },
-      {
-        "phrase": "Finishes properly",
-        "dim": "at work",
-        "door": "body",
-        "face": "wide",
-        "echo_of": "金_金.function.definition_catalyst",
-        "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
-      },
-      {
-        "phrase": "First-handshake read",
-        "dim": "first impressions",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "金_土.function.definition_catalyst",
-        "desc": "Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake."
-      },
-      {
-        "phrase": "Practices alone",
-        "dim": "practice",
-        "door": "mind",
-        "face": "wide",
-        "echo_of": "金_土.carry.wide",
-        "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
-      },
-      {
-        "phrase": "No dressed-up answers",
-        "dim": "communication",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "金_水.function.definition_catalyst",
-        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
-      },
-      {
-        "phrase": "Plays the long game",
-        "dim": "trimming a plan",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "金_木.function.definition_catalyst",
-        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
-      },
-      {
-        "phrase": "Crisis performer",
-        "dim": "under pressure",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "金_火.function.definition_catalyst",
-        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
-      }
+     {
+      "phrase": "Instant character read",
+      "dim": "first impressions",
+      "desc": "Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Straight talker",
+      "dim": "communication",
+      "desc": "When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Crisis performer",
+      "dim": "under pressure",
+      "desc": "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Quiet loyalty",
+      "dim": "close bonds",
+      "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
+      "bands": [
+       "balanced",
+       "open"
+      ]
+     },
+     {
+      "phrase": "Careful finisher",
+      "dim": "at work",
+      "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.",
+      "bands": [
+       "open"
+      ]
+     }
     ],
     "shadows": [
-      {
-        "phrase": "Tense all over",
-        "dim": "unspent discipline",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "金_金.function.definition_friction",
-        "desc": "Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak."
-      },
-      {
-        "phrase": "Never reconsiders",
-        "dim": "second chances",
-        "door": "body",
-        "face": "excess",
-        "echo_of": "金_金.carry.excess",
-        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
-      },
-      {
-        "phrase": "Lives inside plans",
-        "dim": "testing the plan",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "金_土.function.definition_friction",
-        "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
-      },
-      {
-        "phrase": "Overprepared",
-        "dim": "showing the work",
-        "door": "mind",
-        "face": "excess",
-        "echo_of": "金_土.carry.excess",
-        "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
-      },
-      {
-        "phrase": "No filter",
-        "dim": "saying too much",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "金_水.function.definition_friction",
-        "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
-      },
-      {
-        "phrase": "Spins its wheels",
-        "dim": "trimming",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "金_木.function.definition_friction",
-        "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
-      },
-      {
-        "phrase": "Own harshest critic",
-        "dim": "self-worth",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "金_火.function.definition_friction",
-        "desc": "Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days."
-      }
-    ],
-    "door_note": {
-      "body": "Metal",
-      "mind": "Earth",
-      "expression": "Water",
-      "action": "Wood",
-      "order": "Fire"
-    },
-    "yourNature_desc": "You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.",
-    "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
-    "who": "You are the Blade, the Metal that has already been through fire. You are kept plain and kept sharp, and you come out only for the true thing.",
-    "energy_faces": {
-      "body": {
-        "catalyst": {
-          "adj": [
-            "Steady",
-            "Self-reliant",
-            "Sure"
-          ],
-          "p": "When your own Metal runs low, more of it steadies you. You stand on your own judgment again, finish what you start, and stop asking permission to be exact. The edge you carry becomes something to lean on as well as something to use."
-        },
-        "friction": {
-          "adj": [
-            "Rigid",
-            "Closed",
-            "Unyielding"
-          ],
-          "p": "With more Metal than you need, the edge turns inward. You decide once and stop listening, and people learn to bring you only finished answers. Releasing some of it lets a second opinion reach you before the cut is made."
-        }
-      },
-      "mind": {
-        "catalyst": {
-          "adj": [
-            "Patient",
-            "Grounded",
-            "Prepared"
-          ],
-          "p": "Earth is what feeds your edge: study, rest, and the people who back you. With more of it you think before you cut, and your judgment arrives with its reasons attached. People trust the call because they can see what went into it."
-        },
-        "friction": {
-          "adj": [
-            "Hesitant",
-            "Heavy",
-            "Guarded"
-          ],
-          "p": "Fed past use, the Blade stays in its sheath. You gather one more fact and one more opinion, and the moment to act passes while you prepare for it. Releasing some of the preparation lets the edge come out while it still matters."
-        }
-      },
-      "expression": {
-        "catalyst": {
-          "adj": [
-            "Clear",
-            "Candid",
-            "Fluent"
-          ],
-          "p": "Water is where your sharpness goes out into the world: words, work, the things you make. With more of it your honesty finds a form people can take in. You say the hard thing once, plainly, and it lands as help."
-        },
-        "friction": {
-          "adj": [
-            "Blunt",
-            "Cutting",
-            "Unfiltered"
-          ],
-          "p": "When too much runs out through Water, the honesty arrives faster than the care. You say the true thing and the wound comes with it. Releasing some of that flow gives you a beat to choose which truths need saying today."
-        }
-      },
-      "action": {
-        "catalyst": {
-          "adj": [
-            "Productive",
-            "Focused",
-            "Unrelenting"
-          ],
-          "p": "Wood is what you cut and shape: work, money, plans with a deadline. With more of it your edge has something real to do. You trim what will not grow and keep cutting until the result holds its shape."
-        },
-        "friction": {
-          "adj": [
-            "Harsh",
-            "Restless",
-            "Overworked"
-          ],
-          "p": "With too much to cut, the Blade rarely rests. You take on every job that needs an edge and trim people as hard as plans. Releasing some of the load keeps you sharp for the work that counts."
-        }
-      },
-      "order": {
-        "catalyst": {
-          "adj": [
-            "Tempered",
-            "Composed",
-            "Accountable"
-          ],
-          "p": "Fire is the forge that shapes you: pressure, standards, the people you answer to. With more of it you become the Blade you were made to be. Under a real test you get calmer, and the edge you come out with is the one people remember."
-        },
-        "friction": {
-          "adj": [
-            "Pressed",
-            "Anxious",
-            "Self-critical"
-          ],
-          "p": "Under too much Fire the forge stays hot. Every rule feels urgent and every mistake feels final, and the harshest voice you hear is your own. Releasing some of the pressure lets you cool enough to hold your shape."
-        }
-      }
-    },
-    "__ore": {
-      "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
-      "subtitle": "Evaluation runs before engagement begins · The Definition Impulse (Yang)",
-      "chips": [
-        "Evaluative",
-        "Uncompromising",
-        "Precision-first",
-        "Self-sufficient",
-        "Justice-oriented"
-      ],
-      "yourNature_phrase": "The Imperial Executioner",
-      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
-      "elementIntro": {
-        "punch": "The Blade is the ancient cutting force of Metal.",
-        "expand": "Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided."
-      },
-      "manual": {
-        "concentrated": "The evaluating and cutting force is relentless. Everything gets assessed; everything gets cut to shape. Highly productive for those who benefit from defined edges and clear decisions. Damaging for those who needed more time or more flexibility — the cutting happens regardless of readiness. Classical texts warn 金旺伤木 (strong Metal injures Wood) — when Metal is excessive, it cuts down what was still growing, including what should have been given more time. The danger is cutting too early, deciding too harshly, and removing things that needed more development before they were ready to be shaped.",
-        "open": "The ability to make definitive decisions, set clear limits, and close what is finished becomes genuinely harder. Things that are complete don't get properly ended. Ambiguity lingers past the point where it serves anyone. Relationships and projects that should close continue because there is no cutting force available to bring them to a clean conclusion. The environment feels gentler but more cluttered — less decisive, more unresolved, more drained by the energy required to maintain what should have ended.",
-        "catalyst": "Activate it by making the decision you have been deferring. This energy specifically rewards categorical commitment: the contract signed, the option closed, the position stated clearly, the boundary set. Don't hedge — the productive use of this energy is definitiveness. One clear decision is worth ten careful ones that stay provisional. Outcome: clarity replaces ambiguity and frees up the energy that was being spent maintaining the unresolved situation. What was clouded becomes specific. Direction becomes actionable.",
-        "resistance": "When 庚 energy is creating friction — the cutting force is removing what the chart needed to preserve, or pressing on growth energy in a way that damages rather than shapes it. The corrective is to redirect the precision toward what is actually finished rather than what is merely inconvenient or imperfect. Use the Fire quality (clarity of purpose, warmth of direction) to identify what the precision is actually for — so the blade knows what to spare. Outcome: the force becomes surgical rather than indiscriminate, and what was damaging becomes defining."
-      },
-      "energy": null,
-      "psych": null,
-      "archetypes": null,
-      "blocks": [
-        {
-          "label": "How you experience the world",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5,
-            "concentrated": 5
-          },
-          "text": {
-            "default": "You evaluate before you engage. The assessment starts when you enter a room — not as a decision you make but as a process that has already begun. You know what holds up and what doesn't before the conversation has fully started. Others feel this in your presence even when nothing has been said. This is not coldness. It's what it looks like when the first cognitive event is precision rather than warmth.",
-            "concentrated": "You evaluate before you engage. The assessment starts the moment you walk into a room — not as a decision you make but as a process that has already begun before you've chosen to begin it. You know what's real and what isn't, what holds up and what doesn't, before the conversation has fully started. Others feel assessed in your presence even when nothing has been said and nothing was intended. This is not coldness. It's what it looks like when the first cognitive event is precision rather than warmth.",
-            "open": "The evaluation is present, but it doesn't lead. You enter a room and something observes — notes what holds and what doesn't — but that observation doesn't arrive as a completed assessment before engagement has begun. The evaluative quality exists as an undercurrent rather than a first fact. What's different: you can be more present to what's actually in the room before the read closes. The precision functions; it just no longer runs ahead of everything else. The world arrives before the verdict does.",
-            "tested": "The world evaluates back. That's the specific texture when authority energy is dominant: the precision runs as it always does, but now something is running a read on you at the same time. An institutional lens — an external standard — operates in parallel with your own. If the external standard is genuine, this sharpens rather than compresses: there's something real to measure against. If it isn't, you know before the conversation has properly started. What changes is that the assessment is no longer one-directional. You are inside a system that is also assessing you, and that fact is part of what you're evaluating.",
-            "pure": "No dominant Ten God is shaping the deployment of this energy. The evaluative capacity runs as its essential self — not directed outward by a wealth configuration, not grounded by a dominant resource pull, not filtered through a relational or authority register. What arrives is precision without a predetermined channel. The world is a set of things to be assessed, and the question of what to do with those assessments is genuinely more open than it is for configurations where a dominant force has already specified the answer. This is not a weakness. It is the unconstrained form: the precision is free to find the target that actually deserves it, rather than the one a dominant configuration has already selected.",
-            "rooted": "Resource energy supporting the Metal means the evaluation doesn't arrive alone — it arrives backed. Assessments form slower here and land harder once they do: the structural support that generates stability also generates weight. The world arrives not just as something to be cut but as something to be understood at depth, relative to what persists. There is a groundedness in how you encounter things — you don't need to immediately act on what you've assessed, and the holding capacity is real. Where this creates friction: the same structural weight that makes your verdicts reliable makes it harder to move toward things that aren't yet proven. You are well-positioned for durable work. You are less well-positioned for commitments that need to be made before confidence has fully formed."
-          }
-        },
-        {
-          "label": "What you're genuinely good at",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 4
-          },
-          "text": {
-            "default": "Cutting to what's actually true, quickly, without sentimentality — not because you don't care but because accuracy is a form of care for you. Building things that last because you genuinely cannot commit to building things that won't. Being the person whose feedback is the most difficult to hear and the most reliable in the room. The things you build tend to still be in use years later, because you could not have made them any other way.",
-            "flowing": "When expression energy is dominant, the precision creates rather than just evaluates. What you're genuinely good at shifts toward generative output: producing work that carries that same standard into its execution rather than its assessment of others. The evaluative function is still running — now directed inward, at what's being made. The result is work of unusually high internal consistency: precise in execution, not just in judgment. The critique mechanism becomes craft. The edge finds what it was actually for."
-          }
-        },
-        {
-          "label": "Where you consistently get stuck",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5,
-            "concentrated": 5,
-            "open": 3
-          },
-          "text": {
-            "default": "The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.\n\nThe verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system — which is very good at finding reasons why the new information doesn't change anything. You can hold a position longer than the evidence warrants.",
-            "concentrated": "The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.\n\nThe verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system that produced the original conclusion — a system that is very good at finding reasons why the new information doesn't change anything. You can hold a position longer than the evidence warrants, and some part of you knows it.",
-            "open": "The stuck is different in kind. The assessment runs, but verdicts don't close with the same force — positions stay open longer than they should, and the evaluative capacity can circle a question without landing somewhere that holds. Not paralysis: more like a loop that doesn't quite lock. You arrive at something that seems true, find a reason to reconsider, then return to roughly the same place. The care is real; the precision is real. What's missing is the weight that makes the conclusion feel final.",
-            "tested": "The stuck is specific: you know what's right, and the structure wants something else. Not wrong — differently calibrated, optimized for criteria your standard wasn't built around. The temptation is to push the assessment through anyway because it's accurate. The cost is structural: the framework grants standing, and standing determines what gets heard. What holds you back is the gap between maintaining the verdict and operating inside the system that lets you act on it. Most of the time you find a way to manage both. The times you can't are the ones that cost something.",
-            "pure": "The pure configuration produces a specific stuck point: the precision is operational and accurate, but without a dominant directive force, the question of which valid conclusion to act on first doesn't have a built-in answer. Multiple assessments can coexist in equal standing — each accurate, none obviously prioritized. The decision machinery works. The orientational function, which would normally be supplied by a dominant wealth or authority configuration, has to be consciously constructed rather than structurally given. The stuck is subtle: you are not lacking clarity. You may be lacking the frame that tells you which clarity matters most right now.",
-            "rooted": "The structural weight that makes your assessments reliable is the same force that makes revision expensive. A conclusion formed with strong resource backing doesn't revise easily — not because it can't be corrected, but because the same grounding that produced it resists being overturned by anything less than genuinely heavy counter-evidence. The stuck pattern: you identify that something may need to change, the internal evaluation runs, and it runs longer than the situation requires. By the time you've reached full confidence in the revision, the window for acting on it has sometimes closed. The other form: you hold a position past its usefulness not out of stubbornness but out of structural integrity. Same property; different cost."
-          }
-        },
-        {
-          "label": "What changes when conditions are right",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 3,
-            "concentrated": 4
-          },
-          "text": {
-            "default": "The classical principle: raw metal becomes an instrument — shaped for a specific purpose — through contact with fire. The capability was always real. What fire does is specify what the precision is actually for. Without a worthy target, the evaluative apparatus runs on whatever is available. With the right challenge, the precision stops searching and starts producing. The edge was already there. Fire reveals what it was for.",
-            "forging": "When wealth energy is dominant, the directing force is already in place — the precision isn't searching for what to aim at, it has a material target. What shifts is the quality of the direction: conditions are right when the target is genuinely worthy, when the system, resource, or outcome being shaped actually requires the standard. The risk: the directing energy carries the evaluative apparatus on its own momentum, toward outcomes that are achievable but not worthy. The question that matters isn't whether there's a target. It's whether the target deserves the edge."
-          }
-        },
-        {
-          "label": "What you rarely admit",
-          "bands": [
-            "concentrated",
-            "balanced"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 4,
-            "concentrated": 5
-          },
-          "text": {
-            "default": "That you're often less certain than you appear. The conviction is real. The completeness of the assessment is real. But underneath the settled verdict, there is sometimes a quieter question: whether what the precision is currently aimed at actually deserves it.",
-            "concentrated": "That you're often less certain than you appear. The conviction is real. The completeness of the assessment is real. But underneath the settled verdict, there is sometimes a quieter question: whether what the precision is currently aimed at actually deserves it. That question rarely makes it to the surface. It tends to come up at 2 AM."
-          }
-        },
-        {
-          "label": "How you make decisions",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 4,
-            "concentrated": 4,
-            "open": 3
-          },
-          "text": {
-            "default": "Decisions arrive as conclusions. You don't deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn't fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous.",
-            "concentrated": "Decisions arrive as conclusions. You don't deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn't fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous. That's when the evaluative system runs over the same ground twice, then again. You make fast decisions or you make slow, grinding ones. There isn't much in between.",
-            "open": "The structural picture builds, but the resolution hangs. Ambiguity lasts longer; new information reopens what felt settled more easily than it should. This isn't indecision as a character flaw — the evaluative capacity is functioning, just without the finality the concentrated case produces. What helps: external anchors. A deadline. Someone whose judgment you trust. A situation where a decision has to be made and the moment arrives. The conclusion comes when something outside provides the close the internal process didn't.",
-            "tested": "Under authority pressure, a second calculation runs alongside the first: what the institutional context will accept, not just what the assessment says is true. For a mind that produces conclusions, holding both simultaneously creates specific friction — the answer is there; the path to it runs through a framework that doesn't always reach the same place. The decisions that stall longest aren't the complex ones. They're the ones where the answer is clear and the institutional route isn't."
-          }
-        },
-        {
-          "label": "How you show up in relationships",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 4,
-            "concentrated": 4
-          },
-          "text": {
-            "default": "You are more reliable than you are easy. The people who know you well understand that when you give your word, it holds — that your assessment of them is honest even when it's uncomfortable, that your care, once given, is structural and doesn't diminish. What's harder: the relationship that needs reassurance rather than accuracy, warmth rather than honesty, or presence rather than solutions. You deliver real things. Not always the thing that was needed in that specific moment.",
-            "flowing": "When expression energy is dominant, there's more outward movement in the relational texture. The reliability is still there, but it arrives alongside something warmer — a tendency to contribute and express rather than assess and hold position. The precision lands differently: through what's made or shared rather than through direct judgment, which tends to create less friction on entry. The shadow shifts too: the output impulse can overproduce, or push expression in a direction the other person wasn't ready for. The care is more visible. The edge is softer at the start."
-          }
-        },
-        {
-          "label": "What you do with pressure",
-          "bands": [
-            "concentrated",
-            "balanced"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "tested"
-          ],
-          "priority": {
-            "default": 3,
-            "concentrated": 5,
-            "concentrated_pure": 5
-          },
-          "text": {
-            "default": "Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you tend to focus more sharply. The evaluative capacity sharpens. This is the mechanism: fire reveals the edge.",
-            "concentrated": "Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you operate at a different level than ordinary conditions allow. The evaluative capacity sharpens. Focus narrows and deepens simultaneously. This is the mechanism: fire reveals the edge. Without adequate pressure, the precision can turn inward or run on low-stakes targets, producing the same intensity that would serve you under real challenge but creates unnecessary friction where none was required.",
-            "tested": "When authority energy is dominant, pressure changes register. It is no longer generative challenge — it's structural friction that requires its own assessment before it can be used. The evaluative capacity is still running, but part of it is now occupied with the source of the pressure itself. Is this authority genuine? Does the standard behind it hold? Under real institutional standing, the precision sharpens — there's something worthy to cut against, and the edge has a target it can respect. Under authority that doesn't hold up, the same capacity turns resistant. The distinction between those two experiences is one you make quickly and rarely revise."
-          }
-        },
-        {
-          "label": "What holds you back without looking like it",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 4,
-            "concentrated": 5
-          },
-          "text": {
-            "default": "You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system good at spotting confirmation becomes good at producing it. The thing that holds you back isn't doubt. It's certainty applied past its expiration.",
-            "concentrated": "You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system very good at spotting confirmation becomes very good at producing it. This isn't stubbornness as a character flaw. It's structural: the same evaluative rigidity that makes your assessments reliable makes revising them costly. The thing that holds you back isn't doubt. It's certainty applied past its expiration.",
-            "pure": "Without a dominant force specifying what the precision is for, the pure configuration can accumulate something that doesn't look like a problem from outside: technically active, producing accurate reads, operating well — but the precision isn't converging toward anything in particular. The evaluative function runs without a consistent target that builds on itself. This looks like productivity from the outside while something inside registers as drift. What holds you back is not visible failure but the absence of a compounding direction — each assessment accurate in isolation, none building systematically toward something beyond itself. The sharp edge. The unspecified purpose.",
-            "rooted": "The resource backing that stabilizes you also delays you. The structural support makes commitment to unproven paths feel structurally premature — not fearful, just early. And because you are genuinely stable and functional in the current state, the cost of not moving is invisible until it isn't. Opportunities that require early commitment — relationships in their uncertain opening phase, career moves that need to be made before the destination is fully legible, positions that close if you don't act before confidence is established — arrive and pass without you registering them as losses in real time. What holds you back looks like patience from the outside. The recognition of what passed tends to arrive later, when solid is no longer the relevant question."
-          }
-        },
-        {
-          "label": "What activates the best version of this",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 4,
-            "concentrated": 4,
-            "tested": 4,
-            "forging": 4
-          },
-          "text": {
-            "default": "Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for.",
-            "concentrated": "Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. A person capable of meeting the assessment directly without deflecting or collapsing under it. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for. The question that recurs, quietly: is what I'm currently aimed at actually worthy of this?",
-            "tested": "Recognition from something that actually has standing. Not flattery — an encounter with a structure or person that represents a real standard, one capable of assessing the precision and finding it accurate rather than merely efficient. The specific activation: a problem given by someone whose judgment is real, inside a framework where meeting it means something beyond performance. What turns on is the recognition that the standard being applied from outside and the standard running inside are, for once, pointing in the same direction. That alignment is rarer than it should be. When it arrives, the version of you that operates inside it is the clearest version.",
-            "forging": "Material worthy of being shaped. Not just achievable or profitable — genuinely worthy: a system, resource, or situation where the precision has something real to define, improve, or build toward. The specific activation under forging energy: finding that the directing force and the internal standard are aimed at the same thing. When the material is real and the direction is worthy, the output carries a mark that persists. What to watch: the forging pattern can produce the feeling of activation — directed output, visible progress — without the material actually warranting the precision. That version is productive but hollow."
-          }
-        },
-        {
-          "label": "The image and the interior",
-          "bands": [
-            "concentrated",
-            "balanced"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 3,
-            "concentrated": 5,
-            "concentrated_pure": 5
-          },
-          "text": {
-            "default": "What the room sees: precision and an edge that doesn't easily bend. What is underneath: a softer interior than the presence suggests, running a question the assessment doesn't fully answer — whether the verdict holds, whether the standard is being aimed at the right things. The certainty is partly real and partly structural. Most people close to you eventually sense this.",
-            "concentrated": "What the room sees: precision, certainty, an edge that doesn't bend. What is actually underneath: a much softer interior than anyone in the room would guess, running a question that the assessment never quite answers — whether what you've built is actually right, whether the verdict holds, whether the standard is being applied to the right things. The blade in the tongue is protecting something. The certainty is partly real and partly structural armor. You know this. Most people close to you eventually sense it. The gap between the version of you that the room experiences and the version that exists at 2 AM is larger than most people realize."
-          }
-        }
-      ],
-      "retired_band_pools": {
-        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
-        "gifts": [
-          {
-            "phrase": "Instant character read",
-            "dim": "first impressions",
-            "desc": "Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Straight talker",
-            "dim": "communication",
-            "desc": "When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Crisis performer",
-            "dim": "under pressure",
-            "desc": "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Quiet loyalty",
-            "dim": "close bonds",
-            "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
-          },
-          {
-            "phrase": "Careful finisher",
-            "dim": "at work",
-            "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.",
-            "bands": [
-              "open"
-            ]
-          }
-        ],
-        "shadows": [
-          {
-            "phrase": "Own harshest critic",
-            "dim": "self-worth",
-            "desc": "The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Mistaken for cold",
-            "dim": "how others read you",
-            "desc": "New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Right too early",
-            "dim": "the long view",
-            "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Quick to conclude",
-            "dim": "second chances",
-            "desc": "Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Endless second-guessing",
-            "dim": "decision-making",
-            "desc": "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.",
-            "bands": [
-              "open"
-            ]
-          }
-        ]
-      },
-      "retired_thin_self_items": [
-        {
-          "pool": "shadows",
-          "phrase": "Endless second-guessing",
-          "dim": "decision-making",
-          "desc": "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.",
-          "bands": [
-            "open"
-          ],
-          "why": "thin-Body item; no shadow face for a catalyst"
-        }
-      ],
-      "retired_derivation_law_2026-09-16": [
-        {
-          "phrase": "Quiet loyalty",
-          "dim": "close bonds",
-          "door": "body",
-          "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
-          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Clears dead weight",
-          "dim": "trimming a plan",
-          "door": "action",
-          "desc": "Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort.",
-          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Edge before warmth",
-          "dim": "first meetings",
-          "door": "body",
-          "desc": "The read happens before the smile does. New people meet the edge first, and some never wait around for the rest.",
-          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Right too early",
-          "dim": "the long view",
-          "door": "mind",
-          "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.",
-          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Overshoots the point",
-          "dim": "saying too much",
-          "door": "expression",
-          "desc": "The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first.",
-          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Cuts too deep",
-          "dim": "trimming",
-          "door": "action",
-          "desc": "Asked to trim, you take it to the frame. The part that was working goes out with the part that was not.",
-          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
-        }
-      ],
-      "retired_2026-09-21_cold_read": {
-        "gifts.Careful finisher": {
-          "phrase": "Careful finisher",
-          "dim": "at work",
-          "door": "body",
-          "face": "wide",
-          "echo_of": "金_金.function.definition_catalyst",
-          "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
-        },
-        "gifts.Trims for growth": {
-          "phrase": "Trims for growth",
-          "dim": "trimming a plan",
-          "door": "action",
-          "face": "echo",
-          "echo_of": "金_木.function.definition_catalyst",
-          "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
-        },
-        "shadows.Plans, never acts": {
-          "phrase": "Plans, never acts",
-          "dim": "showing the work",
-          "door": "mind",
-          "face": "excess",
-          "echo_of": "金_土.carry.excess",
-          "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
-        },
-        "shadows.Busy, nothing finished": {
-          "phrase": "Busy, nothing finished",
-          "dim": "trimming",
-          "door": "action",
-          "face": "echo",
-          "echo_of": "金_木.function.definition_friction",
-          "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
-        }
-      },
-      "retired_2026-10-17_diagnosis": {
-        "status": "REVIVED 2026-10-27",
-        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
-      },
-      "retired_2026-10-27_manifesto_l1": "Precision before intention"
+     {
+      "phrase": "Own harshest critic",
+      "dim": "self-worth",
+      "desc": "The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Mistaken for cold",
+      "dim": "how others read you",
+      "desc": "New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Right too early",
+      "dim": "the long view",
+      "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Quick to conclude",
+      "dim": "second chances",
+      "desc": "Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Endless second-guessing",
+      "dim": "decision-making",
+      "desc": "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.",
+      "bands": [
+       "open"
+      ]
+     }
+    ]
+   },
+   "retired_thin_self_items": [
+    {
+     "pool": "shadows",
+     "phrase": "Endless second-guessing",
+     "dim": "decision-making",
+     "desc": "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.",
+     "bands": [
+      "open"
+     ],
+     "why": "thin-Body item; no shadow face for a catalyst"
     }
-  },
-  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (the carry law applied to the pools). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
-  "field_status": {
-    "who": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule",
-    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
-    "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M庚 A): two or three plain adjectives, replacing \"Precision before intention\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
-    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
-    "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "energy_faces": "DRAFT 2026-10-27 · the 庚 template (owner W1–W3 A: function title, three chips, paragraph), cells T Body…T Order to rule"
+   ],
+   "retired_derivation_law_2026-09-16": [
+    {
+     "phrase": "Quiet loyalty",
+     "dim": "close bonds",
+     "door": "body",
+     "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
+     "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Clears dead weight",
+     "dim": "trimming a plan",
+     "door": "action",
+     "desc": "Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort.",
+     "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Edge before warmth",
+     "dim": "first meetings",
+     "door": "body",
+     "desc": "The read happens before the smile does. New people meet the edge first, and some never wait around for the rest.",
+     "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Right too early",
+     "dim": "the long view",
+     "door": "mind",
+     "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.",
+     "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Overshoots the point",
+     "dim": "saying too much",
+     "door": "expression",
+     "desc": "The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first.",
+     "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Cuts too deep",
+     "dim": "trimming",
+     "door": "action",
+     "desc": "Asked to trim, you take it to the frame. The part that was working goes out with the part that was not.",
+     "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+    }
+   ],
+   "retired_2026-09-21_cold_read": {
+    "gifts.Careful finisher": {
+     "phrase": "Careful finisher",
+     "dim": "at work",
+     "door": "body",
+     "face": "wide",
+     "echo_of": "金_金.function.definition_catalyst",
+     "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
+    },
+    "gifts.Trims for growth": {
+     "phrase": "Trims for growth",
+     "dim": "trimming a plan",
+     "door": "action",
+     "face": "echo",
+     "echo_of": "金_木.function.definition_catalyst",
+     "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+    },
+    "shadows.Plans, never acts": {
+     "phrase": "Plans, never acts",
+     "dim": "showing the work",
+     "door": "mind",
+     "face": "excess",
+     "echo_of": "金_土.carry.excess",
+     "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+    },
+    "shadows.Busy, nothing finished": {
+     "phrase": "Busy, nothing finished",
+     "dim": "trimming",
+     "door": "action",
+     "face": "echo",
+     "echo_of": "金_木.function.definition_friction",
+     "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
+    }
+   },
+   "retired_2026-10-17_diagnosis": {
+    "status": "REVIVED 2026-10-27",
+    "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
+   },
+   "retired_2026-10-27_manifesto_l1": "Precision before intention"
   }
+ },
+ "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (the carry law applied to the pools). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
+ "field_status": {
+  "who": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule",
+  "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
+  "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M庚 A): two or three plain adjectives, replacing \"Precision before intention\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
+  "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
+  "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "energy_faces": "DRAFT 2026-10-27 · the 庚 template (owner W1–W3 A: function title, three chips, paragraph), cells T Body…T Order to rule",
+  "ladder": "RULED 2026-11-13 (owner P-庚 A; the Blade from V0–V9 A): the revelation's stem lines on the explanation ladder"
+ }
 }

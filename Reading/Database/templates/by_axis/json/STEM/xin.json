@@ -1,481 +1,490 @@
 {
-  "$archetype": "xin",
-  "axis": "STEM",
-  "key": "辛",
-  "canonical_name": "The Jewel",
-  "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
-  "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
-  "sources": [
-    "Elementum_App/src/content/archetypeSource.js",
-    "src/content/reading/readingContent.js (DM_READING)",
-    "buildIdentity"
+ "$archetype": "xin",
+ "axis": "STEM",
+ "key": "辛",
+ "canonical_name": "The Jewel",
+ "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
+ "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
+ "sources": [
+  "Elementum_App/src/content/archetypeSource.js",
+  "src/content/reading/readingContent.js (DM_READING)",
+  "buildIdentity"
+ ],
+ "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
+ "candidates": {
+  "archetype_name": "The Jewel",
+  "manifesto": "Precise, polished, exacting · You are the Metal that refines until nothing extra remains.",
+  "inscription": "You hold your work to a standard nobody set, and it never says finished.",
+  "stem_keywords": [
+   "Refined",
+   "Discerning",
+   "Exacting"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
-  "candidates": {
-    "archetype_name": "The Jewel",
-    "manifesto": "Precise, polished, exacting · You are the Metal that refines until nothing extra remains.",
-    "inscription": "You hold your work to a standard nobody set, and it never says finished.",
-    "stem_keywords": [
-      "Refined",
-      "Discerning",
-      "Exacting"
-    ],
-    "pinyin_display": "XĪN · YIN METAL",
-    "dm_claims": [
-      "You notice the flaw everyone else has agreed to overlook.",
-      "Precision is how you show care, even when it reads as cool."
-    ],
-    "dm_mechanism": "Yin Metal refined under pressure, an edge made keen by polishing, not by force.",
+  "pinyin_display": "XĪN · YIN METAL",
+  "dm_claims": [
+   "You notice the flaw everyone else has agreed to overlook.",
+   "Precision is how you show care, even when it reads as cool."
+  ],
+  "dm_mechanism": "Yin Metal refined under pressure, an edge made keen by polishing, not by force.",
+  "gifts": [
+   {
+    "phrase": "Steady under strain",
+    "dim": "being handled",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "金_金.function.definition_catalyst",
+    "desc": "Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late."
+   },
+   {
+    "phrase": "Polished by default",
+    "dim": "finishing",
+    "door": "body",
+    "face": "wide",
+    "echo_of": "金_金.function.definition_catalyst",
+    "desc": "Plenty of the material and all of it finished. Even the things nobody will see leave your hands done properly."
+   },
+   {
+    "phrase": "Impeccable taste",
+    "dim": "quality",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "金_土.function.definition_catalyst",
+    "desc": "Years of quiet looking went in first. Now you know the good one from the almost-good one at a glance, and friends borrow your eye before they buy."
+   },
+   {
+    "phrase": "Spots the crack",
+    "dim": "early warnings",
+    "door": "mind",
+    "face": "wide",
+    "echo_of": "金_土.carry.wide",
+    "desc": "With this much ground under the stone, you saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait."
+   },
+   {
+    "phrase": "Understated excellence",
+    "dim": "self-presentation",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "金_水.function.definition_catalyst",
+    "desc": "What is inside moves outward without forcing. You do not advertise, compete, or explain. The work speaks quietly, and the people who know, know."
+   },
+   {
+    "phrase": "Prices it right",
+    "dim": "placing value",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "金_木.function.definition_catalyst",
+    "desc": "You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it."
+   },
+   {
+    "phrase": "Built to last",
+    "dim": "at work",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "金_火.function.definition_catalyst",
+    "desc": "Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection."
+   }
+  ],
+  "shadows": [
+   {
+    "phrase": "Polishes forever",
+    "dim": "deadlines",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "金_金.function.definition_friction",
+    "desc": "Discipline with no outlet turns on the work. The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive."
+   },
+   {
+    "phrase": "Trusts one judge",
+    "dim": "taking advice",
+    "door": "body",
+    "face": "excess",
+    "echo_of": "金_金.carry.excess",
+    "desc": "So much certainty it cuts everything the same way. The only opinion that counts on your work is yours, and it has never once been satisfied."
+   },
+   {
+    "phrase": "Never stops preparing",
+    "dim": "preparation",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "金_土.function.definition_friction",
+    "desc": "One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work."
+   },
+   {
+    "phrase": "Buried talent",
+    "dim": "being sheltered",
+    "door": "mind",
+    "face": "excess",
+    "echo_of": "金_土.carry_yin.excess",
+    "desc": "Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box."
+   },
+   {
+    "phrase": "Sharp tongue",
+    "dim": "small remarks",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "金_水.function.definition_friction",
+    "desc": "Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
+   },
+   {
+    "phrase": "Hoarder of starts",
+    "dim": "acquiring",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "金_木.function.definition_friction",
+    "desc": "Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished."
+   },
+   {
+    "phrase": "Hardest on itself",
+    "dim": "being judged",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "金_火.function.definition_friction",
+    "desc": "Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you."
+   }
+  ],
+  "door_note": {
+   "body": "Metal",
+   "mind": "Earth",
+   "expression": "Water",
+   "action": "Wood",
+   "order": "Fire"
+  },
+  "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
+  "dm_overview": "The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.",
+  "who": null,
+  "energy_faces": null,
+  "ladder": {
+   "element_line": "Yin Metal, the cut stone that holds the light.",
+   "recognition": "You know good from almost good at a glance.",
+   "as_line": "As a Jewel, you are that finish in a person.",
+   "behaviour": "You go back to fix a detail most people would not see.",
+   "contrast": "People see someone polished and composed. Inside, you are still finding what isn't quite right.",
+   "self_nature": "Metal is your own element: the cut stone itself."
+  },
+  "__ore": {
+   "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+   "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
+   "subtitle": "Quality perceived as temperature — before the question forms · The Definition Impulse (Yin)",
+   "chips": [
+    "Discerning",
+    "Aesthetically precise",
+    "Perfectionist",
+    "Exacting",
+    "Distance through refinement"
+   ],
+   "yourNature_phrase": "The Jade Appraiser",
+   "elementIntro": {
+    "punch": "The Jewel is Yin Metal — the refined edge that reveals true worth.",
+    "expand": "Exacting and aesthetically certain, it senses quality the way others sense cold, and is never quite satisfied with what merely passes."
+   },
+   "manual": {
+    "concentrated": "The evaluative standard is applied to everything simultaneously with no relief. The environment produces either remarkable quality or paralysis — the discernment that should enable excellence instead prevents completion. Relationships and situations that don't meet the implicit standard become genuinely difficult to engage with. Classical texts note that excess 辛 Metal produces rigidity of aesthetic judgment — the jeweler so committed to perfection that no gem ever leaves the workshop. Self-criticism intensifies. The standard keeps moving just past wherever the work has arrived.",
+    "open": "Discernment and quality-sensing are reduced. Things are produced without adequate evaluation. Work looks fine on the surface but doesn't hold up over time or under close examination. The environment loses its ability to distinguish what is genuinely excellent from what merely appears excellent. Recognition of real quality becomes unreliable — people accept substitutes they would have rejected had the discernment been present to notice the difference.",
+    "catalyst": "Activate it by intentionally raising the standard of what you produce and what you accept. This is the period for genuine refinement: the revision that makes the work actually excellent rather than merely presentable, the relationship investment that makes the connection actually deep rather than merely consistent, the decision that reflects what you actually value rather than what is most convenient. Outcome: what is produced in this period carries lasting quality and remains recognizable as excellent well past the moment it was created. Recognition arrives for the refinement specifically.",
+    "resistance": "When 辛 energy is creating friction — the discernment is running at a level that prevents output. The evaluating quality is being used to disqualify rather than develop. The corrective: set the completion criterion before beginning, not during. Decide in advance what \"excellent enough to release\" looks like, so the discernment has a defined finish line rather than an open-ended mandate to keep refining. Use Water energy (flow, depth, forward movement) to give the precision somewhere to go beyond itself. Outcome: evaluation produces completion rather than endless refinement, and the standard becomes generative rather than paralyzing."
+   },
+   "energy": null,
+   "psych": null,
+   "archetypes": null,
+   "blocks": [
+    {
+     "label": "How you experience the world",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "You perceive quality the way others perceive temperature — automatically, before thinking about it. Not \"is this good?\" as a question you ask, but an immediate, pre-verbal sense that something is or isn't genuinely excellent. This applies to work, to ideas, to environments, to people, to the way something was made. The standard is always running. It's not a habit you developed — it's a perceptual structure you were born with, as natural and involuntary as the ability to see color.",
+      "concentrated": "When the discerning faculty is this saturated, the standard runs at maximum on everything at once — every object, every idea, every person measured the instant you encounter it, with no relief. The perception is exquisite. The structural cost is that nothing fully passes: the bar sits just above wherever reality has arrived, so the world presents as a near-continuous catalog of what falls short. At full strength your eye is extraordinary and your peace is rare.",
+      "open": "The quality-sense is real but harder to bring to bear. You can still tell genuine excellence from the merely adequate — that perception doesn't vanish — but the fine discrimination that normally runs without effort arrives blunted, and things slip past that you'd ordinarily catch. The eye is intact; what's harder to access is the effortless precision that made the standard feel automatic. The instrument is there, just not fully calibrated.",
+      "tested": "What you're judging judges back, and your discernment takes its shape from the scrutiny. When authority energy presses on the Jewel, your evaluation runs while a standard runs on you in parallel — you're appraising and being appraised at once. If the standard is legitimate, it gives your precision an external benchmark and sharpens it into genuine authority. If it isn't, the discernment turns defensive and hypercritical, guarding against a verdict rather than seeking the truth of the thing.",
+      "pure": "With no dominant force directing what the discernment serves, your quality-sense runs as its essential self — not deployed to win, not anchored to a base, not pressed by a role. What arrives is pure appraisal: you perceive worth directly, and what deserves the full standard is genuinely yours to choose. The world is a field of things that could be evaluated to the floor, and for once nothing has pre-decided which. This is the unconstrained Jewel — free to refine what actually warrants it.",
+      "rooted": "Resource energy backing the Metal means your discernment draws from a deep base. The eye steadies here — less restless fault-finding, more patient appraisal — and it commits: you bring the full standard to a few things and develop them properly rather than scanning everything for flaws. The friction mirrors the gift: the same depth that makes your judgment trustworthy can make you slow to release work even after it has genuinely met the bar.",
+      "flowing": "Output energy gives your discernment somewhere to go. The standard no longer just evaluates — it produces: the eye that catches the flaw becomes the hand that makes the thing without it, work whose excellence is felt the instant someone encounters it. You experience discernment as generative rather than merely critical. At your most expressive this is the Jewel at its best — the judgment that doesn't just identify quality but creates it."
+     }
+    },
+    {
+     "label": "What you're genuinely good at",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "Producing things of genuine distinction because you literally cannot bring yourself to output something you don't fully believe in. Identifying what's genuinely excellent when others would settle for adequate. Building things where the quality is lasting — not impressive on the surface but actually good in the way that holds up over time and under examination. You're also the one who has already noticed the flaw that will become a problem three months from now. You often don't say it immediately. But you've already seen it.",
+      "concentrated": "Distinguishing excellence — almost too finely. With the discerning force this saturated, you catch gradations of quality no one else registers, and you cannot in good conscience release something that falls short of what you can see. The result is genuine distinction. The catch is that the standard keeps moving just past wherever the work arrives, so finishing becomes the hardest part: you refine past completion, polishing what's already done while a deadline passes. At full strength you produce excellence and struggle to call it finished.",
+      "open": "The gift is real but harder to bring to bear. You can still tell excellent from adequate and still want to produce distinction — the standard doesn't vanish — but the precise execution it demands takes more from you than it does when the metal is strong. The quality lives slightly out of reach: you can perceive the bar without quite being able to meet it. What you're good at is genuine; it just needs better conditions, or a worthier subject, to reach full refinement.",
+      "tested": "Producing to a standard while a standard watches — excellence under genuine examination. When legitimate authority sets the terms, your gift sharpens from \"perfect everything\" to \"meet the real bar on the thing that matters,\" and the external benchmark gives the discernment a finish line it otherwise lacks. You're good at work that holds up under the closest scrutiny — the kind where being slightly off is caught, named, and corrected. The test is where your precision becomes authority.",
+      "pure": "Pure discernment — the gift in its least mediated form. With no dominant force directing the standard, what you're good at is the appraisal itself: knowing genuine quality directly and producing only what meets it. You're at your best where the value is in the refinement rather than what it's traded for — where something needs to be made genuinely, lastingly right. What you bring the full standard to is yours to choose.",
+      "rooted": "Building things whose quality genuinely lasts, because the standard rests on a deep base. With resource energy backing you, your gift comes with endurance — you don't just refine once, you develop work to a fineness that survives years and examination. What you're good at is the rare pairing of discernment and patience: the quality that was built to hold, not to impress. The trade is speed; you're built for the lasting thing, less for the quick turnaround.",
+      "flowing": "Turning discernment into made things. With expression energy in play, your gift isn't only identifying excellence — it's producing it: the critical eye becomes craft, the flaw you'd have flagged in someone else's work simply never appears in yours. You're good at the whole arc from perceiving quality to embodying it, where a purely evaluative configuration would stop at the verdict. The standard bears fruit."
+     }
+    },
+    {
+     "label": "Where you consistently get stuck",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "The refining doesn't know when to stop. The same faculty that produces your excellent work keeps working past the point of completion — improving things that are done, delaying delivery of things that are ready, exhausting the precision on what doesn't need it. There's also a persistent gap between what you can perceive as possible and what the world tends to offer, creating a background friction that doesn't switch off. In environments that can't meet the standard, this becomes chronic dissatisfaction."
+     }
+    },
+    {
+     "label": "What changes when conditions are right",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "Your quality is most fully expressed in settings that can actually receive what you produce. In conditions that genuinely warrant the discernment, what you produce is something most other approaches simply cannot generate. The practice is protecting access to those conditions rather than applying the full standard uniformly to everything."
+     }
+    },
+    {
+     "label": "What you rarely admit",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "That the standard you apply to everything, you apply to yourself — and that this is often the hardest part. The gap between what you can perceive as possible in yourself and what you currently are is always visible to you. Which means you're almost never quite satisfied with who you are right now, regardless of what you've achieved."
+     }
+    }
+   ],
+   "retired_band_pools": {
+    "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
     "gifts": [
-      {
-        "phrase": "Steady under strain",
-        "dim": "being handled",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "金_金.function.definition_catalyst",
-        "desc": "Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late."
-      },
-      {
-        "phrase": "Polished by default",
-        "dim": "finishing",
-        "door": "body",
-        "face": "wide",
-        "echo_of": "金_金.function.definition_catalyst",
-        "desc": "Plenty of the material and all of it finished. Even the things nobody will see leave your hands done properly."
-      },
-      {
-        "phrase": "Impeccable taste",
-        "dim": "quality",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "金_土.function.definition_catalyst",
-        "desc": "Years of quiet looking went in first. Now you know the good one from the almost-good one at a glance, and friends borrow your eye before they buy."
-      },
-      {
-        "phrase": "Spots the crack",
-        "dim": "early warnings",
-        "door": "mind",
-        "face": "wide",
-        "echo_of": "金_土.carry.wide",
-        "desc": "With this much ground under the stone, you saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait."
-      },
-      {
-        "phrase": "Understated excellence",
-        "dim": "self-presentation",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "金_水.function.definition_catalyst",
-        "desc": "What is inside moves outward without forcing. You do not advertise, compete, or explain. The work speaks quietly, and the people who know, know."
-      },
-      {
-        "phrase": "Prices it right",
-        "dim": "placing value",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "金_木.function.definition_catalyst",
-        "desc": "You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it."
-      },
-      {
-        "phrase": "Built to last",
-        "dim": "at work",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "金_火.function.definition_catalyst",
-        "desc": "Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection."
-      }
+     {
+      "phrase": "Impeccable taste",
+      "dim": "quality",
+      "desc": "You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Quality guaranteed",
+      "dim": "at work",
+      "desc": "Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Spots the crack",
+      "dim": "early warnings",
+      "desc": "You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Notices the effort",
+      "dim": "others' work",
+      "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.",
+      "bands": [
+       "balanced",
+       "open"
+      ]
+     },
+     {
+      "phrase": "Understated excellence",
+      "dim": "self-presentation",
+      "desc": "You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.",
+      "bands": [
+       "open"
+      ]
+     }
     ],
     "shadows": [
-      {
-        "phrase": "Polishes forever",
-        "dim": "deadlines",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "金_金.function.definition_friction",
-        "desc": "Discipline with no outlet turns on the work. The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive."
-      },
-      {
-        "phrase": "Trusts one judge",
-        "dim": "taking advice",
-        "door": "body",
-        "face": "excess",
-        "echo_of": "金_金.carry.excess",
-        "desc": "So much certainty it cuts everything the same way. The only opinion that counts on your work is yours, and it has never once been satisfied."
-      },
-      {
-        "phrase": "Never stops preparing",
-        "dim": "preparation",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "金_土.function.definition_friction",
-        "desc": "One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work."
-      },
-      {
-        "phrase": "Buried talent",
-        "dim": "being sheltered",
-        "door": "mind",
-        "face": "excess",
-        "echo_of": "金_土.carry_yin.excess",
-        "desc": "Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box."
-      },
-      {
-        "phrase": "Sharp tongue",
-        "dim": "small remarks",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "金_水.function.definition_friction",
-        "desc": "Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
-      },
-      {
-        "phrase": "Hoarder of starts",
-        "dim": "acquiring",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "金_木.function.definition_friction",
-        "desc": "Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished."
-      },
-      {
-        "phrase": "Hardest on itself",
-        "dim": "being judged",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "金_火.function.definition_friction",
-        "desc": "Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you."
-      }
-    ],
-    "door_note": {
-      "body": "Metal",
-      "mind": "Earth",
-      "expression": "Water",
-      "action": "Wood",
-      "order": "Fire"
+     {
+      "phrase": "Bruises easily",
+      "dim": "criticism",
+      "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Hard to impress",
+      "dim": "praise",
+      "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Chronically disappointed",
+      "dim": "expectations",
+      "desc": "You can always see the better version that doesn't exist. The gap between possible and actual never quite closes, and living in it wears.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Polishes forever",
+      "dim": "finishing",
+      "desc": "The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Sells self short",
+      "dim": "self-worth",
+      "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.",
+      "bands": [
+       "open"
+      ]
+     }
+    ]
+   },
+   "retired_thin_self_items": [],
+   "retired_door_audit_2026-09-16": [
+    {
+     "phrase": "Hard to impress",
+     "dim": "praise",
+     "door": "mind",
+     "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.",
+     "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
     },
-    "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
-    "dm_overview": "The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.",
-    "who": null,
-    "energy_faces": null,
-    "__ore": {
-      "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
-      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
-      "subtitle": "Quality perceived as temperature — before the question forms · The Definition Impulse (Yin)",
-      "chips": [
-        "Discerning",
-        "Aesthetically precise",
-        "Perfectionist",
-        "Exacting",
-        "Distance through refinement"
-      ],
-      "yourNature_phrase": "The Jade Appraiser",
-      "elementIntro": {
-        "punch": "The Jewel is Yin Metal — the refined edge that reveals true worth.",
-        "expand": "Exacting and aesthetically certain, it senses quality the way others sense cold, and is never quite satisfied with what merely passes."
-      },
-      "manual": {
-        "concentrated": "The evaluative standard is applied to everything simultaneously with no relief. The environment produces either remarkable quality or paralysis — the discernment that should enable excellence instead prevents completion. Relationships and situations that don't meet the implicit standard become genuinely difficult to engage with. Classical texts note that excess 辛 Metal produces rigidity of aesthetic judgment — the jeweler so committed to perfection that no gem ever leaves the workshop. Self-criticism intensifies. The standard keeps moving just past wherever the work has arrived.",
-        "open": "Discernment and quality-sensing are reduced. Things are produced without adequate evaluation. Work looks fine on the surface but doesn't hold up over time or under close examination. The environment loses its ability to distinguish what is genuinely excellent from what merely appears excellent. Recognition of real quality becomes unreliable — people accept substitutes they would have rejected had the discernment been present to notice the difference.",
-        "catalyst": "Activate it by intentionally raising the standard of what you produce and what you accept. This is the period for genuine refinement: the revision that makes the work actually excellent rather than merely presentable, the relationship investment that makes the connection actually deep rather than merely consistent, the decision that reflects what you actually value rather than what is most convenient. Outcome: what is produced in this period carries lasting quality and remains recognizable as excellent well past the moment it was created. Recognition arrives for the refinement specifically.",
-        "resistance": "When 辛 energy is creating friction — the discernment is running at a level that prevents output. The evaluating quality is being used to disqualify rather than develop. The corrective: set the completion criterion before beginning, not during. Decide in advance what \"excellent enough to release\" looks like, so the discernment has a defined finish line rather than an open-ended mandate to keep refining. Use Water energy (flow, depth, forward movement) to give the precision somewhere to go beyond itself. Outcome: evaluation produces completion rather than endless refinement, and the standard becomes generative rather than paralyzing."
-      },
-      "energy": null,
-      "psych": null,
-      "archetypes": null,
-      "blocks": [
-        {
-          "label": "How you experience the world",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "You perceive quality the way others perceive temperature — automatically, before thinking about it. Not \"is this good?\" as a question you ask, but an immediate, pre-verbal sense that something is or isn't genuinely excellent. This applies to work, to ideas, to environments, to people, to the way something was made. The standard is always running. It's not a habit you developed — it's a perceptual structure you were born with, as natural and involuntary as the ability to see color.",
-            "concentrated": "When the discerning faculty is this saturated, the standard runs at maximum on everything at once — every object, every idea, every person measured the instant you encounter it, with no relief. The perception is exquisite. The structural cost is that nothing fully passes: the bar sits just above wherever reality has arrived, so the world presents as a near-continuous catalog of what falls short. At full strength your eye is extraordinary and your peace is rare.",
-            "open": "The quality-sense is real but harder to bring to bear. You can still tell genuine excellence from the merely adequate — that perception doesn't vanish — but the fine discrimination that normally runs without effort arrives blunted, and things slip past that you'd ordinarily catch. The eye is intact; what's harder to access is the effortless precision that made the standard feel automatic. The instrument is there, just not fully calibrated.",
-            "tested": "What you're judging judges back, and your discernment takes its shape from the scrutiny. When authority energy presses on the Jewel, your evaluation runs while a standard runs on you in parallel — you're appraising and being appraised at once. If the standard is legitimate, it gives your precision an external benchmark and sharpens it into genuine authority. If it isn't, the discernment turns defensive and hypercritical, guarding against a verdict rather than seeking the truth of the thing.",
-            "pure": "With no dominant force directing what the discernment serves, your quality-sense runs as its essential self — not deployed to win, not anchored to a base, not pressed by a role. What arrives is pure appraisal: you perceive worth directly, and what deserves the full standard is genuinely yours to choose. The world is a field of things that could be evaluated to the floor, and for once nothing has pre-decided which. This is the unconstrained Jewel — free to refine what actually warrants it.",
-            "rooted": "Resource energy backing the Metal means your discernment draws from a deep base. The eye steadies here — less restless fault-finding, more patient appraisal — and it commits: you bring the full standard to a few things and develop them properly rather than scanning everything for flaws. The friction mirrors the gift: the same depth that makes your judgment trustworthy can make you slow to release work even after it has genuinely met the bar.",
-            "flowing": "Output energy gives your discernment somewhere to go. The standard no longer just evaluates — it produces: the eye that catches the flaw becomes the hand that makes the thing without it, work whose excellence is felt the instant someone encounters it. You experience discernment as generative rather than merely critical. At your most expressive this is the Jewel at its best — the judgment that doesn't just identify quality but creates it."
-          }
-        },
-        {
-          "label": "What you're genuinely good at",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "Producing things of genuine distinction because you literally cannot bring yourself to output something you don't fully believe in. Identifying what's genuinely excellent when others would settle for adequate. Building things where the quality is lasting — not impressive on the surface but actually good in the way that holds up over time and under examination. You're also the one who has already noticed the flaw that will become a problem three months from now. You often don't say it immediately. But you've already seen it.",
-            "concentrated": "Distinguishing excellence — almost too finely. With the discerning force this saturated, you catch gradations of quality no one else registers, and you cannot in good conscience release something that falls short of what you can see. The result is genuine distinction. The catch is that the standard keeps moving just past wherever the work arrives, so finishing becomes the hardest part: you refine past completion, polishing what's already done while a deadline passes. At full strength you produce excellence and struggle to call it finished.",
-            "open": "The gift is real but harder to bring to bear. You can still tell excellent from adequate and still want to produce distinction — the standard doesn't vanish — but the precise execution it demands takes more from you than it does when the metal is strong. The quality lives slightly out of reach: you can perceive the bar without quite being able to meet it. What you're good at is genuine; it just needs better conditions, or a worthier subject, to reach full refinement.",
-            "tested": "Producing to a standard while a standard watches — excellence under genuine examination. When legitimate authority sets the terms, your gift sharpens from \"perfect everything\" to \"meet the real bar on the thing that matters,\" and the external benchmark gives the discernment a finish line it otherwise lacks. You're good at work that holds up under the closest scrutiny — the kind where being slightly off is caught, named, and corrected. The test is where your precision becomes authority.",
-            "pure": "Pure discernment — the gift in its least mediated form. With no dominant force directing the standard, what you're good at is the appraisal itself: knowing genuine quality directly and producing only what meets it. You're at your best where the value is in the refinement rather than what it's traded for — where something needs to be made genuinely, lastingly right. What you bring the full standard to is yours to choose.",
-            "rooted": "Building things whose quality genuinely lasts, because the standard rests on a deep base. With resource energy backing you, your gift comes with endurance — you don't just refine once, you develop work to a fineness that survives years and examination. What you're good at is the rare pairing of discernment and patience: the quality that was built to hold, not to impress. The trade is speed; you're built for the lasting thing, less for the quick turnaround.",
-            "flowing": "Turning discernment into made things. With expression energy in play, your gift isn't only identifying excellence — it's producing it: the critical eye becomes craft, the flaw you'd have flagged in someone else's work simply never appears in yours. You're good at the whole arc from perceiving quality to embodying it, where a purely evaluative configuration would stop at the verdict. The standard bears fruit."
-          }
-        },
-        {
-          "label": "Where you consistently get stuck",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "The refining doesn't know when to stop. The same faculty that produces your excellent work keeps working past the point of completion — improving things that are done, delaying delivery of things that are ready, exhausting the precision on what doesn't need it. There's also a persistent gap between what you can perceive as possible and what the world tends to offer, creating a background friction that doesn't switch off. In environments that can't meet the standard, this becomes chronic dissatisfaction."
-          }
-        },
-        {
-          "label": "What changes when conditions are right",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "Your quality is most fully expressed in settings that can actually receive what you produce. In conditions that genuinely warrant the discernment, what you produce is something most other approaches simply cannot generate. The practice is protecting access to those conditions rather than applying the full standard uniformly to everything."
-          }
-        },
-        {
-          "label": "What you rarely admit",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "That the standard you apply to everything, you apply to yourself — and that this is often the hardest part. The gap between what you can perceive as possible in yourself and what you currently are is always visible to you. Which means you're almost never quite satisfied with who you are right now, regardless of what you've achieved."
-          }
-        }
-      ],
-      "retired_band_pools": {
-        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
-        "gifts": [
-          {
-            "phrase": "Impeccable taste",
-            "dim": "quality",
-            "desc": "You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Quality guaranteed",
-            "dim": "at work",
-            "desc": "Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Spots the crack",
-            "dim": "early warnings",
-            "desc": "You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Notices the effort",
-            "dim": "others' work",
-            "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
-          },
-          {
-            "phrase": "Understated excellence",
-            "dim": "self-presentation",
-            "desc": "You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.",
-            "bands": [
-              "open"
-            ]
-          }
-        ],
-        "shadows": [
-          {
-            "phrase": "Bruises easily",
-            "dim": "criticism",
-            "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Hard to impress",
-            "dim": "praise",
-            "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Chronically disappointed",
-            "dim": "expectations",
-            "desc": "You can always see the better version that doesn't exist. The gap between possible and actual never quite closes, and living in it wears.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Polishes forever",
-            "dim": "finishing",
-            "desc": "The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Sells self short",
-            "dim": "self-worth",
-            "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.",
-            "bands": [
-              "open"
-            ]
-          }
-        ]
-      },
-      "retired_thin_self_items": [],
-      "retired_door_audit_2026-09-16": [
-        {
-          "phrase": "Hard to impress",
-          "dim": "praise",
-          "door": "mind",
-          "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.",
-          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
-        },
-        {
-          "phrase": "Sells self short",
-          "dim": "self-worth",
-          "door": "expression",
-          "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.",
-          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
-        }
-      ],
-      "retired_derivation_law_2026-09-16": [
-        {
-          "phrase": "Notices the effort",
-          "dim": "others' work",
-          "door": "body",
-          "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Bruises easily",
-          "dim": "criticism",
-          "door": "order",
-          "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        }
-      ],
-      "retired_inner_judge_2026-09-17": [
-        {
-          "phrase": "Panics over flaws",
-          "dim": "criticism",
-          "door": "order",
-          "face": "echo",
-          "echo_of": "金_火.function.definition_friction",
-          "desc": "Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you.",
-          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
-        }
-      ],
-      "retired_2026-09-21_cold_read": {
-        "gifts.Keeps its shape": {
-          "phrase": "Keeps its shape",
-          "dim": "being handled",
-          "door": "body",
-          "face": "echo",
-          "echo_of": "金_金.function.definition_catalyst",
-          "desc": "Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late."
-        },
-        "gifts.Quality guaranteed": {
-          "phrase": "Quality guaranteed",
-          "dim": "at work",
-          "door": "order",
-          "face": "echo",
-          "echo_of": "金_火.function.definition_catalyst",
-          "desc": "Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection."
-        },
-        "shadows.Stays boxed up": {
-          "phrase": "Stays boxed up",
-          "dim": "being sheltered",
-          "door": "mind",
-          "face": "excess",
-          "echo_of": "金_土.carry_yin.excess",
-          "desc": "Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box."
-        },
-        "shadows.Remarks cut deep": {
-          "phrase": "Remarks cut deep",
-          "dim": "small remarks",
-          "door": "expression",
-          "face": "echo",
-          "echo_of": "金_水.function.definition_friction",
-          "desc": "Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
-        },
-        "shadows.Hoards raw stones": {
-          "phrase": "Hoards raw stones",
-          "dim": "acquiring",
-          "door": "action",
-          "face": "echo",
-          "echo_of": "金_木.function.definition_friction",
-          "desc": "Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished."
-        }
-      },
-      "retired_2026-10-17_diagnosis": {
-        "status": "REVIVED 2026-10-27",
-        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
-      },
-      "retired_2026-10-27_manifesto_l1": "Refinement over output"
+    {
+     "phrase": "Sells self short",
+     "dim": "self-worth",
+     "door": "expression",
+     "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.",
+     "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
     }
-  },
-  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
-  "field_status": {
-    "who": "TO WRITE · opened 2026-10-18",
-    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
-    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
-    "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M辛 A): two or three plain adjectives, replacing \"Refinement over output\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
-    "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "energy_faces": "TO WRITE · after the 庚 template is ruled"
+   ],
+   "retired_derivation_law_2026-09-16": [
+    {
+     "phrase": "Notices the effort",
+     "dim": "others' work",
+     "door": "body",
+     "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Bruises easily",
+     "dim": "criticism",
+     "door": "order",
+     "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    }
+   ],
+   "retired_inner_judge_2026-09-17": [
+    {
+     "phrase": "Panics over flaws",
+     "dim": "criticism",
+     "door": "order",
+     "face": "echo",
+     "echo_of": "金_火.function.definition_friction",
+     "desc": "Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you.",
+     "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
+    }
+   ],
+   "retired_2026-09-21_cold_read": {
+    "gifts.Keeps its shape": {
+     "phrase": "Keeps its shape",
+     "dim": "being handled",
+     "door": "body",
+     "face": "echo",
+     "echo_of": "金_金.function.definition_catalyst",
+     "desc": "Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late."
+    },
+    "gifts.Quality guaranteed": {
+     "phrase": "Quality guaranteed",
+     "dim": "at work",
+     "door": "order",
+     "face": "echo",
+     "echo_of": "金_火.function.definition_catalyst",
+     "desc": "Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection."
+    },
+    "shadows.Stays boxed up": {
+     "phrase": "Stays boxed up",
+     "dim": "being sheltered",
+     "door": "mind",
+     "face": "excess",
+     "echo_of": "金_土.carry_yin.excess",
+     "desc": "Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box."
+    },
+    "shadows.Remarks cut deep": {
+     "phrase": "Remarks cut deep",
+     "dim": "small remarks",
+     "door": "expression",
+     "face": "echo",
+     "echo_of": "金_水.function.definition_friction",
+     "desc": "Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
+    },
+    "shadows.Hoards raw stones": {
+     "phrase": "Hoards raw stones",
+     "dim": "acquiring",
+     "door": "action",
+     "face": "echo",
+     "echo_of": "金_木.function.definition_friction",
+     "desc": "Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished."
+    }
+   },
+   "retired_2026-10-17_diagnosis": {
+    "status": "REVIVED 2026-10-27",
+    "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
+   },
+   "retired_2026-10-27_manifesto_l1": "Refinement over output"
   }
+ },
+ "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
+ "field_status": {
+  "who": "TO WRITE · opened 2026-10-18",
+  "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
+  "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
+  "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M辛 A): two or three plain adjectives, replacing \"Refinement over output\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
+  "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "energy_faces": "TO WRITE · after the 庚 template is ruled",
+  "ladder": "RULED 2026-11-13 (owner P-辛 A; the Blade from V0–V9 A): the revelation's stem lines on the explanation ladder"
+ }
 }

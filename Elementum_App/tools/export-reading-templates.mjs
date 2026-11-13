@@ -51,6 +51,7 @@ const jd = await import('../src/components/journey/journeyData.js');
 // the merged "Your reading" fields (owner 2026-10-18: "map all fields")
 const mr = await import('../src/content/mergedReading.js');
 const pools = await import('../src/content/dmPools.js');
+const ladder = await import('../src/content/ladder.js');
 
 // ── taxonomy keys ──────────────────────────────────────────────────
 const STEMS = [
@@ -178,6 +179,8 @@ for (const s of STEMS) {
     shadows: pools.DM_POOLS[s.hz]?.shadows ?? null,
     door_note: pools.DM_POOLS[s.hz]?.door_note ?? null,
     energy_faces: pools.DM_POOLS[s.hz]?.energy_faces ?? null,
+    // the explanation ladder's stem lines (owner 2026-11-13; src/content/ladder.js)
+    ladder: ladder.STEM_LADDER[s.hz] ?? null,
     __ore: {
       note: 'legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)',
       subtitle: card.subtitle ?? null, chips: card.chips ?? null,
@@ -391,6 +394,7 @@ T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, c
 T('tpl_now_line', 'DRAFT 2026-10-18 · the energy sheet\'s now line', '≤20w', { fn_clause: mr.NOW_LINE.fn_clause, core: mr.NOW_LINE.core, volume_clause: mr.NOW_LINE.volume_clause });
 T('tpl_codex_tests', 'DRAFT 2026-10-18 · the Codex panel under How am I running?', '≤22w per line', { score: mr.CODEX_TESTS.score, reason: mr.CODEX_TESTS.reason, season: mr.CODEX_TESTS.season, root: mr.CODEX_TESTS.root, allies: mr.CODEX_TESTS.allies });
 T('tpl_type', 'RULED 2026-10-27 (owner M1–M6 A; then the needs clauses ×7 and the opener "Your chart is heaviest in", replacing "Most of your chart") · the circle tile (K4 A) · the share card and the album (TYPE_V1)', 'name ≤6w · line ≤22w', { name: mr.TYPE_LINE.name, pattern: mr.TYPE_LINE.pattern, mode: mr.TYPE_LINE.mode, needs: mr.TYPE_LINE.needs, circle: mr.TYPE_LINE.circle, five: mr.TYPE_LINE.five });
+T('tpl_ladder', 'RULED 2026-11-13 (owner: the Blade script V0–V9 A, then S1–S7 A) · the revelation\'s first pass, five rungs per label · not rendered until the design session\'s build', 'one sentence per rung, ≤28w; condition body ≤40w', ladder.LADDER);
 T('tpl_pattern_conclusion', 'PLANNED', '≤25w · per pattern type (~6)', { pattern: null, clauses: null });
 T('tpl_section_teasers', 'LIVE (curation v6, owner 2026-08-19) — ONE conclusive quoted line per section card', 'one line each', {
   pattern: 'mech: "{state turn, first sentence}" · fn: "{function body, first sentence}" · dom: "{lead seat defline}[ And {n-1 word} more seat(s) besides.]" — position rows above the dom line: {term} · {汉字} / "rules {declared domains}"',

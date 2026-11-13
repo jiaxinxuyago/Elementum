@@ -1,478 +1,487 @@
 {
-  "$archetype": "wu",
-  "axis": "STEM",
-  "key": "戊",
-  "canonical_name": "The Mountain",
-  "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
-  "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
-  "sources": [
-    "Elementum_App/src/content/archetypeSource.js",
-    "src/content/reading/readingContent.js (DM_READING)",
-    "buildIdentity"
+ "$archetype": "wu",
+ "axis": "STEM",
+ "key": "戊",
+ "canonical_name": "The Mountain",
+ "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
+ "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
+ "sources": [
+  "Elementum_App/src/content/archetypeSource.js",
+  "src/content/reading/readingContent.js (DM_READING)",
+  "buildIdentity"
+ ],
+ "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
+ "candidates": {
+  "archetype_name": "The Mountain",
+  "manifesto": "Steady, solid, unhurried · You are the Earth others use to find their footing.",
+  "inscription": "You hold what others set down, and nothing has ever offered to hold you.",
+  "stem_keywords": [
+   "Steady",
+   "Centered",
+   "Dependable"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
-  "candidates": {
-    "archetype_name": "The Mountain",
-    "manifesto": "Steady, solid, unhurried · You are the Earth others use to find their footing.",
-    "inscription": "You hold what others set down, and nothing has ever offered to hold you.",
-    "stem_keywords": [
-      "Steady",
-      "Centered",
-      "Dependable"
-    ],
-    "pinyin_display": "WÙ · YANG EARTH",
-    "dm_claims": [
-      "You become the ground others stand on without being asked.",
-      "When plans wobble, yours is the version everyone quietly adopts."
-    ],
-    "dm_mechanism": "Yang Earth that holds its shape, weight that becomes shelter under load.",
+  "pinyin_display": "WÙ · YANG EARTH",
+  "dm_claims": [
+   "You become the ground others stand on without being asked.",
+   "When plans wobble, yours is the version everyone quietly adopts."
+  ],
+  "dm_mechanism": "Yang Earth that holds its shape, weight that becomes shelter under load.",
+  "gifts": [
+   {
+    "phrase": "Everyone's rock",
+    "dim": "being leaned on",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "土_土.function.definition_catalyst",
+    "desc": "The physical calm under everything else. Friends plan around you the way builders plan around bedrock, and it only erodes under skipped meals and moved bedtimes."
+   },
+   {
+    "phrase": "Shows up regardless",
+    "dim": "showing up",
+    "door": "body",
+    "face": "wide",
+    "echo_of": "土_土.function.definition_catalyst",
+    "desc": "Storms, funerals, moving days, the long boring middle of hard times. Plenty of steadiness, and you are still there in week six."
+   },
+   {
+    "phrase": "Learns from people",
+    "dim": "how you learn",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "土_火.function.definition_catalyst",
+    "desc": "Cold text slides off. What warmed you stays: the person who showed you, the evening it was said, the praise that made it stick."
+   },
+   {
+    "phrase": "Keeps the record",
+    "dim": "memory",
+    "door": "mind",
+    "face": "wide",
+    "echo_of": "土_火.carry.wide",
+    "desc": "So much has warmed its way in that you remember what was said, when, and by whom. Not to use it. Because it happened."
+   },
+   {
+    "phrase": "Says it once",
+    "dim": "speaking up",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "土_金.function.definition_catalyst",
+    "desc": "You say the thing one time, plainly, the exact word, and do not repeat it. People learn to listen the first time."
+   },
+   {
+    "phrase": "Safe hands",
+    "dim": "things in motion",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "土_水.function.definition_catalyst",
+    "desc": "Money, chances, people in motion all need somewhere reliable to land. You profit by being the still point in a moving system."
+   },
+   {
+    "phrase": "Carries the family",
+    "dim": "obligations",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "土_木.function.definition_catalyst",
+    "desc": "Family, teams, the people who grow back each season and ask you to grow with them. Care is your discipline, and it keeps you moving."
+   }
+  ],
+  "shadows": [
+   {
+    "phrase": "Sinks into routine",
+    "dim": "habits",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "土_土.function.definition_friction",
+    "desc": "Heaviness accumulating. Routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving."
+   },
+   {
+    "phrase": "Can't let go",
+    "dim": "endings",
+    "door": "body",
+    "face": "excess",
+    "echo_of": "土_土.carry.excess",
+    "desc": "So much steadiness nothing new can root. Jobs, grudges, houses, roles that ended years ago, all still held, because letting go feels like betraying everyone who leaned on the holding."
+   },
+   {
+    "phrase": "Feeds on distraction",
+    "dim": "what counts as input",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "土_火.function.definition_friction",
+    "desc": "Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before."
+   },
+   {
+    "phrase": "Hard to persuade",
+    "dim": "changing course",
+    "door": "mind",
+    "face": "excess",
+    "echo_of": "土_火.carry.excess",
+    "desc": "Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map."
+   },
+   {
+    "phrase": "Drained by deadlines",
+    "dim": "output on demand",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "土_金.function.definition_friction",
+    "desc": "More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you."
+   },
+   {
+    "phrase": "Micromanages",
+    "dim": "control",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "土_水.function.definition_friction",
+    "desc": "Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect."
+   },
+   {
+    "phrase": "Never forgives itself",
+    "dim": "being judged",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "土_木.function.definition_friction",
+    "desc": "Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years."
+   }
+  ],
+  "door_note": {
+   "body": "Earth",
+   "mind": "Fire",
+   "expression": "Metal",
+   "action": "Water",
+   "order": "Wood"
+  },
+  "yourNature_desc": "You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying.",
+  "dm_overview": "The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair.",
+  "who": null,
+  "energy_faces": null,
+  "ladder": {
+   "element_line": "Yang Earth, the mountain others find their footing on.",
+   "recognition": "You're the steady one when things start to shake.",
+   "as_line": "As a Mountain, you are that ground in a person.",
+   "behaviour": "People bring you their plans to see if they hold.",
+   "contrast": "People see someone unshakeable. Inside, you are carrying more than you've told anyone.",
+   "self_nature": "Earth is your own element: the mountain itself."
+  },
+  "__ore": {
+   "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+   "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
+   "subtitle": "The ground others orient by without naming · The Stability Impulse (Yang)",
+   "chips": [
+    "Grounding",
+    "Load-bearing",
+    "Change-resistant",
+    "Silently accumulating",
+    "Orientation-providing"
+   ],
+   "yourNature_phrase": "The Mountain Warden",
+   "elementIntro": {
+    "punch": "The Mountain is Yang Earth — the settled, load-bearing ground that does not move.",
+    "expand": "Solid and orienting, it is the reference point others find their position by, holding far more than it ever lets show."
+   },
+   "manual": {
+    "concentrated": "The grounding quality becomes literal heaviness. Things that should move don't. Decisions that should be made get postponed. Weight accumulates without being processed. Classical texts warn 土重则滞 (excess Earth creates stagnation) — when the Mountain grows too dense, nothing moves across it. Opportunities pass because the inertia of consolidation prevents engagement with what's new. The environment becomes utterly reliable but genuinely stuck. Stability, which was the gift, becomes the trap when it refuses to distinguish between what should be held and what should be released.",
+    "open": "Foundational stability is hard to access. Things don't land or hold. Projects start but don't root — growth happens above ground, but there's no foundation for it to anchor into. Financial and physical accumulation is more difficult. The environment feels unstable or mobile in ways that are exhausting rather than exciting. Others can't build on what you offer because the surface keeps shifting before they get a chance to establish themselves on it.",
+    "catalyst": "Activate it by doing the foundation work: establish the structure, formalize the arrangement, secure the position, sign the commitment. This is not a \"explore and expand\" energy — it is \"consolidate what you have and make it permanent.\" The productive use is making the tentative fixed. Outcome: what was provisional becomes stable. Resources stop moving and start accumulating. What is built now stays built in a way that the previous period of movement never allowed, and the groundwork laid here supports the next several years of activity on top of it.",
+    "resistance": "When 戊 energy is creating friction — stability is working against the movement the chart needs. The ground is too fixed to accommodate necessary change. Don't try to remove the Mountain; find the path it allows. Use Wood energy (growth impulse, directionality) to create movement within the structure rather than against it — not breaking the foundation, but finding where within it something new can grow. Outcome: resistance becomes framework, and what felt like an obstacle becomes the specific form within which something worthwhile can be built."
+   },
+   "energy": null,
+   "psych": null,
+   "archetypes": null,
+   "blocks": [
+    {
+     "label": "How you experience the world",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "You're what people orient by. You provide a kind of psychological ground — a stable reference point others use without thinking about it. Conversations land differently around you. Decisions get made based on what you think, often before anyone has formally asked. People plan their lives around your presence. The reliability isn't something you practice or maintain through effort — it's what you're made of, the way a mountain is made of stone rather than holding itself up by trying.",
+      "concentrated": "When the grounding force is this saturated, the stability becomes literal heaviness. You're not just steady — you're immovable, and what should shift in you settles instead. People lean on you more than ever because nothing about you gives, and that's exactly the trap: the same density that makes you the ground everyone stands on makes it genuinely hard for you to move when moving is what's called for. At full strength you are utterly dependable and quietly stuck.",
+      "open": "The grounding quality is real but harder to provide. You still want to be the steady one — the reliability is genuine — but the solidity that normally holds without effort arrives thinner, and you can feel the ground under others shifting when it should be firm. Being depended on takes effort that should be structural. The steadiness is intact; what's harder to access is the effortless permanence others used to build on.",
+      "tested": "The ground itself is being tested, and your steadiness takes its shape from the pressure. When authority energy presses on the Mountain, you're holding the weight and being weighed at once — the reliability everyone leans on is also under examination. If the standard is legitimate, the pressure gives your stability a direction and turns load-bearing into genuine authority. If it isn't, you hold a position that's costing you more than it should, because holding is what you're for.",
+      "pure": "With no dominant force directing what the stability serves, your steadiness runs as its essential self — not held for gain, not anchored to a particular role, not pressed by authority. What arrives is pure ground: you're solid because solid is what you are, and what's worth bearing is genuinely yours to choose. The world is a field of things that could be supported, and for once nothing has pre-decided which deserve your weight. This is the unconstrained Mountain — free to hold what actually matters.",
+      "rooted": "Resource energy backing the Earth means your stability draws from a deep source. The ground steadies further here — slow, patient, almost geological — and it commits: you support specific things across very long spans rather than holding everything equally. The friction mirrors the gift: the same depth that makes you unshakeable can make you the last to move when a situation has genuinely ended and release is what it calls for.",
+      "flowing": "Output energy gives your stability somewhere to go. The ground no longer just holds — it produces: the steadiness becomes the platform other things are built on, the reliable base that turns into actual output. You experience your solidity as generative rather than merely enduring. At your most expressive this is the Mountain at its best — not just bearing the weight, but growing something on the ground you've made."
+     }
+    },
+    {
+     "label": "What you're genuinely good at",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "Holding what needs holding — weight, stress, uncertainty, pressure — without showing the cost in a way that makes others feel responsible for it. Building things that last because you genuinely cannot tolerate building things that won't. Following through across time, not as a discipline you impose on yourself but as a structural fact. Being the person in the room who's still there when the dramatic options have run out.",
+      "concentrated": "Holding more than anyone realizes — almost too much. With the load-bearing force this saturated, your capacity to absorb weight, stress, and uncertainty is enormous, and everyone around you quietly relies on it. The catch is that the same density that lets you hold everything makes setting any of it down feel like failure, so the load only accumulates. At full strength you're extraordinary at bearing weight and strained at ever releasing it.",
+      "open": "The capability is real but harder to summon. You still want to be the one who holds — the reliability is genuine — but bearing the weight takes more out of you than it does when the ground is strong, and you can feel the load nearer the surface than it should be. The steadiness is there; what's harder to reach is the effortless absorption that used to make holding feel like nothing. What you're good at is real; it just needs more support beneath it to carry the full load.",
+      "tested": "Bearing weight under pressure — holding the line while something tests whether it'll hold. When legitimate authority sets the terms, your gift sharpens from \"hold everything\" to \"hold the thing that actually matters, against real force,\" and the test turns endurance into demonstrated authority. You're good at being the one who doesn't break when the pressure is genuine — the steadiness that's worth more because it was proven, not assumed.",
+      "pure": "Pure steadiness — the gift in its least mediated form. With no dominant force directing the support, what you're good at is the holding itself: being the ground that doesn't move, the reliability others build on, present because presence is what you are. You're at your best where the value is in the steadiness rather than what it's made to serve — where something or someone needs a base that simply won't give way. What you bear is yours to choose.",
+      "rooted": "Building things that genuinely last, because the foundation goes all the way down. With resource energy backing you, your gift comes with permanence — you don't just hold, you hold across spans most people can't imagine committing to. What you're good at is the rare pairing of stability and depth: the support that's still there decades later. The trade is adaptability; you're built for the long foundation, less for the quick rebuild.",
+      "flowing": "Turning steadiness into structure. With expression energy in play, your gift isn't only holding the weight — it's building on it: the reliable ground becomes the platform, the institution, the thing that stands because you made the base that could carry it. You're good at the whole arc from foundation to edifice, where a purely enduring configuration would stop at \"still here.\" The ground bears something."
+     }
+    },
+    {
+     "label": "Where you consistently get stuck",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "The same quality that makes you load-bearing makes genuine movement difficult. When something needs to change — a relationship that's over, a position no longer tenable — you can hold it in place long past the point where the situation calls for release. Not from stubbornness. More from the fact that the stability everyone relies on makes shifting feel like a betrayal of what you're for.\n\nThere's also a slow accumulation of unspoken costs. You absorb a great deal without naming it. Over time this produces weight no one sees — because you never showed it — which means no one thought to ask whether you were okay."
+     }
+    },
+    {
+     "label": "What changes when conditions are right",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "When you've learned to distinguish between what needs to be held and what needs to be released, you become dramatically more powerful than the version of you that holds everything equally. The fire that activates you doesn't destabilize the stability — it gives the holding a direction. What was simply present becomes generative. What was enduring begins to produce."
+     }
+    },
+    {
+     "label": "What you rarely admit",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "That you need things too — specific things, from specific people — and have spent so long not needing anything visibly that you've almost stopped knowing how to name what those things are. You're so reliably there for everyone else that the question of what you need has largely stopped being asked. Which means it's also largely stopped being answered."
+     }
+    }
+   ],
+   "retired_band_pools": {
+    "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
     "gifts": [
-      {
-        "phrase": "Everyone's rock",
-        "dim": "being leaned on",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "土_土.function.definition_catalyst",
-        "desc": "The physical calm under everything else. Friends plan around you the way builders plan around bedrock, and it only erodes under skipped meals and moved bedtimes."
-      },
-      {
-        "phrase": "Shows up regardless",
-        "dim": "showing up",
-        "door": "body",
-        "face": "wide",
-        "echo_of": "土_土.function.definition_catalyst",
-        "desc": "Storms, funerals, moving days, the long boring middle of hard times. Plenty of steadiness, and you are still there in week six."
-      },
-      {
-        "phrase": "Learns from people",
-        "dim": "how you learn",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "土_火.function.definition_catalyst",
-        "desc": "Cold text slides off. What warmed you stays: the person who showed you, the evening it was said, the praise that made it stick."
-      },
-      {
-        "phrase": "Keeps the record",
-        "dim": "memory",
-        "door": "mind",
-        "face": "wide",
-        "echo_of": "土_火.carry.wide",
-        "desc": "So much has warmed its way in that you remember what was said, when, and by whom. Not to use it. Because it happened."
-      },
-      {
-        "phrase": "Says it once",
-        "dim": "speaking up",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "土_金.function.definition_catalyst",
-        "desc": "You say the thing one time, plainly, the exact word, and do not repeat it. People learn to listen the first time."
-      },
-      {
-        "phrase": "Safe hands",
-        "dim": "things in motion",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "土_水.function.definition_catalyst",
-        "desc": "Money, chances, people in motion all need somewhere reliable to land. You profit by being the still point in a moving system."
-      },
-      {
-        "phrase": "Carries the family",
-        "dim": "obligations",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "土_木.function.definition_catalyst",
-        "desc": "Family, teams, the people who grow back each season and ask you to grow with them. Care is your discipline, and it keeps you moving."
-      }
+     {
+      "phrase": "Everyone's rock",
+      "dim": "being leaned on",
+      "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Shows up regardless",
+      "dim": "showing up",
+      "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Calm under fire",
+      "dim": "crisis",
+      "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Safe harbor",
+      "dim": "secrets",
+      "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
+      "bands": [
+       "balanced",
+       "open"
+      ]
+     },
+     {
+      "phrase": "Slow and sure",
+      "dim": "pace",
+      "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
+      "bands": [
+       "open"
+      ]
+     }
     ],
     "shadows": [
-      {
-        "phrase": "Sinks into routine",
-        "dim": "habits",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "土_土.function.definition_friction",
-        "desc": "Heaviness accumulating. Routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving."
-      },
-      {
-        "phrase": "Can't let go",
-        "dim": "endings",
-        "door": "body",
-        "face": "excess",
-        "echo_of": "土_土.carry.excess",
-        "desc": "So much steadiness nothing new can root. Jobs, grudges, houses, roles that ended years ago, all still held, because letting go feels like betraying everyone who leaned on the holding."
-      },
-      {
-        "phrase": "Feeds on distraction",
-        "dim": "what counts as input",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "土_火.function.definition_friction",
-        "desc": "Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before."
-      },
-      {
-        "phrase": "Hard to persuade",
-        "dim": "changing course",
-        "door": "mind",
-        "face": "excess",
-        "echo_of": "土_火.carry.excess",
-        "desc": "Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map."
-      },
-      {
-        "phrase": "Drained by deadlines",
-        "dim": "output on demand",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "土_金.function.definition_friction",
-        "desc": "More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you."
-      },
-      {
-        "phrase": "Micromanages",
-        "dim": "control",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "土_水.function.definition_friction",
-        "desc": "Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect."
-      },
-      {
-        "phrase": "Never forgives itself",
-        "dim": "being judged",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "土_木.function.definition_friction",
-        "desc": "Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years."
-      }
-    ],
-    "door_note": {
-      "body": "Earth",
-      "mind": "Fire",
-      "expression": "Metal",
-      "action": "Water",
-      "order": "Wood"
-    },
-    "yourNature_desc": "You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying.",
-    "dm_overview": "The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair.",
-    "who": null,
-    "energy_faces": null,
-    "__ore": {
-      "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
-      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
-      "subtitle": "The ground others orient by without naming · The Stability Impulse (Yang)",
-      "chips": [
-        "Grounding",
-        "Load-bearing",
-        "Change-resistant",
-        "Silently accumulating",
-        "Orientation-providing"
-      ],
-      "yourNature_phrase": "The Mountain Warden",
-      "elementIntro": {
-        "punch": "The Mountain is Yang Earth — the settled, load-bearing ground that does not move.",
-        "expand": "Solid and orienting, it is the reference point others find their position by, holding far more than it ever lets show."
-      },
-      "manual": {
-        "concentrated": "The grounding quality becomes literal heaviness. Things that should move don't. Decisions that should be made get postponed. Weight accumulates without being processed. Classical texts warn 土重则滞 (excess Earth creates stagnation) — when the Mountain grows too dense, nothing moves across it. Opportunities pass because the inertia of consolidation prevents engagement with what's new. The environment becomes utterly reliable but genuinely stuck. Stability, which was the gift, becomes the trap when it refuses to distinguish between what should be held and what should be released.",
-        "open": "Foundational stability is hard to access. Things don't land or hold. Projects start but don't root — growth happens above ground, but there's no foundation for it to anchor into. Financial and physical accumulation is more difficult. The environment feels unstable or mobile in ways that are exhausting rather than exciting. Others can't build on what you offer because the surface keeps shifting before they get a chance to establish themselves on it.",
-        "catalyst": "Activate it by doing the foundation work: establish the structure, formalize the arrangement, secure the position, sign the commitment. This is not a \"explore and expand\" energy — it is \"consolidate what you have and make it permanent.\" The productive use is making the tentative fixed. Outcome: what was provisional becomes stable. Resources stop moving and start accumulating. What is built now stays built in a way that the previous period of movement never allowed, and the groundwork laid here supports the next several years of activity on top of it.",
-        "resistance": "When 戊 energy is creating friction — stability is working against the movement the chart needs. The ground is too fixed to accommodate necessary change. Don't try to remove the Mountain; find the path it allows. Use Wood energy (growth impulse, directionality) to create movement within the structure rather than against it — not breaking the foundation, but finding where within it something new can grow. Outcome: resistance becomes framework, and what felt like an obstacle becomes the specific form within which something worthwhile can be built."
-      },
-      "energy": null,
-      "psych": null,
-      "archetypes": null,
-      "blocks": [
-        {
-          "label": "How you experience the world",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "You're what people orient by. You provide a kind of psychological ground — a stable reference point others use without thinking about it. Conversations land differently around you. Decisions get made based on what you think, often before anyone has formally asked. People plan their lives around your presence. The reliability isn't something you practice or maintain through effort — it's what you're made of, the way a mountain is made of stone rather than holding itself up by trying.",
-            "concentrated": "When the grounding force is this saturated, the stability becomes literal heaviness. You're not just steady — you're immovable, and what should shift in you settles instead. People lean on you more than ever because nothing about you gives, and that's exactly the trap: the same density that makes you the ground everyone stands on makes it genuinely hard for you to move when moving is what's called for. At full strength you are utterly dependable and quietly stuck.",
-            "open": "The grounding quality is real but harder to provide. You still want to be the steady one — the reliability is genuine — but the solidity that normally holds without effort arrives thinner, and you can feel the ground under others shifting when it should be firm. Being depended on takes effort that should be structural. The steadiness is intact; what's harder to access is the effortless permanence others used to build on.",
-            "tested": "The ground itself is being tested, and your steadiness takes its shape from the pressure. When authority energy presses on the Mountain, you're holding the weight and being weighed at once — the reliability everyone leans on is also under examination. If the standard is legitimate, the pressure gives your stability a direction and turns load-bearing into genuine authority. If it isn't, you hold a position that's costing you more than it should, because holding is what you're for.",
-            "pure": "With no dominant force directing what the stability serves, your steadiness runs as its essential self — not held for gain, not anchored to a particular role, not pressed by authority. What arrives is pure ground: you're solid because solid is what you are, and what's worth bearing is genuinely yours to choose. The world is a field of things that could be supported, and for once nothing has pre-decided which deserve your weight. This is the unconstrained Mountain — free to hold what actually matters.",
-            "rooted": "Resource energy backing the Earth means your stability draws from a deep source. The ground steadies further here — slow, patient, almost geological — and it commits: you support specific things across very long spans rather than holding everything equally. The friction mirrors the gift: the same depth that makes you unshakeable can make you the last to move when a situation has genuinely ended and release is what it calls for.",
-            "flowing": "Output energy gives your stability somewhere to go. The ground no longer just holds — it produces: the steadiness becomes the platform other things are built on, the reliable base that turns into actual output. You experience your solidity as generative rather than merely enduring. At your most expressive this is the Mountain at its best — not just bearing the weight, but growing something on the ground you've made."
-          }
-        },
-        {
-          "label": "What you're genuinely good at",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "Holding what needs holding — weight, stress, uncertainty, pressure — without showing the cost in a way that makes others feel responsible for it. Building things that last because you genuinely cannot tolerate building things that won't. Following through across time, not as a discipline you impose on yourself but as a structural fact. Being the person in the room who's still there when the dramatic options have run out.",
-            "concentrated": "Holding more than anyone realizes — almost too much. With the load-bearing force this saturated, your capacity to absorb weight, stress, and uncertainty is enormous, and everyone around you quietly relies on it. The catch is that the same density that lets you hold everything makes setting any of it down feel like failure, so the load only accumulates. At full strength you're extraordinary at bearing weight and strained at ever releasing it.",
-            "open": "The capability is real but harder to summon. You still want to be the one who holds — the reliability is genuine — but bearing the weight takes more out of you than it does when the ground is strong, and you can feel the load nearer the surface than it should be. The steadiness is there; what's harder to reach is the effortless absorption that used to make holding feel like nothing. What you're good at is real; it just needs more support beneath it to carry the full load.",
-            "tested": "Bearing weight under pressure — holding the line while something tests whether it'll hold. When legitimate authority sets the terms, your gift sharpens from \"hold everything\" to \"hold the thing that actually matters, against real force,\" and the test turns endurance into demonstrated authority. You're good at being the one who doesn't break when the pressure is genuine — the steadiness that's worth more because it was proven, not assumed.",
-            "pure": "Pure steadiness — the gift in its least mediated form. With no dominant force directing the support, what you're good at is the holding itself: being the ground that doesn't move, the reliability others build on, present because presence is what you are. You're at your best where the value is in the steadiness rather than what it's made to serve — where something or someone needs a base that simply won't give way. What you bear is yours to choose.",
-            "rooted": "Building things that genuinely last, because the foundation goes all the way down. With resource energy backing you, your gift comes with permanence — you don't just hold, you hold across spans most people can't imagine committing to. What you're good at is the rare pairing of stability and depth: the support that's still there decades later. The trade is adaptability; you're built for the long foundation, less for the quick rebuild.",
-            "flowing": "Turning steadiness into structure. With expression energy in play, your gift isn't only holding the weight — it's building on it: the reliable ground becomes the platform, the institution, the thing that stands because you made the base that could carry it. You're good at the whole arc from foundation to edifice, where a purely enduring configuration would stop at \"still here.\" The ground bears something."
-          }
-        },
-        {
-          "label": "Where you consistently get stuck",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "The same quality that makes you load-bearing makes genuine movement difficult. When something needs to change — a relationship that's over, a position no longer tenable — you can hold it in place long past the point where the situation calls for release. Not from stubbornness. More from the fact that the stability everyone relies on makes shifting feel like a betrayal of what you're for.\n\nThere's also a slow accumulation of unspoken costs. You absorb a great deal without naming it. Over time this produces weight no one sees — because you never showed it — which means no one thought to ask whether you were okay."
-          }
-        },
-        {
-          "label": "What changes when conditions are right",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "When you've learned to distinguish between what needs to be held and what needs to be released, you become dramatically more powerful than the version of you that holds everything equally. The fire that activates you doesn't destabilize the stability — it gives the holding a direction. What was simply present becomes generative. What was enduring begins to produce."
-          }
-        },
-        {
-          "label": "What you rarely admit",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "That you need things too — specific things, from specific people — and have spent so long not needing anything visibly that you've almost stopped knowing how to name what those things are. You're so reliably there for everyone else that the question of what you need has largely stopped being asked. Which means it's also largely stopped being answered."
-          }
-        }
-      ],
-      "retired_band_pools": {
-        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
-        "gifts": [
-          {
-            "phrase": "Everyone's rock",
-            "dim": "being leaned on",
-            "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Shows up regardless",
-            "dim": "showing up",
-            "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Calm under fire",
-            "dim": "crisis",
-            "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Safe harbor",
-            "dim": "secrets",
-            "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
-          },
-          {
-            "phrase": "Slow and sure",
-            "dim": "pace",
-            "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
-            "bands": [
-              "open"
-            ]
-          }
-        ],
-        "shadows": [
-          {
-            "phrase": "Bottles it up",
-            "dim": "sharing the load",
-            "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Waits too long",
-            "dim": "fixable problems",
-            "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Can't let go",
-            "dim": "endings",
-            "desc": "Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Set in stone",
-            "dim": "changing course",
-            "desc": "Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Quietly overwhelmed",
-            "dim": "capacity",
-            "desc": "The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.",
-            "bands": [
-              "open"
-            ]
-          }
-        ]
-      },
-      "retired_thin_self_items": [],
-      "retired_door_audit_2026-09-16": [
-        {
-          "phrase": "Waits too long",
-          "dim": "fixable problems",
-          "door": "mind",
-          "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
-          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
-        }
-      ],
-      "retired_derivation_law_2026-09-16": [
-        {
-          "phrase": "Calm under fire",
-          "dim": "crisis",
-          "door": "order",
-          "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Safe harbor",
-          "dim": "secrets",
-          "door": "mind",
-          "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Slow and sure",
-          "dim": "pace",
-          "door": "action",
-          "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Bottles it up",
-          "dim": "sharing the load",
-          "door": "body",
-          "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Dumps the load",
-          "dim": "finally speaking",
-          "door": "expression",
-          "desc": "Once you finally speak, all of it comes down at once, years of it, on whoever is standing there.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Dams the river",
-          "dim": "letting things flow",
-          "door": "action",
-          "desc": "What could flow gets dammed. Money, plans, people, all held until the pressure shows.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        }
-      ],
-      "retired_inner_judge_2026-09-17": [
-        {
-          "phrase": "Quietly overwhelmed",
-          "dim": "capacity",
-          "door": "order",
-          "face": "echo",
-          "echo_of": "土_木.function.definition_friction",
-          "desc": "Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight.",
-          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
-        }
-      ],
-      "retired_2026-09-21_cold_read": {
-        "shadows.Set in stone": {
-          "phrase": "Set in stone",
-          "dim": "changing course",
-          "door": "mind",
-          "face": "excess",
-          "echo_of": "土_火.carry.excess",
-          "desc": "Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map."
-        },
-        "shadows.Manages everything": {
-          "phrase": "Manages everything",
-          "dim": "control",
-          "door": "action",
-          "face": "echo",
-          "echo_of": "土_水.function.definition_friction",
-          "desc": "Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect."
-        }
-      },
-      "retired_2026-10-17_diagnosis": {
-        "status": "REVIVED 2026-10-27",
-        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
-      },
-      "retired_2026-10-27_manifesto_l1": "Immovable by design"
+     {
+      "phrase": "Bottles it up",
+      "dim": "sharing the load",
+      "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Waits too long",
+      "dim": "fixable problems",
+      "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Can't let go",
+      "dim": "endings",
+      "desc": "Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Set in stone",
+      "dim": "changing course",
+      "desc": "Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Quietly overwhelmed",
+      "dim": "capacity",
+      "desc": "The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.",
+      "bands": [
+       "open"
+      ]
+     }
+    ]
+   },
+   "retired_thin_self_items": [],
+   "retired_door_audit_2026-09-16": [
+    {
+     "phrase": "Waits too long",
+     "dim": "fixable problems",
+     "door": "mind",
+     "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
+     "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
     }
-  },
-  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
-  "field_status": {
-    "who": "TO WRITE · opened 2026-10-18",
-    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
-    "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M戊 A): two or three plain adjectives, replacing \"Immovable by design\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
-    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
-    "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "energy_faces": "TO WRITE · after the 庚 template is ruled"
+   ],
+   "retired_derivation_law_2026-09-16": [
+    {
+     "phrase": "Calm under fire",
+     "dim": "crisis",
+     "door": "order",
+     "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Safe harbor",
+     "dim": "secrets",
+     "door": "mind",
+     "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Slow and sure",
+     "dim": "pace",
+     "door": "action",
+     "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Bottles it up",
+     "dim": "sharing the load",
+     "door": "body",
+     "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Dumps the load",
+     "dim": "finally speaking",
+     "door": "expression",
+     "desc": "Once you finally speak, all of it comes down at once, years of it, on whoever is standing there.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Dams the river",
+     "dim": "letting things flow",
+     "door": "action",
+     "desc": "What could flow gets dammed. Money, plans, people, all held until the pressure shows.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    }
+   ],
+   "retired_inner_judge_2026-09-17": [
+    {
+     "phrase": "Quietly overwhelmed",
+     "dim": "capacity",
+     "door": "order",
+     "face": "echo",
+     "echo_of": "土_木.function.definition_friction",
+     "desc": "Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight.",
+     "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
+    }
+   ],
+   "retired_2026-09-21_cold_read": {
+    "shadows.Set in stone": {
+     "phrase": "Set in stone",
+     "dim": "changing course",
+     "door": "mind",
+     "face": "excess",
+     "echo_of": "土_火.carry.excess",
+     "desc": "Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map."
+    },
+    "shadows.Manages everything": {
+     "phrase": "Manages everything",
+     "dim": "control",
+     "door": "action",
+     "face": "echo",
+     "echo_of": "土_水.function.definition_friction",
+     "desc": "Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect."
+    }
+   },
+   "retired_2026-10-17_diagnosis": {
+    "status": "REVIVED 2026-10-27",
+    "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
+   },
+   "retired_2026-10-27_manifesto_l1": "Immovable by design"
   }
+ },
+ "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
+ "field_status": {
+  "who": "TO WRITE · opened 2026-10-18",
+  "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
+  "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M戊 A): two or three plain adjectives, replacing \"Immovable by design\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
+  "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
+  "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "energy_faces": "TO WRITE · after the 庚 template is ruled",
+  "ladder": "RULED 2026-11-13 (owner P-戊 A; the Blade from V0–V9 A): the revelation's stem lines on the explanation ladder"
+ }
 }

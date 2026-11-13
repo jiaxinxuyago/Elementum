@@ -1,513 +1,522 @@
 {
-  "$archetype": "ji",
-  "axis": "STEM",
-  "key": "己",
-  "canonical_name": "The Field",
-  "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
-  "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
-  "sources": [
-    "Elementum_App/src/content/archetypeSource.js",
-    "src/content/reading/readingContent.js (DM_READING)",
-    "buildIdentity"
+ "$archetype": "ji",
+ "axis": "STEM",
+ "key": "己",
+ "canonical_name": "The Field",
+ "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
+ "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
+ "sources": [
+  "Elementum_App/src/content/archetypeSource.js",
+  "src/content/reading/readingContent.js (DM_READING)",
+  "buildIdentity"
+ ],
+ "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
+ "candidates": {
+  "archetype_name": "The Field",
+  "manifesto": "Patient, receptive, quiet · You are the Earth that turns what it holds into growth.",
+  "inscription": "Everything you tend grows, and the harvest goes home in other people's hands.",
+  "stem_keywords": [
+   "Nurturing",
+   "Patient",
+   "Receptive"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
-  "candidates": {
-    "archetype_name": "The Field",
-    "manifesto": "Patient, receptive, quiet · You are the Earth that turns what it holds into growth.",
-    "inscription": "Everything you tend grows, and the harvest goes home in other people's hands.",
-    "stem_keywords": [
-      "Nurturing",
-      "Patient",
-      "Receptive"
-    ],
-    "pinyin_display": "JǏ · YIN EARTH",
-    "dm_claims": [
-      "You make things grow by tending, not by forcing.",
-      "People feel steadier after time with you and cannot say why."
-    ],
-    "dm_mechanism": "Yin Earth that nourishes quietly, fertile ground that asks for no credit.",
+  "pinyin_display": "JǏ · YIN EARTH",
+  "dm_claims": [
+   "You make things grow by tending, not by forcing.",
+   "People feel steadier after time with you and cannot say why."
+  ],
+  "dm_mechanism": "Yin Earth that nourishes quietly, fertile ground that asks for no credit.",
+  "gifts": [
+   {
+    "phrase": "Restful company",
+    "dim": "presence",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "土_土.function.definition_catalyst",
+    "desc": "Nobody performs around you. The physical calm under everything lets friends unclench, say the true version, and stay an hour longer than they planned."
+   },
+   {
+    "phrase": "Quietly essential",
+    "dim": "being noticed",
+    "door": "body",
+    "face": "wide",
+    "echo_of": "土_土.function.definition_catalyst",
+    "desc": "Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering."
+   },
+   {
+    "phrase": "Never forgets a kindness",
+    "dim": "how you learn",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "土_火.function.definition_catalyst",
+    "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
+   },
+   {
+    "phrase": "Perfect timing",
+    "dim": "timing",
+    "door": "mind",
+    "face": "wide",
+    "echo_of": "土_火.carry.wide",
+    "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
+   },
+   {
+    "phrase": "Every word counts",
+    "dim": "speaking up",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "土_金.function.definition_catalyst",
+    "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
+   },
+   {
+    "phrase": "Feeds the table",
+    "dim": "provision",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "土_水.function.definition_catalyst",
+    "desc": "There is always enough. Money, chances, people in motion pass through your steady hands, and nobody asks how it was there before they were hungry."
+   },
+   {
+    "phrase": "Keeps every promise",
+    "dim": "obligations",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "土_木.function.definition_catalyst",
+    "desc": "Your care does not have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
+   }
+  ],
+  "shadows": [
+   {
+    "phrase": "Bogged down",
+    "dim": "what gets dropped",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "土_土.function.definition_friction",
+    "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
+   },
+   {
+    "phrase": "Resists change",
+    "dim": "changing course",
+    "door": "body",
+    "face": "excess",
+    "echo_of": "土_土.carry.excess",
+    "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
+   },
+   {
+    "phrase": "Lives on praise",
+    "dim": "praise",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "土_火.function.definition_friction",
+    "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
+   },
+   {
+    "phrase": "Busy but barren",
+    "dim": "producing",
+    "door": "mind",
+    "face": "excess",
+    "echo_of": "土_火.carry.excess",
+    "desc": "Baked hard by too much heat. Busy, warm, and producing nothing you wanted."
+   },
+   {
+    "phrase": "Drained by demands",
+    "dim": "output on demand",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "土_金.function.definition_friction",
+    "desc": "Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground."
+   },
+   {
+    "phrase": "Penny-watcher",
+    "dim": "control",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "土_水.function.definition_friction",
+    "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
+   },
+   {
+    "phrase": "Sorry for everything",
+    "dim": "being judged",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "土_木.function.definition_friction",
+    "desc": "The yes is out before you have checked the tank, and when you fall short the harshest judgement comes from inside. You apologize for the weather."
+   }
+  ],
+  "door_note": {
+   "body": "Earth",
+   "mind": "Fire",
+   "expression": "Metal",
+   "action": "Water",
+   "order": "Wood"
+  },
+  "yourNature_desc": "You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late.",
+  "dm_overview": "The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away.",
+  "who": null,
+  "energy_faces": null,
+  "ladder": {
+   "element_line": "Yin Earth, the field that turns what it holds into growth.",
+   "recognition": "The people around you grow, and you are part of the reason.",
+   "as_line": "As a Field, you are that quiet care in a person.",
+   "behaviour": "You notice what someone needs before they ask.",
+   "contrast": "People see someone easy and calm. Inside, you are keeping track of everyone's needs, yours last.",
+   "self_nature": "Earth is your own element: the soil that grows things."
+  },
+  "__ore": {
+   "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+   "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
+   "subtitle": "Growing things in others without announcing it · The Stability Impulse (Yin)",
+   "chips": [
+    "Nurturing",
+    "Developmentally attuned",
+    "Invisibly depleting",
+    "Overcultivating",
+    "Responsive"
+   ],
+   "yourNature_phrase": "The Palace Gardener",
+   "elementIntro": {
+    "punch": "The Field is Yin Earth — soil that grows whatever it is given.",
+    "expand": "Receptive and quietly generous, it creates the conditions for others to grow into themselves, and asks no credit for the growth."
+   },
+   "manual": {
+    "concentrated": "The receptive and nurturing quality becomes absorptive without filtration. The environment or person pulls in difficulties as readily as it nourishes growth. Classical texts describe 己土混浊 (己 Earth becomes muddy) — when the fertile soil absorbs too much without drainage, it loses its cultivating quality entirely and becomes mud. Overthinking, rumination, and carrying others' emotional weight characterizes the excess state. The Field grows weeds as readily as it grows crops when there's no selectivity about what gets tended.",
+    "open": "The patient-development quality is absent. Growth happens but nothing is tended. People and projects are initiated but not cultivated. The environment lacks the quiet, sustained presence that allows things to develop at their natural pace — which means the depth of development that slow nourishment produces simply never arrives. Quick results get prioritized over lasting ones, and nothing reaches the quality it could have reached with genuine care.",
+    "catalyst": "Activate it by investing attention and care in what is already growing rather than starting something new. This is the energy for tending: deepening existing relationships, developing skills that have already been started, returning to projects that were begun but not fully cultivated. It specifically rewards patience — what receives genuine care and attention now develops into something of real substance over the next period. Outcome: things that were beginning deepen, relationships that were forming solidify, work that was surface-level becomes genuinely developed.",
+    "resistance": "When 己 energy is creating friction — the absorptive quality is pulling in more than the chart can process. Obligations, relationships, and projects are accumulating faster than they can be properly nurtured. The corrective is deliberate selectivity: explicitly choose what deserves the cultivation energy and stop absorbing what doesn't. Use Metal energy (boundary, definition, cutting) to create filtration — allowing only the right material into the nurturing field. Outcome: caregiving becomes targeted and powerful rather than diffuse and depleting, and what was an endless drain converts into sustainable, productive investment."
+   },
+   "energy": null,
+   "psych": null,
+   "archetypes": null,
+   "blocks": [
+    {
+     "label": "How you experience the world",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "You grow things in everyone you encounter — before you decide to. You notice what people and situations need and respond before being asked, the way fertile soil responds to a seed by providing what's required for it to grow. People develop in your presence in ways they often attribute entirely to themselves — not recognizing that the conditions making the growth possible were created by someone paying close, quiet attention to what was needed.",
+      "concentrated": "When the nurturing force is this saturated, you cultivate everything and everyone in reach — noticing needs, supplying conditions, tending growth in every direction at once. The generosity is enormous. The structural cost is that soil this active absorbs as readily as it feeds: you pull in everyone's difficulties along with their potential, and without drainage the fertile ground turns to mud. At full strength you grow remarkable things in others and quietly lose track of your own boundary.",
+      "open": "The cultivating quality is real but harder to provide. You still notice what people need — the attunement is genuine — but the patient, sustained tending that normally flows without effort arrives thinner, and growth that should take root around you stays shallow. Caring takes effort that used to be structural. The fertility is intact; what's harder to access is the effortless provision others quietly depended on.",
+      "tested": "What you're cultivating is being judged, and your nurturing takes its shape from the scrutiny. When authority energy presses on the Field, the care you give is also being measured — you're growing something while a standard asks whether it's good enough. If the standard is legitimate, it gives your cultivation a direction and turns diffuse nurturing into deliberate development. If it isn't, you over-tend defensively, supplying more than the situation needs to prove the care is real.",
+      "pure": "With no dominant force directing what the cultivation serves, your nurturing runs as its essential self — not given to secure a return, not anchored to a heavy base, not pressed by authority. What arrives is pure provision: you create the conditions for growth because that's what you are, and what deserves your fertility is genuinely yours to choose. The world is a field of things that could be grown, and for once nothing has pre-decided which. This is the unconstrained Field — free to tend what actually matters.",
+      "rooted": "Resource energy backing the Earth means your cultivation draws from a deep reserve. The tending steadies here — patient, sustained, almost seasonal — and it commits: you develop a few people or projects across very long spans rather than scattering care across everyone who arrives. The friction mirrors the gift: the same depth that makes your nourishment lasting can make you slow to stop tending something that has outgrown your help.",
+      "flowing": "Output energy gives your cultivation somewhere to go. The tending no longer just nourishes — it produces: the care becomes things grown to completion, people developed into who they were becoming, work that visibly bears your quiet attention. You experience nurturing as generative rather than merely supportive. At your most expressive this is the Field at its best — the soil that doesn't just feed the seed but brings the whole harvest in."
+     }
+    },
+    {
+     "label": "What you're genuinely good at",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "Reading what a person or situation actually needs — not what's being asked for, but the underlying requirement. Following through on care consistently across time, not just when it's convenient or visible. Building relationships that genuinely develop people rather than simply maintaining proximity. Producing a kind of trust earned specifically by consistency: when you say you'll show up, you do, and people build their lives around that accordingly.",
+      "concentrated": "Reading need — almost too much of it. With the nurturing force this saturated, you sense what everyone around you requires before they've said it, and you move to supply it. The perceptiveness is real and the care is genuine. The catch is that sensing every need feels like an obligation to meet it, so you cultivate indiscriminately and deplete invisibly — growing things in people who never planted anything in you. At full strength you're extraordinary at provision and strained at withholding it.",
+      "open": "The gift is real but harder to reach for. You still read what people need and still want to provide it — the attunement doesn't vanish — but the sustained follow-through takes more from you than it does when the ground is strong. The care lives slightly out of reach: you can sense the need without quite having the reserve to meet it consistently. What you're good at is genuine; it just needs replenishment beneath it to sustain the giving.",
+      "tested": "Developing people under scrutiny — cultivating real growth while a standard watches. When legitimate authority sets the terms, your gift sharpens from \"tend everyone\" to \"develop the thing that actually matters, to a real standard,\" and the constraint turns soft nurturing into genuine craft. You're good at growing people and work that hold up under examination — care that produces something demonstrably better, not just something that feels supported.",
+      "pure": "Pure cultivation — the gift in its least mediated form. With no dominant force directing the care, what you're good at is the provision itself: reading what something needs and supplying it because that's what you do, not because it's aimed at a return. You're at your best where the value is in the growth rather than what it earns you — where a person or a project needs the conditions only patient attention provides. Who you tend is yours to choose.",
+      "rooted": "Growing things that genuinely last, because the soil goes deep. With resource energy backing you, your gift comes with staying power — you don't just tend something once, you develop it across the spans real growth actually requires. What you're good at is the rare pairing of attunement and endurance: the care that's still there years into the slow work. The trade is breadth; you develop a few people deeply rather than touching many lightly.",
+      "flowing": "Turning care into harvest. With expression energy in play, your gift isn't only tending growth — it's bringing it to fruit: the cultivation lands as people who became who they were meant to be, projects developed to completion, the visible result of patient attention. You're good at the whole arc from seed to harvest, where a purely nurturing configuration would stop at \"I helped them grow.\" The care bears fruit."
+     }
+    },
+    {
+     "label": "Where you consistently get stuck",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "You deplete invisibly. The nourishment flows outward without being tracked — and by the time the deficit becomes visible, it's been accumulating for months. The growth you create in others tends to be attributed to those others, which means you're chronically undercompensated for what you actually produce. You're also particularly susceptible to investing in contexts that absorb without returning. You're often the last to notice this, partly because caring about whether care is being returned feels, to you, like a betrayal of what genuine care should be."
+     }
+    },
+    {
+     "label": "What changes when conditions are right",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "In genuinely reciprocal conditions — where the care flows in both directions and you're being nourished at the same rate you nourish — what you produce is extraordinary. The growth that was quiet and consistent becomes visible and remarkable. The practice is treating your own fertility as something worth protecting rather than something to be fully spent on whoever arrives."
+     }
+    },
+    {
+     "label": "What you rarely admit",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "That you keep score, quietly — and that the accounting is often worse than anyone around you knows. You don't say this because saying it feels contrary to what care is supposed to be. But the gap between what's given and what returns is real, and it accumulates in you even when it isn't visible to anyone else."
+     }
+    }
+   ],
+   "retired_band_pools": {
+    "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
     "gifts": [
-      {
-        "phrase": "Restful company",
-        "dim": "presence",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "土_土.function.definition_catalyst",
-        "desc": "Nobody performs around you. The physical calm under everything lets friends unclench, say the true version, and stay an hour longer than they planned."
-      },
-      {
-        "phrase": "Quietly essential",
-        "dim": "being noticed",
-        "door": "body",
-        "face": "wide",
-        "echo_of": "土_土.function.definition_catalyst",
-        "desc": "Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering."
-      },
-      {
-        "phrase": "Never forgets a kindness",
-        "dim": "how you learn",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "土_火.function.definition_catalyst",
-        "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
-      },
-      {
-        "phrase": "Perfect timing",
-        "dim": "timing",
-        "door": "mind",
-        "face": "wide",
-        "echo_of": "土_火.carry.wide",
-        "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
-      },
-      {
-        "phrase": "Every word counts",
-        "dim": "speaking up",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "土_金.function.definition_catalyst",
-        "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
-      },
-      {
-        "phrase": "Feeds the table",
-        "dim": "provision",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "土_水.function.definition_catalyst",
-        "desc": "There is always enough. Money, chances, people in motion pass through your steady hands, and nobody asks how it was there before they were hungry."
-      },
-      {
-        "phrase": "Keeps every promise",
-        "dim": "obligations",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "土_木.function.definition_catalyst",
-        "desc": "Your care does not have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
-      }
+     {
+      "phrase": "Anticipates needs",
+      "dim": "unspoken needs",
+      "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Grows people",
+      "dim": "others' growth",
+      "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Keeps every promise",
+      "dim": "promises",
+      "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Restful company",
+      "dim": "comfort",
+      "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.",
+      "bands": [
+       "balanced",
+       "open"
+      ]
+     },
+     {
+      "phrase": "Quietly essential",
+      "dim": "being noticed",
+      "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.",
+      "bands": [
+       "open"
+      ]
+     }
     ],
     "shadows": [
-      {
-        "phrase": "Bogged down",
-        "dim": "what gets dropped",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "土_土.function.definition_friction",
-        "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
-      },
-      {
-        "phrase": "Resists change",
-        "dim": "changing course",
-        "door": "body",
-        "face": "excess",
-        "echo_of": "土_土.carry.excess",
-        "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
-      },
-      {
-        "phrase": "Lives on praise",
-        "dim": "praise",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "土_火.function.definition_friction",
-        "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
-      },
-      {
-        "phrase": "Busy but barren",
-        "dim": "producing",
-        "door": "mind",
-        "face": "excess",
-        "echo_of": "土_火.carry.excess",
-        "desc": "Baked hard by too much heat. Busy, warm, and producing nothing you wanted."
-      },
-      {
-        "phrase": "Drained by demands",
-        "dim": "output on demand",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "土_金.function.definition_friction",
-        "desc": "Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground."
-      },
-      {
-        "phrase": "Penny-watcher",
-        "dim": "control",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "土_水.function.definition_friction",
-        "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
-      },
-      {
-        "phrase": "Sorry for everything",
-        "dim": "being judged",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "土_木.function.definition_friction",
-        "desc": "The yes is out before you have checked the tank, and when you fall short the harshest judgement comes from inside. You apologize for the weather."
-      }
-    ],
-    "door_note": {
-      "body": "Earth",
-      "mind": "Fire",
-      "expression": "Metal",
-      "action": "Water",
-      "order": "Wood"
+     {
+      "phrase": "Too agreeable",
+      "dim": "own preferences",
+      "desc": "The group picks the plan and you say it's fine. It usually is. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Neglects own growth",
+      "dim": "own growth",
+      "desc": "Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Can't say no",
+      "dim": "saying no",
+      "desc": "The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Smothers a little",
+      "dim": "hard lessons",
+      "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Worn thin",
+      "dim": "personal reserves",
+      "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.",
+      "bands": [
+       "open"
+      ]
+     }
+    ]
+   },
+   "retired_thin_self_items": [],
+   "retired_derivation_law_2026-09-16": [
+    {
+     "phrase": "Anticipates needs",
+     "dim": "unspoken needs",
+     "door": "mind",
+     "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
     },
-    "yourNature_desc": "You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late.",
-    "dm_overview": "The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away.",
-    "who": null,
-    "energy_faces": null,
-    "__ore": {
-      "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
-      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
-      "subtitle": "Growing things in others without announcing it · The Stability Impulse (Yin)",
-      "chips": [
-        "Nurturing",
-        "Developmentally attuned",
-        "Invisibly depleting",
-        "Overcultivating",
-        "Responsive"
-      ],
-      "yourNature_phrase": "The Palace Gardener",
-      "elementIntro": {
-        "punch": "The Field is Yin Earth — soil that grows whatever it is given.",
-        "expand": "Receptive and quietly generous, it creates the conditions for others to grow into themselves, and asks no credit for the growth."
-      },
-      "manual": {
-        "concentrated": "The receptive and nurturing quality becomes absorptive without filtration. The environment or person pulls in difficulties as readily as it nourishes growth. Classical texts describe 己土混浊 (己 Earth becomes muddy) — when the fertile soil absorbs too much without drainage, it loses its cultivating quality entirely and becomes mud. Overthinking, rumination, and carrying others' emotional weight characterizes the excess state. The Field grows weeds as readily as it grows crops when there's no selectivity about what gets tended.",
-        "open": "The patient-development quality is absent. Growth happens but nothing is tended. People and projects are initiated but not cultivated. The environment lacks the quiet, sustained presence that allows things to develop at their natural pace — which means the depth of development that slow nourishment produces simply never arrives. Quick results get prioritized over lasting ones, and nothing reaches the quality it could have reached with genuine care.",
-        "catalyst": "Activate it by investing attention and care in what is already growing rather than starting something new. This is the energy for tending: deepening existing relationships, developing skills that have already been started, returning to projects that were begun but not fully cultivated. It specifically rewards patience — what receives genuine care and attention now develops into something of real substance over the next period. Outcome: things that were beginning deepen, relationships that were forming solidify, work that was surface-level becomes genuinely developed.",
-        "resistance": "When 己 energy is creating friction — the absorptive quality is pulling in more than the chart can process. Obligations, relationships, and projects are accumulating faster than they can be properly nurtured. The corrective is deliberate selectivity: explicitly choose what deserves the cultivation energy and stop absorbing what doesn't. Use Metal energy (boundary, definition, cutting) to create filtration — allowing only the right material into the nurturing field. Outcome: caregiving becomes targeted and powerful rather than diffuse and depleting, and what was an endless drain converts into sustainable, productive investment."
-      },
-      "energy": null,
-      "psych": null,
-      "archetypes": null,
-      "blocks": [
-        {
-          "label": "How you experience the world",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "You grow things in everyone you encounter — before you decide to. You notice what people and situations need and respond before being asked, the way fertile soil responds to a seed by providing what's required for it to grow. People develop in your presence in ways they often attribute entirely to themselves — not recognizing that the conditions making the growth possible were created by someone paying close, quiet attention to what was needed.",
-            "concentrated": "When the nurturing force is this saturated, you cultivate everything and everyone in reach — noticing needs, supplying conditions, tending growth in every direction at once. The generosity is enormous. The structural cost is that soil this active absorbs as readily as it feeds: you pull in everyone's difficulties along with their potential, and without drainage the fertile ground turns to mud. At full strength you grow remarkable things in others and quietly lose track of your own boundary.",
-            "open": "The cultivating quality is real but harder to provide. You still notice what people need — the attunement is genuine — but the patient, sustained tending that normally flows without effort arrives thinner, and growth that should take root around you stays shallow. Caring takes effort that used to be structural. The fertility is intact; what's harder to access is the effortless provision others quietly depended on.",
-            "tested": "What you're cultivating is being judged, and your nurturing takes its shape from the scrutiny. When authority energy presses on the Field, the care you give is also being measured — you're growing something while a standard asks whether it's good enough. If the standard is legitimate, it gives your cultivation a direction and turns diffuse nurturing into deliberate development. If it isn't, you over-tend defensively, supplying more than the situation needs to prove the care is real.",
-            "pure": "With no dominant force directing what the cultivation serves, your nurturing runs as its essential self — not given to secure a return, not anchored to a heavy base, not pressed by authority. What arrives is pure provision: you create the conditions for growth because that's what you are, and what deserves your fertility is genuinely yours to choose. The world is a field of things that could be grown, and for once nothing has pre-decided which. This is the unconstrained Field — free to tend what actually matters.",
-            "rooted": "Resource energy backing the Earth means your cultivation draws from a deep reserve. The tending steadies here — patient, sustained, almost seasonal — and it commits: you develop a few people or projects across very long spans rather than scattering care across everyone who arrives. The friction mirrors the gift: the same depth that makes your nourishment lasting can make you slow to stop tending something that has outgrown your help.",
-            "flowing": "Output energy gives your cultivation somewhere to go. The tending no longer just nourishes — it produces: the care becomes things grown to completion, people developed into who they were becoming, work that visibly bears your quiet attention. You experience nurturing as generative rather than merely supportive. At your most expressive this is the Field at its best — the soil that doesn't just feed the seed but brings the whole harvest in."
-          }
-        },
-        {
-          "label": "What you're genuinely good at",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "Reading what a person or situation actually needs — not what's being asked for, but the underlying requirement. Following through on care consistently across time, not just when it's convenient or visible. Building relationships that genuinely develop people rather than simply maintaining proximity. Producing a kind of trust earned specifically by consistency: when you say you'll show up, you do, and people build their lives around that accordingly.",
-            "concentrated": "Reading need — almost too much of it. With the nurturing force this saturated, you sense what everyone around you requires before they've said it, and you move to supply it. The perceptiveness is real and the care is genuine. The catch is that sensing every need feels like an obligation to meet it, so you cultivate indiscriminately and deplete invisibly — growing things in people who never planted anything in you. At full strength you're extraordinary at provision and strained at withholding it.",
-            "open": "The gift is real but harder to reach for. You still read what people need and still want to provide it — the attunement doesn't vanish — but the sustained follow-through takes more from you than it does when the ground is strong. The care lives slightly out of reach: you can sense the need without quite having the reserve to meet it consistently. What you're good at is genuine; it just needs replenishment beneath it to sustain the giving.",
-            "tested": "Developing people under scrutiny — cultivating real growth while a standard watches. When legitimate authority sets the terms, your gift sharpens from \"tend everyone\" to \"develop the thing that actually matters, to a real standard,\" and the constraint turns soft nurturing into genuine craft. You're good at growing people and work that hold up under examination — care that produces something demonstrably better, not just something that feels supported.",
-            "pure": "Pure cultivation — the gift in its least mediated form. With no dominant force directing the care, what you're good at is the provision itself: reading what something needs and supplying it because that's what you do, not because it's aimed at a return. You're at your best where the value is in the growth rather than what it earns you — where a person or a project needs the conditions only patient attention provides. Who you tend is yours to choose.",
-            "rooted": "Growing things that genuinely last, because the soil goes deep. With resource energy backing you, your gift comes with staying power — you don't just tend something once, you develop it across the spans real growth actually requires. What you're good at is the rare pairing of attunement and endurance: the care that's still there years into the slow work. The trade is breadth; you develop a few people deeply rather than touching many lightly.",
-            "flowing": "Turning care into harvest. With expression energy in play, your gift isn't only tending growth — it's bringing it to fruit: the cultivation lands as people who became who they were meant to be, projects developed to completion, the visible result of patient attention. You're good at the whole arc from seed to harvest, where a purely nurturing configuration would stop at \"I helped them grow.\" The care bears fruit."
-          }
-        },
-        {
-          "label": "Where you consistently get stuck",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "You deplete invisibly. The nourishment flows outward without being tracked — and by the time the deficit becomes visible, it's been accumulating for months. The growth you create in others tends to be attributed to those others, which means you're chronically undercompensated for what you actually produce. You're also particularly susceptible to investing in contexts that absorb without returning. You're often the last to notice this, partly because caring about whether care is being returned feels, to you, like a betrayal of what genuine care should be."
-          }
-        },
-        {
-          "label": "What changes when conditions are right",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "In genuinely reciprocal conditions — where the care flows in both directions and you're being nourished at the same rate you nourish — what you produce is extraordinary. The growth that was quiet and consistent becomes visible and remarkable. The practice is treating your own fertility as something worth protecting rather than something to be fully spent on whoever arrives."
-          }
-        },
-        {
-          "label": "What you rarely admit",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "That you keep score, quietly — and that the accounting is often worse than anyone around you knows. You don't say this because saying it feels contrary to what care is supposed to be. But the gap between what's given and what returns is real, and it accumulates in you even when it isn't visible to anyone else."
-          }
-        }
-      ],
-      "retired_band_pools": {
-        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
-        "gifts": [
-          {
-            "phrase": "Anticipates needs",
-            "dim": "unspoken needs",
-            "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Grows people",
-            "dim": "others' growth",
-            "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Keeps every promise",
-            "dim": "promises",
-            "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Restful company",
-            "dim": "comfort",
-            "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
-          },
-          {
-            "phrase": "Quietly essential",
-            "dim": "being noticed",
-            "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.",
-            "bands": [
-              "open"
-            ]
-          }
-        ],
-        "shadows": [
-          {
-            "phrase": "Too agreeable",
-            "dim": "own preferences",
-            "desc": "The group picks the plan and you say it's fine. It usually is. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Neglects own growth",
-            "dim": "own growth",
-            "desc": "Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Can't say no",
-            "dim": "saying no",
-            "desc": "The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Smothers a little",
-            "dim": "hard lessons",
-            "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Worn thin",
-            "dim": "personal reserves",
-            "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.",
-            "bands": [
-              "open"
-            ]
-          }
-        ]
-      },
-      "retired_thin_self_items": [],
-      "retired_derivation_law_2026-09-16": [
-        {
-          "phrase": "Anticipates needs",
-          "dim": "unspoken needs",
-          "door": "mind",
-          "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Grows people",
-          "dim": "others' growth",
-          "door": "expression",
-          "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Smothers a little",
-          "dim": "hard lessons",
-          "door": "expression",
-          "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Worn thin",
-          "dim": "personal reserves",
-          "door": "action",
-          "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        }
-      ],
-      "retired_inner_judge_2026-09-17": [
-        {
-          "phrase": "Can't say no",
-          "dim": "refusing",
-          "door": "order",
-          "face": "echo",
-          "echo_of": "土_木.function.definition_friction",
-          "desc": "Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank.",
-          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
-        }
-      ],
-      "retired_2026-09-20_batch4": {
-        "shadows.Too agreeable": {
-          "phrase": "Too agreeable",
-          "dim": "your own wants",
-          "door": "body",
-          "face": "excess",
-          "echo_of": "土_土.carry.excess",
-          "desc": "So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine."
-        }
-      },
-      "retired_2026-09-21_cold_read": {
-        "gifts.Remembers who helped": {
-          "phrase": "Remembers who helped",
-          "dim": "how you learn",
-          "door": "mind",
-          "face": "echo",
-          "echo_of": "土_火.function.definition_catalyst",
-          "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
-        },
-        "gifts.Reads the season": {
-          "phrase": "Reads the season",
-          "dim": "timing",
-          "door": "mind",
-          "face": "wide",
-          "echo_of": "土_火.carry.wide",
-          "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
-        },
-        "gifts.Few words, exact": {
-          "phrase": "Few words, exact",
-          "dim": "speaking up",
-          "door": "expression",
-          "face": "echo",
-          "echo_of": "土_金.function.definition_catalyst",
-          "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
-        },
-        "shadows.Takes the mud": {
-          "phrase": "Takes the mud",
-          "dim": "what gets dropped",
-          "door": "body",
-          "face": "echo",
-          "echo_of": "土_土.function.definition_friction",
-          "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
-        },
-        "shadows.Stuck in your ways": {
-          "phrase": "Stuck in your ways",
-          "dim": "changing course",
-          "door": "body",
-          "face": "excess",
-          "echo_of": "土_土.carry.excess",
-          "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
-        },
-        "shadows.Overheats on praise": {
-          "phrase": "Overheats on praise",
-          "dim": "praise",
-          "door": "mind",
-          "face": "echo",
-          "echo_of": "土_火.function.definition_friction",
-          "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
-        },
-        "shadows.Burns the seedlings": {
-          "phrase": "Burns the seedlings",
-          "dim": "producing",
-          "door": "mind",
-          "face": "excess",
-          "echo_of": "土_火.carry.excess",
-          "desc": "Baked hard by too much heat. Busy, warm, and producing nothing you wanted."
-        },
-        "shadows.Counts every grain": {
-          "phrase": "Counts every grain",
-          "dim": "control",
-          "door": "action",
-          "face": "echo",
-          "echo_of": "土_水.function.definition_friction",
-          "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
-        }
-      },
-      "retired_2026-10-17_diagnosis": {
-        "status": "REVIVED 2026-10-27",
-        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
-      },
-      "retired_2026-10-27_manifesto_l1": "Nourish without credit"
+    {
+     "phrase": "Grows people",
+     "dim": "others' growth",
+     "door": "expression",
+     "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Smothers a little",
+     "dim": "hard lessons",
+     "door": "expression",
+     "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Worn thin",
+     "dim": "personal reserves",
+     "door": "action",
+     "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
     }
-  },
-  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
-  "field_status": {
-    "who": "TO WRITE · opened 2026-10-18",
-    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
-    "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M己 A): two or three plain adjectives, replacing \"Nourish without credit\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
-    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
-    "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "energy_faces": "TO WRITE · after the 庚 template is ruled"
+   ],
+   "retired_inner_judge_2026-09-17": [
+    {
+     "phrase": "Can't say no",
+     "dim": "refusing",
+     "door": "order",
+     "face": "echo",
+     "echo_of": "土_木.function.definition_friction",
+     "desc": "Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank.",
+     "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
+    }
+   ],
+   "retired_2026-09-20_batch4": {
+    "shadows.Too agreeable": {
+     "phrase": "Too agreeable",
+     "dim": "your own wants",
+     "door": "body",
+     "face": "excess",
+     "echo_of": "土_土.carry.excess",
+     "desc": "So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine."
+    }
+   },
+   "retired_2026-09-21_cold_read": {
+    "gifts.Remembers who helped": {
+     "phrase": "Remembers who helped",
+     "dim": "how you learn",
+     "door": "mind",
+     "face": "echo",
+     "echo_of": "土_火.function.definition_catalyst",
+     "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
+    },
+    "gifts.Reads the season": {
+     "phrase": "Reads the season",
+     "dim": "timing",
+     "door": "mind",
+     "face": "wide",
+     "echo_of": "土_火.carry.wide",
+     "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
+    },
+    "gifts.Few words, exact": {
+     "phrase": "Few words, exact",
+     "dim": "speaking up",
+     "door": "expression",
+     "face": "echo",
+     "echo_of": "土_金.function.definition_catalyst",
+     "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
+    },
+    "shadows.Takes the mud": {
+     "phrase": "Takes the mud",
+     "dim": "what gets dropped",
+     "door": "body",
+     "face": "echo",
+     "echo_of": "土_土.function.definition_friction",
+     "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
+    },
+    "shadows.Stuck in your ways": {
+     "phrase": "Stuck in your ways",
+     "dim": "changing course",
+     "door": "body",
+     "face": "excess",
+     "echo_of": "土_土.carry.excess",
+     "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
+    },
+    "shadows.Overheats on praise": {
+     "phrase": "Overheats on praise",
+     "dim": "praise",
+     "door": "mind",
+     "face": "echo",
+     "echo_of": "土_火.function.definition_friction",
+     "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
+    },
+    "shadows.Burns the seedlings": {
+     "phrase": "Burns the seedlings",
+     "dim": "producing",
+     "door": "mind",
+     "face": "excess",
+     "echo_of": "土_火.carry.excess",
+     "desc": "Baked hard by too much heat. Busy, warm, and producing nothing you wanted."
+    },
+    "shadows.Counts every grain": {
+     "phrase": "Counts every grain",
+     "dim": "control",
+     "door": "action",
+     "face": "echo",
+     "echo_of": "土_水.function.definition_friction",
+     "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
+    }
+   },
+   "retired_2026-10-17_diagnosis": {
+    "status": "REVIVED 2026-10-27",
+    "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
+   },
+   "retired_2026-10-27_manifesto_l1": "Nourish without credit"
   }
+ },
+ "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
+ "field_status": {
+  "who": "TO WRITE · opened 2026-10-18",
+  "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
+  "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M己 A): two or three plain adjectives, replacing \"Nourish without credit\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
+  "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A)",
+  "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "energy_faces": "TO WRITE · after the 庚 template is ruled",
+  "ladder": "RULED 2026-11-13 (owner P-己 A; the Blade from V0–V9 A): the revelation's stem lines on the explanation ladder"
+ }
 }

@@ -136,6 +136,15 @@
 | `energy_faces.order.catalyst.p` | Fire is the forge that shapes you: pressure, standards, the people you answer to. With more of it you become the Blade you were made to be. Under a real test you get calmer, and the edge you come out with is the one people remember. |
 | `energy_faces.order.friction.adj` | Pressed · Anxious · Self-critical |
 | `energy_faces.order.friction.p` | Under too much Fire the forge stays hot. Every rule feels urgent and every mistake feels final, and the harshest voice you hear is your own. Releasing some of the pressure lets you cool enough to hold your shape. |
+| `ladder.element_line` | Yang Metal, steel that has already been through the fire. |
+| `ladder.recognition` | You'd rather say the true thing than the easy one. |
+| `ladder.as_line` | As a Blade, you are that edge in a person. |
+| `ladder.behaviour` | You see the flaw in a plan before anyone asks. |
+| `ladder.contrast` | People see someone sharp and certain. Inside, you are checking every word for whether it is true. |
+| `ladder.self_nature` | Metal is your own element: the edge itself. |
+| `ladder.overrides.in_you.Order.thin` | You have almost none. Without someone real to answer to, you sharpen alone and wait for a test worth meeting. |
+| `ladder.overrides.notice.Order.low` | you do your best work when someone whose judgement you respect sets the bar. |
+| `ladder.overrides.need_phrase.Order` | real stakes from outside, someone or something that tests the edge |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

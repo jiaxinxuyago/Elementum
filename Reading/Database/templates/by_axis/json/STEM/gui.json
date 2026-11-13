@@ -1,585 +1,594 @@
 {
-  "$archetype": "gui",
-  "axis": "STEM",
-  "key": "癸",
-  "canonical_name": "The Rain",
-  "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
-  "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
-  "sources": [
-    "Elementum_App/src/content/archetypeSource.js",
-    "src/content/reading/readingContent.js (DM_READING)",
-    "buildIdentity"
+ "$archetype": "gui",
+ "axis": "STEM",
+ "key": "癸",
+ "canonical_name": "The Rain",
+ "construct": "RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1.",
+ "candidate_note": "LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.",
+ "sources": [
+  "Elementum_App/src/content/archetypeSource.js",
+  "src/content/reading/readingContent.js (DM_READING)",
+  "buildIdentity"
+ ],
+ "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
+ "candidates": {
+  "archetype_name": "The Rain",
+  "manifesto": "Perceptive, soft, porous · You are the Water that quietly changes whatever it touches.",
+  "inscription": "You soak up what everyone around you feels, then wonder which of it is yours.",
+  "stem_keywords": [
+   "Intuitive",
+   "Subtle",
+   "Attuned"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
-  "candidates": {
-    "archetype_name": "The Rain",
-    "manifesto": "Perceptive, soft, porous · You are the Water that quietly changes whatever it touches.",
-    "inscription": "You soak up what everyone around you feels, then wonder which of it is yours.",
-    "stem_keywords": [
-      "Intuitive",
-      "Subtle",
-      "Attuned"
-    ],
-    "pinyin_display": "GUǏ · YIN WATER",
-    "dm_claims": [
-      "You feel the mood shift a beat before anyone names it.",
-      "You reach people through the small, quiet door, not the loud one."
-    ],
-    "dm_mechanism": "Yin Water that finds every opening, perception that travels where pressure cannot.",
+  "pinyin_display": "GUǏ · YIN WATER",
+  "dm_claims": [
+   "You feel the mood shift a beat before anyone names it.",
+   "You reach people through the small, quiet door, not the loud one."
+  ],
+  "dm_mechanism": "Yin Water that finds every opening, perception that travels where pressure cannot.",
+  "gifts": [
+   {
+    "phrase": "Quiet to recharge",
+    "dim": "recovery",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "水_水.function.definition_catalyst",
+    "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
+   },
+   {
+    "phrase": "Keeps secrets safe",
+    "dim": "secrets",
+    "door": "body",
+    "face": "wide",
+    "echo_of": "水_水.function.definition_catalyst",
+    "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and they stay where they were put."
+   },
+   {
+    "phrase": "Sharpened by method",
+    "dim": "good teachers",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "水_金.function.definition_catalyst",
+    "desc": "Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input."
+   },
+   {
+    "phrase": "Feels the undercurrent",
+    "dim": "unspoken feelings",
+    "door": "mind",
+    "face": "wide",
+    "echo_of": "水_金.carry.wide",
+    "desc": "Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it."
+   },
+   {
+    "phrase": "Wins without arguing",
+    "dim": "influence on others",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "水_木.function.definition_catalyst",
+    "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
+   },
+   {
+    "phrase": "Ahead of the curve",
+    "dim": "timing",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "水_火.function.definition_catalyst",
+    "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
+   },
+   {
+    "phrase": "Blooms on routine",
+    "dim": "walls you chose",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "水_土.function.definition_catalyst",
+    "desc": "Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the rain becomes a river."
+   }
+  ],
+  "shadows": [
+   {
+    "phrase": "Waits to be moved",
+    "dim": "recovery",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "水_水.function.definition_friction",
+    "desc": "So much stillness that nothing moves. You wait for a current to carry you instead of choosing one, and the waiting looks like rest but leaves you flat."
+   },
+   {
+    "phrase": "Carries others' feelings",
+    "dim": "whose feeling",
+    "door": "body",
+    "face": "excess",
+    "echo_of": "水_水.carry.excess",
+    "desc": "So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying."
+   },
+   {
+    "phrase": "Replays every word",
+    "dim": "moving on",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "水_金.function.definition_friction",
+    "desc": "The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used."
+   },
+   {
+    "phrase": "Soaks up everything",
+    "dim": "others' emotions",
+    "door": "mind",
+    "face": "excess",
+    "echo_of": "水_金.carry.excess",
+    "desc": "Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you."
+   },
+   {
+    "phrase": "Everyone's helper",
+    "dim": "other people's growth",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "水_木.function.definition_friction",
+    "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
+   },
+   {
+    "phrase": "Quick to bite",
+    "dim": "chasing warmth",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "水_火.function.definition_friction",
+    "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
+   },
+   {
+    "phrase": "Self-punishing",
+    "dim": "being judged",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "水_土.function.definition_friction",
+    "desc": "Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices."
+   }
+  ],
+  "door_note": {
+   "body": "Water",
+   "mind": "Metal",
+   "expression": "Wood",
+   "action": "Fire",
+   "order": "Earth"
+  },
+  "yourNature_desc": "You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life.",
+  "dm_overview": "The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow.",
+  "who": null,
+  "energy_faces": null,
+  "ladder": {
+   "element_line": "Yin Water, the rain that reaches everything quietly.",
+   "recognition": "You take in what others feel without trying.",
+   "as_line": "As the Rain, you are that sensitivity in a person.",
+   "behaviour": "You know a friend is upset from one text.",
+   "contrast": "People see someone gentle and easy to be with. Inside, you are holding feelings that aren't yours.",
+   "self_nature": "Water is your own element: the rain itself."
+  },
+  "__ore": {
+   "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+   "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
+   "subtitle": "Knows what is true before it is spoken · The Intelligence Impulse (Yin)",
+   "chips": [
+    "Attuned",
+    "Psychically permeable",
+    "Absorbing",
+    "Specifically nourishing",
+    "Lost in own fog"
+   ],
+   "yourNature_phrase": "The Court Oracle",
+   "elementIntro": {
+    "punch": "The Rain is Yin Water — pervasive moisture that seeps into everything.",
+    "expand": "Permeable and quietly knowing, it senses what is true before it is spoken, absorbing the emotional weather of whatever it falls through."
+   },
+   "manual": {
+    "concentrated": "Everything is perceived, everything is felt, everything is known at a level that exceeds what can be processed. The environment or person absorbs more than it can hold without losing its own shape. Classical texts describe 癸水多则迷 (excess 癸 Water creates confusion) — when the Rain becomes a flood of perception, the person can no longer distinguish their own knowing from what they have absorbed from others. Emotional and perceptual exhaustion. The intuition that was extraordinarily accurate becomes overwhelming noise, and the sensitivity that was a gift becomes genuinely difficult to live inside.",
+    "open": "Perceptual intelligence that reads what is actually true in a room — beneath the surface of what people are saying — becomes harder to access. Things are taken at face value. Hidden information doesn't surface. The body's signals are missed. The slow-penetrating quality that reveals what careful reflection produces — the \"soaks through to the real layer\" quality — is reduced. What is ending doesn't get recognized as ending until it has already ended. Intuitive accuracy is replaced by logical analysis, which is slower and misses the layer below.",
+    "catalyst": "Activate it by creating conditions for genuine perception: quiet, reduced stimulation, time for reflection without agenda. This energy does not respond to force — it responds to receptivity. The insight arrives when you stop trying to produce it and create the space where it can surface naturally. Sit with the question longer than feels productive. The answer arrives at the edge of sleep, in the transition between conversations, in the moment after the analysis stops. Outcome: what was obscure becomes clear. The right answer to a long-standing question arrives not from analysis but from having been genuinely still with it long enough for the perception to form.",
+    "resistance": "When 癸 energy is creating friction — the permeability is absorbing what it should be allowing to pass through. The chart needs more definition (Metal) or more grounding (Earth) to give the perception a stable surface to land on. Channel it by deliberately separating what is perceived from what is chosen: use the intuition as information rather than as reality, and check what is sensed against what is actually observable before acting on it. Create physical or relational structure that filters what enters rather than remaining fully permeable to everything in the environment. Outcome: sensitivity becomes a tool rather than a burden, and what was overwhelm converts into accurate, actionable reading of the actual situation."
+   },
+   "energy": null,
+   "psych": null,
+   "archetypes": null,
+   "blocks": [
+    {
+     "label": "How you experience the world",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "You sense what's true in a room before anyone says the thing. Not through observation and analysis — the knowing arrives as a felt sense, directly, before any reasoning catches up. You know when something is off, when someone is hurting, when the thing that was said isn't the thing that's actually true. This happens continuously and without your choosing it. Proximity to others is never emotionally neutral for you — you absorb the emotional reality of your environment the way rain absorbs the ground's temperature when it falls.",
+      "concentrated": "When the sensing force is this saturated, you perceive everything — every mood, every undercurrent, every unspoken thing — all at once and without filter. The attunement is uncanny. The structural cost is that water this permeable floods: you absorb more than you can hold without losing your own shape, until you can no longer tell your knowing from what you've taken on from the room. At full strength your perception is extraordinary and your boundary nearly gone.",
+      "open": "The attunement is real but harder to access. You still feel what's true beneath the surface — the sensitivity is genuine — but the perception that normally arrives unbidden comes muffled, and you find yourself taking things at face value that you'd usually have felt straight through. The knowing is there; what's harder to reach is its immediacy, the felt sense that used to land before the reasoning. The instrument is intact, just less finely tuned.",
+      "tested": "What you're sensing senses you, and your perception takes its shape from the pressure. When authority energy presses on the Rain, your attunement runs while a standard runs on you in parallel — you're reading the room and being read inside it at once. If the standard is legitimate, it gives the diffuse sensitivity a structure to land on and turns feeling into usable judgment. If it isn't, you absorb the scrutiny along with everything else, and the permeability that's your gift becomes a way of taking on a pressure that isn't yours.",
+      "pure": "With no dominant force directing what the sensitivity serves, your perception runs as its essential self — not turned to a particular use, not anchored to a base, not pressed by a role. What arrives is pure attunement: you feel what's true directly, and what deserves that perception is genuinely yours to choose. The world is a field of felt truths, and for once nothing has pre-decided which to take in. This is the unconstrained Rain — free to sense what actually matters rather than everything at once.",
+      "rooted": "Resource energy backing the Water means your sensitivity falls from a deep source rather than soaking in everywhere. The perception steadies here — less flood, more deliberate — and it commits: you attune deeply to a few people and stay with them rather than absorbing every room equally. The friction mirrors the gift: the same groundedness that gives your sensitivity a filter can make you slower to open to genuinely new emotional terrain, preferring the depths you already know.",
+      "flowing": "Output energy gives your sensitivity somewhere to go. The perception no longer just absorbs — it produces: the felt knowing becomes words for what someone couldn't name, care calibrated exactly to what's needed, the thing made that says what others only felt. You experience your attunement as generative rather than merely receptive. At your most expressive this is the Rain at its best — the water that doesn't just soak the ground but brings something up out of it."
+     }
+    },
+    {
+     "label": "What you're genuinely good at",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "Nourishing what you touch in ways specific to what that particular person or situation actually needs — not generic care, but calibrated care. Making people feel genuinely known rather than simply seen. Perceiving the thing that's almost true but not quite, and finding the exact words for it that make the person realize it was there all along. Sustaining this across time — your care doesn't diminish when circumstances change. It's structural.",
+      "concentrated": "Sensing exactly what's needed — almost too much of it. With the attuning force this saturated, you perceive what every person around you is carrying and find precisely the care that meets it. The calibration is uncanny. The catch is that feeling everyone's need this acutely makes it nearly impossible not to respond, so you pour calibrated care in every direction and absorb the weight of all of it — until you can't tell whose feeling you're actually carrying. At full strength you're extraordinary at care and saturated by it.",
+      "open": "The gift is real but harder to reach into. You still sense what people need and still want to meet it — the attunement doesn't vanish — but the calibrated care it produces takes more from you than it does when the current is strong. The knowing lives slightly out of reach: you can feel the need without quite finding the exact thing it asks for. What you're good at is genuine; it just needs replenishment beneath it to sustain.",
+      "tested": "Calibrated care under scrutiny — meeting real need while a standard watches. When legitimate authority sets the terms, your gift sharpens from \"feel everyone\" to \"give the precise care the situation actually requires,\" and the constraint turns diffuse sensitivity into genuine skill. You're good at perception that holds up under examination — naming the true thing accurately enough that it lands and helps, not just soothes.",
+      "pure": "Pure attunement — the gift in its least mediated form. With no dominant force directing the care, what you're good at is the knowing-and-meeting itself: sensing what someone actually needs and giving exactly that, because that's what you do. You're at your best where the value is in the calibration rather than what it earns you — where a person needs to feel genuinely known. Whom you attune to is yours to choose.",
+      "rooted": "Care that genuinely lasts, because the sensitivity flows from a deep source. With resource energy backing you, your gift comes with constancy — you don't just meet a need once, you stay attuned across the long arc, which is exactly why people feel safe with you. What you're good at is the rare pairing of perception and endurance: the care that's still calibrated years in. The trade is breadth; you attune deeply to a few rather than absorbing every room.",
+      "flowing": "Turning attunement into words and works. With expression energy in play, your gift isn't only sensing what's true — it's giving it form: the felt knowing becomes the exact sentence, the made thing, the care that arrives as something a person can actually hold. You're good at the whole arc from perception to expression, where a purely receptive configuration would stop at \"I can feel it.\" The sensitivity bears fruit."
+     }
+    },
+    {
+     "label": "Where you consistently get stuck",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "The permeability that makes you so perceptive makes it genuinely hard to know whose feeling is whose. You absorb what you encounter — not from weakness but from how the sensitivity is wired. In difficult or charged environments, you don't just observe the difficulty; you carry it home. The boundary between what you're sensing in others and what you're experiencing yourself can dissolve quietly, often before you've noticed it's happened.\n\nThere's also a pattern of caring for others at the level you wish you were cared for — which means the care you give is often more than what returns. Because the giving felt natural, the gap takes a long time to become visible."
+     }
+    },
+    {
+     "label": "What changes when conditions are right",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "In genuinely reciprocal conditions — where your sensitivity is met with sensitivity, where the nourishment returns at something close to the rate it goes out — what you produce is among the most valuable things available in close relationship. The perception is extraordinary. The care is specific. The knowing is real. Protecting these conditions isn't selfishness. It's maintenance of the instrument."
+     }
+    },
+    {
+     "label": "What you rarely admit",
+     "bands": [
+      "concentrated",
+      "balanced",
+      "open"
+     ],
+     "patterns": [
+      "pure",
+      "rooted",
+      "flowing",
+      "forging",
+      "tested"
+     ],
+     "priority": {
+      "default": 5
+     },
+     "text": {
+      "default": "That you absorb far more than you show — and that the accumulation is real and has weight. Over time, in environments that don't return what's given, this becomes something between exhaustion and a kind of grief: the specific sadness of giving something real that doesn't arrive back at the same depth."
+     }
+    }
+   ],
+   "retired_band_pools": {
+    "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
     "gifts": [
-      {
-        "phrase": "Quiet to recharge",
-        "dim": "recovery",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "水_水.function.definition_catalyst",
-        "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
-      },
-      {
-        "phrase": "Keeps secrets safe",
-        "dim": "secrets",
-        "door": "body",
-        "face": "wide",
-        "echo_of": "水_水.function.definition_catalyst",
-        "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and they stay where they were put."
-      },
-      {
-        "phrase": "Sharpened by method",
-        "dim": "good teachers",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "水_金.function.definition_catalyst",
-        "desc": "Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input."
-      },
-      {
-        "phrase": "Feels the undercurrent",
-        "dim": "unspoken feelings",
-        "door": "mind",
-        "face": "wide",
-        "echo_of": "水_金.carry.wide",
-        "desc": "Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it."
-      },
-      {
-        "phrase": "Wins without arguing",
-        "dim": "influence on others",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "水_木.function.definition_catalyst",
-        "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
-      },
-      {
-        "phrase": "Ahead of the curve",
-        "dim": "timing",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "水_火.function.definition_catalyst",
-        "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
-      },
-      {
-        "phrase": "Blooms on routine",
-        "dim": "walls you chose",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "水_土.function.definition_catalyst",
-        "desc": "Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the rain becomes a river."
-      }
+     {
+      "phrase": "Feels the undercurrent",
+      "dim": "unspoken feelings",
+      "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Finds the words",
+      "dim": "naming feelings",
+      "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Knows what helps",
+      "dim": "caregiving",
+      "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Gentle confidant",
+      "dim": "secrets",
+      "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.",
+      "bands": [
+       "balanced",
+       "open"
+      ]
+     },
+     {
+      "phrase": "Changes minds softly",
+      "dim": "influence on others",
+      "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
+      "bands": [
+       "open"
+      ]
+     }
     ],
     "shadows": [
-      {
-        "phrase": "Waits to be moved",
-        "dim": "recovery",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "水_水.function.definition_friction",
-        "desc": "So much stillness that nothing moves. You wait for a current to carry you instead of choosing one, and the waiting looks like rest but leaves you flat."
-      },
-      {
-        "phrase": "Carries others' feelings",
-        "dim": "whose feeling",
-        "door": "body",
-        "face": "excess",
-        "echo_of": "水_水.carry.excess",
-        "desc": "So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying."
-      },
-      {
-        "phrase": "Replays every word",
-        "dim": "moving on",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "水_金.function.definition_friction",
-        "desc": "The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used."
-      },
-      {
-        "phrase": "Soaks up everything",
-        "dim": "others' emotions",
-        "door": "mind",
-        "face": "excess",
-        "echo_of": "水_金.carry.excess",
-        "desc": "Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you."
-      },
-      {
-        "phrase": "Everyone's helper",
-        "dim": "other people's growth",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "水_木.function.definition_friction",
-        "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
-      },
-      {
-        "phrase": "Quick to bite",
-        "dim": "chasing warmth",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "水_火.function.definition_friction",
-        "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
-      },
-      {
-        "phrase": "Self-punishing",
-        "dim": "being judged",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "水_土.function.definition_friction",
-        "desc": "Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices."
-      }
-    ],
-    "door_note": {
-      "body": "Water",
-      "mind": "Metal",
-      "expression": "Wood",
-      "action": "Fire",
-      "order": "Earth"
-    },
-    "yourNature_desc": "You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life.",
-    "dm_overview": "The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow.",
-    "who": null,
-    "energy_faces": null,
-    "__ore": {
-      "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
-      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
-      "subtitle": "Knows what is true before it is spoken · The Intelligence Impulse (Yin)",
-      "chips": [
-        "Attuned",
-        "Psychically permeable",
-        "Absorbing",
-        "Specifically nourishing",
-        "Lost in own fog"
-      ],
-      "yourNature_phrase": "The Court Oracle",
-      "elementIntro": {
-        "punch": "The Rain is Yin Water — pervasive moisture that seeps into everything.",
-        "expand": "Permeable and quietly knowing, it senses what is true before it is spoken, absorbing the emotional weather of whatever it falls through."
-      },
-      "manual": {
-        "concentrated": "Everything is perceived, everything is felt, everything is known at a level that exceeds what can be processed. The environment or person absorbs more than it can hold without losing its own shape. Classical texts describe 癸水多则迷 (excess 癸 Water creates confusion) — when the Rain becomes a flood of perception, the person can no longer distinguish their own knowing from what they have absorbed from others. Emotional and perceptual exhaustion. The intuition that was extraordinarily accurate becomes overwhelming noise, and the sensitivity that was a gift becomes genuinely difficult to live inside.",
-        "open": "Perceptual intelligence that reads what is actually true in a room — beneath the surface of what people are saying — becomes harder to access. Things are taken at face value. Hidden information doesn't surface. The body's signals are missed. The slow-penetrating quality that reveals what careful reflection produces — the \"soaks through to the real layer\" quality — is reduced. What is ending doesn't get recognized as ending until it has already ended. Intuitive accuracy is replaced by logical analysis, which is slower and misses the layer below.",
-        "catalyst": "Activate it by creating conditions for genuine perception: quiet, reduced stimulation, time for reflection without agenda. This energy does not respond to force — it responds to receptivity. The insight arrives when you stop trying to produce it and create the space where it can surface naturally. Sit with the question longer than feels productive. The answer arrives at the edge of sleep, in the transition between conversations, in the moment after the analysis stops. Outcome: what was obscure becomes clear. The right answer to a long-standing question arrives not from analysis but from having been genuinely still with it long enough for the perception to form.",
-        "resistance": "When 癸 energy is creating friction — the permeability is absorbing what it should be allowing to pass through. The chart needs more definition (Metal) or more grounding (Earth) to give the perception a stable surface to land on. Channel it by deliberately separating what is perceived from what is chosen: use the intuition as information rather than as reality, and check what is sensed against what is actually observable before acting on it. Create physical or relational structure that filters what enters rather than remaining fully permeable to everything in the environment. Outcome: sensitivity becomes a tool rather than a burden, and what was overwhelm converts into accurate, actionable reading of the actual situation."
-      },
-      "energy": null,
-      "psych": null,
-      "archetypes": null,
-      "blocks": [
-        {
-          "label": "How you experience the world",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "You sense what's true in a room before anyone says the thing. Not through observation and analysis — the knowing arrives as a felt sense, directly, before any reasoning catches up. You know when something is off, when someone is hurting, when the thing that was said isn't the thing that's actually true. This happens continuously and without your choosing it. Proximity to others is never emotionally neutral for you — you absorb the emotional reality of your environment the way rain absorbs the ground's temperature when it falls.",
-            "concentrated": "When the sensing force is this saturated, you perceive everything — every mood, every undercurrent, every unspoken thing — all at once and without filter. The attunement is uncanny. The structural cost is that water this permeable floods: you absorb more than you can hold without losing your own shape, until you can no longer tell your knowing from what you've taken on from the room. At full strength your perception is extraordinary and your boundary nearly gone.",
-            "open": "The attunement is real but harder to access. You still feel what's true beneath the surface — the sensitivity is genuine — but the perception that normally arrives unbidden comes muffled, and you find yourself taking things at face value that you'd usually have felt straight through. The knowing is there; what's harder to reach is its immediacy, the felt sense that used to land before the reasoning. The instrument is intact, just less finely tuned.",
-            "tested": "What you're sensing senses you, and your perception takes its shape from the pressure. When authority energy presses on the Rain, your attunement runs while a standard runs on you in parallel — you're reading the room and being read inside it at once. If the standard is legitimate, it gives the diffuse sensitivity a structure to land on and turns feeling into usable judgment. If it isn't, you absorb the scrutiny along with everything else, and the permeability that's your gift becomes a way of taking on a pressure that isn't yours.",
-            "pure": "With no dominant force directing what the sensitivity serves, your perception runs as its essential self — not turned to a particular use, not anchored to a base, not pressed by a role. What arrives is pure attunement: you feel what's true directly, and what deserves that perception is genuinely yours to choose. The world is a field of felt truths, and for once nothing has pre-decided which to take in. This is the unconstrained Rain — free to sense what actually matters rather than everything at once.",
-            "rooted": "Resource energy backing the Water means your sensitivity falls from a deep source rather than soaking in everywhere. The perception steadies here — less flood, more deliberate — and it commits: you attune deeply to a few people and stay with them rather than absorbing every room equally. The friction mirrors the gift: the same groundedness that gives your sensitivity a filter can make you slower to open to genuinely new emotional terrain, preferring the depths you already know.",
-            "flowing": "Output energy gives your sensitivity somewhere to go. The perception no longer just absorbs — it produces: the felt knowing becomes words for what someone couldn't name, care calibrated exactly to what's needed, the thing made that says what others only felt. You experience your attunement as generative rather than merely receptive. At your most expressive this is the Rain at its best — the water that doesn't just soak the ground but brings something up out of it."
-          }
-        },
-        {
-          "label": "What you're genuinely good at",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "Nourishing what you touch in ways specific to what that particular person or situation actually needs — not generic care, but calibrated care. Making people feel genuinely known rather than simply seen. Perceiving the thing that's almost true but not quite, and finding the exact words for it that make the person realize it was there all along. Sustaining this across time — your care doesn't diminish when circumstances change. It's structural.",
-            "concentrated": "Sensing exactly what's needed — almost too much of it. With the attuning force this saturated, you perceive what every person around you is carrying and find precisely the care that meets it. The calibration is uncanny. The catch is that feeling everyone's need this acutely makes it nearly impossible not to respond, so you pour calibrated care in every direction and absorb the weight of all of it — until you can't tell whose feeling you're actually carrying. At full strength you're extraordinary at care and saturated by it.",
-            "open": "The gift is real but harder to reach into. You still sense what people need and still want to meet it — the attunement doesn't vanish — but the calibrated care it produces takes more from you than it does when the current is strong. The knowing lives slightly out of reach: you can feel the need without quite finding the exact thing it asks for. What you're good at is genuine; it just needs replenishment beneath it to sustain.",
-            "tested": "Calibrated care under scrutiny — meeting real need while a standard watches. When legitimate authority sets the terms, your gift sharpens from \"feel everyone\" to \"give the precise care the situation actually requires,\" and the constraint turns diffuse sensitivity into genuine skill. You're good at perception that holds up under examination — naming the true thing accurately enough that it lands and helps, not just soothes.",
-            "pure": "Pure attunement — the gift in its least mediated form. With no dominant force directing the care, what you're good at is the knowing-and-meeting itself: sensing what someone actually needs and giving exactly that, because that's what you do. You're at your best where the value is in the calibration rather than what it earns you — where a person needs to feel genuinely known. Whom you attune to is yours to choose.",
-            "rooted": "Care that genuinely lasts, because the sensitivity flows from a deep source. With resource energy backing you, your gift comes with constancy — you don't just meet a need once, you stay attuned across the long arc, which is exactly why people feel safe with you. What you're good at is the rare pairing of perception and endurance: the care that's still calibrated years in. The trade is breadth; you attune deeply to a few rather than absorbing every room.",
-            "flowing": "Turning attunement into words and works. With expression energy in play, your gift isn't only sensing what's true — it's giving it form: the felt knowing becomes the exact sentence, the made thing, the care that arrives as something a person can actually hold. You're good at the whole arc from perception to expression, where a purely receptive configuration would stop at \"I can feel it.\" The sensitivity bears fruit."
-          }
-        },
-        {
-          "label": "Where you consistently get stuck",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "The permeability that makes you so perceptive makes it genuinely hard to know whose feeling is whose. You absorb what you encounter — not from weakness but from how the sensitivity is wired. In difficult or charged environments, you don't just observe the difficulty; you carry it home. The boundary between what you're sensing in others and what you're experiencing yourself can dissolve quietly, often before you've noticed it's happened.\n\nThere's also a pattern of caring for others at the level you wish you were cared for — which means the care you give is often more than what returns. Because the giving felt natural, the gap takes a long time to become visible."
-          }
-        },
-        {
-          "label": "What changes when conditions are right",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "In genuinely reciprocal conditions — where your sensitivity is met with sensitivity, where the nourishment returns at something close to the rate it goes out — what you produce is among the most valuable things available in close relationship. The perception is extraordinary. The care is specific. The knowing is real. Protecting these conditions isn't selfishness. It's maintenance of the instrument."
-          }
-        },
-        {
-          "label": "What you rarely admit",
-          "bands": [
-            "concentrated",
-            "balanced",
-            "open"
-          ],
-          "patterns": [
-            "pure",
-            "rooted",
-            "flowing",
-            "forging",
-            "tested"
-          ],
-          "priority": {
-            "default": 5
-          },
-          "text": {
-            "default": "That you absorb far more than you show — and that the accumulation is real and has weight. Over time, in environments that don't return what's given, this becomes something between exhaustion and a kind of grief: the specific sadness of giving something real that doesn't arrive back at the same depth."
-          }
-        }
-      ],
-      "retired_band_pools": {
-        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
-        "gifts": [
-          {
-            "phrase": "Feels the undercurrent",
-            "dim": "unspoken feelings",
-            "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Finds the words",
-            "dim": "naming feelings",
-            "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Knows what helps",
-            "dim": "caregiving",
-            "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Gentle confidant",
-            "dim": "secrets",
-            "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
-          },
-          {
-            "phrase": "Changes minds softly",
-            "dim": "influence on others",
-            "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
-            "bands": [
-              "open"
-            ]
-          }
-        ],
-        "shadows": [
-          {
-            "phrase": "Absorbs everything",
-            "dim": "others' emotions",
-            "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Avoids the fight",
-            "dim": "hard conversations",
-            "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Marinates in it",
-            "dim": "moving on",
-            "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Feelings as facts",
-            "dim": "evidence",
-            "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
-            "bands": [
-              "concentrated"
-            ]
-          },
-          {
-            "phrase": "Doubts the signal",
-            "dim": "trusting yourself",
-            "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
-            "bands": [
-              "open"
-            ]
-          }
-        ]
-      },
-      "retired_thin_self_items": [
-        {
-          "pool": "shadows",
-          "phrase": "Doubts the signal",
-          "dim": "trusting yourself",
-          "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
-          "bands": [
-            "open"
-          ],
-          "why": "thin-Body item; no shadow face for a catalyst"
-        }
-      ],
-      "retired_door_audit_2026-09-16": [
-        {
-          "phrase": "Finds the words",
-          "dim": "naming feelings",
-          "door": "expression",
-          "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
-          "why": "door audit 2026-09-16: pool shape — Expression was doubled; the §5h law doubles Body and Mind only"
-        },
-        {
-          "phrase": "Warns too softly",
-          "dim": "warnings",
-          "door": "expression",
-          "desc": "The true thing was said. It was said so gently that nobody heard it as a warning.",
-          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
-        },
-        {
-          "phrase": "Knows what helps",
-          "dim": "caregiving",
-          "door": "action",
-          "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
-          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
-        }
-      ],
-      "retired_derivation_law_2026-09-16": [
-        {
-          "phrase": "Settles the dust",
-          "dim": "presence",
-          "door": "body",
-          "desc": "The air is calmer after you have been in it, and nobody can say what you did.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Soaks it up",
-          "dim": "learning",
-          "door": "mind",
-          "desc": "Whatever falls near you goes in and stays. Years later it comes back as knowing.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Wears down stone",
-          "dim": "under pressure",
-          "door": "order",
-          "desc": "Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Avoids the fight",
-          "dim": "hard conversations",
-          "door": "order",
-          "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Marinates in it",
-          "dim": "moving on",
-          "door": "mind",
-          "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        },
-        {
-          "phrase": "Feelings as facts",
-          "dim": "evidence",
-          "door": "body",
-          "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
-          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
-        }
-      ],
-      "retired_inner_judge_2026-09-17": [
-        {
-          "phrase": "Trapped by routine",
-          "dim": "hard conversations",
-          "door": "order",
-          "face": "echo",
-          "echo_of": "水_土.function.definition_friction",
-          "desc": "A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on.",
-          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
-        }
-      ],
-      "retired_2026-09-20_batch4": {
-        "gifts.Feels the undercurrent": {
-          "phrase": "Feels the undercurrent",
-          "dim": "unspoken feelings",
-          "door": "mind",
-          "face": "wide",
-          "echo_of": "水_金.carry.wide",
-          "desc": "Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did."
-        }
-      },
-      "retired_2026-09-21_cold_read": {
-        "gifts.Needs the quiet": {
-          "phrase": "Needs the quiet",
-          "dim": "recovery",
-          "door": "body",
-          "face": "echo",
-          "echo_of": "水_水.function.definition_catalyst",
-          "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
-        },
-        "gifts.Gentle confidant": {
-          "phrase": "Gentle confidant",
-          "dim": "secrets",
-          "door": "body",
-          "face": "wide",
-          "echo_of": "水_水.function.definition_catalyst",
-          "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one."
-        },
-        "gifts.Better with structure": {
-          "phrase": "Better with structure",
-          "dim": "good teachers",
-          "door": "mind",
-          "face": "echo",
-          "echo_of": "水_金.function.definition_catalyst",
-          "desc": "Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input."
-        },
-        "gifts.Changes minds softly": {
-          "phrase": "Changes minds softly",
-          "dim": "influence on others",
-          "door": "expression",
-          "face": "echo",
-          "echo_of": "水_木.function.definition_catalyst",
-          "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
-        },
-        "gifts.Spots the opening": {
-          "phrase": "Spots the opening",
-          "dim": "timing",
-          "door": "action",
-          "face": "echo",
-          "echo_of": "水_火.function.definition_catalyst",
-          "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
-        },
-        "shadows.Sleeps without rest": {
-          "phrase": "Sleeps without rest",
-          "dim": "recovery",
-          "door": "body",
-          "face": "echo",
-          "echo_of": "水_水.function.definition_friction",
-          "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes."
-        },
-        "shadows.Loses the border": {
-          "phrase": "Loses the border",
-          "dim": "whose feeling",
-          "door": "body",
-          "face": "excess",
-          "echo_of": "水_水.carry.excess",
-          "desc": "So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying."
-        },
-        "shadows.Absorbs everything": {
-          "phrase": "Absorbs everything",
-          "dim": "others' emotions",
-          "door": "mind",
-          "face": "excess",
-          "echo_of": "水_金.carry.excess",
-          "desc": "Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you."
-        },
-        "shadows.Mentors everyone": {
-          "phrase": "Mentors everyone",
-          "dim": "other people's growth",
-          "door": "expression",
-          "face": "echo",
-          "echo_of": "水_木.function.definition_friction",
-          "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
-        },
-        "shadows.Boils off early": {
-          "phrase": "Boils off early",
-          "dim": "chasing warmth",
-          "door": "action",
-          "face": "echo",
-          "echo_of": "水_火.function.definition_friction",
-          "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
-        },
-        "shadows.Punishes itself quietly": {
-          "phrase": "Punishes itself quietly",
-          "dim": "being judged",
-          "door": "order",
-          "face": "echo",
-          "echo_of": "水_土.function.definition_friction",
-          "desc": "Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices."
-        }
-      },
-      "retired_2026-10-17_diagnosis": {
-        "status": "REVIVED 2026-10-27",
-        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
-      },
-      "retired_2026-10-27_manifesto_l1": "Felt before spoken"
+     {
+      "phrase": "Absorbs everything",
+      "dim": "others' emotions",
+      "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Avoids the fight",
+      "dim": "hard conversations",
+      "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Marinates in it",
+      "dim": "moving on",
+      "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
+      "bands": "all"
+     },
+     {
+      "phrase": "Feelings as facts",
+      "dim": "evidence",
+      "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
+      "bands": [
+       "concentrated"
+      ]
+     },
+     {
+      "phrase": "Doubts the signal",
+      "dim": "trusting yourself",
+      "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
+      "bands": [
+       "open"
+      ]
+     }
+    ]
+   },
+   "retired_thin_self_items": [
+    {
+     "pool": "shadows",
+     "phrase": "Doubts the signal",
+     "dim": "trusting yourself",
+     "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
+     "bands": [
+      "open"
+     ],
+     "why": "thin-Body item; no shadow face for a catalyst"
     }
-  },
-  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
-  "field_status": {
-    "who": "TO WRITE · opened 2026-10-18",
-    "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
-    "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M癸 A): two or three plain adjectives, replacing \"Felt before spoken\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
-    "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A) · claim 1 rewritten (C2 A, \"room\" ration)",
-    "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
-    "energy_faces": "TO WRITE · after the 庚 template is ruled"
+   ],
+   "retired_door_audit_2026-09-16": [
+    {
+     "phrase": "Finds the words",
+     "dim": "naming feelings",
+     "door": "expression",
+     "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
+     "why": "door audit 2026-09-16: pool shape — Expression was doubled; the §5h law doubles Body and Mind only"
+    },
+    {
+     "phrase": "Warns too softly",
+     "dim": "warnings",
+     "door": "expression",
+     "desc": "The true thing was said. It was said so gently that nobody heard it as a warning.",
+     "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+    },
+    {
+     "phrase": "Knows what helps",
+     "dim": "caregiving",
+     "door": "action",
+     "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
+     "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+    }
+   ],
+   "retired_derivation_law_2026-09-16": [
+    {
+     "phrase": "Settles the dust",
+     "dim": "presence",
+     "door": "body",
+     "desc": "The air is calmer after you have been in it, and nobody can say what you did.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Soaks it up",
+     "dim": "learning",
+     "door": "mind",
+     "desc": "Whatever falls near you goes in and stays. Years later it comes back as knowing.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Wears down stone",
+     "dim": "under pressure",
+     "door": "order",
+     "desc": "Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Avoids the fight",
+     "dim": "hard conversations",
+     "door": "order",
+     "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Marinates in it",
+     "dim": "moving on",
+     "door": "mind",
+     "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    },
+    {
+     "phrase": "Feelings as facts",
+     "dim": "evidence",
+     "door": "body",
+     "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
+     "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+    }
+   ],
+   "retired_inner_judge_2026-09-17": [
+    {
+     "phrase": "Trapped by routine",
+     "dim": "hard conversations",
+     "door": "order",
+     "face": "echo",
+     "echo_of": "水_土.function.definition_friction",
+     "desc": "A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on.",
+     "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
+    }
+   ],
+   "retired_2026-09-20_batch4": {
+    "gifts.Feels the undercurrent": {
+     "phrase": "Feels the undercurrent",
+     "dim": "unspoken feelings",
+     "door": "mind",
+     "face": "wide",
+     "echo_of": "水_金.carry.wide",
+     "desc": "Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did."
+    }
+   },
+   "retired_2026-09-21_cold_read": {
+    "gifts.Needs the quiet": {
+     "phrase": "Needs the quiet",
+     "dim": "recovery",
+     "door": "body",
+     "face": "echo",
+     "echo_of": "水_水.function.definition_catalyst",
+     "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
+    },
+    "gifts.Gentle confidant": {
+     "phrase": "Gentle confidant",
+     "dim": "secrets",
+     "door": "body",
+     "face": "wide",
+     "echo_of": "水_水.function.definition_catalyst",
+     "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one."
+    },
+    "gifts.Better with structure": {
+     "phrase": "Better with structure",
+     "dim": "good teachers",
+     "door": "mind",
+     "face": "echo",
+     "echo_of": "水_金.function.definition_catalyst",
+     "desc": "Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input."
+    },
+    "gifts.Changes minds softly": {
+     "phrase": "Changes minds softly",
+     "dim": "influence on others",
+     "door": "expression",
+     "face": "echo",
+     "echo_of": "水_木.function.definition_catalyst",
+     "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
+    },
+    "gifts.Spots the opening": {
+     "phrase": "Spots the opening",
+     "dim": "timing",
+     "door": "action",
+     "face": "echo",
+     "echo_of": "水_火.function.definition_catalyst",
+     "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
+    },
+    "shadows.Sleeps without rest": {
+     "phrase": "Sleeps without rest",
+     "dim": "recovery",
+     "door": "body",
+     "face": "echo",
+     "echo_of": "水_水.function.definition_friction",
+     "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes."
+    },
+    "shadows.Loses the border": {
+     "phrase": "Loses the border",
+     "dim": "whose feeling",
+     "door": "body",
+     "face": "excess",
+     "echo_of": "水_水.carry.excess",
+     "desc": "So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying."
+    },
+    "shadows.Absorbs everything": {
+     "phrase": "Absorbs everything",
+     "dim": "others' emotions",
+     "door": "mind",
+     "face": "excess",
+     "echo_of": "水_金.carry.excess",
+     "desc": "Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you."
+    },
+    "shadows.Mentors everyone": {
+     "phrase": "Mentors everyone",
+     "dim": "other people's growth",
+     "door": "expression",
+     "face": "echo",
+     "echo_of": "水_木.function.definition_friction",
+     "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
+    },
+    "shadows.Boils off early": {
+     "phrase": "Boils off early",
+     "dim": "chasing warmth",
+     "door": "action",
+     "face": "echo",
+     "echo_of": "水_火.function.definition_friction",
+     "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
+    },
+    "shadows.Punishes itself quietly": {
+     "phrase": "Punishes itself quietly",
+     "dim": "being judged",
+     "door": "order",
+     "face": "echo",
+     "echo_of": "水_土.function.definition_friction",
+     "desc": "Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices."
+    }
+   },
+   "retired_2026-10-17_diagnosis": {
+    "status": "REVIVED 2026-10-27",
+    "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. REVIVED 2026-10-27 (owner: the Day Master page reads the five energies as gifts and shadows, \"this reading page does not echo with the five energy reading pages without the gifts and shadows as five energy catalysts and frictions\"): gifts, shadows and door_note moved back to candidates."
+   },
+   "retired_2026-10-27_manifesto_l1": "Felt before spoken"
   }
+ },
+ "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
+ "field_status": {
+  "who": "TO WRITE · opened 2026-10-18",
+  "dm_mechanism": "LOCKED 2026-10-27 (owner P2 A: the dash became a comma)",
+  "manifesto": "L1 RE-CUT 2026-10-27 (owner P3 A + M癸 A): two or three plain adjectives, replacing \"Felt before spoken\" (kept in __ore.retired_2026-10-27_manifesto_l1)",
+  "dm_claims": "LOCKED 2026-10-27 (owner P1 A, C1–C3 A) · claim 1 rewritten (C2 A, \"room\" ration)",
+  "gifts": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "shadows": "REVIVED 2026-10-27 from __ore (the Day Master page, one face per energy: a gift through a catalyst, a shadow through a friction)",
+  "energy_faces": "TO WRITE · after the 庚 template is ruled",
+  "ladder": "RULED 2026-11-13 (owner P-癸 A; the Blade from V0–V9 A): the revelation's stem lines on the explanation ladder"
+ }
 }

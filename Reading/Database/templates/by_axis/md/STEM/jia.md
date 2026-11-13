@@ -117,6 +117,12 @@
 | `dm_overview` | The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign. |
 | `who` | *(unauthored)* |
 | `energy_faces` | *(unauthored)* |
+| `ladder.element_line` | Yang Wood, the tall tree that grows toward the light. |
+| `ladder.recognition` | You start before the path is clear. |
+| `ladder.as_line` | As an Oak, you are that upward push in a person. |
+| `ladder.behaviour` | You are already planning the next thing before this one ends. |
+| `ladder.contrast` | People see someone sure of where they're going. Inside, you aren't certain the light is there, and you go anyway. |
+| `ladder.self_nature` | Wood is your own element: the trunk itself. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
