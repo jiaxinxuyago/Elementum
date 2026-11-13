@@ -400,3 +400,7 @@ The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, wit
 - **EV3:** the revelation order is the Naming, who the Blade is, the five energies as a model, how you run, each energy, then your type.
 - **EV4:** the first pass holds five named ideas (Day Master, element, the five energies as functions, type, circle). The rest go behind a tap.
 - **EV5:** the Blade script is ruled card by card (V0–V9), then the 126 shared lines are written.
+
+**Ruled 2026-11-13 · the Blade's revelation script: V0 A, V1 A, V2 A, V3 A, V4–V8 A, V9 A** (`ComparativeAnalysis/Evaluations/revelation-2026-11-05/REWRITE_BLADE_DRAFT.md`, artifact https://claude.ai/artifact/ArtsZDbFaDojriJH8HF2mz). Every draft line is kept.
+- **V2 change:** the five-energies card shows the Day Master's stem sign clearly, so the five energies read as the reader's own.
+- **Next:** the same shape drafted for all ten stems, ruled in batches, then the build brief to the design session.
