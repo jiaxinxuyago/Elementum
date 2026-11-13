@@ -1,0 +1,802 @@
+{
+ "_doc": "The explanation ladder (owner EV2 A, 2026-11-06) for all ten stems. Rows marked ruled come from the Blade's script (V0-V9 A, 2026-11-13); rows marked draft are new, for the owner to rule. After ruling, these move into the stations (TEMPLATED/tpl_ladder.json and STEM/*.json) through the usual pipeline.",
+ "shared": {
+  "naming_footnote": {
+   "text": "Your Day Master is the element of the day you were born, read as your core self. It is not your year animal.",
+   "status": "ruled"
+  },
+  "model_heading": {
+   "text": "Everyone holds all five elements. In you, each one runs a part of your life.",
+   "status": "ruled"
+  },
+  "model_close": {
+   "text": "The next five cards take them one at a time.",
+   "status": "ruled"
+  },
+  "element_heading": {
+   "Wood": {
+    "text": "Wood is the element of growth. It reaches, builds and keeps going.",
+    "status": "draft"
+   },
+   "Fire": {
+    "text": "Fire is the element of warmth. It lights, warms and draws people in.",
+    "status": "draft"
+   },
+   "Earth": {
+    "text": "Earth is the element of ground. It holds, steadies and supports.",
+    "status": "draft"
+   },
+   "Metal": {
+    "text": "Metal is the element of clarity. It sorts, cuts and decides.",
+    "status": "ruled"
+   },
+   "Water": {
+    "text": "Water is the element of flow. It moves, senses and finds a way.",
+    "status": "draft"
+   }
+  },
+  "function_plain": {
+   "Body": {
+    "text": "Body is you yourself: confidence, limits, standing your ground.",
+    "status": "ruled"
+   },
+   "Mind": {
+    "text": "Mind is how you take things in: learning, thinking, rest, the people you lean on.",
+    "status": "ruled"
+   },
+   "Expression": {
+    "text": "Expression is how you put yourself out: speaking, making, showing what you feel.",
+    "status": "ruled"
+   },
+   "Action": {
+    "text": "Action is what you go after: work, money, results you can point to.",
+    "status": "ruled"
+   },
+   "Order": {
+    "text": "Order is the rules, deadlines and people you answer to.",
+    "status": "ruled"
+   }
+  },
+  "function_short": {
+   "Body": {
+    "text": "You yourself: your confidence, your limits, how you stand your ground.",
+    "status": "ruled"
+   },
+   "Mind": {
+    "text": "How you take things in: learning, rest, the support you lean on.",
+    "status": "ruled"
+   },
+   "Expression": {
+    "text": "How you put yourself out: speaking, making, showing what you feel.",
+    "status": "ruled"
+   },
+   "Action": {
+    "text": "What you go after: work, money, results.",
+    "status": "ruled"
+   },
+   "Order": {
+    "text": "The rules, deadlines and people you answer to.",
+    "status": "ruled"
+   }
+  },
+  "nature_pair": {
+   "Wood": {
+    "Water": {
+     "text": "Water is rain and river: it soaks the roots that feed a tree.",
+     "status": "draft"
+    },
+    "Fire": {
+     "text": "Fire is heat and light: the flame that a tree's wood becomes.",
+     "status": "draft"
+    },
+    "Earth": {
+     "text": "Earth is the ground: the soil a tree's roots break open.",
+     "status": "draft"
+    },
+    "Metal": {
+     "text": "Metal is the blade: the pruning edge that shapes a tree.",
+     "status": "draft"
+    }
+   },
+   "Fire": {
+    "Wood": {
+     "text": "Wood is fuel: the kindling a fire lives on.",
+     "status": "draft"
+    },
+    "Earth": {
+     "text": "Earth is the ground: the hearth where a fire leaves its warmth.",
+     "status": "draft"
+    },
+    "Metal": {
+     "text": "Metal is ore and steel: what a fire softens and shapes.",
+     "status": "draft"
+    },
+    "Water": {
+     "text": "Water is rain and river: what keeps a fire in bounds.",
+     "status": "draft"
+    }
+   },
+   "Earth": {
+    "Fire": {
+     "text": "Fire is heat and light: the sun that warms the ground.",
+     "status": "draft"
+    },
+    "Metal": {
+     "text": "Metal is ore: what the ground brings up from inside it.",
+     "status": "draft"
+    },
+    "Water": {
+     "text": "Water is rain and river: what the ground holds and channels.",
+     "status": "draft"
+    },
+    "Wood": {
+     "text": "Wood is a tree: the roots that hold a hillside in place.",
+     "status": "draft"
+    }
+   },
+   "Metal": {
+    "Earth": {
+     "text": "Earth is the ground: it holds and it absorbs.",
+     "status": "ruled"
+    },
+    "Wood": {
+     "text": "Wood is a tree that keeps reaching.",
+     "status": "ruled"
+    },
+    "Water": {
+     "text": "Water is flow: the river that carries things out.",
+     "status": "ruled"
+    },
+    "Fire": {
+     "text": "Fire is heat and light: the forge that shapes metal.",
+     "status": "ruled"
+    }
+   },
+   "Water": {
+    "Metal": {
+     "text": "Metal is stone and ore: the rock a spring rises from.",
+     "status": "draft"
+    },
+    "Wood": {
+     "text": "Wood is a tree: what grows wherever water goes.",
+     "status": "draft"
+    },
+    "Fire": {
+     "text": "Fire is heat and light: what water cools and turns to steam.",
+     "status": "draft"
+    },
+    "Earth": {
+     "text": "Earth is the ground: the banks that give a river its course.",
+     "status": "draft"
+    }
+   }
+  },
+  "in_you": {
+   "Body": {
+    "absent": {
+     "text": "You have none of it in your chart. You lean on others to steady you, and your own wants come last.",
+     "status": "draft"
+    },
+    "thin": {
+     "text": "You have very little. You doubt your own footing and give way before you mean to.",
+     "status": "draft"
+    },
+    "present": {
+     "text": "You have a fair amount. You know what you want and hold to it, without forcing it.",
+     "status": "draft"
+    },
+    "abundant": {
+     "text": "You have more than enough. You rely on yourself, sometimes past the point it helps.",
+     "status": "ruled"
+    },
+    "dominant": {
+     "text": "You have a great deal. You trust yourself first, and other people's help feels like the slower way.",
+     "status": "draft"
+    }
+   },
+   "Mind": {
+    "absent": {
+     "text": "You have none of it in your chart. You learn by doing, and rest feels like lost time.",
+     "status": "draft"
+    },
+    "thin": {
+     "text": "You have very little. You run on what you already know, and you rarely stop to refill.",
+     "status": "draft"
+    },
+    "present": {
+     "text": "You have a fair amount. You take things in at a steady pace and know when to rest.",
+     "status": "draft"
+    },
+    "abundant": {
+     "text": "You have a lot of it. You gather and prepare more than most, and you feel safest when you know enough.",
+     "status": "ruled"
+    },
+    "dominant": {
+     "text": "You have a great deal. You think, read and plan far more than you act, and you wait to feel ready.",
+     "status": "draft"
+    }
+   },
+   "Expression": {
+    "absent": {
+     "text": "You have none of it in your chart. What you feel and think stays inside, and others have to guess.",
+     "status": "draft"
+    },
+    "thin": {
+     "text": "You have very little. Your thoughts stay in until they are finished.",
+     "status": "ruled"
+    },
+    "present": {
+     "text": "You have a fair amount. You say what you mean when it matters, and what you make carries you.",
+     "status": "draft"
+    },
+    "abundant": {
+     "text": "You have a lot of it. Ideas and words come out easily, and you show what you feel.",
+     "status": "draft"
+    },
+    "dominant": {
+     "text": "You have a great deal. You pour yourself out, talking, making and giving, faster than you refill.",
+     "status": "draft"
+    }
+   },
+   "Action": {
+    "absent": {
+     "text": "You have none of it in your chart. Chasing results feels foreign, and you work for meaning before money.",
+     "status": "draft"
+    },
+    "thin": {
+     "text": "You have very little. You know what you want and put off going after it.",
+     "status": "draft"
+    },
+    "present": {
+     "text": "You have a fair amount. You go after what you want and finish most of what you start.",
+     "status": "draft"
+    },
+    "abundant": {
+     "text": "You have plenty. You build steadily, and a finished task settles you.",
+     "status": "ruled"
+    },
+    "dominant": {
+     "text": "You have a great deal. You chase results and take on more than one person carries well.",
+     "status": "draft"
+    }
+   },
+   "Order": {
+    "absent": {
+     "text": "You have none of it in your chart. You set your own rules, and outside pressure slides off you.",
+     "status": "draft"
+    },
+    "thin": {
+     "text": "You have very little. Outside rules sit lightly on you, and you answer mostly to yourself.",
+     "status": "draft"
+    },
+    "present": {
+     "text": "You have a fair amount. You respect structure and carry responsibility without being crushed by it.",
+     "status": "draft"
+    },
+    "abundant": {
+     "text": "You have a lot of it. You feel the weight of rules, deadlines and other people's expectations.",
+     "status": "draft"
+    },
+    "dominant": {
+     "text": "You have a great deal. Pressure from outside sits on you most days, and you hold yourself to every standard.",
+     "status": "draft"
+    }
+   }
+  },
+  "notice": {
+   "Body": {
+    "low": {
+     "text": "you agree first and wonder later what you wanted.",
+     "status": "draft"
+    },
+    "mid": {
+     "text": "you speak up for yourself when it counts, then let the rest go.",
+     "status": "draft"
+    },
+    "high": {
+     "text": "you finish alone what two people would finish faster.",
+     "status": "ruled"
+    }
+   },
+   "Mind": {
+    "low": {
+     "text": "you start a task before you have read the instructions.",
+     "status": "draft"
+    },
+    "mid": {
+     "text": "you rest when you are tired, without guilt.",
+     "status": "draft"
+    },
+    "high": {
+     "text": "you keep researching a decision long after you could have made it.",
+     "status": "ruled"
+    }
+   },
+   "Expression": {
+    "low": {
+     "text": "people only learn what you think once you've already decided.",
+     "status": "ruled"
+    },
+    "mid": {
+     "text": "you share an idea once it has a shape.",
+     "status": "draft"
+    },
+    "high": {
+     "text": "you have said it before you meant to.",
+     "status": "draft"
+    }
+   },
+   "Action": {
+    "low": {
+     "text": "the plan is clear in your head, and the first step waits.",
+     "status": "draft"
+    },
+    "mid": {
+     "text": "you finish what you start, most of the time.",
+     "status": "draft"
+    },
+    "high": {
+     "text": "a day without one thing done leaves you restless.",
+     "status": "ruled"
+    }
+   },
+   "Order": {
+    "low": {
+     "text": "a deadline you set yourself slips, while one from someone else holds.",
+     "status": "draft"
+    },
+    "mid": {
+     "text": "you keep your word, and you expect others to keep theirs.",
+     "status": "draft"
+    },
+    "high": {
+     "text": "you check a rule twice before you bend it.",
+     "status": "draft"
+    }
+   }
+  },
+  "try": {
+   "Body": {
+    "grow": {
+     "text": "say no to one request this week, and keep the no.",
+     "status": "draft"
+    },
+    "release": {
+     "text": "hand one task to someone else this week and leave it with them.",
+     "status": "ruled"
+    },
+    "keep": {
+     "text": "keep one hour a week that belongs only to you.",
+     "status": "draft"
+    }
+   },
+   "Mind": {
+    "grow": {
+     "text": "give yourself one quiet hour a day to read or rest.",
+     "status": "draft"
+    },
+    "release": {
+     "text": "give your next decision a deadline, then decide on the day.",
+     "status": "ruled"
+    },
+    "keep": {
+     "text": "learn one new thing a week, and use it.",
+     "status": "draft"
+    }
+   },
+   "Expression": {
+    "grow": {
+     "text": "say one unfinished thought out loud this week.",
+     "status": "ruled"
+    },
+    "release": {
+     "text": "before you share it, wait one night.",
+     "status": "draft"
+    },
+    "keep": {
+     "text": "make one small thing a week and show it to someone.",
+     "status": "draft"
+    }
+   },
+   "Action": {
+    "grow": {
+     "text": "aim it at one result that matters this week, not five that don't.",
+     "status": "ruled"
+    },
+    "release": {
+     "text": "drop one goal this month that you only chase from habit.",
+     "status": "draft"
+    },
+    "keep": {
+     "text": "finish one task each day before you start the next.",
+     "status": "draft"
+    }
+   },
+   "Order": {
+    "grow": {
+     "text": "take on one commitment someone else will hold you to.",
+     "status": "ruled"
+    },
+    "release": {
+     "text": "let one rule go this week and see what holds.",
+     "status": "draft"
+    },
+    "keep": {
+     "text": "keep one promise to someone else this week, on time.",
+     "status": "draft"
+    }
+   }
+  },
+  "condition": {
+   "Overfueled": {
+    "heading": {
+     "text": "You run Overfueled: more comes into you than goes out.",
+     "status": "ruled"
+    },
+    "body": {
+     "text": "You take in, prepare and carry more than you let out. It makes you steady under pressure. It also means energy builds up with nowhere to go, and it comes out as impatience.",
+     "status": "ruled"
+    },
+    "try": {
+     "text": "Let one thing out each day: a decision, a sentence, a finished draft.",
+     "status": "ruled"
+    }
+   },
+   "Underfueled": {
+    "heading": {
+     "text": "You run Underfueled: more goes out of you than comes in.",
+     "status": "draft"
+    },
+    "body": {
+     "text": "You give, spend and adapt more than you take in. It makes you flexible and generous. It also means you run low, and you feel it as a tiredness that is hard to explain.",
+     "status": "draft"
+    },
+    "try": {
+     "text": "Take one thing in each day: a slow meal, an hour of rest, a word of help.",
+     "status": "draft"
+    }
+   },
+   "Balanced": {
+    "heading": {
+     "text": "You run Balanced: what comes in roughly matches what goes out.",
+     "status": "draft"
+    },
+    "body": {
+     "text": "You take in about as much as you give. It makes you steady and hard to tip over. The work is keeping it that way when a hard season pushes you off centre.",
+     "status": "draft"
+    },
+    "try": {
+     "text": "Notice which energy a hard week pulls on, and feed it back that weekend.",
+     "status": "draft"
+    }
+   }
+  },
+  "mode_plain": {
+   "Body": {
+    "text": "Body mode: you trust yourself first and lean on your own strength.",
+    "status": "draft"
+   },
+   "Mind": {
+    "text": "Mind mode: you take in and prepare before you act.",
+    "status": "ruled"
+   },
+   "Expression": {
+    "text": "Expression mode: you put yourself out, in words, work and feeling.",
+    "status": "draft"
+   },
+   "Action": {
+    "text": "Action mode: you go after results and measure the day by what got done.",
+    "status": "draft"
+   },
+   "Order": {
+    "text": "Order mode: you hold yourself to rules and to the standards others set.",
+    "status": "draft"
+   }
+  },
+  "need_phrase": {
+   "_pattern": "Your chart leans on {Mode}. The {El} you need is {phrase}.",
+   "Order": {
+    "text": "real stakes from outside: someone or something to answer to",
+    "status": "draft"
+   },
+   "Mind": {
+    "text": "rest and support: time to take things in",
+    "status": "draft"
+   },
+   "Expression": {
+    "text": "a way out: words, work, something you make",
+    "status": "draft"
+   },
+   "Action": {
+    "text": "a real goal: something to go after and finish",
+    "status": "draft"
+   },
+   "Body": {
+    "text": "your own footing: time and space that are yours",
+    "status": "draft"
+   }
+  },
+  "circle_close": {
+   "text": "Who in your life is one?",
+   "status": "ruled"
+  }
+ },
+ "stems": {
+  "庚": {
+   "name": "The Blade",
+   "element_line": {
+    "text": "Yang Metal, steel that has already been through the fire.",
+    "status": "ruled"
+   },
+   "recognition": {
+    "text": "You'd rather say the true thing than the easy one.",
+    "status": "ruled"
+   },
+   "as_line": {
+    "text": "As a Blade, you are that edge in a person.",
+    "status": "ruled"
+   },
+   "behaviour": {
+    "text": "You see the flaw in a plan before anyone asks.",
+    "status": "ruled"
+   },
+   "claims": "locked",
+   "contrast": {
+    "text": "People see someone sharp and certain. Inside, you are checking every word for whether it is true.",
+    "status": "ruled"
+   },
+   "self_nature": {
+    "text": "Metal is your own element: the edge itself.",
+    "status": "ruled"
+   },
+   "overrides": {
+    "in_you.Order.thin": "You have almost none. Without someone real to answer to, you sharpen alone and wait for a test worth meeting.",
+    "notice.Order.low": "you do your best work when someone whose judgement you respect sets the bar.",
+    "need_phrase.Order": "real stakes from outside, someone or something that tests the edge"
+   }
+  },
+  "辛": {
+   "name": "The Jewel",
+   "element_line": {
+    "text": "Yin Metal, the cut stone that holds the light.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "You know good from almost good at a glance.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As a Jewel, you are that finish in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "You go back to fix a detail most people would not see.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People see someone polished and composed. Inside, you are still finding what isn't quite right.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Metal is your own element: the cut stone itself.",
+    "status": "draft"
+   }
+  },
+  "甲": {
+   "name": "The Oak",
+   "element_line": {
+    "text": "Yang Wood, the tall tree that grows toward the light.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "You start before the path is clear.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As an Oak, you are that upward push in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "You are already planning the next thing before this one ends.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People see someone sure of where they're going. Inside, you aren't certain the light is there, and you go anyway.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Wood is your own element: the trunk itself.",
+    "status": "draft"
+   }
+  },
+  "乙": {
+   "name": "The Vine",
+   "element_line": {
+    "text": "Yin Wood, the green that climbs and finds a way.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "You get where you're going, one way or another.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As a Vine, you are that patient reach in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "You change the route without changing where you're headed.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People read you as easygoing. Inside, you are working three routes at once.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Wood is your own element: the green that climbs.",
+    "status": "draft"
+   }
+  },
+  "丙": {
+   "name": "The Sun",
+   "element_line": {
+    "text": "Yang Fire, the sun that gives light to everyone.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "You light up a gathering before you've said anything.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As a Sun, you are that warmth in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "You notice who is left out and pull them in.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People see someone with warmth to spare. Inside, you are rarely the one anyone checks on.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Fire is your own element: the sunlight itself.",
+    "status": "draft"
+   }
+  },
+  "丁": {
+   "name": "The Candle",
+   "element_line": {
+    "text": "Yin Fire, the flame that burns close and steady.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "When you care about something, it gets all of you.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As a Candle, you are that focused warmth in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "You remember the small thing someone told you months ago.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People see someone quiet and contained. Inside, you are burning steadily for the few things you love.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Fire is your own element: the flame you keep.",
+    "status": "draft"
+   }
+  },
+  "戊": {
+   "name": "The Mountain",
+   "element_line": {
+    "text": "Yang Earth, the mountain others find their footing on.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "You're the steady one when things start to shake.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As a Mountain, you are that ground in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "People bring you their plans to see if they hold.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People see someone unshakeable. Inside, you are carrying more than you've told anyone.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Earth is your own element: the mountain itself.",
+    "status": "draft"
+   }
+  },
+  "己": {
+   "name": "The Field",
+   "element_line": {
+    "text": "Yin Earth, the field that turns what it holds into growth.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "The people around you grow, and you are part of the reason.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As a Field, you are that quiet care in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "You notice what someone needs before they ask.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People see someone easy and calm. Inside, you are keeping track of everyone's needs, yours last.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Earth is your own element: the soil that grows things.",
+    "status": "draft"
+   }
+  },
+  "壬": {
+   "name": "The Ocean",
+   "element_line": {
+    "text": "Yang Water, the open sea that keeps moving.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "Your mind runs a few moves further out than the conversation.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As an Ocean, you are that depth in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "You lose interest once you've understood how something works.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People see someone calm on the surface. Inside, there is a whole current they don't see.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Water is your own element: the open sea itself.",
+    "status": "draft"
+   }
+  },
+  "癸": {
+   "name": "The Rain",
+   "element_line": {
+    "text": "Yin Water, the rain that reaches everything quietly.",
+    "status": "draft"
+   },
+   "recognition": {
+    "text": "You take in what others feel without trying.",
+    "status": "draft"
+   },
+   "as_line": {
+    "text": "As the Rain, you are that sensitivity in a person.",
+    "status": "draft"
+   },
+   "behaviour": {
+    "text": "You know a friend is upset from one text.",
+    "status": "draft"
+   },
+   "contrast": {
+    "text": "People see someone gentle and easy to be with. Inside, you are holding feelings that aren't yours.",
+    "status": "draft"
+   },
+   "self_nature": {
+    "text": "Water is your own element: the rain itself.",
+    "status": "draft"
+   }
+  }
+ }
+}
