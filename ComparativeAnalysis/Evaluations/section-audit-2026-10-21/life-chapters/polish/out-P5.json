@@ -1,0 +1,604 @@
+{
+ "units": [
+  {
+   "key": "ENERGY action · decade.grow.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} and steady returns on the care you have put in. You build the kind of security that lets you stop counting."
+  },
+  {
+   "key": "ENERGY action · decade.grow.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} through chances that open sideways, a neighbour's idea or a skill someone wants to pay for. You find money and company in places you had never thought to look."
+  },
+  {
+   "key": "ENERGY action · decade.grow.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, with chores and errands that earned you a coin or two. You learned that effort paid, and the feeling stayed with you."
+  },
+  {
+   "key": "ENERGY action · decade.grow.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through trips, outings and things to explore beyond the front door. You came home with pockets full of finds and plans for the next trip."
+  },
+  {
+   "key": "ENERGY action · decade.grow.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and a job that paid for effort. You learned to handle money, and it stayed handled."
+  },
+  {
+   "key": "ENERGY action · decade.grow.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as a stretch of ventures and practical wins. You took hold of chances others passed over, and several of them paid."
+  },
+  {
+   "key": "ENERGY action · decade.grow.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, the Action your chart is hungry for, with work that pays and chances you can take hold of. Money comes in at a steady pace and practical life gets easier. You reach a little further each year, and most of what you gain stays yours."
+  },
+  {
+   "key": "ENERGY action · decade.release.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as demands that pull you in several directions at once. You keep your footing by taking one task at a time and finishing it."
+  },
+  {
+   "key": "ENERGY action · decade.release.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with more to earn and more to spend, and every gain costs an hour. Choosing a slower pace carries you, and you turn down offers that cost more than they give."
+  },
+  {
+   "key": "ENERGY action · decade.release.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as clubs, plans and errands that pulled you different ways at once. With a close friend beside you, you learned to choose one thing at a time."
+  },
+  {
+   "key": "ENERGY action · decade.release.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} into a busy home where the grown-ups were always working and counting. You found ease with a cousin or a close friend, though you grew capable sooner than a child needs to."
+  },
+  {
+   "key": "ENERGY action · decade.release.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as bills, offers and chances that all wanted a piece of your time. You got through by saying no, and by dropping whatever did not matter."
+  },
+  {
+   "key": "ENERGY action · decade.release.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and the weight of practical life, a home to run and costs that kept climbing. What held you up was a friend who pitched in without being asked."
+  },
+  {
+   "key": "ENERGY action · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, more Action than your chart can use, with money to manage and a household that leans on it. Each gain asks more work of you than it asks of others. Someone close who splits the chores carries you, and you keep a clear count of what your life costs to run."
+  },
+  {
+   "key": "ENERGY body · decade.grow.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} and a sturdier sense of yourself. You stand by your own judgement at work and at home, and approval matters less to you."
+  },
+  {
+   "key": "ENERGY body · decade.grow.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} through friends and rivals who keep you sharp. You compete in the open and win more often than you lose."
+  },
+  {
+   "key": "ENERGY body · decade.grow.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, a strength your chart was short of, with games and teams at school. You learned early that you could hold your own among other children."
+  },
+  {
+   "key": "ENERGY body · decade.grow.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through children your age who wanted the same toys and the same turn. You learned to stand up for your share, and you never quite stopped."
+  },
+  {
+   "key": "ENERGY body · decade.grow.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and the company of equals, colleagues and friends who matched your pace. You found a firmness in yourself that had been missing before."
+  },
+  {
+   "key": "ENERGY body · decade.grow.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, a stretch when you stopped waiting for permission. You struck out on your own terms and held your position against people who doubted you."
+  },
+  {
+   "key": "ENERGY body · decade.grow.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, your own energy, and your chart has gone short of it. You stand straighter at work and among peers and hold ground you once gave away. You pay for it by sharing credit with equals, and it is a price worth paying."
+  },
+  {
+   "key": "ENERGY body · decade.release.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} beyond what your chart needs, a grip that holds on harder than the moment asks. You spend the surplus on a long walk each evening, before it can turn into a quarrel."
+  },
+  {
+   "key": "ENERGY body · decade.release.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with a habit of holding on to your own way at home. You find a slower answer eases it, and a draw at home is worth more to you than a win."
+  },
+  {
+   "key": "ENERGY body · decade.release.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought more {el} than a child could hold, and every game turned into a contest. Hours outdoors on your own burned off the surplus, and you learned to win without a fight."
+  },
+  {
+   "key": "ENERGY body · decade.release.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and a stubborn streak that pushed against the grown-ups at home. You found that an hour on your own cooled you faster than any argument won."
+  },
+  {
+   "key": "ENERGY body · decade.release.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} to spare, and peers who wanted the same things as you. You kept level by finishing what you started and letting the results argue for you."
+  },
+  {
+   "key": "ENERGY body · decade.release.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} into a chart already full of it, and you went it alone more than you needed to. You learned to share the load once someone close offered a hand and you took it."
+  },
+  {
+   "key": "ENERGY body · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, a surplus of your own energy, and it makes you stubborn with your equals. People at work want the same ground you do, and every meeting turns into a test of will. What carries you is time alone at the start of each day, before anyone asks anything of you."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el}, the outlet your chart is short of. You say what you think at the moment you think it, and the words come out whole."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings more {el}, with a skill ready to be shown and people keen to learn it from you. You teach, make or perform, and you are paid in attention as well as thanks."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, with drawing, music or games you made up yourself. You found something you were good at and showed it to anyone who would look."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and a louder voice at school, in class and in the playground. Someone in your first home enjoyed your stories, and you learned that you were worth hearing."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and work that let you make things your own way. You found your style, and people began to ask for it."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, a lighter stretch of good food, good company and things done for pleasure. You laughed easily and said what you thought without rehearsing it first."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, the Expression your chart has waited for, with ideas that turn into finished things. Food tastes better and the work in your hands goes well. You enjoy more, worry less and show your work without asking anyone first."
+  },
+  {
+   "key": "ENERGY expression · decade.release.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with a voice that runs faster than your patience. You keep your standing by sleeping on the reply and sending the shorter version."
+  },
+  {
+   "key": "ENERGY expression · decade.release.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with ideas you want to say aloud before they are ready. What carries you is time alone with each idea, until it can stand without you defending it."
+  },
+  {
+   "key": "ENERGY expression · decade.release.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} in a rush, with a quick tongue that got you into trouble in class. You learned to ask before you argued, because someone at home heard you out."
+  },
+  {
+   "key": "ENERGY expression · decade.release.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} to a restless child who wanted to try everything at once. You found the quiet pride of a finished thing, with an older relative sitting patiently beside you."
+  },
+  {
+   "key": "ENERGY expression · decade.release.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as a sharp voice at work, with friction from people above you. You won respect by finishing the work before you spoke about it."
+  },
+  {
+   "key": "ENERGY expression · decade.release.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through a spell of appetite and easy spending. With friends who kept you honest, you held on to the fun without losing your footing."
+  },
+  {
+   "key": "ENERGY expression · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, more Expression than your chart can use, a sharp voice and little patience for rules you did not write. You say what others only think, and it costs you goodwill. You keep the goodwill that matters by saying a thing once and letting it rest."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} and the chance to study something for its own sake. You read, ask and turn things over, and your own life starts to make sense to you."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with helpers who turn up just when you need them. You accept support without keeping score, and rest comes easily."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, and a teacher or a book that opened the world to you. You learned that questions were welcome, and you kept asking them."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through an older relative whose care asked nothing back. You learned early what it was to feel safe, and it stayed with you."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through study, a course or a training that finally fitted. You gained a way of thinking that you still use."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, a stretch of shelter with someone who backed you and asked little in return. You let yourself be helped and found that it cost you nothing."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, the Mind your chart has gone without, with study and people who look out for you. A course or a good adviser opens a door you had walked past. You learn faster than you expected and rest without apology."
+  },
+  {
+   "key": "ENERGY mind · decade.release.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as advice you never asked for, from people who mean well. You trust your own reading of things after a walk on your own clears the noise."
+  },
+  {
+   "key": "ENERGY mind · decade.release.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with endless reading and plans that stall before they start. You get moving by finishing one small thing before you plan the next."
+  },
+  {
+   "key": "ENERGY mind · decade.release.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, more thinking than your chart could use, while other children jumped in before you. With a friend who went first, you learned to try before you felt sure."
+  },
+  {
+   "key": "ENERGY mind · decade.release.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as grown-ups who did the things you could already do yourself. Out of doors with friends, you found out what you could manage alone."
+  },
+  {
+   "key": "ENERGY mind · decade.release.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and more study than action, and what you knew sat waiting for use. You got moving one small step at a time, until the knowing began to earn its keep."
+  },
+  {
+   "key": "ENERGY mind · decade.release.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as a comfortable shelter that made it easy to stay put. You left it when a friend needed a hand, and found you were braver than you thought."
+  },
+  {
+   "key": "ENERGY mind · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, more Mind than your chart can use, with plans that stay plans and help you never asked for. You think a step too long before each move. You find your footing by doing one thing at a time, and the plans start to move."
+  },
+  {
+   "key": "ENERGY order · decade.grow.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as pressure you can use, a hard deadline or a role with stakes. You think more clearly with the clock running."
+  },
+  {
+   "key": "ENERGY order · decade.grow.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} and a reputation that arrives before you do, with people who expect you to lead. You take charge when asked and learn what leading costs you in evenings and patience."
+  },
+  {
+   "key": "ENERGY order · decade.grow.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, with school rules and a teacher who expected a lot. You rose to it, and you liked being measured against a clear standard."
+  },
+  {
+   "key": "ENERGY order · decade.grow.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through a duty someone in your first home trusted you with. You took it seriously and grew up a little faster for it."
+  },
+  {
+   "key": "ENERGY order · decade.grow.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and a role with a title, a place in a structure that gave your days a shape. You kept your word to the people above you, and they noticed."
+  },
+  {
+   "key": "ENERGY order · decade.grow.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought more {el}, a stretch of reviews, deadlines and people keeping score. You did your best work under that pressure, and your name began to carry weight."
+  },
+  {
+   "key": "ENERGY order · decade.grow.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, the Order your chart runs short of. It gives your strength a shape, with a clear role and people who rely on you to keep it. You take on more than you planned, and the weight steadies you."
+  },
+  {
+   "key": "ENERGY order · decade.release.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as deadlines that stack up and people above you who want more. A quiet home and real rest carry you, and you meet the pressure fresher than those around you."
+  },
+  {
+   "key": "ENERGY order · decade.release.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} under a brighter spotlight, with your name on things and people watching how you handle them. What sees you through is saying no to the jobs that are not yours."
+  },
+  {
+   "key": "ENERGY order · decade.release.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as strict rules and grown-ups who were quick to correct you. You kept a corner of calm that belonged to you, a quiet place no one else corrected."
+  },
+  {
+   "key": "ENERGY order · decade.release.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, with tests and comparisons that weighed on you at school. Someone at home who never hurried you helped you through, and you learned that slow was not the same as wrong."
+  },
+  {
+   "key": "ENERGY order · decade.release.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} from above, a boss or a set of rules that left you little say. You outlasted the pressure by keeping your evenings for yourself."
+  },
+  {
+   "key": "ENERGY order · decade.release.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through obligations you never chose, roles that others expected you to fill. A friend who listened carried you through them, and you kept your own counsel."
+  },
+  {
+   "key": "ENERGY order · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, more Order than your chart can use, with deadlines and people who judge your work. The pressure comes from every side at once. You get through on the backing of someone you trust and a pace you refuse to rush."
+  },
+  {
+   "key": "ENERGY body · decade.grow.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, the backbone your chart has wanted, felt in a steadier stride. You take the hill without stopping and hold your ground when the people after you disagree. You decide for yourself where you live, how fast you go and whom you keep close."
+  },
+  {
+   "key": "ENERGY body · decade.grow.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} into your stride and your say, a strength your chart had wanted. You walked further, decided for yourself and asked fewer people for leave."
+  },
+  {
+   "key": "ENERGY body · decade.grow.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through friends your own age who kept pace with you. You held your place at the table among equals and spoke up when it counted."
+  },
+  {
+   "key": "ENERGY body · decade.grow.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as stamina you can build, a daily walk that grows longer by the month. You hold your own on the hill and in an argument."
+  },
+  {
+   "key": "ENERGY body · decade.grow.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} through old friends and new ones who meet you as an equal. You take your seat where the family decisions get made and say your piece."
+  },
+  {
+   "key": "ENERGY body · decade.release.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el} through a firm hand on how home and family should run, a surplus your chart does better without. The people after you push back, and every small choice turns into a stand. With an hour to yourself each morning, you meet the day readier to let small things pass."
+  },
+  {
+   "key": "ENERGY body · decade.release.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} piled onto a chart already running over, with a habit of lifting every heavy thing yourself. You learned to let someone close take the other end of the load."
+  },
+  {
+   "key": "ENERGY body · decade.release.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as a stubborn grip on how things were done at home. Once you slowed your pace, you let the people after you do things their own way."
+  },
+  {
+   "key": "ENERGY body · decade.release.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with the urge to carry every load and win every point. You burn off the surplus with an early walk and save your strength for the tasks you choose."
+  },
+  {
+   "key": "ENERGY body · decade.release.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as a stubborn streak with friends and with the people after you. You let more quarrels go once you keep an hour each day for yourself."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, a Mind your chart runs short of, as time to think and friends who look in on you. You read what you like and follow each question as far as it goes. You accept help without counting it and pass on what you have learned to anyone who asks."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as time to read and think about your own life. You understood old choices better and forgave a few of them."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through people who looked out for you, a friend at the door and help that came before you asked. You took the care you were given and slept better for it."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as the quiet to learn something new, a language, an instrument or a subject that pulls at you. You read slowly and teach a little of what you know to someone younger."
+  },
+  {
+   "key": "ENERGY mind · decade.grow.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} through friends and younger relatives who call by and stay for tea. You accept their care easily, and the house feels fuller for it."
+  },
+  {
+   "key": "ENERGY mind · decade.release.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el} as worry for the people after you and care pressed on you unasked, a Mind that works against your chart. Days fill with thinking while the doing waits. You find your footing in plain acts, a walk or a meal cooked from scratch."
+  },
+  {
+   "key": "ENERGY mind · decade.release.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as more worry than the days called for, and plans that stayed on the kitchen table. You walked each afternoon, and the plans began to move with you."
+  },
+  {
+   "key": "ENERGY mind · decade.release.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as care you did not need, people doing for you what you could still do yourself. You kept your own pace and said no, kindly, to the help you did not want."
+  },
+  {
+   "key": "ENERGY mind · decade.release.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as long evenings for turning the past over and over. You keep the thinking in its place with a daily walk and a task finished before dark."
+  },
+  {
+   "key": "ENERGY mind · decade.release.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as plans for the house and the garden that stay on paper. You get them moving one plain step at a time, with someone close lending a hand."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el} as hours to cook, make and tell stories, a voice your chart has wanted. The work of your hands finds people who want it, and your voice carries at the table. You enjoy what you make without needing it to be perfect."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as time to make things for pleasure, a garden, a quilt or a tune at the piano. You made what you liked and gave much of it away."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} in long dinners with friends who stayed late. You told your stories well, and the younger ones at the table asked for them by name."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} and the pleasure of showing someone younger how a thing is made. You teach with your hands as much as your words, and the lessons stick."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as an appetite for new tastes, new places and an evening out without a reason. You say yes to the invitation and come home with a story to tell."
+  },
+  {
+   "key": "ENERGY expression · decade.release.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, an Expression that works against your chart, as a busy tongue and an appetite that spends faster than it should. You offer your view on other people's lives before anyone asks for it. Time alone gives you back the patience to listen."
+  },
+  {
+   "key": "ENERGY expression · decade.release.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} to the family table as a sharp tongue, with opinions that arrived before anyone asked. You kept your welcome by letting the people after you finish their sentences."
+  },
+  {
+   "key": "ENERGY expression · decade.release.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through appetite and spending, a new hobby each season and a cupboard of half-done things. You found more pleasure in finishing one of them than in starting the next."
+  },
+  {
+   "key": "ENERGY expression · decade.release.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as a restless wish to say everything you have kept to yourself. You choose your moment after an hour alone, and the words land kinder for it."
+  },
+  {
+   "key": "ENERGY expression · decade.release.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} through projects and plans that outrun your energy. You say no to half of them and enjoy the rest for longer."
+  },
+  {
+   "key": "ENERGY action · decade.grow.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el} and the Action your chart wants, with plans for the house that come together and money that goes where you send it. What you built keeps its value. You take on the projects you choose and see each one through."
+  },
+  {
+   "key": "ENERGY action · decade.grow.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as practical plans that came good, a house put in order and savings that held. You took hold of what you had built and made it work for you."
+  },
+  {
+   "key": "ENERGY action · decade.grow.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through projects you could finish with your own hands, a kitchen rebuilt or a garden laid out. You liked seeing the result each evening and started the next one gladly."
+  },
+  {
+   "key": "ENERGY action · decade.grow.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as what you built starting to pay you back. You spend with a clear head and still have enough left to be generous."
+  },
+  {
+   "key": "ENERGY action · decade.grow.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} through practical chances, a move, a sale or a plan with friends that takes shape. You say yes to the ones you can hold in both hands."
+  },
+  {
+   "key": "ENERGY action · decade.release.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, an Action that works against your chart, with a house to manage and money the people after you lean on. Each week brings another bill, another repair or another request. You manage it with help from someone close and a slower pace that lets some things wait."
+  },
+  {
+   "key": "ENERGY action · decade.release.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} in the shape of repairs, errands and accounts that never seemed to shorten. You got through it by doing one job each morning and leaving the rest for the next day."
+  },
+  {
+   "key": "ENERGY action · decade.release.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through money matters that wanted your attention, a house to keep up and costs that crept upward. You shared the paperwork with someone close and kept your evenings free."
+  },
+  {
+   "key": "ENERGY action · decade.release.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as offers, schemes and calls on your money from every direction. You say no to most of them and keep your days for what you want."
+  },
+  {
+   "key": "ENERGY action · decade.release.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as a busy house, with things to fix, move and pay for at once. You set your own pace with them, and the house runs no worse for it."
+  },
+  {
+   "key": "ENERGY order · decade.grow.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el} and a clear place in your family and among friends, the Order your chart wants. People count on you to keep things fair and on time, and the role gives your days a frame. You take the duty seriously and find it asks something of you every week."
+  },
+  {
+   "key": "ENERGY order · decade.grow.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as standing among friends and neighbours, a voice others consulted on what was fair. You kept your word in small things, and people trusted you with large ones."
+  },
+  {
+   "key": "ENERGY order · decade.grow.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} in a role you took on, keeping a club, a garden plot or a family gathering in order. You liked the shape it gave your week and the people who counted on it."
+  },
+  {
+   "key": "ENERGY order · decade.grow.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as a settled order to your days, with a place for each thing and a reason to rise early. You keep the rhythm for your own sake, and it holds you upright."
+  },
+  {
+   "key": "ENERGY order · decade.grow.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} through a name people respect, with friends and younger relatives turning to you for a fair word. You answer plainly, and your judgement settles more than one quarrel."
+  },
+  {
+   "key": "ENERGY order · decade.release.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, an Order that works against your chart, as duties that land on you because others expect you to take them. The family calendar fills in your hand, and other people set its pace. What carries you is a walk most mornings and one friend you can be idle with."
+  },
+  {
+   "key": "ENERGY order · decade.release.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as duties to the people after you and a calendar others filled. You learned to say no without guilt and kept one day a week for yourself."
+  },
+  {
+   "key": "ENERGY order · decade.release.late.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} from family and neighbours, with everyone sure of what you owed them. You found rest with a friend who asked nothing of you."
+  },
+  {
+   "key": "ENERGY order · decade.release.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as the role of keeping everyone else's plans in order. You meet it at your own pace and turn down whatever belongs to someone else."
+  },
+  {
+   "key": "ENERGY order · decade.release.late.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with a name to live up to and eyes on how you carry it. You set it down each evening with someone close who wants nothing from your name."
+  }
+ ]
+}
