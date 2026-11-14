@@ -25,8 +25,8 @@ const EXPECT = {
     decadeStars: '2023:天乙贵人 2033:桃花', season: '甲:rooted 丁:absent',
     years: '2026:七杀:半合@day 2028:偏印:六冲@day 2030:比肩:六冲@month',
   },
-  B: { structure: '七杀格 strained 官杀混杂 output', bonds: '自刑 酉酉 month-day | 六冲 酉卯 month-hour | 六冲 酉卯 day-hour', absent: '劫财 伤官 正财 偏印 正印', season: '癸:absent 丙:absent' },
-  C: { structure: '正官格 formed', bonds: '六合 申巳 year-month | 刑 申巳 year-month', absent: '正财 七杀', stars: '天喜@day 劫煞@month 亡神@year 空亡@month', season: '壬:shown 甲:absent 癸:hidden' },
+  B: { structure: '七杀格 strained 官杀混杂 output', bonds: '自刑 酉酉 month-day | 六冲 酉卯 month-hour | 六冲 酉卯 day-hour', absent: '劫财 伤官 正财 偏印 正印', season: '癸:absent 壬:absent' }, // R4 A: born before 秋分, 丙 waits (八月乙木 秋分后用丙) and 上半月无癸 brings 壬
+  C: { structure: '正官格 formed', bonds: '六合 申巳 year-month | 刑 申巳 year-month', absent: '正财 七杀', stars: '天喜@day 劫煞@month 亡神@year 空亡@month', season: '壬:shown 癸:hidden' }, // R4 A: 甲 is the cure only when 戊 shows (四月辛金)
   yuejie: { structure: '月劫格 formed' }, // 乙 in 寅: the month's main stem 甲 is the Rival
   passed: { structure: '正官格 strained 七杀 output' }, // 己 in 寅: the 戊 on show is the Rival, so the main stem 甲 decides
   store: { structure: '建禄格 formed' }, // 己 in 丑: only the Twin 己 shows, so the main stem reads as 建禄

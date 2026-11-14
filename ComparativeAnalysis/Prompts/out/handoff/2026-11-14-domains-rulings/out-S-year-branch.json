@@ -82,7 +82,7 @@
    "kind": "lived",
    "page": "seat:jiecai_year_branch.Wealth",
    "family": "seatbeat",
-   "text": "Growing up you watched money pass from hand to hand around the family, and little of it was written down. By fifteen you had given away more than you could spare and learned which relatives paid back."
+   "text": "Growing up you watched money shared from hand to hand around the family, and little of it was written down. By fifteen you had given away more than you could spare and learned which relatives paid back."
   },
   {
    "key": "POSITION piancai_year_branch · domain_climb.Family.headline",
@@ -145,7 +145,7 @@
    "kind": "lived",
    "page": "seat:pianyin_year_branch.Family",
    "family": "seatbeat",
-   "text": "In your first home an adult who lived in their own head gave you books, questions and long silences in place of the usual fuss. What you took from it was the habit of answering your own questions before you thought to ask anyone else."
+   "text": "Instead of the usual fuss you got books, questions and long silences from an adult in your first home who lived in their own head. What you took from it was the habit of answering your own odd questions before you thought to ask anyone else."
   },
   {
    "key": "POSITION pianyin_year_branch · domain_climb.Mind.headline",
@@ -299,7 +299,7 @@
    "kind": "headline",
    "page": "seat:shishen_year_branch.Family",
    "family": "headline",
-   "text": "You are the one who feeds, because you were fed well."
+   "text": "Fed well as a child, you now feed everyone else."
   },
   {
    "key": "POSITION shishen_year_branch · domain_climb.Family.recognition",
@@ -411,7 +411,7 @@
    "kind": "recognition",
    "page": "seat:zhengguan_year_branch.Growth",
    "family": "recognition",
-   "text": "You grow by finishing what you start, the course completed and the level passed and the standard met. Because structure is where you first felt secure, you do well wherever the steps are clear and lose heart when they are not. You climb steadily, further in the end than people who started faster."
+   "text": "You grow by finishing what you start, the course completed and the level passed and the standard met. Because order is where you first felt secure, you do well wherever the steps are clear and lose heart when they are not. You climb steadily, further in the end than people who started faster."
   },
   {
    "key": "POSITION zhengguan_year_branch · domain_climb.Growth.lived",

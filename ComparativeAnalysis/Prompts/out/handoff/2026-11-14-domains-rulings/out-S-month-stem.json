@@ -1,0 +1,620 @@
+{
+ "units": [
+  {
+   "key": "POSITION bijian_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:bijian_month_stem.Career",
+   "family": "headline",
+   "text": "You do your best work as nobody's junior."
+  },
+  {
+   "key": "POSITION bijian_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_month_stem.Career",
+   "family": "recognition",
+   "text": "You work as a peer of whoever runs the project, whatever your level, and you expect to be judged on what you finish. Because your own effort is how you measure yourself, you slow down the moment a manager hovers and speed up once you are left alone. What you want from a job is a standard you set and meet yourself."
+  },
+  {
+   "key": "POSITION bijian_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:bijian_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Since your late teens you have been the one handed the job nobody else would finish alone. Your moves between teams and roles have come each time someone else took the credit for your work."
+  },
+  {
+   "key": "POSITION bijian_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:bijian_month_stem.Career",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties you were the one handed the job nobody else would finish alone. Your moves between teams and roles came each time someone else took the credit for your work."
+  },
+  {
+   "key": "POSITION bijian_month_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:bijian_month_stem.Social",
+   "family": "headline",
+   "text": "Your friends are your equals, or they drift."
+  },
+  {
+   "key": "POSITION bijian_month_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_month_stem.Social",
+   "family": "recognition",
+   "text": "You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years."
+  },
+  {
+   "key": "POSITION bijian_month_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:bijian_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Since your late teens your closest friends have been people at your own stage, classmates and colleagues who grew up beside you like siblings. You have learned among them to settle your own trouble first and to mention it once it is solved."
+  },
+  {
+   "key": "POSITION bijian_month_stem · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:bijian_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Through your Rising Chapter your closest friends were people at your own stage, classmates and colleagues who grew up beside you like siblings. Among them you learned to settle your own trouble first and to mention it once it was solved."
+  },
+  {
+   "key": "POSITION jiecai_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_month_stem.Career",
+   "family": "headline",
+   "text": "You rise fastest where the score is public."
+  },
+  {
+   "key": "POSITION jiecai_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_month_stem.Career",
+   "family": "recognition",
+   "text": "You come alive in work that ranks people openly, commissions and targets and anything with a clear winner. Because you need proof that you are winning, a vague team goal leaves you flat. You unsettle quieter colleagues without meaning to, and the teams that suit you are the ones that like a race."
+  },
+  {
+   "key": "POSITION jiecai_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Since your late teens the colleagues you raced hardest have also been the ones you teamed up with on joint bids and shared clients. You have learned from the bids that soured over a vague split to agree who gets what before any work starts."
+  },
+  {
+   "key": "POSITION jiecai_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:jiecai_month_stem.Career",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties the colleagues you raced hardest were also the ones you teamed up with on joint bids and shared clients. You learned from the bids that soured over a vague split to agree who got what before any work started."
+  },
+  {
+   "key": "POSITION jiecai_month_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_month_stem.Social",
+   "family": "headline",
+   "text": "Your circle is full of rivals you respect."
+  },
+  {
+   "key": "POSITION jiecai_month_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_month_stem.Social",
+   "family": "recognition",
+   "text": "You get close to people by competing with them, over a quiz night or a sales month or a race for the same client. Because you respect anyone who can beat you, a close loss to a friend brings you nearer to them. You keep the friends who win fairly and lose with grace."
+  },
+  {
+   "key": "POSITION jiecai_month_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_month_stem.Social",
+   "family": "seatbeat",
+   "text": "From your late teens you have made friends through competition, in teams and courses and workplaces where everyone was ranked. You have shared each win with the people you beat, and those are the friendships that have lasted."
+  },
+  {
+   "key": "POSITION jiecai_month_stem · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:jiecai_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Across your Rising Chapter you made friends through competition, in teams and courses and workplaces where everyone was ranked. You shared each win with the people you beat, and those were the friendships that lasted."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:piancai_month_stem.Career",
+   "family": "headline",
+   "text": "You are paid for spotting the chance others miss."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_month_stem.Career",
+   "family": "recognition",
+   "text": "You do your best work wherever there is something to find, a client or a deal or a gap in the market. Because the search keeps you sharp, a fixed salary and a quiet desk wear you down faster than hard work. You are the colleague people come to first when they need a way in."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:piancai_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Your best career moves since your late teens have come through timing, a job heard about early or an offer made in a casual conversation. Your working life has turned with each better chance, and it has grown wider than any single ladder."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:piancai_month_stem.Career",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties your best career moves came through timing, a job heard about early or an offer made in a casual conversation. Your working life turned with each better chance, and it grew wider than any single ladder."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:piancai_month_stem.Wealth",
+   "family": "headline",
+   "text": "Your money arrives in windfalls and goes to the next chance."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_month_stem.Wealth",
+   "family": "recognition",
+   "text": "You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust another opening to come, each gain goes straight into the next venture or the next move. Your money moves as fast as your eye for the next deal, and a quiet season finds you rich in plans."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:piancai_month_stem.Wealth",
+   "family": "seatbeat",
+   "text": "Good years and thin ones have followed each other since your late teens, with money arriving in lumps. You have put each windfall into a move or a venture before setting any of it aside, and those ventures have widened your range more than your balance."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Wealth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:piancai_month_stem.Wealth",
+   "family": "seatbeat",
+   "text": "From your late teens to your mid-thirties good years and thin ones followed each other, with money arriving in lumps. You put each windfall into a move or a venture before setting any of it aside, and those ventures widened your range more than your balance."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:piancai_month_stem.Social",
+   "family": "headline",
+   "text": "You know someone for every need."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_month_stem.Social",
+   "family": "recognition",
+   "text": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You give a real friend the same quick hour you give a contact, and the difference is the last thing you notice."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:piancai_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Many of your friendships since your late teens began far from home, over a deal or a trip or a shared plan. You have kept a friend in each of the worlds you passed through, and a few of them have become close for life."
+  },
+  {
+   "key": "POSITION piancai_month_stem · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:piancai_month_stem.Social",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties many of your friendships began far from home, over a deal or a trip or a shared plan. You kept a friend in each of the worlds you passed through, and a few of them became close for life."
+  },
+  {
+   "key": "POSITION pianyin_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_month_stem.Career",
+   "family": "headline",
+   "text": "Your work starts where the standard method fails."
+  },
+  {
+   "key": "POSITION pianyin_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_month_stem.Career",
+   "family": "recognition",
+   "text": "Colleagues come to you when a problem has stopped making sense, and you find the angle nobody else tried. Because your value lies in unusual knowledge, you choose a narrow speciality over a broad ladder, and you lose interest in work anyone could do. Your reputation travels further than your rank, and it travels slowly."
+  },
+  {
+   "key": "POSITION pianyin_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Work with an odd corner to it has drawn you since your late teens, a niche most people around you ignored. You have watched people easier to explain win the early promotions and then been sent for when their fixes failed."
+  },
+  {
+   "key": "POSITION pianyin_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:pianyin_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Between sixteen and your mid-thirties, work with an odd corner to it drew you, a niche most people around you ignored. You watched people easier to explain win the early promotions and then got sent for when their fixes failed."
+  },
+  {
+   "key": "POSITION pianyin_month_stem · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_month_stem.Mind",
+   "family": "headline",
+   "text": "Your mind is your trade, and it needs quiet."
+  },
+  {
+   "key": "POSITION pianyin_month_stem · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_month_stem.Mind",
+   "family": "recognition",
+   "text": "Your mind goes straight to the corner of a subject everyone else skips, the exception or the case that breaks the pattern. Because your best insight comes in private, open offices and constant meetings scatter you within a day. You guard your quiet hours at work more closely than your free time."
+  },
+  {
+   "key": "POSITION pianyin_month_stem · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_month_stem.Mind",
+   "family": "seatbeat",
+   "text": "Your thinking has set you apart at work since your late teens, quick to reach an odd answer and slow to explain it. You have handed project after project to a finisher once the puzzle was solved, because the finishing bored you."
+  },
+  {
+   "key": "POSITION pianyin_month_stem · domain_climb.Mind.lived_past",
+   "kind": "lived_past",
+   "page": "seat:pianyin_month_stem.Mind",
+   "family": "seatbeat",
+   "text": "Through your Rising Chapter your thinking set you apart at work, quick to reach an odd answer and slow to explain it. You handed project after project to a finisher once the puzzle was solved, because the finishing bored you."
+  },
+  {
+   "key": "POSITION qisha_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:qisha_month_stem.Career",
+   "family": "headline",
+   "text": "Pressure is where your career is made."
+  },
+  {
+   "key": "POSITION qisha_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_month_stem.Career",
+   "family": "recognition",
+   "text": "You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers hand you more than your position covers, and the load keeps growing. You are at your calmest when the stakes are highest, and a quiet week makes you restless."
+  },
+  {
+   "key": "POSITION qisha_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:qisha_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Your reputation at work has grown out of hard moments since your late teens, the emergency handled or the project rescued. Your promotions have come out of the worst weeks, each one earned by the nerve you showed when a project was close to failing."
+  },
+  {
+   "key": "POSITION qisha_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:qisha_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Through your Rising Chapter your reputation at work grew out of hard moments, the emergency handled or the project rescued. Your promotions came out of the worst weeks, each one earned by the nerve you showed when a project was close to failing."
+  },
+  {
+   "key": "POSITION qisha_month_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:qisha_month_stem.Social",
+   "family": "headline",
+   "text": "Your friendships are tested before they are trusted."
+  },
+  {
+   "key": "POSITION qisha_month_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_month_stem.Social",
+   "family": "recognition",
+   "text": "You size up new people by how they act when something goes wrong, and you warm to anyone who keeps their nerve. Because you trust only what has been tested, light talk at a party feels like a waste of your evening. Your friendships are few and serious, and loyalty under strain is the one test you set."
+  },
+  {
+   "key": "POSITION qisha_month_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:qisha_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Your closest friends since your late teens have been the people you worked hardest beside, in a tough job or a demanding team. You have come out of each hard stretch with an ally who answers your call at any hour."
+  },
+  {
+   "key": "POSITION qisha_month_stem · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:qisha_month_stem.Social",
+   "family": "seatbeat",
+   "text": "In your Rising Chapter your closest friends were the people you worked hardest beside, in a tough job or a demanding team. You came out of each hard stretch with an ally who answered your call at any hour."
+  },
+  {
+   "key": "POSITION shangguan_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_month_stem.Career",
+   "family": "headline",
+   "text": "You are hired for your talent and tested on your discipline."
+  },
+  {
+   "key": "POSITION shangguan_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_month_stem.Career",
+   "family": "recognition",
+   "text": "You do your strongest work where you can be seen doing it, pitching or performing or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your sharpest ideas win the meeting, and how far they carry you depends on what you finish."
+  },
+  {
+   "key": "POSITION shangguan_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outstayed most of the ones who did not."
+  },
+  {
+   "key": "POSITION shangguan_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shangguan_month_stem.Career",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties bosses either backed you fully or tried to slow you down, and few stayed neutral about you. You did your best work for the ones who believed in you and outstayed most of the ones who did not."
+  },
+  {
+   "key": "POSITION shangguan_month_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_month_stem.Social",
+   "family": "headline",
+   "text": "Friends and colleagues either love you or resist you."
+  },
+  {
+   "key": "POSITION shangguan_month_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_month_stem.Social",
+   "family": "recognition",
+   "text": "You say the sharp thing in company, the joke that lands too close or the question nobody wanted asked. Because being remembered matters more to you than being liked, you accept that a few people cool on you after a dinner. You are closest to the people who came for that edge and defend it when you are absent."
+  },
+  {
+   "key": "POSITION shangguan_month_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Since your late teens your friendships have been sorted by what you said in public, in class and at work. You have ended up trusting the people who argued back far more than anyone who simply agreed."
+  },
+  {
+   "key": "POSITION shangguan_month_stem · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shangguan_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Through your Rising Chapter your friendships were sorted by what you said in public, in class and at work. You ended up trusting the people who argued back far more than anyone who simply agreed."
+  },
+  {
+   "key": "POSITION shishen_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:shishen_month_stem.Career",
+   "family": "headline",
+   "text": "You earn most from the work you enjoy."
+  },
+  {
+   "key": "POSITION shishen_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_month_stem.Career",
+   "family": "recognition",
+   "text": "Your best work comes when you like it, and everyone around you can tell the difference within a week. Since pleasure is what keeps you going, a joyless job empties you out faster than a demanding one. You do your finest making in a good mood, at your own pace and with time to rest between."
+  },
+  {
+   "key": "POSITION shishen_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:shishen_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Since your late teens the older people around you, a parent or a first boss, have taken your ease for a lack of drive. You have answered with finished work each time, and a craft of your own has grown out of the jobs you enjoyed."
+  },
+  {
+   "key": "POSITION shishen_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shishen_month_stem.Career",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties the older people around you, a parent or a first boss, took your ease for a lack of drive. You answered with finished work each time, and a craft of your own grew out of the jobs you enjoyed."
+  },
+  {
+   "key": "POSITION shishen_month_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:shishen_month_stem.Social",
+   "family": "headline",
+   "text": "Your easy manner wins you friends at work."
+  },
+  {
+   "key": "POSITION shishen_month_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_month_stem.Social",
+   "family": "recognition",
+   "text": "You put people at ease without trying, and a tense meeting turns friendly once you join it. Because food and good company are how you connect, you are the one who suggests lunch and turns up with something good on a long day. You know more people than you realise and rarely ask any of them for a favour."
+  },
+  {
+   "key": "POSITION shishen_month_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:shishen_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Your closest friends at work since your late teens have come out of shared breaks and long evenings, the colleagues you ate with. Your jobs have come through those friends, each one offered over a meal before you started looking."
+  },
+  {
+   "key": "POSITION shishen_month_stem · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shishen_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Through your Rising Chapter your closest friends at work came out of shared breaks and long evenings, the colleagues you ate with. Your jobs came through those friends, each one offered over a meal before you had started looking."
+  },
+  {
+   "key": "POSITION zhengcai_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_month_stem.Career",
+   "family": "headline",
+   "text": "You are the one trusted with the books."
+  },
+  {
+   "key": "POSITION zhengcai_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_month_stem.Career",
+   "family": "recognition",
+   "text": "You notice the figure that does not add up before anyone else opens the file, and things run better near your desk. Because steady work is what you offer, you take on extra tasks without asking for a raise. You carry more of the work than your pay shows, and the whole team runs on your numbers."
+  },
+  {
+   "key": "POSITION zhengcai_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_month_stem.Career",
+   "family": "seatbeat",
+   "text": "You have been given responsibility early in every job since your late teens, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved."
+  },
+  {
+   "key": "POSITION zhengcai_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengcai_month_stem.Career",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties you were given responsibility early in every job, a budget or a set of keys or a team's accounts. Your promotions came steadily, each one a little later than your work deserved."
+  },
+  {
+   "key": "POSITION zhengcai_month_stem · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_month_stem.Wealth",
+   "family": "headline",
+   "text": "Your money arrives on time and keeps arriving."
+  },
+  {
+   "key": "POSITION zhengcai_month_stem · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_month_stem.Wealth",
+   "family": "recognition",
+   "text": "You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, the shape you like best."
+  },
+  {
+   "key": "POSITION zhengcai_month_stem · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_month_stem.Wealth",
+   "family": "seatbeat",
+   "text": "The money you have counted on since your late teens has been the salary, raised a step at a time and planned for well in advance. You have kept to your plan through lean months and good ones, building savings that have grown every year."
+  },
+  {
+   "key": "POSITION zhengcai_month_stem · domain_climb.Wealth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengcai_month_stem.Wealth",
+   "family": "seatbeat",
+   "text": "Through your Rising Chapter the money you counted on was the salary, raised a step at a time and planned for well in advance. You kept to your plan through lean months and good ones, building savings that grew every year."
+  },
+  {
+   "key": "POSITION zhengguan_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_month_stem.Career",
+   "family": "headline",
+   "text": "Your record earns you rank."
+  },
+  {
+   "key": "POSITION zhengguan_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_month_stem.Career",
+   "family": "recognition",
+   "text": "You climb at work through trust and the job done the proper way, whoever is watching. Because order matters to you, you hold to the rules others bend, and senior people notice. You rise steadily and step back from any risk that could put a mark against your name."
+  },
+  {
+   "key": "POSITION zhengguan_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Your record has spoken for you at work since your late teens, each role done by the rules and each title kept clean. You have been promoted on schedule and have rarely had to ask for a step up."
+  },
+  {
+   "key": "POSITION zhengguan_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengguan_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Through your Rising Chapter your record spoke for you at work, each role done by the rules and each title kept clean. You were promoted on schedule and rarely had to ask for a step up."
+  },
+  {
+   "key": "POSITION zhengguan_month_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_month_stem.Social",
+   "family": "headline",
+   "text": "Everyone trusts you with the responsible job."
+  },
+  {
+   "key": "POSITION zhengguan_month_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_month_stem.Social",
+   "family": "recognition",
+   "text": "Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, with less time for fun than the people who lean on you."
+  },
+  {
+   "key": "POSITION zhengguan_month_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_month_stem.Social",
+   "family": "seatbeat",
+   "text": "From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. You have given that role weekends and holidays you planned for yourself, and in return it has earned you standing in every circle you belong to."
+  },
+  {
+   "key": "POSITION zhengguan_month_stem · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengguan_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Between sixteen and your mid-thirties you were the dependable one in every group, the friend who organised and the colleague who covered. You gave that role weekends and holidays you had planned for yourself, and in return it earned you standing in every circle you belonged to."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_month_stem.Career",
+   "family": "headline",
+   "text": "Your career grows under the people who teach you."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_month_stem.Career",
+   "family": "recognition",
+   "text": "You pick up a new role fastest with someone senior beside you, and within weeks you know what took them years. Because you learn best under someone's wing, you rarely have to sell yourself, and open competition puts you off. You give your best where trust is already in place."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_month_stem.Career",
+   "family": "seatbeat",
+   "text": "Older people at work have backed you since your late teens, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_month_stem.Career",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties older people at work backed you, vouched for you or quietly put your name forward. You collected qualifications and references that carried weight wherever you applied and needed to push less than most."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_month_stem.Mind",
+   "family": "headline",
+   "text": "Knowledge becomes second nature to you."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_month_stem.Mind",
+   "family": "recognition",
+   "text": "You learn by steady absorption, and what you study becomes part of how you think without effort. Because the learning feels natural to you, you forget how much of it you have, and others notice before you do. You underrate your own knowledge more than anyone around you does."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_month_stem.Mind",
+   "family": "seatbeat",
+   "text": "From your late teens you took in courses, books and advice from people who knew more, and kept nearly all of it. Over those years you learned fastest from the ones who trusted you early, and what they taught has become the base you build on."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Mind.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_month_stem.Mind",
+   "family": "seatbeat",
+   "text": "From sixteen to your mid-thirties you took in courses, books and advice from people who knew more, and kept nearly all of it. You learned fastest from the ones who trusted you early, and what they taught became the base you built on."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_month_stem.Social",
+   "family": "headline",
+   "text": "Your friends bring you their troubles."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_month_stem.Social",
+   "family": "recognition",
+   "text": "You are the friend people confide in, the calm one who listens and gives sound advice. Because being trusted feels like a kind of care to you, you rarely say no, and your evenings fill with other people's problems. You know more about your friends' lives than they know about yours."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Since your late teens your closest friendships have grown out of being taken in, an older colleague who taught you or a friend's family who treated you as their own. You have gone to those people first for advice and learned from them how to listen."
+  },
+  {
+   "key": "POSITION zhengyin_month_stem · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_month_stem.Social",
+   "family": "seatbeat",
+   "text": "Through your Rising Chapter your closest friendships grew out of being taken in, an older colleague who taught you or a friend's family who treated you as their own. You went to those people first for advice and learned from them how to listen."
+  }
+ ]
+}

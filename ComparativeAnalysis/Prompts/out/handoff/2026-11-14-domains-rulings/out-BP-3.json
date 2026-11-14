@@ -1,0 +1,501 @@
+{
+ "units": [
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your home with a partner pulls the younger people in your life close, and that household anchors your later years."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.day_hour.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "By your late forties, you had built a home with a partner that drew in the young people around you and gave your later years their centre."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.day_hour.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "In your later years, you will find the household you make with a partner drawing the younger ones around you inside it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You meet a partner through your work or your parents' circle, and the line between job and home stays thin for years."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You carry the people and skills of your working life into your later years, keeping close the circle you build at work."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.month_hour.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "From your late forties, you have kept the colleagues and skills of your rising years close around your later life."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.month_hour.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your later life will hold on to the people and crafts of your rising years, with that working circle staying beside you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You pass the customs of your first family to the young people you raise or train, until your later years echo your earliest ones."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_hour.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Since your late forties, you have handed the ways of your first family down to those who come after you, your later years mirroring your childhood."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_hour.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your later years will come to echo your earliest ones, as you hand the habits of your first home to the young ones you guide."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your first family stays tied to your working life, with a trade or a contact or a loyalty from home going into every job you hold."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You move house or rework your days to keep both, as the people after you pull against the life you share with a partner."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your work and your home compete for the same hours, and a new job or a new address follows whenever the strain grows too loud."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "What you build at work in your rising years stops fitting your later life, and you change course when that chapter opens rather than hold on to it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.month_hour.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Through your late forties, you let go of the career your rising years built and turned toward work that fits your later life."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.month_hour.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your later life will outgrow the career you shape in your rising years, and when the Late Chapter opens you will change course rather than cling to it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You make a household that breaks sharply from the home of your childhood, keeping a partner and your first family at a careful distance."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You raise or train the people after you by rules you wrote yourself, because little from the house you grew up in passes to them cleanly."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your choice of work breaks with what your family expected, and you make your own way in a trade nobody at home chose."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_month.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "From your late teens, you made your own way early and away from home, in a trade nobody in your family had chosen."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_month.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "In your late teens, you will leave home early to follow a trade your family never chose for you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You, a partner and the young ones you raise or train pull together around one shared aim, your household growing stronger with each passing year."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your work feeds straight into your household, with you and a partner backing the same plan or running something together."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Work, home and the people after you build on each other, and you keep growing what you start in your rising years through every later decade."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_day_hour.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "What you started in your rising years has grown through your Home Chapter into your later life, with work, a partner and the next generation adding to it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_day_hour.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You will keep building on what you begin in your rising years, as your home and the next generation add to it through each later decade."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You carry the momentum of your work well into later life, counting the people you train along the way among your strongest allies."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_hour.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Since your late forties, you have carried the drive of your working years into later life, with the people you trained standing beside you as allies."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_hour.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your working momentum will carry far into your later years, with those you train turning into your closest allies."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your first family stands behind the home you make, keeping their help close at hand while you build a household with a partner."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You join your childhood home to the generation after you, making your own home the place where three generations meet."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You pass something your first family began to the young ones after you, adding to it alongside them through your later years."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_hour.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Through your later years, you have taken up something your first family started and built on it beside the people after you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_hour.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "From your late forties, you will add to something your first home started, with the people after you working beside you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your working life starts at a run from the household you grew up in, through doors your parents or siblings open for you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "From your late teens, you walked into openings your parents or siblings had made, the family you grew up in giving your working life a running start."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your working life will start at a run, with parents or siblings opening its first doors for you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You carry one aim from your childhood through your working years into your own home, and it gathers force at every stage."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You watch one story gather weight across every part of your life, from your first home through work and partnership to the people after you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You carry skills learned in your first home through your career into the people you train, becoming the link that passes them forward."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You spend years smoothing over complaints nobody says out loud, from a quiet friction between a partner and the younger ones in your life."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You guard one part of every week from your work, because late evenings and calls on days off wear quietly at your home life."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your work rubs at the people after you in small ways, a missed evening or a forgotten promise that you make up to them in person."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You settle an old irritation from your first home one small argument at a time, after it follows you into your life with a partner."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You notice a tone or a rule from your childhood rubbing at how you treat the children you raise or train, and smooth it over early."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your family never quite approves of the work you choose, a quiet doubt you answer with results more than with arguments."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.none_hard",
+   "kind": "bond_none",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You move from one chapter of your life to the next without a sharp break, because no clash, punishment or harm sits between your gates."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You break a loop at home by changing your own rule first, when the same argument keeps coming back between you and those who follow you."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You bring the standards of your work home, holding a partner to the demands you make of colleagues until you draw a line where the job stops."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You pass the pressure you put on yourself at work to the people you train, easing it once you see them repeat your hardest years."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You hear old house rules from your childhood in your own voice with a partner, and rewrite them one at a time as they come back."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You hold the people after you to the standards you were raised on, with the same friction repeating until you decide which of those rules to keep."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your family's expectations follow you into every job, driving you harder than any boss asks until you settle on your own measure."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "What you struggle with at home reappears in the people after you, and breaking the habit in yourself first keeps them from inheriting it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You make the same mistake at work and at home, taking on too much and resenting it later, catching it sooner each time it returns."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You meet a habit that held you back at work again in your later life, and the second time it comes you see it early and turn it down."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.month_hour.lived",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Since your late forties, you have met a habit from your working years a second time, and recognised it soon enough to turn it down."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.month_hour.coming",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your later life will bring back an old working habit, and the second time around you will see it coming and turn it down."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You hear the quarrel you grew up around repeat in your own home with a partner, and end it by changing your own part in it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "Your childhood plays out again around the young ones in your care, and the old scene gets a different ending once you recognise it early."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "text": "You play the role you had in your family again at work, the peacemaker or the one who carries everything, and change it once you see it twice."
+  },
+  {
+   "key": "TG_PATTERN bi_jie_duo_cai · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "Because equals and money share your chart, you lose most where you share most with friends and family but keep what stays in your own name."
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "Your good results keep earning you a bigger role, and promotion comes on your record more than on anything you ask for."
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "You rise slowly and cleanly inside the places that take you in, with someone senior teaching you in each role you take on."
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "You turn each hard test into something you know, leaving every demanding stretch with a qualification or a title you did not have before."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_jian_guan · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "Your talent argues with whoever is in charge, which costs you favour with the people who promote you and sends you to work where results count for more than rank."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "Your sharpest talent has years of study behind it, which makes you known for being both daring and right."
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "What you make sells without much pushing, and the best pay comes from projects you would have done for nothing."
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "You meet pressure by making things, and a hard week ends with finished work instead of worry."
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "text": "Your thinking outweighs your making, and you study a thing so long that the moment to make it passes."
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+ "units": [
+  {
+   "key": "GOD bijian · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "Going it alone is never your first move. With a team or a close friend beside you, you find your footing faster and hold it longer."
+  },
+  {
+   "key": "GOD bijian · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "The Twin does not show in your Year, Month or Day Gate, and the Hour Gate your birth time would open could still hold it. For now you think problems through with someone at your side before you carry them alone."
+  },
+  {
+   "key": "GOD bijian · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "You come across as someone who carries their own weight and asks for little help."
+  },
+  {
+   "key": "GOD bijian · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "In private you want to answer to nobody and would rather finish a job alone than wait for a hand."
+  },
+  {
+   "key": "GOD bijian · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "You hold the Twin in plain view on a stem, where it adds more of your own element to a season that runs short of it."
+  },
+  {
+   "key": "GOD bijian · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "Your own element runs through one branch as its main stem, and the Twin there braces you against a season that gives you little of it."
+  },
+  {
+   "key": "GOD bijian · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "You hold the Twin only as a trace in the depths of a branch, a thin seam of your own element that keeps a heavy season from outweighing you."
+  },
+  {
+   "key": "GOD jiecai · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "Winning for its own sake leaves you cold, and you rarely line yourself up against friends. When a colleague wants the same post, you find out how much you want it."
+  },
+  {
+   "key": "GOD jiecai · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "None of the three gates your chart can read holds the Rival, though your birth hour could still seat it. Until that hour is known, you race nobody for the prize and compete only when someone else starts it."
+  },
+  {
+   "key": "GOD jiecai · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "To most people you look bold and openhanded, quick to share what you have and quicker to race for more."
+  },
+  {
+   "key": "GOD jiecai · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "You keep score with the people closest to you, and you want to win more than you let on."
+  },
+  {
+   "key": "GOD jiecai · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "Your chart sets the Rival on a stem for anyone to see, bringing your own element in its other form to a season that leans against you."
+  },
+  {
+   "key": "GOD jiecai · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "You hold the Rival as the chief stem inside a branch, where it banks your element in its second form for a season that comes up short."
+  },
+  {
+   "key": "GOD jiecai · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "Your chart buries the Rival in the lowest layer of a branch, a sliver of your element's other half that still answers a season with almost none."
+  },
+  {
+   "key": "GOD shishen · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "A free afternoon needs a reason before you let yourself have it. You plan your pleasures like tasks, a booked dinner or a day off on the calendar, and relax best when someone else sets the table."
+  },
+  {
+   "key": "GOD shishen · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "Nothing in your Year, Month and Day Gates carries the Artisan, and only your birth time can show whether the Hour Gate does. For now you treat rest as a reward for finished work and rarely take it for pleasure alone."
+  },
+  {
+   "key": "GOD shishen · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "You seem easygoing and warm, the friend who cooks for everyone and makes hard work look light."
+  },
+  {
+   "key": "GOD shishen · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "You want comfort more than you show, good food and an evening with nothing planned."
+  },
+  {
+   "key": "GOD shishen · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "With the Artisan on show, you send your strength out through its element, an outlet that a season short of it never opens for you."
+  },
+  {
+   "key": "GOD shishen · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "Your chart keeps the Artisan as the main stem within a branch, a hidden outlet that turns stored force into something made where the season offers none."
+  },
+  {
+   "key": "GOD shishen · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "With the Artisan only deep in a branch, you have a narrow outlet, enough to let some stored force out into a season that would hold it in."
+  },
+  {
+   "key": "GOD shangguan · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "Arguing back is not your first reflex when a plan looks wrong. You follow the brief as written and raise objections late and politely, after the decision is made."
+  },
+  {
+   "key": "GOD shangguan · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "The Virtuoso is absent from the gates your birth date fills, and the Hour Gate stays dark until your birth time is set. Until then you take a plan as given and save your objections for after the decision."
+  },
+  {
+   "key": "GOD shangguan · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "You strike people as quick and outspoken, the one who says what the rest of the meeting was thinking."
+  },
+  {
+   "key": "GOD shangguan · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "You rewrite other people's work in your head and want your talent noticed without having to point to it."
+  },
+  {
+   "key": "GOD shangguan · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "You carry the Virtuoso openly on a stem, and its element cuts a channel for the force your season keeps pent up in you."
+  },
+  {
+   "key": "GOD shangguan · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "You carry the Virtuoso as the ruling stem of a branch, its element venting force that builds up in a season with no such release."
+  },
+  {
+   "key": "GOD shangguan · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "You keep the Virtuoso as a minor stem at the bottom of a branch, a faint vent for force that a closed season would otherwise trap."
+  },
+  {
+   "key": "GOD piancai · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "Offers you did not chase seldom find you, and side doors stay shut until you knock. You earn by the front route, one job at a time, trusting what you worked for over a windfall."
+  },
+  {
+   "key": "GOD piancai · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "Your birth date shows no Horizon, and the one place left to look is the gate your birth hour opens. Meanwhile you take the main road to what you want and trust a plan you made over a chance that finds you."
+  },
+  {
+   "key": "GOD piancai · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "In company you are easy with newcomers and quick with an offer, the one who always knows someone useful."
+  },
+  {
+   "key": "GOD piancai · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "You keep a second plan that nobody has heard about, and want more open roads than you admit."
+  },
+  {
+   "key": "GOD piancai · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "You keep the Horizon in full view, where its element opens a wide field for your strength in a season that offers it little to work."
+  },
+  {
+   "key": "GOD piancai · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "You hold the Horizon at the heart of a branch, where its element slips in by a side door and gives a lean season something to work on."
+  },
+  {
+   "key": "GOD piancai · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "Your chart holds the Horizon only far down in one branch, a small field where your strength can range in a season that brings hardly any."
+  },
+  {
+   "key": "GOD zhengcai · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "You do the books when you must and not a day sooner. You handle money in bursts and forget it for months, leaning on a partner or a spreadsheet to keep track."
+  },
+  {
+   "key": "GOD zhengcai · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "The Steward shows nowhere from the Year Gate through the Day Gate, and the unread Hour Gate is where it could yet sit. As things stand you count only when a bill makes you and trust someone else's tally over your own."
+  },
+  {
+   "key": "GOD zhengcai · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "You come across as a careful provider, the one who pays on time and keeps count."
+  },
+  {
+   "key": "GOD zhengcai · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "You keep a private tally of what things cost and sleep better with something put aside."
+  },
+  {
+   "key": "GOD zhengcai · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "Your chart puts the Steward right on the surface, where its element gives your strength something solid to shape in a season with little to hold."
+  },
+  {
+   "key": "GOD zhengcai · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "You keep the Steward as the leading stem of a branch, out of sight, a steady store of material for a season that has little to give."
+  },
+  {
+   "key": "GOD zhengcai · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "What you hold of the Steward lies deep in a branch, a small, solid store for your strength to work when the season supplies next to nothing."
+  },
+  {
+   "key": "GOD qisha · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "You keep your own pace, with no hard test set for you and no date you cannot move. You learn how strong you are only when pressure comes from outside."
+  },
+  {
+   "key": "GOD qisha · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "The first three gates of your chart hold no General, though the Hour Gate is a door your birth time has yet to open. On what the chart shows, you keep an easy pace and meet a hard test only when someone sets one."
+  },
+  {
+   "key": "GOD qisha · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "You read as tough and hard to rattle, the person people send in when the stakes are high."
+  },
+  {
+   "key": "GOD qisha · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "You want a harder test than anyone sets you and push yourself to meet it where nobody sees."
+  },
+  {
+   "key": "GOD qisha · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "You have the General up front on a stem, where its element tests and hardens you in a season that would leave you raw without it."
+  },
+  {
+   "key": "GOD qisha · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "Your chart roots the General as the main stem of a branch, and its element presses your strength into a shape the season alone never gives it."
+  },
+  {
+   "key": "GOD qisha · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "You carry the General asleep under everything else in a branch, a thin edge of its element that still tempers a season gone slack without it."
+  },
+  {
+   "key": "GOD zhengguan · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "You look to others to learn what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
+  },
+  {
+   "key": "GOD zhengguan · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "No Magistrate appears in the gates that can be read without your birth time, and the Hour Gate is the one place it could still be. For the moment you take structure from the job and settle once someone else sets the terms."
+  },
+  {
+   "key": "GOD zhengguan · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "You present as reliable and correct, the person others trust to follow the rules and keep their word."
+  },
+  {
+   "key": "GOD zhengguan · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "You hold yourself to rules nobody wrote down and want a clear title that is yours alone."
+  },
+  {
+   "key": "GOD zhengguan · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "In plain sight, you have the Magistrate giving your element form and measure, an order that a season without it never sets."
+  },
+  {
+   "key": "GOD zhengguan · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "You have the Magistrate at the core of a branch, unseen, where its element frames and steadies a season that runs loose without it."
+  },
+  {
+   "key": "GOD zhengguan · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "Your chart tucks the Magistrate into one deep corner of a branch, a slight check from its element that gives a formless season some measure."
+  },
+  {
+   "key": "GOD pianyin · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "Odd subjects and second thoughts rarely pull at you. You take knowledge as it is taught and act on a straight answer before you think to question it."
+  },
+  {
+   "key": "GOD pianyin · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "The Alchemist is not among the stems and branches your birth date gives, and whether the Hour Gate holds it waits on your birth time. In the meantime you take what you are taught at face value and act on it before any doubt arrives."
+  },
+  {
+   "key": "GOD pianyin · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "From the outside you look unusual and hard to read, with a specialist interest nobody saw coming."
+  },
+  {
+   "key": "GOD pianyin · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "You think in strange directions and keep most of those thoughts to yourself."
+  },
+  {
+   "key": "GOD pianyin · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "On a stem in open view, you have the Alchemist feeding your element by an unusual route, the supply your season fails to give."
+  },
+  {
+   "key": "GOD pianyin · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "Underneath, you carry the Alchemist as a branch's main stem, and its element feeds you by a back route your season does not offer."
+  },
+  {
+   "key": "GOD pianyin · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "Far beneath the surface, you hold the Alchemist as a thin thread, a trickle of its element feeding you where the season gives nothing."
+  },
+  {
+   "key": "GOD zhengyin · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "text": "Without a Sage you learned early to reassure yourself and to praise your own effort. You trust help more when you did not have to ask for it."
+  },
+  {
+   "key": "GOD zhengyin · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "text": "Your chart can read three gates, and none of them holds the Sage, though the Hour Gate could. For now you talk yourself through hard stretches and trust help most when it comes unasked."
+  },
+  {
+   "key": "GOD zhengyin · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "text": "You look calm and well taught, someone a teacher or an older friend has clearly looked after."
+  },
+  {
+   "key": "GOD zhengyin · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "text": "Privately you want to be looked after and stay close to the people who once taught you."
+  },
+  {
+   "key": "GOD zhengyin · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "text": "What you get from the Sage on show is its element feeding and steadying you, the nourishment a season low in it holds back."
+  },
+  {
+   "key": "GOD zhengyin · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "text": "Your chart seats the Sage as the main stem inside a branch, a quiet source that feeds your element in a season thin on nourishment."
+  },
+  {
+   "key": "GOD zhengyin · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "text": "Deep inside one branch, you hold a little of the Sage, a faint source that still feeds your element when the season starves it."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · seen.close",
+   "kind": "seen_close",
+   "page": "bp-seen.inside",
+   "family": "close",
+   "text": "You save what sits inside for the few people who know you best."
+  }
+ ]
+}

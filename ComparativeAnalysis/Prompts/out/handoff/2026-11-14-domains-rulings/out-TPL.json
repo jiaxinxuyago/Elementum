@@ -1,0 +1,508 @@
+{
+ "units": [
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Wealth.month",
+   "kind": "gap",
+   "page": "gap:Wealth",
+   "family": "gap",
+   "text": "Since sixteen you have put work, study and friends before money, and your income has followed your decades more than any plan of your own."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Wealth.day",
+   "kind": "gap",
+   "page": "gap:Wealth",
+   "family": "gap",
+   "text": "From your mid-thirties you shape your money around a partner, the home and a life of your own, and each decade sets how far it stretches."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Wealth.hour",
+   "kind": "gap",
+   "page": "gap:Wealth",
+   "family": "gap",
+   "text": "From your late forties, you measure money by what it lets you give the people after you, with each decade setting how much comes in."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Family.month",
+   "kind": "gap",
+   "page": "gap:Family",
+   "family": "gap",
+   "text": "From sixteen you carry the family ways your first home taught you, while each decade sets the tone between you and your parents and siblings."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Family.day",
+   "kind": "gap",
+   "page": "gap:Family",
+   "family": "gap",
+   "text": "From your mid-thirties you shape family life around a partner and the home you keep, carrying the ways your earlier gates set as each decade turns."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Family.hour",
+   "kind": "gap",
+   "page": "gap:Family",
+   "family": "gap",
+   "text": "From your late forties, you meet your family through the people after you, with each decade deciding who gathers close."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Health.month",
+   "kind": "gap",
+   "page": "gap:Health",
+   "family": "gap",
+   "text": "From sixteen you run your body on the reserve your childhood gave you, as work and study come first and each decade sets your strength."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Health.day",
+   "kind": "gap",
+   "page": "gap:Health",
+   "family": "gap",
+   "text": "From your mid-thirties you stay well on habits formed long before, drawing on the strength each decade brings to your home and your days."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Health.hour",
+   "kind": "gap",
+   "page": "gap:Health",
+   "family": "gap",
+   "text": "From your late forties, you take your energy from the decade you are in, and the people after you give your days their shape."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.month",
+   "kind": "gap",
+   "page": "gap:Career",
+   "family": "gap",
+   "text": "From sixteen you take work as it comes through study, friends and family, and each decade turns the jobs of the moment into a direction."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.day",
+   "kind": "gap",
+   "page": "gap:Career",
+   "family": "gap",
+   "text": "From your mid-thirties you fit work around the home and the life you have chosen, while each decade decides how far your career climbs."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.hour",
+   "kind": "gap",
+   "page": "gap:Career",
+   "family": "gap",
+   "text": "From your late forties, you put your work into the people after you and the hours that are yours, and each decade sets what it asks of you."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Social.month",
+   "kind": "gap",
+   "page": "gap:Social",
+   "family": "gap",
+   "text": "Since sixteen you have kept friends around the edges of a full week of study, work and family, with each decade deciding who stays close."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Social.day",
+   "kind": "gap",
+   "page": "gap:Social",
+   "family": "gap",
+   "text": "From your mid-thirties you meet your circle by plan more than by chance, as home and a partner fill your evenings and each decade brings its own faces."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Social.hour",
+   "kind": "gap",
+   "page": "gap:Social",
+   "family": "gap",
+   "text": "From your late forties, you keep company with the people after you and the friends who have lasted, with each new decade adding faces to the circle."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Mind.month",
+   "kind": "gap",
+   "page": "gap:Mind",
+   "family": "gap",
+   "text": "Since sixteen you have learned by doing more than by study, with each decade choosing the questions your work and friendships bring you."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Mind.day",
+   "kind": "gap",
+   "page": "gap:Mind",
+   "family": "gap",
+   "text": "From your mid-thirties you put your mind to the work and the home in front of you, and each decade sets the subjects that hold you."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Mind.hour",
+   "kind": "gap",
+   "page": "gap:Mind",
+   "family": "gap",
+   "text": "From your late forties, you turn your curiosity to practical things and to the people after you, while each decade sets what holds your attention."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Growth.month",
+   "kind": "gap",
+   "page": "gap:Growth",
+   "family": "gap",
+   "text": "Since sixteen you have grown through work, friends and family more than through any plan to improve yourself, as each decade brings its own change."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Growth.day",
+   "kind": "gap",
+   "page": "gap:Growth",
+   "family": "gap",
+   "text": "From your mid-thirties you grow through the life you already have, the work and the home, while each decade sets the pace of change."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Growth.hour",
+   "kind": "gap",
+   "page": "gap:Growth",
+   "family": "gap",
+   "text": "From your late forties, you grow by settling into who you are and by teaching what you know to the people after you, as each decade turns."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Health",
+   "kind": "unruled",
+   "page": "tpl:Health",
+   "family": "unruled",
+   "text": "Each decade moves your health more than any single habit of yours. You feel well for some stretches of years and worn for others, with your body marking each turn before you put words to it."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Wealth",
+   "kind": "unruled",
+   "page": "tpl:Wealth",
+   "family": "unruled",
+   "text": "Your money answers to each decade, and you trust one good year less than most people do. You read the turn before anyone around you does, because some decades bring it in and others draw it out."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Mind",
+   "kind": "unruled",
+   "page": "tpl:Mind",
+   "family": "unruled",
+   "text": "Your thinking takes its colour from each decade, studious in one and restless or practical in another. You notice the change in what you read before you notice it in yourself."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Growth",
+   "kind": "unruled",
+   "page": "tpl:Growth",
+   "family": "unruled",
+   "text": "Your growth moves at the speed of the decade you are in. You change fast in some decades and stand still in others, and only once one ends do you see which kind it was."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Social",
+   "kind": "unruled",
+   "page": "tpl:Social",
+   "family": "unruled",
+   "text": "Your friendships follow no fixed pattern of their own. You have crowded years and quiet ones, and the change arrives with the decade more than with any choice you make."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Wealth",
+   "kind": "headline",
+   "page": "tpl:Wealth",
+   "family": "headline",
+   "text": "Your money rises and falls with each decade."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Health",
+   "kind": "headline",
+   "page": "tpl:Health",
+   "family": "headline",
+   "text": "Your health moves with the decade you are in."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Mind",
+   "kind": "headline",
+   "page": "tpl:Mind",
+   "family": "headline",
+   "text": "Your thinking changes character with each decade."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Growth",
+   "kind": "headline",
+   "page": "tpl:Growth",
+   "family": "headline",
+   "text": "Your growth keeps the pace of each decade."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Social",
+   "kind": "headline",
+   "page": "tpl:Social",
+   "family": "headline",
+   "text": "Your circle widens and thins with the decades."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Wealth",
+   "kind": "unruled",
+   "page": "tpl:Wealth",
+   "family": "waiting",
+   "text": "The character that rules your money arrives later in your life. Until then you earn and spend by the decade you are in, each one setting its own course."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Wealth",
+   "kind": "headline",
+   "page": "tpl:Wealth",
+   "family": "headline",
+   "text": "Your money finds its own character later in life."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Health",
+   "kind": "unruled",
+   "page": "tpl:Health",
+   "family": "waiting",
+   "text": "Your health has a character of its own that arrives in a later chapter, and for now each decade steers it. You take your strength from the years you are in, reading your energy one season at a time."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Health",
+   "kind": "headline",
+   "page": "tpl:Health",
+   "family": "headline",
+   "text": "Your health answers to each decade for now."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Career",
+   "kind": "unruled",
+   "page": "tpl:Career",
+   "family": "waiting",
+   "text": "Your career is still waiting for the character that will steer it, and until then each decade sets its course. You take the work in front of you as it comes, building a direction one stretch of years at a time."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Career",
+   "kind": "headline",
+   "page": "tpl:Career",
+   "family": "headline",
+   "text": "Your career takes its course from the decades for now."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Family",
+   "kind": "unruled",
+   "page": "tpl:Family",
+   "family": "waiting",
+   "text": "The character that shapes your family arrives in a later chapter, and for now each decade sets how you belong. You show up for your family in the ways each stretch of years allows, closer in some and freer in others."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Family",
+   "kind": "headline",
+   "page": "tpl:Family",
+   "family": "headline",
+   "text": "Your family life waits on a later chapter."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Social",
+   "kind": "unruled",
+   "page": "tpl:Social",
+   "family": "waiting",
+   "text": "Your friendships get their own character later in life, and for now each decade sets the course. You make friends by the decade, gathering a new circle as each one turns."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Social",
+   "kind": "headline",
+   "page": "tpl:Social",
+   "family": "headline",
+   "text": "Your friendships find their own character in time."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Mind",
+   "kind": "unruled",
+   "page": "tpl:Mind",
+   "family": "waiting",
+   "text": "Your mind has its own character still to come, and for now each decade sets what you think about. You follow the questions your present years raise, one subject at a time."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Mind",
+   "kind": "headline",
+   "page": "tpl:Mind",
+   "family": "headline",
+   "text": "Your mind follows each decade until its own character arrives."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Growth",
+   "kind": "unruled",
+   "page": "tpl:Growth",
+   "family": "waiting",
+   "text": "Your growth meets its own character later, and for now each decade sets the pace. You grow in step with the years you are in, changing when they ask it of you."
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Growth",
+   "kind": "headline",
+   "page": "tpl:Growth",
+   "family": "headline",
+   "text": "Your growth keeps time with the decades for now."
+  },
+  {
+   "key": "TG_PATTERN bi_jie_duo_cai · domain_lines.Wealth",
+   "kind": "pattern",
+   "page": "pattern:bi_jie_duo_cai",
+   "family": "pattern",
+   "text": "You lose money most easily where you share it with friends and family, and you also find your safety net among those same people."
+  },
+  {
+   "key": "TG_PATTERN bi_jie_duo_cai · fused_line",
+   "kind": "fused",
+   "page": "pattern:bi_jie_duo_cai",
+   "family": "fused",
+   "text": "With your people and your money at one gate, you rarely own anything that is only yours."
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:cai_guan_xiang_sheng",
+   "family": "pattern",
+   "text": "Underneath, you turn each result into standing, though you rarely ask for the title it has already earned you."
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · domain_lines.Wealth",
+   "kind": "pattern",
+   "page": "pattern:cai_guan_xiang_sheng",
+   "family": "pattern",
+   "text": "You also turn money into position, feeling richer when a gain comes with respect than when it comes alone."
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · fused_line",
+   "kind": "fused",
+   "page": "pattern:cai_guan_xiang_sheng",
+   "family": "fused",
+   "text": "You keep money and rank at one gate, where each gain argues quietly for your next step up."
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:guan_yin_xiang_sheng",
+   "family": "pattern",
+   "text": "You also find your mentors inside the structures you join, where your name gathers weight the slow and lasting way."
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · domain_lines.Mind",
+   "kind": "pattern",
+   "page": "pattern:guan_yin_xiang_sheng",
+   "family": "pattern",
+   "text": "You also learn well inside a frame like a school or a discipline, studying on long after the course has ended."
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · fused_line",
+   "kind": "fused",
+   "page": "pattern:guan_yin_xiang_sheng",
+   "family": "fused",
+   "text": "You carry rank and learning at one gate, and neither grows in you without the other."
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:sha_yin_xiang_sheng",
+   "family": "pattern",
+   "text": "Underneath, you come out of every hard stretch at work more senior than you went in, and the pattern grows stronger with age."
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · domain_lines.Growth",
+   "kind": "pattern",
+   "page": "pattern:sha_yin_xiang_sheng",
+   "family": "pattern",
+   "text": "Underneath, you answer the years that weigh on you with study and the people who steady you, ending every heavy stretch more sure of who you are."
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · domain_lines.Mind",
+   "kind": "pattern",
+   "page": "pattern:sha_yin_xiang_sheng",
+   "family": "pattern",
+   "text": "Underneath, you turn pressure into understanding, and the hardest years of your life are the ones that taught you how to think."
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · fused_line",
+   "kind": "fused",
+   "page": "pattern:sha_yin_xiang_sheng",
+   "family": "fused",
+   "text": "In you the two sit at one gate, and you rarely meet a pressure without learning from it."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_jian_guan · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:shang_guan_jian_guan",
+   "family": "pattern",
+   "text": "You also keep correcting the very structures you climb, doing your brightest work wherever the rules are loosest."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_jian_guan · fused_line",
+   "kind": "fused",
+   "page": "pattern:shang_guan_jian_guan",
+   "family": "fused",
+   "text": "Your voice and your role share one gate, which leaves you arguing first with the position you hold."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:shang_guan_pei_yin",
+   "family": "pattern",
+   "text": "Your boldest ideas and your patience for study also feed each other, with every qualification you earn making you braver in public."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · domain_lines.Mind",
+   "kind": "pattern",
+   "page": "pattern:shang_guan_pei_yin",
+   "family": "pattern",
+   "text": "You also learn best when you can show what you learn, turning every course you finish into something you can say out loud."
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · fused_line",
+   "kind": "fused",
+   "page": "pattern:shang_guan_pei_yin",
+   "family": "fused",
+   "text": "Your talent and your training sit at one gate, close enough that you rarely have to choose between them."
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · domain_lines.Wealth",
+   "kind": "pattern",
+   "page": "pattern:shi_shang_sheng_cai",
+   "family": "pattern",
+   "text": "What you make turns into money more easily for you than for most, and the work that feels like play is the work that pays you best."
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:shi_shang_sheng_cai",
+   "family": "pattern",
+   "text": "You also rise by making more rather than by climbing, as each piece of work you finish brings the next one to your door."
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · fused_line",
+   "kind": "fused",
+   "page": "pattern:shi_shang_sheng_cai",
+   "family": "fused",
+   "text": "Because making and earning share a gate, you barely see a line between your craft and your income."
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:shishen_zhi_sha",
+   "family": "pattern",
+   "text": "Underneath, you do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands."
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · domain_lines.Health",
+   "kind": "pattern",
+   "page": "pattern:shishen_zhi_sha",
+   "family": "pattern",
+   "text": "You find your protection in comfort, because good food and work with your hands turn pressure into something you can use."
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · fused_line",
+   "kind": "fused",
+   "page": "pattern:shishen_zhi_sha",
+   "family": "fused",
+   "text": "With ease and pressure at one gate, you keep a firm hold on every strain that reaches you."
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · domain_lines.Mind",
+   "kind": "pattern",
+   "page": "pattern:xiao_shen_duo_shi",
+   "family": "pattern",
+   "text": "You also think so long about a thing that you miss the moment to make it, keeping a drawer of nearly finished work."
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:xiao_shen_duo_shi",
+   "family": "pattern",
+   "text": "You also polish your work in private until the moment to show it has passed, and you lose more chances by not finishing than by failing."
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · domain_lines.Health",
+   "kind": "pattern",
+   "page": "pattern:xiao_shen_duo_shi",
+   "family": "pattern",
+   "text": "You also forget to eat and sleep properly in your heaviest thinking seasons, with your body telling you before your mind admits it."
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · fused_line",
+   "kind": "fused",
+   "page": "pattern:xiao_shen_duo_shi",
+   "family": "fused",
+   "text": "You hold thinking and making at one gate, and the thinking wins most of their arguments."
+  }
+ ]
+}
