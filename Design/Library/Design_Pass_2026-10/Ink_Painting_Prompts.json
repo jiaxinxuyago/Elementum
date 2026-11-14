@@ -528,7 +528,7 @@
         "file": "strip_bing_fire",
         "subject": "a great red sun setting low behind a hilltop beacon fire, the flames of the beacon rising into the sun's disc so sun and fire merge",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "bing",
@@ -537,7 +537,7 @@
         "file": "strip_bing_wood",
         "subject": "sunrise seen through a pine forest, a large pale red sun behind the trunks and broad shafts of light falling between them",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "bing",
@@ -546,7 +546,7 @@
         "file": "strip_bing_water",
         "subject": "a large red sun half sunk into the sea at dusk, a band of mist and one long wave crossing its disc, its light broken on the water",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "bing",
@@ -555,7 +555,7 @@
         "file": "strip_bing_metal",
         "subject": "a bronze bell hanging on a wooden stand under a blazing noon sun, the bronze gleaming bright where the light strikes it",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "bing",
@@ -564,7 +564,7 @@
         "file": "strip_bing_earth",
         "subject": "rows of clay pots set out to dry on bare ground beneath a large warm sun, the earth cracked and glowing with heat",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ding",
@@ -573,7 +573,7 @@
         "file": "strip_ding_fire",
         "subject": "a row of many small oil lamps burning together on a low stone altar, their flames leaning the same way",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ding",
@@ -582,7 +582,7 @@
         "file": "strip_ding_wood",
         "subject": "a torch of bound pine branches burning brightly, set upright in an iron bracket on a wooden post, resin smoke rising",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ding",
@@ -591,7 +591,7 @@
         "file": "strip_ding_water",
         "subject": "a single paper lantern floating on a dark river in light rain, its small flame glowing inside and reflected on the water",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ding",
@@ -600,7 +600,7 @@
         "file": "strip_ding_metal",
         "subject": "a small bronze oil lamp whose flame heats a thin silver wire held in an iron clamp above it, the wire glowing and bending",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ding",
@@ -609,7 +609,7 @@
         "file": "strip_ding_earth",
         "subject": "a small clay stove with glowing red coals inside, a clay teapot warming on top, pale ash on the ground below",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "wu",
@@ -618,7 +618,7 @@
         "file": "strip_wu_earth",
         "subject": "a range of layered mountain peaks receding one behind another into mist, the nearest peak dark and massive",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "wu",
@@ -627,7 +627,7 @@
         "file": "strip_wu_fire",
         "subject": "a single volcano peak with a glowing red crater at its summit, a column of smoke rising, faint red light on its slopes",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "wu",
@@ -636,7 +636,7 @@
         "file": "strip_wu_wood",
         "subject": "a great sheer cliff face with old pine trees rooted in its cracks, their roots splitting the stone",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "wu",
@@ -645,7 +645,7 @@
         "file": "strip_wu_water",
         "subject": "a river forced through a narrow gorge between two massive rock walls, the mountain walls steering the water",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "wu",
@@ -654,7 +654,7 @@
         "file": "strip_wu_metal",
         "subject": "a large boulder split open to show a bright vein of ore inside, a pickaxe leaning against it, a few ore stones at its foot",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ji",
@@ -663,7 +663,7 @@
         "file": "strip_ji_earth",
         "subject": "terraced rice paddies stacked step upon step up a hillside, their curved earth banks drawn in dark ink",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ji",
@@ -672,7 +672,7 @@
         "file": "strip_ji_fire",
         "subject": "a small earthen kiln with fire glowing in its mouth, newly fired clay pots stacked beside it, smoke rising from its top",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ji",
@@ -681,7 +681,7 @@
         "file": "strip_ji_wood",
         "subject": "a furrowed garden bed seen close, rows of young green seedlings breaking up through the tilled soil",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ji",
@@ -690,7 +690,7 @@
         "file": "strip_ji_water",
         "subject": "a tilled field crossed by irrigation ditches, water guided between raised earth banks from a small sluice gate",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ji",
@@ -699,7 +699,7 @@
         "file": "strip_ji_metal",
         "subject": "an iron plough standing in a freshly turned furrow of dark soil, its blade bright where the earth has polished it",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ren",
@@ -708,7 +708,7 @@
         "file": "strip_ren_water",
         "subject": "one great wave rising and curling on the open sea, spray flying from its crest, smaller swells behind it",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ren",
@@ -717,7 +717,7 @@
         "file": "strip_ren_metal",
         "subject": "a waterfall pouring from a cleft in a dark rocky cliff into a deep pool, the rock veined with pale ore",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ren",
@@ -726,7 +726,7 @@
         "file": "strip_ren_earth",
         "subject": "a stone sea wall and breakwater curving out from the shore, heavy waves breaking against it and held back",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ren",
@@ -735,7 +735,7 @@
         "file": "strip_ren_fire",
         "subject": "a wave crashing over a burning beacon fire on a sea rock, white steam bursting up where water meets flame",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "ren",
@@ -744,7 +744,7 @@
         "file": "strip_ren_wood",
         "subject": "a broad calm lake with old willow trees on its shore, their long branches trailing in the water",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "gui",
@@ -753,7 +753,7 @@
         "file": "strip_gui_water",
         "subject": "heavy rain falling from low clouds into a still pond, the surface covered with overlapping rings",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "gui",
@@ -762,7 +762,7 @@
         "file": "strip_gui_metal",
         "subject": "beads of dew gathered on a bronze bell hanging under temple eaves, clear drops falling from its rim",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "gui",
@@ -771,7 +771,7 @@
         "file": "strip_gui_earth",
         "subject": "rain falling into a row of open clay jars set on bare ground, water brimming in the jars, small puddles in the mud",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "gui",
@@ -780,7 +780,7 @@
         "file": "strip_gui_fire",
         "subject": "rain falling on a small campfire, the flames low and hissing, steam and smoke rising together",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       },
       {
         "stem": "gui",
@@ -789,7 +789,7 @@
         "file": "strip_gui_wood",
         "subject": "bamboo leaves heavy with dew and mist, clear drops hanging from the leaf tips, new bamboo shoots rising below",
         "painted": "2026-11-14",
-        "approved": false
+        "approved": true
       }
     ],
     "pair_older_F2": [
@@ -830,6 +830,6 @@
     "pairs: 50 to paint minimal (test geng first)",
     "heroes: 10 to paint (test metal yang + yin first)",
     "function vignettes and persona seals: spec first",
-    "strips: all 50 painted; geng, xin, jia, yi approved (owner 2026-11-14); bing, ding, wu, ji, ren, gui await review"
+    "strips: all 50 painted and approved (owner 2026-11-14)"
   ]
 }
