@@ -225,3 +225,6 @@ These were asked on the audit report, https://claude.ai/artifact/NzAHZwFbSjWRdRo
 - **R17 A:** age is read from the birth date.
 - **G1 A:** the ten slips in approved texts are fixed.
 - **MN A:** one polish round for the MINORs, with the units a MAJOR touches folded into that MAJOR.
+
+**Ship decision (owner, 2026-11-14), after the side-by-side (https://claude.ai/artifact/Nz5b8qS7rUs5EmR62Kqw45):**
+- **S1 A:** R1 (the STATE rules) and R2 (the pairing conditions) ship to elementum.life. `BLUEPRINT_RULES_LIVE = true` in `src/liveFlags.js`.

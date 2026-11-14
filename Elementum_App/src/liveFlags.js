@@ -52,6 +52,7 @@ export const SC_LIVE = true;
 export const TYPE_LIVE = false;
 
 // The Blueprint's state rules and the pairing conditions (owner R1 A, R2 A,
-// 2026-11-14): "a sample of pages comes back to you before it ships". Read by
-// the dev site through DEPTH_RULES_V2 (domainsResolve.js) until this is true.
-export const BLUEPRINT_RULES_LIVE = false;
+// 2026-11-14): "a sample of pages comes back to you before it ships". The owner
+// saw the side-by-side and ruled S1 A (ship both, 2026-11-14). Read through
+// DEPTH_RULES_V2 (domainsResolve.js).
+export const BLUEPRINT_RULES_LIVE = true;
