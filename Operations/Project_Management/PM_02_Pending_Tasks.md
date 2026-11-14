@@ -74,12 +74,21 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
 
 ## DOM — the Domain reading, a new pricing tier (owner 2026-10-17)
 
-### EVT-1 · The event signature system (the Today tab) ✅ LIVE ON elementum.life 2026-10-21; REMINDERS WAIT ON THE OWNER
+### EVT-1 · The event signature system (the Today tab) ✅ LIVE ON elementum.life 2026-10-21; POLISHED 2026-11-14; REMINDERS, YR-2 AND ACTION RULES WAIT ON THE OWNER (PM_04)
 **Status 2026-10-21:** round 1 ruled (N1–F1, all A except D1 B); the owner asked for an energy-first reading, rounds 2 and 3 ruled (all A); built on the dev site 2026-10-21 (engine, pages, 58 golden templates); round 4 (templates K1–K13, P4 reminders, L1 going live) on https://claude.ai/artifact/Rtixt7at5a6gTSre7ZhEhs. Record: `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/03_RULINGS.md`. Owner session: session_01CtFpHCUsMdTUYosYF5mHoy (owns `TodayScreen`, `DayPage`, `MonthPage`, `YearPage`, `engine/temporal.js`, `content/dailyGuidance.js`, `infra/push.js`, `workers/push`).
 - **Done 2026-10-21:** templates ruled (K1–K13 A); the batch of 320 units written by sealed writers, gated, read and landed through the station (`TEMPLATED/tpl_almanac.json`); every Almanac key covered. Reminders built and switched off (P4 A). Back on the dev site only (L1 A, confirmed).
 - **Live 2026-10-21** (owner: "Make it live"): `ALMANAC_LIVE = true`, verified on elementum.life. The Year page reads Life Chapters' shared year lines (L9 A).
-- **Next (owner):** the reminders' steps in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/P4_STEPS.md`. The Year page's By-year domain lines (Domains section, `year_domain.*`) are still drafts and stay hidden on elementum.life until written.
-- **Finding for the owner (F1):** the calculator's solar-term dates drift a day in many years; a calculator change alters existing readers' charts, so it waits for a ruling.
+- **Section audit and polish, 2026-11-14** (record `03_RULINGS.md`; side by side https://claude.ai/artifact/MtrhGUmVrZMs96xpJYqa3b):
+  - Round one (AM1–AM5 A): 188 units rewritten and 27 never-shown units retired to the station `__ore`.
+  - AN1 A: the sealed re-audit moved mean B from 2.81 to 3.38, pages at B 4 from 6 to 47, and MAJOR findings from 16 to 6.
+  - Round two (AP1–AP5 A): 141 units rewritten and 19 yin-month variants added.
+  - Pillar 3 P0 (5 November row #2): "a lucky chance" became "Steady saving|chasing a windfall"; "Loud days ahead" became "Days to plan around"; "not luck" is gone from the yuede star. The Almanac content and push copy are clean of fate, destiny, lucky, fortune, verdict and expect.
+  - Coverage: the Domains session's `qa-reading-coverage.mjs` finds 0% drafts. The Year page's `year_domain.*` lines are all written.
+- **F1 closed (AM6-ON A, 2026-11-14):** the calculator reads the exact 节 instants and the January rule (`EXACT_TERMS = true`, `ENGINE_VERSION = 4`).
+- **Waiting on the owner (PM_04 §3):**
+  - ALM-P4: the reminders' steps, `P4_STEPS.md`.
+  - ALM-YR2: an exact pillar repeat leading.
+  - ALM-AR1: one action rule per energy, drafted in `06_ACTION_RULES_DRAFT.md`.
 
 ### DOM-1 · The "who runs it" layer → the Domain reading 🔄 IN PROGRESS (owner rulings round 1, 2026-10-17: Q1–Q15 A; record `ComparativeAnalysis/Handoffs/2026-10-17-domains/03_RULINGS.md`; golden template awaiting the owner's read)
 **Status 2026-10-21 (R2 A "write first, then audit"; rulings Y1, Y2, S1 and T1 all A, recorded in `03_RULINGS.md`):** the sections are live on both sites through `DEPTH_LIVE` in `src/liveFlags.js`. Step 1 is done:

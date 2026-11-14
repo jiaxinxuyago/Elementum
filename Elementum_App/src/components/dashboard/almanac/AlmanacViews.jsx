@@ -225,9 +225,9 @@ export function AlmanacDay({ onBack }) {
         <div className="al-card"><div className="al-l"><span>Your chart today</span></div><ChartToday c={m.chartToday} what="today" /></div>
         <div className="al-card"><div className="al-l"><span>This week</span></div><Ribbon items={m.week} now={date} onPick={setDate} note="Bars: lift or weight. Signs: each day's lead. Tap a day to open it." /></div>
       </> : <Lock tier="Seeker" what="Your eight domains, what the day favours in each, your chart today and the week open with Seeker." />}
-      {adv ? <div className="al-card"><div className="al-l"><span>Loud days ahead</span><span className="r">the next five weeks</span></div>
+      {adv ? <div className="al-card"><div className="al-l"><span>Days to plan around</span><span className="r">the next five weeks</span></div>
         <div className="al-list">{m.ahead.map((a) => <button type="button" key={a.date} className="al-li" onClick={() => setDate(a.date)}><span className="d">{fmt(a.date)}</span><span style={{ color: `var(--${a.el})` }}><Use id={`el-${a.el.toLowerCase()}`} /></span><span>{a.head.text}</span></button>)}</div></div>
-        : seeker ? <Lock tier="Advisor" what="The loud days of the next five weeks open with Advisor." /> : null}
+        : seeker ? <Lock tier="Advisor" what="The days to plan around in the next five weeks open with Advisor." /> : null}
       </Leaves>
     </main>
   );

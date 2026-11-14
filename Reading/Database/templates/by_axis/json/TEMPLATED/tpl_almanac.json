@@ -177,7 +177,7 @@
     "GOD zhengcai · favours.day.Family.heavy": "sealed writer out-4.json, gated; batch in the approved voice (K1–K13 A)",
     "GOD zhengcai · favours.day.Family.helping": "sealed writer out-4.json, gated; batch in the approved voice (K1–K13 A)",
     "GOD zhengcai · favours.day.Wealth.heavy": "sealed writer out-4.json, gated; batch in the approved voice (K1–K13 A)",
-    "GOD zhengcai · favours.day.Wealth.helping": "sealed writer out-4.json, gated; batch in the approved voice (K1–K13 A)",
+    "GOD zhengcai · favours.day.Wealth.helping": "pillar 3 (BIZ_07, PL2 A): how to use the energy, never what will happen; 5 November P0 row 2 (2026-11-14)",
     "GOD zhengcai · favours.month.Career.heavy": "polish round out-3.json, gated (owner AM1–AM4 A, AN1 A, 2026-11-14)",
     "GOD zhengcai · favours.month.Career.helping": "polish round out-3.json, gated (owner AM1–AM4 A, AN1 A, 2026-11-14)",
     "GOD zhengcai · favours.month.Family.heavy": "polish round two out-4.json, gated (owner AP1–AP5 A, 2026-11-14)",
@@ -227,7 +227,7 @@
     "STAR tiande · day": "polish round two out-4.json, gated (owner AP1–AP5 A, 2026-11-14)",
     "STAR tianyi · day": "polish round two out-4.json, gated (owner AP1–AP5 A, 2026-11-14)",
     "STAR yima · day": "polish round out-2.json, gated (owner AM1–AM4 A, AN1 A, 2026-11-14)",
-    "STAR yuede · day": "polish round out-2.json, gated (owner AM1–AM4 A, AN1 A, 2026-11-14)",
+    "STAR yuede · day": "pillar 3 (BIZ_07, PL2 A): how to use the energy, never what will happen; 5 November P0 row 2 (2026-11-14)",
     "TEMPLATED tpl_almanac · echo.day": "polish round two out-3.json, gated (owner AP1–AP5 A, 2026-11-14)",
     "TEMPLATED tpl_almanac · echo.hour": "polish round out-2.json, gated (owner AM1–AM4 A, AN1 A, 2026-11-14)",
     "TEMPLATED tpl_almanac · echo.month": "polish round out-2.json, gated (owner AM1–AM4 A, AN1 A, 2026-11-14)",
@@ -569,7 +569,7 @@
       "GOD zhengcai · favours.day.Family.heavy": "Sharing the chores|doing them all",
       "GOD zhengcai · favours.day.Family.helping": "Settling the household list|putting it off",
       "GOD zhengcai · favours.day.Wealth.heavy": "A small treat|strict thrift",
-      "GOD zhengcai · favours.day.Wealth.helping": "Regular saving|a lucky chance",
+      "GOD zhengcai · favours.day.Wealth.helping": "Steady saving|chasing a windfall",
       "GOD zhengcai · favours.month.Career.heavy": "Your core tasks only|volunteering for more",
       "GOD zhengcai · favours.month.Career.helping": "Reliable daily work|a flashy distraction",
       "GOD zhengcai · favours.month.Family.heavy": "Splitting the housework|doing it all",
@@ -619,7 +619,7 @@
       "STAR tiande · day": "Tense moments today arrive with less weight, and harsh words land more gently. That lasts only while you keep your own tone mild.",
       "STAR tianyi · day": "Help comes from someone with standing, an elder or a near stranger who owes you nothing. The price is your pride, which you set aside to accept it.",
       "STAR yima · day": "The day moves you, with travel, an errand across town or a change of place. Your plans stretch to fit the distance.",
-      "STAR yuede · day": "A setback today carries something useful inside it. Reaching it takes your work, not luck.",
+      "STAR yuede · day": "A setback today carries something useful inside it. Reaching it takes your own work.",
       "TEMPLATED tpl_almanac · echo.day": "The day lands on the same gate the month presses, while your home carries both loads at once.",
       "TEMPLATED tpl_almanac · echo.hour": "Your plans for later and the young people near you carry the month's pull and the day's at once, on the same gate.",
       "TEMPLATED tpl_almanac · echo.month": "The pressure the month has put on your work comes to a head today, because the day lands on the same gate.",
@@ -1158,6 +1158,10 @@
       "GOD zhengcai · favours.month.Family.heavy": "Splitting the housework|every task on you",
       "TEMPLATED tpl_almanac · head.mark.decade": "a long new chapter starts",
       "TEMPLATED tpl_almanac · favours_land.repeat.month": "Clearing a backlog|a brand new brief"
+    },
+    "retired_2026-11-14_pillar3": {
+      "GOD zhengcai · favours.day.Wealth.helping": "Regular saving|a lucky chance",
+      "STAR yuede · day": "A setback today carries something useful inside it. Reaching it takes your work, not luck."
     }
   }
 }

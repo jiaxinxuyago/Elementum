@@ -201,7 +201,7 @@
 | `units.GOD zhengcai · favours.day.Family.heavy` | Sharing the chores\|doing them all |
 | `units.GOD zhengcai · favours.day.Family.helping` | Settling the household list\|putting it off |
 | `units.GOD zhengcai · favours.day.Wealth.heavy` | A small treat\|strict thrift |
-| `units.GOD zhengcai · favours.day.Wealth.helping` | Regular saving\|a lucky chance |
+| `units.GOD zhengcai · favours.day.Wealth.helping` | Steady saving\|chasing a windfall |
 | `units.GOD zhengcai · favours.month.Career.heavy` | Your core tasks only\|volunteering for more |
 | `units.GOD zhengcai · favours.month.Career.helping` | Reliable daily work\|a flashy distraction |
 | `units.GOD zhengcai · favours.month.Family.heavy` | Splitting the housework\|doing it all |
@@ -251,7 +251,7 @@
 | `units.STAR tiande · day` | Tense moments today arrive with less weight, and harsh words land more gently. That lasts only while you keep your own tone mild. |
 | `units.STAR tianyi · day` | Help comes from someone with standing, an elder or a near stranger who owes you nothing. The price is your pride, which you set aside to accept it. |
 | `units.STAR yima · day` | The day moves you, with travel, an errand across town or a change of place. Your plans stretch to fit the distance. |
-| `units.STAR yuede · day` | A setback today carries something useful inside it. Reaching it takes your work, not luck. |
+| `units.STAR yuede · day` | A setback today carries something useful inside it. Reaching it takes your own work. |
 | `units.TEMPLATED tpl_almanac · echo.day` | The day lands on the same gate the month presses, while your home carries both loads at once. |
 | `units.TEMPLATED tpl_almanac · echo.hour` | Your plans for later and the young people near you carry the month's pull and the day's at once, on the same gate. |
 | `units.TEMPLATED tpl_almanac · echo.month` | The pressure the month has put on your work comes to a head today, because the day lands on the same gate. |
