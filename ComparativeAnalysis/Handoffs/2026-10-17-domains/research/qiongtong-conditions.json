@@ -1,0 +1,1580 @@
+{
+  "source": "Owner ruling R4 A (2026-11-14): print a stem only when its condition holds. Built from research/qiongtong-tiaohou.json (not modified). Quotes are verbatim from (A) Wikisource 《穷通宝鉴》 (src 'A', bold markup removed, A's own spelling kept) or from the 原文 lines of (X) 徐乐吾 评注本 on dajiazhao.com pages 6079-6210 (src 'X'); '……' joins separate lines. cells[stem]: a stem from primary/secondary/conditional of that research cell that is used only in a stated situation; every code in `when` must hold (AND). `optional` = print as optional support, never as a need. A stem not in `cells` keeps its research status (primary/secondary = unconditional). `rank` is where the stem sits in the research cell. `alt` (optional) = other AND-sets the text also gives for the same stem; not part of the gate, recorded for review. `research_when` = the research `conditional` entry this converts (all 98 are converted exactly once, in `cells` or `overlaps`). Conventions: shown:/absent: never count the Day Master itself (so absent:壬 for a 壬 Day Master means no other 壬); 比劫透干 is coded dm_strong; 柱多金水 is coded el_strong:Water; a quantity the vocabulary cannot count (two 壬, two 丙) is coded as one shown stem and said in the note. overlaps[stem]: research `conditional` entries for a stem that is already unconditional in primary/secondary of the same cell; they do not gate printing. effect 'first' = when `when` holds the stem moves to the front (or becomes the sole main use); effect 'pattern' = names a special formation the vocabulary cannot code.",
+  "cells": {
+    "甲.卯": {
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "absent:庚"
+        ],
+        "quote": "或无庚金，有丁透，亦属文星，为木火通明之象",
+        "src": "A",
+        "research_when": "无庚金、有丁透：木火通明，伤官生财",
+        "note": "正二月 rule: with no 庚, a shown 丁 gives 木火通明 (伤官生财). Doubtful: the 总之 line '如有丁透，大富大贵之命也' and 徐乐吾本 '先看庚、次取丁' rank 丁 second even when 庚 is present."
+      }
+    },
+    "甲.辰": {
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "frame:Metal"
+        ],
+        "quote": "或支成金局，方可用丁，不然，三月无用丁之法",
+        "src": "A",
+        "research_when": "支成金局方可用丁",
+        "note": "三月 has no use for 丁 except when the branches form a Metal frame."
+      }
+    },
+    "甲.巳": {
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Metal"
+        ],
+        "quote": "庚金太多，甲反受病。若得壬水，方配得中和",
+        "src": "A",
+        "research_when": "庚金太多，得壬水方配中和",
+        "note": "壬 only rebalances a chart with too much 庚."
+      }
+    },
+    "甲.未": {
+      "癸": {
+        "rank": "secondary",
+        "when": [
+          "half:first"
+        ],
+        "quote": "六月三伏生寒，丁火退气。先丁后庚，无癸亦可",
+        "src": "A",
+        "note": "A: 癸 can be missing in 六月. 徐乐吾 dates this to after 大暑 ('大暑前，无癸不能取贵…大暑后，无癸见庚丁，亦可取贵'), and the summary table reads 上半月同五月用癸, so 癸 is a need only from 小暑 to 大暑."
+      }
+    },
+    "甲.申": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "shown:癸"
+        ],
+        "alt": [
+          [
+            "shown:壬"
+          ]
+        ],
+        "quote": "若有癸水阻隔，便灭丁火，壬水无碍，且能合丁，但须见戊土，方可制水存火",
+        "src": "A",
+        "research_when": "见壬癸水时，须戊土制水存火",
+        "note": "戊 is the cure when 癸 shows and blocks 丁. 徐乐吾 reads it for either water stem ('见壬癸，必须戊土为救'), hence the 壬 alternative."
+      }
+    },
+    "甲.亥": {
+      "戊": {
+        "rank": "secondary",
+        "when": [
+          "shown:壬"
+        ],
+        "quote": "忌壬水泛身，须戊土制之",
+        "src": "A",
+        "note": "戊 answers a 壬 that floods 甲. 徐乐吾: '见壬水出干，嫌水旺泛木，须有戊土为制…壬水不透，不必用戊土也'. Doubtful: his closing 原文 line also says '戊土亦不可少'."
+      }
+    },
+    "乙.辰": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "frame:Water"
+        ],
+        "alt": [
+          [
+            "el_strong:Water"
+          ]
+        ],
+        "quote": "或见水局，丙戊高透，亦主科甲",
+        "src": "A",
+        "research_when": "见水局：丙戊高透",
+        "note": "Also used against heavy water without a frame: '或见一派癸水…得一戊己制癸' and '若一派壬水…有一戊己，方云有寿'."
+      }
+    },
+    "乙.巳": {
+      "丙": {
+        "rank": "secondary",
+        "when": [
+          "optional"
+        ],
+        "quote": "四月乙木专用癸水，丙火酌用",
+        "src": "A",
+        "note": "巳 already holds 丙 ('自有丙火'); the text uses 丙 only at discretion. 徐乐吾 makes 丙 the exception for a chart heavy in Metal and Water ('柱金水，用丙火伤官为例外')."
+      }
+    },
+    "乙.午": {
+      "丙": {
+        "rank": "primary",
+        "when": [
+          "half:second"
+        ],
+        "alt": [
+          [
+            "el_strong:Water"
+          ]
+        ],
+        "quote": "上半月属阳，仍用癸水。下半月属阴，三伏生寒，丙癸齐用。柱多金水，丙火为先，余皆用癸水为先",
+        "src": "A",
+        "research_when": "柱多金水：丙火为先",
+        "note": "Before 夏至 only 癸 (三夏 rule: '五六月先丙后癸，夏至前仍用癸水'); after 夏至 丙 and 癸 together. The research conditional (柱多金水 → 丙 first) is merged here as the alternative trigger, coded on Water. Doubtful: 徐乐吾本 reads 上半月 '先癸次丙', i.e. 丙 in both halves."
+      }
+    },
+    "乙.酉": {
+      "丙": {
+        "rank": "primary",
+        "when": [
+          "half:second"
+        ],
+        "quote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+        "src": "A",
+        "research_when": "秋分后：先丙后癸",
+        "note": "丙 only after 秋分, and then ahead of 癸 ('生于秋分后方佳'); before 秋分 癸 alone. Research conditional (秋分后：先丙后癸) merged here: same condition."
+      },
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "frame:Metal"
+        ],
+        "quote": "或支成金局，宜暗藏丁，无丁制金，恐木被金伤",
+        "src": "A",
+        "research_when": "支成金局：宜暗藏丁",
+        "note": "丁 should sit hidden in a branch (暗藏), not on a stem."
+      },
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "half:first",
+          "absent:癸"
+        ],
+        "quote": "或生上半月无癸，姑用壬水",
+        "src": "A",
+        "research_when": "上半月无癸：姑用壬水",
+        "note": "Stand-in for a missing 癸 in the first half."
+      }
+    },
+    "乙.亥": {
+      "戊": {
+        "rank": "primary",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或水多无戊，乙性漂浮，流荡之徒。若不见丙巳，妻子难全，或一点壬水，即多见戊土，亦为不妙",
+        "src": "A",
+        "note": "A's opening line ranks 戊 second ('取丙为用，戊土次之'), but the paragraph ties 戊 to heavy water and warns against 戊 with little water. 徐乐吾本: '丙为尊，或壬多，用戊土' ('若仅亥宫一点壬水，则又不必见戊己'); the month branch alone should not count as heavy Water. Doubtful: A's opening line is unconditional."
+      }
+    },
+    "乙.子": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "shown:壬"
+        ],
+        "alt": [
+          [
+            "shown:癸"
+          ],
+          [
+            "frame:Water"
+          ]
+        ],
+        "quote": "或壬癸出干，有戊制，可作能人，即丙在支内，亦是俊秀。若壬透无戊，贫贱之人",
+        "src": "A",
+        "research_when": "壬癸出干：以戊制之",
+        "note": "戊 only checks shown water and is never the 用神 ('冬月之木，虽取戊制水，不可作用'). Alternatives: 癸 shown, or '或成水局，壬癸两透…得一戊救方可'."
+      }
+    },
+    "丙.寅": {
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "absent:壬"
+        ],
+        "quote": "无壬用癸者，略富贵，且官杀亦要旺相有根",
+        "src": "A",
+        "research_when": "无壬，癸亦姑用",
+        "note": "Also stated inside 支成火局 ('无壬、癸亦姑用')."
+      }
+    },
+    "丙.卯": {
+      "己": {
+        "rank": "conditional",
+        "when": [
+          "absent:壬"
+        ],
+        "quote": "或无壬水，己土姑用",
+        "src": "A",
+        "research_when": "无壬水，己土姑用",
+        "note": "Fallback for a missing 壬."
+      },
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或一派壬水，见一戊制，虽不科甲，亦有恩庇",
+        "src": "A",
+        "research_when": "一派壬水：见一戊制",
+        "note": "Only against a mass of 壬."
+      }
+    },
+    "丙.辰": {
+      "庚": {
+        "rank": "conditional",
+        "when": [
+          "absent:甲"
+        ],
+        "quote": "无甲用庚，助壬水洩土气",
+        "src": "A",
+        "research_when": "无甲：用庚助壬水洩土气",
+        "note": "With 甲 present 庚 is avoid ('惟忌庚出制甲')."
+      }
+    },
+    "丙.巳": {
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "absent:壬"
+        ],
+        "alt": [
+          [
+            "el_strong:Fire"
+          ]
+        ],
+        "quote": "或无壬水，癸亦姑用",
+        "src": "A",
+        "research_when": "无壬水，癸亦姑用",
+        "note": "Fallback for 壬. The 三夏 rule also adds '丁多、兼看癸水' (heavy Fire)."
+      }
+    },
+    "丙.申": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "如壬多，取戊制方妙",
+        "src": "A",
+        "research_when": "壬多：取戊制",
+        "note": "Only against heavy 壬."
+      }
+    },
+    "丙.酉": {
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "absent:壬"
+        ],
+        "quote": "若无壬水，癸亦可用，但功名不久",
+        "src": "A",
+        "research_when": "无壬水：癸亦可用",
+        "note": "Fallback for 壬."
+      }
+    },
+    "丙.戌": {
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "absent:壬"
+        ],
+        "quote": "若无壬水，得癸透干，亦可",
+        "src": "A",
+        "research_when": "无壬水：得癸透干亦可",
+        "note": "Fallback for 壬."
+      }
+    },
+    "丙.亥": {
+      "戊": {
+        "rank": "primary",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "总之十月丙火，木旺宜庚，水旺宜戊，火旺用壬，随宜酌用可也",
+        "src": "A",
+        "note": "水旺宜戊. 徐乐吾: '以甲木为主要关键，庚戊壬随时损益可也' — only 甲 is fixed."
+      },
+      "庚": {
+        "rank": "primary",
+        "when": [
+          "el_strong:Wood"
+        ],
+        "quote": "总之十月丙火，木旺宜庚，水旺宜戊，火旺用壬，随宜酌用可也",
+        "src": "A",
+        "note": "木旺宜庚 (用财损印)."
+      },
+      "壬": {
+        "rank": "secondary",
+        "when": [
+          "el_strong:Fire"
+        ],
+        "quote": "总之十月丙火，木旺宜庚，水旺宜戊，火旺用壬，随宜酌用可也",
+        "src": "A",
+        "note": "火旺用壬. A weak 丙 that is half Water does not need 壬."
+      },
+      "己": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water",
+          "shown:甲",
+          "absent:戊"
+        ],
+        "quote": "或壬多有甲无戊，却非从杀，宜用己土混壬",
+        "src": "A",
+        "research_when": "壬多有甲无戊：用己土混壬",
+        "note": "己 muddies heavy 壬 when 甲 is there and 戊 is not."
+      }
+    },
+    "丙.子": {
+      "己": {
+        "rank": "conditional",
+        "when": [
+          "absent:戊"
+        ],
+        "alt": [
+          [
+            "el_strong:Water",
+            "shown:甲",
+            "absent:戊"
+          ]
+        ],
+        "quote": "无戊见己，异路功名",
+        "src": "A",
+        "research_when": "无戊见己",
+        "note": "Stand-in for 戊. Also '或水多、有甲、无戊，却非从杀，宜用己土浊壬'. Note 徐乐吾本 reads '多戊见己' here."
+      },
+      "甲": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water",
+          "shown:戊"
+        ],
+        "quote": "或一派壬，则耑用戊土，此人虽不成名，文章迈众，但名利虚浮。何也？因戊晦光，又须甲木为药也",
+        "src": "A",
+        "research_when": "一派壬而耑用戊土时，须甲木为药",
+        "note": "甲 cures the 戊 used against a mass of 壬. 徐乐吾 widens it ('用戊者，不可少甲')."
+      },
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "absent:壬"
+        ],
+        "quote": "或无壬水，癸亦可用，但不甚显",
+        "src": "A",
+        "research_when": "无壬水：癸亦可用",
+        "note": "Fallback for 壬."
+      }
+    },
+    "丁.卯": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或一派水，无一戊制，主贫苦无依。或乙少癸多，有戊出制，反吉",
+        "src": "A",
+        "research_when": "一派水：须戊制",
+        "note": "Only against heavy water."
+      }
+    },
+    "丁.辰": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "frame:Water",
+          "shown:壬"
+        ],
+        "quote": "或支成水局，加以壬透，名杀重身轻，必夭折天年。或遭凶死。或戊己两透，廊庙之客",
+        "src": "A",
+        "research_when": "支成水局、壬透：戊己两透为救",
+        "note": "徐乐吾: '支成水局者，以戊为用'."
+      }
+    },
+    "丁.巳": {
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "shown:丙"
+        ],
+        "quote": "或癸水藏支，壬水出干制丙，不夺丁光，自是雁塔题名，玉堂清贵",
+        "src": "A",
+        "research_when": "壬水出干制丙，不夺丁光",
+        "note": "壬 stops a shown 丙 from stealing 丁's light (徐乐吾: '见丙火出干…所谓丙夺丁光是也')."
+      }
+    },
+    "丁.午": {
+      "癸": {
+        "rank": "secondary",
+        "when": [
+          "absent:壬"
+        ],
+        "quote": "或支无壬水，得一癸透，名独杀当权，出人头地，不失恩封",
+        "src": "X",
+        "note": "A has only '得一癸透，名独杀当权，出人头地'; 徐乐吾本's line makes 癸 the stand-in for a missing 壬 ('无壬用癸'). Doubtful: rests on X."
+      },
+      "甲": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "若干支无火局，有水透干，须用甲木，又要庚噼甲方明",
+        "src": "A",
+        "research_when": "干支无火局、有水透干：须用甲木，又要庚噼甲",
+        "note": "徐乐吾 sums up: '五月丁火，以用壬癸为正轨，壬癸太旺用甲木，乃例外也'. A also needs no 火局 in the chart; the vocabulary has no negated frame."
+      }
+    },
+    "丁.申": {
+      "乙": {
+        "rank": "conditional",
+        "when": [
+          "absent:甲"
+        ],
+        "quote": "七八月或无甲木，乙亦可用，为枯草引灯，却不离丙晒也",
+        "src": "A",
+        "research_when": "无甲木：乙亦可用（枯草引灯），须丙晒",
+        "note": "Stand-in for 甲, always with 丙."
+      },
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "shown:壬",
+          "el_strong:Water"
+        ],
+        "quote": "或一重壬水，又多见癸水，必以戊土为制，自然富贵光辉",
+        "src": "A",
+        "research_when": "壬癸多见：以戊土为制",
+        "note": "One 壬 plus much 癸."
+      }
+    },
+    "丁.酉": {
+      "乙": {
+        "rank": "conditional",
+        "when": [
+          "absent:甲"
+        ],
+        "quote": "七八月或无甲木，乙亦可用，为枯草引灯，却不离丙晒也",
+        "src": "A",
+        "research_when": "无甲木：乙亦可用，须丙晒",
+        "note": "Stand-in for 甲, always with 丙."
+      },
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "shown:壬",
+          "el_strong:Water"
+        ],
+        "quote": "或一重壬水，又多见癸水，必以戊土为制，自然富贵光辉",
+        "src": "A",
+        "research_when": "壬癸多见：以戊土为制",
+        "note": "One 壬 plus much 癸."
+      }
+    },
+    "丁.戌": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Earth",
+          "absent:甲"
+        ],
+        "quote": "或九月一派戊土，洩丁火之气，不见甲木，为伤官伤尽，非寻常可比",
+        "src": "A",
+        "research_when": "一派戊土、不见甲木：伤官伤尽",
+        "note": "伤官伤尽 pattern. With 甲 present the normal 甲庚 use returns ('或甲木透出…用甲者，庚不可少')."
+      }
+    },
+    "丁.亥": {
+      "戊": {
+        "rank": "secondary",
+        "when": [
+          "shown:壬"
+        ],
+        "quote": "或时月二壬争合，取戊破之。有戊稍有富贵。无戊常人",
+        "src": "A",
+        "note": "三冬: '癸戊权宜酌用'. The text needs two 壬 (month and hour) contending for 丁; the vocabulary cannot count, so one shown 壬 triggers it. Doubtful."
+      },
+      "癸": {
+        "rank": "secondary",
+        "when": [
+          "shown:丙"
+        ],
+        "quote": "或一丙夺丁，必赖支内水救。若有支金发水之源，官拜乌台有准。全无癸水制丙，无用之徒",
+        "src": "A",
+        "note": "三冬: '癸戊权宜酌用'. 癸 checks a 丙 that steals 丁's light; the water should sit in the branches (支内水救)."
+      }
+    },
+    "丁.子": {
+      "戊": {
+        "rank": "secondary",
+        "when": [
+          "el_strong:Water"
+        ],
+        "alt": [
+          [
+            "shown:壬"
+          ]
+        ],
+        "quote": "或仲冬水多癸旺……戊出破癸，颇有兄弟妻儿",
+        "src": "A",
+        "research_when": "仲冬水多癸旺：戊出破癸",
+        "note": "三冬: '癸戊权宜酌用'. In 子 the text's case is heavy water with 癸 in command. The 三冬 case of two 壬 contending for 丁 ('时月二壬争合，取戊破之') is the alternative. Research conditional (仲冬水多癸旺) merged here."
+      },
+      "癸": {
+        "rank": "secondary",
+        "when": [
+          "shown:丙"
+        ],
+        "quote": "或一丙夺丁，必赖支内水救。若有支金发水之源，官拜乌台有准。全无癸水制丙，无用之徒",
+        "src": "A",
+        "note": "三冬: '癸戊权宜酌用'. 癸 checks a 丙 that steals 丁's light; the water should sit in the branches (支内水救)."
+      }
+    },
+    "丁.丑": {
+      "戊": {
+        "rank": "secondary",
+        "when": [
+          "shown:壬"
+        ],
+        "quote": "或时月二壬争合，取戊破之。有戊稍有富贵。无戊常人",
+        "src": "A",
+        "note": "三冬: '癸戊权宜酌用'. The text needs two 壬 (month and hour) contending for 丁; the vocabulary cannot count, so one shown 壬 triggers it. Doubtful."
+      },
+      "癸": {
+        "rank": "secondary",
+        "when": [
+          "shown:丙"
+        ],
+        "quote": "或一丙夺丁，必赖支内水救。若有支金发水之源，官拜乌台有准。全无癸水制丙，无用之徒",
+        "src": "A",
+        "note": "三冬: '癸戊权宜酌用'. 癸 checks a 丙 that steals 丁's light; the water should sit in the branches (支内水救)."
+      }
+    },
+    "戊.寅": {
+      "庚": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Wood"
+        ],
+        "quote": "或一派甲木，无丙者，常人。得一庚透方妙",
+        "src": "A",
+        "research_when": "一派甲木、无丙：得一庚透方妙",
+        "note": "The line adds 无丙, but 庚 is also used with 丙 present ('或丙多甲多，宜以癸庚参用') and for '支成水局，甲又出干，又有庚透'; heavy Wood is the common condition."
+      }
+    },
+    "戊.卯": {
+      "庚": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Wood"
+        ],
+        "quote": "或一派甲木，无丙者，常人。得一庚透方妙",
+        "src": "A",
+        "research_when": "一派甲木、无丙：得一庚透方妙",
+        "note": "The line adds 无丙, but 庚 is also used with 丙 present ('或丙多甲多，宜以癸庚参用') and for '支成水局，甲又出干，又有庚透'; heavy Wood is the common condition."
+      }
+    },
+    "戊.辰": {
+      "庚": {
+        "rank": "conditional",
+        "when": [
+          "frame:Wood"
+        ],
+        "alt": [
+          [
+            "el_strong:Wood"
+          ]
+        ],
+        "quote": "支成木局，又甲乙出干，此名官杀会党，官杀无去留之义，得一庚透，扫除官杀，亦主富贵",
+        "src": "A",
+        "research_when": "支成木局、甲乙出干：得一庚透扫除官杀",
+        "note": "Also needs 甲 or 乙 on a stem. The 三春 line '或一派甲木…得一庚透方妙' is the alternative."
+      }
+    },
+    "戊.午": {
+      "丙": {
+        "rank": "secondary",
+        "when": [
+          "optional"
+        ],
+        "quote": "五月戊土，仲夏火炎，先看壬水，次取甲木，丙火酌用，用癸力微",
+        "src": "A",
+        "note": "丙火酌用: discretionary support."
+      },
+      "癸": {
+        "rank": "secondary",
+        "when": [
+          "optional"
+        ],
+        "quote": "五月戊土，仲夏火炎，先看壬水，次取甲木，丙火酌用，用癸力微",
+        "src": "A",
+        "note": "用癸力微: weak support, never a need; a 火局 with only 癸 '不能大济' (徐乐吾本: '用癸恐其力微')."
+      }
+    },
+    "己.寅": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "shown:壬"
+        ],
+        "alt": [
+          [
+            "el_strong:Water"
+          ]
+        ],
+        "quote": "忌见壬水，反为己病……须戊作堤，以保园圃。壬多要见戊制",
+        "src": "A",
+        "research_when": "壬多：须戊作堤",
+        "note": "戊 dykes a 壬 that floods the field; most needed when 壬 is heavy."
+      },
+      "庚": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Wood"
+        ],
+        "quote": "或一派甲木，有庚出干，加以癸丙齐透，配得中和，亦名利双全",
+        "src": "A",
+        "research_when": "一派甲木：庚出干",
+        "note": "Only against a mass of 甲."
+      },
+      "甲": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Earth"
+        ],
+        "quote": "或一派戊土，有甲出制，又主荣显",
+        "src": "A",
+        "research_when": "一派戊土：甲出制",
+        "note": "Only against a mass of 戊."
+      },
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Wood",
+          "absent:庚"
+        ],
+        "quote": "若甲多无庚，残疾废人，宜用丁洩",
+        "src": "A",
+        "research_when": "甲多无庚：宜用丁洩",
+        "note": "Drains heavy 甲 when there is no 庚."
+      }
+    },
+    "己.卯": {
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "frame:Wood",
+          "shown:乙",
+          "shown:庚"
+        ],
+        "quote": "或支成木局，庚透富贵，若柱多乙木，乙又屈庚，庚必输情于乙，不能扫邪于正，此必狡诈之徒，运入东南，恐有不测。当用丁洩之",
+        "src": "A",
+        "research_when": "支成木局、乙多屈庚：用丁洩之",
+        "note": "Wood frame with many 乙 binding 庚."
+      }
+    },
+    "己.巳": {
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "absent:癸"
+        ],
+        "quote": "或有丙无癸，有壬亦可，但不大发",
+        "src": "A",
+        "research_when": "有丙无癸：有壬亦可",
+        "note": "Stand-in for 癸."
+      }
+    },
+    "己.午": {
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "absent:癸"
+        ],
+        "quote": "或有丙无癸，有壬亦可，但不大发",
+        "src": "A",
+        "research_when": "有丙无癸：有壬亦可",
+        "note": "Stand-in for 癸."
+      }
+    },
+    "己.未": {
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "absent:癸"
+        ],
+        "quote": "或有丙无癸，有壬亦可，但不大发",
+        "src": "A",
+        "research_when": "有丙无癸：有壬亦可",
+        "note": "Stand-in for 癸."
+      }
+    },
+    "己.酉": {
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "frame:Metal"
+        ],
+        "quote": "八月支成金局，无丙丁出救，此人零丁孤苦。如得丙透丁藏，生己元神，此人名魁天下，五福完人",
+        "src": "A",
+        "research_when": "支成金局：丙丁出救",
+        "note": "丁 ideally hidden (丁藏)."
+      }
+    },
+    "己.戌": {
+      "辛": {
+        "rank": "secondary",
+        "when": [
+          "optional"
+        ],
+        "quote": "总之，三秋己土，先癸后丙，取辛辅癸。九月土盛，宜甲木疏之，余皆酌用",
+        "src": "A",
+        "note": "九月 puts 甲 first and leaves the rest 酌用. 徐乐吾 keeps 癸丙 as the regular supports ('九月土盛，用甲木官星，癸丙为辅，最为普通也'), so only 辛 drops to optional. Doubtful."
+      }
+    },
+    "己.亥": {
+      "甲": {
+        "rank": "secondary",
+        "when": [
+          "el_strong:Earth"
+        ],
+        "quote": "取丙为尊，甲木参酌……或一派戊己，取甲制之，甲透者，富贵",
+        "src": "A",
+        "note": "Otherwise 参酌 (optional). 徐乐吾: '即使土旺用甲木制之，水旺用戊土制之，应病与药…余皆随宜酌取'. Doubtful: could be coded optional instead."
+      },
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "惟初冬壬旺，取戊制之",
+        "src": "A",
+        "research_when": "初冬壬旺：取戊制之",
+        "note": "戊 is otherwise unused (戊土癸水不用)."
+      }
+    },
+    "己.子": {
+      "甲": {
+        "rank": "secondary",
+        "when": [
+          "el_strong:Earth"
+        ],
+        "quote": "取丙为尊，甲木参酌……或一派戊己，取甲制之，甲透者，富贵",
+        "src": "A",
+        "note": "Otherwise 参酌 (optional). 徐乐吾: '即使土旺用甲木制之，水旺用戊土制之，应病与药…余皆随宜酌取'. Doubtful: could be coded optional instead."
+      },
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或多壬水，得戊透制之，此命安然，富中取贵",
+        "src": "A",
+        "research_when": "多壬水：得戊透制之",
+        "note": "Only against heavy 壬."
+      },
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "absent:丙"
+        ],
+        "quote": "余皆用丙，无丙用丁，但丁不能解冻除寒，不能火济，丁多衣禄安然",
+        "src": "X",
+        "research_when": "无丙用丁，但丁不能解冻除寒",
+        "note": "A reads '余皆用丙丁，但丁不能解冻除寒，不能大济'; 徐乐吾本 makes 丁 the stand-in for a missing 丙."
+      }
+    },
+    "己.丑": {
+      "甲": {
+        "rank": "secondary",
+        "when": [
+          "el_strong:Earth"
+        ],
+        "quote": "取丙为尊，甲木参酌……或一派戊己，取甲制之，甲透者，富贵",
+        "src": "A",
+        "note": "Otherwise 参酌 (optional). 徐乐吾: '即使土旺用甲木制之，水旺用戊土制之，应病与药…余皆随宜酌取'. Doubtful: could be coded optional instead."
+      },
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或多壬水，得戊透制之，此命安然，富中取贵",
+        "src": "A",
+        "research_when": "多壬水：得戊透制之",
+        "note": "Only against heavy 壬."
+      },
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Metal"
+        ],
+        "quote": "或一派辛庚，须用丙火，还须丁火为助",
+        "src": "A",
+        "research_when": "一片辛庚：须丙，还须丁火为助",
+        "note": "Helps 丙 against a mass of Metal."
+      }
+    },
+    "庚.寅": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Fire"
+        ],
+        "quote": "如火多则用土",
+        "src": "A",
+        "research_when": "火多则用土",
+        "note": "Only with heavy Fire."
+      },
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "frame:Fire"
+        ],
+        "quote": "或支成火局，壬透、有根者，大富贵。无根者、小富贵。乏水者、残疾之人",
+        "src": "A",
+        "research_when": "支成火局：壬透有根",
+        "note": "Only for a Fire frame."
+      }
+    },
+    "庚.卯": {
+      "丙": {
+        "rank": "conditional",
+        "when": [
+          "absent:丁"
+        ],
+        "quote": "无丁用丙者，富贵多出于勉强",
+        "src": "A",
+        "research_when": "无丁用丙（富贵多出于勉强）",
+        "note": "Stand-in for 丁."
+      }
+    },
+    "庚.辰": {
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "frame:Fire"
+        ],
+        "quote": "或支成火局，癸水透，富贵",
+        "src": "A",
+        "research_when": "支成火局：癸水透",
+        "note": "Only for a Fire frame."
+      },
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "frame:Fire",
+          "shown:丙"
+        ],
+        "quote": "有丙丁出干，见壬制之、方吉。无制、残疾之人",
+        "src": "A",
+        "research_when": "丙丁出干：见壬制之",
+        "note": "In a Fire frame with fire on the stems; a shown 丁 counts the same (丙丁出干). 徐乐吾: '若丙丁出干，更须壬水出干制之方吉'."
+      }
+    },
+    "庚.巳": {
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "frame:Metal"
+        ],
+        "quote": "或支成金局，变弱为强，用丙无力，用丁方妙，故丁透者吉",
+        "src": "A",
+        "research_when": "支成金局，变弱为强：用丁方妙",
+        "note": "Only when a Metal frame makes 庚 strong."
+      }
+    },
+    "庚.午": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "frame:Fire",
+          "absent:壬",
+          "absent:癸"
+        ],
+        "alt": [
+          [
+            "frame:Fire"
+          ]
+        ],
+        "quote": "无壬癸制火者，又宜戊己出干补金洩火，庶不夭折孤贫",
+        "src": "A",
+        "research_when": "支成火局、无壬癸：戊己出干补金洩火",
+        "note": "Outside a Fire frame 戊己 are avoid ('切忌戊己透干制水'). Inside one, 戊己 are also 吉 with 壬癸 present ('有壬癸制者，捐纳之人。又见戊己透者则吉')."
+      },
+      "己": {
+        "rank": "conditional",
+        "when": [
+          "frame:Fire",
+          "absent:壬",
+          "absent:癸"
+        ],
+        "alt": [
+          [
+            "frame:Fire"
+          ]
+        ],
+        "quote": "无壬癸制火者，又宜戊己出干补金洩火，庶不夭折孤贫",
+        "src": "A",
+        "research_when": "同上",
+        "note": "Outside a Fire frame 戊己 are avoid ('切忌戊己透干制水'). Inside one, 戊己 are also 吉 with 壬癸 present ('有壬癸制者，捐纳之人。又见戊己透者则吉')."
+      }
+    },
+    "庚.申": {
+      "丙": {
+        "rank": "conditional",
+        "when": [
+          "frame:Water",
+          "absent:丁"
+        ],
+        "quote": "或支成水局，乏丁用丙",
+        "src": "A",
+        "research_when": "支成水局：乏丁用丙",
+        "note": "Water frame with no 丁; 丙 without 甲 still fails ('柱中即有丙火，不见甲木者，必主愚懦')."
+      }
+    },
+    "庚.戌": {
+      "丙": {
+        "rank": "conditional",
+        "when": [
+          "frame:Water"
+        ],
+        "quote": "或支成水局，丙透救之",
+        "src": "A",
+        "research_when": "支成水局：丙透救之",
+        "note": "Only for a Water frame."
+      }
+    },
+    "庚.亥": {
+      "己": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "支见亥子，得己出制，亦有功名",
+        "src": "A",
+        "research_when": "支见亥子：得己出制",
+        "note": "亥 is the month branch, so 支见亥子 means water massed in the branches."
+      }
+    },
+    "辛.寅": {
+      "丙": {
+        "rank": "conditional",
+        "when": [
+          "frame:Water"
+        ],
+        "quote": "或支成水局，不见丙火，名为金弱沉寒……得丙照暖，反主富贵",
+        "src": "A",
+        "research_when": "支成水局、不见丙火：得丙照暖",
+        "note": "Otherwise discretionary ('如用丙火须参看')."
+      }
+    },
+    "辛.卯": {
+      "庚": {
+        "rank": "conditional",
+        "when": [
+          "frame:Wood"
+        ],
+        "quote": "或支成木局，洩尽壬水，有庚富贵，无庚平人",
+        "src": "A",
+        "research_when": "支成木局洩尽壬水：有庚富贵",
+        "note": "Only for a Wood frame."
+      },
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "如壬水重重，得戊反吉",
+        "src": "A",
+        "research_when": "壬水重重：得戊反吉",
+        "note": "Only against heavy 壬."
+      }
+    },
+    "辛.辰": {
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "shown:丙"
+        ],
+        "quote": "如月时皆丙，名为争合，主慷慨风流，交游四海。若癸出干制丙，可许采芹",
+        "src": "A",
+        "research_when": "月时皆丙争合：癸出干制丙",
+        "note": "The text's case is two 丙 (month and hour) contending; one shown 丙 triggers it."
+      }
+    },
+    "辛.巳": {
+      "甲": {
+        "rank": "secondary",
+        "when": [
+          "shown:戊"
+        ],
+        "quote": "若壬水藏亥，戊不出干，亦主上达。有戊常人。有一甲透，衣禄可求",
+        "src": "A",
+        "note": "甲 is the cure for 戊 ('有木制戊，名一清澈底'). 徐乐吾: '甲木为去病之药…见戊出干，必须甲木为救'."
+      }
+    },
+    "辛.午": {
+      "甲": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Earth",
+          "el_strong:Water"
+        ],
+        "quote": "若水土多见，见甲方妙",
+        "src": "A",
+        "research_when": "水土多见：见甲方妙",
+        "note": "徐乐吾: '若土多见水，用甲则吉…无水则木助火旺'."
+      },
+      "庚": {
+        "rank": "conditional",
+        "when": [
+          "shown:癸"
+        ],
+        "quote": "或癸出有庚，必主衣锦，叨受恩荣",
+        "src": "A",
+        "research_when": "癸出有庚",
+        "note": "庚 feeds a shown 癸."
+      }
+    },
+    "辛.未": {
+      "甲": {
+        "rank": "conditional",
+        "when": [
+          "shown:戊"
+        ],
+        "quote": "但忌戊出，得甲制之，方吉。甲须隔位",
+        "src": "A",
+        "research_when": "戊出：得甲制之（甲须隔位）",
+        "note": "Without 戊 the text does not want 甲 ('只有未中一己…不可见甲')."
+      }
+    },
+    "辛.申": {
+      "甲": {
+        "rank": "secondary",
+        "when": [
+          "shown:戊"
+        ],
+        "quote": "或有土无甲，为有病无药，常人。有甲者，衣衿可望",
+        "src": "A",
+        "note": "Month rule '甲戊酌用'; 甲 is the cure for earth that shows ('若一派金水，得一戊土…又宜甲制')."
+      },
+      "戊": {
+        "rank": "secondary",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或干支水多，重见戊土，逢生得位，福寿之造",
+        "src": "A",
+        "note": "Month rule '甲戊酌用'. The ideal 七月 chart shows no 戊 ('四柱不见戊土，胎元戊藏申内'); 戊 is for heavy water ('若一派金水，得一戊土，反为辛用')."
+      }
+    },
+    "辛.酉": {
+      "甲": {
+        "rank": "conditional",
+        "when": [
+          "shown:戊"
+        ],
+        "quote": "如见戊己，则生扶太过，故以土为病，见甲制土、方妙。无戊、不宜用甲",
+        "src": "A",
+        "research_when": "见戊己：甲制土（无戊不宜用甲）",
+        "note": "Explicitly not used without 戊."
+      },
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "frame:Metal",
+          "absent:壬"
+        ],
+        "quote": "或支成金局，干见比肩，无壬淘洗，此宜用丁",
+        "src": "A",
+        "research_when": "支成金局、无壬淘洗：宜用丁",
+        "note": "Also needs 比肩 on the stems."
+      }
+    },
+    "辛.亥": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "戊壬在柱，积富之人。或壬多无戊，名辛水汪洋，反成贫贱",
+        "src": "A",
+        "research_when": "壬多：须戊（壬多无戊名辛水汪洋）",
+        "note": "Needed against heavy 壬."
+      }
+    },
+    "辛.子": {
+      "戊": {
+        "rank": "secondary",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或壬多有戊，丙甲出干者，青云之客",
+        "src": "A",
+        "note": "The ideal 十一月 chart has no 戊 ('壬丙两透，不见戊癸，衣锦腰金'). 徐乐吾: with 壬多 '以戊土为重要之用'. Also '或支成水局，癸水出干，有二戊制者，富贵恩荣'."
+      },
+      "甲": {
+        "rank": "secondary",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或壬多有戊，丙甲出干者，青云之客",
+        "src": "A",
+        "note": "Named only for the 壬多 case. 徐乐吾: '或壬多，无戊无丙，泄金太过，定作寒儒，用甲泄之方妙'."
+      }
+    },
+    "壬.寅": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "dm_strong"
+        ],
+        "quote": "凡壬日无比肩羊刃者，不必用戊……或见比劫，又有庚辛，此弱极复旺，又宜制伏。戊透、可云科甲",
+        "src": "A",
+        "research_when": "见比劫：戊透制之",
+        "note": "比劫 plus 庚辛 make the Day Master strong ('弱极复旺'); without them 戊 is not used."
+      }
+    },
+    "壬.辰": {
+      "丙": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water",
+          "el_strong:Metal"
+        ],
+        "quote": "凡水旺多见庚金者，乃无用之人，须丙制之方妙",
+        "src": "A",
+        "research_when": "水旺多见庚金：须丙制之",
+        "note": "Only when Water and 庚 are both heavy."
+      },
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "optional"
+        ],
+        "quote": "有癸滋甲，必主干城",
+        "src": "A",
+        "research_when": "有癸滋甲",
+        "note": "Named only as a bonus that nourishes 甲; no checkable situation."
+      }
+    },
+    "壬.巳": {
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "absent:壬"
+        ],
+        "quote": "壬辛两透，金榜有名，或癸辛两出，加以甲透，亦主异路之荣",
+        "src": "A",
+        "research_when": "癸辛两出、加以甲透：癸代壬为比劫",
+        "note": "癸 stands in for the 比肩 壬 (a 壬 other than the Day Master) and wants 甲 shown with it."
+      }
+    },
+    "壬.午": {
+      "辛": {
+        "rank": "secondary",
+        "when": [
+          "optional"
+        ],
+        "quote": "五月壬水，辛癸亦可参用",
+        "src": "A",
+        "note": "参用: discretionary."
+      }
+    },
+    "壬.酉": {
+      "庚": {
+        "rank": "secondary",
+        "when": [
+          "absent:甲"
+        ],
+        "quote": "若甲出时干，功名显达，设见庚破，又属常人……无甲用金，发水之源，名独水三犯庚辛，号曰体全之象",
+        "src": "A",
+        "note": "庚 breaks 甲, so it is the fallback when 甲 is missing. 徐乐吾's closing line drops 庚 ('总之八月壬水，专用甲木') and calls 体全 '乃破格也'. Doubtful: A's closing line reads '庚金次之'."
+      },
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或天干有壬，支见申亥，此非用甲，戊土作用",
+        "src": "A",
+        "research_when": "天干有壬、支见申亥：戊土作用",
+        "note": "徐乐吾: '或壬多透干，支有申亥，此不用甲而用戊'."
+      }
+    },
+    "壬.戌": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water",
+          "absent:丙"
+        ],
+        "quote": "或水多乏丙者，又用戊土，常人",
+        "src": "A",
+        "research_when": "水多乏丙：又用戊土",
+        "note": "Heavy water with no 丙."
+      }
+    },
+    "壬.亥": {
+      "庚": {
+        "rank": "secondary",
+        "when": [
+          "shown:甲"
+        ],
+        "quote": "又须庚制甲，不伤戊土，戊庚两全，定主豋科乃第，位显权高。或甲出制戊，不见庚救者，断之贫穷",
+        "src": "A",
+        "note": "庚 guards 戊 against 甲. 徐乐吾: '庚金为应病与药之用也'; with 丙戊 both shown '无须再用庚金制甲矣'. 亥 holds 甲, so the trigger is 甲 on a stem. Doubtful: A's closing line '次取庚金'."
+      }
+    },
+    "壬.丑": {
+      "丁": {
+        "rank": "secondary",
+        "when": [
+          "shown:辛"
+        ],
+        "alt": [
+          [
+            "frame:Metal"
+          ]
+        ],
+        "quote": "即丙透遇辛，亦不为妙，见丁颇吉",
+        "src": "A",
+        "note": "A's closing line '先取丙火，丁甲为佐' lists 丁, but the body uses 丁 only to free 丙 from 辛 (in a Metal frame). 徐乐吾本's closing line is '用丙火，或甲木为佐' with no 丁 ('有丁破辛，则丙火可以保持其温度'). Doubtful."
+      },
+      "甲": {
+        "rank": "secondary",
+        "when": [
+          "half:second"
+        ],
+        "quote": "上半月癸辛主事，故旺，专用丙火。下半月己土主事，故衰。亦用丙火，甲木佐之",
+        "src": "A",
+        "research_when": "下半月己土主事：甲木佐之",
+        "note": "First half 丙 alone; 甲 joins in the second half against 己. 徐乐吾: '兼取甲木者，防己土浊壬也'. Research conditional merged here: same condition."
+      }
+    },
+    "癸.辰": {
+      "辛": {
+        "rank": "secondary",
+        "when": [
+          "half:second"
+        ],
+        "quote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之",
+        "src": "A",
+        "note": "Before 谷雨 丙 alone; closing line '三月癸水，辛甲皆酌用'. 徐乐吾本 names 辛 (and 庚) for the second half."
+      },
+      "甲": {
+        "rank": "secondary",
+        "when": [
+          "half:second"
+        ],
+        "quote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之",
+        "src": "A",
+        "note": "Before 谷雨 丙 alone; closing line '三月癸水，辛甲皆酌用'. 徐乐吾本 names 辛 (and 庚) for the second half."
+      }
+    },
+    "癸.巳": {
+      "庚": {
+        "rank": "secondary",
+        "when": [
+          "absent:辛"
+        ],
+        "alt": [
+          [
+            "el_strong:Fire",
+            "el_strong:Earth"
+          ]
+        ],
+        "quote": "四月癸水，喜辛金为用，无辛用庚",
+        "src": "A",
+        "note": "Stand-in for 辛. Also with 壬 against 一派火土 ('若庚壬两透，洩制火土')."
+      },
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Fire",
+          "el_strong:Earth"
+        ],
+        "alt": [
+          [
+            "shown:丁"
+          ]
+        ],
+        "quote": "或一派火土乏辛……若庚壬两透，洩制火土，名劫印化晋，极贵之造",
+        "src": "A",
+        "research_when": "一派火土：庚壬两透洩制火土",
+        "note": "Also rescues a 丁 that breaks the chart ('若有丁破格，贫无立锥，有壬可免') and adds to a shown 辛 ('加以壬透')."
+      }
+    },
+    "癸.未": {
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "half:first"
+        ],
+        "quote": "如上半月金神衰弱，火气炎烈，宜比劫助身，可云富贵",
+        "src": "A",
+        "research_when": "上半月金神衰弱：宜比劫助身",
+        "note": "Second half: '即无比劫亦可'. 比劫 means stems other than the Day Master."
+      },
+      "癸": {
+        "rank": "conditional",
+        "when": [
+          "half:first"
+        ],
+        "quote": "如上半月金神衰弱，火气炎烈，宜比劫助身，可云富贵",
+        "src": "A",
+        "research_when": "上半月：宜比劫助身",
+        "note": "Second half: '即无比劫亦可'. 比劫 means stems other than the Day Master."
+      }
+    },
+    "癸.戌": {
+      "壬": {
+        "rank": "conditional",
+        "when": [
+          "absent:癸"
+        ],
+        "quote": "或有甲见壬者，颇许衣衿",
+        "src": "A",
+        "research_when": "有甲见壬：颇许衣衿",
+        "note": "Stand-in for the 比肩 癸 (a 癸 other than the Day Master). 徐乐吾: '无辛癸代之以庚壬'."
+      }
+    },
+    "癸.亥": {
+      "戊": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "或一派壬水，不见戊制，名冬水汪洋，奔波到老。若得戊透，清贵堪夸",
+        "src": "A",
+        "research_when": "一派壬水：得戊透",
+        "note": "Only against a mass of 壬."
+      },
+      "丁": {
+        "rank": "conditional",
+        "when": [
+          "el_strong:Metal"
+        ],
+        "quote": "或一派庚辛，得丁出制，主名利双全",
+        "src": "A",
+        "research_when": "一派庚辛：得丁出制",
+        "note": "丁 is otherwise avoid ('不见丁伤')."
+      }
+    },
+    "癸.丑": {
+      "丁": {
+        "rank": "secondary",
+        "when": [
+          "shown:辛"
+        ],
+        "quote": "或无癸水，有辛与合，亦不为美。有丁出、颇吉",
+        "src": "A",
+        "note": "丁 frees 丙 from 辛 (徐乐吾: '或丙遭辛合，须见丁制，乃吉'); the month otherwise takes 丙 alone ('宜丙火解冻'). Also the 雪后灯光 pattern ('一片癸己会党，年透丁火'). Doubtful."
+      },
+      "庚": {
+        "rank": "conditional",
+        "when": [
+          "frame:Fire"
+        ],
+        "quote": "或支成火局，有庚辛透者，衣食充足",
+        "src": "A",
+        "research_when": "支成火局：庚辛透",
+        "note": "Only for a Fire frame."
+      },
+      "辛": {
+        "rank": "conditional",
+        "when": [
+          "frame:Fire"
+        ],
+        "quote": "或支成火局，有庚辛透者，衣食充足",
+        "src": "A",
+        "research_when": "支成火局：庚辛透",
+        "note": "Only for a Fire frame."
+      }
+    }
+  },
+  "overlaps": {
+    "甲.午": {
+      "丁": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "absent:癸"
+        ],
+        "quote": "或五月乏癸，用丁亦可，要运行北地为隹",
+        "src": "A",
+        "research_when": "五月乏癸，用丁亦可，宜运行北地",
+        "note": "With no 癸, 丁 carries the chart."
+      }
+    },
+    "甲.酉": {
+      "庚": {
+        "rank": "conditional",
+        "also_in": "secondary",
+        "effect": "first",
+        "when": [
+          "frame:Wood",
+          "dm_strong"
+        ],
+        "quote": "或支成木局，干透比劫，反取庚金为先，次用丁火",
+        "src": "A",
+        "research_when": "支成木局、干透比劫：反取庚金为先，次用丁火",
+        "note": "干透比劫 is coded dm_strong."
+      }
+    },
+    "甲.戌": {
+      "庚": {
+        "rank": "conditional",
+        "also_in": "secondary",
+        "effect": "first",
+        "when": [
+          "el_strong:Wood"
+        ],
+        "quote": "或四柱木多，用丙用丁，皆不足异，耑用庚金为妙",
+        "src": "A",
+        "research_when": "四柱木多：耑用庚金",
+        "note": "Heavy Wood: 庚 alone."
+      }
+    },
+    "乙.未": {
+      "丙": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "el_strong:Water"
+        ],
+        "quote": "六月乙木，木性且寒，柱多金水，丙火为尊",
+        "src": "A",
+        "research_when": "柱多金水：丙火为尊",
+        "note": "柱多金水 coded on Water. 徐乐吾: after 大暑 with 多金水 '当以丙火为尊，否则仍用癸水也'; 丙 otherwise 配合 (三夏: '五六月先丙后癸')."
+      }
+    },
+    "乙.酉": {
+      "癸": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "half:first"
+        ],
+        "quote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼",
+        "src": "A",
+        "research_when": "白露后、秋分前：耑用癸水",
+        "note": "Before 秋分 癸 alone (丙 is gated to the second half)."
+      }
+    },
+    "丁.寅": {
+      "壬": {
+        "rank": "conditional",
+        "also_in": "secondary",
+        "effect": "pattern",
+        "when": [
+          "optional"
+        ],
+        "quote": "得壬化木，弱极复生，合此必主大贵，但此化合，反以不见庚破格为妙",
+        "src": "A",
+        "research_when": "得壬化木（丁壬合）",
+        "note": "丁壬化木 is a pattern the vocabulary cannot code (徐乐吾: '以得寅月寅时为妙'). 壬 stays an unconditional support ('先庚次壬…然亦不可无水')."
+      }
+    },
+    "丁.辰": {
+      "庚": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "frame:Wood"
+        ],
+        "quote": "或支成木局，取庚为先",
+        "src": "A",
+        "research_when": "支成木局：取庚为先",
+        "note": "Wood frame: 庚 ahead of 甲."
+      }
+    },
+    "丁.巳": {
+      "庚": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "el_strong:Wood"
+        ],
+        "quote": "甲多、又取庚为先",
+        "src": "A",
+        "research_when": "甲多：又取庚为先",
+        "note": "Heavy 甲: 庚 ahead of 甲."
+      }
+    },
+    "戊.申": {
+      "甲": {
+        "rank": "conditional",
+        "also_in": "secondary",
+        "effect": "first",
+        "when": [
+          "frame:Water"
+        ],
+        "quote": "或支成水局，休作弃命从才，宜取甲洩之",
+        "src": "A",
+        "research_when": "支成水局：取甲洩之",
+        "note": "Water frame: 甲 drains it."
+      }
+    },
+    "戊.戌": {
+      "癸": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "el_strong:Metal"
+        ],
+        "quote": "见金先用癸水，后取丙火",
+        "src": "A",
+        "research_when": "见金：先用癸水，后取丙火",
+        "note": "见金 (庚 or 辛 present) coded as heavy Metal."
+      }
+    },
+    "己.酉": {
+      "丙": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "frame:Metal"
+        ],
+        "quote": "八月支成金局，无丙丁出救，此人零丁孤苦。如得丙透丁藏，生己元神",
+        "src": "A",
+        "research_when": "支成金局：丙透丁藏，生己元神",
+        "note": "Metal frame: a shown 丙 becomes essential."
+      }
+    },
+    "庚.未": {
+      "甲": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "frame:Earth"
+        ],
+        "quote": "支会土局，甲先丁后",
+        "src": "A",
+        "research_when": "支会土局：甲先丁后",
+        "note": "Earth frame: 甲 ahead of 丁."
+      }
+    },
+    "庚.申": {
+      "甲": {
+        "rank": "conditional",
+        "also_in": "primary",
+        "effect": "first",
+        "when": [
+          "frame:Earth"
+        ],
+        "quote": "或支成土局，先甲后丁",
+        "src": "A",
+        "research_when": "支成土局：先甲后丁",
+        "note": "Earth frame: 甲 ahead of 丁."
+      }
+    }
+  }
+}
