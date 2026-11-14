@@ -1,0 +1,134 @@
+{
+ "golden": {
+  "why": "the golden chart",
+  "birth": {
+   "year": 1995,
+   "month": 4,
+   "day": 29,
+   "hour": 18,
+   "location": "Beijing",
+   "gender": "male"
+  },
+  "hu": false
+ },
+ "youngHourLead": {
+  "why": "R9: How you are from a seat the reader has not reached",
+  "birth": {
+   "year": 1997,
+   "month": 10,
+   "day": 26,
+   "hour": 20,
+   "location": "Beijing",
+   "gender": "female"
+  },
+  "hu": false
+ },
+ "dualBond": {
+  "why": "R3: one pair of gates with two bond lines",
+  "birth": {
+   "year": 1978,
+   "month": 7,
+   "day": 15,
+   "hour": 1,
+   "location": "Beijing",
+   "gender": "female"
+  },
+  "hu": false
+ },
+ "strongSealMoney": {
+  "why": "R1: a strong seal chart told money breaks it",
+  "birth": {
+   "year": 1996,
+   "month": 11,
+   "day": 24,
+   "hour": 2,
+   "location": "Beijing",
+   "gender": "female"
+  },
+  "hu": false
+ },
+ "pastMonth": {
+  "why": "R13: a reader past the Month Gate with Month seats",
+  "birth": {
+   "year": 1972,
+   "month": 1,
+   "day": 25,
+   "hour": 2,
+   "location": "Beijing",
+   "gender": "male"
+  },
+  "hu": false
+ },
+ "familyGap": {
+  "why": "R11: a reader aged 16 to 34 with a gap row",
+  "birth": {
+   "year": 2002,
+   "month": 6,
+   "day": 4,
+   "hour": 15,
+   "location": "Beijing",
+   "gender": "male"
+  },
+  "hu": false
+ },
+ "mixedCured": {
+  "why": "R1: officers mixed, the cure already seated (M-1)",
+  "birth": {
+   "year": 1984,
+   "month": 8,
+   "day": 10,
+   "hour": 13,
+   "location": "Beijing",
+   "gender": "male"
+  },
+  "hu": false
+ },
+ "weakWealthPeers": {
+  "why": "R1: a weak chart told its peers rob its wealth",
+  "birth": {
+   "year": 1974,
+   "month": 8,
+   "day": 2,
+   "hour": 6,
+   "location": "Beijing",
+   "gender": "male"
+  },
+  "hu": false
+ },
+ "jinshui": {
+  "why": "R1: 金水伤官 read as broken by the officer it wants",
+  "birth": {
+   "year": 1972,
+   "month": 11,
+   "day": 26,
+   "hour": 16,
+   "location": "Beijing",
+   "gender": "female"
+  },
+  "hu": false
+ },
+ "noHour": {
+  "why": "R5: no birth hour",
+  "birth": {
+   "year": 2002,
+   "month": 6,
+   "day": 4,
+   "hour": 15,
+   "location": "Beijing",
+   "gender": "male"
+  },
+  "hu": true
+ },
+ "seasonCond": {
+  "why": "R4: 十月丙 half Water, told it needs 壬 (穷通宝鉴: 火旺用壬)",
+  "birth": {
+   "year": 1971,
+   "month": 11,
+   "day": 16,
+   "hour": 23,
+   "location": "Beijing",
+   "gender": "male"
+  },
+  "hu": false
+ }
+}

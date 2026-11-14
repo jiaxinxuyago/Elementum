@@ -198,3 +198,30 @@ Asked on https://claude.ai/artifact/GFYPtjewVXaFc6bDdWopgh and answered "Y1 A, Y
 - **T1 A, the engine-composed lines:** the slot templates (`structure_rule.*`, `rescue.*`, `strongest.*`) are approved as worded. The new rule paths got three lines in the same shape: `structure_rule.middle`, `.own` (a store month whose main stem is the Twin) and `.passed` (only a Twin or Rival shows).
 
 **Landed:** the station `TEMPLATED/tpl_depth.json` now holds 362 units. On 3,003 charts, `qa-domains-coverage` reports 0% placeholder lines on every Domains and Blueprint surface.
+
+## Section audit rulings (owner, 2026-11-14): "R1 A … R17 A, G1 A, MN A"
+
+These were asked on the audit report, https://claude.ai/artifact/NzAHZwFbSjWRdRoQeRLigR (records in `ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains/`). The owner also asked: "After these rulings are applied, show me a side by side comparison of the domain reading so that I can tell the difference". The before snapshot is `domains/compare/before.json`: 11 charts, one for each change.
+
+**Blueprint engine:**
+- **R1 A, the state reads strength and the cure:** rebuild the state rules on 子平真诠 with strength, a cure already seated, and the 伤官 exceptions (金水伤官见官). Each rule gets a golden case. A sample comes back to the owner before it ships, so it runs on the dev site until then: the comparison page is that sample.
+- **R2 A, conditions on the pairings:** each pairing gets its classical condition (strength, and the cure that lifts it), and a pairing the STATE already names is skipped. This holds in both Blueprint part 4 and the Domains PATTERN step. The condition table goes to the owner with its sources first, so it also runs on the dev site until approved.
+- **R3 A, the bonds:** one line per pair of gates, by the strongest relation (clash, then punish, then harm, then bind), and a full 三刑 printed once. The seven dated bond lines get a lived and a coming version.
+- **R4 A, the season table:** conditional stems are marked from the 穷通宝鉴 text, and each prints only when its condition holds.
+- **R5 A, no birth hour:** MISSING names only what the three known pillars lack, and says the Hour Gate could hold it. STRONGEST reads three pillars, which E3 (2026-10-22) already does.
+
+**Content and composition:**
+- **R6 A:** the 30 need lines are rewritten without public or private traits.
+- **R7 A:** state notes are keyed by structure.
+- **R8 A:** the rescue templates end "in {when}".
+- **R9 A:** with no seat in a gate the reader has reached, How you are reads the unruled line, and the seat shows as coming.
+- **R10 A, the writing rule:** the headline makes the claim, How you are says how it works now, and the lived beat says what that gate's years built.
+- **R11 A:** the gap lines claim no loss. The seat map is kept.
+- **R12 A:** the Love ahead beats describe the kind of bond, never a shared home stated as fact.
+- **R13 A:** past versions of the Month and Day lived beats, chosen by age.
+- **R14 A:** no "at least once" or "more than once"; past beats are definite patterns tied to their span.
+- **R15 A:** a character-distinct round at the Day and Hour Gates, the Horizon and Rival in Wealth, and the Social closes, with a table of each character's own verbs checked by the gate.
+- **R16 A:** at most one ", and you" close per unit family on a page; decade lines drop "these years"; the missing and need lines get distinct frames. The gate and a page check enforce it.
+- **R17 A:** age is read from the birth date.
+- **G1 A:** the ten slips in approved texts are fixed.
+- **MN A:** one polish round for the MINORs, with the units a MAJOR touches folded into that MAJOR.
