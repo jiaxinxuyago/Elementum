@@ -19,7 +19,7 @@
    "kind": "status",
    "page": "structure:zhengguan_ge",
    "family": "status",
-   "text": "Something in your chart pulls against the order you keep, and the same chart already answers it. You feel the friction in your role, yet your standing holds through it."
+   "text": "Something in your chart argues with the order you keep, and something else in it settles the matter before it costs you the role. Your standing holds through the friction."
   },
   {
    "key": "STRUCTURE zhengguan_ge · status.broken.virtuoso",
@@ -61,7 +61,7 @@
    "kind": "status",
    "page": "structure:qisha_ge",
    "family": "status",
-   "text": "The pressure in your chart has a handle on it, and each hard test turns into proof of what you can do. You can lean on your nerve when the stakes climb."
+   "text": "The pressure in your chart has a handle on it, and each hard test turns into proof of what you can do. Your nerve is what you lean on when the stakes climb."
   },
   {
    "key": "STRUCTURE qisha_ge · status.formed.cured",
@@ -138,7 +138,7 @@
    "kind": "status",
    "page": "structure:zhengcai_ge",
    "family": "status",
-   "text": "Something in your chart reaches for what you earn, and the same chart already guards it. You feel the pull on your money, yet what you have built stays put."
+   "text": "A pull on what you earn sits in your chart beside the lock that already holds it shut. What you have built stays put, whoever comes asking for it."
   },
   {
    "key": "STRUCTURE zhengcai_ge · status.strained.heavywealth",
@@ -187,7 +187,7 @@
    "kind": "status",
    "page": "structure:piancai_ge",
    "family": "status",
-   "text": "Something in your chart pulls at the deals you chase, and the same chart already answers the pull. You keep your reach wide, and what comes through a side door stays yours."
+   "text": "One part of your chart tugs at the deals you chase, and another already brings them back within reach. You keep your reach wide, and what comes through a side door stays yours."
   },
   {
    "key": "STRUCTURE piancai_ge · status.strained.heavywealth",
@@ -201,7 +201,7 @@
    "kind": "status",
    "page": "structure:piancai_ge",
    "family": "status",
-   "text": "Equals crowd every deal you open with nothing to hold them back, and each windfall is spoken for before it lands. You come through on range, finding the next opening before the last one empties."
+   "text": "Equals crowd every deal you open with nothing to hold them back, and each windfall is spoken for before it lands. You get through on range, finding the next opening before the last one empties."
   },
   {
    "key": "STRUCTURE piancai_ge · status.strained.peers",
@@ -236,7 +236,7 @@
    "kind": "status",
    "page": "structure:zhengyin_ge",
    "family": "status",
-   "text": "Something in your chart wears at the support behind you, and the same chart already mends it. You feel the pull on your study, but your backing holds."
+   "text": "The support behind you frays at the edges, and your chart already holds what mends it. Your backing stays in place while your study goes on."
   },
   {
    "key": "STRUCTURE zhengyin_ge · status.strained.excess",
@@ -264,7 +264,7 @@
    "kind": "status",
    "page": "structure:pianyin_ge",
    "family": "status",
-   "text": "Your unusual mind has somewhere to work, and the odd angle you take on a problem keeps paying off. You can lean on your intuition and on a method nobody handed you."
+   "text": "Your unusual mind has somewhere to work, and the odd angle you take on a problem keeps paying off. What you lean on is your intuition, and a method nobody handed you."
   },
   {
    "key": "STRUCTURE pianyin_ge · status.formed.cured",
@@ -313,7 +313,7 @@
    "kind": "status",
    "page": "structure:shishen_ge",
    "family": "status",
-   "text": "Something in your chart eats into your ease, and the same chart already feeds it back. You lose an afternoon here and there, but the making goes on."
+   "text": "Something in your chart eats into your ease, and the chart already lays more on the table. You lose an afternoon here and there, but the making goes on."
   },
   {
    "key": "STRUCTURE shishen_ge · status.broken.alchemist",
@@ -348,14 +348,14 @@
    "kind": "status",
    "page": "structure:shangguan_ge",
    "family": "status",
-   "text": "Your voice carries, and your talent opens doors on its own merits. You can lean on being good at what you do, because people pay for it whatever they think of your tone."
+   "text": "Your voice carries, and your talent opens doors on its own merits. Your footing is being good at what you do, since people pay for it whatever they think of your tone."
   },
   {
    "key": "STRUCTURE shangguan_ge · status.formed.cured",
    "kind": "status",
    "page": "structure:shangguan_ge",
    "family": "status",
-   "text": "Something in your chart pushes back against your voice, and the same chart already answers it. You keep your edge without paying for every sharp remark."
+   "text": "Something in your chart pushes back against your voice, and your chart already has the reply. You keep your edge without paying for every sharp remark."
   },
   {
    "key": "STRUCTURE shangguan_ge · status.broken.magistrate",
@@ -383,7 +383,7 @@
    "kind": "status",
    "page": "structure:shangguan_ge",
    "family": "status",
-   "text": "Every stage and every argument gets your full voice, more than your strength can feed. You perform at full tilt and pay for it in the quiet days after."
+   "text": "Every stage and every argument gets your full voice, more than your reserves can cover. You perform at full tilt and pay for it in the quiet days after."
   },
   {
    "key": "STRUCTURE jianlu_ge · reading",
@@ -432,7 +432,7 @@
    "kind": "status",
    "page": "structure:yuejie_ge",
    "family": "status",
-   "text": "Pressure comes at you with nothing in your chart to check it, and every rivalry becomes a test of nerve. You keep winning, but each win is bought with strength you needed elsewhere."
+   "text": "Pressure comes at you unchecked, and every rivalry becomes a test of nerve. You keep winning, but each win is bought with strength you needed elsewhere."
   },
   {
    "key": "STRUCTURE yuejie_ge · status.strained.idle",

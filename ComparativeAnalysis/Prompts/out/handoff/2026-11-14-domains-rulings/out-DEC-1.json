@@ -12,7 +12,7 @@
    "kind": "decade",
    "page": "decade:Family",
    "family": "decade.Family",
-   "text": "Your household runs side by side, each person carrying a fair part of the load. You pull your weight before anyone asks and meet every relative as one equal meets another."
+   "text": "Your household runs on shared effort, with each person carrying a fair part of the load. You pull your weight before anyone asks and meet every relative as one equal meets another."
   },
   {
    "key": "GOD bijian · decade_lines.Family.heavy.lived",
@@ -26,7 +26,7 @@
    "kind": "decade",
    "page": "decade:Family",
    "family": "decade.Family",
-   "text": "Pride runs through your family, with each person insisting on their own way and the quarrels that follow. You come through by doing your part well and leaving others to theirs."
+   "text": "Pride runs through your family, each person insisting on their own way and quarrelling over it. You come through by doing your part well and leaving others to theirs."
   },
   {
    "key": "GOD jiecai · decade_lines.Wealth.helping.lived",
@@ -173,7 +173,7 @@
    "kind": "decade",
    "page": "decade:Wealth",
    "family": "decade.Wealth",
-   "text": "Money comes through openings more than through regular pay, an offer or a sale or a well-timed move. You take more chances with it than you are used to, and most of them pay."
+   "text": "Money comes through openings, an offer or a sale or a well-timed move, more than through regular pay. You take more chances with it than you are used to, and most of them pay."
   },
   {
    "key": "GOD piancai · decade_lines.Wealth.helping.lived",
@@ -418,7 +418,7 @@
    "kind": "decade",
    "page": "decade:Career",
    "family": "decade.Career",
-   "text": "Unusual knowledge brings you work, through research, consulting or technical skill. You become the one people ask about what others do not know and a name inside a small field."
+   "text": "Unusual knowledge brings you work, through research, consulting or technical skill. Your name grows inside a small field, where you are the one people ask about what others do not know."
   },
   {
    "key": "GOD zhengyin · decade_lines.Family.heavy.lived",

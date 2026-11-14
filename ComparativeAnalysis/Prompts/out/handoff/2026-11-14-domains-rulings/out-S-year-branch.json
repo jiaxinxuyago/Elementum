@@ -82,7 +82,7 @@
    "kind": "lived",
    "page": "seat:jiecai_year_branch.Wealth",
    "family": "seatbeat",
-   "text": "Growing up you watched money pass from hand to hand around the family, and little of it was written down. By fifteen you had given away more than you could spare, and you knew which relatives paid back."
+   "text": "Growing up you watched money pass from hand to hand around the family, and little of it was written down. By fifteen you had given away more than you could spare and learned which relatives paid back."
   },
   {
    "key": "POSITION piancai_year_branch · domain_climb.Family.headline",
@@ -124,7 +124,7 @@
    "kind": "lived",
    "page": "seat:piancai_year_branch.Wealth",
    "family": "seatbeat",
-   "text": "When you were young the family's money came from moving, from work taken far off and trade that travelled. You looked past your own streets for every chance to earn, and a coin from a distance pleased you more than one from next door."
+   "text": "When you were young the family's money came from moving, from work taken far off and trade that travelled. You looked past your own streets for every chance to earn, and a coin from a distance pleased you more than any from next door."
   },
   {
    "key": "POSITION pianyin_year_branch · domain_climb.Family.headline",
@@ -166,7 +166,7 @@
    "kind": "lived",
    "page": "seat:pianyin_year_branch.Mind",
    "family": "seatbeat",
-   "text": "Whatever you were given to read when you were small, you read past it into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you mentioned it only to the one or two people who asked."
+   "text": "Whatever you were given to read when you were small, you read past it into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, mentioning it only to the one or two people who asked."
   },
   {
    "key": "POSITION pianyin_year_branch · domain_climb.Growth.headline",
@@ -208,7 +208,7 @@
    "kind": "lived",
    "page": "seat:qisha_year_branch.Family",
    "family": "seatbeat",
-   "text": "Through your first years at home you carried a weight few people saw, hard stretches and heavy demands and worries beyond your age. By your teens you were the one your family turned to in a hard week, and you held firm without being asked."
+   "text": "Through your first years at home you carried a weight few people saw, hard stretches and heavy demands and worries beyond your age. By your teens you were the one your family turned to in a hard week, holding firm without being asked."
   },
   {
    "key": "POSITION qisha_year_branch · domain_climb.Growth.headline",
