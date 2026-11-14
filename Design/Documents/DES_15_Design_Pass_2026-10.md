@@ -282,6 +282,19 @@ Open for the owner: the two draft eyebrows ("The sign", "Your type"); whether "S
 
 **Four stems illustrated for review (owner 2026-11-06).** The owner asked for the revelation journey of the Blade, the Jewel, the Oak and the Vine fully illustrated. The 甲 and 乙 strip sets (ten) were painted from the current T-STRIP and built; with the Blade's and the Jewel's that makes twenty strips in the app. All four journeys (the Naming, the eight cards, card 4 of the Day Master page) captured from dev: https://claude.ai/artifact/NM495dzmu5d8C8yJ1Nfyg5 (library copy `Ink_Painting_Artifacts/09_four-stems-revelation.html`). The Jewel, Oak and Vine sets are unapproved. Held per the Day Master session's notice of 2026-11-06 (EV1–EV5 A, the words and order are being rebuilt): no polish on the cards, including the per-stem sign crop the review shows is needed on card 1 (the Jewel's and the Oak's D1 sit further right than the Blade's).
 
+## Follow-up · the revelation on the explanation ladder (RS3, words ruled 2026-11-13, BUILT ON DEV 2026-11-14)
+
+Built from `Design/Library/Design_Pass_2026-10/RS3_Revelation_Ladder_Brief.md` (the Day Master session's brief; owner EV1–EV5 A, V0–V9 A, S1–S7 and P-* A). It replaces RS2's words and order behind `TYPE_V1`; RS2's paintings and slots carry over. Code: `LadderViews.jsx` (`LadderReading`, `Taichi`), mounted in `JourneyStage.jsx` in place of `FirstReading` when the type is on; styles under `.mg-fr.ladder` (`merged.css`) and `.rvl-inner.ladder` (`journey.css`). Every line renders from `content/ladder.js`, the type model or the locked stem lines.
+
+- **The Naming:** eyebrow "Your Day Master", the plate, the name, the element line with the taichi symbol, the recognition line large, the five signs by name only, the Day Master footnote, on the stage.
+- **Nine cards:** who the stem is (D1; element heading, as-line, three bullets, contrast, the inscription behind the red rule) · your five energies (the plate with "{Name} · {stem glyph}" at the top, five rows, the full dominance bar) · how you run (dial, heading, body, Try this, D3) · five energy cards, heaviest first and the need last (scroll strip; sign and "{Element} · your {Function}", nature, function, In you with the amount and the bar, You might notice, the Grow it / Release it / Keep pill on the try line) · your type and circle (type name, mode line, need sentence, Start here, the Fuel plates and the circle line, the two buttons).
+- **Meaning before numbers:** the amount sits inside the "In you" block under the nature and function lines.
+- **Fit:** all nine cards fit one screen at 390×844 and at 390×667 with no inner scroll on the golden chart and chart B; the card scrolls inside itself if a longer line ever needs it.
+- **The taichi symbol** (owner 2026-11-13): drawn as one SVG with two states, the reader's half at full ink with a bronze arc, the other half as a faint wash. On dev it sits on the Naming's element line only, for the owner to see before it goes to the Day Master page's stem line and elsewhere.
+- **Balanced chart:** no need, so the type card shows the mode line and the Bond plate with the circle's balanced line, which is still marked draft.
+
+Gates: eslint 0 errors, engine regression, build, journey sweep 17/17, route sweep clean. Checked on the golden chart, chart B and the Balanced chart.
+
 ## Follow-up · the store build (owner question 2026-10-22)
 
 The planned path is the Capacitor wrap (PM_02 STORE-3), under which the React code, the CSS motion and the dissolve carry over unchanged; the browser beneath becomes WebKit on iOS. Prepared now:

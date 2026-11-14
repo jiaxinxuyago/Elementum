@@ -65,6 +65,8 @@ import { DM_READING } from '../../content/reading/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
 import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading, TypeCircle, DayMasterPage } from './MergedViews.jsx';
 import { dmStage, energyHero, useArtSrc } from './inkArt.jsx';
+import { LadderReading, Taichi } from './LadderViews.jsx';
+import { LADDER, STEM_LADDER } from '../../content/ladder.js';
 import { MERGE_V1 } from './mergeFlag.js';
 import { resolveDayMasterReading } from '../reading/readingResolve.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
@@ -698,6 +700,29 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                   <img className="rvl-bgbot" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
                   <div className="rvl-fog" />
                 </>}
+              {TYPE_V1 && merged?.type ? (
+                /* RS3 (words ruled 2026-11-13): the name, its element line with the taichi
+                   symbol, the recognition line, the five signs by name, what a Day Master is */
+                <div className="rvl-inner ladder">
+                  <span className="rvl-ey">YOUR DAY MASTER</span>
+                  <div className="rvl-plate" aria-label={`${m.stem} — ${m.archetype}, painted`}>
+                    <span className="rvl-wash" style={{ backgroundImage: `url('${paintSrc}')` }} />
+                    <span className="rvl-img" style={{ backgroundImage: `url('${paintSrc}')` }} />
+                  </div>
+                  <h2 className="rvl-name">{m.archetype}</h2>
+                  <p className="rvl-kick"><Taichi stem={m.stem} size={20} />{STEM_LADDER[m.stem]?.element_line}</p>
+                  <p className="rvl-recog">{STEM_LADDER[m.stem]?.recognition}</p>
+                  <div className="rvl-dist" aria-label="Your five energies">
+                    {rvlOrder.map((r) => (
+                      <span key={r.el} className="rvl-dot">
+                        <InkDot el={r.el} size={34} Use={Use} label={r.name} />
+                        <span>{r.name}</span>
+                      </span>
+                    ))}
+                  </div>
+                  <p className="rvl-foot">{LADDER.naming_footnote}</p>
+                </div>
+              ) : (<>
               <div className="rvl-inner">
                 <span className="rvl-ey">YOU ARE</span>
                 <div className="rvl-plate" aria-label={`${m.stem} — ${m.archetype}, painted`}>
@@ -721,20 +746,26 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 </div>
               </div>
               <span className="rvl-inscr" aria-label="Your sign and birth cast">{m.stemLit} · {m.cast.replace(/^CAST FROM /, '')}</span>
+              </>)}
               <button className="rvl-swipe" aria-label="Continue to your energies — swipe up or tap"><Use id="ico-chev-r" /><span>Swipe up</span></button>
             </div>
           )}
 
           {/* THE MERGE: the first reading's eight cards, between the Naming and the dissolve */}
           {playingReveal && MERGE_V1 && merged && storyOn && (
-            <FirstReading key={storyStart} start={storyStart} door={SC_LIVE} painted={TYPE_V1 && !!merged?.type} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
-              onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
+            TYPE_V1 && merged.type
+              ? <LadderReading key={storyStart} start={storyStart} m={m} g={merged} claims={DM_READING[m.stem]?.claims} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
+                onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
+              : <FirstReading key={storyStart} start={storyStart} door={SC_LIVE} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
+                onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
           )}
 
           {/* THE TYPE (K2 A): the album's Archetype chip replays the first reading's eight cards */}
           {replayOn && merged && (
-            <FirstReading key="replay" start={0} door={SC_LIVE} painted={TYPE_V1 && !!merged?.type} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => { setReplayOn(false); setShowShare(true); }}
-              onEnter={() => setReplayOn(false)} />
+            TYPE_V1 && merged.type
+              ? <LadderReading key="replay" start={0} m={m} g={merged} claims={DM_READING[m.stem]?.claims} Use={Use} InkDot={InkDot} onShare={() => { setReplayOn(false); setShowShare(true); }} onEnter={() => setReplayOn(false)} />
+              : <FirstReading key="replay" start={0} door={SC_LIVE} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => { setReplayOn(false); setShowShare(true); }}
+                onEnter={() => setReplayOn(false)} />
           )}
 
           {/* ── the catalogue ── */}

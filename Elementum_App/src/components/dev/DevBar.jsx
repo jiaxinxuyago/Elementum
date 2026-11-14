@@ -78,7 +78,7 @@ const REVEAL_GROUP = {
       let tries = 0;   // wait for Your reading's stage to mount (a quicker bounce never commits)
       const t = setInterval(() => { if (window.__journeyGo?.route === 'reading' || tries++ > 30) { clearInterval(t); window.__goto?.('reveal'); } }, 50);
     } },
-    ...[1, 2, 3, 4, 5, 6, 7, 8].map((n) => ({ id: `story-${n}`, label: `card ${n}`, title: `first reading · card ${n} of 8`, run: journeyGo('reveal', 'story', n - 1) })),
+    ...[1, 2, 3, 4, 5, 6, 7, 8, 9].map((n) => ({ id: `story-${n}`, label: `card ${n}`, title: `first reading · card ${n}`, run: journeyGo('reveal', 'story', n - 1) })),
     { id: 'app-reading', label: 'dissolve → Your reading', run: () => window.__goto?.('app-reading') },
   ],
 };

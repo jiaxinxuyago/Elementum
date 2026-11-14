@@ -978,3 +978,15 @@
    the center seal (e.g. the Vine's "Action"), grey on dark ink. A paper-coloured
    halo keeps them readable; the wheel's design, seats and sizes are untouched. */
 .jny .node .fnlab, .jny .node .mg-rv{ text-shadow: 0 0 2px #F1E9D6, 0 0 3px #F1E9D6, 0 0 5px rgba(241,233,214,0.9); }
+
+/* RS3: the Naming's ladder lines (element line with the taichi symbol, recognition, footnote) */
+.jny .rvl-inner.ladder{gap:6px;padding-bottom:10px}
+.jny .rvl-inner.ladder .rvl-plate{width:168px;height:168px;margin-bottom:4px}
+.jny .rvl-inner.ladder .rvl-kick{display:block;margin:2px 0 0;font-family:'EB Garamond',Georgia,serif;font-size:14.5px;color:var(--inkSoft);max-width:290px;text-align:center}
+.jny .rvl-inner.ladder .rvl-kick .taichi{display:inline-block;vertical-align:-4px;margin-right:7px}
+.jny .rvl-recog{margin:10px 0 12px;font-family:'Cormorant Garamond',Georgia,serif;font-size:23px;font-weight:600;line-height:1.18;color:var(--ink);max-width:280px;text-align:center;text-wrap:balance;opacity:0}
+.jny .rvl-foot{margin:12px 0 0;font-size:12px;line-height:1.4;color:var(--inkLight);max-width:270px;text-align:center;opacity:0}
+.jny .rvl-overlay.play .rvl-recog{animation:rvlUp 520ms ease 2040ms both}
+.jny .rvl-overlay.play .rvl-foot{animation:rvlUp 520ms ease 2300ms both}
+.jny .rvl-overlay.done .rvl-recog,.jny .rvl-overlay.done .rvl-foot,.jny .rvl-overlay.done .rvl-kick{animation:none!important;opacity:1!important}
+@media (prefers-reduced-motion: reduce){.jny .rvl-recog,.jny .rvl-foot{opacity:1;animation:none!important}}

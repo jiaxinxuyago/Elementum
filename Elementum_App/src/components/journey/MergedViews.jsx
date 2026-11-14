@@ -200,7 +200,7 @@ export function TypeCircle({ g, onOpen }) {
 const pillOf = (row, it) => (row.pole === 'friction' ? { cls: 'fric', icon: 'ar-down', t: `Release${it ? ' it' : ''}` }
   : row.pole === 'catalyst' ? { cls: 'cat', icon: 'ar-up', t: `Grow${it ? ' it' : ''}` } : { cls: 'cond', icon: 'ic-balanced', t: 'Keep' });
 
-function Pill({ row, it, Use }) {
+export function Pill({ row, it, Use }) {
   const p = pillOf(row, it);
   return <span className={`role-pill ${p.cls}`}><Use id={p.icon} />{p.t}</span>;
 }
