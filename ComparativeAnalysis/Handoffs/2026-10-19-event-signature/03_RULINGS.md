@@ -93,3 +93,9 @@ The owner: "Make it live". `ALMANAC_LIVE = true` in `Elementum_App/src/liveFlags
 - AM6: the calculator reads the exact 节 table and the January rule behind `EXACT_TERMS = false` in `src/engine/calculator.js`; impact (`tools/qa-exact-terms-impact.mjs`, 20,000 charts): any change 17.97%, year 0.26%, month 3.52%, luck 17.97%, band 2.13%, roles 3.40%. **Waiting on the owner's sign-off to switch on.**
 - AN1: sealed re-audit of all 119 pages (`reaudit/`): mean B 2.81 → 3.38; pages at B 4: 6 → 47; MAJOR 16 → 6. Same pages that scored under 4: 2.90 → 3.32, 24 up, 0 down. New items for a ruling: AP1–AP5 (side-by-side artifact https://claude.ai/artifact/MtrhGUmVrZMs96xpJYqa3b).
 - AM2/AM3 told to Life Chapters: `05_TO_LIFE_CHAPTERS.md`.
+
+## Polish round two (2026-11-14): AP1 A, AP2 A, AP3 A, AP4 A, AP5 A, AM6-ON A
+
+- AP1 the energy line ends on a full verb and never says ask (only the landing may, once); AP2 no gerund cost opener, no shape more than three times; AP3 no "already"; AP4 grow/need/even energy lines and bind/frame landings meet AM1; AP5 yin months read `ENERGY <fn> · month.<state>.b` (resolver, falls back to the base when unwritten). Sealed writers, gate `polish2/gate.mjs`; 141 units rewritten (old text in `__ore.retired_2026-11-14_polish_two`), 19 added. Also: "Earth crowds you" → "{el} makes you dig in"; quiet line true when a weak bond exists (YR-1); decade marker and reminder no longer claim a birthday start or say "gate"; ground lines drop "reach". Sweep: 600 random Day and Month pages, no unwritten line, no page with two "ask", no ", and you".
+- AM6-ON: `EXACT_TERMS = true`, `ENGINE_VERSION = 4` (cached charts recompute). Golden cases 1983-01-01 and 2003-11-06 re-pinned to the classical month.
+- Still open: YR-2 (an exact pillar repeat as a punish; an engine rule, not ruled). Void days dim every domain by design, so they show no favours rows.
