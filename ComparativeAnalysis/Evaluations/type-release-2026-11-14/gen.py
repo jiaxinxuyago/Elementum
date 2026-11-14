@@ -31,5 +31,22 @@ B.append(sec('FW1','Fate words, batch 1','Fourteen live lines that say destiny, 
 B.append(sec('FW2','Fate words, the rest','The same sweep found more than the dispatch listed. Rule the scope before I draft them.',
  opt([('A (recommended)','Draft all three groups as batch 2, shown to you the same way.'),('B','Draft only the "verdict" and "meant to be" lines. Leave everyday "luck".'),('C','Stop at batch 1.')])
  +opt([('"verdict", about 12 lines','The Blade\'s and Jewel\'s archetype texts use it for the reader\'s own judgement ("underneath the settled verdict…"). Two more sit on the Consultant and the Elemental Draw.'),('"luck" in the seat readings, 7 shown lines','The seat readings (positions.js): "Your luck travels", "Expect your best luck at a distance", "career luck favors your niche". That file is the Domains session\'s. It reports 7 shown lines left with "luck" (the "Expect" forecasts are already rewritten) and 8 in a field no screen shows. If you rule A, Domains applies it there, not this session.'),('Everyday "luck", 4 lines','In k2.js: "other people\'s bad luck", "Order weighs more than luck with you". These describe chance, not a forecast. I would leave them.')])))
+B2=[("Blade · open band (archetypeSource.js:707)","The world arrives before the verdict does.","The world arrives before the judgement does."),
+("Blade · the cost, two bands (:733, :736)","The verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system…","The conclusion also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system…"),
+("Blade · tested band (:738)","What holds you back is the gap between maintaining the verdict and operating inside the system that lets you act on it.","What holds you back is the gap between holding your conclusion and operating inside the system that lets you act on it."),
+("Blade · what people miss, two bands (:761, :762)","But underneath the settled verdict, there is sometimes a quieter question…","But underneath the settled conclusion, there is sometimes a quieter question…"),
+("Blade · the interior, two bands (:834, :835)","…whether the verdict holds, whether the standard is being aimed at the right things.","…whether the judgement holds, whether the standard is being aimed at the right things."),
+("Jewel · tested band (:904)","…guarding against a verdict rather than seeking the truth of the thing.","…guarding against being judged rather than seeking the truth of the thing."),
+("Jewel · flowing band (:922)","…where a purely evaluative configuration would stop at the verdict.","…where a purely evaluative configuration would stop at the assessment."),
+("A chip title (:1271)","The Peer’s Verdict","The Peer’s Word"),
+("Field · flowing band (:612)","…people who became who they were meant to be…","…people who grew into themselves…"),
+("Candle variant (stemVariants.js:79)","You hold the small flame the way it was meant to be held, steady, trimmed…","You hold the small flame the way it works best, steady, trimmed…"),
+("Wood · Solitude (k2.js:190)","Gardens are meant to be walked in.","A garden is for walking in."),
+("Water · Knowledge (k2.js:721)","Springs are meant to be found.","Let people find the spring."),
+("Faces teaser (facesContent.js:27)","You trust the slow ledger over the lucky break…","You trust the slow ledger over the quick win…"),
+("Elemental Draw answer (ElementalDrawScreen.jsx:41)","Metal cuts cleanly once you stop arguing with the verdict.","Metal cuts cleanly once you stop arguing with what you already know."),
+("Consultant sample reply (AIConsultantScreen.jsx:57)","Your {element} nature has likely already reached a verdict here.","Your {element} nature has likely already decided here.")]
+B=[sec("FW3","Fate words, batch 2","Eighteen lines (three rows cover two lines each) that say verdict, meant to be or lucky. Most use \"verdict\" for the reader's own judgement, so the change is one word. I have not confirmed every one of these fields is shown on a screen today. The four everyday \"luck\" lines in k2.js stay as they are. The seven \"luck\" lines in the seat readings come from the Domains session.",
+ opt([("A (recommended)","Adopt all."),("B","Adopt with changes: name the row and the wording."),("C","Hold.")])+ba(B2))]
 page=open('tpl.html').read().replace('{{BODY}}',''.join(B))
 open('rulings.html','w').write(page);print(len(page))
