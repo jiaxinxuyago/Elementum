@@ -26,6 +26,8 @@ import { resolveDomains, DEPTH_RULES_V2 } from '../src/components/reading/domain
 import { resolveDomainView, resolveBlueprint, resolveChapters, resolveStars } from '../src/components/reading/depthResolve.js';
 import { resolveAlmanac } from '../src/components/dashboard/almanac/almanacResolve.js';
 import { DOMAINS_CONTENT } from '../src/content/domains.js';
+import { buildMergedModel } from '../src/components/journey/journeyData.js';
+import { LADDER, STEM_LADDER, LADDER_NOTICE_BAND, ladderTry } from '../src/content/ladder.js';
 
 const argv = process.argv.slice(2);
 const arg = (k, d) => (argv.includes(k) ? argv[argv.indexOf(k) + 1] : d);
@@ -97,6 +99,30 @@ for (const [birth, hu] of charts) {
     for (const date of dates) walk('Almanac · day', resolveAlmanac(chart, { kind: 'day', date, hourUnknown: hu, birthDate: bd }));
     for (const date of dates.slice(0, 3)) walk('Almanac · month', resolveAlmanac(chart, { kind: 'month', date, hourUnknown: hu, birthDate: bd }));
     for (const date of dates.slice(0, 2)) walk('Almanac · year', resolveAlmanac(chart, { kind: 'year', date, hourUnknown: hu, birthDate: bd }));
+    // the Day Master surfaces (the revelation and the Day Master page on the ladder, the type): every row the
+    // screens read must exist for this chart. Fallback text is not marked as a draft in code, so a fallback passes here.
+    {
+      // the sweep builds the journey model without an identity, so the archetype name is set here as the app sets it
+      const g = buildMergedModel({ ...m, archetype: m.archetype || STEM_CARD_DATA[m.stem]?.identity?.archetypeName }, chart); const SL = STEM_LADDER[m.stem] || {}; const core = m.core.name;
+      for (const k of ['element_line', 'recognition', 'as_line', 'behaviour', 'contrast', 'self_nature']) line('Day Master · stem lines', `STEM ${m.stem} · ladder.${k}`, !!SL[k], 'empty');
+      line('Day Master · stem lines', `tpl_ladder · element_heading.${core}`, !!LADDER.element_heading[core], 'empty');
+      line('Day Master · how you run', `tpl_ladder · condition.${m.condition}`, ['heading', 'body', 'try'].every((k) => !!LADDER.condition[m.condition]?.[k]), 'empty');
+      for (const r of Object.values(g.rows)) {
+        const ov = (t, b) => SL.overrides?.[`${t}.${r.fn}.${b}`] ?? LADDER[t]?.[r.fn]?.[b];
+        line('Day Master · energy rows', `tpl_ladder · nature ${core}/${r.name}`, !!(r.isCore ? SL.self_nature : LADDER.nature_pair[core]?.[r.name]), 'empty');
+        line('Day Master · energy rows', `tpl_ladder · function_plain.${r.fn}`, !!LADDER.function_plain[r.fn] && !!LADDER.function_short[r.fn], 'empty');
+        line('Day Master · energy rows', `tpl_ladder · in_you.${r.fn}.${r.volume}`, !!ov('in_you', r.volume), 'empty');
+        line('Day Master · energy rows', `tpl_ladder · notice.${r.fn}.${LADDER_NOTICE_BAND[r.volume]}`, !!ov('notice', LADDER_NOTICE_BAND[r.volume]), 'empty');
+        const t = ladderTry(r.fn, r.pole, r.volume);
+        line('Day Master · energy rows', `tpl_ladder · try ${r.fn} ${r.pole} ${r.volume}`, !!t && !BAD.test(t), 'empty or unfilled', t);
+      }
+      const t = g.type;
+      line('Day Master · type', 'tpl_type · name + line', !!t?.name && !!t?.line && !BAD.test(t.name + t.line), 'empty or unfilled', `${t?.name} ${t?.line}`);
+      line('Day Master · type', `tpl_ladder · mode_plain.${t?.mode.fn}`, !!LADDER.mode_plain[t?.mode.fn], 'empty');
+      if (t?.need) line('Day Master · type', `tpl_ladder · need_phrase.${t.need.fn}`, !!(SL.overrides?.[`need_phrase.${t.need.fn}`] ?? LADDER.need_phrase[t.need.fn]), 'empty');
+      line('Day Master · type', 'tpl_type · circle.head', !!t?.circle.head && !BAD.test(t.circle.head), 'empty or unfilled', t?.circle.head);
+      walk('Day Master · merged model', { rows: g.rows, runLine: g.runLine, runHeadline: g.runHeadline, rx: g.rx, start: g.start, who: g.who, reading: g.reading });
+    }
     // the archetypes reached
     const p = chart.pillars; bump(reach.stem, p.day.stem); bump(reach.cell, p.day.stem + p.month.branch); bump(reach.strength, chart.dayMaster?.strength);
     bump(reach.structure, B.title.replace(/^An? /, '')); bump(reach.state, `${B.title.replace(/^An? | structure.*$/g, '')} · ${B.structure.statusLabel}`); bump(reach.condition, m.condition);
