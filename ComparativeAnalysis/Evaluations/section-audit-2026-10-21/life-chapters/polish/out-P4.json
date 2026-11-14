@@ -1,0 +1,454 @@
+{
+ "units": [
+  {
+   "key": "ENERGY action · chapter_manual.grow",
+   "kind": "manual",
+   "text": "This chapter rewards reaching. You are paid back for every offer you take up and put to use straight away."
+  },
+  {
+   "key": "ENERGY action · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter spreads you thin. You hold your ground when your own strength comes first and the chase comes second."
+  },
+  {
+   "key": "ENERGY action · favours.decade.Career.grow",
+   "kind": "favours",
+   "text": "Two things on the go|one slow project"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Career.release",
+   "kind": "favours",
+   "text": "One piece of work finished|two half started"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Family.grow",
+   "kind": "favours",
+   "text": "Doing up the house together|each doing their own"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Family.release",
+   "kind": "favours",
+   "text": "Turning up to help|paying someone to"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Growth.grow",
+   "kind": "favours",
+   "text": "A task a size too big|a book on the subject"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Growth.release",
+   "kind": "favours",
+   "text": "Getting better at what you have|adding something new"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Health.grow",
+   "kind": "favours",
+   "text": "A day on your feet|a morning in bed"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Health.release",
+   "kind": "favours",
+   "text": "A slow afternoon|a list that keeps growing"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Love.grow",
+   "kind": "favours",
+   "text": "New plans as a pair|the usual weekend"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Love.release",
+   "kind": "favours",
+   "text": "An evening with no plans|another shared project"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Mind.grow",
+   "kind": "favours",
+   "text": "A problem you can fix by hand|an idea on paper"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Mind.release",
+   "kind": "favours",
+   "text": "One decision at a time|ten open questions"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Social.grow",
+   "kind": "favours",
+   "text": "Friends who do business|friends who just chat"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Social.release",
+   "kind": "favours",
+   "text": "A walk with a friend|a networking event"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Wealth.grow",
+   "kind": "favours",
+   "text": "Money from two places|more from one"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Wealth.release",
+   "kind": "favours",
+   "text": "Clearing a debt|signing for a new one"
+  },
+  {
+   "key": "ENERGY body · chapter_manual.grow",
+   "kind": "manual",
+   "text": "This chapter tops up a strength your chart has always run short of. You get the most from it among equals, in teams and contests where you can measure yourself."
+  },
+  {
+   "key": "ENERGY body · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter fills you with more of your own strength than you can store. You do best when you spend it, on hard work and on people who need what you know."
+  },
+  {
+   "key": "ENERGY body · favours.decade.Career.grow",
+   "kind": "favours",
+   "text": "Work you own outright|work someone else signs off"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Career.release",
+   "kind": "favours",
+   "text": "The work itself|who gets the credit"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Family.grow",
+   "kind": "favours",
+   "text": "Saying what you need|fitting round others"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Family.release",
+   "kind": "favours",
+   "text": "Letting a point drop|winning every one"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Growth.grow",
+   "kind": "favours",
+   "text": "Doing it yourself|waiting for help"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Growth.release",
+   "kind": "favours",
+   "text": "Beating your own mark|beating someone else's"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Health.grow",
+   "kind": "favours",
+   "text": "Effort you can keep up|one big burst"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Health.release",
+   "kind": "favours",
+   "text": "Sweating it off|bottling it up"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Love.grow",
+   "kind": "favours",
+   "text": "Holding your own view|agreeing to please"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Love.release",
+   "kind": "favours",
+   "text": "Letting the other choose|always choosing first"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Mind.grow",
+   "kind": "favours",
+   "text": "Your own conclusions|what everyone else thinks"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Mind.release",
+   "kind": "favours",
+   "text": "Checking with someone you trust|going with your gut"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Social.grow",
+   "kind": "favours",
+   "text": "Friends who match your pace|friends who carry you"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Social.release",
+   "kind": "favours",
+   "text": "Cheering others on|keeping score"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Wealth.grow",
+   "kind": "favours",
+   "text": "Paying your own way|someone else picking up the bill"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Wealth.release",
+   "kind": "favours",
+   "text": "Separate savings|a kitty with friends"
+  },
+  {
+   "key": "ENERGY expression · chapter_manual.grow",
+   "kind": "manual",
+   "text": "This chapter opens an outlet your chart has long been short of. You gain most when you finish what you start and let other people see it."
+  },
+  {
+   "key": "ENERGY expression · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter loosens your tongue and your appetite more than your chart can use. You keep your standing when you wait before you answer and speak once."
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Career.grow",
+   "kind": "favours",
+   "text": "Showing your work|keeping it in a drawer"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Career.release",
+   "kind": "favours",
+   "text": "Saying it once|saying it twice"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Family.grow",
+   "kind": "favours",
+   "text": "Making a mess together|keeping it spotless"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Family.release",
+   "kind": "favours",
+   "text": "Hearing them out|having your say"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Growth.grow",
+   "kind": "favours",
+   "text": "A public showing|private practice"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Growth.release",
+   "kind": "favours",
+   "text": "Getting it right|getting it seen"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Health.grow",
+   "kind": "favours",
+   "text": "A dance class|a gym routine"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Health.release",
+   "kind": "favours",
+   "text": "Plain meals|rich food"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Love.grow",
+   "kind": "favours",
+   "text": "Saying how you feel|hoping it shows"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Love.release",
+   "kind": "favours",
+   "text": "A quiet evening in|a big night out"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Mind.grow",
+   "kind": "favours",
+   "text": "Making something|studying how it is made"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Mind.release",
+   "kind": "favours",
+   "text": "One notebook filled|five begun"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Social.grow",
+   "kind": "favours",
+   "text": "Hosting a dinner|waiting for an invite"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Social.release",
+   "kind": "favours",
+   "text": "Listening first|the last word"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Wealth.grow",
+   "kind": "favours",
+   "text": "Selling what you make|a fixed wage"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Wealth.release",
+   "kind": "favours",
+   "text": "Waiting a week before buying|buying on the spot"
+  },
+  {
+   "key": "ENERGY mind · chapter_manual.grow",
+   "kind": "manual",
+   "text": "This chapter feeds you with learning, help and rest. You draw the most from it through slow study and the people who back you."
+  },
+  {
+   "key": "ENERGY mind · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter wraps you in more thought and shelter than you can use. You are lighter on days when your hands are busy and one question gets settled."
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Career.grow",
+   "kind": "favours",
+   "text": "Being shown the ropes|a grander title"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Career.release",
+   "kind": "favours",
+   "text": "Making a start|waiting until you are ready"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Family.grow",
+   "kind": "favours",
+   "text": "A quiet evening at home|a full house"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Family.release",
+   "kind": "favours",
+   "text": "Cooking for someone|being cooked for"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Growth.grow",
+   "kind": "favours",
+   "text": "Lessons from someone who knows|guesswork on your own"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Growth.release",
+   "kind": "favours",
+   "text": "One skill used daily|three half-learned"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Health.grow",
+   "kind": "favours",
+   "text": "A day off when you need it|pushing on through"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Health.release",
+   "kind": "favours",
+   "text": "Getting outside|another day indoors"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Love.grow",
+   "kind": "favours",
+   "text": "Letting yourself be looked after|doing it all yourself"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Love.release",
+   "kind": "favours",
+   "text": "A shared task|a long talk about the two of you"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Mind.grow",
+   "kind": "favours",
+   "text": "A long book|a quick scroll"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Mind.release",
+   "kind": "favours",
+   "text": "A choice made today|another week of weighing"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Social.grow",
+   "kind": "favours",
+   "text": "A friend who listens|a crowd that cheers"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Social.release",
+   "kind": "favours",
+   "text": "Setting a date to meet|meaning to get in touch"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Wealth.grow",
+   "kind": "favours",
+   "text": "A course that pays off later|quick cash now"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Wealth.release",
+   "kind": "favours",
+   "text": "Moving the money|reading about where to move it"
+  },
+  {
+   "key": "ENERGY order · chapter_manual.grow",
+   "kind": "manual",
+   "text": "This chapter gives your strength the shape it has lacked. Clear roles and firm deadlines bring out your best, and you rise when someone holds you to a standard."
+  },
+  {
+   "key": "ENERGY order · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter bears down on you from outside. You carry it best with something of your own it cannot reach, a friend, a slower pace or a quiet place."
+  },
+  {
+   "key": "ENERGY order · favours.decade.Career.grow",
+   "kind": "favours",
+   "text": "Keeping a role|starting a new one"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Career.release",
+   "kind": "favours",
+   "text": "Work you set yourself|orders from above"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Family.grow",
+   "kind": "favours",
+   "text": "Your word at home|winning a point"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Family.release",
+   "kind": "favours",
+   "text": "Letting the dishes wait|a rota for everything"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Growth.grow",
+   "kind": "favours",
+   "text": "A title to earn|a path of your own"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Growth.release",
+   "kind": "favours",
+   "text": "Learning for the fun of it|being marked on it"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Health.grow",
+   "kind": "favours",
+   "text": "A set training plan|exercise when you like"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Health.release",
+   "kind": "favours",
+   "text": "A day with no alarm|a packed schedule"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Love.grow",
+   "kind": "favours",
+   "text": "A clear commitment|keeping it casual"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Love.release",
+   "kind": "favours",
+   "text": "Easy evenings|rules about who does what"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Mind.grow",
+   "kind": "favours",
+   "text": "A proper course|dabbling"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Mind.release",
+   "kind": "favours",
+   "text": "Thinking for yourself|thinking what is expected"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Social.grow",
+   "kind": "favours",
+   "text": "A club with a job to do|friends for laughs"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Social.release",
+   "kind": "favours",
+   "text": "Friends with no agenda|contacts from work"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Wealth.grow",
+   "kind": "favours",
+   "text": "Money on the same day each month|money when it comes"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Wealth.release",
+   "kind": "favours",
+   "text": "A budget you set|bills set for you"
+  }
+ ]
+}
