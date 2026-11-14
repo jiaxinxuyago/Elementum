@@ -12,7 +12,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "By your late forties, you had built a home with a partner that drew in the young people around you and gave your later years their centre."
+   "text": "By your late forties, you had built a home with a partner that drew in the young people around you and became the centre of your later years."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.bind.day_hour.coming",
@@ -26,7 +26,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You meet a partner through your work or your parents' circle, and the line between job and home stays thin for years."
+   "text": "Your job and your home draw on the same circle of people, a partner met through work or your parents' friends, and the line between them stays thin."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.bind.month_hour",
@@ -89,7 +89,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You move house or rework your days to keep both, as the people after you pull against the life you share with a partner."
+   "text": "The people after you pull against the life you share with a partner, but you keep both by moving house or reworking your days."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.clash.month_day",
@@ -110,7 +110,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "Through your late forties, you let go of the career your rising years built and turned toward work that fits your later life."
+   "text": "From your late forties, you have let go of the career your rising years built and turned toward work that fits your later life."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.clash.month_hour.coming",
@@ -152,7 +152,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "In your late teens, you will leave home early to follow a trade your family never chose for you."
+   "text": "In your late teens, you will leave home early to follow work your family never pictured for you."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.frame.day_hour",
@@ -222,7 +222,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You join your childhood home to the generation after you, making your own home the place where three generations meet."
+   "text": "You bring your first family and the people who follow you together, making your own home the place where three generations meet."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.frame.year_hour",
@@ -271,7 +271,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You carry one aim from your childhood through your working years into your own home, and it gathers force at every stage."
+   "text": "Your first family, your work and your own home all serve one aim, and it gathers force as you carry it from stage to stage."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.frame.year_month_day_hour",
@@ -292,14 +292,14 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You spend years smoothing over complaints nobody says out loud, from a quiet friction between a partner and the younger ones in your life."
+   "text": "You spend years smoothing over a quiet friction between a partner and the younger ones in your life, the complaints nobody says out loud."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.harm.month_day",
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You guard one part of every week from your work, because late evenings and calls on days off wear quietly at your home life."
+   "text": "Late evenings and calls on days off wear quietly at your home life, and you guard one part of every week from your work."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.harm.month_hour",
@@ -320,7 +320,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You notice a tone or a rule from your childhood rubbing at how you treat the children you raise or train, and smooth it over early."
+   "text": "You notice a tone or a rule from your childhood rubbing at how you treat the children you raise or train, and smooth it over before it grows."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.harm.year_month",
@@ -341,7 +341,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You break a loop at home by changing your own rule first, when the same argument keeps coming back between you and those who follow you."
+   "text": "The same argument returns at home between you and those who follow you, but you break the loop by changing your own rule first."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.punish.month_day",
@@ -397,7 +397,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You meet a habit that held you back at work again in your later life, and the second time it comes you see it early and turn it down."
+   "text": "You meet a habit that holds you back at work a second time in your later life, seeing it coming early and turning it down."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.selfpunish.month_hour.lived",
@@ -418,7 +418,7 @@
    "kind": "bond",
    "page": "bp-bonds",
    "family": "bond",
-   "text": "You hear the quarrel you grew up around repeat in your own home with a partner, and end it by changing your own part in it."
+   "text": "The quarrel you grew up around repeats in your own home with a partner, and you end it by changing your own part in it."
   },
   {
    "key": "TEMPLATED tpl_depth · bond.selfpunish.year_hour",

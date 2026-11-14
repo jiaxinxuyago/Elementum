@@ -26,7 +26,7 @@
    "kind": "ahead",
    "page": "seat:bijian_hour_branch.Family",
    "family": "seatbeat",
-   "text": "From your late forties the people after you grow into equals who stand side by side with you rather than behind you. You keep a smaller family than most people your age, and its independence makes you prouder than anything you own."
+   "text": "From your late forties the people after you grow into equals who stand side by side with you rather than behind you. You keep a smaller family than most, and its independence makes you prouder than anything you own."
   },
   {
    "key": "POSITION bijian_hour_branch · domain_climb.Growth.headline",
@@ -40,7 +40,7 @@
    "kind": "recognition",
    "page": "seat:bijian_hour_branch.Growth",
    "family": "recognition",
-   "text": "You grow in later life through two or three peers who expect as much of you as you expect of yourself. Because you learn only from someone who meets you on level ground, you let advice from anyone who talks down to you pass straight by. You notice within weeks whenever that small company drops away."
+   "text": "In later life you grow through two or three peers who expect as much of you as you expect of yourself. Because you learn only from someone who meets you on level ground, you let advice from anyone who talks down to you pass straight by. You notice within weeks whenever that small company drops away."
   },
   {
    "key": "POSITION bijian_hour_branch · domain_climb.Growth.lived",
@@ -54,7 +54,7 @@
    "kind": "ahead",
    "page": "seat:bijian_hour_branch.Growth",
    "family": "seatbeat",
-   "text": "From your late forties you find your peers among younger people as well as old friends, and they treat you as one of them rather than as an elder. Kept level by that company, you stay sharper than most people your age."
+   "text": "From your late forties you find your peers among younger people as well as old friends, and they treat you as one of them rather than as an elder. Kept level by that company, you stay sharp long past the point where others slow down."
   },
   {
    "key": "POSITION jiecai_hour_branch · domain_climb.Family.headline",
@@ -103,14 +103,14 @@
    "kind": "lived",
    "page": "seat:jiecai_hour_branch.Wealth",
    "family": "seatbeat",
-   "text": "Since your late forties your money has moved through your circle, split with friends in a bad year and shared with younger people starting out. You have had most of it back in loyalty rather than cash, and that is the return you value most."
+   "text": "Since your late forties your money has moved through your circle, split with friends in a bad year and shared with younger people starting out. You have had most of it back in loyalty rather than cash, and that has been the return you valued most."
   },
   {
    "key": "POSITION jiecai_hour_branch · domain_climb.Wealth.ahead",
    "kind": "ahead",
    "page": "seat:jiecai_hour_branch.Wealth",
    "family": "seatbeat",
-   "text": "From your late forties your money turns into common ground, pooled with friends and split among the people after you. You become the one who divides it fairly enough that nobody needs to keep score."
+   "text": "From your late forties your money turns into common ground, pooled with friends and split among the people after you. You divide it fairly enough that nobody needs to keep score."
   },
   {
    "key": "POSITION piancai_hour_branch · domain_climb.Family.headline",
@@ -124,21 +124,21 @@
    "kind": "recognition",
    "page": "seat:piancai_hour_branch.Family",
    "family": "recognition",
-   "text": "You love your family best when everyone gathers for a few full days, and you plan those days months early. Because distance has never felt like loss to you, long gaps between visits pass without worry. You travel far for a short visit, and the people close to you get many arrivals and few long stays."
+   "text": "You love it best when your whole family gathers for a few full days, and you plan those days months early. Because distance has never felt like loss to you, long gaps between visits pass without worry. You travel far for a short visit, and the people you miss get many arrivals and few long stays."
   },
   {
    "key": "POSITION piancai_hour_branch · domain_climb.Family.lived",
    "kind": "lived",
    "page": "seat:piancai_hour_branch.Family",
    "family": "seatbeat",
-   "text": "Your family has spread to new places since your late forties, the people after you settling far from you and from each other. You have travelled more for them than for any holiday, and their streets now feel nearly as familiar as your own."
+   "text": "Your family has spread to new places since your late forties, the people after you settling far from you and from each other. You have travelled more for them than for any holiday, and their streets have grown nearly as familiar to you as your own."
   },
   {
    "key": "POSITION piancai_hour_branch · domain_climb.Family.ahead",
    "kind": "ahead",
    "page": "seat:piancai_hour_branch.Family",
    "family": "seatbeat",
-   "text": "From your late forties the people after you open new places to you, a spare bed in a far city and a reason to stay a month. You become the link that brings them together, and those gatherings matter more to you than anything you could buy them."
+   "text": "From your late forties the people after you open new places to you, a spare bed in a far city and a reason to stay a month. Your visits become the link between them, and those gatherings matter more to you than anything you could buy them."
   },
   {
    "key": "POSITION piancai_hour_branch · domain_climb.Wealth.headline",
@@ -166,21 +166,21 @@
    "kind": "ahead",
    "page": "seat:piancai_hour_branch.Wealth",
    "family": "seatbeat",
-   "text": "From your late forties a windfall or a late deal reaches you through a door you never meant to open, and a move sets your money going again. You keep most of it in motion from then on, sleeping best while one part stays untouched."
+   "text": "From your late forties a windfall or an offer from far away reaches you, and a move sets your money going again. You keep most of it in motion from then on, sleeping best while one part stays untouched."
   },
   {
    "key": "POSITION pianyin_hour_branch · domain_climb.Family.headline",
    "kind": "headline",
    "page": "seat:pianyin_hour_branch.Family",
    "family": "headline",
-   "text": "Your later family is a few people who understand your silences."
+   "text": "Your family narrows to a few who understand your silences."
   },
   {
    "key": "POSITION pianyin_hour_branch · domain_climb.Family.recognition",
    "kind": "recognition",
    "page": "seat:pianyin_hour_branch.Family",
    "family": "recognition",
-   "text": "You keep family life quiet and close, with a small number of people who know when to leave you be. Because your private life matters more to you than a full house, you see your relatives less than they would like and love them no less. You sense trouble in one of them long before anyone mentions it, by an intuition they find odd."
+   "text": "You keep family life quiet and close, with a small number of people who know when to leave you be. Because your private life comes before a full house, you see your relatives less than they would like and love them no less. You sense trouble in one of them long before anyone mentions it, by an intuition they find odd."
   },
   {
    "key": "POSITION pianyin_hour_branch · domain_climb.Family.lived",
@@ -243,7 +243,7 @@
    "kind": "lived",
    "page": "seat:pianyin_hour_branch.Growth",
    "family": "seatbeat",
-   "text": "Since your late forties the commitments you took on from habit have gone, the groups and roles that once filled your weeks. You return every day to the private practices that remain, which have taught you more than anything new."
+   "text": "Since your late forties the commitments you took on from habit have gone, the groups and roles that once filled your weeks. You have returned every day to the private practices that remain, and they have given you more than anything new."
   },
   {
    "key": "POSITION pianyin_hour_branch · domain_climb.Growth.ahead",
@@ -271,7 +271,7 @@
    "kind": "lived",
    "page": "seat:qisha_hour_branch.Health",
    "family": "seatbeat",
-   "text": "Since your late forties your body has answered every hard test you set it, and your strength has come back each time you went back to training. You have pushed past the point of rest in tired weeks out of pride, and felt it for days afterwards."
+   "text": "Since your late forties your body has answered every hard test you set it, and your strength has returned with every new round of training. You have pushed past the point of rest in tired weeks out of pride, and felt it for days afterwards."
   },
   {
    "key": "POSITION qisha_hour_branch · domain_climb.Health.ahead",
@@ -306,7 +306,7 @@
    "kind": "ahead",
    "page": "seat:qisha_hour_branch.Family",
    "family": "seatbeat",
-   "text": "Past your late forties the people after you come to you first when things go wrong. You stand beside them through the hardest tests of their lives, and they come out braver for having you there."
+   "text": "Past your late forties the people after you turn to you first when things go wrong. You stand beside them through the hardest tests of their lives, and they come out braver for having you there."
   },
   {
    "key": "POSITION qisha_hour_branch · domain_climb.Growth.headline",
@@ -404,7 +404,7 @@
    "kind": "recognition",
    "page": "seat:shishen_hour_branch.Family",
    "family": "recognition",
-   "text": "You treat anyone who eats at your home every week as family, and a regular guest matters to you as much as a cousin. Because cooking for people is the pleasure you never tire of, you keep inviting them long after others have stopped hosting. You would feel lost in a home that no one visits, and yours stays busy because of it."
+   "text": "You treat anyone who eats at your home every week as family, and a regular guest matters to you as much as a cousin. Because cooking for people is the pleasure you never tire of, you keep inviting them in years when others have given up hosting. You would feel lost in a home that no one visits, and yours stays busy because of it."
   },
   {
    "key": "POSITION shishen_hour_branch · domain_climb.Family.lived",
@@ -418,7 +418,7 @@
    "kind": "ahead",
    "page": "seat:shishen_hour_branch.Family",
    "family": "seatbeat",
-   "text": "From your late forties the people after you come to your table for rest as much as for food, and they stay longer each year. You feed them without fuss, and the comfort of your kitchen becomes the thing they miss most when they are away."
+   "text": "Your table fills up from your late forties, and the people after you stay longer each year for rest as much as for food. You feed them without fuss, and the comfort of your kitchen becomes the thing they miss most when they are away."
   },
   {
    "key": "POSITION shishen_hour_branch · domain_climb.Health.headline",
@@ -432,7 +432,7 @@
    "kind": "recognition",
    "page": "seat:shishen_hour_branch.Health",
    "family": "recognition",
-   "text": "You keep your body well through good meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it stretches into a slow month before you notice. You do best on pleasure rather than effort, and a forced regime wears you out faster than an idle week."
+   "text": "You keep your body well through good meals, gentle movement and people nearby, and it answers in kind. Since rest comes easily to you, a good week of it stretches into a slow month before you notice. You do best on pleasure rather than effort, and a forced regime wears you out faster than an idle week."
   },
   {
    "key": "POSITION shishen_hour_branch · domain_climb.Health.lived",
@@ -467,14 +467,14 @@
    "kind": "lived",
    "page": "seat:zhengcai_hour_branch.Family",
    "family": "seatbeat",
-   "text": "Since your late forties you have kept a steady store for your family, quietly topped up and ready before anyone asks. You have taught the people after you to be careful with money mostly by example, and they spend more wisely for it."
+   "text": "Since your late forties you have kept a steady store for your family, quietly topped up and ready before anyone asks. You have shown the people after you how to be careful with money mostly by example, and they have spent more wisely for it."
   },
   {
    "key": "POSITION zhengcai_hour_branch · domain_climb.Family.ahead",
    "kind": "ahead",
    "page": "seat:zhengcai_hour_branch.Family",
    "family": "seatbeat",
-   "text": "From your late forties the people after you build their own lives on what you have saved and set aside for them. You become the steady one in your family, and they learn only later how much of their footing you paid for."
+   "text": "From your late forties the people after you build their own lives on what you have saved and set aside for them. You are the steady keeper behind them, and they learn only later how much of their footing you paid for."
   },
   {
    "key": "POSITION zhengcai_hour_branch · domain_climb.Health.headline",
@@ -495,14 +495,14 @@
    "kind": "lived",
    "page": "seat:zhengcai_hour_branch.Health",
    "family": "seatbeat",
-   "text": "Since your late forties your energy has held steady, because you kept your sleep and your habits in good order. You have more of it in reserve than people who spent theirs freely, and that reserve is what you worked for."
+   "text": "Since your late forties your energy has held steady, because you kept your sleep and your habits in good order. You have more of it in reserve than people who spent theirs freely, and that reserve has been worth every early night."
   },
   {
    "key": "POSITION zhengcai_hour_branch · domain_climb.Health.ahead",
    "kind": "ahead",
    "page": "seat:zhengcai_hour_branch.Health",
    "family": "seatbeat",
-   "text": "From your late forties your body repays the care you keep giving it, with steady energy and sleep that comes on time. You stay strong while others run down, and every ordinary habit turns out to have been worth its cost."
+   "text": "From your late forties your body repays the care you keep giving it, with steady energy and regular sleep. You outlast people who run themselves down, and every ordinary habit turns out to have been worth its cost."
   },
   {
    "key": "POSITION zhengcai_hour_branch · domain_climb.Wealth.headline",
@@ -544,7 +544,7 @@
    "kind": "recognition",
    "page": "seat:zhengguan_hour_branch.Family",
    "family": "recognition",
-   "text": "You serve your family by keeping its word, the promise honoured and the duty done on time. Because a role is how you know your place, you take the formal jobs in the family that others avoid. You hold that word more carefully than your own feelings, and the family has learned to build on it."
+   "text": "You serve your family by keeping its word, the promise honoured and the duty done on time. Because a role is how you know your place, you take the formal jobs in the family that others avoid. You hold that word more carefully than your own feelings, and the family builds on it."
   },
   {
    "key": "POSITION zhengguan_hour_branch · domain_climb.Family.lived",
@@ -558,7 +558,7 @@
    "kind": "ahead",
    "page": "seat:zhengguan_hour_branch.Family",
    "family": "seatbeat",
-   "text": "From your late forties the people after you take their sense of what is proper from you, and they hold one another to the rules you kept. You see your own standards in how they keep faith with each other, and that matters more to you than any title."
+   "text": "From your late forties the people after you take their sense of what is proper from you, and they hold one another to the rules you kept. You see your own standards in how they keep faith with each other, and that is worth more to you than any honour."
   },
   {
    "key": "POSITION zhengguan_hour_branch · domain_climb.Growth.headline",
@@ -579,14 +579,14 @@
    "kind": "lived",
    "page": "seat:zhengguan_hour_branch.Growth",
    "family": "seatbeat",
-   "text": "Since your late forties your growth has come through commitments you kept, a practice deepened or a standard raised year by year. Your standing has grown with it, and people now bring you the work that has to be done right."
+   "text": "Since your late forties your growth has come through commitments you kept, a practice deepened or a standard raised year by year. Your standing has grown with it, and people have started bringing you the work that has to be done right."
   },
   {
    "key": "POSITION zhengguan_hour_branch · domain_climb.Growth.ahead",
    "kind": "ahead",
    "page": "seat:zhengguan_hour_branch.Growth",
    "family": "seatbeat",
-   "text": "Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and order, and the people after you hold you up as the example of doing things properly."
+   "text": "Past your late forties you keep improving at what you know well, and each year adds polish more than novelty. You grow wiser through repetition and order, and the people after you hold you up as the example of doing things properly."
   },
   {
    "key": "POSITION zhengyin_hour_branch · domain_climb.Family.headline",
@@ -614,7 +614,7 @@
    "kind": "ahead",
    "page": "seat:zhengyin_hour_branch.Family",
    "family": "seatbeat",
-   "text": "From your late forties the people after you gather around you as a home base, the place they come back to for advice and support. You become the calm centre of a close family, taking their help as easily as they take yours."
+   "text": "The people after you gather around you from your late forties as a home base, the place they come back to for advice and support. You become the calm centre of a close family, taking their help as easily as they take yours."
   },
   {
    "key": "POSITION zhengyin_hour_branch · domain_climb.Health.headline",
