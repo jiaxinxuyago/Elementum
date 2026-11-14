@@ -16,6 +16,7 @@
 import { useState } from 'react';
 import './depth.css';
 import { EnergyChaptersPage } from './ChaptersViews.jsx';
+import { IS_DEV_TOOLS } from '../../devtools.js';
 
 const GATE_NAME = { year: 'Early', month: 'Rising', day: 'Home', hour: 'Late' };
 const GATE_AGES = { year: 'birth–15', month: '16–34', day: '35–47', hour: '48 on' };
@@ -200,19 +201,24 @@ export function ChaptersPage({ L, positions, hourUnknown, tier, onUpgrade, onOpe
 }
 
 // ── Stars ────────────────────────────────────────────────────────────
+// Owner STAR-L1 A (2026-11-14): elementum.life shows only the star units already
+// written, as Your Almanac does; the dev site keeps every draft line, tagged.
+const shown = (u) => !!u && (IS_DEV_TOOLS || !u.draft);
 function StarCard({ s, kind, seeker }) {
+  const readings = (s.readings || [s.reading]).filter(shown);
   return (
     <div className={`cardstock dp-starcard ${kind}`}>
       <span className={`dp-star ${kind === 'help' ? 'gift' : kind}`} style={{ alignSelf: 'flex-start' }}>{s.en}</span><span className="dp-zh">{s.zh}</span>
       <span className="dp-seatmeta">{s.where}</span>
-      <U u={s.line} className="dp-one" />
-      {seeker ? (s.readings || [s.reading]).map((r, i) => <U key={i} u={r} />) : <p className="dp-locked">Its full reading opens with Seeker.</p>}
+      {shown(s.line) && <U u={s.line} className="dp-one" />}
+      {seeker ? readings.map((r, i) => <U key={i} u={r} />) : <p className="dp-locked">Its full reading opens with Seeker.</p>}
     </div>
   );
 }
 export function StarsPage({ S, tier, onUpgrade, Use }) {
   const seeker = isSeeker(tier); const adv = tier === 'advisor';
-  const years = [...new Set(S.yearStars.map((s) => s.year))];
+  const yearStars = S.yearStars.filter((s) => adv ? shown(s.reading) : true);
+  const years = [...new Set(yearStars.map((s) => s.year))];
   return (
     <>
       <div className="cardstock dp-head"><span className="laylab"><Use id="ico-spark" className="dp-labic" />YOUR STARS</span><span className="serifline el-teasetitle dp-title">{S.claim.text}</span>
@@ -227,7 +233,7 @@ export function StarsPage({ S, tier, onUpgrade, Use }) {
         <div className="cardstock dp-seats">
           {years.map((y) => (
             <div key={y} className="dp-seat"><span className="dp-seatname">{y}</span>
-              {S.yearStars.filter((s) => s.year === y).map((s) => <div key={s.id}><span className="dp-seatmeta">{s.en} · {s.zh}</span><U u={s.reading} /></div>)}</div>
+              {yearStars.filter((s) => s.year === y).map((s) => <div key={s.id}><span className="dp-seatmeta">{s.en} · {s.zh}</span><U u={s.reading} /></div>)}</div>
           ))}
         </div>
       ) : <div className="cardstock dp-seats"><Lock tier="Advisor" what={`The stars your years bring, from ${years[0]} to ${years[years.length - 1]}, open with Advisor.`} onUpgrade={onUpgrade} /></div>)}
