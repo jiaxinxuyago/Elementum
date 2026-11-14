@@ -466,7 +466,7 @@ button.ty-cc{ cursor:pointer; }
 .jny .mg-fr.ladder.t-who .ld-coresign::before{ content:''; position:absolute; left:50%; top:78px; width:260px; height:260px; transform:translate(-50%,-50%); border-radius:50%; background:radial-gradient(closest-side,rgba(245,238,222,.95) 0%,rgba(245,238,222,.7) 55%,rgba(245,238,222,0) 100%); z-index:-1; }
 .jny .mg-fr.ladder.t-who .ld-coresign .v5-dot{ filter:drop-shadow(0 10px 24px rgba(43,39,34,.2)); }
 .jny .mg-fr.ladder.t-who .ld-coresign .mg-sk{ letter-spacing:2.4px; }
-.jny .mg-fr.ladder.t-who .mg-card{ padding-top:min(40vh, 338px); }
+.jny .mg-fr.ladder.t-who .mg-card{ padding-top:min(38vh, 320px); }
 @media (max-height: 720px){
   .jny .mg-fr.ladder.t-who .ld-coresign{ transform:scale(.7); top:calc(var(--st, 48px) + 52px); }
   .jny .mg-fr.ladder.t-who .mg-card{ padding-top:236px; gap:6px; }
