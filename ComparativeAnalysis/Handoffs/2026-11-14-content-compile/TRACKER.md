@@ -11,8 +11,8 @@
 | Domains | session_0157BD3MBKbov3jAMoKYj2nT | Rulings round live; P0 rewrite of `positions.js` (22 sentences) done; DOM-P1 A done: 48 lived beats and 6 Blueprint bond lines open on the chapter, not the age | 2026-11-14 (second note) | f1fe36b, aa0e475, cc52796, 5bda279 | live, no flag | 0%; R16 breaks on 0.4% of pages (Domains' figure) | Owner: DOM-P2 (51 "ahead" beats and 7 empty-seat lines) |
 | Blueprint | Domains | Rules R1, R2 live | 2026-11-14 | 4f9bcc8 | `BLUEPRINT_RULES_LIVE = true` | 0% | none reported |
 | Life Chapters | session_01LKbtNcH4nTofFBwRv1HdHf | No note yet | | | | 0.9% (Domains' run, 2026-11-14) | |
-| Stars | session_01MspmFFbcsCTE5ZhyTBhyBN | No note yet; its batch is said to wait on the owner | | | | 61% (Domains' run) | Owner's rulings (per Domains) |
-| Your Almanac | session_01CtFpHCUsMdTUYosYF5mHoy | No note yet | | | | 0% (Domains' run) | |
+| Stars | session_01MspmFFbcsCTE5ZhyTBhyBN | Waiting on the owner. Live with 18 wording fixes today. Do not fix star names or wording into the design until STAR-N0 is ruled | 2026-11-14 (status note) | 2d5b4a7 | live | 61% | Owner: STAR-N0, G0, C0, N13, P3 first, then L1, N, H, S, S5 (sheet https://claude.ai/artifact/CESpgUis2cPsoKAZinQL4J; unanswered rows take A on 2026-11-21, except those rule 4 holds) |
+| Your Almanac | session_01CtFpHCUsMdTUYosYF5mHoy | Done: 329 units rewritten over two rounds, 27 retired, 19 new yin-month keys; P0 lines fixed; engine `EXACT_TERMS = true`, `ENGINE_VERSION = 4` | 2026-11-14 (`ComparativeAnalysis/Handoffs/2026-10-19-event-signature/07_DONE_NOTE.md`) | see its note | `ALMANAC_LIVE = true`; reminders off (`ALMANAC_PUSH`) | 0% (its run, 1,203 charts × 6 dates) | Owner: ALM-P4, ALM-YR2, ALM-AR1 (placement with the design director) |
 | Day Master surfaces | this session | The Elementum Type, the Day Master page and the revelation on the ladder are live. BR1, BC1, FW1, EF1 applied | 2026-11-14 | e48a66df, 627963b4, and the BR1 commit | `TYPE_LIVE = true`, `RS_LIVE = true` | not measured: the merged-journey and band-paragraph drafts are not flagged `draft: true` in code yet | Owner: fate words batch 2 (to be shown) |
 
 ## Notes
