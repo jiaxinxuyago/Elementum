@@ -127,7 +127,7 @@ export function resolveStars(chart, opts = {}) {
       const onEmpty = s.id !== 'kongwang' && s.parts[i] === 'branch' && empty.includes(chart.pillars[g].branch);
       return { gate: g, tense: t, label: s.gates.length > 1 ? gateWhere(g, age, birthYear) : null,
         ...unit(`STAR ${s.id} · reading.${g}.${t}`, `${bare(s.en).replace(/^./, (x) => x.toUpperCase())} visits your ${GATES[g]}, in your ${CHAPTER[g]}. ${STAR_GLOSS[s.id]}`),
-        emptyNote: onEmpty ? { ...unit(`TEMPLATED tpl_depth · star_void.${s.kind === 'help' ? 'help' : 'test'}`, 'This guest sits on your Empty Seat, and you meet it late and light.') } : null };
+        emptyNote: onEmpty ? { ...unit(`TEMPLATED tpl_stars · star_void.${s.kind === 'help' ? 'help' : 'test'}`, 'This guest sits on your Empty Seat, and you meet it late and light.') } : null };
     }),
   });
   const cards = [...byId.values()].map(card);

@@ -21,9 +21,9 @@ import { fileURLToPath } from 'node:url';
 
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const HO = path.resolve(APP, '../ComparativeAnalysis/Prompts/out/handoff');
-const SETS = [
-  { src: '2026-10-19-stars/samples.json', out: 'depthStars.js', name: 'STAR_UNITS', what: 'Stars round 9 (33 samples, unruled: N0, G0, N13)' },
-];
+// Stars moved to the station on 2026-11-14 (tools/build-stars-content.mjs, TEMPLATED/tpl_stars.json);
+// its round-9 samples are kept in the station's __ore. No section is served from samples any more.
+const SETS = [];
 let stale = 0;
 for (const s of SETS) {
   const { units } = JSON.parse(fs.readFileSync(path.join(HO, s.src), 'utf8'));

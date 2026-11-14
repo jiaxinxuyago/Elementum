@@ -1,0 +1,23 @@
+{
+ "_note": "Owner-approved calibration (P3 A, round 9 v5, 2026-11-14): the three examples shown on the sheet.",
+ "units": [
+  {
+   "page": "jiesha",
+   "key": "STAR jiesha · reading.month.now",
+   "kind": "star_reading",
+   "text": "Your Rising Chapter carries a quick, seizing nerve, and you move on a chance while others are still deciding. The same speed leaves your own work unguarded, and credit slips to whoever names it first. You get the most from this guest when you put your name on your work the day you make it."
+  },
+  {
+   "page": "lu",
+   "key": "STAR lu · reading.hour.coming",
+   "kind": "star_reading",
+   "text": "From your late forties your living grows from your own skill more than from any employer. The work you know best keeps paying you, and the years you spent learning it start to show. You are at your strongest in these years when you work the craft you already have."
+  },
+  {
+   "page": "kongwang",
+   "key": "STAR kongwang · reading.month.now",
+   "kind": "star_reading",
+   "text": "In your Rising Chapter an empty seat sits beside your work, and what you push for here lands late or lands light. Effort spent on waiting goes nowhere in these years. You get the most from this chapter when you build on what is already in your hands."
+  }
+ ]
+}

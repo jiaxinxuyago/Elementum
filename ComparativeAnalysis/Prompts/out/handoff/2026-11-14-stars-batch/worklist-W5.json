@@ -1,0 +1,234 @@
+{
+ "units": [
+  {
+   "key": "STAR guchen · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · arriving.year",
+   "kind": "star_arriving",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · line",
+   "kind": "star_line",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · line.arriving",
+   "kind": "star_line",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.day.coming",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.day.lived",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.day.now",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.hour.now",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.month.coming",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.month.lived",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guchen · reading.month.now",
+   "kind": "star_reading",
+   "page": "guchen"
+  },
+  {
+   "key": "STAR guasu · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · arriving.year",
+   "kind": "star_arriving",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · line",
+   "kind": "star_line",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · line.arriving",
+   "kind": "star_line",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.day.coming",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.day.lived",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.day.now",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.hour.now",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.month.coming",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.month.lived",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR guasu · reading.month.now",
+   "kind": "star_reading",
+   "page": "guasu"
+  },
+  {
+   "key": "STAR kuigang · line",
+   "kind": "star_line",
+   "page": "kuigang"
+  },
+  {
+   "key": "STAR kuigang · reading.day.coming",
+   "kind": "star_reading",
+   "page": "kuigang"
+  },
+  {
+   "key": "STAR kuigang · reading.day.lived",
+   "kind": "star_reading",
+   "page": "kuigang"
+  },
+  {
+   "key": "STAR kuigang · reading.day.now",
+   "kind": "star_reading",
+   "page": "kuigang"
+  },
+  {
+   "key": "STAR kongwang · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · arriving.year",
+   "kind": "star_arriving",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · line",
+   "kind": "star_line",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · line.arriving",
+   "kind": "star_line",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · reading.hour.now",
+   "kind": "star_reading",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · reading.month.coming",
+   "kind": "star_reading",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · reading.month.lived",
+   "kind": "star_reading",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · reading.year.lived",
+   "kind": "star_reading",
+   "page": "kongwang"
+  },
+  {
+   "key": "STAR kongwang · reading.year.now",
+   "kind": "star_reading",
+   "page": "kongwang"
+  },
+  {
+   "key": "TEMPLATED tpl_stars · star_void.help",
+   "kind": "star_void",
+   "page": "void"
+  },
+  {
+   "key": "TEMPLATED tpl_stars · star_void.test",
+   "kind": "star_void",
+   "page": "void"
+  }
+ ]
+}
