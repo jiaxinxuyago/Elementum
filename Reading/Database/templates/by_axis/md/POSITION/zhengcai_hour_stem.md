@@ -36,11 +36,11 @@
 | `health_line` | Late vitality tracks maintenance: steady walks, kept appointments, moderation without misery. Your body prefers upkeep to repair, and it rewards the ledger-keeper’s patience. |
 | `domain_climb.Wealth.headline` | Your money gets steadier every decade. |
 | `domain_climb.Wealth.recognition` | You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it. |
-| `domain_climb.Wealth.lived` | Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention. |
+| `domain_climb.Wealth.lived` | In your Late Chapter your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention. |
 | `domain_climb.Wealth.ahead` | The slow years of saving start paying you back in your late forties, and money stops being something you check every week. You spend on the people you love without a second look at the budget, because the budget has held for decades. |
 | `domain_climb.Family.headline` | You end up as the one who provides. |
 | `domain_climb.Family.recognition` | You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you would rather pay for something than talk about it. You want everyone who comes after you to be safe, and you plan for it years early. |
-| `domain_climb.Family.lived` | You have covered the gaps in your family since your late forties, paying the fees and the deposits before anyone had to ask. You have earned the family's trust one settled bill at a time. |
+| `domain_climb.Family.lived` | You have covered the gaps in your family in your Late Chapter, paying the fees and the deposits before anyone had to ask. You have earned the family's trust one settled bill at a time. |
 | `domain_climb.Family.ahead` | From your late forties your family leans on what you have saved, and you give it calmly. You become the relative everyone trusts with arrangements, saying in words at last some of what your money already says. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -55,3 +55,5 @@
 | `retired_2026-11-14_rulings_round.domain_climb.Family.recognition` | You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early. |
 | `retired_2026-11-14_rulings_round.domain_climb.Family.lived` | You have become your family's provider since your late forties, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard. |
 | `retired_2026-11-14_rulings_round.domain_climb.Family.ahead` | From your late forties your family leans on what you have built, and you give it calmly. You become the relative everyone trusts with arrangements, and you will find yourself saying out loud some of what your money already says. |
+| `retired_2026-11-14_dom_p1.domain_climb.Wealth.lived` | Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention. |
+| `retired_2026-11-14_dom_p1.domain_climb.Family.lived` | You have covered the gaps in your family since your late forties, paying the fees and the deposits before anyone had to ask. You have earned the family's trust one settled bill at a time. |

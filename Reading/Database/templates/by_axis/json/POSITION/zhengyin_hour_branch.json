@@ -38,19 +38,19 @@
       "Family": {
         "headline": "Your family looks after you, and you let it.",
         "recognition": "Younger people look after you more than you expected, with visits and help and small kindnesses. Because being cared for is what lets you rest, you settle into their care and stop running everything yourself. What you want from your family now is company as much as help.",
-        "lived": "Since your late forties small acts of care have come to you unasked, a lift or a call or a visit from the people after you. You have let them in, and the family has grown closer around you than it was in your busiest years.",
+        "lived": "In your Late Chapter small acts of care have come to you unasked, a lift or a call or a visit from the people after you. You have let them in, and the family has grown closer around you than it was in your busiest years.",
         "ahead": "The people after you gather around you from your late forties as a home base, the place they come back to for advice and support. You become the calm centre of a close family, taking their help as easily as they take yours."
       },
       "Health": {
         "headline": "Your health in later life rests on gentle rhythm.",
         "recognition": "You stay well on walks, early nights and people who check on you, and you sleep badly in a week without them. Because being looked after restores you, you let others carry your pace for longer than it helps, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
-        "lived": "Since your late forties your sleep has come more easily, and the care of people close to you has set a gentler pace for your days. Leaning on that support through tired weeks, you have come back from each one sooner than you once did.",
+        "lived": "In your Late Chapter your sleep has come more easily, and the care of people close to you has set a gentler pace for your days. Leaning on that support through tired weeks, you have come back from each one sooner than you once did.",
         "ahead": "From your late forties your body does well on gentle habits and the company of people who look after you. You hold your strength by learning something new each season, and a class or a guided walk does more for you than a hard workout."
       },
       "Mind": {
         "headline": "Your mind stays clear through daily habit.",
         "recognition": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your mind learns best in calm, you avoid arguments and noise, and a year with nothing new to study leaves you restless. You think best with one good question in front of you and a patient hour to answer it.",
-        "lived": "Since your late forties daily reading and talks with people you trust have kept your thinking calm. Guided by a few good teachers, you have grown steadier in your thinking each year.",
+        "lived": "In your Late Chapter daily reading and talks with people you trust have kept your thinking calm. Guided by a few good teachers, you have grown steadier in your thinking each year.",
         "ahead": "From your late forties reading fills more of your days, and you remember more of it than you did in your busiest years. You take up study for its own sake, a course or a long book read slowly, with your judgement growing calmer and surer alongside it."
       }
     },
@@ -77,6 +77,11 @@
         "domain_climb.Mind.recognition": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and a year with nothing to puzzle over leaves you restless. You think best with one good question in front of you.",
         "domain_climb.Mind.lived": "Daily reading and talks with people you trust have kept your thinking calm and steady since your late forties. You have become the one others ask for a clear view, and you have enjoyed being asked.",
         "domain_climb.Mind.ahead": "Reading fills more of your days from your late forties, and you remember more of it than you did in your busiest years. Younger people come to rely on your judgement in these years, and you give it carefully."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Family.lived": "Since your late forties small acts of care have come to you unasked, a lift or a call or a visit from the people after you. You have let them in, and the family has grown closer around you than it was in your busiest years.",
+        "domain_climb.Health.lived": "Since your late forties your sleep has come more easily, and the care of people close to you has set a gentler pace for your days. Leaning on that support through tired weeks, you have come back from each one sooner than you once did.",
+        "domain_climb.Mind.lived": "Since your late forties daily reading and talks with people you trust have kept your thinking calm. Guided by a few good teachers, you have grown steadier in your thinking each year."
       }
     }
   },
@@ -197,6 +202,24 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

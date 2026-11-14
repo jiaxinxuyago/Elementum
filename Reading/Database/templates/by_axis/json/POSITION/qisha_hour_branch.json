@@ -38,19 +38,19 @@
       "Health": {
         "headline": "Your body stays strong by being tested.",
         "recognition": "You treat your body as something to test, with an early start and a tough workout most days. Because strength is part of how you see yourself, you ignore tiredness until it slows you down. Your energy is at its best when the week asks something hard of you.",
-        "lived": "Since your late forties your body has answered every hard test you set it, and your strength has returned with every new round of training. You have pushed past the point of rest in tired weeks out of pride, and felt it for days afterwards.",
+        "lived": "In your Late Chapter your body has answered every hard test you set it, and your strength has returned with every new round of training. You have pushed past the point of rest in tired weeks out of pride, and felt it for days afterwards.",
         "ahead": "From your late forties you keep finding new tests for your body, a longer distance or a harder season of training, and it rises to each one. You stay fitter than most people your age, and the weeks without a challenge are the ones that slow you."
       },
       "Family": {
         "headline": "Your family feels your protection first.",
         "recognition": "You stand between your family and trouble, and you meet a threat before anyone else has seen it coming. Because a crisis brings out your best nerve, you are calmest in their worst weeks and restless in their easy ones. You hold the line for them in a storm without being asked, and they know it.",
-        "lived": "The people after you have leaned on your strength in hard moments since your late forties. You took on the worst of each crisis yourself and kept your own worries out of their sight.",
+        "lived": "The people after you have leaned on your strength in hard moments in your Late Chapter. You took on the worst of each crisis yourself and kept your own worries out of their sight.",
         "ahead": "Past your late forties the people after you turn to you first when things go wrong. You stand beside them through the hardest tests of their lives, and they come out braver for having you there."
       },
       "Growth": {
         "headline": "Hard tasks you set yourself keep you growing.",
         "recognition": "You grow the way you always have, by taking on something difficult and holding yourself to it. Because an easy stretch makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. You find unplanned days harder than hard work, and the quiet is what tests you most.",
-        "lived": "Since your late forties you have taken on new disciplines one after another, a skill or a sport or a hard new trade, and stuck with each longer than people expected. You have come out of each one steadier, with a nerve that holds where it once shook.",
+        "lived": "In your Late Chapter you have taken on new disciplines one after another, a skill or a sport or a hard new trade, and stuck with each longer than people expected. You have come out of each one steadier, with a nerve that holds where it once shook.",
         "ahead": "From your late forties you grow through challenges you choose yourself, and each one asks more of you than the last. Counting rest as part of the work at last, you keep your strength longer than most people do."
       }
     },
@@ -82,6 +82,11 @@
       },
       "retired_2026-11-14_p0_wording": {
         "teaser": "The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Health.lived": "Since your late forties your body has answered every hard test you set it, and your strength has returned with every new round of training. You have pushed past the point of rest in tired weeks out of pride, and felt it for days afterwards.",
+        "domain_climb.Family.lived": "The people after you have leaned on your strength in hard moments since your late forties. You took on the worst of each crisis yourself and kept your own worries out of their sight.",
+        "domain_climb.Growth.lived": "Since your late forties you have taken on new disciplines one after another, a skill or a sport or a hard new trade, and stuck with each longer than people expected. You have come out of each one steadier, with a nerve that holds where it once shook."
       }
     }
   },
@@ -220,6 +225,24 @@
       "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
       "date": "2026-11-14",
       "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

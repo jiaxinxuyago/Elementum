@@ -38,19 +38,19 @@
       "Mind": {
         "headline": "You see further than you can explain.",
         "recognition": "You see the shape of a problem before anyone has finished describing it to you. Because your judgement rests on patterns gathered from odd corners, you can name the answer long before you can show the working, and people find that hard to follow. You rarely explain how you got there, and some people stop asking.",
-        "lived": "Your intuitions have hardened into a private method since your late forties, quick, accurate and hard to pass on. You have been right about what everyone else missed so many times that people now bring you the puzzles they cannot crack.",
+        "lived": "Your intuitions have hardened into a private method in your Late Chapter, quick, accurate and hard to pass on. You have been right about what everyone else missed so many times that people now bring you the puzzles they cannot crack.",
         "ahead": "From your late forties your mind keeps sharpening, and you return to the obscure subjects you once put aside. You do some of your best thinking in these years, and it reaches further once someone younger helps you put it into words."
       },
       "Growth": {
         "headline": "You become more yourself the further you go from the crowd.",
         "recognition": "With each decade you become more of the odd one, and you stop apologising for it. Because the unusual is where you feel most yourself, you drop the roles and habits that were only for show. You buy the out-of-print book and write to the one person still working on the question.",
-        "lived": "A subject most people your age would never touch has become yours since your late forties, and the interests you kept for appearances have fallen away. You have grown harder to place and more at ease with it, the strange one by choice now.",
+        "lived": "A subject most people your age would never touch has become yours in your Late Chapter, and the interests you kept for appearances have fallen away. You have grown harder to place and more at ease with it, the strange one by choice now.",
         "ahead": "You grow from your late forties by mastering one rare thing completely. You go further into it than anyone around you, keeping your method in your head long after others ask you to write it down."
       },
       "Career": {
         "headline": "Your work begins where the usual answers run out.",
         "recognition": "You are at your best as the specialist, called in for the problem with no known method. Because people value what you alone can see, your name opens doors without a post attached, and you prefer it that way. You turn down steady jobs and say yes to strange problems.",
-        "lived": "Since your late forties more of your work has come by word of mouth, from people who heard you could solve what others could not. You have built a niche out of the problems nobody else would touch, and it has kept you in demand on your own terms.",
+        "lived": "In your Late Chapter more of your work has come by word of mouth, from people who heard you could solve what others could not. You have built a niche out of the problems nobody else would touch, and it has kept you in demand on your own terms.",
         "ahead": "The people after you seek out what you know from your late forties, bringing you the puzzles their own training could not solve. You become the one they consult in private, watching your methods carried into work you will never do yourself."
       }
     },
@@ -84,6 +84,11 @@
         "domain_climb.Career.recognition": "In later life you move toward advisory work, the expert called in when the usual answers run out. Because people value what you alone can see, your name opens doors without a title attached, and you prefer it that way. You turn down steady roles and say yes to hard problems.",
         "domain_climb.Career.lived": "More of your work has come by word of mouth since your late forties, from people who heard you could solve what others could not. You have taken on at least one younger person who learned your methods closely, and you have seen them do well.",
         "domain_climb.Career.ahead": "The people after you seek out what you know from your late forties, and they bring you the questions their own teachers could not answer. You become the one they consult, and you see your methods carried into work you will never do yourself."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Mind.lived": "Your intuitions have hardened into a private method since your late forties, quick, accurate and hard to pass on. You have been right about what everyone else missed so many times that people now bring you the puzzles they cannot crack.",
+        "domain_climb.Growth.lived": "A subject most people your age would never touch has become yours since your late forties, and the interests you kept for appearances have fallen away. You have grown harder to place and more at ease with it, the strange one by choice now.",
+        "domain_climb.Career.lived": "Since your late forties more of your work has come by word of mouth, from people who heard you could solve what others could not. You have built a niche out of the problems nobody else would touch, and it has kept you in demand on your own terms."
       }
     }
   },
@@ -229,6 +234,24 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

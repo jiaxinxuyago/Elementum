@@ -36,13 +36,13 @@
       "Family": {
         "headline": "Your later family is the people at your table.",
         "recognition": "You treat anyone who eats at your home every week as family, and a regular guest matters to you as much as a cousin. Because cooking for people is the pleasure you never tire of, you keep inviting them in years when others have given up hosting. You would feel lost in a home that no one visits, and yours stays busy because of it.",
-        "lived": "Your home has filled with the people after you since your late forties, and with friends who come for the food. You have hosted more in this stretch than in any earlier decade, and lately the people you once fed have started cooking for you.",
+        "lived": "Your home has filled with the people after you in your Late Chapter, and with friends who come for the food. You have hosted more in this stretch than in any earlier decade, and lately the people you once fed have started cooking for you.",
         "ahead": "Your table fills up from your late forties, and the people after you stay longer each year for rest as much as for food. You feed them without fuss, and the comfort of your kitchen becomes the thing they miss most when they are away."
       },
       "Health": {
         "headline": "Your body grows easier to live in each decade.",
         "recognition": "You keep your body well through good meals, gentle movement and people nearby, and it answers in kind. Since rest comes easily to you, a good week of it stretches into a slow month before you notice. You do best on pleasure rather than effort, and a forced regime wears you out faster than an idle week.",
-        "lived": "Your sleep has deepened since your late forties and your appetite has steadied, and you have enjoyed your food more than ever. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again.",
+        "lived": "Your sleep has deepened in your Late Chapter and your appetite has steadied, and you have enjoyed your food more than ever. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again.",
         "ahead": "From your late forties your body settles into an easy rhythm, with long meals, unhurried walks and sleep that comes without effort. You stay strong while there are people to eat with, and those years suit you better than your busier ones did."
       }
     },
@@ -66,6 +66,10 @@
       },
       "retired_2026-11-14_p0_wording": {
         "teaser": "Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Family.lived": "Your home has filled with the people after you since your late forties, and with friends who come for the food. You have hosted more in this stretch than in any earlier decade, and lately the people you once fed have started cooking for you.",
+        "domain_climb.Health.lived": "Your sleep has deepened since your late forties and your appetite has steadied, and you have enjoyed your food more than ever. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again."
       }
     }
   },
@@ -154,6 +158,18 @@
       "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
       "date": "2026-11-14",
       "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

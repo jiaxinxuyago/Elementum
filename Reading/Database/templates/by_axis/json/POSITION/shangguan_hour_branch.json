@@ -36,13 +36,13 @@
       "Family": {
         "headline": "Your family stays sharp with talk and argument.",
         "recognition": "You love your family through talk, about ideas and plans and whatever they are getting wrong. Because saying the true thing is how you stay close, you are sharper with the people you love than with anyone else, and the gentler ones keep their distance. You want a family with plenty to say, and a quiet week with them is the one you like least.",
-        "lived": "Since your late forties the talk in your family has got sharper and funnier, and the people after you have learned to answer you back. You have been proudest when one of them beat you in an argument, though you have rarely said so.",
+        "lived": "In your Late Chapter the talk in your family has got sharper and funnier, and the people after you have learned to answer you back. You have been proudest when one of them beat you in an argument, though you have rarely said so.",
         "ahead": "From your late forties the people after you seek you out for talk they cannot get anywhere else. You become the one in your family who says what others will not, with more warmth than you once had."
       },
       "Mind": {
         "headline": "Your mind stays quick and restless with every decade.",
         "recognition": "You keep your mind busy with projects and opinions, and an empty week wears you down faster than a hard one. Since an idea feels finished to you only once it has been argued, you go looking for a debate when none comes to you. Your thinking stays quick while it has something to take apart, and it dulls within days when it has none.",
-        "lived": "Since your late forties your mind has kept finding new work, a project or a cause picked up whenever an old one ran out. You have argued more with every year, and the arguing has kept your mind younger than your age.",
+        "lived": "In your Late Chapter your mind has kept finding new work, a project or a cause picked up whenever an old one ran out. You have argued more with every year, and the arguing has kept your mind younger than your age.",
         "ahead": "From your late forties your thinking turns bolder, and you question ideas you once took on trust. You lose sleep over an idea that grips you until you have said it out loud."
       }
     },
@@ -66,6 +66,10 @@
         "domain_climb.Mind.recognition": "You keep your mind busy with projects and opinions, and an empty week wears you down faster than a hard one. Since an idea feels finished to you only once it has been argued, you go looking for a debate when none comes to you. Your thinking stays quick while it has work, and you feel the loss within days when it has none.",
         "domain_climb.Mind.lived": "Your mind has kept finding new work since your late forties, a subject or a project picked up whenever an old one ran out. You have started more debates in this stretch than in any earlier decade, and you have enjoyed nearly all of them.",
         "domain_climb.Mind.ahead": "Your thinking gets bolder past your late forties, and you say plainly what you held back in earlier years. An idea that grips you keeps you up at night, and you sleep well again once you have said it out loud."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Family.lived": "Since your late forties the talk in your family has got sharper and funnier, and the people after you have learned to answer you back. You have been proudest when one of them beat you in an argument, though you have rarely said so.",
+        "domain_climb.Mind.lived": "Since your late forties your mind has kept finding new work, a project or a cause picked up whenever an old one ran out. You have argued more with every year, and the arguing has kept your mind younger than your age."
       }
     }
   },
@@ -160,6 +164,18 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

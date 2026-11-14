@@ -36,13 +36,13 @@
       "Career": {
         "headline": "Your work says what others will not.",
         "recognition": "You do your best work where you can say what you think, and a job that asks for quiet manners tires you. Because your skill has grown faster than your patience for rules, you are better at the job than many who manage it. You judge yourself by the work alone, never by the rank of whoever praised it.",
-        "lived": "Your work has grown bolder since your late forties, and you have said in public what you once kept back. You have outlasted the jobs that wanted a quieter voice, doing better work in each one that replaced them.",
+        "lived": "Your work has grown bolder in your Late Chapter, and you have said in public what you once kept back. You have outlasted the jobs that wanted a quieter voice, doing better work in each one that replaced them.",
         "ahead": "From your late forties your influence grows as rank starts to matter less, and people begin to repeat what you say. You hear your own voice in the way the people after you argue with you, sharp lines and all."
       },
       "Growth": {
         "headline": "You grow by breaking the rule you were given.",
         "recognition": "You grow where someone has said a thing cannot be done, a rule to question or a method to beat. Because being told how bores you before it tires you, you leave a settled position sooner than others think wise. You speak more plainly after every break, whatever it costs you.",
-        "lived": "Since your late forties you have said out loud what others kept quiet about, and changed your way of working because of it. You grew more from each break than in the calmer years before, though each one looked risky to everyone watching.",
+        "lived": "In your Late Chapter you have said out loud what others kept quiet about, and changed your way of working because of it. You grew more from each break than in the calmer years before, though each one looked risky to everyone watching.",
         "ahead": "Past your late forties the people who once called you difficult start calling you wise, and your arguments get a hearing they never had. You keep your edge in these years by finding one settled idea after another to question."
       }
     },
@@ -68,6 +68,10 @@
       },
       "retired_2026-11-14_p0_wording": {
         "teaser": "Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Career.lived": "Your work has grown bolder since your late forties, and you have said in public what you once kept back. You have outlasted the jobs that wanted a quieter voice, doing better work in each one that replaced them.",
+        "domain_climb.Growth.lived": "Since your late forties you have said out loud what others kept quiet about, and changed your way of working because of it. You grew more from each break than in the calmer years before, though each one looked risky to everyone watching."
       }
     }
   },
@@ -174,6 +178,18 @@
       "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
       "date": "2026-11-14",
       "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

@@ -228,3 +228,4 @@ These were asked on the audit report, https://claude.ai/artifact/NzAHZwFbSjWRdRo
 
 **Ship decision (owner, 2026-11-14), after the side-by-side (https://claude.ai/artifact/Nz5b8qS7rUs5EmR62Kqw45):**
 - **S1 A:** R1 (the STATE rules) and R2 (the pairing conditions) ship to elementum.life. `BLUEPRINT_RULES_LIVE = true` in `src/liveFlags.js`.
+- **DOM-P1 A** (PM_04): the lived beats keep their span and drop the age hook. 48 Domains lived beats and 6 Blueprint bond lines now open on the chapter ("In your Late Chapter …", "By your Late Chapter …"), old text in `__ore.retired_2026-11-14_dom_p1`. Queued next: DOM-P2, the "ahead" beats.

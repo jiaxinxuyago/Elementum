@@ -443,25 +443,25 @@
 | `units.GOD zhengguan · missing.open` | No Magistrate appears in the gates that can be read without your birth time, and the Hour Gate is the one place it could still be. For the moment you take structure from the job and settle once someone else sets the terms. |
 | `units.GOD pianyin · missing.open` | The Alchemist is not among the stems and branches your birth date gives, and whether the Hour Gate holds it waits on your birth time. In the meantime you take what you are taught at face value and act on it before any doubt arrives. |
 | `units.GOD zhengyin · missing.open` | Your chart can read three gates, and none of them holds the Sage, though the Hour Gate could. For now you talk yourself through hard stretches and trust help most when it comes unasked. |
-| `units.TEMPLATED tpl_depth · bond.bind.day_hour.lived` | By your late forties, you had built a home with a partner that drew in the young people around you and became the centre of your later years. |
+| `units.TEMPLATED tpl_depth · bond.bind.day_hour.lived` | By your Late Chapter, you had built a home with a partner that drew in the young people around you and became the centre of your later years. |
 | `units.TEMPLATED tpl_depth · bond.bind.day_hour.coming` | In your later years, you will find the household you make with a partner drawing the younger ones around you inside it. |
-| `units.TEMPLATED tpl_depth · bond.bind.month_hour.lived` | From your late forties, you have kept the colleagues and skills of your rising years close around your later life. |
+| `units.TEMPLATED tpl_depth · bond.bind.month_hour.lived` | In your Late Chapter, you have kept the colleagues and skills of your rising years close around your later life. |
 | `units.TEMPLATED tpl_depth · bond.bind.month_hour.coming` | Your later life will hold on to the people and crafts of your rising years, with that working circle staying beside you. |
-| `units.TEMPLATED tpl_depth · bond.bind.year_hour.lived` | Since your late forties, you have handed the ways of your first family down to those who come after you, your later years mirroring your childhood. |
+| `units.TEMPLATED tpl_depth · bond.bind.year_hour.lived` | In your Late Chapter, you have handed the ways of your first family down to those who come after you, your later years mirroring your childhood. |
 | `units.TEMPLATED tpl_depth · bond.bind.year_hour.coming` | Your later years will come to echo your earliest ones, as you hand the habits of your first home to the young ones you guide. |
-| `units.TEMPLATED tpl_depth · bond.clash.month_hour.lived` | From your late forties, you have let go of the career your rising years built and turned toward work that fits your later life. |
+| `units.TEMPLATED tpl_depth · bond.clash.month_hour.lived` | In your Late Chapter, you have let go of the career your rising years built and turned toward work that fits your later life. |
 | `units.TEMPLATED tpl_depth · bond.clash.month_hour.coming` | Your later life will outgrow the career you shape in your rising years, and when the Late Chapter opens you will change course rather than cling to it. |
 | `units.TEMPLATED tpl_depth · bond.clash.year_month.lived` | From your late teens, you made your own way early and away from home, in a trade nobody in your family had chosen. |
 | `units.TEMPLATED tpl_depth · bond.clash.year_month.coming` | In your late teens, you will leave home early to follow work your family never pictured for you. |
 | `units.TEMPLATED tpl_depth · bond.frame.month_day_hour.lived` | What you started in your rising years has grown through your Home Chapter into your later life, with work, a partner and the next generation adding to it. |
 | `units.TEMPLATED tpl_depth · bond.frame.month_day_hour.coming` | You will keep building on what you begin in your rising years, as your home and the next generation add to it through each later decade. |
-| `units.TEMPLATED tpl_depth · bond.frame.month_hour.lived` | Since your late forties, you have carried the drive of your working years into later life, with the people you trained standing beside you as allies. |
+| `units.TEMPLATED tpl_depth · bond.frame.month_hour.lived` | In your Late Chapter, you have carried the drive of your working years into later life, with the people you trained standing beside you as allies. |
 | `units.TEMPLATED tpl_depth · bond.frame.month_hour.coming` | Your working momentum will carry far into your later years, with those you train turning into your closest allies. |
 | `units.TEMPLATED tpl_depth · bond.frame.year_hour.lived` | Through your later years, you have taken up something your first family started and built on it beside the people after you. |
 | `units.TEMPLATED tpl_depth · bond.frame.year_hour.coming` | From your late forties, you will add to something your first home started, with the people after you working beside you. |
 | `units.TEMPLATED tpl_depth · bond.frame.year_month.lived` | From your late teens, you walked into openings your parents or siblings had made, the family you grew up in giving your working life a running start. |
 | `units.TEMPLATED tpl_depth · bond.frame.year_month.coming` | Your working life will start at a run, with parents or siblings opening its first doors for you. |
-| `units.TEMPLATED tpl_depth · bond.selfpunish.month_hour.lived` | Since your late forties, you have met a habit from your working years a second time, and recognised it soon enough to turn it down. |
+| `units.TEMPLATED tpl_depth · bond.selfpunish.month_hour.lived` | In your Late Chapter, you have met a habit from your working years a second time, and recognised it soon enough to turn it down. |
 | `units.TEMPLATED tpl_depth · bond.selfpunish.month_hour.coming` | Your later life will bring back an old working habit, and the second time around you will see it coming and turn it down. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -635,3 +635,9 @@
 | `retired_2026-11-14_rulings_round.units.GOD zhengguan · year_domain.Social` | Roles and expectations mark your friendships this year, a committee seat or a host's duty, and you are known for showing up when you said you would. |
 | `retired_2026-11-14_rulings_round.units.GOD zhengyin · year_domain.Health` | Your body leans on shelter and routine this year, warm meals and early nights, and you accept more looking after than you usually allow. |
 | `retired_2026-11-14_rulings_round.units.GOD zhengyin · year_domain.Mind` | Books, courses and a patient teacher fill more of your evenings this year, and you learn most when someone else sets the syllabus. |
+| `retired_2026-11-14_dom_p1.units.TEMPLATED tpl_depth · bond.bind.day_hour.lived` | By your late forties, you had built a home with a partner that drew in the young people around you and became the centre of your later years. |
+| `retired_2026-11-14_dom_p1.units.TEMPLATED tpl_depth · bond.bind.month_hour.lived` | From your late forties, you have kept the colleagues and skills of your rising years close around your later life. |
+| `retired_2026-11-14_dom_p1.units.TEMPLATED tpl_depth · bond.bind.year_hour.lived` | Since your late forties, you have handed the ways of your first family down to those who come after you, your later years mirroring your childhood. |
+| `retired_2026-11-14_dom_p1.units.TEMPLATED tpl_depth · bond.clash.month_hour.lived` | From your late forties, you have let go of the career your rising years built and turned toward work that fits your later life. |
+| `retired_2026-11-14_dom_p1.units.TEMPLATED tpl_depth · bond.frame.month_hour.lived` | Since your late forties, you have carried the drive of your working years into later life, with the people you trained standing beside you as allies. |
+| `retired_2026-11-14_dom_p1.units.TEMPLATED tpl_depth · bond.selfpunish.month_hour.lived` | Since your late forties, you have met a habit from your working years a second time, and recognised it soon enough to turn it down. |

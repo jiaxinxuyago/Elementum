@@ -38,19 +38,19 @@
       "Family": {
         "headline": "Your family narrows to a few who understand your silences.",
         "recognition": "You keep family life quiet and close, with a small number of people who know when to leave you be. Because your private life comes before a full house, you see your relatives less than they would like and love them no less. You sense trouble in one of them long before anyone mentions it, by an intuition they find odd.",
-        "lived": "Since your late forties your private work has filled more of your afternoons, and you have welcomed only the quietest visits. You have built a family life with more silence in it than most, and the few who share it know you best.",
+        "lived": "In your Late Chapter your private work has filled more of your afternoons, and you have welcomed only the quietest visits. You have built a family life with more silence in it than most, and the few who share it know you best.",
         "ahead": "From your late forties the people after you come to you for what you understand, more than for company. You draw one or two of them close with your unusual method, and they carry it further than you could."
       },
       "Mind": {
         "headline": "Your later mind follows questions nobody else asks.",
         "recognition": "You spend your best hours alone with one odd subject at a time, turning it over until it comes clear. Because understanding is the thing you value most, you guard those hours closely and resent the phone call that breaks them. You surprise people with how sharp you are, and with how little of it you show.",
-        "lived": "The questions you think about have narrowed since your late forties to the few that matter to you, and your answers have grown more exact. You have settled things that puzzled you for decades, and you have shared less of what you found than people would like.",
+        "lived": "The questions you think about have narrowed in your Late Chapter to the few that matter to you, and your answers have grown more exact. You have settled things that puzzled you for decades, and you have shared less of what you found than people would like.",
         "ahead": "From your late forties private study of your own choosing fills your days, and you take each question as far as it goes. You give the answers to one or two of the people after you and keep the rest for yourself."
       },
       "Growth": {
         "headline": "You grow in later life by keeping only what matters.",
         "recognition": "Interests and habits that no longer tell you anything new fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, you look as if you are doing less while you understand more. You care less each year about keeping up, and more about getting one obscure thing exactly right.",
-        "lived": "Since your late forties the commitments you took on from habit have gone, the groups and roles that once filled your weeks. You have returned every day to the private practices that remain, and they have given you more than anything new.",
+        "lived": "In your Late Chapter the commitments you took on from habit have gone, the groups and roles that once filled your weeks. You have returned every day to the private practices that remain, and they have given you more than anything new.",
         "ahead": "Your growth from your late forties lies in distilling what you already know, until years of odd learning come down to a few clear ideas. You put those ideas into plain words for the people after you, and they are still using them long after you worked them out."
       }
     },
@@ -78,6 +78,11 @@
         "domain_climb.Growth.recognition": "Interests and habits that no longer teach you anything fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, you look as if you are doing less while you understand more. You care less each year about keeping up, and more about getting one thing right.",
         "domain_climb.Growth.lived": "Commitments you took on from habit have gone since your late forties, the groups and the roles that once filled your weeks. What is left is a handful of practices you return to every day, and you have grown more through them than through anything new.",
         "domain_climb.Growth.ahead": "Your growth from your late forties lies in refining what you already know, until years of odd learning come down to a few clear ideas. You pass those ideas to younger people in plain words, and you see them used long after you worked them out."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Family.lived": "Since your late forties your private work has filled more of your afternoons, and you have welcomed only the quietest visits. You have built a family life with more silence in it than most, and the few who share it know you best.",
+        "domain_climb.Mind.lived": "The questions you think about have narrowed since your late forties to the few that matter to you, and your answers have grown more exact. You have settled things that puzzled you for decades, and you have shared less of what you found than people would like.",
+        "domain_climb.Growth.lived": "Since your late forties the commitments you took on from habit have gone, the groups and roles that once filled your weeks. You have returned every day to the private practices that remain, and they have given you more than anything new."
       }
     }
   },
@@ -204,6 +209,24 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

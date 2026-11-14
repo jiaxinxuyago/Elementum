@@ -36,13 +36,13 @@
       "Family": {
         "headline": "Your family trusts your word completely.",
         "recognition": "You serve your family by keeping its word, the promise honoured and the duty done on time. Because a role is how you know your place, you take the formal jobs in the family that others avoid. You hold that word more carefully than your own feelings, and the family builds on it.",
-        "lived": "Since your late forties the people after you have taken your word as settled, and they have built their plans on the promises you made them. You have kept every one of them, which has given you a standing in the family that no title could.",
+        "lived": "In your Late Chapter the people after you have taken your word as settled, and they have built their plans on the promises you made them. You have kept every one of them, which has given you a standing in the family that no title could.",
         "ahead": "From your late forties the people after you take their sense of what is proper from you, and they hold one another to the rules you kept. You see your own standards in how they keep faith with each other, and that is worth more to you than any honour."
       },
       "Growth": {
         "headline": "You grow later by refining what you value.",
         "recognition": "You grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you would rather do a thing properly than try something new, and the change in you shows up as patience. You redo a job nobody else noticed was wrong, for no reason but the standard you hold yourself to.",
-        "lived": "Since your late forties your growth has come through commitments you kept, a practice deepened or a standard raised year by year. Your standing has grown with it, and people have started bringing you the work that has to be done right.",
+        "lived": "In your Late Chapter your growth has come through commitments you kept, a practice deepened or a standard raised year by year. Your standing has grown with it, and people have started bringing you the work that has to be done right.",
         "ahead": "Past your late forties you keep improving at what you know well, and each year adds polish more than novelty. You grow wiser through repetition and order, and the people after you hold you up as the example of doing things properly."
       }
     },
@@ -66,6 +66,10 @@
         "domain_climb.Growth.recognition": "You grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you would rather redo a thing properly than try something new, and the change in you shows up as patience. You redo a job nobody else would have noticed was wrong, and you feel better for it.",
         "domain_climb.Growth.lived": "Your growth since your late forties has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did.",
         "domain_climb.Growth.ahead": "Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you become the example others hold up."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Family.lived": "Since your late forties the people after you have taken your word as settled, and they have built their plans on the promises you made them. You have kept every one of them, which has given you a standing in the family that no title could.",
+        "domain_climb.Growth.lived": "Since your late forties your growth has come through commitments you kept, a practice deepened or a standard raised year by year. Your standing has grown with it, and people have started bringing you the work that has to be done right."
       }
     }
   },
@@ -161,6 +165,18 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

@@ -36,13 +36,13 @@
       "Wealth": {
         "headline": "Your money comes in through side doors.",
         "recognition": "You notice a chance to earn where others see an ending, a venture someone else gave up on or a deal nobody followed up. Because new money excites you more than kept money, you move it on to the next opening and write down too little of it. You carry your plans in your head far longer than you put them on paper.",
-        "lived": "In the years since your late forties money has reached you through doors you had stopped watching, late ventures and deals brought by people a generation younger. You have built a wide spread of small ventures in place of one steady income, each one opened on a hunch.",
+        "lived": "In your Late Chapter money has reached you through doors you had stopped watching, late ventures and deals brought by people a generation younger. You have built a wide spread of small ventures in place of one steady income, each one opened on a hunch.",
         "ahead": "From your late forties chances to earn keep arriving from far outside your usual circle, through new projects and through the people after you. You say yes to more of them than anyone your age, happiest when the offer comes from furthest away."
       },
       "Growth": {
         "headline": "Every fresh start widens your world.",
         "recognition": "You widen your range whenever life allows, a new field or a new place or a crowd you know nothing about. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again.",
-        "lived": "Since your late forties you have kept moving, into new work, new places and friendships with people much younger. You have come out of each move more curious than people your age, and less settled than anyone expected.",
+        "lived": "In your Late Chapter you have kept moving, into new work, new places and friendships with people much younger. You have come out of each move more curious than people your age, and less settled than anyone expected.",
         "ahead": "Your world gets wider from your late forties, through travel and through work in places that are new to you. You become the one in your family with the newest stories, and the most open to the next change."
       }
     },
@@ -63,6 +63,10 @@
         "domain_climb.Growth.recognition": "You grow by entering fields you know nothing about, at an age when most people stick to what they know. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again.",
         "domain_climb.Growth.lived": "You have taken up at least one new subject since your late forties, a skill or a trade or a kind of work nobody expected from you. Younger company has kept you learning in those years, and you have looked less settled than people your age.",
         "domain_climb.Growth.ahead": "Your learning goes on in public from your late forties, through new work and through friendships with people much younger than you. You grow more curious with each decade, and you are the one in your family with the newest stories."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Wealth.lived": "In the years since your late forties money has reached you through doors you had stopped watching, late ventures and deals brought by people a generation younger. You have built a wide spread of small ventures in place of one steady income, each one opened on a hunch.",
+        "domain_climb.Growth.lived": "Since your late forties you have kept moving, into new work, new places and friendships with people much younger. You have come out of each move more curious than people your age, and less settled than anyone expected."
       }
     }
   },
@@ -163,6 +167,18 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }

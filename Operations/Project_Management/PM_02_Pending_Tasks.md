@@ -109,7 +109,7 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
   - **S1 A (owner, 2026-11-14):** R1 and R2 are live on both sites (`BLUEPRINT_RULES_LIVE = true`).
   - **Coverage (2026-11-14):** `tools/qa-reading-coverage.mjs` renders every section for births from 1900 to today; Domains and the Blueprint are at 0% (every structure state and rescue line written).
   - **Open, this session:**
-    - DOM-P1 in PM_04: the "Since your late forties" lived beats (waits on the owner);
+    - DOM-P2 in PM_04: the 51 "ahead" beats and 7 empty-seat lines that open "From your late forties" (waits on the owner). DOM-P1 A is done: 54 lived lines open on the chapter;
     - the voice-audit bans (fate, fated, destiny, lucky, fortune, forecast "expect"), added once every section is clean.
   - **Done 2026-11-14:** the 5 November P0 in `src/content/positions.js`, 22 rendered sentences (forecast "Expect …", "fortune"), through the station (aa0e475).
   - **Dispatched 2026-11-14 (owner):** each content session got its own pending list (Life Chapters, Your Almanac, Stars, Day Master). Done notes go to the Day Master session (session_01RJRm3y3yvdzEnvZoX5yTx7), which coordinates the content round and compiles every section into the current design once they are done.

@@ -36,11 +36,11 @@
 | `health_line` | Late strength is real here, and so is late tension: the body holds guard duty long after the watch ends. Put the armor down nightly. |
 | `domain_climb.Family.headline` | Your family grows louder, and dearer, with age. |
 | `domain_climb.Family.recognition` | You are pulled toward the strong-willed people in your family, the ones who push back and want their share. Because you respect whoever stands up to you, you give most to whoever argues hardest, and the quieter ones get less of you. You love a full and noisy table more than a calm one. |
-| `domain_climb.Family.lived` | Since your late forties your family has grown louder, with the people after you claiming your time, your backing and your money. You have given more than you meant to, and you would do most of it again. |
+| `domain_climb.Family.lived` | In your Late Chapter your family has grown louder, with the people after you claiming your time, your backing and your money. You have given more than you meant to, and you would do most of it again. |
 | `domain_climb.Family.ahead` | From your late forties the people after you compete for your attention, and each of them is sure their claim comes first. You enjoy those years most while your own keys stay in your pocket, because they run warmer and riskier than most people's. |
 | `domain_climb.Wealth.headline` | Your later money always has company. |
 | `domain_climb.Wealth.recognition` | You treat money as something shared, and you find it hard to say no when someone close asks for help. Because loyalty matters more to you than a full account, you give first and count later, and the counting rarely feels good. You keep wealth best when the limit is fixed before anyone asks. |
-| `domain_climb.Wealth.lived` | Since your late forties your money has moved through your circle, split with friends in a bad year and shared with younger people starting out. You have had most of it back in loyalty rather than cash, and that has been the return you valued most. |
+| `domain_climb.Wealth.lived` | In your Late Chapter your money has moved through your circle, split with friends in a bad year and shared with younger people starting out. You have had most of it back in loyalty rather than cash, and that has been the return you valued most. |
 | `domain_climb.Wealth.ahead` | From your late forties your money turns into common ground, pooled with friends and split among the people after you. You divide it fairly enough that nobody needs to keep score. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -59,3 +59,5 @@
 | `retired_2026-11-14_rulings_round.domain_climb.Wealth.headline` | Your later money will always have company. |
 | `retired_2026-11-14_rulings_round.domain_climb.Wealth.lived` | More people have had a claim on your money since your late forties, among them younger people and someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance. |
 | `retired_2026-11-14_rulings_round.domain_climb.Wealth.ahead` | Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own share only where you set its size before anyone asks. |
+| `retired_2026-11-14_dom_p1.domain_climb.Family.lived` | Since your late forties your family has grown louder, with the people after you claiming your time, your backing and your money. You have given more than you meant to, and you would do most of it again. |
+| `retired_2026-11-14_dom_p1.domain_climb.Wealth.lived` | Since your late forties your money has moved through your circle, split with friends in a bad year and shared with younger people starting out. You have had most of it back in loyalty rather than cash, and that has been the return you valued most. |

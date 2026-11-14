@@ -38,19 +38,19 @@
       "Family": {
         "headline": "Your family rests on what you quietly arrange.",
         "recognition": "You keep your family covered, the bills paid and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. You prefer it when your family sees the calm and not the work behind it.",
-        "lived": "Since your late forties you have kept a steady store for your family, quietly topped up and ready before anyone asks. You have shown the people after you how to be careful with money mostly by example, and they have spent more wisely for it.",
+        "lived": "In your Late Chapter you have kept a steady store for your family, quietly topped up and ready before anyone asks. You have shown the people after you how to be careful with money mostly by example, and they have spent more wisely for it.",
         "ahead": "From your late forties the people after you build their own lives on what you have saved and set aside for them. You are the steady keeper behind them, and they learn only later how much of their footing you paid for."
       },
       "Health": {
         "headline": "Your body does best on steady upkeep.",
         "recognition": "Your body gets the same care as your accounts, with regular walks, plain food and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You catch the first sign of tiredness early and spend your energy as carefully as your money.",
-        "lived": "Since your late forties your energy has held steady, because you kept your sleep and your habits in good order. You have more of it in reserve than people who spent theirs freely, and that reserve has been worth every early night.",
+        "lived": "In your Late Chapter your energy has held steady, because you kept your sleep and your habits in good order. You have more of it in reserve than people who spent theirs freely, and that reserve has been worth every early night.",
         "ahead": "From your late forties your body repays the care you keep giving it, with steady energy and regular sleep. You outlast people who run themselves down, and every ordinary habit turns out to have been worth its cost."
       },
       "Wealth": {
         "headline": "Your money ends up settled and secure.",
         "recognition": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more put by than you let yourself spend.",
-        "lived": "Since your late forties your finances have settled, and your household has felt the hard times around it less than most. You built your savings slowly and kept them whole through every lean year, and they have become the fund your household falls back on.",
+        "lived": "In your Late Chapter your finances have settled, and your household has felt the hard times around it less than most. You built your savings slowly and kept them whole through every lean year, and they have become the fund your household falls back on.",
         "ahead": "From your late forties your money stays steady while others worry, and your plans for it land where you intend. You find that part of what you saved was always meant for you, and spending it on yourself stops feeling like a loss."
       }
     },
@@ -79,6 +79,11 @@
         "domain_climb.Wealth.recognition": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more comfort available than you let yourself use.",
         "domain_climb.Wealth.lived": "Your finances have settled since your late forties, and your household has felt the hard times around it less than most. You have spent more on others than on your own comfort in that time.",
         "domain_climb.Wealth.ahead": "Your money stays steady from your late forties while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it."
+      },
+      "retired_2026-11-14_dom_p1": {
+        "domain_climb.Family.lived": "Since your late forties you have kept a steady store for your family, quietly topped up and ready before anyone asks. You have shown the people after you how to be careful with money mostly by example, and they have spent more wisely for it.",
+        "domain_climb.Health.lived": "Since your late forties your energy has held steady, because you kept your sleep and your habits in good order. You have more of it in reserve than people who spent theirs freely, and that reserve has been worth every early night.",
+        "domain_climb.Wealth.lived": "Since your late forties your finances have settled, and your household has felt the hard times around it less than most. You built your savings slowly and kept them whole through every lean year, and they have become the fund your household falls back on."
       }
     }
   },
@@ -206,6 +211,24 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), DOM-P1 A",
+      "date": "2026-11-14",
+      "ruling": "owner DOM-P1 A (2026-11-14): lived beats keep the span, drop the age hook (\"In your Late Chapter …\"); P0 #2 with R14"
     }
   ]
 }
