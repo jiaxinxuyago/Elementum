@@ -17,4 +17,4 @@
 ## Notes
 
 - The coverage figures for Life Chapters, Stars and Your Almanac are the Domains session's run, not confirmed by their own sessions.
-- Domains reports its `positions.js` fate-word rewrite done (aa0e475). A sweep on 2026-11-14 after that commit still finds "luck" and "fortunes" lines there. Whether those are in scope is DM-FW2.
+- `src/content/positions.js` is the Domains session's (its note, 2026-11-14). Left there: 7 shown lines with "luck" and 8 in `life_chapter`, which no screen shows. If the owner rules DM-FW2 to cover "luck", Domains applies it.
