@@ -18,7 +18,7 @@ import { termInstant } from './almanac/solarTerms.js';
 // v3 (2026-07-09): solar-time sign fix + January 五虎遁 wrap fix — bumping
 // forces cached charts to recompute on next open (affects non-120°E
 // birthplaces and 小寒–立春 births; all previously-verified charts unchanged).
-export const ENGINE_VERSION = 3;
+export const ENGINE_VERSION = 4;
 
 // ---------- Heavenly Stems / Earthly Branches / element maps ----------
 export const HS = ["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"];
@@ -47,7 +47,7 @@ export function getSolarMonthIndex(date) {
 // approximate path gives it 丑). OFF until the owner signs off on the impact
 // list (tools/qa-exact-terms-impact.mjs); a caller can pass exactTerms: true
 // to compare one chart.
-export const EXACT_TERMS = false;
+export const EXACT_TERMS = true; // owner AM6-ON A (2026-11-14): exact 节 instants and the January rule
 // a 节 as a Date whose local fields are the solar time at longitude lon
 function termAtLon(year, idx, lon) {
   const at = termInstant(year, idx); if (at == null) return getSolarTermDate(year, idx);

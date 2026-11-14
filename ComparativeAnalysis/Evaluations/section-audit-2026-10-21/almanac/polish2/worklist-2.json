@@ -1,0 +1,430 @@
+{
+ "worklist": 2,
+ "units": [
+  {
+   "key": "ENERGY action · month.even",
+   "kind": "energy",
+   "now": "{el} brings Action this month, at a level your chart neither craves nor resents. Income and effort hold their usual pace through the weeks, asking nothing extra of you.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · month.grow",
+   "kind": "energy",
+   "now": "{el} brings Action this month, adding fuel to work you already do well. Money and effort move in step, while more of the work around you comes your way.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F04: \"adding fuel to work you already do well … while more of the work around you comes your way.\" | Flattery plus a promised gain; \"work\" twice. | \"{El} brings Action this month, adding fuel to work your chart wants. Money and effort move in step, while each new task asks for your hours.\" (26 words)"
+   ]
+  },
+  {
+   "key": "ENERGY action · month.heavy",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole month, a pull your chart would rather set down. Work spreads thin across too many fronts, leaving you stretched by the third week.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · month.need",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole month, an energy your chart runs short of. New openings turn up at work and in trade, each asking you to reach for it.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "TWEAK month:F22: \"each asking you to reach for it\" | \"reach\" ×3–4 on the page: headline \"widens your reach\", ground \"reaches you\", favours \"with reach\". | \"{El} brings Action for a whole month, an energy your chart runs short of. New openings turn up at work and in trade, each asking you to go after it.\" (30 words)"
+   ]
+  },
+  {
+   "key": "ENERGY body · month.core_even",
+   "kind": "energy",
+   "now": "{el} brings more Body this month, a measure your balanced chart takes in calmly. Energy runs level from the first week to the last, steady enough for you to lean on.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · month.core_over",
+   "kind": "energy",
+   "now": "{el} brings more Body for a whole month, more force than your chart can use. Your will sets hard, meeting each small push with a bigger one of your own.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · month.core_under",
+   "kind": "energy",
+   "now": "{el} brings more Body this month, refilling a strength your chart runs short of. Week by week your will gathers weight, asking you to take up loads that once wore you out.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · month.even",
+   "kind": "energy",
+   "now": "{el} brings Expression this month, sitting evenly in your chart. Speech and craft keep their usual shape, shown at a rate that suits you.",
+   "findings": [
+    "TWEAK month:F20: \"keep their usual shape, shown at a rate that suits you\" | Dangling participle: it is unclear what is \"shown\". | \"{El} brings Expression this month, sitting evenly in your chart. Speech and craft keep their usual shape, at a pace that suits you.\" (22 words)"
+   ]
+  },
+  {
+   "key": "ENERGY expression · month.grow",
+   "kind": "energy",
+   "now": "{el} brings Expression this month, feeding a talent you have shown before. Work you share draws replies through the weeks, each one asking for more of your making.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F05: \"feeding a talent you have shown before. Work you share draws replies through the weeks, each one asking for more of your making.\" | Claims a past; \"of your making\" reads as the idiom \"of your own making\" (self-inflicted). | \"{El} brings Expression this month, feeding a talent your chart wants used. What you make and share draws more requests, each one asking for your time.\" (26 words)"
+   ]
+  },
+  {
+   "key": "ENERGY expression · month.heavy",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole month, more than your chart can use. You start many things and show them early, as your strength runs low by the last week.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · month.need",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole month, an outlet your chart runs short of. Ideas leave your head and reach the page, asking you to show them.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10."
+   ]
+  },
+  {
+   "key": "ENERGY mind · month.even",
+   "kind": "energy",
+   "now": "{el} brings Mind this month, at a level your chart takes in its stride. Study and rest keep their usual share of your weeks, with no strain on either.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · month.grow",
+   "kind": "energy",
+   "now": "{el} brings Mind this month, adding to a store of support you already keep. Study deepens and rest comes easier, as the weeks look after you.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F02: \"adding to a store of support you already keep. Study deepens and rest comes easier, as the weeks look after you.\" | Outcome promised; the reader is looked after rather than acting. | \"{El} brings Mind this month, adding to a store of support your chart wants. More arrives to read and learn, asking you to clear time for study and rest.\" (29 words)"
+   ]
+  },
+  {
+   "key": "ENERGY mind · month.heavy",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole month, a support that slows your chart down. You think longer and act later, as the weeks pass with decisions still waiting.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · month.need",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole month, the shelter your chart rarely gets. Lessons stick and help turns up, asking you to stop long enough to rest.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F06: \"the shelter your chart rarely gets. Lessons stick and help turns up\" | \"rarely gets\" is a frequency claim a shared line cannot make, and every year brings Mind months. \"Lessons stick\" is an outcome. | \"{El} brings Mind for a whole month, a shelter your chart runs short of. Lessons and help come closer, asking you to stop long enough to take them in.\" (29 words)"
+   ]
+  },
+  {
+   "key": "ENERGY order · month.even",
+   "kind": "energy",
+   "now": "{el} brings Order this month, a fair measure of duty for your chart. Deadlines come at a sensible pace, each one sized to your usual effort.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · month.grow",
+   "kind": "energy",
+   "now": "{el} brings Order this month, building on the duty you already carry well. Your role grows firmer through the weeks, as others start to count on you.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F03: \"building on the duty you already carry well … as others start to count on you.\" | Praises performance the chart cannot know; predicts others' response. | \"{El} brings Order this month, adding weight to a duty your chart wants. Your role grows firmer, asking you to answer for more of it.\" (25 words)"
+   ]
+  },
+  {
+   "key": "ENERGY order · month.heavy",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole month, more strain than your chart can use. Reports and rules fill your weeks, asking you to keep your head down through them.",
+   "findings": [
+    "TWEAK month:F19: \"more strain than your chart can use\" | A chart does not \"use\" strain. The AM3 formula is bolted onto the wrong noun. | \"{El} brings Order for a whole month, a weight your chart does better without. Reports and rules fill your weeks, asking you to keep your head down through them.\" (29 words)"
+   ]
+  },
+  {
+   "key": "ENERGY order · month.need",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole month, a frame your chart wants. Deadlines and duties mark out your weeks, asking you to fill the time inside them.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10."
+   ]
+  },
+  {
+   "key": "ENERGY action · month.even.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY action · month.even",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY action · month.even: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY action · month.grow.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY action · month.grow",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY action · month.grow: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY action · month.heavy.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY action · month.heavy",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY action · month.heavy: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY action · month.need.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY action · month.need",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY action · month.need: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY body · month.core_even.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY body · month.core_even",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY body · month.core_even: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY body · month.core_over.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY body · month.core_over",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY body · month.core_over: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY body · month.core_under.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY body · month.core_under",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY body · month.core_under: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY expression · month.even.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY expression · month.even",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY expression · month.even: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY expression · month.grow.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY expression · month.grow",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY expression · month.grow: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY expression · month.heavy.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY expression · month.heavy",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY expression · month.heavy: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY expression · month.need.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY expression · month.need",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY expression · month.need: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY mind · month.even.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY mind · month.even",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY mind · month.even: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY mind · month.grow.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY mind · month.grow",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY mind · month.grow: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY mind · month.heavy.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY mind · month.heavy",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY mind · month.heavy: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY mind · month.need.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY mind · month.need",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY mind · month.need: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY order · month.even.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY order · month.even",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY order · month.even: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY order · month.grow.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY order · month.grow",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY order · month.grow: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY order · month.heavy.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY order · month.heavy",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY order · month.heavy: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY order · month.need.b",
+   "kind": "energy",
+   "now": null,
+   "pair_of": "ENERGY order · month.need",
+   "findings": [
+    "AP5: the yin-month variant of ENERGY order · month.need: same meaning, new wording, its own second-sentence opener"
+   ]
+  },
+  {
+   "key": "ENERGY action · year.even",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole year, a steady current through your working life. Neither a great leap nor a great loss arrives, only steady building at your own rate.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.grow",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole year, the reach your chart holds and still wants. Each season opens a fresh field to work in, asking more of your effort.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.heavy",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole year, more reach than your chart is built for. Chances pull at you from every side, each one taking a share of your strength.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.need",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole year, one your chart has long wanted. Your reach stretches into new places, asking you to build something there that lasts.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_even",
+   "kind": "energy",
+   "now": "{el} brings more Body for a whole year, a steady flow of your own energy. It neither crowds nor empties you, keeping your stride sure from spring to winter.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_over",
+   "kind": "energy",
+   "now": "{el} brings more Body for a whole year, a strength that weighs on your chart. Others give way to you often, while the year shows where your force stops helping.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_under",
+   "kind": "energy",
+   "now": "{el} brings more Body for a whole year, the strength your chart wants. Footing grows solid as the seasons turn, asking you to stand on your own.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.even",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole year, at a level your chart holds without strain. Your voice stays your own, giving out as much as you mean and no more.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.grow",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole year, building on how well you already speak and make. Craft grows sharper with use, asking more hours of your hands each season.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.heavy",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole year, an outlet that weighs on your chart. Pleasure and talk fill your calendar, drawing off strength you need for yourself.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.need",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole year, an outlet your chart goes without. Through the seasons your voice grows bolder, asking you to speak in places you kept quiet.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.even",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole year, in a measure that leaves you as you are. Support arrives when it is due, with no need for you to wait or lean.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.grow",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole year, more of what already feeds you well. Skills you started long ago take root, as your own judgement gains weight.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.heavy",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole year, a comfort your chart does better without. Caution settles on you like a thick coat, holding you still until you are sure.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.need",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole year, the support your chart keeps asking for. Teachers, books and quiet hours come your way, each asking for your time.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.even",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole year, a balanced share of rules and duty. Obligations neither grow nor shrink, asking you to carry them as you always have.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.grow",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole year, more of the pressure that shapes you well. Responsibility gathers around you season by season, with others looking to you to hold it.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.heavy",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole year, pressure that works against your chart. The year tests your patience often, pressing on you from more sides than you can answer.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.need",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole year, a firmness your chart has long gone without. Pressure comes from outside through the seasons, asking you to hold your shape under it.",
+   "findings": []
+  }
+ ]
+}

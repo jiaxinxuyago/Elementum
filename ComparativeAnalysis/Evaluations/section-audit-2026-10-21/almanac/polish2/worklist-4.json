@@ -1,0 +1,363 @@
+{
+ "worklist": 4,
+ "units": [
+  {
+   "key": "PUSH · mark.birthday",
+   "kind": "push",
+   "now": "Your birthday opens a new year today. Read your year.",
+   "findings": []
+  },
+  {
+   "key": "PUSH · mark.decade",
+   "kind": "push",
+   "now": "A new decade of your life begins today. Read your year.",
+   "findings": [
+    "TWEAK year:YR-5: \"a long new chapter starts\" | \"long new\" is a clumsy stack of adjectives. The length is the information, so it should be named. | \"a new ten-year chapter starts\"",
+    "MINOR year:YR-6: \"A new decade of your life begins today.\" | \"Decade of your life\" reads as an age birthday (30, 40), but luck cycles start at offsets such as 7, 17 or 27. It also says \"today\" where the marker line says \"this year\". | \"Your next ten-year cycle begins today. Read your year.\"",
+    "MINOR year:YR-7: \"Your next cycle of luck begins this year and runs ten years from this birthday. A different season of your life opens with it.\" | 起运 (the cycle's start) is worked out from the distance to the 节 and rarely falls exactly on the birthday, so \"from this birthday\" claims a precision the engine does not have. \"this year … this birthday\" clashes with the PUSH's \"today\". \"luck\" leans towards fate. The second sentence is generic (B 2). | \"Your next ten-year cycle begins around this birthday and runs until the one after it. Every year inside it now reads against this new ground for you.\" (27 words)"
+   ]
+  },
+  {
+   "key": "PUSH · mark.gate",
+   "kind": "push",
+   "now": "A new gate opens in your life today. Read your year.",
+   "findings": [
+    "MINOR day-2:R2-18: \"A new gate opens in your life today. Read your year.\" | \"gate\" is the house's word for a pillar seat (Year, Month, Day, Hour Gate). Using it for the ten-year stage confuses the two. | \"A new ten-year stage begins today. Read your year.\""
+   ]
+  },
+  {
+   "key": "PUSH · mark.month",
+   "kind": "push",
+   "now": "The month changes today. Read your month.",
+   "findings": [
+    "MINOR day-1:R1-m7: \"A new month opens today, and the days that follow take their tone from it. Your pace shifts before you can say why.\" | Headline, mark and reminder say \"new month\" three times. The close is Barnum, true of anyone on any day, and it predicts. | \"A new month opens today, and its energy takes over from the last one. The first days show which of your habits still fit the new pace.\""
+   ]
+  },
+  {
+   "key": "PUSH · mark.year",
+   "kind": "push",
+   "now": "The new year opens today. Read your year.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.birthday",
+   "kind": "mark",
+   "now": "Today starts your next year of age. You carry the last one into it, what it taught you and what it cost.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.decade",
+   "kind": "mark",
+   "now": "Your next cycle of luck begins this year and runs ten years from this birthday. A different season of your life opens with it.",
+   "findings": [
+    "TWEAK year:YR-5: \"a long new chapter starts\" | \"long new\" is a clumsy stack of adjectives. The length is the information, so it should be named. | \"a new ten-year chapter starts\"",
+    "MINOR year:YR-6: \"A new decade of your life begins today.\" | \"Decade of your life\" reads as an age birthday (30, 40), but luck cycles start at offsets such as 7, 17 or 27. It also says \"today\" where the marker line says \"this year\". | \"Your next ten-year cycle begins today. Read your year.\"",
+    "MINOR year:YR-7: \"Your next cycle of luck begins this year and runs ten years from this birthday. A different season of your life opens with it.\" | 起运 (the cycle's start) is worked out from the distance to the 节 and rarely falls exactly on the birthday, so \"from this birthday\" claims a precision the engine does not have. \"this year … this birthday\" clashes with the PUSH's \"today\". \"luck\" leans towards fate. The second sentence is generic (B 2). | \"Your next ten-year cycle begins around this birthday and runs until the one after it. Every year inside it now reads against this new ground for you.\" (27 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.gate",
+   "kind": "mark",
+   "now": "This birthday starts the next ten years of your life as one stretch. A fresh part of you comes into its own, carrying the years behind you.",
+   "findings": [
+    "MINOR day-2:R2-18: \"A new gate opens in your life today. Read your year.\" | \"gate\" is the house's word for a pillar seat (Year, Month, Day, Hour Gate). Using it for the ten-year stage confuses the two. | \"A new ten-year stage begins today. Read your year.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.month",
+   "kind": "mark",
+   "now": "A new month opens today, and the days that follow take their tone from it. Your pace shifts before you can say why.",
+   "findings": [
+    "MINOR day-1:R1-m7: \"A new month opens today, and the days that follow take their tone from it. Your pace shifts before you can say why.\" | Headline, mark and reminder say \"new month\" three times. The close is Barnum, true of anyone on any day, and it predicts. | \"A new month opens today, and its energy takes over from the last one. The first days show which of your habits still fit the new pace.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.year",
+   "kind": "mark",
+   "now": "A new year opens today, and its energy runs until next February. The turn reaches you before you can name it.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · pillar.return",
+   "kind": "pillar",
+   "now": "Today matches the day you were born on in the sixty-day count, as it does six times a year. Things you began in the last two months come back to you, clearer than before.",
+   "findings": [
+    "MINOR day-1:R1-m4: \"…as it does six times a year. Things you began in the last two months come back to you, clearer than before.\" | 34 words against a pillar cap of 30, and it settles the outcome in the reader's favour (\"clearer than before\"). | \"Today repeats your birth day in the sixty-day count, as it does six times a year. What you began in the last two months comes back to you for a second look.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · pillar.turned",
+   "kind": "pillar",
+   "now": "Today is your own day turned over, its stem at odds with yours and its branch clashing your Day Gate. Something settled at home is called into question, with you the one asked to answer for it.",
+   "findings": [
+    "MINOR day-1:R1-m5: \"Today is your own day turned over, its stem at odds with yours and its branch clashing your Day Gate. Something settled at home is called into question, with you the one asked to answer for it.\" | 37 words against a cap of 30, and the tail \"with you the one asked to answer for it\" is heavy. | \"Today turns your own day over, its stem against yours and its branch striking your Day Gate. A settled matter at home is questioned, and the answering falls to you.\""
+   ]
+  },
+  {
+   "key": "STAR taohua · day",
+   "kind": "star",
+   "now": "Attraction runs high today, and people notice you more than usual. Glances and easy talk find you without much effort on your part.",
+   "findings": [
+    "MINOR day-2:R2-17: \"Attraction runs high today … find you without much effort on your part.\" | It flatters, names no cost (桃花 is mixed classically), and adds a third \"run\" on D092. | \"Attraction is strong today, and people notice you more than usual. Glances and easy talk find you, along with attention you did not ask for.\""
+   ]
+  },
+  {
+   "key": "STAR tiande · day",
+   "kind": "star",
+   "now": "Tense moments today soften before they grow, and harsh words lose their edge. The day asks little of your nerves.",
+   "findings": [
+    "MINOR day-2:R2-15: \"Tense moments today soften before they grow\" / \"trouble passes you lightly\" | Both settle the day in the reader's favour. | Star: \"Tense moments today arrive with less weight, and harsh words carry less edge. The day asks little of your nerves.\" Headline half: \"tense moments carry less edge\""
+   ]
+  },
+  {
+   "key": "STAR tianyi · day",
+   "kind": "star",
+   "now": "Help comes from someone with standing, an elder or a near stranger who owes you nothing. Taking it asks you to set your pride aside.",
+   "findings": [
+    "MAJOR day-1:R1-M3: \"Defending it takes\"; \"Rearranging around it takes\"; \"Clearing it costs you\"; \"Giving it up costs you\"; \"Going round it once more costs\"; \"Hearing it out once more draws on\"; \"Answering it again eats into\"; \"Leading it today asks for\"; \"Taking it asks you\" | 9 of 17 landing and star units open their second sentence on the same frame: a gerund, \"it\", then a cost verb. A daily reader meets it most days, and AM4 forbids units in one set sharing a second-sentence opener. \"Once more\" appears twice. | Rule: at most two landing units per bond family may use the gerund-it-cost frame. Recast the rest with the cost as subject (\"The evening you had set aside goes to it\"), a place or time opener (\"By evening…\" without a settled outcome), or the gate as subject."
+   ]
+  },
+  {
+   "key": "STAR yima · day",
+   "kind": "star",
+   "now": "The day moves you, with travel, an errand across town or a change of place. Your plans stretch to fit the distance.",
+   "findings": []
+  },
+  {
+   "key": "STAR yuede · day",
+   "kind": "star",
+   "now": "A setback today carries something useful inside it. Reaching it takes your work, not luck.",
+   "findings": []
+  },
+  {
+   "key": "PUSH · clash.day",
+   "kind": "push",
+   "now": "Plans at home change suddenly today. Read your day.",
+   "findings": [
+    "MAJOR day-1:R1-M3: \"Defending it takes\"; \"Rearranging around it takes\"; \"Clearing it costs you\"; \"Giving it up costs you\"; \"Going round it once more costs\"; \"Hearing it out once more draws on\"; \"Answering it again eats into\"; \"Leading it today asks for\"; \"Taking it asks you\" | 9 of 17 landing and star units open their second sentence on the same frame: a gerund, \"it\", then a cost verb. A daily reader meets it most days, and AM4 forbids units in one set sharing a second-sentence opener. \"Once more\" appears twice. | Rule: at most two landing units per bond family may use the gerund-it-cost frame. Recast the rest with the cost as subject (\"The evening you had set aside goes to it\"), a place or time opener (\"By evening…\" without a settled outcome), or the gate as subject."
+   ]
+  },
+  {
+   "key": "PUSH · clash.month",
+   "kind": "push",
+   "now": "A settled plan at work comes loose today. Read your day.",
+   "findings": [
+    "MAJOR day-1:R1-M3: \"Defending it takes\"; \"Rearranging around it takes\"; \"Clearing it costs you\"; \"Giving it up costs you\"; \"Going round it once more costs\"; \"Hearing it out once more draws on\"; \"Answering it again eats into\"; \"Leading it today asks for\"; \"Taking it asks you\" | 9 of 17 landing and star units open their second sentence on the same frame: a gerund, \"it\", then a cost verb. A daily reader meets it most days, and AM4 forbids units in one set sharing a second-sentence opener. \"Once more\" appears twice. | Rule: at most two landing units per bond family may use the gerund-it-cost frame. Recast the rest with the cost as subject (\"The evening you had set aside goes to it\"), a place or time opener (\"By evening…\" without a settled outcome), or the gate as subject.",
+    "TWEAK day-1:R1-t3: \"defend it. Defending it takes\" | Repeated word across the sentence join. | \"A plan you settled at work comes loose, and someone asks you to defend it. Making your case takes time and patience you had meant for other tasks.\"",
+    "TWEAK day-2:R2-24: \"asks you to defend it. Defending it takes\" | A repeated word with an obvious swap. | \"A plan you settled at work comes loose, and someone asks you to defend it. Making the case takes time and patience you had meant for other tasks.\""
+   ]
+  },
+  {
+   "key": "PUSH · clash.year",
+   "kind": "push",
+   "now": "Something in your first home shifts today. Read your day.",
+   "findings": [
+    "MAJOR day-1:R1-M3: \"Defending it takes\"; \"Rearranging around it takes\"; \"Clearing it costs you\"; \"Giving it up costs you\"; \"Going round it once more costs\"; \"Hearing it out once more draws on\"; \"Answering it again eats into\"; \"Leading it today asks for\"; \"Taking it asks you\" | 9 of 17 landing and star units open their second sentence on the same frame: a gerund, \"it\", then a cost verb. A daily reader meets it most days, and AM4 forbids units in one set sharing a second-sentence opener. \"Once more\" appears twice. | Rule: at most two landing units per bond family may use the gerund-it-cost frame. Recast the rest with the cost as subject (\"The evening you had set aside goes to it\"), a place or time opener (\"By evening…\" without a settled outcome), or the gate as subject.",
+    "TWEAK day-1:R1-t4: \"takes a slice of your week\" | A Day landing claims a week, which is a factual slip of span. | \"News from the family you grew up in changes a plan without warning, a visit moved or a date dropped. Rearranging around it takes a slice of your day.\""
+   ]
+  },
+  {
+   "key": "PUSH · punish.day",
+   "kind": "push",
+   "now": "An old friction at home returns today. Read your day.",
+   "findings": [
+    "MAJOR day-1:R1-M3: \"Defending it takes\"; \"Rearranging around it takes\"; \"Clearing it costs you\"; \"Giving it up costs you\"; \"Going round it once more costs\"; \"Hearing it out once more draws on\"; \"Answering it again eats into\"; \"Leading it today asks for\"; \"Taking it asks you\" | 9 of 17 landing and star units open their second sentence on the same frame: a gerund, \"it\", then a cost verb. A daily reader meets it most days, and AM4 forbids units in one set sharing a second-sentence opener. \"Once more\" appears twice. | Rule: at most two landing units per bond family may use the gerund-it-cost frame. Recast the rest with the cost as subject (\"The evening you had set aside goes to it\"), a place or time opener (\"By evening…\" without a settled outcome), or the gate as subject."
+   ]
+  },
+  {
+   "key": "PUSH · punish.month",
+   "kind": "push",
+   "now": "The same complaint at work returns today. Read your day.",
+   "findings": [
+    "MAJOR day-1:R1-M3: \"Defending it takes\"; \"Rearranging around it takes\"; \"Clearing it costs you\"; \"Giving it up costs you\"; \"Going round it once more costs\"; \"Hearing it out once more draws on\"; \"Answering it again eats into\"; \"Leading it today asks for\"; \"Taking it asks you\" | 9 of 17 landing and star units open their second sentence on the same frame: a gerund, \"it\", then a cost verb. A daily reader meets it most days, and AM4 forbids units in one set sharing a second-sentence opener. \"Once more\" appears twice. | Rule: at most two landing units per bond family may use the gerund-it-cost frame. Recast the rest with the cost as subject (\"The evening you had set aside goes to it\"), a place or time opener (\"By evening…\" without a settled outcome), or the gate as subject."
+   ]
+  },
+  {
+   "key": "PUSH · punish.year",
+   "kind": "push",
+   "now": "An old family argument resurfaces today. Read your day.",
+   "findings": [
+    "MAJOR day-1:R1-M3: \"Defending it takes\"; \"Rearranging around it takes\"; \"Clearing it costs you\"; \"Giving it up costs you\"; \"Going round it once more costs\"; \"Hearing it out once more draws on\"; \"Answering it again eats into\"; \"Leading it today asks for\"; \"Taking it asks you\" | 9 of 17 landing and star units open their second sentence on the same frame: a gerund, \"it\", then a cost verb. A daily reader meets it most days, and AM4 forbids units in one set sharing a second-sentence opener. \"Once more\" appears twice. | Rule: at most two landing units per bond family may use the gerund-it-cost frame. Recast the rest with the cost as subject (\"The evening you had set aside goes to it\"), a place or time opener (\"By evening…\" without a settled outcome), or the gate as subject.",
+    "TWEAK day-1:R1-t5: \"draws on a patience\" | It collides with the headline half \"Fire draws on your reserves\" on D007. | \"An old disagreement from your first home stirs again, over the same small point as before. Hearing it out once more uses up a patience your day had meant for other things.\"",
+    "TWEAK month:F18: \"each visit or call … between calls\" | \"call\" twice. | \"A family grievance from years back stays alive through this month, raised at each visit or call. Every mention reopens it, and its weight stays with you in between.\" (29 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.land.harm.year",
+   "kind": "head.land",
+   "now": "an older relative misreads you",
+   "findings": [
+    "MINOR day-1:R1-m1: \"an older relative misreads you\" | The landing says the reader is stung by a relative's remark; the headline says the relative misreads the reader. The two halves of the page disagree on who misreads whom. | \"a family remark lands wrong\""
+   ]
+  },
+  {
+   "key": "PUSH · return",
+   "kind": "push",
+   "now": "Your own day comes round again. Read your day.",
+   "findings": [
+    "MINOR day-1:R1-m4: \"…as it does six times a year. Things you began in the last two months come back to you, clearer than before.\" | 34 words against a pillar cap of 30, and it settles the outcome in the reader's favour (\"clearer than before\"). | \"Today repeats your birth day in the sixty-day count, as it does six times a year. What you began in the last two months comes back to you for a second look.\"",
+    "MINOR day-1:R1-m6: \"Your own day comes round again.\" | The reminder body repeats its own title, the headline (\"your own day comes round\"), and adds nothing. | \"Today repeats the day you were born on. Read your day.\""
+   ]
+  },
+  {
+   "key": "PUSH · turned",
+   "kind": "push",
+   "now": "Something settled at home gets questioned today. Read your day.",
+   "findings": [
+    "MINOR day-1:R1-m5: \"Today is your own day turned over, its stem at odds with yours and its branch clashing your Day Gate. Something settled at home is called into question, with you the one asked to answer for it.\" | 37 words against a cap of 30, and the tail \"with you the one asked to answer for it\" is heavy. | \"Today turns your own day over, its stem against yours and its branch striking your Day Gate. A settled matter at home is questioned, and the answering falls to you.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.energy.body.release",
+   "kind": "head.energy",
+   "now": "{el} crowds you",
+   "findings": [
+    "MINOR day-1:R1-m10: \"Earth crowds you\" | \"Crowds\" is the amount image that AM3 bans (\"crowded with\"). A released Body is unwanted, not necessarily plentiful. | \"{el} digs your heels in\"",
+    "TWEAK day-2:R2-06: \"Earth crowds you\" | \"crowds\" is an amount word (AM3 bans \"crowded with\"). The released energy is unwanted, not plentiful. | \"Earth weighs on you\" (element slot kept)",
+    "MINOR month:F12: \"Earth crowds you\" | \"crowd\" is an amount word that AM3 bans (\"crowded with\"). The direction is the point, not the quantity. | \"{El} makes you dig in\" (matches the energy line's \"meeting each small push with a bigger one\")"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.land.frame.day",
+   "kind": "head.land",
+   "now": "home comes to a decision",
+   "findings": [
+    "TWEAK day-1:R1-t6: \"home comes to a decision\" | A frame gathers strength, and the landing says so (\"Home gathers strength… pulling the same way\"). \"Comes to a decision\" is a factual slip of bond kind. | \"home pulls together\"",
+    "MINOR day-2:R2-07: \"home comes to a decision\" | The frame landing says home gathers strength and pulls the same way. Nothing on the page decides anything. | \"home pulls the same way\"",
+    "MINOR year:YR-3: \"home comes to a decision\" | A frame gathers strength. This half settles the outcome instead (AM1: never how it ends), and on the Year page the landing then restates it (\"You make a decision about home\"). | \"a home question gathers force\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · ground.presses",
+   "kind": "ground",
+   "now": "Under it runs {g}, which the {e} shapes. The two reach you as one steady pressure.",
+   "findings": [
+    "TWEAK day-2:R2-02: \"The two reach you as one steady pressure.\" | Adds a third \"reach\" to pages that already have \"widens your reach\" and \"reaches out\". | \"Under it runs {Ground}, which the {Element} shapes. The two bear down on you as one steady pressure.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · ground.drains",
+   "kind": "ground",
+   "now": "Under it runs {g}, which the {e} feeds. Part of its force drains away before it reaches you.",
+   "findings": [
+    "TWEAK day-2:R2-03: \"Part of its force drains away before it reaches you.\" | \"reach\" repeats with the action headline (D054 and D093 reach ×3 and ×4). | \"Under it runs {Ground}, which the {Element} feeds. Part of its force drains away before it gets to you.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · ground.matches",
+   "kind": "ground",
+   "now": "Under it runs more {g}. It reaches you at full strength.",
+   "findings": [
+    "TWEAK day-2:R2-04: \"It reaches you at full strength.\" | Same \"reach\" repeat. | \"Under it runs more {Element}. It meets you at full strength.\"",
+    "TWEAK year:YR-4: \"It reaches you at full strength.\" | It collides with the Action headline \"widens your reach\" and with the 偏财 Domains line \"Money reaches you\", so \"reach\" appears 3 to 4 times on a page. \"meets\" and \"comes\" would collide with land.quiet, so they are no good either. | \"Under it runs more {el}. You take it at full strength.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · ground.feeds",
+   "kind": "ground",
+   "now": "Under it runs {g}, which feeds the {e}. Its pull on you holds all the way through.",
+   "findings": [
+    "MINOR day-2:R2-05: \"Its pull on you holds all the way through.\" | The reader cannot tell what \"holds all the way through\" means. The point is that the ground keeps the day's energy at full force. | \"Under it runs {Ground}, which feeds the {Element}. It keeps that energy strong on you from morning to night.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.land.bind.month",
+   "kind": "head.land",
+   "now": "a deal at work settles",
+   "findings": [
+    "MINOR day-2:R2-08: \"a deal at work settles\" | The bind.month landing has a colleague and a stalled task, no deal. The headline promises a result the page does not carry. | \"a stalled task at work moves\"",
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F10: \"a deal at work settles\" | The headline settles the bond. | \"a deal at work takes shape\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.hour",
+   "kind": "head.land",
+   "now": "an old plan for later returns",
+   "findings": [
+    "MINOR day-2:R2-13: headline \"an old plan for later returns\" / landing \"An old plan for later returns in nearly its first form … Each return asks for an answer clearer than your last one.\" | The headline restates the landing's opening clause, \"return\" appears ×3, and the hard bond names no cost. | Landing: \"A plan for later comes back in nearly its first form, or a young person asks the same question twice. Answering again costs you time, and the answer has to be clearer than your last one.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.star.tiande",
+   "kind": "head.land",
+   "now": "trouble passes you lightly",
+   "findings": [
+    "MINOR day-2:R2-15: \"Tense moments today soften before they grow\" / \"trouble passes you lightly\" | Both settle the day in the reader's favour. | Star: \"Tense moments today arrive with less weight, and harsh words carry less edge. The day asks little of your nerves.\" Headline half: \"tense moments carry less edge\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.star.yuede",
+   "kind": "head.land",
+   "now": "effort turns trouble into gain",
+   "findings": [
+    "MINOR day-2:R2-16: \"effort turns trouble into gain\" | The headline promises the outcome. The star line correctly makes the gain depend on work. | \"a setback holds something useful\""
+   ]
+  },
+  {
+   "key": "PUSH · clash.hour",
+   "kind": "push",
+   "now": "Something you set for later shifts today. Read your day.",
+   "findings": [
+    "TWEAK day-2:R2-25: \"a date with someone younger\" | At B1, \"a date with someone younger\" reads as romance. | \"Something you promised for later gets pushed back, a visit with someone younger or a step in a long plan. The delay costs you a piece of their trust and your own timetable.\"",
+    "TWEAK month:F21: \"Long plans … Some plans you counted on\" (+ headline \"a plan for later moves\") | \"plan\" ×3 on the page. | \"Long plans come apart and take new shapes this month, while the young people around you change course. Some hopes you counted on are lost along the way, and tracking the rest takes your attention.\" (34 words)"
+   ]
+  },
+  {
+   "key": "GOD shangguan · favours.day.Career.helping",
+   "kind": "favours",
+   "now": "Your best pitch|a modest note",
+   "findings": [
+    "TWEAK day-2:R2-27: \"Your best pitch over a modest note\" | \"a modest note\" has no clear meaning (a memo? a musical note?). | \"Your best pitch over a cautious suggestion\""
+   ]
+  },
+  {
+   "key": "GOD pianyin · favours.month.Mind.heavy",
+   "kind": "favours",
+   "now": "Second thoughts|quick decisions",
+   "findings": [
+    "MINOR month:F11: \"Second thoughts over quick decisions\" | When Mind is released, the energy line on the same page reads \"You think longer and act later, as the weeks pass with decisions still waiting.\" The favours pair then backs the overthinking it should ease. Classically the cure for heavy 偏印 (枭) is to cut it back and let output through (子平真诠 论印绶, 论偏官 on 枭神夺食), not more review. Every chart that shows this pair also shows the mind.heavy line. | \"A decision made on time over endless review\""
+   ]
+  },
+  {
+   "key": "PUSH · punish.hour",
+   "kind": "push",
+   "now": "An old sticking point with someone younger returns. Read your day.",
+   "findings": [
+    "MINOR month:F14: \"Your patience is tested week after week.\" | Restates the headline half (\"the young test your patience\"); passive; adds a third \"week\". | \"A long plan keeps catching on the same problem this month, while someone younger pushes against your rules. Holding your line costs you calm each time it comes up.\" (29 words)"
+   ]
+  },
+  {
+   "key": "GOD shishen · favours.month.Health.helping",
+   "kind": "favours",
+   "now": "Food you linger over|eating on the run",
+   "findings": [
+    "TWEAK month:F15: \"Food you linger over over eating on the run\" | \"over over\" is a slip. | \"Unhurried meals at the table over eating on the run\""
+   ]
+  },
+  {
+   "key": "GOD zhengcai · favours.month.Family.heavy",
+   "kind": "favours",
+   "now": "Splitting the housework|every task on you",
+   "findings": [
+    "TWEAK month:F16: \"over every task on you\" | Not a noun phrase; reads twice. | \"Splitting the housework over doing it all\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.mark.decade",
+   "kind": "head.land",
+   "now": "a long new chapter starts",
+   "findings": [
+    "TWEAK year:YR-5: \"a long new chapter starts\" | \"long new\" is a clumsy stack of adjectives. The length is the information, so it should be named. | \"a new ten-year chapter starts\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.month",
+   "kind": "favours_land",
+   "now": "Clearing a backlog|a brand new brief",
+   "findings": [
+    "TWEAK year:YR-11: \"a brand new brief\" | \"brand new\" used before a noun needs a hyphen in British usage. \"fresh\" avoids the hyphen and keeps the meaning. | \"Clearing a backlog\\ | a fresh brief\""
+   ]
+  }
+ ]
+}

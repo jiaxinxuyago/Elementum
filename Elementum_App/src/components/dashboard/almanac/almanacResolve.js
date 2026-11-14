@@ -57,11 +57,16 @@ function headline(r) {
   return { text: b ? `${a.text}, and ${b.text}` : a.text, draft: a.draft || !!b?.draft, keys: [a.key, b?.key].filter(Boolean) };
 }
 function energyLine(r, hor) {
-  const e = r.energy; const v = hor === 'day' ? `.${Math.floor(Math.round(atNoon(r.period.start) / 86400000) / 10) % 2 ? 'b' : 'a'}` : ''; // V1 A: two day variants, alternating each time the same stem returns
+  const e = r.energy;
+  // V1 A: two day variants, alternating each time the same stem returns. AP5 A: stems pair yang then yin, so two
+  // months in a row often share an element and a function; the yin month reads its own variant (.b).
+  const v = hor === 'day' ? `.${Math.floor(Math.round(atNoon(r.period.start) / 86400000) / 10) % 2 ? 'b' : 'a'}`
+    : hor === 'month' && '乙丁己辛癸'.includes(r.stem) ? '.b' : '';
   const draft = `${e.fn}, an energy you ${e.sign > 0 ? 'grow' : e.sign < 0 ? 'release' : 'hold even'}. ${{ need: 'Your chart is short of it, and this brings it.', grow: 'Your chart holds it already, and more of it helps.', heavy: 'Your chart already holds too much of it.', core_over: 'It is your own element, and you already run over.', core_under: 'It is your own element, and it refills you.', core_even: 'It is your own element.', even: 'It neither lifts nor weighs on you.' }[e.state]}`;
   // keyed by the energy's function, so the text holds for every chart in that state; {el} is filled here
   const key = `ENERGY ${lc(e.fn)} · ${hor}.${e.state}${v}`;
-  const u = hor === 'year' ? chapterUnit(key, unit(key, draft)) : unit(key, draft);
+  let u = hor === 'year' ? chapterUnit(key, unit(key, draft)) : unit(key, draft);
+  if (u.draft && hor === 'month' && v) u = unit(key.slice(0, -2), draft); // a yin variant not yet written reads its base
   return { ...u, text: u.text.replace(/\{el\}/g, e.el) };
 }
 function groundLine(r) {

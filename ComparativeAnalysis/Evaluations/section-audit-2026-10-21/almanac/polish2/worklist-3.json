@@ -1,0 +1,362 @@
+{
+ "worklist": 3,
+ "units": [
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.bind.day",
+   "kind": "land",
+   "now": "A small plan with a partner or the people you live with comes together easily today. Your evening at home asks for your time over your errands.",
+   "findings": [
+    "MINOR day-2:R2-10: \"comes together easily today\" | Settles the plan in the reader's favour. | \"A small plan with a partner or the people you live with takes shape today. Your evening at home asks for your time ahead of your errands.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.bind.hour",
+   "kind": "land",
+   "now": "Someone younger seeks you out today, for help or simply to be near you. A plan for later firms up as well, and it asks for your word.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.bind.month",
+   "kind": "land",
+   "now": "Work pulls together today, and a colleague who kept apart joins your side. A stalled task starts moving again, and it asks you to keep pace with it.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.bind.year",
+   "kind": "land",
+   "now": "Someone from the home you grew up in reaches out, with a call, a message or an old family joke. A reply asks for an hour of your day and a little of your guard.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.clash.day",
+   "kind": "land",
+   "now": "A plan at home changes at short notice, with a partner or whoever you live with. Giving it up costs you the evening you had set aside.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.clash.hour",
+   "kind": "land",
+   "now": "Something you promised for later gets pushed back, a date with someone younger or a step in a long plan. The delay costs you a piece of their trust and your own timetable.",
+   "findings": [
+    "TWEAK day-2:R2-25: \"a date with someone younger\" | At B1, \"a date with someone younger\" reads as romance. | \"Something you promised for later gets pushed back, a visit with someone younger or a step in a long plan. The delay costs you a piece of their trust and your own timetable.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.clash.month",
+   "kind": "land",
+   "now": "A plan you settled at work comes loose, and someone asks you to defend it. Defending it takes time and patience you had meant for other tasks.",
+   "findings": [
+    "MAJOR day-1:R1-M3: \"Defending it takes\"; \"Rearranging around it takes\"; \"Clearing it costs you\"; \"Giving it up costs you\"; \"Going round it once more costs\"; \"Hearing it out once more draws on\"; \"Answering it again eats into\"; \"Leading it today asks for\"; \"Taking it asks you\" | 9 of 17 landing and star units open their second sentence on the same frame: a gerund, \"it\", then a cost verb. A daily reader meets it most days, and AM4 forbids units in one set sharing a second-sentence opener. \"Once more\" appears twice. | Rule: at most two landing units per bond family may use the gerund-it-cost frame. Recast the rest with the cost as subject (\"The evening you had set aside goes to it\"), a place or time opener (\"By evening…\" without a settled outcome), or the gate as subject.",
+    "TWEAK day-1:R1-t3: \"defend it. Defending it takes\" | Repeated word across the sentence join. | \"A plan you settled at work comes loose, and someone asks you to defend it. Making your case takes time and patience you had meant for other tasks.\"",
+    "TWEAK day-2:R2-24: \"asks you to defend it. Defending it takes\" | A repeated word with an obvious swap. | \"A plan you settled at work comes loose, and someone asks you to defend it. Making the case takes time and patience you had meant for other tasks.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.clash.year",
+   "kind": "land",
+   "now": "News from the family you grew up in changes a plan without warning, a visit moved or a date dropped. Rearranging around it takes a slice of your week.",
+   "findings": [
+    "TWEAK day-1:R1-t4: \"takes a slice of your week\" | A Day landing claims a week, which is a factual slip of span. | \"News from the family you grew up in changes a plan without warning, a visit moved or a date dropped. Rearranging around it takes a slice of your day.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.frame.day",
+   "kind": "land",
+   "now": "Home gathers strength, with a partner or the people you live with pulling the same way. Shared chores go faster with every pair of hands, your own included.",
+   "findings": [
+    "MINOR day-2:R2-09: \"Shared chores go faster with every pair of hands, your own included.\" | It predicts the outcome instead of saying what the day asks. | \"Home gathers strength, with a partner or the people you live with pulling the same way. Shared chores ask for every pair of hands, your own included.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.frame.hour",
+   "kind": "land",
+   "now": "Younger people gather round your ideas, and a long plan picks up speed. Something you set going a while back now asks for your steering.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.frame.month",
+   "kind": "land",
+   "now": "Momentum builds at work, and people line up behind a task you care about. Leading it today asks for more of your hours than you had set aside.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.frame.year",
+   "kind": "land",
+   "now": "Relatives from your first home gather round in person or by message, and old ties pull tight again. Their eyes turn to you as the one at the centre.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.harm.day",
+   "kind": "land",
+   "now": "A small thing at home is misread, a look or a tone a partner takes differently from how you meant it. The evening loses some of its ease while the doubt sits with you.",
+   "findings": [
+    "MINOR day-1:R1-m9: \"A small thing at home is misread, a look or a tone a partner takes differently from how you meant it.\" | \"A tone a partner takes\" has to be parsed twice. It assumes a partner where the sister lines say \"a partner or whoever you live with\". \"Small… at home\" repeats the headline. | \"A look or a tone of yours is taken the wrong way, by a partner or whoever you live with. The evening loses some of its ease while the doubt sits with you.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.harm.hour",
+   "kind": "land",
+   "now": "A young person you guide feels passed over, or a plan for later loses a little of its shine. Noticing the quiet change takes your full attention.",
+   "findings": [
+    "MINOR day-2:R2-14: \"A young person you guide feels passed over … Noticing the quiet change takes your full attention.\" | It assumes a mentee and states their feeling, and \"takes your full attention\" is a soft cost. | \"Someone younger near you feels passed over, or a plan for later loses a little of its shine. The change is easy to miss, and catching it costs you time you meant for yourself.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.harm.month",
+   "kind": "land",
+   "now": "A colleague takes a word of yours the wrong way, and the air at work cools a little. Clearing it costs you a plain conversation you would rather skip.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.harm.year",
+   "kind": "land",
+   "now": "A remark from an older relative lands wrong, though nobody meant it unkindly. It stings more than its size, and the sting stays with you through the day.",
+   "findings": [
+    "MINOR day-1:R1-m2: \"It stings more than its size, and the sting stays with you through the day.\" | \"stings… sting\" repeats. \"Stings more than its size\" is an odd idiom, and \"stays with you through the day\" settles the day's end. | \"A remark from an older relative lands wrong, though nobody meant it unkindly. The hurt runs larger than the words, and the day gives you no quick way to set it down.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.punish.day",
+   "kind": "land",
+   "now": "An old argument at home comes back, or a chore that never stays done. Going round it once more costs your evening and some of your patience.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.punish.hour",
+   "kind": "land",
+   "now": "A younger person tests the same limit again, or a long plan sticks at its usual snag. Holding the line asks for a calm you have to find twice over.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.punish.month",
+   "kind": "land",
+   "now": "Friction at work returns, the same complaint from the same quarter as before. Answering it again eats into hours you had planned for something new.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.punish.year",
+   "kind": "land",
+   "now": "An old disagreement from your first home stirs again, over the same small point as before. Hearing it out once more draws on a patience your day had meant for other things.",
+   "findings": [
+    "TWEAK day-1:R1-t5: \"draws on a patience\" | It collides with the headline half \"Fire draws on your reserves\" on D007. | \"An old disagreement from your first home stirs again, over the same small point as before. Hearing it out once more uses up a patience your day had meant for other things.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.day",
+   "kind": "land",
+   "now": "Home repeats an old pattern, the same talk over dinner or the same small habit. Seeing it plainly asks you to decide which part you still want.",
+   "findings": [
+    "MINOR day-2:R2-11: \"Seeing it plainly asks you to decide which part you still want.\" | A repeat is a hard bond, so its cost must be plain. This line names a task and no cost. | \"Home repeats an old pattern, the same talk over dinner or the same small habit. The rerun spends an evening you meant for something new, and the choice of what to keep falls to you.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.hour",
+   "kind": "land",
+   "now": "An old plan for later returns in nearly its first form, or a young person asks the same question twice. Each return asks for an answer clearer than your last one.",
+   "findings": [
+    "MINOR day-2:R2-13: headline \"an old plan for later returns\" / landing \"An old plan for later returns in nearly its first form … Each return asks for an answer clearer than your last one.\" | The headline restates the landing's opening clause, \"return\" appears ×3, and the hard bond names no cost. | Landing: \"A plan for later comes back in nearly its first form, or a young person asks the same question twice. Answering again costs you time, and the answer has to be clearer than your last one.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.month",
+   "kind": "land",
+   "now": "Work brings back a task you thought was finished, or a meeting that covers familiar points. Old steps take fresh hours, while your newer work waits behind them.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.year",
+   "kind": "land",
+   "now": "An old family story comes up again, told the way it always is. One part of it sounds different this time, and it points back at you.",
+   "findings": [
+    "MINOR day-2:R2-12: \"One part of it sounds different this time, and it points back at you.\" | Quotable, but the cost is only implied. | \"An old family story comes up again, told the way it always is. One part of it now points back at you, and hearing it costs you some of your calm.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.bind.day",
+   "kind": "land",
+   "now": "The ties at home tighten this month, and a shared plan with a partner or the people you live with settles. Each evening brings you back to a calmer house.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F08: \"a shared plan … settles. Each evening brings you back to a calmer house.\" | Predicts the outcome (settled, calmer). | \"The ties at home tighten this month, as a shared plan with a partner or the people you live with comes together. Each evening asks you to give it a little more of yourself.\" (34 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.bind.hour",
+   "kind": "land",
+   "now": "Bonds with the people after you deepen this month, a child, a younger relative or someone you train. Small gestures of care pass between you, and they ask for your time in return.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.bind.month",
+   "kind": "land",
+   "now": "Your place at work settles this month, and an agreement with a colleague or a client holds firm. Steadier support stands behind your tasks week by week.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F09: \"an agreement with a colleague or a client holds firm. Steadier support stands behind your tasks week by week.\" | Predicts that the agreement holds; promises support. | \"Your place at work draws closer to others this month, through an agreement with a colleague or a client. Keeping to its terms asks for your care week by week.\" (29 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.bind.year",
+   "kind": "land",
+   "now": "The family you grew up in draws you back this month, through visits, old recipes or a shared decision. Ease with them returns after a long while, along with their claims on your time.",
+   "findings": [
+    "MAJOR month:F01: \"as the weeks look after you\"; \"as others start to count on you\"; \"work you already do well\"; \"Ease with them returns after a long while\"; \"Each evening brings you back to a calmer house\"; \"holds firm. Steadier support stands behind your tasks\" | The rule is now AM1, but the welcome energies and the soft bonds still settle the month in the reader's favour, praise the reader's skill (\"carry well\", \"do well\"), or claim a history no chart holds (\"after a long while\", \"a talent you have shown before\"). The hard bonds already follow the rule (pattern 3). The soft ones do not, so on a grow + bind page (M026, M056, M083, M085) the reader is told twice that the month goes well. The Pattern's P11 failure (\"things are flowing for you\") is the same one. | Rule: a welcome energy or a soft bond names what arrives and what it asks of the reader (time, care, an answer). It never names the result, the reader's skill or the past. Rebuild the nine units listed. Replacement texts are proposed in F02–F10.",
+    "MINOR month:F07: \"Ease with them returns after a long while, along with their claims on your time.\" | Assumes past distance and settles the bond in the reader's favour (the \"trust returns\" case AM1 names). | \"The family you grew up in draws you back this month, through visits, old recipes or a shared decision. Their claims on your time grow along with the closeness.\" (29 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.clash.day",
+   "kind": "land",
+   "now": "Your home life is shaken up this month, in the furniture, the plans or the shape of a shared week. Old habits with the people closest to you stop working, and new ones cost you effort to build.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.clash.hour",
+   "kind": "land",
+   "now": "Long plans come apart and take new shapes this month, while the young people around you change course. Some plans you counted on are lost along the way, and tracking the rest takes your attention.",
+   "findings": [
+    "TWEAK month:F21: \"Long plans … Some plans you counted on\" (+ headline \"a plan for later moves\") | \"plan\" ×3 on the page. | \"Long plans come apart and take new shapes this month, while the young people around you change course. Some hopes you counted on are lost along the way, and tracking the rest takes your attention.\" (34 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.clash.month",
+   "kind": "land",
+   "now": "A role or a routine you settled at work comes loose this month and has to be rebuilt in a new shape. The rebuilding costs you weeks of steady footing.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.clash.year",
+   "kind": "land",
+   "now": "Something settled in the family you grew up in shifts this month, a role among siblings or who looks after whom. Your old place moves under you, and the new one is not yet clear.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.frame.day",
+   "kind": "land",
+   "now": "Life at home gains strength this month, with a partner or the people you live with backing the same plan. The house pulls one way week by week, and your part in it grows.",
+   "findings": [
+    "MINOR month:F13: \"The house pulls one way week by week, and your part in it grows.\" | \", and your\" is the banned \", and you\" joint with a possessive, and it ends the page's reader sentence. | \"Life at home gains strength this month, with a partner or the people you live with backing the same plan. As the house pulls one way week by week, your part in it grows.\" (33 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.frame.hour",
+   "kind": "land",
+   "now": "Plans for later gather support this month, and young people around you bring fresh energy to them. A long project takes on weight, and its demands on your time grow with it.",
+   "findings": [
+    "TWEAK month:F24: \"this month, and young people … A long project takes on weight, and its demands\" | The same \", and\" clause joint in both sentences. | \"Plans for later gather support this month, as young people around you bring fresh energy to them. A long project takes on weight, and its demands on your time grow with it.\" (34 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.frame.month",
+   "kind": "land",
+   "now": "Work builds speed this month, with new people joining and tasks falling into place. The momentum asks you to carry more than you had planned.",
+   "findings": [
+    "TWEAK month:F23: \"carry more than you had planned\" | Repeats \"more than\" from every heavy energy line (\"more than your chart can use\", \"more force than\"). | \"Work builds speed this month, with new people joining and tasks falling into place. The momentum adds to your load beyond what you had planned.\" (26 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.frame.year",
+   "kind": "land",
+   "now": "Your wider family pulls together this month around an event or a shared need. Their call on your strength comes often, and answering it fills your weekends.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.harm.day",
+   "kind": "land",
+   "now": "Little misreadings gather at home this month, with a partner or the people you live with. Each one is small, though together they wear on your evenings.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.harm.hour",
+   "kind": "land",
+   "now": "This month a quiet gap opens between you and someone you teach or look after. Words do little to close it, and it asks for your time instead.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.harm.month",
+   "kind": "land",
+   "now": "Small slights pile up at work this month, a credit not given or a message left unread. Keeping your own record straight costs you calm with each one.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.harm.year",
+   "kind": "land",
+   "now": "A coolness creeps into the family you grew up in this month, from a word taken badly or a call left unreturned. The distance costs you the easy warmth of a usual call home.",
+   "findings": [
+    "TWEAK month:F17: \"a call left unreturned … the easy warmth of a usual call home\" | \"call\" twice in two sentences. | \"A coolness creeps into the family you grew up in this month, from a word taken badly or a call left unreturned. The distance costs you the easy warmth you usually find with them.\" (35 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.punish.day",
+   "kind": "land",
+   "now": "An old sore point at home keeps returning this month, usually over who does what. Each round draws on your patience, and the weeks give little rest between them.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.punish.hour",
+   "kind": "land",
+   "now": "A long plan keeps catching on the same problem this month, while someone younger pushes against your rules. Your patience is tested week after week.",
+   "findings": [
+    "MINOR month:F14: \"Your patience is tested week after week.\" | Restates the headline half (\"the young test your patience\"); passive; adds a third \"week\". | \"A long plan keeps catching on the same problem this month, while someone younger pushes against your rules. Holding your line costs you calm each time it comes up.\" (29 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.punish.month",
+   "kind": "land",
+   "now": "The same friction at work keeps coming back all month, a process that jams or a rule nobody likes. Working around it costs you effort every single week.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.punish.year",
+   "kind": "land",
+   "now": "A family grievance from years back stays alive through this month, raised at each visit or call. Every mention reopens it, and its weight sits on you between calls.",
+   "findings": [
+    "TWEAK month:F18: \"each visit or call … between calls\" | \"call\" twice. | \"A family grievance from years back stays alive through this month, raised at each visit or call. Every mention reopens it, and its weight stays with you in between.\" (29 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · echo.day",
+   "kind": "echo",
+   "now": "Today the day lands on the same gate the month already presses, and your home carries both loads at once.",
+   "findings": [
+    "TWEAK day-2:R2-26: \"Today the day lands\" | A stumble. | \"The day lands on the same gate the month already presses, and your home carries both loads at once.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · echo.hour",
+   "kind": "echo",
+   "now": "Your plans for later and the young people near you carry the month's pull and the day's at once, on the same gate.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · echo.month",
+   "kind": "echo",
+   "now": "The pressure the month has put on your work comes to a head today, because the day lands on the same gate.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · echo.year",
+   "kind": "echo",
+   "now": "On the gate of your first home, the day lands where the month already presses, doubling the strain you carry.",
+   "findings": [
+    "MINOR day-1:R1-m8: \"On the gate of your first home, the day lands where the month already presses, doubling the strain you carry.\" | \"Doubling\" is an amount the engine does not compute. The opener repeats the engine clause's \"the seat of your first home\", and the line ends on a participial tail. | \"The month already presses on your first home, so today's strain there falls on ground that is sore for you.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.quiet",
+   "kind": "land",
+   "now": "No strong bond reaches your gates this time. What you meet comes from the energy above, at the pace it sets for you.",
+   "findings": [
+    "MINOR year:YR-1: \"No strong bond reaches your gates this time.\" | This is false for some charts. On Y108 the 丙午 year repeats the reader's 丙午 month and hour pillars exactly (伏吟), and 午午 is a self-punishment (自刑: 三命通会 lists 辰午酉亥 as 自刑) in the month, day and hour gates. The engine scores these below the threshold to lead, but the line says no strong bond exists at all, which is not what happened. | \"No bond at your gates is strong enough to lead this time. What you meet comes from the energy above, at the pace it sets for you.\" (27 words. It stays true whatever the engine scored below the threshold.)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.void",
+   "kind": "void",
+   "now": "The day falls in your Void, a gap in your chart that opens two days in every twelve. Whatever you start today lands late or lighter than promised.",
+   "findings": [
+    "MINOR day-1:R1-m3: \"Whatever you start today lands late or lighter than promised.\" | It predicts the outcome of anything begun, which is fate on a two-day gap. | \"The day falls in your Void, a gap in your chart that opens two days in every twelve. Ground is thin under anything you begin today, so the effort it takes runs ahead of what it shows you.\""
+   ]
+  }
+ ]
+}

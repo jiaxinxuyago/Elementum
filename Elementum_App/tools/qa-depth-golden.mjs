@@ -58,7 +58,7 @@ const V2 = [
   [{year: 1984, month: 7, day: 9, hour: 4, location: 'Beijing', gender: 'female'}, '正财格 formed cured'], // 甲子 辛未 甲辰 丙寅 · weak · 财格佩印 / 比劫帮身
   [{year: 1983, month: 4, day: 8, hour: 1, location: 'Beijing', gender: 'male'}, '正官格 formed cured'], // 癸亥 丙辰 丙寅 己丑 · weak · 官逢伤而透印以解之
   [{year: 1991, month: 10, day: 26, hour: 5, location: 'Beijing', gender: 'female'}, '食神格 formed cured'], // 辛未 戊戌 己巳 丁卯 · extremely_strong · 食逢枭而就杀以成格
-  [{year: 1983, month: 1, day: 1, hour: 7, location: 'Beijing', gender: 'male'}, '偏财格 broken peers officer'], // 壬戌 癸丑 己丑 戊辰 · strong · 财轻比重
+  [{year: 1983, month: 1, day: 1, hour: 7, location: 'Beijing', gender: 'male'}, '偏财格 formed cured'], // 壬戌 壬子 己丑 戊辰 (AM6-ON 2026-11-14: 1 January is before 小寒, so the month is 子, not 丑) · 月令子 癸 = 偏财
   [{year: 1986, month: 2, day: 15, hour: 1, location: 'Beijing', gender: 'female'}, '七杀格 formed cured'], // 丙寅 庚寅 庚寅 丁丑 · weak · 去官留杀 / 官杀化印
   [{year: 1993, month: 10, day: 1, hour: 23, location: 'Beijing', gender: 'male'}, '正财格 strained heavywealth seal'], // 癸酉 辛酉 丙辰 戊子 · extremely_weak · 财多身弱
   [{year: 1977, month: 12, day: 19, hour: 19, location: 'Beijing', gender: 'female'}, '伤官格 formed cured'], // 丁巳 壬子 庚戌 丙戌 · weak · 金水伤官要见官
@@ -70,7 +70,7 @@ const V2 = [
   [{year: 2002, month: 2, day: 18, hour: 5, location: 'Beijing', gender: 'female'}, '正印格 strained excess wealth'], // 壬午 壬寅 丁巳 癸卯 · extremely_strong · 印重身强，透财以抑太过
   [{year: 1979, month: 10, day: 14, hour: 13, location: 'Beijing', gender: 'female'}, '正官格 strained heavy seal'], // 己未 甲戌 甲寅 辛未 · weak · 官重身轻，用印
   [{year: 1986, month: 9, day: 22, hour: 9, location: 'Beijing', gender: 'female'}, '食神格 broken alchemist wealth'], // 丙寅 丁酉 己巳 己巳 · moderate · 食神逢枭
-  [{ year: 2003, month: 11, day: 6, hour: 14, location: 'Beijing', gender: 'female' }, '月劫格 strained unchecked output'], // 癸未 癸亥 癸未 己未 · extremely_strong · 透煞而无制 (the General on a stem, no output)
+  [{ year: 2003, month: 11, day: 6, hour: 14, location: 'Beijing', gender: 'female' }, '正官格 strained mixed seal'], // 癸未 壬戌 癸未 己未 (AM6-ON 2026-11-14: 立冬 2003 falls on 8 November, so 6 November is still the 戌 month) · 戌 戊 = 正官, 戊 on the hour
   [{ year: 1990, month: 8, day: 24, hour: 3, location: 'Beijing', gender: 'male' }, '月劫格 formed none'], // 庚午 甲申 辛酉 庚寅 · the General only inside a branch, wealth on a stem: 透财
   [{year: 1973, month: 6, day: 21, hour: 0, location: 'Beijing', gender: 'male'}, '月刃格 strained idle officer'], // 癸丑 戊午 戊子 壬子 · strong · 刃无官杀
   [{year: 1993, month: 8, day: 26, hour: 15, location: 'Beijing', gender: 'male'}, '伤官格 strained drained seal'], // 癸酉 庚申 己卯 壬申 · weak · 伤官泄身太过

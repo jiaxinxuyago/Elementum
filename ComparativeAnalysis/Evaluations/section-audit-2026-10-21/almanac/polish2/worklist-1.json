@@ -1,0 +1,316 @@
+{
+ "worklist": 1,
+ "units": [
+  {
+   "key": "ENERGY action · day.even.a",
+   "kind": "energy",
+   "now": "{el} brings Action, a fair share that fits your chart. Pay matches effort today, each task asking no more of you than it gives back.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · day.even.b",
+   "kind": "energy",
+   "now": "{el} brings Action, an even weight your chart carries easily. Tasks arrive one at a time today, and what they pay back matches the effort you give them.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · day.grow.a",
+   "kind": "energy",
+   "now": "{el} brings Action, more of an energy that already serves you well. Effort travels further than it did yesterday, while each task asks a little more of your drive.",
+   "findings": [
+    "MAJOR day-1:R1-M1: \"an energy you already hold and still welcome\"; \"more of a support you already lean on\"; \"an energy you already hold and still need\"; \"adding to a gift you already use\"; \"more of an outlet that already serves you\"; \"more of a structure that already helps you\"; \"adding to a discipline you already keep\" | 7 of 7 grow energy units assert the reader already has the energy. A shared unit cannot know volume, and a grown energy is often thin or absent in the chart (the AM3 logic, mirrored). On a chart without the element the line is false. | Rule: a grow line names the direction only. Use \"an energy your chart wants\" or \"one your chart runs short of\". Never \"already\", \"more of\", \"adding to\". Rebuild all 7 openers, each different, e.g. \"Water brings Mind, a support your chart wants.\"",
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY action · day.grow.b",
+   "kind": "energy",
+   "now": "{el} brings Action, an energy you already hold and still need. Useful work comes within reach today, asking you to pick the tasks worth your effort.",
+   "findings": [
+    "MAJOR day-1:R1-M1: \"an energy you already hold and still welcome\"; \"more of a support you already lean on\"; \"an energy you already hold and still need\"; \"adding to a gift you already use\"; \"more of an outlet that already serves you\"; \"more of a structure that already helps you\"; \"adding to a discipline you already keep\" | 7 of 7 grow energy units assert the reader already has the energy. A shared unit cannot know volume, and a grown energy is often thin or absent in the chart (the AM3 logic, mirrored). On a chart without the element the line is false. | Rule: a grow line names the direction only. Use \"an energy your chart wants\" or \"one your chart runs short of\". Never \"already\", \"more of\", \"adding to\". Rebuild all 7 openers, each different, e.g. \"Water brings Mind, a support your chart wants.\"",
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY action · day.heavy.a",
+   "kind": "energy",
+   "now": "{el} brings Action, an energy your chart does better without. Tasks and offers pile up past what you can handle, each one asking for strength you need elsewhere.",
+   "findings": [
+    "MINOR day-1:R1-m13: \"leaving you tired from chasing by the day's close\" | It settles the day's end, and \"returns\" collides with the landing and reminder on D011. | \"Earth brings Action, more effort and reach than your chart can use. Every gain costs more of your strength today than it gives back.\"",
+    "TWEAK day-2:R2-23: \"pile up\" under the headline \"piles tasks on you\" | The headline's verb is repeated. | \"Fire brings Action, an energy your chart does better without. Tasks and offers stack up past what you can handle, each one asking for strength you need elsewhere.\""
+   ]
+  },
+  {
+   "key": "ENERGY action · day.heavy.b",
+   "kind": "energy",
+   "now": "{el} brings Action, more effort and reach than your chart can use. Every gain costs more than it returns today, leaving you tired from chasing by the day's close.",
+   "findings": [
+    "MINOR day-1:R1-m13: \"leaving you tired from chasing by the day's close\" | It settles the day's end, and \"returns\" collides with the landing and reminder on D011. | \"Earth brings Action, more effort and reach than your chart can use. Every gain costs more of your strength today than it gives back.\"",
+    "TWEAK day-2:R2-23: \"pile up\" under the headline \"piles tasks on you\" | The headline's verb is repeated. | \"Fire brings Action, an energy your chart does better without. Tasks and offers stack up past what you can handle, each one asking for strength you need elsewhere.\""
+   ]
+  },
+  {
+   "key": "ENERGY action · day.need.a",
+   "kind": "energy",
+   "now": "{el} brings Action, an energy your chart runs short of. A chance to earn or to reach further appears today, asking you for the strength to go after it.",
+   "findings": [
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences.",
+    "TWEAK day-2:R2-22: \"the reach your chart wants. Ways to earn and to reach further\" | \"reach\" ×2 in the line, ×4 on the page. | \"Fire brings Action, the drive your chart wants. Ways to earn and to go further show up today, each one waiting on your first move.\""
+   ]
+  },
+  {
+   "key": "ENERGY action · day.need.b",
+   "kind": "energy",
+   "now": "{el} brings Action, the reach your chart wants. Ways to earn and to reach further show up today, each one waiting on your first move.",
+   "findings": [
+    "TWEAK day-2:R2-22: \"the reach your chart wants. Ways to earn and to reach further\" | \"reach\" ×2 in the line, ×4 on the page. | \"Fire brings Action, the drive your chart wants. Ways to earn and to go further show up today, each one waiting on your first move.\""
+   ]
+  },
+  {
+   "key": "ENERGY body · day.core_even.a",
+   "kind": "energy",
+   "now": "{el} brings more Body, your own energy, on a day you stand in balance. It adds a steady push without tipping you, while your pace stays even through the day.",
+   "findings": [
+    "TWEAK day-2:R2-20: \"on a day you stand in balance … through the day\" | Balance is the chart's condition, not the day's, and \"day\" appears ×2. | \"Metal brings more Body, your own energy, to a chart that stands in balance. It adds a steady push without tipping you, while your pace stays even through the day.\" (element slot kept)"
+   ]
+  },
+  {
+   "key": "ENERGY body · day.core_even.b",
+   "kind": "energy",
+   "now": "{el} brings more Body, a measure of your own strength that fits you well. Nothing pulls you off centre today, with your effort matching each task you meet.",
+   "findings": [
+    "TWEAK day-2:R2-20: \"on a day you stand in balance … through the day\" | Balance is the chart's condition, not the day's, and \"day\" appears ×2. | \"Metal brings more Body, your own energy, to a chart that stands in balance. It adds a steady push without tipping you, while your pace stays even through the day.\" (element slot kept)"
+   ]
+  },
+  {
+   "key": "ENERGY body · day.core_over.a",
+   "kind": "energy",
+   "now": "{el} brings more Body, your own energy, when your chart does better without it. You push harder than the day needs, and the strain shows before night.",
+   "findings": [
+    "TWEAK day-1:R1-t2: \"when it weighs on you… bear the weight\" | Repeated word with an obvious swap. | \"Earth brings more Body, the energy you are made of, when it weighs on you. You take on more than your share, and the people near you carry the strain.\"",
+    "TWEAK day-2:R2-21: \"when it weighs on you … bear the weight\" | Repeats the weigh/weight stem. | \"Earth brings more Body, the energy you are made of, when it weighs on you. You take on more than your share, and the people near you carry the extra load.\""
+   ]
+  },
+  {
+   "key": "ENERGY body · day.core_over.b",
+   "kind": "energy",
+   "now": "{el} brings more Body, the energy you are made of, when it weighs on you. You take on more than your share, and the people near you bear the weight.",
+   "findings": [
+    "TWEAK day-1:R1-t2: \"when it weighs on you… bear the weight\" | Repeated word with an obvious swap. | \"Earth brings more Body, the energy you are made of, when it weighs on you. You take on more than your share, and the people near you carry the strain.\"",
+    "TWEAK day-2:R2-21: \"when it weighs on you … bear the weight\" | Repeats the weigh/weight stem. | \"Earth brings more Body, the energy you are made of, when it weighs on you. You take on more than your share, and the people near you carry the extra load.\""
+   ]
+  },
+  {
+   "key": "ENERGY body · day.core_under.a",
+   "kind": "energy",
+   "now": "{el} brings more Body, a fresh supply of your own strength when your chart runs thin. Stamina comes back in steps through the day, giving your will a firmer floor.",
+   "findings": [
+    "TWEAK day-1:R1-t1: \"the energy your chart runs low on\" | The definite article ranks the energy as the one the chart is short of (AM2). | \"Wood brings more Body, an energy your chart runs low on. Strength returns to a tired will today, as each exchange asks you to hold your own.\""
+   ]
+  },
+  {
+   "key": "ENERGY body · day.core_under.b",
+   "kind": "energy",
+   "now": "{el} brings more Body, the energy your chart runs low on. Strength returns to a tired will today, as each exchange asks you to hold your own.",
+   "findings": [
+    "TWEAK day-1:R1-t1: \"the energy your chart runs low on\" | The definite article ranks the energy as the one the chart is short of (AM2). | \"Wood brings more Body, an energy your chart runs low on. Strength returns to a tired will today, as each exchange asks you to hold your own.\""
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.even.a",
+   "kind": "energy",
+   "now": "{el} brings Expression, a gentle measure that suits you. You talk and make things at your usual pace today, with nothing pushing you to say more.",
+   "findings": [
+    "TWEAK day-2:R2-19: \"at a level … at an easy level today\" | The same word twice in two sentences. | \"Water brings Expression, at a level that neither lifts nor tires you. Talk flows at an easy pace today, asking no effort of your voice.\" (element slot kept)"
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.even.b",
+   "kind": "energy",
+   "now": "{el} brings Expression, at a level that neither lifts nor tires you. Talk flows at an easy level today, asking no effort of your voice.",
+   "findings": [
+    "TWEAK day-2:R2-19: \"at a level … at an easy level today\" | The same word twice in two sentences. | \"Water brings Expression, at a level that neither lifts nor tires you. Talk flows at an easy pace today, asking no effort of your voice.\" (element slot kept)"
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.grow.a",
+   "kind": "energy",
+   "now": "{el} brings Expression, adding to a gift you already use. Hands and words work fast today, pushing you toward something worth showing.",
+   "findings": [
+    "MAJOR day-1:R1-M1: \"an energy you already hold and still welcome\"; \"more of a support you already lean on\"; \"an energy you already hold and still need\"; \"adding to a gift you already use\"; \"more of an outlet that already serves you\"; \"more of a structure that already helps you\"; \"adding to a discipline you already keep\" | 7 of 7 grow energy units assert the reader already has the energy. A shared unit cannot know volume, and a grown energy is often thin or absent in the chart (the AM3 logic, mirrored). On a chart without the element the line is false. | Rule: a grow line names the direction only. Use \"an energy your chart wants\" or \"one your chart runs short of\". Never \"already\", \"more of\", \"adding to\". Rebuild all 7 openers, each different, e.g. \"Water brings Mind, a support your chart wants.\"",
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.grow.b",
+   "kind": "energy",
+   "now": "{el} brings Expression, more of an outlet that already serves you. Jokes and sketches come quickly today, each one asking you to show it.",
+   "findings": [
+    "MAJOR day-1:R1-M1: \"an energy you already hold and still welcome\"; \"more of a support you already lean on\"; \"an energy you already hold and still need\"; \"adding to a gift you already use\"; \"more of an outlet that already serves you\"; \"more of a structure that already helps you\"; \"adding to a discipline you already keep\" | 7 of 7 grow energy units assert the reader already has the energy. A shared unit cannot know volume, and a grown energy is often thin or absent in the chart (the AM3 logic, mirrored). On a chart without the element the line is false. | Rule: a grow line names the direction only. Use \"an energy your chart wants\" or \"one your chart runs short of\". Never \"already\", \"more of\", \"adding to\". Rebuild all 7 openers, each different, e.g. \"Water brings Mind, a support your chart wants.\"",
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.heavy.a",
+   "kind": "energy",
+   "now": "{el} brings Expression, an outlet your chart does better without. Words spill out faster than you weigh them, costing you a remark you would take back.",
+   "findings": [
+    "MINOR day-1:R1-m11: \"leaving you spent by dusk\" | It settles how the day ends. | \"Fire brings Expression, more output than your chart can use. Chatter and small tasks claim your energy today, a little at a time.\""
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.heavy.b",
+   "kind": "energy",
+   "now": "{el} brings Expression, more output than your chart can use. Chatter and small tasks drain your energy today, leaving you spent by dusk.",
+   "findings": [
+    "MINOR day-1:R1-m11: \"leaving you spent by dusk\" | It settles how the day ends. | \"Fire brings Expression, more output than your chart can use. Chatter and small tasks claim your energy today, a little at a time.\""
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.need.a",
+   "kind": "energy",
+   "now": "{el} brings Expression, an outlet your chart runs short of. Something you make or say today looks for a listener, asking you to let it out.",
+   "findings": [
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.need.b",
+   "kind": "energy",
+   "now": "{el} brings Expression, one outlet your chart wants. Words come easily today, pressing you to say what you have been holding back.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.even.a",
+   "kind": "energy",
+   "now": "{el} brings Mind, an energy that sits lightly on your chart. Thinking stays clear and ordinary today, with learning moving at your usual speed.",
+   "findings": [
+    "TWEAK year:YR-8: \"an energy that sits lightly on your chart\" | The headline on the same page is `head.energy.mind.even` \"{el} sits quietly with you\", so \"sits\" appears twice. | \"{el} brings Mind, an energy that rests lightly on your chart. Thinking stays clear and ordinary today, with learning moving at your usual speed.\"",
+    "TWEAK year:YR-9: \"A quiet hour comes and goes\" | It repeats \"quietly\" from the headline half \"{el} sits quietly with you\". | \"{el} brings Mind, neither more than you need nor less. A calm hour comes and goes without fuss, leaving your mind your own.\""
+   ]
+  },
+  {
+   "key": "ENERGY mind · day.even.b",
+   "kind": "energy",
+   "now": "{el} brings Mind, neither more than you need nor less. A quiet hour comes and goes without fuss, leaving your mind your own.",
+   "findings": [
+    "TWEAK year:YR-8: \"an energy that sits lightly on your chart\" | The headline on the same page is `head.energy.mind.even` \"{el} sits quietly with you\", so \"sits\" appears twice. | \"{el} brings Mind, an energy that rests lightly on your chart. Thinking stays clear and ordinary today, with learning moving at your usual speed.\"",
+    "TWEAK year:YR-9: \"A quiet hour comes and goes\" | It repeats \"quietly\" from the headline half \"{el} sits quietly with you\". | \"{el} brings Mind, neither more than you need nor less. A calm hour comes and goes without fuss, leaving your mind your own.\""
+   ]
+  },
+  {
+   "key": "ENERGY mind · day.grow.a",
+   "kind": "energy",
+   "now": "{el} brings Mind, an energy you already hold and still welcome. A question you have carried opens up today, asking you to follow it to its end.",
+   "findings": [
+    "MAJOR day-1:R1-M1: \"an energy you already hold and still welcome\"; \"more of a support you already lean on\"; \"an energy you already hold and still need\"; \"adding to a gift you already use\"; \"more of an outlet that already serves you\"; \"more of a structure that already helps you\"; \"adding to a discipline you already keep\" | 7 of 7 grow energy units assert the reader already has the energy. A shared unit cannot know volume, and a grown energy is often thin or absent in the chart (the AM3 logic, mirrored). On a chart without the element the line is false. | Rule: a grow line names the direction only. Use \"an energy your chart wants\" or \"one your chart runs short of\". Never \"already\", \"more of\", \"adding to\". Rebuild all 7 openers, each different, e.g. \"Water brings Mind, a support your chart wants.\"",
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY mind · day.grow.b",
+   "kind": "energy",
+   "now": "{el} brings Mind, more of a support you already lean on. Reading and study come easily today, as what you take in asks for your full attention.",
+   "findings": [
+    "MAJOR day-1:R1-M1: \"an energy you already hold and still welcome\"; \"more of a support you already lean on\"; \"an energy you already hold and still need\"; \"adding to a gift you already use\"; \"more of an outlet that already serves you\"; \"more of a structure that already helps you\"; \"adding to a discipline you already keep\" | 7 of 7 grow energy units assert the reader already has the energy. A shared unit cannot know volume, and a grown energy is often thin or absent in the chart (the AM3 logic, mirrored). On a chart without the element the line is false. | Rule: a grow line names the direction only. Use \"an energy your chart wants\" or \"one your chart runs short of\". Never \"already\", \"more of\", \"adding to\". Rebuild all 7 openers, each different, e.g. \"Water brings Mind, a support your chart wants.\"",
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY mind · day.heavy.a",
+   "kind": "energy",
+   "now": "{el} brings Mind, a support that weighs on your chart today. Thoughts circle without landing, costing you the hours you meant for doing.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.heavy.b",
+   "kind": "energy",
+   "now": "{el} brings Mind, more thought than your chart can use. Plans stay on paper today, as you think a step past where thinking helps.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.need.a",
+   "kind": "energy",
+   "now": "{el} brings Mind, a support your chart runs short of. A clear thought or a kind word reaches you today, asking you to take it in.",
+   "findings": [
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences.",
+    "TWEAK day-2:R2-28: \"Someone backs you without being asked\" | It is unclear who was not asked. | \"Wood brings Mind, the energy that feeds you and one your chart wants. Someone backs you before you ask, giving your thinking firmer ground.\""
+   ]
+  },
+  {
+   "key": "ENERGY mind · day.need.b",
+   "kind": "energy",
+   "now": "{el} brings Mind, the energy that feeds you and one your chart wants. Someone backs you without being asked, giving your thinking firmer ground.",
+   "findings": [
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences.",
+    "TWEAK day-2:R2-28: \"Someone backs you without being asked\" | It is unclear who was not asked. | \"Wood brings Mind, the energy that feeds you and one your chart wants. Someone backs you before you ask, giving your thinking firmer ground.\""
+   ]
+  },
+  {
+   "key": "ENERGY order · day.even.a",
+   "kind": "energy",
+   "now": "{el} brings Order, a mild dose of structure your chart takes calmly. The day keeps its shape without pressing, each request reaching you in good time.",
+   "findings": [
+    "TWEAK year:YR-10: \"The day keeps its shape … in good time\" | The headline half `head.energy.order.even` is \"{el} keeps you on time\", so \"keeps\" and \"time\" both repeat. (\"pace\" is avoided because land.quiet already uses it.) | \"{el} brings Order, a mild dose of structure your chart takes calmly. The day holds its shape without pressing, each request reaching you with room to spare.\""
+   ]
+  },
+  {
+   "key": "ENERGY order · day.even.b",
+   "kind": "energy",
+   "now": "{el} brings Order, an even pull that neither tightens nor loosens you. Rules stay in the background today, asking little of your attention.",
+   "findings": [
+    "TWEAK year:YR-10: \"The day keeps its shape … in good time\" | The headline half `head.energy.order.even` is \"{el} keeps you on time\", so \"keeps\" and \"time\" both repeat. (\"pace\" is avoided because land.quiet already uses it.) | \"{el} brings Order, a mild dose of structure your chart takes calmly. The day holds its shape without pressing, each request reaching you with room to spare.\""
+   ]
+  },
+  {
+   "key": "ENERGY order · day.grow.a",
+   "kind": "energy",
+   "now": "{el} brings Order, more of a structure that already helps you. One firm request or clear rule sets your course today, asking you to follow it through.",
+   "findings": [
+    "MAJOR day-1:R1-M1: \"an energy you already hold and still welcome\"; \"more of a support you already lean on\"; \"an energy you already hold and still need\"; \"adding to a gift you already use\"; \"more of an outlet that already serves you\"; \"more of a structure that already helps you\"; \"adding to a discipline you already keep\" | 7 of 7 grow energy units assert the reader already has the energy. A shared unit cannot know volume, and a grown energy is often thin or absent in the chart (the AM3 logic, mirrored). On a chart without the element the line is false. | Rule: a grow line names the direction only. Use \"an energy your chart wants\" or \"one your chart runs short of\". Never \"already\", \"more of\", \"adding to\". Rebuild all 7 openers, each different, e.g. \"Water brings Mind, a support your chart wants.\"",
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY order · day.grow.b",
+   "kind": "energy",
+   "now": "{el} brings Order, adding to a discipline you already keep. A standard you hold yourself to gets checked today, asking you to show the care behind it.",
+   "findings": [
+    "MAJOR day-1:R1-M1: \"an energy you already hold and still welcome\"; \"more of a support you already lean on\"; \"an energy you already hold and still need\"; \"adding to a gift you already use\"; \"more of an outlet that already serves you\"; \"more of a structure that already helps you\"; \"adding to a discipline you already keep\" | 7 of 7 grow energy units assert the reader already has the energy. A shared unit cannot know volume, and a grown energy is often thin or absent in the chart (the AM3 logic, mirrored). On a chart without the element the line is false. | Rule: a grow line names the direction only. Use \"an energy your chart wants\" or \"one your chart runs short of\". Never \"already\", \"more of\", \"adding to\". Rebuild all 7 openers, each different, e.g. \"Water brings Mind, a support your chart wants.\"",
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY order · day.heavy.a",
+   "kind": "energy",
+   "now": "{el} brings Order, a pressure your chart would sooner be spared. Demands arrive from several sides at once, boxing you in by noon.",
+   "findings": [
+    "MINOR day-1:R1-m12: \"boxing you in by noon\" | It settles the day's end. | \"Metal brings Order, a pressure your chart would sooner be spared. Demands arrive from several sides at once, and each one wants an answer from you first.\"",
+    "MINOR day-1:R1-m14: \"making you work twice as hard for the same result\" | \"Twice as hard\" is an amount, and the line ends on a participial tail. | \"Metal brings Order, a weight your chart does not want. A deadline tightens or a rule bites, and the same result takes more of your effort.\""
+   ]
+  },
+  {
+   "key": "ENERGY order · day.heavy.b",
+   "kind": "energy",
+   "now": "{el} brings Order, a weight your chart does not want. A deadline tightens or a rule bites, making you work twice as hard for the same result.",
+   "findings": [
+    "MINOR day-1:R1-m12: \"boxing you in by noon\" | It settles the day's end. | \"Metal brings Order, a pressure your chart would sooner be spared. Demands arrive from several sides at once, and each one wants an answer from you first.\"",
+    "MINOR day-1:R1-m14: \"making you work twice as hard for the same result\" | \"Twice as hard\" is an amount, and the line ends on a participial tail. | \"Metal brings Order, a weight your chart does not want. A deadline tightens or a rule bites, and the same result takes more of your effort.\""
+   ]
+  },
+  {
+   "key": "ENERGY order · day.need.a",
+   "kind": "energy",
+   "now": "{el} brings Order, a structure your chart runs short of. It gives your strength a shape today, asking you to finish what you start.",
+   "findings": [
+    "MAJOR day-2:R2-01: \"asking you to show the care behind it\" · \"asking you to follow it through\" · \"asking you to see each task through\" · \"asking you to let it out\" · \"asking no effort of your voice\" · \"pressing you to say\" · \"costing you the hours\" · \"pushing you toward\" | 16 of the 24 energy units seen end on a participial tail, and 12 of them on \"asking\". Landings then use \"asks\" again on the same page: D054, D077, D081, D084, D086 and D097 each carry \"ask\" twice. The frame becomes the Almanac's tic, and it breaks the benchmark's no-participial-tail rule (07 §1.3, B4). | Rule: the energy line's second sentence closes on a finite verb with the reader as subject (\"You see each task through to its end today\"). At most one \"ask\" on a page, and the landing keeps it, since AM1 gives the landing \"what it asks\". Rebuild the 16 second sentences."
+   ]
+  },
+  {
+   "key": "ENERGY order · day.need.b",
+   "kind": "energy",
+   "now": "{el} brings Order, an energy your chart wants. Rules and deadlines give your effort a frame today, asking you to see each task through.",
+   "findings": []
+  }
+ ]
+}
