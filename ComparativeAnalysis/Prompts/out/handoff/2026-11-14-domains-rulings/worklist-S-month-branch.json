@@ -1,0 +1,890 @@
+{
+ "worklist": "S-month-branch",
+ "units": [
+  {
+   "key": "POSITION bijian_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:bijian_month_branch.Career",
+   "family": "headline",
+   "current": "You work best when the whole job is yours.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_month_branch.Career",
+   "family": "recognition",
+   "current": "You take a task from start to finish and want your name on the result. Because your sense of worth comes from your own output, you lose energy fast in any job where freedom exists only on paper. Your output rises with every piece of real freedom you get, and a manager who checks in daily costs you more than a lower salary would.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:bijian_month_branch.Career",
+   "family": "seatbeat",
+   "current": "You have chosen work you could own outright since your late teens, even when a shared role paid better. At least once you left a job because the freedom it promised was only for show, and you have not regretted it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:bijian_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "You have chosen work you could own outright since your late teens, even when a shared role paid better. At least once you left a job because the freedom it promised was only for show, and you have not regretted it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_month_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:bijian_month_branch.Growth",
+   "family": "headline",
+   "current": "Your skills are yours, and nobody can take them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_month_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_month_branch.Growth",
+   "family": "recognition",
+   "current": "You grow by mastering things fully, until the skill belongs to you and nobody else. Because you trust only what you have built yourself, you keep going alone long after a teacher would have helped. Your progress is fastest the moment someone you respect works beside you, and you put that moment off.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_month_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:bijian_month_branch.Growth",
+   "family": "seatbeat",
+   "current": "Long flat stretches have marked your learning since your late teens, and more than one ended only when you finally learned from someone better. You remember each of those people, and you owe them more thanks than you have given.",
+   "notes": [
+    {
+     "id": "DD:DD-018",
+     "severity": "MINOR",
+     "issue": "The Twin grows beside an equal (三命通会 论比肩), and its own recognition and seat card say \"beside you\" and \"one trusted colleague\". Learning from someone better is the Sage.",
+     "fix": "\"Long flat stretches have marked your learning since your late teens, and more than one ended only when you finally worked beside an equal. You remember each of those people, and you owe them more thanks than you have given.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION bijian_month_branch · domain_climb.Growth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:bijian_month_branch.Growth",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Long flat stretches have marked your learning since your late teens, and more than one ended only when you finally learned from someone better. You remember each of those people, and you owe them more thanks than you have given.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_month_branch.Career",
+   "family": "headline",
+   "current": "You work best with something real at stake.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_month_branch.Career",
+   "family": "recognition",
+   "current": "You are at your sharpest in jobs with clear stakes, sales or ventures or anything where the score is public. Because you need to feel the risk to feel awake, you move first and sort out the rest afterwards. Your bold moves pay best beside a colleague who checks the details, and you have little patience for the checking yourself.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_month_branch.Career",
+   "family": "seatbeat",
+   "current": "Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have rarely wished for a duller job.",
+   "notes": [
+    {
+     "id": "DC:DC-007",
+     "severity": "MINOR",
+     "issue": "The beat reads as the Horizon (pay in waves, as the Horizon's own card says, \"you earn in waves\") and loses the Rival's peers and shared stakes (子平真诠 论建禄月劫 and 三命通会 论比肩劫财: 劫财 is the peer who competes for and divides what you have; 三命通会 论偏财: 偏财 is open-handed, fluctuating money).",
+     "fix": "\"Since your late teens you have chosen work where you were measured against the people beside you, by sales or rankings or a shared target. You have won big with partners and lost ground to them, and you have rarely wished for a duller job.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:jiecai_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have rarely wished for a duller job.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_month_branch.Wealth",
+   "family": "headline",
+   "current": "Your money comes in bursts, and leaves with friends.",
+   "notes": [
+    {
+     "id": "DB:DB-009",
+     "severity": "MINOR",
+     "issue": "The Rival's Month units carry the Horizon's windfall and its generosity, so on D105 two characters say one thing in one gate.",
+     "fix": "Headline: \"You earn hardest when someone is racing you.\" Recognition: \"You earn in step with the people around you, chasing the same bonus or backing the same venture as your friends. Because keeping up is how you show you belong, you match their spending before you count your own. You save less than you mean to in the good years as well as the lean ones, and you feel it most after a win.\" Lived: \"Your income since your late teens has risen and dipped with the people you measure yourself against, the friend's venture joined or the bonus chased. More than once you spent a win on keeping pace with them, and you counted it as the price of staying in the race.\" **Classical:** 渊海子平 论偏财: the Horizon is open-handed money that comes by the side door (慷慨, 横财). 三命通会 论劫财: the Rival contests money with peers (争夺, 破耗). House portrait (05 §5): \"comparison as fuel; the race\"."
+    }
+   ]
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_month_branch.Wealth",
+   "family": "recognition",
+   "current": "Money reaches you suddenly and leaves with the people you celebrate with, a friend's venture or a round for the table. Because generosity is how you show you belong, you lend before you are asked and count only later. You save less than you mean to in the good years as well as the lean ones, and you feel it most after a win.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_month_branch.Wealth",
+   "family": "seatbeat",
+   "current": "Your income has arrived unevenly from your late teens, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Wealth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:jiecai_month_branch.Wealth",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your income has arrived unevenly from your late teens, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_month_branch.Social",
+   "family": "headline",
+   "current": "Work and friendship are one circle for you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_month_branch.Social",
+   "family": "recognition",
+   "current": "Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because you trust the people you enjoy, you agree to shared plans before the terms are clear. When one of those plans fails, you lose the friend along with the money.",
+   "notes": [
+    {
+     "id": "DE:DE-011",
+     "severity": "MINOR",
+     "issue": "How you are closes on a predicted loss of a friend and of money, the outcome close BIZ_04 rules too harsh, and the lived beat beside it says the same (DE-001). The Rival's shared money is classical (三命通会 论比劫) and stays.",
+     "fix": "\"Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because you trust the people you enjoy, you agree to shared plans before the terms are clear. You mix friendship and money without a line between them, and you are slow to ask which one a deal is really about.\" (59 words)"
+    }
+   ]
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_month_branch.Social",
+   "family": "seatbeat",
+   "current": "Your closest friends since your late teens have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money.",
+   "notes": [
+    {
+     "id": "DE:DE-024",
+     "severity": "TWEAK",
+     "issue": "A garbled comparison, and a single event where Q9 allows a pattern.",
+     "fix": "\"Your closest friends since your late teens have also been the people you worked or did deals with. More than one friendship of yours has ended over a shared venture, and you still count each friend as a bigger loss than the money.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION jiecai_month_branch · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:jiecai_month_branch.Social",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your closest friends since your late teens have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:piancai_month_branch.Career",
+   "family": "headline",
+   "current": "Your work pays for reading where things are going.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_month_branch.Career",
+   "family": "recognition",
+   "current": "You are drawn to work where timing matters, buying and selling or finding things before others notice them. Because you read change early, a job where nothing moves bores you, and you leave it sooner than you planned. In any role you end up as the person who sees what is coming next.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:piancai_month_branch.Career",
+   "family": "seatbeat",
+   "current": "The jobs that have gone best for you since your late teens are the ones where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:piancai_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The jobs that have gone best for you since your late teens are the ones where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_month_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:piancai_month_branch.Wealth",
+   "family": "headline",
+   "current": "Your money comes in strong seasons and quiet ones.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_month_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_month_branch.Wealth",
+   "family": "recognition",
+   "current": "You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each good stretch than after it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_month_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:piancai_month_branch.Wealth",
+   "family": "seatbeat",
+   "current": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own streaks run.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_month_branch · domain_climb.Wealth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:piancai_month_branch.Wealth",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own streaks run.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_month_branch.Mind",
+   "family": "headline",
+   "current": "Your mind runs best on what others find strange.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_month_branch.Mind",
+   "family": "recognition",
+   "current": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is the thing that matters most.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_month_branch.Mind",
+   "family": "seatbeat",
+   "current": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Mind.lived_past",
+   "kind": "lived_past",
+   "page": "seat:pianyin_month_branch.Mind",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_month_branch.Growth",
+   "family": "headline",
+   "current": "You grow late, and mostly in private.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_month_branch.Growth",
+   "family": "recognition",
+   "current": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you underrate where you are, and you let them. You are further along than anyone watching would guess.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_month_branch.Growth",
+   "family": "seatbeat",
+   "current": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Growth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:pianyin_month_branch.Growth",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_month_branch.Career",
+   "family": "headline",
+   "current": "Your work pays for what only you know.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_month_branch.Career",
+   "family": "recognition",
+   "current": "You are the specialist people call when the usual answers fail. Because you trust knowledge you have dug out yourself, you are drawn to a narrow field the mainstream ignores, and you would rather be paid for strange work than praised for ordinary work. You earn more from the niche you choose than any ladder would pay you.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_month_branch.Career",
+   "family": "seatbeat",
+   "current": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:pianyin_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:qisha_month_branch.Career",
+   "family": "headline",
+   "current": "You do your best work under real pressure.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_month_branch.Career",
+   "family": "recognition",
+   "current": "You pick the job with the highest stakes and the tightest deadlines, and you are at your sharpest when it is going badly for everyone else. Because pressure is how you prove yourself to yourself, calm work leaves you flat and restless. What you build fastest is respect, and what you lose first is rest.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:qisha_month_branch.Career",
+   "family": "seatbeat",
+   "current": "A calm post has left you uneasy since your late teens, as if you had not earned your place, and you have asked for the hard assignment instead. Each crisis you took on left you more trusted, and at least once you turned down an easier job with better hours.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:qisha_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "A calm post has left you uneasy since your late teens, as if you had not earned your place, and you have asked for the hard assignment instead. Each crisis you took on left you more trusted, and at least once you turned down an easier job with better hours.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_month_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:qisha_month_branch.Health",
+   "family": "headline",
+   "current": "Your body carries the cost of your pace.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_month_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_month_branch.Health",
+   "family": "recognition",
+   "current": "You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep as if it were part of the job. Your energy is deep, and you spend it faster than you replace it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_month_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:qisha_month_branch.Health",
+   "family": "seatbeat",
+   "current": "Through your first working years your body kept pace with demands that stopped most people around you. A hard season ended more than once with you worn out for weeks, and you recovered fully each time you gave yourself real rest.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_month_branch · domain_climb.Health.lived_past",
+   "kind": "lived_past",
+   "page": "seat:qisha_month_branch.Health",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Through your first working years your body kept pace with demands that stopped most people around you. A hard season ended more than once with you worn out for weeks, and you recovered fully each time you gave yourself real rest.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_month_branch.Career",
+   "family": "headline",
+   "current": "You are paid to make things better.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_month_branch.Career",
+   "family": "recognition",
+   "current": "You are best in jobs where improving things is the work itself, editing or design or reform of some kind. Because a weak plan is plain to you before anyone asks, you correct work that was never yours to correct. Your value at work grows with every process you improve, and you are known as the colleague who will not let poor work pass.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_month_branch.Career",
+   "family": "seatbeat",
+   "current": "In class, in teams and in your first jobs you have been the one who points out what could be better. You have clashed with at least one boss over it, and you have also been the person they sent for when something needed fixing.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shangguan_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "In class, in teams and in your first jobs you have been the one who points out what could be better. You have clashed with at least one boss over it, and you have also been the person they sent for when something needed fixing.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_month_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_month_branch.Mind",
+   "family": "headline",
+   "current": "Your mind never stops improving what it sees.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_month_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_month_branch.Mind",
+   "family": "recognition",
+   "current": "You think in revisions, turning over a plan or an idea or your own opinion until it is better, and nothing feels quite finished to you. Since a fault you have noticed stays with you until it is mended, your mind keeps working when the day is over. You sleep best in the weeks when one hard problem has all of your attention.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_month_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_month_branch.Mind",
+   "family": "seatbeat",
+   "current": "Your mind has gone looking for faults since your late teens, in what you were taught and in what you believed yourself. You have changed your view on something important more than once over those years, and each time you argued yourself into the new view first.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_month_branch · domain_climb.Mind.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shangguan_month_branch.Mind",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your mind has gone looking for faults since your late teens, in what you were taught and in what you believed yourself. You have changed your view on something important more than once over those years, and each time you argued yourself into the new view first.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:shishen_month_branch.Career",
+   "family": "headline",
+   "current": "Your career runs on craft and good habits.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_month_branch.Career",
+   "family": "recognition",
+   "current": "Your best work comes from skill built slowly, in fields where the hands or the senses know things. Since steady practice is what you trust, you are slow to take on work you cannot yet do well, and you miss a few openings that way. You are seldom the loudest on a team, and your work is the work that holds up.",
+   "notes": [
+    {
+     "id": "DC:DC-010",
+     "severity": "MINOR",
+     "issue": "The cost is the Steward's caution, while the Artisan's cost everywhere else in the section is ease (\"Ambition softens … the easy option keeps winning\"), so the lead reads as the wrong character (三命通会 论食神: 食神 is plenty, enjoyment and ease, and its excess is comfort, not caution).",
+     "fix": "\"Your best work comes from a skill you enjoy, in fields where the hands or the senses know things. Because the work itself is the pleasure, you stay with what you already do well, and you let harder openings pass. You are seldom the loudest on a team, and your work is the work that holds up.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION shishen_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:shishen_month_branch.Career",
+   "family": "seatbeat",
+   "current": "You have built your skill quietly since your late teens, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shishen_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "You have built your skill quietly since your late teens, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_month_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:shishen_month_branch.Health",
+   "family": "headline",
+   "current": "Your work is only as good as your sleep.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_month_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_month_branch.Health",
+   "family": "recognition",
+   "current": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because food and rest are pleasures to you, you eat late and sleep short in busy months, and your energy drops. You notice tiredness in your work before you feel it, and a few good nights put it right.",
+   "notes": [
+    {
+     "id": "DC:DC-015",
+     "severity": "MINOR",
+     "issue": "The cause does not produce the effect (enjoying food and rest would protect them), so the reader has to read it twice (三命通会 论食神: the Artisan's enjoyment of food is what keeps the body well).",
+     "fix": "\"Your body and your work move together, and both run best on regular meals and real rest. Because you enjoy your work as much as your food and sleep, busy months push your meals late and your nights short, and your energy drops. You notice tiredness in your work before you feel it, and you put it right with a few good nights.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION shishen_month_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:shishen_month_branch.Health",
+   "family": "seatbeat",
+   "current": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_month_branch · domain_climb.Health.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shishen_month_branch.Health",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_month_branch.Career",
+   "family": "headline",
+   "current": "Your career grows slowly and keeps growing.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_month_branch.Career",
+   "family": "recognition",
+   "current": "You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. You are underrated in the early years of any role, and you outlast most of the people who underrated you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_month_branch.Career",
+   "family": "seatbeat",
+   "current": "Your working life has moved forward one step at a time since your late teens, with each job adding a skill you kept. More than once you have overtaken people who started faster than you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengcai_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your working life has moved forward one step at a time since your late teens, with each job adding a skill you kept. More than once you have overtaken people who started faster than you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_month_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_month_branch.Wealth",
+   "family": "headline",
+   "current": "Your savings grow quietly, year after year.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_month_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_month_branch.Wealth",
+   "family": "recognition",
+   "current": "You save a part of everything you earn, and a steady rise in your accounts pleases you more than any windfall. Because security is what you are working for, you avoid risks that would make you rich quickly. Your caution keeps you safe, and you feel a good year as relief more than as joy.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_month_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_month_branch.Wealth",
+   "family": "seatbeat",
+   "current": "Even in lean months you have put money aside since your late teens, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_month_branch · domain_climb.Wealth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengcai_month_branch.Wealth",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Even in lean months you have put money aside since your late teens, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_month_branch.Career",
+   "family": "headline",
+   "current": "Your career grows steadily inside a structure.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_month_branch.Career",
+   "family": "recognition",
+   "current": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a clear title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_month_branch.Career",
+   "family": "seatbeat",
+   "current": "Each step up since your late teens has come after you proved you could do the last one properly, and you waited to feel ready before you asked for the next. Your seniors noticed your reliability early, and you were trusted with more than your age suggested.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengguan_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Each step up since your late teens has come after you proved you could do the last one properly, and you waited to feel ready before you asked for the next. Your seniors noticed your reliability early, and you were trusted with more than your age suggested.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_month_branch.Growth",
+   "family": "headline",
+   "current": "You grow by moving from one structure to the next.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_month_branch.Growth",
+   "family": "recognition",
+   "current": "You grow inside a framework, a course or a firm or a discipline, until you have learned everything it can teach. Because loyalty runs deep in you, leaving one structure for a bigger one feels like a betrayal, and you wait longer than you need to. Your growth comes in clear stages, and each one starts when you finally move.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_month_branch.Growth",
+   "family": "seatbeat",
+   "current": "You grew through formal steps from your late teens on, a qualification finished or a rank reached or a role handed to you. Each structure you joined shaped you for a few years, and you stayed in most of them a little past the point they could teach you.",
+   "notes": [
+    {
+     "id": "DD:DD-007",
+     "severity": "MINOR",
+     "issue": "The lived beat repeats the recognition's cost on the same page (\"you wait longer than you need to\"). It also borrows the Sage's cost, word for word (\"past the point they teach you anything\", `zhengyin_month_branch.Growth.recognition`). The Magistrate reads as duty and rank (子平真诠 论正官), not as shelter.",
+     "fix": "\"You grew through formal steps from your late teens on, a qualification finished or a rank reached or a role handed to you. Each structure you joined gave you a clear duty and a clear measure, and you grew most in the years you were trusted with more.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Growth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengguan_month_branch.Growth",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "You grew through formal steps from your late teens on, a qualification finished or a rank reached or a role handed to you. Each structure you joined shaped you for a few years, and you stayed in most of them a little past the point they could teach you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_month_branch.Social",
+   "family": "headline",
+   "current": "People rely on you to keep things steady.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_month_branch.Social",
+   "family": "recognition",
+   "current": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone gives you credit for.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_month_branch.Social",
+   "family": "seatbeat",
+   "current": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted away, and you kept the ones bound to you by a duty for years after the job ended.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_month_branch · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengguan_month_branch.Social",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted away, and you kept the ones bound to you by a duty for years after the job ended.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_month_branch.Mind",
+   "family": "headline",
+   "current": "You learn steadily, and it never stops.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_month_branch.Mind",
+   "family": "recognition",
+   "current": "Week by week you add to what you know, studying in a steady and patient way. Because understanding a thing fully is what makes you feel secure, you read the extra chapter and take the extra course, and you rarely feel finished. You know far more than you claim to.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_month_branch.Mind",
+   "family": "seatbeat",
+   "current": "Learning has carried you since your late teens, through courses and qualifications and the teachers who took an interest. You have stayed a student in some form ever since, and it has kept you steadier than most people around you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Mind.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_month_branch.Mind",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Learning has carried you since your late teens, through courses and qualifications and the teachers who took an interest. You have stayed a student in some form ever since, and it has kept you steadier than most people around you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_month_branch.Career",
+   "family": "headline",
+   "current": "Your career rises on what you have studied.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_month_branch.Career",
+   "family": "recognition",
+   "current": "You are trusted at work because you know your subject properly, and people check their facts with you. Because depth matters more to you than visibility, you leave the self-promotion to others, and promotion reaches you later than your knowledge has earned it. Your standing grows slowly and holds when louder careers fall away.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_month_branch.Career",
+   "family": "seatbeat",
+   "current": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior recommended you before you felt ready, and you have proved them right.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Career.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_month_branch.Career",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior recommended you before you felt ready, and you have proved them right.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_month_branch.Growth",
+   "family": "headline",
+   "current": "Your growth waits on a readiness you already have.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_month_branch.Growth",
+   "family": "recognition",
+   "current": "Each step you take comes after the training is done and the support is in place. Because shelter feels like the right place to prepare, you stay in comfortable roles past the point they teach you anything, and you wait for one more sign that you are ready. You are readier than you feel, and you have been for a long time.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_month_branch.Growth",
+   "family": "seatbeat",
+   "current": "From your late teens you have grown in steady steps, each one taken only after you felt well prepared. You have stayed somewhere safe for longer than it served you at least once, and you did better than you feared once you finally moved.",
+   "notes": [
+    {
+     "id": "DD:DD-008",
+     "severity": "MINOR",
+     "issue": "This repeats the recognition beside it (\"you stay in comfortable roles past the point they teach you anything\"). On D083 the Sage's seat card says it a third time.",
+     "fix": "\"From your late teens you have grown in steady steps, each one taken only after you felt well prepared. The people who taught you in those years gave you a base you still stand on, and you did better than you feared each time you moved.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengyin_month_branch · domain_climb.Growth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_month_branch.Growth",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "From your late teens you have grown in steady steps, each one taken only after you felt well prepared. You have stayed somewhere safe for longer than it served you at least once, and you did better than you feared once you finally moved.",
+   "notes": []
+  }
+ ]
+}

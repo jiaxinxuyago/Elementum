@@ -1,0 +1,72 @@
+[
+ {
+  "id": "G1:BB:BB-014+BC:BC-021",
+  "key": "TEMPLATED tpl_depth · seen.close",
+  "text": "Only the people you live with see the second list."
+ },
+ {
+  "id": "G1:BB:BB-017",
+  "key": "TEMPLATED tpl_depth · bond.bind.month_hour",
+  "text": "You carry the people and skills of your working years into your later life, and the circle you build in those years stays with you."
+ },
+ {
+  "id": "G1:DA:DA-019",
+  "key": "POSITION shishen_year_branch · domain_climb.Family.lived",
+  "text": "Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
+ },
+ {
+  "id": "G1:DB:DB-029",
+  "key": "POSITION zhengcai_hour_stem · domain_climb.Wealth.ahead",
+  "text": "Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough."
+ },
+ {
+  "id": "G1:DB:DB-036",
+  "key": "POSITION piancai_day_branch · domain_climb.Love.ahead",
+  "text": "Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
+ },
+ {
+  "id": "G1:DB:DB-042",
+  "key": "POSITION bijian_month_stem · domain_climb.Career.recognition",
+  "text": "You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard that counts only you."
+ },
+ {
+  "id": "G1:DD:DD-021",
+  "key": "POSITION pianyin_month_branch · domain_climb.Growth.recognition",
+  "text": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you underrate where you are, and you let them. You are further along than anyone watching would guess."
+ },
+ {
+  "id": "G1:DD:DD-022",
+  "key": "POSITION pianyin_month_branch · domain_climb.Mind.recognition",
+  "text": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is the thing that matters most."
+ },
+ {
+  "id": "G1:DD:DD-032",
+  "key": "POSITION pianyin_month_branch · domain_climb.Mind.lived",
+  "text": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them."
+ },
+ {
+  "id": "G1:DE:DE-017",
+  "key": "POSITION bijian_month_stem · domain_climb.Social.lived",
+  "text": "Your friendships since your late teens have been between equals, with one friend in particular who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear."
+ },
+ {
+  "id": "R8:officer",
+  "key": "TEMPLATED tpl_depth · rescue.officer",
+  "text": "Outside pressure protects it, a boss or a rule or a deadline, and you meet that pressure in {when}."
+ },
+ {
+  "id": "R8:output",
+  "key": "TEMPLATED tpl_depth · rescue.output",
+  "text": "What you make protects it, work you finish and show, and you find the time to make it in {when}."
+ },
+ {
+  "id": "R8:seal",
+  "key": "TEMPLATED tpl_depth · rescue.seal",
+  "text": "Support protects it, a teacher or a backer or a home base, and you find that support in {when}."
+ },
+ {
+  "id": "R8:wealth",
+  "key": "TEMPLATED tpl_depth · rescue.wealth",
+  "text": "Money protects it, a steady income or a shared venture, and you meet it in {when}."
+ }
+]

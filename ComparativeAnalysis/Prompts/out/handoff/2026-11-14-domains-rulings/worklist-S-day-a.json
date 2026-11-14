@@ -1,0 +1,643 @@
+{
+ "worklist": "S-day-a",
+ "units": [
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:bijian_day_branch.Love",
+   "family": "headline",
+   "current": "You love best as an equal, or not at all.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_day_branch.Love",
+   "family": "recognition",
+   "current": "You fall for people with their own opinions and their own plans, and you lose interest in anyone who needs you to lead. Because a matched partner makes you feel safe, you argue as an equal and keep count of who gave way last. You find it harder to be carried by a partner, even for a day, than to win any argument.",
+   "notes": [
+    {
+     "id": "cross:X-001",
+     "severity": "MAJOR",
+     "issue": "Four characters at the Day Gate in Love read as one force: a partner who argues, and a calm partner who bores you. The score-keeping that the Rival's own seen line owns (\"You keep score with the people closest to you\") is given to the Twin.",
+     "fix": "**Rule:** each Day-Gate Love seat names its own force in the headline and in the \"Because\" sentence. \"Push back\", \"argue back\", \"strong-willed\" and \"a calm partner bores you\" go only to the Virtuoso (talk and wit). Twin: separate lives and level footing. Rival: shared stakes, money, turns and contests. General: pressure and high stakes (三命通会 论比肩/劫财/偏官; 渊海子平 六亲). **Rebuild the Twin, Rival and General Love seats (5 units each).** Samples. Twin recognition: \"You fall for people who have a full life of their own, and you lose interest in anyone who needs you to lead. Because standing level is how you feel respected, you keep your own friends, money and plans inside the relationship. You find it harder to be carried by a partner, even for a day, than to carry yourself.\" Rival headline: \"Your love runs on sharing, and on keeping count.\" Rival recognition: \"You love by sharing, the money and the plans and the friends, and you notice who gets the bigger part. Because a partner is also the person you measure yourself against, small questions of turn and share become contests. You give generously in love, and you keep a quiet count of what comes back.\" General headline: \"You love hardest when something is at stake.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:bijian_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The partners who mattered most to you were strong-willed people with lives of their own, and the ones who leaned did not last. A good relationship of yours turned into a contest at least once, over who apologised first, and you kept that score as carefully as they did.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:bijian_day_branch.Love",
+   "family": "seatbeat",
+   "current": "Love settles from your mid-thirties into a partnership between two people who each run their own lives. Over these years the score between you matters less, and you lean on a partner without feeling smaller.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:bijian_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The partners who mattered most to you were strong-willed people with lives of their own, and the ones who leaned did not last. A good relationship of yours turned into a contest at least once, over who apologised first, and you kept that score as carefully as they did.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_day_branch.Love",
+   "family": "headline",
+   "current": "You fall for people who push back.",
+   "notes": [
+    {
+     "id": "DB:DB-011",
+     "severity": "MINOR",
+     "issue": "The Rival's Love units read as the General's force and the Twin's equality, and none of them shows the Rival's own contest over pride and money that its seat card names.",
+     "fix": "Headline: \"You love the people you can race.\" Recognition: \"You fall for partners who compete with you, in pride, in plans and over money. Because keeping pace with someone is how you know you matter to them, a calm and agreeable partner bores you within months. You keep loving through the contests, and you count a quiet week as a sign that something has gone wrong.\" **Classical:** 三命通会 (论妻妾): the Rival in the spouse seat brings rivalry and money contested inside the marriage (夫妻争财), while the General in the spouse seat brings a forceful, pressing partner (七杀坐日支)."
+    }
+   ]
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_day_branch.Love",
+   "family": "recognition",
+   "current": "Partners with a temper, an opinion and plans of their own are the ones you fall for. Because being challenged is how you know you matter to someone, a calm and agreeable partner bores you within months. You keep loving through the arguments, and you count a quiet week as a sign that something has gone wrong.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The people you have loved were strong-willed and hard to predict, and they made you earn every point you won. At least one relationship of yours ran loud for years, with fights over plans and whose turn it was, and you stayed because it held your interest.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:jiecai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "From your mid-thirties you share a home with a partner as bold as you are, and the house is rarely quiet. Love in these years holds through open argument, and you find more warmth in it than in any calmer bond before.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:jiecai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The people you have loved were strong-willed and hard to predict, and they made you earn every point you won. At least one relationship of yours ran loud for years, with fights over plans and whose turn it was, and you stayed because it held your interest.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:piancai_day_branch.Love",
+   "family": "headline",
+   "current": "You fall for people who widen your life.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_day_branch.Love",
+   "family": "recognition",
+   "current": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:piancai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:piancai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:piancai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_day_branch.Love",
+   "family": "headline",
+   "current": "You love best with time alone built in.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_day_branch.Love",
+   "family": "recognition",
+   "current": "You want a partner close, and you also want hours each week that belong only to you. Because you sort out your feelings alone, you go quiet before a serious talk, and a partner who presses gets less of you. What you need in love is someone who waits for you to come back.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The people you have loved so far have split into two kinds, those who left you alone to think and those who took your silence personally. You have stayed longest with the first kind, and the arguments you remember were mostly about time apart.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:pianyin_day_branch.Love",
+   "family": "seatbeat",
+   "current": "Through your Home Chapter your household settles around a shared rhythm, with time together and time apart agreed without a fight. You grow closer to a partner in these years by talking through what you have already worked out alone.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:pianyin_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The people you have loved so far have split into two kinds, those who left you alone to think and those who took your silence personally. You have stayed longest with the first kind, and the arguments you remember were mostly about time apart.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:qisha_day_branch.Love",
+   "family": "headline",
+   "current": "You love people strong enough to push back.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_day_branch.Love",
+   "family": "recognition",
+   "current": "You fall for people with force, the ones who argue their case and refuse to be managed. Because a gentle partner leaves you restless, you bring pressure into love without meaning to, and small disagreements grow into contests. What you want is a partner who matches your strength and turns it toward the world with you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:qisha_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The partners who mattered most to you have been hard to move, with strong opinions and no wish to bend. At least once a relationship wore you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:qisha_day_branch.Love",
+   "family": "seatbeat",
+   "current": "Love asks more of you from your mid-thirties, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:qisha_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The partners who mattered most to you have been hard to move, with strong opinions and no wish to bend. At least once a relationship wore you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_day_branch.Love",
+   "family": "headline",
+   "current": "You love the person who can answer you back.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_day_branch.Love",
+   "family": "recognition",
+   "current": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing a partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The partners you have chosen so far were quick ones, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:shangguan_day_branch.Love",
+   "family": "seatbeat",
+   "current": "From your mid-thirties your home fills with talk, and the partner you share it with matches you word for word. The two of you grow closer through what you argue about together, and you aim your sharpest words at the world outside your door.",
+   "notes": [
+    {
+     "id": "DB:DB-020",
+     "severity": "MINOR",
+     "issue": "The ahead beat removes the Virtuoso's cost at home and contradicts the seat card on the same page.",
+     "fix": "Rewrite (it also meets the DB-006 rule): \"From your mid-thirties your home fills with talk, and you look for a partner who matches you word for word. With a partner in these years you grow closer through what you argue about, and you learn which of your sharpest words to keep for the world outside your door.\" **Classical:** 三命通会 (论女命): the Virtuoso in the spouse seat is the sharp tongue at home (伤官坐夫宫)."
+    }
+   ]
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shangguan_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The partners you have chosen so far were quick ones, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:shishen_day_branch.Love",
+   "family": "headline",
+   "current": "You show love by making life easy.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_day_branch.Love",
+   "family": "recognition",
+   "current": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you are the last of your friends to notice a partner who only takes.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:shishen_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The relationships that have lasted for you so far were the gentle ones, with partners who liked a quiet evening as much as you did. At least once you cooked and cared for someone who gave little back, and you stayed longer than the relationship deserved.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:shishen_day_branch.Love",
+   "family": "seatbeat",
+   "current": "From your mid-thirties your love life settles into a shared home with a partner who makes ordinary days pleasant. The two of you build your life around the same table, and you find yourself looked after in return more than at any time before.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shishen_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The relationships that have lasted for you so far were the gentle ones, with partners who liked a quiet evening as much as you did. At least once you cooked and cared for someone who gave little back, and you stayed longer than the relationship deserved.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:shishen_day_branch.Family",
+   "family": "headline",
+   "current": "You become the host your family returns to.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_day_branch.Family",
+   "family": "recognition",
+   "current": "Your home is where your family ends up, for meals and holidays and the nights someone needs a bed. Because a full house makes you feel settled, you take on more hosting than anyone asks of you. Relatives treat your door as always open, and you rarely show them how tired you are by the end.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:shishen_day_branch.Family",
+   "family": "seatbeat",
+   "current": "Wherever you have lived so far, people have drifted to your kitchen for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:shishen_day_branch.Family",
+   "family": "seatbeat",
+   "current": "Your house becomes the place your family gathers once you are past your mid-thirties, and relatives and friends treat it as a second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home.",
+   "notes": [
+    {
+     "id": "cross:X-002",
+     "severity": "MAJOR",
+     "issue": "At the Day Gate the gate's life area writes the beat and the character only colours it. Four characters share one Family beat, three share one Love beat and three share one Health beat.",
+     "fix": "**Rule:** a Day-Gate beat's cause sentence must be the character's own mechanism: Artisan appetite and hosting, Magistrate the household's word and its roles, Steward provision and accounts, Sage being looked after, General pressure. Keep \"the place your family gathers\" for the Artisan only. Samples. Magistrate Family ahead: \"From your mid-thirties you speak for your household, the one who signs, decides and keeps the family's word. You add more warmth to its order in these years, and you find your own house easier to live in than it used to be.\" Steward Family ahead: \"From your mid-thirties your household runs on what you put by, the savings and the repairs and the bills paid early. You give these years to keeping it in order, and that order outlasts every lean spell that passes through.\" Sage Family ahead: \"From your mid-thirties your home becomes a shelter that works both ways, and a partner looks after you as closely as you look after them. You hold the household together in these years, and you speak up more than you used to.\" Steward Love recognition: \"You show love through provision, a full cupboard or a bill paid before your partner sees it. Because a well-kept home is how you feel loved, you judge a partner by how they handle shared money and chores. You let romance fade when the accounts fill every evening.\" Artisan Health recognition: \"Your body runs on appetite and rest, and both are best when home is easy. Because pleasure is how you recover, a shared meal and a long sleep put you right faster than any routine. You eat and sleep worst in the weeks when nobody at home is enjoying anything.\""
+    },
+    {
+     "id": "DA:DA-013",
+     "severity": "MINOR",
+     "issue": "How you are on the same page says your home already is where your family ends up, because the Day Gate (the self, 日为己身, 三命通会) always counts as open. The ahead beat contradicts it by making the pattern start at thirty-five.",
+     "fix": "\"Once you are past your mid-thirties, more of your family gathers at your house, and relatives and friends treat it as a second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Family.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shishen_day_branch.Family",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Wherever you have lived so far, people have drifted to your kitchen for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_day_branch.Love",
+   "family": "headline",
+   "current": "You love someone by looking after them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_day_branch.Love",
+   "family": "recognition",
+   "current": "You show love through practical care, a meal ready or a problem fixed before your partner mentions it. Because reliability is what made you feel loved, you trust a partner who keeps small promises more than one who makes big ones. You let romance fade when the duties fill every evening.",
+   "notes": [
+    {
+     "id": "DB:DB-012",
+     "severity": "MINOR",
+     "issue": "The Steward's Love units are made of three neighbours' lines, the Artisan, the Magistrate and the Sage, and the recognition assumes the reader has a partner now.",
+     "fix": "Recognition: \"You show love by providing, the rent covered and the house kept running before a partner thinks to ask. Because a well-kept home is how you feel safe, you trust a partner who looks after shared things as carefully as you do. You let romance fade when the upkeep fills every evening.\" Lived: \"The partners who have lasted with you so far cared about upkeep and careful money as much as you did. More than once you have kept a shared home running so well that you noticed the quiet in the romance only afterwards.\" **Classical:** 三命通会 (论妻妾): the Steward in the spouse seat is provision and a well-kept house (正财坐日支, 持家), the \"slow ledger\" of the house portrait (05 §5)."
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The partners who have lasted with you so far have been the steady ones, people who turned up on time and kept their word. More than once you have kept a shared home running so well that you noticed the quiet in the romance only afterwards.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengcai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "From your mid-thirties your partnership becomes the most reliable thing in your life, built on shared accounts and a home kept well. You find these years warmest when pleasure keeps its place beside the chores, and you notice quickly when it slips.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengcai_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The partners who have lasted with you so far have been the steady ones, people who turned up on time and kept their word. More than once you have kept a shared home running so well that you noticed the quiet in the romance only afterwards.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_day_branch.Family",
+   "family": "headline",
+   "current": "Your home runs well, and everyone leans on it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_day_branch.Family",
+   "family": "recognition",
+   "current": "You keep your household running, the cupboards full and the bills paid before they are due. Because a well-kept home is how you show love, you feel uneasy when things at home are left undone. Your family feels safe without knowing how much you do, and you rarely tell them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_day_branch.Family",
+   "family": "seatbeat",
+   "current": "In every home you have shared, you have been the one who knows where the spare keys and the papers are. Your family and friends have turned to your household in hard weeks, and you have made space for them each time.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengcai_day_branch.Family",
+   "family": "seatbeat",
+   "current": "Your home becomes the steady point for your whole family from your mid-thirties, the place relatives come to when life is hard. You give these years to keeping it well, and the order you keep outlasts every crisis that passes through.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_day_branch · domain_climb.Family.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengcai_day_branch.Family",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "In every home you have shared, you have been the one who knows where the spare keys and the papers are. Your family and friends have turned to your household in hard weeks, and you have made space for them each time.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_day_branch.Love",
+   "family": "headline",
+   "current": "You love with promises, and you keep them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_day_branch.Love",
+   "family": "recognition",
+   "current": "You are drawn to partners with clear values, people who keep their word and expect you to keep yours. Because reliability is what love means to you, you trust slowly and commit fully, and you find casual romance empty. What you want is a partner you can count on for life, and you give the same in return.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The relationships that mattered to you have been serious from early on, with plans made and promises kept. At least once you stayed loyal to a commitment after the feeling had faded, and you were slow to admit it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengguan_day_branch.Love",
+   "family": "seatbeat",
+   "current": "Love settles into something formal and lasting from your mid-thirties, a shared home and a shared name for what you are. You grow closer to a partner through the small rituals you keep together, and you find the warmth that duty alone never gave you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengguan_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The relationships that mattered to you have been serious from early on, with plans made and promises kept. At least once you stayed loyal to a commitment after the feeling had faded, and you were slow to admit it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_day_branch.Family",
+   "family": "headline",
+   "current": "Your home runs on kept promises.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_day_branch.Family",
+   "family": "recognition",
+   "current": "You run your household on clear duties and fair rules, and the people in it know what to expect. Because order is how you protect the people you love, you notice a broken promise at home faster than a kind word. Your family feels secure with you, and some of them wish you were less strict.",
+   "notes": [
+    {
+     "id": "DA:DA-015",
+     "severity": "MINOR",
+     "issue": "The last sentence of How you are has no \"you\" as its subject.",
+     "fix": "\"You run your household on clear duties and fair rules, and the people in it know what to expect. Because order is how you protect the people you love, you notice a broken promise at home faster than a kind word. Your family feels secure with you, and you know some of them wish you were less strict.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_day_branch.Family",
+   "family": "seatbeat",
+   "current": "Your family life has been built on structure, with regular meals, shared duties and arrangements that hold. Relatives on both sides have come to trust your household, and you have been the one who kept its promises when others forgot.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengguan_day_branch.Family",
+   "family": "seatbeat",
+   "current": "From your mid-thirties your home becomes the steady centre of your family, the place relatives turn to and point to. You add more warmth to its order in these years, and you find your own house easier to live in than it used to be.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_day_branch · domain_climb.Family.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengguan_day_branch.Family",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your family life has been built on structure, with regular meals, shared duties and arrangements that hold. Relatives on both sides have come to trust your household, and you have been the one who kept its promises when others forgot.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Love.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_day_branch.Love",
+   "family": "headline",
+   "current": "You love the person who makes you feel safe.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Love.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_day_branch.Love",
+   "family": "recognition",
+   "current": "You fall for steadiness, the partner who turns up on time and stays calm when you are not. Because safety is what love means to you, you relax completely with the right person, and you take their care as a given. You are slow to notice how much they carry, and slower to thank them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Love.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_day_branch.Love",
+   "family": "seatbeat",
+   "current": "The partners who have mattered most to you so far were the ones who looked after you, practically and without fuss. More than once you have let a partner take over the practical side of your life, and you found you had forgotten how to do it yourself.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Love.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_day_branch.Love",
+   "family": "seatbeat",
+   "current": "Through your Home Chapter you learn to give back the steady care you once took for granted. You notice what a partner carries for you in these years, and you start carrying some of it yourself.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Love.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_day_branch.Love",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "The partners who have mattered most to you so far were the ones who looked after you, practically and without fuss. More than once you have let a partner take over the practical side of your life, and you found you had forgotten how to do it yourself.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_day_branch.Family",
+   "family": "headline",
+   "current": "Your home runs on everyday kindness.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_day_branch.Family",
+   "family": "recognition",
+   "current": "You make your household gentle, with meals shared and voices kept low and nobody left out. Because a peaceful house is what lets you function, you smooth over arguments fast, and some of them never get settled. Your family comes to you to recover from the world, and you let them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_day_branch.Family",
+   "family": "seatbeat",
+   "current": "Your home so far has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_day_branch.Family",
+   "family": "seatbeat",
+   "current": "From your mid-thirties your household becomes the place your wider family gathers, because it is the calmest one they know. You hold it together with a partner in these years, and you speak up more than you used to.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Family.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_day_branch.Family",
+   "family": "seatbeat",
+   "current": "",
+   "new": true,
+   "base_lived": "Your home so far has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought.",
+   "notes": []
+  }
+ ]
+}

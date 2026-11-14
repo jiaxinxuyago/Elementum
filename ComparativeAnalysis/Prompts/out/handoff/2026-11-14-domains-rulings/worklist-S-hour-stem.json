@@ -1,0 +1,876 @@
+{
+ "worklist": "S-hour-stem",
+ "units": [
+  {
+   "key": "POSITION bijian_hour_stem · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:bijian_hour_stem.Growth",
+   "family": "headline",
+   "current": "Your growth keeps going when others stop.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_stem · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_hour_stem.Growth",
+   "family": "recognition",
+   "current": "You take up new skills in later life with the same seriousness you brought to your first job. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You find it hard to learn beside other people, and you lose some of the help that would come from it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_stem · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:bijian_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "You have taken up at least one serious new skill since your late forties, and you have kept at it without an audience. Younger people noticed before you mentioned it, and you have been asked how you do it more than once.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_stem · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:bijian_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "From your late forties you keep learning in plain view, and younger people copy the habit from you. You become the person they point to when they talk about starting something new, and you are admired for it more than anyone says.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:bijian_hour_stem.Family",
+   "family": "headline",
+   "current": "Your family learns independence by watching you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_hour_stem.Family",
+   "family": "recognition",
+   "current": "In your family you manage alone and see more than you say, and your relatives know it. Because asking for help feels like losing ground, you keep your troubles to yourself until they are over. The younger people in your family admire you, and you are harder for them to reach than you know.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:bijian_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "Your family has watched you handle your own affairs since your late forties, the paperwork and the repairs and the bad weeks alike. You turned down offers of help more than once, and one of the younger people learned to stop offering.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_stem · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:bijian_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "The people after you take their idea of independence from you, and from your late forties they watch how you manage more closely than they say. You teach them most by example, and the few words you add mean more to them than you expect.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_stem · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_hour_stem.Wealth",
+   "family": "headline",
+   "current": "Your later money goes to the bold.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_stem · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_hour_stem.Wealth",
+   "family": "recognition",
+   "current": "You back people you believe in, a younger person's venture or a friend's new start, and you give with an open hand. Because daring is what you admire most, a confident request is hard for you to refuse. Your savings shrink in the years you give without counting, and you know which of your gifts were really losses.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_stem · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_hour_stem.Wealth",
+   "family": "seatbeat",
+   "current": "People with plans that needed money have turned to you since your late forties, younger people and friends alike. You have agreed more often than you meant to, and you have watched some of it pay off and some of it disappear.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_stem · domain_climb.Wealth.ahead",
+   "kind": "ahead",
+   "page": "seat:jiecai_hour_stem.Wealth",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you start bringing you their plans and asking for support. You spend more on other people's ventures in these years than on your own comfort, and you are glad of most of it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_stem · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_hour_stem.Growth",
+   "family": "headline",
+   "current": "You keep growing through the daring young.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_stem · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_hour_stem.Growth",
+   "family": "recognition",
+   "current": "You grow in later life by watching bold people take risks and judging their bets with an experienced eye. Because risk still interests you, mentoring someone daring keeps your own nerve sharp. You lose interest in cautious company, and you come alive around anyone young enough to try something foolish.",
+   "notes": [
+    {
+     "id": "DD:DD-002",
+     "severity": "MAJOR",
+     "issue": "The ruling defines the lead as the highest seat among the gates the reader has reached. When no reached gate holds a seat, the composer falls back to an unreached Hour seat (`opened.length ? opened : seats`, line 82), so a reader of 21 to 37 gets a later-life recognition as \"how you are now\". Classically the Hour pillar is the late years and the people after you (渊海子平, 论年月日时: 时为子息晚景).",
+     "fix": "**Rule (owner):** when no reached gate rules the domain, HOW YOU ARE and the headline read either `domain_unruled.{d}` or a new present-tense trait line per Hour seat (how the trait shows before 48). The Hour seat's later-life bloom stays in its ahead beat. If instead the units are rewritten age-neutral, two examples. `jiecai_hour_stem.Growth.recognition`: \"You grow by backing bold people and judging their bets. Because a contest keeps you sharp, other people's risks teach you as much as your own, and you lose interest in cautious company. You come alive around anyone daring enough to try something foolish.\" `bijian_hour_stem.Growth.recognition`: \"You take up a new skill with the same seriousness you brought to your first one. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You find it hard to learn beside other people, and you lose some of the help that would come from it.\" Headlines: \"You grow by backing the daring.\" · \"You keep raising your own standard.\" · \"You see further than you can explain.\" · \"Your mind stays quick and restless.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION jiecai_hour_stem · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "Your learning since your late forties has come through other people's plans, the ones you advised on and the risks you watched up close. You have grown sharper each time a younger person asked for your judgement, and you have enjoyed being asked.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_stem · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:jiecai_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "You grow from your late forties by staying involved, advising and backing people who are still at the start. Their risks keep your mind quick in these years, and you take more chances with your own plans than you did a decade earlier.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_stem · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:piancai_hour_stem.Wealth",
+   "family": "headline",
+   "current": "Your money finds new openings late in life.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_stem · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_hour_stem.Wealth",
+   "family": "recognition",
+   "current": "You notice a chance to earn where others see an ending, a late venture or a deal offered by someone younger. Because new money excites you more than kept money, you give generously and write down too little of it. Your plans live in your head far longer than they live on paper.",
+   "notes": [
+    {
+     "id": "DB:DB-003",
+     "severity": "MAJOR",
+     "issue": "When no seat's gate has opened, `domainsResolve.js` line 82 falls back to the highest-ranked seat of all, so an Hour seat's recognition becomes How you are for a reader under 48, and eight of these recognitions describe later life as the reader's present.",
+     "fix": "**Rule.** Every Hour-seat recognition reads true at any age. It names the drive, and later life moves into the ahead beat, as `zhengcai_hour_stem` and `zhengcai_hour_branch` already do (D041 at 34 and D122 at 28 read correctly). Or, as a resolver rule: when no gate has opened, How you are shows `domain_unruled.<Domain>` and the Hour seat appears only as an ahead beat. Rewrites for the two on-page and nearest units are DB-014 and DB-017. **Evidence:** 1 page in this sample and 7 raw recognitions in D999, 8 units in all. Reach is low, because those are the units no sampled chart reached, but the misfire is certain when they do show."
+    },
+    {
+     "id": "DB:DB-017",
+     "severity": "MINOR",
+     "issue": "The recognition is tied to later life (DB-003), and its last sentence has \"your plans\", not the reader, as its subject.",
+     "fix": "Rewrite: \"You notice a chance to earn where others see an ending, a venture someone else gave up on or a deal nobody followed up. Because new money excites you more than kept money, you give generously and write down too little of it. You carry your plans in your head far longer than you put them on paper.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION piancai_hour_stem · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:piancai_hour_stem.Wealth",
+   "family": "seatbeat",
+   "current": "Money has reached you through new ventures and unexpected offers since your late forties, at least once from a direction you had stopped watching. You have given a good share of it away, more than once without noting to whom.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_stem · domain_climb.Wealth.ahead",
+   "kind": "ahead",
+   "page": "seat:piancai_hour_stem.Wealth",
+   "family": "seatbeat",
+   "current": "From your late forties chances to earn keep arriving, through new projects and through people a generation younger who want you involved. You give a great deal in these years, and your affairs stay clear only where you have put the details in writing.",
+   "notes": [
+    {
+     "id": "DB:DB-019",
+     "severity": "MINOR",
+     "issue": "It is counsel by condition that restates the recognition's \"write down too little of it\" (D135) and sits beside a second \"written down\" close on D114.",
+     "fix": "Rewrite: \"From your late forties chances to earn keep arriving, through new projects and through people a generation younger who want you involved. You give a great deal in these years, and you lose track of whatever you leave unwritten.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION piancai_hour_stem · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:piancai_hour_stem.Growth",
+   "family": "headline",
+   "current": "You keep starting new things when others stop.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_stem · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_hour_stem.Growth",
+   "family": "recognition",
+   "current": "You grow by entering fields you know nothing about, at an age when most people stick to what they know. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_stem · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:piancai_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "You have taken up at least one new subject since your late forties, a skill or a trade or a kind of work nobody expected from you. Younger company has kept you learning in those years, and you have looked less settled than people your age.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_stem · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:piancai_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "Your learning goes on in public from your late forties, through new work and through friendships with people much younger than you. You grow more curious with each decade, and you are the one in your family with the newest stories.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_hour_stem.Mind",
+   "family": "headline",
+   "current": "You see further in later life, and faster.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_hour_stem.Mind",
+   "family": "recognition",
+   "current": "You see the shape of a problem before anyone has finished describing it to you. Because your judgement rests on patterns you have gathered for years, you can name the answer long before you can show the working, and people find that hard to follow. You rarely explain how you got there, and some people stop asking.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_hour_stem.Mind",
+   "family": "seatbeat",
+   "current": "Your judgement has become the thing people remark on since your late forties, quick and accurate and hard to explain. You have been right more than once about something everyone else missed, and you have been thanked for it later than you liked.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Mind.ahead",
+   "kind": "ahead",
+   "page": "seat:pianyin_hour_stem.Mind",
+   "family": "seatbeat",
+   "current": "From your late forties your mind keeps sharpening, and you take on questions you once put aside. You do some of your best thinking in these years, and it reaches further once someone younger helps you put it into words.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_hour_stem.Growth",
+   "family": "headline",
+   "current": "You keep learning what few people bother to learn.",
+   "notes": [
+    {
+     "id": "cross:X-021",
+     "severity": "MINOR",
+     "issue": "Growth is becoming more yourself, and this seat reads as Mind (learning, classes, courses). 47 of 93 Growth units lean on learning, skill or study words. This seat is the clearest case.",
+     "fix": "Headline: \"You become more yourself the further you go from the crowd.\" Recognition: \"With each decade you become more of the odd one, and you stop apologising for it. Because the unusual is where you feel most yourself, you drop the roles and habits that were only for show. You buy the out-of-print book and write to the one person still working on the question.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_hour_stem.Growth",
+   "family": "recognition",
+   "current": "With each decade you go deeper into rare subjects, the overlooked field or the old method nobody teaches. Because the unusual is what holds your interest, you grow faster on your own than in any class, and you find most courses too slow. You buy the out-of-print book and write to the one person still working on the question.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "At least one subject most people your age would never touch has become yours since your late forties. You have gone further into it than you expected, and you have said less about it than it deserves.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:pianyin_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "You grow from your late forties by mastering one rare thing completely. You put what you learn into a form others can use, a method or a body of work, and you see it travel further than you do.",
+   "notes": [
+    {
+     "id": "cross:X-014",
+     "severity": "MINOR",
+     "issue": "The lived beat says \"you have said less about it than it deserves\", and the seat card beside it says \"your method stays unwritten for longer than it should\". This is also the Sage's ahead beat (\"a course or a set of notes or a body of advice\").",
+     "fix": "\"You grow from your late forties by mastering one rare thing completely. You go further into it than anyone around you, and you keep your method in your head long after others ask you to write it down.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_hour_stem.Career",
+   "family": "headline",
+   "current": "Your later work is advice, and people pay for it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_hour_stem.Career",
+   "family": "recognition",
+   "current": "In later life you move toward advisory work, the expert called in when the usual answers run out. Because people value what you alone can see, your name opens doors without a title attached, and you prefer it that way. You turn down steady roles and say yes to hard problems.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "More of your work has come by word of mouth since your late forties, from people who heard you could solve what others could not. You have taken on at least one younger person who learned your methods closely, and you have seen them do well.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_stem · domain_climb.Career.ahead",
+   "kind": "ahead",
+   "page": "seat:pianyin_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "The people after you seek out what you know from your late forties, and they bring you the questions their own teachers could not answer. You become the one they consult, and you see your methods carried into work you will never do yourself.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:qisha_hour_stem.Career",
+   "family": "headline",
+   "current": "Your authority keeps growing while others step back.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_hour_stem.Career",
+   "family": "recognition",
+   "current": "You stay in demand late, the one called when a problem is too hard for anyone else. Because pressure is where you feel useful, you take on serious responsibility at an age when most people are easing off. What you find hardest is a calendar with nothing urgent in it, and you fill it fast.",
+   "notes": [
+    {
+     "id": "DB:DB-014",
+     "severity": "MINOR",
+     "issue": "The General's later career reads as the Alchemist's rare knowledge, not as pressure, and it is tied to later life (DB-003).",
+     "fix": "Rewrite: \"You are the one handed the crisis and the deadline nobody else will carry. Because pressure is where you feel useful, you take on more responsibility each year while people around you ease off. What you find hardest is a calendar with nothing urgent in it, and you fill it fast.\" **Classical:** 渊海子平 论偏印: the Alchemist is the side-door learning (偏门之学). 子平真诠 论偏官: the General is the hard test."
+    }
+   ]
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:qisha_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "You have been asked to lead in hard moments since your late forties, in a crisis or on a committee or in work nobody else would take on. You turned down at least one easy way out because the demanding role kept you sharp.",
+   "notes": [
+    {
+     "id": "DC:DC-017",
+     "severity": "MINOR",
+     "issue": "On D144 it follows \"grown out of hard moments\" (qisha_month_stem) and \"at least once you turned down an easier job\" (qisha_month_branch), so \"hard moments\", \"turned down\" and \"at least\" each print two or three times.",
+     "fix": "\"Since your late forties you have been the one asked to lead, in a crisis or on a committee or in work nobody else would take on. The demanding roles have kept you sharp, and you have stayed in them long after others stepped back.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Career.ahead",
+   "kind": "ahead",
+   "page": "seat:qisha_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "From your late forties the work people bring you carries more weight, the serious decisions others are glad to hand over. You stay active in your work for longer than most, and you are consulted long after others have stopped being asked.",
+   "notes": [
+    {
+     "id": "cross:X-015",
+     "severity": "MINOR",
+     "issue": "This is the Magistrate's Hour-stem Career beat (\"you are trusted with decisions others will not make\"): judgement and consultation, not pressure.",
+     "fix": "\"From your late forties the work people bring you is the hardest they have, the crisis and the deadline nobody else will face. You stay in the thick of it longer than most, and you are called in long after others have stopped being asked.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:qisha_hour_stem.Growth",
+   "family": "headline",
+   "current": "You grow by using your strength with more care.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_hour_stem.Growth",
+   "family": "recognition",
+   "current": "You change by getting better at pressure, using less force to get the same result. Because you have tested yourself so many times, you know your limits well, and you spend your energy where it counts. You lose your temper less than you did, and you win more arguments by waiting.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:qisha_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "Your results have come with less pressure since your late forties, and you have made fewer enemies along the way. You started to guide younger people through hard work, and teaching them restraint has taught you more than any role.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:qisha_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "In the years after your late forties your growth comes through teaching, as you pass on how to handle pressure to people who are just starting. You become calmer and more exact with every year, and you get more done with less force.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:qisha_hour_stem.Family",
+   "family": "headline",
+   "current": "Your family measures itself against your standards.",
+   "notes": [
+    {
+     "id": "DB:DB-013",
+     "severity": "MINOR",
+     "issue": "The General and the Magistrate at the Hour Gate read as one force (standards and withheld praise), and the General's last sentence has the family, not the reader, as its subject.",
+     "fix": "Headline: \"Your family learns to rise to your pressure.\" Recognition: \"You push the younger people in your family hard, and you hand them the tests you once passed yourself. Because pressure is how you show belief in someone, the people close to you feel the weight before they feel the care. You earn your family's respect through the hard years, and you make some of them wait a long time for your praise.\" **Classical:** 子平真诠 论偏官: the General is the force that presses on the self and forges it. 论正官: the Magistrate is the rule that orders."
+    }
+   ]
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_hour_stem.Family",
+   "family": "recognition",
+   "current": "You hold the people in your family to high standards, and you notice the slip before the effort. Because demands are how you show care, the people close to you feel the weight before they feel the care. Your family respects you deeply, and some of them wait a long time for your praise.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:qisha_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "The people after you have measured themselves against you since your late forties. They took your standards seriously, and you saw at least once that a sharp word from you stayed with them for years.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_stem · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:qisha_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "Past your late forties the people after you carry your standards into their own lives. You soften with them in these years, and a few words of praise from you mean more to them than anything else you give.",
+   "notes": [
+    {
+     "id": "DA:DA-010",
+     "severity": "MINOR",
+     "issue": "Passing on standards is the Magistrate's example (its Hour card: \"measure themselves against your example\"). The General is pressure and the hard test (子平真诠 论偏官).",
+     "fix": "\"Past your late forties the people after you grow tougher for the tests you set them. You soften with them in these years, and a few words of praise from you mean more to them than anything else you give.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION shangguan_hour_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_hour_stem.Career",
+   "family": "headline",
+   "current": "Your best work is the work you do last.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_hour_stem.Career",
+   "family": "recognition",
+   "current": "You do your best work where you can say what you think, and a job that asks for quiet manners tires you. Because your skill has grown faster than your patience for rules, you are better at the job than many who manage it. What you make in later life outlasts the job that paid for it, and you judge yourself by the work alone.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "Your work has grown bolder since your late forties, and you have said things in public that you once kept back. At least once a role ended because you would not soften a view, and you did better work in the next one.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_stem · domain_climb.Career.ahead",
+   "kind": "ahead",
+   "page": "seat:shangguan_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "From your late forties your influence grows as titles start to matter less, and people begin to repeat what you say. Younger people carry your methods into their own work, and you hear your own style in the way they argue with you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_stem · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_hour_stem.Growth",
+   "family": "headline",
+   "current": "You grow for as long as the work stays new.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_stem · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_hour_stem.Growth",
+   "family": "recognition",
+   "current": "You grow fastest when the task is new to you, a different kind of audience or a skill nobody expects you to take up. Because sameness bores you before it tires you, you leave a settled position sooner than others think wise. Each change costs you some comfort, and you come out of it sharper than you went in.",
+   "notes": [
+    {
+     "id": "DD:DD-014",
+     "severity": "MINOR",
+     "issue": "The Virtuoso reads as the Horizon: novelty, a new field, work nobody expected. That is nearly the Horizon's own lived beat (\"a skill or a trade or a kind of work nobody expected from you\"). Its own ahead beat (\"Saying out loud what you used to keep to yourself\") is about the voice, so lived and ahead disagree. Classical ground: 伤官 is talent that defies the rule (子平真诠 论伤官); range and new ventures are 偏财.",
+     "fix": "Recognition: \"You grow where someone has said a thing cannot be done, a rule to test or a method to beat. Because being told how bores you before it tires you, you leave a settled position sooner than others think wise. Each break costs you some comfort, and you speak more plainly after every one.\" Headline: \"You grow by breaking the rule you were given.\" Lived: \"Past your late forties you have said out loud more than once what others in the room would not, and changed your way of working because of it. Each break looked risky to the people around you, and you grew more for it than in the calmer years before.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION shangguan_hour_stem · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "Past your late forties you have changed direction more than once where others expected you to settle, taking up a new field or a new way of working. Each move looked risky to the people around you, and you grew more for it than in the calmer years before.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_stem · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:shangguan_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "Saying out loud what you used to keep to yourself becomes your way of growing from your late forties, and people who once called you difficult start calling you wise. You stay sharp in these years while something in your life is new, and you go looking for it when nothing is.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:shishen_hour_stem.Family",
+   "family": "headline",
+   "current": "You become the relative everyone wants to visit.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_hour_stem.Family",
+   "family": "recognition",
+   "current": "In your family you are the one who remembers birthdays, cooks for the holidays and never arrives empty-handed. Because giving is how you feel close, you hand over gifts more easily than advice. Your family takes after your kindness more than your opinions, and you are glad of the trade.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:shishen_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "You have become the relative who hosts since your late forties, the one whose home younger people head for at holidays. The people after you have picked up your habits of giving, and you see yourself in how they treat their own guests.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_stem · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:shishen_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "From your late forties your family gathers around what you give, the meals and the gifts and the time. Younger people grow easy and generous around you, and you see the best of yourself in them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:shishen_hour_stem.Career",
+   "family": "headline",
+   "current": "Your later work is your most generous.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_hour_stem.Career",
+   "family": "recognition",
+   "current": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on appetite, and you do more of it in a happy month than in a pressured year.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:shishen_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "Your work has turned since your late forties toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_stem · domain_climb.Career.ahead",
+   "kind": "ahead",
+   "page": "seat:shishen_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "Your working life turns productive in the ways that suit you from your late forties, through mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_stem · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_hour_stem.Wealth",
+   "family": "headline",
+   "current": "Your money gets steadier every decade.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_stem · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_hour_stem.Wealth",
+   "family": "recognition",
+   "current": "You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_stem · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_hour_stem.Wealth",
+   "family": "seatbeat",
+   "current": "Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_stem · domain_climb.Wealth.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengcai_hour_stem.Wealth",
+   "family": "seatbeat",
+   "current": "Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_hour_stem.Family",
+   "family": "headline",
+   "current": "You end up as the one who provides.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_hour_stem.Family",
+   "family": "recognition",
+   "current": "You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "You have become your family's provider since your late forties, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_stem · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengcai_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "From your late forties your family leans on what you have built, and you give it calmly. You become the relative everyone trusts with arrangements, and you will find yourself saying out loud some of what your money already says.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_hour_stem.Family",
+   "family": "headline",
+   "current": "Your family takes its standards from you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_hour_stem.Family",
+   "family": "recognition",
+   "current": "You set a clear example for your family, and you notice when someone falls short of it. Because you care about doing things properly, you correct before you praise, and the people close to you remember both. Your approval matters more to them than you realise, and you give it less than they need.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "Younger people in your family have watched how you conduct yourself since your late forties, and they copied more than you knew. More than once a word of your approval stayed with one of them for years, and you heard about it only later.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengguan_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you treat you as the one whose opinion settles things. You praise more freely in these years, and they grow steadier for it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_hour_stem.Social",
+   "family": "headline",
+   "current": "Your reputation keeps rising, decade by decade.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_hour_stem.Social",
+   "family": "recognition",
+   "current": "You are the person people ask to chair the meeting or hold the keys or settle the dispute. Because you take duty seriously, you say yes to roles others avoid, and your circle trusts you more each year. Your friendships carry a little formality, and you find it hard to let others see you off duty.",
+   "notes": [
+    {
+     "id": "DE:DE-014",
+     "severity": "MINOR",
+     "issue": "No Social seat's gate has opened at 22, so the resolver falls back to the unopened Hour seat and tells the reader now what the Hour Gate holds from 48, while the seat card beside it says \"in later life\" (source: 三命通会 根苗花实, the Hour pillar is the 实, the late years).",
+     "fix": "Rule (resolver): when no seat's gate has opened, How you are reads `TEMPLATED tpl_domains · domain_unruled.Social` (or the current decade's line) and the Hour seat speaks only in its ahead beat; the headline still comes from the Hour seat. In `domainsResolve.js` the lead becomes the first opened seat or none."
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_hour_stem.Social",
+   "family": "seatbeat",
+   "current": "Your name has carried weight in your circle since your late forties, and groups you once simply belonged to have put you in charge. You gained respect that outlasted any title, and you found yourself consulted on matters well outside your old work.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Social.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengguan_hour_stem.Social",
+   "family": "seatbeat",
+   "current": "Past your late forties your community keeps giving you positions of trust, a committee or a board or a role as the steady voice. You are honoured more in these years than in your busiest working ones, and you choose carefully which causes get your name.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_hour_stem.Career",
+   "family": "headline",
+   "current": "Your later working life moves toward leadership.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_hour_stem.Career",
+   "family": "recognition",
+   "current": "You are drawn in later life to work that keeps an organisation sound, the overseeing and the guiding more than the doing. Because you respect structure, you would rather look after something lasting than start something new. Your value at work now lies in judgement, and you are trusted with decisions others will not make.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "Your work has shifted toward oversight since your late forties, a senior post or a seat on a board or a role guiding the people below you. You were trusted with the running of things you once only served, and you handled it with care.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_stem · domain_climb.Career.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengguan_hour_stem.Career",
+   "family": "seatbeat",
+   "current": "In the years after your late forties you move into roles that govern more than they produce, and your judgement becomes your main asset. Your work keeps a high standard in these years, and the respect you earn lasts longer than any post you hold.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_hour_stem.Family",
+   "family": "headline",
+   "current": "You become the one your family turns to.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_hour_stem.Family",
+   "family": "recognition",
+   "current": "When your family needs advice or a calm word in a bad week, you are the one they call. Because protecting the young matters to you deeply, you step in early when someone younger is struggling, and you give more than you are asked for. You are respected at family gatherings more than you are relaxed at them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "Younger people in your family have brought you their problems since your late forties, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_hour_stem.Family",
+   "family": "seatbeat",
+   "current": "Younger people look to you from your late forties for guidance, and for cover when things fall apart. You give both steadily in these years, and you see what you taught them carry on in their lives.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_hour_stem.Growth",
+   "family": "headline",
+   "current": "You grow in later life by teaching.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_hour_stem.Growth",
+   "family": "recognition",
+   "current": "Passing on what you know is how you grow now, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find a new purpose in being useful to people who are just starting.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_hour_stem.Growth",
+   "family": "seatbeat",
+   "current": "What you know takes a lasting form from your late forties, a course or a set of notes or a body of advice. You see it outlast your own part in it, and you take quiet pride in that.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_hour_stem.Mind",
+   "family": "headline",
+   "current": "Your thinking stays quick because people keep asking.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_hour_stem.Mind",
+   "family": "recognition",
+   "current": "You keep your mind in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a week when nobody calls, and you pick up the phone yourself before the week is out.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_hour_stem.Mind",
+   "family": "seatbeat",
+   "current": "Other people's questions have kept your mind active since your late forties, the advice asked for and the problems brought to you. You have read more in these years than in your busiest working ones, and you remember most of it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_stem · domain_climb.Mind.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_hour_stem.Mind",
+   "family": "seatbeat",
+   "current": "Younger people bring you their hardest questions from your late forties, and you enjoy the work of answering them. You are quoted and asked for in these years, and you feel most yourself when a question has no easy answer.",
+   "notes": [
+    {
+     "id": "cross:X-017",
+     "severity": "MINOR",
+     "issue": "Hard questions with no easy answer are the Alchemist's mark (its Hour-stem Career beat says \"the questions their own teachers could not answer\"). The Sage teaches and shelters.",
+     "fix": "\"Younger people bring you their questions from your late forties, and you enjoy the work of teaching them properly. You are quoted and asked for in these years, and you feel most yourself when someone leaves understanding more than they came with.\""
+    }
+   ]
+  }
+ ]
+}

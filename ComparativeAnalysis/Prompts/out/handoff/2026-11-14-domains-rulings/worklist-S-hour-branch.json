@@ -1,0 +1,847 @@
+{
+ "worklist": "S-hour-branch",
+ "units": [
+  {
+   "key": "POSITION bijian_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:bijian_hour_branch.Family",
+   "family": "headline",
+   "current": "Your family in later life is chosen as much as born.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_hour_branch.Family",
+   "family": "recognition",
+   "current": "You treat the younger people in your family as equals, and you want their argument more than their care. Because being looked down on is the one thing you cannot bear, you hide a hard week from anyone young enough to fuss. Your family stays close in a level way, and you miss some of the softness it rarely offers.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:bijian_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "Your family has come to include people you chose since your late forties, old friends with a key and younger people who treat you as their match. You have kept that circle small on purpose, and you have seen less of the relatives who fussed over you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:bijian_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you grow into equals who stand beside you and argue back. You keep a smaller family around you in these years than most people do, and you are prouder of it than of anything you own.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:bijian_hour_branch.Growth",
+   "family": "headline",
+   "current": "You keep growing through the few who match you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_hour_branch.Growth",
+   "family": "recognition",
+   "current": "You grow in later life through two or three people who push you as hard as you push yourself. Because you learn only from someone you respect, you ignore advice from anyone who talks down to you. Your progress is slower without that small company, and you notice it within weeks.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:bijian_hour_branch.Growth",
+   "family": "seatbeat",
+   "current": "A few equals have taught you most since your late forties, a friend or a colleague who would not let you coast. Whenever you worked alone for long your progress stalled, and you went back to them each time.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_hour_branch · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:bijian_hour_branch.Growth",
+   "family": "seatbeat",
+   "current": "Your growth from your late forties comes through company, long talks and shared work with people who expect a great deal of you. You stay sharper in these years than most people your age, and you owe it to the few who keep you honest.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_hour_branch.Family",
+   "family": "headline",
+   "current": "Your family grows louder, and dearer, with age.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_hour_branch.Family",
+   "family": "recognition",
+   "current": "You are pulled toward the strong-willed people in your family, the ones who push back and want their share. Because you respect whoever stands up to you, you give most to whoever argues hardest, and the quieter ones get less of you. You love a full and noisy table more than a calm one.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "Since your late forties your family has grown louder, with younger people who want your time, your backing and your money. You have given more than you meant to, and you would do most of it again.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:jiecai_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you will push against you and fight for you. You will find those years warmer and riskier than most people's, and you will be happiest in them when you have kept your own keys.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_hour_branch.Wealth",
+   "family": "headline",
+   "current": "Your later money will always have company.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_hour_branch.Wealth",
+   "family": "recognition",
+   "current": "You treat money as something shared, and you find it hard to say no when someone close asks for help. Because loyalty matters more to you than a full account, you give first and count later, and the counting rarely feels good. You keep wealth best when the limit is fixed before anyone asks.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_hour_branch.Wealth",
+   "family": "seatbeat",
+   "current": "More people have had a claim on your money since your late forties, among them younger people and someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_hour_branch · domain_climb.Wealth.ahead",
+   "kind": "ahead",
+   "page": "seat:jiecai_hour_branch.Wealth",
+   "family": "seatbeat",
+   "current": "Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own share only where you set its size before anyone asks.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:piancai_hour_branch.Family",
+   "family": "headline",
+   "current": "Your family spreads wide and gathers in bursts.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_hour_branch.Family",
+   "family": "recognition",
+   "current": "You love your family best when everyone is together for a few loud days, and you plan those days months early. Because distance has never felt like loss to you, long gaps between visits pass without worry. You give the people close to you many short visits and few long stays.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:piancai_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "Your family has scattered across more than one place since your late forties, and the younger ones live far from you and from each other. You have become the one who brings them together, and your best days in these years have been reunions.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:piancai_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you settle in different places and keep you travelling to see them. You become the reason they meet, and you find the gatherings worth more to you than anything you could buy them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:piancai_hour_branch.Wealth",
+   "family": "headline",
+   "current": "Your later money keeps moving, and so do you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_hour_branch.Wealth",
+   "family": "recognition",
+   "current": "You keep money in motion, in a late venture or a trip or help for someone younger with a plan. Because an untouched account feels wasted to you, you spend on movement and company before you think of reserves. Your savings grow slowly because so much of your money is always on its way somewhere.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:piancai_hour_branch.Wealth",
+   "family": "seatbeat",
+   "current": "Your money since your late forties has gone into travel, new projects and the plans of younger people more than into reserves. You have earned well from at least one late venture, and you have spent a good part of it on getting people together.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_hour_branch · domain_climb.Wealth.ahead",
+   "kind": "ahead",
+   "page": "seat:piancai_hour_branch.Wealth",
+   "family": "seatbeat",
+   "current": "Chances to earn keep reaching you from your late forties, through younger people or through a move. Your money stays lively in these years, and you sleep best when one part of it is never touched.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_hour_branch.Family",
+   "family": "headline",
+   "current": "Your later family is a few people who understand your silences.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_hour_branch.Family",
+   "family": "recognition",
+   "current": "You keep family life quiet and close, with a small number of people who know when to leave you be. Because your inner life matters more to you than a full house, you see your relatives less than they would like, and you love them no less for it. You show care by what you teach more than by what you say.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "Your own work has taken up more of your afternoons since your late forties, and you welcome quiet visits most. One of the younger people around you has learned to sit with your silence, and you have trusted that person with more of your thinking than anyone.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:pianyin_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "The people after you come to you from your late forties for what you understand, more than for company. You draw one or two of them close, and you watch them carry your way of thinking further than you could.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_hour_branch.Mind",
+   "family": "headline",
+   "current": "Your mind gets clearer with every year.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_hour_branch.Mind",
+   "family": "recognition",
+   "current": "You spend your best hours on one subject at a time, reading and thinking until it comes clear. Because understanding is the thing you value most, you guard those hours closely, and you resent the phone call that breaks them. You are sharper than people expect, and you enjoy surprising them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_hour_branch.Mind",
+   "family": "seatbeat",
+   "current": "The questions you think about have narrowed since your late forties to the few that matter to you, and your answers have grown more exact. You have settled things that puzzled you for decades, and you have shared less of what you found than people would like.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Mind.ahead",
+   "kind": "ahead",
+   "page": "seat:pianyin_hour_branch.Mind",
+   "family": "seatbeat",
+   "current": "Study and quiet work of your own choosing fill your days from your late forties, and you take each question as far as it will go. You turn what you know into notes or lessons for the people after you, and they come back to them for years.",
+   "notes": [
+    {
+     "id": "cross:X-013",
+     "severity": "MINOR",
+     "issue": "The lived beat for the same seat and years says \"you have shared less of what you found than people would like\". The two poles of one seat disagree on what it does, and the ahead beat reads as the Sage.",
+     "fix": "\"Study and quiet work of your own choosing fill your days from your late forties, and you take each question as far as it will go. You share the answers with one or two of the people after you, and you keep the rest for yourself.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_hour_branch.Growth",
+   "family": "headline",
+   "current": "You grow in later life by keeping only what matters.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_hour_branch.Growth",
+   "family": "recognition",
+   "current": "Interests and habits that no longer teach you anything fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, you look as if you are doing less while you understand more. You care less each year about keeping up, and more about getting one thing right.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_hour_branch.Growth",
+   "family": "seatbeat",
+   "current": "Commitments you took on from habit have gone since your late forties, the groups and the roles that once filled your weeks. What is left is a handful of practices you return to every day, and you have grown more through them than through anything new.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_hour_branch · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:pianyin_hour_branch.Growth",
+   "family": "seatbeat",
+   "current": "Your growth from your late forties lies in refining what you already know, until years of odd learning come down to a few clear ideas. You pass those ideas to younger people in plain words, and you see them used long after you worked them out.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:qisha_hour_branch.Health",
+   "family": "headline",
+   "current": "Your body stays strong on routine.",
+   "notes": [
+    {
+     "id": "DC:DC-011",
+     "severity": "MINOR",
+     "issue": "Routine, order and a fixed hour are the Magistrate's, so the General reads as rules; on D112 the same character runs on adrenaline at the Month Gate and on routine at the Hour Gate (子平真诠 论偏官: 七杀 is the pressure that bears on the self and has to be met; 论正官: 官 is order kept).",
+     "fix": "Headline: \"Your body stays strong by being tested.\" Recognition: \"You treat your body as something to test, with an early start and a tough workout most days. Because strength is part of how you see yourself, you ignore tiredness until it slows you down. Your energy is at its best when the week asks something hard of you.\" Ahead: \"From your late forties your body answers to the high standard you set it, an early start and a demanding week. You stay fitter than most people your age, and you feel it within days whenever you push on without rest.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_hour_branch.Health",
+   "family": "recognition",
+   "current": "You treat your body as something to keep in working order, with a fixed hour to rise and a daily walk or workout. Because strength is part of how you see yourself, you ignore tiredness until it slows you down. Your energy is at its best when the week has a shape.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:qisha_hour_branch.Health",
+   "family": "seatbeat",
+   "current": "Your body has answered regular effort quickly since your late forties, and your strength has returned each time you took up a routine again. When you were tired, pride kept you going past the point of rest, and you felt it for days afterwards.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Health.ahead",
+   "kind": "ahead",
+   "page": "seat:qisha_hour_branch.Health",
+   "family": "seatbeat",
+   "current": "From your late forties your health rests on routine, and a steady week keeps you fitter than most people your age. Days with no shape drain your energy and ordered ones bring it back, and you feel the difference within a week.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:qisha_hour_branch.Family",
+   "family": "headline",
+   "current": "Your family feels your protection first.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_hour_branch.Family",
+   "family": "recognition",
+   "current": "You look after your family by making sure they are safe, the arrangements firm and the risks dealt with before anyone else sees them. Because care for you means strength, you find it easier to fix a problem than to say a tender thing. Your family knows they are covered, and they wait longer to hear that they are loved.",
+   "notes": [
+    {
+     "id": "cross:X-003",
+     "severity": "MAJOR",
+     "issue": "In Family at the Hour Gate, five characters share \"care shown by arranging, not by words\", and six ahead beats resolve it the same way (\"you learn to say it out loud\"). The General and the Magistrate at the Hour stem are the same parent: standards, withheld praise, one word that stayed for years. The Twin, Rival and Virtuoso share \"the young who argue back\".",
+     "fix": "**Rule:** \"care by doing, not saying\" belongs to the Steward (provision). The General is protection under pressure, the Magistrate the family's word and its formal roles, the Twin independence, the Rival sharing and backing, the Virtuoso talk. The \"you learn to say it out loud\" arc is allowed on one ahead beat, not six. Samples. Magistrate Hour-branch Family recognition: \"You look after your family by keeping its word, the promise honoured and the duty done on time. Because a role is how you know your place, you take the formal jobs in the family that others avoid. Your family relies on your word, and you hold it more carefully than your feelings.\" General Hour-stem Family recognition: \"You protect your family by making them strong, the hard lesson given early and the risk faced together. Because you trust pressure to build people, you push the young ones harder than strangers and stand closest to them in a crisis. Your family feels safe with you in a storm, and you find calm days with them harder.\" General Hour-stem Family lived: \"The people after you have turned to you in their hardest weeks since your late forties. You pushed them to face what scared them, and you saw them come through tougher than they expected.\""
+    },
+    {
+     "id": "DA:DA-011",
+     "severity": "MINOR",
+     "issue": "\"The arrangements firm\" and \"Because care for you means strength\" copy the Steward's Hour recognition (\"the bills covered and the plans made\", \"Because care for you means provision\"). The last sentence has no \"you\" as its subject. 子平真诠 论偏官: the General guards through force, not provision.",
+     "fix": "\"You look after your family by standing between them and trouble, and you deal with a threat before anyone else sees it. Because you show care through strength, you find it easier to fix a problem than to say a tender thing. Your family knows they are covered, and you are slower to tell them they are loved.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:qisha_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "The people after you have leaned on your strength in hard moments since your late forties. You sorted out the problem before you asked how they felt, and you saw them keep the few kind words you did say for years.",
+   "notes": [
+    {
+     "id": "DA:DA-012",
+     "severity": "MINOR",
+     "issue": "On D143 it repeats How you are (\"easier to fix a problem than to say a tender thing\") and the close of the General's stem beat (\"a sharp word from you stayed with them for years\").",
+     "fix": "\"The people after you have leaned on your strength in hard moments since your late forties. You took on the worst of each crisis yourself, and you kept your own worries out of their sight.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:qisha_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "Past your late forties the people after you come to you first when things go wrong. You give them safety without being asked, and in these years you find the kind thing easier to say out loud.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:qisha_hour_branch.Growth",
+   "family": "headline",
+   "current": "You keep growing by setting yourself hard tasks.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_hour_branch.Growth",
+   "family": "recognition",
+   "current": "You grow the way you always have, by taking on something difficult and holding yourself to it. Because ease makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. What costs you is the quiet, and you find unplanned days harder than hard work.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:qisha_hour_branch.Growth",
+   "family": "seatbeat",
+   "current": "You have taken on at least one new discipline since your late forties, a skill or a sport or a role, and stuck with it longer than people expected. Your growth in those years came through effort, and the calm stretches between left you restless.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_hour_branch · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:qisha_hour_branch.Growth",
+   "family": "seatbeat",
+   "current": "In the years after your late forties you grow through challenges you choose yourself, and each one leaves you sharper and steadier. You learn slowly to count rest as part of the work, and your strength outlasts most people's for it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_hour_branch.Family",
+   "family": "headline",
+   "current": "Your family stays loud with argument and ideas.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_hour_branch.Family",
+   "family": "recognition",
+   "current": "You love your family through talk, about ideas and plans and whatever they are getting wrong. Because a good argument is how you stay close, you push the people you love harder than strangers, and the gentler ones keep their distance. What you want from your family is a table that talks back, and the weeks it goes quiet are the ones you like least.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "The talk in your family has got sharper and funnier since your late forties, with younger people answering you back. You have been proudest when one of them beat you in an argument, and you have rarely said so.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:shangguan_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you seek you out for talk they cannot get anywhere else. You become the one in your family whose opinion is asked for, and you give it with more warmth than you once did.",
+   "notes": [
+    {
+     "id": "DA:DA-009",
+     "severity": "MINOR",
+     "issue": "Being the one whose opinion is sought is authority, the Magistrate's beat (\"the one whose opinion settles things\", zhengguan_hour_stem.ahead). The Virtuoso is the voice that says what others will not (子平真诠 论伤官).",
+     "fix": "\"From your late forties the people after you seek you out for talk they cannot get anywhere else. You become the one in your family who says what others will not, and you say it with more warmth than you once did.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION shangguan_hour_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_hour_branch.Mind",
+   "family": "headline",
+   "current": "Your mind stays quick and restless with every decade.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_hour_branch.Mind",
+   "family": "recognition",
+   "current": "You keep your mind busy with projects and opinions, and an empty week wears you down faster than a hard one. Since an idea feels finished to you only once it has been argued, you go looking for a debate when none comes to you. Your thinking stays quick while it has work, and you feel the loss within days when it has none.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_hour_branch.Mind",
+   "family": "seatbeat",
+   "current": "Your mind has kept finding new work since your late forties, a subject or a project picked up whenever an old one ran out. You have started more debates in this stretch than in any earlier decade, and you have enjoyed nearly all of them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_hour_branch · domain_climb.Mind.ahead",
+   "kind": "ahead",
+   "page": "seat:shangguan_hour_branch.Mind",
+   "family": "seatbeat",
+   "current": "Your thinking gets bolder past your late forties, and you say plainly what you held back in earlier years. An idea that grips you keeps you up at night, and you sleep well again once you have said it out loud.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:shishen_hour_branch.Family",
+   "family": "headline",
+   "current": "Your later family is the people at your table.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_hour_branch.Family",
+   "family": "recognition",
+   "current": "You treat anyone who eats at your home often enough as family, and a friend who comes every week matters to you as much as a cousin. Because feeding people is how you show care, you keep inviting people long after others have stopped hosting. Your house stays busy because of it, and you would feel lost in a home that no one visits.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:shishen_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "Your home has filled with the people after you since your late forties, and with friends who come for the food. You have hosted more in this stretch than in any earlier decade, and you have started to be fed by the people you once fed.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:shishen_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you gather at your table more each year. The care you have given starts to come back to you in these years, and you are looked after by those you once fed.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:shishen_hour_branch.Health",
+   "family": "headline",
+   "current": "Your body grows easier to live in each decade.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_hour_branch.Health",
+   "family": "recognition",
+   "current": "You look after your body through regular meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it stretches into a slow month before you notice. Your health depends more on company than on effort, and you feel the difference within days when you eat alone.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:shishen_hour_branch.Health",
+   "family": "seatbeat",
+   "current": "Your sleep has deepened since your late forties and your appetite has steadied, and you have enjoyed your food more than ever. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_hour_branch · domain_climb.Health.ahead",
+   "kind": "ahead",
+   "page": "seat:shishen_hour_branch.Health",
+   "family": "seatbeat",
+   "current": "Your body settles into an easy routine from your late forties, with good sleep and steady appetite and company at meals. These years suit your body unusually well, and you stay strong in them while there are people around you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_hour_branch.Family",
+   "family": "headline",
+   "current": "Your family rests on what you quietly arrange.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_hour_branch.Family",
+   "family": "recognition",
+   "current": "You look after your family through arrangements, the bills covered and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. Your family sees the comfort and rarely the work behind it, and you prefer it that way.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "You have been the one keeping your family covered since your late forties, with help ready before anyone asks. You have taught the younger people in your family to be careful with money, mostly by example.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengcai_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_hour_branch.Health",
+   "family": "headline",
+   "current": "Your body does best on steady upkeep.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_hour_branch.Health",
+   "family": "recognition",
+   "current": "Your body gets the same care as your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_hour_branch.Health",
+   "family": "seatbeat",
+   "current": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have more of it left than people who pushed hard and rested little.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Health.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengcai_hour_branch.Health",
+   "family": "seatbeat",
+   "current": "Your body repays the care you keep giving it from your late forties, with steady energy and good sleep. You stay strong in these years, and you feel the benefit of every ordinary habit.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_hour_branch.Wealth",
+   "family": "headline",
+   "current": "Your money ends up settled and secure.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_hour_branch.Wealth",
+   "family": "recognition",
+   "current": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more comfort available than you let yourself use.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_hour_branch.Wealth",
+   "family": "seatbeat",
+   "current": "Your finances have settled since your late forties, and your household has felt the hard times around it less than most. You have spent more on others than on your own comfort in that time.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_hour_branch · domain_climb.Wealth.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengcai_hour_branch.Wealth",
+   "family": "seatbeat",
+   "current": "Your money stays steady from your late forties while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_hour_branch.Family",
+   "family": "headline",
+   "current": "Your family trusts your word completely.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_hour_branch.Family",
+   "family": "recognition",
+   "current": "You look after your family by keeping everything in order, the papers sorted and the promises kept. Because reliability is how you express love, you are more at ease arranging things for people than talking about feelings. Your family depends on that order, and they know less of your heart than of your plans.",
+   "notes": [
+    {
+     "id": "DA:DA-016",
+     "severity": "MINOR",
+     "issue": "The last sentence of How you are has no \"you\" as its subject.",
+     "fix": "\"You look after your family by keeping everything in order, the papers sorted and the promises kept. Because reliability is how you express love, you are more at ease arranging things for people than talking about feelings. Your family depends on that order, and you show them less of your heart than of your plans.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengguan_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "The people after you have relied on your word without checking it since your late forties. You have settled matters for them quietly and in good time, and few of them have seen how much you handled.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengguan_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you organise their own lives around what you have arranged. You share more of your stories with them in these years, and they come to know you as well as they trust you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_hour_branch.Growth",
+   "family": "headline",
+   "current": "You grow later by refining what you value.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_hour_branch.Growth",
+   "family": "recognition",
+   "current": "You grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you would rather redo a thing properly than try something new, and the change in you shows up as patience. You redo a job nobody else would have noticed was wrong, and you feel better for it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_hour_branch.Growth",
+   "family": "seatbeat",
+   "current": "Your growth since your late forties has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_hour_branch · domain_climb.Growth.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengguan_hour_branch.Growth",
+   "family": "seatbeat",
+   "current": "Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you become the example others hold up.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_hour_branch.Family",
+   "family": "headline",
+   "current": "Your family looks after you, and you let it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_hour_branch.Family",
+   "family": "recognition",
+   "current": "You are cared for by younger people more than you expected, with visits and help and small kindnesses. Because you are used to being the one who gives, you wave off help you need, and it hurts the people offering. What you want from your family now is company more than help.",
+   "notes": [
+    {
+     "id": "cross:X-016",
+     "severity": "MINOR",
+     "issue": "The Sage is shelter and being looked after, but this beat (with its lived beat and card: \"for most of your life you have done the looking after\") claims a lifelong-giver biography the chart cannot know. It contradicts a Year-Gate Sage on the same chart (\"You were truly looked after as a child\"). It also carries a pain word.",
+     "fix": "\"Younger people look after you more than you expected, with visits and help and small kindnesses. Because being cared for is what lets you rest, you settle into their care and stop running everything yourself. What you want from your family now is company as much as help, and you say so.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "Little acts of care have come to you unasked since your late forties, a lift or a meal or a call from younger people. You have found them harder to accept than to give, and you have learned to say yes more often.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Family.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_hour_branch.Family",
+   "family": "seatbeat",
+   "current": "From your late forties the people after you return the care you once gave them, in visits and help you did not ask for. You become the calm centre of a close family in these years, and you take their help without keeping score.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_hour_branch.Health",
+   "family": "headline",
+   "current": "Your health in later life rests on gentle rhythm.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_hour_branch.Health",
+   "family": "recognition",
+   "current": "You stay well on regular meals, unhurried walks and early nights, and you sleep badly the week the rhythm breaks. Because ease restores you, you let the ease run on past the point it helps you, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
+   "notes": [
+    {
+     "id": "DC:DC-012",
+     "severity": "MINOR",
+     "issue": "Ease is the Artisan's force; the Sage's is being looked after, which its own ahead beat and seat card say (\"the company of people who look after you\") (子平真诠 论印绶: 印 shelters and supports the self; 三命通会 论食神: 食神 is enjoyment and ease).",
+     "fix": "\"You stay well on regular meals, unhurried walks and early nights, and you sleep badly the week the rhythm breaks. Because being looked after restores you, you let others carry your pace for longer than it helps, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_hour_branch.Health",
+   "family": "seatbeat",
+   "current": "Your sleep has come more easily since your late forties, and your days have found a steadier pace. You have also gone through a stretch of too much rest, and your energy came back once something asked more of you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Health.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_hour_branch.Health",
+   "family": "seatbeat",
+   "current": "Your body does well from your late forties on gentle habits and the company of people who look after you. You hold your strength in these years through one demanding thing each week, and you feel the difference whenever you let it go.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_hour_branch.Mind",
+   "family": "headline",
+   "current": "Your mind stays clear through daily habit.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_hour_branch.Mind",
+   "family": "recognition",
+   "current": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and a year with nothing to puzzle over leaves you restless. You think best with one good question in front of you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_hour_branch.Mind",
+   "family": "seatbeat",
+   "current": "Daily reading and talks with people you trust have kept your thinking calm and steady since your late forties. You have become the one others ask for a clear view, and you have enjoyed being asked.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_hour_branch · domain_climb.Mind.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_hour_branch.Mind",
+   "family": "seatbeat",
+   "current": "Reading fills more of your days from your late forties, and you remember more of it than you did in your busiest years. Younger people come to rely on your judgement in these years, and you give it carefully.",
+   "notes": [
+    {
+     "id": "DD:DD-012",
+     "severity": "MINOR",
+     "issue": "Two Sage Hour beats in a row open \"Younger people\" and say the same thing: the young consult you. The lived twin of this seat (\"talks with people you trust\") already points inward.",
+     "fix": "\"Reading fills more of your days from your late forties, and you remember more of it than you did in your busiest years. Talks with the few people you trust keep your thinking clear in these years, and you give your judgement carefully when it is asked for.\""
+    }
+   ]
+  }
+ ]
+}

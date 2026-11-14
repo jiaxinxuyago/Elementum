@@ -1,0 +1,701 @@
+{
+ "worklist": "DEC-1",
+ "units": [
+  {
+   "key": "GOD bijian · decade_lines.Family.helping.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Those years made you an equal in your family, with a voice as strong as anyone's. You stood on your own feet among your relatives, and they treated your word as worth the same as theirs.",
+   "notes": [
+    {
+     "id": "DA:DA-002",
+     "severity": "MAJOR",
+     "issue": "The By decade tab shows decades that began in early childhood with lived lines written for an adult.",
+     "fix": "(A) Recommended, code: apply round-1 M3 to the Advisor tab. `depthResolve.js:273` keeps a decade when `l.endAge >= DEC_MIN`, while step 2 (`domainsResolve.js:103`) requires `l.startAge >= DEC_MIN`. Switching to startAge removes all 12 misfits. (B) If the owner wants childhood decades kept, write child-fit lived lines for these five units, reading a child's early decades through the household as 三命通会 does (论小运, 论大运). Example, bijian.helping.lived: \"Those years gave you an equal at home, a sibling or cousin who stood level with you. You learned early to hold your own among your relatives, and they took your word seriously.\" Four lived units already fit a child: zhengguan on both poles, zhengyin heavy, and shishen helping from about five. bijian heavy fits a teen but half-fits a five-year-old (D186). zhengcai helping and zhengyin helping are not tested at child ages on these pages. Evidence below."
+    }
+   ]
+  },
+  {
+   "key": "GOD bijian · decade_lines.Family.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Your family runs on shared effort in these ten years, and each person at home carries a fair part. You do your share before anyone asks, and relatives come to you as one equal to another.",
+   "notes": []
+  },
+  {
+   "key": "GOD bijian · decade_lines.Family.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "In those years you kept your own counsel at home and turned down help you were offered more than once. The distance grew quietly, and what carried you was the one relative who treated you as an equal.",
+   "notes": []
+  },
+  {
+   "key": "GOD bijian · decade_lines.Family.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Pride runs through your family in these years, and each person insists on doing things their own way. The quarrels shrink once everyone has a clear part, and you come through by doing yours without keeping score.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · decade_lines.Wealth.helping.lived",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Contest sharpened the way you handled money in those years, and you went after the same chances others wanted. You did best with a rival close by, and you learned exactly what your effort was worth.",
+   "notes": [
+    {
+     "id": "DB:DB-002",
+     "severity": "MAJOR",
+     "issue": "The six lived Wealth decade lines are written for an earning adult, and the resolver shows the last past decade even when it fell in childhood, so a toddler \"counted money\" and a child \"saved steadily from regular work\".",
+     "fix": "**Rule.** A lived decade that ends before sixteen is not read as the reader's own earning. Either step 2 skips it in Wealth, Career and Love, or it reads from a new unit, `decade_lines.<Domain>.<pole>.early`, written in the family's frame (\"Money at home …\", \"You grew up while …\"). For Wealth that is 6 new units (Rival, Horizon and Steward, helping and heavy). **Classical:** 三命通会 (论小运) and 渊海子平 (童限) read the childhood years through the small luck and the parents' house, not as the child's own fortune. The brief's own law agrees: \"An Early Chapter lived beat fits a child.\" **Evidence:** 8 of 28 Wealth pages have a decade wholly or mostly before sixteen, and 2 more start one in the early teens."
+    }
+   ]
+  },
+  {
+   "key": "GOD jiecai · decade_lines.Wealth.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Shared money works for you in these ten years, because the contest with others keeps you sharp. You do better with people at your side than alone, and you keep a fair part of what you win together.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · decade_lines.Wealth.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Money went out on friends in those years, lent to them or spent keeping up with them. You learned what generosity costs, and you got through on work you could do on your own.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · decade_lines.Wealth.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Other people reach for your money in these years, through loans, shared costs and favours that do not all come back. You keep enough because you set your own share aside first, and you spend less on proving yourself.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · decade_lines.Career.helping.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Your work in those years was a contest, and you did best when someone else wanted the same result. You were sharpest with a rival close by, and that drive got you further than talent alone.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · decade_lines.Career.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Joint efforts carry your work in these ten years, and you do best inside a group with something to win. You compete hard and share credit fairly, and the people beside you back you for it.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · decade_lines.Career.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Others claimed credit for your work in those years, and the reward went more than once to people who pushed harder. You kept going on your own effort, and you came out of that contest with a skill nobody could claim.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · decade_lines.Career.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Rivalry over shared work costs you energy in these years, and a joint effort takes more from you than it pays. You get through on work that is plainly yours, and the people who matter see that you did it.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · decade_lines.Family.helping.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Home was warm in those years, full of meals and easy evenings with the people you lived with. You were the one who brought comfort to others, and your family loved you for it.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · decade_lines.Family.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Your household is softer in these ten years, with shared meals and unhurried weekends. You make the home a comfortable place, and relatives come to you because it feels good to be there.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · decade_lines.Family.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "During those years you gave your family more comfort than they asked for, and some of them came to expect it. You spoiled the people closest to you, and you got your own ease back once others began to care for you in turn.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · decade_lines.Family.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Indulgence runs the household in these years, with treats, late meals and little order. You get through on the warmth itself, and you wear yourself out less as your family learns to look after itself.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · decade_lines.Career.helping.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Work came easily in those years, especially work that let you make things or please people. You did your best at a relaxed pace, and others valued what you produced.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · decade_lines.Career.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "A craft or skill you enjoy is what pays in these ten years. People come back for what you make, and you do your best work at an easy pace.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · decade_lines.Career.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Comfort dulled your drive at work in those years, and easy work held you longer than it served you. You were well liked and under-stretched, and the skill you practised for pleasure is what kept you going.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · decade_lines.Career.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make carries you on, and you move forward each time a deadline gives you a reason to finish.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · decade_lines.Career.helping.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who chose you wanted exactly that.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · decade_lines.Career.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Original work brings you recognition in these ten years. You win people over by doing what others will not, and your reputation grows on your own terms.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · decade_lines.Career.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Clashes with the people in charge marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next chance each time.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · decade_lines.Career.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Authority pushes back on you in these years, and a frank remark costs more than it used to. Work that is yours alone carries you through, and you do better outside a strict chain of command.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · decade_lines.Wealth.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Money comes to you through openings in these years more than through regular pay, an offer or a sale or a well-timed move. You take more chances with money in this decade than you are used to, and most of them pay.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · decade_lines.Wealth.helping.lived",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Openings came your way in those years, a timely move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · decade_lines.Wealth.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Easy money came and went in those years, and each windfall left as fast as it arrived. You chased too many openings at once, and what carried you was the one steady source you kept.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · decade_lines.Wealth.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Chances multiply in these years and spread you thin, with more offers and requests than you can follow. One reliable source keeps paying while the others rise and fall, and you come through with your savings intact.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · decade_lines.Family.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Your family widens in these years, through new relatives, friends who become family or a household that keeps its door open. You spend more on the people around you than you used to, and you mind it less than you expected.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · decade_lines.Family.helping.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Your household opened outward in those years, through travel, new relatives or friends who became family. You gave generously to everyone at home, and the house was busier for it.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · decade_lines.Family.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through because your family forgave more than you expected.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · decade_lines.Family.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Distant plans crowd out home life in these years, and the people nearest to you feel the gap. What brings you back is a relative who asks plainly for your time, and you give it once you see the cost.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Wealth.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Wealth.helping.lived",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without windfalls or risk, and you trusted your own counting more than any tip.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Wealth.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and you came through on the security that careful habit built.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Wealth.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Wealth",
+   "family": "decade.Wealth",
+   "current": "Caution about money tightens in these years, and spending on yourself feels wrong even when you can afford it. You have more put by than you feel you have, and you relax a little each time you check.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Family.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Your family life settles in these years around the order you keep, a home that runs well and bills paid on time. You are the one your relatives rely on, and you are glad to be.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Family.helping.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Meals, chores and repairs ran smoothly at home in those years because you saw to them. Your family grew used to your steadiness, and you took pride in it.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Family.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Duty at home outweighed pleasure in those years, and you counted what others spent without meaning to. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly.",
+   "notes": [
+    {
+     "id": "DA:DA-008",
+     "severity": "MINOR",
+     "issue": "The Steward decade opens on the Magistrate's word \"duty\", and \"without meaning to\" can attach to the others' spending, so the line has to be read twice. On D101 it also lands on ages 3 to 12.",
+     "fix": "\"Careful keeping outweighed pleasure at home in those years, and you noticed every purchase anyone made. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly.\""
+    }
+   ]
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Family.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The routines you built keep you going, and you pass some of the load over once your family sees it.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Career.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Your work pays properly in these years, steadily and in proportion to what you put in. You chase the next thing less and build on what you already do well.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Career.helping.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Steady work rewarded you in those years, and your record stayed clean. You became known as the person who delivers on time, and the reputation followed you into later work.",
+   "notes": [
+    {
+     "id": "DC:DC-009",
+     "severity": "MINOR",
+     "issue": "A clean record and a reputation are the Magistrate's (on D052 the Magistrate beat beside it says \"saw the clean record\"), so the Steward decade loses earned and kept value (子平真诠 论财: 正财 is wealth earned and held by one's own effort; 论正官 holds name and rank).",
+     "fix": "\"Steady work paid you fairly in those years, and you kept most of what you earned. You became known as the person who delivers on time, and that steadiness carried you into later work.\""
+    }
+   ]
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Career.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Safety kept you in one place too long during those years, and your duties grew faster than your reward. You carried the extra load reliably, and it earned you a trust that later work paid for.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · decade_lines.Career.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability earns you respect, and you find a better fit once someone else sees what you are worth.",
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · decade_lines.Career.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "You take on hard assignments and real pressure in these years, and you rise because of them. You come out of the decade with more authority than you went in with.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · decade_lines.Career.helping.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Hard tasks found you in those years, and you met pressure that would have stopped most people. You rose by handling it, and you learned your strength in the worst weeks.",
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · decade_lines.Career.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Pressure in your work came without pause in those years, from hard demands, tight deadlines and fights you had not chosen. You kept going on sheer will, and the few people who stood by you carried you through.",
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · decade_lines.Career.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Demands pile up in your work through these years faster than you can meet them, and a calm week feels like falling behind. Your standing holds through the decade, and you get through by choosing which fights matter.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · decade_lines.Family.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "You hold a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that lasts well beyond the decade.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · decade_lines.Family.helping.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Order and good manners shaped your home in those years, and everyone knew their place and their duties. You earned respect in your family by keeping its rules, and you felt secure inside them.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · decade_lines.Family.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Family duty weighed on you in those years, and you met expectations that left you little say. You did what was asked of you well, and you came out of it with the respect it earned you.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · decade_lines.Family.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Obligations at home pile up in these years, with duties to the people who rely on you and a family name to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone.",
+   "notes": [
+    {
+     "id": "cross:X-009",
+     "severity": "MAJOR",
+     "issue": "The label already gives the decade and the year, but nearly every line restates its period, so the By-decade block reads as one sentence frame repeated. Golden decade units carry the frame too, so this is a composition rule, not a rewrite of ruled text.",
+     "fix": "**Rule:** a decade line opens on the force (\"Unusual knowledge brings you work, …\"), and at most one line in three on a page carries a period phrase. Rewrite the non-golden decade lines to vary it. The year lines are owner-ruled (Y2) and stay."
+    }
+   ]
+  },
+  {
+   "key": "GOD zhengguan · decade_lines.Career.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Your work gains structure in these ten years, a clear role with real responsibility. You are trusted with more than before, and the trust lasts beyond the work that earned it.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · decade_lines.Career.helping.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Recognition came the proper way in those years, through good work noticed by the right people. You earned a place you could be proud of, and you carried the responsibility well.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · decade_lines.Career.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Rules and rank pressed on your work during those years, and you followed procedure long after it stopped helping. You were reliable to a fault, and your record carried you to better places later.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · decade_lines.Career.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Hierarchy presses on your work in these ten years, and each new duty adds to rules that are already strict. Your good name holds throughout, and what carries you is the part of the work you shape yourself.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · decade_lines.Career.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Those years pulled you toward study and odd side paths more than toward steady work. You learned a great deal that did not pay at the time, and you got through on the one skill people kept asking you for.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · decade_lines.Career.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Your work wanders in these years between study and side projects, and steady output is hard to keep up. You get through on one skill people pay for, and you return to it each time a side path stalls.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · decade_lines.Career.helping.lived",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Unusual work suited you in those years, the kind that needs odd knowledge and long hours alone. You became good at something few others understood, and it earned you respect before it earned you anything else.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · decade_lines.Career.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Career",
+   "family": "decade.Career",
+   "current": "Unusual knowledge brings you work in these years, through research, advice or technical skill. You become the one people ask about what others do not know, and your name grows inside a small field.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · decade_lines.Family.heavy.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing as you were asked, and what carried you was one thing you chose for yourself.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · decade_lines.Family.heavy.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Family care comes with conditions in these years, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · decade_lines.Family.helping.lived",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Care surrounded you in those years, from family who put your needs first and helped without being asked. You felt protected, and that security gave you the nerve to take on more than before.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · decade_lines.Family.helping.ahead",
+   "kind": "decade",
+   "page": "decade:Family",
+   "family": "decade.Family",
+   "current": "Family support reaches you in these ten years, as advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it.",
+   "notes": [
+    {
+     "id": "cross:X-010",
+     "severity": "MAJOR",
+     "issue": "The voice law puts the reader as the subject of the last sentence, and writers meet it by bolting \", and you …\" onto the close. On a page of 20 units the close is predictable.",
+     "fix": "**Rule:** at most one \", and you\" close in three units on a composed page. Other closes: a sentence that starts on \"You …\", a \"Because …\" turn, or a flat cost. Cap \"more than once\" and \"at least once\" at one per page."
+    }
+   ]
+  },
+  {
+   "key": "GOD bijian · year_domain.Family",
+   "kind": "year_domain",
+   "page": "year:Family",
+   "family": "year.Family",
+   "current": "Siblings and cousins of your own age weigh in on family matters this year, and you settle home decisions between equals.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · year_domain.Career",
+   "kind": "year_domain",
+   "page": "year:Career",
+   "family": "year.Career",
+   "current": "A colleague or partner reaches for the same credit this year, and you keep your share by naming it before anyone else does.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · year_domain.Wealth",
+   "kind": "year_domain",
+   "page": "year:Wealth",
+   "family": "year.Wealth",
+   "current": "Shared purchases and a friend's request for help pull at your money this year, and you decide how much of your own you put in.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · year_domain.Family",
+   "kind": "year_domain",
+   "page": "year:Family",
+   "family": "year.Family",
+   "current": "Family life widens this year to relatives far away or newly met, and you spend more of your time and money on people beyond your own home.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · year_domain.Wealth",
+   "kind": "year_domain",
+   "page": "year:Wealth",
+   "family": "year.Wealth",
+   "current": "Money reaches you this year through side doors like a second job or an unexpected offer, and you spread it across more ventures than usual.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · year_domain.Career",
+   "kind": "year_domain",
+   "page": "year:Career",
+   "family": "year.Career",
+   "current": "Your work turns toward study and specialist skill this year, and you learn more out of sight than you earn in plain view.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · year_domain.Career",
+   "kind": "year_domain",
+   "page": "year:Career",
+   "family": "year.Career",
+   "current": "A demanding task or a rival with standing tests your work this year, and you hold up under it better than anyone expects.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · year_domain.Career",
+   "kind": "year_domain",
+   "page": "year:Career",
+   "family": "year.Career",
+   "current": "Skill and impatience with the rules arrive together in your job this year, and you say out loud what colleagues only grumble about.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · year_domain.Career",
+   "kind": "year_domain",
+   "page": "year:Career",
+   "family": "year.Career",
+   "current": "Your work loosens and pleases people this year, and you get paid more readily for what you enjoy making.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · year_domain.Family",
+   "kind": "year_domain",
+   "page": "year:Family",
+   "family": "year.Family",
+   "current": "Home gathers around food and easy company this year, and you are the one who cooks, hosts or makes the place feel lived in.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · year_domain.Career",
+   "kind": "year_domain",
+   "page": "year:Career",
+   "family": "year.Career",
+   "current": "Steady work and the pay it earns hold your attention this year, and you build your standing through the hours you put in and the details you get right.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · year_domain.Family",
+   "kind": "year_domain",
+   "page": "year:Family",
+   "family": "year.Family",
+   "current": "Household accounts and the care of family property pass through your hands this year, and you keep the home in careful order.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · year_domain.Wealth",
+   "kind": "year_domain",
+   "page": "year:Wealth",
+   "family": "year.Wealth",
+   "current": "Bills, savings and the slow work of keeping accounts take up more of your attention this year, and you know where each part of your money goes.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · year_domain.Career",
+   "kind": "year_domain",
+   "page": "year:Career",
+   "family": "year.Career",
+   "current": "Your work gains a title, a rule book or a formal promise this year, and you carry more trust at the end of it than at the start.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · year_domain.Family",
+   "kind": "year_domain",
+   "page": "year:Family",
+   "family": "year.Family",
+   "current": "Paperwork, signatures and speaking for the household fall to you this year, and you carry family duties in full view of your relatives.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · year_domain.Family",
+   "kind": "year_domain",
+   "page": "year:Family",
+   "family": "year.Family",
+   "current": "A relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be.",
+   "notes": [
+    {
+     "id": "DA:DA-004",
+     "severity": "MAJOR",
+     "issue": "71 of the 111 distinct domain units close on \", and you …\", so each page repeats the frame 8 to 16 times (322 of the 437 closes shown).",
+     "fix": "Rule: on one page, at most two units close on \", and you\". Vary the close among the three honest kinds in BIZ_04 (the flat cost, the want underneath, the permission) or a single short sentence. Start with the By-year lines (6 of 6 use it) and the By-decade lines (15 of 24), which stack on the Advisor tab."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,531 @@
+{
+ "worklist": "BP-3",
+ "units": [
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "The home you make with a partner draws in the younger people around you, and you spend your later years inside the household you built.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "You find a partner close to your work or your parents' circle, and the line between your job and your home stays thin for years.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "You carry the people and skills of your working years into your later life, and the circle you build in those years stays with you.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "You build your own home close to the habits of the one you grew up in, and you return to them more than you expected.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "You pass the customs of your first family to the young people you raise or train, and your later years come to resemble your earliest ones.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.bind.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your first family stays tied to your working life, and you take a trade or a contact or a loyalty from home into every job you hold.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "The young people in your life pull against the home you share with a partner, and you move house or rework your days to keep both.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Work and home compete for the same hours in your life, and you change jobs or addresses when the strain between them gets too loud.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "What you built at work in your rising years stops fitting your later life, and you change course in your late forties rather than hold on to it.",
+   "notes": [
+    {
+     "id": "BC:BC-016",
+     "severity": "MINOR",
+     "issue": "It is a dated future beat for a reader already past it.",
+     "fix": "Rewrite: \"What you built at work in your rising years stops fitting your later life, and you change course when that chapter opens rather than hold on to it.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your own household breaks sharply from the one you grew up in, and you keep a partner and your first family at a careful distance.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Nothing from the house you grew up in passes cleanly to the young people after you, and you raise or train them by rules you wrote yourself.",
+   "notes": [
+    {
+     "id": "BA:BA-006",
+     "severity": "MAJOR",
+     "issue": "One branch pair that is both 冲 and 刑 (寅申, 丑未), both 害 and 刑 (寅巳) or both 合 and 刑 (巳申) prints two lines for the same two gates, and they contradict (B003, B006 year_hour; B021 \"draws in the younger people\" vs \"The same argument returns at home\") or say one thing twice (B001, B017); 774 of 3,000 charts. 三命通会 论刑 counts 寅申 and 丑未 inside the 三刑 sets they also clash in, and reads 巳申 as a bind carrying a punishment: one verdict per pair.",
+     "fix": "One line per gate pair, by precedence 冲 > 刑 > 害 > 合, or a combined unit for 合+刑 (\"a tie with friction in it\"). Seven of my pages."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.clash.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your choice of work breaks with what your family expected, and you leave home early to make your own way in a trade nobody there chose.",
+   "notes": [
+    {
+     "id": "BC:BC-015",
+     "severity": "MINOR",
+     "issue": "A one-off Rising-Chapter event is told in the present to readers past that gate. The bond units carry no tense key.",
+     "fix": "Rewrite: \"Your choice of work breaks with what your family expected, and you make your own way in a trade nobody at home chose.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "A partner and the young ones you raise or train pull together around one shared aim, and you see your household grow stronger with each passing year.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your working years feed straight into your home, and you and a partner end up backing the same plan or running something together.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Work, home and the people after you build on each other, and what you start in your rising years keeps growing through every later decade.",
+   "notes": [
+    {
+     "id": "BB:BB-011",
+     "severity": "MINOR",
+     "issue": "Neither clause has the reader as its subject.",
+     "fix": "\"Work, home and the people after you build on each other, and you keep growing what you start in your rising years through every later decade.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "The momentum you build at work carries well into your later life, and the people you train along the way become your strongest allies.",
+   "notes": [
+    {
+     "id": "BB:BB-010",
+     "severity": "MINOR",
+     "issue": "Neither clause has the reader as its subject, which breaks the voice law.",
+     "fix": "\"The momentum you build at work carries well into your later life, and you count the people you train along the way among your strongest allies.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your first family stands behind the home you make, and you build a household with a partner while their help stays close at hand.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "You link the house you grew up in to the people after you, and your own home becomes the place where three generations meet.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Something your first family began passes to the young ones after you, and you spend your later years adding to it alongside them.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "The household you grew up in gives your working life a running start, and you walk through doors your parents or siblings opened for you.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "One aim gathers force from your childhood through your working years into your own home, and you carry it from one stage to the next.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Every part of your life adds to one story, from your first home through work and partnership to the people after you, and you watch it gather weight.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.frame.year_month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Skills learned at home run through your career into the people you train, and you become the link that carries them forward.",
+   "notes": [
+    {
+     "id": "BB:BB-012",
+     "severity": "MINOR",
+     "issue": "A frame across three gates is labelled with its first and last gate only, so the label drops a gate that the text beneath it names.",
+     "fix": "Name every gate of a three-gate frame: \"Year, Month and Hour join · 巳酉丑\". This affects 401 of 3,000 charts."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "A quiet friction runs between a partner and the people after you, and you spend years smoothing over complaints nobody says out loud.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Late evenings and calls on days off wear quietly at your home life, and you guard one part of every week from your work.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your work rubs at the people after you in small ways, a missed evening or a forgotten promise, and you make it up to them in person.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "An old irritation from your first home follows you into the one you share with a partner, and you settle it one small argument at a time.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Something from your own childhood wears at how you treat the young ones in your care, and you catch yourself repeating it and correct it.",
+   "notes": [
+    {
+     "id": "cross:X-022",
+     "severity": "MINOR",
+     "issue": "Harm (六害) is a quiet irritation, and repetition is punish or self-punish. This line is near the year–hour self-punish line (\"Your childhood plays out again around the young ones in your care\").",
+     "fix": "\"Something small from your own childhood rubs at how you treat the young ones in your care, a tone or a rule you never chose. You notice the irritation in yourself and smooth it over before it grows.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.harm.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your family never quite approves of the work you choose, and you answer that quiet doubt with results more than with arguments.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.none_hard",
+   "kind": "bond_none",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "No clashes, punishments or harms sit between your gates, and you argue with yourself less than most people do.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "BA:BA-018",
+     "severity": "MINOR",
+     "issue": "Branch bonds speak of family, work, home and the people after you, not inner argument, and the comparison with \"most people\" is a claim the chart cannot make.",
+     "fix": "\"No clashes, punishments or harms sit between your gates, and you move between work and home without one pulling against the other.\""
+    },
+    {
+     "id": "BB:BB-009",
+     "severity": "MINOR",
+     "issue": "The bonds read the life areas of the gates (family, work, home and the people after you). No hard bond means those areas sit easily together, not that the reader argues less with themself.",
+     "fix": "\"No clashes, punishments or harms sit between your gates, and you keep your family and your work and your home on easy terms.\""
+    },
+    {
+     "id": "BC:BC-014",
+     "severity": "MINOR",
+     "issue": "Branch bonds join gates, which are life chapters, not inner voices. The comparison with \"most people\" is a claim the chart cannot make, and it reads as flattery.",
+     "fix": "Rewrite: \"No clashes, punishments or harms sit between your gates, and you move from one chapter of your life to the next without a sharp break.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "The same argument returns at home between you and the people after you, and you break the loop by changing your own rule first.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "You bring the standards of your work home, and a partner meets the same demands you make of colleagues until you draw a line where the job stops.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "The pressure you put on yourself at work passes to the people you train, and you ease it once you see them repeat your hardest years.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Old house rules from your childhood come back inside your own home, and you hear them in your voice with a partner and rewrite them one at a time.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "You hold the people after you to the standards you were raised on, and the same friction repeats until you decide which of those rules you keep.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.punish.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your family's expectations follow you into every job, and you drive yourself harder than any boss asks until you settle on your own measure.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.day_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "What you struggle with at home reappears in the people after you, and you break the habit in yourself first so they do not inherit it.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.month_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "You make the same mistake at work and at home, taking on too much and resenting it later, and you catch it sooner each time it returns.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.month_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "A habit that holds you back at work returns in your later life, and you see it coming the second time and turn it down.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_day",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "The quarrel you grew up around repeats in your own home with a partner, and you end it by changing your own part in it.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_hour",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "Your childhood plays out again around the young ones in your care, and you recognise the old scene early enough to give it a different ending.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · bond.selfpunish.year_month",
+   "kind": "bond",
+   "page": "bp-bonds",
+   "family": "bond",
+   "current": "The role you played in your family returns at work, the peacemaker or the one who carries everything, and you change it once you see it twice.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN bi_jie_duo_cai · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "Equals and money share your chart, and you lose most where you share most, with friends and family and partners.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "cross:X-006",
+     "severity": "MAJOR",
+     "issue": "`depthResolve` prints a pairing whenever both sides are present. Strength and checks are never consulted, so 比劫夺财 says \"you lose most\" on all 9 pages where the STATE has just said an officer holds the peers in check (子平真诠 论财: 财格 with 比劫 is formed when 官 is present to check them). It also fires on 28 weak charts, where peers carry the money (see X-005). The pairing text itself is golden.",
+     "fix": "Gate 比劫夺财 on a strong chart with no officer check. Otherwise suppress it, or print a \"checked\" line in the voice of the golden domain line (\"you also find your safety net among those same people\"). Check 枭神夺食 the same way: it fires on 10 Underfueled pages, where the Alchemist is wanted."
+    },
+    {
+     "id": "BA:BA-017",
+     "severity": "MINOR",
+     "issue": "A plain money loss with no carry-through, not tied to a decade or gate (Q11, D4 open door).",
+     "fix": "\"Equals and money share your chart, and you lose most where you share most, with friends and family and partners. You keep the money that carries only your name.\""
+    },
+    {
+     "id": "BC:BC-002",
+     "severity": "MAJOR",
+     "issue": "A pairing fires on presence alone, even when the classical check that cancels it is seated and the engine's own STATE has already used that check, so the page contradicts itself.",
+     "fix": "**Evidence (3,000 charts):** 比劫夺财 appears on 1,796 pages (60%). It sits beside formed.peers on 113, beside the missing-Rival line on 364, and on a weak chart on 745. 枭神夺食 appears on 729, 512 of them with wealth seated, and 139 beside `output · status.formed`. 伤官见官 appears on 657, 448 of them with a seal seated, and 314 beside 伤官配印. 食神制杀 sits beside an output rescue on 110. structureOf already applies the same checks: 食神格 is broken only when no wealth is seated, 正官格 only when no seal is seated, and wealth with peers is formed when an officer is seated.<br><br>**Classical basis:** 子平真诠 论食神: the 枭 is checked by wealth. 子平真诠 论伤官: \"伤官佩印…印能制伤\". 子平真诠 论用神成败救应: 财逢劫而透官. The classical split is 比肩分财 (the Twin shares) against 劫财夺财 (the Rival robs).<br><br>**Rule:** gate each pairing on its check. 比劫夺财 fires only with the Rival seated, an Overfueled chart and no officer seated; a Twin-only chart takes no purse line. 枭神夺食 fires only with no wealth seated. 伤官见官 fires only with no seal seated, so 伤官配印 takes the seat. When 食神制杀 is present, it is the rescue, so the output rescue line is dropped (M-1)."
+    },
+    {
+     "id": "BC:BC-018",
+     "severity": "MINOR",
+     "issue": "It is money loss with no carry and no tie to a decade, and it is the most frequent Part 4 line.",
+     "fix": "Rewrite, alongside BC-002: \"Equals and money share your chart, and what you pool with friends and family thins fastest. You keep most of what stays in your own name.\""
+    }
+   ]
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "Good results keep earning you a bigger role, and you get promoted on your record more than on anything you ask for.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "Each role you take on comes with someone senior who teaches you, and you rise slowly and cleanly inside the places that take you in.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "Every hard test you go through becomes something you know, and you leave each demanding stretch with a qualification or a title you did not have before.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shang_guan_jian_guan · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "Your talent argues with whoever is in charge, and you are at your sharpest where nobody signs off on every line.",
+   "notes": [
+    {
+     "id": "cross:X-018",
+     "severity": "MINOR",
+     "issue": "伤官见官 is the classic harmful pairing (\"伤官见官，为祸百端\", 渊海子平; 子平真诠 论伤官). Both lines turn it into a compliment and name no cost, while the STATE notes for the same pairing name one.",
+     "fix": "Blueprint line: \"Your talent argues with whoever is in charge, and you lose ground with the people above you over what you say. You do your best work where results count for more than rank.\" Career line: \"You also keep correcting the very structures you climb, and it costs you favour with the people who promote you. You do your brightest work wherever the rules are loosest.\" (With X-007's rule, the line drops where the STATE already names this.)"
+    }
+   ]
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "Your sharpest talent has years of study behind it, and you are known for being both daring and right.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "Things you make sell without much pushing, and you earn the most from the projects you would have done for nothing.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "A hard deadline settles you instead of rattling you, and you turn out your best work when the clock runs short.",
+   "notes": [
+    {
+     "id": "BA:BA-016",
+     "severity": "MINOR",
+     "issue": "It repeats the General structure reading (\"the stakes are real and the deadline is close\") and the General plain line (\"when the stakes are high\") on the same pages.",
+     "fix": "\"Pressure that rattles other people settles you, and you turn it into finished work instead of worry.\""
+    }
+   ]
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · blueprint_line",
+   "kind": "pattern_bp",
+   "page": "bp-pairs",
+   "family": "pattern_bp",
+   "current": "Your thinking outweighs your making, and you study a thing so long that the moment to make it passes.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "BB:BB-002",
+     "severity": "MAJOR",
+     "issue": "A pairing prints whenever both characters are seated. It still prints when the chart holds the classical cure, even where the engine uses that same cure to set the STATE, so the pairing and the STATE contradict each other on one page.",
+     "fix": "Rule: give TG_PATTERN a guard as well as its gods. **枭神夺食** does not fire when 偏财 or 正财 is seated (子平真诠 论用神成败救应: 食遇枭而…生财以护食). That removes 500 of 725 firings, 355 of them beside a formed STATE. **伤官见官** does not fire when a seal is seated (same chapter: 官逢伤而透印以解之), which covers 449 of 640 firings. It also does not fire on a 七杀格, where the Virtuoso on the Magistrate clears the mix (子平真诠 论偏官, 去官留煞), which covers 49. **比劫夺财** fires only on an Overfueled chart, which removes 671 of 1,720 firings. On an Underfueled chart the peers are the help: they are a catalyst in the app's own model (`decadePole`) and in 滴天髓. The Domains PATTERN step reads the same TG_PATTERNS and needs the same guard."
+    }
+   ]
+  }
+ ]
+}

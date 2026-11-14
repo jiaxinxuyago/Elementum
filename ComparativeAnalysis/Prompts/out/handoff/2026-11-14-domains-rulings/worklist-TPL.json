@@ -1,0 +1,689 @@
+{
+ "worklist": "TPL",
+ "units": [
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Wealth.month",
+   "kind": "gap",
+   "page": "gap:Wealth",
+   "family": "gap",
+   "current": "Since sixteen you have put work, study and friends before money, and your income has stayed below what you could earn.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "DB:DB-007",
+     "severity": "MINOR",
+     "issue": "The gap row claims an income outcome for the whole Rising Chapter, while a helping Wealth decade on the same page says the money came in those same years.",
+     "fix": "Rewrite: \"Since sixteen you have put work, study and friends before money, and your income has followed your decades more than any plan of your own.\" (25 words; it agrees with the NOTE \"your decades set its course\"). **Classical:** 子平真诠 论行运: the decade supplies what the chart's seats do not, so where no seat rules wealth, the decade sets the outcome."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Wealth.day",
+   "kind": "gap",
+   "page": "gap:Wealth",
+   "family": "gap",
+   "current": "Since your mid-thirties you have put home and your own life before earning more, and money has stayed something you manage more than something you build.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Wealth.hour",
+   "kind": "gap",
+   "page": "gap:Wealth",
+   "family": "gap",
+   "current": "Since your late forties the people after you and your own time have come before earning more, and you have measured money by what it lets you give.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Family.month",
+   "kind": "gap",
+   "page": "gap:Family",
+   "family": "gap",
+   "current": "Since sixteen your energy has gone into work and friends more than into family, and you have seen less of your relatives than you meant to.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "DA:DA-001",
+     "severity": "MAJOR",
+     "issue": "No Month Gate seat ever rules Family, so every reader aged 16 to 34 gets this definite cost whatever the chart says, and on 12 of the 17 pages it contradicts How you are or a Family decade from the same years.",
+     "fix": "Rule and rebuild, owner first. (1) Code: give the Advisor page the free page's `decInGate` test. `depthResolve.js:264` lacks the `!decInGate` check that `domainsResolve.js:121` applies, and all 17 pages have a Family decade inside their Rising years, so the row would drop from every one. (2) Rewrite the unit so it names the gap and asserts no neglect: \"Your Rising Chapter seats no character over family, so in these years you carry the pattern your first home set.\" (3) Owner question: the Month pillar is the palace of parents and siblings (三命通会 卷二 论宫分用神配六亲; the brief's own gate table gives the Month Gate \"parents and siblings\"). Consider letting the Month Gate's Twin, Rival, Sage and Alchemist seats rule Family. Evidence below."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Family.day",
+   "kind": "gap",
+   "page": "gap:Family",
+   "family": "gap",
+   "current": "Since your mid-thirties you have put work and your own direction before family life, and relatives have seen less of you than they wanted.",
+   "notes": [
+    {
+     "id": "DA:DA-017",
+     "severity": "MINOR",
+     "issue": "It reads a definite neglect from an empty seat (the Day pillar is the self and partner palace, 三命通会 卷二, and an empty seat says nothing about neglect). On D023 the reader is still 34 (M-6), so the span covers nothing.",
+     "fix": "\"Your Home Chapter seats no character over family, so since your mid-thirties you have run your family life on what your earlier gates set.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Family.hour",
+   "kind": "gap",
+   "page": "gap:Family",
+   "family": "gap",
+   "current": "Since your late forties your attention has gone to work, friends and your own pursuits more than to family, and relatives have seen you less often than they hoped.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Health.month",
+   "kind": "gap",
+   "page": "gap:Health",
+   "family": "gap",
+   "current": "Since sixteen your body has come second to work and study, and you have been spending the reserve your childhood gave you.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Health.day",
+   "kind": "gap",
+   "page": "gap:Health",
+   "family": "gap",
+   "current": "Since your mid-thirties your body has come second to work and home, and you have run on habits formed many years before.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Health.hour",
+   "kind": "gap",
+   "page": "gap:Health",
+   "family": "gap",
+   "current": "Since your late forties your attention has gone to others and to work more than to your body, and you have felt your energy follow the decade you are in.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.month",
+   "kind": "gap",
+   "page": "gap:Career",
+   "family": "gap",
+   "current": "Since sixteen you have put study, friends and family before a career, and your work has been a means more than a direction.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.day",
+   "kind": "gap",
+   "page": "gap:Career",
+   "family": "gap",
+   "current": "Since your mid-thirties your private life has taken more of your energy than your career, and you have pushed for less at work than you could.",
+   "notes": [
+    {
+     "id": "DC:DC-003",
+     "severity": "MAJOR",
+     "issue": "The Domains layout prints the gap row whenever the current gate holds no seat, without the `decInGate` guard that domainsResolve.js applies at lines 121 to 122, so the gap row and the decade that rules the same years say opposite things (三命通会 论大运: the decade's luck governs its ten years, so a ruling decade outranks an empty gate).",
+     "fix": "Rule: port the guard to depthResolve.js line 264. No gap row when a decade that rules the domain has begun by the reader's age and ends at or after the current gate's start. The gap texts (Health.month is owner-approved golden) stay as written."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.hour",
+   "kind": "gap",
+   "page": "gap:Career",
+   "family": "gap",
+   "current": "Since your late forties rising at work has mattered less than the people and the hours that are yours, and you have chosen them more than once.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Social.month",
+   "kind": "gap",
+   "page": "gap:Social",
+   "family": "gap",
+   "current": "Since sixteen you have put study, work and family before friendship, and your circle has stayed smaller than the people around you expected.",
+   "notes": [
+    {
+     "id": "DE:DE-006",
+     "severity": "MINOR",
+     "issue": "Keyed by gate only, the gap row asserts a small circle, which the Year seat on the same page denies: D099 \"Your friends are many and loyal\", D139 \"You make friends fast\" (source: 子平真诠 论宫分用神配六亲, an empty gate says only that it holds no seat and cancels nothing another gate holds).",
+     "fix": "\"Since sixteen your study, work and family have come before your friendships, and you have seen friends around the edges of a full week.\" (24 words)"
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Social.day",
+   "kind": "gap",
+   "page": "gap:Social",
+   "family": "gap",
+   "current": "Since your mid-thirties your evenings have gone to home and work more than to friends, and you have watched your circle thin without anyone deciding it.",
+   "notes": [
+    {
+     "id": "DE:DE-007",
+     "severity": "MINOR",
+     "issue": "Shown to readers who have just turned 35, it reports a thinning already watched, and it is a loss with nothing that carries the reader through (source: 三命通会 根苗花实, the Day pillar's years open at the gate, so the line must hold from its first year).",
+     "fix": "\"From your mid-thirties home and work take the evenings that friends used to have, and you meet your circle by plan more than by chance.\" (25 words)"
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Social.hour",
+   "kind": "gap",
+   "page": "gap:Social",
+   "family": "gap",
+   "current": "Since your late forties you have seen friends less and spent more time with family and on your own, and the quiet has suited you.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Mind.month",
+   "kind": "gap",
+   "page": "gap:Mind",
+   "family": "gap",
+   "current": "Since sixteen you have learned by doing more than by study, and your thinking has served your work and friendships more than any subject of its own.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Mind.day",
+   "kind": "gap",
+   "page": "gap:Mind",
+   "family": "gap",
+   "current": "Since your mid-thirties you have used your mind for practical problems more than for ideas, and reading and study have had less of your week than they once did.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Mind.hour",
+   "kind": "gap",
+   "page": "gap:Mind",
+   "family": "gap",
+   "current": "Since your late forties, people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Growth.month",
+   "kind": "gap",
+   "page": "gap:Growth",
+   "family": "gap",
+   "current": "Since sixteen you have grown through work, friends and family more than through any plan to improve yourself, and change has come to you by circumstance.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Growth.day",
+   "kind": "gap",
+   "page": "gap:Growth",
+   "family": "gap",
+   "current": "Since your mid-thirties you have kept to what you already do well, and you have started fewer new things than in any years before.",
+   "notes": [
+    {
+     "id": "DD:DD-006",
+     "severity": "MINOR",
+     "issue": "Both Day-gate gap rows assert a measured decline that an empty gate cannot show. They fire in the reader's first year of the gate, where \"since your mid-thirties\" covers months: 7 of the 8 pages are age 35, and with M-6 two of them (D021, D025, born in November) are still 34. \"Than in any years before\" is also awkward. Classical ground: a reading proceeds from what the chart holds, and an empty seat is silent, not a loss (子平真诠, 论用神).",
+     "fix": "Growth.day: \"Since your mid-thirties your growth has come through the life you already have, the work and the home, more than through new starts.\" Mind.day: \"Since your mid-thirties your thinking has gone into the work and the home in front of you, more than into study for its own sake.\" Also show no gap row in the year the reader enters the gate (age = gate start)."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_gaps.Growth.hour",
+   "kind": "gap",
+   "page": "gap:Growth",
+   "family": "gap",
+   "current": "Since your late forties settling into who you are has mattered more than pushing to change, and you have grown quietly through the people around you.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Health",
+   "kind": "unruled",
+   "page": "tpl:Health",
+   "family": "unruled",
+   "current": "Your health has no fixed pattern of its own. You feel well for some stretches of years and worn for others, and the change has no obvious cause because the decade is what moves it.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "DC:DC-016",
+     "severity": "MINOR",
+     "issue": "The unruled line denies a pattern and a cause, and the pair line under it names both, so How you are contradicts itself. Both texts are owner-approved golden; the clash is in the composition.",
+     "fix": "Owner's call. A variant of the unruled line for pages where a pair fires: \"No single seat rules your health, and the decade you are in moves it more than any habit of your own. You feel well for some stretches of years and worn for others, and you sense each change in your body before you can name its cause.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Wealth",
+   "kind": "unruled",
+   "page": "tpl:Wealth",
+   "family": "unruled",
+   "current": "Your finances follow no single pattern from birth, and you trust one good year less than most people do. Some decades bring money in and others drain it, and you notice the turn before anyone around you does.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Mind",
+   "kind": "unruled",
+   "page": "tpl:Mind",
+   "family": "unruled",
+   "current": "Your thinking has no fixed shape of its own. It changes character with each decade, studious in one and restless or practical in another, and you notice the change in what you read before you notice it in yourself.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Growth",
+   "kind": "unruled",
+   "page": "tpl:Growth",
+   "family": "unruled",
+   "current": "Your growth keeps no steady pace of its own. You change fast in some decades and stand still in others, and you rarely notice which kind you are in until it ends.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled.Social",
+   "kind": "unruled",
+   "page": "tpl:Social",
+   "family": "unruled",
+   "current": "Your friendships follow no fixed pattern of their own. You have crowded years and quiet ones, and the change arrives with the decade more than with any choice you make.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Wealth",
+   "kind": "headline",
+   "page": "tpl:Wealth",
+   "family": "headline",
+   "current": "Your money rises and falls with each decade.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Health",
+   "kind": "headline",
+   "page": "tpl:Health",
+   "family": "headline",
+   "current": "Your health moves with the decade you are in.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Mind",
+   "kind": "headline",
+   "page": "tpl:Mind",
+   "family": "headline",
+   "current": "Your thinking changes character with each decade.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Growth",
+   "kind": "headline",
+   "page": "tpl:Growth",
+   "family": "headline",
+   "current": "Your growth keeps the pace of each decade.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_unruled_headline.Social",
+   "kind": "headline",
+   "page": "tpl:Social",
+   "family": "headline",
+   "current": "Your circle widens and thins with the decades.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Wealth",
+   "kind": "unruled",
+   "page": "tpl:Wealth",
+   "family": "waiting",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Wealth",
+   "kind": "headline",
+   "page": "tpl:Wealth",
+   "family": "headline",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Health",
+   "kind": "unruled",
+   "page": "tpl:Health",
+   "family": "waiting",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Health",
+   "kind": "headline",
+   "page": "tpl:Health",
+   "family": "headline",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Career",
+   "kind": "unruled",
+   "page": "tpl:Career",
+   "family": "waiting",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Career",
+   "kind": "headline",
+   "page": "tpl:Career",
+   "family": "headline",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Family",
+   "kind": "unruled",
+   "page": "tpl:Family",
+   "family": "waiting",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Family",
+   "kind": "headline",
+   "page": "tpl:Family",
+   "family": "headline",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Social",
+   "kind": "unruled",
+   "page": "tpl:Social",
+   "family": "waiting",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Social",
+   "kind": "headline",
+   "page": "tpl:Social",
+   "family": "headline",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Mind",
+   "kind": "unruled",
+   "page": "tpl:Mind",
+   "family": "waiting",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Mind",
+   "kind": "headline",
+   "page": "tpl:Mind",
+   "family": "headline",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting.Growth",
+   "kind": "unruled",
+   "page": "tpl:Growth",
+   "family": "waiting",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_domains · domain_waiting_headline.Growth",
+   "kind": "headline",
+   "page": "tpl:Growth",
+   "family": "headline",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN bi_jie_duo_cai · domain_lines.Wealth",
+   "kind": "pattern",
+   "page": "pattern:bi_jie_duo_cai",
+   "family": "pattern",
+   "current": "You lose money most easily where you share it with friends and family, and you also find your safety net among those same people.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN bi_jie_duo_cai · fused_line",
+   "kind": "fused",
+   "page": "pattern:bi_jie_duo_cai",
+   "family": "fused",
+   "current": "In you this runs close to home, and you rarely own anything that is only yours.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:cai_guan_xiang_sheng",
+   "family": "pattern",
+   "current": "Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · domain_lines.Wealth",
+   "kind": "pattern",
+   "page": "pattern:cai_guan_xiang_sheng",
+   "family": "pattern",
+   "current": "You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN cai_guan_xiang_sheng · fused_line",
+   "kind": "fused",
+   "page": "pattern:cai_guan_xiang_sheng",
+   "family": "fused",
+   "current": "In you the two are tightly bound, and you find every gain arguing quietly for your next title.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:guan_yin_xiang_sheng",
+   "family": "pattern",
+   "current": "You also find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · domain_lines.Mind",
+   "kind": "pattern",
+   "page": "pattern:guan_yin_xiang_sheng",
+   "family": "pattern",
+   "current": "You also learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN guan_yin_xiang_sheng · fused_line",
+   "kind": "fused",
+   "page": "pattern:guan_yin_xiang_sheng",
+   "family": "fused",
+   "current": "In you the two move together, and you rise in rank and in learning at once.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:sha_yin_xiang_sheng",
+   "family": "pattern",
+   "current": "Underneath, you come out of every hard stretch at work more senior than you went in, and the pattern grows stronger with age.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · domain_lines.Growth",
+   "kind": "pattern",
+   "page": "pattern:sha_yin_xiang_sheng",
+   "family": "pattern",
+   "current": "Underneath, you grow most through the years that weigh on you, and you have left every heavy stretch more skilled than you entered it.",
+   "notes": [
+    {
+     "id": "DD:DD-016",
+     "severity": "MINOR",
+     "issue": "The line says only the General's half. 杀印相生 is the Sage turning pressure into support (子平真诠 论偏官, 杀用印; 滴天髓, 化之以印). So on General-led pages the line restates the lead and makes no counterweight. On D048 \"left you more capable\" or \"more skilled\" appears three times (General lived, this line, General decade).",
+     "fix": "\"Underneath, the years that weigh on you send you toward the study and the people who steady you, and you have ended every heavy stretch more sure of who you are.\""
+    }
+   ]
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · domain_lines.Mind",
+   "kind": "pattern",
+   "page": "pattern:sha_yin_xiang_sheng",
+   "family": "pattern",
+   "current": "Underneath, you turn pressure into understanding, and the hardest years of your life are the ones that taught you how to think.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN sha_yin_xiang_sheng · fused_line",
+   "kind": "fused",
+   "page": "pattern:sha_yin_xiang_sheng",
+   "family": "fused",
+   "current": "In you this works fast, and you learn from pressure in the same week it arrives.",
+   "notes": [
+    {
+     "id": "DD:DD-017",
+     "severity": "MINOR",
+     "issue": "Sharing a pillar makes a pairing close and strong (有情, 子平真诠). It says nothing about speed. The speed claim contradicts the golden Alchemist leads it follows (\"You grow in long quiet stretches that look like standing still\", D048 and D113; \"you rework a problem long after others have moved on\", D050).",
+     "fix": "\"In you the two sit at one gate, and you rarely meet a pressure without learning from it.\""
+    }
+   ]
+  },
+  {
+   "key": "TG_PATTERN shang_guan_jian_guan · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:shang_guan_jian_guan",
+   "family": "pattern",
+   "current": "You also keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shang_guan_jian_guan · fused_line",
+   "kind": "fused",
+   "page": "pattern:shang_guan_jian_guan",
+   "family": "fused",
+   "current": "In you this runs deep, and you have argued with your own position since your first job.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:shang_guan_pei_yin",
+   "family": "pattern",
+   "current": "Your boldest ideas and your patience for study also feed each other, and you grow braver in public with every qualification you earn.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · domain_lines.Mind",
+   "kind": "pattern",
+   "page": "pattern:shang_guan_pei_yin",
+   "family": "pattern",
+   "current": "You also learn best when you can show what you learn, and you turn every course you finish into something you can say out loud.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shang_guan_pei_yin · fused_line",
+   "kind": "fused",
+   "page": "pattern:shang_guan_pei_yin",
+   "family": "fused",
+   "current": "In you the two never pull apart, and you rarely have to choose between your talent and your training.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · domain_lines.Wealth",
+   "kind": "pattern",
+   "page": "pattern:shi_shang_sheng_cai",
+   "family": "pattern",
+   "current": "What you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "DB:DB-004",
+     "severity": "MAJOR",
+     "issue": "The pairing fires on presence alone (`domainsResolve.js` step 1; `tgPatterns.js` has no strength condition), and on these pages it lands only on Underfueled charts, so the line reads as a gift where the classics read output feeding wealth as a drain on a core already short.",
+     "fix": "**Rule.** 食伤生财 fires as written only on Overfueled and Balanced charts. On an Underfueled chart it either stays silent or reads from a weak-chart line, for example: \"What you make turns into money readily, and each season of earning takes more out of you than it pays back.\" **Classical:** 子平真诠 论食神, \"食神生财，美格也……如身强食旺而财透，大贵之格\": the pairing is good on a strong body. On a weak one, output and wealth both draw on the self (泄耗交加; 渊海子平 财多身弱，富屋贫人). The heavy Steward and Horizon decades on the same six pages read the chart the classical way, so the pair line also stands against them. 比劫夺财's line is two-sided (\"you also find your safety net among those same people\") and holds on both bands. **Evidence:** 6 of 6 pages in this group. Check the other strength-bound pairings (财官相生, 官印相生) and the Blueprint's part 4, which triggers on the same table."
+    }
+   ]
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:shi_shang_sheng_cai",
+   "family": "pattern",
+   "current": "You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shi_shang_sheng_cai · fused_line",
+   "kind": "fused",
+   "page": "pattern:shi_shang_sheng_cai",
+   "family": "fused",
+   "current": "In you making and earning sit close together, and you are paid in the same season that you make.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:shishen_zhi_sha",
+   "family": "pattern",
+   "current": "Underneath, you do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · domain_lines.Health",
+   "kind": "pattern",
+   "page": "pattern:shishen_zhi_sha",
+   "family": "pattern",
+   "current": "Comfort is what protects you, because good food and work with your hands turn pressure into something you can use.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN shishen_zhi_sha · fused_line",
+   "kind": "fused",
+   "page": "pattern:shishen_zhi_sha",
+   "family": "fused",
+   "current": "In you this runs close to the surface, and you turn pressure into calm almost as soon as it lands.",
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · domain_lines.Mind",
+   "kind": "pattern",
+   "page": "pattern:xiao_shen_duo_shi",
+   "family": "pattern",
+   "current": "You also think so long about a thing that you miss the moment to make it, and you keep a drawer of nearly finished work.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "DD:DD-004",
+     "severity": "MAJOR",
+     "issue": "The pairs fire on presence alone (03_RULINGS step 1), but the classical pairing forms only under conditions, and the texts assert the formed version. 枭神夺食 harms only where the Artisan is the useful god, which means a strong self. A wealth star restrains the Alchemist and lifts it (子平真诠 论食神 and 论印绶; 渊海子平, 偏印 倒食, 偏财可解). Of the 6 charts in this group, 4 are Underfueled, where the Alchemist is wanted and the Artisan is a drain (D014, D040, D100, D164). 4 also carry a wealth star (D040 正财; D087 偏财 ×2; D100 正财, 偏财, 正财; D164 偏财 ×2). Only D137 meets both conditions. On D014 and D040 the Alchemist's own decades read as helping, so the page calls one force a gift and a thief at once. 杀印相生 and 伤官配印 are the weak-self pairings (子平真诠 论偏官: 杀用印 wants 印 and 身旺 luck; 滴天髓: 杀重身轻，化之以印; 子平真诠 论伤官: 伤官用印 \"反要伤官旺，身稍弱，始为秀气\"). Here 8 of 13 and 2 of 5 fire on Overfueled charts.",
+     "fix": "**Owner ruling needed** (the presence trigger is ruled, so this is not changed here). Option A: add the conditions. 枭神夺食 fires only on an Overfueled chart with no 偏财 or 正财 seated. 杀印相生 and 伤官配印 fire only where the 印 is a catalyst, otherwise a variant line. Option B: keep the trigger and rewrite each line to hold for every chart with both sides. For example, `xiao_shen_duo_shi.Mind`: \"You also weigh a thing longer than most people before you make it, and the thinking and the making pull against each other in you.\" Same class of defect as STATE M-1 (a rule that ignores what the chart already holds)."
+    }
+   ]
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · domain_lines.Career",
+   "kind": "pattern",
+   "page": "pattern:xiao_shen_duo_shi",
+   "family": "pattern",
+   "current": "You also polish your work in private until the moment to show it has passed, and you lose more chances by not finishing than by failing.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · domain_lines.Health",
+   "kind": "pattern",
+   "page": "pattern:xiao_shen_duo_shi",
+   "family": "pattern",
+   "current": "In your heaviest thinking seasons you also forget to eat and sleep properly, and your body tells you before your mind admits it.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "TG_PATTERN xiao_shen_duo_shi · fused_line",
+   "kind": "fused",
+   "page": "pattern:xiao_shen_duo_shi",
+   "family": "fused",
+   "current": "In you this pull is constant, and you feel the tug between thinking and finishing almost every day.",
+   "notes": []
+  }
+ ]
+}

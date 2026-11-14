@@ -1,0 +1,672 @@
+{
+ "worklist": "BP-2",
+ "units": [
+  {
+   "key": "GOD bijian · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "Your chart has no Twin, and nobody inside it stands level with you or carries half the load. You find your footing through other people, a team or a close friend, and you stand firmest when someone stands beside you.",
+   "notes": [
+    {
+     "id": "cross:X-008",
+     "severity": "MAJOR",
+     "issue": "Blueprint part 2 prints one line per absent or needed character, and every line shares one spine. A reader meets \"nobody inside it\" three or four times on a typical page, and \"your season asks for\" two to five times.",
+     "fix": "**Rule:** the label already carries \"no Sage\" and \"first need · 甲, the Alchemist\", so the line starts on the reader. Drop \"nobody inside it\" from at least seven of the ten missing lines and \"your season asks for\" from all need lines. Sample, Sage missing: \"Without a Sage you learned early to reassure yourself and to praise your own effort. You trust help more when you did not have to ask for it.\""
+    },
+    {
+     "id": "BA:BA-011",
+     "severity": "MINOR",
+     "issue": "On Rival-structure pages the same page says \"equals who compete with you\" and \"your circle of equals\"; equals belong to both peers, the Twin's own force is self-reliance.",
+     "fix": "\"Your chart has no Twin, and nothing inside it tells you that you can manage alone. You find your footing through other people, a team or a close friend, and you stand firmest when someone stands beside you.\""
+    },
+    {
+     "id": "BB:BB-007",
+     "severity": "MAJOR",
+     "issue": "With the hour unknown, the MISSING lines assert an absence that the unread Hour pillar could fill. STRONGEST and the strength band also count the noon pillar the app puts in its place (`chartContext.resolveHourForCalc` returns 12).",
+     "fix": "Rule: on a no-hour chart, MISSING shows one label row (\"completes once your birth time is set\", as the pillar card already says) instead of the lines, and STRONGEST and the band are computed from three pillars."
+    },
+    {
+     "id": "BC:BC-011",
+     "severity": "MINOR",
+     "issue": "A seated Rival is an equal, so \"nobody stands level\" is false on five pages. \"Stand\" also appears three times in the unit. The Twin's own gift is self-reliance.",
+     "fix": "Rewrite: \"Your chart has no Twin, and nothing inside it lets you lean on yourself alone. You find your footing through other people, a team or a close friend, and you are steadiest when someone stands beside you.\""
+    }
+   ]
+  },
+  {
+   "key": "GOD bijian · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD bijian · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as someone who carries their own weight and asks for little help.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD bijian · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "In private you want to answer to nobody, and you would rather finish a job alone than wait for a hand.",
+   "notes": []
+  },
+  {
+   "key": "GOD bijian · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "The Twin your season asks for stands in plain view, and you hold your ground openly among equals.",
+   "notes": []
+  },
+  {
+   "key": "GOD bijian · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "Your season asks for the Twin and your chart holds it out of sight, and you draw on a steady faith in yourself that nobody else sees.",
+   "notes": []
+  },
+  {
+   "key": "GOD bijian · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "The Twin your season asks for rests deep in your chart, and you find your feet late, when a hard stretch leaves nobody else to lean on.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "No Rival sits anywhere in your chart, and no one in it fights you for your share or dares you to win. You keep what you earn without a contest, and you meet real competition only when a colleague wants the same post.",
+   "notes": [
+    {
+     "id": "BA:BA-010",
+     "severity": "MINOR",
+     "issue": "The line speaks for both peers, so it contradicts 比劫夺财 or a strained wealth STATE wherever the Twin sits (364/3,000 charts).",
+     "fix": "\"No Rival sits anywhere in your chart, and no one in it dares you to race or to win. You leave contests to other people, and you meet real competition only when a colleague wants the same post.\""
+    },
+    {
+     "id": "BC:BC-010",
+     "severity": "MINOR",
+     "issue": "With the Twin seated, the purse is still split (比肩分财). On B130 the line sits directly above \"you keep losing a share of what you earn to equals\".",
+     "fix": "Rewrite: \"No Rival sits anywhere in your chart, and no one in it dares you to win or races you for the prize. You meet real competition only when a colleague wants the same post, and you find out then how much you want it.\""
+    }
+   ]
+  },
+  {
+   "key": "GOD jiecai · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as bold and openhanded, quick to share what you have and quicker to race for more.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You keep score with the people closest to you, and you want to win more than you let on.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "Your season asks for the Rival and your chart shows it plainly, and you compete openly with friends who push you to win.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "You carry the Rival your season asks for out of view, and you push yourself against the people around you without ever calling it a race.",
+   "notes": []
+  },
+  {
+   "key": "GOD jiecai · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "The Rival your season asks for lies buried far down, and you show your fighting nerve only when someone reaches for what is yours.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "The Artisan is missing from your chart, and nobody in it lets you rest or enjoy your own work. You plan your pleasures like tasks, a booked dinner or a day off on the calendar, and you relax best when someone else sets the table.",
+   "notes": [
+    {
+     "id": "BA:BA-012",
+     "severity": "MINOR",
+     "issue": "Under a Virtuoso structure whose STATE says \"the work you enjoy keeps finding someone who wants it\", the missing Artisan line claims the whole output family.",
+     "fix": "\"The Artisan is missing from your chart, and nothing in it lets you rest without a reason. You plan your pleasures like tasks, a booked dinner or a day off on the calendar, and you relax best when someone else sets the table.\""
+    }
+   ]
+  },
+  {
+   "key": "GOD shishen · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as easygoing and warm, the friend who cooks for everyone and makes hard work look light.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You want comfort more than you show, good food and an evening with nothing planned.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "The Artisan your season asks for sits out in the open, and you make things with an ease that everyone around you can see.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "The Artisan your season asks for stays beneath the surface, and you refill yourself through a private craft or a slow meal at home.",
+   "notes": []
+  },
+  {
+   "key": "GOD shishen · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "The Artisan your season asks for survives only as a faint trace, and you let yourself enjoy things in small bursts, a good meal here and a finished project there.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "Your chart carries no Virtuoso, and nobody inside it argues back or tells you a plan is wrong. You follow the brief as written, and you raise objections late and politely, after the decision is made.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as quick and outspoken, the one who says what the rest of the meeting was thinking.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You rewrite other people's work in your head, and you want your talent noticed more than you admit.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "The Virtuoso your season asks for is on show, and you are known for a sharp voice and work that breaks the usual mould.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "The Virtuoso your season asks for lives under the surface of your chart, and you put your sharpest ideas into the work instead of saying them aloud.",
+   "notes": []
+  },
+  {
+   "key": "GOD shangguan · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "The Virtuoso your season asks for sits at the very bottom of your chart, and you speak your sharpest mind only once a rule has pushed you too far.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "With no Horizon in your chart, nobody inside it opens a side door or brings you an offer you did not chase. You earn by the front route, one job at a time, and you trust what you worked for over a windfall.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as easy with strangers and quick with an offer, the one who always knows someone useful.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You keep a second plan that nobody has heard about, and you want more open roads than you admit.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "You have the Horizon your season asks for in full view, and you meet offers and new people openly, with more chances than you can take.",
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD piancai · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "Your season asks for the Horizon and your chart keeps only a thin seam of it, and you stumble on your chances late, through a friend of a friend.",
+   "notes": [
+    {
+     "id": "cross:X-012",
+     "severity": "MINOR",
+     "issue": "\"Hidden deep\" is the stem's depth in a branch (余气: faint, 子平真诠 论用神), not its age. Six of ten hidden lines turn depth into lateness, which the chart does not say and which contradicts a Year-Gate seat when the hidden stem sits in the Year branch. On pages with two hidden needs, \"late\" also repeats.",
+     "fix": "Write each as a condition, the way the Alchemist and Rival lines already do. These keep the current opening; if X-008's rule is adopted, the \"your season asks for\" frame drops too. Horizon: \"Your season asks for the Horizon and your chart keeps only a thin seam of it, and you find your chances through a friend of a friend more than through your own search.\" Magistrate: \"Your chart buries the Magistrate your season asks for in one deep corner, and you take on formal roles reluctantly and grow into them slowly.\" Sage: \"What your season asks for is the Sage and your chart holds it only deep down, and you lean on a teacher only once teaching yourself has run out.\" Steward: \"You hold the Steward your season asks for only deep inside your chart, and you keep careful accounts only when something you want depends on them.\" Twin: \"The Twin your season asks for rests deep in your chart, and you stand on your own only when nobody else is there to lean on.\" General: \"The General your season asks for sleeps under everything else, and you rise to a hard test only when it is put directly in front of you.\""
+    }
+   ]
+  },
+  {
+   "key": "GOD zhengcai · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "Your chart gives the Steward no place, and nobody inside it keeps the books or counts what comes in. You handle money in bursts and forget it for months, and you rely on a partner or a spreadsheet to keep track.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as a careful provider, the one who pays on time and keeps count.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You keep a private tally of what things cost, and you sleep better with something put aside.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "Your chart puts the Steward your season asks for right on the surface, and you earn steadily through work with a clear wage and a known return.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "The Steward your season asks for is held inside your chart rather than on show, and you save quietly and keep more in reserve than anyone guesses.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengcai · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "You hold the Steward your season asks for only deep inside your chart, and you learn to keep money late, once a lean spell teaches you how.",
+   "notes": [
+    {
+     "id": "BC:BC-012",
+     "severity": "MINOR",
+     "issue": "This is money hardship that is not tied to a decade or a gate and has nothing to carry the reader through.",
+     "fix": "Rewrite: \"You hold the Steward your season asks for only deep inside your chart, and you learn to keep money late and by your own method.\""
+    }
+   ]
+  },
+  {
+   "key": "GOD qisha · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "Your chart is without the General, and nobody inside it sets you a hard test or a date you cannot move. You keep your own pace and face few real trials, and you learn how strong you are only when pressure comes from outside.",
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as tough and hard to rattle, the person people send in when the stakes are high.",
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You push yourself harder in private than anyone asks of you, and you set tests that nobody else sees.",
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "The General your season asks for leads from the front, and you meet hard tests in public and are trusted for how you handle them.",
+   "notes": []
+  },
+  {
+   "key": "GOD qisha · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "The General your season asks for works unseen from within, and you hold yourself to a hard private standard that makes you stronger.",
+   "notes": [
+    {
+     "id": "BA:BA-008",
+     "severity": "MAJOR",
+     "issue": "穷通宝鉴 十月丙火 makes 壬 conditional (\"木旺宜庚，水旺宜戊，火旺用壬，随宜酌用可也\"), yet the table prints it as a need on a weak 丙 whose chart is half Water; 四月乙木 says \"自有丙火 … 丙火酌用\", yet B005 prints the Virtuoso (丙) as asked for right after \"more sun than you asked for\".",
+     "fix": "Move 丙亥 壬 to `conditional` (\"火旺用壬\") and 乙巳 丙 to `conditional` (\"自有丙火，酌用\"), rebuild with `tools/build-season-table.mjs`, and audit the other 118 cells for stems the text gives only 随宜 or 酌用."
+    }
+   ]
+  },
+  {
+   "key": "GOD qisha · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "The General your season asks for sleeps under everything else, and you go untested for years, then rise to the one hard test that finally comes.",
+   "notes": [
+    {
+     "id": "BC:BC-013",
+     "severity": "MINOR",
+     "issue": "It predicts a single future event that the chart cannot date.",
+     "fix": "Rewrite: \"The General your season asks for sleeps under everything else, and you go untested for long stretches, then rise quickly whenever a real test arrives.\""
+    }
+   ]
+  },
+  {
+   "key": "GOD zhengguan · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as reliable and correct, the person others trust to follow the rules and keep their word.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You hold yourself to rules nobody wrote down, and you want a clear title that is yours alone.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "Your chart displays the Magistrate your season asks for, and you hold a clear role that others see and rely on.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "Your chart holds the Magistrate your season asks for inside, where nobody watches, and you live by a private code that keeps your days in order.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengguan · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "Your chart buries the Magistrate your season asks for in a deep corner, and you take on a formal role late and grow into it slowly.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "Nobody inside your chart pulls you toward odd subjects or second thoughts, because it holds no Alchemist. You take knowledge as it is taught, and you act on a straight answer before you think to question it.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as unusual and hard to read, with a specialist interest nobody saw coming.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You think in strange directions and keep most of those thoughts to yourself.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "The Alchemist your season asks for shows on the face of your chart, and you are the person others bring their strangest questions to.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "The Alchemist your season asks for runs underneath without showing, and you study in private and keep the strangest of what you learn to yourself.",
+   "notes": []
+  },
+  {
+   "key": "GOD pianyin · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "The Alchemist your season asks for lies as a thin thread far beneath the surface, and you reach for strange knowledge only when ordinary answers run out.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · missing",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing",
+   "current": "Your chart holds no Sage, and nobody inside it shelters you or praises you for trying. You learned early to reassure yourself, and you trust help more when you did not have to ask for it.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · missing.open",
+   "kind": "missing",
+   "page": "bp-missing",
+   "family": "missing.open",
+   "current": "",
+   "new": true,
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · seen.plain",
+   "kind": "seen",
+   "page": "bp-seen.plain",
+   "family": "seen-plain",
+   "current": "You come across as calm and well taught, someone a teacher or an older friend has clearly looked after.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · seen.inside",
+   "kind": "seen",
+   "page": "bp-seen.inside",
+   "family": "seen-inside",
+   "current": "You want to be looked after more than you say, and you stay close to the people who once taught you.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · season_need.shown",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.shown",
+   "current": "In your chart the Sage your season asks for appears openly, and you are offered help and teaching before you think to ask.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · season_need.rooted",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.rooted",
+   "current": "The Sage your season asks for rests quietly inside your chart, and you have backing from an older ally who never asks for credit.",
+   "notes": []
+  },
+  {
+   "key": "GOD zhengyin · season_need.hidden",
+   "kind": "season_need",
+   "page": "bp-need",
+   "family": "need.hidden",
+   "current": "What your season asks for is the Sage and your chart holds it only deep down, and you meet the right teacher late, after years of teaching yourself.",
+   "notes": []
+  },
+  {
+   "key": "TEMPLATED tpl_depth · seen.close",
+   "kind": "seen_close",
+   "page": "bp-seen.inside",
+   "family": "close",
+   "current": "Only the people you live with see the second list.",
+   "notes": [
+    {
+     "id": "BA:BA-015",
+     "severity": "MINOR",
+     "issue": "The reader is not the subject, \"the second list\" is screen talk, and \"the people you live with\" assumes a household the chart cannot know.",
+     "fix": "\"You save what sits inside for the few people who know you best.\""
+    }
+   ]
+  }
+ ]
+}

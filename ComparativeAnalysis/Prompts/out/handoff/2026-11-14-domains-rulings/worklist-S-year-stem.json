@@ -1,0 +1,546 @@
+{
+ "worklist": "S-year-stem",
+ "units": [
+  {
+   "key": "POSITION bijian_year_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:bijian_year_stem.Social",
+   "family": "headline",
+   "current": "Your friends are equals, or they are not friends.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_year_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_year_stem.Social",
+   "family": "recognition",
+   "current": "You keep a few equals close and everyone else at a friendly distance. Because you seem to need nothing, you attract people as capable as you are, and the ones who want support look elsewhere. Your circle is small and sturdy, and you feel its gaps more than you admit.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_year_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:bijian_year_stem.Social",
+   "family": "seatbeat",
+   "current": "The friends you made as a child were your equals, children who kept pace with you and stood up for you in turn. The friendships that lasted into your teens were the level ones, and you let the rest go without a fuss.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_year_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:bijian_year_stem.Family",
+   "family": "headline",
+   "current": "You are the relative who never needs rescuing.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_year_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_year_stem.Family",
+   "family": "recognition",
+   "current": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, rarely when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness.",
+   "notes": []
+  },
+  {
+   "key": "POSITION bijian_year_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:bijian_year_stem.Family",
+   "family": "seatbeat",
+   "current": "An older relative in your first home made a point of standing on their own, and you copied it before you understood it. You asked for less with each year you grew, and the adults around you praised you for it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_year_stem · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_year_stem.Wealth",
+   "family": "headline",
+   "current": "Money moved fast around you from the start.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_year_stem · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_year_stem.Wealth",
+   "family": "recognition",
+   "current": "You spend quickly and generously, and money that comes in through friends or windfalls goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.",
+   "notes": [
+    {
+     "id": "DB:DB-010",
+     "severity": "MINOR",
+     "issue": "The early Rival reads as the early Horizon (money arriving and leaving), and the units also carry a banned word and a dangling \"that nerve\".",
+     "fix": "Recognition: \"You spend quickly and in company, and money that comes in through friends goes out keeping up with them. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.\" Lived: \"Money in your family moved fast while you were growing up, won boldly and gone again on keeping up with others. You were as daring with money as your family before you were grown, and you spent what you had almost as soon as you had it.\" **Classical:** as DB-009 (三命通会 论劫财)."
+    }
+   ]
+  },
+  {
+   "key": "POSITION jiecai_year_stem · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_year_stem.Wealth",
+   "family": "seatbeat",
+   "current": "Money arrived and vanished in your family while you were growing up, a good year followed by a hard one. You had your own share of that nerve before you were grown, and you spent what you had almost as soon as you had it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_year_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_year_stem.Social",
+   "family": "headline",
+   "current": "People take to you quickly, and in numbers.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_year_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_year_stem.Social",
+   "family": "recognition",
+   "current": "You make friends fast, and a new group accepts you within an evening. Because charm was your family's way with people, you collect many allies and only a few who would stay through trouble. You know the difference between the two, and you feel it most in a hard year when the crowd thins.",
+   "notes": []
+  },
+  {
+   "key": "POSITION jiecai_year_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_year_stem.Social",
+   "family": "seatbeat",
+   "current": "As a child you were popular with other children and with adults, and you were invited to more than your share. By the time you were grown you had a wide circle and one or two close friends who mattered far more, and you knew which were which.",
+   "notes": [
+    {
+     "id": "DE:DE-009",
+     "severity": "MINOR",
+     "issue": "The Rival's child beat is the Artisan's (popularity, invitations) with no contest or share in it, and \"By the time you were grown\" runs past the Year Gate's fifteen (source: 三命通会 and 渊海子平 on 比劫, 劫财 主 争夺 and 分财; 食神 is appetite and ease; 三命通会 根苗花实, the Year pillar holds the years to fifteen).",
+     "fix": "\"As a child you shared what you had and competed for what you wanted, and other children gathered round you. By your teens you had a wide circle and one or two close friends who mattered far more, and you knew which were which.\" (44 words)"
+    }
+   ]
+  },
+  {
+   "key": "POSITION piancai_year_stem · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:piancai_year_stem.Wealth",
+   "family": "headline",
+   "current": "You learned early that money is for moving.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_year_stem · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_year_stem.Wealth",
+   "family": "recognition",
+   "current": "You spend on people and chances easily, and a good opening excites you more than a full account. Because money in your first home came and went in plain sight, you feel calm with risks that frighten more careful people. A store kept apart from your generosity is the thing you find hardest to build, and you know it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_year_stem · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:piancai_year_stem.Wealth",
+   "family": "seatbeat",
+   "current": "As a child you watched money arrive in good months and go out on visitors and fresh ideas. By your teens you had a quick eye for a chance, and saving was something you had to teach yourself.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_year_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:piancai_year_stem.Family",
+   "family": "headline",
+   "current": "Your family taught you generosity, and its price.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_year_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_year_stem.Family",
+   "family": "recognition",
+   "current": "You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving past what you can afford, and you resent it only later.",
+   "notes": []
+  },
+  {
+   "key": "POSITION piancai_year_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:piancai_year_stem.Family",
+   "family": "seatbeat",
+   "current": "An older relative in your first home, a parent or someone who stood in for one, spent widely and drew people around them. Growing up you learned both the warmth of that generosity and what it cost the household.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_year_stem · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_year_stem.Mind",
+   "family": "headline",
+   "current": "Your mind has always worked at an angle.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_year_stem · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_year_stem.Mind",
+   "family": "recognition",
+   "current": "You come at problems from an unexpected direction, and people notice the answer before they understand the route. Because your mind took its own path from the start, you get bored by the obvious approach and drift toward the strange one. Your way of thinking is the first thing people remember about you.",
+   "notes": [
+    {
+     "id": "DD:DD-011",
+     "severity": "MINOR",
+     "issue": "This repeats the lived beat directly below it (\"reaching the right answer by a route nobody had taught\"), and the close leans on the watcher (\"the first thing people remember about you\").",
+     "fix": "\"You come at problems from an unexpected direction, and the strange angle is the one you trust. Because your mind took its own path from the start, the obvious approach bores you before you have tried it. Your way of thinking is the first thing people notice about you, and you have stopped hiding it.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION pianyin_year_stem · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_year_stem.Mind",
+   "family": "seatbeat",
+   "current": "As a child you learned in a way teachers struggled to mark, reaching the right answer by a route nobody had taught. By your teens you were known for it, as the clever one or the odd one, and you were both.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_year_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_year_stem.Social",
+   "family": "headline",
+   "current": "You choose a small circle and keep it close.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_year_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_year_stem.Social",
+   "family": "recognition",
+   "current": "You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. Only a few people know you well, and you chose it that way.",
+   "notes": []
+  },
+  {
+   "key": "POSITION pianyin_year_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_year_stem.Social",
+   "family": "seatbeat",
+   "current": "Other children took a while to warm to you, because you stood at the edge of each group for a long time before you joined it. By your teens you had one or two close friends who understood you, and they were enough for you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_year_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:qisha_year_stem.Social",
+   "family": "headline",
+   "current": "People respect you first and like you second.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_year_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_year_stem.Social",
+   "family": "recognition",
+   "current": "You walk into a group and people sort themselves around you, some matching your strength and others keeping their distance. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. Your friendships are strong and few, and you keep the ones who push back.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_year_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:qisha_year_stem.Social",
+   "family": "seatbeat",
+   "current": "As a child you were the one others looked to in a fight or a dare, and you did not give way easily. Your friends by your teens were either as tough as you or kept at a distance, and you learned diplomacy slowly.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_year_stem · domain_climb.Career.headline",
+   "kind": "headline",
+   "page": "seat:qisha_year_stem.Career",
+   "family": "headline",
+   "current": "Authority found you early and kept finding you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_year_stem · domain_climb.Career.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_year_stem.Career",
+   "family": "recognition",
+   "current": "You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months.",
+   "notes": []
+  },
+  {
+   "key": "POSITION qisha_year_stem · domain_climb.Career.lived",
+   "kind": "lived",
+   "page": "seat:qisha_year_stem.Career",
+   "family": "seatbeat",
+   "current": "Responsibility beyond your age came to you before you were grown, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_year_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_year_stem.Social",
+   "family": "headline",
+   "current": "People remember you after one meeting.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_year_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_year_stem.Social",
+   "family": "recognition",
+   "current": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_year_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_year_stem.Social",
+   "family": "seatbeat",
+   "current": "When you were a child, your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_year_stem · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_year_stem.Mind",
+   "family": "headline",
+   "current": "Your mind gets there first and gets bored first.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shangguan_year_stem · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_year_stem.Mind",
+   "family": "recognition",
+   "current": "You see the pattern before others have finished explaining it, and boredom reaches you long before the lesson ends. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and you drift when it has neither.",
+   "notes": [
+    {
+     "id": "DD:DD-019",
+     "severity": "MINOR",
+     "issue": "This nearly copies the Alchemist's opener (\"You see the shape of a problem before anyone has finished describing it to you\", `pianyin_hour_stem.Mind.recognition`), so two characters open as one force. The Virtuoso's mark is the sharp objection (子平真诠 论伤官).",
+     "fix": "\"You spot the weak step in an argument at once, and boredom reaches you long before the lesson ends. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and you drift when it has neither.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION shangguan_year_stem · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_year_stem.Mind",
+   "family": "seatbeat",
+   "current": "You finished the work early at school and went looking for something harder, or for trouble when nothing harder came. Before you left school you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_year_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:shishen_year_stem.Social",
+   "family": "headline",
+   "current": "You are welcomed in almost any company.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_year_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_year_stem.Social",
+   "family": "recognition",
+   "current": "People warm to you on first meeting, and they remember how you made them feel long after the talk itself. Since being liked was your first way of belonging, you give more than you take in every circle you join, through hosting and small kindnesses. Your friends are many and loyal, and you show your worries to very few of them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_year_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:shishen_year_stem.Social",
+   "family": "seatbeat",
+   "current": "Other children wanted to sit next to you, and the adults at family gatherings made a fuss of you. By your teens you were asked to more parties than you could go to, and you went to most of them.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_year_stem · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:shishen_year_stem.Health",
+   "family": "headline",
+   "current": "You were born with a forgiving body.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_year_stem · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_year_stem.Health",
+   "family": "recognition",
+   "current": "You recover quickly from big meals and short nights, and your body has rarely let you down. Because pleasure has never felt dangerous to you, you let the treats and the late nights pile up until your energy drops. A steady routine of food and rest puts you right, and you feel well again within a week of going back to it.",
+   "notes": []
+  },
+  {
+   "key": "POSITION shishen_year_stem · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:shishen_year_stem.Health",
+   "family": "seatbeat",
+   "current": "You ate well and slept soundly in your first years, and a bad day or a cold never kept you down for long. Food at home was a pleasure more than a rule, and by your teens you loved a good meal more than most of your friends did.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_year_stem · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_year_stem.Wealth",
+   "family": "headline",
+   "current": "You learned the value of money early.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_year_stem · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_year_stem.Wealth",
+   "family": "recognition",
+   "current": "You spend with a list and save before anyone asks you to, and money that sits unplanned makes you uneasy. Because order around money felt like safety from your first years, you lose more sleep over a careless purchase than it ever cost you. You are slower to enjoy what you have than to keep it.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_year_stem · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_year_stem.Wealth",
+   "family": "seatbeat",
+   "current": "You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_year_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_year_stem.Family",
+   "family": "headline",
+   "current": "You were raised in a careful, orderly home.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_year_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_year_stem.Family",
+   "family": "recognition",
+   "current": "You show love in your family by keeping things in order, the bills paid and the arrangements made. Because care at home looked like provision when you were small, you trust a relative who plans more than one who says warm things. You are the one your family calls when something needs organising, and you rarely say no.",
+   "approved": true,
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengcai_year_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_year_stem.Family",
+   "family": "seatbeat",
+   "current": "Someone in your first home kept the household running on plans and promises kept, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones.",
+   "approved": true,
+   "notes": [
+    {
+     "id": "DA:DA-006",
+     "severity": "MINOR",
+     "issue": "\"Promises kept\" is the Magistrate's mark on these pages (\"Your home runs on kept promises\"), so the Steward borrows it. 正财 is the careful keeping of what is earned (子平真诠 论财).",
+     "fix": "\"Someone in your first home kept the household running on plans and a careful budget, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengguan_year_stem · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_year_stem.Social",
+   "family": "headline",
+   "current": "People trust you before they know you.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_year_stem · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_year_stem.Social",
+   "family": "recognition",
+   "current": "New people give you their trust quickly, and you are offered responsibility in a group before you have earned it. Because a good name was part of your upbringing, you behave in public with care, and you dislike being seen at your worst. Your standing is a real advantage, and you guard it more closely than you need to.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_year_stem · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_year_stem.Social",
+   "family": "seatbeat",
+   "current": "Teachers and neighbours trusted you as a child, partly because of the family you came from. By your teens you were the one picked to lead or to represent the group, and you felt the weight of behaving well.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_year_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_year_stem.Family",
+   "family": "headline",
+   "current": "You come from a family that kept its standards.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_year_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_year_stem.Family",
+   "family": "recognition",
+   "current": "You hold your family's name with pride and some strain, and its standards still shape what you allow yourself. Because what the family stood for was visible to others, you feel its expectations most in public. You honour the values you were given, and you quietly drop the rules that never made sense.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengguan_year_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_year_stem.Family",
+   "family": "seatbeat",
+   "current": "In your first home there were clear rules and an older relative who held everyone to them. By your teens you knew exactly what the family expected of you, and you met most of it while keeping a few doubts to yourself.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_year_stem · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_year_stem.Family",
+   "family": "headline",
+   "current": "You grew up protected by someone principled.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_year_stem · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_year_stem.Family",
+   "family": "recognition",
+   "current": "The steady, decent care you had early is the measure you hold family to, and you notice quickly when it is missing. Because your first home gave you safety and clear values, you trust family as the place to turn first. You judge a relative by whether they keep their word, and you say so when they do not.",
+   "notes": [
+    {
+     "id": "DB:DB-016",
+     "severity": "MINOR",
+     "issue": "The early Sage closes on the Magistrate's rule-keeping, not on the shelter it names in its first sentence.",
+     "fix": "Rewrite: \"The steady, patient care you had early is the measure you hold family to, and you notice quickly when it is missing. Because your first home gave you shelter and someone to learn from, you trust family as the place to turn first. You go to a relative for comfort before you go to a friend, and you give the same back.\" **Classical:** 三命通会: a Sage in the Year pillar is the shelter of elders (祖荫)."
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengyin_year_stem · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_year_stem.Family",
+   "family": "seatbeat",
+   "current": "Your first home ran on care and clear rules, kept by a parent or older relative who held everyone to a high standard. By your teens you had their sense of right and wrong, and people outside the family noticed it in you.",
+   "notes": [
+    {
+     "id": "DA:DA-005",
+     "severity": "MINOR",
+     "issue": "The Sage reads as the Magistrate (rules, standards, right and wrong). On D057, D067 and D130 it sits beside the Magistrate seat saying the same thing. 印 is shelter and learning (子平真诠 论印绶; 渊海子平 论印绶), and rules belong to 正官 (子平真诠 论正官).",
+     "fix": "\"Your first home ran on patient care and help with your schooling, given by a parent or older relative who watched over you. By your teens you had their manners and their love of learning, and people outside the family noticed it in you.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengyin_year_stem · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_year_stem.Mind",
+   "family": "headline",
+   "current": "You were raised to learn, and you still do.",
+   "notes": []
+  },
+  {
+   "key": "POSITION zhengyin_year_stem · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_year_stem.Mind",
+   "family": "recognition",
+   "current": "You approach a new subject expecting to be taught well, and you go looking for the best teacher before you open a book. Because books and patient adults were part of your childhood, you learn easily inside a course or a school, and you value a qualification for its own sake. You find it harder to learn where nobody is guiding you.",
+   "notes": [
+    {
+     "id": "DD:DD-010",
+     "severity": "MINOR",
+     "issue": "One idea three times on one page. The recognition tells the childhood that the lived beat tells (\"As a child you had books at home and adults who answered your questions\"), and it says the school frame that the pair line says (\"you learn well inside a frame like a school\"). The cause is biography where the house wants the reader's need.",
+     "fix": "\"You approach a new subject expecting to be taught well, and you go looking for the best teacher before you open a book. Because a guide makes learning feel safe to you, you value a qualification for its own sake. You find it harder to learn where nobody is showing you the way.\""
+    }
+   ]
+  },
+  {
+   "key": "POSITION zhengyin_year_stem · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_year_stem.Mind",
+   "family": "seatbeat",
+   "current": "As a child you had books at home and adults who answered your questions, and school came easily. By your teens a teacher or older relative had taken a special interest in you, and you worked harder because of it.",
+   "notes": []
+  }
+ ]
+}

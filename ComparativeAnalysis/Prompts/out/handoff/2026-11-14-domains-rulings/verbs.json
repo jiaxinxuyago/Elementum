@@ -1,0 +1,63 @@
+{
+ "_note": "Owner R15 A (2026-11-14): each character's own words, checked by the gate. 'own': stems of the words that carry the character (a Day or Hour seat beat must use at least one). 'reserved': phrases that belong to this character alone (no other character's unit may use them). Matching is case-insensitive on word starts, so 'promis' covers promise, promises, promised. Sources: 子平真诠 论十神, 滴天髓 性情, and the personas in Reading/Database/Prompts/04_READING_SYSTEM_PRIMER.md.",
+ "Twin": {
+  "zh": "比肩",
+  "stands_for": "self-reliance, equals, standing on your own feet",
+  "own": ["equal", "own", "alone", "yourself", "peer", "side by side", "self-reli", "level", "match", "independen", "by hand"],
+  "reserved": ["as an equal", "between equals", "on your own feet", "self-reli"]
+ },
+ "Rival": {
+  "zh": "劫财",
+  "stands_for": "competition, sharing what you have, money that moves through friends",
+  "own": ["compet", "contest", "rival", "share", "split", "claim", "score", "race", "win", "divide", "match"],
+  "reserved": ["keep score", "kept score", "keeping score", "your share", "split the", "contest"]
+ },
+ "Artisan": {
+  "zh": "食神",
+  "stands_for": "ease, appetite, making things, food and rest",
+  "own": ["make", "made", "cook", "food", "meal", "comfort", "ease", "pleasure", "enjoy", "appetite", "taste", "host", "craft", "rest"],
+  "reserved": ["meal", "appetite", "comfort", "cook"]
+ },
+ "Virtuoso": {
+  "zh": "伤官",
+  "stands_for": "a sharp voice, talent that rebels, saying what others won't",
+  "own": ["say", "said", "sharp", "talent", "argu", "perform", "wit", "voice", "show", "outspoken", "brillian", "critic", "question", "correct"],
+  "reserved": ["out loud", "outspoken", "talent"]
+ },
+ "Horizon": {
+  "zh": "偏财",
+  "stands_for": "range, side doors, windfalls, openings far from home",
+  "own": ["range", "chance", "opening", "side door", "windfall", "travel", "deal", "widen", "venture", "far", "wide", "new place", "move"],
+  "reserved": ["windfall", "side door", "openings", "far from home"]
+ },
+ "Steward": {
+  "zh": "正财",
+  "stands_for": "careful keeping, earned value, steady money and order at home",
+  "own": ["save", "saved", "keep", "kept", "earn", "steady", "count", "budget", "account", "careful", "store", "wage", "pay", "spend"],
+  "reserved": ["savings", "accounts", "budget", "wage"]
+ },
+ "General": {
+  "zh": "七杀",
+  "stands_for": "pressure that forges, hard tests, a fight with real stakes",
+  "own": ["pressure", "test", "fight", "deadline", "stakes", "push", "challeng", "hard", "nerve", "courage", "tough", "risk", "battle", "strain"],
+  "reserved": ["deadline", "stakes", "under pressure", "fight"]
+ },
+ "Magistrate": {
+  "zh": "正官",
+  "stands_for": "rules, duty, a role, a word kept in public",
+  "own": ["rule", "duty", "duties", "role", "title", "promis", "your word", "proper", "standing", "respect", "responsib", "commit", "reliab", "order"],
+  "reserved": ["your word", "duty", "duties", "title", "promis", "propriety"]
+ },
+ "Alchemist": {
+  "zh": "偏印",
+  "stands_for": "strange knowledge, private study, an unusual mind",
+  "own": ["strange", "odd", "private", "specialis", "unusual", "intuiti", "secret", "niche", "alone with", "obscure", "puzzle", "method", "subject"],
+  "reserved": ["strange", "odd", "specialis", "obscure"]
+ },
+ "Sage": {
+  "zh": "正印",
+  "stands_for": "shelter, learning, being looked after and looking after",
+  "own": ["shelter", "teach", "learn", "look after", "looked after", "support", "care", "protect", "guid", "mentor", "study", "home base", "patien", "advice"],
+  "reserved": ["shelter", "looked after", "looks after", "teacher", "mentor"]
+ }
+}
