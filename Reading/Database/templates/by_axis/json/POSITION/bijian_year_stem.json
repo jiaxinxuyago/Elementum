@@ -21,7 +21,7 @@
     ],
     "defline": "The Twin stands at your Year Gate, in plain view: your family raised you to stand on your own.",
     "reading": "As a child you were noticed for being capable, and help at home was something you earned. Because managing alone won you approval early, people still meet that capable face first, and friends trust you to carry your share. Asking your family or anyone else for something has stayed the hardest thing you do, and you go without more often than the people around you guess.",
-    "teaser": "Independence was the family lesson, and you took it early. Expect a life where help arrives late and pride arrives first, and you manage anyway.",
+    "teaser": "Independence was the family lesson, and you took it early. You still manage before you ask, so learn to say yes when help does come.",
     "domain_readings": {
       "Social": "Your social world sorts itself early and stays sorted: a few equals held close, a wide ring kept at handshake distance. People read you as complete, which draws the strong and quietly deters the needy. Curate on purpose. Your circle is small by design, so every chair matters.",
       "Family": "Family taught you standing, and you honor it by standing: duties met without being asked, help given without being owed. You are the relative who never calls needing something. Call anyway sometimes. The family reads your silence as distance, and it was only ever self-sufficiency."
@@ -58,6 +58,9 @@
       "retired_2026-11-14_rulings_round": {
         "domain_climb.Social.lived": "The friends you made as a child were your equals, children who kept pace with you and stood up for you in turn. The friendships that lasted into your teens were the level ones, and you let the rest go without a fuss.",
         "domain_climb.Family.recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, rarely when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "teaser": "Independence was the family lesson, and you took it early. Expect a life where help arrives late and pride arrives first, and you manage anyway."
       }
     }
   },
@@ -129,6 +132,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "teaser",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

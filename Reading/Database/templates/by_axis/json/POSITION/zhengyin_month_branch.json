@@ -22,7 +22,7 @@
     ],
     "defline": "The Sage holds your strongest seat, inside your Month Gate: your working years are carried by steady learning.",
     "reading": "You keep studying long after the people around you have stopped, and what you know sits under everything you do. Because learning is how you feel safe, you prepare thoroughly for every step, and you wait to feel ready before you put yourself forward at work. Your ability has outrun your confidence for years, and the people who taught you saw it before you did. You grow at your own careful pace, and you are usually the last to see how far you have come.",
-    "teaser": "Your prime is carried by learning: the deeper the study, the steadier the rise. Expect your name to rest on what you know, and to age well.",
+    "teaser": "Your prime is carried by learning: the deeper the study, the steadier the rise. Let your name rest on what you know, and it ages well.",
     "domain_readings": {
       "Mind": "Learning carries your working life: the deeper the study, the steadier the rise. Your name comes to rest on what you know, and it ages the way references beat headlines. Publish, apply, teach before you feel ready. Your readiness always lagged your ability by years.",
       "Career": "Midlife converts your knowledge into quiet authority: students into allies, reading into rank. The career compounds through depth, never through noise. Trust the conversion. What you studied in obscurity gets promoted in daylight, reliably, on this seat’s schedule.",
@@ -72,6 +72,9 @@
         "domain_climb.Career.lived": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior recommended you before you felt ready, and you have proved them right.",
         "domain_climb.Growth.recognition": "Each step you take comes after the training is done and the support is in place. Because shelter feels like the right place to prepare, you stay in comfortable roles past the point they teach you anything, and you wait for one more sign that you are ready. You are readier than you feel, and you have been for a long time.",
         "domain_climb.Growth.lived": "From your late teens you have grown in steady steps, each one taken only after you felt well prepared. You have stayed somewhere safe for longer than it served you at least once, and you did better than you feared once you finally moved."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "teaser": "Your prime is carried by learning: the deeper the study, the steadier the rise. Expect your name to rest on what you know, and to age well."
       }
     }
   },
@@ -200,6 +203,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "teaser",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

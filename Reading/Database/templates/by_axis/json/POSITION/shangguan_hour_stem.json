@@ -21,7 +21,7 @@
     ],
     "defline": "The Virtuoso stands at your Hour Gate, in plain view: your later years are when people hear you most clearly.",
     "reading": "In later life you do your boldest work, at a point when most people expect you to ease off. Because saying the true thing matters more to you than a title, you speak more freely each year, and some who hold rank resent it. You keep changing while there is something new to learn. You pass your talent to the people after you, children or younger relatives or someone you train, along with your dislike of being told what to do.",
-    "teaser": "Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction.",
+    "teaser": "Your late work will be your boldest, and the young will quote you. Those after you inherit your talent and your allergy to instruction, so teach by example.",
     "domain_readings": {
       "Career": "Your late work will be your boldest: the filters thin with age and the craft peaks, a dangerous, wonderful combination. Retirement in the resting sense is not on your chart. Plan a late act worth quoting. The last stage is the one they remember.",
       "Growth": "Growth keeps its edge to your final decades, provided the stage keeps changing: new formats, new audiences, new fights worth having. Sameness ages you faster than years do. Book the unfamiliar venue at every age. Your candor matures into wisdom exactly on schedule."
@@ -65,6 +65,9 @@
         "domain_climb.Growth.recognition": "You grow fastest when the task is new to you, a different kind of audience or a skill nobody expects you to take up. Because sameness bores you before it tires you, you leave a settled position sooner than others think wise. Each change costs you some comfort, and you come out of it sharper than you went in.",
         "domain_climb.Growth.lived": "Past your late forties you have changed direction more than once where others expected you to settle, taking up a new field or a new way of working. Each move looked risky to the people around you, and you grew more for it than in the calmer years before.",
         "domain_climb.Growth.ahead": "Saying out loud what you used to keep to yourself becomes your way of growing from your late forties, and people who once called you difficult start calling you wise. You stay sharp in these years while something in your life is new, and you go looking for it when nothing is."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "teaser": "Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction."
       }
     }
   },
@@ -165,6 +168,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "teaser",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

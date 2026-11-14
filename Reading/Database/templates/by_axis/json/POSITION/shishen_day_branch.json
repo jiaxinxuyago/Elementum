@@ -22,7 +22,7 @@
     ],
     "defline": "The Artisan lives inside your Day Gate, the seat of your partner: your private life is built around comfort shared at home.",
     "reading": "You are happiest where food, rest and easy company are part of every day, and you choose a partner who enjoys them with you. Because ease makes you feel safe, you look after the people you live with through meals and small favours more than through words. Your relatives and friends end up at your table, and you give so much to the household that your own rest comes last.",
-    "teaser": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep.",
+    "teaser": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, so put your best effort into the home you two keep.",
     "domain_readings": {
       "Love": "You love by feeding, in every sense: care arrives as meals, comfort, ease made daily. The partner who suits you receives gently and returns warmth without keeping score. Beware only the taker who mistakes your table for a service counter. Love should cook for you sometimes.",
       "Family": "Your household becomes the family’s hearth: the gathering point, the good table, the place children and strays remember. Build it on purpose, comfort is your architecture. The home you keep becomes the family’s institution, and its warmth outlives every argument held inside it.",
@@ -79,6 +79,9 @@
         "domain_climb.Health.recognition": "Your health follows your home life closely, and you sleep and eat well in the seasons when the house is peaceful. Because tension at home reaches your body before you name it, a bad month with a partner shows up in your appetite and your rest. You recover fastest through ordinary comfort, a shared meal and an early night.",
         "domain_climb.Health.lived": "Your energy has risen and fallen so far with the state of your home, steady in the good years and low in the strained ones. Your sleep and appetite have followed each change at home, and they have settled again whenever the house grew calm.",
         "domain_climb.Health.ahead": "Your sleep and appetite steady from your mid-thirties as your household settles, and a calm year at home gives you more energy than a busy one. In the fullest of these years you eat and rest in step with whoever shares your home, and you stay well because of it."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "teaser": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep."
       }
     }
   },
@@ -224,6 +227,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "teaser",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

@@ -71,7 +71,7 @@
         "key": "劫财在年干",
         "canonical_name": "The Rival at the Year Gate",
         "value": {
-          "Wealth": "Money entered your story moving: a childhood where fortunes shifted, generosity flowed, and nothing stayed in the vault long. You inherited the nerve and the leak together. Windfalls will find you socially all your life. Bank a fixed share of every one before the celebrating starts.",
+          "Wealth": "Money entered your story moving: a childhood where money shifted, generosity flowed, and nothing stayed in the vault long. You inherited the nerve and the leak together. Windfalls will find you socially all your life. Bank a fixed share of every one before the celebrating starts.",
           "Social": "You draw people the way bold things draw crowds: quickly, warmly, and in numbers. The charm is real currency, and it buys crowds of allies with a handful of anchors. Learn to tell the two apart early. Anchors hold when the weather turns. Crowds watch."
         }
       },
@@ -262,8 +262,8 @@
         "key": "偏财在年干",
         "canonical_name": "The Horizon at the Year Gate",
         "value": {
-          "Wealth": "Money entered your story as movement: a family that spent on people and chances, fortune arriving through doors rather than vaults. You inherited the nose for openings and the light grip. Keep one anchored account beyond charm’s reach. The rest genuinely belongs in play.",
-          "Family": "Your family line carries a generous gambler: a father figure or elder whose open hands taught you about range and its price. The family fortune moved, and so does yours. Honor the generosity by adding the one thing they skipped, the floor beneath it."
+          "Wealth": "Money entered your story as movement: a family that spent on people and chances, money arriving through doors rather than vaults. You inherited the nose for openings and the light grip. Keep one anchored account beyond charm’s reach. The rest genuinely belongs in play.",
+          "Family": "Your family line carries a generous gambler: a father figure or elder whose open hands taught you about range and its price. The family’s money moved, and so does yours. Honor the generosity by adding the one thing they skipped, the floor beneath it."
         }
       },
       {
@@ -272,7 +272,7 @@
         "canonical_name": "The Horizon inside the Year Gate",
         "value": {
           "Family": "A wanderer sits in your roots: the relative who left, the migration that made the family, the restlessness passed down as inheritance. Your bonds stretch across distances and hold. Keep the far ones fed with visits and calls. Your family was built by journeys, and it maintains by them.",
-          "Wealth": "Your fortune has a passport: opportunity favors you away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time."
+          "Wealth": "Your money has a passport: you find your openings away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time."
         }
       },
       {
@@ -319,7 +319,7 @@
         "canonical_name": "The Horizon inside the Hour Gate",
         "value": {
           "Family": "Your late family scatters and gathers: children across distances, reunions in bursts, love maintained by journeys and full tables. Fund the gatherings without apology. They are the family’s true estate, and you were always going to be their patron.",
-          "Wealth": "Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your fortune always preferred."
+          "Wealth": "Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your money always preferred."
         }
       },
       {
@@ -327,7 +327,7 @@
         "key": "正财在年干",
         "canonical_name": "The Steward at the Year Gate",
         "value": {
-          "Wealth": "Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time.",
+          "Wealth": "Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your wealth is built like a wall, one considered brick at a time.",
           "Family": "Family, for you, is a well-run estate more than a stage: obligations met, elders honored, help that arrives as groceries and paid bills rather than speeches. You may become the family treasurer early. Accept the role, set its limits in writing, and it becomes an honor rather than a tax."
         }
       },
@@ -337,7 +337,7 @@
         "canonical_name": "The Steward inside the Year Gate",
         "value": {
           "Family": "Your family root kept its word about money: a house that counted, saved, and never dramatized it. You inherited solvency as a temperament. Family remains your soundest network, help flowing reliably both ways. Keep the ledgers kind, and this root funds generations.",
-          "Wealth": "Your fortune compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning."
+          "Wealth": "Your wealth compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning."
         }
       },
       {
@@ -346,7 +346,7 @@
         "canonical_name": "The Steward at the Month Gate",
         "value": {
           "Career": "The working world trusts you with the keys and should: budgets balance near you, chaos organizes, value stays kept. Stewardship roles pay you in rank and in reputation, and the reputation compounds longer. Charge properly for reliability. It is a premium service wearing modest clothes.",
-          "Wealth": "Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is the fortune."
+          "Wealth": "Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is what pays."
         }
       },
       {

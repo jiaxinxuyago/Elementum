@@ -22,7 +22,7 @@
     ],
     "defline": "The General lives inside your Hour Gate: your later years keep a private discipline that never quite stops.",
     "reading": "In later life you keep habits others let slip, the early start and the standard kept. Because being strong is how you feel safe, you push on past the point where others would ease off, and rest comes hard to you. The younger ones in your life, children or younger relatives or someone you train, feel protected by you more than held. You grow each time you take on something hard, and your strength holds because you use it.",
-    "teaser": "The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest.",
+    "teaser": "The root of your late years is discipline that never quite retires. Standing and respect build, and so does the urge for one more campaign. Keep a gate for rest.",
     "domain_readings": {
       "Health": "Your late body responds to training like an old soldier, gratefully and fast: strength returns on demand, stiffness arrives through pride. March daily, stretch nightly, rest like an order. Managed this way, the constitution outlasts every prediction made about it.",
       "Family": "Your late family lives inside your protection: they feel the perimeter more than the embrace, and both are love. Let the walls show their doors. The household that knows it is guarded and knows it is cherished gives you the finest last years available.",
@@ -79,6 +79,9 @@
         "domain_climb.Growth.recognition": "You grow the way you always have, by taking on something difficult and holding yourself to it. Because ease makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. What costs you is the quiet, and you find unplanned days harder than hard work.",
         "domain_climb.Growth.lived": "You have taken on at least one new discipline since your late forties, a skill or a sport or a role, and stuck with it longer than people expected. Your growth in those years came through effort, and the calm stretches between left you restless.",
         "domain_climb.Growth.ahead": "In the years after your late forties you grow through challenges you choose yourself, and each one leaves you sharper and steadier. You learn slowly to count rest as part of the work, and your strength outlasts most people's for it."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "teaser": "The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest."
       }
     }
   },
@@ -211,6 +214,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "teaser",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

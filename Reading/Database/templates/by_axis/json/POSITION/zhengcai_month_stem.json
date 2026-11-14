@@ -24,7 +24,7 @@
     "teaser": "The working world trusts you with money and should. Your career rewards stewardship: steady roles, real budgets, value kept. Wealth arrives on schedule rather than by surprise.",
     "domain_readings": {
       "Career": "The working world trusts you with the keys and should: budgets balance near you, chaos organizes, value stays kept. Stewardship roles pay you in rank and in reputation, and the reputation compounds longer. Charge properly for reliability. It is a premium service wearing modest clothes.",
-      "Wealth": "Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is the fortune."
+      "Wealth": "Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is what pays."
     },
     "life_chapter": "Your rising chapter earns trust first and money second: the prime decades hand you stewardship, then keys, then titles, in that order. Expect advancement that looks slow yearly and remarkable by decade. The era pays your reliability compound interest. Collect it without apology.",
     "relations": "Employers and dependents are this seat’s people: the bosses who hand you the books, the colleagues whose messes you quietly order. Being trusted is your social position. Invoice it occasionally, in raises, in titles, in first pick. Trust unpriced becomes furniture.",
@@ -57,6 +57,9 @@
         "domain_climb.Career.recognition": "You are given charge of money and order wherever you work, and things run better near your desk. Because reliability is what you offer, you accept extra tasks without asking for more pay or a promotion. You carry more of the work than your title shows, and your colleagues lean on it.",
         "domain_climb.Wealth.recognition": "You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, and you prefer it that way.",
         "domain_climb.Wealth.lived": "The money you have counted on since your late teens is the salary, raised a step at a time and planned for well in advance. You have kept to your own plan while friends chased quick gains, and you have rarely regretted it."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "domain_readings.Wealth": "Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is the fortune."
       }
     }
   },
@@ -139,6 +142,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_readings.Wealth",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

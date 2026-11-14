@@ -24,7 +24,7 @@
     "teaser": "Somewhere in your roots sits a wanderer, and their restlessness lives in you. Your luck travels: opportunity favors you farther from home than comfort likes.",
     "domain_readings": {
       "Family": "A wanderer sits in your roots: the relative who left, the migration that made the family, the restlessness passed down as inheritance. Your bonds stretch across distances and hold. Keep the far ones fed with visits and calls. Your family was built by journeys, and it maintains by them.",
-      "Wealth": "Your fortune has a passport: opportunity favors you away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time."
+      "Wealth": "Your money has a passport: you find your openings away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time."
     },
     "life_chapter": "Your early chapter planted the itch: somewhere in the roots, movement was survival or salvation, and it lives in you as a quiet pull toward elsewhere. Expect your best luck at a distance and your best rest at home. The design wants both. Alternate deliberately.",
     "relations": "The scattered kin are this seat’s people: family across cities or seas, bonds that survive distance because they were built by it. You are the connector between far points. Make the calls nobody else makes. The web holds because you do.",
@@ -58,6 +58,9 @@
         "domain_climb.Family.lived": "In your first home people spoke of a relative who had moved away, or you moved yourself and made friends quickly in each new place. By the time you were grown your family stretched across more than one place, and you felt at home in each of them.",
         "domain_climb.Wealth.recognition": "You find your best chances away from home, in a new city or an unfamiliar market or among strangers. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place.",
         "domain_climb.Wealth.lived": "Money in your family came through moving when you were young, a relative working away or a business that travelled. The first money you made yourself came from beyond your own neighbourhood, and you liked how that felt."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "domain_readings.Wealth": "Your fortune has a passport: opportunity favors you away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time."
       }
     }
   },
@@ -135,6 +138,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_readings.Wealth",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

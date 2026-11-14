@@ -29,7 +29,7 @@
       "Career": "Professionally you are the specialist, the one called when the usual answers fail. The niche will pay what the mainstream never will, and your reputation compounds through solved unsolvables. Name your specialty publicly and let the strange work find you. It is already looking."
     },
     "life_chapter": "Your rising chapter runs underground: the years from adolescence through your thirties look quiet from outside while the real construction happens within. Late blooming is the design, and the strange knowledge gathered in this era becomes the authority of the next.",
-    "relations": "An unconventional teacher or guardian marks this seat’s people: care that arrived as instruction, or a mentor found off the official path. Expect your important guides to be odd ones. Trust the strange teachers. They were sent for you, and eventually you become one.",
+    "relations": "An unconventional teacher or guardian marks this seat’s people: care that arrived as instruction, or a mentor found off the official path. Your important guides tend to be odd ones. Trust the strange teachers. They were sent for you, and eventually you become one.",
     "turn_catalyst": "Run thin, the seat asks for study: claim one hour of deep reading daily and guard it like income.",
     "turn_friction": "Run heavy, thought eats action here: research becomes the errand that never ends. Ship one thing before the next book.",
     "shadow_line": "Overloaded, insight sours into suspicion: reading motives where there is only weather.",
@@ -67,6 +67,9 @@
       "retired_2026-11-14_rulings_round": {
         "domain_climb.Mind.lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them.",
         "domain_climb.Career.lived": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "relations": "An unconventional teacher or guardian marks this seat’s people: care that arrived as instruction, or a mentor found off the official path. Expect your important guides to be odd ones. Trust the strange teachers. They were sent for you, and eventually you become one."
       }
     }
   },
@@ -184,6 +187,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "relations",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

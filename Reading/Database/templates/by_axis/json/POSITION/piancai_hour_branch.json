@@ -21,10 +21,10 @@
     ],
     "defline": "The Horizon lives inside your Hour Gate: underneath your later years runs a wish to keep moving and keep meeting people.",
     "reading": "In later life you want plans on the calendar and people arriving from far away. Because new places and new company keep you lively, a quiet year weighs on you more than a busy one, and you spend on trips without much counting. Those who come after you, children or younger relatives or someone you train, pick up some of your restlessness as your family gathers in bursts. You count those gatherings as your real wealth, and you pay for most of them yourself.",
-    "teaser": "Your late years keep a wide horizon: travel, ventures, younger company. Fortune stays kind to you as long as something in your life stays in motion.",
+    "teaser": "Your late years keep a wide horizon: travel, ventures, younger company. Money comes more easily to you while something in your life stays in motion.",
     "domain_readings": {
       "Family": "Your late family scatters and gathers: children across distances, reunions in bursts, love maintained by journeys and full tables. Fund the gatherings without apology. They are the family’s true estate, and you were always going to be their patron.",
-      "Wealth": "Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your fortune always preferred."
+      "Wealth": "Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your money always preferred."
     },
     "life_chapter": "Your late chapter keeps a wide root: the last decades hold travel, ventures, scattered kin gathered in bursts, and a fortune that prefers motion to rest. Expect old age with a suitcase half-packed. The design suits you. Keep one journey always in planning.",
     "relations": "The scattered heirs are this seat’s people: children and grandchildren across distances, inheriting your range and possibly your restlessness. You hold the web by moving along it. Visit in rotation, host in seasons. The family stays whole because you circulate.",
@@ -66,6 +66,10 @@
         "domain_climb.Wealth.recognition": "You keep money in motion, in a late venture or a trip or help for someone younger with a plan. Because an untouched account feels wasted to you, you spend on movement and company before you think of reserves. Your savings grow slowly because so much of your money is always on its way somewhere.",
         "domain_climb.Wealth.lived": "Your money since your late forties has gone into travel, new projects and the plans of younger people more than into reserves. You have earned well from at least one late venture, and you have spent a good part of it on getting people together.",
         "domain_climb.Wealth.ahead": "Chances to earn keep reaching you from your late forties, through younger people or through a move. Your money stays lively in these years, and you sleep best when one part of it is never touched."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "teaser": "Your late years keep a wide horizon: travel, ventures, younger company. Fortune stays kind to you as long as something in your life stays in motion.",
+        "domain_readings.Wealth": "Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your fortune always preferred."
       }
     }
   },
@@ -168,6 +172,18 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "teaser",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
+    },
+    {
+      "field": "domain_readings.Wealth",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }

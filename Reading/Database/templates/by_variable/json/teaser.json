@@ -7,7 +7,7 @@
         "id": "bijian_year_stem",
         "key": "比肩在年干",
         "canonical_name": "The Twin at the Year Gate",
-        "value": "Independence was the family lesson, and you took it early. Expect a life where help arrives late and pride arrives first, and you manage anyway."
+        "value": "Independence was the family lesson, and you took it early. You still manage before you ask, so learn to say yes when help does come."
       },
       {
         "id": "bijian_year_branch",
@@ -49,7 +49,7 @@
         "id": "jiecai_year_stem",
         "key": "劫财在年干",
         "canonical_name": "The Rival at the Year Gate",
-        "value": "Daring runs in your bloodline and shows early. Money moves fast around you, in and out, so your fortune favors nerve backed by a ledger someone honest keeps."
+        "value": "Daring runs in your bloodline and shows early. Money moves fast around you, in and out, so back your nerve with a ledger someone honest keeps."
       },
       {
         "id": "jiecai_year_branch",
@@ -115,7 +115,7 @@
         "id": "shishen_day_branch",
         "key": "食神在日支",
         "canonical_name": "The Artisan inside the Day Gate",
-        "value": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep."
+        "value": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, so put your best effort into the home you two keep."
       },
       {
         "id": "shishen_hour_stem",
@@ -127,7 +127,7 @@
         "id": "shishen_hour_branch",
         "key": "食神在时支",
         "canonical_name": "The Artisan inside the Hour Gate",
-        "value": "Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays."
+        "value": "Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Keep a warm table and steady sleep, and company stays."
       },
       {
         "id": "shangguan_year_stem",
@@ -163,7 +163,7 @@
         "id": "shangguan_hour_stem",
         "key": "伤官在时干",
         "canonical_name": "The Virtuoso at the Hour Gate",
-        "value": "Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction."
+        "value": "Your late work will be your boldest, and the young will quote you. Those after you inherit your talent and your allergy to instruction, so teach by example."
       },
       {
         "id": "shangguan_hour_branch",
@@ -211,7 +211,7 @@
         "id": "piancai_hour_branch",
         "key": "偏财在时支",
         "canonical_name": "The Horizon inside the Hour Gate",
-        "value": "Your late years keep a wide horizon: travel, ventures, younger company. Fortune stays kind to you as long as something in your life stays in motion."
+        "value": "Your late years keep a wide horizon: travel, ventures, younger company. Money comes more easily to you while something in your life stays in motion."
       },
       {
         "id": "zhengcai_year_stem",
@@ -223,7 +223,7 @@
         "id": "zhengcai_year_branch",
         "key": "正财在年支",
         "canonical_name": "The Steward inside the Year Gate",
-        "value": "Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices."
+        "value": "Thrift is in your roots: a home that counted carefully and wasted little. Your savings compound the same way, quietly, and earlier than anyone notices."
       },
       {
         "id": "zhengcai_month_stem",
@@ -235,7 +235,7 @@
         "id": "zhengcai_month_branch",
         "key": "正财在月支",
         "canonical_name": "The Steward inside the Month Gate",
-        "value": "Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like and further than you expect."
+        "value": "Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like, so give it the years it needs."
       },
       {
         "id": "zhengcai_day_branch",
@@ -259,7 +259,7 @@
         "id": "qisha_year_stem",
         "key": "七杀在年干",
         "canonical_name": "The General at the Year Gate",
-        "value": "Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Expect authority to find you young and test you often."
+        "value": "Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Authority found you young and still tests you, so plan for it."
       },
       {
         "id": "qisha_year_branch",
@@ -295,7 +295,7 @@
         "id": "qisha_hour_branch",
         "key": "七杀在时支",
         "canonical_name": "The General inside the Hour Gate",
-        "value": "The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest."
+        "value": "The root of your late years is discipline that never quite retires. Standing and respect build, and so does the urge for one more campaign. Keep a gate for rest."
       },
       {
         "id": "zhengguan_year_stem",
@@ -403,7 +403,7 @@
         "id": "zhengyin_month_branch",
         "key": "正印在月支",
         "canonical_name": "The Sage inside the Month Gate",
-        "value": "Your prime is carried by learning: the deeper the study, the steadier the rise. Expect your name to rest on what you know, and to age well."
+        "value": "Your prime is carried by learning: the deeper the study, the steadier the rise. Let your name rest on what you know, and it ages well."
       },
       {
         "id": "zhengyin_day_branch",

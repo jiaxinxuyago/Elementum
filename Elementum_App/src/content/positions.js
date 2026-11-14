@@ -56,7 +56,7 @@ export const positionZh = (godHz, slot) => `${godHz}在${slot.zh}`;
 // The locked corpus ×70, keyed `${godId}_${slotId}`.
 export const POSITION_READINGS = {
   bijian_year_stem: {
-    teaser: 'Independence was the family lesson, and you took it early. Expect a life where help arrives late and pride arrives first, and you manage anyway.',
+    teaser: 'Independence was the family lesson, and you took it early. You still manage before you ask, so learn to say yes when help does come.',
     domains: ['Social', 'Family'],
     defline: 'The Twin stands at your Year Gate, in plain view: your family raised you to stand on your own.',
     reading: 'As a child you were noticed for being capable, and help at home was something you earned. Because managing alone won you approval early, people still meet that capable face first, and friends trust you to carry your share. Asking your family or anyone else for something has stayed the hardest thing you do, and you go without more often than the people around you guess.',
@@ -168,12 +168,12 @@ export const POSITION_READINGS = {
     health_line: 'Late health tracks companionship here: the tended body follows the tended bond. Walk with someone, and both outlast the actuary.',
   },
   jiecai_year_stem: {
-    teaser: 'Daring runs in your bloodline and shows early. Money moves fast around you, in and out, so your fortune favors nerve backed by a ledger someone honest keeps.',
+    teaser: 'Daring runs in your bloodline and shows early. Money moves fast around you, in and out, so back your nerve with a ledger someone honest keeps.',
     domains: ['Wealth', 'Social'],
     defline: 'The Rival stands at your Year Gate, in plain view: you grew up in a bold family where money moved fast.',
     reading: 'People who knew your first home remember its nerve and its charm, the way it won over a crowded table. Because boldness was praised at home, people warm to you quickly, and you act while others are still deciding. You learned to spend as fast as you earn, much of it on friends, and you feel uneasy holding on to money for long.',
     domain_readings: {
-      Wealth: 'Money entered your story moving: a childhood where fortunes shifted, generosity flowed, and nothing stayed in the vault long. You inherited the nerve and the leak together. Windfalls will find you socially all your life. Bank a fixed share of every one before the celebrating starts.',
+      Wealth: 'Money entered your story moving: a childhood where money shifted, generosity flowed, and nothing stayed in the vault long. You inherited the nerve and the leak together. Windfalls will find you socially all your life. Bank a fixed share of every one before the celebrating starts.',
       Social: 'You draw people the way bold things draw crowds: quickly, warmly, and in numbers. The charm is real currency, and it buys crowds of allies with a handful of anchors. Learn to tell the two apart early. Anchors hold when the weather turns. Crowds watch.',
     },
     life_chapter: 'Your early chapter ran on nerve: a family line of risk and generosity, fortunes in motion, a child who learned that boldness gets fed first. The daring you inherited opens doors patience never finds. The bookkeeping you did not inherit is the one skill worth adding.',
@@ -345,7 +345,7 @@ export const POSITION_READINGS = {
     health_line: 'Body and craft share one engine here: strain shows in the work before the mirror. When quality dips, prescribe sleep before practice.',
   },
   shishen_day_branch: {
-    teaser: 'You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep.',
+    teaser: 'You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, so put your best effort into the home you two keep.',
     domains: ['Love', 'Family', 'Health'],
     defline: 'The Artisan lives inside your Day Gate, the seat of your partner: your private life is built around comfort shared at home.',
     reading: 'You are happiest where food, rest and easy company are part of every day, and you choose a partner who enjoys them with you. Because ease makes you feel safe, you look after the people you live with through meals and small favours more than through words. Your relatives and friends end up at your table, and you give so much to the household that your own rest comes last.',
@@ -378,7 +378,7 @@ export const POSITION_READINGS = {
     health_line: 'Your late body stays kind if fed kindly: appetite is the gauge to watch. When it dims, rest before worrying. It usually only wants sleep.',
   },
   shishen_hour_branch: {
-    teaser: 'Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays.',
+    teaser: 'Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Keep a warm table and steady sleep, and company stays.',
     domains: ['Family', 'Health'],
     defline: 'The Artisan lives inside your Hour Gate: your later life settles into good food, deep sleep and people who keep coming back.',
     reading: 'In later life you get to enjoy the comfort you have worked for, and your home fills with younger people and long friendships. Because care has always meant a good meal and a warm bed to you, you keep feeding whoever comes, whether they are children or younger relatives or someone you train. Ease is both the reward of those years and their one risk, and you stay well for as long as your days keep a rhythm.',
@@ -474,7 +474,7 @@ export const POSITION_READINGS = {
     health_line: 'Your rest depends on the last conversation of the day: end evenings in warmth rather than open debate, and the body sleeps like it won.',
   },
   shangguan_hour_stem: {
-    teaser: 'Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction.',
+    teaser: 'Your late work will be your boldest, and the young will quote you. Those after you inherit your talent and your allergy to instruction, so teach by example.',
     domains: ['Career', 'Growth'],
     defline: 'The Virtuoso stands at your Hour Gate, in plain view: your later years are when people hear you most clearly.',
     reading: 'In later life you do your boldest work, at a point when most people expect you to ease off. Because saying the true thing matters more to you than a title, you speak more freely each year, and some who hold rank resent it. You keep changing while there is something new to learn. You pass your talent to the people after you, children or younger relatives or someone you train, along with your dislike of being told what to do.',
@@ -511,8 +511,8 @@ export const POSITION_READINGS = {
     defline: 'The Horizon stands at your Year Gate, in plain view: your first home spent openly on people and on chances.',
     reading: 'You grew up in a family that spent on guests, gifts and new plans, and everyone who visited could see it. Because money moved freely in the house you grew up in, you learned to spot a chance quickly and to hold cash loosely. That ease with risk has served you well, and you still give faster than you keep.',
     domain_readings: {
-      Wealth: 'Money entered your story as movement: a family that spent on people and chances, fortune arriving through doors rather than vaults. You inherited the nose for openings and the light grip. Keep one anchored account beyond charm’s reach. The rest genuinely belongs in play.',
-      Family: 'Your family line carries a generous gambler: a father figure or elder whose open hands taught you about range and its price. The family fortune moved, and so does yours. Honor the generosity by adding the one thing they skipped, the floor beneath it.',
+      Wealth: 'Money entered your story as movement: a family that spent on people and chances, money arriving through doors rather than vaults. You inherited the nose for openings and the light grip. Keep one anchored account beyond charm’s reach. The rest genuinely belongs in play.',
+      Family: 'Your family line carries a generous gambler: a father figure or elder whose open hands taught you about range and its price. The family’s money moved, and so does yours. Honor the generosity by adding the one thing they skipped, the floor beneath it.',
     },
     life_chapter: 'Your early chapter watched money move: generosity visible, fortunes fluid, opportunity treated as a family member. It gave you ease around risk that vault-raised people never learn. Expect openings to find you lifelong, and expect to need the anchor you were never handed.',
     relations: 'The open-handed elder is this seat’s person: a father or patron whose generosity, or its costly absence, taught you what open hands do. You repay the lesson by giving with structure. Provide the way they meant to. Deliberately.',
@@ -528,7 +528,7 @@ export const POSITION_READINGS = {
     reading: 'Someone in your family left home to look for something better, and you grew up hearing about it. Because moving was part of how your family got by, you feel most alive in unfamiliar places and most at rest when you come back. Your best chances with money come from far off, and you have always needed a fixed home to return to.',
     domain_readings: {
       Family: 'A wanderer sits in your roots: the relative who left, the migration that made the family, the restlessness passed down as inheritance. Your bonds stretch across distances and hold. Keep the far ones fed with visits and calls. Your family was built by journeys, and it maintains by them.',
-      Wealth: 'Your fortune has a passport: opportunity favors you away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time.',
+      Wealth: 'Your money has a passport: you find your openings away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time.',
     },
     life_chapter: 'Your early chapter planted the itch: somewhere in the roots, movement was survival or salvation, and it lives in you as a quiet pull toward elsewhere. Expect your best luck at a distance and your best rest at home. The design wants both. Alternate deliberately.',
     relations: 'The scattered kin are this seat’s people: family across cities or seas, bonds that survive distance because they were built by it. You are the connector between far points. Make the calls nobody else makes. The web holds because you do.',
@@ -581,7 +581,7 @@ export const POSITION_READINGS = {
       Wealth: 'Money moves through your intimate life: opportunities arriving via the partner, ventures shared across the pillow, windfalls with two names on them. It prospers with clean structure, shared goals, separate accounts, written agreements even in love. Romance handles the dreaming. Paperwork keeps the dream funded.',
     },
     life_chapter: 'Your home chapter, the marriage-and-household decades, is where range enters your life: the partner’s world widens yours, and adulthood keeps offering side doors. This era rewards saying yes to shared ventures, and the middle of your life will be its widest part.',
-    relations: 'The spouse and the father-line are this seat’s people: a partner with reach, and somewhere behind you a provider whose generosity or absence taught you about open hands. Expect in-laws with doors worth knocking on. Marry the network gladly. Audit it kindly.',
+    relations: 'The spouse and the father-line are this seat’s people: a partner with reach, and somewhere behind you a provider whose generosity or absence taught you about open hands. Your in-laws tend to have doors worth knocking on. Marry the network gladly. Audit it kindly.',
     turn_catalyst: 'Run thin, the seat wants circulation: accept the invitations for one season and let the household fill.',
     turn_friction: 'Run heavy, the open house drains: every guest a venture, every venture a guest. Close the doors one night a week.',
     shadow_line: 'Overloaded, charm at close range turns transactional: affection priced without anyone naming it.',
@@ -604,13 +604,13 @@ export const POSITION_READINGS = {
     health_line: 'Your late vitality feeds on novelty and company: new places, young voices, plans in the calendar. Stillness is the only ailment to dodge.',
   },
   piancai_hour_branch: {
-    teaser: 'Your late years keep a wide horizon: travel, ventures, younger company. Fortune stays kind to you as long as something in your life stays in motion.',
+    teaser: 'Your late years keep a wide horizon: travel, ventures, younger company. Money comes more easily to you while something in your life stays in motion.',
     domains: ['Family', 'Wealth'],
     defline: 'The Horizon lives inside your Hour Gate: underneath your later years runs a wish to keep moving and keep meeting people.',
     reading: 'In later life you want plans on the calendar and people arriving from far away. Because new places and new company keep you lively, a quiet year weighs on you more than a busy one, and you spend on trips without much counting. Those who come after you, children or younger relatives or someone you train, pick up some of your restlessness as your family gathers in bursts. You count those gatherings as your real wealth, and you pay for most of them yourself.',
     domain_readings: {
       Family: 'Your late family scatters and gathers: children across distances, reunions in bursts, love maintained by journeys and full tables. Fund the gatherings without apology. They are the family’s true estate, and you were always going to be their patron.',
-      Wealth: 'Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your fortune always preferred.',
+      Wealth: 'Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your money always preferred.',
     },
     life_chapter: 'Your late chapter keeps a wide root: the last decades hold travel, ventures, scattered kin gathered in bursts, and a fortune that prefers motion to rest. Expect old age with a suitcase half-packed. The design suits you. Keep one journey always in planning.',
     relations: 'The scattered heirs are this seat’s people: children and grandchildren across distances, inheriting your range and possibly your restlessness. You hold the web by moving along it. Visit in rotation, host in seasons. The family stays whole because you circulate.',
@@ -625,24 +625,24 @@ export const POSITION_READINGS = {
     defline: 'The Steward stands at your Year Gate, in plain view: your first home ran on care, counting and things kept.',
     reading: 'You grew up where money was spoken about plainly and spent with a plan, and that order was the first thing people saw in your family. Because care with money reached you as safety, you still feel calm when the accounts are in order and uneasy when they are not. You still run every budget on the habits you formed before sixteen, and they are why your savings grow when others stall.',
     domain_readings: {
-      Wealth: 'Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time.',
+      Wealth: 'Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your wealth is built like a wall, one considered brick at a time.',
       Family: 'Family, for you, is a well-run estate more than a stage: obligations met, elders honored, help that arrives as groceries and paid bills rather than speeches. You may become the family treasurer early. Accept the role, set its limits in writing, and it becomes an honor rather than a tax.',
     },
     life_chapter: 'Your early chapter ran on order: money named, chores real, promises kept in front of you. Whatever else childhood held, it taught account-keeping early, and the habits you formed before sixteen remain the quiet architecture of every budget you have balanced since.',
-    relations: 'Elders are this seat’s people: a provident parent or grandparent whose carefulness reached you as safety. Honor arrives through them, and duty flows back. Expect to be the relative others trust with arrangements, and let that trust stay a role rather than a debt.',
+    relations: 'Elders are this seat’s people: a provident parent or grandparent whose carefulness reached you as safety. Honor arrives through them, and duty flows back. You are the relative others trust with arrangements, so keep that trust a role rather than a debt.',
     turn_catalyst: 'Run thin, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit.',
     turn_friction: 'Run heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you.',
     shadow_line: 'Overloaded, prudence turns miserly here: joy postponed for a rainy day that never gets invited.',
     health_line: 'The body budgets like you do: it thrives on regular hours and resents sudden splurges of effort. Keep the routines honest and it keeps the books balanced.',
   },
   zhengcai_year_branch: {
-    teaser: 'Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices.',
+    teaser: 'Thrift is in your roots: a home that counted carefully and wasted little. Your savings compound the same way, quietly, and earlier than anyone notices.',
     domains: ['Family', 'Wealth'],
     defline: 'The Steward lives inside your Year Gate: underneath your first years lay a careful home where nothing was wasted.',
     reading: 'You took in your family\'s habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for a windfall. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years.',
     domain_readings: {
       Family: 'Your family root kept its word about money: a house that counted, saved, and never dramatized it. You inherited solvency as a temperament. Family remains your soundest network, help flowing reliably both ways. Keep the ledgers kind, and this root funds generations.',
-      Wealth: 'Your fortune compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning.',
+      Wealth: 'Your wealth compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning.',
     },
     life_chapter: 'Your early chapter was quietly provisioned: a childhood of counted carefully and enough, where money had manners and promises held. The solvency you absorbed before understanding it remains your deepest asset. Expect stability to follow you the way it furnished those first years.',
     relations: 'The careful keepers are this seat’s people: the parent or grandparent who saved without saying so, whose thrift was a love letter read decades later. You honor them by keeping the habit warm. Add the enjoying they postponed. Complete the lesson for them.',
@@ -658,7 +658,7 @@ export const POSITION_READINGS = {
     reading: 'You are handed the budget, the accounts and the jobs that need order in every place you work. Because being relied on is how you prove your worth, you take on other people\'s messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used.',
     domain_readings: {
       Career: 'The working world trusts you with the keys and should: budgets balance near you, chaos organizes, value stays kept. Stewardship roles pay you in rank and in reputation, and the reputation compounds longer. Charge properly for reliability. It is a premium service wearing modest clothes.',
-      Wealth: 'Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is the fortune.',
+      Wealth: 'Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is what pays.',
     },
     life_chapter: 'Your rising chapter earns trust first and money second: the prime decades hand you stewardship, then keys, then titles, in that order. Expect advancement that looks slow yearly and remarkable by decade. The era pays your reliability compound interest. Collect it without apology.',
     relations: 'Employers and dependents are this seat’s people: the bosses who hand you the books, the colleagues whose messes you quietly order. Being trusted is your social position. Invoice it occasionally, in raises, in titles, in first pick. Trust unpriced becomes furniture.',
@@ -668,7 +668,7 @@ export const POSITION_READINGS = {
     health_line: 'Your body runs on the same schedule as your money: steady deposits, rare withdrawals. Keep the sleep regular and it stays solvent.',
   },
   zhengcai_month_branch: {
-    teaser: 'Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like and further than you expect.',
+    teaser: 'Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like, so give it the years it needs.',
     domains: ['Career', 'Wealth'],
     defline: 'The Steward lives inside your Month Gate: your working years rest on steady effort and money you have plainly earned.',
     reading: 'You want to build something that lasts, a skill kept up and savings that grow each year. Because you trust only what you have earned yourself, you turn down quick gains that would ask you to become someone else. Your progress at work looks slow at first and surprises people later. The cost is a tight grip, and you take less pleasure in what you have built than it could give you.',
@@ -733,7 +733,7 @@ export const POSITION_READINGS = {
     health_line: 'Your late body keeps what you maintained: steady walks, kept appointments, honest portions. It ages like a well-serviced engine, gradually and without drama.',
   },
   qisha_year_stem: {
-    teaser: 'Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Expect authority to find you young and test you often.',
+    teaser: 'Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Authority found you young and still tests you, so plan for it.',
     domains: ['Social', 'Career'],
     defline: 'The General stands at your Year Gate, in plain view: from childhood people saw you as someone strong under pressure.',
     reading: 'Your early life carried pressure that others could see, a demanding home or a tough school or a name you had to defend. Because you were tested young and in public, people learned to respect you early, and authority came to you sooner than to your friends. That start made you hard to push around, and you still take the measure of every new group or job before you settle into it.',
@@ -831,7 +831,7 @@ export const POSITION_READINGS = {
     health_line: 'Your late strength is real and it hoards tension: the guard duty never quite ends in the body. Put the armor down nightly, with ceremony if needed.',
   },
   qisha_hour_branch: {
-    teaser: 'The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest.',
+    teaser: 'The root of your late years is discipline that never quite retires. Standing and respect build, and so does the urge for one more campaign. Keep a gate for rest.',
     domains: ['Health', 'Family', 'Growth'],
     defline: 'The General lives inside your Hour Gate: your later years keep a private discipline that never quite stops.',
     reading: 'In later life you keep habits others let slip, the early start and the standard kept. Because being strong is how you feel safe, you push on past the point where others would ease off, and rest comes hard to you. The younger ones in your life, children or younger relatives or someone you train, feel protected by you more than held. You grow each time you take on something hard, and your strength holds because you use it.',
@@ -1021,7 +1021,7 @@ export const POSITION_READINGS = {
       Career: 'Professionally you are the specialist, the one called when the usual answers fail. The niche will pay what the mainstream never will, and your reputation compounds through solved unsolvables. Name your specialty publicly and let the strange work find you. It is already looking.',
     },
     life_chapter: 'Your rising chapter runs underground: the years from adolescence through your thirties look quiet from outside while the real construction happens within. Late blooming is the design, and the strange knowledge gathered in this era becomes the authority of the next.',
-    relations: 'An unconventional teacher or guardian marks this seat’s people: care that arrived as instruction, or a mentor found off the official path. Expect your important guides to be odd ones. Trust the strange teachers. They were sent for you, and eventually you become one.',
+    relations: 'An unconventional teacher or guardian marks this seat’s people: care that arrived as instruction, or a mentor found off the official path. Your important guides tend to be odd ones. Trust the strange teachers. They were sent for you, and eventually you become one.',
     turn_catalyst: 'Run thin, the seat asks for study: claim one hour of deep reading daily and guard it like income.',
     turn_friction: 'Run heavy, thought eats action here: research becomes the errand that never ends. Ship one thing before the next book.',
     shadow_line: 'Overloaded, insight sours into suspicion: reading motives where there is only weather.',
@@ -1128,7 +1128,7 @@ export const POSITION_READINGS = {
     health_line: 'Your steadiness spends real energy: holding the calm for others draws on your reserves. Refill in solitude and study, your original medicines.',
   },
   zhengyin_month_branch: {
-    teaser: 'Your prime is carried by learning: the deeper the study, the steadier the rise. Expect your name to rest on what you know, and to age well.',
+    teaser: 'Your prime is carried by learning: the deeper the study, the steadier the rise. Let your name rest on what you know, and it ages well.',
     domains: ['Mind', 'Career', 'Growth'],
     defline: 'The Sage holds your strongest seat, inside your Month Gate: your working years are carried by steady learning.',
     reading: 'You keep studying long after the people around you have stopped, and what you know sits under everything you do. Because learning is how you feel safe, you prepare thoroughly for every step, and you wait to feel ready before you put yourself forward at work. Your ability has outrun your confidence for years, and the people who taught you saw it before you did. You grow at your own careful pace, and you are usually the last to see how far you have come.',

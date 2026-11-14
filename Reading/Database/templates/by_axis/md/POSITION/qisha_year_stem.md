@@ -25,7 +25,7 @@
 | `domains` | Social · Career |
 | `defline` | The General stands at your Year Gate, in plain view: from childhood people saw you as someone strong under pressure. |
 | `reading` | Your early life carried pressure that others could see, a demanding home or a tough school or a name you had to defend. Because you were tested young and in public, people learned to respect you early, and authority came to you sooner than to your friends. That start made you hard to push around, and you still take the measure of every new group or job before you settle into it. |
-| `teaser` | Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Expect authority to find you young and test you often. |
+| `teaser` | Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Authority found you young and still tests you, so plan for it. |
 | `domain_readings.Social` | Your social world sorts by respect: people either match your intensity or orbit it, and both arrangements work. You entered every group as a force and learned diplomacy later, if at all. Keep two peers who push back. Command without friction forgets its own weight. |
 | `domain_readings.Career` | Authority found you young, first as weight, then as rank: careers with stakes keep finding you, and you keep converting them. The early pressure became your qualification. Choose arenas worth the armor. You will wear it either way, so aim it. |
 | `life_chapter` | Your early chapter carried visible weight: a demanding house, a hard start, a name that needed defending, and everyone could see you carrying it. The carrying built you in public. Expect tests to keep arriving early in every new arena, and promotions to follow them. |
@@ -54,3 +54,4 @@
 | `retired_2026-11-14_rulings_round.domain_climb.Career.headline` | Authority found you early and kept finding you. |
 | `retired_2026-11-14_rulings_round.domain_climb.Career.recognition` | You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months. |
 | `retired_2026-11-14_rulings_round.domain_climb.Career.lived` | Responsibility beyond your age came to you before you were grown, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends. |
+| `retired_2026-11-14_p0_wording.teaser` | Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Expect authority to find you young and test you often. |

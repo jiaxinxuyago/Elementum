@@ -21,7 +21,7 @@
     ],
     "defline": "The Artisan lives inside your Hour Gate: your later life settles into good food, deep sleep and people who keep coming back.",
     "reading": "In later life you get to enjoy the comfort you have worked for, and your home fills with younger people and long friendships. Because care has always meant a good meal and a warm bed to you, you keep feeding whoever comes, whether they are children or younger relatives or someone you train. Ease is both the reward of those years and their one risk, and you stay well for as long as your days keep a rhythm.",
-    "teaser": "Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays.",
+    "teaser": "Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Keep a warm table and steady sleep, and company stays.",
     "domain_readings": {
       "Family": "Your late family gathers by scent: whoever you feed becomes kin, and the kitchen stays the family’s true address. Chosen family counts fully here. Keep hosting past the point that seems sensible. The people you feed become the people who tend you, at astonishing exchange rates.",
       "Health": "Ease deepens into your bones with age: sleep improves, appetite steadies, comfort finally guiltless. Your late health asks mostly for rhythm and company. Eat with people whenever you can manage it. Solitary meals age you faster than birthdays do."
@@ -63,6 +63,9 @@
         "domain_climb.Family.ahead": "From your late forties the people after you gather at your table more each year. The care you have given starts to come back to you in these years, and you are looked after by those you once fed.",
         "domain_climb.Health.recognition": "You look after your body through regular meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it stretches into a slow month before you notice. Your health depends more on company than on effort, and you feel the difference within days when you eat alone.",
         "domain_climb.Health.ahead": "Your body settles into an easy routine from your late forties, with good sleep and steady appetite and company at meals. These years suit your body unusually well, and you stay strong in them while there are people around you."
+      },
+      "retired_2026-11-14_p0_wording": {
+        "teaser": "Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays."
       }
     }
   },
@@ -145,6 +148,12 @@
       "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
       "date": "2026-11-14",
       "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "teaser",
+      "adopted_from": "session_0157BD3MBKbov3jAMoKYj2nT (Domains), P0 wording pass",
+      "date": "2026-11-14",
+      "ruling": "owner PR1 A (2026-11-05), priority list #2 P0: no fate or forecast wording (BIZ_07 pillar 3, PL2 A); dispatched 2026-11-14"
     }
   ]
 }
