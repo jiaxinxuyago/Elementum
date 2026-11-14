@@ -1,0 +1,239 @@
+{
+ "units": [
+  {
+   "kind": "push",
+   "key": "PUSH · mark.birthday",
+   "text": "Your birthday opens a new year today. Read your year."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.decade",
+   "text": "A different season of your life begins this year. Read your year.",
+   "note": "YR-6 proposal kept 'today' as the exact start, which the owner rule bars. Says 'this year' instead, and avoids 'ten-year' because the headline now carries it."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.gate",
+   "text": "The next ten years of your life take shape this year. Read your year.",
+   "note": "R2-18 proposal said 'begins today', which claims an exact start. No 'gate', no 'today'."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.month",
+   "text": "The month changes today. Read your month."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.year",
+   "text": "The new year opens today. Read your year."
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.birthday",
+   "text": "Today starts your next year of age. You carry the last one into it, what it taught you and what it cost."
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.decade",
+   "text": "Your next long cycle begins around this birthday and runs until the following one takes over. The years inside it each read against this new backdrop for you.",
+   "note": "YR-7 applied: 'around this birthday', no 'luck'. 'ten-year' left to the headline so the word does not repeat on the page."
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.gate",
+   "text": "Around this time of year, one ten-year stretch of your life gives way to the next. A fresh part of you comes into its own, carrying the years behind you.",
+   "note": "No finding on the text itself, but it claimed 'this birthday' as the exact start of the ten-year stage, which the owner rule bars."
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.month",
+   "text": "The solar month turns today, and a different energy takes over from the last. The first days show which of your habits still suit the change.",
+   "note": "R1-m7 proposal still said 'new month'. Reworded so the page does not say it three times."
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.year",
+   "text": "A new year opens today, and its energy runs until next February. The turn reaches you before you can name it."
+  },
+  {
+   "kind": "pillar",
+   "key": "TEMPLATED tpl_almanac · pillar.return",
+   "text": "Today repeats your birth day in the sixty-day count, as it does six times a year. What you began two months back comes up for a second look.",
+   "note": "R1-m4 proposal ran 32 words; trimmed to 28."
+  },
+  {
+   "kind": "pillar",
+   "key": "TEMPLATED tpl_almanac · pillar.turned",
+   "text": "Today turns your own day over, its stem against yours and its branch striking your Day Gate. A settled matter at home is questioned, and the answering falls to you."
+  },
+  {
+   "kind": "star",
+   "key": "STAR taohua · day",
+   "text": "Attraction is strong today, and people notice you more than usual. Glances and easy talk find you, along with attention you did not ask for."
+  },
+  {
+   "kind": "star",
+   "key": "STAR tiande · day",
+   "text": "Tense moments today arrive with less weight, and harsh words land more gently. That lasts only while you keep your own tone mild.",
+   "note": "R2-15 proposal kept 'The day asks little of your nerves', which names no cost or condition (AP4). Close now names a condition."
+  },
+  {
+   "kind": "star",
+   "key": "STAR tianyi · day",
+   "text": "Help comes from someone with standing, an elder or a near stranger who owes you nothing. The price is your pride, which you set aside to accept it.",
+   "note": "Gerund-it-cost frame (R1-M3) recast with the cost as subject."
+  },
+  {
+   "kind": "star",
+   "key": "STAR yima · day",
+   "text": "The day moves you, with travel, an errand across town or a change of place. Your plans stretch to fit the distance."
+  },
+  {
+   "kind": "star",
+   "key": "STAR yuede · day",
+   "text": "A setback today carries something useful inside it. Reaching it takes your work, not luck."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.day",
+   "text": "Plans at home change suddenly today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.month",
+   "text": "A settled plan at work comes loose today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.year",
+   "text": "Something in your first home shifts today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.day",
+   "text": "An old friction at home returns today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.month",
+   "text": "The same complaint at work returns today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.year",
+   "text": "An old family argument resurfaces today. Read your day."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.year",
+   "text": "an older relative's remark hurts",
+   "note": "R1-m1 proposal 'lands wrong' repeats the landing's own words, and 'stings' is spent by harm.day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · return",
+   "text": "The day you were born on repeats today. Read your day.",
+   "note": "R1-m6 applied in new wording, so it does not open like the pillar line ('Today repeats your')."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · turned",
+   "text": "Something settled at home gets questioned today. Read your day."
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.body.release",
+   "text": "{el} makes you dig in"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.frame.day",
+   "text": "a home matter gathers force",
+   "note": "Takes YR-3 (no settled outcome); 'pulls together' and 'pulls the same way' read as a result and echo the landing."
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.presses",
+   "text": "Under it runs {g}, which the {e} shapes. The two bear down on you as one steady pressure."
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.drains",
+   "text": "Under it runs {g}, which the {e} feeds. Part of its force drains away before it gets to you."
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.matches",
+   "text": "Under it runs more {g}. You take it at full strength."
+  },
+  {
+   "kind": "ground",
+   "key": "TEMPLATED tpl_almanac · ground.feeds",
+   "text": "Under it runs {g}, which feeds the {e}. It keeps that energy strong on you from start to finish.",
+   "note": "R2-05 proposal said 'from morning to night', which is wrong on month and year pages."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.month",
+   "text": "a work alliance takes shape",
+   "note": "Neither 'deal' (absent from the day landing) nor 'a stalled task moves' (settles it) fits both pages; this names what arrives."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.hour",
+   "text": "a long plan loops back"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.tiande",
+   "text": "the day's edges soften",
+   "note": "R2-15 proposal repeated the star line's words on the same page."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.yuede",
+   "text": "a hard turn has its uses",
+   "note": "R2-16 proposal repeated the star line ('A setback ... something useful')."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.hour",
+   "text": "Something you set for later shifts today. Read your day."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Career.helping",
+   "text": "Your best pitch|a cautious suggestion"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Mind.heavy",
+   "text": "A decision made on time|endless review"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.hour",
+   "text": "An old sticking point with someone younger returns. Read your day."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Health.helping",
+   "text": "Unhurried meals at the table|eating on the run"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Family.heavy",
+   "text": "Splitting the housework|doing it all"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.decade",
+   "text": "a new ten-year chapter starts"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.month",
+   "text": "Clearing a backlog|a fresh brief"
+  }
+ ]
+}

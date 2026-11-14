@@ -1,0 +1,194 @@
+{
+ "units": [
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.even.a",
+   "text": "{el} brings Action, a share of work that suits your chart. Effort and earnings balance today, while no job takes more from you than it returns."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.even.b",
+   "text": "{el} brings Action, an even measure your chart carries without strain. Jobs arrive one by one today, and each pays back in step with your effort."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.grow.a",
+   "text": "{el} brings Action, a push your chart welcomes. Your effort travels further than it did yesterday, while each task wants a little more of your drive."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.grow.b",
+   "text": "{el} brings Action, more of an energy that serves your chart. Useful work turns up today, though the choice of where your effort goes is yours."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.heavy.a",
+   "text": "{el} brings Action, an energy your chart does better without. Offers and demands stack up past what you can handle, as each one takes strength you need elsewhere."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.heavy.b",
+   "text": "{el} brings Action, more effort and drive than your chart can use. Every gain costs more of your strength today than it gives back."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.need.a",
+   "text": "{el} brings Action, an energy your chart runs short of. A chance to earn or to go further appears today, and the strength to chase it has to come from you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.need.b",
+   "text": "{el} brings Action, the drive your chart wants. Ways to earn show up today, though each one waits on your first move."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_even.a",
+   "text": "{el} brings more Body, your own energy, to a chart that stands in balance. It adds a firm push without tipping you over, while your pace stays your own."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_even.b",
+   "text": "{el} brings more Body, a measure of strength that fits you well. Nothing pulls you off centre today, as your effort matches each task you meet."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_over.a",
+   "text": "{el} brings more Body, your own energy, when your chart does better without it. You push harder than the hours call for, at a cost to your stamina."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_over.b",
+   "text": "{el} brings more Body, the energy you are made of, when it weighs on you. You take on more than your share, while the people near you carry the extra load."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_under.a",
+   "text": "{el} brings more Body, fresh strength for a chart that runs thin. Stamina builds in stages through the hours, though each exchange puts your resolve to a test."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_under.b",
+   "text": "{el} brings more Body, an energy your chart runs low on. A tired will finds new strength today, while every encounter tests how firmly you stand your ground."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.even.a",
+   "text": "{el} brings Expression, a gentle measure that suits you. You talk and make things at your usual pace today, while nothing pushes you to say more."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.even.b",
+   "text": "{el} brings Expression, at a level that neither lifts nor tires you. Conversation moves easily today, and your voice works without effort."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.grow.a",
+   "text": "{el} brings Expression, an outlet that does your chart good. Your hands and words work fast today, while something worth showing begins to form."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.grow.b",
+   "text": "{el} brings Expression, a gift your chart is glad of. Jokes and sketches come quickly today, though only you decide which ones to share."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.heavy.a",
+   "text": "{el} brings Expression, an outlet your chart does better without. Words leave you before you weigh them, while a careless remark costs you some goodwill."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.heavy.b",
+   "text": "{el} brings Expression, more output than your chart can use. Chatter and small chores claim your energy today, a little at a time."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.need.a",
+   "text": "{el} brings Expression, an outlet your chart runs short of. Something you make or say today looks for a listener, though only you can let it out."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.need.b",
+   "text": "{el} brings Expression, a voice your chart wants. Words come easily today, while what you have held back pushes to be said."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.even.a",
+   "text": "{el} brings Mind, an energy that rests lightly on your chart. Thought stays clear and ordinary today, while you learn at your normal speed."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.even.b",
+   "text": "{el} brings Mind, neither more than you need nor less. A calm hour comes and goes without fuss, while your attention stays your own."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.grow.a",
+   "text": "{el} brings Mind, a support that strengthens your chart. A question you have carried opens up today, though its answer takes patience from you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.grow.b",
+   "text": "{el} brings Mind, backing that builds you up. Reading and study come easily today, though what you take in needs your full attention."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.heavy.a",
+   "text": "{el} brings Mind, a support that weighs on your chart today. Thoughts circle without landing, while the hours you meant for doing slip past you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.heavy.b",
+   "text": "{el} brings Mind, more thought than your chart can use. Plans stay on paper today, as you think a step past where thinking helps."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.need.a",
+   "text": "{el} brings Mind, a support your chart runs short of. A clear thought or a kind word comes your way today, and taking it in is up to you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.need.b",
+   "text": "{el} brings Mind, the energy that nourishes you and one your chart wants. Someone backs you unprompted today, while your thoughts gain firmer footing."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.even.a",
+   "text": "{el} brings Order, a mild dose of structure your chart takes calmly. The hours hold their form without strain, while requests come to you at a sensible rate."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.even.b",
+   "text": "{el} brings Order, an even pull that neither tightens nor loosens you. Rules stay in the background today, and they take little of your attention."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.grow.a",
+   "text": "{el} brings Order, structure your chart puts to good use. One firm request or clear rule sets your course today, though carrying it out falls to you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.grow.b",
+   "text": "{el} brings Order, a discipline your chart benefits from. A standard you hold yourself to gets checked today, and the care behind your work has to show."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.heavy.a",
+   "text": "{el} brings Order, a strain your chart would sooner be spared. Demands arrive from several sides at once, and each one wants an answer from you first."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.heavy.b",
+   "text": "{el} brings Order, more weight than your chart wants. A deadline tightens or a rule bites, and the same result takes more of your effort."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.need.a",
+   "text": "{el} brings Order, a structure your chart runs short of. It lends your strength a clear line today, though finishing what you start is down to you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.need.b",
+   "text": "{el} brings Order, an energy your chart wants. Rules and deadlines put a frame around your effort today, while each task waits for you to see it through."
+  }
+ ]
+}

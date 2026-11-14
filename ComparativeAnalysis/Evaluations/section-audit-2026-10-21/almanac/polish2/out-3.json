@@ -1,0 +1,268 @@
+{
+ "units": [
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.day",
+   "text": "A small plan with a partner or the people you live with takes shape today. Your evening at home is spoken for, before the errands you had lined up.",
+   "note": "proposal used \"ahead of\" (banned); recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.hour",
+   "text": "Someone younger seeks you out today, for help or simply to be near you. A plan for later firms up as well, and it asks for your word."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.month",
+   "text": "Work pulls together today, and a colleague comes over to your side of a task. By afternoon a stalled job is moving again, at a pace you have to match."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.year",
+   "text": "Someone from the home you grew up in gets in touch, with a message, a visit or an old family joke. An hour of your day goes to the reply, as does a little of your guard."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.day",
+   "text": "A plan at home changes at short notice, with a partner or whoever you live with. You give up the evening you had set aside."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.hour",
+   "text": "Something you promised for later gets pushed back, a visit with someone younger or a step in a long project. The delay costs you a piece of their trust and your own timetable."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.month",
+   "text": "A plan you settled at work comes loose, and someone asks you to defend it. Time and patience you had meant for other tasks go into making your case.",
+   "note": "proposals open s2 on a gerund (AP2); cost moved to the subject"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.year",
+   "text": "News from the family you grew up in changes an arrangement without warning, a visit moved or a date dropped. The rearranging takes a slice of your day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.day",
+   "text": "Home gathers strength, with a partner or the people you live with pulling the same way. Shared chores call for every pair of hands, your own included."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.hour",
+   "text": "Younger people take up your ideas, and an aim for the years to come picks up speed. Something you set going earlier now asks for your steering."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.month",
+   "text": "Momentum builds at work, and people line up behind a task you care about. Out in front, you give it more hours than you meant to."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.year",
+   "text": "Relatives from your first home come together in person or by message, and old ties pull tight again. Much of their planning lands on you, with a share of the work attached."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.day",
+   "text": "A look or a tone of yours is taken the wrong way, by a partner or whoever you live with. The evening loses some of its ease while the doubt sits with you."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.hour",
+   "text": "A young person you spend time with goes quiet, or a plan for later loses a little of its shine. The shift is easy to miss, and catching it costs you time you meant for yourself.",
+   "note": "proposal repeats headline \"someone younger\" and states a feeling; recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.month",
+   "text": "A colleague hears a word of yours as a slight, and the air at work cools a little. A plain conversation you would rather skip is the price of clearing it."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.year",
+   "text": "A family remark lands wrong, though nobody meant it unkindly. The hurt runs larger than the words, and the day gives you no quick way to set it down.",
+   "note": "proposal repeats headline \"older relative\"; recast opener"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.day",
+   "text": "The usual argument comes round again with whoever you live with, or a chore refuses to stay done. Another evening goes to it, along with some of your patience."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.hour",
+   "text": "A younger person breaks the same rule again, or a plan for later sticks at its usual snag. You have to find your calm twice over."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.month",
+   "text": "Friction at work returns, the same complaint from the same quarter as before. Hours you had set for something fresh drain into the old answer."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.year",
+   "text": "An old disagreement from your first home stirs again, over the same small point as before. It wears down a patience you had saved for other things.",
+   "note": "proposal keeps the gerund opener (AP2); recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.day",
+   "text": "The same talk over dinner turns up again, or a small habit at home that never changes. You spend an evening on the rerun, and the choice of what to keep falls to you."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.hour",
+   "text": "Something meant for later comes back in nearly its first form, or a young person puts the same question twice. Your answer costs you time, and it has to be clearer than the last one.",
+   "note": "proposal opens on a gerund and repeats the headline \"plan\"; recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.month",
+   "text": "Work brings back a task you thought was finished, or a meeting that covers familiar points. The same steps take fresh hours, while your newer work waits behind them."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.year",
+   "text": "Your family tells a familiar tale once more, the way it always does. One part of it now points back at you, and hearing it costs you some of your calm."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.day",
+   "text": "The ties at home tighten this month, around a shared plan with a partner or the people you live with. Each evening asks for a little more of your time and care.",
+   "note": "proposal \"comes together\" settles the outcome (AP4); recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.hour",
+   "text": "Bonds with the people after you deepen this month, a child, a younger relative or someone you train. Small gestures of care pass between you, and they ask for your time in return."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.month",
+   "text": "An agreement with a colleague or a client ties your work closer to theirs this month. Its terms want your care week by week.",
+   "note": "proposal opens s2 on a gerund (AP2); recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.year",
+   "text": "The family you grew up in pulls you in this month, through visits, old recipes or a shared decision. Their claims on your time grow along with the closeness."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.day",
+   "text": "Your home life is shaken up this month, in the furniture, the plans or the shape of a shared week. Old habits with the people closest to you stop working, and new ones cost you effort to build."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.hour",
+   "text": "Long projects come apart and take new shapes this month, while the young people around you change course. Some hopes you counted on are lost along the way, and tracking the rest takes your attention."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.month",
+   "text": "A role or a routine at work gives way this month and has to be rebuilt in a new shape. The rebuilding costs you weeks of steady footing."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.year",
+   "text": "Something settled in the family you grew up in shifts this month, a role among siblings or who looks after whom. Your old place moves under you, and the new one is not yet clear."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.day",
+   "text": "Life at home gains strength this month, with a partner or the people you live with backing the same plan. Over the weeks, your share of the work behind it grows."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.hour",
+   "text": "Things you mean to build gather support this month, as young people around you bring fresh energy to them. Demands on your time grow as a long project takes on weight.",
+   "note": "proposal keeps \"Plans for later\", the headline words; recast opener"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.month",
+   "text": "Work builds speed this month, with new people joining and tasks falling into place. The momentum adds to your load beyond what you had planned."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.year",
+   "text": "Your wider family pulls together this month around an event or a shared need. Their call on your strength comes often, and answering it fills your weekends."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.day",
+   "text": "Little misreadings gather at home this month, with a partner or the people you live with. Each one is small, though together they wear on your evenings."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.hour",
+   "text": "This month a quiet gap opens between you and someone you teach or look after. Words do little to close it, and it asks for your time instead."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.month",
+   "text": "Small slights pile up at work this month, a credit not given or a message left unread. With each one, keeping your own record straight costs you some calm."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.year",
+   "text": "A coolness creeps into the family you grew up in this month, from a word taken badly or a call left unreturned. The distance costs you some of the warmth between you and them.",
+   "note": "proposal \"usually find with them\" claims a history; recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.day",
+   "text": "An old sore point at home keeps returning this month, usually over who does what. Each round eats into your patience, and the weeks give little rest between them."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.hour",
+   "text": "A long plan keeps catching on the same problem this month, while someone younger pushes against your rules. You lose some calm each time you hold your line.",
+   "note": "proposal opens s2 on a gerund (AP2); recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.month",
+   "text": "The same friction at work keeps coming back all month, a process that jams or a rule nobody likes. Week after week, your effort goes into the way round it."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.year",
+   "text": "A family grievance from years back stays alive through this month, raised at each visit or call. Every mention reopens it, and its weight stays with you in between."
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.day",
+   "text": "The day lands on the same gate the month presses, while your home carries both loads at once.",
+   "note": "dropped \"already\" (AP3 spirit)"
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.hour",
+   "text": "Your plans for later and the young people near you carry the month's pull and the day's at once, on the same gate."
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.month",
+   "text": "The pressure the month has put on your work comes to a head today, because the day lands on the same gate."
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.year",
+   "text": "The month's strain on the family you grew up in meets the day's, and the two fall on you together.",
+   "note": "proposal uses \", so\" (banned); recast"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.quiet",
+   "text": "No bond at your gates is strong enough to lead this time. The energy above sets the tone of what you meet, at the pace it chooses."
+  },
+  {
+   "kind": "void",
+   "key": "TEMPLATED tpl_almanac · land.void",
+   "text": "The day falls in your Void, a gap in your chart that opens two days in every twelve. Anything you begin today rests on thin ground and needs checking.",
+   "note": "proposal uses \", so\" and \"ahead of\" (both banned); recast"
+  }
+ ]
+}
