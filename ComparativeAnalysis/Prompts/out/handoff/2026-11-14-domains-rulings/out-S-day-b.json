@@ -1,0 +1,319 @@
+{
+ "units": [
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:bijian_day_branch.Social",
+   "family": "headline",
+   "text": "Your friends are few, level and loyal."
+  },
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_day_branch.Social",
+   "family": "recognition",
+   "text": "Your closest friends are the few you would let into your home, people who stand level with you. Because an equal footing is what keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle and can say why each person in it is there."
+  },
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:bijian_day_branch.Social",
+   "family": "seatbeat",
+   "text": "Your closest friendships so far have been between equals, people who never needed you to rescue them. You have kept every friendship level, with nothing owed in either direction."
+  },
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Social.ahead",
+   "kind": "ahead",
+   "page": "seat:bijian_day_branch.Social",
+   "family": "seatbeat",
+   "text": "From your mid-thirties your circle narrows to a few people who meet you and a partner as equals and run lives of their own. By your forties you see fewer people than ever and trust each of them more."
+  },
+  {
+   "key": "POSITION bijian_day_branch · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:bijian_day_branch.Social",
+   "family": "seatbeat",
+   "text": "In your late thirties and forties your closest friendships were between equals, people who never needed you to rescue them. You kept every friendship level, with nothing owed in either direction."
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_day_branch.Wealth",
+   "family": "headline",
+   "text": "Your money at home is shared, and contested."
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_day_branch.Wealth",
+   "family": "recognition",
+   "text": "You treat money in a relationship as a shared pot, and you give freely when a partner wants something. Because sharing and competing feel like one thing to you, you match every gift and every bill, and the arguments arrive later. You are calmest about money when your share and theirs are kept apart, a split you seldom manage."
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_day_branch.Wealth",
+   "family": "seatbeat",
+   "text": "Each home you have shared so far has run a quiet contest over money, over who earned more and who spent it faster. Your money has swung between generous seasons and tight ones, because you won those contests by giving more than your share."
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Wealth.ahead",
+   "kind": "ahead",
+   "page": "seat:jiecai_day_branch.Wealth",
+   "family": "seatbeat",
+   "text": "From your mid-thirties money and love run together in your household, and you and a partner race each other to bring more in. You earn well from the contest, and the quarrels ease once the two of you agree on the split."
+  },
+  {
+   "key": "POSITION jiecai_day_branch · domain_climb.Wealth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:jiecai_day_branch.Wealth",
+   "family": "seatbeat",
+   "text": "In your late thirties and forties each home you shared ran a quiet contest over money, over who earned more and who spent it faster. Your money swung between generous seasons and tight ones, because you won those contests by giving more than your share."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Social.headline",
+   "kind": "headline",
+   "page": "seat:piancai_day_branch.Social",
+   "family": "headline",
+   "text": "Your friends come with plans."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Social.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_day_branch.Social",
+   "family": "recognition",
+   "text": "You collect friends who are going somewhere, the ones with a trip planned and a contact for everything. Because range is what draws you, you lose touch with friends whose lives stay small, and you feel guilty about it only later. You know a great many people, and you let only a few of them close."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Social.lived",
+   "kind": "lived",
+   "page": "seat:piancai_day_branch.Social",
+   "family": "seatbeat",
+   "text": "Most of your friendships so far have begun as an invitation into someone else's circle, on a trip or after a move to a new place. You have kept some of those circles longer than you kept the people who brought you in."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Social.ahead",
+   "kind": "ahead",
+   "page": "seat:piancai_day_branch.Social",
+   "family": "seatbeat",
+   "text": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. In your forties you know more people through a partner's side than through your own."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Social.lived_past",
+   "kind": "lived_past",
+   "page": "seat:piancai_day_branch.Social",
+   "family": "seatbeat",
+   "text": "In your late thirties and forties most of your friendships began as an invitation into someone else's circle, on a trip or after a move to a new place. You kept some of those circles longer than you kept the people who brought you in."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:piancai_day_branch.Wealth",
+   "family": "headline",
+   "text": "Your money comes through the people close to you."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_day_branch.Wealth",
+   "family": "recognition",
+   "text": "You find money through other people, in a tip from a friend or a side venture with someone close. Because your openings arrive through people you trust, you say yes before you read the terms, and you earn in bursts more than in a steady line. The money you make fastest is the money you hold on to least."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:piancai_day_branch.Wealth",
+   "family": "seatbeat",
+   "text": "Your best money moments so far came through someone else, a tip or a job offer or a deal brought to you by a friend. You lost money the same way, on ventures you joined on trust, yet the net of people who bring you chances has only widened."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Wealth.ahead",
+   "kind": "ahead",
+   "page": "seat:piancai_day_branch.Wealth",
+   "family": "seatbeat",
+   "text": "From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you see the part with no clear owner slip away."
+  },
+  {
+   "key": "POSITION piancai_day_branch · domain_climb.Wealth.lived_past",
+   "kind": "lived_past",
+   "page": "seat:piancai_day_branch.Wealth",
+   "family": "seatbeat",
+   "text": "In your late thirties and forties your best money came through someone else, a tip or a job offer or a deal a friend brought you. You lost money the same way, on ventures you joined on trust, yet the net of people who brought you chances only widened."
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_day_branch.Mind",
+   "family": "headline",
+   "text": "You think alone and speak once you are sure."
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_day_branch.Mind",
+   "family": "recognition",
+   "text": "For days you turn a problem over in private before you say a word about it, and you say it only once you have an answer. Because a half-formed thought feels unsafe to you, the people closest to you hear your conclusions without the reasoning. You let a partner further into your thinking than anyone, and even they see only part of it."
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_day_branch.Mind",
+   "family": "seatbeat",
+   "text": "Your clearest thinking so far has happened alone with a subject, late at night or on long walks away from the people you live with. From those hours you have built a command of one unusual field that nobody at home can follow."
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Mind.ahead",
+   "kind": "ahead",
+   "page": "seat:pianyin_day_branch.Mind",
+   "family": "seatbeat",
+   "text": "From your mid-thirties your thinking deepens and turns toward a single subject you have circled for years. You share more of the work in progress with a partner in these years, and the work gets better for it."
+  },
+  {
+   "key": "POSITION pianyin_day_branch · domain_climb.Mind.lived_past",
+   "kind": "lived_past",
+   "page": "seat:pianyin_day_branch.Mind",
+   "family": "seatbeat",
+   "text": "In your late thirties and forties your clearest thinking happened alone with a subject, late at night or on long walks away from the people you lived with. From those hours you built a command of one unusual field that nobody at home could follow."
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:qisha_day_branch.Health",
+   "family": "headline",
+   "text": "Your body grows strong under hard tests."
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_day_branch.Health",
+   "family": "recognition",
+   "text": "You feel best in the weeks your body is pushed hard, by training, by heavy work or by a goal with real stakes. Because you meet pressure by bracing against it, a long strain at home goes into your sleep before you admit it is there. You recover within days once the fight is over."
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:qisha_day_branch.Health",
+   "family": "seatbeat",
+   "text": "Your strongest stretches so far have been the hard ones, when home and work both tested you and you held up on nerve and short sleep. You have come out of each test tougher and with a clear sense of how much you can carry."
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Health.ahead",
+   "kind": "ahead",
+   "page": "seat:qisha_day_branch.Health",
+   "family": "seatbeat",
+   "text": "From your mid-thirties a partner who pushes as hard as you do keeps you fit, and a house full of fights wears you out. You are at your strongest in these years whenever the two of you pull in the same direction."
+  },
+  {
+   "key": "POSITION qisha_day_branch · domain_climb.Health.lived_past",
+   "kind": "lived_past",
+   "page": "seat:qisha_day_branch.Health",
+   "family": "seatbeat",
+   "text": "In your late thirties and forties your strongest stretches were the hard ones, when home and work both tested you and you held up on nerve and short sleep. You came out of each test tougher and with a clear sense of how much you could carry."
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_day_branch.Mind",
+   "family": "headline",
+   "text": "Your mind is sharpest in conversation with someone close."
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_day_branch.Mind",
+   "family": "recognition",
+   "text": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give a partner your best ideas first and your harshest opinions with them."
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_day_branch.Mind",
+   "family": "seatbeat",
+   "text": "Your best thinking so far has been done in argument, in late talks at home where every point you made was questioned. You have changed your mind only for a partner who argued better, and those talks have given you the sharpest voice in any group."
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Mind.ahead",
+   "kind": "ahead",
+   "page": "seat:shangguan_day_branch.Mind",
+   "family": "seatbeat",
+   "text": "Your thinking grows bolder from your mid-thirties, and the arguments you have at home turn into work you show in public. You become known in these years for ideas first tried on a partner, and you say them more kindly than you once did."
+  },
+  {
+   "key": "POSITION shangguan_day_branch · domain_climb.Mind.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shangguan_day_branch.Mind",
+   "family": "seatbeat",
+   "text": "In your late thirties and forties your best thinking was done in argument, in late talks at home where every point you made was questioned. You changed your mind only for a partner who argued better, and those talks gave you the sharpest voice in any group."
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:shishen_day_branch.Health",
+   "family": "headline",
+   "text": "Your body stays well on good food and rest."
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_day_branch.Health",
+   "family": "recognition",
+   "text": "Your health runs on appetite and ease, and you are at your best in the seasons when meals at home are long and evenings are slow. Because pleasure is how your body recovers, a tense month with a partner shows first in how little you enjoy your food. You recover through ordinary comfort, a shared meal and an early night."
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:shishen_day_branch.Health",
+   "family": "seatbeat",
+   "text": "So far your energy has risen in the years your household ate well together and dipped in the years everyone ate on the run. You have come back to yourself each time through a slow week of home cooking and rest."
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Health.ahead",
+   "kind": "ahead",
+   "page": "seat:shishen_day_branch.Health",
+   "family": "seatbeat",
+   "text": "From your mid-thirties your health settles around the table you share with a partner, around food you make and evenings with nothing planned. You stay well in the fullest of these years because you take the time to enjoy them."
+  },
+  {
+   "key": "POSITION shishen_day_branch · domain_climb.Health.lived_past",
+   "kind": "lived_past",
+   "page": "seat:shishen_day_branch.Health",
+   "family": "seatbeat",
+   "text": "In your late thirties and forties your energy rose in the years your household ate well together and dipped in the years everyone ate on the run. You came back to yourself each time through a slow week of home cooking and rest."
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_day_branch.Health",
+   "family": "headline",
+   "text": "Being looked after keeps you strong."
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_day_branch.Health",
+   "family": "recognition",
+   "text": "You sleep well and eat well when someone at home takes care of you, and both slip in the weeks you are left to cope alone. Because being cared for is how your body settles, you get over a hard stretch fastest with a partner close by. You are strongest in the seasons you feel most looked after."
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_day_branch.Health",
+   "family": "seatbeat",
+   "text": "Through the hard stretches so far, the person who checked on you and kept the house running did more for your health than any plan you made. You have learned to accept that care without apology and to give it back in kind."
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Health.ahead",
+   "kind": "ahead",
+   "page": "seat:zhengyin_day_branch.Health",
+   "family": "seatbeat",
+   "text": "From your mid-thirties the care at home runs both ways, and looking after a partner steadies you as surely as being looked after. You feel better in your forties than you have in years, held up by the support you give as much as the support you get."
+  },
+  {
+   "key": "POSITION zhengyin_day_branch · domain_climb.Health.lived_past",
+   "kind": "lived_past",
+   "page": "seat:zhengyin_day_branch.Health",
+   "family": "seatbeat",
+   "text": "Through the hard stretches of your late thirties and forties, the person who checked on you and kept the house running did more for your health than any plan you made. You learned to accept that care without apology and to give it back in kind."
+  }
+ ]
+}

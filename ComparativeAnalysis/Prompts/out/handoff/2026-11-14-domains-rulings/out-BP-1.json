@@ -1,0 +1,466 @@
+{
+ "units": [
+  {
+   "key": "STRUCTURE zhengguan_ge · reading",
+   "kind": "structure",
+   "page": "structure:zhengguan_ge",
+   "family": "structure",
+   "text": "Your chart is built around duty kept and a role held in public. You do best inside a clear order, with a title and terms written down. You keep your word long after others have bent theirs."
+  },
+  {
+   "key": "STRUCTURE zhengguan_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:zhengguan_ge",
+   "family": "status",
+   "text": "Order runs in your favour, and the duties that land on you come with standing attached. You can lean on your good name, because people take your word before they check it."
+  },
+  {
+   "key": "STRUCTURE zhengguan_ge · status.formed.cured",
+   "kind": "status",
+   "page": "structure:zhengguan_ge",
+   "family": "status",
+   "text": "Something in your chart pulls against the order you keep, and the same chart already answers it. You feel the friction in your role, yet your standing holds through it."
+  },
+  {
+   "key": "STRUCTURE zhengguan_ge · status.broken.virtuoso",
+   "kind": "status",
+   "page": "structure:zhengguan_ge",
+   "family": "status",
+   "text": "A sharp voice in your own chart argues with the rules above you, and nothing holds it back. You lose roles over what you say upward, but work judged by results carries you."
+  },
+  {
+   "key": "STRUCTURE zhengguan_ge · status.strained.virtuoso",
+   "kind": "status",
+   "page": "structure:zhengguan_ge",
+   "family": "status",
+   "text": "Part of you keeps correcting the people who set the rules, and each sharp remark puts your role on trial. Your standing holds, but you spend goodwill winning back what one sentence cost."
+  },
+  {
+   "key": "STRUCTURE zhengguan_ge · status.strained.mixed",
+   "kind": "status",
+   "page": "structure:zhengguan_ge",
+   "family": "status",
+   "text": "Two kinds of authority press on you at once, a rule that wants compliance and a push that wants proof. You switch between asking for ground and taking it, and the credit goes elsewhere."
+  },
+  {
+   "key": "STRUCTURE zhengguan_ge · status.strained.heavy",
+   "kind": "status",
+   "page": "structure:zhengguan_ge",
+   "family": "status",
+   "text": "Your roles weigh more than the strength you bring to them, and each new duty lands before the last is done. You meet every commitment by spending strength you needed for yourself."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · reading",
+   "kind": "structure",
+   "page": "structure:qisha_ge",
+   "family": "structure",
+   "text": "Your chart answers to pressure, the hard test and the person who pushes back. You rise when the risk is real and the deadline is close. In the thick of a fight, you are at your steadiest."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "The pressure in your chart has a handle on it, and each hard test turns into proof of what you can do. You can lean on your nerve when the stakes climb."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.formed.cured",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "Something in your chart turns the pressure up, and your chart already carries what tempers it. You still meet hard tests, but each one arrives with its answer close by."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.strained.mixed",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "Polite rules and raw pressure reach you together, pulling your effort two ways at once. Your force splits between asking permission and taking ground, and neither move lands with its whole weight."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.broken.money",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "Money in your chart feeds the General, and each gain arrives with a harder demand attached. You come through by choosing which gains to carry, since nothing else holds the pressure back."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.strained.money",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "Earnings and pressure rise together in your chart, and a better offer comes bundled with a harder test. You stay on top of it, but the gain buys you less rest than you hoped."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.broken.unchecked",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "The General bears down with nothing to check it, and more is asked of you than one person can carry. You get through on the allies beside you, each hard stretch leaving you tougher."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.strained.unchecked",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "Nothing in your chart softens the General, and every demand reaches you at full force. You bear it, paying in rest and goodwill for meeting each fight head on."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.strained.heavy",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "The pressure on you outweighs the strength you have to meet it, and the tests come faster than you recover. You hold your ground, though each round takes longer to shake off."
+  },
+  {
+   "key": "STRUCTURE qisha_ge · status.strained.alchemist",
+   "kind": "status",
+   "page": "structure:qisha_ge",
+   "family": "status",
+   "text": "Overthinking cuts into the practical streak that keeps your pressure in check, and tests you could answer by acting wait while you deliberate. You meet them in the end, after carrying each one too long."
+  },
+  {
+   "key": "STRUCTURE zhengcai_ge · reading",
+   "kind": "structure",
+   "page": "structure:zhengcai_ge",
+   "family": "structure",
+   "text": "Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one."
+  },
+  {
+   "key": "STRUCTURE zhengcai_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:zhengcai_ge",
+   "family": "status",
+   "text": "Earned money comes in on time and stays long enough to build on. You can count on steady pay for steady work, without anyone reaching for it."
+  },
+  {
+   "key": "STRUCTURE zhengcai_ge · status.formed.cured",
+   "kind": "status",
+   "page": "structure:zhengcai_ge",
+   "family": "status",
+   "text": "Something in your chart reaches for what you earn, and the same chart already guards it. You feel the pull on your money, yet what you have built stays put."
+  },
+  {
+   "key": "STRUCTURE zhengcai_ge · status.strained.heavywealth",
+   "kind": "status",
+   "page": "structure:zhengcai_ge",
+   "family": "status",
+   "text": "There is more to earn and manage than your strength can carry, and keeping it all in order wears you thin. You own more than you have the strength to tend."
+  },
+  {
+   "key": "STRUCTURE zhengcai_ge · status.broken.peers",
+   "kind": "status",
+   "page": "structure:zhengcai_ge",
+   "family": "status",
+   "text": "Equals reach the money you put by with nothing in your chart to stop them, and it leaves through friends and shared plans. You come through on steady earning, refilling the store as it empties."
+  },
+  {
+   "key": "STRUCTURE zhengcai_ge · status.strained.peers",
+   "kind": "status",
+   "page": "structure:zhengcai_ge",
+   "family": "status",
+   "text": "The {breakers} {stand} close to your {gods}, and equals keep drawing on what you earn. You hold most of it, though every loan and shared bill takes its piece."
+  },
+  {
+   "key": "STRUCTURE zhengcai_ge · status.strained.general",
+   "kind": "status",
+   "page": "structure:zhengcai_ge",
+   "family": "status",
+   "text": "Steady pay in your chart arrives with pressure riding on it, and each raise brings a harder demand from above. You keep earning, but the money comes with tests you did not ask for."
+  },
+  {
+   "key": "STRUCTURE piancai_ge · reading",
+   "kind": "structure",
+   "page": "structure:piancai_ge",
+   "family": "structure",
+   "text": "Your chart runs on range, money that moves and openings that arrive through side doors. You do best with several things in play at once, a deal here and a contact there. You earn most where you are free to roam."
+  },
+  {
+   "key": "STRUCTURE piancai_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:piancai_ge",
+   "family": "status",
+   "text": "Chances reach you from well outside your usual circle, and the deals you strike in passing pay out. You can lean on your range, because a new contact turns up whenever an old one closes."
+  },
+  {
+   "key": "STRUCTURE piancai_ge · status.formed.cured",
+   "kind": "status",
+   "page": "structure:piancai_ge",
+   "family": "status",
+   "text": "Something in your chart pulls at the deals you chase, and the same chart already answers the pull. You keep your reach wide, and what comes through a side door stays yours."
+  },
+  {
+   "key": "STRUCTURE piancai_ge · status.strained.heavywealth",
+   "kind": "status",
+   "page": "structure:piancai_ge",
+   "family": "status",
+   "text": "More chances reach you than your strength can follow up, and deals you opened stall half done. You spread yourself across every opening, and none gets the weight it needs."
+  },
+  {
+   "key": "STRUCTURE piancai_ge · status.broken.peers",
+   "kind": "status",
+   "page": "structure:piancai_ge",
+   "family": "status",
+   "text": "Equals crowd every deal you open with nothing to hold them back, and each windfall is spoken for before it lands. You come through on range, finding the next opening before the last one empties."
+  },
+  {
+   "key": "STRUCTURE piancai_ge · status.strained.peers",
+   "kind": "status",
+   "page": "structure:piancai_ge",
+   "family": "status",
+   "text": "The {breakers} {stand} close to your {gods}, and friends join every venture you find. You still find the chances, though each one is thinner by the time it reaches you."
+  },
+  {
+   "key": "STRUCTURE piancai_ge · status.strained.general",
+   "kind": "status",
+   "page": "structure:piancai_ge",
+   "family": "status",
+   "text": "Every opening you take arrives with pressure attached, and the bigger the deal the harder the test behind it. You keep moving, but each windfall carries a test you never chose."
+  },
+  {
+   "key": "STRUCTURE zhengyin_ge · reading",
+   "kind": "structure",
+   "page": "structure:zhengyin_ge",
+   "family": "structure",
+   "text": "Your chart rests on shelter and learning, on teachers who back you and places that look after their own. You do your best work where study is valued and someone senior vouches for you. You repay that care with years of loyalty."
+  },
+  {
+   "key": "STRUCTURE zhengyin_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:zhengyin_ge",
+   "family": "status",
+   "text": "Support holds steady around you, from teachers, credentials and people who speak up for you. You can lean on what you have learned, and on the people who taught you, whenever a setback comes."
+  },
+  {
+   "key": "STRUCTURE zhengyin_ge · status.formed.cured",
+   "kind": "status",
+   "page": "structure:zhengyin_ge",
+   "family": "status",
+   "text": "Something in your chart wears at the support behind you, and the same chart already mends it. You feel the pull on your study, but your backing holds."
+  },
+  {
+   "key": "STRUCTURE zhengyin_ge · status.strained.excess",
+   "kind": "status",
+   "page": "structure:zhengyin_ge",
+   "family": "status",
+   "text": "More support and study surround you than you can put to use, and preparing keeps standing in for doing. You stay well looked after and underused, ready for work you could already do."
+  },
+  {
+   "key": "STRUCTURE zhengyin_ge · status.strained.money",
+   "kind": "status",
+   "page": "structure:zhengyin_ge",
+   "family": "status",
+   "text": "Money pulls at your learning, and study keeps losing out to whatever pays this month. You trade mentors and courses for earnings, while the shelter behind you wears thinner."
+  },
+  {
+   "key": "STRUCTURE pianyin_ge · reading",
+   "kind": "structure",
+   "page": "structure:pianyin_ge",
+   "family": "structure",
+   "text": "At the centre of your chart sits private study, the unusual knowledge few people around you share. You are at your best in a niche of your own, on a problem nobody else can read. You rely on what you worked out more than on what you were taught."
+  },
+  {
+   "key": "STRUCTURE pianyin_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:pianyin_ge",
+   "family": "status",
+   "text": "Your unusual mind has somewhere to work, and the odd angle you take on a problem keeps paying off. You can lean on your intuition and on a method nobody handed you."
+  },
+  {
+   "key": "STRUCTURE pianyin_ge · status.formed.cured",
+   "kind": "status",
+   "page": "structure:pianyin_ge",
+   "family": "status",
+   "text": "Something in your chart pulls your mind off its own subject, and your chart already pulls it back. You keep the strange angle that makes your thinking yours."
+  },
+  {
+   "key": "STRUCTURE pianyin_ge · status.strained.excess",
+   "kind": "status",
+   "page": "structure:pianyin_ge",
+   "family": "status",
+   "text": "More private thinking fills your days than you can turn into anything. You go deeper into a niche than anyone can follow, alone with ideas nobody asks to see."
+  },
+  {
+   "key": "STRUCTURE pianyin_ge · status.strained.money",
+   "kind": "status",
+   "page": "structure:pianyin_ge",
+   "family": "status",
+   "text": "Money tugs at your private study, and the subject only you understand gives way to whatever pays. You set the puzzle aside for paid work, and it sits untouched a little longer each time."
+  },
+  {
+   "key": "STRUCTURE pianyin_ge · status.strained.starved",
+   "kind": "status",
+   "page": "structure:pianyin_ge",
+   "family": "status",
+   "text": "The Alchemist eats into the part of you that finishes things and enjoys them, and second thoughts take the work before it is made. You know far more than you have ever shown."
+  },
+  {
+   "key": "STRUCTURE shishen_ge · reading",
+   "kind": "structure",
+   "page": "structure:shishen_ge",
+   "family": "structure",
+   "text": "Your chart grows out of ease and appetite, the pleasure of making something well and sharing it. You thrive at your own pace on work you enjoy. What you make with a light hand is what people come back for."
+  },
+  {
+   "key": "STRUCTURE shishen_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:shishen_ge",
+   "family": "status",
+   "text": "Your ease has somewhere to go, and what you make reaches people without getting stuck on the way. You can lean on the pleasure you take in the work, since people can taste it."
+  },
+  {
+   "key": "STRUCTURE shishen_ge · status.formed.cured",
+   "kind": "status",
+   "page": "structure:shishen_ge",
+   "family": "status",
+   "text": "Something in your chart eats into your ease, and the same chart already feeds it back. You lose an afternoon here and there, but the making goes on."
+  },
+  {
+   "key": "STRUCTURE shishen_ge · status.broken.alchemist",
+   "kind": "status",
+   "page": "structure:shishen_ge",
+   "family": "status",
+   "text": "Second thoughts crowd out your appetite for making, and what you mean to make stays unmade while you study it. What you learn meanwhile carries you, and it becomes work few others can do."
+  },
+  {
+   "key": "STRUCTURE shishen_ge · status.strained.alchemist",
+   "kind": "status",
+   "page": "structure:shishen_ge",
+   "family": "status",
+   "text": "Overthinking nibbles at your ease, and finished pieces wait on one more round of doubt. You still make things, but the pleasure thins with each revision."
+  },
+  {
+   "key": "STRUCTURE shishen_ge · status.strained.drained",
+   "kind": "status",
+   "page": "structure:shishen_ge",
+   "family": "status",
+   "text": "More goes out of you than your strength can feed, in hosting, making and giving. You cook for everyone and come to your own rest last."
+  },
+  {
+   "key": "STRUCTURE shangguan_ge · reading",
+   "kind": "structure",
+   "page": "structure:shangguan_ge",
+   "family": "structure",
+   "text": "Your chart turns on a sharp voice and a talent that refuses to sit quietly. You shine where you are judged on what you can do, on a stage or under your own name. When nobody stands over you, you do your finest work."
+  },
+  {
+   "key": "STRUCTURE shangguan_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:shangguan_ge",
+   "family": "status",
+   "text": "Your voice carries, and your talent opens doors on its own merits. You can lean on being good at what you do, because people pay for it whatever they think of your tone."
+  },
+  {
+   "key": "STRUCTURE shangguan_ge · status.formed.cured",
+   "kind": "status",
+   "page": "structure:shangguan_ge",
+   "family": "status",
+   "text": "Something in your chart pushes back against your voice, and the same chart already answers it. You keep your edge without paying for every sharp remark."
+  },
+  {
+   "key": "STRUCTURE shangguan_ge · status.broken.magistrate",
+   "kind": "status",
+   "page": "structure:shangguan_ge",
+   "family": "status",
+   "text": "Every rule above you turns into an argument nothing softens, and the people in charge hear your sharpest lines. You get through on talent people pay for outside any chain of command."
+  },
+  {
+   "key": "STRUCTURE shangguan_ge · status.strained.magistrate",
+   "kind": "status",
+   "page": "structure:shangguan_ge",
+   "family": "status",
+   "text": "Rules press on your voice at work, and each sharp correction you hold back costs you something. You keep your place, though you bite your tongue more than you would like."
+  },
+  {
+   "key": "STRUCTURE shangguan_ge · status.strained.excess",
+   "kind": "status",
+   "page": "structure:shangguan_ge",
+   "family": "status",
+   "text": "Caution and study crowd your voice, and the sharp thing you would say turns into a note you never send. Your best lines stay in drafts, while the talent behind them waits for a stage."
+  },
+  {
+   "key": "STRUCTURE shangguan_ge · status.strained.drained",
+   "kind": "status",
+   "page": "structure:shangguan_ge",
+   "family": "status",
+   "text": "Every stage and every argument gets your full voice, more than your strength can feed. You perform at full tilt and pay for it in the quiet days after."
+  },
+  {
+   "key": "STRUCTURE jianlu_ge · reading",
+   "kind": "structure",
+   "page": "structure:jianlu_ge",
+   "family": "structure",
+   "text": "Your chart takes its shape from your own strength, with little handed down and most things built by hand. You do best where effort is paid to you directly. You are proudest of what you made with nobody's help."
+  },
+  {
+   "key": "STRUCTURE jianlu_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:jianlu_ge",
+   "family": "status",
+   "text": "Your strength is your own, and you finish what you start without waiting for anyone. You can lean on yourself and on equals who work side by side with you."
+  },
+  {
+   "key": "STRUCTURE jianlu_ge · status.strained.unchecked",
+   "kind": "status",
+   "page": "structure:jianlu_ge",
+   "family": "status",
+   "text": "Hard pressure lands on you with nothing in your chart to temper it. You meet each test alone, refusing help you could have taken."
+  },
+  {
+   "key": "STRUCTURE jianlu_ge · status.strained.idle",
+   "kind": "status",
+   "page": "structure:jianlu_ge",
+   "family": "status",
+   "text": "Your strength has nothing to work on, no task or prize or person to answer to. You spend it on restless plans of your own, getting back less than you put in."
+  },
+  {
+   "key": "STRUCTURE yuejie_ge · reading",
+   "kind": "structure",
+   "page": "structure:yuejie_ge",
+   "family": "structure",
+   "text": "Your chart centres on the Rival, on equals who compete with you and share in whatever you have. You work hardest in a team where everyone can see the score. You win more in an open contest than in a quiet deal."
+  },
+  {
+   "key": "STRUCTURE yuejie_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:yuejie_ge",
+   "family": "status",
+   "text": "Your will to win has a fair field, and what you share with friends comes back to you through them. You can lean on a crew that races you and backs you in equal measure."
+  },
+  {
+   "key": "STRUCTURE yuejie_ge · status.strained.unchecked",
+   "kind": "status",
+   "page": "structure:yuejie_ge",
+   "family": "status",
+   "text": "Pressure comes at you with nothing in your chart to check it, and every rivalry becomes a test of nerve. You keep winning, but each win is bought with strength you needed elsewhere."
+  },
+  {
+   "key": "STRUCTURE yuejie_ge · status.strained.idle",
+   "kind": "status",
+   "page": "structure:yuejie_ge",
+   "family": "status",
+   "text": "Your competitive streak has no real prize in front of it, and it turns on friends and small contests instead. You win games that do not matter while the real prize goes unclaimed."
+  },
+  {
+   "key": "STRUCTURE yueren_ge · reading",
+   "kind": "structure",
+   "page": "structure:yueren_ge",
+   "family": "structure",
+   "text": "Everything in your chart gathers around the Rival, a hard and competitive will that does not back down. You do best against a real opponent or under strict discipline, and that edge earns its keep when you have something to guard."
+  },
+  {
+   "key": "STRUCTURE yueren_ge · status.formed.none",
+   "kind": "status",
+   "page": "structure:yueren_ge",
+   "family": "status",
+   "text": "Your hard edge is held in check, and your refusal to yield works for you rather than against you. You can count on your nerve whenever something of yours needs guarding."
+  },
+  {
+   "key": "STRUCTURE yueren_ge · status.strained.idle",
+   "kind": "status",
+   "page": "structure:yueren_ge",
+   "family": "status",
+   "text": "Your edge has nothing to guard and no real opponent to face, and it turns on the people closest to you. You win arguments with friends and come away with nothing you wanted."
+  }
+ ]
+}

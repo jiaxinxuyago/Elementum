@@ -1,0 +1,487 @@
+{
+ "units": [
+  {
+   "key": "POSITION bijian_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:bijian_year_branch.Family",
+   "family": "headline",
+   "text": "You meet your family as an equal."
+  },
+  {
+   "key": "POSITION bijian_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_year_branch.Family",
+   "family": "recognition",
+   "text": "You stand level with your relatives, present and practical and never fussy. Because closeness in your first years came from standing side by side, you show tenderness late and mostly through what you do. You turn up to fix a family problem before anyone asks, saying little about what you feel."
+  },
+  {
+   "key": "POSITION bijian_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:bijian_year_branch.Family",
+   "family": "seatbeat",
+   "text": "In your first home you grew up beside another child who stood level with you, and the two of you handled most things together. Long before fifteen you settled your own quarrels, and the adults were the last to hear of them."
+  },
+  {
+   "key": "POSITION bijian_year_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:bijian_year_branch.Growth",
+   "family": "headline",
+   "text": "You grow from trusting yourself first."
+  },
+  {
+   "key": "POSITION bijian_year_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:bijian_year_branch.Growth",
+   "family": "recognition",
+   "text": "Every skill you have began with deciding that you could do it. Because you learned early to depend on yourself, nobody can push you into learning, and you take instruction only from someone you have chosen. You pick things up fastest with one equal working beside you, a peer you have let that close."
+  },
+  {
+   "key": "POSITION bijian_year_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:bijian_year_branch.Growth",
+   "family": "seatbeat",
+   "text": "From your first years you taught yourself what the adults around you had not shown you, and you kept quiet about how hard it was. You came into your teens with a stubborn way of learning, on your own terms and at your own pace."
+  },
+  {
+   "key": "POSITION jiecai_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_year_branch.Family",
+   "family": "headline",
+   "text": "What is yours is also your family's."
+  },
+  {
+   "key": "POSITION jiecai_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_year_branch.Family",
+   "family": "recognition",
+   "text": "You treat family as people with a natural claim on your time, your space and your money. Because sharing was how your first home held together, refusing a relative feels like disloyalty to you. You give without fuss, though privately you keep score of who takes the most."
+  },
+  {
+   "key": "POSITION jiecai_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_year_branch.Family",
+   "family": "seatbeat",
+   "text": "Your first home shared out its clothes, its space and its attention among several children, and you learned early to claim your part. By your teens you could win a share and hand it straight back, knowing exactly who had taken more."
+  },
+  {
+   "key": "POSITION jiecai_year_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:jiecai_year_branch.Wealth",
+   "family": "headline",
+   "text": "You give money easily and keep track of it."
+  },
+  {
+   "key": "POSITION jiecai_year_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:jiecai_year_branch.Wealth",
+   "family": "recognition",
+   "text": "You lend to family before you have finished saving for yourself, and you rarely ask for it back. Because money at home was always pooled, a private account feels slightly selfish to you. Your own money grows slowly while the family's claims stay open, leaving you generous and short at once."
+  },
+  {
+   "key": "POSITION jiecai_year_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:jiecai_year_branch.Wealth",
+   "family": "seatbeat",
+   "text": "Growing up you watched money pass from hand to hand around the family, and little of it was written down. By fifteen you had given away more than you could spare, and you knew which relatives paid back."
+  },
+  {
+   "key": "POSITION piancai_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:piancai_year_branch.Family",
+   "family": "headline",
+   "text": "Your family holds together across distance."
+  },
+  {
+   "key": "POSITION piancai_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_year_branch.Family",
+   "family": "recognition",
+   "text": "You keep close ties with relatives who live far away, and you are the one who calls first. Because distance was ordinary when you were growing up, a long absence never feels to you like a break in love. You are the link between relatives who would otherwise lose touch."
+  },
+  {
+   "key": "POSITION piancai_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:piancai_year_branch.Family",
+   "family": "seatbeat",
+   "text": "Through your first years your family lived far apart, and visits and calls did the work of living close. You grew up able to go months without seeing a relative and come back as close as before."
+  },
+  {
+   "key": "POSITION piancai_year_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:piancai_year_branch.Wealth",
+   "family": "headline",
+   "text": "Your chances with money grow the further you go."
+  },
+  {
+   "key": "POSITION piancai_year_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:piancai_year_branch.Wealth",
+   "family": "recognition",
+   "text": "You find your best chances away from home, in a new city or an unfamiliar market or among people you have just met. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place."
+  },
+  {
+   "key": "POSITION piancai_year_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:piancai_year_branch.Wealth",
+   "family": "seatbeat",
+   "text": "When you were young the family's money came from moving, from work taken far off and trade that travelled. You looked past your own streets for every chance to earn, and a coin from a distance pleased you more than one from next door."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_year_branch.Family",
+   "family": "headline",
+   "text": "You love your family in an unusual way."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_year_branch.Family",
+   "family": "recognition",
+   "text": "You show love to your family through ideas and help with problems more than through surface warmth. Because the care you got early was quiet and odd, you trust a relative who understands you over one who fusses, and you feel lonely at noisy gatherings. You come home as the quiet one, a part your relatives have long stopped trying to change."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_year_branch.Family",
+   "family": "seatbeat",
+   "text": "In your first home an adult who lived in their own head gave you books, questions and long silences in place of the usual fuss. What you took from it was the habit of answering your own questions before you thought to ask anyone else."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Mind.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_year_branch.Mind",
+   "family": "headline",
+   "text": "Your mind runs on what you find out alone."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Mind.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_year_branch.Mind",
+   "family": "recognition",
+   "text": "You learn best alone, from books and odd sources and your own testing, at a pace no class has ever matched. Because nobody handed you a set path, you trust the understanding you dig out yourself, and you forget what you were simply told. You know a great deal that you have never shown anyone."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Mind.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_year_branch.Mind",
+   "family": "seatbeat",
+   "text": "Whatever you were given to read when you were small, you read past it into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you mentioned it only to the one or two people who asked."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:pianyin_year_branch.Growth",
+   "family": "headline",
+   "text": "Your growth takes the odd route, never the set one."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:pianyin_year_branch.Growth",
+   "family": "recognition",
+   "text": "You grow fastest through unusual people and unplanned turns, the odd expert or the subject you stumble on. Because the standard routes never fitted how you learn, you find them dull and leave them early. You grow in your own order, and others notice only when it is done."
+  },
+  {
+   "key": "POSITION pianyin_year_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:pianyin_year_branch.Growth",
+   "family": "seatbeat",
+   "text": "The people who taught you most as a child stood outside the usual line, the neighbour or relative with odd interests who took you seriously. You grew in directions your family could not follow, and stopped expecting them to before you were fifteen."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:qisha_year_branch.Family",
+   "family": "headline",
+   "text": "You carry more for your family than anyone knows."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_year_branch.Family",
+   "family": "recognition",
+   "text": "At home you fight your family's battles, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. You are the strength your family leans on, though you have told few of them what it took to build."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:qisha_year_branch.Family",
+   "family": "seatbeat",
+   "text": "Through your first years at home you carried a weight few people saw, hard stretches and heavy demands and worries beyond your age. By your teens you were the one your family turned to in a hard week, and you held firm without being asked."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:qisha_year_branch.Growth",
+   "family": "headline",
+   "text": "Hard years are the ones that grow you."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_year_branch.Growth",
+   "family": "recognition",
+   "text": "You grow when life is hard, and you lose direction when it gets too easy. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in stretches other people would call their worst."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:qisha_year_branch.Growth",
+   "family": "seatbeat",
+   "text": "Each hard year of your childhood left you more capable than the one before, at school or at home or in a sport. You came to trust difficulty more than ease, and by your teens you went looking for it."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:qisha_year_branch.Health",
+   "family": "headline",
+   "text": "Your body is strong and holds its strain."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:qisha_year_branch.Health",
+   "family": "recognition",
+   "text": "Your body keeps pushing under strain, long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it shows in short sleep and a short temper. You recover well once you finally stop, and the stop comes late every time."
+  },
+  {
+   "key": "POSITION qisha_year_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:qisha_year_branch.Health",
+   "family": "seatbeat",
+   "text": "In your first years you were hardy, slow to complain and the last to quit a tough game. Your nerve carried you through hard weeks most children never faced, long before you were fifteen."
+  },
+  {
+   "key": "POSITION shangguan_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_year_branch.Family",
+   "family": "headline",
+   "text": "Your family gets your honesty along with your love."
+  },
+  {
+   "key": "POSITION shangguan_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_year_branch.Family",
+   "family": "recognition",
+   "text": "You love your family most easily where you are allowed to disagree, and a home that asks you to keep quiet feels cold to you. Because honesty was your first way of belonging at home, you say what others leave unsaid, and a relative or two finds you hard work. Your warmth is real, and it shows most with the people who argue back."
+  },
+  {
+   "key": "POSITION shangguan_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_year_branch.Family",
+   "family": "seatbeat",
+   "text": "As a child you questioned the house rules that everyone else accepted, and you said so out loud. You reached your teens with a name for being difficult and a sharp sense of which opinions to keep to yourself."
+  },
+  {
+   "key": "POSITION shangguan_year_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:shangguan_year_branch.Growth",
+   "family": "headline",
+   "text": "You grow by doubting what you are given."
+  },
+  {
+   "key": "POSITION shangguan_year_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:shangguan_year_branch.Growth",
+   "family": "recognition",
+   "text": "You improve anything you are handed by questioning it first, a method or a belief or a piece of advice. Since accepting things whole has never felt honest to you, you learn more slowly from instruction and faster from your own mistakes. Your doubt sharpens into skill when it has real work, and it turns on you when it has none."
+  },
+  {
+   "key": "POSITION shangguan_year_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:shangguan_year_branch.Growth",
+   "family": "seatbeat",
+   "text": "You had outgrown some of what your family believed by your teens, and you got there by arguing with it. In school you did best in the subjects that let you question the answer, coasting through the ones that did not."
+  },
+  {
+   "key": "POSITION shishen_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:shishen_year_branch.Family",
+   "family": "headline",
+   "text": "You are the one who feeds, because you were fed well."
+  },
+  {
+   "key": "POSITION shishen_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_year_branch.Family",
+   "family": "recognition",
+   "text": "You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it."
+  },
+  {
+   "key": "POSITION shishen_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:shishen_year_branch.Family",
+   "family": "seatbeat",
+   "text": "In your first home an older relative made comfort a daily thing, giving food and warmth before anyone thought to ask. You still judge a home by how it feels to walk into, a measure those first years set in you for good."
+  },
+  {
+   "key": "POSITION shishen_year_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:shishen_year_branch.Health",
+   "family": "headline",
+   "text": "Your body trusts food and rest to put it right."
+  },
+  {
+   "key": "POSITION shishen_year_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:shishen_year_branch.Health",
+   "family": "recognition",
+   "text": "You trust your body to fix itself with a good meal and a long sleep, and for most of your life it has. Because comfort is how you recover, you reach for it under stress, and you turn the extra helping or the lost weekend into a habit before you notice. Your body asks you for rhythm more than for effort."
+  },
+  {
+   "key": "POSITION shishen_year_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:shishen_year_branch.Health",
+   "family": "seatbeat",
+   "text": "You were a child who recovered quickly, from colds and falls and bad days alike. Your appetite and your sleep were steady, and you came into adulthood with more reserve than most of the people around you."
+  },
+  {
+   "key": "POSITION zhengcai_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_year_branch.Family",
+   "family": "headline",
+   "text": "Your family pays back what it is given, and so do you."
+  },
+  {
+   "key": "POSITION zhengcai_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_year_branch.Family",
+   "family": "recognition",
+   "text": "You rely on your family more than on friends, because help between you has come back each time it was needed. Since your first home kept careful accounts, you keep track of what is owed between relatives without saying so. You give help readily, and a debt left open sits on your mind until it is settled."
+  },
+  {
+   "key": "POSITION zhengcai_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_year_branch.Family",
+   "family": "seatbeat",
+   "text": "As a child you knew that money at home was handled carefully and that nothing was spent without a reason. Early on you counted your own money and saved it the way the household did."
+  },
+  {
+   "key": "POSITION zhengcai_year_branch · domain_climb.Wealth.headline",
+   "kind": "headline",
+   "page": "seat:zhengcai_year_branch.Wealth",
+   "family": "headline",
+   "text": "Your money grows quietly from early habits."
+  },
+  {
+   "key": "POSITION zhengcai_year_branch · domain_climb.Wealth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengcai_year_branch.Wealth",
+   "family": "recognition",
+   "text": "You save without thinking about it, a little from everything, and spending without a reason feels wrong to you. Because careful habits were normal in your first home, you build wealth slowly and steadily, and few people notice until it is large. You enjoy keeping money more than spending it, and a big purchase stays on your mind for weeks."
+  },
+  {
+   "key": "POSITION zhengcai_year_branch · domain_climb.Wealth.lived",
+   "kind": "lived",
+   "page": "seat:zhengcai_year_branch.Wealth",
+   "family": "seatbeat",
+   "text": "You kept coins and small earnings longer than your friends did as a child, and nobody had to tell you to. You learned early that money kept quietly was money that stayed, a habit you have never lost."
+  },
+  {
+   "key": "POSITION zhengguan_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_year_branch.Family",
+   "family": "headline",
+   "text": "Your family's rules still live in you."
+  },
+  {
+   "key": "POSITION zhengguan_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_year_branch.Family",
+   "family": "recognition",
+   "text": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, with a pull you feel wherever you live."
+  },
+  {
+   "key": "POSITION zhengguan_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_year_branch.Family",
+   "family": "seatbeat",
+   "text": "You knew the rules of your first home without being told, and you rarely needed correcting. You came into your teens holding yourself to an older relative's standards as strictly as if they were your own."
+  },
+  {
+   "key": "POSITION zhengguan_year_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:zhengguan_year_branch.Growth",
+   "family": "headline",
+   "text": "You grow best inside a clear structure."
+  },
+  {
+   "key": "POSITION zhengguan_year_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengguan_year_branch.Growth",
+   "family": "recognition",
+   "text": "You grow by finishing what you start, the course completed and the level passed and the standard met. Because structure is where you first felt secure, you do well wherever the steps are clear and lose heart when they are not. You climb steadily, further in the end than people who started faster."
+  },
+  {
+   "key": "POSITION zhengguan_year_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:zhengguan_year_branch.Growth",
+   "family": "seatbeat",
+   "text": "Through your first school years you built a record of steady progress, each year finished well and responsibilities taken on early. By fifteen you were the one the adults in charge trusted with a role, measuring your growth by the steps you had completed."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Family.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_year_branch.Family",
+   "family": "headline",
+   "text": "For you, family means being looked after."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Family.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_year_branch.Family",
+   "family": "recognition",
+   "text": "Family is your shelter, the place you go back to and the people you look after in turn. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You take it harder than most when a relative lets you down, because you never expected it."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Family.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_year_branch.Family",
+   "family": "seatbeat",
+   "text": "An older relative looked after you closely when you were small, and you came to rely on their calm. You grew up expecting the world to treat you with the same care, and mostly it did."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Growth.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_year_branch.Growth",
+   "family": "headline",
+   "text": "Your growth starts from a safe base."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Growth.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_year_branch.Growth",
+   "family": "recognition",
+   "text": "You take your biggest steps from a secure position, with people behind you and a home to return to. Because safety came first in your life, you learn faster when you feel held, and you stall when people you do not trust try to hurry you. You put off a change until the support is in place."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Growth.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_year_branch.Growth",
+   "family": "seatbeat",
+   "text": "As a child you tried new things when someone you trusted stood close by, and you held back when nobody did. By your teens you were slower than your friends to try things away from home, because home felt so safe."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Health.headline",
+   "kind": "headline",
+   "page": "seat:zhengyin_year_branch.Health",
+   "family": "headline",
+   "text": "Your body recovers best when someone looks after you."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Health.recognition",
+   "kind": "recognition",
+   "page": "seat:zhengyin_year_branch.Health",
+   "family": "recognition",
+   "text": "You get your energy back quickly after tiring weeks and bad nights, and faster still when someone close is fussing over you. Because care was what restored you from the start, you let yourself rest properly only when another person insists. Your body does well on trust, rest and good company."
+  },
+  {
+   "key": "POSITION zhengyin_year_branch · domain_climb.Health.lived",
+   "kind": "lived",
+   "page": "seat:zhengyin_year_branch.Health",
+   "family": "seatbeat",
+   "text": "Whenever you were run down as a child, an older relative was there with an early night and a watchful eye. Growing up, you learned that being looked after was part of getting your strength back, and letting others do it came easily."
+  }
+ ]
+}
