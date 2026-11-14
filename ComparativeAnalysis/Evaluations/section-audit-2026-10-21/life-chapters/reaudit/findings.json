@@ -1,0 +1,3060 @@
+{
+ "findings": [
+  {
+   "source": "cross",
+   "id": "XR-01",
+   "severity": "MAJOR",
+   "criterion": "C, A2, M2",
+   "pages": "72 of 90 pages have 3 or more \", but you\" closes (mean 4.4, max 11: L027). 63 of 90 still have 3 or more \", and you\" closes (mean 3.6).",
+   "key": "",
+   "quote": "\"In Health, this chapter favours resting before you are tired over pushing through, but you gather strength from long sleeps\" (`mind · chapter_domain.Health.grow`). \"In Love, this chapter favours practical care over fine words, but you show love best\" (`action · chapter_domain.Love.grow`).",
+   "issue": "M2 asked for few \", and you\" closes. The rewrite mostly swapped the joint for \", but you\", and in about 29 of the 32 there is no contrast, so the \"but\" is a logic slip as well as a repeated joint. The year lines did the same with \", while\", \", as\" and \", though\" (18 of 38).",
+   "fix": "**Rule:** \", but\" only where the second clause turns against the first. Otherwise a domain line takes two sentences: the favours sentence, then a short sentence that opens on \"You\". Examples: \"In Love, this chapter favours practical care over fine words. You show love through the things you fix and pay for.\" \"In Health, this chapter favours resting before you are tired over pushing through. You gather strength from long sleeps and slow mornings.\" Cap each page at 3 of each joint."
+  },
+  {
+   "source": "cross",
+   "id": "XR-02",
+   "severity": "MAJOR",
+   "criterion": "A1, M8, AM3",
+   "pages": "18 of 90 pages call two or three non-Body energies scarce at once (L008 L013 L014 L015 L021 L024 L025 L032 L038 L040 L052 L065 …). More pages do so once Body is counted (L001).",
+   "key": "",
+   "quote": "On L008: \"your chart is short of it\" (Order), \"the Action your chart is hungry for\", \"the outlet your chart is short of\", and the chip \"seek Fire, Earth\"",
+   "issue": "Grow is not need. Twelve grow units use the scarcity words of `year.need` (\"runs short of\", \"has gone without\", \"hungry\", \"thirsty\", \"has lacked\"). So several energies on one page each read as the one the chart lacks. On L008 this contradicts the Seek chip, which names other elements.",
+   "fix": "**Rule:** outside `year.need` and Body under, grow units name direction only (\"welcomes\", \"is glad of\", \"takes to\", \"makes good use of\"), rotated so no verb repeats on a page. Replacements: action chapter.year.grow.lived \"and your chart made good use of it\". action decade.grow.now \"the Action your chart welcomes\". expression chapter_manual.grow \"This chapter opens an outlet your chart welcomes.\" expression decade.grow.coming.a \"an outlet your chart is glad of\". mind chapter.hour.grow.now \"and your chart is glad of it\". mind chapter.month.grow.lived \"and your chart took it in\". mind decade.grow.late.now \"a Mind your chart takes to\". mind decade.grow.now \"the Mind your chart welcomes\". order chapter.day.grow.now \"and your chart makes good use of it\". order chapter.month.grow.now \"and your chart takes to it\". order chapter_manual.grow \"This chapter gives your strength a shape your chart welcomes.\" order decade.grow.now \"the Order your chart is glad of\". Body's ten \"short of\" units also need the resolver to show them only when Body is the scarcest welcomed energy."
+  },
+  {
+   "source": "cross",
+   "id": "XR-03",
+   "severity": "MAJOR",
+   "criterion": "A1, AM3, D2",
+   "pages": "`year.heavy` alone is on 22 to 27 pages per function (for example, expression on L001 L003 L006 …)",
+   "key": "",
+   "quote": "\"more duty than your chart can use\". \"more output and appetite than your chart can use\". \"more Order than your chart can use\"",
+   "issue": "AM3 says that outside Body, release means the chart's balance works against an energy, not that there is too much of it. Three shared year lines break this outright, and about 14 chapter, decade and manual units read release as a surplus. The fix phrase the rewrite used elsewhere, \"works against your chart\", is now itself on 10 units.",
+   "fix": "**Rule:** outside Body, release is stated as direction, with the verbs rotated (\"works against\", \"leans away from\", \"does better without\", \"strains under\", \"pulls against\") and no verb more than once on a page. The year lines are rewritten under XR-04. For the chapter and decade units, swap the phrase, for example `order · decade.release.now`: \"This decade brings {el}, an Order your chart strains under, with deadlines and people who judge your work.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-04",
+   "severity": "MAJOR",
+   "criterion": "D4, A4, C, M4",
+   "pages": "Every heavy year card. `expression · year.heavy` is on 27 pages and `order · year.heavy` on 26",
+   "key": "",
+   "quote": "\"stay open to you\". \"are yours to call on\". \"are always within reach\". \"stay on your side\". \"is yours to take\". \"the right to say no\". \"the freedom to drop\". \"you have time alone\"",
+   "issue": "M4 is met in substance: every carrier is a neutral act. But all ten state the carrier as something the reader has or may have, not something the reader does. It is a capacity close in new dress, the same tail ten times. `order · year.heavy` also mixes two senses of \"side\" (\"from the side … stay on your side\").",
+   "fix": "Rewrite all ten as the reader doing the act, two sentences each. action heavy: \"{el} brings Action for a whole year, a reach your chart does better without. With more tasks than hours, you keep a short list and say no to the rest.\" action heavy.b: \"{el} brings Action for a second year running, an effort that works against your chart. As last year's list runs on, you drop what does not matter and finish what does.\" body core_over: \"{el} brings Body for a whole year, strength your chart already runs over with. You meet every exchange as a contest of wills and cool it with time alone and a small point let go.\" body core_over.b: \"{el} brings Body for a second year running, strength piled on strength. You meet old rivalries flaring up again with a slower pace and someone close to share the load.\" mind heavy: \"{el} brings Mind for a whole year, thought that works against your chart. You move stalled plans off paper one plain task at a time.\" mind heavy.b: \"{el} brings Mind for a second year running, and its comfort works against your chart. You walk last year's lingering doubts off outdoors and talk them over with someone close.\" expression heavy: \"{el} brings Expression for a whole year, output and appetite your chart leans away from. When a reply comes out sharper than you mean, you pause and try the next one on a friend first.\" expression heavy.b: \"{el} brings Expression for a second year running, a voice that works against your chart. You win back the goodwill last year's outspokenness cost by finishing what you started.\" order heavy: \"{el} brings Order for a whole year, duty your chart strains under. With your time claimed from above and from the side, you keep a quiet hour alone and someone close to talk to.\" order heavy.b: \"{el} brings Order for a second year running, and the weight does not lift. As demands roll over from last year, you guard your rest on purpose and take it.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-05",
+   "severity": "MAJOR",
+   "criterion": "A1 (prediction law: hard news only with what carries the reader), A3, C",
+   "pages": "318 clash, harm or punish placements across the 90 pages. 178 of them sit under a grow, even or need year, so nothing on the card carries the reader",
+   "key": "",
+   "quote": "\"and the shift costs you a settled place\". \"and the silence costs you more than an open quarrel would\". \"with a rule applied to you more strictly than to others and every slip noticed\". \"and no one says why\"",
+   "issue": "These end on the cost alone. Under a heavy year the year line carries the reader, but under a grow, even or need year the card is hard news with no way through. The set also repeats itself: \"costs you\" ×7, \"patience\" ×5, \"grind\" ×4. `harm.hour` also says how it ends (\"costs you more than an open quarrel would\", AM1).",
+   "fix": "**Rule:** each hard landing ends on a neutral act in the reader's own verb, in the same sentence where the budget allows. No two landings share \"costs you\", and \"patience\" appears at most twice in the set. Examples: punish.month \"You come under closer scrutiny at work this year, with a rule applied to you more strictly than to others, and you answer it with work that needs no defending.\" harm.hour \"Someone you have helped along pulls back without a word this year, and you leave the door open without chasing them.\" clash.month.late \"Your work or the part you play in the world changes sharply this year, by choice or by circumstance, and you take your time finding the next settled place.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-06",
+   "severity": "MINOR",
+   "criterion": "A1, D3, M3",
+   "pages": "23 pages (L003 L004 L005 L010 L013 …). Lived version on 13 (L003 L014 L015 L038 …)",
+   "key": "",
+   "quote": "\"which the {e} holds down, and you have firm footing for every use of the gift\"",
+   "issue": "`presses.release` and `presses.release.lived` say the energy wears itself out holding the ground down, and treat that as relief. Under grow the same relation is read as firm footing, a gift. One relation cannot both spend the energy and steady it. Under M3 the grow version is a cost, as `drains.grow` is.",
+   "fix": "grow: \"Under it runs {g}, which the {e} spends itself holding down, and the gift reaches you a little worn.\" lived: \"Under it ran {g}, and the {e} spent part of its force holding it down. You worked with the share of the gift that was left.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-07",
+   "severity": "MINOR",
+   "criterion": "A1, M9",
+   "pages": "19 pages whose second child decade starts at about 11 (L001 L012 L016 L027 L036 L043 L050 L063 L069 L070 L072 L073 L075 L076 L078 L084 L085 L087 L090)",
+   "key": "",
+   "quote": "On L001, 2002 to 2011 (ages 11 to 20): \"children your age who wanted the same toys and the same turn\"",
+   "issue": "A decade from 11 to 20 is lived at most half before 16, so M9 gives it no child line. The resolver gives ties to the child line. The text also aims too young for any second decade (\"toys\", \"the playground\", \"a coin or two\").",
+   "fix": "Resolver: use `.early` only when more than five of the ten years are under 16. Text: body early.b \"These years brought {el} through classmates who wanted the same place and the same turn. You learned to stand up for your share, and you never quite stopped.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-08",
+   "severity": "MINOR",
+   "criterion": "A4",
+   "pages": "L088",
+   "key": "",
+   "quote": "\"the days you burn off the extra force are the days you are easiest to live with\"",
+   "issue": "The reader is measured by how easy others find them to live with. That is a third party judging the reader, which the Pattern construct rules out.",
+   "fix": "\"In Health, this chapter favours hard exercise over sitting still. You are calmest on the days you burn off the extra force.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-09",
+   "severity": "MINOR",
+   "criterion": "A4, D4",
+   "pages": "L078 L085",
+   "key": "",
+   "quote": "\"a partner often thinks for you. You find you can trust your own judgement\"",
+   "issue": "It charges the partner, which is a claim about another person the chart cannot know, and it ends on a capacity close (\"you can\").",
+   "fix": "\"Your Home Chapter carries {el}, the energy of Mind, one that works against your chart. Since your mid-thirties, home has offered so much comfort and counsel that your own decisions wait. You make one small decision a day alone, and your judgement comes back with use.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-10",
+   "severity": "MINOR",
+   "criterion": "M4",
+   "pages": "L011 L016 L030 L056 L063 L064 L068 L086",
+   "key": "",
+   "quote": "\"when your own strength comes first and the chase comes second\"",
+   "issue": "The carrier is Body's own image (\"your own strength\"), not a neutral act. The Seek chip already names the element.",
+   "fix": "\"This chapter spreads you thin. You hold your ground when you finish one thing before the next chase begins.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-11",
+   "severity": "MINOR",
+   "criterion": "M4",
+   "pages": "L009 L010 L027 L032 L039 L070 L080 L084 L088",
+   "key": "",
+   "quote": "\"on hard work and on people who need what you know\"",
+   "issue": "The carrier is Expression's own image (teaching, output).",
+   "fix": "\"This chapter fills you with more of your own strength than you can store. You do best when you spend it early in the day, on a long walk or a hard job, before it turns into a stand.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-12",
+   "severity": "MINOR",
+   "criterion": "M4, D2",
+   "pages": "L048 L050 L057 L061 L068 L071",
+   "key": "",
+   "quote": "\"Someone who looked after you steadied you\"",
+   "issue": "\"Looked after\" is Mind's own word (`mind · chapter.day.grow.lived` says \"a partner looked after you\"), so the carrier is the cure energy's image.",
+   "fix": "\"Your Home Chapter carried {el}, the energy of Order, and your chart was already stretched by it. From your mid-thirties to your late forties home was full of duties, a partner's standards and a household that expected you on time. A friend who heard you out steadied you, and you learned to set down what was never yours to hold.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-13",
+   "severity": "MINOR",
+   "criterion": "A4 (the reader is the subject of the last sentence)",
+   "pages": "17 pages (L004 L010 L013 …)",
+   "key": "",
+   "quote": "\"Your older relatives gather around one family plan this year, with you at its centre.\"",
+   "issue": "The relatives are the subject, and the reader is an afterthought.",
+   "fix": "\"You stand at the centre of one family plan this year, as your older relatives gather around it.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-14",
+   "severity": "MINOR",
+   "criterion": "A4, XR-05",
+   "pages": "12 pages (L047 L048 L052 …)",
+   "key": "",
+   "quote": "\"and no one says why\"",
+   "issue": "It ends on other people's silence, with no reader and no carrier.",
+   "fix": "\"A shared effort you value cools quietly this year, an arrangement or a friendship built around it, and you let it rest without forcing the reason.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-15",
+   "severity": "MINOR",
+   "criterion": "M7, A1",
+   "pages": "unreached",
+   "key": "",
+   "quote": "\"A clear commitment\\",
+   "issue": "keeping it casual\"",
+   "fix": "For a reader who already has a partner, this ranks the kind of relationship, which the chart cannot know. M7 asks for a way of being with a partner."
+  },
+  {
+   "source": "cross",
+   "id": "XR-16",
+   "severity": "MINOR",
+   "criterion": "A3, C, D2",
+   "pages": "About 1.7 \"With …, you\" carrier closes per page (max 5); \"walk\" ×18, \"someone close\" ×11, \"time alone\" ×7 across the corpus",
+   "key": "",
+   "quote": "\"With time alone at the end of each hard week, you grew …\". \"With an hour alone each day to cool your views, you find …\". \"With loyal friends to keep you level, you came out …\"",
+   "issue": "M4 is ruled and met. But the neutral carriers have settled into one kit (a walk, an hour alone, someone close) and one frame (\"With X, you Y\", 25 last sentences). So the release lines of different functions sound alike at the close. Expression release also closes on the same less-is-more turn four times (\"listen better when you say less\", \"carry further when there are fewer of them\", \"trusted more when you share less\", \"trusted most for the work you hand in quietly\").",
+   "fix": "Rotate the carrier frames, with no more than two \"With …,\" closes per page. Tie each carrier act to its function's own cost (for Expression, the pause before speaking, used once). Rewrite the less-is-more closes: expression · chapter.hour.release.now \"… With a night between a thought and its saying, you choose the one view worth giving.\" expression · chapter_domain.Social.release \"With friends, this chapter favours a long walk with one person over a big night with many. You keep a few things back and are trusted for it.\""
+  },
+  {
+   "source": "cross",
+   "id": "XR-17",
+   "severity": "TWEAK",
+   "criterion": "C, A4",
+   "pages": "L001 L002 L004 L016 … (20)",
+   "key": "",
+   "quote": "\"shelter your chart welcomes … and shelter is offered\"",
+   "issue": "\"Shelter\" twice in two sentences, and the last clause is passive.",
+   "fix": "{el} brings Mind for a whole year, shelter your chart welcomes. Your thinking slows to a useful pace, and you are offered help before you have to ask for it."
+  },
+  {
+   "source": "cross",
+   "id": "XR-18",
+   "severity": "TWEAK",
+   "criterion": "A1 (AM3)",
+   "pages": "L008 L013 L021 L025 L038 L040 L041",
+   "key": "",
+   "quote": "\"This decade brings more {el}\"",
+   "issue": "\"More\" is an amount word in a grow line.",
+   "fix": "This decade brings {el}, with a skill ready to be shown and people keen to learn it from you. You teach, make or perform, and you are paid in attention as well as thanks."
+  },
+  {
+   "source": "cross",
+   "id": "XR-19",
+   "severity": "TWEAK",
+   "criterion": "A1 (AM3), A3",
+   "pages": "L051 L053 L055 L058 L066 L080 L083",
+   "key": "",
+   "quote": "\"These years brought more {el} … people keeping score\"",
+   "issue": "\"More\" is an amount word, and \"keeping score\" is a corpus tic (×4).",
+   "fix": "These years brought {el}, a stretch of reviews, deadlines and people checking your work. You did your best work under that pressure, and your name began to carry weight."
+  },
+  {
+   "source": "cross",
+   "id": "XR-20",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L004 L007 L011 L018",
+   "key": "",
+   "quote": "\"it costs you goodwill. You keep the goodwill that matters\"",
+   "issue": "The same content word in back-to-back sentences.",
+   "fix": "This decade brings {el}, more Expression than your chart can use, a sharp voice and little patience for rules you did not write. You say what others only think, and it costs you goodwill. You keep the friendships that matter by saying a thing once and letting it rest."
+  },
+  {
+   "source": "cross",
+   "id": "XR-21",
+   "severity": "TWEAK",
+   "criterion": "C, AM2",
+   "pages": "unreached",
+   "key": "",
+   "quote": "\"steady weight on your chart … at the same weight, with no new rank\"",
+   "issue": "\"Weight\" twice, and \"rank\" sits badly beside the no-rank rule.",
+   "fix": "{el} brings Order for a second year running, a steady frame for your chart. You keep the roles you held last year at the same size, with no new title to chase and none to defend."
+  },
+  {
+   "source": "cross",
+   "id": "XR-22",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "13 pages (L017 L030 L036 …)",
+   "key": "",
+   "quote": "\"quick to correct you … no one else corrected\"",
+   "issue": "The same verb twice.",
+   "fix": "These years brought {el} as strict rules and grown-ups who were quick to correct you. You kept a corner of calm for yourself, a quiet place no one else entered."
+  },
+  {
+   "source": "cross",
+   "id": "XR-23",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L004 L011 L018 L045 L056 L068",
+   "key": "",
+   "quote": "\"Listening first\\",
+   "issue": "the last word\"",
+   "fix": "The pair is not parallel (an act set against a noun)."
+  },
+  {
+   "source": "cross",
+   "id": "XR-24",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L051",
+   "key": "",
+   "quote": "\"which is a different thing from staying busy\"",
+   "issue": "As written it says staying busy differs from staying busy.",
+   "fix": "Your Late Chapter carries {el}, the energy of Action, and your chart is still eager for it. Since your late forties what you built has kept paying out, with fresh plans brought in by the people after you. You stay busy by choice, which is a different thing from being kept busy."
+  },
+  {
+   "source": "cross",
+   "id": "XR-25",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L004 L029 L030 L035",
+   "key": "",
+   "quote": "\"a job split in two stops eating your evenings\"",
+   "issue": "\"A job split in two\" is unclear on first read.",
+   "fix": "Your Home Chapter carries {el}, the energy of Action, an energy your chart does better without. From your mid-thirties the household asks for steady effort, with bills to meet and plans to fund beside your own. You share the jobs with someone close and get your evenings back."
+  },
+  {
+   "source": "cross",
+   "id": "XR-26",
+   "severity": "TWEAK",
+   "criterion": "A2 (logic of the joint)",
+   "pages": "24 pages (L009 L010 L011 …)",
+   "key": "",
+   "quote": "\"a pull at both levels, but you find no softer layer\"",
+   "issue": "\"But\" joins two clauses that say the same thing.",
+   "fix": "Under it runs {g} as well, a pull at both levels, and you find no softer layer underneath."
+  },
+  {
+   "source": "cross",
+   "id": "XR-27",
+   "severity": "TWEAK",
+   "criterion": "A2 (logic of the joint)",
+   "pages": "31 pages (L012 L013 L017 …)",
+   "key": "",
+   "quote": "\"pushes back … at every step, but you have to work\"",
+   "issue": "\"But\" joins cause and effect.",
+   "fix": "Under it runs {g}, which pushes back against the {e} at every step, and you work for each share of the gift."
+  },
+  {
+   "source": "cross",
+   "id": "XR-28",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L001 L002 L016 L050 L051 L057 L065 L086",
+   "key": "",
+   "quote": "\"holding it down, and you took less of the weight\"",
+   "issue": "Two \"and\" joints in one sentence.",
+   "fix": "Under it ran {g}, and the {e} wore part of its force away holding it down. You took less of the weight."
+  },
+  {
+   "source": "group-1",
+   "id": "G1-001",
+   "severity": "MAJOR",
+   "criterion": "A2, A1",
+   "pages": "all 30",
+   "key": "",
+   "quote": "\"In Career, this chapter favours one piece finished over three begun, but you are trusted most for the work you hand in quietly.\"",
+   "issue": "The polish round swapped \", and you\" (M2) for \", but you\" where nothing contrasts, so the second clause reads as an objection to the favour it explains.",
+   "fix": "Rule: \"but\" only for a real contrast. A favour clause takes a causal joint (\"since\", \"because\", \"so\"), varied across a page. Rewrites in §2a."
+  },
+  {
+   "source": "group-1",
+   "id": "G1-002",
+   "severity": "MAJOR",
+   "criterion": "A1, M8, D2",
+   "pages": "L001, L003, L005–L008, L010, L012–L017, L020–L026, L028, L029",
+   "key": "",
+   "quote": "\"and your chart is short of it\" · \"the Action your chart is hungry for\" · \"the outlet your chart is short of\" · \"the Mind your chart has gone without\"",
+   "issue": "Grow units that are not the scarcest still read as need, so up to three energies are each \"short\" on one page (L008, L013, L021). The year layer then calls the same energy merely \"welcome\" (L008, L022) or names a different need (L014, L024).",
+   "fix": "Rule: scarcity words (\"short of\", \"hungry for\", \"gone without\", \"thin on\", \"low on\", \"lacked\", \"waited for\") live only in `need` keys, and in `core_under` when Body is the scarcest. The grow keys read as welcome. Rewrites in §2b."
+  },
+  {
+   "source": "group-1",
+   "id": "G1-003",
+   "severity": "MAJOR",
+   "criterion": "A4, law, M2",
+   "pages": "all 30",
+   "key": "",
+   "quote": "\"shelter is offered before you have to ask for it\" · \"Your older relatives gather around one family plan this year, with you at its centre.\" · \"What sees you through is saying no …\"",
+   "issue": "About 30 units close on a sentence whose subject is not the reader, breaking the law that M2 restates. On a typical page, eight to ten of the closing sentences belong to \"shelter\", \"the quiet\", \"each visit\" or \"what carries you\".",
+   "fix": "Rebuild each close with the reader as subject, without \", and you\" or \"you feel\" in year and landing lines (AM4). Rewrites in §2c."
+  },
+  {
+   "source": "group-1",
+   "id": "G1-004",
+   "severity": "MAJOR",
+   "criterion": "A1",
+   "pages": "L015, L026 (Balanced)",
+   "key": "",
+   "quote": "\"with a chart that has long gone without it\" / \"your own strength at an even level for your chart\"",
+   "issue": "On a Balanced chart the page says the reader's own element is chronically lacking, and then the 2026 year says it is even. The page contradicts itself on its central claim.",
+   "fix": "Adopt the §2b welcome wording, which removes the contradiction. Also add a gate check: no unit on a Balanced chart may carry a scarcity word for Body."
+  },
+  {
+   "source": "group-1",
+   "id": "G1-005",
+   "severity": "MINOR",
+   "criterion": "AM3",
+   "pages": "expression: L001, L003, L006, L007, L011, L018, L023, L029, L030 · action: L003, L006, L011, L020, L023, L030 · order: L002, L004, L005, L006, L011, L016, L017, L020, L030",
+   "key": "",
+   "quote": "\"more output and appetite than your chart can use\" · \"more chasing than …\" · \"more duty than …\"",
+   "issue": "Outside Body, release must read as direction, not amount. The `.b` twins already comply (\"a voice that works against your chart\"). The order unit also repeats \"side\".",
+   "fix": "expression: \"{el} brings Expression for a whole year, output and appetite that work against your chart. You speak more sharply than you mean, though you always have a pause before each reply and a friend who hears it first.\" · action: \"{el} brings Action for a whole year, a chase that works against your chart. There are more tasks than hours to give them, but you have a short list and the right to say no.\" · order: \"{el} brings Order for a whole year, duty that works against your chart. Your time is claimed from above and from every side, though you keep a quiet hour alone and someone close to talk to.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-006",
+   "severity": "MINOR",
+   "criterion": "M9, A1",
+   "pages": "L001",
+   "key": "",
+   "quote": "\"children your age who wanted the same toys and the same turn\"",
+   "issue": "Only five of the ten years are lived before sixteen, so this is not \"mostly before 16\", and toys fits a child under ten.",
+   "fix": "Engine: a child line needs at least six years before 16. Text: \"These years brought {el} through classmates who wanted the same place and the same turn. You learned to stand up for your share, and you never quite stopped.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-007",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "L005 (key also on L003, L015, L017)",
+   "key": "",
+   "quote": "\"with a chart that has long gone without it\"",
+   "issue": "On L005 the Home Chapter has just carried the same Metal for thirteen years.",
+   "fix": "\"Your Late Chapter carries {el}, your own energy, and your chart takes it gladly. From your late forties the people after you stand at your side, and what you have built gives you a firm floor. You grow surer of yourself with every year of it.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-008",
+   "severity": "MINOR",
+   "criterion": "A3, D1",
+   "pages": "L001, L003, L005, L023, L029",
+   "key": "",
+   "quote": "\"You keep your standing when you wait before you answer and speak once.\"",
+   "issue": "This says again what the chapter line (\"let them have the last word\", \"a day of silence before you object\") and the Family line (\"holding back the first reply\") already said. The manual should say how the energy works, and it does not point toward the Seek chip.",
+   "fix": "\"This chapter loosens your tongue and your appetite more than your chart can use. You keep your standing on days that start with rest and something to learn.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-009",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "L011, L016, L030 (key also on L006, L007, L029)",
+   "key": "",
+   "quote": "\"favours finishing what you started over taking on the next offer\"",
+   "issue": "It repeats the Rising Chapter line \"by finishing what you started\" in the same chapter.",
+   "fix": "\"In Career, this chapter favours one role done well over several begun, since you earn more from depth than from reach.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-010",
+   "severity": "MINOR",
+   "criterion": "A3, D1",
+   "pages": "L013, L015, L024 (L021 across chapters)",
+   "key": "",
+   "quote": "\"you rise when someone holds you to a standard\" / \"you rise fastest when someone you respect tests what you know\"",
+   "issue": "The manual and the domain line make one claim twice, in the same frame.",
+   "fix": "Manual: \"This chapter gives your strength a shape your chart welcomes. You do your best work inside clear roles and firm deadlines.\" (This also covers G1-002.)"
+  },
+  {
+   "source": "group-1",
+   "id": "G1-011",
+   "severity": "MINOR",
+   "criterion": "M5, A1",
+   "pages": "L028 (age 30), L013 (34), L012 (35), L011, L014",
+   "key": "",
+   "quote": "\"Someone among the people after you changes course sharply this year\"",
+   "issue": "At thirty the reader may have no \"people after you\". The `bind.hour` and `punish.hour` units already offer \"someone you train or a younger relative\", and these three do not.",
+   "fix": "clash: \"You watch someone you train or a younger relative change course sharply this year, a move or a new direction, and staying close takes effort.\" · harm: \"You see someone you have helped along pull back without a word this year, and the silence weighs more than an open quarrel would.\" · repeat: \"You come back this year to something left unfinished with someone you train or a younger relative, and it takes time you had set aside.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-012",
+   "severity": "MINOR",
+   "criterion": "D4, A4",
+   "pages": "L001, L003",
+   "key": "",
+   "quote": "\"a partner has borne the brunt of your restlessness\"",
+   "issue": "It pictures the partner as a victim, which is the charge that BIZ_04 rules out.",
+   "fix": "\"Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties, appetite and opinion have filled the house, and your restlessness has reached every room. An hour of quiet each evening settles it, and you are learning to let a partner have the last word.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-013",
+   "severity": "MINOR",
+   "criterion": "C, M4",
+   "pages": "four walks on L012, L019 and L024 · two or more on 12 pages · \"never asked for\" ×2 on L012, L019",
+   "key": "",
+   "quote": "\"You spend the surplus on a long walk each evening\" · \"You burn off the surplus with an early walk\" · \"advice you never asked for\"",
+   "issue": "The walk has become the default carrier, and on L012 and L019 two consecutive Body decades share surplus plus walk. \"Burn off\" lends Fire's image to the carrier.",
+   "fix": "body coming.a: \"This decade brings {el} beyond what your chart needs, a grip that holds on harder than the moment asks. You spend the surplus on hard work with your hands, before it can turn into a quarrel.\" · body late.coming.a: \"This decade brings {el} with the urge to carry every load and win every point. You let others carry their share and save your strength for the tasks you choose.\" · mind coming.a: \"This decade brings {el} as advice from people who mean well, more of it than you can use. You trust your own reading of things after time on your own clears the noise.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-014",
+   "severity": "MINOR",
+   "criterion": "C",
+   "pages": "exact: L004, L021 (×3), L022, L023, L029 · same frame, other elements: L002, L006, L018, L030",
+   "key": "",
+   "quote": "\"and you have firm footing for every use of the gift\" (three times on L021)",
+   "issue": "The same templated ground sentence recurs on one page, and on L004 the Year Gate join line appears in 2027 and 2031.",
+   "fix": "Rule: a second use of a ground frame on a page takes a `.b`, for example presses.grow.b: \"Under it runs {ground}, held down by the {el}, so you build on the gift without slipping.\" A repeated landing on one page falls to the next bond, or to a `.b`."
+  },
+  {
+   "source": "group-1",
+   "id": "G1-015",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "nearly all",
+   "key": "",
+   "quote": "\"the weight on you came back as fast as you shed it\" · \"the load on you is topped up\" · \"the pressure on you thinned\" · \"the strain on you loosens its grip\"",
+   "issue": "These are keyed only by relation and direction (M3), yet their burden nouns read as Order, even under an Expression, Action, Mind or Body release.",
+   "fix": "feeds.release.lived: \"Under it ran {ground}, which kept feeding the {el}, and you never shed the excess for long.\" · feeds.release: \"Under it runs {ground}, a ground that feeds the {el}, and you never put the excess down for long.\" · drains.release.lived: \"Under it ran {ground}, which slowly drew off the {el}, and you carried less of it year by year.\" · resists.release: \"Under it runs {ground}, pushing back against the {el} all the while, so you carry less of it.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-016",
+   "severity": "MINOR",
+   "criterion": "D1, D6",
+   "pages": "L029 (zero lines), L010 and L018 Home (one line), L021 and L022 Late (one line)",
+   "key": "",
+   "quote": "(Late Chapter on L029 has no \"Where it lands\")",
+   "issue": "De-duplication against earlier chapters can leave a chapter with no domain at all.",
+   "fix": "Engine: when a domain line is dropped as a repeat, take the next weightiest domain, keeping at least two lines per chapter."
+  },
+  {
+   "source": "group-1",
+   "id": "G1-017",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L009, L010, L027",
+   "key": "",
+   "quote": "\"work has asked you to prove yourself and you push harder\"",
+   "issue": "A comma is missing between two main clauses.",
+   "fix": "\"Your Rising Chapter carries {el}, your own energy, into a chart that already runs over with it. Since your late teens, work has asked you to prove yourself, and you push harder than any job needs. On the one slow day you keep each week, you learn where that strength is worth spending.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-018",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L017, L030",
+   "key": "",
+   "quote": "\"quick to correct you … no one else corrected\"",
+   "issue": "The same word is used twice in one unit.",
+   "fix": "\"These years brought {el} as strict rules and grown-ups who were quick to correct you. You kept a corner of calm that belonged to you, a quiet place no one else could reach.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-019",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L012, L019, L022",
+   "key": "",
+   "quote": "\"before each move … the plans start to move\"",
+   "issue": "Two \"move\"s in adjacent sentences.",
+   "fix": "\"This decade brings {el}, more Mind than your chart can use, with plans that stay plans and help you never asked for. You think a step too long before each move. You find your footing by doing one thing at a time, and the plans get going.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-020",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L022",
+   "key": "",
+   "quote": "\"your own way at home … a draw at home\"",
+   "issue": "\"At home\" twice in two sentences.",
+   "fix": "\"This decade brings {el} with a habit of holding on to your own way at home. You find a slower answer eases it, and a draw is worth more to you than a win.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-021",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L019, L024",
+   "key": "",
+   "quote": "\"open doors you could not open alone\"",
+   "issue": "The same word twice in one clause.",
+   "fix": "\"With friends, this chapter favours saying yes to the invitation over staying in, and the people you meet in passing open doors you could not reach alone.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-022",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L001, L002, L005, L006, L009, L017, L021",
+   "key": "",
+   "quote": "\"as others bring their hands to something you started\"",
+   "issue": "A broken idiom.",
+   "fix": "\"You gather people and momentum around one idea at work this year, as others lend a hand to something you started.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-023",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L001, L002, L004, L014, L015, L024, L027",
+   "key": "",
+   "quote": "\"the older generation … old family expectations\"",
+   "issue": "\"Older\" and \"old\" sit side by side in one line.",
+   "fix": "\"You meet closer watching from the older generation this year, with family expectations that grind on your patience.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-024",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L001, L006, L007, L008, L009, L024, L025, L026",
+   "key": "",
+   "quote": "\"what you keep of it arrives thinner\"",
+   "issue": "Keeping cannot arrive. The sense breaks on first read.",
+   "fix": "\"Under it runs {ground}, which draws the {el} off, so you get a thinner share of it.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-025",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L001, L002, L016",
+   "key": "",
+   "quote": "\"and the Metal wore part of its force away holding it down, and you took less of the weight\"",
+   "issue": "A double \"and\" chain.",
+   "fix": "\"Under it ran {ground}, and the {el} wore part of its force away holding it down, so you took less of it.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-026",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L011",
+   "key": "",
+   "quote": "\"an old habit or an old grievance\"",
+   "issue": "\"Old\" twice.",
+   "fix": "\"You go back over something from your first home this year, a habit or a grievance you thought was settled.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-027",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L027, L028",
+   "key": "",
+   "quote": "\"and it holds you upright\"",
+   "issue": "It repeats the Early line \"that knowing held you upright\" (`chapter.year.grow.lived` order) on the same page.",
+   "fix": "\"This decade brings {el} as a settled order to your days, with a place for each thing and a reason to rise early. You keep the rhythm for your own sake, and it steadies you.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-028",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L010, L012, L013, L025",
+   "key": "",
+   "quote": "\"a partner who feels like an equal also feels like a contest\"",
+   "issue": "\"Feels like\" twice in one sentence.",
+   "fix": "\"Your Home Chapter carries {el}, your own energy, though your chart is already flush with it. From your mid-thirties two strong wills share one household, and a partner who feels like an equal is also a rival. With an evening to yourself each week to cool off, you get further at home by giving way first.\""
+  },
+  {
+   "source": "group-1",
+   "id": "G1-029",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L016, L030",
+   "key": "",
+   "quote": "\"ask nothing of your purse\"",
+   "issue": "\"Purse\" is regional and gendered, so it reads poorly in a gender-neutral text.",
+   "fix": "\"With friends, this chapter favours a few close people over a wide circle, and you keep the ones who ask nothing of your money.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-001",
+   "severity": "MAJOR",
+   "criterion": "A2, B",
+   "pages": "Career.release L031 L032 L035 L036 L038 L039 L040 L041 L043 L045 L050 L056 L057 L059; Family.release L031 L032 L034 L035 L036 L039 L041 L043 L045 L050 L054 L055 L056 L057 L059; and the other units listed",
+   "key": "",
+   "quote": "\"this chapter favours one commitment over several, but you do your best with fewer people to answer to\"; \"favours letting small things slide over keeping every standard, but you relax in a house that forgives a little mess\"",
+   "issue": "Of the 154 domain lines in this group, 57 close on \"but\", and in most of them the second clause carries on the favour instead of turning against it. The reader has to parse a contrast that is not there. The pattern looks like a rewrite away from \", and you\" (M2) that swapped one joint for a wrong one.",
+   "fix": "Rule: \"but\" only where the second clause truly turns against the first, as in Mind.release (\"you already know enough to begin\"). Otherwise end the favour at a full stop and give the reader their own sentence. Sample rebuild: \"In Career, this chapter favours one commitment over several. You do your best work with fewer people to answer to.\" Rebuild every unit listed."
+  },
+  {
+   "source": "group-2",
+   "id": "G2-002",
+   "severity": "MAJOR",
+   "criterion": "A1 (M8)",
+   "pages": "L035 L036 L038 L040 L043 L049 L052 L056 L058 L060",
+   "key": "ENERGY body · year.core_under",
+   "quote": "L035: Fire \"a support your chart runs short of\" and Earth \"a strength your chart runs short of\"; L058: \"a strength your chart has always run short of\" and \"a Mind your chart runs short of\"",
+   "issue": "These units fire whatever the scarcity, so ten of my 30 pages call two different welcomed energies the one the chart lacks. That breaks M8, which allows only the scarcest one to read as need.",
+   "fix": "Rule: only `year.need` (or a unit the engine selects for the scarcest welcomed energy) may say \"short of\", \"need\", \"lacked\" or \"gone without\". Every other grow unit says \"welcomes\", \"wants\" or \"takes in gladly\". Example: core_under becomes \"{el} brings Body for a whole year, a strength your chart welcomes. You stand your ground more easily, as equals begin to treat you as one of them.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-003",
+   "severity": "MAJOR",
+   "criterion": "A4, C",
+   "pages": "21 of the 31 landing units in this group; every page",
+   "key": "TEMPLATED tpl_almanac · land.year.",
+   "quote": "\"A small resentment grows at home this year without a word said, and the quiet costs you ease in the place you rest\" (14 pages); \"Your older relatives gather around one family plan this year, with you at its centre\"",
+   "issue": "The law (and M2) makes the reader the subject of the last sentence, yet most landings make the event the subject and the reader its object. Seven of them also share the frame \"… costs you …\", which repeats on one page (L045: \"costs you a settled place\", \"costs you effort\").",
+   "fix": "Needs an owner ruling, because these lines are shared with the Almanac. Either exempt event landings from the subject law, or rebuild them on a \"You …\" spine. Example: \"You notice a small resentment growing at home this year, with no word said, and you lose some ease in the place you rest.\" Retire the \"costs you\" frame from all but one landing."
+  },
+  {
+   "source": "group-2",
+   "id": "G2-004",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "L036 L043",
+   "key": "ENERGY mind · decade.grow.now",
+   "quote": "\"This decade brings {el}, the Mind your chart has gone without\"",
+   "issue": "On both pages the decade just before brought the same Mind (\"a teacher or a book that opened the world to you\"), so \"gone without\" is false on the page.",
+   "fix": "\"This decade brings {el}, the Mind your chart welcomes, with study and people who look out for you. A course or a good adviser opens a door you had walked past. You learn faster than you expected and rest without apology.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-005",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "L034 L052",
+   "key": "ENERGY expression · chapter_manual.grow",
+   "quote": "\"This chapter opens an outlet your chart has long been short of.\"",
+   "issue": "On L034 the Early Chapter and an early decade carried the same outlet. On L052 three lived Fire decades did. \"Long been short of\" contradicts the page.",
+   "fix": "\"This chapter opens an outlet your chart welcomes. You gain most when you finish what you start and let other people see it.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-006",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "L036",
+   "key": "ENERGY body · chapter.hour.grow.coming",
+   "quote": "\"with a chart that has long gone without it\"",
+   "issue": "Two Water Body decades (2032 to 2051) run straight into this chapter, so \"long gone without\" contradicts them.",
+   "fix": "\"Your Late Chapter carries {el}, your own energy, and your chart is glad of it. From your late forties the people after you stand at your side, and what you have built gives you a firm floor. You grow surer of yourself with every year of it.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-007",
+   "severity": "MINOR",
+   "criterion": "A1, M4",
+   "pages": "L032 L039",
+   "key": "ENERGY body · chapter_manual.release",
+   "quote": "\"You do best when you spend it, on hard work and on people who need what you know.\"",
+   "issue": "The chapter above says \"you push harder than any job needs\", so \"spend it on hard work\" contradicts it. A release unit should carry the reader on a neutral act, not on more effort.",
+   "fix": "\"This chapter fills you with more of your own strength than you can store. You do best when you slow down and give some of it away, to people who need what you know.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-008",
+   "severity": "MINOR",
+   "criterion": "M4",
+   "pages": "L056",
+   "key": "ENERGY action · chapter_manual.release",
+   "quote": "\"You hold your ground when your own strength comes first and the chase comes second.\"",
+   "issue": "M4 wants a neutral act for what carries the reader. This line uses another energy's image instead (Body, \"your own strength\").",
+   "fix": "\"This chapter spreads you thin. You hold your ground when you take one request at a time and let the rest wait.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-009",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "L044",
+   "key": "ENERGY action · chapter.day.grow.coming",
+   "quote": "\"You take on the house as a project of your own\"",
+   "issue": "Its own Family line says \"shared plans over private ones … a joint venture\", so the chapter and the domain line contradict each other.",
+   "fix": "\"Your Home Chapter carries {el}, the energy of Action, and your chart is glad of it. From your mid-thirties a partner and a household widen your reach, with more coming in and more to look after. You take on the house as a shared project, and the effort shows in every corner of it.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-010",
+   "severity": "MINOR",
+   "criterion": "A1 (age fit)",
+   "pages": "L049 L060 (Late Chapter, ages 67 and 64)",
+   "key": "ENERGY mind · chapter_domain.Career.grow",
+   "quote": "\"you do your best work beside someone who wants you to succeed\"",
+   "issue": "This is a mentor line written for the Rising Chapter, and it reads oddly as the Career line of a reader in their sixties.",
+   "fix": "\"In Career, this chapter favours good advice over a bigger title, and you do your best work among people whose judgement you trust.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-011",
+   "severity": "MINOR",
+   "criterion": "A1, AM1",
+   "pages": "L033 L034 L037 L039 L042 L043 L044",
+   "key": "TEMPLATED tpl_almanac · land.year.clash.month",
+   "quote": "\"You leave a role or a team you have outgrown this year, by your own choice or by theirs\"",
+   "issue": "This says how the clash ends (you leave), which AM1 forbids. \"By theirs\" also hints at a dismissal.",
+   "fix": "\"Your place at work changes sharply this year, a new role or a new team, and you take everything you learned with you.\" (If G2-003 is ruled strictly: \"You change course at work this year, a new role or a new team, and you take everything you learned with you.\")"
+  },
+  {
+   "source": "group-2",
+   "id": "G2-012",
+   "severity": "MINOR",
+   "criterion": "D4, A4",
+   "pages": "core_over and core_over.b: L031 L034 L038 L051 L054; heavy (expression): L035 L043 L045 L047 L050 L056 L057; heavy.b (order): L036 L042 L043 L046 L047 L048 L049 L050 L059 L060",
+   "key": "ENERGY body · year.core_over",
+   "quote": "\"though time alone and letting a small point go stay open to you\"; \"are yours to call on\"; \"are always within reach\"; \"but rest you guard on purpose is yours to take\"",
+   "issue": "The carry is framed as something on offer instead of something the reader does. These read as capacity closes, and the reader is not the subject.",
+   "fix": "core_over: \"… You meet every exchange as a contest of wills, and you get through it on time alone and by letting small points go.\" core_over.b: \"… Each old rivalry you thought had cooled flares up, and you keep it small with a slower pace and help from someone close.\" heavy (expression): \"… You speak more sharply than you mean, and a pause before each reply keeps you kind.\" heavy.b (order): \"… Demands roll over from last year into this one, and you guard your rest on purpose.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-013",
+   "severity": "MINOR",
+   "criterion": "C",
+   "pages": "L032 L038 (frame.year); L033 L042 (resists.grow); L060 (drains.release.lived)",
+   "key": "TEMPLATED tpl_almanac · land.year.frame.year",
+   "quote": "\"Your older relatives gather around one family plan this year, with you at its centre.\" twice on one page",
+   "issue": "The same unit appears twice, word for word, on one page.",
+   "fix": "Engine: give landings and ground lines a `.b` variant used on a second hit within a page (as years already do). Alternatively, show a repeated ground line only the first time."
+  },
+  {
+   "source": "group-2",
+   "id": "G2-014",
+   "severity": "MINOR",
+   "criterion": "A3, D1",
+   "pages": "L031",
+   "key": "",
+   "quote": "\"a day of silence before you object\"; \"holding back the first reply\"; \"talk less\"; \"share less\"; \"wait before you answer and speak once\"; \"listen more than you talk\"",
+   "issue": "Chapter, domains, manual and the next chapter all give one piece of advice six times. The manual pre-empts nothing new.",
+   "fix": "Rewrite the manual so it says how the energy works instead of repeating the advice: \"This chapter loosens your tongue and your appetite more than your chart can use. Your words land harder when there are fewer of them, and you keep your standing that way.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-015",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "L046",
+   "key": "ENERGY body · decade.grow.late.lived.a",
+   "quote": "\"decided for yourself and asked fewer people for leave\"; \"You decide for yourself where you live\"; \"You stop asking permission\"",
+   "issue": "Three units in a row say the same thing.",
+   "fix": "lived.a: \"These years brought {el} into your stride and your say, a strength your chart had wanted. You walked further and took on what others had always done for you.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-016",
+   "severity": "MINOR",
+   "criterion": "A3, C",
+   "pages": "L045",
+   "key": "ENERGY expression · decade.release.late.lived.a",
+   "quote": "\"with opinions that arrived before anyone asked\"",
+   "issue": "The now decade under it says \"before anyone asks for it\".",
+   "fix": "\"These years brought {el} to the family table as a sharp tongue, with opinions ready for every topic. You kept your welcome by letting the people after you finish their sentences.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-017",
+   "severity": "MINOR",
+   "criterion": "A3, C",
+   "pages": "L031 L044",
+   "key": "ENERGY mind · decade.release.coming.a",
+   "quote": "\"as advice you never asked for, from people who mean well\"",
+   "issue": "It follows decade.release.now, which says \"help you never asked for\", so the phrase repeats on the page.",
+   "fix": "\"This decade brings {el} as well-meant advice from every side. You trust your own reading of things after a walk on your own clears the noise.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-018",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "L060",
+   "key": "ENERGY expression · decade.release.early.a",
+   "quote": "\"because someone at home heard you out\"",
+   "issue": "The Early Chapter right above has \"an older relative who heard you out\".",
+   "fix": "\"These years brought {el} in a rush, with a quick tongue that got you into trouble in class. You learned to ask before you argued, and the trouble grew rarer.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-019",
+   "severity": "MINOR",
+   "criterion": "A3, C",
+   "pages": "L038 L040",
+   "key": "ENERGY mind · chapter_domain.Career.release",
+   "quote": "\"starting before you feel ready\"",
+   "issue": "The chapter line above already says \"move before you feel ready, one small step a week\".",
+   "fix": "\"In Career, this chapter favours a first draft handed in over one more round of preparing, but you already know enough to begin.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-020",
+   "severity": "MINOR",
+   "criterion": "C",
+   "pages": "L046 L047 L058",
+   "key": "ENERGY body · chapter_domain.Career.grow",
+   "quote": "\"a seat at the table over a place in the queue\"",
+   "issue": "Family.grow body, shown on the same pages, ends \"the place you claim at the table\". The word \"table\" and the image repeat.",
+   "fix": "\"In Career, this chapter favours a voice in the room over a place in the queue, and the footing you find comes from people who work at your level.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-021",
+   "severity": "MINOR",
+   "criterion": "A1 (display)",
+   "pages": "L035 L059",
+   "key": "",
+   "quote": "\"Now · a Wood decade · 2016 to 2025\" (read in November 2026)",
+   "issue": "The decade marked \"now\" ends before the current year, and the next one is labelled 2026 and \"coming\". The labels are calendar years, but the switch happens at the reader's birthday.",
+   "fix": "Engine: label decades by the year the switch happens, or take the \"now\" decade to be the one whose label range contains this year."
+  },
+  {
+   "source": "group-2",
+   "id": "G2-022",
+   "severity": "MINOR",
+   "criterion": "M9",
+   "pages": "L036 (2012 to 2021, ages 11 to 20), L043 (2016 to 2025), L050 (1970 to 1979)",
+   "key": "",
+   "quote": "\"These years brought {el} as strict rules and grown-ups who were quick to correct you\"",
+   "issue": "Child lines appear on decades lived only half before 16. M9 says \"mostly\".",
+   "fix": "Engine: `.early` only when six or more of the ten years fall before 16."
+  },
+  {
+   "source": "group-2",
+   "id": "G2-023",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L031 L033 L038 L039 L044",
+   "key": "ENERGY action · chapter.hour.grow.coming",
+   "quote": "\"make them pay\"",
+   "issue": "The idiom reads as revenge.",
+   "fix": "\"Your Late Chapter carries {el}, the energy of Action, and your chart still wants it. From your late forties new chances keep coming within reach, and the people after you bring many of them. You pick the few that matter and make them pay off.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-024",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L051",
+   "key": "ENERGY action · chapter.hour.grow.now",
+   "quote": "\"You stay busy by choice, which is a different thing from staying busy.\"",
+   "issue": "The sentence is a tautology.",
+   "fix": "\"Your Late Chapter carries {el}, the energy of Action, and your chart is still eager for it. Since your late forties what you built has kept paying out, with fresh plans brought in by the people after you. You stay busy by choice, which is a different thing from being kept busy.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-025",
+   "severity": "TWEAK",
+   "criterion": "A2, C",
+   "pages": "L036 L042 L043 L045 L046 L047 L050",
+   "key": "ENERGY order · decade.release.early.a",
+   "quote": "\"grown-ups who were quick to correct you … a quiet place no one else corrected\"",
+   "issue": "\"Correct\" appears twice, and a place cannot be \"corrected\".",
+   "fix": "\"These years brought {el} as strict rules and grown-ups who were quick to correct you. You kept a corner of calm that belonged to you, a quiet place no one else could reach.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-026",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L036 L042 L043 L046 L047 L048 L049 L050 L059 L060",
+   "key": "ENERGY order · year.heavy",
+   "quote": "\"from above and from the side … stay on your side\"",
+   "issue": "\"Side\" appears twice in one sentence.",
+   "fix": "\"{el} brings Order for a whole year, more duty than your chart can use. Your time is claimed from above and from the side, while a quiet hour alone and someone close to talk to stay with you.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-027",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L036 L037 L042 L045 L046 L048 L049 L057 L058 L059 L060",
+   "key": "ENERGY mind · year.grow",
+   "quote": "\"shelter your chart welcomes … shelter is offered\"",
+   "issue": "\"Shelter\" appears twice in two sentences.",
+   "fix": "\"{el} brings Mind for a whole year, shelter your chart welcomes. Your thinking slows to a useful pace, and help is offered before you have to ask for it.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-028",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L041 L055",
+   "key": "TEMPLATED tpl_chapters · ground.presses.release",
+   "quote": "\"the Wood is busy holding it down, but you carry less of its weight meanwhile\"",
+   "issue": "The joint should be causal, not contrastive.",
+   "fix": "\"Under it runs {g}, and the {e} is busy holding it down, so you carry less of its weight meanwhile.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-029",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L050 L051 L057",
+   "key": "TEMPLATED tpl_chapters · ground.presses.release.lived",
+   "quote": "\"holding it down, and you took less of the weight\"",
+   "issue": "Two \"and\" joints in a row; the second should be causal.",
+   "fix": "\"Under it ran {g}, and the {e} wore part of its force away holding it down, so you took less of the weight.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-030",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L044",
+   "key": "ENERGY body · decade.release.coming.b",
+   "quote": "\"your own way at home … a draw at home\"",
+   "issue": "\"At home\" appears twice.",
+   "fix": "\"This decade brings {el} with a habit of holding on to your own way at home. You find a slower answer eases it, and a draw there is worth more to you than a win.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-031",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L057 L059",
+   "key": "ENERGY action · decade.release.late.now",
+   "quote": "\"a house to manage … You manage it\"",
+   "issue": "\"Manage\" appears twice.",
+   "fix": "\"This decade brings {el}, an Action that works against your chart, with a house to manage and money the people after you lean on. Each week brings another bill, another repair or another request. You get through it with help from someone close and a slower pace that lets some things wait.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-032",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "L053",
+   "key": "ENERGY body · decade.release.late.now",
+   "quote": "\"every small choice … let small things pass\"",
+   "issue": "\"Small\" appears twice.",
+   "fix": "\"This decade brings {el} through a firm hand on how home and family should run, a surplus your chart does better without. The people after you push back, and every small choice turns into a stand. With an hour to yourself each morning, you meet the day readier to let little things pass.\""
+  },
+  {
+   "source": "group-2",
+   "id": "G2-033",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L046 L056",
+   "key": "ENERGY expression · chapter.day.release.lived",
+   "quote": "\"Long quiet evenings let you talk yourself out\"",
+   "issue": "It is unclear how quiet evenings let you talk. The intended sense is that time alone wore the urge down.",
+   "fix": "\"Your Home Chapter carried {el}, the energy of Expression, in a chart that worked better without it. Between your mid-thirties and late forties you said what you thought at home and spent on whatever pleased you. Long quiet evenings wore the urge down, and you came away choosing your words with more care.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-001",
+   "severity": "MAJOR",
+   "criterion": "A2, A1, C",
+   "pages": "L062 L063 L064 L068 L069 L070 L072 L075 L076 L077 L078 L080 L081 L082 L084 L085 L086 L088 L089 L090 L999",
+   "key": "",
+   "quote": "\"In Wealth, this chapter favours a clear budget over a bigger income, **but** you rest easier once every bill has a name and a date.\" · \"In Career, this chapter favours one commitment over several, **but** you do your best with fewer people to answer to.\"",
+   "issue": "The M2 rewrite swapped \", and you\" for \", but you\", so a clause that agrees with the first now opens on a turn, and the line reads as a contradiction.",
+   "fix": "**Evidence:** 27 of the 68 domain units seen here (21 of 31 pages) close on \", but you\", and 26 of them have no contrast. The first-audit pages had \", and you\" in the same slot, for example \"…, and you sleep better once every bill has a name and a date\". Units: action Career.release, Growth.release, Health.grow, Health.release, Love.grow, Wealth.release · body Family.release, Health.grow, Love.release, Mind.release · expression Career.release, Health.release, Mind.release, Social.release, Wealth.release · mind Career.release, Family.release, Health.grow, Health.release, Love.grow, Mind.release, Wealth.release · order Career.release, Family.release, Growth.grow, Growth.release, and Love.release, the one real contrast, which stays. **Rule:** a domain line's second clause carries the logic it really has. Make it a second sentence led by \"You\" when it extends the favour, a \"so you\" clause when it is the result, and keep \"but\" only for a true turn. Example: \"In Career, this chapter favours one commitment over several. You do your best work with fewer people to answer to.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-002",
+   "severity": "MAJOR",
+   "criterion": "A4 (M2, brief law)",
+   "pages": "all 31 pages",
+   "key": "",
+   "quote": "\"the quiet costs you ease in the place you rest\" · \"and no one says why\" · \"a question you opened last year gets the time it deserves\" · \"the load on you is topped up as fast as you put it down\" · \"and those who follow your lead can tell\" · \"and it is a price worth paying\"",
+   "issue": "The law and M2 keep the reader as subject of the last sentence. About 62 units end with a thing or another person as subject and the reader as object (\"costs you\", \"asks you\", \"on you\").",
+   "fix": "**Evidence:** every page carries 6 to 10 such closes. Year: action year.grow, .grow.b, .need, .need.b, .even.b; body core_under.b, core_over.b, core_even.b; expression year.grow, .grow.b, .heavy.b, .even.b; mind year.grow, .grow.b, .heavy, .need, .need.b, .even, .even.b; order year.heavy, .heavy.b, .need, .need.b, .even. Landings: harm.day, harm.hour, harm.month.late, harm.year, harm.year.late, punish.day, punish.month.late, clash.hour, clash.month.late, clash.year, clash.year.late, frame.day, frame.month.late, frame.year, frame.year.late, repeat.day, repeat.month. Underneath: drains.grow, drains.release, drains.release.lived, feeds.grow, feeds.release, feeds.release.lived, matches.grow, resists.release, resists.release.lived. Chapters and decades: action chapter.day.grow.now and .release.now, order chapter.day.grow.now, chapter.hour.grow.now, chapter.hour.release.now and .release.coming, body decade.grow.now and decade.release.now, expression decade.release.late.now, order decade.release.late.now, action decade.grow.now, action decade.release.lived.b. **Rule:** the final clause has \"you\" as its grammatical subject. Where AM4 or M2 rules out \", and you\", end on a full stop and a short \"You …\" sentence, or on \"so you\" or \"while you\". Example (harm.day): \"A small resentment grows at home this year without a word said. You lose some ease in the place you rest.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-003",
+   "severity": "MAJOR",
+   "criterion": "D2, D3",
+   "pages": "nearly every page (L061 to L090, L999)",
+   "key": "",
+   "quote": "\"Finishing one thing before you started the next\" (Expression) · \"one piece finished over three begun\" (Expression) · \"each thing you finish is worth two you begin\" (Action) · \"One piece of work finished over two half started\" (Action) · \"You kept level by finishing what you started\" (Body) · \"One skill used daily over three half-learned\" (Mind) · \"You gain most when you finish what you start\" (Expression **grow**)",
+   "issue": "The neutral carry of M4, one thing at a time, has spread into favours, domain and manual lines. Expression, Action, Body and Mind release now read as one force, and Expression grow prescribes the same act as its release pole.",
+   "fix": "**Evidence:** 16 units in four functions and both poles, and two or three of them on most pages, for example L063 (Action Career, Expression year.heavy.b, Expression decade). **Rule:** \"one thing at a time\" stays in the carry slot of a release or heavy unit. Favours, domain and manual lines name the function's own force. Expression is the voice and the appetite (say less, eat plainer). Action is reach and money (fewer ventures, a budget). Mind is thinking and shelter (decide, act). Body is self and peers (yield, share the load). Expression **grow** must not prescribe finishing, because finishing is restraint. A grow line favours showing and making (\"You gain most when you show what you make\")."
+  },
+  {
+   "source": "group-3",
+   "id": "G3-004",
+   "severity": "MAJOR",
+   "criterion": "D1, A3",
+   "pages": "L062 L075 L076 L089 (Expression release), L072 L078 L085 (Mind release)",
+   "key": "",
+   "quote": "L089: \"An hour of quiet each evening settles it\" · \"holding back the first reply\" · \"wait before you answer and speak once\" · \"With an hour alone each day to cool your views\" · \"a pause before each reply\" (five times on one page). L078: \"make one small decision a day alone\" · \"favours a decision made over a question kept open\" · \"one question gets settled\"",
+   "issue": "On the current chapter, the chapter's carry, a domain line, the manual and a year line restate one act. The manual, meant to say how the energy works, adds nothing.",
+   "fix": "**Evidence:** 7 pages, 4 to 5 restatements each. **Rule:** (1) the manual names the mechanism of the energy for the reader, not the carry, for example Expression release: \"This chapter loosens your tongue and your appetite more than your chart can use. Each word you hold back keeps more of your standing than the one you say.\" (2) A domain line on the current chapter must not reuse the chapter line's carry act: Expression Family.release should favour a home act (\"cooking plain over cooking rich\"), not a pause before replying. (3) Where the current chapter and a year share function and direction, the year line is the one that may keep the carry."
+  },
+  {
+   "source": "group-3",
+   "id": "G3-005",
+   "severity": "MINOR",
+   "criterion": "A1, D3 (M3)",
+   "pages": "L066 L068 L070 L073 L083 / L072 L073 L074",
+   "key": "",
+   "quote": "\"Under it ran Earth, held down by the Wood, and you had solid ground to build the gift on.\" · \"…you have firm footing for every use of the gift.\"",
+   "issue": "The energy above spends force holding the ground down. presses.release reads this correctly as less weight, but presses.grow reads the same act as extra support, so the two poles disagree.",
+   "fix": "lived: \"Under it ran {ground}, held down by the {el}, and holding it took part of the gift, so you built on what was left.\" now: \"Under it runs {ground}, which the {el} holds down, and holding it spends part of the gift, so you make the most of what reaches you.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-006",
+   "severity": "MINOR",
+   "criterion": "A1 (M9)",
+   "pages": "L063 L069 L070 L072 L073 L075 L076 L078 L084 L085 L087",
+   "key": "",
+   "quote": "\"children your age who wanted the same toys\" (11–20, L063) · \"in class and in the playground\" (11–20, L072) · \"pockets full of finds\" (11–20, L087) · \"a restless child\" (11–20, L076)",
+   "issue": "Decades that start at eleven get the child line although half of them is lived after sixteen. M9 asks for \"mostly before 16\", which a start at ten or under meets.",
+   "fix": "Resolver: `.early` only when the decade starts at ten or under. Text, so the `.b` child lines fit eleven to twenty: body: \"These years brought {el} through classmates who wanted the same places and the same turn. You learned to stand up for your share, and you never quite stopped.\" Expression and action rewrites follow the same pattern."
+  },
+  {
+   "source": "group-3",
+   "id": "G3-007",
+   "severity": "MINOR",
+   "criterion": "A1 (M8)",
+   "pages": "L079 L087",
+   "key": "",
+   "quote": "\"and your chart has needed it for years\"",
+   "issue": "Only the scarcest welcomed energy may read as need. On both pages the year need is Action, so Order is ranked as need beside it. The close also makes \"the week\" the subject.",
+   "fix": "\"Your Home Chapter carries {el}, the energy of Order, and your chart has long been glad of it. Since your mid-thirties home has given you a clear place, a partner who counts on you and routines that hold the week together. You know what each day asks of you, and you stand straighter for it.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-008",
+   "severity": "MINOR",
+   "criterion": "A1, D4",
+   "pages": "L069 L074 L075",
+   "key": "",
+   "quote": "\"You pay for it by sharing credit with equals, and it is a price worth paying.\"",
+   "issue": "A grow decade closes as a cost, with a stock phrase, and the reader is not the subject.",
+   "fix": "\"This decade brings {el}, your own energy, and your chart has gone short of it. You stand straighter at work and among peers and hold ground you once gave away. You share credit with equals and lose nothing by it.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-009",
+   "severity": "MINOR",
+   "criterion": "A1, A4",
+   "pages": "L065",
+   "key": "",
+   "quote": "\"You pay for that authority in daily attention, and those who follow your lead can tell.\"",
+   "issue": "A grow chapter closes on a price and on other people.",
+   "fix": "\"Your Late Chapter carries {el}, the energy of Order, and your chart has been glad to have it. Since your late forties you have held a settled place, the one whose word decides and whose standards the people after you take up. You give that authority daily attention, and you carry it lightly.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-010",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "L066 L074 (Balanced)",
+   "key": "",
+   "quote": "\"a strength your chart has always run short of\"",
+   "issue": "\"Always\" is a claim the chart cannot make, and it is false on a Balanced chart.",
+   "fix": "\"This chapter tops up a strength your chart runs short of. You get the most from it among equals, in teams and contests where you can measure yourself.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-011",
+   "severity": "MINOR",
+   "criterion": "D4",
+   "pages": "L076 L089",
+   "key": "",
+   "quote": "\"a partner has borne the brunt of your restlessness\"",
+   "issue": "This casts the partner as the victim of the reader, which is the charge BIZ_04 rules out.",
+   "fix": "\"Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties, appetite and opinion have filled the house, and your restlessness has set its pace. An hour of quiet each evening settles it, and you are learning to let a partner have the last word.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-012",
+   "severity": "MINOR",
+   "criterion": "D4, A1",
+   "pages": "L080 L084 L088",
+   "key": "",
+   "quote": "\"with a partner as stubborn as you … yielding at home costs you nothing\"",
+   "issue": "Judges the partner's character and promises that yielding costs nothing.",
+   "fix": "\"Your Home Chapter carries {el}, your own energy, in a chart that is already crowded with it. Since your mid-thirties, the household has felt like a contest of wills, and you rarely give way first. Time apart for your own interests cools it down, and you are learning that yielding at home costs you little.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-013",
+   "severity": "MINOR",
+   "criterion": "A1 (claim the chart cannot know)",
+   "pages": "L083",
+   "key": "",
+   "quote": "\"the affection you show openly is returned in kind\"",
+   "issue": "Guarantees a partner's response.",
+   "fix": "\"In Love, this chapter favours laughing with a partner over keeping things serious. You show your affection openly, and it comes easily.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-014",
+   "severity": "MINOR",
+   "criterion": "A1 (prediction law)",
+   "pages": "L081",
+   "key": "",
+   "quote": "\"You are paid back for every offer you take up\"",
+   "issue": "Guarantees an outcome on every act.",
+   "fix": "\"This chapter rewards reaching. You gain most from the offers you take up and put to use straight away.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-015",
+   "severity": "MINOR",
+   "criterion": "A4, A2",
+   "pages": "L081",
+   "key": "",
+   "quote": "\"Your home grows solid around the plans you see through, one fixed thing at a time.\"",
+   "issue": "The house is the subject, \"fixed\" is ambiguous, and a release carry phrase sits in a grow line.",
+   "fix": "\"Your Home Chapter carries {el}, the energy of Action, and your chart takes it in gladly. Since your mid-thirties the household has become a place of making things work, with a partner beside you and more to manage each year. You see each plan through, and the home grows solid around you.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-016",
+   "severity": "MINOR",
+   "criterion": "A3, C",
+   "pages": "L065 L074",
+   "key": "",
+   "quote": "\"added to your name at home. You left it with a home that ran well and a name for doing what you said.\"",
+   "issue": "\"Name\" ×2, \"home\" ×3 and \"ran\" ×2 in two sentences.",
+   "fix": "\"Your Home Chapter carried {el}, the energy of Order, and your chart welcomed its firm hand. From your mid-thirties to your late forties the household ran on agreements you and a partner kept, and every promise added to your name. You left those years with a home in good order and a reputation for doing what you said.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-017",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "about 40 domain units, every page",
+   "key": "",
+   "quote": "\"In Career, this chapter favours…\" · \"In Love, this chapter favours…\"",
+   "issue": "Five domains open on a capitalised chip label used as a place, and \"In Love\" reads as \"being in love\". Family (\"At home\"), Social (\"With friends\") and Mind (\"In your thinking\") already use plain English.",
+   "fix": "Swap the frame: \"At work,\" · \"With money,\" · \"For your body,\" · \"In what you learn,\" · \"With a partner,\". For example: \"With a partner, this chapter favours hearing them out over making your point, and you win more warmth by asking than by telling.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-018",
+   "severity": "MINOR",
+   "criterion": "C",
+   "pages": "L062 (drains.release.lived ×2), L085 L089 (matches.release.lived ×2), L066 (resists.grow ×2), L073 (presses.grow and .lived)",
+   "key": "",
+   "quote": "\"Under it ran Wood, which slowly drew off the Water, and the pressure on you thinned year by year.\" … \"Under it ran Metal, which slowly drew off the Earth, and the pressure on you thinned year by year.\"",
+   "issue": "The same underneath sentence appears twice on one page with only the elements changed.",
+   "fix": "Add `.b` variants that the resolver uses for the second occurrence, for example drains.release.lived.b: \"Under it ran {ground}, which drew the {el} off as the years went on, so you carried a lighter share.\" matches.release.lived.b: \"Under it ran {el} again, the same strain at the root, and you learned to carry it with no softer layer below.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-019",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "L061 L062 L063 L064 L070 L071 L073",
+   "key": "",
+   "quote": "\"and the pressure on you thinned year by year\"",
+   "issue": "\"Pressure\" is Order's word, and it is used here for Mind, Expression and Action too.",
+   "fix": "\"Under it ran {ground}, which slowly drew off the {el}, so you carried less of it year by year.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-020",
+   "severity": "MINOR",
+   "criterion": "C, A3",
+   "pages": "L070 L072 L078 L081 L088",
+   "key": "",
+   "quote": "\"You got moving one small step at a time\" / \"You get them moving one plain step at a time\" against \"What you have planned stays on paper, though one plain task at a time puts your hands to work.\"",
+   "issue": "Mind-release decades and the Mind-heavy year share the frame \"one … at a time\" and, on L072, \"stay on paper\".",
+   "fix": "late.coming.b: \"This decade brings {el} as plans for the house and the garden that wait to be begun. You start them with someone close lending a hand, a little each week.\" lived.a: \"These years brought {el} and more study than action, and what you knew sat waiting for use. You started using it before you felt ready, until the knowing began to earn its keep.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-021",
+   "severity": "MINOR",
+   "criterion": "C, A3",
+   "pages": "L072",
+   "key": "",
+   "quote": "\"you learned that you were worth hearing\" / \"sure that your voice was worth hearing\"",
+   "issue": "The same claim appears twice on one page. The unit also runs to twenty (G3-006).",
+   "fix": "\"These years brought {el} and a louder voice at school, in class and among friends. Someone in your first home enjoyed your stories, and you kept telling them.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-022",
+   "severity": "MINOR",
+   "criterion": "C",
+   "pages": "L067",
+   "key": "",
+   "quote": "\"make the house feel lived in\" / \"make a house feel like yours\"",
+   "issue": "Same frame twice on one page.",
+   "fix": "\"At home, this chapter favours cooking and making things together over keeping the place tidy, and you fill the rooms with what you make.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-023",
+   "severity": "MINOR",
+   "criterion": "C, A4",
+   "pages": "L071 L072",
+   "key": "",
+   "quote": "\"cools quietly this year\" ×2 on L072",
+   "issue": "Same verb and adverb in two landings on one page, and the reader is the object.",
+   "fix": "\"A warmth you counted on in your wider family fades this year without a word, and you work harder to reach it.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-024",
+   "severity": "MINOR",
+   "criterion": "C, A2",
+   "pages": "L070 L080 L084 L088",
+   "key": "",
+   "quote": "\"over winning the point, but you keep more peace than any argument would win you\" … \"what you give up in winning\"",
+   "issue": "\"Win\" appears three times in two lines, with a non-contrastive \"but\".",
+   "fix": "\"At home, this chapter favours letting someone else be right over having the last word. You keep more peace than any argument would bring you.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-025",
+   "severity": "MINOR",
+   "criterion": "D4",
+   "pages": "L088",
+   "key": "",
+   "quote": "\"the days you are easiest to live with\"",
+   "issue": "Judges the reader by others' comfort.",
+   "fix": "\"In Health, this chapter favours hard exercise over sitting still, and you are calmer on the days you burn off the extra force.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-026",
+   "severity": "MINOR",
+   "criterion": "A1, D2",
+   "pages": "L999",
+   "key": "",
+   "quote": "\"steady weight on your chart … at the same weight\"",
+   "issue": "An even year reads as a load, and \"weight\" appears twice.",
+   "fix": "\"{el} brings Order for a second year running, a steady frame your chart takes in its stride. You keep the roles you held last year at the same size, with no new rank to chase and none to defend.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-027",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "L088",
+   "key": "",
+   "quote": "\"a skill you build quietly over a test of strength\" + \"Beating your own mark over beating someone else's\"; \"hard exercise over sitting still\" + \"Sweating it off over bottling it up\"",
+   "issue": "M6 skips only the current chapter's domains, so a coming chapter of the same energy reads Growth and Health a second time.",
+   "fix": "Rule extension to M6: the current decade's favours also skip domains that a coming chapter of the same function and direction reads on the page."
+  },
+  {
+   "source": "group-3",
+   "id": "G3-028",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L066 L067 L075 L078 L079 L080 L083 L086",
+   "key": "",
+   "quote": "\"…at every step, but you have to work for each share of the gift.\"",
+   "issue": "The second clause is the result, not a contrast.",
+   "fix": "\"Under it runs {ground}, which pushes back against the {el} at every step, so you work for each share of the gift.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-029",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L065 L086",
+   "key": "",
+   "quote": "\"…holding it down, and you took less of the weight.\"",
+   "issue": "Two \"and\"s chain the clauses.",
+   "fix": "\"Under it ran {ground}, and the {el} wore part of its force away holding it down, so you took less of the weight.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-030",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L061 L073 L080 L082 L086",
+   "key": "",
+   "quote": "\"…is busy holding it down, but you carry less of its weight meanwhile.\"",
+   "issue": "Non-contrastive \"but\", \"its\" has two possible referents, and \"meanwhile\" dangles.",
+   "fix": "\"Under it runs {ground}, and the {el} is busy holding it down, so you carry less of the {el}'s weight.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-031",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L063 L075 L076 L082",
+   "key": "",
+   "quote": "\"…but you find no softer layer underneath.\"",
+   "issue": "\"Under it … underneath\" is redundant, and the \"but\" is not a turn.",
+   "fix": "\"Under it runs {el} as well, a pull at both levels, so you find no softer layer below.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-032",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L069 L077 L086 L090",
+   "key": "",
+   "quote": "\"quick to correct you … a quiet place no one else corrected\"",
+   "issue": "\"Correct\" appears twice.",
+   "fix": "\"These years brought {el} as strict rules and grown-ups who were quick to correct you. You kept a corner of calm that belonged to you, a quiet place no one else could reach.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-033",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L080 L081",
+   "key": "",
+   "quote": "\"before each move … the plans start to move\"",
+   "issue": "\"Move\" appears twice.",
+   "fix": "\"This decade brings {el}, more Mind than your chart can use, with plans that stay plans and help you never asked for. You think a step too long before each move. You find your footing by doing one thing at a time, and the plans get going.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-034",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L076 L077 L078 L079 L084 L086",
+   "key": "",
+   "quote": "\"You meet closer watching from the older generation\"",
+   "issue": "Broken collocation.",
+   "fix": "\"You come under closer watch from the older generation this year, with old family expectations that grind on your patience.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-035",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L063 L064 L071 L075",
+   "key": "",
+   "quote": "\"a sharp voice at work … finishing the work\"",
+   "issue": "\"Work\" appears twice.",
+   "fix": "\"These years brought {el} as a sharp voice at work, with friction from people above you. You won respect by finishing the job before you spoke about it.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-036",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L061 L063 L068 L071 L076 L077 L086",
+   "key": "",
+   "quote": "\"from above and from the side … stay on your side\"",
+   "issue": "\"Side\" appears twice with two meanings.",
+   "fix": "\"{el} brings Order for a whole year, more duty than your chart can use. Your time is claimed from above and from the side, while a quiet hour alone and someone close to talk to stay yours.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-037",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L061 L062 L064 L065 L066 L067",
+   "key": "",
+   "quote": "\"a change of plan or of place, and the change asks you\"",
+   "issue": "\"Change\" appears twice.",
+   "fix": "\"Something shifts in an old family tie this year, a new plan or a new place, and it asks you to give ground.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-038",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L087",
+   "key": "",
+   "quote": "\"trips … the next trip\"",
+   "issue": "\"Trip\" appears twice.",
+   "fix": "\"These years brought {el} through trips, outings and things to explore beyond the front door. You came home with pockets full of finds and plans for the next outing.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-039",
+   "severity": "TWEAK",
+   "criterion": "A1, A2",
+   "pages": "L084",
+   "key": "",
+   "quote": "\"Out of doors with friends, you found out what you could manage alone.\"",
+   "issue": "\"With friends\" contradicts \"alone\".",
+   "fix": "\"These years brought {el} as grown-ups who did the things you could already do yourself. Out of doors on your own, you found out what you could manage.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-040",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L078 L081 L083",
+   "key": "",
+   "quote": "\"you made things … liked what you made\"",
+   "issue": "\"Made\" appears twice.",
+   "fix": "\"Your Rising Chapter carried {el}, the energy of Expression, and your chart came alive with it. From your late teens to your mid-thirties you made things, spoke up and found friends who liked your work. You came out of that chapter with a voice people recognised.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-041",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L083",
+   "key": "",
+   "quote": "\"things you made … enjoy things\"",
+   "issue": "\"Things\" appears twice.",
+   "fix": "\"Your Home Chapter carries {el}, the energy of Expression, and your chart is warmed by it. Since your mid-thirties, home has been full of cooking, laughter and things you made with a partner. You let yourself enjoy it all in these years without first earning it.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-042",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L087",
+   "key": "",
+   "quote": "\"your own way at home … a draw at home\"",
+   "issue": "\"At home\" appears twice.",
+   "fix": "\"This decade brings {el} with a habit of holding on to your own way at home. You find a slower answer eases it, and a draw is worth more to you than a win.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-043",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L090",
+   "key": "",
+   "quote": "\"the energy of Order, an energy that works against your chart\"",
+   "issue": "\"Energy\" appears twice. The sibling units use \"one that\".",
+   "fix": "\"Your Home Chapter carries {el}, the energy of Order, one that works against your chart. Since your mid-thirties, home has come with rules and duties, a partner with firm views and a household that runs on schedule. You bend more than you would choose, and a walk with someone who hears you out straightens you by morning.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-044",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L078 L080",
+   "key": "",
+   "quote": "\"You pick the few that matter and make them pay.\"",
+   "issue": "\"Make them pay\" reads as revenge.",
+   "fix": "\"Your Late Chapter carries {el}, the energy of Action, and your chart still wants it. From your late forties new chances keep coming within reach, and the people after you bring many of them. You pick the few that matter and make each one pay its way.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-045",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L061 L063",
+   "key": "",
+   "quote": "\"The family calendar fills in your hand\"",
+   "issue": "The reader has to parse it twice: is the calendar filling, or being filled by you?",
+   "fix": "\"This decade brings {el}, an Order that works against your chart, as duties that land on you because others expect you to take them. The family calendar is yours to fill, and other people set its pace. What carries you is a walk most mornings and one friend you can be idle with.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-046",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L080",
+   "key": "",
+   "quote": "\"your own reading … a walk on your own\"",
+   "issue": "\"Own\" appears twice.",
+   "fix": "\"This decade brings {el} as advice you never asked for, from people who mean well. You trust your own reading of things after a walk alone clears the noise.\""
+  },
+  {
+   "source": "group-3",
+   "id": "G3-047",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "L064",
+   "key": "",
+   "quote": "\"the ones who ask nothing of your purse\"",
+   "issue": "\"Purse\" is dated and gendered in this register.",
+   "fix": "\"With friends, this chapter favours a few close people over a wide circle, and you keep the ones who ask nothing of your money.\""
+  }
+ ],
+ "scores": [
+  {
+   "source": "group-1",
+   "page": "L001",
+   "B": 3,
+   "row": [
+    "L001",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Earth and Fire both read as scarce (M8). The Early decade toys line runs to age twenty (M9). The manual repeats the chapter and Family line."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L002",
+   "B": 3,
+   "row": [
+    "L002",
+    "4",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The logic holds, but seven units use a false \", but you\"."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L003",
+   "B": 3,
+   "row": [
+    "L003",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Sound. The Home line charges the partner, and the manual restates the domain line."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L004",
+   "B": 3,
+   "row": [
+    "L004",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The ground line and the Year Gate join line each appear twice, word for word."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L005",
+   "B": 3,
+   "row": [
+    "L005",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The Late line says the chart \"has long gone without\" Metal right after a Metal Home Chapter. Mind and Body both read as scarce."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L006",
+   "B": 4,
+   "row": [
+    "L006",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "The Home line, a slow walk after dinner, is strong. Two ground lines share one frame."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L007",
+   "B": 3,
+   "row": [
+    "L007",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Mind is the need and Body also \"runs short\" in four units (M8)."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L008",
+   "B": 3,
+   "row": [
+    "L008",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Order, Action and Expression all read as scarce. Only Expression is the need."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L009",
+   "B": 3,
+   "row": [
+    "L009",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "No birth hour, and the page closes correctly. Order scarcity agrees with the need year. One missing comma."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L010",
+   "B": 4,
+   "row": [
+    "L010",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "\"Rules worth keeping\" is a best line. Action reads as \"hungry for\" with no need year."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L011",
+   "B": 3,
+   "row": [
+    "L011",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The Career line repeats the chapter's \"finishing what you started\"."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L012",
+   "B": 3,
+   "row": [
+    "L012",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Action reads as \"hungry for\". \"You never asked for\" appears twice, and surplus plus walk appear twice."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L013",
+   "B": 3,
+   "row": [
+    "L013",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Three energies read as scarce, nine false joints, and \"standard\" ×3."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L014",
+   "B": 3,
+   "row": [
+    "L014",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Action reads as \"hungry for\" twice beside an Order need year. \"Before you feel ready\" appears twice."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L015",
+   "B": 3,
+   "row": [
+    "L015",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "2",
+    "Balanced chart. Body, Order and Mind all read as lacking, and the 2026 year says Body is \"at an even level\"."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L016",
+   "B": 3,
+   "row": [
+    "L016",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The Body gift decade closes on a price and \"it\", not the reader."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L017",
+   "B": 3,
+   "row": [
+    "L017",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Sound. \"Correct … corrected\" in one unit."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L018",
+   "B": 4,
+   "row": [
+    "L018",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "The Early line, about the one person who softened things, is a best line. Mind is the need while Body \"runs short\"."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L019",
+   "B": 3,
+   "row": [
+    "L019",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Four walks, and two Mind release decades both say \"never asked for\"."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L020",
+   "B": 3,
+   "row": [
+    "L020",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Body has \"gone short\" while Mind is the need year (M8)."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L021",
+   "B": 3,
+   "row": [
+    "L021",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Three energies read as scarce. The same ground line appears three times."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L022",
+   "B": 3,
+   "row": [
+    "L022",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The Order chapter says \"short of\" and the Order year says \"welcomes\". \"At home\" ×2 in one decade."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L023",
+   "B": 3,
+   "row": [
+    "L023",
+    "4",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Body scarcity is consistent, but ten false joints."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L024",
+   "B": 4,
+   "row": [
+    "L024",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "Strong Expression decade (\"Food tastes better\"). Order reads as scarce beside an Expression need."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L025",
+   "B": 3,
+   "row": [
+    "L025",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Order and Expression both read as scarce, and neither is the need."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L026",
+   "B": 3,
+   "row": [
+    "L026",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "2",
+    "Balanced and no hour. Fire is \"thin\", \"low\" and \"always short\", then \"at an even level\" in the year."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L027",
+   "B": 4,
+   "row": [
+    "L027",
+    "4",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "Good Expression home and decades, but eleven \", but you\" joints and \"upright\" ×2."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L028",
+   "B": 3,
+   "row": [
+    "L028",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "\"It lands anyway\" lands. An Hour Gate clash at age thirty assumes \"the people after you\"."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L029",
+   "B": 3,
+   "row": [
+    "L029",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Mind need plus Body \"runs short\". The Late Chapter shows no domain lines at all."
+   ]
+  },
+  {
+   "source": "group-1",
+   "page": "L030",
+   "B": 3,
+   "row": [
+    "L030",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Sound. \"Corrected\" repeated, and one feeds frame twice."
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L031",
+   "B": 3,
+   "row": [
+    "L031",
+    "3",
+    "3",
+    "2",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "\"Talk less\" is said six times across chapter, domains, manual and Home chapter; \"make them pay\" misfires"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L032",
+   "B": 3,
+   "row": [
+    "L032",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Body manual says to spend strength on hard work right under \"you push harder than any job needs\"; one Year Gate landing twice"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L033",
+   "B": 3,
+   "row": [
+    "L033",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Sound logic; the same resists line reads twice; false \"but\" closes"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L034",
+   "B": 3,
+   "row": [
+    "L034",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The manual says \"long been short of\" an outlet the Early Chapter already carried"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L035",
+   "B": 3,
+   "row": [
+    "L035",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Two energies read as \"runs short of\" (M8); the \"now\" decade is labelled 2016 to 2025 in 2026"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L036",
+   "B": 3,
+   "row": [
+    "L036",
+    "3",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Strong Order chapter line; \"gone without\" contradicts two Mind decades already lived"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L037",
+   "B": 3,
+   "row": [
+    "L037",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Clean logic; \"patient\" and \"stays with you\" echo across two domain lines"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L038",
+   "B": 3,
+   "row": [
+    "L038",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Two energies in need language (M8); \"feel ready\" in chapter and Career; one landing twice"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L039",
+   "B": 3,
+   "row": [
+    "L039",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The Body manual contradiction again; \"giving way / gave way\" echo"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L040",
+   "B": 3,
+   "row": [
+    "L040",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Two different energies called short (M8); otherwise steady"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L041",
+   "B": 3,
+   "row": [
+    "L041",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Coherent; the presses line has a \"but\" that should be \"so\""
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L042",
+   "B": 3,
+   "row": [
+    "L042",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Coherent; the resists line twice; \"corrected\" twice in one decade"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L043",
+   "B": 3,
+   "row": [
+    "L043",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Gone without\" right after a Mind decade; a child line on a half-adult decade (M9)"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L044",
+   "B": 3,
+   "row": [
+    "L044",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Home chapter \"a project of your own\" against Family \"shared plans over private ones\"; \"never asked for\" twice"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L045",
+   "B": 3,
+   "row": [
+    "L045",
+    "4",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "`.late` lines fit age 68; two decades back to back both say \"before anyone asks\""
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L046",
+   "B": 3,
+   "row": [
+    "L046",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Late chapter, manual and two decades all restate \"decide for yourself\""
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L047",
+   "B": 3,
+   "row": [
+    "L047",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Sound; \"table\" twice in adjacent domain lines"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L048",
+   "B": 4,
+   "row": [
+    "L048",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The best page here; the Early Chapter kindness line is screenshot-grade"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L049",
+   "B": 3,
+   "row": [
+    "L049",
+    "3",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Strong Late line; Career \"beside someone who wants you to succeed\" at 67 does not fit the age"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L050",
+   "B": 3,
+   "row": [
+    "L050",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "A child line on a decade from 11 to 20 (M9); Order release chapters read thrice"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L051",
+   "B": 3,
+   "row": [
+    "L051",
+    "4",
+    "2",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The Late chapter closes on a tautology (\"busy by choice … from staying busy\")"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L052",
+   "B": 3,
+   "row": [
+    "L052",
+    "3",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Good Expression Late line; the manual's \"long been short of\" contradicts three Fire decades"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L053",
+   "B": 3,
+   "row": [
+    "L053",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "No birth hour handled correctly; \"small\" twice in the now decade"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L054",
+   "B": 3,
+   "row": [
+    "L054",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Coherent and plain; little that lands hard"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L055",
+   "B": 4,
+   "row": [
+    "L055",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"Thinking needs a task\" and the plain-acts decade are the house at its best"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L056",
+   "B": 3,
+   "row": [
+    "L056",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The Action manual carries the reader on \"your own strength\" (M4); two needs (M8)"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L057",
+   "B": 3,
+   "row": [
+    "L057",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Sound; \"manage\" twice in the now decade"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L058",
+   "B": 3,
+   "row": [
+    "L058",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The Body manual and the Mind decade both say \"short of\" (M8)"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L059",
+   "B": 3,
+   "row": [
+    "L059",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Stale \"now\" decade label; \"turn down\" twice; \"manage\" twice"
+   ]
+  },
+  {
+   "source": "group-2",
+   "page": "L060",
+   "B": 3,
+   "row": [
+    "L060",
+    "3",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "2",
+    "3",
+    "The drains line twice; \"heard you out\" twice; Mind and Body both in need language"
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L061",
+   "B": 3,
+   "row": [
+    "L061",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Coherent Water life with a closed Hour Gate. The Order-release decade lands well. The landing closes leave the reader as object."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L062",
+   "B": 3,
+   "row": [
+    "L062",
+    "4",
+    "3",
+    "2",
+    "3",
+    "3",
+    "3",
+    "2",
+    "2",
+    "Late Expression release says \"wait before you speak\" four times (chapter, Family, manual, year). The same underneath line appears twice, and there are two non-contrastive \"but\"s."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L063",
+   "B": 3,
+   "row": [
+    "L063",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "\"Toys\" on a decade lived from eleven to twenty. \"The family calendar fills in your hand\" has to be parsed twice."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L064",
+   "B": 3,
+   "row": [
+    "L064",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Sound Fire-core arc. The Late Action release reads true. The domain line's \"purse\" and two `, but` turns are weak."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L065",
+   "B": 3,
+   "row": [
+    "L065",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "A grow Late chapter that closes on a price (\"You pay for that authority\") and on other people as subject. The Home chapter repeats \"name\" and \"home\"."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L066",
+   "B": 3,
+   "row": [
+    "L066",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "Strong Body-grow Late chapter. The presses line reads as a gift, a Balanced chart is told it has \"always\" run short, and resists.grow appears twice."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L067",
+   "B": 4,
+   "row": [
+    "L067",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "The liveliest page, with an Expression grow home and late years. \"Make the house feel\" appears twice."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L068",
+   "B": 3,
+   "row": [
+    "L068",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Wood life read accurately, apart from the presses.grow line. Action release domains use three `, but` turns."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L069",
+   "B": 3,
+   "row": [
+    "L069",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The Body grow decade is framed as \"a price worth paying\". A school-years child line runs to twenty, and \"correct … corrected\" repeats."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L070",
+   "B": 4,
+   "row": [
+    "L070",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "Best Late line on the pages (\"a lighter grip holds more\"). The presses line is a gift, \"win\" appears three times, and \"one step / one task at a time\" appears twice."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L071",
+   "B": 3,
+   "row": [
+    "L071",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Clean closed-hour page. The Mind need years sit well under the Mind decade."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L072",
+   "B": 3,
+   "row": [
+    "L072",
+    "3",
+    "3",
+    "2",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Echoes on one page: \"worth hearing\" ×2, \"stay on paper\" ×2, \"cools quietly\" ×2, plus three `, but` domain lines."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L073",
+   "B": 3,
+   "row": [
+    "L073",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Two presses.grow lines say \"solid ground\" and \"firm footing\" for the gift. A child line runs to twenty."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L074",
+   "B": 3,
+   "row": [
+    "L074",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "A Balanced chart is told it has \"always run short\". The grow decade is sold as a price, and presses.grow reads as a gift."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L075",
+   "B": 3,
+   "row": [
+    "L075",
+    "3",
+    "3",
+    "2",
+    "3",
+    "3",
+    "3",
+    "2",
+    "2",
+    "The Expression-release carry recurs on chapter, Family, manual and year. A \"child\" line runs to twenty."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L076",
+   "B": 3,
+   "row": [
+    "L076",
+    "3",
+    "3",
+    "2",
+    "3",
+    "3",
+    "3",
+    "2",
+    "2",
+    "A partner \"has borne the brunt\" (a charge). Home and Late are both Expression release, and the hour-alone carry is said four times."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L077",
+   "B": 3,
+   "row": [
+    "L077",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Mind-grow home reads warmly. Two \"At home\" and two \"In Health\" lines across the two chapters."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L078",
+   "B": 3,
+   "row": [
+    "L078",
+    "3",
+    "3",
+    "2",
+    "3",
+    "3",
+    "3",
+    "2",
+    "2",
+    "Mind release: chapter, Mind domain and manual all say \"make one decision\". \"Make them pay\" reads as revenge."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L079",
+   "B": 3,
+   "row": [
+    "L079",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Order Home chapter says the chart has \"needed it for years\" while the year need is Action (M8), and \"the week stands straighter\"."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L080",
+   "B": 3,
+   "row": [
+    "L080",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Accurate Overfueled Wood. \"Move … move\" and \"never asked for\" ×2."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L081",
+   "B": 3,
+   "row": [
+    "L081",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Action manual promises \"paid back for every offer\". The Home close puts the house, not the reader, as subject."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L082",
+   "B": 3,
+   "row": [
+    "L082",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Body-grow home lands (\"surer of where you stand\"). The Action-release Late domains carry two `, but`s."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L083",
+   "B": 3,
+   "row": [
+    "L083",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Presses line reads as a gift. Love line promises the partner's response. \"Table\" appears three times."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L084",
+   "B": 3,
+   "row": [
+    "L084",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "\"Out of doors with friends … alone\" contradicts itself. A child line runs to twenty, and the partner is called \"as stubborn as you\"."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L085",
+   "B": 3,
+   "row": [
+    "L085",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "3",
+    "The Late Order line is quotable. Mind release says \"decision\" three times, and the same underneath line appears twice."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L086",
+   "B": 3,
+   "row": [
+    "L086",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Accurate Metal life. The current chapter and current decade are the same energy and restate each other."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L087",
+   "B": 3,
+   "row": [
+    "L087",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "M8 breach on the Order Home chapter. \"Pockets full of finds\" runs to twenty, plus \"trip ×2\" and \"at home ×2\"."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L088",
+   "B": 3,
+   "row": [
+    "L088",
+    "4",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "3",
+    "Body release read sharply. Growth and Health are each read twice, by the Late domains and the decade favours."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L089",
+   "B": 3,
+   "row": [
+    "L089",
+    "4",
+    "3",
+    "2",
+    "3",
+    "3",
+    "3",
+    "2",
+    "2",
+    "Expression release on both Home and Late: the pause-before-you-speak carry appears five times, and the same underneath line twice."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L090",
+   "B": 3,
+   "row": [
+    "L090",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Sound Earth-core page. The Love \"but\" here is a real contrast. Frame.month lands twice word for word."
+   ]
+  },
+  {
+   "source": "group-3",
+   "page": "L999",
+   "B": 4,
+   "row": [
+    "L999",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The late lived decades are the best writing in the group. Seven domain lines carry the non-contrastive \"but\"."
+   ]
+  }
+ ]
+}

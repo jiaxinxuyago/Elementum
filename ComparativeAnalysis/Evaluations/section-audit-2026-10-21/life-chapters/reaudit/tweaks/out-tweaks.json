@@ -1,0 +1,316 @@
+{
+ "units": [
+  {
+   "key": "ENERGY mind · year.grow",
+   "kind": "year_energy",
+   "text": "{el} brings Mind for a whole year, shelter your chart welcomes. Your thinking slows to a useful pace, with help offered before you ask for it.",
+   "id": "XR-17"
+  },
+  {
+   "key": "ENERGY expression · decade.grow.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} and a skill ready to be shown, with people keen to learn it from you. You teach, make or perform, and you are paid in attention as well as thanks.",
+   "id": "XR-18"
+  },
+  {
+   "key": "ENERGY order · decade.grow.lived.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, a stretch of reviews, deadlines and people checking your work. You did your best work under that pressure, and your name began to carry weight.",
+   "id": "XR-19"
+  },
+  {
+   "key": "ENERGY expression · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, more Expression than your chart can use, a sharp voice and little patience for rules you did not write. You say what others only think, and it costs you goodwill. You keep the friendships that matter by saying a thing once and letting it rest.",
+   "id": "XR-20"
+  },
+  {
+   "key": "ENERGY order · year.even.b",
+   "kind": "year_energy",
+   "text": "{el} brings Order for a second year running, a steady frame for your chart. You keep the roles you held last year at the same size, with no new title to chase and none to defend.",
+   "id": "XR-21"
+  },
+  {
+   "key": "ENERGY order · decade.release.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as strict rules and grown-ups who were quick to correct you. You kept a corner of calm for yourself, a quiet place no one else entered.",
+   "id": "XR-22"
+  },
+  {
+   "key": "ENERGY action · chapter.hour.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Action, and your chart is still eager for it. Since your late forties what you built has kept paying out, with fresh plans brought in by the people after you. You stay busy by choice, which is a different thing from being kept busy.",
+   "id": "XR-24"
+  },
+  {
+   "key": "ENERGY action · chapter.day.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Action, an energy your chart does better without. From your mid-thirties the household asks for steady effort, with bills to meet and plans to fund beside your own. You share the jobs with someone close and get your evenings back.",
+   "id": "XR-25"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.release",
+   "kind": "ground",
+   "text": "Under it runs {g} as well, the same pull at the root, and you find no softer layer beneath it.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.grow",
+   "kind": "ground",
+   "text": "Under it runs {g}, which pushes back against the {e} at every step, and each share you get is worked for.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, kept down by the {e} at the price of its force, and you carried less of the weight.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "ENERGY body · chapter.month.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, your own energy, into a chart that already runs over with it. Since your late teens, work has asked you to prove yourself, and you push harder than any job needs. On the one slow day you keep each week, you learn where that strength is worth spending.",
+   "id": "G1-017"
+  },
+  {
+   "key": "ENERGY mind · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, more Mind than your chart can use, with plans that stay plans and help you never asked for. You think a step too long before each move. You find your footing by doing one thing at a time, and the plans get going.",
+   "id": "G1-019"
+  },
+  {
+   "key": "ENERGY body · decade.release.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} with a habit of holding on to your own way at home. You find a slower answer eases it, and a draw is worth more to you than a win.",
+   "id": "G1-020"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Social.grow",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours saying yes to the invitation over staying in, and the people you meet in passing open doors you could not reach alone.",
+   "id": "G1-021"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.month",
+   "kind": "land",
+   "text": "You gather people and momentum around one idea at work this year, as others lend a hand to something you started.",
+   "id": "G1-022"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.year",
+   "kind": "land",
+   "text": "You meet closer watching from the older generation this year, with family expectations that grind on your patience.",
+   "id": "G1-023"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.grow",
+   "kind": "ground",
+   "text": "Under it runs {g}, which draws the {e} off, and you keep a thinner share of the gift.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.year",
+   "kind": "land",
+   "text": "You go back over something from your first home this year, a grievance or a habit you thought was settled.",
+   "id": "G1-026"
+  },
+  {
+   "key": "ENERGY order · decade.grow.late.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as a settled order to your days, with a place for each thing and a reason to rise early. You keep the rhythm for your own sake, and it steadies you.",
+   "id": "G1-027"
+  },
+  {
+   "key": "ENERGY body · chapter.day.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, your own energy, though your chart is already flush with it. From your mid-thirties two strong wills share one household, and a partner who feels like an equal is also a rival. With an evening to yourself each week to cool off, you get further at home by giving way first.",
+   "id": "G1-028"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Social.release",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours a few close people over a wide circle, and you keep the ones who ask nothing of your money.",
+   "id": "G1-029"
+  },
+  {
+   "key": "ENERGY action · chapter.hour.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Action, and your chart still wants it. From your late forties new chances keep coming within reach, and the people after you bring many of them. You pick the few that matter and make them pay off.",
+   "id": "G2-023"
+  },
+  {
+   "key": "ENERGY order · year.heavy",
+   "kind": "year_energy",
+   "text": "{el} brings Order for a whole year, more duty than your chart can use. Your time is claimed from above and from the side, while a quiet hour alone and someone close to talk to stay with you.",
+   "id": "G2-026"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.release",
+   "kind": "ground",
+   "text": "Under it runs {g}, kept down at a cost to the {e}, and what lands on you is lighter.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "ENERGY action · decade.release.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, an Action that works against your chart, with a house to manage and money the people after you lean on. Each week brings another bill, another repair or another request. You get through it with help from someone close and a slower pace that lets some things wait.",
+   "id": "G2-031"
+  },
+  {
+   "key": "ENERGY body · decade.release.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el} through a firm hand on how home and family should run, a surplus your chart does better without. The people after you push back, and every small choice turns into a stand. With an hour to yourself each morning, you meet the day readier to let little things pass.",
+   "id": "G2-032"
+  },
+  {
+   "key": "ENERGY expression · chapter.day.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Expression, in a chart that worked better without it. Between your mid-thirties and late forties you said what you thought at home and spent on whatever pleased you. Long quiet evenings wore the urge down, and you came away choosing your words with more care.",
+   "id": "G2-033"
+  },
+  {
+   "key": "ENERGY expression · decade.release.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as a sharp voice at work, with friction from people above you. You won respect by finishing the job before you spoke about it.",
+   "id": "G3-035"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.year.late",
+   "kind": "land",
+   "text": "Something shifts in an old family tie this year, a new plan or a new place, and it asks you to give ground.",
+   "id": "G3-037"
+  },
+  {
+   "key": "ENERGY action · decade.grow.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through trips, outings and things to explore beyond the front door. You came home with pockets full of finds and plans for the next outing.",
+   "id": "G3-038"
+  },
+  {
+   "key": "ENERGY mind · decade.release.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} as grown-ups who did the things you could already do yourself. Out of doors on your own, you found out what you could manage.",
+   "id": "G3-039"
+  },
+  {
+   "key": "ENERGY expression · chapter.month.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Expression, and your chart came alive with it. From your late teens to your mid-thirties you made things, spoke up and found friends who liked your work. You came out of that chapter with a voice people recognised.",
+   "id": "G3-040"
+  },
+  {
+   "key": "ENERGY expression · chapter.day.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart is warmed by it. Since your mid-thirties, home has been full of cooking, laughter and things you made with a partner. You let yourself enjoy it all in these years without first earning it.",
+   "id": "G3-041"
+  },
+  {
+   "key": "ENERGY order · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Order, one that works against your chart. Since your mid-thirties, home has come with rules and duties, a partner with firm views and a household that runs on schedule. You bend more than you would choose, and a walk with someone who hears you out straightens you by morning.",
+   "id": "G3-043"
+  },
+  {
+   "key": "ENERGY order · decade.release.late.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, an Order that works against your chart, as duties that land on you because others expect you to take them. The family calendar is yours to fill, and other people set its pace. What carries you is a walk most mornings and one friend you can be idle with.",
+   "id": "G3-045"
+  },
+  {
+   "key": "ENERGY mind · decade.release.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} as advice you never asked for, from people who mean well. You trust your own reading of things after a walk alone clears the noise.",
+   "id": "G3-046"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.grow",
+   "kind": "ground",
+   "text": "Under it runs {g}, which feeds the {e} from below, and the supply you draw on keeps coming.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.grow.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, feeding the {e} through those years, and what you drew on never ran short.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.release",
+   "kind": "ground",
+   "text": "Under it runs {g}, which keeps feeding the {e}, and the pressure you put down is topped up again.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, which kept feeding the {e}, but you learned to set the weight down as fast as it returned.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.grow.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, which drew part of the {e} away, but you made good use of the share that stayed.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.release",
+   "kind": "ground",
+   "text": "Under it runs {g}, drawing the {e} away, and the weight you carry lightens as it drains.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, which slowly drew the {e} off, and the pressure you lived with thinned year by year.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.grow",
+   "kind": "ground",
+   "text": "Under it runs more {g}, the same energy at the root, and the gift reaches you whole.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.grow.lived",
+   "kind": "ground",
+   "text": "Under it ran {g} too, doubling the gift, and you had all of it to use.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g} of the same kind, one strain from top to bottom, but you learned its shape by heart.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.grow",
+   "kind": "ground",
+   "text": "Under it runs {g}, which the {e} spends force holding down, and what you receive comes a little lighter.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.grow.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, held down by the {e}, and the gift you had came with work attached.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.grow.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, pushing back on the {e} at every turn, but you worked for what it gave and kept it.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.release",
+   "kind": "ground",
+   "text": "Under it runs {g}, checking the {e} as it goes, and the strain you meet loses some of its grip.",
+   "id": "reaudit Y2 (by hand)"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, still pushing back at the {e}, and what you faced lost force while the two fought.",
+   "id": "reaudit Y2 (by hand)"
+  }
+ ]
+}
