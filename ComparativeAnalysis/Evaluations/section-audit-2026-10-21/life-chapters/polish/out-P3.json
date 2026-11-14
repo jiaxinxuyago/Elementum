@@ -8,7 +8,7 @@
   {
    "key": "ENERGY action · chapter_domain.Career.release",
    "kind": "chapter_domain",
-   "text": "In Career, this chapter favours finishing what you started over saying yes to the next offer, but each thing you finish is worth two you begin."
+   "text": "In Career, this chapter favours finishing what you started over taking on the next offer, but each thing you finish is worth two you begin."
   },
   {
    "key": "ENERGY action · chapter_domain.Family.grow",
@@ -343,7 +343,7 @@
   {
    "key": "ENERGY order · chapter_domain.Growth.grow",
    "kind": "chapter_domain",
-   "text": "In Growth, this chapter favours a formal course over teaching yourself, but you rise fastest when someone senior tests what you know."
+   "text": "In Growth, this chapter favours a clear standard over guessing at your progress, but you rise fastest when someone you respect tests what you know."
   },
   {
    "key": "ENERGY order · chapter_domain.Growth.release",

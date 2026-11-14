@@ -33,7 +33,7 @@
   {
    "key": "ENERGY action · decade.grow.now",
    "kind": "decade_now",
-   "text": "This decade brings {el}, the Action your chart is hungry for, with work that pays and chances you can take hold of. Money comes in at a steady pace and practical life gets easier. You reach a little further each year, and most of what you gain stays yours."
+   "text": "This decade brings {el}, the Action your chart is hungry for, with work that pays and chances you can take hold of. Money comes in at a steady pace and practical life gets easier. Each year your reach goes a little further, and most of what you gain stays yours."
   },
   {
    "key": "ENERGY action · decade.release.coming.a",
@@ -253,7 +253,7 @@
   {
    "key": "ENERGY mind · decade.release.coming.b",
    "kind": "decade_energy",
-   "text": "This decade brings {el} with endless reading and plans that stall before they start. You get moving by finishing one small thing before you plan the next."
+   "text": "This decade brings {el} with endless reading and plans that stall before they start. You get unstuck by closing one small task before you plan another."
   },
   {
    "key": "ENERGY mind · decade.release.early.a",
@@ -453,7 +453,7 @@
   {
    "key": "ENERGY expression · decade.grow.late.now",
    "kind": "decade_now",
-   "text": "This decade brings {el} as hours to cook, make and tell stories, a voice your chart has wanted. The work of your hands finds people who want it, and your voice carries at the table. You enjoy what you make without needing it to be perfect."
+   "text": "This decade brings {el} as hours to cook, sew and make, a voice your chart has wanted. The work of your hands finds people who want it, and your stories hold the table. You enjoy what you make without needing it to be perfect."
   },
   {
    "key": "ENERGY expression · decade.grow.late.lived.a",
@@ -548,7 +548,7 @@
   {
    "key": "ENERGY action · decade.release.late.coming.b",
    "kind": "decade_energy",
-   "text": "This decade brings {el} as a busy house, with things to fix, move and pay for at once. You set your own pace with them, and the house runs no worse for it."
+   "text": "This decade brings {el} as a busy house, with things to fix, move and pay for at once. You set your own pace with them, and nothing in the house suffers for it."
   },
   {
    "key": "ENERGY order · decade.grow.late.now",
