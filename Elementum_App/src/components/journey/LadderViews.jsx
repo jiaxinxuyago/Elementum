@@ -68,7 +68,7 @@ export function LadderReading({ m, g, claims = [], Use, InkDot, onShare, onEnter
         {c.k === 'who' ? (
           <>
             {/* the core energy's sign leads the card (owner 2026-11-14: "put it up as the main visual element") */}
-            <span className="ld-coresign"><InkDot el={m.core.el} size={132} Use={Use} label={`${coreEl}, your core energy`} /><span className="mg-sk">{coreEl} · your core energy</span></span>
+            <span className="ld-coresign"><InkDot el={m.core.el} size={156} Use={Use} label={`${coreEl}, your core energy`} /><span className="mg-sk">{coreEl} · your core energy</span></span>
             <span className="mg-sk">{m.archetype}</span>
             <h3>{LADDER.element_heading[coreEl]}</h3>
             <p>{sl.as_line} You might notice:</p>

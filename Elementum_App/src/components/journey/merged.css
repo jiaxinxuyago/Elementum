@@ -455,3 +455,22 @@ button.ty-cc{ cursor:pointer; }
 .jny .ld-coresign{ position:absolute; left:0; right:0; top:11%; display:flex; flex-direction:column; align-items:center; gap:8px; pointer-events:none; }
 .jny .ld-coresign .v5-dot{ filter:drop-shadow(0 8px 22px rgba(43,39,34,.22)); }
 .jny .mg-fr.ladder.t-who .mg-frsign{ opacity:.5; }
+
+/* The who card, designed (owner 2026-11-14: the core energy's sign as the main visual, "at the best
+   spot possible"). The sign stands large on clear paper at the left; the stem's D1 painting keeps its
+   full ink at the right and dissolves toward the sign, so the two read as one picture. */
+.jny .mg-fr.ladder.t-who .mg-frsign{ opacity:1; height:43%; object-position:82% top;
+  -webkit-mask-image:linear-gradient(to right,transparent 30%,#000 78%),linear-gradient(to bottom,#000 58%,transparent 100%); -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent 30%,#000 78%),linear-gradient(to bottom,#000 58%,transparent 100%); mask-composite:intersect; }
+.jny .mg-fr.ladder.t-who .ld-coresign{ left:26px; right:auto; top:calc(var(--st, 48px) + 62px); align-items:center; gap:10px; transform-origin:top left; }
+.jny .mg-fr.ladder.t-who .ld-coresign::before{ content:''; position:absolute; left:50%; top:78px; width:260px; height:260px; transform:translate(-50%,-50%); border-radius:50%; background:radial-gradient(closest-side,rgba(245,238,222,.95) 0%,rgba(245,238,222,.7) 55%,rgba(245,238,222,0) 100%); z-index:-1; }
+.jny .mg-fr.ladder.t-who .ld-coresign .v5-dot{ filter:drop-shadow(0 10px 24px rgba(43,39,34,.2)); }
+.jny .mg-fr.ladder.t-who .ld-coresign .mg-sk{ letter-spacing:2.4px; }
+.jny .mg-fr.ladder.t-who .mg-card{ padding-top:min(40vh, 338px); }
+@media (max-height: 720px){
+  .jny .mg-fr.ladder.t-who .ld-coresign{ transform:scale(.7); top:calc(var(--st, 48px) + 52px); }
+  .jny .mg-fr.ladder.t-who .mg-card{ padding-top:236px; gap:6px; }
+  .jny .mg-fr.ladder.t-who .mg-card h3{ font-size:21px; }
+  .jny .mg-fr.ladder.t-who .mg-card p,.jny .mg-fr.ladder.t-who .ld-list{ font-size:14px; }
+}
+.jny .mg-fr.painted.ladder.t-who .mg-card{ justify-content:flex-start; }

@@ -295,6 +295,8 @@ Built from `Design/Library/Design_Pass_2026-10/RS3_Revelation_Ladder_Brief.md` (
 
 Gates: eslint 0 errors, engine regression, build, journey sweep 17/17, route sweep clean. Checked on the golden chart, chart B and the Balanced chart.
 
+**The who card, designed (owner 2026-11-14, relayed by the Day Master session: the core energy's sign is the page's main visual; "put the element sign at the best spot possible and find the fittest design for it and the background and the content").** The Day Master session's placeholder (sign centred over the D1 painting at half strength) is replaced. The sign stands at 156px on clear paper at the upper left with a soft paper halo and the caption "{Element} · your core energy"; the stem's D1 painting keeps its full ink on the right and dissolves toward the sign under a mask, so sign and painting read as one picture. The ruled words sit top-aligned directly under that band, so the gap is the same for every stem and any spare paper falls at the foot. On a short phone (under 720 high) the sign scales to 70% and the type steps down one size. Captured for all ten stems at 390×844 and three at 390×667, no overflow. Styles: `.mg-fr.ladder.t-who` in `merged.css`. Shown to the owner before settling.
+
 ## Follow-up · the store build (owner question 2026-10-22)
 
 The planned path is the Capacitor wrap (PM_02 STORE-3), under which the React code, the CSS motion and the dissolve carry over unchanged; the browser beneath becomes WebKit on iOS. Prepared now:
