@@ -20,49 +20,51 @@ const GROUP = { 申: 'water', 子: 'water', 辰: 'water', 寅: 'fire', 午: 'fir
 const byGroup = (t) => (b) => t[GROUP[b]];
 const SEASON_OF = { 亥: 'wint', 子: 'wint', 丑: 'wint', 寅: 'spr', 卯: 'spr', 辰: 'spr', 巳: 'sum', 午: 'sum', 未: 'sum', 申: 'aut', 酉: 'aut', 戌: 'aut' };
 
+// en: the star's name, a guest in two words (owner STAR-N0, N1–N19 A, 2026-11-14); the
+// ten characters stay one word. zh stays beside it on every card (D5).
 // kind: help | test | mixed. on: 'stem' | 'branch' (what the target is matched against).
 // base: dayStem | yearBranch | dayBranch | monthBranch | (several: each base is tried).
 export const STARS = [
-  { id: 'tianyi', zh: '天乙贵人', en: 'Nobleman', kind: 'help', on: 'branch', base: ['dayStem'], yearBase: true,
+  { id: 'tianyi', zh: '天乙贵人', en: 'the Noble Helper', kind: 'help', on: 'branch', base: ['dayStem'], yearBase: true,
     map: { 甲: '丑未', 戊: '丑未', 庚: '丑未', 乙: '子申', 己: '子申', 丙: '亥酉', 丁: '亥酉', 辛: '寅午', 壬: '卯巳', 癸: '卯巳' },
     alt: { note: 'one verse gives 庚辛 to 寅午 (甲戊兼牛羊, 庚辛逢马虎)', map: { 庚: '寅午' } } },
-  { id: 'wenchang', zh: '文昌', en: 'Scholar’s Star', kind: 'help', on: 'branch', base: ['dayStem'], yearBase: true,
+  { id: 'wenchang', zh: '文昌', en: 'the Bright Scholar', kind: 'help', on: 'branch', base: ['dayStem'], yearBase: true,
     map: { 甲: '巳', 乙: '午', 丙: '申', 丁: '酉', 戊: '申', 己: '酉', 庚: '亥', 辛: '子', 壬: '寅', 癸: '卯' } },
-  { id: 'tiande', zh: '天德贵人', en: 'Heavenly Virtue', kind: 'help', on: 'any', base: ['monthBranch'], dayStem: true,
+  { id: 'tiande', zh: '天德贵人', en: 'the Heavenly Guardian', kind: 'help', on: 'any', base: ['monthBranch'], dayStem: true,
     map: { 寅: '丁', 卯: '申', 辰: '壬', 巳: '辛', 午: '亥', 未: '甲', 申: '癸', 酉: '寅', 戌: '丙', 亥: '乙', 子: '巳', 丑: '庚' } },
-  { id: 'yuede', zh: '月德贵人', en: 'Moon Virtue', kind: 'help', on: 'stem', base: ['monthBranch'], dayStem: true,
+  { id: 'yuede', zh: '月德贵人', en: 'the Moon Mender', kind: 'help', on: 'stem', base: ['monthBranch'], dayStem: true,
     fn: byGroup({ fire: '丙', water: '壬', wood: '甲', metal: '庚' }) },
-  { id: 'lu', zh: '禄神', en: 'Prosperity Star', kind: 'help', on: 'branch', base: ['dayStem'],
+  { id: 'lu', zh: '禄神', en: 'the Rice Planter', kind: 'help', on: 'branch', base: ['dayStem'],
     map: { 甲: '寅', 乙: '卯', 丙: '巳', 丁: '午', 戊: '巳', 己: '午', 庚: '申', 辛: '酉', 壬: '亥', 癸: '子' } },
-  { id: 'jinyu', zh: '金舆', en: 'Golden Carriage', kind: 'help', on: 'branch', base: ['dayStem'],
+  { id: 'jinyu', zh: '金舆', en: 'the Golden Courtier', kind: 'help', on: 'branch', base: ['dayStem'],
     map: { 甲: '辰', 乙: '巳', 丙: '未', 丁: '申', 戊: '未', 己: '申', 庚: '戌', 辛: '亥', 壬: '丑', 癸: '寅' } },
-  { id: 'jiangxing', zh: '将星', en: 'Commander Star', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
+  { id: 'jiangxing', zh: '将星', en: 'the Banner Captain', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
     fn: byGroup({ water: '子', fire: '午', wood: '卯', metal: '酉' }) },
-  { id: 'hongluan', zh: '红鸾', en: 'Red Phoenix', kind: 'help', on: 'branch', base: ['yearBranch'],
+  { id: 'hongluan', zh: '红鸾', en: 'the Red Matchmaker', kind: 'help', on: 'branch', base: ['yearBranch'],
     map: { 子: '卯', 丑: '寅', 寅: '丑', 卯: '子', 辰: '亥', 巳: '戌', 午: '酉', 未: '申', 申: '未', 酉: '午', 戌: '巳', 亥: '辰' } },
-  { id: 'tianxi', zh: '天喜', en: 'Heavenly Joy', kind: 'help', on: 'branch', base: ['yearBranch'],
+  { id: 'tianxi', zh: '天喜', en: 'the Joyful Herald', kind: 'help', on: 'branch', base: ['yearBranch'],
     map: { 子: '酉', 丑: '申', 寅: '未', 卯: '午', 辰: '巳', 巳: '辰', 午: '卯', 未: '寅', 申: '丑', 酉: '子', 戌: '亥', 亥: '戌' } },
-  { id: 'huagai', zh: '华盖', en: 'Canopy Star', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
+  { id: 'huagai', zh: '华盖', en: 'the Temple Poet', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
     fn: byGroup({ water: '辰', fire: '戌', wood: '未', metal: '丑' }) },
-  { id: 'yima', zh: '驿马', en: 'Travelling Horse', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
+  { id: 'yima', zh: '驿马', en: 'the Post Rider', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
     fn: byGroup({ water: '寅', fire: '申', wood: '巳', metal: '亥' }) },
-  { id: 'taohua', zh: '桃花', en: 'Peach Blossom', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
+  { id: 'taohua', zh: '桃花', en: 'the Blossom Charmer', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
     fn: byGroup({ water: '酉', fire: '卯', wood: '子', metal: '午' }) },
-  { id: 'yangren', zh: '羊刃', en: 'Ram’s Edge', kind: 'test', on: 'branch', base: ['dayStem'],
+  { id: 'yangren', zh: '羊刃', en: 'the Ram Warrior', kind: 'test', on: 'branch', base: ['dayStem'],
     map: { 甲: '卯', 丙: '午', 戊: '午', 庚: '酉', 壬: '子' },
     alt: { note: 'yin stems: one school gives 乙辰 丁未 己未 辛戌 癸丑, another 乙寅 丁巳 己巳 辛申 癸亥, the mainstream gives none', map: { 乙: '辰', 丁: '未', 己: '未', 辛: '戌', 癸: '丑' } } },
-  { id: 'jiesha', zh: '劫煞', en: 'Robbery Star', kind: 'test', on: 'branch', base: ['yearBranch', 'dayBranch'],
+  { id: 'jiesha', zh: '劫煞', en: 'the Swift Hunter', kind: 'test', on: 'branch', base: ['yearBranch', 'dayBranch'],
     fn: byGroup({ water: '巳', fire: '亥', wood: '申', metal: '寅' }) },
-  { id: 'wangshen', zh: '亡神', en: 'Lost Spirit', kind: 'test', on: 'branch', base: ['yearBranch', 'dayBranch'],
+  { id: 'wangshen', zh: '亡神', en: 'the Masked Actor', kind: 'test', on: 'branch', base: ['yearBranch', 'dayBranch'],
     fn: byGroup({ water: '亥', fire: '巳', wood: '寅', metal: '申' }) },
-  { id: 'guchen', zh: '孤辰', en: 'Lonely Star', kind: 'test', on: 'branch', base: ['yearBranch'],
+  { id: 'guchen', zh: '孤辰', en: 'the Lone Watcher', kind: 'test', on: 'branch', base: ['yearBranch'],
     fn: (b) => ({ wint: '寅', spr: '巳', sum: '申', aut: '亥' })[SEASON_OF[b]] },
-  { id: 'guasu', zh: '寡宿', en: 'Solitary Star', kind: 'test', on: 'branch', base: ['yearBranch'],
+  { id: 'guasu', zh: '寡宿', en: 'the Quiet Hermit', kind: 'test', on: 'branch', base: ['yearBranch'],
     fn: (b) => ({ wint: '戌', spr: '丑', sum: '辰', aut: '未' })[SEASON_OF[b]] },
 ];
 // stars read off the day pillar itself
 export const DAY_PILLAR_STARS = [
-  { id: 'kuigang', zh: '魁罡', en: 'Dipper Star', kind: 'test', days: ['庚辰', '庚戌', '壬辰', '戊戌'] },
+  { id: 'kuigang', zh: '魁罡', en: 'the Thunder Champion', kind: 'test', days: ['庚辰', '庚戌', '壬辰', '戊戌'] },
 ];
 
 const HS = '甲乙丙丁戊己庚辛壬癸'; const EB = '子丑寅卯辰巳午未申酉戌亥';
@@ -99,14 +101,14 @@ export function starsOf(chart, { hourUnknown = false, alt = false, yearStem = fa
   }
   for (const s of DAY_PILLAR_STARS) if (s.days.includes(p.day.stem + p.day.branch)) out.push({ id: s.id, zh: s.zh, en: s.en, kind: s.kind, gate: 'day', part: 'pillar', base: 'dayPillar' });
   const vd = voidOf(p.day);
-  for (const g of ['year', 'month', 'hour']) if (!(hourUnknown && g === 'hour') && vd.includes(p[g].branch)) out.push({ id: 'kongwang', zh: '空亡', en: 'the Void', kind: 'test', gate: g, part: 'branch', base: 'dayPillar' });
+  for (const g of ['year', 'month', 'hour']) if (!(hourUnknown && g === 'hour') && vd.includes(p[g].branch)) out.push({ id: 'kongwang', zh: '空亡', en: 'the Empty Seat', kind: 'test', gate: g, part: 'branch', base: 'dayPillar' });
   return out;
 }
 
 /** The stars a passing pillar brings ({ stem, branch } of a decade or a year), not already natal in the chart. */
 export function arrivingStars(chart, pillar, { alt = false, yearStem = false } = {}) {
   const p = chart.pillars; const out = []; const natal = new Set(starsOf(chart, { alt, yearStem }).map((s) => s.id));
-  if (voidOf(p.day).includes(pillar.branch)) out.push({ id: 'kongwang', zh: '空亡', en: 'the Void', kind: 'test', base: 'dayPillar', natal: natal.has('kongwang') });
+  if (voidOf(p.day).includes(pillar.branch)) out.push({ id: 'kongwang', zh: '空亡', en: 'the Empty Seat', kind: 'test', base: 'dayPillar', natal: natal.has('kongwang') });
   for (const star of STARS) {
     const hit = [...star.base, ...(yearStem && star.yearBase ? ['yearStem'] : [])].find((base) => { const t = targetsOf(star, baseValue(p, base), { alt }); return (star.on !== 'stem' && t.includes(pillar.branch)) || (star.on !== 'branch' && t.includes(pillar.stem)); });
     if (hit) out.push({ id: star.id, zh: star.zh, en: star.en, kind: star.kind, base: hit, natal: natal.has(star.id) });

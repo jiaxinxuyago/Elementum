@@ -208,10 +208,10 @@ function StarCard({ s, kind, seeker }) {
   const readings = (s.readings || [s.reading]).filter(shown);
   return (
     <div className={`cardstock dp-starcard ${kind}`}>
-      <span className={`dp-star ${kind === 'help' ? 'gift' : kind}`} style={{ alignSelf: 'flex-start' }}>{s.en}</span><span className="dp-zh">{s.zh}</span>
+      <span className={`dp-star ${kind === 'help' ? 'gift' : kind}`} style={{ alignSelf: 'flex-start' }}>{s.en}</span><span className="dp-zh">a star · {s.zh}</span>
       <span className="dp-seatmeta">{s.where}</span>
       {shown(s.line) && <U u={s.line} className="dp-one" />}
-      {seeker ? readings.map((r, i) => <U key={i} u={r} />) : <p className="dp-locked">Its full reading opens with Seeker.</p>}
+      {seeker ? readings.map((r, i) => <div key={i}>{r.label && <span className="dp-seatmeta">{r.label}</span>}<U u={r} />{shown(r.emptyNote) && <U u={r.emptyNote} />}</div>) : <p className="dp-locked">Its full reading opens with Seeker.</p>}
     </div>
   );
 }
@@ -222,12 +222,12 @@ export function StarsPage({ S, tier, onUpgrade, Use }) {
   return (
     <>
       <div className="cardstock dp-head"><span className="laylab"><Use id="ico-spark" className="dp-labic" />YOUR STARS</span><span className="serifline el-teasetitle dp-title">{S.claim.text}</span>
-        <p className="body2" style={{ margin: 0 }}>The symbolic stars are an older, lighter layer of the reading. Each one colours the gate it sits in, and none of them overrides the characters in your seats.</p></div>
-      {S.help.length > 0 && <><span className="dp-stepey dp-stephead">Stars that help</span>{S.help.map((s) => <StarCard key={s.id} s={s} kind="help" seeker={seeker} />)}</>}
-      {S.test.length > 0 && <><span className="dp-stepey dp-stephead">Stars that test</span>{S.test.map((s) => <StarCard key={s.id} s={s} kind="test" seeker={seeker} />)}</>}
-      {(S.arriving.length > 0 || years.length > 0) && <span className="dp-stepey dp-stephead">Stars arriving with your time</span>}
+        <p className="body2" style={{ margin: 0 }}>The stars are an older, lighter layer of the reading, guests who visit your gates. Each one colours the gate it visits, and none of them overrides the characters in your seats.</p></div>
+      {S.help.length > 0 && <><span className="dp-stepey dp-stephead">Guests who help</span>{S.help.map((s) => <StarCard key={s.id} s={s} kind="help" seeker={seeker} />)}</>}
+      {S.test.length > 0 && <><span className="dp-stepey dp-stephead">Guests who test</span>{S.test.map((s) => <StarCard key={s.id} s={s} kind="test" seeker={seeker} />)}</>}
+      {(S.arriving.length > 0 || years.length > 0) && <span className="dp-stepey dp-stephead">Guests on their way</span>}
       {seeker ? S.arriving.map((s) => <StarCard key={s.id + s.decade.startYear} s={s} kind="come" seeker />) : S.arriving.map((s) => (
-        <div key={s.id + s.decade.startYear} className="cardstock dp-starcard come"><span className="dp-star come" style={{ alignSelf: 'flex-start' }}>{s.en}</span><span className="dp-zh">{s.zh}</span><span className="dp-seatmeta">{s.where}</span><p className="dp-locked">The stars your decades bring open with Seeker.</p></div>
+        <div key={s.id + s.decade.startYear} className="cardstock dp-starcard come"><span className="dp-star come" style={{ alignSelf: 'flex-start' }}>{s.en}</span><span className="dp-zh">a star · {s.zh}</span><span className="dp-seatmeta">{s.where}</span><p className="dp-locked">The guests your decades bring open with Seeker.</p></div>
       ))}
       {years.length > 0 && (adv ? (
         <div className="cardstock dp-seats">
@@ -236,8 +236,8 @@ export function StarsPage({ S, tier, onUpgrade, Use }) {
               {yearStars.filter((s) => s.year === y).map((s) => <div key={s.id}><span className="dp-seatmeta">{s.en} · {s.zh}</span><U u={s.reading} /></div>)}</div>
           ))}
         </div>
-      ) : <div className="cardstock dp-seats"><Lock tier="Advisor" what={`The stars your years bring, from ${years[0]} to ${years[years.length - 1]}, open with Advisor.`} onUpgrade={onUpgrade} /></div>)}
-      {!seeker && <Lock what="Every star’s reading, and the stars your decades bring, open with Seeker." onUpgrade={onUpgrade} />}
+      ) : <div className="cardstock dp-seats"><Lock tier="Advisor" what={`The guests your years bring, from ${years[0]} to ${years[years.length - 1]}, open with Advisor.`} onUpgrade={onUpgrade} /></div>)}
+      {!seeker && <Lock what="Every guest’s reading, and the guests your decades bring, open with Seeker." onUpgrade={onUpgrade} />}
     </>
   );
 }

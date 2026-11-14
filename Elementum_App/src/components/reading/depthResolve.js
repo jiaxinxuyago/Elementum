@@ -23,7 +23,7 @@ import { TG_PATTERNS } from '../../content/tgPatterns.js';
 import { GATES } from '../../content/positions.js';
 import { readerAge, decadePole, RULING, GATE_ORDER, GATE_START, GATE_SPAN, DEC_MIN, DEC_MAX, DEPTH_RULES_V2 } from './domainsResolve.js';
 import { pairingContext, pairingHolds, STATE_PAIRING } from '../../engine/depth/pairings.js';
-import { structureOf, branchBonds, godProfile, flowYears, starsOf, arrivingStars, seasonOf, STRUCTURE_NAME } from '../../engine/depth/index.js';
+import { structureOf, branchBonds, godProfile, flowYears, starsOf, arrivingStars, voidOf, seasonOf, STRUCTURE_NAME } from '../../engine/depth/index.js';
 import { relationOf } from '../../engine/index.js';
 // Life Chapters, energy first (owner 2026-10-21, L1–L10 A, live): its own resolver; the round-1 path retired (A4)
 import { resolveEnergyChapters } from './chaptersResolve.js';
@@ -46,11 +46,11 @@ const STAR_GLOSS = {
   yuede: 'Effort turns trouble into gain.', lu: 'A livelihood you make yourself.', jinyu: 'Comfort and a gentle manner.',
   jiangxing: 'People follow your lead.', hongluan: 'Attraction and romance run high.', tianxi: 'Celebrations gather around you.',
   huagai: 'A solitary mind drawn to art and depth.', yima: 'Movement, travel and change of place.', taohua: 'Charm that draws people in.',
-  yangren: 'A hard, protective will.', jiesha: 'Loss from outside that teaches you to guard.', wangshen: 'A part of you kept out of sight.',
-  guchen: 'A need for time alone inside closeness.', guasu: 'Long stretches of your own company.', kongwang: 'What sits here arrives late or light.',
+  yangren: 'A hard, protective will.', jiesha: 'A quick nerve for seizing a chance.', wangshen: 'A mind that thinks further than it shows.',
+  guchen: 'A need for time alone inside closeness.', guasu: 'Long stretches of your own company.', kongwang: 'Effort here lands late or light.',
   kuigang: 'A fierce, decisive mind.',
 };
-const STAR_NAME = { kongwang: ['the Void', '空亡', 'test'] };
+const STAR_NAME = { kongwang: ['the Empty Seat', '空亡', 'test'] };
 const GATE_LIFE = { year: 'the family you came from', month: 'your work', day: 'your home and partnership', hour: 'the people after you' };
 const BOND_KEY = { 六合: 'bind', 六冲: 'clash', 刑: 'punish', 六害: 'harm', 半合: 'frame', 三合: 'frame', 自刑: 'selfpunish' };
 const BOND_LABEL = { bind: 'Binds with', clash: 'Clashes with', punish: 'Punishes', harm: 'Harms', frame: 'Joins', selfpunish: 'Repeats' };
@@ -103,44 +103,58 @@ function starMeta(id, natalRow) {
   if (STAR_NAME[id]) { const [en, zh, kind] = STAR_NAME[id]; return { en, zh, kind }; }
   return { en: natalRow.en, zh: natalRow.zh, kind: natalRow.kind };
 }
-const tensePhrase = (g, tense, birthYear) => (tense === 'coming' ? ` from ${birthYear == null ? 'later' : birthYear + GATE_START[g]}` : '');
-/** The stars that help, the stars that test, and the stars arriving with the decades (Seeker) and years (Advisor). */
+const gateWhere = (g, age, birthYear) => { const t = gateTense(g, age); return `${GATES[g]} · ${CHAPTER[g]}${t === 'now' ? ' · now' : t === 'coming' && birthYear != null ? ` · from ${birthYear + GATE_START[g]}` : ''}`; };
+const bare = (en) => en.replace(/^the /, '');
+/**
+ * The guests who help, the guests who test, and the guests on their way with the
+ * decades (Seeker) and the years (Advisor). Owner round 9 v5, all A (2026-11-14):
+ * G0 a star visits a gate and never sits in a seat; S3 one card per star with a
+ * labelled reading per gate; S4 a note under a star whose branch sits on the
+ * Empty Seat (空亡); S6 the years are this year and the next four.
+ */
 export function resolveStars(chart, opts = {}) {
   const c = context(chart, opts); const { age, birthYear, nowYear, luck, cur } = c;
   const natal = starsOf(chart, { hourUnknown: c.hourUnknown });
+  const empty = voidOf(chart.pillars.day);
   const byId = new Map();
-  for (const s of natal) { if (!byId.has(s.id)) byId.set(s.id, { id: s.id, ...starMeta(s.id, s), gates: [] }); byId.get(s.id).gates.push(s.gate); }
+  for (const s of natal) { if (!byId.has(s.id)) byId.set(s.id, { id: s.id, ...starMeta(s.id, s), gates: [], parts: [] }); byId.get(s.id).gates.push(s.gate); byId.get(s.id).parts.push(s.part); }
   const card = (s) => ({
     ...s,
-    where: s.gates.map((g) => `${GATES[g]} · ${CHAPTER[g]}${gateTense(g, age) === 'now' ? ' · now' : ''}${gateTense(g, age) === 'coming' ? ` · from ${birthYear == null ? '' : birthYear + GATE_START[g]}` : ''}`).join(' · '),
+    where: s.gates.length === 1 ? gateWhere(s.gates[0], age, birthYear) : s.gates.map((g) => GATES[g]).join(' · '),
     line: unit(`STAR ${s.id} · line`, STAR_GLOSS[s.id]),
-    readings: s.gates.map((g) => { const t = gateTense(g, age); return { gate: g, tense: t, ...unit(`STAR ${s.id} · reading.${g}.${t}`, `The ${s.en.replace(/^the /, '')} sits in your ${GATES[g]}, in your ${CHAPTER[g]}${tensePhrase(g, t, birthYear)}. ${STAR_GLOSS[s.id]}`) }; }),
+    readings: s.gates.map((g, i) => {
+      const t = gateTense(g, age);
+      const onEmpty = s.id !== 'kongwang' && s.parts[i] === 'branch' && empty.includes(chart.pillars[g].branch);
+      return { gate: g, tense: t, label: s.gates.length > 1 ? gateWhere(g, age, birthYear) : null,
+        ...unit(`STAR ${s.id} · reading.${g}.${t}`, `${bare(s.en).replace(/^./, (x) => x.toUpperCase())} visits your ${GATES[g]}, in your ${CHAPTER[g]}. ${STAR_GLOSS[s.id]}`),
+        emptyNote: onEmpty ? { ...unit(`TEMPLATED tpl_depth · star_void.${s.kind === 'help' ? 'help' : 'test'}`, 'This guest sits on your Empty Seat, and you meet it late and light.') } : null };
+    }),
   });
   const cards = [...byId.values()].map(card);
   const help = cards.filter((s) => s.kind === 'help'); const test = cards.filter((s) => s.kind !== 'help');
-  // arriving: the current decade and the next (Seeker), each year left in the current decade (Advisor)
+  // on their way: the current decade and the next (Seeker), this year and the next four (Advisor, S6)
   const next = cur ? luck[luck.indexOf(cur) + 1] : luck.find((l) => l.startAge > age);
   const arriving = [];
   for (const l of [cur, next].filter(Boolean)) {
     const t = l === cur ? 'now' : 'coming';
     for (const s of arrivingStars(chart, l).filter((x) => !x.natal)) {
       const m = starMeta(s.id, s);
-      arriving.push({ id: s.id, ...m, decade: { ...l, persona: persona(l.god) }, where: `Arrives with your ${persona(l.god)} decade, ${l.startYear} to ${l.endYear}`, line: unit(`STAR ${s.id} · line.arriving`, `The ${m.en.replace(/^the /, '')} arrives with this decade.`),
-        reading: unit(`STAR ${s.id} · arriving.decade.${t}`, `The ${m.en.replace(/^the /, '')} arrives with this decade. ${STAR_GLOSS[s.id]}`) });
+      arriving.push({ id: s.id, ...m, decade: { ...l, persona: persona(l.god) }, where: `With your ${persona(l.god)} decade, ${l.startYear} to ${l.endYear}`, line: unit(`STAR ${s.id} · line.arriving`, `${bare(m.en).replace(/^./, (x) => x.toUpperCase())} visits with this decade.`),
+        reading: unit(`STAR ${s.id} · arriving.decade.${t}`, `${bare(m.en).replace(/^./, (x) => x.toUpperCase())} visits with this decade. ${STAR_GLOSS[s.id]}`) });
     }
   }
   const yearStars = [];
-  if (cur) for (let y = nowYear; y <= cur.endYear; y++) {
+  if (nowYear != null) for (let y = nowYear; y <= nowYear + 4; y++) {
     const HS = '甲乙丙丁戊己庚辛壬癸'; const EB = '子丑寅卯辰巳午未申酉戌亥';
     const p = { stem: HS[(((y - 4) % 10) + 10) % 10], branch: EB[(((y - 4) % 12) + 12) % 12] };
     for (const s of arrivingStars(chart, p).filter((x) => !x.natal)) {
       const m = starMeta(s.id, s);
-      yearStars.push({ id: s.id, year: y, ...m, reading: unit(`STAR ${s.id} · arriving.year`, `The ${m.en.replace(/^the /, '')} arrives ${y === nowYear ? 'this year' : 'that year'}. ${STAR_GLOSS[s.id]}`) });
+      yearStars.push({ id: s.id, year: y, ...m, reading: unit(`STAR ${s.id} · arriving.year`, `${bare(m.en).replace(/^./, (x) => x.toUpperCase())} visits ${y === nowYear ? 'this year' : 'that year'}. ${STAR_GLOSS[s.id]}`) });
     }
   }
   const helper = arriving.some((s) => s.kind === 'help');
   const n = cards.length;
-  const claim = `${NUMW[n] || n} old ${pl(n, 'star sits', 'stars sit')} in your chart${helper ? ', and a helper is arriving' : ''}.`;
+  const claim = `${NUMW[n] || n} ${pl(n, 'guest sits', 'guests sit')} in your chart${helper ? ', and a helper is on the way' : ''}.`;
   return { age, claim: { key: 'TEMPLATED tpl_depth · stars.claim', text: claim, draft: false }, help, test, arriving, yearStars, count: n };
 }
 
