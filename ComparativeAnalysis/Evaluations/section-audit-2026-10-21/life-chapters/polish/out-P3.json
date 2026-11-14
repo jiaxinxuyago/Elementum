@@ -1,0 +1,404 @@
+{
+ "units": [
+  {
+   "key": "ENERGY action · chapter_domain.Career.grow",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours work that pays as it goes over work that pays at the end, and you keep more than one thing running at once."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours finishing what you started over saying yes to the next offer, but each thing you finish is worth two you begin."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Family.grow",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours shared plans over private ones, and you run the household as a joint venture."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Family.release",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours plain help over money, and what you give by showing up counts for more than what you pay."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Growth.grow",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours learning by doing over learning from a book, and what you pick up comes from tasks set just beyond your reach."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Growth.release",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours one thing done slowly and well over a fresh start each season, but you grow by staying with what you already have."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Health.grow",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours moving through the day over saving yourself for later, but you have the most energy when your hands are busy with something real."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Health.release",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours a slower pace over one more errand, but you find your appetite once the list stops growing."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Love.grow",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours practical care over fine words, but you show love best through the things you fix and pay for."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Love.release",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours evenings together over plans for more, and you find a partner values your time above anything you bring home."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Mind.grow",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours a problem you can solve today over a question with no end, and the ideas you trust are the ones you can test within a week."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Mind.release",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours an unplanned afternoon over a longer list, and what you see most clearly arrives when nothing is asked of you."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Social.grow",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours saying yes to the invitation over staying in, and the people you meet in passing open doors you could not open alone."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Social.release",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours a few close people over a wide circle, and you keep the ones who ask nothing of your purse."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Wealth.grow",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours putting money to work over letting it sit, and what you plant pays back more than what you save."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Wealth.release",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours a clear budget over a bigger income, but you rest easier once every bill has a name and a date."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Career.grow",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours a seat at the table over a place in the queue, and the footing you find comes from people who work at your level."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours making something over beating someone, but you do your best work when the effort goes into the thing itself."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Family.grow",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours saying what you need over keeping everyone happy, and the place you claim at the table stays yours."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Family.release",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours letting someone else be right over winning the point, but you keep more peace than any argument would win you."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Growth.grow",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours hard tests over safe lessons, and you come out of each one with a firmer sense of yourself."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Growth.release",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours a skill you build quietly over a test of strength, and what you learn without an opponent stays with you."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Health.grow",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours building stamina over spending it, but you gain strength from steady training more than from bursts of effort."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Health.release",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours hard exercise over sitting still, and the days you burn off the extra force are the days you are easiest to live with."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Love.grow",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours standing beside a partner over standing behind them, and you grow surer of your own place in the pair."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Love.release",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours meeting a partner halfway over holding your line, but you soften once you stop counting who gave way."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Mind.grow",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours your own read of a situation over a vote of everyone you know, and the decisions you back alone hold up."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Mind.release",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours hearing the other side out over defending your first answer, but you think more clearly once you can be wrong out loud."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Social.grow",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours peers who challenge you over people who admire you, and you gain nerve from every friendly contest."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Social.release",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours a shared meal over a friendly contest, and what you give up in winning comes back as company."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Wealth.grow",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours money you can say you made over money that comes as a gift, and the sums you trust are the ones you can trace to your own effort."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Wealth.release",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours an account in your own name over a pot shared with friends, but you keep more when no one else can draw on it."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Career.grow",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours work with your name on it over work that disappears into the whole, and what you make yourself gets you noticed."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours one piece finished over three begun, but you are trusted most for the work you hand in quietly."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Family.grow",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours cooking and making things together over keeping the place tidy, and the touches you add make the house feel lived in."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Family.release",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours a kind word over a sharp one, and you keep the household calm by holding back the first reply."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Growth.grow",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours making something of your own over collecting certificates, and what you show to others teaches you the most."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Growth.release",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours slow work out of sight over quick display, but you go further with one thing kept back until it is right."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Health.grow",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours good food and play over strict routines, and you recover your energy through the things you enjoy."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Health.release",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours a steady appetite over feasts, but you keep your energy on evenings when you talk less and stop sooner."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Love.grow",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours laughing with a partner over keeping things serious, and the affection you show openly is returned in kind."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Love.release",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours hearing a partner out over making your point, and you win more warmth by asking than by telling."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Mind.grow",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours ideas you can make real over ideas you only hold, and you think best with a pen in your hand."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Mind.release",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours one finished idea over ten half-formed ones, but you give your best thought the time it needs to ripen."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Social.grow",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours a lively table over a quiet evening in, and you become the one who gets everyone talking."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Social.release",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours a long walk with one person over a big night with many, but you are trusted more when you share less."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Wealth.grow",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours earning from a skill over earning by the hour, and what you enjoy doing starts to pay."
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Wealth.release",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours buying once over buying often, but you keep more when a treat waits until the end of the month."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Career.grow",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours good advice over a bigger title, and you do your best work beside someone who wants you to succeed."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours starting before you feel ready over one more round of preparing, but you already know enough to begin."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Family.grow",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours a quiet household over a busy one, and what you find there is the ease of being looked after."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Family.release",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours doing for others over waiting to be done for, but you grow steadier with every job you take off someone's hands."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Growth.grow",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours asking for help over working it out alone, and what you learn from someone patient pays you back for years."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Growth.release",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours practice over theory, and you learn more from one real attempt than from a shelf of advice."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Health.grow",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours resting before you are tired over pushing through, but you gather strength from long sleeps and slow mornings."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Health.release",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours getting up and out over lying low, but you are brightest on days when your body has been busy before noon."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Love.grow",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours being cared for over proving you need nothing, but you let a partner look after you without keeping score."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Love.release",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours giving care over waiting for it, and the closeness you share with a partner comes with your hands on the same job."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Mind.grow",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours slow reading over quick answers, and what you take in from books and patient people stays with you."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Mind.release",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours a decision made over a question kept open, but you see further once you have taken the first step."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Social.grow",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours a long talk with someone wise over a noisy night, and the few people you lean on are the ones who see you clearly."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Social.release",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours making plans over mulling them over, and you are the one who books the table and turns up first."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Wealth.grow",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours slow learning over quick gains, but you earn more once you understand where your money goes."
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Wealth.release",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours acting on a plan over perfecting it, but you gain more from the first small move than from weeks of reading."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Career.grow",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours a role with clear duties over a free hand, and what you promise and deliver earns you a name for being reliable."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours one commitment over several, but you do your best with fewer people to answer to."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Family.grow",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours set routines over loose ones, and what you decide becomes the way the household runs."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Family.release",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours letting small things slide over keeping every standard, but you relax in a house that forgives a little mess."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Growth.grow",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours a formal course over teaching yourself, but you rise fastest when someone senior tests what you know."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Growth.release",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours learning at your own pace over chasing approval, but you grow most where nobody is marking you."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Health.grow",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours regular meals and set hours over grazing through the day, and the energy you have rises once your days run to a pattern."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Health.release",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours rest over endurance, and you recover faster when you stop proving you can take the strain."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Love.grow",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours making firm plans with a partner over drifting, and you feel safest when the two of you agree on how the house runs."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Love.release",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours saying no out loud over going along in silence, but you stay close by disagreeing in the open."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Mind.grow",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours a clear method over loose ideas, but you think best with a plain goal and a date to meet it."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Mind.release",
+   "kind": "chapter_domain",
+   "text": "In your thinking, this chapter favours your own judgement over other people's expectations, but you think most freely on an afternoon that belongs to no one else."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Social.grow",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours people who turn up on time over people who keep you amused, and you gain standing in groups that have a purpose."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Social.release",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours easy company over clubs with duties, and you recover from a demanding week among people who expect nothing formal of you."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Wealth.grow",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours money that arrives on a fixed day over a gamble, and what you build comes from sums you can count on."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Wealth.release",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours money you control over money tied to someone else's terms, and you breathe easier with fewer loans and contracts in your name."
+  }
+ ]
+}
