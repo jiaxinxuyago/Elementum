@@ -16,7 +16,6 @@
 import { useState } from 'react';
 import './depth.css';
 import { EnergyChaptersPage } from './ChaptersViews.jsx';
-import { IS_DEV_TOOLS } from '../../devtools.js';
 
 const GATE_NAME = { year: 'Early', month: 'Rising', day: 'Home', hour: 'Late' };
 const GATE_AGES = { year: 'birth–15', month: '16–34', day: '35–47', hour: '48 on' };
@@ -201,9 +200,10 @@ export function ChaptersPage({ L, positions, hourUnknown, tier, onUpgrade, onOpe
 }
 
 // ── Stars ────────────────────────────────────────────────────────────
-// Owner STAR-L1 A (2026-11-14): elementum.life shows only the star units already
-// written, as Your Almanac does; the dev site keeps every draft line, tagged.
-const shown = (u) => !!u && (IS_DEV_TOOLS || !u.draft);
+// Owner STAR-L1 A (2026-11-14) hid unwritten star units on elementum.life while the
+// batch was written; the batch landed the same day (283 units, 0% drafts), so the
+// hiding is off and every unit shows.
+const shown = (u) => !!u;
 function StarCard({ s, kind, seeker }) {
   const readings = (s.readings || [s.reading]).filter(shown);
   return (
