@@ -16,7 +16,7 @@
 //   FirstReading    the eight cards after the Naming, on the Naming's ground
 // ===================================================================
 
-import { TYPE_LINE } from '../../content/mergedReading.js';
+import { LADDER, STEM_LADDER, LADDER_NOTICE_BAND, LADDER_TRY_POLE } from '../../content/ladder.js';
 import { dmArt, dmStage, stripArt, useArtSrc, ArtTodo } from './inkArt.jsx';
 
 // the five washes (Ink_Painting_System.md): the dominance bar's segments
@@ -93,77 +93,97 @@ export function TypeChips({ m, g, Use, InkDot, doors = null, stamp = null }) {
 // the band-invariant baseline, dm_claims under it), the five energies (one gift
 // or shadow face per energy from the revived pools), dm_mechanism. The type and
 // the circle close it, with the doors on.
+// The page's words moved onto the explanation ladder (owner 2026-11-14: "apply all
+// the content we just sorted", EV2 A): each label says what it is in nature, what
+// it runs in a life, what the amount means in you, a moment you would notice, and
+// one thing to try. The art and layout are the design session's, unchanged.
+const ldCap = (x) => (x ? x.charAt(0).toUpperCase() + x.slice(1) : x);
+const ldRow = (stem, table, fn, band) => STEM_LADDER[stem]?.overrides?.[`${table}.${fn}.${band}`] ?? LADDER[table]?.[fn]?.[band];
+const ldNeed = (stem, fn) => STEM_LADDER[stem]?.overrides?.[`need_phrase.${fn}`] ?? LADDER.need_phrase[fn];
+function LdLead({ text }) { const k = (text || '').indexOf(' '); return k > 0 ? <><b>{text.slice(0, k)}</b>{text.slice(k)}</> : (text || null); }
+
 export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay, onEnergy }) {
   const t = g.type;
+  const sl = STEM_LADDER[m.stem] || {};
+  const coreEl = m.core.name;
+  // heaviest first, the need last (the revelation's order); a Balanced chart has no need
+  const byAmount = [...m.els].sort((x, y) => y.presence - x.presence).map((r) => r.el);
+  const order = g.first ? [...byAmount.filter((el) => el !== g.first), g.first] : byAmount;
+  const need = t?.need ? g.rows[t.need.el] : null;
+  const cond = LADDER.condition[g.condition] || LADDER.condition.Balanced;
+  const notices = [sl.behaviour, ...(dm.claims || [])].filter(Boolean);
   return (
     <div className="dmp">
       <div className="cardstock dmp-head dmp-sec">
         <img className="dmp-plate" src={plateOf(m.stem)} alt={`${m.stem}, ${m.archetype}`} />
-        <span className="dmp-ya">You are</span>
+        <span className="dmp-ya">Your Day Master</span>
         <h2 className="dmp-name">{m.archetype}</h2>
-        <span className="dmp-lit"><Taichi stem={m.stem} size={15} className="dmp-tai" />{m.stemLit}</span>
+        <span className="dmp-lit dmp-elline"><Taichi stem={m.stem} size={15} className="dmp-tai" />{sl.element_line || m.stemLit}</span>
+        {sl.recognition ? <p className="dmp-recog">{sl.recognition}</p> : null}
         {m.manifesto ? <p className="dmp-mani">{m.manifesto}</p> : null}
+        <p className="dmp-foot">{LADDER.naming_footnote}</p>
       </div>
       {dm.overview ? (
-        <div className="cardstock dmp-sec dmp-inked"><InkArt src={dmArt(m.stem, 1)} kind="sign" /><span className="mg-lab">The sign</span><p className="dmp-body">{dm.overview}</p></div>
+        <div className="cardstock dmp-sec dmp-inked"><InkArt src={dmArt(m.stem, 1)} kind="sign" /><span className="mg-lab">The sign</span>
+          <p className="dmp-ins">{LADDER.element_heading[coreEl]}</p>
+          <p className="dmp-body">{dm.overview}</p></div>
       ) : null}
       {dm.nature || dm.inscription ? (
         <div className="cardstock dmp-sec">
           <span className="mg-lab">Your nature</span>
-          {/* the inscription opens the portrait (owner 2026-10-27: "What people notice is just an opener to Your Nature"); the D2 column floats beside both */}
+          {/* the inscription opens the portrait; the D2 column floats beside both */}
           <div className="dmp-flow">
             <InkArt src={dmArt(m.stem, 2)} kind="nature" />
             {dm.inscription ? <p className="dmp-ins">{dm.inscription}</p> : null}
             {dm.nature ? <p className="dmp-body">{dm.nature}</p> : null}
           </div>
-          {dm.claims?.length ? <><span className="mg-lab dmp-sub">What people notice</span><ul className="dmp-claims">{dm.claims.map((c) => <li key={c}>{c}</li>)}</ul></> : null}
+          {notices.length ? <>{sl.as_line ? <p className="dmp-body dmp-contrast">{sl.as_line}</p> : null}<span className="mg-lab dmp-sub">You might notice</span><ul className="dmp-claims">{notices.map((c) => <li key={c}>{c}</li>)}</ul></> : null}
+          {sl.contrast ? <p className="dmp-body dmp-contrast">{sl.contrast}</p> : null}
         </div>
       ) : null}
-      {g.faces?.length ? (
-        <div className="cardstock dmp-sec dmp-five dmp-fans">
-          <span className="mg-lab">Through your five energies</span>
-          <p className="dmp-lead">{(g.balanced ? TYPE_LINE.five.balanced : TYPE_LINE.five.lead).replace('{the archetype}', m.archetype.replace(/^The /, 'the '))}</p>
-          {[['friction', 'Release', 'fric', 'ar-down'], ['catalyst', 'Grow', 'cat', 'ar-up'], ['balanced', 'Keep', 'cond', 'ic-balanced']].map(([pole, label, cls, ic]) => {
-            const list = g.faces.filter((f) => f.pole === pole);
-            if (!list.length) return null;
-            return (
-              <div key={pole} className="dmp-group">
-                <span className={`role-pill ${cls}`}><Use id={ic} />{label}</span>
-                {list.map((f) => (
-                  <button type="button" key={f.el} className={`dmp-face${f.cell ? ' d' : ''}`} onClick={onEnergy ? () => onEnergy(f.el) : undefined}>
-                    <span className="dmp-fdot"><InkDot el={f.el} size={40} Use={Use} label={`${f.name} ${f.presence} percent`} /></span>
-                    {f.cell ? (
-                      // W1–W3 A: the function as the title, three chips in the Grow/Release colours, the paragraph
-                      <span className="dmp-ftx">
-                        <span className="dmp-ftitle">{f.fn}<em>{f.name} · {f.presence}%</em><span className="dp-draft">draft</span><span className="readcirc dmp-gob" aria-hidden="true"><Use id="ico-arrow-r" /></span></span>
-                        <InkArt src={stripArt(m.stem, f.el)} kind="pair" />
-                        <span className="dmp-chips">{f.cell.adj.map((a) => <span key={a} className={`wd-adjchip${f.pole === 'friction' ? ' down' : ''}`}>{a}</span>)}</span>
-                        <span className="dmp-fd">{f.cell.p}</span>
-                      </span>
-                    ) : (
-                      <span className="dmp-ftx">
-                        <InkArt src={stripArt(m.stem, f.el)} kind="pair" />
-                        <span className="dmp-fey">{f.fn} · {f.name} {f.presence}% · {f.kind === 'shadows' ? 'shadow' : 'gift'}<span className="readcirc dmp-gob" aria-hidden="true"><Use id="ico-arrow-r" /></span></span>
-                        <b>{f.phrase}</b>
-                        <span className="dmp-fd">{f.desc}</span>
-                      </span>
-                    )}
-                  </button>
-                ))}
-              </div>
-            );
-          })}
-        </div>
-      ) : null}
+      <div className="cardstock dmp-sec dmp-five dmp-fans dmp-ladder">
+        <span className="mg-lab">Through your five energies</span>
+        <p className="dmp-lead">{LADDER.model_heading}</p>
+        {order.map((el) => {
+          const r = g.rows[el];
+          return (
+            <button type="button" key={el} className="dmp-face d" onClick={onEnergy ? () => onEnergy(el) : undefined}>
+              <span className="dmp-fdot"><InkDot el={el} size={40} Use={Use} label={`${r.name} ${r.presence} percent`} /></span>
+              <span className="dmp-ftx">
+                <span className="dmp-ftitle">{r.name}, your {r.fn}<em>{r.presence}%</em><span className="readcirc dmp-gob" aria-hidden="true"><Use id="ico-arrow-r" /></span></span>
+                <InkArt src={stripArt(m.stem, el)} kind="pair" />
+                <span className="dmp-fd dmp-r1"><LdLead text={r.isCore ? sl.self_nature : LADDER.nature_pair[coreEl]?.[r.name]} /></span>
+                <span className="dmp-fd"><LdLead text={LADDER.function_plain[r.fn]} /></span>
+                <span className="dmp-fd"><span className="dmp-flab">In you</span>{ldRow(m.stem, 'in_you', r.fn, r.volume)}</span>
+                <span className="dmp-fd"><span className="dmp-flab">You might notice</span>{ldCap(ldRow(m.stem, 'notice', r.fn, LADDER_NOTICE_BAND[r.volume]))}</span>
+                <span className="dmp-fd dmp-try"><Pill row={r} it Use={Use} />{ldCap(LADDER.try[r.fn]?.[LADDER_TRY_POLE[r.pole]])}</span>
+              </span>
+            </button>
+          );
+        })}
+      </div>
+      <div className="cardstock dmp-sec">
+        <span className="mg-lab">How you run</span>
+        <p className="dmp-ins">{cond.heading}</p>
+        <p className="dmp-body">{cond.body}</p>
+        <p className="dmp-body dmp-try"><b>Try this:</b> {cond.try}</p>
+        <div className="dmp-doors"><button type="button" className="mg-link" onClick={onRun}><Use id="ico-arrow-r" />How am I running?</button></div>
+      </div>
       {dm.edge ? (
         <div className="cardstock dmp-sec dmp-inked"><span className="mg-lab">How your edge is built</span><p className="dmp-body">{dm.edge}</p><InkArt src={dmArt(m.stem, 3)} kind="edge" /></div>
       ) : null}
       {t ? (
         <div className="cardstock dmp-sec">
           <span className="mg-lab">Your type · {t.name}</span>
-          <TypeLine g={g} className="dmp-tline" />
+          <p className="dmp-ins">{LADDER.mode_plain[t.mode.fn]}</p>
+          {need ? (
+            <>
+              <p className="dmp-body">{LADDER.need_pattern.replace('{Mode}', t.mode.fn).replace('{El}', need.name).replace('{phrase}', ldNeed(m.stem, need.fn))}</p>
+              <p className="dmp-body dmp-try"><span className="role-pill cat"><Use id="ar-up" />Start here</span>{ldCap(LADDER.try[need.fn]?.grow)}</p>
+              <p className="dmp-body">{t.circle.head}. {LADDER.circle_close}</p>
+            </>
+          ) : <TypeLine g={g} className="dmp-tline" />}
           <div className="dmp-doors">
-            <button type="button" className="mg-link" onClick={onRun}><Use id="ico-arrow-r" />How am I running?</button>
             {onCircle ? <button type="button" className="mg-link" onClick={onCircle}><Use id="ico-arrow-r" />{t.circle.cta}</button> : null}
             {onReplay ? <button type="button" className="mg-link" onClick={onReplay}><Use id="ico-arrow-r" />Replay your first reading</button> : null}
           </div>

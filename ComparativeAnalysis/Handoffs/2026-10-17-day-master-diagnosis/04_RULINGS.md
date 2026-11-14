@@ -409,3 +409,14 @@ The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, wit
 - **Where they live:** the station (`TEMPLATED/tpl_ladder.json`, `STEM/*.json` field `ladder`) and the code (`src/content/ladder.js`). Not rendered yet.
 - **New design rule from the owner:** "when mentioned Yin and Yang, make sure we include yin and yang taichi symbol (each sides) image on the page." It is in the build brief as rule 5.
 - **Build brief to the design session:** `Design/Library/Design_Pass_2026-10/RS3_Revelation_Ladder_Brief.md`.
+
+**2026-11-14 · the Day Master page on the explanation ladder** (owner: "start with the Day Master page … use the art and design from the other session but apply all the content we just sorted").
+- **Head:** "Your Day Master", the element line with the taichi symbol, the recognition line, the manifesto, and what a Day Master is.
+- **The sign:** opens with the element heading.
+- **Your nature:** adds the "as a {Name}" line, the stem's behaviour above its two locked claims, and the contrast line.
+- **Through your five energies:** each row climbs the five rungs (nature, function, in you, you might notice, try this with its pill), heaviest first and the need last. It replaces the `energy_faces` drafts, which stay in the station.
+- **How you run:** a new card from the ladder's condition rows.
+- **How your edge is built:** unchanged.
+- **Your type:** the mode sentence, the need, "Start here" and the circle line.
+
+The layout and paintings are the design session's, unchanged. Dev only (TYPE_V1).

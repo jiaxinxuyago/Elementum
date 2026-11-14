@@ -436,3 +436,18 @@ button.ty-cc{ cursor:pointer; }
 .jny .mg-fr.ladder.t-cond .mg-card{ padding:74px 22px 40px; }
 .jny .mg-fr.ladder.t-cond .mg-card p{ max-width:none; }
 .jny .dmp-lit .dmp-tai{ display:inline-block; vertical-align:-3px; margin-right:6px; }
+
+/* The Day Master page on the explanation ladder (owner 2026-11-14): the words changed, the layout is the design session's */
+.jny .dmp-elline{ display:inline-flex; align-items:center; gap:6px; font-family:'EB Garamond',Georgia,serif; font-size:14px; letter-spacing:0; text-transform:none; color:var(--inkSoft); }
+.jny .dmp-recog{ margin:10px 0 0; font-family:'Cormorant Garamond',Georgia,serif; font-size:23px; font-weight:600; line-height:1.18; color:var(--ink); text-wrap:balance; }
+.jny .dmp-foot{ margin:8px 0 0; font-family:'EB Garamond',Georgia,serif; font-size:13px; line-height:1.4; color:var(--inkLight); }
+.jny .dmp-contrast{ margin-top:6px; color:var(--inkSoft); }
+.jny .dmp-ladder .dmp-ftitle{ font-size:21px; }
+.jny .dmp-ladder .dmp-ftitle em{ font-family:'EB Garamond',Georgia,serif; font-size:14px; letter-spacing:0; text-transform:none; font-variant-numeric:tabular-nums; }
+.jny .dmp-ladder .dmp-fd{ display:block; margin-top:6px; }
+.jny .dmp-ladder .dmp-r1{ font-family:'Cormorant Garamond',Georgia,serif; font-size:18px; line-height:1.22; }
+.jny .dmp-fd b{ font-weight:600; }
+.jny .dmp-flab{ display:block; font-family:Cinzel,Georgia,serif; font-size:8px; letter-spacing:1.6px; text-transform:uppercase; color:var(--inkLight); margin-bottom:1px; }
+.jny .dmp-try{ background:rgba(250,246,238,.72); border:1px solid rgba(139,115,85,.28); border-radius:12px; padding:9px 11px; }
+.jny .dmp-try .role-pill{ font-size:7.5px; margin-right:7px; vertical-align:2px; }
+.jny .dmp-try b{ font-weight:600; }
