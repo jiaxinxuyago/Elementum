@@ -7,7 +7,7 @@
 
 | Section | Session | State | Last note | Commits | Flags | Coverage (draft lines) | Waits on |
 |---|---|---|---|---|---|---|---|
-| Domains | session_0157BD3MBKbov3jAMoKYj2nT | Rulings round live; P0 rewrite of `positions.js` (22 sentences) done | 2026-11-14 | f1fe36b, aa0e475, cc52796 | live | 0% | Owner: DOM-P1 |
+| Domains | session_0157BD3MBKbov3jAMoKYj2nT | Rulings round live; P0 rewrite of `positions.js` (22 sentences) done; DOM-P1 A done: 48 lived beats and 6 Blueprint bond lines open on the chapter, not the age | 2026-11-14 (second note) | f1fe36b, aa0e475, cc52796, 5bda279 | live, no flag | 0%; R16 breaks on 0.4% of pages (Domains' figure) | Owner: DOM-P2 (51 "ahead" beats and 7 empty-seat lines) |
 | Blueprint | Domains | Rules R1, R2 live | 2026-11-14 | 4f9bcc8 | `BLUEPRINT_RULES_LIVE = true` | 0% | none reported |
 | Life Chapters | session_01LKbtNcH4nTofFBwRv1HdHf | No note yet | | | | 0.9% (Domains' run, 2026-11-14) | |
 | Stars | session_01MspmFFbcsCTE5ZhyTBhyBN | No note yet; its batch is said to wait on the owner | | | | 61% (Domains' run) | Owner's rulings (per Domains) |
