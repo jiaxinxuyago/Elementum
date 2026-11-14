@@ -80,7 +80,7 @@ import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
-import { DEPTH_LIVE, V5_LIVE, EJ_LIVE, SC_LIVE, TYPE_LIVE } from '../../liveFlags.js';
+import { DEPTH_LIVE, V5_LIVE, EJ_LIVE, SC_LIVE, TYPE_LIVE, RS_LIVE } from '../../liveFlags.js';
 import { EnergyLadder, NameRung, DomainMap, ArtSlot, FN_ART, PERSONA_ART } from './EnergyJourney.jsx';
 import { AlbumHub, LeafReader, Balance, EnergyPager, AcrossChart, useSwipe, markRead, SECTION_ART, InkDot } from './V5Views.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
@@ -131,6 +131,8 @@ const UseX = ({ id, className }) => (
 // social claim yet and 辛's second carries a dash, so those take claim 1.
 // THE TYPE (owner 2026-10-27, M1–M6 A): dev site until TYPE_LIVE.
 export const TYPE_V1 = TYPE_LIVE || IS_DEV_TOOLS;
+// the revelation rides its own switch, so it can be live while the rest of the type is not
+const LADDER_V1 = TYPE_V1 || RS_LIVE;
 const SHARE_CLAIM_PICK = { '乙': 0, '壬': 0, '辛': 0 };
 const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
@@ -693,14 +695,14 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
             <div className="rvl-overlay" ref={rvlRef}>
               <div className="rvl-blank" />
               {/* RS2 (owner 2026-11-05): with the type the Naming stands on the stem's painted stage */}
-              {TYPE_V1 && merged?.type
+              {LADDER_V1 && merged?.type
                 ? <img className="rvl-stage" src={dmStage(m.stem)} alt="" />
                 : <>
                   <img className="rvl-bgtop" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
                   <img className="rvl-bgbot" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
                   <div className="rvl-fog" />
                 </>}
-              {TYPE_V1 && merged?.type ? (
+              {LADDER_V1 && merged?.type ? (
                 /* RS3 (words ruled 2026-11-13): the name, its element line with the taichi
                    symbol, the recognition line, the five signs by name, what a Day Master is */
                 <div className="rvl-inner ladder">
@@ -753,7 +755,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
 
           {/* THE MERGE: the first reading's eight cards, between the Naming and the dissolve */}
           {playingReveal && MERGE_V1 && merged && storyOn && (
-            TYPE_V1 && merged.type
+            LADDER_V1 && merged.type
               ? <LadderReading key={storyStart} start={storyStart} m={m} g={merged} claims={DM_READING[m.stem]?.claims} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
                 onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
               : <FirstReading key={storyStart} start={storyStart} door={SC_LIVE} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => setShowShare(true)}
@@ -762,7 +764,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
 
           {/* THE TYPE (K2 A): the album's Archetype chip replays the first reading's eight cards */}
           {replayOn && merged && (
-            TYPE_V1 && merged.type
+            LADDER_V1 && merged.type
               ? <LadderReading key="replay" start={0} m={m} g={merged} claims={DM_READING[m.stem]?.claims} Use={Use} InkDot={InkDot} onShare={() => { setReplayOn(false); setShowShare(true); }} onEnter={() => setReplayOn(false)} />
               : <FirstReading key="replay" start={0} door={SC_LIVE} m={m} g={merged} sealSrc={sealSrc} Use={Use} InkDot={InkDot} onShare={() => { setReplayOn(false); setShowShare(true); }}
                 onEnter={() => setReplayOn(false)} />

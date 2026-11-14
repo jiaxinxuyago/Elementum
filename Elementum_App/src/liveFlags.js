@@ -56,3 +56,11 @@ export const TYPE_LIVE = false;
 // saw the side-by-side and ruled S1 A (ship both, 2026-11-14). Read through
 // DEPTH_RULES_V2 (domainsResolve.js).
 export const BLUEPRINT_RULES_LIVE = true;
+
+// RS_LIVE — the painted revelation on the explanation ladder (the Naming's new
+// lines and the nine cards, LadderViews.jsx), released on its own (owner
+// 2026-11-14: "if A is implemented on Dev push it to Elementum.life"). It does
+// NOT release the rest of the Elementum Type (TYPE_LIVE: the album's type chips,
+// the Day Master page, the type share card), which stays the Day Master
+// session's switch.
+export const RS_LIVE = true;
