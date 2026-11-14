@@ -115,3 +115,21 @@ All rows were ruled as recommended:
   - the round-1 path is retired.
 - **Waiting:** M1–M9 and the MINOR round.
 - **M1 (the calculator's luck-pillar start):** about 4% of charts start their decades ten years off. Fixing it is a shared-engine change and needs the owner.
+
+## Section audit rulings (owner 2026-11-14): "M1 A … M9 A, MINOR A"
+
+- **M1:** done by the calculator session on 2026-10-22 (E1, `71cfa96`). The births left are on a solar-term day, which waits on the Almanac's `EXACT_TERMS` sign-off.
+- **Resolver (`08e57df`):**
+  - M3: ground lines by relation and direction;
+  - M5: `.late` decades from 55, and Year- and Month-Gate landings for readers from 55;
+  - M6: favours skip the chapter's domains;
+  - M8: "need" only for the scarcest energy;
+  - M9: child lines only for a decade with at least six of its years before 16 (`cb7b7b8`).
+- **Polish round (`ea3c04c`):** 464 units (87 new) by six sealed writers under M2–M7, the 76 MINOR proposals and the Almanac's AM1–AM4 (05_TO_LIFE_CHAPTERS). AM3 was also applied as an accuracy fix: release is direction, not quantity. 285 old texts are in `__ore`. Records: `ComparativeAnalysis/Evaluations/section-audit-2026-10-21/life-chapters/polish/`.
+- **Re-audit (`reaudit/`):**
+  - 137 findings.
+  - B 3.13 → 3.11. A1 3.21 → 3.41. A2 3.76 → 3.02. A4 4.31 → 3.37.
+  - Every ruled check holds. The rewrite traded one tic for another.
+  - 49 TWEAKs and a rewritten ground set have landed (`b5cb61a`).
+  - Labels are now by age.
+- **Report:** https://claude.ai/artifact/C5mHHAkiuw8htbNWvVy3SW. N1–N6 and the 65 MINORs are waiting.
