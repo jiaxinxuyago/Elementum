@@ -1,0 +1,507 @@
+{
+ "worklist": 1,
+ "units": [
+  {
+   "key": "ENERGY action · day.even.a",
+   "kind": "energy",
+   "now": "{el} brings Action, a fair share that fits your chart. You work at a steady rate today, and what you earn matches what you put in.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · day.even.b",
+   "kind": "energy",
+   "now": "{el} brings Action, an even weight your chart carries easily. Tasks arrive one at a time today, and you deal with each before the next.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · day.grow.a",
+   "kind": "energy",
+   "now": "{el} brings Action, more of an energy that already serves you well. Your effort goes further than it did yesterday, and you gain ground with each task.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · day.grow.b",
+   "kind": "energy",
+   "now": "{el} brings Action, an energy you already hold and still need. It hands you more to work with than you can use, and you choose well.",
+   "findings": [
+    "MINOR cross:X37: \"More than you can use\" is the heavy reading. The `.a` variant (\"your effort goes further\") reads it as welcome. | proposed: \"{el} brings Action, an energy you already hold and still need. It puts useful work within reach, and you pick the tasks worth doing.\"",
+    "MINOR day-1:m6: A grown energy is described as a surplus, which is the heavy state's wording, and it ends on a promise. | proposed: \"Water brings Action, an energy you already hold and still need. Offers and errands come within reach today, and you have the drive to go after them.\" (27 words)",
+    "MINOR day-2:D2-m7: It calls a grown energy surplus (\"more than you can use\") and closes on flattery | proposed: \"Water brings Action, an energy you already hold and still need. It puts more within reach than usual, and you pick the part worth the effort.\""
+   ]
+  },
+  {
+   "key": "ENERGY action · day.heavy.a",
+   "kind": "energy",
+   "now": "{el} brings Action, more of an energy your chart already holds in excess. Tasks and offers pile up past what you can handle, and you drop the smallest.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · day.heavy.b",
+   "kind": "energy",
+   "now": "{el} brings Action, more effort and reach than your chart can use. Every gain costs more than it returns, and you end the day tired of chasing.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · day.need.a",
+   "kind": "energy",
+   "now": "{el} brings Action, the energy your chart lacks most. A chance to earn or to reach further appears today, and you have the strength to take it.",
+   "findings": [
+    "MAJOR day-2:D2-M2: The need state is shared by every needed function, but the unit claims a rank. One reader sees three different energies called \"most\" or \"shortest\" on three days. On this chart Fire is the true shortfall, so the Earth lines are false. A unit cannot know a rank it is not keyed on | proposed: Rule: no superlative in a need unit unless the engine passes the rank. Rewrite the six openers as \"the energy your chart runs short on\", \"the outlet your chart is short of\", \"the support you run short on\" and similar, then vary the rest of the line. Example: \"Earth brings Order, an energy your chart runs short on. A rule or a deadline lands on you today, and you find it steadies you.\""
+   ]
+  },
+  {
+   "key": "ENERGY action · day.need.b",
+   "kind": "energy",
+   "now": "{el} brings Action, the reach you are usually short of. Effort pays back quickly today, and you see results before evening.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · month.even",
+   "kind": "energy",
+   "now": "{el} brings Action this month, at a level your chart neither craves nor resents. Work and income hold their usual pace, and you keep them there with ease.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · month.grow",
+   "kind": "energy",
+   "now": "{el} brings Action this month, adding fuel to work you already do well. Money and effort move in step, and you widen what you manage.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · month.heavy",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole month, though your chart is already crowded with it. Work spreads thin across too many fronts, and you feel stretched by the third week.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · month.need",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole month, the energy you need most. New openings turn up at work and in trade, and you claim more of them than usual.",
+   "findings": [
+    "TWEAK month:F06: `need` means only that the share is ≤10%. On the 癸 1995 chart Fire is \"the energy you need most\" in September and Earth is \"the structure your chart is shortest of\" in October, so the two superlatives cannot both be true. | proposed: \"{El} brings Action for a whole month, an energy your chart runs short of. New openings turn up at work and in trade, and you claim more of them than usual.\""
+   ]
+  },
+  {
+   "key": "ENERGY action · year.even",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole year, a steady current through your working life. Neither a great leap nor a great loss arrives, and you build at an even rate.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.grow",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole year, growing a reach you already have. Each season adds a fresh field to work in, and you harvest more than you sow.",
+   "findings": [
+    "TWEAK year:LC6: Broken idiom, and the unit is 35 words | proposed: \"{el} brings Action for a whole year, the reach your chart holds and still wants. Effort pays off quickly, and you finish the year with more to show for your work.\" (31)"
+   ]
+  },
+  {
+   "key": "ENERGY action · year.heavy",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole year, more of a load you already carry. Chances pull at you from every side, and you learn which ones to let pass.",
+   "findings": [
+    "TWEAK cross:X41: \"you learn\" closes three of the year heavy/over lines (action, body, expression), and six units overall. This replacement also applies X01. | proposed: \"{el} brings Action for a whole year, more reach than your chart is built for. Chances pull at you from every side, and you let most of them pass.\""
+   ]
+  },
+  {
+   "key": "ENERGY action · year.need",
+   "kind": "energy",
+   "now": "{el} brings Action for a whole year, filling the gap your chart has always had. Your reach stretches into new places, and you build something you can hold.",
+   "findings": [
+    "TWEAK year:LC5: Tense slip | proposed: …and you get your hands on more than you have had in years. (The line is still filler, B 2)"
+   ]
+  },
+  {
+   "key": "ENERGY body · day.core_even.a",
+   "kind": "energy",
+   "now": "{el} brings more Body, your own energy, on a day you stand in balance. It adds a steady push without tipping you, and you keep an even pace until night.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · day.core_even.b",
+   "kind": "energy",
+   "now": "{el} brings more Body, a measure of your own strength that fits you well. Nothing pulls you off centre today, and your effort matches each task you meet.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · day.core_over.a",
+   "kind": "energy",
+   "now": "{el} brings more Body, your own energy, when you already run over. You push harder than the day needs, and you notice it by evening.",
+   "findings": [
+    "TWEAK day-2:D2-t5: \"Evening\" repeats in the landing it sits above (punish.day \"by evening\", bind.day \"the evening\") | proposed: \"{Element} brings more Body, your own energy, when you already run over. You push harder than the day needs, and you feel the strain before night.\""
+   ]
+  },
+  {
+   "key": "ENERGY body · day.core_over.b",
+   "kind": "energy",
+   "now": "{el} brings more Body, the energy you are made of, when your chart already holds plenty. You take on more than your share, and the people near you feel the weight.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · day.core_under.a",
+   "kind": "energy",
+   "now": "{el} brings more Body, a fresh supply of your own strength when your chart runs thin. Your stamina returns in steps, and you stand firmer by the afternoon.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · day.core_under.b",
+   "kind": "energy",
+   "now": "{el} brings more Body, the energy your chart runs low on. Tired limbs and a tired will both fill up today, and you hold your own in every exchange.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · month.core_even",
+   "kind": "energy",
+   "now": "{el} brings more Body this month, and your balanced chart takes it in calmly. Your energy runs level from the first week to the last, and you rely on it.",
+   "findings": [
+    "MINOR month:F24: The close is flat and says nothing a reader could check. B 2. | proposed: \"{El} brings more Body this month, and your balanced chart takes it in calmly. Your energy holds level from the first week to the last, steady enough to lean on when others tire.\""
+   ]
+  },
+  {
+   "key": "ENERGY body · month.core_over",
+   "kind": "energy",
+   "now": "{el} brings more Body for a whole month, though your chart already runs full of it. Your will sets hard, and you meet each small push with a bigger one.",
+   "findings": [
+    "MAJOR cross:X01: `energyState` returns `heavy` for any friction energy whatever its volume (`s < 0 → 'heavy'`). In the 600-chart sample, 315 of 1,173 and 317 of 1,248 heavy energies are thin (≤10%). That is about one heavy line in four telling a reader they hold \"too much\" of an energy they barely have. Example: born 1996-05-19 16h, Overfueled Wood, Water = Mind at 1% → \"Water brings Mind, the energy your chart already has too much of.\" Each unit is shared by every chart in the state, so the claim has to hold for thin charts too. | proposed: **Rule:** a heavy or core_over line names the *valence*, not the *amount*: \"more than your chart can use\", \"more than your chart is built for\", \"an energy your chart does better with less of\". Never \"already holds / has / carries too much\", \"full of\", \"crowded with\", \"in plenty\", \"in excess\". Examples: `mind · day.heavy.a` (golden) → \"{el} brings Mind, more than your chart can use today. Your thoughts circle, and you get less done than you meant to.\" · `order · day.heavy.b` → \"{el} brings Order, a weight your chart does better with less of. A deadline tightens or a rule bites, and you work twice as hard for the same result.\" · `action · month.heavy` → \"{el} brings Action for a whole month, more reach than your chart is built for. Work spreads thin across too many fronts, and you feel stretched by the third week.\" The same rule applies to Life Chapters' year lines (O1)."
+   ]
+  },
+  {
+   "key": "ENERGY body · month.core_under",
+   "kind": "energy",
+   "now": "{el} brings more Body this month, refilling the strength your chart runs short of. Week by week your will grows steadier, and you carry loads that tired you before.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_even",
+   "kind": "energy",
+   "now": "{el} brings more Body for a whole year, a steady flow of your own energy. It neither crowds nor empties you, and you keep a sure stride from spring to winter.",
+   "findings": [
+    "TWEAK year:t2: The opener must be \"{Element} brings <Function>\". \"more\" breaks it | proposed: {el} brings Body for a whole year, a steady flow of your own energy. It neither crowds nor empties you, and you keep a sure stride from spring to winter."
+   ]
+  },
+  {
+   "key": "ENERGY body · year.core_over",
+   "kind": "energy",
+   "now": "{el} brings more Body for a whole year, more of the strength you already carry in excess. Others give way to you often, and you learn where your force stops helping.",
+   "findings": [
+    "TWEAK cross:X42: The same \"you learn\" close. This replacement also applies X01. | proposed: \"{el} brings more Body for a whole year, more force than your chart can use. Others give way to you often, and you see where your force stops helping.\"",
+    "MINOR year:LC4: \"runs\" twice in one unit (three times on the page). \"sharing the load\" with peers adds Body, which an Overfueled reader releases | proposed: \"{el} brings Body for a whole year, the force your chart already runs over with. Rivalry with peers heats up, and you come through by putting the surplus into work you can show.\" (32)"
+   ]
+  },
+  {
+   "key": "ENERGY body · year.core_under",
+   "kind": "energy",
+   "now": "{el} brings more Body for a whole year, the energy your chart has least of. Your footing grows solid as the seasons turn, and you end the year standing on your own.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · day.even.a",
+   "kind": "energy",
+   "now": "{el} brings Expression, a gentle measure that suits you. You speak and make at your normal pace, and your words come out as you mean them.",
+   "findings": [
+    "MINOR day-2:D2-m10: An absolute claim the day cannot know, and flattery | proposed: \"Water brings Expression, a gentle measure that suits you. You talk and make things at your usual pace today, and you say what you mean without rehearsing it.\""
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.even.b",
+   "kind": "energy",
+   "now": "{el} brings Expression, in an amount that neither lifts you nor tires you. Talk flows at an easy level today, and you enjoy it without effort.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · day.grow.a",
+   "kind": "energy",
+   "now": "{el} brings Expression, adding to a gift you already use. Your hands or your words work fast today, and you finish something worth showing.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · day.grow.b",
+   "kind": "energy",
+   "now": "{el} brings Expression, more of an outlet that already serves you. A joke lands or a sketch comes right, and you enjoy the day more than most.",
+   "findings": [
+    "MINOR day-1:m8: It compares the reader with unnamed others for no point. | proposed: \"Metal brings Expression, more of an outlet that already serves you. A joke lands or a sketch comes right, and the day feels like your own.\" (25 words)"
+   ]
+  },
+  {
+   "key": "ENERGY expression · day.heavy.a",
+   "kind": "energy",
+   "now": "{el} brings Expression, more of an outlet you already overuse. Words spill out faster than you weigh them, and you say one thing too many.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · day.heavy.b",
+   "kind": "energy",
+   "now": "{el} brings Expression, on top of a chart that already gives out too much. Your energy leaks into chatter and small tasks, and you feel spent by dusk.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · day.need.a",
+   "kind": "energy",
+   "now": "{el} brings Expression, the outlet you have least of. Something you make or say today finds its listener, and you feel lighter afterwards.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · day.need.b",
+   "kind": "energy",
+   "now": "{el} brings Expression, the outlet your chart is short of. Words come easily today, and you say what you have been holding back.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · month.even",
+   "kind": "energy",
+   "now": "{el} brings Expression this month, sitting evenly in your chart. Your words and your work keep their usual shape, and you show them at a comfortable rate.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · month.grow",
+   "kind": "energy",
+   "now": "{el} brings Expression this month, feeding a talent you already have. Work you share draws warm replies, and you make more than you planned.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · month.heavy",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole month, though you already pour out plenty. You start many things and show them early, and your strength runs low by the last week.",
+   "findings": [
+    "MAJOR month:F01: The engine sets `heavy` for **every** released energy whatever its share (`engine/almanac/index.js:153`: `if (s < 0) return 'heavy'`), yet all four lines claim volume. Chart 乙亥 庚辰 己卯 癸酉 has no Fire in a stem, branch or hidden stem, and is told it has too much Fire. The 甲 chart holds Metal only as hidden 辛 and is told it is \"full of\" Metal. Classically (子平真诠, 论用神) the energy is released because of the Day Master's strength: an Underfueled core cannot carry the drain of Expression, Action and Order, and an Overfueled core does not need Mind. Its share is not the reason. mind.heavy also ends in praise (\"you hold your ground well\") for an energy the reader releases. | proposed: Rule: a `heavy` line names why the reader releases the energy (the strength of the core), never its volume, unless the engine splits `heavy` by share (≥20%). Each of these keys reaches only one condition, so the rewrites can say so: **expression.heavy** \"{El} brings Expression for a whole month, more output than your chart can fund. You start many things and show them early, and your strength runs low by the last week.\" **action.heavy** \"{El} brings Action for a whole month, more than your strength can carry. Tasks spread thin across too many fronts, and you feel stretched by the third week.\" **order.heavy** \"{El} brings Order for a whole month, more pressure than your chart can carry. Rules and demands fill your weeks, and you get through them by keeping your head down.\" **mind.heavy** \"{El} brings Mind for a whole month, more support than your strong chart needs. You think longer and move slower, and you hold on where you should let go.\" Check `ENERGY … day.heavy` for the same claim."
+   ]
+  },
+  {
+   "key": "ENERGY expression · month.need",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole month, the outlet your chart is short of. Ideas leave your head and reach the page, and you enjoy showing them.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.even",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole year, at a level your chart holds without strain. Your voice stays your own, and you share as much as you mean to.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.grow",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole year, building on how well you already speak and make. Your craft grows sharper with use, and you become known for it.",
+   "findings": [
+    "MINOR cross:X40: Flattery. It also promises a reputation, which the chart cannot know. | proposed: \"{el} brings Expression for a whole year, building on how well you already speak and make. Your craft grows sharper with use, and you trust it more each season.\""
+   ]
+  },
+  {
+   "key": "ENERGY expression · year.heavy",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole year, swelling an outlet that already runs wide. Pleasure and talk fill your calendar, and you learn to keep some of yourself back.",
+   "findings": [
+    "MINOR year:LC3: The cure is Order (官). For an Underfueled reader Order is released, and Expression meeting Order is the classic 伤官见官 (子平真诠 论伤官). The classical cure for excess Expression on a weak chart is Mind (伤官佩印) | proposed: \"{el} brings Expression for a whole year, the voice your chart already overflows with. Words come out sharper than you mean, so you slow them with study and an hour alone.\" (30)"
+   ]
+  },
+  {
+   "key": "ENERGY expression · year.need",
+   "kind": "energy",
+   "now": "{el} brings Expression for a whole year, the energy you need most for giving out. Your voice grows bolder through the seasons, and people start to quote you.",
+   "findings": [
+    "MINOR cross:X39: A superlative (X02) plus flattery the readers punish. | proposed: \"{el} brings Expression for a whole year, an outlet your chart runs short of. Your voice grows bolder through the seasons, and you say what you used to keep back.\""
+   ]
+  },
+  {
+   "key": "ENERGY mind · day.even.a",
+   "kind": "energy",
+   "now": "{el} brings Mind, an energy that sits lightly on your chart. Your thinking stays clear and ordinary today, and you learn at your usual speed.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.even.b",
+   "kind": "energy",
+   "now": "{el} brings Mind, neither more than you need nor less. A quiet hour comes and goes without fuss, and your mind stays your own.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.grow.a",
+   "kind": "energy",
+   "now": "{el} brings Mind, an energy you already hold and still welcome. A question you have carried opens up today, and you see the answer on your own.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.grow.b",
+   "kind": "energy",
+   "now": "{el} brings Mind, more of a support you already lean on. Learning feels easy today, and you keep hold of what you read.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.heavy.a",
+   "kind": "energy",
+   "now": "{el} brings Mind, the energy your chart already has too much of. Your thoughts circle, and you get less done than you meant to.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.heavy.b",
+   "kind": "energy",
+   "now": "{el} brings Mind, piling more onto a chart already full of it. You think a step past where thinking helps, and your plans stay on paper today.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.need.a",
+   "kind": "energy",
+   "now": "{el} brings Mind, the support your chart is shortest of. A clear thought or a kind word reaches you today, and you take it in gladly.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · day.need.b",
+   "kind": "energy",
+   "now": "{el} brings Mind, the energy that feeds you and the one you lack most. Someone backs you without being asked, and you think more clearly for it.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · month.even",
+   "kind": "energy",
+   "now": "{el} brings Mind this month, at a level your chart takes in its stride. Study and rest keep their usual share of your weeks, and you notice no strain.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · month.grow",
+   "kind": "energy",
+   "now": "{el} brings Mind this month, adding to a store of support you already keep. Your study deepens and your rest improves, and you feel looked after.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · month.heavy",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole month, the energy your chart already has too much of. You move slower and think longer, and you hold your ground well.",
+   "findings": [
+    "MINOR cross:X36: Heavy Mind reads as a cost on Day (\"Your thoughts circle\") and on Year (\"move only when you are sure\"), but the Month line closes on a compliment. It also carries the X01 quantity claim. | proposed: \"{el} brings Mind for a whole month, more than your chart can use. You think longer and act later, and plans slip from one week to the next.\""
+   ]
+  },
+  {
+   "key": "ENERGY mind · month.need",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole month, the shelter your chart rarely gets. Lessons stick and help turns up, and you feel rested by the month's end.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.even",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole year, in a measure that leaves you as you are. Support arrives when it is due, and you neither wait for it nor lean on it.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.grow",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole year, more of what already feeds you well. Skills you started long ago take root, and you trust your own judgement more.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.heavy",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole year, though your chart holds plenty already. Comfort and caution settle on you like a thick coat, and you move only when you are sure.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.need",
+   "kind": "energy",
+   "now": "{el} brings Mind for a whole year, the support you need most. Teachers, books and quiet hours all find you, and you grow wiser through the year.",
+   "findings": [
+    "TWEAK year:LC10: Awkward, and 33 words | proposed: \"{el} brings Mind for a whole year, the energy you need most. Help and good teachers find their way to you, and you learn more than in the years before.\" (31)"
+   ]
+  },
+  {
+   "key": "ENERGY order · day.even.a",
+   "kind": "energy",
+   "now": "{el} brings Order, a mild dose of structure your chart takes calmly. The day keeps its shape without pressing, and you meet each request on time.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · day.even.b",
+   "kind": "energy",
+   "now": "{el} brings Order, an even pull that neither tightens nor loosens you. Rules stay in the background today, and you hardly notice them.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · day.grow.a",
+   "kind": "energy",
+   "now": "{el} brings Order, more of a structure that already helps you. A clear rule or a firm request sets your course today, and you follow it with ease.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · day.grow.b",
+   "kind": "energy",
+   "now": "{el} brings Order, adding to a discipline you already keep. Someone checks your work today, and you pass the test.",
+   "findings": [
+    "MINOR day-1:m7: It assumes a job beyond what the energy names, promises a result, and adds the fifth \"work\" on D050. | proposed: \"Wood brings Order, adding to a discipline you already keep. A standard you set yourself gets tested today, and you are glad of the habits you built.\" (27 words)",
+    "MINOR day-2:D2-m8: It assumes a job and a checker that no gate names, and it guarantees the outcome | proposed: \"Wood brings Order, adding to a discipline you already keep. A rule or a deadline asks for proof today, and you show the care you usually keep quiet.\""
+   ]
+  },
+  {
+   "key": "ENERGY order · day.heavy.a",
+   "kind": "energy",
+   "now": "{el} brings Order, more pressure on a chart that already carries too much. Demands arrive from several sides at once, and you feel boxed in by noon.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · day.heavy.b",
+   "kind": "energy",
+   "now": "{el} brings Order, a weight your chart already holds too much of. A deadline tightens or a rule bites, and you work twice as hard for the same result.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · day.need.a",
+   "kind": "energy",
+   "now": "{el} brings Order, the energy your chart is shortest of. It gives your strength a shape, and you finish what you start today.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · day.need.b",
+   "kind": "energy",
+   "now": "{el} brings Order, the energy you need most. A rule or a deadline lands on you, and you meet it at full strength.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · month.even",
+   "kind": "energy",
+   "now": "{el} brings Order this month, a fair measure of duty for your chart. Deadlines come at a sensible pace, and you keep up with every one.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · month.grow",
+   "kind": "energy",
+   "now": "{el} brings Order this month, building on the duty you already carry well. Your role at work grows firmer, and others start to count on you.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · month.heavy",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole month, more strain on a chart already full of it. Rules and reports fill your weeks, and you get through them by keeping your head down.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · month.need",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole month, the structure your chart is shortest of. Deadlines and duties give your weeks a frame, and you get more done inside it.",
+   "findings": [
+    "TWEAK month:F07: Same superlative slip. M090's chart has no Fire, so Earth is not its shortest energy. | proposed: \"{El} brings Order for a whole month, a structure your chart runs short of. Deadlines and duties give your weeks a frame, and you get more done inside it.\""
+   ]
+  },
+  {
+   "key": "ENERGY order · year.even",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole year, a balanced share of rules and duty. Your obligations neither grow nor shrink, and you carry them as you always have.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.grow",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole year, more of the pressure that already shapes you well. Responsibility gathers around you season by season, and you wear it lightly.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.heavy",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole year, adding pressure your chart already has in plenty. The year tests your patience often, and you find the few duties that truly matter to you.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.need",
+   "kind": "energy",
+   "now": "{el} brings Order for a whole year, the energy you need most. It presses on you from outside, and you end the year harder to bend.",
+   "findings": []
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{ "units": [
+ { "kind": "ground", "key": "TEMPLATED tpl_almanac · ground.feeds", "text": "Under it runs {g}, which feeds the {e}. Its pull on you holds all the way through." },
+ { "kind": "ground", "key": "TEMPLATED tpl_almanac · ground.drains", "text": "Under it runs {g}, which the {e} feeds. Part of its force drains away before it reaches you." },
+ { "kind": "ground", "key": "TEMPLATED tpl_almanac · ground.presses", "text": "Under it runs {g}, which the {e} shapes. The two reach you as one steady pressure." },
+ { "kind": "ground", "key": "TEMPLATED tpl_almanac · ground.resists", "text": "Under it runs {g}, which shapes the {e}. The two pull you in different directions." },
+ { "kind": "ground", "key": "TEMPLATED tpl_almanac · ground.matches", "text": "Under it runs more {g}. It reaches you at full strength." }
+]}

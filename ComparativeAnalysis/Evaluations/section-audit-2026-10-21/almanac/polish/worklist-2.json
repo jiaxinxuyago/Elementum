@@ -1,0 +1,424 @@
+{
+ "worklist": 2,
+ "units": [
+  {
+   "key": "STAR taohua · day",
+   "kind": "star",
+   "now": "Attraction runs high today, and people notice you more than usual. You draw warmth from glances and easy talk.",
+   "findings": []
+  },
+  {
+   "key": "STAR tiande · day",
+   "kind": "star",
+   "now": "Trouble passes lightly today, and a tense moment softens before it grows. You keep your energy and sleep well tonight.",
+   "findings": [
+    "TWEAK cross:X48: It repeats the headline \"trouble passes you lightly\", and yuede shares the \"trouble\" image. | proposed: \"A tense moment softens before it grows, and the day asks little of your nerves. You keep your energy and sleep well tonight.\""
+   ]
+  },
+  {
+   "key": "STAR tianyi · day",
+   "kind": "star",
+   "now": "Help comes from someone with standing, an older colleague or a person who owes you nothing. You accept it without having to ask twice.",
+   "findings": [
+    "MINOR day-1:m9: It assumes a job (a star is not the Month Gate) and implies the reader had to ask. | proposed: \"Help comes from someone with standing, an elder or a near stranger who owes you nothing. You say yes to it before your pride can refuse.\" (26 words)"
+   ]
+  },
+  {
+   "key": "STAR yima · day",
+   "kind": "star",
+   "now": "The day moves you, with travel, an errand across town or a change of place. You cover more ground than you planned and enjoy the motion.",
+   "findings": []
+  },
+  {
+   "key": "STAR yuede · day",
+   "kind": "star",
+   "now": "Effort turns trouble into gain today, and a setback gives you something useful. You work through it and end the day stronger than you began.",
+   "findings": [
+    "TWEAK cross:X47: Word for word the headline half \"effort turns trouble into gain\". | proposed: \"A setback today turns into something useful once you work at it. You end the day stronger than you began.\"",
+    "MINOR day-2:D2-m12: On D098 it contradicts the energy line on the same page (\"your plans stay on paper today\"). The guaranteed \"stronger\" is also a win close | proposed: \"Trouble turns into something useful today, and a setback teaches more than it costs. You keep one lesson from it for tomorrow.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · echo.day",
+   "kind": "echo",
+   "now": "Pressure at home that has built all month peaks today, because the day lands on the same gate and you feel both at once.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · echo.hour",
+   "kind": "echo",
+   "now": "The month's pull on your plans for later and the young people around you sharpens today, as the day presses the same gate.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · echo.month",
+   "kind": "echo",
+   "now": "You feel the whole month's clash come to a head today, because the month presses on the same gate.",
+   "findings": [
+    "MINOR day-1:m1: The month's bond on D006 is 丑戌 punish (三命通会 三刑), not a clash, and the unit is used for every bond kind. The causal clause is also reversed: the day, not the month, makes this the peak. | proposed: \"The month already touches your work, and today the day reaches the same gate, so you feel both at once.\" (one sentence, two commas, 20 words). Better long-term: an echo per bond kind.",
+    "MINOR day-2:D2-m1: It says \"clash\" whatever the month's bond is, and it is wrong on both pages here. The cause is also backwards: it is the day that lands on the gate the month already presses | proposed: \"The pressure the month has put on your work comes to a head today, because the day lands on the same gate.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · echo.year",
+   "kind": "echo",
+   "now": "Today the month's strain on your first home comes to a peak, because the day meets the same gate.",
+   "findings": [
+    "MINOR day-1:m2: The unit ignores the bond kind. On D044 the month 亥 repeats the Year Gate 亥 and so does the day, so there is no strain and no strike. On D020 the day punishes (grinds), it does not strike. | proposed: \"The month already touches your first home, and today the day reaches the same gate, so you feel both at once.\"",
+    "MINOR day-2:D2-m2: \"Strikes\" is a clash word, and on D061 the day repeats the gate (三命通会 counts 亥亥 as 自刑). The echo fires on any day bond | proposed: \"Today the month's strain on your first home comes to a peak, because the day lands on the same gate.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.bind.day",
+   "kind": "land",
+   "now": "Home draws you in, and a small plan with a partner settles easily. You spend the evening closer than usual.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.bind.hour",
+   "kind": "land",
+   "now": "Someone younger leans on you, asking for help or simply wanting your company. A plan for later falls into place, and you feel sure of it.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.bind.month",
+   "kind": "land",
+   "now": "Work pulls together today, and a colleague who kept apart joins your side. A task that had stalled starts moving again, and you barely have to push it.",
+   "findings": [
+    "MINOR day-2:D2-m11: A garden path: \"find a task … moving\" has to be read twice | proposed: \"Work pulls together today, and a colleague who kept apart joins your side. A stalled task starts moving again, and you barely have to push it.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.bind.year",
+   "kind": "land",
+   "now": "Someone from the home you grew up in reaches you, with a call or a message or an old habit. You answer more warmly than you planned.",
+   "findings": [
+    "TWEAK day-1:t5: A person cannot reach you \"with an old habit\". | proposed: \"Someone from the home you grew up in reaches out, with a call, a message or an old family joke. You answer more warmly than you planned.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.clash.day",
+   "kind": "land",
+   "now": "A plan at home changes at short notice, with a partner or the people you live with. You adjust faster than the people around you.",
+   "findings": [
+    "TWEAK day-1:t10: \"people\" twice in two sentences. | proposed: \"A plan at home changes at short notice, with a partner or whoever you live with. You adjust faster than the people around you.\" (the close is left to M1)",
+    "MINOR day-2:D2-m9: It ranks the reader against partner and household, and it erases the clash's cost | proposed: \"A plan at home changes at short notice, with a partner or the people you live with. You lose the evening you had set aside and choose what to keep from it.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.clash.hour",
+   "kind": "land",
+   "now": "A plan for later gets pushed back, a promise to someone younger or a date you set. You keep the plan and let the date move.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.clash.month",
+   "kind": "land",
+   "now": "A plan you settled at work comes loose, and someone asks you to defend it. You defend it in fewer words than you expected.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.clash.year",
+   "kind": "land",
+   "now": "News from the family you grew up in changes a plan without warning, a visit moved or a date dropped. You take the change in your stride and call back the same day.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.frame.day",
+   "kind": "land",
+   "now": "Home gathers strength, with a partner or the people you live with pulling the same way. Shared chores get done quickly, and you enjoy the evening more for it.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.frame.hour",
+   "kind": "land",
+   "now": "Younger people gather round your ideas, and a long plan picks up speed. You see the first real shape of something you set going a while back.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.frame.month",
+   "kind": "land",
+   "now": "Momentum builds at work, and people line up behind a task you care about. You lead it further today than you thought you would.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.frame.year",
+   "kind": "land",
+   "now": "Relatives from your first home gather round, in person or by message, and old ties feel strong again. You find yourself at the centre of it.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.harm.day",
+   "kind": "land",
+   "now": "A small thing at home is misread, a look or a tone a partner takes differently from how you meant it. You catch the moment and put it right before bed.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.harm.hour",
+   "kind": "land",
+   "now": "A young person you guide feels passed over, or a plan for later loses a little of its shine. You spot the quiet change and give it your attention.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.harm.month",
+   "kind": "land",
+   "now": "A colleague takes a word of yours the wrong way, and the air at work cools a little. You notice it early and clear it up with one plain sentence.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.harm.year",
+   "kind": "land",
+   "now": "A remark from an older relative lands wrong, though nobody meant it unkindly. You let it pass, and the warmth between you stays.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.punish.day",
+   "kind": "land",
+   "now": "An old argument at home comes back, or a chore that never stays done. You settle it by evening, on your own terms.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.punish.hour",
+   "kind": "land",
+   "now": "A younger person tests the same limit again, or a long plan sticks at its usual snag. You hold the line without raising your voice.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.punish.month",
+   "kind": "land",
+   "now": "Friction at work returns, the same complaint from the same corner of the team. You answer it with facts, and the matter closes faster than last time.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.punish.year",
+   "kind": "land",
+   "now": "An old quarrel with an older relative stirs again, over the same small point as before. You hear it out once and refuse to go round it a second time.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.day",
+   "kind": "land",
+   "now": "Home repeats an old pattern, the same talk over dinner or the same small habit. You see it plainly today and choose which part to keep.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.hour",
+   "kind": "land",
+   "now": "An old plan for later returns to the table in nearly its first form, or a young person asks the same question twice. You give a clearer answer than you did before.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.month",
+   "kind": "land",
+   "now": "Work brings back a task you thought was finished, or a meeting that covers familiar points. You get through it faster because you know the way.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.year",
+   "kind": "land",
+   "now": "A story from your family's past is told again, the way it always is. You hear something new in it this time, and it tells you about yourself.",
+   "findings": [
+    "MINOR day-2:D2-m13: Vague. It names no tension the reader could recognise | proposed: \"An old family story comes up again, told the way it always is. You hear it differently this time, and you notice which part of it is about you.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.bind.day",
+   "kind": "land",
+   "now": "Home ties in closer this month, and a shared plan with a partner or the people you live with settles. You come home each evening to something calmer.",
+   "findings": [
+    "MINOR month:F22: \"ties in closer\" is a broken idiom. \"home\" appears ×3 on the page and \"closer\" echoes the headline (\"home draws you closer\"). | proposed: \"The ties at home tighten this month, and a shared plan with a partner or the people you live with settles. You come back each evening to something calmer.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.bind.hour",
+   "kind": "land",
+   "now": "Bonds with the people after you deepen this month, a child, a younger relative or someone you train. You see your care for them returned in small ways.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.bind.month",
+   "kind": "land",
+   "now": "Your place at work settles this month, and an agreement with a colleague or a client holds firm. You go about your tasks with steadier support than before.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.bind.year",
+   "kind": "land",
+   "now": "The family you grew up in draws you back this month, through visits, old recipes or a shared decision. You feel more at ease with them than you have in a long while.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.clash.day",
+   "kind": "land",
+   "now": "Your home life is shaken up this month, in the furniture, the plans or the shape of a shared week. You and the people closest to you come out of it on firmer footing.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.clash.hour",
+   "kind": "land",
+   "now": "Long plans come apart and re-form this month, and the young people around you change course. You keep track of what matters and let the rest go.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.clash.month",
+   "kind": "land",
+   "now": "A role or a routine you settled comes loose this month, and you rebuild it in a different shape. You end the month with fewer duties and a firmer hold on the ones you keep.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.clash.year",
+   "kind": "land",
+   "now": "Something settled in the family you grew up in shifts this month, a role among siblings or a care that changes hands. You find your place in the new order and hold it.",
+   "findings": [
+    "MINOR month:F21: \"a care that changes hands\" has to be read twice. The close forecasts (F02). | proposed: \"Something settled in the family you grew up in shifts this month, a role among siblings or who looks after whom. You feel your old place move and look for the new one.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.frame.day",
+   "kind": "land",
+   "now": "Life at home gains strength this month, with a partner or the people you live with backing the same plan. You feel the house working with you, week by week.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.frame.hour",
+   "kind": "land",
+   "now": "Plans for later gather support this month, and young people around you bring fresh energy to them. You watch a long project gain its first real weight.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.frame.month",
+   "kind": "land",
+   "now": "Work builds speed this month, with new people joining and tasks falling into place. You ride the momentum and finish more than you planned.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.frame.year",
+   "kind": "land",
+   "now": "Your wider family pulls together this month around an event or a shared need. You add your strength to theirs, and the whole group stands taller for it.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.harm.day",
+   "kind": "land",
+   "now": "Little misreadings gather at home this month, with a partner or the people you live with. You talk things through early each week, and nothing grows larger than it is.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.harm.hour",
+   "kind": "land",
+   "now": "This month a quiet gap opens between you and someone you teach or look after. You close it with time rather than words, and trust returns by the month's end.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.harm.month",
+   "kind": "land",
+   "now": "Small slights pile up at work this month, a credit not given or a message left unread. You keep your own record straight and stay calm through each one.",
+   "findings": [
+    "MINOR month:F20: Assumes a team, and ends on a third party watching the reader. It also forecasts (F02). | proposed: \"Small slights pile up at work this month, a credit not given or a message left unread. You keep your own record straight and let each one pass without a reply.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.harm.year",
+   "kind": "land",
+   "now": "A coolness creeps into the family you grew up in this month, from a word taken badly or a call left unreturned. You reach out first, and the distance closes.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.punish.day",
+   "kind": "land",
+   "now": "An old sore point at home keeps returning this month, usually over who does what. You stay steady through each round, and the arguments shrink as the weeks pass.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.punish.hour",
+   "kind": "land",
+   "now": "A long plan keeps catching on the same problem this month, and someone younger pushes against your rules. Your patience wears the problem down over the weeks.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.punish.month",
+   "kind": "land",
+   "now": "The same friction at work keeps coming back all month, a process that jams or a rule nobody likes. You learn its pattern and work around it with less effort each week.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.month.punish.year",
+   "kind": "land",
+   "now": "A family grievance from years back stays alive through this month, raised at each visit or call. You stop feeding it, and by the month's end it has less hold on you.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.quiet",
+   "kind": "land",
+   "now": "Nothing in the day reaches your gates, and life runs on its usual track. You have the time and the calm to do things at your own pace.",
+   "findings": [
+    "MINOR day-2:D2-m6: Overclaims. The unit shows whenever no bond scores enough to lead, including days with a weak repeat or half-frame | proposed: \"No strong pull reaches your gates today, and life runs on its usual track. You have the time and the calm to do things at your own pace.\"",
+    "MINOR month:F05: On a Month page it says \"the day\". On M013 it promises \"time and the calm\" under an energy line that says \"you feel stretched by the third week\". On M086 the month's 酉 repeats the Day Gate's 酉, a classical 自刑 (scored as `repeat` and below the lead bar, a known structural point), so \"Nothing … reaches your gates\" overstates. | proposed: \"Nothing pulls hard on your gates this time, and life keeps to its usual track. What you meet comes from the energy alone, and you set your own pace.\"",
+    "MINOR year:m1: (1) \"in the day\" is wrong on Month and Year pages, and the unit is horizon-shared. (2) \"Nothing … reaches\" is false whenever a bond scores under 30: on Y107 the passing 午 self-punishes the Month, Day and Hour Gates (repeat, score 20). (3) \"time and the calm\" contradicts heavy-state energy lines on the same page (Y107: \"more to manage than hours to manage it\"). (4) \"runs\" collides with `ground.matches` \"Under it runs\" | proposed: \"No strong bond reaches your gates this time, and life keeps to its usual track. The energy above is the whole story, so you meet it on your own terms.\" (29 words, 2 sentences)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.void",
+   "kind": "void",
+   "now": "The day falls in your Void. What starts today arrives late or lighter than promised, and you notice it first.",
+   "findings": [
+    "MINOR day-1:m4: \"Void\" is jargon the page never explains, and \"you notice it first\" (first before what?) is vague. | proposed: \"The day falls in your Void, a gap your chart meets two days in every twelve. What you start today lands late or lighter than promised, and you feel the shortfall before anyone else does.\" (33 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.birthday",
+   "kind": "mark",
+   "now": "Your new year of age begins today. You start it on your own day, with your own energy at full strength.",
+   "findings": [
+    "MINOR day-2:D2-m4: False. The birthday is rarely the reader's own stem day, and on D092 the page's energy is Fire (Action), not the reader's Water | proposed: \"Your birthday opens a new year for you today. You carry the last year's lessons into it and choose what to leave behind.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.decade",
+   "kind": "mark",
+   "now": "A new cycle of luck begins this year, one that runs for ten years from this birthday. You feel the season of your life change its direction.",
+   "findings": [
+    "MINOR year:m5: \"change its direction\" is a broken idiom. \"new\" repeats the headline half (\"a long new chapter starts\"), and \"begins\" and \"change\" restate each other | proposed: \"Your next cycle of luck begins this year and runs ten years from this birthday. You step into a different season of your life.\" (24 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.gate",
+   "kind": "mark",
+   "now": "A new gate opens on this birthday, and a fresh part of life comes into its own. You step into it with the years behind you as support.",
+   "findings": [
+    "MINOR day-2:D2-m5: In the Almanac \"gate\" means the four seats (Year, Month, Day, Hour Gate). Using it for a decade marker makes the reader look for which Gate is meant | proposed: Landing: \"A new ten-year stage of your life opens on this birthday, and a fresh part of you comes into its own. You step into it with the years behind you as support.\" Reminder: \"A new ten-year stage begins today. Read your year.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.month",
+   "kind": "mark",
+   "now": "A new month opens today, and its energy holds until the next one. You feel the change before you can name it.",
+   "findings": [
+    "MINOR day-1:m17: The clause is true of every month and says nothing. | proposed: \"A new month opens today, and a new element sets the tone until the next one. You feel the change before you can name it.\" (25 words)",
+    "MINOR day-2:D2-m14: Sentence one is a tautology, and sentence two is the same frame as `mark.year` (\"You feel the turn before you can name it\") | proposed: \"A new month opens today, and the days ahead take on its element. You notice the change in your pace before you can say why.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · mark.year",
+   "kind": "mark",
+   "now": "A new year opens today, and its energy runs until next February. You feel the turn before you can name it.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · pillar.return",
+   "kind": "pillar",
+   "now": "Today repeats the day you were born on, as it does six times a year. What you started in the last two months comes back, and you see it more clearly this time.",
+   "findings": [
+    "MINOR day-1:m5: This reads as the birthday. The fact is the same day pillar (甲午) returning every 60 days. | proposed: \"Today carries the same pillar as the day you were born, as it does six times a year. What you started in the last two months comes back, and you see it more clearly this time.\" (35 words)"
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · pillar.turned",
+   "kind": "pillar",
+   "now": "Today is your own day turned over, its stem striking yours and its branch clashing your Day Gate. Something settled at home is questioned, and you answer for it calmly.",
+   "findings": [
+    "MINOR day-2:D2-m3: In 天克地冲 either stem can be the one that strikes. Here the reader's 癸 shapes the day's 丁, so \"its stem striking yours\" is wrong for half the turned days (渊海子平, 反吟) | proposed: \"Today is your own day turned over, its stem at odds with yours and its branch clashing your Day Gate. Something settled at home is questioned, and you are the one asked to answer for it.\""
+   ]
+  }
+ ]
+}

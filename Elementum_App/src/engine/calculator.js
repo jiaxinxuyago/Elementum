@@ -6,6 +6,8 @@
 // Output: Canonical JSON chart per DEV_01 §4.
 // ===================================================================
 
+import { termInstant } from './almanac/solarTerms.js';
+
 // ---------- Engine version (chart-cache invalidation) ----------
 // Bump this WHENEVER the chart math changes (calculator / buildEnergyChart /
 // dominanceWheel / energyRoles — anything that alters computed output). A
@@ -37,6 +39,25 @@ export function getSolarMonthIndex(date) {
   const y = date.getFullYear(); let idx = 0;
   for (let i = 0; i < 12; i++) if (date >= getSolarTermDate(y, i)) idx = i;
   return idx;
+}
+// ── AM6 (owner 2026-11-14, A: held for sign-off) ────────────────────────────
+// The month and year pillars from the exact 节 table (almanac/solarTerms.js,
+// Meeus, ±15 min) read at the birth's local solar time, and the January rule:
+// a date from 1 January to 小寒 is still the 子 month of the year before (the
+// approximate path gives it 丑). OFF until the owner signs off on the impact
+// list (tools/qa-exact-terms-impact.mjs); a caller can pass exactTerms: true
+// to compare one chart.
+export const EXACT_TERMS = false;
+// a 节 as a Date whose local fields are the solar time at longitude lon
+function termAtLon(year, idx, lon) {
+  const at = termInstant(year, idx); if (at == null) return getSolarTermDate(year, idx);
+  const t = new Date(at + (lon / 15) * 3600000);
+  return new Date(t.getUTCFullYear(), t.getUTCMonth(), t.getUTCDate(), t.getUTCHours(), t.getUTCMinutes());
+}
+function exactMonthAndYear(birth, lon) {
+  const y = birth.getFullYear(); let idx = 11;            // before this year's 小寒: last year's 大雪, the 子 month
+  for (let i = 0; i < 12; i++) if (birth >= termAtLon(y, i, lon)) idx = i;
+  return { idx, baziYear: birth < termAtLon(y, 1, lon) ? y - 1 : y };
 }
 export function getBaziYear(date) {
   const y = date.getFullYear();
@@ -516,8 +537,13 @@ export function calculateBaziChart(input) {
   const dateForDay = new Date(year, month-1, day, trueSolarHour);
   if (trueSolarHour >= 23) dateForDay.setDate(dateForDay.getDate() + 1);
 
-  const baziYear = getBaziYear(new Date(year, month-1, day));
-  const solarMonthIdx = getSolarMonthIndex(new Date(year, month-1, day));
+  const exactTerms = input.exactTerms ?? EXACT_TERMS;
+  const birthSolar = new Date(year, month-1, day, Number.isFinite(trueSolarHour) ? Math.floor(trueSolarHour) : 12, Number.isFinite(trueSolarHour) ? Math.round((trueSolarHour % 1) * 60) : 0);
+  const exact = exactTerms ? exactMonthAndYear(birthSolar, lon) : null;
+  const baziYear = exact ? exact.baziYear : getBaziYear(new Date(year, month-1, day));
+  const solarMonthIdx = exact ? exact.idx : getSolarMonthIndex(new Date(year, month-1, day));
+  // the luck start still counts whole days (3 days = 1 year); only the term's date comes from the exact table
+  const termDate = exact ? (yy, ti) => { const t = termAtLon(yy, ti, lon); return new Date(t.getFullYear(), t.getMonth(), t.getDate()); } : getSolarTermDate;
   const ysi = ((baziYear-4)%10+10)%10, ybi = ((baziYear-4)%12+12)%12;
   const yearStem = HS[ysi], yearBranch = EB[ybi];
   const monthBranchIdx = (solarMonthIdx+1)%12;
@@ -570,13 +596,13 @@ export function calculateBaziChart(input) {
   const birthDate = new Date(year,month-1,day);
   let termDays=0;
   if (forward) {
-    outer: for (let off=0;off<=1;off++) for (let ti=0;ti<12;ti++) { const td=getSolarTermDate(baziYear+off,ti); if (td>birthDate){termDays=Math.round((td-birthDate)/86400000);break outer;} }
+    outer: for (let off=0;off<=1;off++) for (let ti=0;ti<12;ti++) { const td=termDate(baziYear+off,ti); if (td>birthDate){termDays=Math.round((td-birthDate)/86400000);break outer;} }
   } else {
     // Backward: the previous 节. A birth from 小寒 to 立春 sits in the NEXT
     // Gregorian year, so that year's 小寒 is checked first (E1, owner 2026-10-22).
     let prev=null;
-    outer: for (const yy of [baziYear+1, baziYear]) for (let ti=11;ti>=0;ti--) { const td=getSolarTermDate(yy,ti); if (td<birthDate){prev=td;break outer;} }
-    if (!prev) prev=getSolarTermDate(baziYear-1,11);
+    outer: for (const yy of [baziYear+1, baziYear]) for (let ti=11;ti>=0;ti--) { const td=termDate(yy,ti); if (td<birthDate){prev=td;break outer;} }
+    if (!prev) prev=termDate(baziYear-1,11);
     termDays=Math.round((birthDate-prev)/86400000);
   }
   const startAge=Math.max(1,Math.round(termDays/3));
@@ -592,7 +618,7 @@ export function calculateBaziChart(input) {
   const cy=now.getFullYear();
   const fysi=((cy-4)%10+10)%10, fybi=((cy-4)%12+12)%12;
   const fyStem=HS[fysi],fyBranch=EB[fybi];
-  const fmIdx=getSolarMonthIndex(now);
+  const fmIdx=exact ? exactMonthAndYear(now, 120).idx : getSolarMonthIndex(now);
   const fmBranch=EB[(fmIdx+1)%12];
   const fmStem=HS[(((fysi%5)*2+2)%10+fmIdx-1+10)%10];
   const fdEl=Math.floor((now-anchor)/86400000);

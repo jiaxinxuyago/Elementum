@@ -1,0 +1,377 @@
+{
+ "worklist": 3,
+ "units": [
+  {
+   "key": "GOD bijian · favours.day.Social.helping",
+   "kind": "favours",
+   "now": "Old friends|new faces",
+   "findings": [
+    "MINOR cross:X62: new faces` | proposed: It leans the same way as heavy (`One close friend \\"
+   ]
+  },
+  {
+   "key": "GOD bijian · favours.month.Growth.heavy",
+   "kind": "favours",
+   "now": "A study partner|pushing on unaided",
+   "findings": [
+    "TWEAK cross:X63: pushing on unaided` | proposed: An exact repeat of the day pair."
+   ]
+  },
+  {
+   "key": "GOD jiecai · favours.month.Career.heavy",
+   "kind": "favours",
+   "now": "Credit that is shared|a race with colleagues",
+   "findings": [
+    "TWEAK cross:X73: a race with colleagues` | proposed: Near repeat of `the race for credit`."
+   ]
+  },
+  {
+   "key": "GOD jiecai · favours.month.Social.heavy",
+   "kind": "favours",
+   "now": "Letting others win|a contest of pride",
+   "findings": [
+    "TWEAK cross:X70: …` | proposed: Near repeat of `Letting a rival win`."
+   ]
+  },
+  {
+   "key": "GOD jiecai · favours.month.Social.helping",
+   "kind": "favours",
+   "now": "Friendly rivalry|polite distance",
+   "findings": [
+    "TWEAK cross:X71: polite distance` | proposed: Near repeat of `A friendly contest \\"
+   ]
+  },
+  {
+   "key": "GOD jiecai · favours.month.Wealth.heavy",
+   "kind": "favours",
+   "now": "Separate accounts|lending to friends",
+   "findings": [
+    "TWEAK cross:X72: …` | proposed: Near repeat of `A separate purse`."
+   ]
+  },
+  {
+   "key": "GOD piancai · favours.day.Family.helping",
+   "kind": "favours",
+   "now": "Practical help|talk about it",
+   "findings": [
+    "MINOR cross:X56: talk about it` | proposed: \"talk about it\" is not a noun phrase."
+   ]
+  },
+  {
+   "key": "GOD piancai · favours.day.Social.heavy",
+   "kind": "favours",
+   "now": "A few names|every invitation",
+   "findings": [
+    "TWEAK cross:X57: every invitation` | proposed: \"A few names\" is unclear, and \"every invitation\" repeats exactly in the month pair."
+   ]
+  },
+  {
+   "key": "GOD piancai · favours.day.Social.helping",
+   "kind": "favours",
+   "now": "A short reply|a long one",
+   "findings": [
+    "MINOR cross:X55: a long one` | proposed: Nothing of the Horizon in it. The month helping pair is about widening the circle."
+   ]
+  },
+  {
+   "key": "GOD piancai · favours.day.Wealth.helping",
+   "kind": "favours",
+   "now": "A careful look|a quick yes",
+   "findings": [
+    "MINOR cross:X54: a quick yes` | proposed: It points the same way as the heavy pair (`A firm budget \\",
+    "MINOR day-1:m14: The helping (grow) row for The Horizon advises caution, which belongs to the heavy row (子平真诠: 偏财 is the open-handed, outgoing wealth). The Social pair carries no content. | proposed: \"A new money idea over the usual route\" · \"A new circle over the usual crowd\""
+   ]
+  },
+  {
+   "key": "GOD piancai · favours.month.Social.heavy",
+   "kind": "favours",
+   "now": "A few trusted contacts|every invitation",
+   "findings": [
+    "TWEAK cross:X58: every invitation` | proposed: An exact repeat of the day pair."
+   ]
+  },
+  {
+   "key": "GOD pianyin · favours.day.Career.heavy",
+   "kind": "favours",
+   "now": "A simple checklist|endless rethinking",
+   "findings": [
+    "MINOR cross:X61: endless rethinking` | proposed: The golden month pair (`Second thoughts \\"
+   ]
+  },
+  {
+   "key": "GOD qisha · favours.month.Career.helping",
+   "kind": "favours",
+   "now": "The hardest assignment|an easy win",
+   "findings": [
+    "TWEAK cross:X68: an easy win` | proposed: Near repeat of the day pair `The hardest task first \\"
+   ]
+  },
+  {
+   "key": "GOD qisha · favours.month.Health.helping",
+   "kind": "favours",
+   "now": "Hard training sessions|gentle stretches",
+   "findings": [
+    "TWEAK cross:X81: gentle stretches` · `… \\ | proposed: open defiance` · `… \\"
+   ]
+  },
+  {
+   "key": "GOD shangguan · favours.month.Social.heavy",
+   "kind": "favours",
+   "now": "Listening to the end|having the last word",
+   "findings": [
+    "TWEAK cross:X67: the last word` | proposed: Both halves repeat the day pair."
+   ]
+  },
+  {
+   "key": "GOD shishen · favours.day.Career.heavy",
+   "kind": "favours",
+   "now": "Plain work done well|a polished show",
+   "findings": [
+    "MINOR cross:X60: a polished show` | proposed: The month *helping* pair also argues against show (`… \\"
+   ]
+  },
+  {
+   "key": "GOD shishen · favours.day.Family.heavy",
+   "kind": "favours",
+   "now": "Quiet company|a full house",
+   "findings": [
+    "MINOR day-1:m15: On a day whose landing is \"your family gathers round\", the Family favour argues against the gathering. | proposed: \"Listening at the table over holding the floor\" (it fits Expression released and any gathering)"
+   ]
+  },
+  {
+   "key": "GOD shishen · favours.month.Family.helping",
+   "kind": "favours",
+   "now": "Cooking for everyone at home|ordering in",
+   "findings": [
+    "TWEAK cross:X79: ordering in` · `Quiet shared hobbies \\ | proposed: big family outings`"
+   ]
+  },
+  {
+   "key": "GOD shishen · favours.month.Health.helping",
+   "kind": "favours",
+   "now": "Slow meals and early nights|late screens",
+   "findings": [
+    "TWEAK cross:X80: late screens` | proposed: \"early night(s)\" also appears in qisha's heavy pair, and rest belongs to the Sage, not the Artisan."
+   ]
+  },
+  {
+   "key": "GOD zhengcai · favours.month.Career.heavy",
+   "kind": "favours",
+   "now": "The basics done well|taking on extra",
+   "findings": [
+    "TWEAK cross:X75: taking on extra` | proposed: \"done well\" repeats shishen, and \"extra\" repeats the day pair."
+   ]
+  },
+  {
+   "key": "GOD zhengcai · favours.month.Career.helping",
+   "kind": "favours",
+   "now": "Steady routine work|a flashy side pitch",
+   "findings": [
+    "TWEAK cross:X74: a flashy side pitch` | proposed: Near repeat of `The routine task \\"
+   ]
+  },
+  {
+   "key": "GOD zhengcai · favours.month.Family.heavy",
+   "kind": "favours",
+   "now": "Sharing the chores|doing them all yourself",
+   "findings": [
+    "TWEAK cross:X64: holding every one yourself` | proposed: An exact repeat of the day pair."
+   ]
+  },
+  {
+   "key": "GOD zhengcai · favours.month.Family.helping",
+   "kind": "favours",
+   "now": "Running the household well|leaving it to others",
+   "findings": [
+    "TWEAK cross:X77: …` | proposed: Near repeat of `Settling the household list`."
+   ]
+  },
+  {
+   "key": "GOD zhengcai · favours.month.Wealth.heavy",
+   "kind": "favours",
+   "now": "Bills paid on time|new spending plans",
+   "findings": [
+    "MINOR cross:X59: new spending plans` | proposed: On the same pole the day pair loosens thrift (`A small treat \\"
+   ]
+  },
+  {
+   "key": "GOD zhengcai · favours.month.Wealth.helping",
+   "kind": "favours",
+   "now": "Saving a set amount|a gamble on a tip",
+   "findings": [
+    "TWEAK cross:X76: …` | proposed: Near repeat of `Regular saving`."
+   ]
+  },
+  {
+   "key": "GOD zhengguan · favours.day.Family.heavy",
+   "kind": "favours",
+   "now": "Bending a house rule|enforcing it",
+   "findings": [
+    "MINOR day-1:m13: It assumes the reader sets and enforces the rules at home. | proposed: \"Giving way at home over holding the line\""
+   ]
+  },
+  {
+   "key": "GOD zhengguan · favours.month.Career.heavy",
+   "kind": "favours",
+   "now": "One duty done properly|a stack of new roles",
+   "findings": [
+    "TWEAK cross:X69: …` | proposed: Near repeat of the day pair `One duty seen through \\"
+   ]
+  },
+  {
+   "key": "GOD zhengguan · favours.month.Family.heavy",
+   "kind": "favours",
+   "now": "Gentle house rules|strict standards",
+   "findings": [
+    "TWEAK cross:X78: strict standards` | proposed: Near repeat of `Bending a house rule`."
+   ]
+  },
+  {
+   "key": "GOD zhengyin · favours.month.Family.heavy",
+   "kind": "favours",
+   "now": "Doing things for yourself|being looked after",
+   "findings": [
+    "TWEAK cross:X65: being looked after` | proposed: An exact repeat of the day pair."
+   ]
+  },
+  {
+   "key": "GOD zhengyin · favours.month.Mind.helping",
+   "kind": "favours",
+   "now": "A good teacher|scattered videos",
+   "findings": [
+    "TWEAK cross:X66: scattered videos` | proposed: An exact repeat of the day pair."
+   ]
+  },
+  {
+   "key": "PUSH · clash.hour",
+   "kind": "push",
+   "now": "A plan for later moves today. Read your day.",
+   "findings": [
+    "TWEAK day-2:D2-t4: It repeats the headline half word for word (\"plan\" ×5 on the page) | proposed: \"Something you set for later shifts today. Read your day.\""
+   ]
+  },
+  {
+   "key": "PUSH · clash.month",
+   "kind": "push",
+   "now": "Work pushes back today. Read your day.",
+   "findings": [
+    "MINOR day-1:m16: Under the title \"…, and work pushes back\", the body repeats the headline half word for word. | proposed: \"A settled plan at work comes loose today. Read your day.\""
+   ]
+  },
+  {
+   "key": "PUSH · punish.month",
+   "kind": "push",
+   "now": "The same complaint at work returns today. Read your day.",
+   "findings": [
+    "TWEAK day-1:t8: It repeats \"grinds\" from the title half \"a work dispute grinds on\". | proposed: \"The same complaint at work comes round again today. Read your day.\""
+   ]
+  },
+  {
+   "key": "PUSH · return",
+   "kind": "push",
+   "now": "Your own day comes round again. Read what comes back.",
+   "findings": [
+    "TWEAK cross:X31: Every other push closes \"Read your day/month/year.\" | proposed: \"Your own day comes round again. Read your day.\"",
+    "TWEAK day-1:t7: It breaks the reminder format (\"Read your day.\"). | proposed: \"Your own day comes round again. Read your day.\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.hour",
+   "kind": "favours_land",
+   "now": "Time spent training others|a personal task list",
+   "findings": [
+    "MINOR day-1:m12: It assumes a trainer or manager role. | proposed: \"Time with younger people over your own list\"",
+    "MINOR month:F18: Under Family it reads as a work row. The Hour Gate is the people after you, so the row should point at them. | proposed: \"Time with the younger ones over your own errands\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · favours_land.clash.month",
+   "kind": "favours_land",
+   "now": "One position|three",
+   "findings": [
+    "MINOR day-1:m10: Opaque on first read: three what? | proposed: \"One clear reason over three defences\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.hour",
+   "kind": "favours_land",
+   "now": "Fixing it quietly|raising it",
+   "findings": [
+    "MINOR month:F19: \"it\" has no referent on either page, because neither shows the harm.hour landing. The row also contradicts the harm.year row (\"An early word with relatives over silent hurt\"). | proposed: \"Quiet time together over a talking-to\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.hour",
+   "kind": "favours_land",
+   "now": "Fresh tactics with the young|the familiar lecture",
+   "findings": [
+    "MINOR day-1:m11: \"the familiar lecture\" charges the reader with lecturing. | proposed: \"A new approach with the young over the old argument\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.month",
+   "kind": "favours_land",
+   "now": "A better process at work|last year's fix",
+   "findings": [
+    "MINOR day-2:D2-m15: \"Last year's\" is a time claim a twelve-day bond cannot know | proposed: \"A better process at work over the old fix\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.hour",
+   "kind": "favours_land",
+   "now": "Modern methods for youngsters|the way you were raised",
+   "findings": [
+    "MINOR day-2:D2-m16: It assumes the reader raises children (the brief bars an assumed child), and \"the way you were raised\" is first-home ground on the Hour Gate | proposed: \"Fresh answers for younger people over the answers you were given\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.energy.action.release",
+   "kind": "head.energy",
+   "now": "{el} piles tasks on you",
+   "findings": [
+    "TWEAK month:F09: \"work\" twice in one headline. Action is broader than work. | proposed: \"{El} piles tasks on you\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.energy.mind.release",
+   "kind": "head.energy",
+   "now": "{el} weighs on you",
+   "findings": [
+    "MINOR year:m4: Word for word the code's draft fallback (`{el} weighs on you`), and it repeats the lift chip on the same sub-line (\"Weighs on you\"). It says nothing about Mind. The other release halves name the function (\"draws on your reserves\", \"piles work on you\") | proposed: \"{el} keeps you in your head\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.land.bind.year",
+   "kind": "head.land",
+   "now": "your first home pulls at you",
+   "findings": [
+    "TWEAK day-1:t3: A bind draws closer; \"pulls at\" reads as strain. | proposed: \"your first home draws you closer\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.land.harm.hour",
+   "kind": "head.land",
+   "now": "someone younger feels overlooked",
+   "findings": [
+    "MINOR year:m3: It states another person's feeling as fact and casts the reader as the one who overlooked them (BIZ_04: no third party as the reader's victim). The landing beneath says only that they \"pull back\" | proposed: \"someone younger pulls away\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.land.harm.month",
+   "kind": "head.land",
+   "now": "a remark at work lands badly",
+   "findings": [
+    "MINOR year:m2: The headline half is shared by Day, Month and Year. On a Year page it shrinks a year-long 丑午害 on the work gate to one remark, and it does not match the year landing (\"Something at work sours quietly\") | proposed: \"something at work quietly sours\""
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · head.land.punish.day",
+   "kind": "head.land",
+   "now": "home asks more of you",
+   "findings": [
+    "TWEAK day-1:t4: A punish is an old friction returning, and the landing says so (\"An old argument at home comes back\"). | proposed: \"an old argument at home returns\"",
+    "MINOR month:F23: A punish is an old friction that returns (the landing says \"An old sore point at home keeps returning\"), and the headline half loses that. | proposed: \"an old sore point returns at home\""
+   ]
+  }
+ ]
+}
