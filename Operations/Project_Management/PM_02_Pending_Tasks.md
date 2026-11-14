@@ -132,6 +132,7 @@ Session "Elementum Life Chapters reading content" (session_01LKbtNcH4nTofFBwRv1H
 - **Waiting on the owner (PM_04 §3):**
   - LC-N1 to LC-N6, the re-audit MAJORs: reader-last year and landing lines, joints, scarcity words, one carrier family per function, page length, heavy year closes. The other 30 MINORs wait on them.
   - LC-M1R (engine): with `EXACT_TERMS` on, births on a solar-term day still start their decades about ten years off (about 2% of charts), because the start-age count compares dates, not instants.
+  - LC-P1: whether the 72 chapter lines with age frames ("Since your late forties") follow the Domains ruling DOM-P1. The recommendation is to keep them.
 - **Next:** Your Almanac's Year page reads the shared year lines (L9 A; note in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/04_FROM_LIFE_CHAPTERS.md`).
 
 ## DM — the Day Master diagnosis and the merged "Your reading" (owner 2026-10-17 →)
