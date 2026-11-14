@@ -422,3 +422,10 @@ The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, wit
 The layout and paintings are the design session's, unchanged. Dev only (TYPE_V1).
 
 **2026-11-14 · the revelation's second page** (owner: "all the second revelation page should have their core energy sign on the page and put it up as the main visual element"). "Who the {Name} is" now leads with the core element's sign at 132px, captioned "{Element} · your core energy", for all ten stems. The D1 painting sits back behind it at half strength. Built in `LadderViews.jsx` by the Day Master session, on dev.
+
+**Ruled 2026-11-14 · the Elementum Type goes live: R1 A, R2 A, R3 A.**
+- **R1 A:** `TYPE_LIVE = true` (`src/liveFlags.js`). On elementum.life: the album's type line and four chips, the Day Master page on the ladder, the type share card. Checked on a production build for the golden chart, chart B and the Balanced chart: no draft tags, no errors.
+- **R2 A:** a Balanced chart's "Your circle" tile on the album stays on the dev site until its line (`TYPE_LINE.circle.balanced`) is ruled, as on the revelation's last page.
+- **R3 A:** released with the amount and the Grow or Release step sometimes disagreeing (a thin energy told to release). Bridging lines are drafted next for the owner to rule.
+
+**Ruled 2026-11-14 · the Domains session's dispatch: D1 A.** Order: records and the coverage check, then the fate-word rewrites shown to the owner as before-and-after lines before they ship, then the merged-reading backlog in batches.

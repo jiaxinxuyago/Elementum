@@ -48,8 +48,10 @@ export const SC_LIVE = true;
 // mode" with its plain line, the four chips (archetype seal, run dial, mode and
 // needs ink dots), the your-mode and you-need tags and the circle (Fuel, Bond,
 // Mirror) on the share card and the album hero; the manifesto moves to "How am
-// I running?". Dev site only until the owner says live.
-export const TYPE_LIVE = false;
+// I running?". Live on elementum.life (owner R1 A, 2026-11-14), with the
+// rewritten Day Master page. A Balanced chart's circle tile stays on the dev
+// site until its line is ruled (R2 A).
+export const TYPE_LIVE = true;
 
 // The Blueprint's state rules and the pairing conditions (owner R1 A, R2 A,
 // 2026-11-14): "a sample of pages comes back to you before it ships". The owner
