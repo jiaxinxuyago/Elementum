@@ -420,3 +420,5 @@ The contract is `Design/Library/Design_Pass_2026-10/Ink_Painting_System.md`, wit
 - **Your type:** the mode sentence, the need, "Start here" and the circle line.
 
 The layout and paintings are the design session's, unchanged. Dev only (TYPE_V1).
+
+**2026-11-14 · the revelation's second page** (owner: "all the second revelation page should have their core energy sign on the page and put it up as the main visual element"). "Who the {Name} is" now leads with the core element's sign at 132px, captioned "{Element} · your core energy", for all ten stems. The D1 painting sits back behind it at half strength. Built in `LadderViews.jsx` by the Day Master session, on dev.

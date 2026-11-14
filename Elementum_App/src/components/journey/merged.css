@@ -451,3 +451,7 @@ button.ty-cc{ cursor:pointer; }
 .jny .dmp-try{ background:rgba(250,246,238,.72); border:1px solid rgba(139,115,85,.28); border-radius:12px; padding:9px 11px; }
 .jny .dmp-try .role-pill{ font-size:7.5px; margin-right:7px; vertical-align:2px; }
 .jny .dmp-try b{ font-weight:600; }
+/* "Who the {Name} is": the core energy's sign as the card's main visual (owner 2026-11-14); the D1 painting sits back behind it */
+.jny .ld-coresign{ position:absolute; left:0; right:0; top:11%; display:flex; flex-direction:column; align-items:center; gap:8px; pointer-events:none; }
+.jny .ld-coresign .v5-dot{ filter:drop-shadow(0 8px 22px rgba(43,39,34,.22)); }
+.jny .mg-fr.ladder.t-who .mg-frsign{ opacity:.5; }
