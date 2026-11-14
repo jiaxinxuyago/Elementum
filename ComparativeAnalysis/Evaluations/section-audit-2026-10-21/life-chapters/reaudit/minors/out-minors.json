@@ -1,0 +1,178 @@
+{
+ "units": [
+  {
+   "key": "ENERGY body · chapter_domain.Health.release",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours hard exercise over sitting still, and the days you work off the extra force are your calmest.",
+   "finding": "XR-08 G3-025"
+  },
+  {
+   "key": "ENERGY mind · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Mind, one that works against your chart. Since your mid-thirties, home has offered so much comfort and counsel that your own decisions wait. You make one small decision a day alone, and your judgement comes back with use.",
+   "finding": "XR-09"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours one role done well over several begun, and the depth you build earns more than reach.",
+   "finding": "G1-009"
+  },
+  {
+   "key": "ENERGY order · chapter_manual.grow",
+   "kind": "manual",
+   "text": "This chapter puts a frame around your strength, one your chart welcomes. You do your best work inside clear roles and firm deadlines.",
+   "finding": "G1-010"
+  },
+  {
+   "key": "ENERGY expression · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties, appetite and opinion have filled the house, and your restlessness has set its pace. An hour of quiet each evening settles it, and you are learning to let a partner have the last word.",
+   "finding": "G1-012 G3-011"
+  },
+  {
+   "key": "ENERGY action · chapter.day.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Action, and your chart is glad of it. From your mid-thirties a partner and a household widen your reach, with more coming in and more to look after. You take on the house as a shared project, and the effort shows in every corner of it.",
+   "finding": "G2-009"
+  },
+  {
+   "key": "ENERGY mind · chapter_domain.Career.grow",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours good advice over a bigger title, and you do your best work among people whose judgement you trust.",
+   "finding": "G2-010"
+  },
+  {
+   "key": "ENERGY expression · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter loosens your tongue and your appetite more than your chart can use. Your words land harder the fewer you use, and that keeps your standing.",
+   "finding": "G2-014"
+  },
+  {
+   "key": "ENERGY body · decade.grow.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} into your stride and your say, a strength your chart had wanted. You walked further and took on what others had always done for you.",
+   "finding": "G2-015"
+  },
+  {
+   "key": "ENERGY expression · decade.release.late.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} to the family table as a sharp tongue, with opinions ready for every topic. You kept your welcome by letting the people after you finish their sentences.",
+   "finding": "G2-016"
+  },
+  {
+   "key": "ENERGY expression · decade.release.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} in a rush, with a quick tongue that got you into trouble in class. You learned to ask before you argued, and the trouble grew rarer.",
+   "finding": "G2-018"
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Career.grow",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours a voice in the meeting over a place in the queue, and the footing you find comes from people who work at your level.",
+   "finding": "G2-020"
+  },
+  {
+   "key": "ENERGY order · chapter.hour.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Order, and your chart has been glad to have it. Since your late forties you have held a settled place, the one whose word decides and whose standards the people after you take up. You give that authority daily attention, and you carry it lightly.",
+   "finding": "G3-009"
+  },
+  {
+   "key": "ENERGY body · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, your own energy, in a chart that is already crowded with it. Since your mid-thirties, the household has felt like a contest of wills, and you rarely give way first. Time apart for your own interests cools it down, and you are learning that yielding at home costs you little.",
+   "finding": "G3-012"
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Love.grow",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours laughing with a partner over keeping things serious, and the affection you show comes openly and easily.",
+   "finding": "G3-013"
+  },
+  {
+   "key": "ENERGY action · chapter_manual.grow",
+   "kind": "manual",
+   "text": "This chapter rewards reaching. You gain most from the offers you take up and put to use straight away.",
+   "finding": "G3-014"
+  },
+  {
+   "key": "ENERGY action · chapter.day.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Action, and your chart takes it in gladly. Since your mid-thirties the household has become a place of making things work, with a partner beside you and more to manage each year. You see each plan through, and the home grows solid around you.",
+   "finding": "G3-015"
+  },
+  {
+   "key": "ENERGY order · chapter.day.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Order, and your chart welcomed its firm hand. From your mid-thirties to your late forties the household ran on agreements you and a partner kept, and every promise added to your name. You came away with a home in good order and a reputation for doing what you said.",
+   "finding": "G3-016"
+  },
+  {
+   "key": "ENERGY expression · decade.grow.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and a louder voice at school, in class and among friends. Someone in your first home enjoyed your stories, and you kept telling them.",
+   "finding": "G3-021"
+  },
+  {
+   "key": "ENERGY expression · chapter_domain.Family.grow",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours cooking and making things together over keeping the place tidy, and the things you make fill the house.",
+   "finding": "G3-022"
+  },
+  {
+   "key": "ENERGY body · decade.grow.early.b",
+   "kind": "decade_energy",
+   "text": "These years brought {el} through classmates who wanted the same place and the same turn. You learned to stand up for your share, and you never quite stopped.",
+   "finding": "XR-07 G1-006 G3-006"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Love.grow",
+   "kind": "favours",
+   "text": "Keeping your word to a partner|leaving things vague",
+   "finding": "XR-15"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.release",
+   "kind": "ground",
+   "text": "Under it runs {g}, drawing the {e} away, and the share you carry lightens as it drains.",
+   "finding": "G1-015 G3-019"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, which slowly drew the {e} away, and year by year you carried less of it.",
+   "finding": "G1-015 G3-019"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.release",
+   "kind": "ground",
+   "text": "Under it runs {g}, which keeps feeding the {e}, and whatever you set down comes back.",
+   "finding": "G1-015"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, which kept feeding the {e}, but you learned to set it down as fast as it returned.",
+   "finding": "G1-015"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.release",
+   "kind": "ground",
+   "text": "Under it runs {g}, checking the {e} as it goes, and what you meet from it loses some of its grip.",
+   "finding": "G1-015"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, kept down by the {e} at the price of its force, and you met less of it.",
+   "finding": "G1-015"
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.release.lived",
+   "kind": "ground",
+   "text": "Under it ran {g} of the same kind, one pull from top to bottom, but you learned its shape by heart.",
+   "finding": "G1-015"
+  }
+ ]
+}

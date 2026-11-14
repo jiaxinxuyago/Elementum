@@ -102,7 +102,9 @@ export function resolveEnergyChapters(chart, positions, opts = {}) {
     let lines = [];
     if (e && t !== 'lived') {
       const gd = GATE_DOMAIN[g]; const fk = (d) => `ENERGY ${e.fn.toLowerCase()} · chapter_domain.${d}.${e.dir}`;
-      const pick = [gd, ...ranked(e.weights).filter((d) => d !== gd)].filter((d) => !used.has(fk(d))).slice(0, 3);
+      let pick = [gd, ...ranked(e.weights).filter((d) => d !== gd)].filter((d) => !used.has(fk(d))).slice(0, 3);
+      // a chapter keeps at least two lines: when the repeats are dropped, the next domains not yet read fill in (re-audit G1-016)
+      if (pick.length < 2) pick = [...pick, ...DOMAINS.filter((d) => !pick.includes(d) && !used.has(fk(d)))].slice(0, 2);
       pick.forEach((d) => used.add(fk(d)));
       lines = pick.map((d) => ({ domain: d, ...unit(fk(d), dDomain(d, e), fill) }));
     }

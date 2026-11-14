@@ -118,7 +118,7 @@ All rows were ruled as recommended:
 
 ## Section audit rulings (owner 2026-11-14): "M1 A … M9 A, MINOR A"
 
-- **M1:** done by the calculator session on 2026-10-22 (E1, `71cfa96`). The births left are on a solar-term day, which waits on the Almanac's `EXACT_TERMS` sign-off.
+- **M1:** done by the calculator session on 2026-10-22 (E1, `71cfa96`). Closed on 2026-11-14 with `EXACT_TERMS` on (AM6-ON A, `ENGINE_VERSION` 4). The births left on a solar-term day did not clear: 63 of 3,000 sampled charts (about 2%), all within 23 hours of a 节, still start about ten years off, because the start-age loop compares the birth's date at midnight with the term's date while the month pillar uses the exact instant (`qa/qiyun-near.mjs`). That is engine code, so it is a new owner row, PM_04 LC-M1R.
 - **Resolver (`08e57df`):**
   - M3: ground lines by relation and direction;
   - M5: `.late` decades from 55, and Year- and Month-Gate landings for readers from 55;
@@ -133,3 +133,13 @@ All rows were ruled as recommended:
   - 49 TWEAKs and a rewritten ground set have landed (`b5cb61a`).
   - Labels are now by age.
 - **Report:** https://claude.ai/artifact/C5mHHAkiuw8htbNWvVy3SW. N1–N6 and the 65 MINORs are waiting.
+
+## The Domains dispatch (2026-11-14, the owner's six items)
+
+1. **Re-audit MINORs and TWEAKs:** the TWEAKs were already in. 29 MINORs adopted under PM_04 D2, 30 wait on N1–N6, 5 were already done and 1 (G1-005) asks against the AM3 wording, so it is kept. Ledger: `ComparativeAnalysis/Evaluations/section-audit-2026-10-21/life-chapters/reaudit/minors/LEDGER.md`. N1–N6 are PM_04 rows LC-N1 to LC-N6.
+2. **M1:** closed; the remainder is LC-M1R (above).
+3. **The 20 under-16 keys:** `chapter.year.<dir>.now` and `chapter.month.<dir>.coming` for the five functions, written for a reader under 16 (M9) and gated (`life-chapters/under16/`). 484 units. `qa-reading-coverage`: Life Chapters 0.00% at `--n 600 --from 2010 --to 2026` (23,792 lines) and at `--n 2000` (69,579 lines).
+4. **A4:** the `DecadePage.jsx` route is retired. `app-decade` left the route list; the decade tile on Today, the Day page and the Almanac hub always opens Life Chapters (`routeOpen`), an old `#app-decade` link lands on Your reading (`ROUTE_ALIAS`), and the DevBar entry is gone.
+5. **The 5 November P0 sweep** (fate, fated, destiny, lucky, fortune, verdict, "expect" as a forecast) over `depthChaptersEnergy.js` and the station: no hits. Every "expect" is other people's expectation or a past fact ("faster than you expected"), not a forecast. `positions.js` was left to Domains.
+6. **Records:** PM_02 LC-1, PM_04 §3 (LC-N1 to LC-N6, LC-M1R) and §4 (the MINOR adoption), and the other-pages line no longer lists Life Chapters M2–M9.
+

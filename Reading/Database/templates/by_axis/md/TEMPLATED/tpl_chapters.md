@@ -16,9 +16,9 @@
 
 | Variable | Value |
 |---|---|
-| `units.ENERGY action · chapter.day.grow.coming` | Your Home Chapter carries {el}, the energy of Action, and your chart is glad of it. From your mid-thirties a partner and a household widen your reach, with more coming in and more to look after. You take on the house as a project of your own, and the effort shows in every corner of it. |
+| `units.ENERGY action · chapter.day.grow.coming` | Your Home Chapter carries {el}, the energy of Action, and your chart is glad of it. From your mid-thirties a partner and a household widen your reach, with more coming in and more to look after. You take on the house as a shared project, and the effort shows in every corner of it. |
 | `units.ENERGY action · chapter.day.grow.lived` | Your Home Chapter carried {el}, the energy of Action, and your chart made use of all of it. From your mid-thirties to your late forties the household was a working concern, a partner and you building something with real weight. You left that chapter with a home that stood firmly on its own. |
-| `units.ENERGY action · chapter.day.grow.now` | Your Home Chapter carries {el}, the energy of Action, and your chart takes it in gladly. Since your mid-thirties the household has become a place of making things work, with a partner beside you and more to manage each year. Your home grows solid around the plans you see through, one fixed thing at a time. |
+| `units.ENERGY action · chapter.day.grow.now` | Your Home Chapter carries {el}, the energy of Action, and your chart takes it in gladly. Since your mid-thirties the household has become a place of making things work, with a partner beside you and more to manage each year. You see each plan through, and the home grows solid around you. |
 | `units.ENERGY action · chapter.day.release.coming` | Your Home Chapter carries {el}, the energy of Action, an energy your chart does better without. From your mid-thirties the household asks for steady effort, with bills to meet and plans to fund beside your own. You share the jobs with someone close and get your evenings back. |
 | `units.ENERGY action · chapter.day.release.lived` | Your Home Chapter carried {el}, the energy of Action, and your chart was working against it. From your mid-thirties to your late forties the household kept you running, with costs to cover and plans that pulled in different directions. With a partner's steadiness to lean on, you learned to measure a week by what you finished. |
 | `units.ENERGY action · chapter.day.release.now` | Your Home Chapter carries {el}, the energy of Action, and your chart pulls the other way. Since your mid-thirties, home has run on errands and accounts, with every week asking you to fetch and fix and pay. Each job you let wait gives you back an evening, and the house runs no worse for it. |
@@ -37,7 +37,7 @@
 | `units.ENERGY action · chapter.year.release.lived` | Your Early Chapter carried {el}, the energy of Action, into a chart that did better without it. Your first home was busy with getting and keeping, and the grown-ups around you counted every effort. You grew up restless, and an older relative's patience taught you to slow your reach. |
 | `units.ENERGY action · chapter.year.release.now` | Your Early Chapter carries {el}, the energy of Action, and your chart does better without it. Since your first years there has always been something more to want, with a new thing to chase each week. You slow down when an older relative sits with you until one plan is finished. |
 | `units.ENERGY action · chapter_domain.Career.grow` | In Career, this chapter favours work that pays as it goes over work that pays at the end, and you keep more than one thing running at once. |
-| `units.ENERGY action · chapter_domain.Career.release` | In Career, this chapter favours finishing what you started over taking on the next offer, but each thing you finish is worth two you begin. |
+| `units.ENERGY action · chapter_domain.Career.release` | In Career, this chapter favours one role done well over several begun, and the depth you build earns more than reach. |
 | `units.ENERGY action · chapter_domain.Family.grow` | At home, this chapter favours shared plans over private ones, and you run the household as a joint venture. |
 | `units.ENERGY action · chapter_domain.Family.release` | At home, this chapter favours plain help over money, and what you give by showing up counts for more than what you pay. |
 | `units.ENERGY action · chapter_domain.Growth.grow` | In Growth, this chapter favours learning by doing over learning from a book, and what you pick up comes from tasks set just beyond your reach. |
@@ -52,7 +52,7 @@
 | `units.ENERGY action · chapter_domain.Social.release` | With friends, this chapter favours a few close people over a wide circle, and you keep the ones who ask nothing of your money. |
 | `units.ENERGY action · chapter_domain.Wealth.grow` | In Wealth, this chapter favours putting money to work over letting it sit, and what you plant pays back more than what you save. |
 | `units.ENERGY action · chapter_domain.Wealth.release` | In Wealth, this chapter favours a clear budget over a bigger income, but you rest easier once every bill has a name and a date. |
-| `units.ENERGY action · chapter_manual.grow` | This chapter rewards reaching. You are paid back for every offer you take up and put to use straight away. |
+| `units.ENERGY action · chapter_manual.grow` | This chapter rewards reaching. You gain most from the offers you take up and put to use straight away. |
 | `units.ENERGY action · chapter_manual.release` | This chapter spreads you thin. You hold your ground when your own strength comes first and the chase comes second. |
 | `units.ENERGY action · decade.grow.coming.a` | This decade brings {el} and steady returns on the care you have put in. You build the kind of security that lets you stop counting. |
 | `units.ENERGY action · decade.grow.coming.b` | This decade brings {el} through chances that open sideways, a neighbour's idea or a skill someone wants to pay for. You find money and company in places you had never thought to look. |
@@ -107,7 +107,7 @@
 | `units.ENERGY body · chapter.day.grow.now` | Your Home Chapter carries {el}, your own energy, and your chart is short of it. Since your mid-thirties, a partner has backed you as a true equal and home has become the place your strength gathers. You walk out of your own door each morning surer of where you stand. |
 | `units.ENERGY body · chapter.day.release.coming` | Your Home Chapter carries {el}, your own energy, though your chart is already flush with it. From your mid-thirties two strong wills share one household, and a partner who feels like an equal is also a rival. With an evening to yourself each week to cool off, you get further at home by giving way first. |
 | `units.ENERGY body · chapter.day.release.lived` | Your Home Chapter carried {el}, your own energy, to a chart that held too much of it. Between your mid-thirties and late forties home was a place of strong wills and long standoffs, and you rarely backed down first. You got through on an hour's walk before each row set hard, and on cooling off before you spoke. |
-| `units.ENERGY body · chapter.day.release.now` | Your Home Chapter carries {el}, your own energy, in a chart that is already crowded with it. Since your mid-thirties, the household has felt like a contest of wills, with a partner as stubborn as you. Time apart for your own interests cools it down, and you are learning that yielding at home costs you nothing. |
+| `units.ENERGY body · chapter.day.release.now` | Your Home Chapter carries {el}, your own energy, in a chart that is already crowded with it. Since your mid-thirties, the household has felt like a contest of wills, and you rarely give way first. Time apart for your own interests cools it down, and you are learning that yielding at home costs you little. |
 | `units.ENERGY body · chapter.hour.grow.coming` | Your Late Chapter carries {el}, your own energy, with a chart that has long gone without it. From your late forties the people after you stand at your side, and what you have built gives you a firm floor. You grow surer of yourself with every year of it. |
 | `units.ENERGY body · chapter.hour.grow.now` | Your Late Chapter carries {el}, your own energy, and your chart has been hungry for it. Since your late forties, the people after you have stood behind you and what you built has started to hold its own weight. You stop asking permission for what is plainly yours to decide. |
 | `units.ENERGY body · chapter.hour.release.coming` | Your Late Chapter carries {el}, your own energy, on top of a chart already heavy with it. From your late forties you hold tight to what you have built, and the people after you want a hand on it too. Once you say no to the small fights, you keep your strength for the few that count. |
@@ -122,14 +122,14 @@
 | `units.ENERGY body · chapter.year.grow.now` | Your Early Chapter carries {el}, your own energy, and your chart is the stronger for it. Since your first years children your age have pulled you into their games, where you learned to hold your own. You speak up for yourself in a crowd, and a friend who disagrees still stays a friend. |
 | `units.ENERGY body · chapter.year.release.lived` | Your Early Chapter carried {el}, more of your own energy than your chart could hold. Through your school years you fought for your place among the children around you and rarely gave an inch. With an older relative who listened when you dug in, you learned to stand alone without standing against everyone. |
 | `units.ENERGY body · chapter.year.release.now` | Your Early Chapter carries {el}, your own energy, which your chart already holds in plenty. Since your first years you have wanted to win every game and have the last word at home. After an afternoon on your own, you come back easier with the children around you. |
-| `units.ENERGY body · chapter_domain.Career.grow` | In Career, this chapter favours a seat at the table over a place in the queue, and the footing you find comes from people who work at your level. |
+| `units.ENERGY body · chapter_domain.Career.grow` | In Career, this chapter favours a voice in the meeting over a place in the queue, and the footing you find comes from people who work at your level. |
 | `units.ENERGY body · chapter_domain.Career.release` | In Career, this chapter favours making something over beating someone, but you do your best work when the effort goes into the thing itself. |
 | `units.ENERGY body · chapter_domain.Family.grow` | At home, this chapter favours saying what you need over keeping everyone happy, and the place you claim at the table stays yours. |
 | `units.ENERGY body · chapter_domain.Family.release` | At home, this chapter favours letting someone else be right over winning the point, but you keep more peace than any argument would win you. |
 | `units.ENERGY body · chapter_domain.Growth.grow` | In Growth, this chapter favours hard tests over safe lessons, and you come out of each one with a firmer sense of yourself. |
 | `units.ENERGY body · chapter_domain.Growth.release` | In Growth, this chapter favours a skill you build quietly over a test of strength, and what you learn without an opponent stays with you. |
 | `units.ENERGY body · chapter_domain.Health.grow` | In Health, this chapter favours building stamina over spending it, but you gain strength from steady training more than from bursts of effort. |
-| `units.ENERGY body · chapter_domain.Health.release` | In Health, this chapter favours hard exercise over sitting still, and the days you burn off the extra force are the days you are easiest to live with. |
+| `units.ENERGY body · chapter_domain.Health.release` | In Health, this chapter favours hard exercise over sitting still, and the days you work off the extra force are your calmest. |
 | `units.ENERGY body · chapter_domain.Love.grow` | In Love, this chapter favours standing beside a partner over standing behind them, and you grow surer of your own place in the pair. |
 | `units.ENERGY body · chapter_domain.Love.release` | In Love, this chapter favours meeting a partner halfway over holding your line, but you soften once you stop counting who gave way. |
 | `units.ENERGY body · chapter_domain.Mind.grow` | In your thinking, this chapter favours your own read of a situation over a vote of everyone you know, and the decisions you back alone hold up. |
@@ -143,10 +143,10 @@
 | `units.ENERGY body · decade.grow.coming.a` | This decade brings {el} and a sturdier sense of yourself. You stand by your own judgement at work and at home, and approval matters less to you. |
 | `units.ENERGY body · decade.grow.coming.b` | This decade brings {el} through friends and rivals who keep you sharp. You compete in the open and win more often than you lose. |
 | `units.ENERGY body · decade.grow.early.a` | These years brought {el}, a strength your chart was short of, with games and teams at school. You learned early that you could hold your own among other children. |
-| `units.ENERGY body · decade.grow.early.b` | These years brought {el} through children your age who wanted the same toys and the same turn. You learned to stand up for your share, and you never quite stopped. |
+| `units.ENERGY body · decade.grow.early.b` | These years brought {el} through classmates who wanted the same place and the same turn. You learned to stand up for your share, and you never quite stopped. |
 | `units.ENERGY body · decade.grow.late.coming.a` | This decade brings {el} as stamina you can build, a daily walk that grows longer by the month. You hold your own on the hill and in an argument. |
 | `units.ENERGY body · decade.grow.late.coming.b` | This decade brings {el} through old friends and new ones who meet you as an equal. You take your seat where the family decisions get made and say your piece. |
-| `units.ENERGY body · decade.grow.late.lived.a` | These years brought {el} into your stride and your say, a strength your chart had wanted. You walked further, decided for yourself and asked fewer people for leave. |
+| `units.ENERGY body · decade.grow.late.lived.a` | These years brought {el} into your stride and your say, a strength your chart had wanted. You walked further and took on what others had always done for you. |
 | `units.ENERGY body · decade.grow.late.lived.b` | These years brought {el} through friends your own age who kept pace with you. You held your place at the table among equals and spoke up when it counted. |
 | `units.ENERGY body · decade.grow.late.now` | This decade brings {el}, the backbone your chart has wanted, felt in a steadier stride. You take the hill without stopping and hold your ground when the people after you disagree. You decide for yourself where you live, how fast you go and whom you keep close. |
 | `units.ENERGY body · decade.grow.lived.a` | These years brought {el} and the company of equals, colleagues and friends who matched your pace. You found a firmness in yourself that had been missing before. |
@@ -191,7 +191,7 @@
 | `units.ENERGY expression · chapter.day.grow.now` | Your Home Chapter carries {el}, the energy of Expression, and your chart is warmed by it. Since your mid-thirties, home has been full of cooking, laughter and things you made with a partner. You let yourself enjoy it all in these years without first earning it. |
 | `units.ENERGY expression · chapter.day.release.coming` | Your Home Chapter carries {el}, the energy of Expression, an energy your chart does better without. From your mid-thirties your tongue is quick at home, and a partner hears more of your opinions than they asked for. You find the warmth comes back on a slow walk after dinner, when you listen more than you talk. |
 | `units.ENERGY expression · chapter.day.release.lived` | Your Home Chapter carried {el}, the energy of Expression, in a chart that worked better without it. Between your mid-thirties and late forties you said what you thought at home and spent on whatever pleased you. Long quiet evenings wore the urge down, and you came away choosing your words with more care. |
-| `units.ENERGY expression · chapter.day.release.now` | Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties, appetite and opinion have filled the house, and a partner has borne the brunt of your restlessness. An hour of quiet each evening settles it, and you are learning to let them have the last word. |
+| `units.ENERGY expression · chapter.day.release.now` | Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties, appetite and opinion have filled the house, and your restlessness has set its pace. An hour of quiet each evening settles it, and you are learning to let a partner have the last word. |
 | `units.ENERGY expression · chapter.hour.grow.coming` | Your Late Chapter carries {el}, the energy of Expression, and your chart is ready for all of it. From your late forties, there is time and skill to make what is in your head, and the people after you learn by watching. You stop saving your ideas for later. |
 | `units.ENERGY expression · chapter.hour.grow.now` | Your Late Chapter carries {el}, the energy of Expression, and your chart sings with it. Since your late forties you have taught, performed or made things for the people after you, and they carry your style. You make things for the pleasure of it, with nothing left to prove. |
 | `units.ENERGY expression · chapter.hour.release.coming` | Your Late Chapter carries {el}, the energy of Expression, one that works against your chart. From your late forties you hold opinions on how the people after you live, and you voice them freely. With an hour alone each day to cool your views, you find they listen better when you say less. |
@@ -208,13 +208,13 @@
 | `units.ENERGY expression · chapter.year.release.now` | Your Early Chapter carries {el}, the energy of Expression, and your chart pulls the other way. Since your first years the sharp answer has come out first, along with a wish for every treat at once. You calm down on a long walk with someone who lets you talk it all out. |
 | `units.ENERGY expression · chapter_domain.Career.grow` | In Career, this chapter favours work with your name on it over work that disappears into the whole, and what you make yourself gets you noticed. |
 | `units.ENERGY expression · chapter_domain.Career.release` | In Career, this chapter favours one piece finished over three begun, but you are trusted most for the work you hand in quietly. |
-| `units.ENERGY expression · chapter_domain.Family.grow` | At home, this chapter favours cooking and making things together over keeping the place tidy, and the touches you add make the house feel lived in. |
+| `units.ENERGY expression · chapter_domain.Family.grow` | At home, this chapter favours cooking and making things together over keeping the place tidy, and the things you make fill the house. |
 | `units.ENERGY expression · chapter_domain.Family.release` | At home, this chapter favours a kind word over a sharp one, and you keep the household calm by holding back the first reply. |
 | `units.ENERGY expression · chapter_domain.Growth.grow` | In Growth, this chapter favours making something of your own over collecting certificates, and what you show to others teaches you the most. |
 | `units.ENERGY expression · chapter_domain.Growth.release` | In Growth, this chapter favours slow work out of sight over quick display, but you go further with one thing kept back until it is right. |
 | `units.ENERGY expression · chapter_domain.Health.grow` | In Health, this chapter favours good food and play over strict routines, and you recover your energy through the things you enjoy. |
 | `units.ENERGY expression · chapter_domain.Health.release` | In Health, this chapter favours a steady appetite over feasts, but you keep your energy on evenings when you talk less and stop sooner. |
-| `units.ENERGY expression · chapter_domain.Love.grow` | In Love, this chapter favours laughing with a partner over keeping things serious, and the affection you show openly is returned in kind. |
+| `units.ENERGY expression · chapter_domain.Love.grow` | In Love, this chapter favours laughing with a partner over keeping things serious, and the affection you show comes openly and easily. |
 | `units.ENERGY expression · chapter_domain.Love.release` | In Love, this chapter favours hearing a partner out over making your point, and you win more warmth by asking than by telling. |
 | `units.ENERGY expression · chapter_domain.Mind.grow` | In your thinking, this chapter favours ideas you can make real over ideas you only hold, and you think best with a pen in your hand. |
 | `units.ENERGY expression · chapter_domain.Mind.release` | In your thinking, this chapter favours one finished idea over ten half-formed ones, but you give your best thought the time it needs to ripen. |
@@ -223,11 +223,11 @@
 | `units.ENERGY expression · chapter_domain.Wealth.grow` | In Wealth, this chapter favours earning from a skill over earning by the hour, and what you enjoy doing starts to pay. |
 | `units.ENERGY expression · chapter_domain.Wealth.release` | In Wealth, this chapter favours buying once over buying often, but you keep more when a treat waits until the end of the month. |
 | `units.ENERGY expression · chapter_manual.grow` | This chapter opens an outlet your chart has long been short of. You gain most when you finish what you start and let other people see it. |
-| `units.ENERGY expression · chapter_manual.release` | This chapter loosens your tongue and your appetite more than your chart can use. You keep your standing when you wait before you answer and speak once. |
+| `units.ENERGY expression · chapter_manual.release` | This chapter loosens your tongue and your appetite more than your chart can use. Your words land harder the fewer you use, and that keeps your standing. |
 | `units.ENERGY expression · decade.grow.coming.a` | This decade brings {el}, the outlet your chart is short of. You say what you think at the moment you think it, and the words come out whole. |
 | `units.ENERGY expression · decade.grow.coming.b` | This decade brings {el} and a skill ready to be shown, with people keen to learn it from you. You teach, make or perform, and you are paid in attention as well as thanks. |
 | `units.ENERGY expression · decade.grow.early.a` | These years brought {el}, with drawing, music or games you made up yourself. You found something you were good at and showed it to anyone who would look. |
-| `units.ENERGY expression · decade.grow.early.b` | These years brought {el} and a louder voice at school, in class and in the playground. Someone in your first home enjoyed your stories, and you learned that you were worth hearing. |
+| `units.ENERGY expression · decade.grow.early.b` | These years brought {el} and a louder voice at school, in class and among friends. Someone in your first home enjoyed your stories, and you kept telling them. |
 | `units.ENERGY expression · decade.grow.late.coming.a` | This decade brings {el} and the pleasure of showing someone younger how a thing is made. You teach with your hands as much as your words, and the lessons stick. |
 | `units.ENERGY expression · decade.grow.late.coming.b` | This decade brings {el} as an appetite for new tastes, new places and an evening out without a reason. You say yes to the invitation and come home with a story to tell. |
 | `units.ENERGY expression · decade.grow.late.lived.a` | These years brought {el} as time to make things for pleasure, a garden, a quilt or a tune at the piano. You made what you liked and gave much of it away. |
@@ -238,11 +238,11 @@
 | `units.ENERGY expression · decade.grow.now` | This decade brings {el}, the Expression your chart has waited for, with ideas that turn into finished things. Food tastes better and the work in your hands goes well. You enjoy more, worry less and show your work without asking anyone first. |
 | `units.ENERGY expression · decade.release.coming.a` | This decade brings {el} with a voice that runs faster than your patience. You keep your standing by sleeping on the reply and sending the shorter version. |
 | `units.ENERGY expression · decade.release.coming.b` | This decade brings {el} with ideas you want to say aloud before they are ready. What carries you is time alone with each idea, until it can stand without you defending it. |
-| `units.ENERGY expression · decade.release.early.a` | These years brought {el} in a rush, with a quick tongue that got you into trouble in class. You learned to ask before you argued, because someone at home heard you out. |
+| `units.ENERGY expression · decade.release.early.a` | These years brought {el} in a rush, with a quick tongue that got you into trouble in class. You learned to ask before you argued, and the trouble grew rarer. |
 | `units.ENERGY expression · decade.release.early.b` | These years brought {el} to a restless child who wanted to try everything at once. You found the quiet pride of a finished thing, with an older relative sitting patiently beside you. |
 | `units.ENERGY expression · decade.release.late.coming.a` | This decade brings {el} as a restless wish to say everything you have kept to yourself. You choose your moment after an hour alone, and the words land kinder for it. |
 | `units.ENERGY expression · decade.release.late.coming.b` | This decade brings {el} through projects and plans that outrun your energy. You say no to half of them and enjoy the rest for longer. |
-| `units.ENERGY expression · decade.release.late.lived.a` | These years brought {el} to the family table as a sharp tongue, with opinions that arrived before anyone asked. You kept your welcome by letting the people after you finish their sentences. |
+| `units.ENERGY expression · decade.release.late.lived.a` | These years brought {el} to the family table as a sharp tongue, with opinions ready for every topic. You kept your welcome by letting the people after you finish their sentences. |
 | `units.ENERGY expression · decade.release.late.lived.b` | These years brought {el} through appetite and spending, a new hobby each season and a cupboard of half-done things. You found more pleasure in finishing one of them than in starting the next. |
 | `units.ENERGY expression · decade.release.late.now` | This decade brings {el}, an Expression that works against your chart, as a busy tongue and an appetite that spends faster than it should. You offer your view on other people's lives before anyone asks for it. Time alone gives you back the patience to listen. |
 | `units.ENERGY expression · decade.release.lived.a` | These years brought {el} as a sharp voice at work, with friction from people above you. You won respect by finishing the job before you spoke about it. |
@@ -277,7 +277,7 @@
 | `units.ENERGY mind · chapter.day.grow.now` | Your Home Chapter carries {el}, the energy of Mind, and your chart is grateful for it. Since your mid-thirties a partner has been your sounding board and home your place to read, rest and recover. You think things through out loud now, and the answers come quicker. |
 | `units.ENERGY mind · chapter.day.release.coming` | Your Home Chapter carries {el}, the energy of Mind, an energy your chart does better without. From your mid-thirties, a careful partner and a quiet household make it easy to think things over too long. You keep the days moving by finishing one small thing before you plan the next. |
 | `units.ENERGY mind · chapter.day.release.lived` | Your Home Chapter carried {el}, the energy of Mind, though your chart worked better without it. From your mid-thirties to your late forties the household was soft and settled, with every choice thought over twice. A practical project shared with a partner got you out of your head, and you left knowing that thinking needs a task. |
-| `units.ENERGY mind · chapter.day.release.now` | Your Home Chapter carries {el}, the energy of Mind, one that works against your chart. Since your mid-thirties, home has offered so much comfort and counsel that decisions wait, and a partner often thinks for you. You find you can trust your own judgement once you make one small decision a day alone. |
+| `units.ENERGY mind · chapter.day.release.now` | Your Home Chapter carries {el}, the energy of Mind, one that works against your chart. Since your mid-thirties, home has offered so much comfort and counsel that your own decisions wait. You make one small decision a day alone, and your judgement comes back with use. |
 | `units.ENERGY mind · chapter.hour.grow.coming` | Your Late Chapter carries {el}, the energy of Mind, and your chart opens to it. From your late forties there is time at last to learn for pleasure, and the people after you come to you for advice. You become the one others think things through with. |
 | `units.ENERGY mind · chapter.hour.grow.now` | Your Late Chapter carries {el}, the energy of Mind, and your chart has needed it for years. Since your late forties, you have read more, rested better and found a patient voice with the people after you. You give good advice now because you finally take your own. |
 | `units.ENERGY mind · chapter.hour.release.coming` | Your Late Chapter carries {el}, the energy of Mind, against the pull of your chart. From your late forties, the people after you fuss over you more than you need and quiet days pile up. You stay sharp on a morning walk and one job finished before noon. |
@@ -292,7 +292,7 @@
 | `units.ENERGY mind · chapter.year.grow.now` | Your Early Chapter carries {el}, the energy of Mind, and your chart soaks it up. Since your first years someone at home has made time to answer your questions, and books have kept you company on slow days. You think things through before you speak, and what you notice is usually right. |
 | `units.ENERGY mind · chapter.year.release.lived` | Your Early Chapter carried {el}, the energy of Mind, and your chart did better without it. Through your school years you were looked after closely, and others in your first home decided much for you. With afternoons outdoors on your own, you left childhood able to act as well as think. |
 | `units.ENERGY mind · chapter.year.release.now` | Your Early Chapter carries {el}, the energy of Mind, and your chart does better without it. Since your first years the grown-ups around you have worried on your behalf and smoothed each path before you reached it. You grow surer each time you try something on your own and get it done without help. |
-| `units.ENERGY mind · chapter_domain.Career.grow` | In Career, this chapter favours good advice over a bigger title, and you do your best work beside someone who wants you to succeed. |
+| `units.ENERGY mind · chapter_domain.Career.grow` | In Career, this chapter favours good advice over a bigger title, and you do your best work among people whose judgement you trust. |
 | `units.ENERGY mind · chapter_domain.Career.release` | In Career, this chapter favours starting before you feel ready over one more round of preparing, but you already know enough to begin. |
 | `units.ENERGY mind · chapter_domain.Family.grow` | At home, this chapter favours a quiet household over a busy one, and what you find there is the ease of being looked after. |
 | `units.ENERGY mind · chapter_domain.Family.release` | At home, this chapter favours doing for others over waiting to be done for, but you grow steadier with every job you take off someone's hands. |
@@ -359,13 +359,13 @@
 | `units.ENERGY mind · year.need` | {el} brings Mind for a whole year, a support your chart runs short of. Each question you carry finds someone who knows the answer and has the patience to give it. |
 | `units.ENERGY mind · year.need.b` | {el} brings Mind for a second year running, support your chart still runs short of. What you started to understand last year now holds weight, and people come to you to check their thinking. |
 | `units.ENERGY order · chapter.day.grow.coming` | Your Home Chapter carries {el}, the energy of Order, and your chart is ready for it. From your mid-thirties, home takes a firmer form, with a partner who keeps you to your word and duties that give the week its frame. You settle into that shape, and the relief surprises you. |
-| `units.ENERGY order · chapter.day.grow.lived` | Your Home Chapter carried {el}, the energy of Order, and your chart welcomed its firm hand. From your mid-thirties to your late forties the household ran on agreements you and a partner kept, and every promise added to your name at home. You left it with a home that ran well and a name for doing what you said. |
+| `units.ENERGY order · chapter.day.grow.lived` | Your Home Chapter carried {el}, the energy of Order, and your chart welcomed its firm hand. From your mid-thirties to your late forties the household ran on agreements you and a partner kept, and every promise added to your name. You came away with a home in good order and a reputation for doing what you said. |
 | `units.ENERGY order · chapter.day.grow.now` | Your Home Chapter carries {el}, the energy of Order, and your chart has needed it for years. Since your mid-thirties home has given you a clear place, a partner who counts on you and routines that hold the week together. You know what each day asks of you, and the week stands straighter for it. |
 | `units.ENERGY order · chapter.day.release.coming` | Your Home Chapter carries {el}, the energy of Order, and your chart pushes against it. From your mid-thirties the household brings obligation on obligation, a partner's expectations and a calendar that rarely clears. With time alone in a corner of your own, you keep your temper where others lose theirs. |
 | `units.ENERGY order · chapter.day.release.lived` | Your Home Chapter carried {el}, the energy of Order, and your chart was already stretched by it. From your mid-thirties to your late forties home was full of duties, a partner's standards and a household that expected you on time. Someone who looked after you steadied you, and you learned to set down what was never yours to hold. |
 | `units.ENERGY order · chapter.day.release.now` | Your Home Chapter carries {el}, the energy of Order, one that works against your chart. Since your mid-thirties, home has come with rules and duties, a partner with firm views and a household that runs on schedule. You bend more than you would choose, and a walk with someone who hears you out straightens you by morning. |
 | `units.ENERGY order · chapter.hour.grow.coming` | Your Late Chapter carries {el}, the energy of Order, and your chart still has use for it. From your late forties what you have built gives you a standing others look to, and the people after you ask how things should be done. You give them rules worth keeping, the first of which you keep yourself. |
-| `units.ENERGY order · chapter.hour.grow.now` | Your Late Chapter carries {el}, the energy of Order, and your chart has been glad to have it. Since your late forties you have held a settled place, the one whose word decides and whose standards the people after you take up. You pay for that authority in daily attention, and those who follow your lead can tell. |
+| `units.ENERGY order · chapter.hour.grow.now` | Your Late Chapter carries {el}, the energy of Order, and your chart has been glad to have it. Since your late forties you have held a settled place, the one whose word decides and whose standards the people after you take up. You give that authority daily attention, and you carry it lightly. |
 | `units.ENERGY order · chapter.hour.release.coming` | Your Late Chapter carries {el}, the energy of Order, though your chart would rather do without it. From your late forties duty follows you, with the people after you to answer for and a name you are expected to uphold. You find quiet hours for something of your own, and the weight is lighter on the days you do. |
 | `units.ENERGY order · chapter.hour.release.now` | Your Late Chapter carries {el}, the energy of Order, and your chart wants less of it. Since your late forties you have been the one held responsible, for what you built and for how the people after you turn out. You turn down the smaller claims, and there is freedom in no longer having the final word. |
 | `units.ENERGY order · chapter.month.grow.coming` | Your Rising Chapter carries {el}, the energy of Order, and your chart stands taller for it. From your late teens, study and work bring clear tasks and someone older who backs you once you prove reliable. You keep your word, and before long people trust you with more. |
@@ -394,7 +394,7 @@
 | `units.ENERGY order · chapter_domain.Social.release` | With friends, this chapter favours easy company over clubs with duties, and you recover from a demanding week among people who expect nothing formal of you. |
 | `units.ENERGY order · chapter_domain.Wealth.grow` | In Wealth, this chapter favours money that arrives on a fixed day over a gamble, and what you build comes from sums you can count on. |
 | `units.ENERGY order · chapter_domain.Wealth.release` | In Wealth, this chapter favours money you control over money tied to someone else's terms, and you breathe easier with fewer loans and contracts in your name. |
-| `units.ENERGY order · chapter_manual.grow` | This chapter gives your strength the shape it has lacked. Clear roles and firm deadlines bring out your best, and you rise when someone holds you to a standard. |
+| `units.ENERGY order · chapter_manual.grow` | This chapter puts a frame around your strength, one your chart welcomes. You do your best work inside clear roles and firm deadlines. |
 | `units.ENERGY order · chapter_manual.release` | This chapter bears down on you from outside. You carry it best with something of your own it cannot reach, a friend, a slower pace or a quiet place. |
 | `units.ENERGY order · decade.grow.coming.a` | This decade brings {el} as pressure you can use, a hard deadline or a role with stakes. You think more clearly with the clock running. |
 | `units.ENERGY order · decade.grow.coming.b` | This decade brings {el} and a reputation that arrives before you do, with people who expect you to lead. You take charge when asked and learn what leading costs you in evenings and patience. |
@@ -428,7 +428,7 @@
 | `units.ENERGY order · favours.decade.Growth.release` | Learning for the fun of it\|being marked on it |
 | `units.ENERGY order · favours.decade.Health.grow` | A set training plan\|exercise when you like |
 | `units.ENERGY order · favours.decade.Health.release` | A day with no alarm\|a packed schedule |
-| `units.ENERGY order · favours.decade.Love.grow` | A clear commitment\|keeping it casual |
+| `units.ENERGY order · favours.decade.Love.grow` | Keeping your word to a partner\|leaving things vague |
 | `units.ENERGY order · favours.decade.Love.release` | Easy evenings\|rules about who does what |
 | `units.ENERGY order · favours.decade.Mind.grow` | A proper course\|dabbling |
 | `units.ENERGY order · favours.decade.Mind.release` | Thinking for yourself\|thinking what is expected |
@@ -482,23 +482,23 @@
 | `units.TEMPLATED tpl_almanac · land.year.repeat.year.late` | You return this year to a story from your first home, an old promise or a family habit that asks for a second look. |
 | `units.TEMPLATED tpl_chapters · ground.drains.grow` | Under it runs {g}, which draws the {e} off, and you keep a thinner share of the gift. |
 | `units.TEMPLATED tpl_chapters · ground.drains.grow.lived` | Under it ran {g}, which drew part of the {e} away, but you made good use of the share that stayed. |
-| `units.TEMPLATED tpl_chapters · ground.drains.release` | Under it runs {g}, drawing the {e} away, and the weight you carry lightens as it drains. |
-| `units.TEMPLATED tpl_chapters · ground.drains.release.lived` | Under it ran {g}, which slowly drew the {e} off, and the pressure you lived with thinned year by year. |
+| `units.TEMPLATED tpl_chapters · ground.drains.release` | Under it runs {g}, drawing the {e} away, and the share you carry lightens as it drains. |
+| `units.TEMPLATED tpl_chapters · ground.drains.release.lived` | Under it ran {g}, which slowly drew the {e} away, and year by year you carried less of it. |
 | `units.TEMPLATED tpl_chapters · ground.feeds.grow` | Under it runs {g}, which feeds the {e} from below, and the supply you draw on keeps coming. |
 | `units.TEMPLATED tpl_chapters · ground.feeds.grow.lived` | Under it ran {g}, feeding the {e} through those years, and what you drew on never ran short. |
-| `units.TEMPLATED tpl_chapters · ground.feeds.release` | Under it runs {g}, which keeps feeding the {e}, and the pressure you put down is topped up again. |
-| `units.TEMPLATED tpl_chapters · ground.feeds.release.lived` | Under it ran {g}, which kept feeding the {e}, but you learned to set the weight down as fast as it returned. |
+| `units.TEMPLATED tpl_chapters · ground.feeds.release` | Under it runs {g}, which keeps feeding the {e}, and whatever you set down comes back. |
+| `units.TEMPLATED tpl_chapters · ground.feeds.release.lived` | Under it ran {g}, which kept feeding the {e}, but you learned to set it down as fast as it returned. |
 | `units.TEMPLATED tpl_chapters · ground.matches.grow` | Under it runs more {g}, the same energy at the root, and the gift reaches you whole. |
 | `units.TEMPLATED tpl_chapters · ground.matches.grow.lived` | Under it ran {g} too, doubling the gift, and you had all of it to use. |
 | `units.TEMPLATED tpl_chapters · ground.matches.release` | Under it runs {g} as well, the same pull at the root, and you find no softer layer beneath it. |
-| `units.TEMPLATED tpl_chapters · ground.matches.release.lived` | Under it ran {g} of the same kind, one strain from top to bottom, but you learned its shape by heart. |
+| `units.TEMPLATED tpl_chapters · ground.matches.release.lived` | Under it ran {g} of the same kind, one pull from top to bottom, but you learned its shape by heart. |
 | `units.TEMPLATED tpl_chapters · ground.presses.grow` | Under it runs {g}, which the {e} spends force holding down, and what you receive comes a little lighter. |
 | `units.TEMPLATED tpl_chapters · ground.presses.grow.lived` | Under it ran {g}, held down by the {e}, and the gift you had came with work attached. |
 | `units.TEMPLATED tpl_chapters · ground.presses.release` | Under it runs {g}, kept down at a cost to the {e}, and what lands on you is lighter. |
-| `units.TEMPLATED tpl_chapters · ground.presses.release.lived` | Under it ran {g}, kept down by the {e} at the price of its force, and you carried less of the weight. |
+| `units.TEMPLATED tpl_chapters · ground.presses.release.lived` | Under it ran {g}, kept down by the {e} at the price of its force, and you met less of it. |
 | `units.TEMPLATED tpl_chapters · ground.resists.grow` | Under it runs {g}, which pushes back against the {e} at every step, and each share you get is worked for. |
 | `units.TEMPLATED tpl_chapters · ground.resists.grow.lived` | Under it ran {g}, pushing back on the {e} at every turn, but you worked for what it gave and kept it. |
-| `units.TEMPLATED tpl_chapters · ground.resists.release` | Under it runs {g}, checking the {e} as it goes, and the strain you meet loses some of its grip. |
+| `units.TEMPLATED tpl_chapters · ground.resists.release` | Under it runs {g}, checking the {e} as it goes, and what you meet from it loses some of its grip. |
 | `units.TEMPLATED tpl_chapters · ground.resists.release.lived` | Under it ran {g}, still pushing back at the {e}, and what you faced lost force while the two fought. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -2375,3 +2375,148 @@
 | `retired[373].replaced_by` | polish out-tweaks.json |
 | `retired[373].why` | audit polish round (owner M1–M9 A, MINOR A) |
 | `retired[373].date` | 2026-11-14 |
+| `retired[374].key` | ENERGY body · chapter_domain.Health.release |
+| `retired[374].text` | In Health, this chapter favours hard exercise over sitting still, and the days you burn off the extra force are the days you are easiest to live with. |
+| `retired[374].replaced_by` | polish out-minors.json |
+| `retired[374].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[374].date` | 2026-11-14 |
+| `retired[375].key` | ENERGY mind · chapter.day.release.now |
+| `retired[375].text` | Your Home Chapter carries {el}, the energy of Mind, one that works against your chart. Since your mid-thirties, home has offered so much comfort and counsel that decisions wait, and a partner often thinks for you. You find you can trust your own judgement once you make one small decision a day alone. |
+| `retired[375].replaced_by` | polish out-minors.json |
+| `retired[375].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[375].date` | 2026-11-14 |
+| `retired[376].key` | ENERGY action · chapter_domain.Career.release |
+| `retired[376].text` | In Career, this chapter favours finishing what you started over taking on the next offer, but each thing you finish is worth two you begin. |
+| `retired[376].replaced_by` | polish out-minors.json |
+| `retired[376].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[376].date` | 2026-11-14 |
+| `retired[377].key` | ENERGY order · chapter_manual.grow |
+| `retired[377].text` | This chapter gives your strength the shape it has lacked. Clear roles and firm deadlines bring out your best, and you rise when someone holds you to a standard. |
+| `retired[377].replaced_by` | polish out-minors.json |
+| `retired[377].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[377].date` | 2026-11-14 |
+| `retired[378].key` | ENERGY expression · chapter.day.release.now |
+| `retired[378].text` | Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties, appetite and opinion have filled the house, and a partner has borne the brunt of your restlessness. An hour of quiet each evening settles it, and you are learning to let them have the last word. |
+| `retired[378].replaced_by` | polish out-minors.json |
+| `retired[378].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[378].date` | 2026-11-14 |
+| `retired[379].key` | ENERGY action · chapter.day.grow.coming |
+| `retired[379].text` | Your Home Chapter carries {el}, the energy of Action, and your chart is glad of it. From your mid-thirties a partner and a household widen your reach, with more coming in and more to look after. You take on the house as a project of your own, and the effort shows in every corner of it. |
+| `retired[379].replaced_by` | polish out-minors.json |
+| `retired[379].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[379].date` | 2026-11-14 |
+| `retired[380].key` | ENERGY mind · chapter_domain.Career.grow |
+| `retired[380].text` | In Career, this chapter favours good advice over a bigger title, and you do your best work beside someone who wants you to succeed. |
+| `retired[380].replaced_by` | polish out-minors.json |
+| `retired[380].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[380].date` | 2026-11-14 |
+| `retired[381].key` | ENERGY expression · chapter_manual.release |
+| `retired[381].text` | This chapter loosens your tongue and your appetite more than your chart can use. You keep your standing when you wait before you answer and speak once. |
+| `retired[381].replaced_by` | polish out-minors.json |
+| `retired[381].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[381].date` | 2026-11-14 |
+| `retired[382].key` | ENERGY body · decade.grow.late.lived.a |
+| `retired[382].text` | These years brought {el} into your stride and your say, a strength your chart had wanted. You walked further, decided for yourself and asked fewer people for leave. |
+| `retired[382].replaced_by` | polish out-minors.json |
+| `retired[382].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[382].date` | 2026-11-14 |
+| `retired[383].key` | ENERGY expression · decade.release.late.lived.a |
+| `retired[383].text` | These years brought {el} to the family table as a sharp tongue, with opinions that arrived before anyone asked. You kept your welcome by letting the people after you finish their sentences. |
+| `retired[383].replaced_by` | polish out-minors.json |
+| `retired[383].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[383].date` | 2026-11-14 |
+| `retired[384].key` | ENERGY expression · decade.release.early.a |
+| `retired[384].text` | These years brought {el} in a rush, with a quick tongue that got you into trouble in class. You learned to ask before you argued, because someone at home heard you out. |
+| `retired[384].replaced_by` | polish out-minors.json |
+| `retired[384].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[384].date` | 2026-11-14 |
+| `retired[385].key` | ENERGY body · chapter_domain.Career.grow |
+| `retired[385].text` | In Career, this chapter favours a seat at the table over a place in the queue, and the footing you find comes from people who work at your level. |
+| `retired[385].replaced_by` | polish out-minors.json |
+| `retired[385].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[385].date` | 2026-11-14 |
+| `retired[386].key` | ENERGY order · chapter.hour.grow.now |
+| `retired[386].text` | Your Late Chapter carries {el}, the energy of Order, and your chart has been glad to have it. Since your late forties you have held a settled place, the one whose word decides and whose standards the people after you take up. You pay for that authority in daily attention, and those who follow your lead can tell. |
+| `retired[386].replaced_by` | polish out-minors.json |
+| `retired[386].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[386].date` | 2026-11-14 |
+| `retired[387].key` | ENERGY body · chapter.day.release.now |
+| `retired[387].text` | Your Home Chapter carries {el}, your own energy, in a chart that is already crowded with it. Since your mid-thirties, the household has felt like a contest of wills, with a partner as stubborn as you. Time apart for your own interests cools it down, and you are learning that yielding at home costs you nothing. |
+| `retired[387].replaced_by` | polish out-minors.json |
+| `retired[387].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[387].date` | 2026-11-14 |
+| `retired[388].key` | ENERGY expression · chapter_domain.Love.grow |
+| `retired[388].text` | In Love, this chapter favours laughing with a partner over keeping things serious, and the affection you show openly is returned in kind. |
+| `retired[388].replaced_by` | polish out-minors.json |
+| `retired[388].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[388].date` | 2026-11-14 |
+| `retired[389].key` | ENERGY action · chapter_manual.grow |
+| `retired[389].text` | This chapter rewards reaching. You are paid back for every offer you take up and put to use straight away. |
+| `retired[389].replaced_by` | polish out-minors.json |
+| `retired[389].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[389].date` | 2026-11-14 |
+| `retired[390].key` | ENERGY action · chapter.day.grow.now |
+| `retired[390].text` | Your Home Chapter carries {el}, the energy of Action, and your chart takes it in gladly. Since your mid-thirties the household has become a place of making things work, with a partner beside you and more to manage each year. Your home grows solid around the plans you see through, one fixed thing at a time. |
+| `retired[390].replaced_by` | polish out-minors.json |
+| `retired[390].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[390].date` | 2026-11-14 |
+| `retired[391].key` | ENERGY order · chapter.day.grow.lived |
+| `retired[391].text` | Your Home Chapter carried {el}, the energy of Order, and your chart welcomed its firm hand. From your mid-thirties to your late forties the household ran on agreements you and a partner kept, and every promise added to your name at home. You left it with a home that ran well and a name for doing what you said. |
+| `retired[391].replaced_by` | polish out-minors.json |
+| `retired[391].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[391].date` | 2026-11-14 |
+| `retired[392].key` | ENERGY expression · decade.grow.early.b |
+| `retired[392].text` | These years brought {el} and a louder voice at school, in class and in the playground. Someone in your first home enjoyed your stories, and you learned that you were worth hearing. |
+| `retired[392].replaced_by` | polish out-minors.json |
+| `retired[392].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[392].date` | 2026-11-14 |
+| `retired[393].key` | ENERGY expression · chapter_domain.Family.grow |
+| `retired[393].text` | At home, this chapter favours cooking and making things together over keeping the place tidy, and the touches you add make the house feel lived in. |
+| `retired[393].replaced_by` | polish out-minors.json |
+| `retired[393].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[393].date` | 2026-11-14 |
+| `retired[394].key` | ENERGY body · decade.grow.early.b |
+| `retired[394].text` | These years brought {el} through children your age who wanted the same toys and the same turn. You learned to stand up for your share, and you never quite stopped. |
+| `retired[394].replaced_by` | polish out-minors.json |
+| `retired[394].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[394].date` | 2026-11-14 |
+| `retired[395].key` | ENERGY order · favours.decade.Love.grow |
+| `retired[395].text` | A clear commitment\|keeping it casual |
+| `retired[395].replaced_by` | polish out-minors.json |
+| `retired[395].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[395].date` | 2026-11-14 |
+| `retired[396].key` | TEMPLATED tpl_chapters · ground.drains.release |
+| `retired[396].text` | Under it runs {g}, drawing the {e} away, and the weight you carry lightens as it drains. |
+| `retired[396].replaced_by` | polish out-minors.json |
+| `retired[396].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[396].date` | 2026-11-14 |
+| `retired[397].key` | TEMPLATED tpl_chapters · ground.drains.release.lived |
+| `retired[397].text` | Under it ran {g}, which slowly drew the {e} off, and the pressure you lived with thinned year by year. |
+| `retired[397].replaced_by` | polish out-minors.json |
+| `retired[397].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[397].date` | 2026-11-14 |
+| `retired[398].key` | TEMPLATED tpl_chapters · ground.feeds.release |
+| `retired[398].text` | Under it runs {g}, which keeps feeding the {e}, and the pressure you put down is topped up again. |
+| `retired[398].replaced_by` | polish out-minors.json |
+| `retired[398].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[398].date` | 2026-11-14 |
+| `retired[399].key` | TEMPLATED tpl_chapters · ground.feeds.release.lived |
+| `retired[399].text` | Under it ran {g}, which kept feeding the {e}, but you learned to set the weight down as fast as it returned. |
+| `retired[399].replaced_by` | polish out-minors.json |
+| `retired[399].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[399].date` | 2026-11-14 |
+| `retired[400].key` | TEMPLATED tpl_chapters · ground.resists.release |
+| `retired[400].text` | Under it runs {g}, checking the {e} as it goes, and the strain you meet loses some of its grip. |
+| `retired[400].replaced_by` | polish out-minors.json |
+| `retired[400].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[400].date` | 2026-11-14 |
+| `retired[401].key` | TEMPLATED tpl_chapters · ground.presses.release.lived |
+| `retired[401].text` | Under it ran {g}, kept down by the {e} at the price of its force, and you carried less of the weight. |
+| `retired[401].replaced_by` | polish out-minors.json |
+| `retired[401].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[401].date` | 2026-11-14 |
+| `retired[402].key` | TEMPLATED tpl_chapters · ground.matches.release.lived |
+| `retired[402].text` | Under it ran {g} of the same kind, one strain from top to bottom, but you learned its shape by heart. |
+| `retired[402].replaced_by` | polish out-minors.json |
+| `retired[402].why` | re-audit MINORs adopted under PM_04 D2 (2026-11-14); finding ids in out-minors.json |
+| `retired[402].date` | 2026-11-14 |

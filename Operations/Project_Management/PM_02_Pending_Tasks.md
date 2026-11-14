@@ -125,13 +125,14 @@ The owner's framing (2026-10-17): "Who runs it layer is a major Domain reading t
 ### LC-1 · Life Chapters, energy first ✅ LIVE ON elementum.life (2026-10-21, owner: "Switch it on elementum.life")
 Session "Elementum Life Chapters reading content" (session_01LKbtNcH4nTofFBwRv1HdHf). Record: `ComparativeAnalysis/Handoffs/2026-10-19-life-chapters-content/03_RULINGS.md` (round 1 Q1–Q11 A, round 2 L1–L10 A, R1–R4 A, S1–S2 A).
 - **The reading:** every chapter, decade and year opens on the energy it carries, in Your Almanac's words and measures. It reads the energy, underneath, where it lands (the domain board and three domain lines), working with it (the current chapter), the decades, then the years (this year and the next five).
-- **Content:** 377 units, gated, in the station (`TEMPLATED/tpl_chapters.json`). `tools/build-chapters-content.mjs` builds them into `src/content/depthChaptersEnergy.js`. Handoff: `ComparativeAnalysis/Prompts/out/handoff/2026-10-21-chapters-energy/`.
-- **Code:** `src/components/reading/chaptersResolve.js` and `src/components/journey/ChaptersViews.jsx` with `chapters.css`. The switch is `CHAPTERS_ENERGY = true`, on both sites since 2026-10-21. The seat sheet's chapter line (W5) swapped with it.
+- **Content:** 484 units, gated, in the station (`TEMPLATED/tpl_chapters.json`). `tools/build-chapters-content.mjs` builds them into `src/content/depthChaptersEnergy.js`. Handoff: `ComparativeAnalysis/Prompts/out/handoff/2026-10-21-chapters-energy/`. The 20 keys for readers under 16 (Early now, Rising coming) were written on 2026-11-14: `qa-reading-coverage` reads Life Chapters at 0.00% at `--n 600 --from 2010 --to 2026` and at `--n 2000`.
+- **Code:** `src/components/reading/chaptersResolve.js` and `src/components/journey/ChaptersViews.jsx` with `chapters.css`. The switch is `CHAPTERS_ENERGY = true`, on both sites since 2026-10-21. The seat sheet's chapter line (W5) swapped with it. The old `DecadePage.jsx` route is retired (A4, 2026-11-14): the decade tile opens Life Chapters and an old `#app-decade` link lands on Your reading.
 - **Audit:** `node ComparativeAnalysis/Prompts/audit/pages.mjs --surface chapters --out <dir>`.
-- **Section audit (2026-10-21):** report https://claude.ai/artifact/FkWXmmASh6EeMP9N4YR3cc. 40 TWEAKs are done. Waiting on the owner: M1–M9 (M1 is the calculator's luck-pillar start, wrong by ten years for backward births from 6 January to 3 February) and one MINOR polish round. Mean B is 3.13, so the section is not frozen.
-- **Next:**
-  - Your Almanac's Year page reads the shared year lines (L9 A; note in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/04_FROM_LIFE_CHAPTERS.md`);
-  - retire the `DecadePage.jsx` route (A4). The round-1 path went on 2026-10-21.
+- **Section audit (2026-10-21):** report https://claude.ai/artifact/FkWXmmASh6EeMP9N4YR3cc. The owner ruled M1–M9 A and MINOR A on 2026-11-14. The polish round landed (`ea3c04c`), then a sealed re-audit (report https://claude.ai/artifact/C5mHHAkiuw8htbNWvVy3SW): every ruled check holds, mean B 3.11. Its TWEAKs are in, and 29 of its 65 MINORs were adopted under PM_04 D2 (ledger `ComparativeAnalysis/Evaluations/section-audit-2026-10-21/life-chapters/reaudit/minors/LEDGER.md`). The section is not frozen.
+- **Waiting on the owner (PM_04 §3):**
+  - LC-N1 to LC-N6, the re-audit MAJORs: reader-last year and landing lines, joints, scarcity words, one carrier family per function, page length, heavy year closes. The other 30 MINORs wait on them.
+  - LC-M1R (engine): with `EXACT_TERMS` on, births on a solar-term day still start their decades about ten years off (about 2% of charts), because the start-age count compares dates, not instants.
+- **Next:** Your Almanac's Year page reads the shared year lines (L9 A; note in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/04_FROM_LIFE_CHAPTERS.md`).
 
 ## DM — the Day Master diagnosis and the merged "Your reading" (owner 2026-10-17 →)
 
