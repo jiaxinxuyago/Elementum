@@ -299,6 +299,14 @@ Gates: eslint 0 errors, engine regression, build, journey sweep 17/17, route swe
 
 **The revelation released to production (owner 2026-11-14: "if A is implemented on Dev push it to Elementum.life").** The owner compared four stagings of the sign and the painting (https://claude.ai/artifact/9WxVVj8JyvE3jiG649mgr7) and released A, the build on dev. The revelation now rides its own switch, `RS_LIVE` in `liveFlags.js`, so the Naming's ladder lines and the nine cards are live on elementum.life while the rest of the Elementum Type (`TYPE_LIVE`: the album's type chips, the Day Master page, the type share card) stays the Day Master session's to release. On production the "Share your type" button opens the current share card, and a Balanced chart's type page leaves out the circle line, which is not ruled yet. Verified on a production build (golden and Balanced charts, no dev markers, the album lands without type chips); journey sweep 17/17.
 
+**The type's pages, design pass (owner 2026-11-14, after the Day Master session released the type, commit e48a66d).** Confirmed live on elementum.life and dev: the album's type line and four chips, the Day Master page, the type share card; no draft tags, no errors. Checked against this session's designs and brought level, layout and imagery only (no words changed):
+- **The taichi symbol** now sits before every Yin or Yang on the Day Master page (the sign paragraph and the edge line were missing it; `WithTaichi` in `Taichi.jsx`) and on the share card's inscription.
+- **"The sign" card** takes the revelation's staging: the core energy's sign at the left with "{Element} · your core energy", the D1 painting at full ink on the right dissolving toward it.
+- **"How your edge is built"** shows D3 as a full-width band under the line instead of a small corner picture on a mostly bare card.
+- **"Your type" card** gains the Fuel stems' plates beside the circle line and the stem's stage painting faint at its foot, as on the revelation's last page.
+- Already in place and confirmed: the fifty scroll strips on "Through your five energies", D2 on "Your nature".
+Gates: eslint 0, regression, build, journey sweep 17/17, route sweep clean.
+
 ## Follow-up · the store build (owner question 2026-10-22)
 
 The planned path is the Capacitor wrap (PM_02 STORE-3), under which the React code, the CSS motion and the dissolve carry over unchanged; the browser beneath becomes WebKit on iOS. Prepared now:

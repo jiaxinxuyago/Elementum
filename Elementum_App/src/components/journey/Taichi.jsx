@@ -19,3 +19,10 @@ export function Taichi({ stem, size = 16, className = '' }) {
     </svg>
   );
 }
+
+// Running text that says Yin or Yang: the symbol sits before the word (owner 2026-11-13).
+export function WithTaichi({ text, stem, size = 14 }) {
+  const parts = String(text || '').split(/\b(Yin|Yang|YIN|YANG)\b/);
+  if (parts.length < 2) return text || null;
+  return <>{parts.map((x, i) => (i % 2 ? <span key={i} className="tai-word"><Taichi stem={stem} size={size} />{x}</span> : x))}</>;
+}

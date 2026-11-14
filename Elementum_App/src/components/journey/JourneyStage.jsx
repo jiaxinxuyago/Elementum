@@ -1704,7 +1704,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
               <img className="sn-bg" src="/backgrounds/bg-reveal-04-mist-veil.png" alt="" />
               {/* With the type chips (TYPE_V1) the inscription is the stem line alone,
                   so it ends above the chips row and the chips take the full width. */}
-              <span className="sn-inscr">{TYPE_V1 && merged?.type ? m.stemLit : `${m.stemLit} · ${m.cast.replace(/^CAST FROM /, '')}`}</span>
+              <span className="sn-inscr">{TYPE_V1 && merged?.type ? <><Taichi stem={m.stem} size={11} className="sn-tai" />{m.stemLit}</> : `${m.stemLit} · ${m.cast.replace(/^CAST FROM /, '')}`}</span>
               <div className="scin">
                 <div className="sn-top">
                   <div className="scey">ELEMENTUM</div>

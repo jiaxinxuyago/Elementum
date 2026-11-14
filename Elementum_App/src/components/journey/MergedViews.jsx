@@ -22,7 +22,7 @@ import { dmArt, dmStage, stripArt, useArtSrc, ArtTodo } from './inkArt.jsx';
 // the five washes (Ink_Painting_System.md): the dominance bar's segments
 const WASH = { metal: '#8ba3b8', wood: '#7a9e6e', fire: '#c4745a', earth: '#b89a6a', water: '#5a7fa8' };
 import { useState } from 'react';
-import { Taichi } from './Taichi.jsx';
+import { Taichi, WithTaichi } from './Taichi.jsx';
 import './merged.css';
 
 // The dial: Underfueled · Balanced · Overfueled, the needle at the score.
@@ -118,15 +118,18 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         <img className="dmp-plate" src={plateOf(m.stem)} alt={`${m.stem}, ${m.archetype}`} />
         <span className="dmp-ya">Your Day Master</span>
         <h2 className="dmp-name">{m.archetype}</h2>
-        <span className="dmp-lit dmp-elline"><Taichi stem={m.stem} size={15} className="dmp-tai" />{sl.element_line || m.stemLit}</span>
+        <span className="dmp-lit dmp-elline"><Taichi stem={m.stem} size={18} className="dmp-tai" />{sl.element_line || m.stemLit}</span>
         {sl.recognition ? <p className="dmp-recog">{sl.recognition}</p> : null}
         {m.manifesto ? <p className="dmp-mani">{m.manifesto}</p> : null}
         <p className="dmp-foot">{LADDER.naming_footnote}</p>
       </div>
       {dm.overview ? (
-        <div className="cardstock dmp-sec dmp-inked"><InkArt src={dmArt(m.stem, 1)} kind="sign" /><span className="mg-lab">The sign</span>
+        <div className="cardstock dmp-sec dmp-inked dmp-signcard"><InkArt src={dmArt(m.stem, 1)} kind="sign" />
+          {/* the core energy's sign stands beside the painting, as on the revelation's who page (owner 2026-11-14) */}
+          <span className="dmp-coresign"><InkDot el={m.core.el} size={104} Use={Use} label={`${coreEl}, your core energy`} /><span className="mg-sk">{coreEl} · your core energy</span></span>
+          <span className="mg-lab">The sign</span>
           <p className="dmp-ins">{LADDER.element_heading[coreEl]}</p>
-          <p className="dmp-body">{dm.overview}</p></div>
+          <p className="dmp-body"><WithTaichi text={dm.overview} stem={m.stem} /></p></div>
       ) : null}
       {dm.nature || dm.inscription ? (
         <div className="cardstock dmp-sec">
@@ -170,17 +173,18 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         <div className="dmp-doors"><button type="button" className="mg-link" onClick={onRun}><Use id="ico-arrow-r" />How am I running?</button></div>
       </div>
       {dm.edge ? (
-        <div className="cardstock dmp-sec dmp-inked"><span className="mg-lab">How your edge is built</span><p className="dmp-body">{dm.edge}</p><InkArt src={dmArt(m.stem, 3)} kind="edge" /></div>
+        <div className="cardstock dmp-sec dmp-inked"><span className="mg-lab">How your edge is built</span><p className="dmp-body"><WithTaichi text={dm.edge} stem={m.stem} /></p><InkArt src={dmArt(m.stem, 3)} kind="edge" /></div>
       ) : null}
       {t ? (
-        <div className="cardstock dmp-sec">
+        <div className="cardstock dmp-sec dmp-typecard">
+          <img className="dmp-tstage" src={dmStage(m.stem)} alt="" aria-hidden="true" />
           <span className="mg-lab">Your type · {t.name}</span>
           <p className="dmp-ins">{LADDER.mode_plain[t.mode.fn]}</p>
           {need ? (
             <>
               <p className="dmp-body">{LADDER.need_pattern.replace('{Mode}', t.mode.fn).replace('{El}', need.name).replace('{phrase}', ldNeed(m.stem, need.fn))}</p>
               <p className="dmp-body dmp-try"><span className="role-pill cat"><Use id="ar-up" />Start here</span>{ldCap(LADDER.try[need.fn]?.grow)}</p>
-              <p className="dmp-body">{t.circle.head}. {LADDER.circle_close}</p>
+              <p className="dmp-body dmp-circ"><span className="dmp-cp">{t.circle.fuel.map((x) => <img key={x.stem} src={plateOf(x.stem)} alt={x.archetype} />)}</span><span>{t.circle.head}. {LADDER.circle_close}</span></p>
             </>
           ) : <TypeLine g={g} className="dmp-tline" />}
           <div className="dmp-doors">
