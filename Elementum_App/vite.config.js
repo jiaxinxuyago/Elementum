@@ -106,6 +106,9 @@ export default defineConfig({
         // Precache the app shell only (code + vector assets). The painted
         // art library is far too large to precache — it runtime-caches below.
         globPatterns: ['**/*.{js,css,html,svg}'],
+        // The main chunk passed workbox's 2 MiB default (2.10 MB, 2026-11-14,
+        // with the Domains content); 3 MiB keeps it precached for offline use.
+        maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
         navigateFallback: undefined, // single index.html, no client-side routes
         runtimeCaching: [
           {
