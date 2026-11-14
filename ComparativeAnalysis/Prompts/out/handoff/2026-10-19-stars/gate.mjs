@@ -32,6 +32,10 @@ const GOD_ID = { bijian: '比肩', jiecai: '劫财', shishen: '食神', shanggua
 const INVARIANT = /^(chapter_|decade_|year_line|star_|seen|missing|season)/; // shared by every chart that holds the unit
 const INSIDE_OPEN = /^(Inside it|Beneath it|Under it|Behind it|Out of sight|In private)\b/;
 const fails = []; const units = C.units || [];
+// 2026-11-14: PL2 A (pillar 3, no fate or forecast words), R14 A (no "at least once"), R15 A (a star never uses a character's reserved words)
+const PL2 = /\b(fate|fated|destiny|destined|lucky|luck|fortune\w*|verdict|expect\w*)\b/i; const R14 = /\b(at least once|more than once|at least one)\b/i;
+let VERBS = {}; try { VERBS = JSON.parse(fs.readFileSync(ROOT + 'ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/verbs.json', 'utf8')); } catch { /* optional */ }
+const RESERVED = Object.entries(VERBS).filter(([c]) => c[0] !== '_').flatMap(([c, v]) => v.reserved.map((w) => [c, new RegExp(`\\b${w}`, 'i')]));
 function check(u) {
   const { key, kind, text: t } = u; const F = (m) => fails.push(`${key} [${kind}]: ${m}`);
   if (!BUDGET[kind]) return F('unknown kind');
@@ -42,6 +46,8 @@ function check(u) {
   if (s.join(' ').length + 1 < t.trim().length - 1) F('text outside a sentence (missing final stop?)');
   for (const re of BAN) { const m = t.match(re); if (m) F(`banned "${m[0]}"`); }
   if (/:/.test(t)) F('colon');
+  { let m; if ((m = t.match(PL2))) F(`PL2 "${m[0]}"`); if ((m = t.match(R14))) F(`R14 "${m[0]}"`); }
+  if (/^STAR /.test(key)) for (const [c, re] of RESERVED) if (re.test(t)) F(`R15 uses the ${c}'s reserved word`);
   s.forEach((x, i) => { const c = (x.match(/,/g) || []).length; if (c > 2) F(`sentence ${i + 1} has ${c} commas`); if (IMP.test(x)) F(`sentence ${i + 1} reads as advice`); });
   const last = s[s.length - 1] || '';
   const readerLast = /^(\S+ ){0,3}you\b/i.test(last) || /^[^,]{0,45},\s+you\b/.test(last) || /^(Your|What you)\b/.test(last) || /,\s+(and|but)\s+(\S+ ){0,2}you\b/i.test(last);
