@@ -12,7 +12,7 @@
   "candidates": {
     "structural_interaction": "Water directing Fire broadly — depth ranging across warmth as distributed material",
     "dm_element": "Water",
-    "k2_overview": "Your Fire moves as the Horizon: light that spends itself gladly. Opportunity finds you at gatherings, luck likes your laugh, and money arrives in blazes and leaves by the same door. You are fortune’s favorite dinner guest. Learn to pocket the bread, and the feast never really ends.",
+    "k2_overview": "Your Fire moves as the Horizon: light that spends itself gladly. Opportunity finds you at gatherings, doors open for your laugh, and money arrives in blazes and leaves by the same door. You are the guest every host wants at the table. Learn to pocket the bread, and the feast never really ends.",
     "k2_functional": "You seize chances at speed, brilliant in windows, bored in pipelines.",
     "adj_chips": {
       "catalyst": [
@@ -28,7 +28,7 @@
     },
     "k2_domain_readings": {
       "Opportunity": "Chances come to you socially: the tip at the table, the partner met at the party. Keep circulating, it is genuinely your economy. Just write things down before the candles burn out.",
-      "Ventures": "Your ventures shine at launch: openings, campaigns, anything with a lit fuse and a crowd. Pair every firework with a caretaker who loves the quiet part. That partnership is your fortune.",
+      "Ventures": "Your ventures shine at launch: openings, campaigns, anything with a lit fuse and a crowd. Pair every firework with a caretaker who loves the quiet part. That partnership is where the gain stays.",
       "Father": "The father-thread flickers warm and irregular: a paternal figure of charisma, generosity, or absence in flares. You inherited the shine and the volatility. Spend the first, insure against the second."
     },
     "k2_card": {
@@ -571,6 +571,26 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
       "finding": "R5 fire:F5-04",
       "replaced": "As a catalyst, the warmth runs short and travels in sparks rather than a steady glow. What reaches people comes in bright, scattered bursts."
+    },
+    {
+      "field": "candidates.k2_overview",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: FW1 A (fate words rewritten as how to use what the reader has; BIZ_07 pillar 3, PL2 A)",
+      "replaced": "Opportunity finds you at gatherings, luck likes your laugh, and money arrives in blazes and leaves by the same door. You are fortune’s favorite dinner guest.",
+      "with": "Opportunity finds you at gatherings, doors open for your laugh, and money arrives in blazes and leaves by the same door. You are the guest every host wants at the table."
+    },
+    {
+      "field": "candidates.k2_domain_readings.Ventures",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: FW1 A (fate words rewritten as how to use what the reader has; BIZ_07 pillar 3, PL2 A)",
+      "replaced": "That partnership is your fortune.",
+      "with": "That partnership is where the gain stays."
     }
-  ]
+  ],
+  "__ore": {
+    "retired_2026-11-14_fw1": {
+      "candidates.k2_overview": "Your Fire moves as the Horizon: light that spends itself gladly. Opportunity finds you at gatherings, luck likes your laugh, and money arrives in blazes and leaves by the same door. You are fortune’s favorite dinner guest. Learn to pocket the bread, and the feast never really ends.",
+      "candidates.k2_domain_readings.Ventures": "Your ventures shine at launch: openings, campaigns, anything with a lit fuse and a crowd. Pair every firework with a caretaker who loves the quiet part. That partnership is your fortune."
+    }
+  }
 }

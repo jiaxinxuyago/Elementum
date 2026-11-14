@@ -12,7 +12,7 @@
   "candidates": {
     "structural_interaction": "Fire directing Metal broadly — warmth applied to precision as distributed material",
     "dm_element": "Fire",
-    "k2_overview": "Your Metal moves as the Horizon: an edge pointed outward. You mint opportunity, spotting value with an assayer’s eye and striking while metal is hot. Deals sharpen you, markets read like open books, and money is a tool you handle without trembling. Fortune favors your precision. Fence one treasury it cannot touch.",
+    "k2_overview": "Your Metal moves as the Horizon: an edge pointed outward. You mint opportunity, spotting value with an assayer’s eye and striking while metal is hot. Deals sharpen you, markets read like open books, and money is a tool you handle without trembling. Your precision is what pays. Fence one treasury it cannot touch.",
     "k2_functional": "You strike opportunities with timing others envy: measured approach, decisive cut.",
     "adj_chips": {
       "catalyst": [
@@ -681,6 +681,18 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
       "finding": "R5 metal:MR5-05",
       "replaced": "Spread thin, you never learn what full effort can do. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. You pay in rest never taken and in the one venture that would have paid."
+    },
+    {
+      "field": "candidates.k2_overview",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: FW1 A (fate words rewritten as how to use what the reader has; BIZ_07 pillar 3, PL2 A)",
+      "replaced": "Fortune favors your precision.",
+      "with": "Your precision is what pays."
     }
-  ]
+  ],
+  "__ore": {
+    "retired_2026-11-14_fw1": {
+      "candidates.k2_overview": "Your Metal moves as the Horizon: an edge pointed outward. You mint opportunity, spotting value with an assayer’s eye and striking while metal is hot. Deals sharpen you, markets read like open books, and money is a tool you handle without trembling. Fortune favors your precision. Fence one treasury it cannot touch."
+    }
+  }
 }

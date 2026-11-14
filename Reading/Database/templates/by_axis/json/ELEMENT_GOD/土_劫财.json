@@ -28,7 +28,7 @@
     },
     "k2_domain_readings": {
       "Rivalry": "Your rivalries are territorial and patient: the competing shop, the sibling’s acreage, the slow contest of estates. Compete by building better rather than holding harder. Ground won by improvement stays won.",
-      "Shared stakes": "Everything significant you own will at some point be co-owned: family land, joint ventures, marriages of assets. Survey early, deed clearly, and revisit the map annually. Your fortune lives in shared soil.",
+      "Shared stakes": "Everything significant you own will at some point be co-owned: family land, joint ventures, marriages of assets. Survey early, deed clearly, and revisit the map annually. Your wealth grows in shared soil.",
       "Boldness": "Your daring moves mountains occasionally: the land bought unseen, the advantage taken calmly. Because your bets are heavy, space them. Earth recovers slowly from the ones that slide."
     },
     "k2_card": {
@@ -635,6 +635,18 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
       "finding": "R4 earth:E4-04",
       "replaced": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even with money you pooled with friends. Along with the money, you spend a plan you made together."
+    },
+    {
+      "field": "candidates.k2_domain_readings.Shared stakes",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: FW1 A (fate words rewritten as how to use what the reader has; BIZ_07 pillar 3, PL2 A)",
+      "replaced": "Your fortune lives in shared soil.",
+      "with": "Your wealth grows in shared soil."
     }
-  ]
+  ],
+  "__ore": {
+    "retired_2026-11-14_fw1": {
+      "candidates.k2_domain_readings.Shared stakes": "Everything significant you own will at some point be co-owned: family land, joint ventures, marriages of assets. Survey early, deed clearly, and revisit the map annually. Your fortune lives in shared soil."
+    }
+  }
 }

@@ -1074,7 +1074,7 @@
 | `catalyst.ledger[1].angles.cost_self` | Your strongest moment is the start, and the start is also your exit. Moving early feels like freedom, and it puts leaving ahead of collecting. The money from your best ideas often lands in someone else's pocket. |
 | `catalyst.ledger[1].angles.cost_others` | Moving early also means moving away from people. You move on at the slow part instead of at the end, and you leave the others the whole finish. Whoever starts with you gets you at your brightest. |
 | `catalyst.ledger[2].word` | Shares freely |
-| `catalyst.ledger[2].angles.drive` | You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Around you, a bit of good fortune turns into a party for everyone. |
+| `catalyst.ledger[2].angles.drive` | You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Around you, a good week turns into a party for everyone. |
 | `catalyst.ledger[2].angles.cost_self` | Sharing freely is how you stay light. You share the whole windfall instead of keeping any, because holding money feels like holding your breath. A good year leaves you with full memories and an empty account. |
 | `catalyst.ledger[2].angles.cost_others` | Whenever luck turns up, you share it outward first. You share it all at once rather than spread it out, and every feast you throw comes before a long gap. Life around you swings between plenty and making do. |
 | `friction.define` | As a friction, your Action moves on quicker than it settles. Each opening pulls you on before the last one pays. |

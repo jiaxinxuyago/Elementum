@@ -12,7 +12,7 @@
   "candidates": {
     "structural_interaction": "Wood directing Earth broadly — reach ranging across stable material",
     "dm_element": "Wood",
-    "k2_overview": "Your Earth moves as the Horizon: ground that acquires. You accumulate opportunity the way land accumulates value, steadily, tangibly, with paperwork. Your ventures have foundations, your windfalls become holdings, and your generosity comes deeded. Fortune trusts you because you give it somewhere to live.",
+    "k2_overview": "Your Earth moves as the Horizon: ground that acquires. You accumulate opportunity the way land accumulates value, steadily, tangibly, with paperwork. Your ventures have foundations, your windfalls become holdings, and your generosity comes deeded. Money stays with you because you give it somewhere to live.",
     "k2_functional": "You acquire deliberately: surveyed chances, patient closings, ownership that sticks.",
     "adj_chips": {
       "catalyst": [
@@ -675,6 +675,18 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
       "finding": "R4 cross:X4-03",
       "replaced": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes before keeping. Your own cushion never gets the chance to grow."
+    },
+    {
+      "field": "candidates.k2_overview",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: FW1 A (fate words rewritten as how to use what the reader has; BIZ_07 pillar 3, PL2 A)",
+      "replaced": "Fortune trusts you because you give it somewhere to live.",
+      "with": "Money stays with you because you give it somewhere to live."
     }
-  ]
+  ],
+  "__ore": {
+    "retired_2026-11-14_fw1": {
+      "candidates.k2_overview": "Your Earth moves as the Horizon: ground that acquires. You accumulate opportunity the way land accumulates value, steadily, tangibly, with paperwork. Your ventures have foundations, your windfalls become holdings, and your generosity comes deeded. Fortune trusts you because you give it somewhere to live."
+    }
+  }
 }

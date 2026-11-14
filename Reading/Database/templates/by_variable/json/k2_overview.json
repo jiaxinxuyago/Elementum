@@ -31,7 +31,7 @@
         "id": "金_偏财",
         "key": "金_偏财",
         "canonical_name": "The Horizon",
-        "value": "Your Metal moves as the Horizon: an edge pointed outward. You mint opportunity, spotting value with an assayer’s eye and striking while metal is hot. Deals sharpen you, markets read like open books, and money is a tool you handle without trembling. Fortune favors your precision. Fence one treasury it cannot touch."
+        "value": "Your Metal moves as the Horizon: an edge pointed outward. You mint opportunity, spotting value with an assayer’s eye and striking while metal is hot. Deals sharpen you, markets read like open books, and money is a tool you handle without trembling. Your precision is what pays. Fence one treasury it cannot touch."
       },
       {
         "id": "金_正财",
@@ -91,7 +91,7 @@
         "id": "土_偏财",
         "key": "土_偏财",
         "canonical_name": "The Horizon",
-        "value": "Your Earth moves as the Horizon: ground that acquires. You accumulate opportunity the way land accumulates value, steadily, tangibly, with paperwork. Your ventures have foundations, your windfalls become holdings, and your generosity comes deeded. Fortune trusts you because you give it somewhere to live."
+        "value": "Your Earth moves as the Horizon: ground that acquires. You accumulate opportunity the way land accumulates value, steadily, tangibly, with paperwork. Your ventures have foundations, your windfalls become holdings, and your generosity comes deeded. Money stays with you because you give it somewhere to live."
       },
       {
         "id": "土_正财",
@@ -151,13 +151,13 @@
         "id": "木_偏财",
         "key": "木_偏财",
         "canonical_name": "The Horizon",
-        "value": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep."
+        "value": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. What you gain comes through the reaching. Roots decide how much of it you keep."
       },
       {
         "id": "木_正财",
         "key": "木_正财",
         "canonical_name": "The Steward",
-        "value": "Your Wood moves as the Steward: growth banked in rings. You build worth the way orchards do, planted early, tended patiently, harvested honestly, replanted always. Assets in your care grow. So do people. Your fortune is cumulative and alive, and it rewards the seasons you refuse to rush."
+        "value": "Your Wood moves as the Steward: growth banked in rings. You build worth the way orchards do, planted early, tended patiently, harvested honestly, replanted always. Assets in your care grow. So do people. What you build is cumulative and alive, and it pays you for the seasons you refuse to rush."
       },
       {
         "id": "木_七杀",
@@ -211,7 +211,7 @@
         "id": "水_偏财",
         "key": "水_偏财",
         "canonical_name": "The Horizon",
-        "value": "Your Water moves as the Horizon: current that finds every sea. Opportunity reaches you through flow, conversations, crossings, currents of information arriving before the news does. Your fortune is distributive: many streams, wide deltas, wealth that moves. Dam a portion. Deltas are rich and hard to hold."
+        "value": "Your Water moves as the Horizon: current that finds every sea. Opportunity reaches you through flow, conversations, crossings, currents of information arriving before the news does. Your wealth is distributive: many streams, wide deltas, money that moves. Dam a portion. Deltas are rich and hard to hold."
       },
       {
         "id": "水_正财",
@@ -271,7 +271,7 @@
         "id": "火_偏财",
         "key": "火_偏财",
         "canonical_name": "The Horizon",
-        "value": "Your Fire moves as the Horizon: light that spends itself gladly. Opportunity finds you at gatherings, luck likes your laugh, and money arrives in blazes and leaves by the same door. You are fortune’s favorite dinner guest. Learn to pocket the bread, and the feast never really ends."
+        "value": "Your Fire moves as the Horizon: light that spends itself gladly. Opportunity finds you at gatherings, doors open for your laugh, and money arrives in blazes and leaves by the same door. You are the guest every host wants at the table. Learn to pocket the bread, and the feast never really ends."
       },
       {
         "id": "火_正财",

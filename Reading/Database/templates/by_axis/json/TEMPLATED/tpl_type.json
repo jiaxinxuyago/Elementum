@@ -32,7 +32,7 @@
     },
     "circle": {
       "head": "{Fuel} carry the {El} you need",
-      "balanced": "{Bond} is your classical match",
+      "balanced": "Your chart is even. {Bond} is your closest match",
       "cta": "Who completes your chart?"
     },
     "five": {
@@ -45,7 +45,20 @@
     "pattern": "RULED 2026-10-27 · \"heaviest in\" (the mode is the largest share, not always a majority)",
     "mode": "RULED 2026-10-27 · the locked wheel words as noun phrases (tpl_cycle_line.relation_labels)",
     "needs": "RULED 2026-10-27 · all seven clauses, by the needed energy's volume",
-    "circle": "head and cta RULED 2026-10-27 (K4 A, the album's Your circle tile; cta reuses the Your Circle hero line) · balanced DRAFT 2026-10-27, to rule",
+    "circle": "RULED 2026-10-27 (K4 A) · balanced RULED 2026-11-14 (BC1 A)",
     "five": "RULED 2026-10-27 (owner F1 A) · the Day Master page's lead over the five energies"
-  }
+  },
+  "__ore": {
+    "retired_2026-11-14_bc1": {
+      "circle.balanced": "{Bond} is your classical match"
+    }
+  },
+  "$provenance": [
+    {
+      "field": "circle.balanced",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: BC1 A",
+      "replaced": "{Bond} is your classical match"
+    }
+  ]
 }

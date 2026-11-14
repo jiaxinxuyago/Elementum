@@ -131,3 +131,15 @@
 | `need_phrase.Body` | your own footing: time and space that are yours |
 | `circle_close` | Who in your life is one? |
 | `need_pattern` | Your chart leans on {Mode}. The {El} you need is {phrase}. |
+| `bridge.low_release` | There is little here, and your chart runs easier with it small. Leave it that way. |
+| `bridge.high_grow` | You hold plenty, and your chart does well on it. Put it to use. |
+| `try_bridged.Body.low_release` | let one contest go this week without stepping in. |
+| `try_bridged.Body.high_grow` | back your own call on one decision this week without asking around. |
+| `try_bridged.Mind.low_release` | decide one small thing today on what you already know. |
+| `try_bridged.Mind.high_grow` | turn one thing you have studied into a plan this week. |
+| `try_bridged.Expression.low_release` | keep one opinion to yourself this week and watch what happens. |
+| `try_bridged.Expression.high_grow` | put one finished piece in front of people this week. |
+| `try_bridged.Action.low_release` | leave one new opportunity alone this month. |
+| `try_bridged.Action.high_grow` | give your biggest goal your best hours this week. |
+| `try_bridged.Order.low_release` | turn down one new obligation this week. |
+| `try_bridged.Order.high_grow` | say yes to one responsibility that stretches you. |

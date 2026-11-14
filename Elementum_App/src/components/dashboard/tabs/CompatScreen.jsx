@@ -53,7 +53,7 @@ export default function CompatScreen({ onStartCompare, onCompareAgain }) {
         {/* Body */}
         <div style={{ padding: '14px 0 0' }}>
           <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, lineHeight: 1.58, color: 'rgb(74,67,59)', margin: 0 }}>
-            In the old rite of hé hūn, two birth charts are laid side by side — to see where their energies nourish, where they clash, and whether the bond is written in the pillars.
+            In the old rite of hé hūn, two birth charts are laid side by side to see where their energies nourish, where they clash, and what the bond asks of each of you.
           </p>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, margin: '16px 0 13px' }}>
@@ -65,7 +65,7 @@ export default function CompatScreen({ onStartCompare, onCompareAgain }) {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
             <RiteRow glyph="我" title="Your eight characters" sub="The chart you already carry, ready to be matched." />
             <RiteRow glyph="彼" title="Their birth, offered" sub="Name the date, hour, and place of the one you wonder about." />
-            <RiteRow glyph="缘" title="The reading of two" sub="Receive how your elements answer each other — and the verdict." />
+            <RiteRow glyph="缘" title="The reading of two" sub="See how your elements answer each other, and how to use it." />
           </div>
 
           <button type="button" onClick={() => startFresh(onStartCompare)} style={{

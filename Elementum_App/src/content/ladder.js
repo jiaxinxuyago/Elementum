@@ -195,6 +195,32 @@ export const LADDER = {
     "Action": "a real goal: something to go after and finish",
     "Body": "your own footing: time and space that are yours"
   },
+  "bridge": {
+    "low_release": "There is little here, and your chart runs easier with it small. Leave it that way.",
+    "high_grow": "You hold plenty, and your chart does well on it. Put it to use."
+  },
+  "try_bridged": {
+    "Body": {
+      "low_release": "let one contest go this week without stepping in.",
+      "high_grow": "back your own call on one decision this week without asking around."
+    },
+    "Mind": {
+      "low_release": "decide one small thing today on what you already know.",
+      "high_grow": "turn one thing you have studied into a plan this week."
+    },
+    "Expression": {
+      "low_release": "keep one opinion to yourself this week and watch what happens.",
+      "high_grow": "put one finished piece in front of people this week."
+    },
+    "Action": {
+      "low_release": "leave one new opportunity alone this month.",
+      "high_grow": "give your biggest goal your best hours this week."
+    },
+    "Order": {
+      "low_release": "turn down one new obligation this week.",
+      "high_grow": "say yes to one responsibility that stretches you."
+    }
+  },
   "circle_close": "Who in your life is one?",
   "need_pattern": "Your chart leans on {Mode}. The {El} you need is {phrase}."
 };
@@ -290,3 +316,13 @@ export const STEM_LADDER = {
 // amount band (engine volumeOf) → the notice row; pole → the try row
 export const LADDER_NOTICE_BAND = { absent: 'low', thin: 'low', present: 'mid', abundant: 'high', dominant: 'high' };
 export const LADDER_TRY_POLE = { catalyst: 'grow', friction: 'release', balanced: 'keep' };
+
+// BR1 A (owner 2026-11-14): when the amount and the step pull apart (a low amount to release, a high
+// amount to grow), a bridging line comes first and the step is the one written for that case.
+const LADDER_LOW = new Set(['absent', 'thin']); const LADDER_HIGH = new Set(['abundant', 'dominant']);
+export function ladderTry(fn, pole, volume) {
+  const k = pole === 'friction' && LADDER_LOW.has(volume) ? 'low_release' : pole === 'catalyst' && LADDER_HIGH.has(volume) ? 'high_grow' : null;
+  const cap = (x) => (x ? x.charAt(0).toUpperCase() + x.slice(1) : x);
+  const step = (k && LADDER.try_bridged[fn]?.[k]) || LADDER.try[fn]?.[LADDER_TRY_POLE[pole]];
+  return k && LADDER.try_bridged[fn]?.[k] ? `${LADDER.bridge[k]} ${cap(step)}` : cap(step);
+}

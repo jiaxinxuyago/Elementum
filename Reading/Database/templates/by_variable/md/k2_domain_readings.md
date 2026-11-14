@@ -99,7 +99,7 @@
 | Field | Value |
 |---|---|
 | `Rivalry` | Your rivalries are territorial and patient: the competing shop, the sibling’s acreage, the slow contest of estates. Compete by building better rather than holding harder. Ground won by improvement stays won. |
-| `Shared stakes` | Everything significant you own will at some point be co-owned: family land, joint ventures, marriages of assets. Survey early, deed clearly, and revisit the map annually. Your fortune lives in shared soil. |
+| `Shared stakes` | Everything significant you own will at some point be co-owned: family land, joint ventures, marriages of assets. Survey early, deed clearly, and revisit the map annually. Your wealth grows in shared soil. |
 | `Boldness` | Your daring moves mountains occasionally: the land bought unseen, the advantage taken calmly. Because your bets are heavy, space them. Earth recovers slowly from the ones that slide. |
 
 ### The Artisan · 土_食神
@@ -290,7 +290,7 @@
 
 | Field | Value |
 |---|---|
-| `Wealth` | Your wealth is flow-managed: salaries channeled, streams diversified, leaks found early. You prosper by routing, not risking. Map the canals once a year and fortune stays irrigated. |
+| `Wealth` | Your wealth is flow-managed: salaries channeled, streams diversified, leaks found early. You prosper by routing, not risking. Map the canals once a year and the money keeps reaching where you sent it. |
 | `Savings` | You save in reservoirs: automatic diversions filling quiet pools. Name each pool’s purpose, storm, harvest, joy, and the discipline becomes drinkable. |
 | `Steady love` | You love in reliable supply: presence delivered daily, needs anticipated, storms weathered by good infrastructure. Choose someone who notices plumbing. Then surprise the schedule occasionally. Even canals enjoy weather. |
 
@@ -355,7 +355,7 @@
 | Field | Value |
 |---|---|
 | `Talent` | Your talent is incandescent and public: performing, persuading, lighting ideas so others finally see them. It needs an audience the way flame needs air. Book the stage instead of apologizing for wanting one. |
-| `Performance` | Performance is your natural habitat: the pitch, the stage, the moment all eyes turn. Rehearse enough to deserve the attention you attract. Brilliance plus preparation reads as destiny. |
+| `Performance` | Performance is your natural habitat: the pitch, the stage, the moment all eyes turn. Rehearse enough to deserve the attention you attract. Brilliance plus preparation looks effortless from the seats. |
 | `Defiance` | Your defiance burns visibly: the public no, the bridge lit for warmth. Some bridges deserve it. Count to ten anyway, and keep a fireproof list of the ones that lead home. |
 
 ### The Horizon · 火_偏财
@@ -363,7 +363,7 @@
 | Field | Value |
 |---|---|
 | `Opportunity` | Chances come to you socially: the tip at the table, the partner met at the party. Keep circulating, it is genuinely your economy. Just write things down before the candles burn out. |
-| `Ventures` | Your ventures shine at launch: openings, campaigns, anything with a lit fuse and a crowd. Pair every firework with a caretaker who loves the quiet part. That partnership is your fortune. |
+| `Ventures` | Your ventures shine at launch: openings, campaigns, anything with a lit fuse and a crowd. Pair every firework with a caretaker who loves the quiet part. That partnership is where the gain stays. |
 | `Father` | The father-thread flickers warm and irregular: a paternal figure of charisma, generosity, or absence in flares. You inherited the shine and the volatility. Spend the first, insure against the second. |
 
 ### The Steward · 火_正财

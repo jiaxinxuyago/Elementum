@@ -12,7 +12,7 @@
   "candidates": {
     "structural_interaction": "Metal directing Wood broadly — precision ranging across living material",
     "dm_element": "Metal",
-    "k2_overview": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep.",
+    "k2_overview": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. What you gain comes through the reaching. Roots decide how much of it you keep.",
     "k2_functional": "You grow toward opportunity steadily, extending reach every season without retreating.",
     "adj_chips": {
       "catalyst": [
@@ -987,6 +987,18 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
       "finding": "R5 wood:W5-T2",
       "replaced": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without being asked, and the trip your friends still weigh while you are already packed."
+    },
+    {
+      "field": "candidates.k2_overview",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: FW1 A (fate words rewritten as how to use what the reader has; BIZ_07 pillar 3, PL2 A)",
+      "replaced": "Fortune arrives through the reaching.",
+      "with": "What you gain comes through the reaching."
     }
-  ]
+  ],
+  "__ore": {
+    "retired_2026-11-14_fw1": {
+      "candidates.k2_overview": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep."
+    }
+  }
 }

@@ -27,7 +27,7 @@
       ]
     },
     "k2_domain_readings": {
-      "Wealth": "Your wealth is flow-managed: salaries channeled, streams diversified, leaks found early. You prosper by routing, not risking. Map the canals once a year and fortune stays irrigated.",
+      "Wealth": "Your wealth is flow-managed: salaries channeled, streams diversified, leaks found early. You prosper by routing, not risking. Map the canals once a year and the money keeps reaching where you sent it.",
       "Savings": "You save in reservoirs: automatic diversions filling quiet pools. Name each pool’s purpose, storm, harvest, joy, and the discipline becomes drinkable.",
       "Steady love": "You love in reliable supply: presence delivered daily, needs anticipated, storms weathered by good infrastructure. Choose someone who notices plumbing. Then surprise the schedule occasionally. Even canals enjoy weather."
     },
@@ -579,6 +579,18 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
       "finding": "R5 water:WA5-11",
       "replaced": "With the people you love, you count every cost even on the time you share. You would rather count what an evening together costs than simply enjoy it. In the end, you hand them your company with the count in plain view."
+    },
+    {
+      "field": "candidates.k2_domain_readings.Wealth",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: FW1 A (fate words rewritten as how to use what the reader has; BIZ_07 pillar 3, PL2 A)",
+      "replaced": "Map the canals once a year and fortune stays irrigated.",
+      "with": "Map the canals once a year and the money keeps reaching where you sent it."
     }
-  ]
+  ],
+  "__ore": {
+    "retired_2026-11-14_fw1": {
+      "candidates.k2_domain_readings.Wealth": "Your wealth is flow-managed: salaries channeled, streams diversified, leaks found early. You prosper by routing, not risking. Map the canals once a year and fortune stays irrigated."
+    }
+  }
 }

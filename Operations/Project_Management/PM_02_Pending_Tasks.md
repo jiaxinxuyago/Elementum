@@ -151,7 +151,8 @@ The Day Master routes land on Your reading. Record: `ComparativeAnalysis/Handoff
 **2026-11-14 · the Elementum Type is live** (owner R1 A, R2 A, R3 A; `TYPE_LIVE = true`): the album's type line and chips, the Day Master page on the explanation ladder (`src/content/ladder.js`), the type share card. The revelation on the ladder went live the same day on `RS_LIVE` (design session).
 
 Open:
-- waiting on the owner (PM_04 §3: DM-BR1, DM-BC1, DM-FW1, DM-FW2, DM-EF1; page https://claude.ai/artifact/RqVULX1gFNpHcNykBPHQ2Z);
+- fate words, batch 2 (FW2 A): the "verdict" lines in the archetype texts, drafted for the owner before they ship; the 7 "luck" lines in `positions.js` are the Domains session's;
+- the content round's compile (C1 A): `ComparativeAnalysis/Handoffs/2026-11-14-content-compile/TRACKER.md`;
 - the energy pages on the ladder's five rungs (proposed, not started);
 - the 14 merged-journey drafts (only the golden chart is written; the other charts fall back);
 - the remaining 29 band paragraphs;

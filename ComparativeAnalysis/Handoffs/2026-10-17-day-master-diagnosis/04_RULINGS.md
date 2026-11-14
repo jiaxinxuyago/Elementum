@@ -302,7 +302,7 @@ The 庚 template is 10 cells: 5 functions × Grow/Release. Each cell has 2–3 a
   - Chips are green on Grow and red on Release, in the energy pages' colours.
   - Owner: the ink dots carry their element signs, as in the app's InkDot.
 
-  The template page was updated to this layout (https://claude.ai/artifact/BXa7pkD55Z44f3bJZ6h9v1). Still open: S1–S3 (the field shape, Balanced charts, the pools) and T Body…T Order (the ten 庚 cells).
+  The template page was updated to this layout (https://claude.ai/artifact/BXa7pkD55Z44f3bJZ6h9v1). S1–S3 and T Body…T Order were retired on 2026-11-14 (EF1 A).
 - **Built on dev 2026-10-27 (owner: "show me how the day master reading page looks now with this implemented"):** `STEM.energy_faces` (station, 庚 DRAFT, the other nine null; REA_16 §2c row pending, chips and paragraph need their own bands before locking) is transcribed through `build-dm-pools.mjs` and code-mapped. The Day Master page renders the ruled layout from it, tagged draft. Stems without cells keep the gift or shadow face.
 
 ## Illustrating the Day Master journey (2026-10-27; AWAITING THE OWNER, A1–A4)
@@ -429,3 +429,11 @@ The layout and paintings are the design session's, unchanged. Dev only (TYPE_V1)
 - **R3 A:** released with the amount and the Grow or Release step sometimes disagreeing (a thin energy told to release). Bridging lines are drafted next for the owner to rule.
 
 **Ruled 2026-11-14 · the Domains session's dispatch: D1 A.** Order: records and the coverage check, then the fate-word rewrites shown to the owner as before-and-after lines before they ship, then the merged-reading backlog in batches.
+
+**Ruled 2026-11-14 · C1 A, BR1 A, BC1 A, FW1 A, FW2 A, EF1 A** (page https://claude.ai/artifact/RqVULX1gFNpHcNykBPHQ2Z).
+- **BR1 A · the amount against the step.** When a low amount (absent, thin) is told to release, or a high amount (abundant, dominant) is told to grow, a bridging line comes first and the step is the one written for that case. 2 bridges and 10 steps: `tpl_ladder` fields `bridge` and `try_bridged`, `ladderTry()` in `src/content/ladder.js`. On the revelation's energy cards, the Day Master page's rows and both "Start here" lines. A sweep of 4,000 charts found the mismatch on 70% of them.
+- **BC1 A · the Balanced circle line:** "Your chart is even. {Bond} is your closest match" (`tpl_type.circle.balanced`). The gates that hid the tile and the revelation's circle block on the live site are removed.
+- **FW1 A · fate words, batch 1:** 12 station lines (`ELEMENT_GOD` ×10 files, `TG_PATTERN/shang_guan_pei_yin`) and 2 lines in `CompatScreen.jsx` rewritten. Old text in each file's `__ore.retired_2026-11-14_fw1`.
+- **FW2 A · the rest:** batch 2 is drafted and shown before it ships. `positions.js` is the Domains session's.
+- **EF1 A:** the abstract five-energies reading (S1–S3, T Body…T Order) and `STEM.energy_faces` are retired. The 庚 draft cells are in `candidates.__ore.energy_faces_retired_2026-11-14_ef1`; the field is null for all ten stems.
+- **C1 A:** this session coordinates the content round and compiles it with the design session. Tracker: `ComparativeAnalysis/Handoffs/2026-11-14-content-compile/TRACKER.md`.

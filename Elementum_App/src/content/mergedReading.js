@@ -88,8 +88,8 @@ export const TYPE_LINE = {
     same: 'and that is the {El} you need.',
     balanced: 'and your five energies stay close to even.',
   },
-  // the album's Your circle tile (K4 A, 2026-10-27); balanced is a DRAFT, to rule
-  circle: { head: '{Fuel} carry the {El} you need', balanced: '{Bond} is your classical match', cta: 'Who completes your chart?' },
+  // the album's Your circle tile (K4 A, 2026-10-27); balanced ruled 2026-11-14 (BC1 A)
+  circle: { head: '{Fuel} carry the {El} you need', balanced: 'Your chart is even. {Bond} is your closest match', cta: 'Who completes your chart?' },
   // the Day Master page's five energies (owner 2026-10-27, F1 A; the face by amount, F2 A)
   five: { lead: 'Each energy brings out a side of {the archetype}: a gift through the energies that grow you, a shadow through the ones to release.', balanced: 'Each energy brings out a side of {the archetype}, and in a balanced chart every side shows as a gift.' },
 };

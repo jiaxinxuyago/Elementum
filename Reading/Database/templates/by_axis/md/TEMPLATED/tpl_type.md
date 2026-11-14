@@ -32,7 +32,7 @@
 | `needs.same` | and that is the {El} you need. |
 | `needs.balanced` | and your five energies stay close to even. |
 | `circle.head` | {Fuel} carry the {El} you need |
-| `circle.balanced` | {Bond} is your classical match |
+| `circle.balanced` | Your chart is even. {Bond} is your closest match |
 | `circle.cta` | Who completes your chart? |
 | `five.lead` | Each energy brings out a side of {the archetype}: a gift through the energies that grow you, a shadow through the ones to release. |
 | `five.balanced` | Each energy brings out a side of {the archetype}, and in a balanced chart every side shows as a gift. |

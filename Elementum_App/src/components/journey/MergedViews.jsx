@@ -16,7 +16,7 @@
 //   FirstReading    the eight cards after the Naming, on the Naming's ground
 // ===================================================================
 
-import { LADDER, STEM_LADDER, LADDER_NOTICE_BAND, LADDER_TRY_POLE } from '../../content/ladder.js';
+import { LADDER, STEM_LADDER, LADDER_NOTICE_BAND, ladderTry } from '../../content/ladder.js';
 import { dmArt, dmStage, stripArt, useArtSrc, ArtTodo } from './inkArt.jsx';
 
 // the five washes (Ink_Painting_System.md): the dominance bar's segments
@@ -159,7 +159,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
                 <span className="dmp-fd"><LdLead text={LADDER.function_plain[r.fn]} /></span>
                 <span className="dmp-fd"><span className="dmp-flab">In you</span>{ldRow(m.stem, 'in_you', r.fn, r.volume)}</span>
                 <span className="dmp-fd"><span className="dmp-flab">You might notice</span>{ldCap(ldRow(m.stem, 'notice', r.fn, LADDER_NOTICE_BAND[r.volume]))}</span>
-                <span className="dmp-fd dmp-try"><Pill row={r} it Use={Use} />{ldCap(LADDER.try[r.fn]?.[LADDER_TRY_POLE[r.pole]])}</span>
+                <span className="dmp-fd dmp-try"><Pill row={r} it Use={Use} />{ladderTry(r.fn, r.pole, r.volume)}</span>
               </span>
             </button>
           );
@@ -183,7 +183,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
           {need ? (
             <>
               <p className="dmp-body">{LADDER.need_pattern.replace('{Mode}', t.mode.fn).replace('{El}', need.name).replace('{phrase}', ldNeed(m.stem, need.fn))}</p>
-              <p className="dmp-body dmp-try"><span className="role-pill cat"><Use id="ar-up" />Start here</span>{ldCap(LADDER.try[need.fn]?.grow)}</p>
+              <p className="dmp-body dmp-try"><span className="role-pill cat"><Use id="ar-up" />Start here</span>{ladderTry(need.fn, 'catalyst', g.rows[need.el]?.volume)}</p>
               <p className="dmp-body dmp-circ"><span className="dmp-cp">{t.circle.fuel.map((x) => <img key={x.stem} src={plateOf(x.stem)} alt={x.archetype} />)}</span><span>{t.circle.head}. {LADDER.circle_close}</span></p>
             </>
           ) : <TypeLine g={g} className="dmp-tline" />}

@@ -23,7 +23,6 @@ import { useEffect, useState } from 'react';
 import { Dial, TypeChips, TypeLine, plateOf } from './MergedViews.jsx';
 import { LifeLine } from './DepthViews.jsx';
 import './v5.css';
-import { IS_DEV_TOOLS } from '../../devtools.js';
 
 import { markRead, markSeenReading, V5_SECTIONS } from './v5State.js';
 import { LeafReader, ContinueCard, SECTION_ART, minutesOf, useReadMap } from './V5Reader.jsx';
@@ -118,8 +117,7 @@ export function AlbumHub({ m, g, depth, positions, hourUnknown, sealSrc, condIco
             </div>
           </div>
         ) : null}
-        {/* a Balanced chart's circle line is not ruled yet (owner R2 A, 2026-11-14): its tile stays on the dev site until it is */}
-        {typeOn && g.type && (!g.balanced || IS_DEV_TOOLS) ? (
+        {typeOn && g.type ? (
           <button type="button" className="v5-bt wide v5-circle" onClick={onCircle} disabled={!onCircle}>
             <span className="v5-ey">Your circle</span>
             <b className="v5-cl sm">{g.type.circle.head}</b>

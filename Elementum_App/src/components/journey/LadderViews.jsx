@@ -12,8 +12,7 @@
 // Rides TYPE_V1 with the type (JourneyStage passes it in).
 // ===================================================================
 import { useState } from 'react';
-import { IS_DEV_TOOLS } from '../../devtools.js';
-import { LADDER, STEM_LADDER, LADDER_NOTICE_BAND, LADDER_TRY_POLE } from '../../content/ladder.js';
+import { LADDER, STEM_LADDER, LADDER_NOTICE_BAND, ladderTry } from '../../content/ladder.js';
 import { Dial, Pill, plateOf } from './MergedViews.jsx';
 import { dmArt, dmStage, stripArt, useArtSrc, ArtTodo } from './inkArt.jsx';
 export { Taichi } from './Taichi.jsx';
@@ -124,7 +123,7 @@ export function LadderReading({ m, g, claims = [], Use, InkDot, onShare, onEnter
             </span>
             <p className="ld-r3">{rowOf(m.stem, 'in_you', row.fn, row.volume)}</p>
             <p className="ld-r4"><span className="ld-lab">You might notice</span>{cap(rowOf(m.stem, 'notice', row.fn, LADDER_NOTICE_BAND[row.volume]))}</p>
-            <p className="ld-try"><Pill row={row} it Use={Use} />{cap(LADDER.try[row.fn]?.[LADDER_TRY_POLE[row.pole]])}</p>
+            <p className="ld-try"><Pill row={row} it Use={Use} />{ladderTry(row.fn, row.pole, row.volume)}</p>
           </>
         ) : (
           <>
@@ -134,14 +133,14 @@ export function LadderReading({ m, g, claims = [], Use, InkDot, onShare, onEnter
             {need ? (
               <>
                 <p>{LADDER.need_pattern.replace('{Mode}', t.mode.fn).replace('{El}', need.name).replace('{phrase}', needPhrase(m.stem, need.fn))}</p>
-                <p className="ld-try"><span className="role-pill cat"><Use id="ar-up" />Start here</span>{cap(LADDER.try[need.fn]?.grow)}</p>
+                <p className="ld-try"><span className="role-pill cat"><Use id="ar-up" />Start here</span>{ladderTry(need.fn, 'catalyst', g.rows[need.el]?.volume)}</p>
               </>
             ) : null}
-            {/* a Balanced chart's circle line is not ruled yet: dev only until it is */}
-            {need || IS_DEV_TOOLS ? <span className="ld-circ">
+            {/* a Balanced chart's circle: its Bond (BC1 A, 2026-11-14) */}
+            <span className="ld-circ">
               <span className="ld-cp">{(need ? t.circle.fuel : [t.circle.bond]).map((x) => <img key={x.stem} src={plateOf(x.stem)} alt={x.archetype} />)}</span>
-              <span>{t.circle.head}.{need ? ` ${LADDER.circle_close}` : <span className="dp-draft">draft</span>}</span>
-            </span> : null}
+              <span>{t.circle.head}.{need ? ` ${LADDER.circle_close}` : ''}</span>
+            </span>
             <div className="mg-send">
               <button className="mg-next" onClick={onEnter}>Enter your reading <Use id="ico-arrow-r" /></button>
               <button className="mg-next ghost" onClick={onShare}><Use id="ico-share" />Share your type</button>
