@@ -35,12 +35,16 @@ const LAND_VERB = { clash: 'Strikes', punish: 'Grinds against', harm: 'Wears at'
 const gateOfAge = (a) => (a < 16 ? 'year' : a < 35 ? 'month' : a < 48 ? 'day' : 'hour');
 const an = (w) => (/^[AEIOU]/.test(w) ? 'an' : 'a');
 
-/** A unit by key: the written text with the elements filled in, or the draft line standing in for it. */
-function unit(key, draft, fill = {}) {
+/** A unit by key (or the first written of several keys): the text with the elements filled in, or the draft line standing in for it. */
+function unit(keys, draft, fill = {}) {
+  const list = [].concat(keys); const key = list.find((k) => (CHAPTER_UNITS[k] ?? ALMANAC_UNITS[k]) != null) || list[0];
   const raw = CHAPTER_UNITS[key] ?? ALMANAC_UNITS[key];
   const put = (t) => String(t).replace(/\{el\}/g, fill.el || '').replace(/\{e\}/g, fill.el || '').replace(/\{g\}/g, fill.g || '');
   return raw != null ? { key, text: put(raw), draft: false } : { key, text: put(draft), draft: true };
 }
+// the ground line by the relation and the direction of the energy above it (audit M3 A); the older keys stand in until written
+const groundKeys = (rel, dir, lived) => (lived ? [`TEMPLATED tpl_chapters · ground.${rel}.${dir}.lived`, `TEMPLATED tpl_chapters · ground.${rel}.lived`] : [`TEMPLATED tpl_chapters · ground.${rel}.${dir}`, `TEMPLATED tpl_almanac · ground.${rel}`]);
+const LATE_AGE = 55; // a decade from 55 on, and a reader from 55 on, read their own lines (audit M5 A)
 const pair = (key, draft) => { const u = unit(key, draft); const [lean, over] = u.text.split('|'); return { ...u, lean, over }; };
 
 const mainHidden = (b) => (HIDDEN_STEMS[b] || []).slice().sort((x, y) => y.w - x.w)[0]?.s;
@@ -84,42 +88,52 @@ export function resolveEnergyChapters(chart, positions, opts = {}) {
   const used = new Set(); const variants = {};
   // the Energy Map's seek: the energies the chart grows, scarcest first; the decade that brings the first
   const seekEls = Object.entries(ctx.sign).filter(([, s]) => s > 0).sort((a, b) => (ctx.presence[a[0]] ?? 0) - (ctx.presence[b[0]] ?? 0)).map(([e]) => e);
+  // only the scarcest welcomed energy reads the "need" lines; another as scarce reads "grow" (audit M8 A)
+  const needEl = seekEls.find((x) => x !== STEM_ELEM[ctx.dm]) || null;
+  const stateOf = (e) => (e.state === 'need' && e.el !== needEl ? 'grow' : e.state);
 
   const chapters = GATE_ORDER.map((g) => {
     const t = age < GATE_START[g] ? 'coming' : gateOfAge(age) === g ? 'now' : 'lived';
     const closed = ctx.hourUnknown && g === 'hour';
     const p = chart.pillars[g];
     const base = { key: g, name: `The ${CHAPTER[g]}`, short: CHAPTER[g], span: GATE_SPAN[g], status: t, closed, fromYear: birthYear == null ? null : birthYear + GATE_START[g], seats: positions.filter((x) => x.gateKey === g) };
+    const e = closed ? null : readEnergy(ctx, g === 'day' ? null : p.stem, p.branch, g);
+    const fill = e ? { el: e.el, g: e.ground?.el } : {};
+    let lines = [];
+    if (e && t !== 'lived') {
+      const gd = GATE_DOMAIN[g]; const fk = (d) => `ENERGY ${e.fn.toLowerCase()} · chapter_domain.${d}.${e.dir}`;
+      const pick = [gd, ...ranked(e.weights).filter((d) => d !== gd)].filter((d) => !used.has(fk(d))).slice(0, 3);
+      pick.forEach((d) => used.add(fk(d)));
+      lines = pick.map((d) => ({ domain: d, ...unit(fk(d), dDomain(d, e), fill) }));
+    }
     // decades by start age; the current one sits in the chapter the reader is in (R2 A)
     const decs = luck.filter((l) => l.endAge >= DEC_MIN && l.startAge <= DEC_MAX && (l === cur ? g === gateNow : gateOfAge(Math.max(l.startAge, 0)) === g)).map((l) => {
-      const dt = decTense(l); const early = dt === 'lived' && g === 'year';
+      const dt = decTense(l);
+      // the child lines only for a decade lived mostly before sixteen (audit M9 A); the late lines from fifty-five (M5 A)
+      const early = dt === 'lived' && g === 'year' && l.startAge + 4.5 < 16;
+      const late = l.startAge >= LATE_AGE;
       const k0 = `ENERGY ${l.fn.toLowerCase()} · decade.${l.dir}.${early ? 'early' : dt}`;
-      let key = k0;
-      if (dt !== 'now') { variants[k0] = (variants[k0] || 0) + 1; key = `${k0}.${variants[k0] === 1 ? 'a' : 'b'}`; }
+      const k0late = `ENERGY ${l.fn.toLowerCase()} · decade.${l.dir}.late.${dt}`;
+      let keys = late ? [k0late, k0] : [k0];
+      if (dt !== 'now') { const vk = keys[0]; variants[vk] = (variants[vk] || 0) + 1; const v = variants[vk] === 1 ? 'a' : 'b'; keys = keys.map((k) => `${k}.${v}`); }
       const d = { el: l.el, fn: l.fn, dir: l.dir, lift: l.lift, startAge: l.startAge, startYear: l.startYear, endYear: l.endYear, tense: dt,
         label: `${dt === 'now' ? 'Now · ' : ''}${an(l.el).replace(/^a/, dt === 'now' ? 'a' : 'A')} ${l.el} decade · ${l.startYear} to ${l.endYear}`,
-        ...unit(key, dDecade(l, early ? 'early' : dt), { el: l.el, g: l.ground?.el }) };
+        ...unit(keys, dDecade(l, early ? 'early' : dt), { el: l.el, g: l.ground?.el }) };
       if (dt === 'now') {
         d.groundEl = l.ground?.el;
-        d.ground = l.ground ? unit(`TEMPLATED tpl_almanac · ground.${l.ground.rel}`, dGround('now'), { el: l.el, g: l.ground.el }) : null;
-        d.favours = ranked(l.weights).slice(0, 3).map((dm) => ({ domain: dm, ...pair(`ENERGY ${l.fn.toLowerCase()} · favours.decade.${dm}.${l.dir}`, `What ${l.fn} brings|the rest`) }));
+        d.ground = l.ground ? unit(groundKeys(l.ground.rel, l.dir, false), dGround('now'), { el: l.el, g: l.ground.el }) : null;
+        // the favours skip the domains the chapter has already read (audit M6 A)
+        const shown = new Set(lines.map((x) => x.domain));
+        d.favours = ranked(l.weights).filter((dm) => !shown.has(dm)).slice(0, 3).map((dm) => ({ domain: dm, ...pair(`ENERGY ${l.fn.toLowerCase()} · favours.decade.${dm}.${l.dir}`, `What ${l.fn} brings|the rest`) }));
       }
       return d;
     });
     if (closed) return { ...base, decades: decs };
-    const e = readEnergy(ctx, g === 'day' ? null : p.stem, p.branch, g);
-    const fill = { el: e.el, g: e.ground?.el };
     const out = { ...base, energy: e, decades: decs,
       energyU: unit(`ENERGY ${e.fn.toLowerCase()} · chapter.${g}.${e.dir}.${t}`, dChapter(CHAPTER[g], e, t), fill),
-      groundU: e.ground ? unit(t === 'lived' ? `TEMPLATED tpl_chapters · ground.${e.ground.rel}.lived` : `TEMPLATED tpl_almanac · ground.${e.ground.rel}`, dGround(t), fill) : null,
+      groundU: e.ground ? unit(groundKeys(e.ground.rel, e.dir, t === 'lived'), dGround(t), fill) : null,
       board: DOMAINS.map((d) => ({ domain: d, w: e.weights[d] })),
-      lines: [], manual: null };
-    if (t !== 'lived') {
-      const gd = GATE_DOMAIN[g]; const fk = (d) => `ENERGY ${e.fn.toLowerCase()} · chapter_domain.${d}.${e.dir}`;
-      const pick = [gd, ...ranked(e.weights).filter((d) => d !== gd)].filter((d) => !used.has(fk(d))).slice(0, 3);
-      pick.forEach((d) => used.add(fk(d)));
-      out.lines = pick.map((d) => ({ domain: d, ...unit(fk(d), dDomain(d, e), fill) }));
-    }
+      lines, manual: null };
     if (t === 'now') {
       const first = seekEls[0];
       const brings = first ? luck.find((l) => l.el === first && decTense(l) !== 'lived') : null;
@@ -138,15 +152,15 @@ export function resolveEnergyChapters(chart, positions, opts = {}) {
   const years = flowYears(chart, yearNow, yearNow + 5, { hourUnknown: ctx.hourUnknown }).map((y) => {
     const e = readEnergy(ctx, y.stem, y.branch, null);
     // years come in pairs of one element: the second of a pair reads the .b line
-    const yk = `ENERGY ${e.fn.toLowerCase()} · year.${e.state}`; const ykey = yk === prevKey ? `${yk}.b` : yk; prevKey = yk;
+    const yk = `ENERGY ${e.fn.toLowerCase()} · year.${stateOf(e)}`; const ykey = yk === prevKey ? `${yk}.b` : yk; prevKey = yk;
     const b = y.bonds.map((x) => ({ ...x, g: x.gates.find((gg) => GATE_ORDER.includes(gg)) })).filter((x) => x.g)
       .sort((a, c) => (BOND_PRI[c.type] - BOND_PRI[a.type]) || (GATE_RANK[c.g] - GATE_RANK[a.g]))[0] || null;
     const kind = b ? BOND_KIND[b.type] : null;
     return {
-      year: y.year, el: e.el, fn: e.fn, dir: e.dir, state: e.state, lift: e.lift, status: y.year === yearNow ? 'now' : 'coming',
+      year: y.year, el: e.el, fn: e.fn, dir: e.dir, state: stateOf(e), lift: e.lift, status: y.year === yearNow ? 'now' : 'coming',
       newDecade: nextDec && y.year === nextDec.startYear ? nextDec.el : null,
       ...unit(ykey, `{el} brings ${e.fn} for a whole year, and you feel it ${e.dir === 'grow' ? 'lift you' : 'weigh on you'}.`, { el: e.el }),
-      land: b ? { kind, gate: b.g, label: `${LAND_VERB[kind]} your ${GATE_NAME[b.g]}`, ...unit(`TEMPLATED tpl_almanac · land.year.${kind}.${b.g}`, `This year reaches your ${GATE_NAME[b.g]}, and you feel it there.`) } : null,
+      land: b ? { kind, gate: b.g, label: `${LAND_VERB[kind]} your ${GATE_NAME[b.g]}`, ...unit([...(age + (y.year - yearNow) >= LATE_AGE && (b.g === 'year' || b.g === 'month') ? [`TEMPLATED tpl_almanac · land.year.${kind}.${b.g}.late`] : []), `TEMPLATED tpl_almanac · land.year.${kind}.${b.g}`], `This year reaches your ${GATE_NAME[b.g]}, and you feel it there.`) } : null,
       stars: arrivingStars(chart, { stem: y.stem, branch: y.branch }).filter((s) => !s.natal && s.en).map((s) => ({ id: s.id, en: s.en })),
     };
   });
