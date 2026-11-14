@@ -85,3 +85,11 @@ The owner: "Make it live". `ALMANAC_LIVE = true` in `Elementum_App/src/liveFlags
 - On elementum.life a line not yet written is never shown (the Year page's By-year domain lines are the Domains section's and still drafts); the dev site still shows them tagged.
 - With no chart yet, the Today pages fall back to the old pages.
 - Checked before the push: the production build in local preview with the golden chart (free tier), no draft text, no dev hooks, no errors; the station check, voice audit, fixtures, both golden checks, 400 charts with no error and no unwritten Almanac key.
+
+## Section audit rulings (2026-11-14): AM1 A, AM2 A, AM3 A, AM4 A, AM5 A, AM6 A, AN1 A
+
+- AM1–AM4 (landings and energy name what the reader meets and what it costs, never how it ends; "short of", never a rank; the direction, never the amount; no ", and you", no "you feel"): 188 units rewritten by sealed writers, gated (`section-audit-2026-10-21/almanac/polish/`), landed in the station with the old text in `__ore.retired_2026-11-14_polish`.
+- AM5: 27 units that can never show moved to `__ore["retired_2026-11-14_never_shown (AM5 A)"]`; the 17 rare ones stay.
+- AM6: the calculator reads the exact 节 table and the January rule behind `EXACT_TERMS = false` in `src/engine/calculator.js`; impact (`tools/qa-exact-terms-impact.mjs`, 20,000 charts): any change 17.97%, year 0.26%, month 3.52%, luck 17.97%, band 2.13%, roles 3.40%. **Waiting on the owner's sign-off to switch on.**
+- AN1: sealed re-audit of all 119 pages (`reaudit/`): mean B 2.81 → 3.38; pages at B 4: 6 → 47; MAJOR 16 → 6. Same pages that scored under 4: 2.90 → 3.32, 24 up, 0 down. New items for a ruling: AP1–AP5 (side-by-side artifact https://claude.ai/artifact/MtrhGUmVrZMs96xpJYqa3b).
+- AM2/AM3 told to Life Chapters: `05_TO_LIFE_CHAPTERS.md`.
