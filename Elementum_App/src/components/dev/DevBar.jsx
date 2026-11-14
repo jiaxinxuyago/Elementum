@@ -48,7 +48,7 @@ const STATUS_ACCENT = {
 const SCREEN_GROUPS = [
   { label: 'Onboarding', screens: ['welcome', 'step1', 'step2', 'step3', 'step4', 'step4a', 'step5', 'step6', 'step6a', 'step7', 'step7a', 'loading'] },
   { label: 'Tabs', screens: ['app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile'] },
-  { label: 'Your Almanac', screens: ['app-day', 'app-month', 'app-year', 'app-decade'] },
+  { label: 'Your Almanac', screens: ['app-day', 'app-month', 'app-year'] },
   { label: 'Guidance', screens: ['app-codex', 'app-draw', 'app-manual', 'app-selfreport', 'app-consultant'] },
   { label: 'Chart + compat', screens: ['app-pillars', 'chart-resonance', 'compat-friends'] },
 ];

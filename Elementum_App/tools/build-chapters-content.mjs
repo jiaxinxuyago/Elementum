@@ -18,7 +18,7 @@
 //   node tools/build-chapters-content.mjs --adopt <handoff dir>   gate, then write the station from the handoff
 //   node tools/build-chapters-content.mjs                          station → src/content/depthChaptersEnergy.js
 //   node tools/build-chapters-content.mjs --check                  exit 1 if the module is stale
-//   node tools/build-chapters-content.mjs --polish <polish dir> [--retire <key> ...]
+//   node tools/build-chapters-content.mjs --polish <polish dir> [--retire <key> ...] [--why <ruling>]
 //        merge <dir>/out-*.json over <dir>/base.json, drop the retired keys, gate all of it (<dir>/gate.mjs --all),
 //        write the station; replaced and retired texts go to candidates.__ore.retired (the audit polish round)
 //   node tools/build-chapters-content.mjs --fix <fixes.json> <handoff dir> [--why <ruling>]
@@ -36,12 +36,14 @@ const argv = process.argv.slice(2);
 
 let retired = [];
 let polished = null;
+let polishWhy = 'owner 2026-11-14: Life Chapters audit M1–M9 A, MINOR A';
 if (argv[0] === '--polish') {
   const dir = path.resolve(argv[1]); const today = new Date().toISOString().slice(0, 10);
   const drop = new Set(argv.flatMap((a, i) => (argv[i - 1] === '--retire' ? [a] : [])));
+  if (argv.includes('--why')) polishWhy = argv[argv.indexOf('--why') + 1];
   const base = JSON.parse(fs.readFileSync(path.join(dir, 'base.json'), 'utf8')).units; const map = new Map(base.map((u) => [u.key, u]));
   for (const f of fs.readdirSync(dir).filter((x) => /^out-.+\.json$/.test(x)).sort()) for (const u of JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')).units) {
-    const old = map.get(u.key); if (old && old.text !== u.text) retired.push({ key: u.key, text: old.text, replaced_by: 'polish ' + f, why: 'audit polish round (owner M1–M9 A, MINOR A)', date: today });
+    const old = map.get(u.key); if (old && old.text !== u.text) retired.push({ key: u.key, text: old.text, replaced_by: 'polish ' + f, why: polishWhy, date: today });
     map.set(u.key, { key: u.key, kind: u.kind, text: u.text });
   }
   for (const k of drop) { const old = map.get(k); if (old) { retired.push({ key: k, text: old.text, replaced_by: '', why: 'retired by the polish round (superseded key)', date: today }); map.delete(k); } }
@@ -65,7 +67,7 @@ if (polished) {
   const prev = JSON.parse(fs.readFileSync(ST, 'utf8')); const rel = path.relative(ROOT, polished.dir);
   const sorted = Object.fromEntries(Object.keys(polished.units).sort().map((k) => [k, polished.units[k]]));
   prev.candidates = { units: sorted, __ore: { ...(prev.candidates.__ore || {}), retired: [...(prev.candidates.__ore?.retired || []), ...retired] } };
-  prev.$provenance = [...(prev.$provenance || []), { adopted_from: rel, count: Object.keys(sorted).length, replaced_or_retired: retired.length, date: new Date().toISOString().slice(0, 10), ruling: 'owner 2026-11-14: Life Chapters audit M1–M9 A, MINOR A', gate: rel + '/gate.mjs --all PASS' }];
+  prev.$provenance = [...(prev.$provenance || []), { adopted_from: rel, count: Object.keys(sorted).length, replaced_or_retired: retired.length, date: new Date().toISOString().slice(0, 10), ruling: polishWhy, gate: rel + '/gate.mjs --all PASS' }];
   fs.writeFileSync(ST, JSON.stringify(prev, null, 2) + '\n');
   console.log(`station: wrote ${Object.keys(sorted).length} units (${retired.length} replaced or retired into __ore)`);
 }

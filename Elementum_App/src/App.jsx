@@ -58,7 +58,6 @@ const AIConsultantScreen = lazy(() => import('./components/dashboard/AIConsultan
 const DayPage = lazy(() => import('./components/dashboard/DayPage.jsx'));
 const MonthPage = lazy(() => import('./components/dashboard/MonthPage.jsx'));
 const YearPage = lazy(() => import('./components/dashboard/YearPage.jsx'));
-const DecadePage = lazy(() => import('./components/dashboard/DecadePage.jsx'));
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 import { IS_DEV_TOOLS } from './devtools.js';
 import { MERGE_V1 } from './components/journey/mergeFlag.js';
@@ -91,7 +90,6 @@ function prefetchScreens() {
       import('./components/dashboard/DayPage.jsx'),
       import('./components/dashboard/MonthPage.jsx'),
       import('./components/dashboard/YearPage.jsx'),
-      import('./components/dashboard/DecadePage.jsx'),
       import('./components/reading/ReadingDayMasterScreen.jsx'),
       import('./components/reading/ReadingPillarChartScreen.jsx'),
       import('./components/dashboard/CompatFriendFlow.jsx'),
@@ -263,7 +261,8 @@ const FLOW = [
   'app-day',
   'app-month',
   'app-year',
-  'app-decade',
+  // 'app-decade' RETIRED 2026-11-14 (Life Chapters A4): the decade tile opens Life Chapters (routeOpen);
+  // an old #app-decade link lands on Your reading through ROUTE_ALIAS.
   'app-guidance',
   'app-reading',     // catalogue (DES_04 §11)
   'app-daymaster',   // D13 P4 — Day Master card (wheel-centre seal)
@@ -290,7 +289,7 @@ const ROUTE_ALIAS = {
   'app-energymap': 'app-reading', 'read-elemental': 'app-reading', 'read-daymaster': 'app-reading',
   'read-tengods': 'app-reading', 'read-forces': 'app-reading', 'read-chapters': 'app-reading',
   'read-patterns': 'app-reading', 'read-seasonal': 'app-reading', 'read-locked': 'app-reading',
-  'chart-reveal': 'app-pillars',
+  'chart-reveal': 'app-pillars', 'app-decade': 'app-reading',
 };
 
 // Which dashboard tab is "active" for a given screen — drives the single
@@ -299,7 +298,7 @@ const ROUTE_ALIAS = {
 // pages) show NO tab bar — they own the full frame. Drill-downs map back to
 // their parent tab so the bar stays lit correctly.
 const DASHBOARD_TAB = {
-  'app-today': 'today', 'app-day': 'today', 'app-month': 'today', 'app-year': 'today', 'app-decade': 'today',
+  'app-today': 'today', 'app-day': 'today', 'app-month': 'today', 'app-year': 'today',
   'app-guidance': 'guidance', 'app-codex': 'guidance', 'app-draw': 'guidance', 'app-manual': 'guidance',
   'app-selfreport': 'guidance', 'app-consultant': 'guidance',
   'app-reading': 'reading', 'app-daymaster': 'reading', 'app-pillars': 'reading',
@@ -467,7 +466,7 @@ export default function App() {
   // the Guidance tab's Energy Manual (retired, E8) → Domains.
   const openSection = (name) => { setScreen('app-reading'); setSectionTarget(name); };
   // V5: 'section:<name>' (Continue reading on Today) opens a section of Your reading
-  const routeOpen = (route) => (V5_LIVE && typeof route === 'string' && route.startsWith('section:') ? openSection(route.slice(8)) : DEPTH_LIVE && route === 'app-decade' ? openSection('chapters') : DEPTH_LIVE && route === 'app-manual' ? openSection('domains') : setScreen(route));
+  const routeOpen = (route) => (V5_LIVE && typeof route === 'string' && route.startsWith('section:') ? openSection(route.slice(8)) : route === 'app-decade' ? openSection('chapters') : DEPTH_LIVE && route === 'app-manual' ? openSection('domains') : setScreen(route));
 
   // Where Loading hands off once the chart is computed and the dwell ends:
   // 'reveal' (the Naming ceremony — a chart drawn for the first time through
@@ -617,13 +616,6 @@ export default function App() {
       rendered = (
         <DashboardShell active="today" onTabChange={routeTab} bg={PLATE_BG.year}>
           <YearPage onBack={goto('app-today')} />
-        </DashboardShell>
-      );
-      break;
-    case 'app-decade':
-      rendered = (
-        <DashboardShell active="today" onTabChange={routeTab} bg={PLATE_BG.decade}>
-          <DecadePage onBack={goto('app-today')} />
         </DashboardShell>
       );
       break;

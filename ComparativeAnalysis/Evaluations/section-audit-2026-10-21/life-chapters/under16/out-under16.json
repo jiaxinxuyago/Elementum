@@ -1,0 +1,104 @@
+{
+ "units": [
+  {
+   "key": "ENERGY action · chapter.year.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, the energy of Action, and your chart takes to it gladly. Since your first years you have wanted to do things rather than watch them, building, fixing and saving up for what you want. You learn by trying, and each thing you finish shows you what your hands can do."
+  },
+  {
+   "key": "ENERGY action · chapter.year.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, the energy of Action, and your chart does better without it. Since your first years there has always been something more to want, with a new thing to chase each week. You slow down when an older relative sits with you until one plan is finished."
+  },
+  {
+   "key": "ENERGY body · chapter.year.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, your own energy, and your chart is the stronger for it. Since your first years children your age have pulled you into their games, where you learned to hold your own. You speak up for yourself in a crowd, and a friend who disagrees still stays a friend."
+  },
+  {
+   "key": "ENERGY body · chapter.year.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, your own energy, which your chart already holds in plenty. Since your first years you have wanted to win every game and have the last word at home. After an afternoon on your own, you come back easier with the children around you."
+  },
+  {
+   "key": "ENERGY expression · chapter.year.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, the energy of Expression, and your chart opens up to it. Since your first years you have sung, drawn, told stories and made up games for anyone who would join in. You speak your mind out loud, and people at home have learned to stop and listen."
+  },
+  {
+   "key": "ENERGY expression · chapter.year.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, the energy of Expression, and your chart pulls the other way. Since your first years the sharp answer has come out first, along with a wish for every treat at once. You calm down on a long walk with someone who lets you talk it all out."
+  },
+  {
+   "key": "ENERGY mind · chapter.year.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, the energy of Mind, and your chart soaks it up. Since your first years someone at home has made time to answer your questions, and books have kept you company on slow days. You think things through before you speak, and what you notice is usually right."
+  },
+  {
+   "key": "ENERGY mind · chapter.year.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, the energy of Mind, and your chart does better without it. Since your first years the grown-ups around you have worried on your behalf and smoothed each path before you reached it. You grow surer each time you try something on your own and get it done without help."
+  },
+  {
+   "key": "ENERGY order · chapter.year.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, the energy of Order, and your chart is steadier for it. Since your first years your days have had a clear shape, with set hours at home and a teacher who notices your best work. You like knowing what is asked of you, because it gives you something to rise to."
+  },
+  {
+   "key": "ENERGY order · chapter.year.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carries {el}, the energy of Order, and your chart already bends under it. Since your first years a great deal has been asked of you, with strict hours and marks that never seem high enough. You breathe out on the days a kind friend makes you laugh at all of it."
+  },
+  {
+   "key": "ENERGY action · chapter.month.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Action, and your chart is ready to use it. From your late teens there is work within reach and money you earn yourself, while the first things you try pay their way. You find out early that a plan only counts once you start it."
+  },
+  {
+   "key": "ENERGY action · chapter.month.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Action, and your chart works against it. From your late teens there are offers on every side, and each wants your time and a share of what you earn. You do best saying no more often than yes, and finishing one thing before the next."
+  },
+  {
+   "key": "ENERGY body · chapter.month.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, your own energy, just when your chart runs short of it. From your late teens, friends and the people you study and work beside give you the nerve to try for what you want. You hold your ground in a crowd of equals without needing anyone to agree first."
+  },
+  {
+   "key": "ENERGY body · chapter.month.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, your own energy, though your chart has plenty already. From your late teens, every class and every job turns into a contest, with friends who are also rivals. You win more by choosing your fights, and an evening on your own each week keeps your temper cool."
+  },
+  {
+   "key": "ENERGY expression · chapter.month.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Expression, and your chart is ready to be heard. From your late teens, the things you make and say find people who want more of them. You find your own way of saying things, and people start to quote it back to you."
+  },
+  {
+   "key": "ENERGY expression · chapter.month.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Expression, and your chart pushes against it. From your late teens you want to say everything and try everything, and those in charge do not always welcome it. You do your best talking after a walk on your own, when the first heat has gone."
+  },
+  {
+   "key": "ENERGY mind · chapter.month.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Mind, and your chart opens its doors to it. From your late teens, people who know more than you take an interest, and what you study turns into something you can use. You find the people worth learning from, and they find you too."
+  },
+  {
+   "key": "ENERGY mind · chapter.month.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Mind, and your chart would rather go without it. From your late teens there is always one more course to finish and one more opinion to ask before you begin. You get going by trying things half prepared, and they work more often than you think."
+  },
+  {
+   "key": "ENERGY order · chapter.month.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Order, and your chart stands taller for it. From your late teens, study and work bring clear tasks and someone older who backs you once you prove reliable. You keep your word, and before long people trust you with more."
+  },
+  {
+   "key": "ENERGY order · chapter.month.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Order, and your chart pushes back against it. From your late teens, people in charge watch your work closely and the calendar seldom clears. You stay yourself on the evenings you spend with an old friend, far from any title."
+  }
+ ]
+}
