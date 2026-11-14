@@ -146,11 +146,15 @@ The catalogue and the Day Master page are one page, "Your reading" (option 1, 20
 
 The Day Master routes land on Your reading. Record: `ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md`.
 
+**2026-11-14 · the Elementum Type is live** (owner R1 A, R2 A, R3 A; `TYPE_LIVE = true`): the album's type line and chips, the Day Master page on the explanation ladder (`src/content/ladder.js`), the type share card. The revelation on the ladder went live the same day on `RS_LIVE` (design session).
+
 Open:
-- polish each page;
+- waiting on the owner (PM_04 §3: DM-BR1, DM-BC1, DM-FW1, DM-FW2, DM-EF1; page https://claude.ai/artifact/RqVULX1gFNpHcNykBPHQ2Z);
+- the energy pages on the ladder's five rungs (proposed, not started);
 - the 14 merged-journey drafts (only the golden chart is written; the other charts fall back);
 - the remaining 29 band paragraphs;
-- **the Elementum Type** (owner M1–M6 A, 2026-10-27): "The Blade · Mind mode" on the share card and the album hero, built on the dev site behind `TYPE_LIVE = false`. Next: the owner's read on dev, the needs-clause drafts, then live. The 26 October opening-line proposal (OL) is superseded.
+- add the merged journey, the band paragraphs and the type to `tools/qa-reading-coverage.mjs`. Their drafts are not flagged `draft: true` in code yet, so the flags come first;
+- polish each page.
 
 ## GO-LIVE — dev-only on purpose; each goes live on elementum.life the day it is done (owner 2026-10-21: "backlog these items and build them into official link until they are completed")
 
