@@ -8,6 +8,7 @@
 //   node tools/qa-domains-coverage.mjs           # 200 seeded random charts + the three review charts
 //   node tools/qa-domains-coverage.mjs --keys    # also list every missing key with how often it is reached
 //   node tools/qa-domains-coverage.mjs --n 500   # more charts
+//   node tools/qa-domains-coverage.mjs --v2      # with the dev-site Blueprint rules (R1 A, R2 A)
 // Exit 1 while any surface has a placeholder line.
 // ===================================================================
 import { calculateBaziChart } from '../src/engine/calculator.js';
@@ -36,7 +37,7 @@ let rendered = 0;
 for (const [birth, hu] of charts) {
   let chart; try { chart = calculateBaziChart(birth); } catch { continue; }
   const ec = buildEnergyChart(chart); const m = buildJourneyModel({ chart, ec, identity: {}, card: STEM_CARD_DATA[chart.pillars.day.stem] });
-  const opts = { hourUnknown: hu, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])), year: 2026 };
+  const opts = { hourUnknown: hu, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])), year: 2026, bpRules: argv.includes('--v2') };
   const pos = resolvePositions(chart, hu); const dm = resolveDomains(chart, pos, DOMAINS_CONTENT, opts);
   for (const p of dm.pages) {
     const v = resolveDomainView(p, chart, DOMAINS_CONTENT, opts);

@@ -23,6 +23,13 @@ import { SLOT_RANK, CHAPTERS, GATES, DOMAIN_TAXONOMY } from '../../content/posit
 import { TG_PERSONA } from '../../content/index.js';
 import { TG_PATTERNS } from '../../content/tgPatterns.js';
 import { periodOf } from '../../engine/almanac/index.js';
+import { structureOf } from '../../engine/depth/chartDepth.js';
+import { pairingContext, pairingHolds } from '../../engine/depth/pairings.js';
+import { BLUEPRINT_RULES_LIVE } from '../../liveFlags.js';
+import { IS_DEV_TOOLS } from '../../devtools.js';
+
+// the Blueprint state rules and the pairing conditions (R1 A, R2 A): the dev site until the owner has seen the sample
+export const DEPTH_RULES_V2 = BLUEPRINT_RULES_LIVE || IS_DEV_TOOLS;
 
 export const DEC_MIN = 10; export const DEC_MAX = 75;
 export const GATE_ORDER = ['year', 'month', 'day', 'hour'];
@@ -41,13 +48,19 @@ const GOD_ID = { 比肩: 'bijian', 劫财: 'jiecai', 食神: 'shishen', 伤官: 
 const an = (w) => `${/^[AEIOU]/.test(w) ? 'An' : 'A'} ${w}`;
 
 // the reader's age this year and their birth year, from the engine's luck pillars
-export function readerAge(chart, year) {
+export function readerAge(chart, year, today = null) {
   const lp = chart?.luckPillars?.[0];
   // "this year" turns at 立春, not on 1 January (section audit 2026-10-21, M-5; as Life Chapters reads it)
   const nowYear = year ?? periodOf('year', new Date())?.baziYear ?? chart?.currentFlowYear?.year ?? new Date().getFullYear();
   if (!lp) return null;
   const birthYear = lp.startYear - lp.startAge;
-  return { age: nowYear - birthYear, birthYear, nowYear };
+  // the age counts the birthday (owner R17 A, 2026-11-14): a gate or a decade turns at the birthday, not on 1 January
+  const b = String(chart?.meta?.birthDate || '').match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!b) return { age: nowYear - birthYear, birthYear, nowYear };
+  const t = today ? new Date(`${today}T12:00:00`) : new Date();
+  const [by, bm, bd] = [Number(b[1]), Number(b[2]), Number(b[3])];
+  const age = t.getFullYear() - by - (t.getMonth() + 1 < bm || (t.getMonth() + 1 === bm && t.getDate() < bd) ? 1 : 0);
+  return { age, birthYear, nowYear };
 }
 
 // a decade's pole for this chart: helping when its element is a catalyst
@@ -67,8 +80,10 @@ export function decadePole(el, roles, condition) {
  */
 export function resolveDomains(chart, positions, content, opts = {}) {
   const { hourUnknown = false, roles = {}, condition = null } = opts;
-  const who = readerAge(chart, opts.year) || { age: 30, birthYear: null, nowYear: null };
+  const who = readerAge(chart, opts.year, opts.today) || { age: 30, birthYear: null, nowYear: null };
   const { age, birthYear } = who;
+  const rulesV2 = opts.bpRules ?? DEPTH_RULES_V2;
+  const pctx = rulesV2 ? pairingContext(chart, positions, { structure: structureOf(chart, { strength: chart.dayMaster?.strength, hourUnknown }).key }) : null;
   const cur = gateIdx(age);
   const yearAt = (a) => (birthYear == null ? null : birthYear + a);
   const S = content?.seats || {}; const D = content?.decades || {};
@@ -81,7 +96,10 @@ export function resolveDomains(chart, positions, content, opts = {}) {
       .sort((a, b) => GATE_ORDER.indexOf(a.gateKey) - GATE_ORDER.indexOf(b.gateKey) || (a.kind === 'stem' ? 0 : 1) - (b.kind === 'stem' ? 0 : 1));
     // the lead: the highest-ranked seat whose gate has opened (the Day Gate, the self, is always open)
     const opened = seats.filter((p) => p.gateKey === 'day' || GATE_START[p.gateKey] <= age);
-    const lead = [...(opened.length ? opened : seats)].sort((a, b) => SLOT_RANK[a.slot] - SLOT_RANK[b.slot])[0] || null;
+    // no seat in a gate the reader has reached: How you are waits on the decades (R9 A), the seats show as coming
+    // (it switches on with the domain's waiting line; until that is written, the highest seat stands in as before)
+    const waiting = !opened.length && seats.length > 0 && !!content?.waiting?.[d];
+    const lead = [...(opened.length || waiting ? opened : seats)].sort((a, b) => SLOT_RANK[a.slot] - SLOT_RANK[b.slot])[0] || null;
     const leadU = lead ? unit(lead, d) : null;
 
     // step 1
@@ -90,14 +108,15 @@ export function resolveDomains(chart, positions, content, opts = {}) {
       if (!(tp.targets || []).includes(d)) continue;
       const [a, b] = tp.gods;
       if (!a.some((g) => present.has(g)) || !b.some((g) => present.has(g))) continue;
+      if (pctx && !pairingHolds(tp.key, pctx)) continue; // the classical condition (R2 A)
       const fused = ['year', 'month', 'hour'].some((gk) => { const at = positions.filter((x) => x.gateKey === gk); return at.some((x) => a.includes(x.god)) && at.some((x) => b.includes(x.god)); });
       const pc = content?.patterns?.[tp.key];
       const body = pc?.readings?.[d] || pc?.reading;
       if (body) pattern = { key: tp.key, src: `TG_PATTERN ${tp.key} · domain_lines.${d}${fused && pc.fused_line ? ' + fused_line' : ''}`, text: fused && pc.fused_line ? `${body} ${pc.fused_line}` : body };
       break;
     }
-    const how = lead ? (leadU?.recognition || null) : (content?.unruled?.[d] || null);
-    const howSrc = lead ? `POSITION ${lead.id} · domain_climb.${d}.recognition` : `TEMPLATED tpl_domains · domain_unruled.${d}`;
+    const how = lead ? (leadU?.recognition || null) : waiting ? (content?.waiting?.[d] || content?.unruled?.[d] || null) : (content?.unruled?.[d] || null);
+    const howSrc = lead ? `POSITION ${lead.id} · domain_climb.${d}.recognition` : `TEMPLATED tpl_domains · ${waiting ? 'domain_waiting' : 'domain_unruled'}.${d}`;
 
     // decades that rule this domain
     const ruling = luck.filter((l) => RULING[l.god]?.includes(d)).map((l) => ({ ...l, pole: decadePole(l.el, roles, condition) }));
@@ -116,7 +135,9 @@ export function resolveDomains(chart, positions, content, opts = {}) {
       if (!show || !u?.lived) continue;
       const label = p.gateKey === 'day' ? 'Your Day Gate · the pattern so far'
         : `${CHAPTERS[p.gateKey]} · ${gi === cur ? `${p.gateKey === 'year' ? 'birth' : GATE_START[p.gateKey]} to now` : GATE_SPAN[p.gateKey]}`;
-      past.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.lived`, order: p.gateKey === 'day' ? Math.min(age, 35) : GATE_START[p.gateKey], label, text: u.lived, seat: p.term });
+      // a reader past the Month or Day Gate reads its beat in the past (R13 A)
+      const pastBeat = (p.gateKey === 'month' && age > 34) || (p.gateKey === 'day' && age > 47) ? u.lived_past : null;
+      past.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.${pastBeat ? 'lived_past' : 'lived'}`, order: p.gateKey === 'day' ? Math.min(age, 35) : GATE_START[p.gateKey], label, text: pastBeat || u.lived, seat: p.term });
     }
     if (lastPast && decText(lastPast, 'lived')) past.push({ kind: 'decade', src: `GOD ${GOD_ID[lastPast.god]} · decade_lines.${d}.${lastPast.pole}.lived`, order: lastPast.startAge, label: `${an(bare(persona(lastPast.god)))} decade · ${lastPast.startYear} to ${lastPast.endYear}`, text: decText(lastPast, 'lived') });
     const curGate = GATE_ORDER[cur];
@@ -156,9 +177,9 @@ export function resolveDomains(chart, positions, content, opts = {}) {
     const gates = [...new Set(seats.map((p) => GATES[p.gateKey].replace(' Gate', '')))];
     return {
       domain: d, seats, lead, empty: !seats.length,
-      headline: leadU?.headline || (seats.length ? null : content?.unruledHeadline?.[d] || null),
+      headline: leadU?.headline || (waiting ? content?.waitingHeadline?.[d] || null : seats.length ? null : content?.unruledHeadline?.[d] || null),
       count: seats.length ? `${seats.length} seat${seats.length > 1 ? 's' : ''} · ${gates.join(', ')}` : 'No seat · read from your decades',
-      how, howSrc, headlineSrc: lead ? `POSITION ${lead.id} · domain_climb.${d}.headline` : `TEMPLATED tpl_domains · domain_unruled_headline.${d}`, pattern, past, future, notes,
+      how, howSrc, headlineSrc: lead ? `POSITION ${lead.id} · domain_climb.${d}.headline` : `TEMPLATED tpl_domains · ${waiting ? 'domain_waiting_headline' : 'domain_unruled_headline'}.${d}`, pattern, past, future, notes,
     };
   });
   pages.sort((a, b) => b.seats.length - a.seats.length);

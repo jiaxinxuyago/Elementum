@@ -10,7 +10,7 @@
 //   R14  no "at least once" or "more than once"
 //   R15  a unit keyed by a character never uses another character's reserved words (verbs.json); a Day or Hour seat
 //        beat uses at least one of its own character's words
-//   R16  at most three in ten units of one family close on ", and you"; decade lines never restate "these years";
+//   R16  at most one in eight units of one family closes on ", and you" (so a page rarely shows two); decade lines never restate "these years";
 //        no opening shared by more than two units of a frame family (missing, need, seen)
 import fs from 'node:fs'; import path from 'node:path';
 const HERE = path.dirname(new URL(import.meta.url).pathname) + '/';
@@ -90,7 +90,7 @@ for (const list of Object.values(byPage)) for (let i = 0; i < list.length; i++) 
 // R16: the close budget per family, and distinct openings in the frame families
 const byFam = {}; for (const u of units) if (u.family) (byFam[u.family] ||= []).push(u);
 for (const [fam, list] of Object.entries(byFam)) {
-  if (list.length >= 4) { const n = list.filter((u) => ANDYOU(u.text)).length; const cap = Math.floor(list.length * 0.3); if (n > cap) fails.push(`family ${fam}: ${n} of ${list.length} units close on ", and you" (at most ${cap}, R16)`); }
+  if (list.length >= 4) { const n = list.filter((u) => ANDYOU(u.text)).length; const cap = Math.floor(list.length * 0.12); if (n > cap) fails.push(`family ${fam}: ${n} of ${list.length} units close on ", and you" (at most ${cap}, R16: a page shows up to six of a family, so at most one in eight may use it)`); }
   if (/^(missing|need|seen)/.test(fam)) {
     const open = {}; for (const u of list) { const o = (u.text.toLowerCase().match(/[a-z']+/g) || []).slice(0, 3).join(' '); (open[o] ||= []).push(u.key); }
     for (const [o, ks] of Object.entries(open)) if (ks.length > 2) fails.push(`family ${fam}: ${ks.length} units open "${o}" (at most two, R16)`);

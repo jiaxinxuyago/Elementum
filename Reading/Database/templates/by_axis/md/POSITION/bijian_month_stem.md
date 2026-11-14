@@ -35,8 +35,15 @@
 | `shadow_line` | Overloaded, the equal becomes the rival everywhere: every meeting a quiet arm-wrestle. |
 | `health_line` | Your body works like you do, alone and hard: it excels under self-set training and breaks quietly rather than complain. Schedule the checkups it will never request. |
 | `domain_climb.Career.headline` | You do your best work as nobody's junior. |
-| `domain_climb.Career.recognition` | You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end. |
+| `domain_climb.Career.recognition` | You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard that counts only you. |
 | `domain_climb.Career.lived` | Since your late teens you have been the one handed the job nobody else would finish alone. You have changed teams or roles at least once because someone else took the credit for your work. |
 | `domain_climb.Social.headline` | Your friends are your equals, or they drift. |
 | `domain_climb.Social.recognition` | You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years. |
-| `domain_climb.Social.lived` | Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear. |
+| `domain_climb.Social.lived` | Your friendships since your late teens have been between equals, with one friend in particular who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `retired_2026-10-21_section_audit.domain_climb.Career.recognition` | You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end. |
+| `retired_2026-10-21_section_audit.domain_climb.Social.lived` | Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear. |

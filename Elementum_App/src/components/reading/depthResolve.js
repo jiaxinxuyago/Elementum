@@ -21,7 +21,8 @@ const UNITS = { ...DEPTH_UNITS, ...STAR_UNITS };
 import { TG_PERSONA } from '../../content/index.js';
 import { TG_PATTERNS } from '../../content/tgPatterns.js';
 import { GATES } from '../../content/positions.js';
-import { readerAge, decadePole, RULING, GATE_ORDER, GATE_START, GATE_SPAN, DEC_MIN, DEC_MAX } from './domainsResolve.js';
+import { readerAge, decadePole, RULING, GATE_ORDER, GATE_START, GATE_SPAN, DEC_MIN, DEC_MAX, DEPTH_RULES_V2 } from './domainsResolve.js';
+import { pairingContext, pairingHolds, STATE_PAIRING } from '../../engine/depth/pairings.js';
 import { structureOf, branchBonds, godProfile, flowYears, starsOf, arrivingStars, seasonOf, STRUCTURE_NAME } from '../../engine/depth/index.js';
 import { relationOf } from '../../engine/index.js';
 // Life Chapters, energy first (owner 2026-10-21, L1–L10 A, live): its own resolver; the round-1 path retired (A4)
@@ -81,7 +82,7 @@ const gateOfAge = (a) => (a < 16 ? 'year' : a < 35 ? 'month' : a < 48 ? 'day' : 
 const lc = (s) => String(s || '').toLowerCase();
 
 function context(chart, opts) {
-  const who = readerAge(chart, opts.year) || { age: 30, birthYear: null, nowYear: new Date().getFullYear() };
+  const who = readerAge(chart, opts.year, opts.today) || { age: 30, birthYear: null, nowYear: new Date().getFullYear() };
   const luck = (chart?.luckPillars || []).map((l) => {
     const el = lc(l.element);
     return { god: l.stemTenGod?.zh, el, stem: l.stem, branch: l.branch, startAge: l.startAge, endAge: l.endAge ?? l.startAge + 9, startYear: l.startYear, endYear: l.endYear ?? l.startYear + 9, pole: decadePole(el, opts.roles, opts.condition) };
@@ -144,6 +145,26 @@ export function resolveStars(chart, opts = {}) {
 }
 
 // ── Energy Blueprint ────────────────────────────────────────────────
+// R3 A: one bond line per pair of gates, the strongest relation first; a full 三刑 (寅巳申, 丑戌未) prints once across its gates
+const BOND_RANK = { 六冲: 6, 刑: 5, 六害: 4, 六合: 3, 三合: 2, 半合: 2, 自刑: 1 };
+const TRIOS = ['寅巳申', '丑戌未'];
+function oneBondPerPair(list) {
+  let out = list;
+  for (const t of TRIOS) {
+    const xs = out.filter((b) => b.type === '刑' && [...b.branches].every((x) => t.includes(x)));
+    const has = new Set(xs.flatMap((b) => [...b.branches]));
+    if ([...t].every((x) => has.has(x))) {
+      const gates = [...new Set(xs.flatMap((b) => b.gates))];
+      out = [...out.filter((b) => !xs.includes(b)), { type: '刑', en: 'punishment', gates, branches: t, trio: true }];
+    }
+  }
+  const best = new Map();
+  for (const b of out) {
+    const k = [...b.gates].sort().join('|'); const o = best.get(k);
+    if (!o || BOND_RANK[b.type] > BOND_RANK[o.type]) best.set(k, b);
+  }
+  return [...best.values()];
+}
 const NUM_LOWER = ['no', 'one', 'two', 'three', 'four', 'five', 'six'];
 const shareWords = (x) => (x >= 0.72 ? 'three quarters' : x >= 0.6 ? 'two thirds' : x >= 0.5 ? 'more than half' : 'nearly half');
 // the station slug of each breaker (the engine names them in classical terms)
@@ -156,13 +177,18 @@ const RESCUE = {
   seal: ['Support protects it, a teacher or a backer or a home base', 'and you find that support in your decades {when}'],
   wealth: ['Money protects it, a steady income or a shared venture', 'and you meet it in your decades {when}'],
 };
+// {when} names the decades in words that follow "in" (R8 A): this decade, your next decade, a later decade …
+const WHEN = { now: 'this decade', next: 'your next decade', later: 'a later decade', 'now next': 'this decade and the next', 'now later': 'this decade and a later one', 'next later': 'your next decade and later ones', 'now next later': 'this decade and the ones after it' };
+// the dev-site state notes name the strain in plain words when a note is unwritten
+const BREAKER_V2 = { peers: 'equals beside it', mixed: 'the Magistrate and the General mixing', virtuoso: 'the Virtuoso', general: 'the General', alchemist: 'the Alchemist', magistrate: 'the Magistrate', money: 'money pressing on it', starved: 'thinking that starves making', unchecked: 'pressure nothing holds in check', idle: 'strength with no outlet', heavy: 'a weight heavier than your own strength', heavywealth: 'more money than your strength can hold', excess: 'more of one force than you can use', drained: 'more output than your strength can feed' };
 const rescueText = (fam, when) => `${RESCUE[fam][0]}, ${when === null ? 'and no decade of yours brings it' : when === 'already lived' ? 'and the decades that brought it are behind you' : RESCUE[fam][1].replace('{when}', when)}.`;
 /** The four parts: the structure, what the chart runs on and lacks (with the season), seen and unseen, pairings and clashes. */
 export function resolveBlueprint(chart, positions, opts = {}) {
   const c = context(chart, opts); const { age, luck, cur } = c; const hu = c.hourUnknown;
   const dm = chart.pillars.day.stem; const dmEl = STEM_EL[dm];
   // 1 · the structure
-  const s = structureOf(chart, { strength: chart.dayMaster?.strength, hourUnknown: hu, luck: chart.luckPillars });
+  const v2 = opts.bpRules ?? DEPTH_RULES_V2;
+  const s = structureOf(chart, { strength: chart.dayMaster?.strength, hourUnknown: hu, luck: chart.luckPillars, rules: v2 ? 'v2' : 'v1' });
   const sGod = STRUCT_GOD[s.key] || s.key; const P = persona(sGod);
   const reading = unit(`STRUCTURE ${STRUCT_ID[s.key]} · reading`, `Your chart is built around the ${P}, and its ${GLOSS[sGod]} organises the rest of your reading.`);
   const w = s.why; const holder = persona(w.holder);
@@ -172,18 +198,23 @@ export function resolveBlueprint(chart, positions, opts = {}) {
         : w.how === 'main' ? `The ${P} who holds your strongest seat also shows on ${NUM_LOWER[w.shown] || w.shown} of your stems, and you answer to it before anything else in your chart.`
           : `The ${w.element} hidden in your strongest seat shows on ${NUM_LOWER[w.shown] || w.shown} of your stems. That makes the ${P} the organising force of your life, and you answer to it more than to the ${holder} who holds the seat.`;
   const statusLabel = { formed: 'Formed.', strained: 'Formed, under strain.', broken: 'Broken.' }[s.status];
-  const breakers = s.breaker === '比劫' ? [...new Set(positions.filter((p) => p.god === '比肩' || p.god === '劫财').map((p) => persona(p.god)))] : [];
+  const breakers = s.breaker === '比劫' || s.breaker === 'peers' ? [...new Set(positions.filter((p) => p.god === '比肩' || p.god === '劫财').map((p) => persona(p.god)))] : [];
   const fam = FAMILY_OF[s.key];
   const statusText = s.status === 'formed' ? 'Nothing in your chart pulls against it, and you can lean on it without a second thought.'
     : fam === 'wealth' && s.breaker === '比劫' && breakers.length ? `The ${breakers.join(' and the ')} ${pl(breakers.length, 'stands', 'stand')} close to your ${P}${positions.filter((p) => p.god === sGod).length > 1 ? 's' : ''}, and you keep losing a share of what you earn to equals.`
       : s.status === 'broken' ? `It is broken by ${BREAKER[s.breaker] || s.breaker}, and you carry the strain of it until something in your decades repairs it.`
         : `It holds, and ${BREAKER[s.breaker] || s.breaker} keeps pulling at it, and you feel that pull most in the years that feed it.`;
-  const statusKey = `STRUCTURE ${fam} · status.${s.status}.${BREAKER_ID[s.breaker] || 'none'}`;
-  const statusUnit = fill(statusKey, { breakers: breakers.join(' and the '), stand: pl(breakers.length, 'stands', 'stand'), gods: P }, statusText);
+  // the state note, keyed by structure (R7 A), then by family while a structure's own note is unwritten
+  const bId = v2 ? s.breakerId : BREAKER_ID[s.breaker] || 'none';
+  const statusText2 = v2 ? (s.status === 'formed' ? (bId === 'cured' ? 'Something in your chart pulls against it, and something else in your chart answers it, and you can lean on it.' : 'Nothing in your chart pulls against it, and you can lean on it without a second thought.')
+    : `It ${s.status === 'broken' ? 'is broken by' : 'holds, and feels the pull of'} ${BREAKER_V2[bId] || bId}, and you feel it most in the years that feed it.`) : statusText;
+  const byStructure = `STRUCTURE ${STRUCT_ID[s.key]} · status.${s.status}.${bId}`;
+  const statusKey = UNITS[byStructure] || v2 ? byStructure : `STRUCTURE ${fam} · status.${s.status}.${bId}`;
+  const statusUnit = fill(statusKey, { breakers: breakers.join(' and the '), stand: pl(breakers.length, 'stands', 'stand'), gods: P }, statusText2);
   const rel = (l) => (l === cur ? 'now' : cur && l.startYear === (luck[luck.indexOf(cur) + 1] || {}).startYear ? 'next' : l.endAge < age ? 'already lived' : 'later');
   const rescueDecs = s.rescueDecades.map((r) => luck.find((l) => l.startYear === r.startYear)).filter((l) => l && l.startAge <= DEC_MAX);
   const ahead = rescueDecs.filter((l) => rel(l) !== 'already lived');
-  const when = [...new Set(ahead.map(rel))].join(' and ');
+  const when = WHEN[[...new Set(ahead.map(rel))].join(' ')] || 'a later decade';
   const rescueForm = !rescueDecs.length ? '.none' : !ahead.length ? '.lived' : '';
   const rescue = s.rescue ? {
     label: rescueDecs.length ? `what protects it · ${rescueDecs.map((l) => `${persona(l.god)} decade ${l.startYear} to ${l.endYear}`).join(' · ')}` : 'what protects it',
@@ -201,9 +232,10 @@ export function resolveBlueprint(chart, positions, opts = {}) {
   const missing = profile.filter((g) => g.state === 'absent').map((g) => {
     const decs = luck.filter((l) => l.god === g.god && l.startAge <= DEC_MAX);
     const nowOrNext = decs.find((l) => l.endAge >= age);
-    const tag = [`no ${persona(g.god)}`, seasonGods.has(g.god) ? 'your season asks for it too' : null,
+    const tag = [hu ? `not in your three known pillars · your Hour Gate could hold it` : `no ${persona(g.god)}`, seasonGods.has(g.god) ? 'your season asks for it too' : null,
       nowOrNext ? (nowOrNext.startAge <= age ? `it comes with your decade now, ${nowOrNext.startYear} to ${nowOrNext.endYear}` : `it arrives with your decade ${nowOrNext.startYear} to ${nowOrNext.endYear}`) : decs.length ? `your ${persona(g.god)} decade ${decs[decs.length - 1].startYear} to ${decs[decs.length - 1].endYear} is lived` : 'no decade of yours brings it'].filter(Boolean).join(' · ');
-    return { god: g.god, label: tag, ...unit(`GOD ${GOD_ID[g.god]} · missing`, `No ${persona(g.god)} sits in your chart, and its ${GLOSS[g.god]} reaches you only from outside.`) };
+    const openKey = `GOD ${GOD_ID[g.god]} · missing.open`;
+    return { god: g.god, label: tag, ...(hu && UNITS[openKey] ? unit(openKey, '') : unit(`GOD ${GOD_ID[g.god]} · missing`, `No ${persona(g.god)} sits in your chart, and its ${GLOSS[g.god]} reaches you only from outside.`)) };
   });
   const seasonReading = season ? unit(`SEASON ${PINYIN[dm]}.${PINYIN[season.month]} · reading`, `You were born in ${SEASON_PHRASE[season.month]}, and your season asks for ${season.asks.filter((a) => a.rank === 'primary').map((a) => STEM_EL[a.stem]).filter((x, i, arr) => arr.indexOf(x) === i).join(' first and ')}${season.asks.filter((a) => a.rank === 'primary').length > 1 ? ' second' : ''}.`) : null;
   const STATE_WORD = { shown: 'on show', rooted: 'inside a branch, not on show', hidden: 'hidden deep' };
@@ -222,17 +254,22 @@ export function resolveBlueprint(chart, positions, opts = {}) {
   const seenClose = unit('TEMPLATED tpl_depth · seen.close', 'Only the people you live with meet the second list.');
   // 4 · pairings and clashes: the god pairings the seats carry (one per seat, TG_PATTERNS order), then the branch bonds
   const present = new Set(positions.map((p) => p.god)); const taken = new Set(); const pairs = [];
+  const pctx = v2 ? pairingContext(chart, positions, { structure: s.key }) : null;
   for (const tp of TG_PATTERNS) {
     const [a, b] = tp.gods; if (!a.some((g) => present.has(g)) || !b.some((g) => present.has(g))) continue;
+    if (pctx && (!pairingHolds(tp.key, pctx) || STATE_PAIRING[s.breakerId] === tp.key)) continue;
     const carriers = positions.filter((p) => !taken.has(p.id) && (a.includes(p.god) || b.includes(p.god)));
     if (!carriers.length) continue; carriers.forEach((p) => taken.add(p.id));
     pairs.push({ label: `${tp.en} · ${tp.zh}`, ...unit(`TG_PATTERN ${tp.key} · blueprint_line`, `${tp.en} runs through your chart, and you feel it in more than one part of your life.`) });
   }
-  const bonds = branchBonds(chart, { hourUnknown: hu }).map((b) => {
+  const bonds = oneBondPerPair(branchBonds(chart, { hourUnknown: hu })).map((b) => {
     const gs = b.gates.filter((g) => GATE_ORDER.includes(g)).sort((x, y) => GATE_ORDER.indexOf(x) - GATE_ORDER.indexOf(y));
     const k = BOND_KEY[b.type];
+    // a bond that dates a change to a gate reads lived or coming by the reader's age (R3 A)
+    const baseKey = `TEMPLATED tpl_depth · bond.${k}.${b.trio ? `${gs[0]}_${gs[gs.length - 1]}` : gs.join('_')}`; const tenseKey = `${baseKey}.${age >= GATE_START[gs[gs.length - 1]] ? 'lived' : 'coming'}`;
     const label = b.type === '自刑' ? `${GATES[gs[0]].replace(' Gate', '')} and ${GATES[gs[gs.length - 1]].replace(' Gate', '')} share ${b.branches[0]} · 自刑` : `${GATES[gs[gs.length - 1]].replace(' Gate', '')} ${BOND_LABEL[k].toLowerCase()} ${GATES[gs[0]].replace(' Gate', '')} · ${canon(b.branches)}${b.type === '六合' ? '合' : b.type === '六冲' ? '冲' : b.type === '六害' ? '害' : b.type === '刑' || b.type === '自刑' ? '刑' : ''}`;
-    return { type: b.type, label: label.charAt(0).toUpperCase() + label.slice(1), ...unit(`TEMPLATED tpl_depth · bond.${k}.${gs.join('_')}`, `Your ${GATES[gs[gs.length - 1]]} ${BOND_LABEL[k].toLowerCase()} your ${GATES[gs[0]]}, and ${GATE_LIFE[gs[gs.length - 1]]} and ${GATE_LIFE[gs[0]]} move together.`) };
+    const lab = b.trio ? `${GATES[gs[gs.length - 1]].replace(' Gate', '')}, ${gs.slice(1, -1).map((g) => GATES[g].replace(' Gate', '')).join(', ')} and ${GATES[gs[0]].replace(' Gate', '')} punish each other · ${b.branches}刑` : label;
+    return { type: b.type, label: lab.charAt(0).toUpperCase() + lab.slice(1), ...unit(UNITS[tenseKey] ? tenseKey : baseKey, `Your ${GATES[gs[gs.length - 1]]} ${BOND_LABEL[k].toLowerCase()} your ${GATES[gs[0]]}, and ${GATE_LIFE[gs[gs.length - 1]]} and ${GATE_LIFE[gs[0]]} move together.`) };
   });
   const hard = bonds.some((b) => ['六冲', '刑', '六害', '自刑'].includes(b.type));
   const noneHard = hard ? null : unit('TEMPLATED tpl_depth · bond.none_hard', 'No clashes, punishments or harms sit between your gates, and you argue with yourself less than most people do.');
@@ -256,9 +293,11 @@ export function resolveDomainView(page, chart, content, opts = {}) {
   for (const p of page.seats) {
     const t = gateTense(p.gateKey, age); const u = S[p.id]?.domains?.[d] || {};
     const useAhead = t === 'coming' && u.ahead;
-    const text = useAhead ? u.ahead : u.lived || u.ahead || null;
+    // a reader past the Month or Day Gate reads its beat in the past (R13 A)
+    const usePast = !useAhead && t === 'lived' && (p.gateKey === 'month' || p.gateKey === 'day') && u.lived_past;
+    const text = useAhead ? u.ahead : usePast ? u.lived_past : u.lived || u.ahead || null;
     const meta = [CHAPTER[p.gateKey], t === 'coming' ? `from ${GATE_START[p.gateKey]}${birthYear == null ? '' : ` · ${birthYear + GATE_START[p.gateKey]}`}` : GATE_SPAN[p.gateKey], p.kind === 'stem' ? 'in plain view' : null, t === 'now' ? 'now' : t].filter(Boolean).join(' · ');
-    blocks.push({ kind: 'seat', gate: p.gateKey, seat: p, name: p.term, meta, text, src: `POSITION ${p.id} · domain_climb.${d}.${useAhead ? 'ahead' : 'lived'}` });
+    blocks.push({ kind: 'seat', gate: p.gateKey, seat: p, name: p.term, meta, text, src: `POSITION ${p.id} · domain_climb.${d}.${useAhead ? 'ahead' : usePast ? 'lived_past' : 'lived'}` });
   }
   // the gap row: the reader's own gate holds no seat for this domain
   // (and never while a decade that rules this domain runs in that gate: the round-1 rule resolveDomains keeps, section audit DA-001)

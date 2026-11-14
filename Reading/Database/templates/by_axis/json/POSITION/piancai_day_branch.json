@@ -39,7 +39,7 @@
         "headline": "You fall for people who widen your life.",
         "recognition": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
         "lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.",
-        "ahead": "Your Home Chapter opens in your mid-thirties, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
+        "ahead": "Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
       },
       "Social": {
         "headline": "Your friends come with plans.",
@@ -64,7 +64,8 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Love.recognition": "In love you fall for people who widen your life, the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
-        "domain_climb.Social.ahead": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape your next twenty years through someone you share a home with."
+        "domain_climb.Social.ahead": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape your next twenty years through someone you share a home with.",
+        "domain_climb.Love.ahead": "Your Home Chapter opens in your mid-thirties, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
       }
     }
   },
@@ -143,6 +144,13 @@
       "field": "domain_climb.Social.ahead",
       "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
       "finding": "DE:DE-034",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Love.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "G1:DB:DB-036",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }

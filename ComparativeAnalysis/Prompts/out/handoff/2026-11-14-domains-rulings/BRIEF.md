@@ -140,7 +140,7 @@ When two characters share a gate and a domain in your worklist, read their units
 
 ### R16. One sentence shape no longer carries every page
 
-- **The close budget.** At most three in ten units of one `family` may close on ", and you …". Close the rest on a "You …" sentence, on "Your …", or on a short clause before "you" ("By your forties you …"). Vary the shape; the reader is still the subject of the last sentence.
+- **The close budget.** At most one in eight units of one `family` (12%) may close on ", and you …", because a page shows up to six units of a family and the ruling allows one such close per family per page. Close the rest on a "You …" sentence, on "Your …", or on a short clause before "you" ("By your forties you …"). Vary the shape; the reader is still the subject of the last sentence.
 - **Decade lines** never restate their period ("these years", "those years", "this decade"), because the label already gives it. Lived decade lines are in the past and coming ones in the future.
 - **Frame families** (missing, need, seen): no opening shared by more than two units. "nobody inside it", "your season asks for" and "you come across as" may each appear in at most three units.
 

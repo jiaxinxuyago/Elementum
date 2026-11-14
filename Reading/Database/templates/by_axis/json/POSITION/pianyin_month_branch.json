@@ -37,12 +37,12 @@
     "domain_climb": {
       "Mind": {
         "headline": "Your mind runs best on what others find strange.",
-        "recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is often the thing that matters most.",
-        "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade them back."
+        "recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is the thing that matters most.",
+        "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them."
       },
       "Growth": {
         "headline": "You grow late, and mostly in private.",
-        "recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you often underrate where you are, and you let them. You are further along than anyone watching would guess.",
+        "recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you underrate where you are, and you let them. You are further along than anyone watching would guess.",
         "lived": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years."
       },
       "Career": {
@@ -55,6 +55,11 @@
       "domains_round1_retired_2026-10-21": {
         "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
         "reading": "You do your real thinking alone, on questions most people find strange, and your working years are built on it. Because you trust what you have worked out yourself more than what you were taught, you look quiet from outside while the real work happens inside. You found your important teachers off the usual path, and you are slowly becoming the odd teacher someone else needs."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Growth.recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you often underrate where you are, and you let them. You are further along than anyone watching would guess.",
+        "domain_climb.Mind.recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is often the thing that matters most.",
+        "domain_climb.Mind.lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade them back."
       }
     }
   },
@@ -121,6 +126,27 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "G1:DD:DD-021",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Mind.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "G1:DD:DD-022",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "G1:DD:DD-032",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

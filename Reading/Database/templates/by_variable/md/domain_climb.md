@@ -33,11 +33,11 @@
 | Field | Value |
 |---|---|
 | `Career.headline` | You do your best work as nobody's junior. |
-| `Career.recognition` | You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end. |
+| `Career.recognition` | You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard that counts only you. |
 | `Career.lived` | Since your late teens you have been the one handed the job nobody else would finish alone. You have changed teams or roles at least once because someone else took the credit for your work. |
 | `Social.headline` | Your friends are your equals, or they drift. |
 | `Social.recognition` | You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years. |
-| `Social.lived` | Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear. |
+| `Social.lived` | Your friendships since your late teens have been between equals, with one friend in particular who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear. |
 
 ### The Twin inside the Month Gate · 比肩在月支
 
@@ -192,7 +192,7 @@
 |---|---|
 | `Family.headline` | You were fed well, and you became the one who feeds. |
 | `Family.recognition` | You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it. |
-| `Family.lived` | Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside. |
+| `Family.lived` | Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside. |
 | `Health.headline` | Your body trusts food and rest to put it right. |
 | `Health.recognition` | You trust your body to fix itself with a good meal and a long sleep, and for most of your life it has. Because comfort is how you recover, you reach for it under stress, and you turn the extra helping or the lost weekend into a habit before you notice. Your body asks you for rhythm more than for effort. |
 | `Health.lived` | You were a child who recovered quickly, from colds and falls and bad days alike. Your appetite and your sleep were steady, and you came into adulthood with more reserve than most of the people around you. |
@@ -399,7 +399,7 @@
 | `Love.headline` | You fall for people who widen your life. |
 | `Love.recognition` | In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out. |
 | `Love.lived` | The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person. |
-| `Love.ahead` | Your Home Chapter opens in your mid-thirties, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together. |
+| `Love.ahead` | Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together. |
 | `Social.headline` | Your friends come with plans. |
 | `Social.recognition` | You collect friends who are going somewhere, the ones with a trip planned and a contact for everything. Because range is what draws you, you lose touch with friends whose lives stay small, and you feel guilty about it only later. You know a great many people, and you let only a few of them close. |
 | `Social.lived` | Most of your friendships have started with an introduction or an invitation, someone who brought you into their circle. You have kept some of those circles longer than you kept the people who brought you in. |
@@ -499,7 +499,7 @@
 | `Wealth.headline` | Your money gets steadier every decade. |
 | `Wealth.recognition` | You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it. |
 | `Wealth.lived` | Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention. |
-| `Wealth.ahead` | Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough. |
+| `Wealth.ahead` | Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough. |
 | `Family.headline` | You end up as the one who provides. |
 | `Family.recognition` | You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early. |
 | `Family.lived` | You have become your family's provider since your late forties, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard. |
@@ -747,10 +747,10 @@
 | Field | Value |
 |---|---|
 | `Mind.headline` | Your mind runs best on what others find strange. |
-| `Mind.recognition` | You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is often the thing that matters most. |
-| `Mind.lived` | From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade them back. |
+| `Mind.recognition` | You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is the thing that matters most. |
+| `Mind.lived` | From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them. |
 | `Growth.headline` | You grow late, and mostly in private. |
-| `Growth.recognition` | You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you often underrate where you are, and you let them. You are further along than anyone watching would guess. |
+| `Growth.recognition` | You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you underrate where you are, and you let them. You are further along than anyone watching would guess. |
 | `Growth.lived` | Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years. |
 | `Career.headline` | Your work pays for what only you know. |
 | `Career.recognition` | You are the specialist people call when the usual answers fail. Because you trust knowledge you have dug out yourself, you are drawn to a narrow field the mainstream ignores, and you would rather be paid for strange work than praised for ordinary work. You earn more from the niche you choose than any ladder would pay you. |

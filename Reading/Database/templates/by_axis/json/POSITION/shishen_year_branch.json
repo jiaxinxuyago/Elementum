@@ -36,7 +36,7 @@
       "Family": {
         "headline": "You were fed well, and you became the one who feeds.",
         "recognition": "You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it.",
-        "lived": "Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
+        "lived": "Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
       },
       "Health": {
         "headline": "Your body trusts food and rest to put it right.",
@@ -48,6 +48,9 @@
       "domains_round1_retired_2026-10-21": {
         "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
         "reading": "You were fed well as a child, in more than one sense, and that early comfort still sits under the way you live. Because ease was given to you before you had to earn it, you recover through simple things, food and a full night's sleep and the company of people you love. Whatever else your first home held, you took from it a store of warmth you have drawn on in every hard season since."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Family.lived": "Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
       }
     }
   },
@@ -100,6 +103,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "G1:DA:DA-019",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

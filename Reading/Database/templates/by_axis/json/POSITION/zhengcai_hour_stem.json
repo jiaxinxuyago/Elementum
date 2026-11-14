@@ -37,7 +37,7 @@
         "headline": "Your money gets steadier every decade.",
         "recognition": "You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it.",
         "lived": "Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention.",
-        "ahead": "Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough."
+        "ahead": "Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough."
       },
       "Family": {
         "headline": "You end up as the one who provides.",
@@ -51,6 +51,9 @@
         "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
         "reading": "You are building toward a late life that pays its own way, even when the middle years scatter your plans. Because keeping things in order is how you show care, the habits you hold now turn into calm accounts and settled debts after your late forties. You will teach the people after you about money mostly by example, and you will leave them more than numbers.",
         "domain_climb.Family.lived": "Since your late forties you have become your family's provider, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Wealth.ahead": "Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough."
       }
     }
   },
@@ -103,6 +106,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "G1:DB:DB-029",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

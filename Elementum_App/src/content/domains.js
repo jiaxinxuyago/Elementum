@@ -68,13 +68,13 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "You do your best work as nobody's junior.",
-     "recognition": "You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end.",
+     "recognition": "You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard that counts only you.",
      "lived": "Since your late teens you have been the one handed the job nobody else would finish alone. You have changed teams or roles at least once because someone else took the credit for your work."
     },
     "Social": {
      "headline": "Your friends are your equals, or they drift.",
      "recognition": "You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years.",
-     "lived": "Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear."
+     "lived": "Your friendships since your late teens have been between equals, with one friend in particular who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear."
     }
    }
   },
@@ -221,7 +221,7 @@ export const DOMAINS_CONTENT = {
      "headline": "You fall for people who widen your life.",
      "recognition": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
      "lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.",
-     "ahead": "Your Home Chapter opens in your mid-thirties, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
+     "ahead": "Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
     },
     "Social": {
      "headline": "Your friends come with plans.",
@@ -394,12 +394,12 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Mind": {
      "headline": "Your mind runs best on what others find strange.",
-     "recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is often the thing that matters most.",
-     "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade them back."
+     "recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is the thing that matters most.",
+     "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them."
     },
     "Growth": {
      "headline": "You grow late, and mostly in private.",
-     "recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you often underrate where you are, and you let them. You are further along than anyone watching would guess.",
+     "recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you underrate where you are, and you let them. You are further along than anyone watching would guess.",
      "lived": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years."
     },
     "Career": {
@@ -768,7 +768,7 @@ export const DOMAINS_CONTENT = {
     "Family": {
      "headline": "You were fed well, and you became the one who feeds.",
      "recognition": "You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it.",
-     "lived": "Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
+     "lived": "Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
     },
     "Health": {
      "headline": "Your body trusts food and rest to put it right.",
@@ -835,7 +835,7 @@ export const DOMAINS_CONTENT = {
      "headline": "Your money gets steadier every decade.",
      "recognition": "You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it.",
      "lived": "Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention.",
-     "ahead": "Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough."
+     "ahead": "Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough."
     },
     "Family": {
      "headline": "You end up as the one who provides.",
@@ -1591,5 +1591,7 @@ export const DOMAINS_CONTENT = {
   "Mind": "Your thinking changes character with each decade.",
   "Growth": "Your growth keeps the pace of each decade.",
   "Social": "Your circle widens and thins with the decades."
- }
+ },
+ "waiting": {},
+ "waitingHeadline": {}
 };

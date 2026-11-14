@@ -37,7 +37,7 @@
 | `domain_climb.Wealth.headline` | Your money gets steadier every decade. |
 | `domain_climb.Wealth.recognition` | You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it. |
 | `domain_climb.Wealth.lived` | Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention. |
-| `domain_climb.Wealth.ahead` | Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough. |
+| `domain_climb.Wealth.ahead` | Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough. |
 | `domain_climb.Family.headline` | You end up as the one who provides. |
 | `domain_climb.Family.recognition` | You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early. |
 | `domain_climb.Family.lived` | You have become your family's provider since your late forties, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard. |
@@ -50,3 +50,4 @@
 | `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
 | `domains_round1_retired_2026-10-21.reading` | You are building toward a late life that pays its own way, even when the middle years scatter your plans. Because keeping things in order is how you show care, the habits you hold now turn into calm accounts and settled debts after your late forties. You will teach the people after you about money mostly by example, and you will leave them more than numbers. |
 | `domains_round1_retired_2026-10-21.domain_climb.Family.lived` | Since your late forties you have become your family's provider, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard. |
+| `retired_2026-10-21_section_audit.domain_climb.Wealth.ahead` | Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough. |

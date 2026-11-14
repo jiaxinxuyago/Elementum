@@ -50,3 +50,8 @@ export const SC_LIVE = true;
 // Mirror) on the share card and the album hero; the manifesto moves to "How am
 // I running?". Dev site only until the owner says live.
 export const TYPE_LIVE = false;
+
+// The Blueprint's state rules and the pairing conditions (owner R1 A, R2 A,
+// 2026-11-14): "a sample of pages comes back to you before it ships". Read by
+// the dev site through DEPTH_RULES_V2 (domainsResolve.js) until this is true.
+export const BLUEPRINT_RULES_LIVE = false;

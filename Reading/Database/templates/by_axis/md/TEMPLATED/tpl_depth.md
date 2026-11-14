@@ -299,7 +299,7 @@
 | `units.STRUCTURE zhengyin_ge · reading` | Your chart rests on shelter and learning, on teachers who back you and places that look after their own. You do your best work where study is valued and someone senior vouches for you, and you repay that care with years of loyalty. |
 | `units.TEMPLATED tpl_depth · bond.bind.day_hour` | The home you make with a partner draws in the younger people around you, and you spend your later years inside the household you built. |
 | `units.TEMPLATED tpl_depth · bond.bind.month_day` | You find a partner close to your work or your parents' circle, and the line between your job and your home stays thin for years. |
-| `units.TEMPLATED tpl_depth · bond.bind.month_hour` | You carry the people and skills of your working years into your later life, and the circle you build now stays with you. |
+| `units.TEMPLATED tpl_depth · bond.bind.month_hour` | You carry the people and skills of your working years into your later life, and the circle you build in those years stays with you. |
 | `units.TEMPLATED tpl_depth · bond.bind.year_day` | You build your own home close to the habits of the one you grew up in, and you return to them more than you expected. |
 | `units.TEMPLATED tpl_depth · bond.bind.year_hour` | You pass the customs of your first family to the young people you raise or train, and your later years come to resemble your earliest ones. |
 | `units.TEMPLATED tpl_depth · bond.bind.year_month` | Your first family stays tied to your working life, and you take a trade or a contact or a loyalty from home into every job you hold. |
@@ -339,19 +339,19 @@
 | `units.TEMPLATED tpl_depth · bond.selfpunish.year_day` | The quarrel you grew up around repeats in your own home with a partner, and you end it by changing your own part in it. |
 | `units.TEMPLATED tpl_depth · bond.selfpunish.year_hour` | Your childhood plays out again around the young ones in your care, and you recognise the old scene early enough to give it a different ending. |
 | `units.TEMPLATED tpl_depth · bond.selfpunish.year_month` | The role you played in your family returns at work, the peacemaker or the one who carries everything, and you change it once you see it twice. |
-| `units.TEMPLATED tpl_depth · rescue.officer` | Outside pressure protects it, a boss or a rule or a deadline, and you meet that pressure in your decades {when}. |
+| `units.TEMPLATED tpl_depth · rescue.officer` | Outside pressure protects it, a boss or a rule or a deadline, and you meet that pressure in {when}. |
 | `units.TEMPLATED tpl_depth · rescue.officer.lived` | Outside pressure protects it, a boss or a rule or a deadline, and you met that pressure in decades now behind you. |
 | `units.TEMPLATED tpl_depth · rescue.officer.none` | Outside pressure protects it, a boss or a rule or a deadline, and you supply that pressure yourself because no decade of yours brings it. |
-| `units.TEMPLATED tpl_depth · rescue.output` | What you make protects it, work you finish and show, and you find the time to make it in your decades {when}. |
+| `units.TEMPLATED tpl_depth · rescue.output` | What you make protects it, work you finish and show, and you find the time to make it in {when}. |
 | `units.TEMPLATED tpl_depth · rescue.output.lived` | What you make protects it, work you finish and show, and you found the time for it in decades now behind you. |
 | `units.TEMPLATED tpl_depth · rescue.output.none` | What you make protects it, work you finish and show, and you make the time for it yourself because no decade of yours brings it. |
-| `units.TEMPLATED tpl_depth · rescue.seal` | Support protects it, a teacher or a backer or a home base, and you find that support in your decades {when}. |
+| `units.TEMPLATED tpl_depth · rescue.seal` | Support protects it, a teacher or a backer or a home base, and you find that support in {when}. |
 | `units.TEMPLATED tpl_depth · rescue.seal.lived` | Support protects it, a teacher or a backer or a home base, and you found that support in decades now behind you. |
 | `units.TEMPLATED tpl_depth · rescue.seal.none` | Support protects it, a teacher or a backer or a home base, and you build that support yourself because no decade of yours brings it. |
-| `units.TEMPLATED tpl_depth · rescue.wealth` | Money protects it, a steady income or a shared venture, and you meet it in your decades {when}. |
+| `units.TEMPLATED tpl_depth · rescue.wealth` | Money protects it, a steady income or a shared venture, and you meet it in {when}. |
 | `units.TEMPLATED tpl_depth · rescue.wealth.lived` | Money protects it, a steady income or a shared venture, and you met it in decades now behind you. |
 | `units.TEMPLATED tpl_depth · rescue.wealth.none` | Money protects it, a steady income or a shared venture, and you earn it yourself because no decade of yours brings it. |
-| `units.TEMPLATED tpl_depth · seen.close` | Only the people you live with meet the second list. |
+| `units.TEMPLATED tpl_depth · seen.close` | Only the people you live with see the second list. |
 | `units.TEMPLATED tpl_depth · strongest.one` | {a} alone carries {share} of your chart, and you live mostly through {a_noun}. |
 | `units.TEMPLATED tpl_depth · strongest.two` | {a} and {b} carry {share} of your chart, and you live mostly through {a_noun} and {b_noun}. |
 | `units.TEMPLATED tpl_depth · structure_rule.jie` | Your strongest seat holds a rival of your own element. Your chart is built around what you win against your equals, and you answer first to the contest. |
@@ -404,3 +404,9 @@
 | `retired_2026-10-21_section_audit.GOD zhengguan · year_domain.Social` | Roles and expectations shape your friendships this year, a committee seat or a host's duty, and you are known for showing up when you said you would. |
 | `retired_2026-10-21_section_audit.GOD bijian · year_domain.Social` | Friends meet you as equals this year, and you spend more time with people who do what you do than with those who look up to you. |
 | `retired_2026-10-21_section_audit.GOD zhengyin · year_domain.Family` | An older relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be. |
+| `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · seen.close` | Only the people you live with meet the second list. |
+| `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · bond.bind.month_hour` | You carry the people and skills of your working years into your later life, and the circle you build now stays with you. |
+| `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · rescue.officer` | Outside pressure protects it, a boss or a rule or a deadline, and you meet that pressure in your decades {when}. |
+| `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · rescue.output` | What you make protects it, work you finish and show, and you find the time to make it in your decades {when}. |
+| `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · rescue.seal` | Support protects it, a teacher or a backer or a home base, and you find that support in your decades {when}. |
+| `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · rescue.wealth` | Money protects it, a steady income or a shared venture, and you meet it in your decades {when}. |
