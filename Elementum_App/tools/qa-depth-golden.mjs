@@ -63,13 +63,15 @@ const V2 = [
   [{year: 1993, month: 10, day: 1, hour: 23, location: 'Beijing', gender: 'male'}, '正财格 strained heavywealth seal'], // 癸酉 辛酉 丙辰 戊子 · extremely_weak · 财多身弱
   [{year: 1977, month: 12, day: 19, hour: 19, location: 'Beijing', gender: 'female'}, '伤官格 formed cured'], // 丁巳 壬子 庚戌 丙戌 · weak · 金水伤官要见官
   [{year: 1983, month: 3, day: 22, hour: 7, location: 'Beijing', gender: 'male'}, '七杀格 strained heavy seal'], // 癸亥 乙卯 己酉 戊辰 · weak · 杀重身轻，以印化杀
-  [{year: 1979, month: 9, day: 6, hour: 21, location: 'Beijing', gender: 'female'}, '七杀格 strained mixed seal'], // 己未 壬申 丙子 己亥 · weak · 官杀混杂
+  [{ year: 2000, month: 10, day: 4, hour: 18, location: 'Beijing', gender: 'female' }, '七杀格 strained mixed output'], // 庚辰 乙酉 乙未 乙酉 · moderate · 官杀混杂, no output and no seal seated
+  [{ year: 1979, month: 9, day: 6, hour: 21, location: 'Beijing', gender: 'female' }, '七杀格 formed cured'], // 己未 壬申 丙子 己亥 · weak · 去官留杀: the Virtuoso (己) clears the Magistrate
   [{year: 1988, month: 10, day: 9, hour: 12, location: 'Beijing', gender: 'female'}, '伤官格 broken magistrate seal'], // 戊辰 壬戌 丁酉 丙午 · weak · 伤官见官
   [{year: 2001, month: 9, day: 28, hour: 10, location: 'Beijing', gender: 'male'}, '正官格 broken virtuoso seal'], // 辛巳 丁酉 甲午 己巳 · extremely_weak · 官逢伤克
   [{year: 2002, month: 2, day: 18, hour: 5, location: 'Beijing', gender: 'female'}, '正印格 strained excess wealth'], // 壬午 壬寅 丁巳 癸卯 · extremely_strong · 印重身强，透财以抑太过
   [{year: 1979, month: 10, day: 14, hour: 13, location: 'Beijing', gender: 'female'}, '正官格 strained heavy seal'], // 己未 甲戌 甲寅 辛未 · weak · 官重身轻，用印
   [{year: 1986, month: 9, day: 22, hour: 9, location: 'Beijing', gender: 'female'}, '食神格 broken alchemist wealth'], // 丙寅 丁酉 己巳 己巳 · moderate · 食神逢枭
-  [{year: 1990, month: 8, day: 24, hour: 3, location: 'Beijing', gender: 'male'}, '月劫格 strained unchecked output'], // 庚午 甲申 辛酉 庚寅 · extremely_strong · 透煞而无制
+  [{ year: 2003, month: 11, day: 6, hour: 14, location: 'Beijing', gender: 'female' }, '月劫格 strained unchecked output'], // 癸未 癸亥 癸未 己未 · extremely_strong · 透煞而无制 (the General on a stem, no output)
+  [{ year: 1990, month: 8, day: 24, hour: 3, location: 'Beijing', gender: 'male' }, '月劫格 formed none'], // 庚午 甲申 辛酉 庚寅 · the General only inside a branch, wealth on a stem: 透财
   [{year: 1973, month: 6, day: 21, hour: 0, location: 'Beijing', gender: 'male'}, '月刃格 strained idle officer'], // 癸丑 戊午 戊子 壬子 · strong · 刃无官杀
   [{year: 1993, month: 8, day: 26, hour: 15, location: 'Beijing', gender: 'male'}, '伤官格 strained drained seal'], // 癸酉 庚申 己卯 壬申 · weak · 伤官泄身太过
   [{year: 1980, month: 3, day: 24, hour: 3, location: 'Beijing', gender: 'female'}, '正印格 strained money officer'], // 庚申 己卯 丙申 庚寅 · moderate · 印轻逢财

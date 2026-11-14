@@ -35,11 +35,11 @@
 | `shadow_line` | Overloaded, respect becomes the only currency: warmth priced out of the exchange. |
 | `health_line` | Your body was trained by pressure and holds it loyally: tension is the old uniform. Take it off with real exercise, then real rest. |
 | `domain_climb.Social.headline` | People respect you first and like you second. |
-| `domain_climb.Social.recognition` | You walk into a group and people sort themselves around you, some matching your strength and others keeping their distance. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. Your friendships are strong and few, and you keep the ones who push back. |
+| `domain_climb.Social.recognition` | You walk into a group and people sort themselves around you, some squaring up and others stepping aside. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. You keep the few friends who push back when you push. |
 | `domain_climb.Social.lived` | As a child you were the one others looked to in a fight or a dare, and you did not give way easily. Your friends by your teens were either as tough as you or kept at a distance, and you learned diplomacy slowly. |
-| `domain_climb.Career.headline` | Authority found you early and kept finding you. |
-| `domain_climb.Career.recognition` | You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months. |
-| `domain_climb.Career.lived` | Responsibility beyond your age came to you before you were grown, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends. |
+| `domain_climb.Career.headline` | Authority keeps finding you, and the hard tests with it. |
+| `domain_climb.Career.recognition` | You end up in charge in most places you work, before you have asked for it. Because hard tests feel familiar to you, you take on serious work that makes others nervous. You rise through the hardest jobs and find easy ones dull within months. |
+| `domain_climb.Career.lived` | Pressure beyond your age reached you in your first years, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, but you came out of it tougher than most of your friends. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -50,3 +50,7 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Social.lived` | As a child you were the one others looked to in a fight or a dare, and you did not back down easily. By your teens your friends were either as tough as you or kept at a distance, and you learned diplomacy slowly. |
 | `domains_round1_retired_2026-10-21.domain_climb.Career.lived` | By your teens you were already given responsibility beyond your age, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends. |
 | `retired_2026-10-21_section_audit.domain_climb.Career.recognition` | You end up in charge in most places you work, often before you ask for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months. |
+| `retired_2026-11-14_rulings_round.domain_climb.Social.recognition` | You walk into a group and people sort themselves around you, some matching your strength and others keeping their distance. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. Your friendships are strong and few, and you keep the ones who push back. |
+| `retired_2026-11-14_rulings_round.domain_climb.Career.headline` | Authority found you early and kept finding you. |
+| `retired_2026-11-14_rulings_round.domain_climb.Career.recognition` | You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months. |
+| `retired_2026-11-14_rulings_round.domain_climb.Career.lived` | Responsibility beyond your age came to you before you were grown, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends. |

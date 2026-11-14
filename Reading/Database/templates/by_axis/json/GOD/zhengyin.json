@@ -147,6 +147,20 @@
       "retired_2026-10-21_section_audit": {
         "decade_lines.Family.heavy.lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing what was expected, and what carried you was one thing you chose for yourself.",
         "decade_lines.Health.helping.ahead": "Support and good rest restore you in these ten years, and recovery from strain comes faster than before. You sleep well and eat well, and your energy holds steady through the decade."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "decade_lines.Family.heavy.lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing as you were asked, and what carried you was one thing you chose for yourself.",
+        "decade_lines.Family.heavy.ahead": "Family care comes with conditions in these years, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need.",
+        "decade_lines.Family.helping.lived": "Care surrounded you in those years, from family who put your needs first and helped without being asked. You felt protected, and that security gave you the nerve to take on more than before.",
+        "decade_lines.Family.helping.ahead": "Family support reaches you in these ten years, as advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it.",
+        "decade_lines.Health.heavy.lived": "You let other people set your pace in those years, and you rested only when someone insisted. Their care carried you, and you learned afterwards to give yourself the same care without waiting to be asked.",
+        "decade_lines.Health.heavy.ahead": "Too much rest dulls you in these years, and comfortable days leave your energy low. What carries you is regular movement and a reason to get up early, and you feel better each time you have one.",
+        "decade_lines.Health.helping.lived": "Good care kept you well in those years, with regular meals, early nights and someone who noticed when you were tired. You recovered quickly from strain, and you felt safe in your body.",
+        "decade_lines.Health.helping.ahead": "Support and good rest restore you in these ten years, and you recover quickly from strain. You sleep well and eat well, and your energy holds steady through the decade.",
+        "decade_lines.Mind.helping.lived": "Steady study suited you in those years, and people who knew more than you gave your learning a firm base. You absorbed knowledge patiently, and much of what you know best dates from that decade.",
+        "decade_lines.Mind.helping.ahead": "Learning comes easily in these years, through books, good guides or a course taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past.",
+        "decade_lines.Mind.heavy.lived": "Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied more than you acted, and the depth of what you had learned is what kept you going.",
+        "decade_lines.Mind.heavy.ahead": "You study more than you act in these years, and your thinking turns cautious. Work that puts what you know to use carries you through, and you trust your own ideas again once you see them working."
       }
     },
     "ruling_domains": [
@@ -157,32 +171,32 @@
     "decade_lines": {
       "Family": {
         "heavy": {
-          "lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing as you were asked, and what carried you was one thing you chose for yourself.",
-          "ahead": "Family care comes with conditions in these years, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need."
+          "lived": "Your family sheltered you more than you needed, and the care came with expectations attached. You kept the peace by doing as you were asked, holding on to one thing you chose for yourself.",
+          "ahead": "Family care comes with conditions, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need."
         },
         "helping": {
-          "lived": "Care surrounded you in those years, from family who put your needs first and helped without being asked. You felt protected, and that security gave you the nerve to take on more than before.",
-          "ahead": "Family support reaches you in these ten years, as advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it."
+          "lived": "Care and support surrounded you, from family who put your needs first and helped without being asked. Feeling protected, you found the nerve to take on more than before.",
+          "ahead": "Family support reaches you as advice, practical help and a home base to come back to. You receive more care than you expected and return it in kind to the people who gave it."
         }
       },
       "Health": {
         "heavy": {
-          "lived": "You let other people set your pace in those years, and you rested only when someone insisted. Their care carried you, and you learned afterwards to give yourself the same care without waiting to be asked.",
-          "ahead": "Too much rest dulls you in these years, and comfortable days leave your energy low. What carries you is regular movement and a reason to get up early, and you feel better each time you have one."
+          "lived": "Other people set your pace, and you rested only when someone insisted. You were carried by their care, and learned in time to give yourself the same without being asked.",
+          "ahead": "Too much rest dulls you, and sheltered days leave you flat. Your energy returns whenever someone needs looking after, because it gets you up early and moving."
         },
         "helping": {
-          "lived": "Good care kept you well in those years, with regular meals, early nights and someone who noticed when you were tired. You recovered quickly from strain, and you felt safe in your body.",
-          "ahead": "Support and good rest restore you in these ten years, and you recover quickly from strain. You sleep well and eat well, and your energy holds steady through the decade."
+          "lived": "Good care kept you well, with early nights, a steady routine and someone who noticed when you were tired. You recovered quickly from strain and felt safe in your body.",
+          "ahead": "Support and good rest restore you, and strain lifts quickly. You sleep soundly, with an energy that holds because you let yourself be looked after."
         }
       },
       "Mind": {
         "helping": {
-          "lived": "Steady study suited you in those years, and people who knew more than you gave your learning a firm base. You absorbed knowledge patiently, and much of what you know best dates from that decade.",
-          "ahead": "Learning comes easily in these years, through books, good guides or a course taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past."
+          "lived": "Steady study suited you, and people who knew more than you gave your learning firm ground. You absorbed knowledge patiently, laying down much of what you know best.",
+          "ahead": "Learning comes easily, through books, good guides or a course taken at your own pace. Your thinking grows calmer and deeper, until you understand things you once rushed past."
         },
         "heavy": {
-          "lived": "Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied more than you acted, and the depth of what you had learned is what kept you going.",
-          "ahead": "You study more than you act in these years, and your thinking turns cautious. Work that puts what you know to use carries you through, and you trust your own ideas again once you see them working."
+          "lived": "The shelter of what you already knew held you, and new ideas felt like a threat to it. You read and studied more than you acted, kept going by the depth of what you had learned.",
+          "ahead": "Caution settles over your thinking, and you read about things far more than you try them. You trust your own ideas again once teaching puts them to work in someone else."
         }
       }
     }
@@ -257,6 +271,78 @@
       "finding": "DC:DC-026",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Family.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Health.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Health.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Health.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Health.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Mind.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Mind.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Mind.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Mind.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

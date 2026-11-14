@@ -35,13 +35,15 @@
     "domain_climb": {
       "Career": {
         "headline": "Your career runs on craft and good habits.",
-        "recognition": "Your best work comes from skill built slowly, in fields where the hands or the senses know things. Since steady practice is what you trust, you are slow to take on work you cannot yet do well, and you miss a few openings that way. You are seldom the loudest on a team, and your work is the work that holds up.",
-        "lived": "You have built your skill quietly since your late teens, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time."
+        "recognition": "Your best work comes from a skill you enjoy, in fields where the hands or the senses know things. Because the work itself is the pleasure, you stay with what you already do well, and you let harder chances pass. You are seldom the loudest on a team, though your work is the work that holds up.",
+        "lived": "You have built your skill quietly since your late teens, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time.",
+        "lived_past": "From sixteen to your mid-thirties you built your skill quietly, by practice more than ambition, in work that let you make or tend something. You knew it had come one day at a time, even when the people around you called it a gift."
       },
       "Health": {
         "headline": "Your work is only as good as your sleep.",
-        "recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because food and rest are pleasures to you, you eat late and sleep short in busy months, and your energy drops. You notice tiredness in your work before you feel it, and a few good nights put it right.",
-        "lived": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
+        "recognition": "Your body and your work move together, and both run best on regular meals and real rest. Because you enjoy your work as much as your food and sleep, busy months push your meals late and your nights short, and your energy drops. You notice tiredness in your work before you feel it, and a few good nights set you right.",
+        "lived": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. You have come back from every hard stretch through good meals and long sleep, never through willpower.",
+        "lived_past": "Your energy followed your routine closely across your Rising Chapter, high in the months you slept and ate well and flat when either slipped. You came back from every hard stretch through good meals and long sleep, never through willpower."
       }
     },
     "__ore": {
@@ -52,6 +54,11 @@
         "domain_climb.Career.lived": "From your late teens you have built your skill quietly, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time.",
         "domain_climb.Health.recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because pleasure in food and rest comes easily to you, comfort slips into excess in your busiest months and your energy drops. You notice tiredness in the quality of your work before you feel it, and a few good nights of sleep put it right.",
         "domain_climb.Health.lived": "Since your late teens your energy has followed your routine closely, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.recognition": "Your best work comes from skill built slowly, in fields where the hands or the senses know things. Since steady practice is what you trust, you are slow to take on work you cannot yet do well, and you miss a few openings that way. You are seldom the loudest on a team, and your work is the work that holds up.",
+        "domain_climb.Health.recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because food and rest are pleasures to you, you eat late and sleep short in busy months, and your energy drops. You notice tiredness in your work before you feel it, and a few good nights put it right.",
+        "domain_climb.Health.lived": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
       }
     }
   },
@@ -104,6 +111,36 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

@@ -26,9 +26,9 @@
 | `target_domains` | Wealth · Career |
 | `line` | Your output stars feed your wealth stars directly: what you make converts to money with rare ease. Build one channel where creating flows straight to earning, and keep it yours. |
 | `reading` | A generous wiring runs underneath: what you make converts to money with unusual ease. The work that feels like play earns more than the work that feels like duty, and the conversion improves with age. Keep one channel where creating flows straight to earning, and guard your appetite to make. Your income lives downstream of it. |
-| `fused_line` | In you making and earning sit close together, and you are paid in the same season that you make. |
-| `domain_lines.Wealth` | What you make turns into money more easily for you than for most, and you earn most from the work that feels like play. |
-| `domain_lines.Career` | You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing. |
+| `fused_line` | Because making and earning share a gate, you barely see a line between your craft and your income. |
+| `domain_lines.Wealth` | What you make turns into money more easily for you than for most, and the work that feels like play is the work that pays you best. |
+| `domain_lines.Career` | You also rise by making more rather than by climbing, as each piece of work you finish brings the next one to your door. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -40,3 +40,6 @@
 | `domains_round1_retired_2026-10-21.fused_line` | They share one gate in you, and you are paid in the same season that you make. |
 | `retired_2026-10-21_section_audit.fused_line` | In you the gap is short, and you are paid in the same season that you make. |
 | `retired_2026-10-21_section_audit.domain_lines.Wealth` | Underneath, what you make turns into money more easily for you than for most, and you earn most from the work that feels like play. |
+| `retired_2026-11-14_rulings_round.domain_lines.Wealth` | What you make turns into money more easily for you than for most, and you earn most from the work that feels like play. |
+| `retired_2026-11-14_rulings_round.domain_lines.Career` | You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing. |
+| `retired_2026-11-14_rulings_round.fused_line` | In you making and earning sit close together, and you are paid in the same season that you make. |

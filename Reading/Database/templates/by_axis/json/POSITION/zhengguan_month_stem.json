@@ -35,13 +35,15 @@
     "domain_climb": {
       "Career": {
         "headline": "Your record earns you rank.",
-        "recognition": "You climb at work through trust, the clean record and the job done the proper way. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record.",
-        "lived": "People who trusted you early have put your name forward since your late teens, a manager or a mentor who saw the clean record. Your references have opened doors for you more than once, and you have rarely had to ask for a step up."
+        "recognition": "You climb at work through trust and the job done the proper way, whoever is watching. Because order matters to you, you hold to the rules others bend, and senior people notice. You rise steadily and step back from any risk that could put a mark against your name.",
+        "lived": "Your record has spoken for you at work since your late teens, each role done by the rules and each title kept clean. You have been promoted on schedule and have rarely had to ask for a step up.",
+        "lived_past": "Through your Rising Chapter your record spoke for you at work, each role done by the rules and each title kept clean. You were promoted on schedule and rarely had to ask for a step up."
       },
       "Social": {
         "headline": "Everyone trusts you with the responsible job.",
-        "recognition": "Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, and you have less time for fun than the people who lean on you.",
-        "lived": "From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. At least once that role cost you a weekend or a holiday you had planned for yourself, and you gave it up without complaint."
+        "recognition": "Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, with less time for fun than the people who lean on you.",
+        "lived": "From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. You have given that role weekends and holidays you planned for yourself, and in return it has earned you standing in every circle you belong to.",
+        "lived_past": "Between sixteen and your mid-thirties you were the dependable one in every group, the friend who organised and the colleague who covered. You gave that role weekends and holidays you had planned for yourself, and in return it earned you standing in every circle you belonged to."
       }
     },
     "__ore": {
@@ -52,6 +54,12 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Career.recognition": "You climb at work through trust, the clean record and the job done the way it should be. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.recognition": "You climb at work through trust, the clean record and the job done the proper way. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record.",
+        "domain_climb.Career.lived": "People who trusted you early have put your name forward since your late teens, a manager or a mentor who saw the clean record. Your references have opened doors for you more than once, and you have rarely had to ask for a step up.",
+        "domain_climb.Social.recognition": "Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, and you have less time for fun than the people who lean on you.",
+        "domain_climb.Social.lived": "From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. At least once that role cost you a weekend or a holiday you had planned for yourself, and you gave it up without complaint."
       }
     }
   },
@@ -111,6 +119,42 @@
       "finding": "DB:DB-039",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

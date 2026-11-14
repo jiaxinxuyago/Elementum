@@ -34,9 +34,9 @@
 | `turn_friction` | Run heavy, ease becomes indulgence here: comfort eaten past nourishment. Keep the feasts, add the fasts. |
 | `shadow_line` | Overloaded, this root drifts: sweetness used as sedative, the couch quietly winning years. |
 | `health_line` | Your constitution runs on comfort honestly taken: regular meals, real rest, pleasure without guilt. Feed it on schedule and it forgives almost everything else. |
-| `domain_climb.Family.headline` | You were fed well, and you became the one who feeds. |
+| `domain_climb.Family.headline` | Fed well as a child, you now feed everyone else. |
 | `domain_climb.Family.recognition` | You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it. |
-| `domain_climb.Family.lived` | Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside. |
+| `domain_climb.Family.lived` | In your first home an older relative made comfort a daily thing, giving food and warmth before anyone thought to ask. You still judge a home by how it feels to walk into, a measure those first years set in you for good. |
 | `domain_climb.Health.headline` | Your body trusts food and rest to put it right. |
 | `domain_climb.Health.recognition` | You trust your body to fix itself with a good meal and a long sleep, and for most of your life it has. Because comfort is how you recover, you reach for it under stress, and you turn the extra helping or the lost weekend into a habit before you notice. Your body asks you for rhythm more than for effort. |
 | `domain_climb.Health.lived` | You were a child who recovered quickly, from colds and falls and bad days alike. Your appetite and your sleep were steady, and you came into adulthood with more reserve than most of the people around you. |
@@ -48,3 +48,5 @@
 | `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
 | `domains_round1_retired_2026-10-21.reading` | You were fed well as a child, in more than one sense, and that early comfort still sits under the way you live. Because ease was given to you before you had to earn it, you recover through simple things, food and a full night's sleep and the company of people you love. Whatever else your first home held, you took from it a store of warmth you have drawn on in every hard season since. |
 | `retired_2026-10-21_section_audit.domain_climb.Family.lived` | Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside. |
+| `retired_2026-11-14_rulings_round.domain_climb.Family.headline` | You were fed well, and you became the one who feeds. |
+| `retired_2026-11-14_rulings_round.domain_climb.Family.lived` | Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside. |

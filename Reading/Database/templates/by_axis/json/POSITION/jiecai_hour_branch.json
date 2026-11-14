@@ -36,14 +36,14 @@
       "Family": {
         "headline": "Your family grows louder, and dearer, with age.",
         "recognition": "You are pulled toward the strong-willed people in your family, the ones who push back and want their share. Because you respect whoever stands up to you, you give most to whoever argues hardest, and the quieter ones get less of you. You love a full and noisy table more than a calm one.",
-        "lived": "Since your late forties your family has grown louder, with younger people who want your time, your backing and your money. You have given more than you meant to, and you would do most of it again.",
-        "ahead": "From your late forties the people after you will push against you and fight for you. You will find those years warmer and riskier than most people's, and you will be happiest in them when you have kept your own keys."
+        "lived": "Since your late forties your family has grown louder, with the people after you claiming your time, your backing and your money. You have given more than you meant to, and you would do most of it again.",
+        "ahead": "From your late forties the people after you compete for your attention, and each of them is sure their claim comes first. You enjoy those years most while your own keys stay in your pocket, because they run warmer and riskier than most people's."
       },
       "Wealth": {
-        "headline": "Your later money will always have company.",
+        "headline": "Your later money always has company.",
         "recognition": "You treat money as something shared, and you find it hard to say no when someone close asks for help. Because loyalty matters more to you than a full account, you give first and count later, and the counting rarely feels good. You keep wealth best when the limit is fixed before anyone asks.",
-        "lived": "More people have had a claim on your money since your late forties, among them younger people and someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance.",
-        "ahead": "Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own share only where you set its size before anyone asks."
+        "lived": "Since your late forties your money has moved through your circle, split with friends in a bad year and shared with younger people starting out. You have had most of it back in loyalty rather than cash, and that has been the return you valued most.",
+        "ahead": "From your late forties your money turns into common ground, pooled with friends and split among the people after you. You divide it fairly enough that nobody needs to keep score."
       }
     },
     "__ore": {
@@ -57,6 +57,13 @@
       "retired_2026-10-21_section_audit": {
         "domain_climb.Wealth.ahead": "Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks.",
         "defline": "The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Family.lived": "Since your late forties your family has grown louder, with younger people who want your time, your backing and your money. You have given more than you meant to, and you would do most of it again.",
+        "domain_climb.Family.ahead": "From your late forties the people after you will push against you and fight for you. You will find those years warmer and riskier than most people's, and you will be happiest in them when you have kept your own keys.",
+        "domain_climb.Wealth.headline": "Your later money will always have company.",
+        "domain_climb.Wealth.lived": "More people have had a claim on your money since your late forties, among them younger people and someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance.",
+        "domain_climb.Wealth.ahead": "Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own share only where you set its size before anyone asks."
       }
     }
   },
@@ -123,6 +130,36 @@
       "finding": "cross:X-031",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

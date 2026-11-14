@@ -6,15 +6,17 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Love": {
      "headline": "You love best as an equal, or not at all.",
-     "recognition": "You fall for people with their own opinions and their own plans, and you lose interest in anyone who needs you to lead. Because a matched partner makes you feel safe, you argue as an equal and keep count of who gave way last. You find it harder to be carried by a partner, even for a day, than to win any argument.",
-     "lived": "The partners who mattered most to you were strong-willed people with lives of their own, and the ones who leaned did not last. A good relationship of yours turned into a contest at least once, over who apologised first, and you kept that score as carefully as they did.",
-     "ahead": "Love settles from your mid-thirties into a partnership between two people who each run their own lives. Over these years the score between you matters less, and you lean on a partner without feeling smaller."
+     "recognition": "You want a partner with a full life of their own, and you go cold on anyone who needs you to lead. Because standing level is how you feel respected, you keep your own friends, money and plans inside the relationship. You find it harder to be carried, even for a day, than to carry yourself.",
+     "lived": "Your longest relationships so far have been with people who needed no rescuing, and the partners who leaned on you faded within a season. What you have built from them is a way of loving side by side, with neither of you walking behind.",
+     "ahead": "From your mid-thirties love becomes a partnership of two people who each run their own lives and still choose each other. You learn in these years to lean on a partner without feeling smaller, because you know you can stand on your own feet.",
+     "lived_past": "In your late thirties and forties your closest bonds were with people who needed no rescuing, and the partners who leaned on you faded within a season. From those years you built a way of loving side by side, with neither of you walking behind."
     },
     "Social": {
-     "headline": "Your friends are shared, few and loyal.",
-     "recognition": "Your closest friends are the ones you and a partner both respect, other couples and old friends who treat your home as a unit. Because respect is what keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle, and you can say why each person in it is there.",
-     "lived": "So far your closest friendships have been between equals, people who did not need you to rescue them. You gave less time to the friends who wanted looking after, and you kept the level ones.",
-     "ahead": "From your mid-thirties your circle becomes a shared one, friends who know the two of you as a pair. You spend these years with fewer people than before, and you trust each of them more."
+     "headline": "Your friends are few, level and loyal.",
+     "recognition": "Your closest friends are the few you would let into your home, people who stand level with you. Because an equal footing is what keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle and can say why each person in it is there.",
+     "lived": "Your closest friendships so far have been between equals, people who never needed you to rescue them. You have kept every friendship level, with nothing owed in either direction.",
+     "ahead": "From your mid-thirties your circle narrows to a few people who meet you and a partner as equals and run lives of their own. By your forties you see fewer people than ever and trust each of them more.",
+     "lived_past": "In your late thirties and forties your closest friendships were between equals, people who never needed you to rescue them. You kept every friendship level, with nothing owed in either direction."
     }
    }
   },
@@ -22,31 +24,31 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Family": {
      "headline": "Your family in later life is chosen as much as born.",
-     "recognition": "You treat the younger people in your family as equals, and you want their argument more than their care. Because being looked down on is the one thing you cannot bear, you hide a hard week from anyone young enough to fuss. Your family stays close in a level way, and you miss some of the softness it rarely offers.",
-     "lived": "Your family has come to include people you chose since your late forties, old friends with a key and younger people who treat you as their match. You have kept that circle small on purpose, and you have seen less of the relatives who fussed over you.",
-     "ahead": "From your late forties the people after you grow into equals who stand beside you and argue back. You keep a smaller family around you in these years than most people do, and you are prouder of it than of anything you own."
+     "recognition": "You treat the people after you as equals, and you want them standing on their own more than leaning on you. Because being fussed over feels like being looked down on, you keep a hard week to yourself and manage it alone. Your family stays close on level terms, each of you with a life of your own.",
+     "lived": "Since your late forties your family has come to include people you chose, old friends with a key and younger people who meet you as a match. You have relied on that small circle of equals through every bad patch, and none of them has ever tried to manage you.",
+     "ahead": "From your late forties the people after you grow into equals who stand side by side with you rather than behind you. You keep a smaller family than most, and its independence makes you prouder than anything you own."
     },
     "Growth": {
      "headline": "You keep growing through the few who match you.",
-     "recognition": "You grow in later life through two or three people who push you as hard as you push yourself. Because you learn only from someone you respect, you ignore advice from anyone who talks down to you. Your progress is slower without that small company, and you notice it within weeks.",
-     "lived": "A few equals have taught you most since your late forties, a friend or a colleague who would not let you coast. Whenever you worked alone for long your progress stalled, and you went back to them each time.",
-     "ahead": "Your growth from your late forties comes through company, long talks and shared work with people who expect a great deal of you. You stay sharper in these years than most people your age, and you owe it to the few who keep you honest."
+     "recognition": "In later life you grow through two or three peers who expect as much of you as you expect of yourself. Because you learn only from someone who meets you on level ground, you let advice from anyone who talks down to you pass straight by. You notice within weeks whenever that small company drops away.",
+     "lived": "A few equals have taught you most since your late forties, friends and colleagues who would not let you coast. Matched step for step by them, you have grown further in that company than in any class.",
+     "ahead": "From your late forties you find your peers among younger people as well as old friends, and they treat you as one of them rather than as an elder. Kept level by that company, you stay sharp long past the point where others slow down."
     }
    }
   },
   "bijian_hour_stem": {
    "domains": {
     "Growth": {
-     "headline": "Your growth keeps going when others stop.",
-     "recognition": "You take up new skills in later life with the same seriousness you brought to your first job. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You find it hard to learn beside other people, and you lose some of the help that would come from it.",
-     "lived": "You have taken up at least one serious new skill since your late forties, and you have kept at it without an audience. Younger people noticed before you mentioned it, and you have been asked how you do it more than once.",
-     "ahead": "From your late forties you keep learning in plain view, and younger people copy the habit from you. You become the person they point to when they talk about starting something new, and you are admired for it more than anyone says."
+     "headline": "Your growth runs on your own measure.",
+     "recognition": "You measure yourself against your own last attempt, never against the crowd. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You grow best alone, at the price of the help you turn down.",
+     "lived": "Since your late forties you have taken on each new thing alone, without a class or a coach to keep you at it. You have become more fully your own person than at any age before, and less willing to be judged by anyone else.",
+     "ahead": "From your late forties the opinions that once steered you lose their hold, and you stand on your own feet in every choice that matters. You grow more independent with each decade, quick to change course without asking anyone first."
     },
     "Family": {
      "headline": "Your family learns independence by watching you.",
-     "recognition": "In your family you manage alone and see more than you say, and your relatives know it. Because asking for help feels like losing ground, you keep your troubles to yourself until they are over. The younger people in your family admire you, and you are harder for them to reach than you know.",
-     "lived": "Your family has watched you handle your own affairs since your late forties, the paperwork and the repairs and the bad weeks alike. You turned down offers of help more than once, and one of the younger people learned to stop offering.",
-     "ahead": "The people after you take their idea of independence from you, and from your late forties they watch how you manage more closely than they say. You teach them most by example, and the few words you add mean more to them than you expect."
+     "recognition": "In your family you manage alone and see more than you say, and your relatives know it. Because asking for help feels like losing ground, you keep your troubles to yourself until they are over. You are admired for it by the younger ones, and harder for them to reach than you know.",
+     "lived": "You have handled your own affairs since your late forties, the paperwork and the repairs and the lean months alike. You turned down so much help that the people after you stopped offering it and started copying you instead.",
+     "ahead": "Past your late forties the people after you need you less, and what grows between you is a bond between equals. You stand side by side with them through their own hard weeks, trusting them to cope alone as you always have."
     }
    }
   },
@@ -55,12 +57,14 @@ export const DOMAINS_CONTENT = {
     "Career": {
      "headline": "You work best when the whole job is yours.",
      "recognition": "You take a task from start to finish and want your name on the result. Because your sense of worth comes from your own output, you lose energy fast in any job where freedom exists only on paper. Your output rises with every piece of real freedom you get, and a manager who checks in daily costs you more than a lower salary would.",
-     "lived": "You have chosen work you could own outright since your late teens, even when a shared role paid better. At least once you left a job because the freedom it promised was only for show, and you have not regretted it."
+     "lived": "You have picked work you could own outright since your late teens, even when a shared role paid better. By now you have a body of work that carries your name alone, made in the jobs that gave you a free hand.",
+     "lived_past": "From sixteen to your mid-thirties you picked work you could own outright, even when a shared role paid better. You came out of those years with a body of work under your name alone, made in the jobs that gave you a free hand."
     },
     "Growth": {
      "headline": "Your skills are yours, and nobody can take them.",
-     "recognition": "You grow by mastering things fully, until the skill belongs to you and nobody else. Because you trust only what you have built yourself, you keep going alone long after a teacher would have helped. Your progress is fastest the moment someone you respect works beside you, and you put that moment off.",
-     "lived": "Long flat stretches have marked your learning since your late teens, and more than one ended only when you finally learned from someone better. You remember each of those people, and you owe them more thanks than you have given."
+     "recognition": "You grow by mastering things fully, until the skill belongs to you and nobody else. Because you trust only what you have built yourself, you keep going alone long after a second pair of eyes would have helped. Your progress is fastest the moment an equal works beside you, and that is the moment you keep putting off.",
+     "lived": "Your learning since your late teens has come in long plateaus, each one broken when you worked beside an equal as stubborn as you. You owe more thanks than you have given to the few peers who got you moving again.",
+     "lived_past": "Through your Rising Chapter your learning came in long plateaus, each one broken when you worked beside an equal as stubborn as you. You came out of those years owing more thanks than you ever gave to the few peers who got you moving again."
     }
    }
   },
@@ -68,27 +72,29 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "You do your best work as nobody's junior.",
-     "recognition": "You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard that counts only you.",
-     "lived": "Since your late teens you have been the one handed the job nobody else would finish alone. You have changed teams or roles at least once because someone else took the credit for your work."
+     "recognition": "You work as a peer of whoever runs the project, whatever your level, and you expect to be judged on what you finish. Because your own effort is how you measure yourself, you slow down the moment a manager hovers and speed up once you are left alone. What you want from a job is a standard you set and meet yourself.",
+     "lived": "Since your late teens you have been the one handed the job nobody else would finish alone. Your moves between teams and roles have come each time someone else took the credit for your work.",
+     "lived_past": "From sixteen to your mid-thirties you were the one handed the job nobody else would finish alone. Your moves between teams and roles came each time someone else took the credit for your work."
     },
     "Social": {
      "headline": "Your friends are your equals, or they drift.",
      "recognition": "You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years.",
-     "lived": "Your friendships since your late teens have been between equals, with one friend in particular who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear."
+     "lived": "Since your late teens your closest friends have been people at your own stage, classmates and colleagues who grew up beside you like siblings. You have learned among them to settle your own trouble first and to mention it once it is solved.",
+     "lived_past": "Through your Rising Chapter your closest friends were people at your own stage, classmates and colleagues who grew up beside you like siblings. Among them you learned to settle your own trouble first and to mention it once it was solved."
     }
    }
   },
   "bijian_year_branch": {
    "domains": {
     "Family": {
-     "headline": "You grew up level with the people around you.",
-     "recognition": "You treat your family as equals, present and practical and never fussy. Because closeness when you were small came from standing side by side, you show tenderness late and mostly through what you do. You turn up to fix a family problem before anyone asks, and you rarely say what you feel while you do it.",
-     "lived": "In your first home a sibling or a cousin stood beside you as an equal, and the two of you looked after each other. You learned to settle things between yourselves, and the adults were the last to hear about them."
+     "headline": "You meet your family as an equal.",
+     "recognition": "You stand level with your relatives, present and practical and never fussy. Because closeness in your first years came from standing side by side, you show tenderness late and mostly through what you do. You turn up to fix a family problem before anyone asks, saying little about what you feel.",
+     "lived": "In your first home you grew up beside another child who stood level with you, and the two of you handled most things together. Long before fifteen you settled your own quarrels, and the adults were the last to hear of them."
     },
     "Growth": {
      "headline": "You grow from trusting yourself first.",
-     "recognition": "Every skill you have began with deciding that you could do it. Because you learned early to depend on yourself, nobody can push you into learning, and you take to a teacher only once you have chosen them. You pick things up faster with one other person learning beside you, and you let few people that close.",
-     "lived": "You taught yourself things as a child that the adults around you had not shown you, and you kept quiet about how hard it was. By the time you were grown you had a stubborn way of learning, on your own terms and at your own pace."
+     "recognition": "Every skill you have began with deciding that you could do it. Because you learned early to depend on yourself, nobody can push you into learning, and you take instruction only from someone you have chosen. You pick things up fastest with one equal working beside you, a peer you have let that close.",
+     "lived": "From your first years you taught yourself what the adults around you had not shown you, and you kept quiet about how hard it was. You came into your teens with a stubborn way of learning, on your own terms and at your own pace."
     }
    }
   },
@@ -97,11 +103,11 @@ export const DOMAINS_CONTENT = {
     "Social": {
      "headline": "Your friends are equals, or they are not friends.",
      "recognition": "You keep a few equals close and everyone else at a friendly distance. Because you seem to need nothing, you attract people as capable as you are, and the ones who want support look elsewhere. Your circle is small and sturdy, and you feel its gaps more than you admit.",
-     "lived": "The friends you made as a child were your equals, children who kept pace with you and stood up for you in turn. The friendships that lasted into your teens were the level ones, and you let the rest go without a fuss."
+     "lived": "The friends you made as a child were your equals, children who kept pace with you and stood up for you in turn. By your teens you had kept only the level friendships, letting the rest go without a fuss."
     },
     "Family": {
      "headline": "You are the relative who never needs rescuing.",
-     "recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, rarely when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness.",
+     "recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, rarely when there is something to ask. Your relatives hear from you less than they want, though you mean the quiet as a kindness.",
      "lived": "An older relative in your first home made a point of standing on their own, and you copied it before you understood it. You asked for less with each year you grew, and the adults around you praised you for it."
     }
    }
@@ -109,16 +115,18 @@ export const DOMAINS_CONTENT = {
   "jiecai_day_branch": {
    "domains": {
     "Love": {
-     "headline": "You fall for people who push back.",
-     "recognition": "Partners with a temper, an opinion and plans of their own are the ones you fall for. Because being challenged is how you know you matter to someone, a calm and agreeable partner bores you within months. You keep loving through the arguments, and you count a quiet week as a sign that something has gone wrong.",
-     "lived": "The people you have loved were strong-willed and hard to predict, and they made you earn every point you won. At least one relationship of yours ran loud for years, with fights over plans and whose turn it was, and you stayed because it held your interest.",
-     "ahead": "From your mid-thirties you share a home with a partner as bold as you are, and the house is rarely quiet. Love in these years holds through open argument, and you find more warmth in it than in any calmer bond before."
+     "headline": "Your love runs on sharing, and on keeping count.",
+     "recognition": "You love by sharing, the money and the plans and the friends, and you notice who gets the bigger part. Because a partner is also the person you measure yourself against, small questions of turn and share become contests. You give generously in love and keep a quiet tally of what comes back.",
+     "lived": "Each relationship of yours so far has pooled what you both had and turned into a race over who put in more. Your eye for an uneven split has sharpened with each of them, along with a soft spot for partners who gave as good as they got.",
+     "ahead": "Your mid-thirties turn love into a team of two, with money and plans divided fairly and every win counted as joint. In these years you stop racing a partner and start racing beside one.",
+     "lived_past": "In your late thirties and forties every relationship pooled what you both had and turned into a race over who put in more. Your eye for an uneven split sharpened with each of them, along with a soft spot for partners who gave as good as they got."
     },
     "Wealth": {
      "headline": "Your money at home is shared, and contested.",
-     "recognition": "You treat money in a relationship as joint, and you give freely when a partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it.",
-     "lived": "Your money has risen and fallen with the people you lived with, generous seasons followed by tight ones. You have paid for a partner's plans more than once, and you found it easier to give than to talk about it afterwards.",
-     "ahead": "Money and love move together in your household from your mid-thirties, and the stakes on both rise. You earn well with a partner in these years, and the arguments ease whenever your money and theirs sit in separate names."
+     "recognition": "You treat money in a relationship as a shared pot, and you give freely when a partner wants something. Because sharing and competing feel like one thing to you, you match every gift and every bill, and the arguments arrive later. You are calmest about money when your share and theirs are kept apart, a split you seldom manage.",
+     "lived": "Each home you have shared so far has run a quiet contest over money, over who earned more and who spent it faster. Your money has swung between generous seasons and tight ones, because you won those contests by giving more than your share.",
+     "ahead": "From your mid-thirties money and love run together in your household, and you and a partner race each other to bring more in. You earn well from the contest, and the quarrels ease once the two of you agree on the split.",
+     "lived_past": "In your late thirties and forties each home you shared ran a quiet contest over money, over who earned more and who spent it faster. Your money swung between generous seasons and tight ones, because you won those contests by giving more than your share."
     }
    }
   },
@@ -127,49 +135,52 @@ export const DOMAINS_CONTENT = {
     "Family": {
      "headline": "Your family grows louder, and dearer, with age.",
      "recognition": "You are pulled toward the strong-willed people in your family, the ones who push back and want their share. Because you respect whoever stands up to you, you give most to whoever argues hardest, and the quieter ones get less of you. You love a full and noisy table more than a calm one.",
-     "lived": "Since your late forties your family has grown louder, with younger people who want your time, your backing and your money. You have given more than you meant to, and you would do most of it again.",
-     "ahead": "From your late forties the people after you will push against you and fight for you. You will find those years warmer and riskier than most people's, and you will be happiest in them when you have kept your own keys."
+     "lived": "Since your late forties your family has grown louder, with the people after you claiming your time, your backing and your money. You have given more than you meant to, and you would do most of it again.",
+     "ahead": "From your late forties the people after you compete for your attention, and each of them is sure their claim comes first. You enjoy those years most while your own keys stay in your pocket, because they run warmer and riskier than most people's."
     },
     "Wealth": {
-     "headline": "Your later money will always have company.",
+     "headline": "Your later money always has company.",
      "recognition": "You treat money as something shared, and you find it hard to say no when someone close asks for help. Because loyalty matters more to you than a full account, you give first and count later, and the counting rarely feels good. You keep wealth best when the limit is fixed before anyone asks.",
-     "lived": "More people have had a claim on your money since your late forties, among them younger people and someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance.",
-     "ahead": "Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own share only where you set its size before anyone asks."
+     "lived": "Since your late forties your money has moved through your circle, split with friends in a bad year and shared with younger people starting out. You have had most of it back in loyalty rather than cash, and that has been the return you valued most.",
+     "ahead": "From your late forties your money turns into common ground, pooled with friends and split among the people after you. You divide it fairly enough that nobody needs to keep score."
     }
    }
   },
   "jiecai_hour_stem": {
    "domains": {
     "Wealth": {
-     "headline": "Your later money goes to the bold.",
-     "recognition": "You back people you believe in, a younger person's venture or a friend's new start, and you give with an open hand. Because daring is what you admire most, a confident request is hard for you to refuse. Your savings shrink in the years you give without counting, and you know which of your gifts were really losses.",
-     "lived": "People with plans that needed money have turned to you since your late forties, younger people and friends alike. You have agreed more often than you meant to, and you have watched some of it pay off and some of it disappear.",
-     "ahead": "From your late forties the people after you start bringing you their plans and asking for support. You spend more on other people's ventures in these years than on your own comfort, and you are glad of most of it."
+     "headline": "Your money moves through the people you back.",
+     "recognition": "You back the people you believe in, a friend's new start or a bold plan you wish were yours, and you give with an open hand. Because a confident request feels like a dare, you match it before you have thought it through. You know which of your gifts were really losses, though you never claim them back.",
+     "lived": "Since your late forties money has moved through your circle in both directions, your share going into friends' plans and their help coming back when you needed it. You have kept a quiet score of who backed whom, without losing a friend over it.",
+     "ahead": "From your late forties the people after you bring you their boldest plans, and you back them as if the race were your own. You divide more of what you have among them than you keep for yourself, glad to see them win."
     },
     "Growth": {
-     "headline": "You keep growing through the daring young.",
-     "recognition": "You grow in later life by watching bold people take risks and judging their bets with an experienced eye. Because risk still interests you, mentoring someone daring keeps your own nerve sharp. You lose interest in cautious company, and you come alive around anyone young enough to try something foolish.",
-     "lived": "Your learning since your late forties has come through other people's plans, the ones you advised on and the risks you watched up close. You have grown sharper each time a younger person asked for your judgement, and you have enjoyed being asked.",
-     "ahead": "You grow from your late forties by staying involved, advising and backing people who are still at the start. Their risks keep your mind quick in these years, and you take more chances with your own plans than you did a decade earlier."
+     "headline": "Someone to beat keeps you growing.",
+     "recognition": "You grow fastest with a rival in view, a friend one step further on or a colleague who just did what you meant to do. Because a contest wakes you up, you match every move you admire and then try to beat it. Cautious company bores you, but you come alive around anyone daring enough to race you.",
+     "lived": "You have kept a contest going with people half your age since your late forties, matching their pace in whatever they take up. You have won more of those races than anyone expected, and lost the rest with good grace.",
+     "ahead": "Past your late forties your rivals get younger, and you grow by keeping up with them. You share what you know freely, because a race you win too easily teaches you nothing."
     }
    }
   },
   "jiecai_month_branch": {
    "domains": {
     "Career": {
-     "headline": "You work best with something real at stake.",
-     "recognition": "You are at your sharpest in jobs with clear stakes, sales or ventures or anything where the score is public. Because you need to feel the risk to feel awake, you move first and sort out the rest afterwards. Your bold moves pay best beside a colleague who checks the details, and you have little patience for the checking yourself.",
-     "lived": "Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have rarely wished for a duller job."
+     "headline": "You are at your best with a rival at the next desk.",
+     "recognition": "You come alive when the score is public, a sales board or a ranking or a race for one target. Because beating the people beside you is how you know you are good, you push hardest in the weeks a colleague pulls level. Your bold moves pay best beside someone who checks the details, the part you leave to others.",
+     "lived": "Since your late teens you have chosen work where you were measured against colleagues, by results anyone could see. You have won big beside partners and lost ground to them, and the race has made you faster than the job alone would have.",
+     "lived_past": "Between sixteen and your mid-thirties you chose work where you were measured against colleagues, by results anyone could see. You won big beside partners and lost ground to them, and the race made you faster than the job alone could have."
     },
     "Wealth": {
-     "headline": "Your money comes in bursts, and leaves with friends.",
-     "recognition": "Money reaches you suddenly and leaves with the people you celebrate with, a friend's venture or a round for the table. Because generosity is how you show you belong, you lend before you are asked and count only later. You save less than you mean to in the good years as well as the lean ones, and you feel it most after a win.",
-     "lived": "Your income has arrived unevenly from your late teens, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it."
+     "headline": "You earn hardest when someone is racing you.",
+     "recognition": "You earn alongside the people around you, chasing the same bonus or backing the same venture as your friends. Because keeping up is how you show you belong, you match their spending before you count your own. You save less than you mean to in good years and lean ones alike, and a win is when you feel it most.",
+     "lived": "Your income since your late teens has moved with your circle, climbing in the years your friends climbed and dipping when they did. You have spent most wins keeping pace with them, which has kept your place in the race secure and your reserve thin.",
+     "lived_past": "In your twenties and early thirties your income moved with your circle, climbing in the years your friends climbed and dipping when they did. You spent most wins keeping pace with them, which kept your place in the race secure and your reserve thin."
     },
     "Social": {
      "headline": "Work and friendship are one circle for you.",
-     "recognition": "Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because you trust the people you enjoy, you agree to shared plans before the terms are clear. When one of those plans fails, you lose the friend along with the money.",
-     "lived": "Your closest friends since your late teens have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money."
+     "recognition": "Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because you trust the people you enjoy, you agree to shared plans before the terms are clear. You mix friendship and money without a line between them, slow to ask which one a deal is really about.",
+     "lived": "Since your late teens your friendships have run through shared ventures and pooled money, and each deal has tested which friends were really yours. You value the friends who came through a bad deal with you far above anything the deals paid.",
+     "lived_past": "Your friendships ran through shared ventures and pooled money from sixteen to your mid-thirties, and each deal tested which friends were really yours. You left those years valuing the friends who came through a bad deal with you far above anything the deals paid."
     }
    }
   },
@@ -177,41 +188,43 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "You rise fastest where the score is public.",
-     "recognition": "You come alive in work that ranks people openly, commissions and targets and anything with a clear winner. Because you need proof that you are winning, a vague team goal leaves you flat and restless. You unsettle quieter colleagues without meaning to, and you do your best work where nobody minds.",
-     "lived": "Your best jobs since your late teens have been the ones with a clear score, sales figures or rankings or a promotion race. You have left at least one shared project because the prize was never clearly divided, and you have done better alone since."
+     "recognition": "You come alive in work that ranks people openly, commissions and targets and anything with a clear winner. Because you need proof that you are winning, a vague team goal leaves you flat. You unsettle quieter colleagues without meaning to, and the teams that suit you are the ones that like a race.",
+     "lived": "Since your late teens the colleagues you raced hardest have also been the ones you teamed up with on joint bids and shared clients. You have learned from the bids that soured over a vague split to agree who gets what before any work starts.",
+     "lived_past": "From sixteen to your mid-thirties the colleagues you raced hardest were also the ones you teamed up with on joint bids and shared clients. You learned from the bids that soured over a vague split to agree who got what before any work started."
     },
     "Social": {
      "headline": "Your circle is full of rivals you respect.",
-     "recognition": "Most of your friends come from work, and many of them started as people you competed against. Because you respect anyone who can beat you, your closest bond at work is with a former rival. You lose friends over contests more easily than most people, and you keep the ones who competed fairly.",
-     "lived": "From your late teens you have made friends through competition, in teams and courses and workplaces where everyone was ranked. More than once a friendship ended when you won, and you have kept the rival who took a loss well."
+     "recognition": "You get close to people by competing with them, over a quiz night or a sales month or a race for the same client. Because you respect anyone who can beat you, a close loss to a friend brings you nearer to them. You keep the friends who win fairly and lose with grace.",
+     "lived": "From your late teens you have made friends through competition, in teams and courses and workplaces where everyone was ranked. You have shared each win with the people you beat, and those are the friendships that have lasted.",
+     "lived_past": "Across your Rising Chapter you made friends through competition, in teams and courses and workplaces where everyone was ranked. You shared each win with the people you beat, and those were the friendships that lasted."
     }
    }
   },
   "jiecai_year_branch": {
    "domains": {
     "Family": {
-     "headline": "You grew up sharing everything with family.",
-     "recognition": "You treat family as people with a natural claim on your time, your space and your money. Because sharing was how your first home held together, refusing a relative feels like disloyalty to you. You give without fuss, and you resent it quietly when the giving is taken for granted.",
-     "lived": "The money and the clothes and the space were all shared in your first home, and a sibling or cousin was never far from what was yours. Growing up you gave without being asked, and you could tell exactly who had taken what."
+     "headline": "What is yours is also your family's.",
+     "recognition": "You treat family as people with a natural claim on your time, your space and your money. Because sharing was how your first home held together, refusing a relative feels like disloyalty to you. You give without fuss, though privately you keep score of who takes the most.",
+     "lived": "Your first home shared out its clothes, its space and its attention among several children, and you learned early to claim your part. By your teens you could win a share and hand it straight back, knowing exactly who had taken more."
     },
     "Wealth": {
      "headline": "You give money easily and keep track of it.",
-     "recognition": "You lend to family before you have finished saving for yourself, and you rarely ask for it back. Because money at home was always pooled, a private account feels slightly selfish to you. Your savings grow slowly while your family's claims stay open, and you feel both generous and short.",
-     "lived": "You saw money borrowed and lent around the family as a child, and little of it was written down. Before you were grown you had given away more than you could spare, and you had learned which relatives paid you back."
+     "recognition": "You lend to family before you have finished saving for yourself, and you rarely ask for it back. Because money at home was always pooled, a private account feels slightly selfish to you. Your own money grows slowly while the family's claims stay open, leaving you generous and short at once.",
+     "lived": "Growing up you watched money shared from hand to hand around the family, and little of it was written down. By fifteen you had given away more than you could spare and learned which relatives paid back."
     }
    }
   },
   "jiecai_year_stem": {
    "domains": {
     "Wealth": {
-     "headline": "Money moved fast around you from the start.",
-     "recognition": "You spend quickly and generously, and money that comes in through friends or windfalls goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.",
-     "lived": "Money arrived and vanished in your family while you were growing up, a good year followed by a hard one. You had your own share of that nerve before you were grown, and you spent what you had almost as soon as you had it."
+     "headline": "You spend at the pace your friends set.",
+     "recognition": "You spend quickly and in company, and money that comes in through friends goes out keeping up with them. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, yet you stay calm about it until a lean month arrives.",
+     "lived": "Money in your family moved fast while you were growing up, won boldly and shared out among whoever was close. By your teens you matched your family's daring, spending what you had almost as soon as you had it."
     },
     "Social": {
-     "headline": "People take to you quickly, and in numbers.",
-     "recognition": "You make friends fast, and a new group accepts you within an evening. Because charm was your family's way with people, you collect many allies and only a few who would stay through trouble. You know the difference between the two, and you feel it most in a hard year when the crowd thins.",
-     "lived": "As a child you were popular with other children and with adults, and you were invited to more than your share. By the time you were grown you had a wide circle and one or two close friends who mattered far more, and you knew which were which."
+     "headline": "You win people over quickly, and in numbers.",
+     "recognition": "You make friends fast, and within an evening a new group counts you in. Because generosity and rivalry sit together in you, you give to friends freely and race them just as hard. You think more of a friend who beats you at something, and less of one who lets you win.",
+     "lived": "As a child you shared what you had and competed for what you wanted, and other children gathered round you. By your teens you had a wide circle, and the friends closest to you were the ones you had raced hardest."
     }
    }
   },
@@ -219,21 +232,24 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Love": {
      "headline": "You fall for people who widen your life.",
-     "recognition": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
-     "lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.",
-     "ahead": "Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
+     "recognition": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and anyone who shuts it out leaves you restless.",
+     "lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. With each of them, you have stayed a little longer for the life around them than for the person.",
+     "ahead": "From your mid-thirties love and money start to move together. You choose a partner in these years who brings an opening into your life, and the bond holds for as long as the two of you keep heading somewhere new.",
+     "lived_past": "In your late thirties and forties the partners you chose each came with a world attached, a circle of friends or a plan to move or a family that took you in. With each of them, you stayed a little longer for the life around them than for the person."
     },
     "Social": {
      "headline": "Your friends come with plans.",
      "recognition": "You collect friends who are going somewhere, the ones with a trip planned and a contact for everything. Because range is what draws you, you lose touch with friends whose lives stay small, and you feel guilty about it only later. You know a great many people, and you let only a few of them close.",
-     "lived": "Most of your friendships have started with an introduction or an invitation, someone who brought you into their circle. You have kept some of those circles longer than you kept the people who brought you in.",
-     "ahead": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape these years through someone you share a home with."
+     "lived": "Most of your friendships so far have begun as an invitation into someone else's circle, on a trip or after a move to a new place. You have kept some of those circles longer than you kept the people who brought you in.",
+     "ahead": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. In your forties you know more people through a partner's side than through your own.",
+     "lived_past": "In your late thirties and forties most of your friendships began as an invitation into someone else's circle, on a trip or after a move to a new place. You kept some of those circles longer than you kept the people who brought you in."
     },
     "Wealth": {
      "headline": "Your money comes through the people close to you.",
      "recognition": "You find money through other people, in a tip from a friend or a side venture with someone close. Because your openings arrive through people you trust, you say yes before you read the terms, and you earn in bursts more than in a steady line. The money you make fastest is the money you hold on to least.",
-     "lived": "Your best money moments so far came through someone else, a tip or a job offer or a deal brought to you by a friend. You lost money the same way, by saying yes before you had read the terms.",
-     "ahead": "From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you keep only what has both names written down."
+     "lived": "Your best money moments so far came through someone else, a tip or a job offer or a deal brought to you by a friend. You lost money the same way, on ventures you joined on trust, yet the net of people who bring you chances has only widened.",
+     "ahead": "From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you see the part with no clear owner slip away.",
+     "lived_past": "In your late thirties and forties your best money came through someone else, a tip or a job offer or a deal a friend brought you. You lost money the same way, on ventures you joined on trust, yet the net of people who brought you chances only widened."
     }
    }
   },
@@ -241,45 +257,47 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Family": {
      "headline": "Your family spreads wide and gathers in bursts.",
-     "recognition": "You love your family best when everyone is together for a few loud days, and you plan those days months early. Because distance has never felt like loss to you, long gaps between visits pass without worry. You give the people close to you many short visits and few long stays.",
-     "lived": "Your family has scattered across more than one place since your late forties, and the younger ones live far from you and from each other. You have become the one who brings them together, and your best days in these years have been reunions.",
-     "ahead": "From your late forties the people after you settle in different places and keep you travelling to see them. You become the reason they meet, and you find the gatherings worth more to you than anything you could buy them."
+     "recognition": "You love it best when your whole family gathers for a few full days, and you plan those days months early. Because distance has never felt like loss to you, long gaps between visits pass without worry. You travel far for a short visit, and the people you miss get many arrivals and few long stays.",
+     "lived": "Your family has spread to new places since your late forties, the people after you settling far from you and from each other. You have travelled more for them than for any holiday, and their streets have grown nearly as familiar to you as your own.",
+     "ahead": "From your late forties the people after you open new places to you, a spare bed in a far city and a reason to stay a month. Your visits become the link between them, and those gatherings matter more to you than anything you could buy them."
     },
     "Wealth": {
      "headline": "Your later money keeps moving, and so do you.",
-     "recognition": "You keep money in motion, in a late venture or a trip or help for someone younger with a plan. Because an untouched account feels wasted to you, you spend on movement and company before you think of reserves. Your savings grow slowly because so much of your money is always on its way somewhere.",
-     "lived": "Your money since your late forties has gone into travel, new projects and the plans of younger people more than into reserves. You have earned well from at least one late venture, and you have spent a good part of it on getting people together.",
-     "ahead": "Chances to earn keep reaching you from your late forties, through younger people or through a move. Your money stays lively in these years, and you sleep best when one part of it is never touched."
+     "recognition": "You keep money in motion, in a late venture, a trip or a deal that came through a side door. Because an untouched account feels wasted to you, you put money into movement before you think of reserves. Your money is always on its way somewhere, and it comes back to you by routes nobody planned.",
+     "lived": "Since your late forties your money has come in sideways, through late ventures and deals struck while travelling. You have spent much of it as fast as it arrived, and that motion has kept new chances reaching you.",
+     "ahead": "From your late forties a windfall or an offer from far away reaches you, and a move sets your money going again. You keep most of it in motion from then on, sleeping best while one part stays untouched."
     }
    }
   },
   "piancai_hour_stem": {
    "domains": {
     "Wealth": {
-     "headline": "Your money finds new openings late in life.",
-     "recognition": "You notice a chance to earn where others see an ending, a late venture or a deal offered by someone younger. Because new money excites you more than kept money, you give generously and write down too little of it. Your plans live in your head far longer than they live on paper.",
-     "lived": "Money has reached you through new ventures and unexpected offers since your late forties, at least once from a direction you had stopped watching. You have given a good share of it away, more than once without noting to whom.",
-     "ahead": "From your late forties chances to earn keep arriving, through new projects and through people a generation younger who want you involved. You give a great deal in these years, and your affairs stay clear only where you have put the details in writing."
+     "headline": "Your money comes in through side doors.",
+     "recognition": "You notice a chance to earn where others see an ending, a venture someone else gave up on or a deal nobody followed up. Because new money excites you more than kept money, you move it on to the next opening and write down too little of it. You carry your plans in your head far longer than you put them on paper.",
+     "lived": "In the years since your late forties money has reached you through doors you had stopped watching, late ventures and deals brought by people a generation younger. You have built a wide spread of small ventures in place of one steady income, each one opened on a hunch.",
+     "ahead": "From your late forties chances to earn keep arriving from far outside your usual circle, through new projects and through the people after you. You say yes to more of them than anyone your age, happiest when the offer comes from furthest away."
     },
     "Growth": {
-     "headline": "You keep starting new things when others stop.",
-     "recognition": "You grow by entering fields you know nothing about, at an age when most people stick to what they know. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again.",
-     "lived": "You have taken up at least one new subject since your late forties, a skill or a trade or a kind of work nobody expected from you. Younger company has kept you learning in those years, and you have looked less settled than people your age.",
-     "ahead": "Your learning goes on in public from your late forties, through new work and through friendships with people much younger than you. You grow more curious with each decade, and you are the one in your family with the newest stories."
+     "headline": "Every fresh start widens your world.",
+     "recognition": "You widen your range whenever life allows, a new field or a new place or a crowd you know nothing about. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again.",
+     "lived": "Since your late forties you have kept moving, into new work, new places and friendships with people much younger. You have come out of each move more curious than people your age, and less settled than anyone expected.",
+     "ahead": "Your world gets wider from your late forties, through travel and through work in places that are new to you. You become the one in your family with the newest stories, and the most open to the next change."
     }
    }
   },
   "piancai_month_branch": {
    "domains": {
     "Career": {
-     "headline": "Your work pays for reading where things are going.",
+     "headline": "You build a career by spotting openings first.",
      "recognition": "You are drawn to work where timing matters, buying and selling or finding things before others notice them. Because you read change early, a job where nothing moves bores you, and you leave it sooner than you planned. In any role you end up as the person who sees what is coming next.",
-     "lived": "The jobs that have gone best for you since your late teens are the ones where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do."
+     "lived": "Since your late teens your best jobs have been the ones where you could spot a trend early, in trading or sales or finding the right people. With every move you have widened your range of contacts, until a chance reaches you before anyone announces it.",
+     "lived_past": "In your twenties and early thirties your best jobs were the ones where you could spot a trend early, in trading or sales or finding the right people. With every move you widened your range of contacts, until chances reached you before anyone announced them."
     },
     "Wealth": {
      "headline": "Your money comes in strong seasons and quiet ones.",
      "recognition": "You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each good stretch than after it.",
-     "lived": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own streaks run."
+     "lived": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. By now you know how your own streaks run, a lesson paid for with the gains of good years spent chasing better ones.",
+     "lived_past": "What you earned from sixteen to your mid-thirties followed your instinct, with good runs and lean months in turn. You came out of those years knowing how your own streaks ran, a lesson paid for with the gains of good years spent chasing better ones."
     }
    }
   },
@@ -288,17 +306,20 @@ export const DOMAINS_CONTENT = {
     "Career": {
      "headline": "You are paid for spotting the chance others miss.",
      "recognition": "You do your best work wherever there is something to find, a client or a deal or a gap in the market. Because the search keeps you sharp, a fixed salary and a quiet desk wear you down faster than hard work. You are the colleague people come to first when they need a way in.",
-     "lived": "Your best career moves since your late teens have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up."
+     "lived": "Your best career moves since your late teens have come through timing, a job heard about early or an offer made in a casual conversation. Your working life has turned with each better chance, and it has grown wider than any single ladder.",
+     "lived_past": "From sixteen to your mid-thirties your best career moves came through timing, a job heard about early or an offer made in a casual conversation. Your working life turned with each better chance, and it grew wider than any single ladder."
     },
     "Wealth": {
-     "headline": "Your money arrives in windfalls and leaves through friends.",
-     "recognition": "You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust the next chance to arrive, you spend and lend freely between windfalls. Your money leaves as easily as it arrives, and you notice only when a quiet season comes.",
-     "lived": "Good years and thin ones have followed each other since your late teens, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before you set a share of it aside."
+     "headline": "Your money arrives in windfalls and goes to the next chance.",
+     "recognition": "You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust another opening to come, each gain goes straight into the next venture or the next move. Your money moves as fast as your eye for the next deal, and a quiet season finds you rich in plans.",
+     "lived": "Good years and thin ones have followed each other since your late teens, with money arriving in lumps. You have put each windfall into a move or a venture before setting any of it aside, and those ventures have widened your range more than your balance.",
+     "lived_past": "From your late teens to your mid-thirties good years and thin ones followed each other, with money arriving in lumps. You put each windfall into a move or a venture before setting any of it aside, and those ventures widened your range more than your balance."
     },
     "Social": {
      "headline": "You know someone for every need.",
-     "recognition": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
-     "lived": "Many of your friendships since your late teens began over work, a deal or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life."
+     "recognition": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You give a real friend the same quick hour you give a contact, and the difference is the last thing you notice.",
+     "lived": "Many of your friendships since your late teens began far from home, over a deal or a trip or a shared plan. You have kept a friend in each of the worlds you passed through, and a few of them have become close for life.",
+     "lived_past": "From sixteen to your mid-thirties many of your friendships began far from home, over a deal or a trip or a shared plan. You kept a friend in each of the worlds you passed through, and a few of them became close for life."
     }
    }
   },
@@ -307,26 +328,26 @@ export const DOMAINS_CONTENT = {
     "Family": {
      "headline": "Your family holds together across distance.",
      "recognition": "You keep close ties with relatives who live far away, and you are the one who calls first. Because distance was ordinary when you were growing up, a long absence never feels to you like a break in love. You are the link between relatives who would otherwise lose touch.",
-     "lived": "In your first home people spoke of a relative who had moved away, or you moved yourself and made friends quickly in each new place. By the time you were grown your family stretched across more than one place, and you felt at home in each of them."
+     "lived": "Through your first years your family lived far apart, and visits and calls did the work of living close. You grew up able to go months without seeing a relative and come back as close as before."
     },
     "Wealth": {
      "headline": "Your chances with money grow the further you go.",
-     "recognition": "You find your best chances away from home, in a new city or an unfamiliar market or among strangers. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place.",
-     "lived": "Money in your family came through moving when you were young, a relative working away or a business that travelled. The first money you made yourself came from beyond your own neighbourhood, and you liked how that felt."
+     "recognition": "You find your best chances away from home, in a new city or an unfamiliar market or among people you have just met. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place.",
+     "lived": "When you were young the family's money came from moving, from work taken far off and trade that travelled. You looked past your own streets for every chance to earn, and a coin from a distance pleased you more than any from next door."
     }
    }
   },
   "piancai_year_stem": {
    "domains": {
     "Wealth": {
-     "headline": "You learned early that money is for moving.",
-     "recognition": "You spend on people and chances easily, and a good opening excites you more than a full account. Because money in your first home came and went in plain sight, you feel calm with risks that frighten more careful people. A store kept apart from your generosity is the thing you find hardest to build, and you know it.",
-     "lived": "As a child you watched money arrive in good months and go out on visitors and fresh ideas. By your teens you had a quick eye for a chance, and saving was something you had to teach yourself."
+     "headline": "For you, money is for moving toward the next opening.",
+     "recognition": "You spend on people and plans easily, and a good opening excites you more than money sitting still. Because the best things in your childhood arrived unplanned, you take bets that frighten more careful people. You find it hardest to keep a store apart from your generosity, and a windfall rarely stays long enough to start one.",
+     "lived": "Growing up you saw money come into your first home through side doors and leave again on visitors and new plans. By your teens you had a quick eye for a chance, and saving was something you had to teach yourself."
     },
     "Family": {
-     "headline": "Your family taught you generosity, and its price.",
-     "recognition": "You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving past what you can afford, and you resent it only later.",
-     "lived": "An older relative in your first home, a parent or someone who stood in for one, spent widely and drew people around them. Growing up you learned both the warmth of that generosity and what it cost the household."
+     "headline": "Generosity runs in your family, price and all.",
+     "recognition": "You give freely in your family, the treat paid for and the loan made without terms. Because giving is how you feel close to people, you find it hard to refuse anyone near you. You widen the circle you give to past what you can afford, resenting it only later.",
+     "lived": "An older relative in your first home kept an open door and spent widely on whoever came through it. Growing up you learned both the warmth of that generosity and what it cost the household."
     }
    }
   },
@@ -334,59 +355,61 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Love": {
      "headline": "You love best with time alone built in.",
-     "recognition": "You want a partner close, and you also want hours each week that belong only to you. Because you sort out your feelings alone, you go quiet before a serious talk, and a partner who presses gets less of you. What you need in love is someone who waits for you to come back.",
-     "lived": "The people you have loved so far have split into two kinds, those who left you alone to think and those who took your silence personally. You have stayed longest with the first kind, and the arguments you remember were mostly about time apart.",
-     "ahead": "Through your Home Chapter your household settles around a shared rhythm, with time together and time apart agreed without a fight. You grow closer to a partner in these years by talking through what you have already worked out alone."
+     "recognition": "You want someone close, and you also want hours each week that belong only to you. Because you work your feelings out in private, you go quiet before a serious talk, and a partner who presses gets less of you. Your love lasts with someone who waits for you to come back.",
+     "lived": "The people you have loved so far have fallen into two kinds, those who let your private hours be and those who took your silences personally. You have stayed longest with the first kind, the ones who learned that your quiet was thinking and not distance.",
+     "ahead": "The bond you make from your mid-thirties takes your private hours as part of love and not a gap in it. You grow closer in these years by bringing back what you worked out alone, the odd idea or the half-solved puzzle, and letting a partner in on it.",
+     "lived_past": "In your late thirties and forties the people you loved fell into two kinds, those who let your private hours be and those who took your silences personally. You stayed longest with the first kind, the ones who learned that your quiet was thinking and not distance."
     },
     "Mind": {
      "headline": "You think alone and speak once you are sure.",
-     "recognition": "For days you turn a problem over before you say a word about it, and you say it only once you have an answer. Because a half-formed thought feels unsafe to you, the people closest to you hear your conclusions without the reasoning. You let a partner further into your thinking than anyone, and even they see only part of it.",
-     "lived": "Your clearest thinking has happened alone, late at night or on long walks, away from the people you live with. More than once you have surprised a partner with a decision you had been weighing for weeks in silence.",
-     "ahead": "From your mid-thirties your thinking deepens and turns toward a single subject you have circled for years. You share more of the work in progress with a partner in these years, and the work gets better for it."
+     "recognition": "For days you turn a problem over in private before you say a word about it, and you say it only once you have an answer. Because a half-formed thought feels unsafe to you, the people closest to you hear your conclusions without the reasoning. You let a partner further into your thinking than anyone, and even they see only part of it.",
+     "lived": "Your clearest thinking so far has happened alone with a subject, late at night or on long walks away from the people you live with. From those hours you have built a command of one unusual field that nobody at home can follow.",
+     "ahead": "From your mid-thirties your thinking deepens and turns toward a single subject you have circled for years. You share more of the work in progress with a partner in these years, and the work gets better for it.",
+     "lived_past": "In your late thirties and forties your clearest thinking happened alone with a subject, late at night or on long walks away from the people you lived with. From those hours you built a command of one unusual field that nobody at home could follow."
     }
    }
   },
   "pianyin_hour_branch": {
    "domains": {
     "Family": {
-     "headline": "Your later family is a few people who understand your silences.",
-     "recognition": "You keep family life quiet and close, with a small number of people who know when to leave you be. Because your inner life matters more to you than a full house, you see your relatives less than they would like, and you love them no less for it. You show care by what you teach more than by what you say.",
-     "lived": "Your own work has taken up more of your afternoons since your late forties, and you welcome quiet visits most. One of the younger people around you has learned to sit with your silence, and you have trusted that person with more of your thinking than anyone.",
-     "ahead": "The people after you come to you from your late forties for what you understand, more than for company. You draw one or two of them close, and you watch them carry your way of thinking further than you could."
+     "headline": "Your family narrows to a few who understand your silences.",
+     "recognition": "You keep family life quiet and close, with a small number of people who know when to leave you be. Because your private life comes before a full house, you see your relatives less than they would like and love them no less. You sense trouble in one of them long before anyone mentions it, by an intuition they find odd.",
+     "lived": "Since your late forties your private work has filled more of your afternoons, and you have welcomed only the quietest visits. You have built a family life with more silence in it than most, and the few who share it know you best.",
+     "ahead": "From your late forties the people after you come to you for what you understand, more than for company. You draw one or two of them close with your unusual method, and they carry it further than you could."
     },
     "Mind": {
-     "headline": "Your mind gets clearer with every year.",
-     "recognition": "You spend your best hours on one subject at a time, reading and thinking until it comes clear. Because understanding is the thing you value most, you guard those hours closely, and you resent the phone call that breaks them. You are sharper than people expect, and you enjoy surprising them.",
+     "headline": "Your later mind follows questions nobody else asks.",
+     "recognition": "You spend your best hours alone with one odd subject at a time, turning it over until it comes clear. Because understanding is the thing you value most, you guard those hours closely and resent the phone call that breaks them. You surprise people with how sharp you are, and with how little of it you show.",
      "lived": "The questions you think about have narrowed since your late forties to the few that matter to you, and your answers have grown more exact. You have settled things that puzzled you for decades, and you have shared less of what you found than people would like.",
-     "ahead": "Study and quiet work of your own choosing fill your days from your late forties, and you take each question as far as it will go. You turn what you know into notes or lessons for the people after you, and they come back to them for years."
+     "ahead": "From your late forties private study of your own choosing fills your days, and you take each question as far as it goes. You give the answers to one or two of the people after you and keep the rest for yourself."
     },
     "Growth": {
      "headline": "You grow in later life by keeping only what matters.",
-     "recognition": "Interests and habits that no longer teach you anything fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, you look as if you are doing less while you understand more. You care less each year about keeping up, and more about getting one thing right.",
-     "lived": "Commitments you took on from habit have gone since your late forties, the groups and the roles that once filled your weeks. What is left is a handful of practices you return to every day, and you have grown more through them than through anything new.",
-     "ahead": "Your growth from your late forties lies in refining what you already know, until years of odd learning come down to a few clear ideas. You pass those ideas to younger people in plain words, and you see them used long after you worked them out."
+     "recognition": "Interests and habits that no longer tell you anything new fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, you look as if you are doing less while you understand more. You care less each year about keeping up, and more about getting one obscure thing exactly right.",
+     "lived": "Since your late forties the commitments you took on from habit have gone, the groups and roles that once filled your weeks. You have returned every day to the private practices that remain, and they have given you more than anything new.",
+     "ahead": "Your growth from your late forties lies in distilling what you already know, until years of odd learning come down to a few clear ideas. You put those ideas into plain words for the people after you, and they are still using them long after you worked them out."
     }
    }
   },
   "pianyin_hour_stem": {
    "domains": {
     "Mind": {
-     "headline": "You see further in later life, and faster.",
-     "recognition": "You see the shape of a problem before anyone has finished describing it to you. Because your judgement rests on patterns you have gathered for years, you can name the answer long before you can show the working, and people find that hard to follow. You rarely explain how you got there, and some people stop asking.",
-     "lived": "Your judgement has become the thing people remark on since your late forties, quick and accurate and hard to explain. You have been right more than once about something everyone else missed, and you have been thanked for it later than you liked.",
-     "ahead": "From your late forties your mind keeps sharpening, and you take on questions you once put aside. You do some of your best thinking in these years, and it reaches further once someone younger helps you put it into words."
+     "headline": "You see further than you can explain.",
+     "recognition": "You see the shape of a problem before anyone has finished describing it to you. Because your judgement rests on patterns gathered from odd corners, you can name the answer long before you can show the working, and people find that hard to follow. You rarely explain how you got there, and some people stop asking.",
+     "lived": "Your intuitions have hardened into a private method since your late forties, quick, accurate and hard to pass on. You have been right about what everyone else missed so many times that people now bring you the puzzles they cannot crack.",
+     "ahead": "From your late forties your mind keeps sharpening, and you return to the obscure subjects you once put aside. You do some of your best thinking in these years, and it reaches further once someone younger helps you put it into words."
     },
     "Growth": {
-     "headline": "You keep learning what few people bother to learn.",
-     "recognition": "With each decade you go deeper into rare subjects, the overlooked field or the old method nobody teaches. Because the unusual is what holds your interest, you grow faster on your own than in any class, and you find most courses too slow. You buy the out-of-print book and write to the one person still working on the question.",
-     "lived": "At least one subject most people your age would never touch has become yours since your late forties. You have gone further into it than you expected, and you have said less about it than it deserves.",
-     "ahead": "You grow from your late forties by mastering one rare thing completely. You put what you learn into a form others can use, a method or a body of work, and you see it travel further than you do."
+     "headline": "You become more yourself the further you go from the crowd.",
+     "recognition": "With each decade you become more of the odd one, and you stop apologising for it. Because the unusual is where you feel most yourself, you drop the roles and habits that were only for show. You buy the out-of-print book and write to the one person still working on the question.",
+     "lived": "A subject most people your age would never touch has become yours since your late forties, and the interests you kept for appearances have fallen away. You have grown harder to place and more at ease with it, the strange one by choice now.",
+     "ahead": "You grow from your late forties by mastering one rare thing completely. You go further into it than anyone around you, keeping your method in your head long after others ask you to write it down."
     },
     "Career": {
-     "headline": "Your later work is advice, and people pay for it.",
-     "recognition": "In later life you move toward advisory work, the expert called in when the usual answers run out. Because people value what you alone can see, your name opens doors without a title attached, and you prefer it that way. You turn down steady roles and say yes to hard problems.",
-     "lived": "More of your work has come by word of mouth since your late forties, from people who heard you could solve what others could not. You have taken on at least one younger person who learned your methods closely, and you have seen them do well.",
-     "ahead": "The people after you seek out what you know from your late forties, and they bring you the questions their own teachers could not answer. You become the one they consult, and you see your methods carried into work you will never do yourself."
+     "headline": "Your work begins where the usual answers run out.",
+     "recognition": "You are at your best as the specialist, called in for the problem with no known method. Because people value what you alone can see, your name opens doors without a post attached, and you prefer it that way. You turn down steady jobs and say yes to strange problems.",
+     "lived": "Since your late forties more of your work has come by word of mouth, from people who heard you could solve what others could not. You have built a niche out of the problems nobody else would touch, and it has kept you in demand on your own terms.",
+     "ahead": "The people after you seek out what you know from your late forties, bringing you the puzzles their own training could not solve. You become the one they consult in private, watching your methods carried into work you will never do yourself."
     }
    }
   },
@@ -395,63 +418,68 @@ export const DOMAINS_CONTENT = {
     "Mind": {
      "headline": "Your mind runs best on what others find strange.",
      "recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is the thing that matters most.",
-     "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them."
+     "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and the result is a corner of knowledge almost nobody else holds.",
+     "lived_past": "In your twenties and early thirties your mind went its own way, into a subject or a method most people around you did not follow. You spent more nights with a question than with company, and the reward was a corner of knowledge almost nobody else held."
     },
     "Growth": {
      "headline": "You grow late, and mostly in private.",
      "recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you underrate where you are, and you let them. You are further along than anyone watching would guess.",
-     "lived": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years."
+     "lived": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years.",
+     "lived_past": "Through your Rising Chapter your growth looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you could do by your mid-thirties, you taught yourself in those years."
     },
     "Career": {
      "headline": "Your work pays for what only you know.",
      "recognition": "You are the specialist people call when the usual answers fail. Because you trust knowledge you have dug out yourself, you are drawn to a narrow field the mainstream ignores, and you would rather be paid for strange work than praised for ordinary work. You earn more from the niche you choose than any ladder would pay you.",
-     "lived": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew."
+     "lived": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. You have won roles over people with better connections on the strength of something strange you knew.",
+     "lived_past": "Until your mid-thirties your working life ran underground, in jobs that looked quiet while you built a skill nobody asked for. You won roles over people with better connections on the strength of something strange you knew."
     }
    }
   },
   "pianyin_month_stem": {
    "domains": {
     "Career": {
-     "headline": "You are hired for the problems nobody else can solve.",
-     "recognition": "Colleagues come to you when a problem has stopped making sense. Because your value lies in seeing what others miss, you choose a narrow speciality over a broad ladder, and you lose interest in work anyone could do. Your reputation travels further than your title, and it travels slowly.",
-     "lived": "Work with an odd corner to it has drawn you since your late teens, a niche most people around you ignored. You have been passed over at least once for someone easier to explain, and you have been called back later to fix what they could not."
+     "headline": "Your work starts where the standard method fails.",
+     "recognition": "Colleagues come to you when a problem has stopped making sense, and you find the angle nobody else tried. Because your value lies in unusual knowledge, you choose a narrow speciality over a broad ladder, and you lose interest in work anyone could do. Your reputation travels further than your rank, and it travels slowly.",
+     "lived": "Work with an odd corner to it has drawn you since your late teens, a niche most people around you ignored. You have watched people easier to explain win the early promotions and then been sent for when their fixes failed.",
+     "lived_past": "Between sixteen and your mid-thirties, work with an odd corner to it drew you, a niche most people around you ignored. You watched people easier to explain win the early promotions and then got sent for when their fixes failed."
     },
     "Mind": {
      "headline": "Your mind is your trade, and it needs quiet.",
-     "recognition": "You think in leaps that skip the steps others need, and you arrive at answers before you can say how. Because your best insight comes in silence, open offices and constant meetings drain you faster than hard work does. You protect your quiet hours at work with more care than your free time.",
-     "lived": "Your thinking has set you apart at work since your late teens, quick to spot the flaw and slow to explain it. You have left more than one project half finished because the interesting part was solved, and the finishing bored you."
+     "recognition": "Your mind goes straight to the corner of a subject everyone else skips, the exception or the case that breaks the pattern. Because your best insight comes in private, open offices and constant meetings scatter you within a day. You guard your quiet hours at work more closely than your free time.",
+     "lived": "Your thinking has set you apart at work since your late teens, quick to reach an odd answer and slow to explain it. You have handed project after project to a finisher once the puzzle was solved, because the finishing bored you.",
+     "lived_past": "Through your Rising Chapter your thinking set you apart at work, quick to reach an odd answer and slow to explain it. You handed project after project to a finisher once the puzzle was solved, because the finishing bored you."
     }
    }
   },
   "pianyin_year_branch": {
    "domains": {
     "Family": {
-     "headline": "You were loved at home in an unusual way.",
-     "recognition": "You show love to your family through ideas and help with problems more than through surface warmth. Because the care you got early was quiet and odd, you trust a relative who understands you more than one who fusses over you, and you feel lonely at noisy gatherings. You come home as the quiet one, and your relatives have stopped trying to change that.",
-     "lived": "In your first home someone gave you books, questions or long silences in place of the usual fuss, an adult who lived in their own head. By your teens you had learned to answer your own questions, and you asked for help less than other children did."
+     "headline": "You love your family in an unusual way.",
+     "recognition": "You show love to your family through ideas and help with problems more than through surface warmth. Because the care you got early was quiet and odd, you trust a relative who understands you over one who fusses, and you feel lonely at noisy gatherings. You come home as the quiet one, a part your relatives have long stopped trying to change.",
+     "lived": "Instead of the usual fuss you got books, questions and long silences from an adult in your first home who lived in their own head. What you took from it was the habit of answering your own odd questions before you thought to ask anyone else."
     },
     "Mind": {
-     "headline": "You taught yourself most of what you know.",
+     "headline": "Your mind runs on what you find out alone.",
      "recognition": "You learn best alone, from books and odd sources and your own testing, at a pace no class has ever matched. Because nobody handed you a set path, you trust the understanding you dig out yourself, and you forget what you were simply told. You know a great deal that you have never shown anyone.",
-     "lived": "Whatever you were given to read when you were small, you read past it into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you mentioned it only to the one or two people who asked."
+     "lived": "Whatever you were given to read when you were small, you read past it into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, mentioning it only to the one or two people who asked."
     },
     "Growth": {
-     "headline": "Your growth comes through the unusual teacher.",
-     "recognition": "You grow fastest through unusual people and unplanned turns, the odd teacher or the subject you stumbled on. Because the standard routes never fitted how you learn, you find them dull and leave them early. You grow in your own order, and others notice only when it is done.",
-     "lived": "A person outside the usual line taught you most as a child, a neighbour or relative with odd interests who took you seriously. By your teens you had grown in ways your family could not quite follow, and you had stopped expecting them to."
+     "headline": "Your growth takes the odd route, never the set one.",
+     "recognition": "You grow fastest through unusual people and unplanned turns, the odd expert or the subject you stumble on. Because the standard routes never fitted how you learn, you find them dull and leave them early. You grow in your own order, and others notice only when it is done.",
+     "lived": "The people who taught you most as a child stood outside the usual line, the neighbour or relative with odd interests who took you seriously. You grew in directions your family could not follow, and stopped expecting them to before you were fifteen."
     }
    }
   },
   "pianyin_year_stem": {
    "domains": {
     "Mind": {
-     "headline": "Your mind has always worked at an angle.",
-     "recognition": "You come at problems from an unexpected direction, and people notice the answer before they understand the route. Because your mind took its own path from the start, you get bored by the obvious approach and drift toward the strange one. Your way of thinking is the first thing people remember about you.",
-     "lived": "As a child you learned in a way teachers struggled to mark, reaching the right answer by a route nobody had taught. By your teens you were known for it, as the clever one or the odd one, and you were both."
+     "headline": "Your mind works at an angle.",
+     "recognition": "You come at problems from an unexpected direction, and the strange angle is the one you take. Because your mind took its own path from the start, a private hunch carries more weight with you than the method everyone else was taught. You trust your mind most when nobody else agrees with it.",
+     "lived": "As a child you reached the right answer by routes nobody had shown you, working things out alone with a book or a puzzle. By your teens you were known as the clever one or the odd one, and both were true."
     },
     "Social": {
-     "headline": "You choose a small circle and keep it close.",
-     "recognition": "You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. Only a few people know you well, and you chose it that way.",
+     "headline": "You keep your friends few and your inner life private.",
+     "recognition": "You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you secrets they tell nobody else. You choose friends for how they think, and one shared odd interest outweighs years of small talk.",
      "lived": "Other children took a while to warm to you, because you stood at the edge of each group for a long time before you joined it. By your teens you had one or two close friends who understood you, and they were enough for you."
     }
    }
@@ -459,60 +487,62 @@ export const DOMAINS_CONTENT = {
   "qisha_day_branch": {
    "domains": {
     "Love": {
-     "headline": "You love people strong enough to push back.",
-     "recognition": "You fall for people with force, the ones who argue their case and refuse to be managed. Because a gentle partner leaves you restless, you bring pressure into love without meaning to, and small disagreements grow into contests. What you want is a partner who matches your strength and turns it toward the world with you.",
-     "lived": "The partners who mattered most to you have been hard to move, with strong opinions and no wish to bend. At least once a relationship wore you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
-     "ahead": "Love asks more of you from your mid-thirties, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task."
+     "headline": "You love hardest when something is at stake.",
+     "recognition": "You trust a love that has come through something hard, and you feel closest to a partner in the weeks when everything is on the line. Because pressure is how you know a bond is real, you test a partner without meaning to whenever love runs easy. Your kind of partner has the nerve to stand beside you when it counts.",
+     "lived": "Your relationships so far have been tested hard, by heavy loads and bad stretches carried together, and the strain itself felt like closeness. From them, you have learned to tell a bond that bends under pressure from one that breaks.",
+     "ahead": "Love asks more of you from your mid-thirties, a shared load and the pressure of carrying it well. You come through these years closer to a partner when the two of you turn your strength to the same hard task.",
+     "lived_past": "In your late thirties and forties your relationships were tested hard, by heavy loads and bad stretches carried together, and the strain itself felt like closeness. From them, you learned to tell a bond that bent under pressure from one that broke."
     },
     "Health": {
-     "headline": "Your body carries whatever strain your home holds.",
-     "recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain goes into your appetite and your patience. You recover your strength within days once the house is calm again.",
-     "lived": "Your hardest seasons at home have also been your most tired ones, with broken sleep and short reserves. Each time a quarrel ended, you found your energy again faster than you expected.",
-     "ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are at your strongest in these years whenever the house is at peace, and every long quarrel costs you rest."
+     "headline": "Your body grows strong under hard tests.",
+     "recognition": "You feel best in the weeks your body is pushed hard, by training, by heavy work or by a goal with real stakes. Because you meet pressure by bracing against it, a long strain at home goes into your sleep before you admit it is there. You recover within days once the fight is over.",
+     "lived": "Your strongest stretches so far have been the hard ones, when home and work both tested you and you held up on nerve and short sleep. You have come out of each test tougher and with a clear sense of how much you can carry.",
+     "ahead": "From your mid-thirties a partner who pushes as hard as you do keeps you fit, and a house full of fights wears you out. You are at your strongest in these years whenever the two of you pull in the same direction.",
+     "lived_past": "In your late thirties and forties your strongest stretches were the hard ones, when home and work both tested you and you held up on nerve and short sleep. You came out of each test tougher and with a clear sense of how much you could carry."
     }
    }
   },
   "qisha_hour_branch": {
    "domains": {
     "Health": {
-     "headline": "Your body stays strong on routine.",
-     "recognition": "You treat your body as something to keep in working order, with a fixed hour to rise and a daily walk or workout. Because strength is part of how you see yourself, you ignore tiredness until it slows you down. Your energy is at its best when the week has a shape.",
-     "lived": "Your body has answered regular effort quickly since your late forties, and your strength has returned each time you took up a routine again. When you were tired, pride kept you going past the point of rest, and you felt it for days afterwards.",
-     "ahead": "From your late forties your health rests on routine, and a steady week keeps you fitter than most people your age. Days with no shape drain your energy and ordered ones bring it back, and you feel the difference within a week."
+     "headline": "Your body stays strong by being tested.",
+     "recognition": "You treat your body as something to test, with an early start and a tough workout most days. Because strength is part of how you see yourself, you ignore tiredness until it slows you down. Your energy is at its best when the week asks something hard of you.",
+     "lived": "Since your late forties your body has answered every hard test you set it, and your strength has returned with every new round of training. You have pushed past the point of rest in tired weeks out of pride, and felt it for days afterwards.",
+     "ahead": "From your late forties you keep finding new tests for your body, a longer distance or a harder season of training, and it rises to each one. You stay fitter than most people your age, and the weeks without a challenge are the ones that slow you."
     },
     "Family": {
      "headline": "Your family feels your protection first.",
-     "recognition": "You look after your family by making sure they are safe, the arrangements firm and the risks dealt with before anyone else sees them. Because care for you means strength, you find it easier to fix a problem than to say a tender thing. Your family knows they are covered, and they wait longer to hear that they are loved.",
-     "lived": "The people after you have leaned on your strength in hard moments since your late forties. You sorted out the problem before you asked how they felt, and you saw them keep the few kind words you did say for years.",
-     "ahead": "Past your late forties the people after you come to you first when things go wrong. You give them safety without being asked, and in these years you find the kind thing easier to say out loud."
+     "recognition": "You stand between your family and trouble, and you meet a threat before anyone else has seen it coming. Because a crisis brings out your best nerve, you are calmest in their worst weeks and restless in their easy ones. You hold the line for them in a storm without being asked, and they know it.",
+     "lived": "The people after you have leaned on your strength in hard moments since your late forties. You took on the worst of each crisis yourself and kept your own worries out of their sight.",
+     "ahead": "Past your late forties the people after you turn to you first when things go wrong. You stand beside them through the hardest tests of their lives, and they come out braver for having you there."
     },
     "Growth": {
-     "headline": "You keep growing by setting yourself hard tasks.",
-     "recognition": "You grow the way you always have, by taking on something difficult and holding yourself to it. Because ease makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. What costs you is the quiet, and you find unplanned days harder than hard work.",
-     "lived": "You have taken on at least one new discipline since your late forties, a skill or a sport or a role, and stuck with it longer than people expected. Your growth in those years came through effort, and the calm stretches between left you restless.",
-     "ahead": "In the years after your late forties you grow through challenges you choose yourself, and each one leaves you sharper and steadier. You learn slowly to count rest as part of the work, and your strength outlasts most people's for it."
+     "headline": "Hard tasks you set yourself keep you growing.",
+     "recognition": "You grow the way you always have, by taking on something difficult and holding yourself to it. Because an easy stretch makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. You find unplanned days harder than hard work, and the quiet is what tests you most.",
+     "lived": "Since your late forties you have taken on new disciplines one after another, a skill or a sport or a hard new trade, and stuck with each longer than people expected. You have come out of each one steadier, with a nerve that holds where it once shook.",
+     "ahead": "From your late forties you grow through challenges you choose yourself, and each one asks more of you than the last. Counting rest as part of the work at last, you keep your strength longer than most people do."
     }
    }
   },
   "qisha_hour_stem": {
    "domains": {
     "Career": {
-     "headline": "Your authority keeps growing while others step back.",
-     "recognition": "You stay in demand late, the one called when a problem is too hard for anyone else. Because pressure is where you feel useful, you take on serious responsibility at an age when most people are easing off. What you find hardest is a calendar with nothing urgent in it, and you fill it fast.",
-     "lived": "You have been asked to lead in hard moments since your late forties, in a crisis or on a committee or in work nobody else would take on. You turned down at least one easy way out because the demanding role kept you sharp.",
-     "ahead": "From your late forties the work people bring you carries more weight, the serious decisions others are glad to hand over. You stay active in your work for longer than most, and you are consulted long after others have stopped being asked."
+     "headline": "You come alive when the work gets hard.",
+     "recognition": "You are the one handed the crisis and the deadline nobody else will carry. Because pressure is where you feel useful, you take on the hard jobs other people step away from. What you find hardest is a calendar with nothing urgent in it, which you fill fast.",
+     "lived": "Since your late forties you have been the one asked to lead when things went wrong, the rescue job or the project already failing. You came out of each one with more nerve than you took in, and with a name as the person to call.",
+     "ahead": "From your late forties the work people bring you is the hardest they have, the turnaround or the fight that others back away from. You stay in the thick of it longer than most, still called in when others your age have stopped being asked."
     },
     "Growth": {
      "headline": "You grow by using your strength with more care.",
-     "recognition": "You change by getting better at pressure, using less force to get the same result. Because you have tested yourself so many times, you know your limits well, and you spend your energy where it counts. You lose your temper less than you did, and you win more arguments by waiting.",
-     "lived": "Your results have come with less pressure since your late forties, and you have made fewer enemies along the way. You started to guide younger people through hard work, and teaching them restraint has taught you more than any role.",
-     "ahead": "In the years after your late forties your growth comes through teaching, as you pass on how to handle pressure to people who are just starting. You become calmer and more exact with every year, and you get more done with less force."
+     "recognition": "You change by getting better at pressure, using less force to get the same result. Because you have tested yourself so many times, you know your limits well, and you spend your energy where it counts. You lose your temper less than you did, winning more ground by waiting.",
+     "lived": "The hard tests have kept coming since your late forties, and you have met them with better timing and a cooler head. You have picked the battles that mattered and let the rest pass, making fewer enemies than in your younger fights.",
+     "ahead": "In the years after your late forties the tests you face are tests of nerve more than strength, and you meet them with a calm that surprises people who knew you younger. You trade force for precision with every year, saving your hardest push for the one moment that decides it."
     },
     "Family": {
-     "headline": "Your family measures itself against your standards.",
-     "recognition": "You hold the people in your family to high standards, and you notice the slip before the effort. Because demands are how you show care, the people close to you feel the weight before they feel the care. Your family respects you deeply, and some of them wait a long time for your praise.",
-     "lived": "The people after you have measured themselves against you since your late forties. They took your standards seriously, and you saw at least once that a sharp word from you stayed with them for years.",
-     "ahead": "Past your late forties the people after you carry your standards into their own lives. You soften with them in these years, and a few words of praise from you mean more to them than anything else you give."
+     "headline": "Your family learns to rise to your pressure.",
+     "recognition": "You protect your family by making them strong, the hard lesson given early and the risk faced together. Because you trust pressure to build people, you push the young ones harder than outsiders and stand closest to them in a crisis. You are at your best with them in a storm, and less sure of yourself on the calm days.",
+     "lived": "The people after you have brought you their hardest weeks since your late forties, and you have pushed them to face what scared them. You have watched them come through tougher than they expected, each test leaving them less afraid of the next.",
+     "ahead": "Past your late forties the people after you take on fights of their own, and they borrow the nerve you showed them. You soften with them as they toughen, the one they want beside them when the stakes are real."
     }
    }
   },
@@ -521,45 +551,49 @@ export const DOMAINS_CONTENT = {
     "Career": {
      "headline": "You do your best work under real pressure.",
      "recognition": "You pick the job with the highest stakes and the tightest deadlines, and you are at your sharpest when it is going badly for everyone else. Because pressure is how you prove yourself to yourself, calm work leaves you flat and restless. What you build fastest is respect, and what you lose first is rest.",
-     "lived": "A calm post has left you uneasy since your late teens, as if you had not earned your place, and you have asked for the hard assignment instead. Each crisis you took on left you more trusted, and at least once you turned down an easier job with better hours."
+     "lived": "You have asked for the hard assignment since your late teens, the failing project or the client nobody else could handle. You have come out of each crisis more trusted, until the hardest work reaches you first.",
+     "lived_past": "From your late teens to your mid-thirties you asked for the hard assignment, the failing project or the client nobody else could handle. You came out of each crisis more trusted, until the hardest work reached you first."
     },
     "Health": {
      "headline": "Your body carries the cost of your pace.",
-     "recognition": "You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep as if it were part of the job. Your energy is deep, and you spend it faster than you replace it.",
-     "lived": "Through your first working years your body kept pace with demands that stopped most people around you. A hard season ended more than once with you worn out for weeks, and you recovered fully each time you gave yourself real rest."
+     "recognition": "You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep as if it were part of the job. Your energy runs deep, though you spend it faster than you replace it.",
+     "lived": "Since your late teens your body has kept pace with demands that stopped most people around you. Your hardest seasons have ended with you worn out for weeks, and each one has taught you to stop a little sooner.",
+     "lived_past": "In your twenties and early thirties your body kept pace with demands that stopped most people around you. Your hardest seasons ended with you worn out for weeks, and each one taught you to stop a little sooner."
     }
    }
   },
   "qisha_month_stem": {
    "domains": {
     "Career": {
-     "headline": "Your career rises fastest where the stakes are highest.",
-     "recognition": "You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers trust you with more than your title says, and the load keeps growing. You earn rank through pressure, and you rarely get a quiet week.",
-     "lived": "Your reputation at work has grown out of hard moments since your late teens, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week."
+     "headline": "Pressure is where your career is made.",
+     "recognition": "You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers hand you more than your position covers, and the load keeps growing. You are at your calmest when the stakes are highest, and a quiet week makes you restless.",
+     "lived": "Your reputation at work has grown out of hard moments since your late teens, the emergency handled or the project rescued. Your promotions have come out of the worst weeks, each one earned by the nerve you showed when a project was close to failing.",
+     "lived_past": "Through your Rising Chapter your reputation at work grew out of hard moments, the emergency handled or the project rescued. Your promotions came out of the worst weeks, each one earned by the nerve you showed when a project was close to failing."
     },
     "Social": {
-     "headline": "Your friends are people who have earned it.",
-     "recognition": "You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, you leave a party once you have talked to the people you came for, and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years.",
-     "lived": "Your closest friends since your late teens have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed."
+     "headline": "Your friendships are tested before they are trusted.",
+     "recognition": "You size up new people by how they act when something goes wrong, and you warm to anyone who keeps their nerve. Because you trust only what has been tested, light talk at a party feels like a waste of your evening. Your friendships are few and serious, and loyalty under strain is the one test you set.",
+     "lived": "Your closest friends since your late teens have been the people you worked hardest beside, in a tough job or a demanding team. You have come out of each hard stretch with an ally who answers your call at any hour.",
+     "lived_past": "In your Rising Chapter your closest friends were the people you worked hardest beside, in a tough job or a demanding team. You came out of each hard stretch with an ally who answered your call at any hour."
     }
    }
   },
   "qisha_year_branch": {
    "domains": {
     "Family": {
-     "headline": "You carried more at home than anyone knew.",
-     "recognition": "At home you protect your family closely, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. Your family relies on your strength, and few of them know what it cost you to build.",
-     "lived": "In your first home you carried a weight few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself."
+     "headline": "You carry more for your family than anyone knows.",
+     "recognition": "At home you fight your family's battles, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. You are the strength your family leans on, though you have told few of them what it took to build.",
+     "lived": "Through your first years at home you carried a weight few people saw, hard stretches and heavy demands and worries beyond your age. By your teens you were the one your family turned to in a hard week, holding firm without being asked."
     },
     "Growth": {
      "headline": "Hard years are the ones that grow you.",
-     "recognition": "You grow when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst.",
+     "recognition": "You grow when life is hard, and you lose direction when it gets too easy. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in stretches other people would call their worst.",
      "lived": "Each hard year of your childhood left you more capable than the one before, at school or at home or in a sport. You came to trust difficulty more than ease, and by your teens you went looking for it."
     },
     "Health": {
      "headline": "Your body is strong and holds its strain.",
-     "recognition": "Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it shows in short sleep and a short temper. You recover well once you finally rest, and you rarely rest early enough.",
-     "lived": "You were a tough child, slow to complain and quick to hide a bad night from the adults. Your reserves got you through hard weeks most children did not have to face, and you learned early to run on them."
+     "recognition": "Your body keeps pushing under strain, long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it shows in short sleep and a short temper. You recover well once you finally stop, and the stop comes late every time.",
+     "lived": "In your first years you were hardy, slow to complain and the last to quit a tough game. Your nerve carried you through hard weeks most children never faced, long before you were fifteen."
     }
    }
   },
@@ -567,13 +601,13 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Social": {
      "headline": "People respect you first and like you second.",
-     "recognition": "You walk into a group and people sort themselves around you, some matching your strength and others keeping their distance. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. Your friendships are strong and few, and you keep the ones who push back.",
+     "recognition": "You walk into a group and people sort themselves around you, some squaring up and others stepping aside. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. You keep the few friends who push back when you push.",
      "lived": "As a child you were the one others looked to in a fight or a dare, and you did not give way easily. Your friends by your teens were either as tough as you or kept at a distance, and you learned diplomacy slowly."
     },
     "Career": {
-     "headline": "Authority found you early and kept finding you.",
-     "recognition": "You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months.",
-     "lived": "Responsibility beyond your age came to you before you were grown, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends."
+     "headline": "Authority keeps finding you, and the hard tests with it.",
+     "recognition": "You end up in charge in most places you work, before you have asked for it. Because hard tests feel familiar to you, you take on serious work that makes others nervous. You rise through the hardest jobs and find easy ones dull within months.",
+     "lived": "Pressure beyond your age reached you in your first years, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, but you came out of it tougher than most of your friends."
     }
    }
   },
@@ -581,47 +615,49 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Love": {
      "headline": "You love the person who can answer you back.",
-     "recognition": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing a partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half.",
-     "lived": "The partners you have chosen so far were quick ones, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
-     "ahead": "From your mid-thirties your home fills with talk, and the partner you share it with matches you word for word. The two of you grow closer through what you argue about together, and you aim your sharpest words at the world outside your door."
+     "recognition": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you pick arguments for the thrill of the reply, and some evenings end colder than either of you meant. You want praise and honesty in the same person and rarely settle for half.",
+     "lived": "The partners you have chosen so far were quick ones who argued well and laughed at the right moments, and each cold spell between you began with honesty that arrived before warmth. You have come out of them knowing which of your true words a partner can take.",
+     "ahead": "Love from your mid-thirties fills with talk, and you look for a partner who matches you word for word. In these years you grow closer through what the two of you argue about, and you learn which of your sharpest words to keep for everyone else.",
+     "lived_past": "In your late thirties and forties your partners were quick ones who argued well and laughed at the right moments, and each cold spell between you began with honesty that arrived before warmth. You came out of them knowing which of your true words a partner could take."
     },
     "Mind": {
      "headline": "Your mind is sharpest in conversation with someone close.",
-     "recognition": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give a partner your best ideas first, and your harshest opinions too.",
-     "lived": "Your clearest thinking has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening.",
-     "ahead": "Your thinking grows bolder from your mid-thirties, and a partner is the first to hear each new idea. The ideas the two of you test at home in these years become the ones you are known for, and you say them more kindly than you once did."
+     "recognition": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give a partner your best ideas first and your harshest opinions with them.",
+     "lived": "Your best thinking so far has been done in argument, in late talks at home where every point you made was questioned. You have changed your mind only for a partner who argued better, and those talks have given you the sharpest voice in any group.",
+     "ahead": "Your thinking grows bolder from your mid-thirties, and the arguments you have at home turn into work you show in public. You become known in these years for ideas first tried on a partner, and you say them more kindly than you once did.",
+     "lived_past": "In your late thirties and forties your best thinking was done in argument, in late talks at home where every point you made was questioned. You changed your mind only for a partner who argued better, and those talks gave you the sharpest voice in any group."
     }
    }
   },
   "shangguan_hour_branch": {
    "domains": {
     "Family": {
-     "headline": "Your family stays loud with argument and ideas.",
-     "recognition": "You love your family through talk, about ideas and plans and whatever they are getting wrong. Because a good argument is how you stay close, you push the people you love harder than strangers, and the gentler ones keep their distance. What you want from your family is a table that talks back, and the weeks it goes quiet are the ones you like least.",
-     "lived": "The talk in your family has got sharper and funnier since your late forties, with younger people answering you back. You have been proudest when one of them beat you in an argument, and you have rarely said so.",
-     "ahead": "From your late forties the people after you seek you out for talk they cannot get anywhere else. You become the one in your family whose opinion is asked for, and you give it with more warmth than you once did."
+     "headline": "Your family stays sharp with talk and argument.",
+     "recognition": "You love your family through talk, about ideas and plans and whatever they are getting wrong. Because saying the true thing is how you stay close, you are sharper with the people you love than with anyone else, and the gentler ones keep their distance. You want a family with plenty to say, and a quiet week with them is the one you like least.",
+     "lived": "Since your late forties the talk in your family has got sharper and funnier, and the people after you have learned to answer you back. You have been proudest when one of them beat you in an argument, though you have rarely said so.",
+     "ahead": "From your late forties the people after you seek you out for talk they cannot get anywhere else. You become the one in your family who says what others will not, with more warmth than you once had."
     },
     "Mind": {
      "headline": "Your mind stays quick and restless with every decade.",
-     "recognition": "You keep your mind busy with projects and opinions, and an empty week wears you down faster than a hard one. Since an idea feels finished to you only once it has been argued, you go looking for a debate when none comes to you. Your thinking stays quick while it has work, and you feel the loss within days when it has none.",
-     "lived": "Your mind has kept finding new work since your late forties, a subject or a project picked up whenever an old one ran out. You have started more debates in this stretch than in any earlier decade, and you have enjoyed nearly all of them.",
-     "ahead": "Your thinking gets bolder past your late forties, and you say plainly what you held back in earlier years. An idea that grips you keeps you up at night, and you sleep well again once you have said it out loud."
+     "recognition": "You keep your mind busy with projects and opinions, and an empty week wears you down faster than a hard one. Since an idea feels finished to you only once it has been argued, you go looking for a debate when none comes to you. Your thinking stays quick while it has something to take apart, and it dulls within days when it has none.",
+     "lived": "Since your late forties your mind has kept finding new work, a project or a cause picked up whenever an old one ran out. You have argued more with every year, and the arguing has kept your mind younger than your age.",
+     "ahead": "From your late forties your thinking turns bolder, and you question ideas you once took on trust. You lose sleep over an idea that grips you until you have said it out loud."
     }
    }
   },
   "shangguan_hour_stem": {
    "domains": {
     "Career": {
-     "headline": "Your best work is the work you do last.",
-     "recognition": "You do your best work where you can say what you think, and a job that asks for quiet manners tires you. Because your skill has grown faster than your patience for rules, you are better at the job than many who manage it. What you make in later life outlasts the job that paid for it, and you judge yourself by the work alone.",
-     "lived": "Your work has grown bolder since your late forties, and you have said things in public that you once kept back. At least once a role ended because you would not soften a view, and you did better work in the next one.",
-     "ahead": "From your late forties your influence grows as titles start to matter less, and people begin to repeat what you say. Younger people carry your methods into their own work, and you hear your own style in the way they argue with you."
+     "headline": "Your work says what others will not.",
+     "recognition": "You do your best work where you can say what you think, and a job that asks for quiet manners tires you. Because your skill has grown faster than your patience for rules, you are better at the job than many who manage it. You judge yourself by the work alone, never by the rank of whoever praised it.",
+     "lived": "Your work has grown bolder since your late forties, and you have said in public what you once kept back. You have outlasted the jobs that wanted a quieter voice, doing better work in each one that replaced them.",
+     "ahead": "From your late forties your influence grows as rank starts to matter less, and people begin to repeat what you say. You hear your own voice in the way the people after you argue with you, sharp lines and all."
     },
     "Growth": {
-     "headline": "You grow for as long as the work stays new.",
-     "recognition": "You grow fastest when the task is new to you, a different kind of audience or a skill nobody expects you to take up. Because sameness bores you before it tires you, you leave a settled position sooner than others think wise. Each change costs you some comfort, and you come out of it sharper than you went in.",
-     "lived": "Past your late forties you have changed direction more than once where others expected you to settle, taking up a new field or a new way of working. Each move looked risky to the people around you, and you grew more for it than in the calmer years before.",
-     "ahead": "Saying out loud what you used to keep to yourself becomes your way of growing from your late forties, and people who once called you difficult start calling you wise. You stay sharp in these years while something in your life is new, and you go looking for it when nothing is."
+     "headline": "You grow by breaking the rule you were given.",
+     "recognition": "You grow where someone has said a thing cannot be done, a rule to question or a method to beat. Because being told how bores you before it tires you, you leave a settled position sooner than others think wise. You speak more plainly after every break, whatever it costs you.",
+     "lived": "Since your late forties you have said out loud what others kept quiet about, and changed your way of working because of it. You grew more from each break than in the calmer years before, though each one looked risky to everyone watching.",
+     "ahead": "Past your late forties the people who once called you difficult start calling you wise, and your arguments get a hearing they never had. You keep your edge in these years by finding one settled idea after another to question."
     }
    }
   },
@@ -630,12 +666,14 @@ export const DOMAINS_CONTENT = {
     "Career": {
      "headline": "You are paid to make things better.",
      "recognition": "You are best in jobs where improving things is the work itself, editing or design or reform of some kind. Because a weak plan is plain to you before anyone asks, you correct work that was never yours to correct. Your value at work grows with every process you improve, and you are known as the colleague who will not let poor work pass.",
-     "lived": "In class, in teams and in your first jobs you have been the one who points out what could be better. You have clashed with at least one boss over it, and you have also been the person they sent for when something needed fixing."
+     "lived": "In class, in teams and in your first jobs you have been the one who said out loud what could be better. You have clashed with bosses over it, and they have been the ones who sent for you when something needed fixing.",
+     "lived_past": "Through your Rising Chapter, in class and in teams and in your first jobs, you were the one who said out loud what could be better. You clashed with bosses over it, and they were the ones who sent for you when something needed fixing."
     },
     "Mind": {
      "headline": "Your mind never stops improving what it sees.",
      "recognition": "You think in revisions, turning over a plan or an idea or your own opinion until it is better, and nothing feels quite finished to you. Since a fault you have noticed stays with you until it is mended, your mind keeps working when the day is over. You sleep best in the weeks when one hard problem has all of your attention.",
-     "lived": "Your mind has gone looking for faults since your late teens, in what you were taught and in what you believed yourself. You have changed your view on something important more than once over those years, and each time you argued yourself into the new view first."
+     "lived": "Your mind has gone looking for faults since your late teens, in what you were taught and in what you believed yourself. You have changed big views only after arguing yourself into the new one, which leaves you with beliefs that survived your own questions.",
+     "lived_past": "From sixteen to your mid-thirties your mind went looking for faults, in what you were taught and in what you believed yourself. You changed big views only after arguing yourself into the new one, which left you with beliefs that had survived your own questions."
     }
    }
   },
@@ -643,13 +681,15 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "You are hired for your talent and tested on your discipline.",
-     "recognition": "You do your strongest work where you can be seen doing it, pitching or teaching or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your talent wins you the role, and your record of finishing decides how long you keep it.",
-     "lived": "Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outstayed most of the ones who did not."
+     "recognition": "You do your strongest work where you can be seen doing it, pitching or performing or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your sharpest ideas win the meeting, and how far they carry you depends on what you finish.",
+     "lived": "Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outstayed most of the ones who did not.",
+     "lived_past": "From sixteen to your mid-thirties bosses either backed you fully or tried to slow you down, and few stayed neutral about you. You did your best work for the ones who believed in you and outstayed most of the ones who did not."
     },
     "Social": {
      "headline": "Friends and colleagues either love you or resist you.",
-     "recognition": "Your circle splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing in company and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years.",
-     "lived": "Your friendships since your late teens have formed around strong reactions, people who liked your edge at once or never warmed to it. More than once a friendship ended over something you said in public, and you have kept every friend who stayed through it."
+     "recognition": "You say the sharp thing in company, the joke that lands too close or the question nobody wanted asked. Because being remembered matters more to you than being liked, you accept that a few people cool on you after a dinner. You are closest to the people who came for that edge and defend it when you are absent.",
+     "lived": "Since your late teens your friendships have been sorted by what you said in public, in class and at work. You have ended up trusting the people who argued back far more than anyone who simply agreed.",
+     "lived_past": "Through your Rising Chapter your friendships were sorted by what you said in public, in class and at work. You ended up trusting the people who argued back far more than anyone who simply agreed."
     }
    }
   },
@@ -657,27 +697,27 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Family": {
      "headline": "Your family gets your honesty along with your love.",
-     "recognition": "You love your family most easily where you are allowed to disagree, and a home that asks you to keep quiet feels cold to you. Because honesty was your first way of belonging at home, you say what others leave unsaid, and a relative or two finds you hard work. Your warmth is real, and you show it most to the people who argue back.",
-     "lived": "You questioned at least one rule in your first home that everyone else accepted, quietly or out loud. Someone there found you difficult for it, and by your teens you had learned which opinions to keep to yourself."
+     "recognition": "You love your family most easily where you are allowed to disagree, and a home that asks you to keep quiet feels cold to you. Because honesty was your first way of belonging at home, you say what others leave unsaid, and a relative or two finds you hard work. Your warmth is real, and it shows most with the people who argue back.",
+     "lived": "As a child you questioned the house rules that everyone else accepted, and you said so out loud. You reached your teens with a name for being difficult and a sharp sense of which opinions to keep to yourself."
     },
     "Growth": {
      "headline": "You grow by doubting what you are given.",
-     "recognition": "You improve anything you are handed by questioning it first, a method or a belief or a piece of advice. Since accepting things whole has never felt honest to you, you learn more slowly from teachers and faster from your own mistakes. Your doubt turns into skill whenever it has real work in front of it, and you grow restless when it has none.",
-     "lived": "You had outgrown some of what your family believed by your teens, and you got there by arguing with it. In school you did best in the subjects that let you question the answer, and you drifted through the ones that did not."
+     "recognition": "You improve anything you are handed by questioning it first, a method or a belief or a piece of advice. Since accepting things whole has never felt honest to you, you learn more slowly from instruction and faster from your own mistakes. Your doubt sharpens into skill when it has real work, and it turns on you when it has none.",
+     "lived": "You had outgrown some of what your family believed by your teens, and you got there by arguing with it. In school you did best in the subjects that let you question the answer, coasting through the ones that did not."
     }
    }
   },
   "shangguan_year_stem": {
    "domains": {
     "Social": {
-     "headline": "People remember you after one meeting.",
-     "recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it.",
-     "lived": "When you were a child, your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
+     "headline": "People quote you after one meeting.",
+     "recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. You keep the friends who enjoy your sharpness for years and lose interest in the ones who only tolerate it.",
+     "lived": "When you were a child, your remarks were the ones other people repeated, at home and in class. By your teens you had a few friends who loved your wit and one or two adults who had given up on correcting you."
     },
     "Mind": {
      "headline": "Your mind gets there first and gets bored first.",
-     "recognition": "You see the pattern before others have finished explaining it, and boredom reaches you long before the lesson ends. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and you drift when it has neither.",
-     "lived": "You finished the work early at school and went looking for something harder, or for trouble when nothing harder came. Before you left school you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were."
+     "recognition": "You spot the weak step in an argument at once, and you say so before the speaker has finished. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and it drifts when it has neither.",
+     "lived": "You finished the work early at school and went looking for something harder, or for trouble when nothing harder came. By your teens you were teaching yourself subjects well beyond your class and hiding how bored you were."
     }
    }
   },
@@ -685,21 +725,24 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Love": {
      "headline": "You show love by making life easy.",
-     "recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you are the last of your friends to notice a partner who only takes.",
-     "lived": "The relationships that have lasted for you so far were the gentle ones, with partners who liked a quiet evening as much as you did. At least once you cooked and cared for someone who gave little back, and you stayed longer than the relationship deserved.",
-     "ahead": "From your mid-thirties your love life settles into a shared home with a partner who makes ordinary days pleasant. The two of you build your life around the same table, and you find yourself looked after in return more than at any time before."
+     "recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count and are the last of your friends to notice a partner who only takes.",
+     "lived": "The relationships that have lasted for you were the easy ones, with partners who enjoyed a slow evening and a good meal as much as you. You have learned from the others, who ate your cooking and gave little back, that ease has to run both ways.",
+     "ahead": "Past your mid-thirties love settles into an easy rhythm with a partner who makes ordinary days pleasant. Your gift for ease comes back to you in these years, as a meal cooked for you or an evening planned around your rest.",
+     "lived_past": "In your late thirties and forties the relationships that lasted were the easy ones, with partners who enjoyed a slow evening and a good meal as much as you. You learned from the others, who ate your cooking and gave little back, that ease had to run both ways."
     },
     "Family": {
      "headline": "You become the host your family returns to.",
      "recognition": "Your home is where your family ends up, for meals and holidays and the nights someone needs a bed. Because a full house makes you feel settled, you take on more hosting than anyone asks of you. Relatives treat your door as always open, and you rarely show them how tired you are by the end.",
-     "lived": "Wherever you have lived so far, people have drifted to your kitchen for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
-     "ahead": "Your house becomes the place your family gathers once you are past your mid-thirties, and relatives and friends treat it as a second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home."
+     "lived": "The people you have fed so far have turned into a kind of family, friends who arrive without asking and relatives who want your recipes. You have spent more on food than you could easily afford and counted it as time well spent.",
+     "ahead": "Once you are past your mid-thirties, more of your family gathers at your house, and relatives and friends treat it as a second home. You become the relative everyone means when they say home, and quarrels in the family get settled over your meals.",
+     "lived_past": "In your late thirties and forties the people you fed turned into a kind of family, friends who arrived without asking and relatives who wanted your recipes. You spent more on food than you could easily afford and counted it as time well spent."
     },
     "Health": {
-     "headline": "Your body does well when home is calm.",
-     "recognition": "Your health follows your home life closely, and you sleep and eat well in the seasons when the house is peaceful. Because tension at home reaches your body before you name it, a bad month with a partner shows up in your appetite and your rest. You recover fastest through ordinary comfort, a shared meal and an early night.",
-     "lived": "Your energy has risen and fallen so far with the state of your home, steady in the good years and low in the strained ones. Your sleep and appetite have followed each change at home, and they have settled again whenever the house grew calm.",
-     "ahead": "Your sleep and appetite steady from your mid-thirties as your household settles, and a calm year at home gives you more energy than a busy one. In the fullest of these years you eat and rest in step with whoever shares your home, and you stay well because of it."
+     "headline": "Your body stays well on good food and rest.",
+     "recognition": "Your health runs on appetite and ease, and you are at your best in the seasons when meals at home are long and evenings are slow. Because pleasure is how your body recovers, a tense month with a partner shows first in how little you enjoy your food. You recover through ordinary comfort, a shared meal and an early night.",
+     "lived": "So far your energy has risen in the years your household ate well together and dipped in the years everyone ate on the run. You have come back to yourself each time through a slow week of home cooking and rest.",
+     "ahead": "From your mid-thirties your health settles around the table you share with a partner, around food you make and evenings with nothing planned. You stay well in the fullest of these years because you take the time to enjoy them.",
+     "lived_past": "In your late thirties and forties your energy rose in the years your household ate well together and dipped in the years everyone ate on the run. You came back to yourself each time through a slow week of home cooking and rest."
     }
    }
   },
@@ -707,31 +750,31 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Family": {
      "headline": "Your later family is the people at your table.",
-     "recognition": "You treat anyone who eats at your home often enough as family, and a friend who comes every week matters to you as much as a cousin. Because feeding people is how you show care, you keep inviting people long after others have stopped hosting. Your house stays busy because of it, and you would feel lost in a home that no one visits.",
-     "lived": "Your home has filled with the people after you since your late forties, and with friends who come for the food. You have hosted more in this stretch than in any earlier decade, and you have started to be fed by the people you once fed.",
-     "ahead": "From your late forties the people after you gather at your table more each year. The care you have given starts to come back to you in these years, and you are looked after by those you once fed."
+     "recognition": "You treat anyone who eats at your home every week as family, and a regular guest matters to you as much as a cousin. Because cooking for people is the pleasure you never tire of, you keep inviting them in years when others have given up hosting. You would feel lost in a home that no one visits, and yours stays busy because of it.",
+     "lived": "Your home has filled with the people after you since your late forties, and with friends who come for the food. You have hosted more in this stretch than in any earlier decade, and lately the people you once fed have started cooking for you.",
+     "ahead": "Your table fills up from your late forties, and the people after you stay longer each year for rest as much as for food. You feed them without fuss, and the comfort of your kitchen becomes the thing they miss most when they are away."
     },
     "Health": {
      "headline": "Your body grows easier to live in each decade.",
-     "recognition": "You look after your body through regular meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it stretches into a slow month before you notice. Your health depends more on company than on effort, and you feel the difference within days when you eat alone.",
+     "recognition": "You keep your body well through good meals, gentle movement and people nearby, and it answers in kind. Since rest comes easily to you, a good week of it stretches into a slow month before you notice. You do best on pleasure rather than effort, and a forced regime wears you out faster than an idle week.",
      "lived": "Your sleep has deepened since your late forties and your appetite has steadied, and you have enjoyed your food more than ever. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again.",
-     "ahead": "Your body settles into an easy routine from your late forties, with good sleep and steady appetite and company at meals. These years suit your body unusually well, and you stay strong in them while there are people around you."
+     "ahead": "From your late forties your body settles into an easy rhythm, with long meals, unhurried walks and sleep that comes without effort. You stay strong while there are people to eat with, and those years suit you better than your busier ones did."
     }
    }
   },
   "shishen_hour_stem": {
    "domains": {
     "Family": {
-     "headline": "You become the relative everyone wants to visit.",
-     "recognition": "In your family you are the one who remembers birthdays, cooks for the holidays and never arrives empty-handed. Because giving is how you feel close, you hand over gifts more easily than advice. Your family takes after your kindness more than your opinions, and you are glad of the trade.",
-     "lived": "You have become the relative who hosts since your late forties, the one whose home younger people head for at holidays. The people after you have picked up your habits of giving, and you see yourself in how they treat their own guests.",
-     "ahead": "From your late forties your family gathers around what you give, the meals and the gifts and the time. Younger people grow easy and generous around you, and you see the best of yourself in them."
+     "headline": "Your family gathers where you are cooking.",
+     "recognition": "In your family you remember the birthdays, cook for the holidays and never arrive empty-handed. Because ease is what you want for the people you love, you make an evening with you feel like time off. You are glad that your family takes after your kindness more than your opinions.",
+     "lived": "You have become the relative who hosts since your late forties, the one whose table the people after you head for first. You see your own habits of ease in how they now treat their guests, down to the second helping.",
+     "ahead": "From your late forties you become the place the people after you come to rest, the slow meal and the spare bed and the evening nobody rushes. You enjoy them more as they grow easy around you, unhurried and well fed."
     },
     "Career": {
-     "headline": "Your later work is your most generous.",
-     "recognition": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on appetite, and you do more of it in a happy month than in a pressured year.",
-     "lived": "Your work has turned since your late forties toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it.",
-     "ahead": "Your working life turns productive in the ways that suit you from your late forties, through mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money."
+     "headline": "Your work runs on appetite, not ambition.",
+     "recognition": "You work best on things that feed people in some way, a meal or a garden or a well-made thing. Because making something well gives you more pleasure than climbing, you turn down promotions that would take you away from the work itself. You do more in a happy month than in a pressured year.",
+     "lived": "Since your late forties your work has turned toward making, hosting and finishing the projects you had put off for years. You have made some of your best things in this stretch, better received than anything from your busier decades.",
+     "ahead": "Your working life slows to the pace that suits you from your late forties, and the work you make for others becomes the work you enjoy most. You are paid for it in thanks as well as money, a trade that pleases you more each year."
     }
    }
   },
@@ -739,13 +782,15 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "Your career runs on craft and good habits.",
-     "recognition": "Your best work comes from skill built slowly, in fields where the hands or the senses know things. Since steady practice is what you trust, you are slow to take on work you cannot yet do well, and you miss a few openings that way. You are seldom the loudest on a team, and your work is the work that holds up.",
-     "lived": "You have built your skill quietly since your late teens, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time."
+     "recognition": "Your best work comes from a skill you enjoy, in fields where the hands or the senses know things. Because the work itself is the pleasure, you stay with what you already do well, and you let harder chances pass. You are seldom the loudest on a team, though your work is the work that holds up.",
+     "lived": "You have built your skill quietly since your late teens, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time.",
+     "lived_past": "From sixteen to your mid-thirties you built your skill quietly, by practice more than ambition, in work that let you make or tend something. You knew it had come one day at a time, even when the people around you called it a gift."
     },
     "Health": {
      "headline": "Your work is only as good as your sleep.",
-     "recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because food and rest are pleasures to you, you eat late and sleep short in busy months, and your energy drops. You notice tiredness in your work before you feel it, and a few good nights put it right.",
-     "lived": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
+     "recognition": "Your body and your work move together, and both run best on regular meals and real rest. Because you enjoy your work as much as your food and sleep, busy months push your meals late and your nights short, and your energy drops. You notice tiredness in your work before you feel it, and a few good nights set you right.",
+     "lived": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. You have come back from every hard stretch through good meals and long sleep, never through willpower.",
+     "lived_past": "Your energy followed your routine closely across your Rising Chapter, high in the months you slept and ate well and flat when either slipped. You came back from every hard stretch through good meals and long sleep, never through willpower."
     }
    }
   },
@@ -753,22 +798,24 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "You earn most from the work you enjoy.",
-     "recognition": "Your best work comes when you like it, and everyone around you can tell the difference within a week. Since pleasure is what keeps you going, a joyless job empties you out faster than a demanding one. Your ease makes you look less ambitious than you are, and you let the finished work speak for you.",
-     "lived": "Through your first working years your best jobs were the ones you enjoyed, and your worst stretches were the ones you forced yourself through. At least once a parent or an older colleague took your ease for a lack of drive, and you proved them wrong quietly."
+     "recognition": "Your best work comes when you like it, and everyone around you can tell the difference within a week. Since pleasure is what keeps you going, a joyless job empties you out faster than a demanding one. You do your finest making in a good mood, at your own pace and with time to rest between.",
+     "lived": "Since your late teens the older people around you, a parent or a first boss, have taken your ease for a lack of drive. You have answered with finished work each time, and a craft of your own has grown out of the jobs you enjoyed.",
+     "lived_past": "From sixteen to your mid-thirties the older people around you, a parent or a first boss, took your ease for a lack of drive. You answered with finished work each time, and a craft of your own grew out of the jobs you enjoyed."
     },
     "Social": {
      "headline": "Your easy manner wins you friends at work.",
-     "recognition": "You put people at ease without trying, and a tense meeting turns friendly once you join it. Because sharing food and good company is how you connect, much of your working circle began over a lunch or a drink. You know more people than you realise, and you are slow to ask any of them for a favour.",
-     "lived": "Your closest friends at work since your late teens have come out of shared breaks and long evenings, the colleagues you ate with. More than once a friendly contact has turned into a job or an opening, and you had not been looking for either."
+     "recognition": "You put people at ease without trying, and a tense meeting turns friendly once you join it. Because food and good company are how you connect, you are the one who suggests lunch and turns up with something good on a long day. You know more people than you realise and rarely ask any of them for a favour.",
+     "lived": "Your closest friends at work since your late teens have come out of shared breaks and long evenings, the colleagues you ate with. Your jobs have come through those friends, each one offered over a meal before you started looking.",
+     "lived_past": "Through your Rising Chapter your closest friends at work came out of shared breaks and long evenings, the colleagues you ate with. Your jobs came through those friends, each one offered over a meal before you had started looking."
     }
    }
   },
   "shishen_year_branch": {
    "domains": {
     "Family": {
-     "headline": "You were fed well, and you became the one who feeds.",
+     "headline": "Fed well as a child, you now feed everyone else.",
      "recognition": "You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it.",
-     "lived": "Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
+     "lived": "In your first home an older relative made comfort a daily thing, giving food and warmth before anyone thought to ask. You still judge a home by how it feels to walk into, a measure those first years set in you for good."
     },
     "Health": {
      "headline": "Your body trusts food and rest to put it right.",
@@ -781,29 +828,31 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Social": {
      "headline": "You are welcomed in almost any company.",
-     "recognition": "People warm to you on first meeting, and they remember how you made them feel long after the talk itself. Since being liked was your first way of belonging, you give more than you take in every circle you join, through hosting and small kindnesses. Your friends are many and loyal, and you show your worries to very few of them.",
-     "lived": "Other children wanted to sit next to you, and the adults at family gatherings made a fuss of you. By your teens you were asked to more parties than you could go to, and you went to most of them."
+     "recognition": "People warm to you on first meeting, and they remember how you made them feel long after the talk itself. Since being liked was your first way of belonging, you give more than you take in every circle you join, through the meals you host and small kindnesses. Your friends are many and loyal, though you show your worries to very few of them.",
+     "lived": "Other children wanted to sit next to you, and the adults at family meals made a fuss of you. By your teens you had more invitations than you could accept, and the pleasure of company was what took you to them."
     },
     "Health": {
-     "headline": "You were born with a forgiving body.",
-     "recognition": "You recover quickly from big meals and short nights, and your body has rarely let you down. Because pleasure has never felt dangerous to you, you let the treats and the late nights pile up until your energy drops. A steady routine of food and rest puts you right, and you feel well again within a week of going back to it.",
-     "lived": "You ate well and slept soundly in your first years, and a bad day or a cold never kept you down for long. Food at home was a pleasure more than a rule, and by your teens you loved a good meal more than most of your friends did."
+     "headline": "You live in a forgiving body.",
+     "recognition": "You recover quickly from big meals and short nights, and your body has rarely let you down. Because pleasure has never felt dangerous to you, you let the treats and the late evenings pile up until your energy drops. You come back to yourself within a week of steady food and rest.",
+     "lived": "You ate well and slept soundly in your first years, and food at home was a pleasure more than a rule. By your teens you loved a good meal more than most of your friends, and pleasure at the table felt like health to you."
     }
    }
   },
   "zhengcai_day_branch": {
    "domains": {
     "Love": {
-     "headline": "You love someone by looking after them.",
-     "recognition": "You show love through practical care, a meal ready or a problem fixed before your partner mentions it. Because reliability is what made you feel loved, you trust a partner who keeps small promises more than one who makes big ones. You let romance fade when the duties fill every evening.",
-     "lived": "The partners who have lasted with you so far have been the steady ones, people who turned up on time and kept their word. More than once you have kept a shared home running so well that you noticed the quiet in the romance only afterwards.",
-     "ahead": "From your mid-thirties your partnership becomes the most reliable thing in your life, built on shared accounts and a home kept well. You find these years warmest when pleasure keeps its place beside the chores, and you notice quickly when it slips."
+     "headline": "You love by keeping a life running for two.",
+     "recognition": "You show love by providing, the rent covered and the car serviced before a partner thinks to ask. Because steady provision is how you feel secure, you trust a partner who treats shared money as carefully as you do. You let romance fade when the accounts fill every evening.",
+     "lived": "The partners who have lasted with you so far cared about upkeep and careful money as much as you did. You have kept the everyday running so well in each of them that you noticed the quiet in the romance only afterwards.",
+     "ahead": "From thirty-five on, love becomes the steadiest thing in your life, a partnership built on joint accounts and savings set aside for both of you. Your warmest seasons in these years are the ones where romance keeps its place beside the upkeep.",
+     "lived_past": "In your late thirties and forties the partners who lasted cared about upkeep and careful money as much as you did. You kept the everyday running so well in each of them that you noticed the quiet in the romance only afterwards."
     },
     "Family": {
-     "headline": "Your home runs well, and everyone leans on it.",
-     "recognition": "You keep your household running, the cupboards full and the bills paid before they are due. Because a well-kept home is how you show love, you feel uneasy when things at home are left undone. Your family feels safe without knowing how much you do, and you rarely tell them.",
-     "lived": "In every home you have shared, you have been the one who knows where the spare keys and the papers are. Your family and friends have turned to your household in hard weeks, and you have made space for them each time.",
-     "ahead": "Your home becomes the steady point for your whole family from your mid-thirties, the place relatives come to when life is hard. You give these years to keeping it well, and the order you keep outlasts every crisis that passes through."
+     "headline": "You keep a household that never runs short.",
+     "recognition": "You keep your household running, the cupboards full and the bills paid before they are due. Because a well-kept home is how you show love, you feel uneasy when things at home are left undone. Your family feels safe without knowing how much you do, because you rarely tell them.",
+     "lived": "In every home you have shared, you have been the one who knows where the spare keys and the papers are. Your careful keeping has carried relatives through lean weeks, with something always put by for whoever needed it.",
+     "ahead": "From your mid-thirties your household runs on what you put by, the savings and the repairs done before anything breaks. You spend these years keeping it stocked and mended, and every lean spell that passes through finds it ready.",
+     "lived_past": "In your late thirties and forties you were the one in every shared home who knew where the spare keys and the papers were. Your careful keeping carried relatives through lean weeks, with something always put by for whoever needed it."
     }
    }
   },
@@ -811,21 +860,21 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Family": {
      "headline": "Your family rests on what you quietly arrange.",
-     "recognition": "You look after your family through arrangements, the bills covered and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. Your family sees the comfort and rarely the work behind it, and you prefer it that way.",
-     "lived": "You have been the one keeping your family covered since your late forties, with help ready before anyone asks. You have taught the younger people in your family to be careful with money, mostly by example.",
-     "ahead": "From your late forties the people after you rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud."
+     "recognition": "You keep your family covered, the bills paid and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. You prefer it when your family sees the calm and not the work behind it.",
+     "lived": "Since your late forties you have kept a steady store for your family, quietly topped up and ready before anyone asks. You have shown the people after you how to be careful with money mostly by example, and they have spent more wisely for it.",
+     "ahead": "From your late forties the people after you build their own lives on what you have saved and set aside for them. You are the steady keeper behind them, and they learn only later how much of their footing you paid for."
     },
     "Health": {
      "headline": "Your body does best on steady upkeep.",
-     "recognition": "Your body gets the same care as your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early.",
-     "lived": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have more of it left than people who pushed hard and rested little.",
-     "ahead": "Your body repays the care you keep giving it from your late forties, with steady energy and good sleep. You stay strong in these years, and you feel the benefit of every ordinary habit."
+     "recognition": "Your body gets the same care as your accounts, with regular walks, plain food and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You catch the first sign of tiredness early and spend your energy as carefully as your money.",
+     "lived": "Since your late forties your energy has held steady, because you kept your sleep and your habits in good order. You have more of it in reserve than people who spent theirs freely, and that reserve has been worth every early night.",
+     "ahead": "From your late forties your body repays the care you keep giving it, with steady energy and regular sleep. You outlast people who run themselves down, and every ordinary habit turns out to have been worth its cost."
     },
     "Wealth": {
      "headline": "Your money ends up settled and secure.",
-     "recognition": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more comfort available than you let yourself use.",
-     "lived": "Your finances have settled since your late forties, and your household has felt the hard times around it less than most. You have spent more on others than on your own comfort in that time.",
-     "ahead": "Your money stays steady from your late forties while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it."
+     "recognition": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more put by than you let yourself spend.",
+     "lived": "Since your late forties your finances have settled, and your household has felt the hard times around it less than most. You built your savings slowly and kept them whole through every lean year, and they have become the fund your household falls back on.",
+     "ahead": "From your late forties your money stays steady while others worry, and your plans for it land where you intend. You find that part of what you saved was always meant for you, and spending it on yourself stops feeling like a loss."
     }
    }
   },
@@ -835,27 +884,29 @@ export const DOMAINS_CONTENT = {
      "headline": "Your money gets steadier every decade.",
      "recognition": "You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it.",
      "lived": "Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention.",
-     "ahead": "Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough."
+     "ahead": "The slow years of saving start paying you back in your late forties, and money stops being something you check every week. You spend on the people you love without a second look at the budget, because the budget has held for decades."
     },
     "Family": {
      "headline": "You end up as the one who provides.",
-     "recognition": "You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early.",
-     "lived": "You have become your family's provider since your late forties, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard.",
-     "ahead": "From your late forties your family leans on what you have built, and you give it calmly. You become the relative everyone trusts with arrangements, and you will find yourself saying out loud some of what your money already says."
+     "recognition": "You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you would rather pay for something than talk about it. You want everyone who comes after you to be safe, and you plan for it years early.",
+     "lived": "You have covered the gaps in your family since your late forties, paying the fees and the deposits before anyone had to ask. You have earned the family's trust one settled bill at a time.",
+     "ahead": "From your late forties your family leans on what you have saved, and you give it calmly. You become the relative everyone trusts with arrangements, saying in words at last some of what your money already says."
     }
    }
   },
   "zhengcai_month_branch": {
    "domains": {
     "Career": {
-     "headline": "Your career grows slowly and keeps growing.",
-     "recognition": "You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. You are underrated in the early years of any role, and you outlast most of the people who underrated you.",
-     "lived": "Your working life has moved forward one step at a time since your late teens, with each job adding a skill you kept. More than once you have overtaken people who started faster than you."
+     "headline": "Every step you earn at work, you keep.",
+     "recognition": "You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. Underrated in the early years of any role, you outlast most of the people who underrated you.",
+     "lived": "Your working life has moved forward one step at a time since your late teens, with each job adding a skill you kept. Your pay has risen with every one of those skills, earned in full and owed to nobody.",
+     "lived_past": "From sixteen to your mid-thirties your working life moved forward one step at a time, with each job adding a skill you kept. Your pay rose with every one of those skills, earned in full and owed to nobody."
     },
     "Wealth": {
      "headline": "Your savings grow quietly, year after year.",
-     "recognition": "You save a part of everything you earn, and a steady rise in your accounts pleases you more than any windfall. Because security is what you are working for, you avoid risks that would make you rich quickly. Your caution keeps you safe, and you feel a good year as relief more than as joy.",
-     "lived": "Even in lean months you have put money aside since your late teens, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk."
+     "recognition": "You save a part of everything you earn, and a steady rise in your accounts pleases you more than any sudden gain. Because security is what you are working for, you spend only after you have counted what will be left. Your caution keeps you safe, and a good year feels to you like relief more than joy.",
+     "lived": "Even in lean months you have put money aside since your late teens, and your savings have grown more than people expected. You have turned down exciting offers that asked too much risk, and none of those refusals has cost you a night of sleep.",
+     "lived_past": "You put money aside even in the lean months of your twenties and early thirties, and your savings grew more than people expected. You turned down exciting offers that asked too much risk, and none of those refusals cost you a night of sleep."
     }
    }
   },
@@ -863,13 +914,15 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "You are the one trusted with the books.",
-     "recognition": "You are given charge of money and order wherever you work, and things run better near your desk. Because reliability is what you offer, you accept extra tasks without asking for more pay or a promotion. You carry more of the work than your title shows, and your colleagues lean on it.",
-     "lived": "You have been given responsibility early in every job since your late teens, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved."
+     "recognition": "You notice the figure that does not add up before anyone else opens the file, and things run better near your desk. Because steady work is what you offer, you take on extra tasks without asking for a raise. You carry more of the work than your pay shows, and the whole team runs on your numbers.",
+     "lived": "You have been given responsibility early in every job since your late teens, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved.",
+     "lived_past": "From sixteen to your mid-thirties you were given responsibility early in every job, a budget or a set of keys or a team's accounts. Your promotions came steadily, each one a little later than your work deserved."
     },
     "Wealth": {
      "headline": "Your money arrives on time and keeps arriving.",
-     "recognition": "You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, and you prefer it that way.",
-     "lived": "The money you have counted on since your late teens is the salary, raised a step at a time and planned for well in advance. You have kept to your own plan while friends chased quick gains, and you have rarely regretted it."
+     "recognition": "You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, the shape you like best.",
+     "lived": "The money you have counted on since your late teens has been the salary, raised a step at a time and planned for well in advance. You have kept to your plan through lean months and good ones, building savings that have grown every year.",
+     "lived_past": "Through your Rising Chapter the money you counted on was the salary, raised a step at a time and planned for well in advance. You kept to your plan through lean months and good ones, building savings that grew every year."
     }
    }
   },
@@ -877,27 +930,27 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Family": {
      "headline": "Your family pays back what it is given, and so do you.",
-     "recognition": "You rely on your family more than on friends, because help between you has come back each time it was needed. Since your first home kept careful accounts, you keep track of what is owed between relatives without saying so. You give help readily, and you feel uneasy until a debt is settled.",
-     "lived": "As a child you knew that money at home was handled carefully and that nothing was spent without a reason. Early on you counted your own money and kept your word the way the household did."
+     "recognition": "You rely on your family more than on friends, because help between you has come back each time it was needed. Since your first home kept careful accounts, you keep track of what is owed between relatives without saying so. You give help readily, and a debt left open sits on your mind until it is settled.",
+     "lived": "As a child you knew that money at home was handled carefully and that nothing was spent without a reason. Early on you counted your own money and saved it the way the household did."
     },
     "Wealth": {
      "headline": "Your money grows quietly from early habits.",
      "recognition": "You save without thinking about it, a little from everything, and spending without a reason feels wrong to you. Because careful habits were normal in your first home, you build wealth slowly and steadily, and few people notice until it is large. You enjoy keeping money more than spending it, and a big purchase stays on your mind for weeks.",
-     "lived": "You kept coins and small earnings longer than your friends did as a child, and nobody had to tell you to. You learned early that money kept quietly was money that stayed, and you have never lost the habit."
+     "lived": "You kept coins and small earnings longer than your friends did as a child, and nobody had to tell you to. You learned early that money kept quietly was money that stayed, a habit you have never lost."
     }
    }
   },
   "zhengcai_year_stem": {
    "domains": {
     "Wealth": {
-     "headline": "You learned the value of money early.",
+     "headline": "You know the value of money, and always have.",
      "recognition": "You spend with a list and save before anyone asks you to, and money that sits unplanned makes you uneasy. Because order around money felt like safety from your first years, you lose more sleep over a careless purchase than it ever cost you. You are slower to enjoy what you have than to keep it.",
-     "lived": "You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent."
+     "lived": "Money at home was counted and spent with care, and you learned what things cost before most children do. By your teens you were already saving what your friends spent."
     },
     "Family": {
-     "headline": "You were raised in a careful, orderly home.",
-     "recognition": "You show love in your family by keeping things in order, the bills paid and the arrangements made. Because care at home looked like provision when you were small, you trust a relative who plans more than one who says warm things. You are the one your family calls when something needs organising, and you rarely say no.",
-     "lived": "Someone in your first home kept the household running on plans and promises kept, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones."
+     "headline": "A careful, orderly home is your idea of love.",
+     "recognition": "You show love in your family by keeping things in order, the bills paid and the arrangements made. Because care at home looked like provision when you were small, you trust a relative who plans more readily than one who says warm things. You are the one your family calls when something needs organising, and you rarely say no.",
+     "lived": "Someone in your first home kept the household running on plans and a careful budget, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones."
     }
    }
   },
@@ -905,15 +958,17 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Love": {
      "headline": "You love with promises, and you keep them.",
-     "recognition": "You are drawn to partners with clear values, people who keep their word and expect you to keep yours. Because reliability is what love means to you, you trust slowly and commit fully, and you find casual romance empty. What you want is a partner you can count on for life, and you give the same in return.",
-     "lived": "The relationships that mattered to you have been serious from early on, with plans made and promises kept. At least once you stayed loyal to a commitment after the feeling had faded, and you were slow to admit it.",
-     "ahead": "Love settles into something formal and lasting from your mid-thirties, a shared home and a shared name for what you are. You grow closer to a partner through the small rituals you keep together, and you find the warmth that duty alone never gave you."
+     "recognition": "You are drawn to partners with clear values, people who keep their word and expect you to keep yours. Because reliability is what love means to you, you trust slowly and commit fully, and you find casual romance empty. You want a partner you can count on for life and give the same in return.",
+     "lived": "The relationships that mattered to you have been serious from early on, with plans made and promises kept. You have kept your word in them even after the feeling faded, slow to admit when a promise had outlived the love inside it.",
+     "ahead": "Love settles into something formal and lasting from your mid-thirties, a public commitment and a shared name for what you are. In the small rituals you keep together, you find the warmth that duty alone never gave you.",
+     "lived_past": "In your late thirties and forties the relationships that mattered to you were serious from the start, with plans made and promises kept. You kept your word in them even after the feeling faded, slow to admit when a promise outlived the love inside it."
     },
     "Family": {
      "headline": "Your home runs on kept promises.",
-     "recognition": "You run your household on clear duties and fair rules, and the people in it know what to expect. Because order is how you protect the people you love, you notice a broken promise at home faster than a kind word. Your family feels secure with you, and some of them wish you were less strict.",
-     "lived": "Your family life has been built on structure, with regular meals, shared duties and arrangements that hold. Relatives on both sides have come to trust your household, and you have been the one who kept its promises when others forgot.",
-     "ahead": "From your mid-thirties your home becomes the steady centre of your family, the place relatives turn to and point to. You add more warmth to its order in these years, and you find your own house easier to live in than it used to be."
+     "recognition": "You run your household on clear duties and fair rules, and the people in it know what to expect. Because order is how you protect the people you love, you notice a broken promise at home faster than a kind word. You know your family feels secure with you, and that some of them wish you were less strict.",
+     "lived": "Your family life has been built on structure, with set routines, shared duties and arrangements that hold. When others forgot, you have been the one who kept the household's promises, and relatives on both sides have come to trust it.",
+     "ahead": "From your mid-thirties you speak for your household, the one who signs, decides and keeps the family's word. You add more warmth to its order in these years, and you find your own house easier to live in than it used to be.",
+     "lived_past": "In your late thirties and forties your family life ran on structure, with set routines, shared duties and arrangements that held. When others forgot, you were the one who kept the household's promises, and relatives on both sides came to trust it."
     }
    }
   },
@@ -921,37 +976,37 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Family": {
      "headline": "Your family trusts your word completely.",
-     "recognition": "You look after your family by keeping everything in order, the papers sorted and the promises kept. Because reliability is how you express love, you are more at ease arranging things for people than talking about feelings. Your family depends on that order, and they know less of your heart than of your plans.",
-     "lived": "The people after you have relied on your word without checking it since your late forties. You have settled matters for them quietly and in good time, and few of them have seen how much you handled.",
-     "ahead": "From your late forties the people after you organise their own lives around what you have arranged. You share more of your stories with them in these years, and they come to know you as well as they trust you."
+     "recognition": "You serve your family by keeping its word, the promise honoured and the duty done on time. Because a role is how you know your place, you take the formal jobs in the family that others avoid. You hold that word more carefully than your own feelings, and the family builds on it.",
+     "lived": "Since your late forties the people after you have taken your word as settled, and they have built their plans on the promises you made them. You have kept every one of them, which has given you a standing in the family that no title could.",
+     "ahead": "From your late forties the people after you take their sense of what is proper from you, and they hold one another to the rules you kept. You see your own standards in how they keep faith with each other, and that is worth more to you than any honour."
     },
     "Growth": {
      "headline": "You grow later by refining what you value.",
-     "recognition": "You grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you would rather redo a thing properly than try something new, and the change in you shows up as patience. You redo a job nobody else would have noticed was wrong, and you feel better for it.",
-     "lived": "Your growth since your late forties has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did.",
-     "ahead": "Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you become the example others hold up."
+     "recognition": "You grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you would rather do a thing properly than try something new, and the change in you shows up as patience. You redo a job nobody else noticed was wrong, for no reason but the standard you hold yourself to.",
+     "lived": "Since your late forties your growth has come through commitments you kept, a practice deepened or a standard raised year by year. Your standing has grown with it, and people have started bringing you the work that has to be done right.",
+     "ahead": "Past your late forties you keep improving at what you know well, and each year adds polish more than novelty. You grow wiser through repetition and order, and the people after you hold you up as the example of doing things properly."
     }
    }
   },
   "zhengguan_hour_stem": {
    "domains": {
     "Family": {
-     "headline": "Your family takes its standards from you.",
-     "recognition": "You set a clear example for your family, and you notice when someone falls short of it. Because you care about doing things properly, you correct before you praise, and the people close to you remember both. Your approval matters more to them than you realise, and you give it less than they need.",
-     "lived": "Younger people in your family have watched how you conduct yourself since your late forties, and they copied more than you knew. More than once a word of your approval stayed with one of them for years, and you heard about it only later.",
-     "ahead": "From your late forties the people after you treat you as the one whose opinion settles things. You praise more freely in these years, and they grow steadier for it."
+     "headline": "Your word holds your family together.",
+     "recognition": "You take the formal roles in your family, the one who gives the toast, signs as witness and speaks for everyone when it counts. Because a role tells you where you stand, you keep the family's promises even when others have forgotten making them. You hold yourself to your word more strictly than you hold anyone else.",
+     "lived": "Since your late forties you have carried your family's formal duties, answering for its name and holding it to what it has agreed. You have watched the people after you learn to hold a promise the way you hold yours.",
+     "ahead": "From your late forties your word becomes the one that settles family questions, and the family's formal jobs pass to you one by one. You carry them as a duty more than an honour, giving the people after you a fixed point to measure their own choices by."
     },
     "Social": {
      "headline": "Your reputation keeps rising, decade by decade.",
-     "recognition": "You are the person people ask to chair the meeting or hold the keys or settle the dispute. Because you take duty seriously, you say yes to roles others avoid, and your circle trusts you more each year. Your friendships carry a little formality, and you find it hard to let others see you off duty.",
-     "lived": "Your name has carried weight in your circle since your late forties, and groups you once simply belonged to have put you in charge. You gained respect that outlasted any title, and you found yourself consulted on matters well outside your old work.",
-     "ahead": "Past your late forties your community keeps giving you positions of trust, a committee or a board or a role as the steady voice. You are honoured more in these years than in your busiest working ones, and you choose carefully which causes get your name."
+     "recognition": "You are the person people ask to chair the meeting or hold the keys or settle the dispute. Because you take duty seriously, you say yes to roles others avoid, and your circle trusts you more each year. Even with friends you keep a little formality, finding it hard to let anyone see you off duty.",
+     "lived": "Your name has carried weight in your circle since your late forties, and groups you once simply belonged to have put you in charge. You gained respect that outlasted any title and found yourself consulted on matters well outside your old work.",
+     "ahead": "Past your late forties your community keeps giving you positions of trust, the committee to chair or the fund to oversee. You are honoured more in these years than in your busiest working ones, lending your name only to causes you would answer for."
     },
     "Career": {
-     "headline": "Your later working life moves toward leadership.",
-     "recognition": "You are drawn in later life to work that keeps an organisation sound, the overseeing and the guiding more than the doing. Because you respect structure, you would rather look after something lasting than start something new. Your value at work now lies in judgement, and you are trusted with decisions others will not make.",
-     "lived": "Your work has shifted toward oversight since your late forties, a senior post or a seat on a board or a role guiding the people below you. You were trusted with the running of things you once only served, and you handled it with care.",
-     "ahead": "In the years after your late forties you move into roles that govern more than they produce, and your judgement becomes your main asset. Your work keeps a high standard in these years, and the respect you earn lasts longer than any post you hold."
+     "headline": "You rise at work by being reliable.",
+     "recognition": "You are drawn to work that keeps an organisation sound, the standards held and the roles clear. Because you respect structure, you would rather run something lasting well than start something new. You are trusted with decisions others will not make, and with the responsibility that follows them.",
+     "lived": "Your work has shifted toward oversight since your late forties, a senior post or a place on a board or a role answering for the people below you. You were trusted with the running of things you once only served, a responsibility you have carried without a slip.",
+     "ahead": "In the years after your late forties you move into roles that govern more than they produce, and your judgement becomes your main asset. You earn a respect in these years that lasts longer than any post you hold."
     }
    }
   },
@@ -959,18 +1014,21 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "Your career grows steadily inside a structure.",
-     "recognition": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a clear title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly.",
-     "lived": "Each step up since your late teens has come after you proved you could do the last one properly, and you waited to feel ready before you asked for the next. Your seniors noticed your reliability early, and you were trusted with more than your age suggested."
+     "recognition": "You are at home inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a clear title settles you. Your reward is lasting rank, and the price is the freedom to move quickly.",
+     "lived": "In each workplace since your late teens you have learned the rules faster than anyone hired with you, and you have kept your word in every post. Your seniors noticed your reliability early, and you were trusted with more than your age suggested.",
+     "lived_past": "Through your Rising Chapter you learned the rules of each workplace faster than anyone hired with you, and you kept your word in every post. Your seniors noticed your reliability early, trusting you with more than your age suggested."
     },
     "Growth": {
      "headline": "You grow by moving from one structure to the next.",
      "recognition": "You grow inside a framework, a course or a firm or a discipline, until you have learned everything it can teach. Because loyalty runs deep in you, leaving one structure for a bigger one feels like a betrayal, and you wait longer than you need to. Your growth comes in clear stages, and each one starts when you finally move.",
-     "lived": "You grew through formal steps from your late teens on, a qualification finished or a rank reached or a role handed to you. Each structure you joined shaped you for a few years, and you stayed in most of them a little past the point they could teach you."
+     "lived": "Since your late teens your growth has come through formal steps, a qualification finished or a rank reached or a role handed to you. You have grown most in the years a structure trusted you with more, when it handed you a clear duty and a clear measure.",
+     "lived_past": "From sixteen to your mid-thirties your growth came through formal steps, a qualification finished or a rank reached or a role handed to you. You grew most in the years a structure trusted you with more, when it handed you a clear duty and a clear measure."
     },
     "Social": {
      "headline": "People rely on you to keep things steady.",
-     "recognition": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone gives you credit for.",
-     "lived": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted away, and you kept the ones bound to you by a duty for years after the job ended."
+     "recognition": "You are the one who keeps a group working, the colleague who remembers what was agreed and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, though you decide more than anyone gives you credit for.",
+     "lived": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted away, and you kept the ones bound to you by a duty for years after the job ended.",
+     "lived_past": "Your friendships in your Rising Chapter grew out of work and shared duties, the colleagues you trusted and the seniors who trusted you. You kept the friends bound to you by a duty for years after the job ended, while the ones with no shared task drifted away."
     }
    }
   },
@@ -978,27 +1036,29 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Career": {
      "headline": "Your record earns you rank.",
-     "recognition": "You climb at work through trust, the clean record and the job done the proper way. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record.",
-     "lived": "People who trusted you early have put your name forward since your late teens, a manager or a mentor who saw the clean record. Your references have opened doors for you more than once, and you have rarely had to ask for a step up."
+     "recognition": "You climb at work through trust and the job done the proper way, whoever is watching. Because order matters to you, you hold to the rules others bend, and senior people notice. You rise steadily and step back from any risk that could put a mark against your name.",
+     "lived": "Your record has spoken for you at work since your late teens, each role done by the rules and each title kept clean. You have been promoted on schedule and have rarely had to ask for a step up.",
+     "lived_past": "Through your Rising Chapter your record spoke for you at work, each role done by the rules and each title kept clean. You were promoted on schedule and rarely had to ask for a step up."
     },
     "Social": {
      "headline": "Everyone trusts you with the responsible job.",
-     "recognition": "Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, and you have less time for fun than the people who lean on you.",
-     "lived": "From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. At least once that role cost you a weekend or a holiday you had planned for yourself, and you gave it up without complaint."
+     "recognition": "Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, with less time for fun than the people who lean on you.",
+     "lived": "From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. You have given that role weekends and holidays you planned for yourself, and in return it has earned you standing in every circle you belong to.",
+     "lived_past": "Between sixteen and your mid-thirties you were the dependable one in every group, the friend who organised and the colleague who covered. You gave that role weekends and holidays you had planned for yourself, and in return it earned you standing in every circle you belonged to."
     }
    }
   },
   "zhengguan_year_branch": {
    "domains": {
     "Family": {
-     "headline": "You absorbed your family's rules early.",
-     "recognition": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull wherever you live.",
-     "lived": "You knew the rules of your first home without being told, and you rarely needed correcting. By your teens you had taken on an older relative's standards as your own, and you held yourself to them strictly."
+     "headline": "Your family's rules still live in you.",
+     "recognition": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, with a pull you feel wherever you live.",
+     "lived": "You knew the rules of your first home without being told, and you rarely needed correcting. You came into your teens holding yourself to an older relative's standards as strictly as if they were your own."
     },
     "Growth": {
      "headline": "You grow best inside a clear structure.",
-     "recognition": "You grow by finishing what you start, the course completed and the level passed and the standard met. Because structure is where you first felt secure, you do well wherever the steps are clear and lose heart when they are not. Your progress is steady, and you climb further than people who started faster.",
-     "lived": "Your school years ended with a record of steady progress, each year finished well and responsibilities taken on early. Teachers and older relatives trusted you, and you came to measure your growth by the steps you completed."
+     "recognition": "You grow by finishing what you start, the course completed and the level passed and the standard met. Because order is where you first felt secure, you do well wherever the steps are clear and lose heart when they are not. You climb steadily, further in the end than people who started faster.",
+     "lived": "Through your first school years you built a record of steady progress, each year finished well and responsibilities taken on early. By fifteen you were the one the adults in charge trusted with a role, measuring your growth by the steps you had completed."
     }
    }
   },
@@ -1006,12 +1066,12 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Social": {
      "headline": "People trust you before they know you.",
-     "recognition": "New people give you their trust quickly, and you are offered responsibility in a group before you have earned it. Because a good name was part of your upbringing, you behave in public with care, and you dislike being seen at your worst. Your standing is a real advantage, and you guard it more closely than you need to.",
-     "lived": "Teachers and neighbours trusted you as a child, partly because of the family you came from. By your teens you were the one picked to lead or to represent the group, and you felt the weight of behaving well."
+     "recognition": "New people give you their trust quickly, and you are offered responsibility in a group before you have earned it. Because a good name was part of your upbringing, you behave in public with care, and you dislike being seen at your worst. You guard your standing more closely than anyone asks you to.",
+     "lived": "Neighbours and the adults at school trusted you as a child, partly because of the name your family carried. By your teens you were the one picked to lead or represent the group, and behaving well had become your role."
     },
     "Family": {
-     "headline": "You come from a family that kept its standards.",
-     "recognition": "You hold your family's name with pride and some strain, and its standards still shape what you allow yourself. Because what the family stood for was visible to others, you feel its expectations most in public. You honour the values you were given, and you quietly drop the rules that never made sense.",
+     "headline": "You come from a family that keeps its standards.",
+     "recognition": "You hold your family's name with pride and some strain, and its standards still shape what you allow yourself. Because what the family stood for was visible to others, you feel its expectations most in public. You honour the values you were given and quietly drop the rules that never made sense.",
      "lived": "In your first home there were clear rules and an older relative who held everyone to them. By your teens you knew exactly what the family expected of you, and you met most of it while keeping a few doubts to yourself."
     }
    }
@@ -1020,21 +1080,24 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Love": {
      "headline": "You love the person who makes you feel safe.",
-     "recognition": "You fall for steadiness, the partner who turns up on time and stays calm when you are not. Because safety is what love means to you, you relax completely with the right person, and you take their care as a given. You are slow to notice how much they carry, and slower to thank them.",
-     "lived": "The partners who have mattered most to you so far were the ones who looked after you, practically and without fuss. More than once you have let a partner take over the practical side of your life, and you found you had forgotten how to do it yourself.",
-     "ahead": "Through your Home Chapter you learn to give back the steady care you once took for granted. You notice what a partner carries for you in these years, and you start carrying some of it yourself."
+     "recognition": "You fall for steadiness, the partner who turns up on time and stays calm when you are not. Because being looked after is how you know you are loved, you relax completely with the right person, and you take their care as a given. You are slow to notice how much they carry, and slower to thank them.",
+     "lived": "The partners who have mattered most to you so far were the ones who looked after you, practically and without fuss. You have handed whole parts of your life to their care, and found afterwards that you had forgotten how to run them yourself.",
+     "ahead": "From your mid-thirties love turns into care that runs both ways, and you learn to give back the patience you once took for granted. You notice what a partner carries for you and take some of the weight yourself.",
+     "lived_past": "In your late thirties and forties the partners who mattered most were the ones who looked after you, practically and without fuss. You handed whole parts of your life to their care, and found afterwards that you no longer knew how to run them yourself."
     },
     "Family": {
-     "headline": "Your home runs on everyday kindness.",
-     "recognition": "You make your household gentle, with meals shared and voices kept low and nobody left out. Because a peaceful house is what lets you function, you smooth over arguments fast, and some of them never get settled. Your family comes to you to recover from the world, and you let them.",
-     "lived": "Your home so far has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought.",
-     "ahead": "From your mid-thirties your household becomes the place your wider family gathers, because it is the calmest one they know. You hold it together with a partner in these years, and you speak up more than you used to."
+     "headline": "Your home shelters everyone who walks into it.",
+     "recognition": "You make your household gentle, with voices kept low and nobody left out. Because care is what steadies you, you look after the calm at home before anything else, and some arguments get smoothed over without ever being settled. You end most days having looked after everyone in the house except yourself.",
+     "lived": "Your home so far has been the calm house in your family, where people come to be looked after when things go wrong elsewhere. You have kept its peace with steady care and with the things you chose not to say.",
+     "ahead": "From your mid-thirties the shelter you give starts to work both ways, and a partner looks after you as closely as you look after them. You hold the household together in these years, and you speak up more than you used to.",
+     "lived_past": "In your late thirties and forties your home was the calm house in your family, where people came to be looked after when things went wrong elsewhere. You kept its peace with steady care and with the things you chose not to say."
     },
     "Health": {
-     "headline": "Your body follows the mood of your home.",
-     "recognition": "You sleep well and eat well in a settled house, and both slip the moment it turns tense. Because your body takes its cue from the people you live with, a week of bad feeling at home drains your energy before you have named the problem. You are strongest in the seasons you feel most looked after.",
-     "lived": "Your health so far has tracked your home life closely, steady in the calm years and worn in the difficult ones. You have recovered fastest from hard stretches with someone close looking after you, and slowest when you went through them alone.",
-     "ahead": "A settled home gives your body a steadier rhythm from your mid-thirties, with regular meals and proper rest. You feel better in these years than you have for a long time, and you put it down to the partner beside you."
+     "headline": "Being looked after keeps you strong.",
+     "recognition": "You sleep well and eat well when someone at home takes care of you, and both slip in the weeks you are left to cope alone. Because being cared for is how your body settles, you get over a hard stretch fastest with a partner close by. You are strongest in the seasons you feel most looked after.",
+     "lived": "Through the hard stretches so far, the person who checked on you and kept the house running did more for your health than any plan you made. You have learned to accept that care without apology and to give it back in kind.",
+     "ahead": "From your mid-thirties the care at home runs both ways, and looking after a partner steadies you as surely as being looked after. You feel better in your forties than you have in years, held up by the support you give as much as the support you get.",
+     "lived_past": "Through the hard stretches of your late thirties and forties, the person who checked on you and kept the house running did more for your health than any plan you made. You learned to accept that care without apology and to give it back in kind."
     }
    }
   },
@@ -1042,114 +1105,120 @@ export const DOMAINS_CONTENT = {
    "domains": {
     "Family": {
      "headline": "Your family looks after you, and you let it.",
-     "recognition": "You are cared for by younger people more than you expected, with visits and help and small kindnesses. Because you are used to being the one who gives, you wave off help you need, and it hurts the people offering. What you want from your family now is company more than help.",
-     "lived": "Little acts of care have come to you unasked since your late forties, a lift or a meal or a call from younger people. You have found them harder to accept than to give, and you have learned to say yes more often.",
-     "ahead": "From your late forties the people after you return the care you once gave them, in visits and help you did not ask for. You become the calm centre of a close family in these years, and you take their help without keeping score."
+     "recognition": "Younger people look after you more than you expected, with visits and help and small kindnesses. Because being cared for is what lets you rest, you settle into their care and stop running everything yourself. What you want from your family now is company as much as help.",
+     "lived": "Since your late forties small acts of care have come to you unasked, a lift or a call or a visit from the people after you. You have let them in, and the family has grown closer around you than it was in your busiest years.",
+     "ahead": "The people after you gather around you from your late forties as a home base, the place they come back to for advice and support. You become the calm centre of a close family, taking their help as easily as they take yours."
     },
     "Health": {
      "headline": "Your health in later life rests on gentle rhythm.",
-     "recognition": "You stay well on regular meals, unhurried walks and early nights, and you sleep badly the week the rhythm breaks. Because ease restores you, you let the ease run on past the point it helps you, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
-     "lived": "Your sleep has come more easily since your late forties, and your days have found a steadier pace. You have also gone through a stretch of too much rest, and your energy came back once something asked more of you.",
-     "ahead": "Your body does well from your late forties on gentle habits and the company of people who look after you. You hold your strength in these years through one demanding thing each week, and you feel the difference whenever you let it go."
+     "recognition": "You stay well on walks, early nights and people who check on you, and you sleep badly in a week without them. Because being looked after restores you, you let others carry your pace for longer than it helps, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
+     "lived": "Since your late forties your sleep has come more easily, and the care of people close to you has set a gentler pace for your days. Leaning on that support through tired weeks, you have come back from each one sooner than you once did.",
+     "ahead": "From your late forties your body does well on gentle habits and the company of people who look after you. You hold your strength by learning something new each season, and a class or a guided walk does more for you than a hard workout."
     },
     "Mind": {
      "headline": "Your mind stays clear through daily habit.",
-     "recognition": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and a year with nothing to puzzle over leaves you restless. You think best with one good question in front of you.",
-     "lived": "Daily reading and talks with people you trust have kept your thinking calm and steady since your late forties. You have become the one others ask for a clear view, and you have enjoyed being asked.",
-     "ahead": "Reading fills more of your days from your late forties, and you remember more of it than you did in your busiest years. Younger people come to rely on your judgement in these years, and you give it carefully."
+     "recognition": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your mind learns best in calm, you avoid arguments and noise, and a year with nothing new to study leaves you restless. You think best with one good question in front of you and a patient hour to answer it.",
+     "lived": "Since your late forties daily reading and talks with people you trust have kept your thinking calm. Guided by a few good teachers, you have grown steadier in your thinking each year.",
+     "ahead": "From your late forties reading fills more of your days, and you remember more of it than you did in your busiest years. You take up study for its own sake, a course or a long book read slowly, with your judgement growing calmer and surer alongside it."
     }
    }
   },
   "zhengyin_hour_stem": {
    "domains": {
     "Family": {
-     "headline": "You become the one your family turns to.",
+     "headline": "Your family takes shelter with you.",
      "recognition": "When your family needs advice or a calm word in a bad week, you are the one they call. Because protecting the young matters to you deeply, you step in early when someone younger is struggling, and you give more than you are asked for. You are respected at family gatherings more than you are relaxed at them.",
-     "lived": "Younger people in your family have brought you their problems since your late forties, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
-     "ahead": "Younger people look to you from your late forties for guidance, and for cover when things fall apart. You give both steadily in these years, and you see what you taught them carry on in their lives."
+     "lived": "Your door has stood open to the people after you since your late forties, and they have brought their troubles through it sure of a patient hearing. You have become their home base, the place they return to first when something gives way.",
+     "ahead": "From your late forties the people after you look to you for guidance, and for cover when things fall apart. You give both with patience in these years, watching what you taught them carry on in their own lives."
     },
     "Growth": {
-     "headline": "You grow in later life by teaching.",
-     "recognition": "Passing on what you know is how you grow now, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find a new purpose in being useful to people who are just starting.",
-     "lived": "Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
-     "ahead": "What you know takes a lasting form from your late forties, a course or a set of notes or a body of advice. You see it outlast your own part in it, and you take quiet pride in that."
+     "headline": "Teaching is how you grow.",
+     "recognition": "You grow each time you pass on what you know, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find purpose in being useful to people who are just starting.",
+     "lived": "Since your late forties you have found yourself explaining things you once took for granted, and you have learned as much from it as the people you helped. You have grown more patient and surer of what you know, the guide people seek out on purpose.",
+     "ahead": "Your knowledge takes a lasting form from your late forties, a course or a set of notes or a body of advice. You take quiet pride in seeing it outlast your own part in it."
     },
     "Mind": {
      "headline": "Your thinking stays quick because people keep asking.",
-     "recognition": "You keep your mind in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a week when nobody calls, and you pick up the phone yourself before the week is out.",
-     "lived": "Other people's questions have kept your mind active since your late forties, the advice asked for and the problems brought to you. You have read more in these years than in your busiest working ones, and you remember most of it.",
-     "ahead": "Younger people bring you their hardest questions from your late forties, and you enjoy the work of answering them. You are quoted and asked for in these years, and you feel most yourself when a question has no easy answer."
+     "recognition": "You keep your mind in use by answering questions, studying widely and staying in touch with people who want your advice. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a quiet week, but you pick up the phone yourself before it ends.",
+     "lived": "Other people's questions have kept your mind active since your late forties, the advice asked for and the problems brought to you. You have read and studied more in these years than since your schooling, and kept most of it.",
+     "ahead": "Past your late forties the people after you bring you their questions, and you take care to teach them properly. You are quoted and asked for more than ever, and most yourself when someone leaves understanding more than they came with."
     }
    }
   },
   "zhengyin_month_branch": {
    "domains": {
     "Mind": {
-     "headline": "You learn steadily, and it never stops.",
-     "recognition": "Week by week you add to what you know, studying in a steady and patient way. Because understanding a thing fully is what makes you feel secure, you read the extra chapter and take the extra course, and you rarely feel finished. You know far more than you claim to.",
-     "lived": "Learning has carried you since your late teens, through courses and qualifications and the teachers who took an interest. You have stayed a student in some form ever since, and it has kept you steadier than most people around you."
+     "headline": "You learn steadily, and the learning holds.",
+     "recognition": "Week by week you add to what you know, studying in a steady and patient way. Because understanding a thing fully is what makes you feel secure, you read the extra chapter and take the extra course, and you speak on a subject only once you are sure of it. You know far more than you claim to.",
+     "lived": "Learning has carried you since your late teens, through courses and qualifications and the teachers who took an interest. You have stayed a student in some form ever since, and it has kept you steadier than most people around you.",
+     "lived_past": "Learning carried you from sixteen to your mid-thirties, by way of courses and qualifications and the teachers who took an interest. You stayed a student in some form all through those years, which kept you steadier than most people around you."
     },
     "Career": {
      "headline": "Your career rises on what you have studied.",
      "recognition": "You are trusted at work because you know your subject properly, and people check their facts with you. Because depth matters more to you than visibility, you leave the self-promotion to others, and promotion reaches you later than your knowledge has earned it. Your standing grows slowly and holds when louder careers fall away.",
-     "lived": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior recommended you before you felt ready, and you have proved them right."
+     "lived": "Your progress at work since your late teens has come through what you studied, with each qualification carrying you a step further. You have proved right every mentor who put your name forward before you felt ready.",
+     "lived_past": "Your progress at work in your twenties and early thirties came through what you studied, with each qualification carrying you a step further. You proved right every mentor who put your name forward before you felt ready."
     },
     "Growth": {
      "headline": "Your growth waits on a readiness you already have.",
-     "recognition": "Each step you take comes after the training is done and the support is in place. Because shelter feels like the right place to prepare, you stay in comfortable roles past the point they teach you anything, and you wait for one more sign that you are ready. You are readier than you feel, and you have been for a long time.",
-     "lived": "From your late teens you have grown in steady steps, each one taken only after you felt well prepared. You have stayed somewhere safe for longer than it served you at least once, and you did better than you feared once you finally moved."
+     "recognition": "Each step you take comes after the training is done and the support is in place. Because shelter feels like the right place to prepare, you stay in safe roles past the point they teach you anything, and you wait for one more sign that you are ready. You are readier than you feel, and have been for a long time.",
+     "lived": "From your late teens you have grown in sheltered steps, under teachers and seniors who prepared you well. You have done better than you feared each time you moved, standing on the base they gave you.",
+     "lived_past": "In your twenties and early thirties you grew in sheltered steps, under teachers and seniors who prepared you well. You did better than you feared each time you moved, standing on the base they gave you."
     }
    }
   },
   "zhengyin_month_stem": {
    "domains": {
     "Career": {
-     "headline": "You rise at work because people trust you.",
-     "recognition": "You win roles through references, qualifications and the good word of people senior to you. Because steadiness is what you offer, you are given responsibility early, and you rarely have to sell yourself. You find open competition uncomfortable and do your best work where trust is already in place.",
-     "lived": "Older people at work have backed you since your late teens, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most."
+     "headline": "Your career grows under the people who teach you.",
+     "recognition": "You pick up a new role fastest with someone senior beside you, and within weeks you know what took them years. Because you learn best under someone's wing, you rarely have to sell yourself, and open competition puts you off. You give your best where trust is already in place.",
+     "lived": "Older people at work have backed you since your late teens, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most.",
+     "lived_past": "From sixteen to your mid-thirties older people at work backed you, vouched for you or quietly put your name forward. You collected qualifications and references that carried weight wherever you applied and needed to push less than most."
     },
     "Mind": {
      "headline": "Knowledge becomes second nature to you.",
      "recognition": "You learn by steady absorption, and what you study becomes part of how you think without effort. Because the learning feels natural to you, you forget how much of it you have, and others notice before you do. You underrate your own knowledge more than anyone around you does.",
-     "lived": "From your late teens you took in courses, books and advice from people who knew more, and kept nearly all of it. Over those years you came to know your field better than you let on, and you have rarely made a show of it."
+     "lived": "From your late teens you took in courses, books and advice from people who knew more, and kept nearly all of it. Over those years you learned fastest from the ones who trusted you early, and what they taught has become the base you build on.",
+     "lived_past": "From sixteen to your mid-thirties you took in courses, books and advice from people who knew more, and kept nearly all of it. You learned fastest from the ones who trusted you early, and what they taught became the base you built on."
     },
     "Social": {
      "headline": "Your friends bring you their troubles.",
      "recognition": "You are the friend people confide in, the calm one who listens and gives sound advice. Because being trusted feels like a kind of care to you, you rarely say no, and your evenings fill with other people's problems. You know more about your friends' lives than they know about yours.",
-     "lived": "Friends and colleagues have brought you their crises since your late teens, and several of your closest friendships began with someone else's bad news. You have kept more confidences than you can count, and people still repeat what you told them years ago."
+     "lived": "Since your late teens your closest friendships have grown out of being taken in, an older colleague who taught you or a friend's family who treated you as their own. You have gone to those people first for advice and learned from them how to listen.",
+     "lived_past": "Through your Rising Chapter your closest friendships grew out of being taken in, an older colleague who taught you or a friend's family who treated you as their own. You went to those people first for advice and learned from them how to listen."
     }
    }
   },
   "zhengyin_year_branch": {
    "domains": {
     "Family": {
-     "headline": "You were truly looked after as a child.",
-     "recognition": "In family life you expect warmth, and you give it back without thinking. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You take it harder than most when a relative lets you down, because you never expected it.",
-     "lived": "A parent or an older relative looked after you closely when you were small, and you came to rely on their calm. By your teens you expected the world to treat you with the same care, and mostly it did."
+     "headline": "For you, family means being looked after.",
+     "recognition": "Family is your shelter, the place you go back to and the people you look after in turn. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You take it harder than most when a relative lets you down, because you never expected it.",
+     "lived": "An older relative looked after you closely when you were small, and you came to rely on their calm. You grew up expecting the world to treat you with the same care, and mostly it did."
     },
     "Growth": {
-     "headline": "You grow best from a safe base.",
-     "recognition": "You take your biggest steps from a secure position, with people behind you and a home to return to. Because safety came first in your life, you learn faster when you feel held, and you stall under pressure from people you do not trust. You put off a change until the support is in place.",
+     "headline": "Your growth starts from a safe base.",
+     "recognition": "You take your biggest steps from a secure position, with people behind you and a home to return to. Because safety came first in your life, you learn faster when you feel held, and you stall when people you do not trust try to hurry you. You put off a change until the support is in place.",
      "lived": "As a child you tried new things when someone you trusted stood close by, and you held back when nobody did. By your teens you were slower than your friends to try things away from home, because home felt so safe."
     },
     "Health": {
      "headline": "Your body recovers best when someone looks after you.",
      "recognition": "You get your energy back quickly after tiring weeks and bad nights, and faster still when someone close is fussing over you. Because care was what restored you from the start, you let yourself rest properly only when another person insists. Your body does well on trust, rest and good company.",
-     "lived": "Whenever you were tired or run down as a child, someone was there with a meal and an early night, and you were yourself again within days. By your teens you had a steady energy the adults around you counted on, and you have kept much of it since."
+     "lived": "Whenever you were run down as a child, an older relative was there with an early night and a watchful eye. Growing up, you learned that being looked after was part of getting your strength back, and letting others do it came easily."
     }
    }
   },
   "zhengyin_year_stem": {
    "domains": {
     "Family": {
-     "headline": "You grew up protected by someone principled.",
-     "recognition": "The steady, decent care you had early is the measure you hold family to, and you notice quickly when it is missing. Because your first home gave you safety and clear values, you trust family as the place to turn first. You judge a relative by whether they keep their word, and you say so when they do not.",
-     "lived": "Your first home ran on care and clear rules, kept by a parent or older relative who held everyone to a high standard. By your teens you had their sense of right and wrong, and people outside the family noticed it in you."
+     "headline": "You carry the shelter of your first home.",
+     "recognition": "The steady, patient care you had early is the measure you hold family to, and you notice quickly when it is missing. Because your first home gave you shelter and someone to learn from, you go to a relative for support before you go to a friend. In return you look after your family the way it looked after you.",
+     "lived": "Your first home ran on gentle care and help with your schooling, given by an older relative who watched over you. By your teens you had their manners and their love of learning, and people outside the family noticed it in you."
     },
     "Mind": {
-     "headline": "You were raised to learn, and you still do.",
-     "recognition": "You approach a new subject expecting to be taught well, and you go looking for the best teacher before you open a book. Because books and patient adults were part of your childhood, you learn easily inside a course or a school, and you value a qualification for its own sake. You find it harder to learn where nobody is guiding you.",
-     "lived": "As a child you had books at home and adults who answered your questions, and school came easily. By your teens a teacher or older relative had taken a special interest in you, and you worked harder because of it."
+     "headline": "You are a student for life.",
+     "recognition": "You approach a new subject expecting to be taught well, and you go looking for the best teacher before you open a book. Because a guide makes learning feel safe to you, you value a qualification for its own sake. You find it harder to learn where nobody is showing you the way.",
+     "lived": "As a child you had books at home and adults who answered your questions, and school came easily. By your teens you drew the special interest of teachers and older relatives, and their attention made you work harder."
     }
    }
   }
@@ -1158,320 +1227,320 @@ export const DOMAINS_CONTENT = {
   "比肩": {
    "Family": {
     "helping": {
-     "lived": "Those years made you an equal in your family, with a voice as strong as anyone's. You stood on your own feet among your relatives, and they treated your word as worth the same as theirs.",
-     "ahead": "Your family runs on shared effort in these ten years, and each person at home carries a fair part. You do your share before anyone asks, and relatives come to you as one equal to another."
+     "lived": "Standing level with your relatives made you an equal at home, with a voice that counted as much as anyone's. You stood on your own feet, and nobody in the family spoke over you.",
+     "ahead": "Your household runs on shared effort, with each person carrying a fair part of the load. You pull your weight before anyone asks and meet every relative as one equal meets another."
     },
     "heavy": {
-     "lived": "In those years you kept your own counsel at home and turned down help you were offered more than once. The distance grew quietly, and what carried you was the one relative who treated you as an equal.",
-     "ahead": "Pride runs through your family in these years, and each person insists on doing things their own way. The quarrels shrink once everyone has a clear part, and you come through by doing yours without keeping score."
+     "lived": "Independence set you apart at home, with help declined and plans kept to yourself. You held close to the relatives who stood level with you, and the distance stayed quiet rather than cold.",
+     "ahead": "Pride runs through your family, each person insisting on their own way and quarrelling over it. You come through by doing your part well and leaving others to theirs."
     }
    },
    "Growth": {
     "helping": {
-     "lived": "Your progress in those years came from peers who were your equals, people you learned beside more than beneath. You set your own standard and met it, and the confidence lasted.",
-     "ahead": "Self-reliance pays in these ten years. You teach yourself what you need and find equals to train beside, and you come out of the decade more capable on your own terms."
+     "lived": "Your progress came from peers who matched you, people you learned beside rather than beneath. By setting your own standard and meeting it, you built a confidence that held.",
+     "ahead": "Self-reliance starts to pay. You teach yourself what you need, train beside equals who keep your pace, and end up more capable on your own terms."
     },
     "heavy": {
-     "lived": "You measured yourself against your peers in those years and would not ask the ones further along for help. Your progress came slower than it needed to, and what carried you was knowing every skill you gained was your own.",
-     "ahead": "Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. One equal who works beside you instead of against you keeps you going, and you grow because of it."
+     "lived": "You measured yourself against your peers and would not ask anyone further along for help. You progressed slower than you needed to, carried by knowing that every skill you gained was your own.",
+     "ahead": "Comparison with peers drives you hard, and the standard you hold yourself to leaves you little slack. You will keep growing once the only measure you use is your own last best."
     }
    },
    "Social": {
     "helping": {
-     "lived": "Friendships among equals defined those years, with people who matched your pace and asked nothing extra. You found a few friends who met you level, and you have kept some of them since.",
-     "ahead": "Your friends in these ten years are equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd."
+     "lived": "Your friendships ran between equals, people who matched your pace and asked nothing extra. Level with every friend, you never had to shrink to be liked.",
+     "ahead": "Friendship settles into a circle of equals, people with lives and strength of their own. You trust that small, solid circle more than any crowd."
     },
     "heavy": {
-     "lived": "During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and you found the one or two friends who stayed were enough to carry you.",
-     "ahead": "Company that truly matches you is scarce in these years, and crowded groups wear you out quickly. One steady friend carries you through the decade, and you value that friend more than a full calendar."
+     "lived": "You held yourself apart from most groups, sure that few people matched your standard. Your circle shrank, but you stood on your own and found yourself good company.",
+     "ahead": "Company that truly matches you is scarce, and crowded groups wear you out quickly. You get through on your own strength, and prize a quiet evening over a full calendar."
     }
    }
   },
   "劫财": {
    "Wealth": {
     "helping": {
-     "lived": "Contest sharpened the way you handled money in those years, and you went after the same chances others wanted. You did best with a rival close by, and you learned exactly what your effort was worth.",
-     "ahead": "Shared money works for you in these ten years, because the contest with others keeps you sharp. You do better with people at your side than alone, and you keep a fair part of what you win together."
+     "lived": "Contest sharpened the way you handled money, and you went after the same prizes others wanted. With a rival close by, you learned exactly what your effort was worth.",
+     "ahead": "Shared money works for you, because the contest with others keeps you sharp. You do better with people at your side than alone and keep a fair cut of what you win together."
     },
     "heavy": {
-     "lived": "Money went out on friends in those years, lent to them or spent keeping up with them. You learned what generosity costs, and you got through on work you could do on your own.",
-     "ahead": "Other people reach for your money in these years, through loans, shared costs and favours that do not all come back. You keep enough because you set your own share aside first, and you spend less on proving yourself."
+     "lived": "Money went out on friends, lent to them or spent keeping up with them. You learned what generosity costs and got through on work you could do on your own.",
+     "ahead": "Other people reach for your money through loans, shared costs and favours that do not all come back. You keep enough by setting your own share aside first and spending less on proving yourself."
     }
    },
    "Social": {
     "helping": {
-     "lived": "Those years filled your life with lively company, friends who competed with you and pushed you on. You were at your best among a crowd of rivals, and you won their respect openly.",
-     "ahead": "Rivalry turns friendly in these years, and people who compete with you end up on your side. You keep a busy circle through the decade, one where you give and receive in fair measure."
+     "lived": "Lively company filled your life, friends who competed with you and pushed you on. Among rivals you were at your best, and won their respect fair and square.",
+     "ahead": "Rivalry turns friendly, and the people who compete with you end up on your side. Your friendships stay busy and fair, with every win shared and every loss taken well."
     },
     "heavy": {
-     "lived": "Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. The company itself got you through, and you learned to tell an ally from a competitor.",
-     "ahead": "Comparison runs through your friendships in these years, and you notice who earns more and who wins more. What carries you is one friend who never competes with you, and you lean on that friend above all others."
+     "lived": "Friendship and contest mixed, and credit you had earned kept going to friends who claimed it first. You answered by competing in the open, and learned to tell an ally from a rival.",
+     "ahead": "Comparison creeps into your friendships, and you notice who earns more and who wins more. You win friends back by giving a share freely, and a fair split comes to matter more to you than the prize."
     }
    },
    "Career": {
     "helping": {
-     "lived": "Your work in those years was a contest, and you did best when someone else wanted the same result. You were sharpest with a rival close by, and that drive got you further than talent alone.",
-     "ahead": "Joint efforts carry your work in these ten years, and you do best inside a group with something to win. You compete hard and share credit fairly, and the people beside you back you for it."
+     "lived": "Work was a contest, and you did best when someone else wanted the same result. You were sharpest racing a rival, and that drive carried you further than skill alone.",
+     "ahead": "Joint efforts carry your work, and you do best inside a group with something to win. You compete hard, share credit fairly and keep the backing of the people beside you."
     },
     "heavy": {
-     "lived": "Others claimed credit for your work in those years, and the reward went more than once to people who pushed harder. You kept going on your own effort, and you came out of that contest with a skill nobody could claim.",
-     "ahead": "Rivalry over shared work costs you energy in these years, and a joint effort takes more from you than it pays. You get through on work that is plainly yours, and the people who matter see that you did it."
+     "lived": "Others claimed credit for your work, and the reward kept going to people who pushed harder. You came out of the contest with a skill nobody could claim, built on your own effort.",
+     "ahead": "Rivalry over shared work drains your energy, and a joint effort takes more from you than it pays. You get through on work that is plainly yours, done where the people who matter can see it."
     }
    }
   },
   "食神": {
    "Health": {
     "helping": {
-     "ahead": "You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health through this decade, and you feel at ease in your own skin.",
-     "lived": "Your appetite and sleep were good in those years, and ordinary pleasures kept you well. You ate with enjoyment and moved without strain, and you felt at ease in your own body."
+     "ahead": "You ease into your body, with a better appetite, deeper sleep and more pleasure in ordinary days. You will enjoy your health the way you enjoy a good meal, slowly and without guilt.",
+     "lived": "Your appetite and sleep were good, and ordinary pleasures kept you well. Eating well and moving without strain, you felt at home in your own body."
     },
     "heavy": {
-     "lived": "Rich food, late nights and easy evenings piled up in those years, and your energy dropped as the habits grew. A plain daily routine brought you back, and you felt the change within weeks.",
-     "ahead": "Good food and long evenings cost you energy in these years, and the easy option wins more days than you mean it to. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure."
+     "lived": "Rich food, late nights and easy evenings piled up, and your energy dropped as the habits grew. You came back through a plain daily routine and felt the difference within weeks.",
+     "ahead": "Good food and long evenings cost you energy, and the easy option wins more days than you mean it to. Your way back is a simple routine you actually enjoy, the only kind you ever keep."
     }
    },
    "Family": {
     "helping": {
-     "lived": "Home was warm in those years, full of meals and easy evenings with the people you lived with. You were the one who brought comfort to others, and your family loved you for it.",
-     "ahead": "Your household is softer in these ten years, with shared meals and unhurried weekends. You make the home a comfortable place, and relatives come to you because it feels good to be there."
+     "lived": "Home was warm, full of meals and unhurried evenings with the people you lived with. You were the comfort everyone at home gathered around.",
+     "ahead": "Your household softens around shared meals and slow weekends. You make the home a place of comfort where relatives drop by because it feels good to be there."
     },
     "heavy": {
-     "lived": "During those years you gave your family more comfort than they asked for, and some of them came to expect it. You spoiled the people closest to you, and you got your own ease back once others began to care for you in turn.",
-     "ahead": "Indulgence runs the household in these years, with treats, late meals and little order. You get through on the warmth itself, and you wear yourself out less as your family learns to look after itself."
+     "lived": "You gave your family more comfort than they asked for, and some of them came to expect it. Your own ease came back once others began to cook for you in turn.",
+     "ahead": "Indulgence runs the household, with treats, late meals and little order. You get through on the warmth itself, tiring less once the family learns to fend for itself."
     }
    },
    "Career": {
     "helping": {
-     "lived": "Work came easily in those years, especially work that let you make things or please people. You did your best at a relaxed pace, and others valued what you produced.",
-     "ahead": "A craft or skill you enjoy is what pays in these ten years. People come back for what you make, and you do your best work at an easy pace."
+     "lived": "Work came easily, especially work that let you make things or please people. You did your best at a relaxed pace, and others valued what you made.",
+     "ahead": "A craft you enjoy is what pays, and people come back for what you make. You do your finest work at an easy pace, with pleasure in the making."
     },
     "heavy": {
-     "lived": "Comfort dulled your drive at work in those years, and easy work held you longer than it served you. You were well liked and under-stretched, and the skill you practised for pleasure is what kept you going.",
-     "ahead": "Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make carries you on, and you move forward each time a deadline gives you a reason to finish."
+     "lived": "Comfort dulled your drive, and easy work held you longer than it served you. Well liked and under-stretched, you kept going on a skill you practised for pleasure.",
+     "ahead": "Ambition softens, and the easy option keeps getting its way in your work. You keep moving on the worth of what you make and finish the pieces people are waiting to enjoy."
     }
    }
   },
   "伤官": {
    "Social": {
     "helping": {
-     "ahead": "You become more outspoken in these years, and the people who like it like it a great deal. You gather an audience of your own, and you lose patience with company that asks you to be quieter.",
-     "lived": "In company you were the lively one in those years, quick with a joke and a sharp opinion. People sought you out for your wit, and you enjoyed being heard."
+     "ahead": "You become more outspoken, and the people who enjoy a sharp voice seek you out. You gather an audience of your own and lose patience with company that asks you to be quieter.",
+     "lived": "In company you were the lively one, quick with a joke and a sharp opinion. You were sought out for your wit and loved being heard."
     },
     "heavy": {
-     "lived": "Things you said aloud cost you friends in those years, and more than one group left you out afterwards. You kept the people who liked your honesty, and those few saw you through.",
-     "ahead": "Bluntness strains your friendships in these years, and some people take offence at what you meant as wit. The friends who stay value your candour, and you find them worth more than a wide circle."
+     "lived": "Things you said aloud cost you friends, and groups closed ranks after you spoke your mind. Your people turned out to be the ones who wanted the sharp voice, who laughed where others took offence.",
+     "ahead": "Bluntness strains your friendships, and some people hear an attack where you meant wit. You will steady yourself by giving that edge a stage, a talk or a page where sharpness is the point."
     }
    },
    "Mind": {
     "helping": {
-     "ahead": "You turn your thinking outward in these years, and you say in public what you used to keep to yourself. You are quicker and bolder with ideas than at any time before.",
-     "lived": "Ideas came fast in those years, and you spoke them aloud with confidence. You were quicker than the people around you, and you enjoyed proving it in argument."
+     "ahead": "You turn your thinking outward, and you say in public what you used to keep to yourself. You are quicker and bolder with ideas than at any time before.",
+     "lived": "Ideas came fast, and you spoke them aloud with confidence. Quicker than most people in the conversation, you enjoyed proving it in argument."
     },
     "heavy": {
-     "lived": "Restless thinking ran through those years, and you argued with most ideas that came from above. Your mind rarely settled, and what carried you was one project worth all that energy.",
-     "ahead": "You argue with more of what you are told in these years, and every rule you meet feels like a challenge. One piece of work big enough to take all that argument carries you through, and you are calmest on the days you finish something."
+     "lived": "Restless thinking ran through everything, and you argued with most ideas that came from above. Your mind rarely settled until one project gave all that argument somewhere to go.",
+     "ahead": "You argue with more of what you are told, and every rule you meet reads like a dare. You are calmest on the days you finish something sharp enough to show."
     }
    },
    "Career": {
     "helping": {
-     "lived": "Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who chose you wanted exactly that.",
-     "ahead": "Original work brings you recognition in these ten years. You win people over by doing what others will not, and your reputation grows on your own terms."
+     "lived": "Talent made your name, through work that broke with how things had always been done. You stood out for being different, and the people who chose you wanted exactly that.",
+     "ahead": "Original work brings you recognition, and your voice carries further than before. You win people over by saying what others will not and build a name on your own terms."
     },
     "heavy": {
-     "lived": "Clashes with the people in charge marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next chance each time.",
-     "ahead": "Authority pushes back on you in these years, and a frank remark costs more than it used to. Work that is yours alone carries you through, and you do better outside a strict chain of command."
+     "lived": "Clashes with the people in charge ran through your work, because you said aloud what others kept quiet. You lost favour with every blunt word and found the next post on the strength of your skill.",
+     "ahead": "Authority pushes back on you, and a frank remark costs more than it used to. You do better outside a strict chain of command, where work in your own voice carries you through."
     }
    }
   },
   "偏财": {
    "Wealth": {
     "helping": {
-     "ahead": "Money comes to you through openings in these years more than through regular pay, an offer or a sale or a well-timed move. You take more chances with money in this decade than you are used to, and most of them pay.",
-     "lived": "Openings came your way in those years, a timely move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it."
+     "ahead": "Money comes through openings, an offer or a sale or a well-timed move, more than through regular pay. You take more chances with it than you are used to, and most of them pay.",
+     "lived": "Openings came your way, through a timely move, a chance offer or someone who knew someone. You grew bolder with money that reached you by routes regular pay never took."
     },
     "heavy": {
-     "lived": "Easy money came and went in those years, and each windfall left as fast as it arrived. You chased too many openings at once, and what carried you was the one steady source you kept.",
-     "ahead": "Chances multiply in these years and spread you thin, with more offers and requests than you can follow. One reliable source keeps paying while the others rise and fall, and you come through with your savings intact."
+     "lived": "Easy money came and went, and each windfall left as fast as it arrived. You chased too many openings at once and held on through the one steady source you kept.",
+     "ahead": "Chances multiply and spread you thin, with more offers and requests than you can follow. You come through by letting most of them pass and backing the few that already pay."
     }
    },
    "Family": {
     "helping": {
-     "ahead": "Your family widens in these years, through new relatives, friends who become family or a household that keeps its door open. You spend more on the people around you than you used to, and you mind it less than you expected.",
-     "lived": "Your household opened outward in those years, through travel, new relatives or friends who became family. You gave generously to everyone at home, and the house was busier for it."
+     "ahead": "Your family widens through new relatives, friends who become kin and a door kept open to visitors. You spend more on the people around you than you used to and mind it less than you thought.",
+     "lived": "Your household opened outward through travel, new relatives and friends who became family. You kept the door wide and gave generously to everyone who came through it."
     },
     "heavy": {
-     "lived": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through because your family forgave more than you expected.",
-     "ahead": "Distant plans crowd out home life in these years, and the people nearest to you feel the gap. What brings you back is a relative who asks plainly for your time, and you give it once you see the cost."
+     "lived": "Plans and people far from home pulled you away, and your family saw less of you than they wanted. You made up for it in bursts of generosity, and relatives forgave more readily than you feared.",
+     "ahead": "Distant plans crowd out home life, and the people nearest to you feel the gap. When relatives ask plainly for your time, you give it and find your way back home."
     }
    },
    "Social": {
     "helping": {
-     "ahead": "You widen your circle in these years, through travel and new groups and the people they lead you to. You make more new friends in this decade than in the one before it.",
-     "lived": "Your circle spread wide in those years, through travel, work and friends of friends. You met people easily everywhere you went, and several of them opened doors for you."
+     "ahead": "New places and new groups keep bringing people into your life, and each one leads to more. You will make friends faster than you can introduce them to each other.",
+     "lived": "Your circle spread wide, through moves, trips and friends of friends. Wherever you went, you met people easily, and doors kept opening through them."
     },
     "heavy": {
-     "lived": "Acquaintances crowded those years, and you knew people in many places without letting many of them close. One old friend who stayed kept you steady, and you confided in that friend more than in anyone new.",
-     "ahead": "You meet more people in these years than you can keep up with, and old friends see less of you. A small group who knew you before this busy decade stays close, and you return to them again and again."
+     "lived": "Acquaintances crowded your life, and you knew people in many places without letting many of them close. You kept your footing by moving on, with every new place a fresh start.",
+     "ahead": "You meet more people than you can keep up with, and old friends see less of you. In the end you are carried by one chance meeting that opens a real door, worth more than all the busy evenings."
     }
    }
   },
   "正财": {
    "Wealth": {
     "helping": {
-     "ahead": "You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it.",
-     "lived": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without windfalls or risk, and you trusted your own counting more than any tip."
+     "ahead": "You turn steady work into something you own, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before.",
+     "lived": "Careful earning paid off, and you saved steadily from regular work. You built something solid without gambles or shortcuts, trusting your own counting more than any tip."
     },
     "heavy": {
-     "lived": "Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and you came through on the security that careful habit built.",
-     "ahead": "Caution about money tightens in these years, and spending on yourself feels wrong even when you can afford it. You have more put by than you feel you have, and you relax a little each time you check."
+     "lived": "Expenses felt heavy, and you counted money long after there was enough. You came through on the security careful habit built, though your pleasure shrank as your savings grew.",
+     "ahead": "Caution about money tightens, and spending on yourself feels wrong even when you can afford it. Each time you check, you find more put by than you thought and relax a little."
     }
    },
    "Family": {
     "helping": {
-     "ahead": "Your family life settles in these years around the order you keep, a home that runs well and bills paid on time. You are the one your relatives rely on, and you are glad to be.",
-     "lived": "Meals, chores and repairs ran smoothly at home in those years because you saw to them. Your family grew used to your steadiness, and you took pride in it."
+     "ahead": "Family life settles around the order you keep, with a home that runs well and bills paid on time. You become the steady one relatives rely on and take quiet pride in it.",
+     "lived": "You saw to chores, bills and repairs, and the household ran smoothly because of it. Your steadiness became something the family counted on."
     },
     "heavy": {
-     "lived": "Duty at home outweighed pleasure in those years, and you counted what others spent without meaning to. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly.",
-     "ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The routines you built keep you going, and you pass some of the load over once your family sees it."
+     "lived": "Careful keeping outweighed pleasure at home, and you noticed every purchase anyone made. You kept the household secure if a little tense, carried by the relatives who thanked you plainly.",
+     "ahead": "Keeping the household in order weighs on you, and you carry more of the load than anyone else. You lean on the routines you built until the family sees the weight and takes some of it."
     }
    },
    "Career": {
     "helping": {
-     "ahead": "Your work pays properly in these years, steadily and in proportion to what you put in. You chase the next thing less and build on what you already do well.",
-     "lived": "Steady work rewarded you in those years, and your record stayed clean. You became known as the person who delivers on time, and the reputation followed you into later work."
+     "ahead": "Your work pays properly, steadily and in proportion to what you put in. You chase the next thing less and build on what you already do well.",
+     "lived": "Steady work paid you fairly, and you kept most of what you earned. You became known as the person who delivers on time, and that steadiness carried you into later work."
     },
     "heavy": {
-     "lived": "Safety kept you in one place too long during those years, and your duties grew faster than your reward. You carried the extra load reliably, and it earned you a trust that later work paid for.",
-     "ahead": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability earns you respect, and you find a better fit once someone else sees what you are worth."
+     "lived": "Safety kept you in one place too long, and your workload grew faster than your pay. You carried the extra load reliably and earned a trust that later work paid for.",
+     "ahead": "Routine tightens around your work, and caution keeps you from moves that would pay more. You find a better fit once someone else sees what your reliability is worth."
     }
    }
   },
   "七杀": {
    "Career": {
     "helping": {
-     "ahead": "You take on hard assignments and real pressure in these years, and you rise because of them. You come out of the decade with more authority than you went in with.",
-     "lived": "Hard tasks found you in those years, and you met pressure that would have stopped most people. You rose by handling it, and you learned your strength in the worst weeks."
+     "ahead": "You take on hard assignments and real pressure, and you rise because of them. You come out with more authority than you went in with.",
+     "lived": "Hard tasks found you, and you met pressure that would have stopped most people. You rose by handling it and learned your strength in the worst weeks."
     },
     "heavy": {
-     "lived": "Pressure in your work came without pause in those years, from hard demands, tight deadlines and fights you had not chosen. You kept going on sheer will, and the few people who stood by you carried you through.",
-     "ahead": "Demands pile up in your work through these years faster than you can meet them, and a calm week feels like falling behind. Your standing holds through the decade, and you get through by choosing which fights matter."
+     "lived": "Pressure in your work came without pause, from hard demands, tight deadlines and fights you had not chosen. You kept going on sheer nerve, carried through by the few people who stood by you.",
+     "ahead": "Demands pile up in your work faster than you can meet them, and a calm week feels like falling behind. You hold your ground by choosing which fights matter and letting the rest go."
     }
    },
    "Growth": {
     "helping": {
-     "ahead": "You grow fastest in these years through pressure, a hard role or a challenge you choose on purpose. You come out of the decade stronger in the places that used to hold you back.",
-     "lived": "Challenges shaped you in those years, and each hard test left you more capable than before. You learned to face pressure directly, and the courage you built has stayed with you."
+     "ahead": "You grow fastest through pressure, a hard role or a challenge you choose on purpose. You will come out stronger in the places that used to hold you back.",
+     "lived": "Challenges shaped you, and each hard test you passed raised the bar for the next. Facing pressure head on, you built a courage that has stayed with you."
     },
     "heavy": {
-     "lived": "Those years tested you more than they taught you, with one hard stretch after another. A stubborn refusal to stop kept you going, and you came out tougher and more tired than you expected.",
-     "ahead": "Setbacks arrive in these years without warning, and you are pushed before you feel ready. What carries you is the discipline you already have, and you end the decade tougher in ways that show later."
+     "lived": "The tests outran the lessons, with one hard stretch after another. On sheer refusal to stop, you kept going and came out tougher and more tired than you expected.",
+     "ahead": "Setbacks arrive without warning, and you are pushed before you feel ready. You get through on the discipline you already have, coming out tougher in ways that show later."
     }
    },
    "Health": {
     "helping": {
-     "ahead": "You carry more pressure in these years, and for once it suits your body. You are fitter and sharper in a demanding decade than in an easy one, and you stay that way while you keep sleeping.",
-     "lived": "Your body answered strain well in those years, and hard training or hard work made you stronger. You had energy for demanding days, and you recovered fast between them."
+     "ahead": "You carry more pressure, and for once it suits your body. You will be fitter and sharper in demanding years than in easy ones, as long as you keep sleeping.",
+     "lived": "Your body answered strain well, and hard training or hard work made you stronger. With energy for demanding days, you recovered fast between them."
     },
     "heavy": {
-     "lived": "Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve, and you got through because a few people made you stop.",
-     "ahead": "Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is rest and slow meals given their place in the week, and you recover fast once the pressure lifts."
+     "lived": "Strain gathered in your body, and you ran on less rest than you needed. You pushed through on nerve, and learned in the end that stopping takes courage too.",
+     "ahead": "Pressure costs you sleep and energy, and short nights add up faster than you notice. Once rest has a fixed place in your week, you recover fast whenever the pressure lifts."
     }
    }
   },
   "正官": {
    "Family": {
     "helping": {
-     "ahead": "You hold a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that lasts well beyond the decade.",
-     "lived": "Order and good manners shaped your home in those years, and everyone knew their place and their duties. You earned respect in your family by keeping its rules, and you felt secure inside them."
+     "ahead": "A proper place in the family comes to you, as the reliable one with a role and a duty. You earn a standing among your relatives that holds for years to come.",
+     "lived": "Order and good manners shaped your home, and everyone knew their place and their duties. You earned respect in your family by keeping its rules and felt secure inside them."
     },
     "heavy": {
-     "lived": "Family duty weighed on you in those years, and you met expectations that left you little say. You did what was asked of you well, and you came out of it with the respect it earned you.",
-     "ahead": "Obligations at home pile up in these years, with duties to the people who rely on you and a family name to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone."
+     "lived": "Family duty weighed on you, with expectations that left you little say in your own life. You did what was asked of you well and came out of it with a respect you had earned.",
+     "ahead": "Obligations at home pile up, with duties to the people who rely on you and a family name to uphold. You meet them faithfully while guarding a part of your life that belongs to you alone."
     }
    },
    "Career": {
     "helping": {
-     "ahead": "Your work gains structure in these ten years, a clear role with real responsibility. You are trusted with more than before, and the trust lasts beyond the work that earned it.",
-     "lived": "Recognition came the proper way in those years, through good work noticed by the right people. You earned a place you could be proud of, and you carried the responsibility well."
+     "ahead": "Your work gains structure, a clear role with real responsibility. You are trusted with more than before, and the trust outlasts the work that earned it.",
+     "lived": "Recognition came the proper way, through good work noticed by the right people. You earned a place you could be proud of and carried its responsibility well."
     },
     "heavy": {
-     "lived": "Rules and rank pressed on your work during those years, and you followed procedure long after it stopped helping. You were reliable to a fault, and your record carried you to better places later.",
-     "ahead": "Hierarchy presses on your work in these ten years, and each new duty adds to rules that are already strict. Your good name holds throughout, and what carries you is the part of the work you shape yourself."
+     "lived": "Rules and rank pressed on your work, and you followed procedure long after it stopped helping. Reliable to a fault, you were carried to better posts later by your record.",
+     "ahead": "Hierarchy presses on your work, and each new duty adds to rules that are already strict. You keep your good name and hold on through the part of the work you shape yourself."
     }
    },
    "Social": {
     "helping": {
-     "ahead": "You hold standing among friends in these years, and people ask your opinion before they decide. You are the steady one in your circle, and you take the part seriously.",
-     "lived": "Respect came to you in those years through how you conducted yourself among others. People saw you as fair and dependable, and you were asked to lead more than once."
+     "ahead": "You hold standing among friends, and people ask your opinion before they decide. You become the steady one they count on, a role you take seriously.",
+     "lived": "Respect came to you through how you carried yourself among others. Fair and dependable in their eyes, you were the one friends asked to lead."
     },
     "heavy": {
-     "lived": "What was proper ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle.",
-     "ahead": "Duty shapes your friendships in these years, and social life feels more like obligation than pleasure. Your good name holds, and you find relief with the friends who expect nothing formal from you."
+     "lived": "What was proper ruled your social life, and you kept company with people you were expected to know. You were respected and a little lonely, held up by a role that gave you standing among them.",
+     "ahead": "Duty presses on your friendships, and social life feels more like obligation than pleasure. Your good name holds, and each promise kept steadies you a little more."
     }
    }
   },
   "偏印": {
    "Career": {
     "heavy": {
-     "lived": "Those years pulled you toward study and odd side paths more than toward steady work. You learned a great deal that did not pay at the time, and you got through on the one skill people kept asking you for.",
-     "ahead": "Your work wanders in these years between study and side projects, and steady output is hard to keep up. You get through on one skill people pay for, and you return to it each time a side path stalls."
+     "lived": "Study and odd side paths pulled you away from steady work. You learned a great deal that did not pay at the time and got through on the one skill people kept asking you for.",
+     "ahead": "Your work wanders between private study and side projects, and steady output is hard to keep up. Each time a side path stalls, you return to the one method people pay you for."
     },
     "helping": {
-     "lived": "Unusual work suited you in those years, the kind that needs odd knowledge and long hours alone. You became good at something few others understood, and it earned you respect before it earned you anything else.",
-     "ahead": "Unusual knowledge brings you work in these years, through research, advice or technical skill. You become the one people ask about what others do not know, and your name grows inside a small field."
+     "lived": "Unusual work suited you, the kind that needs odd knowledge and long hours alone. You became good at something few others understood, earning respect before it earned you anything else.",
+     "ahead": "Unusual knowledge brings you work, through research, consulting or technical skill. Your name grows inside a small field, where you are the one people ask about what others do not know."
     }
    },
    "Mind": {
     "heavy": {
-     "lived": "You turned inward in those years, into subjects few people around you shared. You spent long stretches alone with your thinking, and you came out of it with work that still feels like the most important you have done.",
-     "ahead": "Your mind turns inward in these years, and long stretches of solitary thought leave work half done. One person who hears your ideas keeps you steady, and you finish more when someone is waiting."
+     "lived": "You turned inward, into subjects nobody near you could follow, and work you owed others waited. Out of step with the people close to you, you were carried by one private piece of work you still count among your best.",
+     "ahead": "Your mind turns inward, and long stretches of solitary thought leave work half done. You finish more once a single person understands your odd way of thinking and waits to see the result."
     },
     "helping": {
-     "lived": "Strange subjects drew you in those years, and you learned through instinct and odd sources more than set courses. Your thinking grew original, and you trusted hunches that later proved right.",
-     "ahead": "Your intuition is sharp in these ten years, and unusual ideas find a use. You think in ways few others do, and people come to you for the angle they missed."
+     "lived": "Strange subjects drew you in, and you learned through instinct and odd sources more than set courses. Your thinking grew original, built on hunches that later proved right.",
+     "ahead": "Your intuition grows keen, and unusual ideas start to find a use. You become the person people bring a puzzle to, for the angle nobody else saw."
     }
    },
    "Growth": {
     "heavy": {
-     "lived": "You grew in those years by going your own way, away from what was expected of you. The progress was real and nearly invisible, and you kept going on your own conviction while you felt behind.",
-     "ahead": "Solitary searching slows you in these years, with many interests started and few carried through. One finished project gets you through, and you feel the decade's progress most on the day it is done."
+     "lived": "You grew by going your own way, away from what was expected of you. The progress stayed nearly invisible, but you kept faith in a private conviction while you felt behind.",
+     "ahead": "Solitary searching slows you, with many interests started and few carried through. Your progress stays hidden until one obscure project is finished, and on that day you will see how far you have come."
     },
     "helping": {
-     "lived": "Unconventional paths taught you most in those years, a strange course, a self-taught skill or a mentor outside the usual. You developed in your own direction, and the difference became your strength.",
-     "ahead": "Private study pays in these years, and the things you taught yourself count for more. You grow in directions nobody planned for you, and the progress shows in work only you could do."
+     "lived": "Unconventional paths taught you most, a strange course, a self-taught skill or an expert nobody else had heard of. You developed in your own direction, and the difference became your strength.",
+     "ahead": "Private study pays, and the things you taught yourself start to count. Your growth runs in directions nobody planned for you, toward work only you could do."
     }
    }
   },
   "正印": {
    "Family": {
     "heavy": {
-     "lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing as you were asked, and what carried you was one thing you chose for yourself.",
-     "ahead": "Family care comes with conditions in these years, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need."
+     "lived": "Your family sheltered you more than you needed, and the care came with expectations attached. You kept the peace by doing as you were asked, holding on to one thing you chose for yourself.",
+     "ahead": "Family care comes with conditions, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need."
     },
     "helping": {
-     "lived": "Care surrounded you in those years, from family who put your needs first and helped without being asked. You felt protected, and that security gave you the nerve to take on more than before.",
-     "ahead": "Family support reaches you in these ten years, as advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it."
+     "lived": "Care and support surrounded you, from family who put your needs first and helped without being asked. Feeling protected, you found the nerve to take on more than before.",
+     "ahead": "Family support reaches you as advice, practical help and a home base to come back to. You receive more care than you expected and return it in kind to the people who gave it."
     }
    },
    "Health": {
     "heavy": {
-     "lived": "You let other people set your pace in those years, and you rested only when someone insisted. Their care carried you, and you learned afterwards to give yourself the same care without waiting to be asked.",
-     "ahead": "Too much rest dulls you in these years, and comfortable days leave your energy low. What carries you is regular movement and a reason to get up early, and you feel better each time you have one."
+     "lived": "Other people set your pace, and you rested only when someone insisted. You were carried by their care, and learned in time to give yourself the same without being asked.",
+     "ahead": "Too much rest dulls you, and sheltered days leave you flat. Your energy returns whenever someone needs looking after, because it gets you up early and moving."
     },
     "helping": {
-     "lived": "Good care kept you well in those years, with regular meals, early nights and someone who noticed when you were tired. You recovered quickly from strain, and you felt safe in your body.",
-     "ahead": "Support and good rest restore you in these ten years, and you recover quickly from strain. You sleep well and eat well, and your energy holds steady through the decade."
+     "lived": "Good care kept you well, with early nights, a steady routine and someone who noticed when you were tired. You recovered quickly from strain and felt safe in your body.",
+     "ahead": "Support and good rest restore you, and strain lifts quickly. You sleep soundly, with an energy that holds because you let yourself be looked after."
     }
    },
    "Mind": {
     "helping": {
-     "lived": "Steady study suited you in those years, and people who knew more than you gave your learning a firm base. You absorbed knowledge patiently, and much of what you know best dates from that decade.",
-     "ahead": "Learning comes easily in these years, through books, good guides or a course taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past."
+     "lived": "Steady study suited you, and people who knew more than you gave your learning firm ground. You absorbed knowledge patiently, laying down much of what you know best.",
+     "ahead": "Learning comes easily, through books, good guides or a course taken at your own pace. Your thinking grows calmer and deeper, until you understand things you once rushed past."
     },
     "heavy": {
-     "lived": "Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied more than you acted, and the depth of what you had learned is what kept you going.",
-     "ahead": "You study more than you act in these years, and your thinking turns cautious. Work that puts what you know to use carries you through, and you trust your own ideas again once you see them working."
+     "lived": "The shelter of what you already knew held you, and new ideas felt like a threat to it. You read and studied more than you acted, kept going by the depth of what you had learned.",
+     "ahead": "Caution settles over your thinking, and you read about things far more than you try them. You trust your own ideas again once teaching puts them to work in someone else."
     }
    }
   }
@@ -1481,108 +1550,108 @@ export const DOMAINS_CONTENT = {
    "readings": {
     "Wealth": "You lose money most easily where you share it with friends and family, and you also find your safety net among those same people."
    },
-   "fused_line": "In you this runs close to home, and you rarely own anything that is only yours."
+   "fused_line": "With your people and your money at one gate, you rarely own anything that is only yours."
   },
   "cai_guan_xiang_sheng": {
    "readings": {
-    "Career": "Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
-    "Wealth": "You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone."
+    "Career": "Underneath, you turn each result into standing, though you rarely ask for the title it has already earned you.",
+    "Wealth": "You also turn money into position, feeling richer when a gain comes with respect than when it comes alone."
    },
-   "fused_line": "In you the two are tightly bound, and you find every gain arguing quietly for your next title."
+   "fused_line": "You keep money and rank at one gate, where each gain argues quietly for your next step up."
   },
   "guan_yin_xiang_sheng": {
    "readings": {
-    "Career": "You also find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
-    "Mind": "You also learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended."
+    "Career": "You also find your mentors inside the structures you join, where your name gathers weight the slow and lasting way.",
+    "Mind": "You also learn well inside a frame like a school or a discipline, studying on long after the course has ended."
    },
-   "fused_line": "In you the two move together, and you rise in rank and in learning at once."
+   "fused_line": "You carry rank and learning at one gate, and neither grows in you without the other."
   },
   "sha_yin_xiang_sheng": {
    "readings": {
     "Career": "Underneath, you come out of every hard stretch at work more senior than you went in, and the pattern grows stronger with age.",
-    "Growth": "Underneath, you grow most through the years that weigh on you, and you have left every heavy stretch more skilled than you entered it.",
+    "Growth": "Underneath, you answer the years that weigh on you with study and the people who steady you, ending every heavy stretch more sure of who you are.",
     "Mind": "Underneath, you turn pressure into understanding, and the hardest years of your life are the ones that taught you how to think."
    },
-   "fused_line": "In you this works fast, and you learn from pressure in the same week it arrives."
+   "fused_line": "In you the two sit at one gate, and you rarely meet a pressure without learning from it."
   },
   "shang_guan_jian_guan": {
    "readings": {
-    "Career": "You also keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest."
+    "Career": "You also keep correcting the very structures you climb, doing your brightest work wherever the rules are loosest."
    },
-   "fused_line": "In you this runs deep, and you have argued with your own position since your first job."
+   "fused_line": "Your voice and your role share one gate, which leaves you arguing first with the position you hold."
   },
   "shang_guan_pei_yin": {
    "readings": {
-    "Career": "Your boldest ideas and your patience for study also feed each other, and you grow braver in public with every qualification you earn.",
-    "Mind": "You also learn best when you can show what you learn, and you turn every course you finish into something you can say out loud."
+    "Career": "Your boldest ideas and your patience for study also feed each other, with every qualification you earn making you braver in public.",
+    "Mind": "You also learn best when you can show what you learn, turning every course you finish into something you can say out loud."
    },
-   "fused_line": "In you the two never pull apart, and you rarely have to choose between your talent and your training."
+   "fused_line": "Your talent and your training sit at one gate, close enough that you rarely have to choose between them."
   },
   "shi_shang_sheng_cai": {
    "readings": {
-    "Wealth": "What you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
-    "Career": "You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing."
+    "Wealth": "What you make turns into money more easily for you than for most, and the work that feels like play is the work that pays you best.",
+    "Career": "You also rise by making more rather than by climbing, as each piece of work you finish brings the next one to your door."
    },
-   "fused_line": "In you making and earning sit close together, and you are paid in the same season that you make."
+   "fused_line": "Because making and earning share a gate, you barely see a line between your craft and your income."
   },
   "shishen_zhi_sha": {
    "readings": {
     "Career": "Underneath, you do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands.",
-    "Health": "Comfort is what protects you, because good food and work with your hands turn pressure into something you can use."
+    "Health": "You find your protection in comfort, because good food and work with your hands turn pressure into something you can use."
    },
-   "fused_line": "In you this runs close to the surface, and you turn pressure into calm almost as soon as it lands."
+   "fused_line": "With ease and pressure at one gate, you keep a firm hold on every strain that reaches you."
   },
   "xiao_shen_duo_shi": {
    "readings": {
-    "Mind": "You also think so long about a thing that you miss the moment to make it, and you keep a drawer of nearly finished work.",
+    "Mind": "You also think so long about a thing that you miss the moment to make it, keeping a drawer of nearly finished work.",
     "Career": "You also polish your work in private until the moment to show it has passed, and you lose more chances by not finishing than by failing.",
-    "Health": "In your heaviest thinking seasons you also forget to eat and sleep properly, and your body tells you before your mind admits it."
+    "Health": "You also forget to eat and sleep properly in your heaviest thinking seasons, with your body telling you before your mind admits it."
    },
-   "fused_line": "In you this pull is constant, and you feel the tug between thinking and finishing almost every day."
+   "fused_line": "You hold thinking and making at one gate, and the thinking wins most of their arguments."
   }
  },
  "gaps": {
   "Wealth": {
-   "month": "Since sixteen you have put work, study and friends before money, and your income has stayed below what you could earn.",
-   "day": "Since your mid-thirties you have put home and your own life before earning more, and money has stayed something you manage more than something you build.",
-   "hour": "Since your late forties the people after you and your own time have come before earning more, and you have measured money by what it lets you give."
+   "month": "Since sixteen you have put work, study and friends before money, and your income has followed your decades more than any plan of your own.",
+   "day": "From your mid-thirties you shape your money around a partner, the home and a life of your own, and each decade sets how far it stretches.",
+   "hour": "From your late forties, you measure money by what it lets you give the people after you, with each decade setting how much comes in."
   },
   "Family": {
-   "month": "Since sixteen your energy has gone into work and friends more than into family, and you have seen less of your relatives than you meant to.",
-   "day": "Since your mid-thirties you have put work and your own direction before family life, and relatives have seen less of you than they wanted.",
-   "hour": "Since your late forties your attention has gone to work, friends and your own pursuits more than to family, and relatives have seen you less often than they hoped."
+   "month": "From sixteen you carry the family ways your first home taught you, while each decade sets the tone between you and your parents and siblings.",
+   "day": "From your mid-thirties you shape family life around a partner and the home you keep, carrying the ways your earlier gates set as each decade turns.",
+   "hour": "From your late forties, you meet your family through the people after you, with each decade deciding who gathers close."
   },
   "Health": {
-   "month": "Since sixteen your body has come second to work and study, and you have been spending the reserve your childhood gave you.",
-   "day": "Since your mid-thirties your body has come second to work and home, and you have run on habits formed many years before.",
-   "hour": "Since your late forties your attention has gone to others and to work more than to your body, and you have felt your energy follow the decade you are in."
+   "month": "From sixteen you run your body on the reserve your childhood gave you, as work and study come first and each decade sets your strength.",
+   "day": "From your mid-thirties you stay well on habits formed long before, drawing on the strength each decade brings to your home and your days.",
+   "hour": "From your late forties, you take your energy from the decade you are in, and the people after you give your days their shape."
   },
   "Career": {
-   "month": "Since sixteen you have put study, friends and family before a career, and your work has been a means more than a direction.",
-   "day": "Since your mid-thirties your private life has taken more of your energy than your career, and you have pushed for less at work than you could.",
-   "hour": "Since your late forties rising at work has mattered less than the people and the hours that are yours, and you have chosen them more than once."
+   "month": "From sixteen you take work as it comes through study, friends and family, and each decade turns the jobs of the moment into a direction.",
+   "day": "From your mid-thirties you fit work around the home and the life you have chosen, while each decade decides how far your career climbs.",
+   "hour": "From your late forties, you put your work into the people after you and the hours that are yours, and each decade sets what it asks of you."
   },
   "Social": {
-   "month": "Since sixteen you have put study, work and family before friendship, and your circle has stayed smaller than the people around you expected.",
-   "day": "Since your mid-thirties your evenings have gone to home and work more than to friends, and you have watched your circle thin without anyone deciding it.",
-   "hour": "Since your late forties you have seen friends less and spent more time with family and on your own, and the quiet has suited you."
+   "month": "Since sixteen you have kept friends around the edges of a full week of study, work and family, with each decade deciding who stays close.",
+   "day": "From your mid-thirties you meet your circle by plan more than by chance, as home and a partner fill your evenings and each decade brings its own faces.",
+   "hour": "From your late forties, you keep company with the people after you and the friends who have lasted, with each new decade adding faces to the circle."
   },
   "Mind": {
-   "month": "Since sixteen you have learned by doing more than by study, and your thinking has served your work and friendships more than any subject of its own.",
-   "day": "Since your mid-thirties you have used your mind for practical problems more than for ideas, and reading and study have had less of your week than they once did.",
-   "hour": "Since your late forties, people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things."
+   "month": "Since sixteen you have learned by doing more than by study, with each decade choosing the questions your work and friendships bring you.",
+   "day": "From your mid-thirties you put your mind to the work and the home in front of you, and each decade sets the subjects that hold you.",
+   "hour": "From your late forties, you turn your curiosity to practical things and to the people after you, while each decade sets what holds your attention."
   },
   "Growth": {
-   "month": "Since sixteen you have grown through work, friends and family more than through any plan to improve yourself, and change has come to you by circumstance.",
-   "day": "Since your mid-thirties you have kept to what you already do well, and you have started fewer new things than in any years before.",
-   "hour": "Since your late forties settling into who you are has mattered more than pushing to change, and you have grown quietly through the people around you."
+   "month": "Since sixteen you have grown through work, friends and family more than through any plan to improve yourself, as each decade brings its own change.",
+   "day": "From your mid-thirties you grow through the life you already have, the work and the home, while each decade sets the pace of change.",
+   "hour": "From your late forties, you grow by settling into who you are and by teaching what you know to the people after you, as each decade turns."
   }
  },
  "unruled": {
-  "Health": "Your health has no fixed pattern of its own. You feel well for some stretches of years and worn for others, and the change has no obvious cause because the decade is what moves it.",
-  "Wealth": "Your finances follow no single pattern from birth, and you trust one good year less than most people do. Some decades bring money in and others drain it, and you notice the turn before anyone around you does.",
-  "Mind": "Your thinking has no fixed shape of its own. It changes character with each decade, studious in one and restless or practical in another, and you notice the change in what you read before you notice it in yourself.",
-  "Growth": "Your growth keeps no steady pace of its own. You change fast in some decades and stand still in others, and you rarely notice which kind you are in until it ends.",
+  "Health": "Each decade moves your health more than any single habit of yours. You feel well for some stretches of years and worn for others, with each turn arriving as one decade gives way to the next.",
+  "Wealth": "Your money answers to each decade, and you trust one good year less than most people do. You read the turn before anyone around you does, because some decades bring it in and others draw it out.",
+  "Mind": "Your thinking takes its colour from each decade, studious in one and restless or practical in another. You notice the change in what you read before you notice it in yourself.",
+  "Growth": "Your growth moves at the speed of the decade you are in. You change fast in some decades and stand still in others, and only once one ends do you see which kind it was.",
   "Social": "Your friendships follow no fixed pattern of their own. You have crowded years and quiet ones, and the change arrives with the decade more than with any choice you make."
  },
  "unruledHeadline": {
@@ -1592,6 +1661,22 @@ export const DOMAINS_CONTENT = {
   "Growth": "Your growth keeps the pace of each decade.",
   "Social": "Your circle widens and thins with the decades."
  },
- "waiting": {},
- "waitingHeadline": {}
+ "waiting": {
+  "Wealth": "The character that rules your money arrives later in your life. Until then you earn and spend by the decade you are in, each one setting its own course.",
+  "Health": "Your health has a character of its own that arrives in a later chapter, and for now each decade steers it. You take your strength from the years you are in, reading your energy one season at a time.",
+  "Career": "Your career waits on a character who arrives later in life, and until then each decade sets its course. You take the work in front of you as it comes, building a direction one stretch of years at a time.",
+  "Family": "The character that shapes your family arrives in a later chapter, and for now each decade sets how you belong. You show up for your family in the ways each stretch of years allows, closer in some and freer in others.",
+  "Social": "Your friendships get their own character later in life, and for now each decade sets the course. You make friends by the decade, adding to your circle as each one turns.",
+  "Mind": "Your mind has its own character still to come, and for now each decade sets what you think about. You follow the questions your present years raise, one subject at a time.",
+  "Growth": "Your growth meets its own character later, and for now each decade sets the pace. You grow in step with the years you are in, changing when they ask it of you."
+ },
+ "waitingHeadline": {
+  "Wealth": "Your money finds its own character later in life.",
+  "Health": "Your health answers to each decade for now.",
+  "Career": "Your career takes its course from the decades for now.",
+  "Family": "Your family life waits on a later chapter.",
+  "Social": "Your friendships find their own character in time.",
+  "Mind": "Your mind follows each decade until its own character arrives.",
+  "Growth": "Your growth keeps time with the decades for now."
+ }
 };

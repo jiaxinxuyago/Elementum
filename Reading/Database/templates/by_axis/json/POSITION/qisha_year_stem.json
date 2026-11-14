@@ -35,13 +35,13 @@
     "domain_climb": {
       "Social": {
         "headline": "People respect you first and like you second.",
-        "recognition": "You walk into a group and people sort themselves around you, some matching your strength and others keeping their distance. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. Your friendships are strong and few, and you keep the ones who push back.",
+        "recognition": "You walk into a group and people sort themselves around you, some squaring up and others stepping aside. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. You keep the few friends who push back when you push.",
         "lived": "As a child you were the one others looked to in a fight or a dare, and you did not give way easily. Your friends by your teens were either as tough as you or kept at a distance, and you learned diplomacy slowly."
       },
       "Career": {
-        "headline": "Authority found you early and kept finding you.",
-        "recognition": "You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months.",
-        "lived": "Responsibility beyond your age came to you before you were grown, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends."
+        "headline": "Authority keeps finding you, and the hard tests with it.",
+        "recognition": "You end up in charge in most places you work, before you have asked for it. Because hard tests feel familiar to you, you take on serious work that makes others nervous. You rise through the hardest jobs and find easy ones dull within months.",
+        "lived": "Pressure beyond your age reached you in your first years, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, but you came out of it tougher than most of your friends."
       }
     },
     "__ore": {
@@ -53,6 +53,12 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Career.recognition": "You end up in charge in most places you work, often before you ask for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Social.recognition": "You walk into a group and people sort themselves around you, some matching your strength and others keeping their distance. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. Your friendships are strong and few, and you keep the ones who push back.",
+        "domain_climb.Career.headline": "Authority found you early and kept finding you.",
+        "domain_climb.Career.recognition": "You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months.",
+        "domain_climb.Career.lived": "Responsibility beyond your age came to you before you were grown, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends."
       }
     }
   },
@@ -112,6 +118,30 @@
       "finding": "cross:X-030 + DB:DB-040",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Social.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

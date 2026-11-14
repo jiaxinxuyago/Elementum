@@ -37,21 +37,24 @@
     "domain_climb": {
       "Love": {
         "headline": "You show love by making life easy.",
-        "recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you are the last of your friends to notice a partner who only takes.",
-        "lived": "The relationships that have lasted for you so far were the gentle ones, with partners who liked a quiet evening as much as you did. At least once you cooked and cared for someone who gave little back, and you stayed longer than the relationship deserved.",
-        "ahead": "From your mid-thirties your love life settles into a shared home with a partner who makes ordinary days pleasant. The two of you build your life around the same table, and you find yourself looked after in return more than at any time before."
+        "recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count and are the last of your friends to notice a partner who only takes.",
+        "lived": "The relationships that have lasted for you were the easy ones, with partners who enjoyed a slow evening and a good meal as much as you. You have learned from the others, who ate your cooking and gave little back, that ease has to run both ways.",
+        "ahead": "Past your mid-thirties love settles into an easy rhythm with a partner who makes ordinary days pleasant. Your gift for ease comes back to you in these years, as a meal cooked for you or an evening planned around your rest.",
+        "lived_past": "In your late thirties and forties the relationships that lasted were the easy ones, with partners who enjoyed a slow evening and a good meal as much as you. You learned from the others, who ate your cooking and gave little back, that ease had to run both ways."
       },
       "Family": {
         "headline": "You become the host your family returns to.",
         "recognition": "Your home is where your family ends up, for meals and holidays and the nights someone needs a bed. Because a full house makes you feel settled, you take on more hosting than anyone asks of you. Relatives treat your door as always open, and you rarely show them how tired you are by the end.",
-        "lived": "Wherever you have lived so far, people have drifted to your kitchen for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
-        "ahead": "Your house becomes the place your family gathers once you are past your mid-thirties, and relatives and friends treat it as a second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home."
+        "lived": "The people you have fed so far have turned into a kind of family, friends who arrive without asking and relatives who want your recipes. You have spent more on food than you could easily afford and counted it as time well spent.",
+        "ahead": "Once you are past your mid-thirties, more of your family gathers at your house, and relatives and friends treat it as a second home. You become the relative everyone means when they say home, and quarrels in the family get settled over your meals.",
+        "lived_past": "In your late thirties and forties the people you fed turned into a kind of family, friends who arrived without asking and relatives who wanted your recipes. You spent more on food than you could easily afford and counted it as time well spent."
       },
       "Health": {
-        "headline": "Your body does well when home is calm.",
-        "recognition": "Your health follows your home life closely, and you sleep and eat well in the seasons when the house is peaceful. Because tension at home reaches your body before you name it, a bad month with a partner shows up in your appetite and your rest. You recover fastest through ordinary comfort, a shared meal and an early night.",
-        "lived": "Your energy has risen and fallen so far with the state of your home, steady in the good years and low in the strained ones. Your sleep and appetite have followed each change at home, and they have settled again whenever the house grew calm.",
-        "ahead": "Your sleep and appetite steady from your mid-thirties as your household settles, and a calm year at home gives you more energy than a busy one. In the fullest of these years you eat and rest in step with whoever shares your home, and you stay well because of it."
+        "headline": "Your body stays well on good food and rest.",
+        "recognition": "Your health runs on appetite and ease, and you are at your best in the seasons when meals at home are long and evenings are slow. Because pleasure is how your body recovers, a tense month with a partner shows first in how little you enjoy your food. You recover through ordinary comfort, a shared meal and an early night.",
+        "lived": "So far your energy has risen in the years your household ate well together and dipped in the years everyone ate on the run. You have come back to yourself each time through a slow week of home cooking and rest.",
+        "ahead": "From your mid-thirties your health settles around the table you share with a partner, around food you make and evenings with nothing planned. You stay well in the fullest of these years because you take the time to enjoy them.",
+        "lived_past": "In your late thirties and forties your energy rose in the years your household ate well together and dipped in the years everyone ate on the run. You came back to yourself each time through a slow week of home cooking and rest."
       }
     },
     "__ore": {
@@ -65,6 +68,17 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Love.recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you notice a partner who only takes much later than your friends do."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Love.recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you are the last of your friends to notice a partner who only takes.",
+        "domain_climb.Love.lived": "The relationships that have lasted for you so far were the gentle ones, with partners who liked a quiet evening as much as you did. At least once you cooked and cared for someone who gave little back, and you stayed longer than the relationship deserved.",
+        "domain_climb.Love.ahead": "From your mid-thirties your love life settles into a shared home with a partner who makes ordinary days pleasant. The two of you build your life around the same table, and you find yourself looked after in return more than at any time before.",
+        "domain_climb.Family.lived": "Wherever you have lived so far, people have drifted to your kitchen for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
+        "domain_climb.Family.ahead": "Your house becomes the place your family gathers once you are past your mid-thirties, and relatives and friends treat it as a second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home.",
+        "domain_climb.Health.headline": "Your body does well when home is calm.",
+        "domain_climb.Health.recognition": "Your health follows your home life closely, and you sleep and eat well in the seasons when the house is peaceful. Because tension at home reaches your body before you name it, a bad month with a partner shows up in your appetite and your rest. You recover fastest through ordinary comfort, a shared meal and an early night.",
+        "domain_climb.Health.lived": "Your energy has risen and fallen so far with the state of your home, steady in the good years and low in the strained ones. Your sleep and appetite have followed each change at home, and they have settled again whenever the house grew calm.",
+        "domain_climb.Health.ahead": "Your sleep and appetite steady from your mid-thirties as your household settles, and a calm year at home gives you more energy than a busy one. In the fullest of these years you eat and rest in step with whoever shares your home, and you stay well because of it."
       }
     }
   },
@@ -138,6 +152,78 @@
       "finding": "DB:DB-033",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Love.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

@@ -34,14 +34,16 @@
     "health_line": "Your health is maintenance-shaped: it responds to routine like machinery to oil. Skip nothing small and nothing large will arrive.",
     "domain_climb": {
       "Career": {
-        "headline": "Your career grows slowly and keeps growing.",
-        "recognition": "You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. You are underrated in the early years of any role, and you outlast most of the people who underrated you.",
-        "lived": "Your working life has moved forward one step at a time since your late teens, with each job adding a skill you kept. More than once you have overtaken people who started faster than you."
+        "headline": "Every step you earn at work, you keep.",
+        "recognition": "You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. Underrated in the early years of any role, you outlast most of the people who underrated you.",
+        "lived": "Your working life has moved forward one step at a time since your late teens, with each job adding a skill you kept. Your pay has risen with every one of those skills, earned in full and owed to nobody.",
+        "lived_past": "From sixteen to your mid-thirties your working life moved forward one step at a time, with each job adding a skill you kept. Your pay rose with every one of those skills, earned in full and owed to nobody."
       },
       "Wealth": {
         "headline": "Your savings grow quietly, year after year.",
-        "recognition": "You save a part of everything you earn, and a steady rise in your accounts pleases you more than any windfall. Because security is what you are working for, you avoid risks that would make you rich quickly. Your caution keeps you safe, and you feel a good year as relief more than as joy.",
-        "lived": "Even in lean months you have put money aside since your late teens, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk."
+        "recognition": "You save a part of everything you earn, and a steady rise in your accounts pleases you more than any sudden gain. Because security is what you are working for, you spend only after you have counted what will be left. Your caution keeps you safe, and a good year feels to you like relief more than joy.",
+        "lived": "Even in lean months you have put money aside since your late teens, and your savings have grown more than people expected. You have turned down exciting offers that asked too much risk, and none of those refusals has cost you a night of sleep.",
+        "lived_past": "You put money aside even in the lean months of your twenties and early thirties, and your savings grew more than people expected. You turned down exciting offers that asked too much risk, and none of those refusals cost you a night of sleep."
       }
     },
     "__ore": {
@@ -50,6 +52,13 @@
         "reading": "Under your working life sits a patient wish to build something that lasts, a skill kept up and savings that grow each year. Because you trust only what you have earned yourself, you turn down quick gains that would ask you to become someone else. Your progress looks slow at first and surprises people later. The cost is a tight grip, and you deny yourself the pleasure of what you have built.",
         "domain_climb.Career.lived": "Since your late teens your working life has moved forward one step at a time, with each job adding a skill you kept. More than once you have overtaken people who started faster than you.",
         "domain_climb.Wealth.lived": "Since your late teens you have put money aside even in lean months, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.headline": "Your career grows slowly and keeps growing.",
+        "domain_climb.Career.recognition": "You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. You are underrated in the early years of any role, and you outlast most of the people who underrated you.",
+        "domain_climb.Career.lived": "Your working life has moved forward one step at a time since your late teens, with each job adding a skill you kept. More than once you have overtaken people who started faster than you.",
+        "domain_climb.Wealth.recognition": "You save a part of everything you earn, and a steady rise in your accounts pleases you more than any windfall. Because security is what you are working for, you avoid risks that would make you rich quickly. Your caution keeps you safe, and you feel a good year as relief more than as joy.",
+        "domain_climb.Wealth.lived": "Even in lean months you have put money aside since your late teens, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk."
       }
     }
   },
@@ -102,6 +111,48 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

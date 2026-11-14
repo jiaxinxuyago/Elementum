@@ -35,13 +35,15 @@
     "domain_climb": {
       "Career": {
         "headline": "You are the one trusted with the books.",
-        "recognition": "You are given charge of money and order wherever you work, and things run better near your desk. Because reliability is what you offer, you accept extra tasks without asking for more pay or a promotion. You carry more of the work than your title shows, and your colleagues lean on it.",
-        "lived": "You have been given responsibility early in every job since your late teens, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved."
+        "recognition": "You notice the figure that does not add up before anyone else opens the file, and things run better near your desk. Because steady work is what you offer, you take on extra tasks without asking for a raise. You carry more of the work than your pay shows, and the whole team runs on your numbers.",
+        "lived": "You have been given responsibility early in every job since your late teens, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved.",
+        "lived_past": "From sixteen to your mid-thirties you were given responsibility early in every job, a budget or a set of keys or a team's accounts. Your promotions came steadily, each one a little later than your work deserved."
       },
       "Wealth": {
         "headline": "Your money arrives on time and keeps arriving.",
-        "recognition": "You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, and you prefer it that way.",
-        "lived": "The money you have counted on since your late teens is the salary, raised a step at a time and planned for well in advance. You have kept to your own plan while friends chased quick gains, and you have rarely regretted it."
+        "recognition": "You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, the shape you like best.",
+        "lived": "The money you have counted on since your late teens has been the salary, raised a step at a time and planned for well in advance. You have kept to your plan through lean months and good ones, building savings that have grown every year.",
+        "lived_past": "Through your Rising Chapter the money you counted on was the salary, raised a step at a time and planned for well in advance. You kept to your plan through lean months and good ones, building savings that grew every year."
       }
     },
     "__ore": {
@@ -50,6 +52,11 @@
         "reading": "People at work hand you the budget, the accounts and the jobs that need order. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used.",
         "domain_climb.Career.lived": "Since your late teens you have been handed responsibility early, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved.",
         "domain_climb.Wealth.lived": "Since your late teens your income has risen steadily, without big jumps and without big falls. You have kept to your own plan while friends chased quick gains, and most of them now have less than you."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.recognition": "You are given charge of money and order wherever you work, and things run better near your desk. Because reliability is what you offer, you accept extra tasks without asking for more pay or a promotion. You carry more of the work than your title shows, and your colleagues lean on it.",
+        "domain_climb.Wealth.recognition": "You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, and you prefer it that way.",
+        "domain_climb.Wealth.lived": "The money you have counted on since your late teens is the salary, raised a step at a time and planned for well in advance. You have kept to your own plan while friends chased quick gains, and you have rarely regretted it."
       }
     }
   },
@@ -102,6 +109,36 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

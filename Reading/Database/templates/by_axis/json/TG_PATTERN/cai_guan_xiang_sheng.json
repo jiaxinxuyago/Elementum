@@ -27,10 +27,10 @@
     ],
     "line": "Your wealth stars feed your officer star: diligence converts into title, resources into standing. You rise by being worth promoting. Negotiate rank as deliberately as you earn.",
     "reading": "A steady engine runs underneath: what you earn keeps converting into standing. Results banked become titles offered, and property and position reinforce each other through your middle decades. The one flaw is under-asking. Negotiate rank as deliberately as you earn it, and make sure someone senior sees the ledger.",
-    "fused_line": "In you the two are tightly bound, and you find every gain arguing quietly for your next title.",
+    "fused_line": "You keep money and rank at one gate, where each gain argues quietly for your next step up.",
     "domain_lines": {
-      "Career": "Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
-      "Wealth": "You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone."
+      "Career": "Underneath, you turn each result into standing, though you rarely ask for the title it has already earned you.",
+      "Wealth": "You also turn money into position, feeling richer when a gain comes with respect than when it comes alone."
     },
     "__ore": {
       "domains_round1_retired_2026-10-21": {
@@ -38,6 +38,11 @@
         "domain_lines.Career": "Your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
         "domain_lines.Wealth": "You turn money into position, and you feel richer when a gain comes with respect than when it comes alone.",
         "fused_line": "They share one gate in you, and you find every gain arguing quietly for your next title."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_lines.Career": "Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
+        "domain_lines.Wealth": "You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone.",
+        "fused_line": "In you the two are tightly bound, and you find every gain arguing quietly for your next title."
       }
     }
   },
@@ -69,6 +74,24 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": "They share one gate in you, and you find every gain arguing quietly for your next title."
+    },
+    {
+      "field": "domain_lines.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-TPL.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_lines.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-TPL.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-TPL.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

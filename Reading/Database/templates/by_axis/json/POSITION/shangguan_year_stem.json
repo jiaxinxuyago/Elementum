@@ -34,14 +34,14 @@
     "health_line": "Your nerves run bright and close to the surface: stimulation is food until it is poison. Learn your dose, and take silence like a vitamin.",
     "domain_climb": {
       "Social": {
-        "headline": "People remember you after one meeting.",
-        "recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it.",
-        "lived": "When you were a child, your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
+        "headline": "People quote you after one meeting.",
+        "recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. You keep the friends who enjoy your sharpness for years and lose interest in the ones who only tolerate it.",
+        "lived": "When you were a child, your remarks were the ones other people repeated, at home and in class. By your teens you had a few friends who loved your wit and one or two adults who had given up on correcting you."
       },
       "Mind": {
         "headline": "Your mind gets there first and gets bored first.",
-        "recognition": "You see the pattern before others have finished explaining it, and boredom reaches you long before the lesson ends. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and you drift when it has neither.",
-        "lived": "You finished the work early at school and went looking for something harder, or for trouble when nothing harder came. Before you left school you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were."
+        "recognition": "You spot the weak step in an argument at once, and you say so before the speaker has finished. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and it drifts when it has neither.",
+        "lived": "You finished the work early at school and went looking for something harder, or for trouble when nothing harder came. By your teens you were teaching yourself subjects well beyond your class and hiding how bored you were."
       }
     },
     "__ore": {
@@ -53,6 +53,13 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Social.lived": "As a child your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Social.headline": "People remember you after one meeting.",
+        "domain_climb.Social.recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it.",
+        "domain_climb.Social.lived": "When you were a child, your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you.",
+        "domain_climb.Mind.recognition": "You see the pattern before others have finished explaining it, and boredom reaches you long before the lesson ends. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and you drift when it has neither.",
+        "domain_climb.Mind.lived": "You finished the work early at school and went looking for something harder, or for trouble when nothing harder came. Before you left school you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were."
       }
     }
   },
@@ -112,6 +119,36 @@
       "finding": "DE:DE-021",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Social.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

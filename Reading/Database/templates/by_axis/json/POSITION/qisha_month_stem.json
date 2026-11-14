@@ -34,14 +34,16 @@
     "health_line": "Adrenaline is your working fuel and its own tax: decompress as professionally as you perform. The body honors the discipline it is shown.",
     "domain_climb": {
       "Career": {
-        "headline": "Your career rises fastest where the stakes are highest.",
-        "recognition": "You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers trust you with more than your title says, and the load keeps growing. You earn rank through pressure, and you rarely get a quiet week.",
-        "lived": "Your reputation at work has grown out of hard moments since your late teens, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week."
+        "headline": "Pressure is where your career is made.",
+        "recognition": "You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers hand you more than your position covers, and the load keeps growing. You are at your calmest when the stakes are highest, and a quiet week makes you restless.",
+        "lived": "Your reputation at work has grown out of hard moments since your late teens, the emergency handled or the project rescued. Your promotions have come out of the worst weeks, each one earned by the nerve you showed when a project was close to failing.",
+        "lived_past": "Through your Rising Chapter your reputation at work grew out of hard moments, the emergency handled or the project rescued. Your promotions came out of the worst weeks, each one earned by the nerve you showed when a project was close to failing."
       },
       "Social": {
-        "headline": "Your friends are people who have earned it.",
-        "recognition": "You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, you leave a party once you have talked to the people you came for, and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years.",
-        "lived": "Your closest friends since your late teens have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed."
+        "headline": "Your friendships are tested before they are trusted.",
+        "recognition": "You size up new people by how they act when something goes wrong, and you warm to anyone who keeps their nerve. Because you trust only what has been tested, light talk at a party feels like a waste of your evening. Your friendships are few and serious, and loyalty under strain is the one test you set.",
+        "lived": "Your closest friends since your late teens have been the people you worked hardest beside, in a tough job or a demanding team. You have come out of each hard stretch with an ally who answers your call at any hour.",
+        "lived_past": "In your Rising Chapter your closest friends were the people you worked hardest beside, in a tough job or a demanding team. You came out of each hard stretch with an ally who answered your call at any hour."
       }
     },
     "__ore": {
@@ -51,6 +53,14 @@
         "domain_climb.Career.lived": "Since your late teens your reputation at work has grown out of hard moments, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week.",
         "domain_climb.Social.recognition": "You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, casual company bores you and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years.",
         "domain_climb.Social.lived": "From your late teens your closest friends have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.headline": "Your career rises fastest where the stakes are highest.",
+        "domain_climb.Career.recognition": "You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers trust you with more than your title says, and the load keeps growing. You earn rank through pressure, and you rarely get a quiet week.",
+        "domain_climb.Career.lived": "Your reputation at work has grown out of hard moments since your late teens, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week.",
+        "domain_climb.Social.headline": "Your friends are people who have earned it.",
+        "domain_climb.Social.recognition": "You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, you leave a party once you have talked to the people you came for, and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years.",
+        "domain_climb.Social.lived": "Your closest friends since your late teens have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed."
       }
     }
   },
@@ -103,6 +113,54 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

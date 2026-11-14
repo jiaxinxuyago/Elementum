@@ -36,12 +36,14 @@
       "Career": {
         "headline": "You do your best work under real pressure.",
         "recognition": "You pick the job with the highest stakes and the tightest deadlines, and you are at your sharpest when it is going badly for everyone else. Because pressure is how you prove yourself to yourself, calm work leaves you flat and restless. What you build fastest is respect, and what you lose first is rest.",
-        "lived": "A calm post has left you uneasy since your late teens, as if you had not earned your place, and you have asked for the hard assignment instead. Each crisis you took on left you more trusted, and at least once you turned down an easier job with better hours."
+        "lived": "You have asked for the hard assignment since your late teens, the failing project or the client nobody else could handle. You have come out of each crisis more trusted, until the hardest work reaches you first.",
+        "lived_past": "From your late teens to your mid-thirties you asked for the hard assignment, the failing project or the client nobody else could handle. You came out of each crisis more trusted, until the hardest work reached you first."
       },
       "Health": {
         "headline": "Your body carries the cost of your pace.",
-        "recognition": "You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep as if it were part of the job. Your energy is deep, and you spend it faster than you replace it.",
-        "lived": "Through your first working years your body kept pace with demands that stopped most people around you. A hard season ended more than once with you worn out for weeks, and you recovered fully each time you gave yourself real rest."
+        "recognition": "You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep as if it were part of the job. Your energy runs deep, though you spend it faster than you replace it.",
+        "lived": "Since your late teens your body has kept pace with demands that stopped most people around you. Your hardest seasons have ended with you worn out for weeks, and each one has taught you to stop a little sooner.",
+        "lived_past": "In your twenties and early thirties your body kept pace with demands that stopped most people around you. Your hardest seasons ended with you worn out for weeks, and each one taught you to stop a little sooner."
       }
     },
     "__ore": {
@@ -51,6 +53,11 @@
         "domain_climb.Career.lived": "Since your late teens your progress at work has come through crises, the deadline nobody could meet or the team that was falling apart. Each hard stretch left you more trusted than before, and you have rarely chosen the comfortable post.",
         "domain_climb.Health.recognition": "You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep and a sore back as if they were part of the job. Your energy is deep, and you spend it faster than you replace it.",
         "domain_climb.Health.lived": "Since your late teens your body has kept up with demands that would have stopped most people. More than once a hard season ended with you worn out for weeks, and you came back stronger each time you gave yourself real rest."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.lived": "A calm post has left you uneasy since your late teens, as if you had not earned your place, and you have asked for the hard assignment instead. Each crisis you took on left you more trusted, and at least once you turned down an easier job with better hours.",
+        "domain_climb.Health.recognition": "You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep as if it were part of the job. Your energy is deep, and you spend it faster than you replace it.",
+        "domain_climb.Health.lived": "Through your first working years your body kept pace with demands that stopped most people around you. A hard season ended more than once with you worn out for weeks, and you recovered fully each time you gave yourself real rest."
       }
     }
   },
@@ -103,6 +110,36 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

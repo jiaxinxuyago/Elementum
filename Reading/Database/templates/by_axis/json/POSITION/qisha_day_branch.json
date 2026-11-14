@@ -34,16 +34,18 @@
     "health_line": "Your vitality tracks the household’s treaty status: peace restores you at double rate. Invest in it like the medicine it is.",
     "domain_climb": {
       "Love": {
-        "headline": "You love people strong enough to push back.",
-        "recognition": "You fall for people with force, the ones who argue their case and refuse to be managed. Because a gentle partner leaves you restless, you bring pressure into love without meaning to, and small disagreements grow into contests. What you want is a partner who matches your strength and turns it toward the world with you.",
-        "lived": "The partners who mattered most to you have been hard to move, with strong opinions and no wish to bend. At least once a relationship wore you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
-        "ahead": "Love asks more of you from your mid-thirties, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task."
+        "headline": "You love hardest when something is at stake.",
+        "recognition": "You trust a love that has come through something hard, and you feel closest to a partner in the weeks when everything is on the line. Because pressure is how you know a bond is real, you test a partner without meaning to whenever love runs easy. Your kind of partner has the nerve to stand beside you when it counts.",
+        "lived": "Your relationships so far have been tested hard, by heavy loads and bad stretches carried together, and the strain itself felt like closeness. From them, you have learned to tell a bond that bends under pressure from one that breaks.",
+        "ahead": "Love asks more of you from your mid-thirties, a shared load and the pressure of carrying it well. You come through these years closer to a partner when the two of you turn your strength to the same hard task.",
+        "lived_past": "In your late thirties and forties your relationships were tested hard, by heavy loads and bad stretches carried together, and the strain itself felt like closeness. From them, you learned to tell a bond that bent under pressure from one that broke."
       },
       "Health": {
-        "headline": "Your body carries whatever strain your home holds.",
-        "recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain goes into your appetite and your patience. You recover your strength within days once the house is calm again.",
-        "lived": "Your hardest seasons at home have also been your most tired ones, with broken sleep and short reserves. Each time a quarrel ended, you found your energy again faster than you expected.",
-        "ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are at your strongest in these years whenever the house is at peace, and every long quarrel costs you rest."
+        "headline": "Your body grows strong under hard tests.",
+        "recognition": "You feel best in the weeks your body is pushed hard, by training, by heavy work or by a goal with real stakes. Because you meet pressure by bracing against it, a long strain at home goes into your sleep before you admit it is there. You recover within days once the fight is over.",
+        "lived": "Your strongest stretches so far have been the hard ones, when home and work both tested you and you held up on nerve and short sleep. You have come out of each test tougher and with a clear sense of how much you can carry.",
+        "ahead": "From your mid-thirties a partner who pushes as hard as you do keeps you fit, and a house full of fights wears you out. You are at your strongest in these years whenever the two of you pull in the same direction.",
+        "lived_past": "In your late thirties and forties your strongest stretches were the hard ones, when home and work both tested you and you held up on nerve and short sleep. You came out of each test tougher and with a clear sense of how much you could carry."
       }
     },
     "__ore": {
@@ -55,6 +57,16 @@
         "domain_climb.Health.recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain settles in your shoulders and your appetite. Your strength comes back quickly once the house is calm again.",
         "domain_climb.Health.lived": "So far your hardest seasons at home have also been your most tired ones, with broken sleep and a stiff back. Each time a quarrel ended, you got your energy back faster than you expected.",
         "domain_climb.Health.ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are stronger in these years than in your twenties whenever the house is at peace, and every long quarrel costs you rest."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Love.headline": "You love people strong enough to push back.",
+        "domain_climb.Love.recognition": "You fall for people with force, the ones who argue their case and refuse to be managed. Because a gentle partner leaves you restless, you bring pressure into love without meaning to, and small disagreements grow into contests. What you want is a partner who matches your strength and turns it toward the world with you.",
+        "domain_climb.Love.lived": "The partners who mattered most to you have been hard to move, with strong opinions and no wish to bend. At least once a relationship wore you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
+        "domain_climb.Love.ahead": "Love asks more of you from your mid-thirties, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task.",
+        "domain_climb.Health.headline": "Your body carries whatever strain your home holds.",
+        "domain_climb.Health.recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain goes into your appetite and your patience. You recover your strength within days once the house is calm again.",
+        "domain_climb.Health.lived": "Your hardest seasons at home have also been your most tired ones, with broken sleep and short reserves. Each time a quarrel ended, you found your energy again faster than you expected.",
+        "domain_climb.Health.ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are at your strongest in these years whenever the house is at peace, and every long quarrel costs you rest."
       }
     }
   },
@@ -107,6 +119,66 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Love.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

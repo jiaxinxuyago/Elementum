@@ -32,18 +32,18 @@
 | `family_element.appetite` | brilliance, invention, and expression that bends the rules |
 | `family_element.notAlone` | not talent alone, but everything you shape and send outward |
 | `ruling_domains` | Mind · Career · Social |
-| `decade_lines.Social.helping.ahead` | You become more outspoken in these years, and the people who like it like it a great deal. You gather an audience of your own, and you lose patience with company that asks you to be quieter. |
-| `decade_lines.Social.helping.lived` | In company you were the lively one in those years, quick with a joke and a sharp opinion. People sought you out for your wit, and you enjoyed being heard. |
-| `decade_lines.Social.heavy.lived` | Things you said aloud cost you friends in those years, and more than one group left you out afterwards. You kept the people who liked your honesty, and those few saw you through. |
-| `decade_lines.Social.heavy.ahead` | Bluntness strains your friendships in these years, and some people take offence at what you meant as wit. The friends who stay value your candour, and you find them worth more than a wide circle. |
-| `decade_lines.Mind.helping.ahead` | You turn your thinking outward in these years, and you say in public what you used to keep to yourself. You are quicker and bolder with ideas than at any time before. |
-| `decade_lines.Mind.helping.lived` | Ideas came fast in those years, and you spoke them aloud with confidence. You were quicker than the people around you, and you enjoyed proving it in argument. |
-| `decade_lines.Mind.heavy.lived` | Restless thinking ran through those years, and you argued with most ideas that came from above. Your mind rarely settled, and what carried you was one project worth all that energy. |
-| `decade_lines.Mind.heavy.ahead` | You argue with more of what you are told in these years, and every rule you meet feels like a challenge. One piece of work big enough to take all that argument carries you through, and you are calmest on the days you finish something. |
-| `decade_lines.Career.helping.lived` | Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who chose you wanted exactly that. |
-| `decade_lines.Career.helping.ahead` | Original work brings you recognition in these ten years. You win people over by doing what others will not, and your reputation grows on your own terms. |
-| `decade_lines.Career.heavy.lived` | Clashes with the people in charge marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next chance each time. |
-| `decade_lines.Career.heavy.ahead` | Authority pushes back on you in these years, and a frank remark costs more than it used to. Work that is yours alone carries you through, and you do better outside a strict chain of command. |
+| `decade_lines.Social.helping.ahead` | You become more outspoken, and the people who enjoy a sharp voice seek you out. You gather an audience of your own and lose patience with company that asks you to be quieter. |
+| `decade_lines.Social.helping.lived` | In company you were the lively one, quick with a joke and a sharp opinion. You were sought out for your wit and loved being heard. |
+| `decade_lines.Social.heavy.lived` | Things you said aloud cost you friends, and groups closed ranks after you spoke your mind. Your people turned out to be the ones who wanted the sharp voice, who laughed where others took offence. |
+| `decade_lines.Social.heavy.ahead` | Bluntness strains your friendships, and some people hear an attack where you meant wit. You will steady yourself by giving that edge a stage, a talk or a page where sharpness is the point. |
+| `decade_lines.Mind.helping.ahead` | You turn your thinking outward, and you say in public what you used to keep to yourself. You are quicker and bolder with ideas than at any time before. |
+| `decade_lines.Mind.helping.lived` | Ideas came fast, and you spoke them aloud with confidence. Quicker than most people in the conversation, you enjoyed proving it in argument. |
+| `decade_lines.Mind.heavy.lived` | Restless thinking ran through everything, and you argued with most ideas that came from above. Your mind rarely settled until one project gave all that argument somewhere to go. |
+| `decade_lines.Mind.heavy.ahead` | You argue with more of what you are told, and every rule you meet reads like a dare. You are calmest on the days you finish something sharp enough to show. |
+| `decade_lines.Career.helping.lived` | Talent made your name, through work that broke with how things had always been done. You stood out for being different, and the people who chose you wanted exactly that. |
+| `decade_lines.Career.helping.ahead` | Original work brings you recognition, and your voice carries further than before. You win people over by saying what others will not and build a name on your own terms. |
+| `decade_lines.Career.heavy.lived` | Clashes with the people in charge ran through your work, because you said aloud what others kept quiet. You lost favour with every blunt word and found the next post on the strength of your skill. |
+| `decade_lines.Career.heavy.ahead` | Authority pushes back on you, and a frank remark costs more than it used to. You do better outside a strict chain of command, where work in your own voice carries you through. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -91,3 +91,15 @@
 | `domains_round1_retired_2026-10-21.decade_lines.Career.helping.lived` | Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who hired you wanted exactly that. |
 | `domains_round1_retired_2026-10-21.decade_lines.Career.helping.ahead` | Original work brings you recognition in these ten years. You win clients and audiences by doing what others will not, and your reputation grows on your own terms. |
 | `domains_round1_retired_2026-10-21.decade_lines.Career.heavy.lived` | Clashes with bosses marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next job each time. |
+| `retired_2026-11-14_rulings_round.decade_lines.Career.helping.lived` | Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who chose you wanted exactly that. |
+| `retired_2026-11-14_rulings_round.decade_lines.Career.helping.ahead` | Original work brings you recognition in these ten years. You win people over by doing what others will not, and your reputation grows on your own terms. |
+| `retired_2026-11-14_rulings_round.decade_lines.Career.heavy.lived` | Clashes with the people in charge marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next chance each time. |
+| `retired_2026-11-14_rulings_round.decade_lines.Career.heavy.ahead` | Authority pushes back on you in these years, and a frank remark costs more than it used to. Work that is yours alone carries you through, and you do better outside a strict chain of command. |
+| `retired_2026-11-14_rulings_round.decade_lines.Social.helping.ahead` | You become more outspoken in these years, and the people who like it like it a great deal. You gather an audience of your own, and you lose patience with company that asks you to be quieter. |
+| `retired_2026-11-14_rulings_round.decade_lines.Social.helping.lived` | In company you were the lively one in those years, quick with a joke and a sharp opinion. People sought you out for your wit, and you enjoyed being heard. |
+| `retired_2026-11-14_rulings_round.decade_lines.Social.heavy.lived` | Things you said aloud cost you friends in those years, and more than one group left you out afterwards. You kept the people who liked your honesty, and those few saw you through. |
+| `retired_2026-11-14_rulings_round.decade_lines.Social.heavy.ahead` | Bluntness strains your friendships in these years, and some people take offence at what you meant as wit. The friends who stay value your candour, and you find them worth more than a wide circle. |
+| `retired_2026-11-14_rulings_round.decade_lines.Mind.helping.ahead` | You turn your thinking outward in these years, and you say in public what you used to keep to yourself. You are quicker and bolder with ideas than at any time before. |
+| `retired_2026-11-14_rulings_round.decade_lines.Mind.helping.lived` | Ideas came fast in those years, and you spoke them aloud with confidence. You were quicker than the people around you, and you enjoyed proving it in argument. |
+| `retired_2026-11-14_rulings_round.decade_lines.Mind.heavy.lived` | Restless thinking ran through those years, and you argued with most ideas that came from above. Your mind rarely settled, and what carried you was one project worth all that energy. |
+| `retired_2026-11-14_rulings_round.decade_lines.Mind.heavy.ahead` | You argue with more of what you are told in these years, and every rule you meet feels like a challenge. One piece of work big enough to take all that argument carries you through, and you are calmest on the days you finish something. |

@@ -37,21 +37,24 @@
     "domain_climb": {
       "Love": {
         "headline": "You fall for people who widen your life.",
-        "recognition": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
-        "lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.",
-        "ahead": "Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
+        "recognition": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and anyone who shuts it out leaves you restless.",
+        "lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. With each of them, you have stayed a little longer for the life around them than for the person.",
+        "ahead": "From your mid-thirties love and money start to move together. You choose a partner in these years who brings an opening into your life, and the bond holds for as long as the two of you keep heading somewhere new.",
+        "lived_past": "In your late thirties and forties the partners you chose each came with a world attached, a circle of friends or a plan to move or a family that took you in. With each of them, you stayed a little longer for the life around them than for the person."
       },
       "Social": {
         "headline": "Your friends come with plans.",
         "recognition": "You collect friends who are going somewhere, the ones with a trip planned and a contact for everything. Because range is what draws you, you lose touch with friends whose lives stay small, and you feel guilty about it only later. You know a great many people, and you let only a few of them close.",
-        "lived": "Most of your friendships have started with an introduction or an invitation, someone who brought you into their circle. You have kept some of those circles longer than you kept the people who brought you in.",
-        "ahead": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape these years through someone you share a home with."
+        "lived": "Most of your friendships so far have begun as an invitation into someone else's circle, on a trip or after a move to a new place. You have kept some of those circles longer than you kept the people who brought you in.",
+        "ahead": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. In your forties you know more people through a partner's side than through your own.",
+        "lived_past": "In your late thirties and forties most of your friendships began as an invitation into someone else's circle, on a trip or after a move to a new place. You kept some of those circles longer than you kept the people who brought you in."
       },
       "Wealth": {
         "headline": "Your money comes through the people close to you.",
         "recognition": "You find money through other people, in a tip from a friend or a side venture with someone close. Because your openings arrive through people you trust, you say yes before you read the terms, and you earn in bursts more than in a steady line. The money you make fastest is the money you hold on to least.",
-        "lived": "Your best money moments so far came through someone else, a tip or a job offer or a deal brought to you by a friend. You lost money the same way, by saying yes before you had read the terms.",
-        "ahead": "From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you keep only what has both names written down."
+        "lived": "Your best money moments so far came through someone else, a tip or a job offer or a deal brought to you by a friend. You lost money the same way, on ventures you joined on trust, yet the net of people who bring you chances has only widened.",
+        "ahead": "From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you see the part with no clear owner slip away.",
+        "lived_past": "In your late thirties and forties your best money came through someone else, a tip or a job offer or a deal a friend brought you. You lost money the same way, on ventures you joined on trust, yet the net of people who brought you chances only widened."
       }
     },
     "__ore": {
@@ -66,6 +69,15 @@
         "domain_climb.Love.recognition": "In love you fall for people who widen your life, the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
         "domain_climb.Social.ahead": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape your next twenty years through someone you share a home with.",
         "domain_climb.Love.ahead": "Your Home Chapter opens in your mid-thirties, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Love.recognition": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
+        "domain_climb.Love.lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.",
+        "domain_climb.Love.ahead": "Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together.",
+        "domain_climb.Social.lived": "Most of your friendships have started with an introduction or an invitation, someone who brought you into their circle. You have kept some of those circles longer than you kept the people who brought you in.",
+        "domain_climb.Social.ahead": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape these years through someone you share a home with.",
+        "domain_climb.Wealth.lived": "Your best money moments so far came through someone else, a tip or a job offer or a deal brought to you by a friend. You lost money the same way, by saying yes before you had read the terms.",
+        "domain_climb.Wealth.ahead": "From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you keep only what has both names written down."
       }
     }
   },
@@ -153,6 +165,66 @@
       "finding": "G1:DB:DB-036",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Love.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

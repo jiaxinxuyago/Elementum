@@ -34,9 +34,9 @@
     "health_line": "Your constitution runs on comfort honestly taken: regular meals, real rest, pleasure without guilt. Feed it on schedule and it forgives almost everything else.",
     "domain_climb": {
       "Family": {
-        "headline": "You were fed well, and you became the one who feeds.",
+        "headline": "Fed well as a child, you now feed everyone else.",
         "recognition": "You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it.",
-        "lived": "Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
+        "lived": "In your first home an older relative made comfort a daily thing, giving food and warmth before anyone thought to ask. You still judge a home by how it feels to walk into, a measure those first years set in you for good."
       },
       "Health": {
         "headline": "Your body trusts food and rest to put it right.",
@@ -51,6 +51,10 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Family.lived": "Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Family.headline": "You were fed well, and you became the one who feeds.",
+        "domain_climb.Family.lived": "Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
       }
     }
   },
@@ -110,6 +114,18 @@
       "finding": "G1:DA:DA-019",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Family.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

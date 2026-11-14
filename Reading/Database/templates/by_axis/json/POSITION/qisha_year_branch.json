@@ -36,19 +36,19 @@
     "health_line": "Your reserves are deep and privately spent: exhaustion arrives without warning signs you honor. Install the warning signs, then honor them.",
     "domain_climb": {
       "Family": {
-        "headline": "You carried more at home than anyone knew.",
-        "recognition": "At home you protect your family closely, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. Your family relies on your strength, and few of them know what it cost you to build.",
-        "lived": "In your first home you carried a weight few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself."
+        "headline": "You carry more for your family than anyone knows.",
+        "recognition": "At home you fight your family's battles, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. You are the strength your family leans on, though you have told few of them what it took to build.",
+        "lived": "Through your first years at home you carried a weight few people saw, hard stretches and heavy demands and worries beyond your age. By your teens you were the one your family turned to in a hard week, holding firm without being asked."
       },
       "Growth": {
         "headline": "Hard years are the ones that grow you.",
-        "recognition": "You grow when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst.",
+        "recognition": "You grow when life is hard, and you lose direction when it gets too easy. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in stretches other people would call their worst.",
         "lived": "Each hard year of your childhood left you more capable than the one before, at school or at home or in a sport. You came to trust difficulty more than ease, and by your teens you went looking for it."
       },
       "Health": {
         "headline": "Your body is strong and holds its strain.",
-        "recognition": "Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it shows in short sleep and a short temper. You recover well once you finally rest, and you rarely rest early enough.",
-        "lived": "You were a tough child, slow to complain and quick to hide a bad night from the adults. Your reserves got you through hard weeks most children did not have to face, and you learned early to run on them."
+        "recognition": "Your body keeps pushing under strain, long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it shows in short sleep and a short temper. You recover well once you finally stop, and the stop comes late every time.",
+        "lived": "In your first years you were hardy, slow to complain and the last to quit a tough game. Your nerve carried you through hard weeks most children never faced, long before you were fifteen."
       }
     },
     "__ore": {
@@ -64,6 +64,14 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Growth.recognition": "You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Family.headline": "You carried more at home than anyone knew.",
+        "domain_climb.Family.recognition": "At home you protect your family closely, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. Your family relies on your strength, and few of them know what it cost you to build.",
+        "domain_climb.Family.lived": "In your first home you carried a weight few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself.",
+        "domain_climb.Growth.recognition": "You grow when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst.",
+        "domain_climb.Health.recognition": "Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it shows in short sleep and a short temper. You recover well once you finally rest, and you rarely rest early enough.",
+        "domain_climb.Health.lived": "You were a tough child, slow to complain and quick to hide a bad night from the adults. Your reserves got you through hard weeks most children did not have to face, and you learned early to run on them."
       }
     }
   },
@@ -137,6 +145,42 @@
       "finding": "DD:DD-034",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Family.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

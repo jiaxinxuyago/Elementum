@@ -37,13 +37,13 @@
         "headline": "Your money gets steadier every decade.",
         "recognition": "You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it.",
         "lived": "Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention.",
-        "ahead": "Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough."
+        "ahead": "The slow years of saving start paying you back in your late forties, and money stops being something you check every week. You spend on the people you love without a second look at the budget, because the budget has held for decades."
       },
       "Family": {
         "headline": "You end up as the one who provides.",
-        "recognition": "You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early.",
-        "lived": "You have become your family's provider since your late forties, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard.",
-        "ahead": "From your late forties your family leans on what you have built, and you give it calmly. You become the relative everyone trusts with arrangements, and you will find yourself saying out loud some of what your money already says."
+        "recognition": "You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you would rather pay for something than talk about it. You want everyone who comes after you to be safe, and you plan for it years early.",
+        "lived": "You have covered the gaps in your family since your late forties, paying the fees and the deposits before anyone had to ask. You have earned the family's trust one settled bill at a time.",
+        "ahead": "From your late forties your family leans on what you have saved, and you give it calmly. You become the relative everyone trusts with arrangements, saying in words at last some of what your money already says."
       }
     },
     "__ore": {
@@ -54,6 +54,12 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Wealth.ahead": "Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Wealth.ahead": "Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough.",
+        "domain_climb.Family.recognition": "You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early.",
+        "domain_climb.Family.lived": "You have become your family's provider since your late forties, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard.",
+        "domain_climb.Family.ahead": "From your late forties your family leans on what you have built, and you give it calmly. You become the relative everyone trusts with arrangements, and you will find yourself saying out loud some of what your money already says."
       }
     }
   },
@@ -113,6 +119,30 @@
       "finding": "G1:DB:DB-029",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Wealth.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

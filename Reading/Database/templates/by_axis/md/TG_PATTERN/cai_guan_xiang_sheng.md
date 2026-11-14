@@ -25,9 +25,9 @@
 | `target_domains` | Career · Wealth |
 | `line` | Your wealth stars feed your officer star: diligence converts into title, resources into standing. You rise by being worth promoting. Negotiate rank as deliberately as you earn. |
 | `reading` | A steady engine runs underneath: what you earn keeps converting into standing. Results banked become titles offered, and property and position reinforce each other through your middle decades. The one flaw is under-asking. Negotiate rank as deliberately as you earn it, and make sure someone senior sees the ledger. |
-| `fused_line` | In you the two are tightly bound, and you find every gain arguing quietly for your next title. |
-| `domain_lines.Career` | Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned. |
-| `domain_lines.Wealth` | You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone. |
+| `fused_line` | You keep money and rank at one gate, where each gain argues quietly for your next step up. |
+| `domain_lines.Career` | Underneath, you turn each result into standing, though you rarely ask for the title it has already earned you. |
+| `domain_lines.Wealth` | You also turn money into position, feeling richer when a gain comes with respect than when it comes alone. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -37,3 +37,6 @@
 | `domains_round1_retired_2026-10-21.domain_lines.Career` | Your earnings keep turning into standing, and you rarely ask for the title your results have already earned. |
 | `domains_round1_retired_2026-10-21.domain_lines.Wealth` | You turn money into position, and you feel richer when a gain comes with respect than when it comes alone. |
 | `domains_round1_retired_2026-10-21.fused_line` | They share one gate in you, and you find every gain arguing quietly for your next title. |
+| `retired_2026-11-14_rulings_round.domain_lines.Career` | Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned. |
+| `retired_2026-11-14_rulings_round.domain_lines.Wealth` | You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone. |
+| `retired_2026-11-14_rulings_round.fused_line` | In you the two are tightly bound, and you find every gain arguing quietly for your next title. |

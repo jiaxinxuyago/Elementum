@@ -34,11 +34,11 @@
 | `turn_friction` | Run heavy, the watching replaces the joining: life observed from the doorway. Enter one gathering fully, coat off. |
 | `shadow_line` | Overloaded, difference becomes the fortress: understood by few, approached by fewer. |
 | `health_line` | Your system runs sensitive and private: it registers what others miss and depletes from what others enjoy. Honor the early exits. They are maintenance. |
-| `domain_climb.Mind.headline` | Your mind has always worked at an angle. |
-| `domain_climb.Mind.recognition` | You come at problems from an unexpected direction, and people notice the answer before they understand the route. Because your mind took its own path from the start, you get bored by the obvious approach and drift toward the strange one. Your way of thinking is the first thing people remember about you. |
-| `domain_climb.Mind.lived` | As a child you learned in a way teachers struggled to mark, reaching the right answer by a route nobody had taught. By your teens you were known for it, as the clever one or the odd one, and you were both. |
-| `domain_climb.Social.headline` | You choose a small circle and keep it close. |
-| `domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. Only a few people know you well, and you chose it that way. |
+| `domain_climb.Mind.headline` | Your mind works at an angle. |
+| `domain_climb.Mind.recognition` | You come at problems from an unexpected direction, and the strange angle is the one you take. Because your mind took its own path from the start, a private hunch carries more weight with you than the method everyone else was taught. You trust your mind most when nobody else agrees with it. |
+| `domain_climb.Mind.lived` | As a child you reached the right answer by routes nobody had shown you, working things out alone with a book or a puzzle. By your teens you were known as the clever one or the odd one, and both were true. |
+| `domain_climb.Social.headline` | You keep your friends few and your inner life private. |
+| `domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you secrets they tell nobody else. You choose friends for how they think, and one shared odd interest outweighs years of small talk. |
 | `domain_climb.Social.lived` | Other children took a while to warm to you, because you stood at the edge of each group for a long time before you joined it. By your teens you had one or two close friends who understood you, and they were enough for you. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -50,3 +50,8 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. You find parties tiring and long talks restoring. |
 | `domains_round1_retired_2026-10-21.domain_climb.Social.lived` | As a child you stood at the edge of groups for a long time, and other children took a while to warm to you. By your teens you had one or two close friends who understood you, and you needed nobody else. |
 | `retired_2026-10-21_section_audit.domain_climb.Social.lived` | Other children took a while to warm to you as a child, because you stood at the edge of groups for a long time first. By your teens you had one or two close friends who understood you, and they were enough for you. |
+| `retired_2026-11-14_rulings_round.domain_climb.Mind.headline` | Your mind has always worked at an angle. |
+| `retired_2026-11-14_rulings_round.domain_climb.Mind.recognition` | You come at problems from an unexpected direction, and people notice the answer before they understand the route. Because your mind took its own path from the start, you get bored by the obvious approach and drift toward the strange one. Your way of thinking is the first thing people remember about you. |
+| `retired_2026-11-14_rulings_round.domain_climb.Mind.lived` | As a child you learned in a way teachers struggled to mark, reaching the right answer by a route nobody had taught. By your teens you were known for it, as the clever one or the odd one, and you were both. |
+| `retired_2026-11-14_rulings_round.domain_climb.Social.headline` | You choose a small circle and keep it close. |
+| `retired_2026-11-14_rulings_round.domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. Only a few people know you well, and you chose it that way. |

@@ -11,35 +11,35 @@
 | Field | Value |
 |---|---|
 | `Career` | Underneath, you do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands. |
-| `Health` | Comfort is what protects you, because good food and work with your hands turn pressure into something you can use. |
+| `Health` | You find your protection in comfort, because good food and work with your hands turn pressure into something you can use. |
 
 ### The Virtuoso harnessed by the Sage · 伤官配印
 
 | Field | Value |
 |---|---|
-| `Career` | Your boldest ideas and your patience for study also feed each other, and you grow braver in public with every qualification you earn. |
-| `Mind` | You also learn best when you can show what you learn, and you turn every course you finish into something you can say out loud. |
+| `Career` | Your boldest ideas and your patience for study also feed each other, with every qualification you earn making you braver in public. |
+| `Mind` | You also learn best when you can show what you learn, turning every course you finish into something you can say out loud. |
 
 ### The Alchemist starves the Artisan · 枭神夺食
 
 | Field | Value |
 |---|---|
-| `Mind` | You also think so long about a thing that you miss the moment to make it, and you keep a drawer of nearly finished work. |
+| `Mind` | You also think so long about a thing that you miss the moment to make it, keeping a drawer of nearly finished work. |
 | `Career` | You also polish your work in private until the moment to show it has passed, and you lose more chances by not finishing than by failing. |
-| `Health` | In your heaviest thinking seasons you also forget to eat and sleep properly, and your body tells you before your mind admits it. |
+| `Health` | You also forget to eat and sleep properly in your heaviest thinking seasons, with your body telling you before your mind admits it. |
 
 ### The Virtuoso confronts the Magistrate · 伤官见官
 
 | Field | Value |
 |---|---|
-| `Career` | You also keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest. |
+| `Career` | You also keep correcting the very structures you climb, doing your brightest work wherever the rules are loosest. |
 
 ### Pressure feeds the Sage · 杀印相生
 
 | Field | Value |
 |---|---|
 | `Career` | Underneath, you come out of every hard stretch at work more senior than you went in, and the pattern grows stronger with age. |
-| `Growth` | Underneath, you grow most through the years that weigh on you, and you have left every heavy stretch more skilled than you entered it. |
+| `Growth` | Underneath, you answer the years that weigh on you with study and the people who steady you, ending every heavy stretch more sure of who you are. |
 | `Mind` | Underneath, you turn pressure into understanding, and the hardest years of your life are the ones that taught you how to think. |
 
 ### The peers contest the purse · 比劫夺财
@@ -52,19 +52,19 @@
 
 | Field | Value |
 |---|---|
-| `Wealth` | What you make turns into money more easily for you than for most, and you earn most from the work that feels like play. |
-| `Career` | You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing. |
+| `Wealth` | What you make turns into money more easily for you than for most, and the work that feels like play is the work that pays you best. |
+| `Career` | You also rise by making more rather than by climbing, as each piece of work you finish brings the next one to your door. |
 
 ### Wealth underwrites rank · 财官相生
 
 | Field | Value |
 |---|---|
-| `Career` | Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned. |
-| `Wealth` | You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone. |
+| `Career` | Underneath, you turn each result into standing, though you rarely ask for the title it has already earned you. |
+| `Wealth` | You also turn money into position, feeling richer when a gain comes with respect than when it comes alone. |
 
 ### Rank shelters the scholar · 官印相生
 
 | Field | Value |
 |---|---|
-| `Career` | You also find your mentors inside the structures you join, and your name gathers weight the slow and lasting way. |
-| `Mind` | You also learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended. |
+| `Career` | You also find your mentors inside the structures you join, where your name gathers weight the slow and lasting way. |
+| `Mind` | You also learn well inside a frame like a school or a discipline, studying on long after the course has ended. |

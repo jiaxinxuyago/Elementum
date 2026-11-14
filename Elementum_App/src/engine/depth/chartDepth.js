@@ -131,11 +131,11 @@ export function stateV2(key, chart, { hourUnknown = false, strength = null } = {
   switch (key) {
     case '正官':
       if (has('伤官')) return has(...SEAL) ? r('formed', 'cured', null, null, '官逢伤而透印以解之') : soften(r('broken', 'virtuoso', 'seal', SEAL, '官逢伤克'), ['伤官']);
-      if (has('七杀')) return has('食神') ? r('formed', 'cured', null, null, '杂煞而制煞以清之') : r('strained', 'mixed', weak ? 'seal' : 'output', weak ? SEAL : ['食神'], '官杀混杂');
+      if (has('七杀')) return has('食神') || (weak && has(...SEAL)) ? r('formed', 'cured', null, null, '杂煞而制煞以清之 / 官杀化印') : r('strained', 'mixed', weak ? 'seal' : 'output', weak ? SEAL : ['食神'], '官杀混杂');
       if (weak && !has(...SEAL)) return r('strained', 'heavy', 'seal', SEAL, '官重身轻，用印');
       return r('formed', 'none', null, null, '官逢财印');
     case '七杀':
-      if (has('正官')) return has('食神') || (weak && has(...SEAL)) ? r('formed', 'cured', null, null, '去官留杀 / 官杀化印') : r('strained', 'mixed', weak ? 'seal' : 'output', weak ? SEAL : ['食神'], '官杀混杂');
+      if (has('正官')) return has(...OUT) || (weak && has(...SEAL)) ? r('formed', 'cured', null, null, '去官留杀 (伤官) / 食神制杀 / 官杀化印') : r('strained', 'mixed', weak ? 'seal' : 'output', weak ? SEAL : OUT, '官杀混杂');
       if (!has(...OUT) && !has(...SEAL)) return has(...WEALTH) ? soften(r('broken', 'money', weak ? 'seal' : 'output', weak ? SEAL : ['食神'], '七杀逢财无制'), WEALTH)
         : weak ? r('broken', 'unchecked', 'seal', SEAL, '杀重身轻，无制无化') : r('strained', 'unchecked', 'output', ['食神'], '七杀无制');
       if (weak && !has(...SEAL)) return r('strained', 'heavy', 'seal', SEAL, '杀重身轻，以印化杀');
@@ -144,7 +144,7 @@ export function stateV2(key, chart, { hourUnknown = false, strength = null } = {
     case '正财': case '偏财':
       if (weak) return has(...SEAL) || has(...PEER) ? r('formed', 'cured', null, null, '财格佩印 / 比劫帮身') : r('strained', 'heavywealth', 'seal', SEAL, '财多身弱');
       if (has(...PEER)) return has(...OFF) || has(...OUT) ? r('formed', 'cured', null, null, '财逢劫而透食以化之，生官以制之') : soften(r(strong ? 'broken' : 'strained', 'peers', 'officer', OFF, '财轻比重'), PEER);
-      if (has('七杀')) return has('食神') ? r('formed', 'cured', null, null, '财逢杀而食神制杀以生财') : r('strained', 'general', 'output', ['食神'], '财透七杀');
+      if (has('七杀')) return has(...OUT) ? r('formed', 'cured', null, null, '财逢杀而食神制杀以生财 / 伤官驾杀') : r('strained', 'general', 'output', OUT, '财透七杀');
       return r('formed', 'none', null, null, '财旺生官 / 财逢食生而身强');
     case '正印': case '偏印':
       if (strong && !has(...WEALTH) && !has(...OUT)) return r('strained', 'excess', 'wealth', WEALTH, '印重身强，透财以抑太过');
@@ -166,10 +166,10 @@ export function stateV2(key, chart, { hourUnknown = false, strength = null } = {
       if (weak && !has(...SEAL) && !has(...PEER)) return r('strained', 'drained', 'seal', SEAL, '伤官泄身太过');
       return r('formed', 'none', null, null, '伤官生财 / 伤官佩印');
     }
-    case '建禄': case '月劫':
-      if (has('正官')) return r('formed', 'none', null, null, '透官而逢财印');
-      if (has('七杀')) return has(...OUT) ? r('formed', 'none', null, null, '透煞而遇制') : r('strained', 'unchecked', 'output', ['食神'], '透煞而无制');
-      if (has(...WEALTH) || has(...OUT)) return r('formed', 'none', null, null, '透财而逢食伤');
+    case '建禄': case '月劫': // 子平真诠 论建禄月劫: the self structures take their use from what shows on a stem (透官 / 透财 / 透煞)
+      if (shows('正官')) return r('formed', 'none', null, null, '透官而逢财印');
+      if (shows('七杀')) return has(...OUT) ? r('formed', 'none', null, null, '透煞而遇制') : r('strained', 'unchecked', 'output', ['食神'], '透煞而无制');
+      if (has(...WEALTH) || has(...OUT) || has(...OFF)) return r('formed', 'none', null, null, '透财而逢食伤 / 官杀在支');
       return r('strained', 'idle', 'officer', OFF, '无财官');
     case '月刃':
       if (has(...OFF)) return r('formed', 'none', null, null, '阳刃用官杀');

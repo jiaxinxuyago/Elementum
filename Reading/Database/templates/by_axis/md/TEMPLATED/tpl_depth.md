@@ -16,109 +16,109 @@
 
 | Variable | Value |
 |---|---|
-| `units.GOD bijian · missing` | Your chart has no Twin, and nobody inside it stands level with you or carries half the load. You find your footing through other people, a team or a close friend, and you stand firmest when someone stands beside you. |
-| `units.GOD bijian · season_need.hidden` | The Twin your season asks for rests deep in your chart, and you find your feet late, when a hard stretch leaves nobody else to lean on. |
-| `units.GOD bijian · season_need.rooted` | Your season asks for the Twin and your chart holds it out of sight, and you draw on a steady faith in yourself that nobody else sees. |
-| `units.GOD bijian · season_need.shown` | The Twin your season asks for stands in plain view, and you hold your ground openly among equals. |
-| `units.GOD bijian · seen.inside` | In private you want to answer to nobody, and you would rather finish a job alone than wait for a hand. |
+| `units.GOD bijian · missing` | Going it alone is never your first move. With a team or a close friend beside you, you find your footing faster and hold it longer. |
+| `units.GOD bijian · season_need.hidden` | You hold the Twin only as a trace in the depths of a branch, a thin seam of your own element that keeps a heavy season from outweighing you. |
+| `units.GOD bijian · season_need.rooted` | Your own element runs through one branch as its main stem, and the Twin there braces you against a season that gives you little of it. |
+| `units.GOD bijian · season_need.shown` | You hold the Twin in plain view on a stem, where it adds more of your own element to a season that runs short of it. |
+| `units.GOD bijian · seen.inside` | In private you want to answer to nobody and would rather finish a job alone than wait for a hand. |
 | `units.GOD bijian · seen.plain` | You come across as someone who carries their own weight and asks for little help. |
-| `units.GOD bijian · year_domain.Family` | Siblings and cousins of your own age weigh in on family matters this year, and you settle home decisions between equals. |
-| `units.GOD bijian · year_domain.Growth` | Working alongside equals shows you your own shape this year, and you lean less on anyone's approval and more on your own judgement. |
-| `units.GOD bijian · year_domain.Social` | Friends meet you as peers this year, and you spend more time with people who do what you do than with those who look up to you. |
+| `units.GOD bijian · year_domain.Family` | With siblings and cousins weighing in, you settle family matters this year between equals of your own age. |
+| `units.GOD bijian · year_domain.Growth` | This year you see your own shape by working alongside equals, leaning less on anyone's approval and more on your own judgement. |
+| `units.GOD bijian · year_domain.Social` | Among friends this year, you spend more time with peers who do what you do than with anyone who looks up to you. |
 | `units.GOD bijian · year_line.heavy` | Your life fills with equals, a new colleague or a friend who wants exactly what you want. You compete more than you admit, and you come out of it more set in your own way. |
-| `units.GOD jiecai · missing` | No Rival sits anywhere in your chart, and no one in it fights you for your share or dares you to win. You keep what you earn without a contest, and you meet real competition only when a colleague wants the same post. |
-| `units.GOD jiecai · season_need.hidden` | The Rival your season asks for lies buried far down, and you show your fighting nerve only when someone reaches for what is yours. |
-| `units.GOD jiecai · season_need.rooted` | You carry the Rival your season asks for out of view, and you push yourself against the people around you without ever calling it a race. |
-| `units.GOD jiecai · season_need.shown` | Your season asks for the Rival and your chart shows it plainly, and you compete openly with friends who push you to win. |
+| `units.GOD jiecai · missing` | Winning for its own sake leaves you cold, and you rarely line yourself up against friends. When a colleague wants the same post, you find out how much you want it. |
+| `units.GOD jiecai · season_need.hidden` | Your chart buries the Rival in the lowest layer of a branch, a sliver of your element's other half that still answers a season with almost none. |
+| `units.GOD jiecai · season_need.rooted` | You hold the Rival as the chief stem inside a branch, where it banks your element in its second form for a season that comes up short. |
+| `units.GOD jiecai · season_need.shown` | Your chart sets the Rival on a stem for anyone to see, bringing your own element in its other form to a season that leans against you. |
 | `units.GOD jiecai · seen.inside` | You keep score with the people closest to you, and you want to win more than you let on. |
-| `units.GOD jiecai · seen.plain` | You come across as bold and openhanded, quick to share what you have and quicker to race for more. |
-| `units.GOD jiecai · year_domain.Career` | A colleague or partner reaches for the same credit this year, and you keep your share by naming it before anyone else does. |
-| `units.GOD jiecai · year_domain.Social` | Competition runs through your circle this year for the same invitations and attention, and you share your friends more widely than you planned. |
-| `units.GOD jiecai · year_domain.Wealth` | Shared purchases and a friend's request for help pull at your money this year, and you decide how much of your own you put in. |
+| `units.GOD jiecai · seen.plain` | To most people you look bold and openhanded, quick to share what you have and quicker to race for more. |
+| `units.GOD jiecai · year_domain.Career` | You keep your share this year by naming it before anyone else does, as a colleague or partner reaches for the same credit. |
+| `units.GOD jiecai · year_domain.Social` | This year you compete with friends for the same invitations and attention, sharing your circle more widely than you planned. |
+| `units.GOD jiecai · year_domain.Wealth` | You decide how much of your own goes in this year, as shared purchases and a friend's request for help pull at your money. |
 | `units.GOD jiecai · year_line.heavy` | Someone arrives who wants a share of what you have, at work or among friends. You give ground on money or credit before you notice, and you hold the rest only by being blunt. |
 | `units.GOD piancai · chapter_decade.helping.coming` | This decade opens side roads and second ventures, and you find money and company in places you had never looked. |
-| `units.GOD piancai · missing` | With no Horizon in your chart, nobody inside it opens a side door or brings you an offer you did not chase. You earn by the front route, one job at a time, and you trust what you worked for over a windfall. |
-| `units.GOD piancai · season_need.hidden` | Your season asks for the Horizon and your chart keeps only a thin seam of it, and you stumble on your chances late, through a friend of a friend. |
-| `units.GOD piancai · season_need.rooted` | The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones. |
-| `units.GOD piancai · season_need.shown` | You have the Horizon your season asks for in full view, and you meet offers and new people openly, with more chances than you can take. |
-| `units.GOD piancai · seen.inside` | You keep a second plan that nobody has heard about, and you want more open roads than you admit. |
-| `units.GOD piancai · seen.plain` | You come across as easy with strangers and quick with an offer, the one who always knows someone useful. |
-| `units.GOD piancai · year_domain.Family` | Family life widens this year to relatives far away or newly met, and you spend more of your time and money on people beyond your own home. |
-| `units.GOD piancai · year_domain.Social` | Your circle widens this year through chance meetings and introductions, and you move easily between groups that never meet each other. |
-| `units.GOD piancai · year_domain.Wealth` | Money reaches you this year through side doors like a second job or an unexpected offer, and you spread it across more ventures than usual. |
+| `units.GOD piancai · missing` | Offers you did not chase seldom find you, and side doors stay shut until you knock. You earn by the front route, one job at a time, trusting what you worked for over a windfall. |
+| `units.GOD piancai · season_need.hidden` | Your chart holds the Horizon only far down in one branch, a small field where your strength can range in a season that brings hardly any. |
+| `units.GOD piancai · season_need.rooted` | You hold the Horizon at the heart of a branch, where its element slips in by a side door and gives a lean season something to work on. |
+| `units.GOD piancai · season_need.shown` | You keep the Horizon in full view, where its element opens a wide field for your strength in a season that offers it little to work. |
+| `units.GOD piancai · seen.inside` | You keep a second plan that nobody has heard about and want more open roads than you admit. |
+| `units.GOD piancai · seen.plain` | In company you are easy with newcomers and quick with an offer, the one who always knows someone useful. |
+| `units.GOD piancai · year_domain.Family` | Your family life widens this year to relatives far away or newly met, drawing your time and money to people beyond your own door. |
+| `units.GOD piancai · year_domain.Social` | You move easily this year between groups that never meet each other, carried there by chance meetings and introductions. |
+| `units.GOD piancai · year_domain.Wealth` | Through a second job or an unexpected offer, you take in money by side doors this year and spread it across more ventures than usual. |
 | `units.GOD pianyin · chapter_decade.heavy.lived` | These years kept you studying and second-guessing longer than your friends, and you came out of them knowing more than you could yet use. |
-| `units.GOD pianyin · missing` | Nobody inside your chart pulls you toward odd subjects or second thoughts, because it holds no Alchemist. You take knowledge as it is taught, and you act on a straight answer before you think to question it. |
-| `units.GOD pianyin · season_need.hidden` | The Alchemist your season asks for lies as a thin thread far beneath the surface, and you reach for strange knowledge only when ordinary answers run out. |
-| `units.GOD pianyin · season_need.rooted` | The Alchemist your season asks for runs underneath without showing, and you study in private and keep the strangest of what you learn to yourself. |
-| `units.GOD pianyin · season_need.shown` | The Alchemist your season asks for shows on the face of your chart, and you are the person others bring their strangest questions to. |
+| `units.GOD pianyin · missing` | Odd subjects and second thoughts rarely pull at you. You take knowledge as it is taught and act on a straight answer before you think to question it. |
+| `units.GOD pianyin · season_need.hidden` | Far beneath the surface, you hold the Alchemist as a thin thread, a trickle of its element feeding you where the season gives nothing. |
+| `units.GOD pianyin · season_need.rooted` | Underneath, you carry the Alchemist as a branch's main stem, and its element feeds you by a back route your season does not offer. |
+| `units.GOD pianyin · season_need.shown` | On a stem in open view, you have the Alchemist feeding your element by an unusual route, the supply your season fails to give. |
 | `units.GOD pianyin · seen.inside` | You think in strange directions and keep most of those thoughts to yourself. |
-| `units.GOD pianyin · seen.plain` | You come across as unusual and hard to read, with a specialist interest nobody saw coming. |
-| `units.GOD pianyin · year_domain.Career` | Your work turns toward study and specialist skill this year, and you learn more out of sight than you earn in plain view. |
-| `units.GOD pianyin · year_domain.Growth` | Private study and unusual interests change you this year in ways few people see, and you become more yourself out of public view. |
-| `units.GOD pianyin · year_domain.Mind` | Odd, specialist subjects pull at your thinking this year, and you study alone what few people around you would think to ask about. |
+| `units.GOD pianyin · seen.plain` | From the outside you look unusual and hard to read, with a specialist interest nobody saw coming. |
+| `units.GOD pianyin · year_domain.Career` | This year you learn more out of sight than you earn in plain view, with your work turned toward study and specialist skill. |
+| `units.GOD pianyin · year_domain.Growth` | Out of public view, you grow more yourself this year through solitary study and interests nobody assigned you. |
+| `units.GOD pianyin · year_domain.Mind` | You study alone this year, pulled toward odd, specialist subjects nobody nearby would think to ask about. |
 | `units.GOD pianyin · year_line.heavy` | Your attention turns inward, toward study and second thoughts and plans you keep to yourself. You get less done than you meant to, and you understand more at the end than at the start. |
 | `units.GOD qisha · chapter_decade.helping.coming` | This decade brings pressure you can use, a hard deadline or a rival or a role with stakes, and you rise further under it than in any easy stretch. |
-| `units.GOD qisha · missing` | Your chart is without the General, and nobody inside it sets you a hard test or a date you cannot move. You keep your own pace and face few real trials, and you learn how strong you are only when pressure comes from outside. |
-| `units.GOD qisha · season_need.hidden` | The General your season asks for sleeps under everything else, and you go untested for years, then rise to the one hard test that finally comes. |
-| `units.GOD qisha · season_need.rooted` | The General your season asks for works unseen from within, and you hold yourself to a hard private standard that makes you stronger. |
-| `units.GOD qisha · season_need.shown` | The General your season asks for leads from the front, and you meet hard tests in public and are trusted for how you handle them. |
-| `units.GOD qisha · seen.inside` | You push yourself harder in private than anyone asks of you, and you set tests that nobody else sees. |
-| `units.GOD qisha · seen.plain` | You come across as tough and hard to rattle, the person people send in when the stakes are high. |
-| `units.GOD qisha · year_domain.Career` | A demanding task or a rival with standing tests your work this year, and you hold up under it better than anyone expects. |
+| `units.GOD qisha · missing` | You keep your own pace, with no hard test set for you and no date you cannot move. You learn how strong you are only when pressure comes from outside. |
+| `units.GOD qisha · season_need.hidden` | You carry the General asleep under everything else in a branch, a thin edge of its element that still tempers a season gone slack without it. |
+| `units.GOD qisha · season_need.rooted` | Your chart roots the General as the main stem of a branch, and its element presses your strength into a shape the season alone never gives it. |
+| `units.GOD qisha · season_need.shown` | You have the General up front on a stem, where its element tests and hardens you in a season that would leave you raw without it. |
+| `units.GOD qisha · seen.inside` | You want a harder test than anyone sets you and push yourself to meet it where nobody sees. |
+| `units.GOD qisha · seen.plain` | You read as tough and hard to rattle, the person people send in when the stakes are high. |
+| `units.GOD qisha · year_domain.Career` | You hold up better than anyone expects this year, when a demanding task or a rival with standing tests your work. |
 | `units.GOD qisha · year_domain.Growth` | You grow fastest this year where something forces you to, a deadline or a rival or a role with real stakes. |
 | `units.GOD qisha · year_domain.Health` | Pressure settles into your body this year as tension you carry without noticing, and you feel it first in your sleep. |
 | `units.GOD qisha · year_line.helping` | A hard test arrives from outside, a demanding boss or a rival or a deadline you did not set. You meet it better than you expect, and people remember how you handled it. |
 | `units.GOD shangguan · chapter_decade.helping.coming` | This decade gives your voice back its edge, and you say what you think with more freedom than you allowed yourself before. |
-| `units.GOD shangguan · missing` | Your chart carries no Virtuoso, and nobody inside it argues back or tells you a plan is wrong. You follow the brief as written, and you raise objections late and politely, after the decision is made. |
-| `units.GOD shangguan · season_need.hidden` | The Virtuoso your season asks for sits at the very bottom of your chart, and you speak your sharpest mind only once a rule has pushed you too far. |
-| `units.GOD shangguan · season_need.rooted` | The Virtuoso your season asks for lives under the surface of your chart, and you put your sharpest ideas into the work instead of saying them aloud. |
-| `units.GOD shangguan · season_need.shown` | The Virtuoso your season asks for is on show, and you are known for a sharp voice and work that breaks the usual mould. |
-| `units.GOD shangguan · seen.inside` | You rewrite other people's work in your head, and you want your talent noticed more than you admit. |
-| `units.GOD shangguan · seen.plain` | You come across as quick and outspoken, the one who says what the rest of the meeting was thinking. |
-| `units.GOD shangguan · year_domain.Career` | Skill and impatience with the rules arrive together in your job this year, and you say out loud what colleagues only grumble about. |
-| `units.GOD shangguan · year_domain.Mind` | Your thinking sharpens against the ideas you are handed this year, and you find flaws in what others accept faster than you can keep them to yourself. |
-| `units.GOD shangguan · year_domain.Social` | Conversations with friends grow sharper and wittier this year, and you say the thing everyone else at the table was thinking. |
-| `units.GOD shishen · missing` | The Artisan is missing from your chart, and nobody in it lets you rest or enjoy your own work. You plan your pleasures like tasks, a booked dinner or a day off on the calendar, and you relax best when someone else sets the table. |
-| `units.GOD shishen · season_need.hidden` | The Artisan your season asks for survives only as a faint trace, and you let yourself enjoy things in small bursts, a good meal here and a finished project there. |
-| `units.GOD shishen · season_need.rooted` | The Artisan your season asks for stays beneath the surface, and you refill yourself through a private craft or a slow meal at home. |
-| `units.GOD shishen · season_need.shown` | The Artisan your season asks for sits out in the open, and you make things with an ease that everyone around you can see. |
+| `units.GOD shangguan · missing` | Arguing back is not your first reflex when a plan looks wrong. You follow the brief as written and raise objections late and politely, after the decision is made. |
+| `units.GOD shangguan · season_need.hidden` | You keep the Virtuoso as a minor stem at the bottom of a branch, a faint vent for force that a closed season would otherwise trap. |
+| `units.GOD shangguan · season_need.rooted` | You carry the Virtuoso as the ruling stem of a branch, its element venting force that builds up in a season with no such release. |
+| `units.GOD shangguan · season_need.shown` | You carry the Virtuoso openly on a stem, and its element cuts a channel for the force your season keeps pent up in you. |
+| `units.GOD shangguan · seen.inside` | You rewrite other people's work in your head and want your talent noticed without having to point to it. |
+| `units.GOD shangguan · seen.plain` | You strike people as quick and outspoken, the one who says what the rest of the meeting was thinking. |
+| `units.GOD shangguan · year_domain.Career` | Sure of your skill and short with the rules, you say out loud this year what colleagues only grumble about. |
+| `units.GOD shangguan · year_domain.Mind` | Your thinking sharpens against the ideas you are handed this year, finding flaws in what others accept faster than you can keep quiet about them. |
+| `units.GOD shangguan · year_domain.Social` | Your conversations with friends grow sharper and wittier this year, until you are the one your circle quotes the next day. |
+| `units.GOD shishen · missing` | A free afternoon needs a reason before you let yourself have it. You plan your pleasures like tasks, a booked dinner or a day off on the calendar, and relax best when someone else sets the table. |
+| `units.GOD shishen · season_need.hidden` | With the Artisan only deep in a branch, you have a narrow outlet, enough to let some stored force out into a season that would hold it in. |
+| `units.GOD shishen · season_need.rooted` | Your chart keeps the Artisan as the main stem within a branch, a hidden outlet that turns stored force into something made where the season offers none. |
+| `units.GOD shishen · season_need.shown` | With the Artisan on show, you send your strength out through its element, an outlet that a season short of it never opens for you. |
 | `units.GOD shishen · seen.inside` | You want comfort more than you show, good food and an evening with nothing planned. |
-| `units.GOD shishen · seen.plain` | You come across as easygoing and warm, the friend who cooks for everyone and makes hard work look light. |
-| `units.GOD shishen · year_domain.Career` | Your work loosens and pleases people this year, and you get paid more readily for what you enjoy making. |
-| `units.GOD shishen · year_domain.Family` | Home gathers around food and easy company this year, and you are the one who cooks, hosts or makes the place feel lived in. |
-| `units.GOD shishen · year_domain.Health` | Meals, sleep and easy pleasures take a larger share of your days this year, and you feel how closely your body follows the pace you set. |
+| `units.GOD shishen · seen.plain` | You seem easygoing and warm, the friend who cooks for everyone and makes hard work look light. |
+| `units.GOD shishen · year_domain.Career` | You get paid more readily this year for what you enjoy making, because your work loosens and pleases people. |
+| `units.GOD shishen · year_domain.Family` | This year you cook, host and make the place feel lived in, with home gathering around food and easy company. |
+| `units.GOD shishen · year_domain.Health` | Your body follows the pace you set this year, with meals, sleep and easy pleasures filling more of your days. |
 | `units.GOD shishen · year_line.helping` | Your appetite comes back, for good food and for the work you enjoy making. Your work gets easier and better liked, and you finish with something you made that people keep. |
 | `units.GOD zhengcai · chapter_decade.helping.coming` | This decade rewards patience with steady returns, and you build the kind of security that lets you stop counting. |
-| `units.GOD zhengcai · missing` | Your chart gives the Steward no place, and nobody inside it keeps the books or counts what comes in. You handle money in bursts and forget it for months, and you rely on a partner or a spreadsheet to keep track. |
-| `units.GOD zhengcai · season_need.hidden` | You hold the Steward your season asks for only deep inside your chart, and you learn to keep money late, once a lean spell teaches you how. |
-| `units.GOD zhengcai · season_need.rooted` | The Steward your season asks for is held inside your chart rather than on show, and you save quietly and keep more in reserve than anyone guesses. |
-| `units.GOD zhengcai · season_need.shown` | Your chart puts the Steward your season asks for right on the surface, and you earn steadily through work with a clear wage and a known return. |
-| `units.GOD zhengcai · seen.inside` | You keep a private tally of what things cost, and you sleep better with something put aside. |
+| `units.GOD zhengcai · missing` | You do the books when you must and not a day sooner. You handle money in bursts and forget it for months, leaning on a partner or a spreadsheet to keep track. |
+| `units.GOD zhengcai · season_need.hidden` | What you hold of the Steward lies deep in a branch, a small, solid store for your strength to work when the season supplies next to nothing. |
+| `units.GOD zhengcai · season_need.rooted` | You keep the Steward as the leading stem of a branch, out of sight, a steady store of material for a season that has little to give. |
+| `units.GOD zhengcai · season_need.shown` | Your chart puts the Steward right on the surface, where its element gives your strength something solid to shape in a season with little to hold. |
+| `units.GOD zhengcai · seen.inside` | You keep a private tally of what things cost and sleep better with something put aside. |
 | `units.GOD zhengcai · seen.plain` | You come across as a careful provider, the one who pays on time and keeps count. |
-| `units.GOD zhengcai · year_domain.Career` | Steady work and the pay it earns hold your attention this year, and you build your standing through the hours you put in and the details you get right. |
-| `units.GOD zhengcai · year_domain.Family` | Household accounts and the care of family property pass through your hands this year, and you keep the home in careful order. |
-| `units.GOD zhengcai · year_domain.Wealth` | Bills, savings and the slow work of keeping accounts take up more of your attention this year, and you know where each part of your money goes. |
+| `units.GOD zhengcai · year_domain.Career` | Your pay tracks your effort this year, earned through the hours you put in and the details you get right. |
+| `units.GOD zhengcai · year_domain.Family` | You keep the household accounts this year and see to family property, holding the home in careful order. |
+| `units.GOD zhengcai · year_domain.Wealth` | Your attention turns to bills, savings and the slow work of keeping accounts this year, until you know where each part of your money goes. |
 | `units.GOD zhengguan · chapter_decade.helping.now` | This decade gives your life a structure it did not have before, a clear role and people who rely on you to keep it. You take on more responsibility than you planned, and it steadies you more than it weighs on you. |
-| `units.GOD zhengguan · missing` | No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms. |
-| `units.GOD zhengguan · season_need.hidden` | Your chart buries the Magistrate your season asks for in a deep corner, and you take on a formal role late and grow into it slowly. |
-| `units.GOD zhengguan · season_need.rooted` | Your chart holds the Magistrate your season asks for inside, where nobody watches, and you live by a private code that keeps your days in order. |
-| `units.GOD zhengguan · season_need.shown` | Your chart displays the Magistrate your season asks for, and you hold a clear role that others see and rely on. |
-| `units.GOD zhengguan · seen.inside` | You hold yourself to rules nobody wrote down, and you want a clear title that is yours alone. |
-| `units.GOD zhengguan · seen.plain` | You come across as reliable and correct, the person others trust to follow the rules and keep their word. |
-| `units.GOD zhengguan · year_domain.Career` | Your work gains a title, a rule book or a formal promise this year, and you carry more trust at the end of it than at the start. |
-| `units.GOD zhengguan · year_domain.Family` | Paperwork, signatures and speaking for the household fall to you this year, and you carry family duties in full view of your relatives. |
-| `units.GOD zhengguan · year_domain.Social` | Roles and expectations mark your friendships this year, a committee seat or a host's duty, and you are known for showing up when you said you would. |
+| `units.GOD zhengguan · missing` | You look to others to learn what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms. |
+| `units.GOD zhengguan · season_need.hidden` | Your chart tucks the Magistrate into one deep corner of a branch, a slight check from its element that gives a formless season some measure. |
+| `units.GOD zhengguan · season_need.rooted` | You have the Magistrate at the core of a branch, unseen, where its element frames and steadies a season that runs loose without it. |
+| `units.GOD zhengguan · season_need.shown` | In plain sight, you have the Magistrate giving your element form and measure, an order that a season without it never sets. |
+| `units.GOD zhengguan · seen.inside` | You hold yourself to rules nobody wrote down and want a clear title that is yours alone. |
+| `units.GOD zhengguan · seen.plain` | You present as reliable and correct, the person others trust to follow the rules and keep their word. |
+| `units.GOD zhengguan · year_domain.Career` | Your work gains a title, a rule book or a formal promise this year, leaving you with more trust at the end of it than at the start. |
+| `units.GOD zhengguan · year_domain.Family` | You carry family duties in full view of your relatives this year, from the paperwork and signatures to speaking for the household. |
+| `units.GOD zhengguan · year_domain.Social` | You take on roles among friends this year, a committee seat or a host's duty, and become known for showing up when you said you would. |
 | `units.GOD zhengguan · year_line.helping` | A role with your name on it arrives, a promotion or a title or a formal promise. You accept more responsibility than you planned, and you are steadier for it by the end. |
 | `units.GOD zhengyin · chapter_decade.heavy.lived` | These years gave you more looking after than you needed, and you learned to wait for permission before you moved. |
-| `units.GOD zhengyin · missing` | Your chart holds no Sage, and nobody inside it shelters you or praises you for trying. You learned early to reassure yourself, and you trust help more when you did not have to ask for it. |
-| `units.GOD zhengyin · season_need.hidden` | What your season asks for is the Sage and your chart holds it only deep down, and you meet the right teacher late, after years of teaching yourself. |
-| `units.GOD zhengyin · season_need.rooted` | The Sage your season asks for rests quietly inside your chart, and you have backing from an older ally who never asks for credit. |
-| `units.GOD zhengyin · season_need.shown` | In your chart the Sage your season asks for appears openly, and you are offered help and teaching before you think to ask. |
-| `units.GOD zhengyin · seen.inside` | You want to be looked after more than you say, and you stay close to the people who once taught you. |
-| `units.GOD zhengyin · seen.plain` | You come across as calm and well taught, someone a teacher or an older friend has clearly looked after. |
-| `units.GOD zhengyin · year_domain.Family` | A relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be. |
-| `units.GOD zhengyin · year_domain.Health` | Your body leans on shelter and routine this year, warm meals and early nights, and you accept more looking after than you usually allow. |
-| `units.GOD zhengyin · year_domain.Mind` | Books, courses and a patient teacher fill more of your evenings this year, and you learn most when someone else sets the syllabus. |
+| `units.GOD zhengyin · missing` | Without a Sage you learned early to reassure yourself and to praise your own effort. You trust help more when you did not have to ask for it. |
+| `units.GOD zhengyin · season_need.hidden` | Deep inside one branch, you hold a little of the Sage, a faint source that still feeds your element when the season starves it. |
+| `units.GOD zhengyin · season_need.rooted` | Your chart seats the Sage as the main stem inside a branch, a quiet source that feeds your element in a season thin on nourishment. |
+| `units.GOD zhengyin · season_need.shown` | What you get from the Sage on show is its element feeding and steadying you, the nourishment a season low in it holds back. |
+| `units.GOD zhengyin · seen.inside` | Privately you want to be looked after and stay close to the people who once taught you. |
+| `units.GOD zhengyin · seen.plain` | You look calm and well taught, someone a teacher or an older friend has clearly looked after. |
+| `units.GOD zhengyin · year_domain.Family` | Your home draws a relative's closer interest this year, with help and opinions that leave you more looked after than you asked to be. |
+| `units.GOD zhengyin · year_domain.Health` | This year you accept more looking after than you normally allow, leaning on shelter, quiet evenings and someone else's care. |
+| `units.GOD zhengyin · year_domain.Mind` | You learn most this year when someone else sets the syllabus, with books, courses and a patient teacher filling your evenings. |
 | `units.GOD zhengyin · year_line.heavy` | Help and advice arrive in larger amounts than you asked for, from a teacher or an older ally. You lean on them longer than you need to, and you finish knowing which help to keep. |
 | `units.POSITION bijian_month_stem · chapter.now` | Your Rising Chapter is the one where you prove yourself alone. Since your late teens you have taken whole jobs and signed your name to them, and you trust what you carried yourself more than anything you were handed. |
 | `units.POSITION jiecai_hour_branch · chapter.coming` | Behind it, the people after you push against you and stand up for you in the same breath. You hold your own place in these years only where you fixed its size early. |
@@ -267,7 +267,7 @@
 | `units.STAR wenchang · reading.year.lived` | You learned to read early and took to schoolwork faster than your effort explains. Written work and anything you could study for went better for you than for most, and you still trust a book to get you through a hard problem. |
 | `units.STAR yangren · line` | A hard and protective will. |
 | `units.STAR yangren · reading.hour.coming` | From your late forties a will rises in you that does not bend, and you keep it for the moments that matter. You defend what you have built firmly enough that people step back, and you keep the peace by choosing which fights are worth having. |
-| `units.STRUCTURE jianlu_ge · reading` | Your chart takes its shape from your own strength, with little handed down and most things built by hand. You do best where effort is paid to you directly, and you are proudest of what you made with nobody's help. |
+| `units.STRUCTURE jianlu_ge · reading` | Your chart takes its shape from your own strength, with little handed down and most things built by hand. You do best where effort is paid to you directly. You are proudest of what you made with nobody's help. |
 | `units.STRUCTURE officer · status.broken.unchecked` | The General bears down with nothing to check it, and more is asked of you than you can carry alone. You get through on the allies beside you, and each hard stretch leaves you tougher. |
 | `units.STRUCTURE officer · status.broken.virtuoso` | The Virtuoso talks back to the Magistrate unchecked, and you lose roles over what you say to the people above you. You come through on work judged by results more than rank. |
 | `units.STRUCTURE officer · status.formed.none` | Duty and pressure work in your favour, and the demands placed on you come with standing attached. You stand on your title and your word, and you carry heavy roles without losing your footing. |
@@ -277,68 +277,68 @@
 | `units.STRUCTURE output · status.broken.alchemist` | The Alchemist crowds out the Artisan, and what you mean to make stays unmade while you study it. You come through on what you learn meanwhile, and it becomes work only a specialist can do. |
 | `units.STRUCTURE output · status.broken.magistrate` | The Magistrate stands over your Virtuoso, and every rule you work under becomes a quarrel. You get through on talent people pay for in its own right, outside the chain of command. |
 | `units.STRUCTURE output · status.formed.none` | What you make and say reaches people without getting stuck on the way. Your talent opens doors for you, and the work you enjoy keeps finding someone who wants it. |
-| `units.STRUCTURE piancai_ge · reading` | Your chart runs on range, money that moves and openings that arrive through side doors. You do best with several things in play at once, a deal here and a contact there, and you earn most where you are free to roam. |
-| `units.STRUCTURE pianyin_ge · reading` | At the centre of your chart sits private study, the unusual knowledge few people around you share. You are at your best in a niche of your own, on a problem nobody else can read, and you rely on what you worked out more than on what you were taught. |
-| `units.STRUCTURE qisha_ge · reading` | Your chart answers to pressure, the hard test and the person who pushes back. You rise when the risk is real and the deadline is close, and you are steadiest in the thick of a fight. |
+| `units.STRUCTURE piancai_ge · reading` | Your chart runs on range, money that moves and openings that arrive through side doors. You do best with several things in play at once, a deal here and a contact there. You earn most where you are free to roam. |
+| `units.STRUCTURE pianyin_ge · reading` | At the centre of your chart sits private study, the unusual knowledge few people around you share. You are at your best in a niche of your own, on a problem nobody else can read. You rely on what you worked out more than on what you were taught. |
+| `units.STRUCTURE qisha_ge · reading` | Your chart answers to pressure, the hard test and the person who pushes back. You rise when the risk is real and the deadline is close. In the thick of a fight, you are at your steadiest. |
 | `units.STRUCTURE seal · status.formed.none` | Learning and shelter hold steady around you, from teachers, credentials and people who vouch for you. What you know keeps you safe, and you recover from a setback faster than the people around you. |
 | `units.STRUCTURE seal · status.strained.money` | Money pulls at your learning, and study keeps losing out to whatever pays this month. You trade courses and mentors for earnings, and the shelter behind you wears thinner each time. |
 | `units.STRUCTURE seal · status.strained.starved` | The Alchemist leaves the Artisan little to eat, and you lose finished work and easy pleasures to second thoughts. You know far more than you have shown anyone. |
 | `units.STRUCTURE self · status.formed.none` | Your own strength carries you, and you finish what you start without waiting for help. You can lean on your nerve and your circle of equals, and you stand firm when others wobble. |
 | `units.STRUCTURE self · status.strained.idle` | Your strength has nothing to work on, no task or prize or person to answer to. You spend it on restless plans and contests with friends, and you get back less than you put in. |
-| `units.STRUCTURE shangguan_ge · reading` | Your chart turns on a sharp voice and a talent that refuses to sit quietly. You shine where you are judged on what you can do, on a stage or under your own name, and you do your finest work when nobody stands over you. |
-| `units.STRUCTURE shishen_ge · reading` | Your chart grows out of ease and appetite, the pleasure of making something well and sharing it. You thrive at your own pace on work you enjoy, and what you make with a light hand is what people come back for. |
+| `units.STRUCTURE shangguan_ge · reading` | Your chart turns on a sharp voice and a talent that refuses to sit quietly. You shine where you are judged on what you can do, on a stage or under your own name. When nobody stands over you, you do your finest work. |
+| `units.STRUCTURE shishen_ge · reading` | Your chart grows out of ease and appetite, the pleasure of making something well and sharing it. You thrive at your own pace on work you enjoy. What you make with a light hand is what people come back for. |
 | `units.STRUCTURE wealth · status.broken.peers` | Equals reach your money with nothing to stop them, and what you earn leaves through friends, partners and shared plans. You come through because you earn it back faster than it goes. |
 | `units.STRUCTURE wealth · status.formed.none` | What you earn arrives on time and stays long enough to build on. You can count on a steady return from your work, and you keep hold of it without a fight. |
 | `units.STRUCTURE wealth · status.formed.peers` | Equals stand close to your money, and a rule or contract keeps each share in place. You can lean on clear terms with friends and partners, and you come out with your part intact. |
 | `units.STRUCTURE wealth · status.strained.none` | Money and the duties that come with it arrive faster than you can hold them. You work hard for gains that slip away, and you tire of the upkeep before you enjoy the reward. |
 | `units.STRUCTURE wealth · status.strained.peers` | The {breakers} {stand} close to your {gods}, and you keep losing a share of what you earn to equals. |
-| `units.STRUCTURE yuejie_ge · reading` | Your chart centres on the Rival, on equals who compete with you and share in whatever you have. You work hardest in a team where everyone can see the score, and you win more in an open contest than in a quiet deal. |
+| `units.STRUCTURE yuejie_ge · reading` | Your chart centres on the Rival, on equals who compete with you and share in whatever you have. You work hardest in a team where everyone can see the score. You win more in an open contest than in a quiet deal. |
 | `units.STRUCTURE yueren_ge · reading` | Everything in your chart gathers around the Rival, a hard and competitive will that does not back down. You do best against a real opponent or under strict discipline, and that edge earns its keep when you have something to guard. |
 | `units.STRUCTURE zhengcai_ge · reading` | Your chart is built around money kept and value earned. You do best when the work in front of you has a clear return, and you trust a slow sure gain over a fast one. |
-| `units.STRUCTURE zhengguan_ge · reading` | Your chart is built around duty kept and a role held in public. You do best inside a clear order, with a title and terms written down, and you keep your word long after others have bent theirs. |
-| `units.STRUCTURE zhengyin_ge · reading` | Your chart rests on shelter and learning, on teachers who back you and places that look after their own. You do your best work where study is valued and someone senior vouches for you, and you repay that care with years of loyalty. |
-| `units.TEMPLATED tpl_depth · bond.bind.day_hour` | The home you make with a partner draws in the younger people around you, and you spend your later years inside the household you built. |
-| `units.TEMPLATED tpl_depth · bond.bind.month_day` | You find a partner close to your work or your parents' circle, and the line between your job and your home stays thin for years. |
-| `units.TEMPLATED tpl_depth · bond.bind.month_hour` | You carry the people and skills of your working years into your later life, and the circle you build in those years stays with you. |
+| `units.STRUCTURE zhengguan_ge · reading` | Your chart is built around duty kept and a role held in public. You do best inside a clear order, with a title and terms written down. You keep your word long after others have bent theirs. |
+| `units.STRUCTURE zhengyin_ge · reading` | Your chart rests on shelter and learning, on teachers who back you and places that look after their own. You do your best work where study is valued and someone senior vouches for you. You repay that care with years of loyalty. |
+| `units.TEMPLATED tpl_depth · bond.bind.day_hour` | Your home with a partner pulls the younger people in your life close, and that household anchors your later years. |
+| `units.TEMPLATED tpl_depth · bond.bind.month_day` | Your job and your home draw on the same circle of people, a partner met through work or your parents' friends, and the line between them stays thin. |
+| `units.TEMPLATED tpl_depth · bond.bind.month_hour` | You carry the people and skills of your working life into your later years, keeping close the circle you build at work. |
 | `units.TEMPLATED tpl_depth · bond.bind.year_day` | You build your own home close to the habits of the one you grew up in, and you return to them more than you expected. |
-| `units.TEMPLATED tpl_depth · bond.bind.year_hour` | You pass the customs of your first family to the young people you raise or train, and your later years come to resemble your earliest ones. |
-| `units.TEMPLATED tpl_depth · bond.bind.year_month` | Your first family stays tied to your working life, and you take a trade or a contact or a loyalty from home into every job you hold. |
-| `units.TEMPLATED tpl_depth · bond.clash.day_hour` | The young people in your life pull against the home you share with a partner, and you move house or rework your days to keep both. |
-| `units.TEMPLATED tpl_depth · bond.clash.month_day` | Work and home compete for the same hours in your life, and you change jobs or addresses when the strain between them gets too loud. |
-| `units.TEMPLATED tpl_depth · bond.clash.month_hour` | What you built at work in your rising years stops fitting your later life, and you change course in your late forties rather than hold on to it. |
-| `units.TEMPLATED tpl_depth · bond.clash.year_day` | Your own household breaks sharply from the one you grew up in, and you keep a partner and your first family at a careful distance. |
-| `units.TEMPLATED tpl_depth · bond.clash.year_hour` | Nothing from the house you grew up in passes cleanly to the young people after you, and you raise or train them by rules you wrote yourself. |
-| `units.TEMPLATED tpl_depth · bond.clash.year_month` | Your choice of work breaks with what your family expected, and you leave home early to make your own way in a trade nobody there chose. |
-| `units.TEMPLATED tpl_depth · bond.frame.day_hour` | A partner and the young ones you raise or train pull together around one shared aim, and you see your household grow stronger with each passing year. |
-| `units.TEMPLATED tpl_depth · bond.frame.month_day` | Your working years feed straight into your home, and you and a partner end up backing the same plan or running something together. |
-| `units.TEMPLATED tpl_depth · bond.frame.month_day_hour` | Work, home and the people after you build on each other, and what you start in your rising years keeps growing through every later decade. |
-| `units.TEMPLATED tpl_depth · bond.frame.month_hour` | The momentum you build at work carries well into your later life, and the people you train along the way become your strongest allies. |
-| `units.TEMPLATED tpl_depth · bond.frame.year_day` | Your first family stands behind the home you make, and you build a household with a partner while their help stays close at hand. |
-| `units.TEMPLATED tpl_depth · bond.frame.year_day_hour` | You link the house you grew up in to the people after you, and your own home becomes the place where three generations meet. |
-| `units.TEMPLATED tpl_depth · bond.frame.year_hour` | Something your first family began passes to the young ones after you, and you spend your later years adding to it alongside them. |
-| `units.TEMPLATED tpl_depth · bond.frame.year_month` | The household you grew up in gives your working life a running start, and you walk through doors your parents or siblings opened for you. |
-| `units.TEMPLATED tpl_depth · bond.frame.year_month_day` | One aim gathers force from your childhood through your working years into your own home, and you carry it from one stage to the next. |
-| `units.TEMPLATED tpl_depth · bond.frame.year_month_day_hour` | Every part of your life adds to one story, from your first home through work and partnership to the people after you, and you watch it gather weight. |
-| `units.TEMPLATED tpl_depth · bond.frame.year_month_hour` | Skills learned at home run through your career into the people you train, and you become the link that carries them forward. |
-| `units.TEMPLATED tpl_depth · bond.harm.day_hour` | A quiet friction runs between a partner and the people after you, and you spend years smoothing over complaints nobody says out loud. |
+| `units.TEMPLATED tpl_depth · bond.bind.year_hour` | You pass the customs of your first family to the young people you raise or train, until your later years echo your earliest ones. |
+| `units.TEMPLATED tpl_depth · bond.bind.year_month` | Your first family stays tied to your working life, with a trade or a contact or a loyalty from home going into every job you hold. |
+| `units.TEMPLATED tpl_depth · bond.clash.day_hour` | The people after you pull against the life you share with a partner, but you keep both by moving house or reworking your days. |
+| `units.TEMPLATED tpl_depth · bond.clash.month_day` | Your work and your home compete for the same hours, and a new job or a new address follows whenever the strain grows too loud. |
+| `units.TEMPLATED tpl_depth · bond.clash.month_hour` | What you build at work in your rising years stops fitting your later life, and you change course when that chapter opens rather than hold on to it. |
+| `units.TEMPLATED tpl_depth · bond.clash.year_day` | You make a household that breaks sharply from the home of your childhood, keeping a partner and your first family at a careful distance. |
+| `units.TEMPLATED tpl_depth · bond.clash.year_hour` | You raise or train the people after you by rules you wrote yourself, because little from the house you grew up in passes to them cleanly. |
+| `units.TEMPLATED tpl_depth · bond.clash.year_month` | Your choice of work breaks with what your family expected, and you make your own way in a trade nobody at home chose. |
+| `units.TEMPLATED tpl_depth · bond.frame.day_hour` | You, a partner and the young ones you raise or train pull together around one shared aim, your household growing stronger with each passing year. |
+| `units.TEMPLATED tpl_depth · bond.frame.month_day` | Your work feeds straight into your household, with you and a partner backing the same plan or running something together. |
+| `units.TEMPLATED tpl_depth · bond.frame.month_day_hour` | Work, home and the people after you build on each other, and you keep growing what you start in your rising years through every later decade. |
+| `units.TEMPLATED tpl_depth · bond.frame.month_hour` | You carry the momentum of your work well into later life, counting the people you train along the way among your strongest allies. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_day` | Your first family stands behind the home you make, keeping their help close at hand while you build a household with a partner. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_day_hour` | You bring your first family and the people who follow you together, making your own home the place where three generations meet. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_hour` | You pass something your first family began to the young ones after you, adding to it alongside them through your later years. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_month` | Your working life starts at a run from the household you grew up in, through doors your parents or siblings open for you. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_month_day` | Your first family, your work and your own home all serve one aim, and it gathers force as you carry it from stage to stage. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_month_day_hour` | You watch one story gather weight across every part of your life, from your first home through work and partnership to the people after you. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_month_hour` | You carry skills learned in your first home through your career into the people you train, becoming the link that passes them forward. |
+| `units.TEMPLATED tpl_depth · bond.harm.day_hour` | You spend years smoothing over a quiet friction between a partner and the younger ones in your life, the complaints nobody says out loud. |
 | `units.TEMPLATED tpl_depth · bond.harm.month_day` | Late evenings and calls on days off wear quietly at your home life, and you guard one part of every week from your work. |
-| `units.TEMPLATED tpl_depth · bond.harm.month_hour` | Your work rubs at the people after you in small ways, a missed evening or a forgotten promise, and you make it up to them in person. |
-| `units.TEMPLATED tpl_depth · bond.harm.year_day` | An old irritation from your first home follows you into the one you share with a partner, and you settle it one small argument at a time. |
-| `units.TEMPLATED tpl_depth · bond.harm.year_hour` | Something from your own childhood wears at how you treat the young ones in your care, and you catch yourself repeating it and correct it. |
-| `units.TEMPLATED tpl_depth · bond.harm.year_month` | Your family never quite approves of the work you choose, and you answer that quiet doubt with results more than with arguments. |
-| `units.TEMPLATED tpl_depth · bond.none_hard` | No clashes, punishments or harms sit between your gates, and you argue with yourself less than most people do. |
-| `units.TEMPLATED tpl_depth · bond.punish.day_hour` | The same argument returns at home between you and the people after you, and you break the loop by changing your own rule first. |
-| `units.TEMPLATED tpl_depth · bond.punish.month_day` | You bring the standards of your work home, and a partner meets the same demands you make of colleagues until you draw a line where the job stops. |
-| `units.TEMPLATED tpl_depth · bond.punish.month_hour` | The pressure you put on yourself at work passes to the people you train, and you ease it once you see them repeat your hardest years. |
-| `units.TEMPLATED tpl_depth · bond.punish.year_day` | Old house rules from your childhood come back inside your own home, and you hear them in your voice with a partner and rewrite them one at a time. |
-| `units.TEMPLATED tpl_depth · bond.punish.year_hour` | You hold the people after you to the standards you were raised on, and the same friction repeats until you decide which of those rules you keep. |
-| `units.TEMPLATED tpl_depth · bond.punish.year_month` | Your family's expectations follow you into every job, and you drive yourself harder than any boss asks until you settle on your own measure. |
-| `units.TEMPLATED tpl_depth · bond.selfpunish.day_hour` | What you struggle with at home reappears in the people after you, and you break the habit in yourself first so they do not inherit it. |
-| `units.TEMPLATED tpl_depth · bond.selfpunish.month_day` | You make the same mistake at work and at home, taking on too much and resenting it later, and you catch it sooner each time it returns. |
-| `units.TEMPLATED tpl_depth · bond.selfpunish.month_hour` | A habit that holds you back at work returns in your later life, and you see it coming the second time and turn it down. |
+| `units.TEMPLATED tpl_depth · bond.harm.month_hour` | Your work rubs at the people after you in small ways, a missed evening or a forgotten promise that you make up to them in person. |
+| `units.TEMPLATED tpl_depth · bond.harm.year_day` | You settle an old irritation from your first home one small argument at a time, after it follows you into your life with a partner. |
+| `units.TEMPLATED tpl_depth · bond.harm.year_hour` | You notice a tone or a rule from your childhood rubbing at how you treat the children you raise or train, and smooth it over before it grows. |
+| `units.TEMPLATED tpl_depth · bond.harm.year_month` | Your family never quite approves of the work you choose, a quiet doubt you answer with results more than with arguments. |
+| `units.TEMPLATED tpl_depth · bond.none_hard` | You move from one chapter of your life to the next without a sharp break, because no clash, punishment or harm sits between your gates. |
+| `units.TEMPLATED tpl_depth · bond.punish.day_hour` | The same argument returns at home between you and those who follow you, but you break the loop by changing your own rule first. |
+| `units.TEMPLATED tpl_depth · bond.punish.month_day` | You bring the standards of your work home, holding a partner to the demands you make of colleagues until you draw a line where the job stops. |
+| `units.TEMPLATED tpl_depth · bond.punish.month_hour` | You pass the pressure you put on yourself at work to the people you train, easing it once you see them repeat your hardest years. |
+| `units.TEMPLATED tpl_depth · bond.punish.year_day` | You hear old house rules from your childhood in your own voice with a partner, and rewrite them one at a time as they come back. |
+| `units.TEMPLATED tpl_depth · bond.punish.year_hour` | You hold the people after you to the standards you were raised on, with the same friction repeating until you decide which of those rules to keep. |
+| `units.TEMPLATED tpl_depth · bond.punish.year_month` | Your family's expectations follow you into every job, driving you harder than any boss asks until you settle on your own measure. |
+| `units.TEMPLATED tpl_depth · bond.selfpunish.day_hour` | What you struggle with at home reappears in the people after you, and breaking the habit in yourself first keeps them from inheriting it. |
+| `units.TEMPLATED tpl_depth · bond.selfpunish.month_day` | You make the same mistake at work and at home, taking on too much and resenting it later, catching it sooner each time it returns. |
+| `units.TEMPLATED tpl_depth · bond.selfpunish.month_hour` | You meet a habit that holds you back at work a second time in your later life, seeing it coming early and turning it down. |
 | `units.TEMPLATED tpl_depth · bond.selfpunish.year_day` | The quarrel you grew up around repeats in your own home with a partner, and you end it by changing your own part in it. |
-| `units.TEMPLATED tpl_depth · bond.selfpunish.year_hour` | Your childhood plays out again around the young ones in your care, and you recognise the old scene early enough to give it a different ending. |
-| `units.TEMPLATED tpl_depth · bond.selfpunish.year_month` | The role you played in your family returns at work, the peacemaker or the one who carries everything, and you change it once you see it twice. |
+| `units.TEMPLATED tpl_depth · bond.selfpunish.year_hour` | Your childhood plays out again around the young ones in your care, and the old scene gets a different ending once you recognise it early. |
+| `units.TEMPLATED tpl_depth · bond.selfpunish.year_month` | You play the role you had in your family again at work, the peacemaker or the one who carries everything, and change it once you see it twice. |
 | `units.TEMPLATED tpl_depth · rescue.officer` | Outside pressure protects it, a boss or a rule or a deadline, and you meet that pressure in {when}. |
 | `units.TEMPLATED tpl_depth · rescue.officer.lived` | Outside pressure protects it, a boss or a rule or a deadline, and you met that pressure in decades now behind you. |
 | `units.TEMPLATED tpl_depth · rescue.officer.none` | Outside pressure protects it, a boss or a rule or a deadline, and you supply that pressure yourself because no decade of yours brings it. |
@@ -351,7 +351,7 @@
 | `units.TEMPLATED tpl_depth · rescue.wealth` | Money protects it, a steady income or a shared venture, and you meet it in {when}. |
 | `units.TEMPLATED tpl_depth · rescue.wealth.lived` | Money protects it, a steady income or a shared venture, and you met it in decades now behind you. |
 | `units.TEMPLATED tpl_depth · rescue.wealth.none` | Money protects it, a steady income or a shared venture, and you earn it yourself because no decade of yours brings it. |
-| `units.TEMPLATED tpl_depth · seen.close` | Only the people you live with see the second list. |
+| `units.TEMPLATED tpl_depth · seen.close` | You save what sits inside for the few people who know you best. |
 | `units.TEMPLATED tpl_depth · strongest.one` | {a} alone carries {share} of your chart, and you live mostly through {a_noun}. |
 | `units.TEMPLATED tpl_depth · strongest.two` | {a} and {b} carry {share} of your chart, and you live mostly through {a_noun} and {b_noun}. |
 | `units.TEMPLATED tpl_depth · structure_rule.jie` | Your strongest seat holds a rival of your own element. Your chart is built around what you win against your equals, and you answer first to the contest. |
@@ -369,15 +369,100 @@
 | `units.TEMPLATED tpl_depth · year_bond.clash.month` | You leave a role or a team you have outgrown this year, by your own choice or by theirs. |
 | `units.TEMPLATED tpl_depth · year_bond.frame.day` | You make a decision about home or partnership this year that you have been circling for a while. |
 | `units.TEMPLATED tpl_depth · year_bond.frame.month` | You gather people and momentum around one idea at work this year, and it carries further than you planned. |
-| `units.TG_PATTERN bi_jie_duo_cai · blueprint_line` | Equals and money share your chart, and you lose most where you share most, with friends and family and partners. |
-| `units.TG_PATTERN cai_guan_xiang_sheng · blueprint_line` | Good results keep earning you a bigger role, and you get promoted on your record more than on anything you ask for. |
-| `units.TG_PATTERN guan_yin_xiang_sheng · blueprint_line` | Each role you take on comes with someone senior who teaches you, and you rise slowly and cleanly inside the places that take you in. |
-| `units.TG_PATTERN sha_yin_xiang_sheng · blueprint_line` | Every hard test you go through becomes something you know, and you leave each demanding stretch with a qualification or a title you did not have before. |
-| `units.TG_PATTERN shang_guan_jian_guan · blueprint_line` | Your talent argues with whoever is in charge, and you are at your sharpest where nobody signs off on every line. |
-| `units.TG_PATTERN shang_guan_pei_yin · blueprint_line` | Your sharpest talent has years of study behind it, and you are known for being both daring and right. |
-| `units.TG_PATTERN shi_shang_sheng_cai · blueprint_line` | Things you make sell without much pushing, and you earn the most from the projects you would have done for nothing. |
-| `units.TG_PATTERN shishen_zhi_sha · blueprint_line` | A hard deadline settles you instead of rattling you, and you turn out your best work when the clock runs short. |
+| `units.TG_PATTERN bi_jie_duo_cai · blueprint_line` | Because equals and money share your chart, you lose most where you share most with friends and family but keep what stays in your own name. |
+| `units.TG_PATTERN cai_guan_xiang_sheng · blueprint_line` | Your good results keep earning you a bigger role, and promotion comes on your record more than on anything you ask for. |
+| `units.TG_PATTERN guan_yin_xiang_sheng · blueprint_line` | You rise slowly and cleanly inside the places that take you in, with someone senior teaching you in each role you take on. |
+| `units.TG_PATTERN sha_yin_xiang_sheng · blueprint_line` | You turn each hard test into something you know, leaving every demanding stretch with a qualification or a title you did not have before. |
+| `units.TG_PATTERN shang_guan_jian_guan · blueprint_line` | Your talent argues with whoever is in charge, which costs you favour with the people who promote you and sends you to work where results count for more than rank. |
+| `units.TG_PATTERN shang_guan_pei_yin · blueprint_line` | Your sharpest talent has years of study behind it, which makes you known for being both daring and right. |
+| `units.TG_PATTERN shi_shang_sheng_cai · blueprint_line` | What you make sells without much pushing, and the best pay comes from projects you would have done for nothing. |
+| `units.TG_PATTERN shishen_zhi_sha · blueprint_line` | You meet pressure by making things, and a hard week ends with finished work instead of worry. |
 | `units.TG_PATTERN xiao_shen_duo_shi · blueprint_line` | Your thinking outweighs your making, and you study a thing so long that the moment to make it passes. |
+| `units.STRUCTURE zhengguan_ge · status.formed.none` | Order runs in your favour, and the duties that land on you come with standing attached. You can lean on your good name, because people take your word before they check it. |
+| `units.STRUCTURE zhengguan_ge · status.formed.cured` | Something in your chart argues with the order you keep, and something else in it settles the matter before it costs you the role. Your standing holds through the friction. |
+| `units.STRUCTURE zhengguan_ge · status.broken.virtuoso` | A sharp voice in your own chart argues with the rules above you, and nothing holds it back. You lose roles over what you say upward, but work judged by results carries you. |
+| `units.STRUCTURE zhengguan_ge · status.strained.virtuoso` | Part of you keeps correcting the people who set the rules, and each sharp remark puts your role on trial. Your standing holds, but you spend goodwill winning back what one sentence cost. |
+| `units.STRUCTURE zhengguan_ge · status.strained.mixed` | Two kinds of authority press on you at once, a rule that wants compliance and a push that wants proof. You switch between asking for ground and taking it, and the credit goes elsewhere. |
+| `units.STRUCTURE zhengguan_ge · status.strained.heavy` | Your roles weigh more than the strength you bring to them, and each new duty lands before the last is done. You meet every commitment by spending strength you needed for yourself. |
+| `units.STRUCTURE qisha_ge · status.formed.none` | The pressure in your chart has a handle on it, and each hard test turns into proof of what you can do. Your nerve is what you lean on when the stakes climb. |
+| `units.STRUCTURE qisha_ge · status.formed.cured` | Something in your chart turns the pressure up, and your chart already carries what tempers it. You still meet hard tests, but each one arrives with its answer close by. |
+| `units.STRUCTURE qisha_ge · status.strained.mixed` | Polite rules and raw pressure reach you together, pulling your effort two ways at once. Your force splits between asking permission and taking ground, and neither move lands with its whole weight. |
+| `units.STRUCTURE qisha_ge · status.broken.money` | Money in your chart feeds the General, and each gain arrives with a harder demand attached. You come through by choosing which gains to carry, since nothing else holds the pressure back. |
+| `units.STRUCTURE qisha_ge · status.strained.money` | Earnings and pressure rise together in your chart, and a better offer comes bundled with a harder test. You stay on top of it, but the gain buys you less rest than you hoped. |
+| `units.STRUCTURE qisha_ge · status.broken.unchecked` | The General bears down with nothing to check it, and more is asked of you than one person can carry. You get through on the allies beside you, each hard stretch leaving you tougher. |
+| `units.STRUCTURE qisha_ge · status.strained.unchecked` | Nothing in your chart softens the General, and every demand reaches you at full force. You bear it, paying in rest and goodwill for meeting each fight head on. |
+| `units.STRUCTURE qisha_ge · status.strained.heavy` | The pressure on you outweighs the strength you have to meet it, and the tests come faster than you recover. You hold your ground, though each round takes longer to shake off. |
+| `units.STRUCTURE qisha_ge · status.strained.alchemist` | Overthinking cuts into the practical streak that keeps your pressure in check, and tests you could answer by acting wait while you deliberate. You meet them in the end, after carrying each one too long. |
+| `units.STRUCTURE zhengcai_ge · status.formed.none` | Earned money comes in on time and stays long enough to build on. You can count on steady pay for steady work, without anyone reaching for it. |
+| `units.STRUCTURE zhengcai_ge · status.formed.cured` | A pull on what you earn sits in your chart beside the lock that already holds it shut. What you have built stays put, whoever comes asking for it. |
+| `units.STRUCTURE zhengcai_ge · status.strained.heavywealth` | There is more to earn and manage than your strength can carry, and keeping it all in order wears you thin. You own more than you have the strength to tend. |
+| `units.STRUCTURE zhengcai_ge · status.broken.peers` | Equals reach the money you put by with nothing in your chart to stop them, and it leaves through friends and shared plans. You come through on steady earning, refilling the store as it empties. |
+| `units.STRUCTURE zhengcai_ge · status.strained.peers` | The {breakers} {stand} close to your {gods}, and equals keep drawing on what you earn. You hold most of it, though every loan and shared bill takes its piece. |
+| `units.STRUCTURE zhengcai_ge · status.strained.general` | Steady pay in your chart arrives with pressure riding on it, and each raise brings a harder demand from above. You keep earning, but the money comes with tests you did not ask for. |
+| `units.STRUCTURE piancai_ge · status.formed.none` | Chances reach you from well outside your usual circle, and the deals you strike in passing pay out. You can lean on your range, because a new contact turns up whenever an old one closes. |
+| `units.STRUCTURE piancai_ge · status.formed.cured` | One part of your chart tugs at the deals you chase, and another already brings them back within reach. You keep your reach wide, and what comes through a side door stays yours. |
+| `units.STRUCTURE piancai_ge · status.strained.heavywealth` | More chances reach you than your strength can follow up, and deals you opened stall half done. You spread yourself across every opening, and none gets the weight it needs. |
+| `units.STRUCTURE piancai_ge · status.broken.peers` | Equals crowd every deal you open with nothing to hold them back, and each windfall is spoken for before it lands. You get through on range, finding the next opening before the last one empties. |
+| `units.STRUCTURE piancai_ge · status.strained.peers` | The {breakers} {stand} close to your {gods}, and friends join every venture you find. You still find the chances, though each one is thinner by the time it reaches you. |
+| `units.STRUCTURE piancai_ge · status.strained.general` | Every opening you take arrives with pressure attached, and the bigger the deal the harder the test behind it. You keep moving, but each windfall carries a test you never chose. |
+| `units.STRUCTURE zhengyin_ge · status.formed.none` | Support holds steady around you, from teachers, credentials and people who speak up for you. You can lean on what you have learned, and on the people who taught you, whenever a setback comes. |
+| `units.STRUCTURE zhengyin_ge · status.formed.cured` | The support behind you frays at the edges, and your chart already holds what mends it. Your backing stays in place while your study goes on. |
+| `units.STRUCTURE zhengyin_ge · status.strained.excess` | More support and study surround you than you can put to use, and preparing keeps standing in for doing. You stay well looked after and underused, ready for work you could already do. |
+| `units.STRUCTURE zhengyin_ge · status.strained.money` | Money pulls at your learning, and study keeps losing out to whatever pays this month. You trade mentors and courses for earnings, while the shelter behind you wears thinner. |
+| `units.STRUCTURE pianyin_ge · status.formed.none` | Your unusual mind has somewhere to work, and the odd angle you take on a problem keeps paying off. What you lean on is your intuition, and a method nobody handed you. |
+| `units.STRUCTURE pianyin_ge · status.formed.cured` | Something in your chart pulls your mind off its own subject, and your chart already pulls it back. You keep the strange angle that makes your thinking yours. |
+| `units.STRUCTURE pianyin_ge · status.strained.excess` | More private thinking fills your days than you can turn into anything. You go deeper into a niche than anyone can follow, alone with ideas nobody asks to see. |
+| `units.STRUCTURE pianyin_ge · status.strained.money` | Money tugs at your private study, and the subject only you understand gives way to whatever pays. You set the puzzle aside for paid work, and it sits untouched a little longer each time. |
+| `units.STRUCTURE pianyin_ge · status.strained.starved` | The Alchemist eats into the part of you that finishes things and enjoys them, and second thoughts take the work before it is made. You know far more than you have ever shown. |
+| `units.STRUCTURE shishen_ge · status.formed.none` | Your ease has somewhere to go, and what you make reaches people without getting stuck on the way. You can lean on the pleasure you take in the work, since people can taste it. |
+| `units.STRUCTURE shishen_ge · status.formed.cured` | Something in your chart eats into your ease, and the chart already lays more on the table. You lose an afternoon here and there, but the making goes on. |
+| `units.STRUCTURE shishen_ge · status.broken.alchemist` | Second thoughts crowd out your appetite for making, and what you mean to make stays unmade while you study it. What you learn meanwhile carries you, and it becomes work few others can do. |
+| `units.STRUCTURE shishen_ge · status.strained.alchemist` | Overthinking nibbles at your ease, and finished pieces wait on one more round of doubt. You still make things, but the pleasure thins with each revision. |
+| `units.STRUCTURE shishen_ge · status.strained.drained` | More goes out of you than your strength can feed, in hosting, making and giving. You cook for everyone and come to your own rest last. |
+| `units.STRUCTURE shangguan_ge · status.formed.none` | Your voice carries, and your talent opens doors on its own merits. Your footing is being good at what you do, since people pay for it whatever they think of your tone. |
+| `units.STRUCTURE shangguan_ge · status.formed.cured` | Something in your chart pushes back against your voice, and your chart already has the reply. You keep your edge without paying for every sharp remark. |
+| `units.STRUCTURE shangguan_ge · status.broken.magistrate` | Every rule above you turns into an argument nothing softens, and the people in charge hear your sharpest lines. You get through on talent people pay for outside any chain of command. |
+| `units.STRUCTURE shangguan_ge · status.strained.magistrate` | Rules press on your voice at work, and each sharp correction you hold back costs you something. You keep your place, though you bite your tongue more than you would like. |
+| `units.STRUCTURE shangguan_ge · status.strained.excess` | Caution and study crowd your voice, and the sharp thing you would say turns into a note you never send. Your best lines stay in drafts, while the talent behind them waits for a stage. |
+| `units.STRUCTURE shangguan_ge · status.strained.drained` | Every stage and every argument gets your full voice, more than your reserves can cover. You perform at full tilt and pay for it in the quiet days after. |
+| `units.STRUCTURE jianlu_ge · status.formed.none` | Your strength is your own, and you finish what you start without waiting for anyone. You can lean on yourself and on equals who work side by side with you. |
+| `units.STRUCTURE jianlu_ge · status.strained.unchecked` | Hard pressure lands on you with nothing in your chart to temper it. You meet each test alone, refusing help you could have taken. |
+| `units.STRUCTURE jianlu_ge · status.strained.idle` | Your strength has nothing to work on, no task or prize or person to answer to. You spend it on restless plans of your own, getting back less than you put in. |
+| `units.STRUCTURE yuejie_ge · status.formed.none` | Your will to win has a fair field, and what you share with friends comes back to you through them. You can lean on a crew that races you and backs you in equal measure. |
+| `units.STRUCTURE yuejie_ge · status.strained.unchecked` | Pressure comes at you unchecked, and every rivalry becomes a test of nerve. You keep winning, but each win is bought with strength you needed elsewhere. |
+| `units.STRUCTURE yuejie_ge · status.strained.idle` | Your competitive streak has no real prize in front of it, and it turns on friends and small contests instead. You win games that do not matter while the real prize goes unclaimed. |
+| `units.STRUCTURE yueren_ge · status.formed.none` | Your hard edge is held in check, and your refusal to yield works for you rather than against you. You can count on your nerve whenever something of yours needs guarding. |
+| `units.STRUCTURE yueren_ge · status.strained.idle` | Your edge has nothing to guard and no real opponent to face, and it turns on the people closest to you. You win arguments with friends and come away with nothing you wanted. |
+| `units.GOD bijian · missing.open` | The Twin does not show in your Year, Month or Day Gate, and the Hour Gate your birth time would open could still hold it. For now you think problems through with someone at your side before you carry them alone. |
+| `units.GOD jiecai · missing.open` | None of the three gates your chart can read holds the Rival, though your birth hour could still seat it. Until that hour is known, you race nobody for the prize and compete only when someone else starts it. |
+| `units.GOD shishen · missing.open` | Nothing in your Year, Month and Day Gates carries the Artisan, and only your birth time can show whether the Hour Gate does. For now you treat rest as a reward for finished work and rarely take it for pleasure alone. |
+| `units.GOD shangguan · missing.open` | The Virtuoso is absent from the gates your birth date fills, and the Hour Gate stays dark until your birth time is set. Until then you take a plan as given and save your objections for after the decision. |
+| `units.GOD piancai · missing.open` | Your birth date shows no Horizon, and the one place left to look is the gate your birth hour opens. Meanwhile you take the main road to what you want and trust a plan you made over a chance that finds you. |
+| `units.GOD zhengcai · missing.open` | The Steward shows nowhere from the Year Gate through the Day Gate, and the unread Hour Gate is where it could yet sit. As things stand you count only when a bill makes you and trust someone else's tally over your own. |
+| `units.GOD qisha · missing.open` | The first three gates of your chart hold no General, though the Hour Gate is a door your birth time has yet to open. On what the chart shows, you keep an easy pace and meet a hard test only when someone sets one. |
+| `units.GOD zhengguan · missing.open` | No Magistrate appears in the gates that can be read without your birth time, and the Hour Gate is the one place it could still be. For the moment you take structure from the job and settle once someone else sets the terms. |
+| `units.GOD pianyin · missing.open` | The Alchemist is not among the stems and branches your birth date gives, and whether the Hour Gate holds it waits on your birth time. In the meantime you take what you are taught at face value and act on it before any doubt arrives. |
+| `units.GOD zhengyin · missing.open` | Your chart can read three gates, and none of them holds the Sage, though the Hour Gate could. For now you talk yourself through hard stretches and trust help most when it comes unasked. |
+| `units.TEMPLATED tpl_depth · bond.bind.day_hour.lived` | By your late forties, you had built a home with a partner that drew in the young people around you and became the centre of your later years. |
+| `units.TEMPLATED tpl_depth · bond.bind.day_hour.coming` | In your later years, you will find the household you make with a partner drawing the younger ones around you inside it. |
+| `units.TEMPLATED tpl_depth · bond.bind.month_hour.lived` | From your late forties, you have kept the colleagues and skills of your rising years close around your later life. |
+| `units.TEMPLATED tpl_depth · bond.bind.month_hour.coming` | Your later life will hold on to the people and crafts of your rising years, with that working circle staying beside you. |
+| `units.TEMPLATED tpl_depth · bond.bind.year_hour.lived` | Since your late forties, you have handed the ways of your first family down to those who come after you, your later years mirroring your childhood. |
+| `units.TEMPLATED tpl_depth · bond.bind.year_hour.coming` | Your later years will come to echo your earliest ones, as you hand the habits of your first home to the young ones you guide. |
+| `units.TEMPLATED tpl_depth · bond.clash.month_hour.lived` | From your late forties, you have let go of the career your rising years built and turned toward work that fits your later life. |
+| `units.TEMPLATED tpl_depth · bond.clash.month_hour.coming` | Your later life will outgrow the career you shape in your rising years, and when the Late Chapter opens you will change course rather than cling to it. |
+| `units.TEMPLATED tpl_depth · bond.clash.year_month.lived` | From your late teens, you made your own way early and away from home, in a trade nobody in your family had chosen. |
+| `units.TEMPLATED tpl_depth · bond.clash.year_month.coming` | In your late teens, you will leave home early to follow work your family never pictured for you. |
+| `units.TEMPLATED tpl_depth · bond.frame.month_day_hour.lived` | What you started in your rising years has grown through your Home Chapter into your later life, with work, a partner and the next generation adding to it. |
+| `units.TEMPLATED tpl_depth · bond.frame.month_day_hour.coming` | You will keep building on what you begin in your rising years, as your home and the next generation add to it through each later decade. |
+| `units.TEMPLATED tpl_depth · bond.frame.month_hour.lived` | Since your late forties, you have carried the drive of your working years into later life, with the people you trained standing beside you as allies. |
+| `units.TEMPLATED tpl_depth · bond.frame.month_hour.coming` | Your working momentum will carry far into your later years, with those you train turning into your closest allies. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_hour.lived` | Through your later years, you have taken up something your first family started and built on it beside the people after you. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_hour.coming` | From your late forties, you will add to something your first home started, with the people after you working beside you. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_month.lived` | From your late teens, you walked into openings your parents or siblings had made, the family you grew up in giving your working life a running start. |
+| `units.TEMPLATED tpl_depth · bond.frame.year_month.coming` | Your working life will start at a run, with parents or siblings opening its first doors for you. |
+| `units.TEMPLATED tpl_depth · bond.selfpunish.month_hour.lived` | Since your late forties, you have met a habit from your working years a second time, and recognised it soon enough to turn it down. |
+| `units.TEMPLATED tpl_depth · bond.selfpunish.month_hour.coming` | Your later life will bring back an old working habit, and the second time around you will see it coming and turn it down. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -410,3 +495,143 @@
 | `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · rescue.output` | What you make protects it, work you finish and show, and you find the time to make it in your decades {when}. |
 | `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · rescue.seal` | Support protects it, a teacher or a backer or a home base, and you find that support in your decades {when}. |
 | `retired_2026-10-21_section_audit.TEMPLATED tpl_depth · rescue.wealth` | Money protects it, a steady income or a shared venture, and you meet it in your decades {when}. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE zhengguan_ge · reading` | Your chart is built around duty kept and a role held in public. You do best inside a clear order, with a title and terms written down, and you keep your word long after others have bent theirs. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE qisha_ge · reading` | Your chart answers to pressure, the hard test and the person who pushes back. You rise when the risk is real and the deadline is close, and you are steadiest in the thick of a fight. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE piancai_ge · reading` | Your chart runs on range, money that moves and openings that arrive through side doors. You do best with several things in play at once, a deal here and a contact there, and you earn most where you are free to roam. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE zhengyin_ge · reading` | Your chart rests on shelter and learning, on teachers who back you and places that look after their own. You do your best work where study is valued and someone senior vouches for you, and you repay that care with years of loyalty. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE pianyin_ge · reading` | At the centre of your chart sits private study, the unusual knowledge few people around you share. You are at your best in a niche of your own, on a problem nobody else can read, and you rely on what you worked out more than on what you were taught. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE shishen_ge · reading` | Your chart grows out of ease and appetite, the pleasure of making something well and sharing it. You thrive at your own pace on work you enjoy, and what you make with a light hand is what people come back for. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE shangguan_ge · reading` | Your chart turns on a sharp voice and a talent that refuses to sit quietly. You shine where you are judged on what you can do, on a stage or under your own name, and you do your finest work when nobody stands over you. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE jianlu_ge · reading` | Your chart takes its shape from your own strength, with little handed down and most things built by hand. You do best where effort is paid to you directly, and you are proudest of what you made with nobody's help. |
+| `retired_2026-11-14_rulings_round.units.STRUCTURE yuejie_ge · reading` | Your chart centres on the Rival, on equals who compete with you and share in whatever you have. You work hardest in a team where everyone can see the score, and you win more in an open contest than in a quiet deal. |
+| `retired_2026-11-14_rulings_round.units.GOD bijian · missing` | Your chart has no Twin, and nobody inside it stands level with you or carries half the load. You find your footing through other people, a team or a close friend, and you stand firmest when someone stands beside you. |
+| `retired_2026-11-14_rulings_round.units.GOD bijian · seen.inside` | In private you want to answer to nobody, and you would rather finish a job alone than wait for a hand. |
+| `retired_2026-11-14_rulings_round.units.GOD bijian · season_need.shown` | The Twin your season asks for stands in plain view, and you hold your ground openly among equals. |
+| `retired_2026-11-14_rulings_round.units.GOD bijian · season_need.rooted` | Your season asks for the Twin and your chart holds it out of sight, and you draw on a steady faith in yourself that nobody else sees. |
+| `retired_2026-11-14_rulings_round.units.GOD bijian · season_need.hidden` | The Twin your season asks for rests deep in your chart, and you find your feet late, when a hard stretch leaves nobody else to lean on. |
+| `retired_2026-11-14_rulings_round.units.GOD jiecai · missing` | No Rival sits anywhere in your chart, and no one in it fights you for your share or dares you to win. You keep what you earn without a contest, and you meet real competition only when a colleague wants the same post. |
+| `retired_2026-11-14_rulings_round.units.GOD jiecai · seen.plain` | You come across as bold and openhanded, quick to share what you have and quicker to race for more. |
+| `retired_2026-11-14_rulings_round.units.GOD jiecai · season_need.shown` | Your season asks for the Rival and your chart shows it plainly, and you compete openly with friends who push you to win. |
+| `retired_2026-11-14_rulings_round.units.GOD jiecai · season_need.rooted` | You carry the Rival your season asks for out of view, and you push yourself against the people around you without ever calling it a race. |
+| `retired_2026-11-14_rulings_round.units.GOD jiecai · season_need.hidden` | The Rival your season asks for lies buried far down, and you show your fighting nerve only when someone reaches for what is yours. |
+| `retired_2026-11-14_rulings_round.units.GOD shishen · missing` | The Artisan is missing from your chart, and nobody in it lets you rest or enjoy your own work. You plan your pleasures like tasks, a booked dinner or a day off on the calendar, and you relax best when someone else sets the table. |
+| `retired_2026-11-14_rulings_round.units.GOD shishen · seen.plain` | You come across as easygoing and warm, the friend who cooks for everyone and makes hard work look light. |
+| `retired_2026-11-14_rulings_round.units.GOD shishen · season_need.shown` | The Artisan your season asks for sits out in the open, and you make things with an ease that everyone around you can see. |
+| `retired_2026-11-14_rulings_round.units.GOD shishen · season_need.rooted` | The Artisan your season asks for stays beneath the surface, and you refill yourself through a private craft or a slow meal at home. |
+| `retired_2026-11-14_rulings_round.units.GOD shishen · season_need.hidden` | The Artisan your season asks for survives only as a faint trace, and you let yourself enjoy things in small bursts, a good meal here and a finished project there. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · missing` | Your chart carries no Virtuoso, and nobody inside it argues back or tells you a plan is wrong. You follow the brief as written, and you raise objections late and politely, after the decision is made. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · seen.plain` | You come across as quick and outspoken, the one who says what the rest of the meeting was thinking. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · seen.inside` | You rewrite other people's work in your head, and you want your talent noticed more than you admit. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · season_need.shown` | The Virtuoso your season asks for is on show, and you are known for a sharp voice and work that breaks the usual mould. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · season_need.rooted` | The Virtuoso your season asks for lives under the surface of your chart, and you put your sharpest ideas into the work instead of saying them aloud. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · season_need.hidden` | The Virtuoso your season asks for sits at the very bottom of your chart, and you speak your sharpest mind only once a rule has pushed you too far. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · missing` | With no Horizon in your chart, nobody inside it opens a side door or brings you an offer you did not chase. You earn by the front route, one job at a time, and you trust what you worked for over a windfall. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · seen.plain` | You come across as easy with strangers and quick with an offer, the one who always knows someone useful. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · seen.inside` | You keep a second plan that nobody has heard about, and you want more open roads than you admit. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · season_need.shown` | You have the Horizon your season asks for in full view, and you meet offers and new people openly, with more chances than you can take. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · season_need.rooted` | The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · season_need.hidden` | Your season asks for the Horizon and your chart keeps only a thin seam of it, and you stumble on your chances late, through a friend of a friend. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengcai · missing` | Your chart gives the Steward no place, and nobody inside it keeps the books or counts what comes in. You handle money in bursts and forget it for months, and you rely on a partner or a spreadsheet to keep track. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengcai · seen.inside` | You keep a private tally of what things cost, and you sleep better with something put aside. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengcai · season_need.shown` | Your chart puts the Steward your season asks for right on the surface, and you earn steadily through work with a clear wage and a known return. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengcai · season_need.rooted` | The Steward your season asks for is held inside your chart rather than on show, and you save quietly and keep more in reserve than anyone guesses. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengcai · season_need.hidden` | You hold the Steward your season asks for only deep inside your chart, and you learn to keep money late, once a lean spell teaches you how. |
+| `retired_2026-11-14_rulings_round.units.GOD qisha · missing` | Your chart is without the General, and nobody inside it sets you a hard test or a date you cannot move. You keep your own pace and face few real trials, and you learn how strong you are only when pressure comes from outside. |
+| `retired_2026-11-14_rulings_round.units.GOD qisha · seen.plain` | You come across as tough and hard to rattle, the person people send in when the stakes are high. |
+| `retired_2026-11-14_rulings_round.units.GOD qisha · seen.inside` | You push yourself harder in private than anyone asks of you, and you set tests that nobody else sees. |
+| `retired_2026-11-14_rulings_round.units.GOD qisha · season_need.shown` | The General your season asks for leads from the front, and you meet hard tests in public and are trusted for how you handle them. |
+| `retired_2026-11-14_rulings_round.units.GOD qisha · season_need.rooted` | The General your season asks for works unseen from within, and you hold yourself to a hard private standard that makes you stronger. |
+| `retired_2026-11-14_rulings_round.units.GOD qisha · season_need.hidden` | The General your season asks for sleeps under everything else, and you go untested for years, then rise to the one hard test that finally comes. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · missing` | No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · seen.plain` | You come across as reliable and correct, the person others trust to follow the rules and keep their word. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · seen.inside` | You hold yourself to rules nobody wrote down, and you want a clear title that is yours alone. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · season_need.shown` | Your chart displays the Magistrate your season asks for, and you hold a clear role that others see and rely on. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · season_need.rooted` | Your chart holds the Magistrate your season asks for inside, where nobody watches, and you live by a private code that keeps your days in order. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · season_need.hidden` | Your chart buries the Magistrate your season asks for in a deep corner, and you take on a formal role late and grow into it slowly. |
+| `retired_2026-11-14_rulings_round.units.GOD pianyin · missing` | Nobody inside your chart pulls you toward odd subjects or second thoughts, because it holds no Alchemist. You take knowledge as it is taught, and you act on a straight answer before you think to question it. |
+| `retired_2026-11-14_rulings_round.units.GOD pianyin · seen.plain` | You come across as unusual and hard to read, with a specialist interest nobody saw coming. |
+| `retired_2026-11-14_rulings_round.units.GOD pianyin · season_need.shown` | The Alchemist your season asks for shows on the face of your chart, and you are the person others bring their strangest questions to. |
+| `retired_2026-11-14_rulings_round.units.GOD pianyin · season_need.rooted` | The Alchemist your season asks for runs underneath without showing, and you study in private and keep the strangest of what you learn to yourself. |
+| `retired_2026-11-14_rulings_round.units.GOD pianyin · season_need.hidden` | The Alchemist your season asks for lies as a thin thread far beneath the surface, and you reach for strange knowledge only when ordinary answers run out. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · missing` | Your chart holds no Sage, and nobody inside it shelters you or praises you for trying. You learned early to reassure yourself, and you trust help more when you did not have to ask for it. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · seen.plain` | You come across as calm and well taught, someone a teacher or an older friend has clearly looked after. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · seen.inside` | You want to be looked after more than you say, and you stay close to the people who once taught you. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · season_need.shown` | In your chart the Sage your season asks for appears openly, and you are offered help and teaching before you think to ask. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · season_need.rooted` | The Sage your season asks for rests quietly inside your chart, and you have backing from an older ally who never asks for credit. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · season_need.hidden` | What your season asks for is the Sage and your chart holds it only deep down, and you meet the right teacher late, after years of teaching yourself. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · seen.close` | Only the people you live with see the second list. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.bind.day_hour` | The home you make with a partner draws in the younger people around you, and you spend your later years inside the household you built. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.bind.month_day` | You find a partner close to your work or your parents' circle, and the line between your job and your home stays thin for years. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.bind.month_hour` | You carry the people and skills of your working years into your later life, and the circle you build in those years stays with you. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.bind.year_hour` | You pass the customs of your first family to the young people you raise or train, and your later years come to resemble your earliest ones. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.bind.year_month` | Your first family stays tied to your working life, and you take a trade or a contact or a loyalty from home into every job you hold. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.clash.day_hour` | The young people in your life pull against the home you share with a partner, and you move house or rework your days to keep both. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.clash.month_day` | Work and home compete for the same hours in your life, and you change jobs or addresses when the strain between them gets too loud. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.clash.month_hour` | What you built at work in your rising years stops fitting your later life, and you change course in your late forties rather than hold on to it. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.clash.year_day` | Your own household breaks sharply from the one you grew up in, and you keep a partner and your first family at a careful distance. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.clash.year_hour` | Nothing from the house you grew up in passes cleanly to the young people after you, and you raise or train them by rules you wrote yourself. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.clash.year_month` | Your choice of work breaks with what your family expected, and you leave home early to make your own way in a trade nobody there chose. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.day_hour` | A partner and the young ones you raise or train pull together around one shared aim, and you see your household grow stronger with each passing year. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.month_day` | Your working years feed straight into your home, and you and a partner end up backing the same plan or running something together. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.month_day_hour` | Work, home and the people after you build on each other, and what you start in your rising years keeps growing through every later decade. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.month_hour` | The momentum you build at work carries well into your later life, and the people you train along the way become your strongest allies. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.year_day` | Your first family stands behind the home you make, and you build a household with a partner while their help stays close at hand. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.year_day_hour` | You link the house you grew up in to the people after you, and your own home becomes the place where three generations meet. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.year_hour` | Something your first family began passes to the young ones after you, and you spend your later years adding to it alongside them. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.year_month` | The household you grew up in gives your working life a running start, and you walk through doors your parents or siblings opened for you. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.year_month_day` | One aim gathers force from your childhood through your working years into your own home, and you carry it from one stage to the next. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.year_month_day_hour` | Every part of your life adds to one story, from your first home through work and partnership to the people after you, and you watch it gather weight. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.frame.year_month_hour` | Skills learned at home run through your career into the people you train, and you become the link that carries them forward. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.harm.day_hour` | A quiet friction runs between a partner and the people after you, and you spend years smoothing over complaints nobody says out loud. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.harm.month_hour` | Your work rubs at the people after you in small ways, a missed evening or a forgotten promise, and you make it up to them in person. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.harm.year_day` | An old irritation from your first home follows you into the one you share with a partner, and you settle it one small argument at a time. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.harm.year_hour` | Something from your own childhood wears at how you treat the young ones in your care, and you catch yourself repeating it and correct it. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.harm.year_month` | Your family never quite approves of the work you choose, and you answer that quiet doubt with results more than with arguments. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.none_hard` | No clashes, punishments or harms sit between your gates, and you argue with yourself less than most people do. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.punish.day_hour` | The same argument returns at home between you and the people after you, and you break the loop by changing your own rule first. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.punish.month_day` | You bring the standards of your work home, and a partner meets the same demands you make of colleagues until you draw a line where the job stops. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.punish.month_hour` | The pressure you put on yourself at work passes to the people you train, and you ease it once you see them repeat your hardest years. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.punish.year_day` | Old house rules from your childhood come back inside your own home, and you hear them in your voice with a partner and rewrite them one at a time. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.punish.year_hour` | You hold the people after you to the standards you were raised on, and the same friction repeats until you decide which of those rules you keep. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.punish.year_month` | Your family's expectations follow you into every job, and you drive yourself harder than any boss asks until you settle on your own measure. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.selfpunish.day_hour` | What you struggle with at home reappears in the people after you, and you break the habit in yourself first so they do not inherit it. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.selfpunish.month_day` | You make the same mistake at work and at home, taking on too much and resenting it later, and you catch it sooner each time it returns. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.selfpunish.month_hour` | A habit that holds you back at work returns in your later life, and you see it coming the second time and turn it down. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.selfpunish.year_hour` | Your childhood plays out again around the young ones in your care, and you recognise the old scene early enough to give it a different ending. |
+| `retired_2026-11-14_rulings_round.units.TEMPLATED tpl_depth · bond.selfpunish.year_month` | The role you played in your family returns at work, the peacemaker or the one who carries everything, and you change it once you see it twice. |
+| `retired_2026-11-14_rulings_round.units.TG_PATTERN bi_jie_duo_cai · blueprint_line` | Equals and money share your chart, and you lose most where you share most, with friends and family and partners. |
+| `retired_2026-11-14_rulings_round.units.TG_PATTERN cai_guan_xiang_sheng · blueprint_line` | Good results keep earning you a bigger role, and you get promoted on your record more than on anything you ask for. |
+| `retired_2026-11-14_rulings_round.units.TG_PATTERN guan_yin_xiang_sheng · blueprint_line` | Each role you take on comes with someone senior who teaches you, and you rise slowly and cleanly inside the places that take you in. |
+| `retired_2026-11-14_rulings_round.units.TG_PATTERN sha_yin_xiang_sheng · blueprint_line` | Every hard test you go through becomes something you know, and you leave each demanding stretch with a qualification or a title you did not have before. |
+| `retired_2026-11-14_rulings_round.units.TG_PATTERN shang_guan_jian_guan · blueprint_line` | Your talent argues with whoever is in charge, and you are at your sharpest where nobody signs off on every line. |
+| `retired_2026-11-14_rulings_round.units.TG_PATTERN shang_guan_pei_yin · blueprint_line` | Your sharpest talent has years of study behind it, and you are known for being both daring and right. |
+| `retired_2026-11-14_rulings_round.units.TG_PATTERN shi_shang_sheng_cai · blueprint_line` | Things you make sell without much pushing, and you earn the most from the projects you would have done for nothing. |
+| `retired_2026-11-14_rulings_round.units.TG_PATTERN shishen_zhi_sha · blueprint_line` | A hard deadline settles you instead of rattling you, and you turn out your best work when the clock runs short. |
+| `retired_2026-11-14_rulings_round.units.GOD bijian · year_domain.Family` | Siblings and cousins of your own age weigh in on family matters this year, and you settle home decisions between equals. |
+| `retired_2026-11-14_rulings_round.units.GOD jiecai · year_domain.Career` | A colleague or partner reaches for the same credit this year, and you keep your share by naming it before anyone else does. |
+| `retired_2026-11-14_rulings_round.units.GOD jiecai · year_domain.Wealth` | Shared purchases and a friend's request for help pull at your money this year, and you decide how much of your own you put in. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · year_domain.Family` | Family life widens this year to relatives far away or newly met, and you spend more of your time and money on people beyond your own home. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · year_domain.Wealth` | Money reaches you this year through side doors like a second job or an unexpected offer, and you spread it across more ventures than usual. |
+| `retired_2026-11-14_rulings_round.units.GOD pianyin · year_domain.Career` | Your work turns toward study and specialist skill this year, and you learn more out of sight than you earn in plain view. |
+| `retired_2026-11-14_rulings_round.units.GOD qisha · year_domain.Career` | A demanding task or a rival with standing tests your work this year, and you hold up under it better than anyone expects. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · year_domain.Career` | Skill and impatience with the rules arrive together in your job this year, and you say out loud what colleagues only grumble about. |
+| `retired_2026-11-14_rulings_round.units.GOD shishen · year_domain.Career` | Your work loosens and pleases people this year, and you get paid more readily for what you enjoy making. |
+| `retired_2026-11-14_rulings_round.units.GOD shishen · year_domain.Family` | Home gathers around food and easy company this year, and you are the one who cooks, hosts or makes the place feel lived in. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengcai · year_domain.Career` | Steady work and the pay it earns hold your attention this year, and you build your standing through the hours you put in and the details you get right. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengcai · year_domain.Family` | Household accounts and the care of family property pass through your hands this year, and you keep the home in careful order. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengcai · year_domain.Wealth` | Bills, savings and the slow work of keeping accounts take up more of your attention this year, and you know where each part of your money goes. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · year_domain.Career` | Your work gains a title, a rule book or a formal promise this year, and you carry more trust at the end of it than at the start. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · year_domain.Family` | Paperwork, signatures and speaking for the household fall to you this year, and you carry family duties in full view of your relatives. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · year_domain.Family` | A relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be. |
+| `retired_2026-11-14_rulings_round.units.GOD bijian · year_domain.Growth` | Working alongside equals shows you your own shape this year, and you lean less on anyone's approval and more on your own judgement. |
+| `retired_2026-11-14_rulings_round.units.GOD bijian · year_domain.Social` | Friends meet you as peers this year, and you spend more time with people who do what you do than with those who look up to you. |
+| `retired_2026-11-14_rulings_round.units.GOD jiecai · year_domain.Social` | Competition runs through your circle this year for the same invitations and attention, and you share your friends more widely than you planned. |
+| `retired_2026-11-14_rulings_round.units.GOD piancai · year_domain.Social` | Your circle widens this year through chance meetings and introductions, and you move easily between groups that never meet each other. |
+| `retired_2026-11-14_rulings_round.units.GOD pianyin · year_domain.Growth` | Private study and unusual interests change you this year in ways few people see, and you become more yourself out of public view. |
+| `retired_2026-11-14_rulings_round.units.GOD pianyin · year_domain.Mind` | Odd, specialist subjects pull at your thinking this year, and you study alone what few people around you would think to ask about. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · year_domain.Mind` | Your thinking sharpens against the ideas you are handed this year, and you find flaws in what others accept faster than you can keep them to yourself. |
+| `retired_2026-11-14_rulings_round.units.GOD shangguan · year_domain.Social` | Conversations with friends grow sharper and wittier this year, and you say the thing everyone else at the table was thinking. |
+| `retired_2026-11-14_rulings_round.units.GOD shishen · year_domain.Health` | Meals, sleep and easy pleasures take a larger share of your days this year, and you feel how closely your body follows the pace you set. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengguan · year_domain.Social` | Roles and expectations mark your friendships this year, a committee seat or a host's duty, and you are known for showing up when you said you would. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · year_domain.Health` | Your body leans on shelter and routine this year, warm meals and early nights, and you accept more looking after than you usually allow. |
+| `retired_2026-11-14_rulings_round.units.GOD zhengyin · year_domain.Mind` | Books, courses and a patient teacher fill more of your evenings this year, and you learn most when someone else sets the syllabus. |

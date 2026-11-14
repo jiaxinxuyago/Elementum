@@ -5,14 +5,14 @@
    "kind": "headline",
    "page": "seat:bijian_hour_stem.Growth",
    "family": "headline",
-   "text": "You grow by your own measure, nobody else's."
+   "text": "Your growth runs on your own measure."
   },
   {
    "key": "POSITION bijian_hour_stem · domain_climb.Growth.recognition",
    "kind": "recognition",
    "page": "seat:bijian_hour_stem.Growth",
    "family": "recognition",
-   "text": "You grow by measuring yourself against your own last attempt, never against the crowd. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You grow best alone, at the price of the help you turn down."
+   "text": "You measure yourself against your own last attempt, never against the crowd. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You grow best alone, at the price of the help you turn down."
   },
   {
    "key": "POSITION bijian_hour_stem · domain_climb.Growth.lived",
@@ -26,7 +26,7 @@
    "kind": "ahead",
    "page": "seat:bijian_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "From your late forties the opinions that once steered you lose their hold, and you stand on your own feet in every choice that matters. You grow more independent with each decade, the one in your circle who changes course without asking anyone first."
+   "text": "From your late forties the opinions that once steered you lose their hold, and you stand on your own feet in every choice that matters. You grow more independent with each decade, quick to change course without asking anyone first."
   },
   {
    "key": "POSITION bijian_hour_stem · domain_climb.Family.headline",
@@ -47,14 +47,14 @@
    "kind": "lived",
    "page": "seat:bijian_hour_stem.Family",
    "family": "seatbeat",
-   "text": "Since your late forties you have handled your own affairs, the paperwork and the repairs and the lean months alike. You turned down so much help that the people after you stopped offering it and started copying you instead."
+   "text": "You have handled your own affairs since your late forties, the paperwork and the repairs and the lean months alike. You turned down so much help that the people after you stopped offering it and started copying you instead."
   },
   {
    "key": "POSITION bijian_hour_stem · domain_climb.Family.ahead",
    "kind": "ahead",
    "page": "seat:bijian_hour_stem.Family",
    "family": "seatbeat",
-   "text": "From your late forties the people after you need you less, and what grows between you is a bond between equals. You stand side by side with them through their own hard weeks, trusting them to cope alone as you always have."
+   "text": "Past your late forties the people after you need you less, and what grows between you is a bond between equals. You stand side by side with them through their own hard weeks, trusting them to cope alone as you always have."
   },
   {
    "key": "POSITION jiecai_hour_stem · domain_climb.Wealth.headline",
@@ -68,14 +68,14 @@
    "kind": "recognition",
    "page": "seat:jiecai_hour_stem.Wealth",
    "family": "recognition",
-   "text": "You back the people you believe in, a friend's new start or a bold plan you wish were yours, and you give with an open hand. Because you love a contest, a confident request is hard for you to refuse. You know which of your gifts were really losses, though you never claim them back."
+   "text": "You back the people you believe in, a friend's new start or a bold plan you wish were yours, and you give with an open hand. Because a confident request feels like a dare, you match it before you have thought it through. You know which of your gifts were really losses, though you never claim them back."
   },
   {
    "key": "POSITION jiecai_hour_stem · domain_climb.Wealth.lived",
    "kind": "lived",
    "page": "seat:jiecai_hour_stem.Wealth",
    "family": "seatbeat",
-   "text": "Since your late forties money has moved through your circle in both directions, your share in one friend's plan and a loan from another when you needed it. You have kept a quiet score of who backed whom, without losing a friend over it."
+   "text": "Since your late forties money has moved through your circle in both directions, your share going into friends' plans and their help coming back when you needed it. You have kept a quiet score of who backed whom, without losing a friend over it."
   },
   {
    "key": "POSITION jiecai_hour_stem · domain_climb.Wealth.ahead",
@@ -89,7 +89,7 @@
    "kind": "headline",
    "page": "seat:jiecai_hour_stem.Growth",
    "family": "headline",
-   "text": "You grow fastest when someone is racing you."
+   "text": "Someone to beat keeps you growing."
   },
   {
    "key": "POSITION jiecai_hour_stem · domain_climb.Growth.recognition",
@@ -103,14 +103,14 @@
    "kind": "lived",
    "page": "seat:jiecai_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "Since your late forties you have kept a contest going with people half your age, matching their pace in whatever they take up. You have won more of those races than anyone expected, and lost the rest with good grace."
+   "text": "You have kept a contest going with people half your age since your late forties, matching their pace in whatever they take up. You have won more of those races than anyone expected, and lost the rest with good grace."
   },
   {
    "key": "POSITION jiecai_hour_stem · domain_climb.Growth.ahead",
    "kind": "ahead",
    "page": "seat:jiecai_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "From your late forties your rivals get younger, and you grow by keeping up with them. You share what you know freely, because a race you win too easily teaches you nothing."
+   "text": "Past your late forties your rivals get younger, and you grow by keeping up with them. You share what you know freely, because a race you win too easily teaches you nothing."
   },
   {
    "key": "POSITION piancai_hour_stem · domain_climb.Wealth.headline",
@@ -131,7 +131,7 @@
    "kind": "lived",
    "page": "seat:piancai_hour_stem.Wealth",
    "family": "seatbeat",
-   "text": "Since your late forties money has reached you through doors you had stopped watching, a late venture or a deal brought by someone a generation younger. You have built a wide spread of small ventures in place of one steady income, each one opened on a hunch."
+   "text": "In the years since your late forties money has reached you through doors you had stopped watching, late ventures and deals brought by people a generation younger. You have built a wide spread of small ventures in place of one steady income, each one opened on a hunch."
   },
   {
    "key": "POSITION piancai_hour_stem · domain_climb.Wealth.ahead",
@@ -145,14 +145,14 @@
    "kind": "headline",
    "page": "seat:piancai_hour_stem.Growth",
    "family": "headline",
-   "text": "You grow every time you start somewhere new."
+   "text": "Every fresh start widens your world."
   },
   {
    "key": "POSITION piancai_hour_stem · domain_climb.Growth.recognition",
    "kind": "recognition",
    "page": "seat:piancai_hour_stem.Growth",
    "family": "recognition",
-   "text": "You grow by widening your range, a new field or a new place or a crowd you know nothing about. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again."
+   "text": "You widen your range whenever life allows, a new field or a new place or a crowd you know nothing about. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again."
   },
   {
    "key": "POSITION piancai_hour_stem · domain_climb.Growth.lived",
@@ -166,7 +166,7 @@
    "kind": "ahead",
    "page": "seat:piancai_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "From your late forties your world gets wider, through travel and through work in places that are new to you. You become the one in your family with the newest stories, and the most open to the next change."
+   "text": "Your world gets wider from your late forties, through travel and through work in places that are new to you. You become the one in your family with the newest stories, and the most open to the next change."
   },
   {
    "key": "POSITION pianyin_hour_stem · domain_climb.Mind.headline",
@@ -187,7 +187,7 @@
    "kind": "lived",
    "page": "seat:pianyin_hour_stem.Mind",
    "family": "seatbeat",
-   "text": "Since your late forties your intuitions have hardened into a private method, quick, accurate and hard to pass on. You have been right about what everyone else missed so many times that people now bring you the puzzles they cannot crack."
+   "text": "Your intuitions have hardened into a private method since your late forties, quick, accurate and hard to pass on. You have been right about what everyone else missed so many times that people now bring you the puzzles they cannot crack."
   },
   {
    "key": "POSITION pianyin_hour_stem · domain_climb.Mind.ahead",
@@ -215,7 +215,7 @@
    "kind": "lived",
    "page": "seat:pianyin_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "Since your late forties a subject most people your age would never touch has become yours, and the interests you kept for appearances have fallen away. You have grown harder to place and more at ease with it, the strange one by choice now."
+   "text": "A subject most people your age would never touch has become yours since your late forties, and the interests you kept for appearances have fallen away. You have grown harder to place and more at ease with it, the strange one by choice now."
   },
   {
    "key": "POSITION pianyin_hour_stem · domain_climb.Growth.ahead",
@@ -250,7 +250,7 @@
    "kind": "ahead",
    "page": "seat:pianyin_hour_stem.Career",
    "family": "seatbeat",
-   "text": "From your late forties the people after you seek out what you know, bringing you the puzzles their own training could not solve. You become the one they consult in private, watching your methods carried into work you will never do yourself."
+   "text": "The people after you seek out what you know from your late forties, bringing you the puzzles their own training could not solve. You become the one they consult in private, watching your methods carried into work you will never do yourself."
   },
   {
    "key": "POSITION qisha_hour_stem · domain_climb.Career.headline",
@@ -299,14 +299,14 @@
    "kind": "lived",
    "page": "seat:qisha_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "Since your late forties the hard tests have kept coming, and you have met them with better timing and a cooler head. You have won more of the battles that mattered while making fewer enemies than in your younger fights."
+   "text": "The hard tests have kept coming since your late forties, and you have met them with better timing and a cooler head. You have picked the battles that mattered and let the rest pass, making fewer enemies than in your younger fights."
   },
   {
    "key": "POSITION qisha_hour_stem · domain_climb.Growth.ahead",
    "kind": "ahead",
    "page": "seat:qisha_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "From your late forties the tests you face are tests of nerve more than strength, and you meet them with a calm that surprises people who knew you younger. You trade force for precision with every year, saving your hardest push for the one moment that decides it."
+   "text": "In the years after your late forties the tests you face are tests of nerve more than strength, and you meet them with a calm that surprises people who knew you younger. You trade force for precision with every year, saving your hardest push for the one moment that decides it."
   },
   {
    "key": "POSITION qisha_hour_stem · domain_climb.Family.headline",
@@ -327,7 +327,7 @@
    "kind": "lived",
    "page": "seat:qisha_hour_stem.Family",
    "family": "seatbeat",
-   "text": "Since your late forties the people after you have brought you their hardest weeks, and you have pushed them to face what scared them. You have watched them come through tougher than they expected, each test leaving them less afraid of the next."
+   "text": "The people after you have brought you their hardest weeks since your late forties, and you have pushed them to face what scared them. You have watched them come through tougher than they expected, each test leaving them less afraid of the next."
   },
   {
    "key": "POSITION qisha_hour_stem · domain_climb.Family.ahead",
@@ -355,7 +355,7 @@
    "kind": "lived",
    "page": "seat:shangguan_hour_stem.Career",
    "family": "seatbeat",
-   "text": "Since your late forties your work has grown bolder, and you have said in public what you once kept back. You have outlasted the jobs that wanted a quieter voice, doing better work in each one that replaced them."
+   "text": "Your work has grown bolder since your late forties, and you have said in public what you once kept back. You have outlasted the jobs that wanted a quieter voice, doing better work in each one that replaced them."
   },
   {
    "key": "POSITION shangguan_hour_stem · domain_climb.Career.ahead",
@@ -383,14 +383,14 @@
    "kind": "lived",
    "page": "seat:shangguan_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "Since your late forties you have said out loud what others kept quiet about, and changed your way of working because of it. You grew more from each break than in the calmer years before, though each one looked risky to the people around you."
+   "text": "Since your late forties you have said out loud what others kept quiet about, and changed your way of working because of it. You grew more from each break than in the calmer years before, though each one looked risky to everyone watching."
   },
   {
    "key": "POSITION shangguan_hour_stem · domain_climb.Growth.ahead",
    "kind": "ahead",
    "page": "seat:shangguan_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "From your late forties the people who once called you difficult start calling you wise, and your arguments get a hearing they never had. You keep your edge in these years by finding one settled idea after another to question."
+   "text": "Past your late forties the people who once called you difficult start calling you wise, and your arguments get a hearing they never had. You keep your edge in these years by finding one settled idea after another to question."
   },
   {
    "key": "POSITION shishen_hour_stem · domain_climb.Family.headline",
@@ -404,14 +404,14 @@
    "kind": "recognition",
    "page": "seat:shishen_hour_stem.Family",
    "family": "recognition",
-   "text": "In your family you are the one who remembers birthdays, cooks for the holidays and never arrives empty-handed. Because ease is what you want for the people you love, you make an evening with you feel like time off. You are glad that your family takes after your kindness more than your opinions."
+   "text": "In your family you remember the birthdays, cook for the holidays and never arrive empty-handed. Because ease is what you want for the people you love, you make an evening with you feel like time off. You are glad that your family takes after your kindness more than your opinions."
   },
   {
    "key": "POSITION shishen_hour_stem · domain_climb.Family.lived",
    "kind": "lived",
    "page": "seat:shishen_hour_stem.Family",
    "family": "seatbeat",
-   "text": "Since your late forties you have become the relative who hosts, the one whose table the people after you head for first. You see your own habits of ease in how they now treat their guests, down to the second helping."
+   "text": "You have become the relative who hosts since your late forties, the one whose table the people after you head for first. You see your own habits of ease in how they now treat their guests, down to the second helping."
   },
   {
    "key": "POSITION shishen_hour_stem · domain_climb.Family.ahead",
@@ -446,7 +446,7 @@
    "kind": "ahead",
    "page": "seat:shishen_hour_stem.Career",
    "family": "seatbeat",
-   "text": "From your late forties your working life slows to the pace that suits you, and the work you make for others becomes the work you enjoy most. You are paid for it in thanks as well as money, a trade that pleases you more each year."
+   "text": "Your working life slows to the pace that suits you from your late forties, and the work you make for others becomes the work you enjoy most. You are paid for it in thanks as well as money, a trade that pleases you more each year."
   },
   {
    "key": "POSITION zhengcai_hour_stem · domain_climb.Wealth.headline",
@@ -474,7 +474,7 @@
    "kind": "ahead",
    "page": "seat:zhengcai_hour_stem.Wealth",
    "family": "seatbeat",
-   "text": "From your late forties the slow years of saving start paying you back, and money stops being something you check every week. You spend on the people you love without a second look at the budget, because the budget has held for decades."
+   "text": "The slow years of saving start paying you back in your late forties, and money stops being something you check every week. You spend on the people you love without a second look at the budget, because the budget has held for decades."
   },
   {
    "key": "POSITION zhengcai_hour_stem · domain_climb.Family.headline",
@@ -495,7 +495,7 @@
    "kind": "lived",
    "page": "seat:zhengcai_hour_stem.Family",
    "family": "seatbeat",
-   "text": "Since your late forties you have covered the gaps in your family before anyone had to ask, the fees and the deposits nobody mentioned. You have become the one they count on, a place you earned one settled bill at a time."
+   "text": "You have covered the gaps in your family since your late forties, paying the fees and the deposits before anyone had to ask. You have earned the family's trust one settled bill at a time."
   },
   {
    "key": "POSITION zhengcai_hour_stem · domain_climb.Family.ahead",
@@ -516,14 +516,14 @@
    "kind": "recognition",
    "page": "seat:zhengguan_hour_stem.Family",
    "family": "recognition",
-   "text": "In your family you take the formal roles, the one who signs as witness and keeps the papers in order. Because a role tells you where you stand, you keep the family's promises even when others have forgotten making them. You hold yourself to your word more strictly than you hold anyone else."
+   "text": "You take the formal roles in your family, the one who gives the toast, signs as witness and speaks for everyone when it counts. Because a role tells you where you stand, you keep the family's promises even when others have forgotten making them. You hold yourself to your word more strictly than you hold anyone else."
   },
   {
    "key": "POSITION zhengguan_hour_stem · domain_climb.Family.lived",
    "kind": "lived",
    "page": "seat:zhengguan_hour_stem.Family",
    "family": "seatbeat",
-   "text": "Since your late forties you have carried your family's formal duties, speaking for it in public and answering for its name. You have watched the people after you learn to hold a promise the way you hold yours."
+   "text": "Since your late forties you have carried your family's formal duties, answering for its name and holding it to what it has agreed. You have watched the people after you learn to hold a promise the way you hold yours."
   },
   {
    "key": "POSITION zhengguan_hour_stem · domain_climb.Family.ahead",
@@ -579,7 +579,7 @@
    "kind": "lived",
    "page": "seat:zhengguan_hour_stem.Career",
    "family": "seatbeat",
-   "text": "Since your late forties your work has shifted toward oversight, a senior post or a place on a board or a role answering for the people below you. You were trusted with the running of things you once only served, a responsibility you have carried without a slip."
+   "text": "Your work has shifted toward oversight since your late forties, a senior post or a place on a board or a role answering for the people below you. You were trusted with the running of things you once only served, a responsibility you have carried without a slip."
   },
   {
    "key": "POSITION zhengguan_hour_stem · domain_climb.Career.ahead",
@@ -607,7 +607,7 @@
    "kind": "lived",
    "page": "seat:zhengyin_hour_stem.Family",
    "family": "seatbeat",
-   "text": "Since your late forties the people after you have come to you with their troubles, and you have taken real care over each one. You have become their home base, the place they return to first when something gives way."
+   "text": "Your door has stood open to the people after you since your late forties, and they have brought their troubles through it sure of a patient hearing. You have become their home base, the place they return to first when something gives way."
   },
   {
    "key": "POSITION zhengyin_hour_stem · domain_climb.Family.ahead",
@@ -621,21 +621,21 @@
    "kind": "headline",
    "page": "seat:zhengyin_hour_stem.Growth",
    "family": "headline",
-   "text": "You grow by teaching what you know."
+   "text": "Teaching is how you grow."
   },
   {
    "key": "POSITION zhengyin_hour_stem · domain_climb.Growth.recognition",
    "kind": "recognition",
    "page": "seat:zhengyin_hour_stem.Growth",
    "family": "recognition",
-   "text": "Passing on what you know is how you grow, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find purpose in being useful to people who are just starting."
+   "text": "You grow each time you pass on what you know, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find purpose in being useful to people who are just starting."
   },
   {
    "key": "POSITION zhengyin_hour_stem · domain_climb.Growth.lived",
    "kind": "lived",
    "page": "seat:zhengyin_hour_stem.Growth",
    "family": "seatbeat",
-   "text": "Since your late forties you have found yourself explaining things you once took for granted, and you have learned as much from it as the people you helped. You have become more patient and more certain of what you know, the guide people seek out on purpose."
+   "text": "Since your late forties you have found yourself explaining things you once took for granted, and you have learned as much from it as the people you helped. You have grown more patient and surer of what you know, the guide people seek out on purpose."
   },
   {
    "key": "POSITION zhengyin_hour_stem · domain_climb.Growth.ahead",
@@ -670,7 +670,7 @@
    "kind": "ahead",
    "page": "seat:zhengyin_hour_stem.Mind",
    "family": "seatbeat",
-   "text": "Past your late forties the people after you bring you their questions, and you take care to teach them properly. You are quoted and asked for in these years, and most yourself when someone leaves understanding more than they came with."
+   "text": "Past your late forties the people after you bring you their questions, and you take care to teach them properly. You are quoted and asked for more than ever, and most yourself when someone leaves understanding more than they came with."
   }
  ]
 }

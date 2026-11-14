@@ -38,17 +38,20 @@
       "Mind": {
         "headline": "Your mind runs best on what others find strange.",
         "recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is the thing that matters most.",
-        "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them."
+        "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and the result is a corner of knowledge almost nobody else holds.",
+        "lived_past": "In your twenties and early thirties your mind went its own way, into a subject or a method most people around you did not follow. You spent more nights with a question than with company, and the reward was a corner of knowledge almost nobody else held."
       },
       "Growth": {
         "headline": "You grow late, and mostly in private.",
         "recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you underrate where you are, and you let them. You are further along than anyone watching would guess.",
-        "lived": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years."
+        "lived": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years.",
+        "lived_past": "Through your Rising Chapter your growth looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you could do by your mid-thirties, you taught yourself in those years."
       },
       "Career": {
         "headline": "Your work pays for what only you know.",
         "recognition": "You are the specialist people call when the usual answers fail. Because you trust knowledge you have dug out yourself, you are drawn to a narrow field the mainstream ignores, and you would rather be paid for strange work than praised for ordinary work. You earn more from the niche you choose than any ladder would pay you.",
-        "lived": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew."
+        "lived": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. You have won roles over people with better connections on the strength of something strange you knew.",
+        "lived_past": "Until your mid-thirties your working life ran underground, in jobs that looked quiet while you built a skill nobody asked for. You won roles over people with better connections on the strength of something strange you knew."
       }
     },
     "__ore": {
@@ -60,6 +63,10 @@
         "domain_climb.Growth.recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you often underrate where you are, and you let them. You are further along than anyone watching would guess.",
         "domain_climb.Mind.recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is often the thing that matters most.",
         "domain_climb.Mind.lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade them back."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Mind.lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them.",
+        "domain_climb.Career.lived": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew."
       }
     }
   },
@@ -147,6 +154,36 @@
       "finding": "G1:DD:DD-032",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

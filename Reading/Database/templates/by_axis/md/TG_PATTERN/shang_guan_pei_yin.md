@@ -24,9 +24,9 @@
 | `target_domains` | Career · Mind |
 | `line` | Your brilliance and your learning share the chart, and they harness each other: talent with a syllabus. Study before you dazzle, and the shine turns durable. |
 | `reading` | Underneath runs a lucky pairing: your boldest ideas and your patience for study feed each other instead of fighting. Every credential sharpens the showmanship, every performance keeps the learning honest. Build the stage and the library in the same decade. Together they turn raw shine into a name that lasts. |
-| `fused_line` | In you the two never pull apart, and you rarely have to choose between your talent and your training. |
-| `domain_lines.Career` | Your boldest ideas and your patience for study also feed each other, and you grow braver in public with every qualification you earn. |
-| `domain_lines.Mind` | You also learn best when you can show what you learn, and you turn every course you finish into something you can say out loud. |
+| `fused_line` | Your talent and your training sit at one gate, close enough that you rarely have to choose between them. |
+| `domain_lines.Career` | Your boldest ideas and your patience for study also feed each other, with every qualification you earn making you braver in public. |
+| `domain_lines.Mind` | You also learn best when you can show what you learn, turning every course you finish into something you can say out loud. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -36,3 +36,6 @@
 | `domains_round1_retired_2026-10-21.domain_lines.Career` | Your boldest ideas and your patience for study feed each other, and you grow braver in public with every qualification you earn. |
 | `domains_round1_retired_2026-10-21.domain_lines.Mind` | You learn best when you can perform what you learn, and you turn every course you finish into something you can say out loud. |
 | `domains_round1_retired_2026-10-21.fused_line` | They share one gate in you, and you never have to choose between your talent and your training. |
+| `retired_2026-11-14_rulings_round.domain_lines.Career` | Your boldest ideas and your patience for study also feed each other, and you grow braver in public with every qualification you earn. |
+| `retired_2026-11-14_rulings_round.domain_lines.Mind` | You also learn best when you can show what you learn, and you turn every course you finish into something you can say out loud. |
+| `retired_2026-11-14_rulings_round.fused_line` | In you the two never pull apart, and you rarely have to choose between your talent and your training. |

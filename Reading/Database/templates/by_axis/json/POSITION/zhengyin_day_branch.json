@@ -37,21 +37,24 @@
     "domain_climb": {
       "Love": {
         "headline": "You love the person who makes you feel safe.",
-        "recognition": "You fall for steadiness, the partner who turns up on time and stays calm when you are not. Because safety is what love means to you, you relax completely with the right person, and you take their care as a given. You are slow to notice how much they carry, and slower to thank them.",
-        "lived": "The partners who have mattered most to you so far were the ones who looked after you, practically and without fuss. More than once you have let a partner take over the practical side of your life, and you found you had forgotten how to do it yourself.",
-        "ahead": "Through your Home Chapter you learn to give back the steady care you once took for granted. You notice what a partner carries for you in these years, and you start carrying some of it yourself."
+        "recognition": "You fall for steadiness, the partner who turns up on time and stays calm when you are not. Because being looked after is how you know you are loved, you relax completely with the right person, and you take their care as a given. You are slow to notice how much they carry, and slower to thank them.",
+        "lived": "The partners who have mattered most to you so far were the ones who looked after you, practically and without fuss. You have handed whole parts of your life to their care, and found afterwards that you had forgotten how to run them yourself.",
+        "ahead": "From your mid-thirties love turns into care that runs both ways, and you learn to give back the patience you once took for granted. You notice what a partner carries for you and take some of the weight yourself.",
+        "lived_past": "In your late thirties and forties the partners who mattered most were the ones who looked after you, practically and without fuss. You handed whole parts of your life to their care, and found afterwards that you no longer knew how to run them yourself."
       },
       "Family": {
-        "headline": "Your home runs on everyday kindness.",
-        "recognition": "You make your household gentle, with meals shared and voices kept low and nobody left out. Because a peaceful house is what lets you function, you smooth over arguments fast, and some of them never get settled. Your family comes to you to recover from the world, and you let them.",
-        "lived": "Your home so far has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought.",
-        "ahead": "From your mid-thirties your household becomes the place your wider family gathers, because it is the calmest one they know. You hold it together with a partner in these years, and you speak up more than you used to."
+        "headline": "Your home shelters everyone who walks into it.",
+        "recognition": "You make your household gentle, with voices kept low and nobody left out. Because care is what steadies you, you look after the calm at home before anything else, and some arguments get smoothed over without ever being settled. You end most days having looked after everyone in the house except yourself.",
+        "lived": "Your home so far has been the calm house in your family, where people come to be looked after when things go wrong elsewhere. You have kept its peace with steady care and with the things you chose not to say.",
+        "ahead": "From your mid-thirties the shelter you give starts to work both ways, and a partner looks after you as closely as you look after them. You hold the household together in these years, and you speak up more than you used to.",
+        "lived_past": "In your late thirties and forties your home was the calm house in your family, where people came to be looked after when things went wrong elsewhere. You kept its peace with steady care and with the things you chose not to say."
       },
       "Health": {
-        "headline": "Your body follows the mood of your home.",
-        "recognition": "You sleep well and eat well in a settled house, and both slip the moment it turns tense. Because your body takes its cue from the people you live with, a week of bad feeling at home drains your energy before you have named the problem. You are strongest in the seasons you feel most looked after.",
-        "lived": "Your health so far has tracked your home life closely, steady in the calm years and worn in the difficult ones. You have recovered fastest from hard stretches with someone close looking after you, and slowest when you went through them alone.",
-        "ahead": "A settled home gives your body a steadier rhythm from your mid-thirties, with regular meals and proper rest. You feel better in these years than you have for a long time, and you put it down to the partner beside you."
+        "headline": "Being looked after keeps you strong.",
+        "recognition": "You sleep well and eat well when someone at home takes care of you, and both slip in the weeks you are left to cope alone. Because being cared for is how your body settles, you get over a hard stretch fastest with a partner close by. You are strongest in the seasons you feel most looked after.",
+        "lived": "Through the hard stretches so far, the person who checked on you and kept the house running did more for your health than any plan you made. You have learned to accept that care without apology and to give it back in kind.",
+        "ahead": "From your mid-thirties the care at home runs both ways, and looking after a partner steadies you as surely as being looked after. You feel better in your forties than you have in years, held up by the support you give as much as the support you get.",
+        "lived_past": "Through the hard stretches of your late thirties and forties, the person who checked on you and kept the house running did more for your health than any plan you made. You learned to accept that care without apology and to give it back in kind."
       }
     },
     "__ore": {
@@ -64,6 +67,19 @@
         "domain_climb.Health.recognition": "You sleep well and eat well in a settled house, and both slip the moment it turns tense. Because your body takes its cue from the people you live with, tension at home shows up in your back and shoulders before you name it. Your energy is highest in the seasons you feel most looked after.",
         "domain_climb.Health.lived": "So far your health has tracked your home life closely, steady in the calm years and worn in the tense ones. You have recovered fastest from hard stretches with someone close looking after you, and slowest when you went through them alone.",
         "domain_climb.Health.ahead": "From your mid-thirties a settled home gives your body a steadier rhythm, with regular meals and proper rest. You feel better in these years than you have for a long time, and you put it down to the partner beside you."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Love.recognition": "You fall for steadiness, the partner who turns up on time and stays calm when you are not. Because safety is what love means to you, you relax completely with the right person, and you take their care as a given. You are slow to notice how much they carry, and slower to thank them.",
+        "domain_climb.Love.lived": "The partners who have mattered most to you so far were the ones who looked after you, practically and without fuss. More than once you have let a partner take over the practical side of your life, and you found you had forgotten how to do it yourself.",
+        "domain_climb.Love.ahead": "Through your Home Chapter you learn to give back the steady care you once took for granted. You notice what a partner carries for you in these years, and you start carrying some of it yourself.",
+        "domain_climb.Family.headline": "Your home runs on everyday kindness.",
+        "domain_climb.Family.recognition": "You make your household gentle, with meals shared and voices kept low and nobody left out. Because a peaceful house is what lets you function, you smooth over arguments fast, and some of them never get settled. Your family comes to you to recover from the world, and you let them.",
+        "domain_climb.Family.lived": "Your home so far has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought.",
+        "domain_climb.Family.ahead": "From your mid-thirties your household becomes the place your wider family gathers, because it is the calmest one they know. You hold it together with a partner in these years, and you speak up more than you used to.",
+        "domain_climb.Health.headline": "Your body follows the mood of your home.",
+        "domain_climb.Health.recognition": "You sleep well and eat well in a settled house, and both slip the moment it turns tense. Because your body takes its cue from the people you live with, a week of bad feeling at home drains your energy before you have named the problem. You are strongest in the seasons you feel most looked after.",
+        "domain_climb.Health.lived": "Your health so far has tracked your home life closely, steady in the calm years and worn in the difficult ones. You have recovered fastest from hard stretches with someone close looking after you, and slowest when you went through them alone.",
+        "domain_climb.Health.ahead": "A settled home gives your body a steadier rhythm from your mid-thirties, with regular meals and proper rest. You feel better in these years than you have for a long time, and you put it down to the partner beside you."
       }
     }
   },
@@ -130,6 +146,90 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Love.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

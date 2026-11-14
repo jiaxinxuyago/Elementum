@@ -141,6 +141,20 @@
       },
       "retired_2026-10-21_section_audit": {
         "decade_lines.Social.heavy.lived": "Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "decade_lines.Family.helping.ahead": "You hold a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that lasts well beyond the decade.",
+        "decade_lines.Family.helping.lived": "Order and good manners shaped your home in those years, and everyone knew their place and their duties. You earned respect in your family by keeping its rules, and you felt secure inside them.",
+        "decade_lines.Family.heavy.lived": "Family duty weighed on you in those years, and you met expectations that left you little say. You did what was asked of you well, and you came out of it with the respect it earned you.",
+        "decade_lines.Family.heavy.ahead": "Obligations at home pile up in these years, with duties to the people who rely on you and a family name to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone.",
+        "decade_lines.Career.helping.ahead": "Your work gains structure in these ten years, a clear role with real responsibility. You are trusted with more than before, and the trust lasts beyond the work that earned it.",
+        "decade_lines.Career.helping.lived": "Recognition came the proper way in those years, through good work noticed by the right people. You earned a place you could be proud of, and you carried the responsibility well.",
+        "decade_lines.Career.heavy.lived": "Rules and rank pressed on your work during those years, and you followed procedure long after it stopped helping. You were reliable to a fault, and your record carried you to better places later.",
+        "decade_lines.Career.heavy.ahead": "Hierarchy presses on your work in these ten years, and each new duty adds to rules that are already strict. Your good name holds throughout, and what carries you is the part of the work you shape yourself.",
+        "decade_lines.Social.helping.ahead": "You hold standing among friends in these years, and people ask your opinion before they decide. You are the steady one in your circle, and you take the part seriously.",
+        "decade_lines.Social.helping.lived": "Respect came to you in those years through how you conducted yourself among others. People saw you as fair and dependable, and you were asked to lead more than once.",
+        "decade_lines.Social.heavy.lived": "What was proper ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle.",
+        "decade_lines.Social.heavy.ahead": "Duty shapes your friendships in these years, and social life feels more like obligation than pleasure. Your good name holds, and you find relief with the friends who expect nothing formal from you."
       }
     },
     "ruling_domains": [
@@ -151,32 +165,32 @@
     "decade_lines": {
       "Family": {
         "helping": {
-          "ahead": "You hold a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that lasts well beyond the decade.",
-          "lived": "Order and good manners shaped your home in those years, and everyone knew their place and their duties. You earned respect in your family by keeping its rules, and you felt secure inside them."
+          "ahead": "A proper place in the family comes to you, as the reliable one with a role and a duty. You earn a standing among your relatives that holds for years to come.",
+          "lived": "Order and good manners shaped your home, and everyone knew their place and their duties. You earned respect in your family by keeping its rules and felt secure inside them."
         },
         "heavy": {
-          "lived": "Family duty weighed on you in those years, and you met expectations that left you little say. You did what was asked of you well, and you came out of it with the respect it earned you.",
-          "ahead": "Obligations at home pile up in these years, with duties to the people who rely on you and a family name to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone."
+          "lived": "Family duty weighed on you, with expectations that left you little say in your own life. You did what was asked of you well and came out of it with a respect you had earned.",
+          "ahead": "Obligations at home pile up, with duties to the people who rely on you and a family name to uphold. You meet them faithfully while guarding a part of your life that belongs to you alone."
         }
       },
       "Career": {
         "helping": {
-          "ahead": "Your work gains structure in these ten years, a clear role with real responsibility. You are trusted with more than before, and the trust lasts beyond the work that earned it.",
-          "lived": "Recognition came the proper way in those years, through good work noticed by the right people. You earned a place you could be proud of, and you carried the responsibility well."
+          "ahead": "Your work gains structure, a clear role with real responsibility. You are trusted with more than before, and the trust outlasts the work that earned it.",
+          "lived": "Recognition came the proper way, through good work noticed by the right people. You earned a place you could be proud of and carried its responsibility well."
         },
         "heavy": {
-          "lived": "Rules and rank pressed on your work during those years, and you followed procedure long after it stopped helping. You were reliable to a fault, and your record carried you to better places later.",
-          "ahead": "Hierarchy presses on your work in these ten years, and each new duty adds to rules that are already strict. Your good name holds throughout, and what carries you is the part of the work you shape yourself."
+          "lived": "Rules and rank pressed on your work, and you followed procedure long after it stopped helping. Reliable to a fault, you were carried to better posts later by your record.",
+          "ahead": "Hierarchy presses on your work, and each new duty adds to rules that are already strict. You keep your good name and hold on through the part of the work you shape yourself."
         }
       },
       "Social": {
         "helping": {
-          "ahead": "You hold standing among friends in these years, and people ask your opinion before they decide. You are the steady one in your circle, and you take the part seriously.",
-          "lived": "Respect came to you in those years through how you conducted yourself among others. People saw you as fair and dependable, and you were asked to lead more than once."
+          "ahead": "You hold standing among friends, and people ask your opinion before they decide. You become the steady one they count on, a role you take seriously.",
+          "lived": "Respect came to you through how you carried yourself among others. Fair and dependable in their eyes, you were the one friends asked to lead."
         },
         "heavy": {
-          "lived": "What was proper ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle.",
-          "ahead": "Duty shapes your friendships in these years, and social life feels more like obligation than pleasure. Your good name holds, and you find relief with the friends who expect nothing formal from you."
+          "lived": "What was proper ruled your social life, and you kept company with people you were expected to know. You were respected and a little lonely, held up by a role that gave you standing among them.",
+          "ahead": "Duty presses on your friendships, and social life feels more like obligation than pleasure. Your good name holds, and each promise kept steadies you a little more."
         }
       }
     }
@@ -251,6 +265,78 @@
       "finding": "DE:DE-026",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Family.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Career.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Career.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Career.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Career.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Social.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Social.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Social.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Social.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-2.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

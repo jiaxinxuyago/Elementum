@@ -36,11 +36,11 @@
       "Social": {
         "headline": "Your friends are equals, or they are not friends.",
         "recognition": "You keep a few equals close and everyone else at a friendly distance. Because you seem to need nothing, you attract people as capable as you are, and the ones who want support look elsewhere. Your circle is small and sturdy, and you feel its gaps more than you admit.",
-        "lived": "The friends you made as a child were your equals, children who kept pace with you and stood up for you in turn. The friendships that lasted into your teens were the level ones, and you let the rest go without a fuss."
+        "lived": "The friends you made as a child were your equals, children who kept pace with you and stood up for you in turn. By your teens you had kept only the level friendships, letting the rest go without a fuss."
       },
       "Family": {
         "headline": "You are the relative who never needs rescuing.",
-        "recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, rarely when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness.",
+        "recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, rarely when there is something to ask. Your relatives hear from you less than they want, though you mean the quiet as a kindness.",
         "lived": "An older relative in your first home made a point of standing on their own, and you copied it before you understood it. You asked for less with each year you grew, and the adults around you praised you for it."
       }
     },
@@ -54,6 +54,10 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Social.lived": "The friends you made as a child were your equals, children who competed with you and stood up for you in turn. The friendships that lasted into your teens were the level ones, and you let the rest go without a fuss."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Social.lived": "The friends you made as a child were your equals, children who kept pace with you and stood up for you in turn. The friendships that lasted into your teens were the level ones, and you let the rest go without a fuss.",
+        "domain_climb.Family.recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, rarely when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness."
       }
     }
   },
@@ -113,6 +117,18 @@
       "finding": "DE:DE-032",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

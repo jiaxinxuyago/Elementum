@@ -37,21 +37,21 @@
     "domain_climb": {
       "Family": {
         "headline": "Your family rests on what you quietly arrange.",
-        "recognition": "You look after your family through arrangements, the bills covered and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. Your family sees the comfort and rarely the work behind it, and you prefer it that way.",
-        "lived": "You have been the one keeping your family covered since your late forties, with help ready before anyone asks. You have taught the younger people in your family to be careful with money, mostly by example.",
-        "ahead": "From your late forties the people after you rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud."
+        "recognition": "You keep your family covered, the bills paid and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. You prefer it when your family sees the calm and not the work behind it.",
+        "lived": "Since your late forties you have kept a steady store for your family, quietly topped up and ready before anyone asks. You have shown the people after you how to be careful with money mostly by example, and they have spent more wisely for it.",
+        "ahead": "From your late forties the people after you build their own lives on what you have saved and set aside for them. You are the steady keeper behind them, and they learn only later how much of their footing you paid for."
       },
       "Health": {
         "headline": "Your body does best on steady upkeep.",
-        "recognition": "Your body gets the same care as your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early.",
-        "lived": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have more of it left than people who pushed hard and rested little.",
-        "ahead": "Your body repays the care you keep giving it from your late forties, with steady energy and good sleep. You stay strong in these years, and you feel the benefit of every ordinary habit."
+        "recognition": "Your body gets the same care as your accounts, with regular walks, plain food and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You catch the first sign of tiredness early and spend your energy as carefully as your money.",
+        "lived": "Since your late forties your energy has held steady, because you kept your sleep and your habits in good order. You have more of it in reserve than people who spent theirs freely, and that reserve has been worth every early night.",
+        "ahead": "From your late forties your body repays the care you keep giving it, with steady energy and regular sleep. You outlast people who run themselves down, and every ordinary habit turns out to have been worth its cost."
       },
       "Wealth": {
         "headline": "Your money ends up settled and secure.",
-        "recognition": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more comfort available than you let yourself use.",
-        "lived": "Your finances have settled since your late forties, and your household has felt the hard times around it less than most. You have spent more on others than on your own comfort in that time.",
-        "ahead": "Your money stays steady from your late forties while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it."
+        "recognition": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more put by than you let yourself spend.",
+        "lived": "Since your late forties your finances have settled, and your household has felt the hard times around it less than most. You built your savings slowly and kept them whole through every lean year, and they have become the fund your household falls back on.",
+        "ahead": "From your late forties your money stays steady while others worry, and your plans for it land where you intend. You find that part of what you saved was always meant for you, and spending it on yourself stops feeling like a loss."
       }
     },
     "__ore": {
@@ -68,6 +68,17 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Health.lived": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have kept more of it than people who pushed hard and rested little."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Family.recognition": "You look after your family through arrangements, the bills covered and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. Your family sees the comfort and rarely the work behind it, and you prefer it that way.",
+        "domain_climb.Family.lived": "You have been the one keeping your family covered since your late forties, with help ready before anyone asks. You have taught the younger people in your family to be careful with money, mostly by example.",
+        "domain_climb.Family.ahead": "From your late forties the people after you rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud.",
+        "domain_climb.Health.recognition": "Your body gets the same care as your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early.",
+        "domain_climb.Health.lived": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have more of it left than people who pushed hard and rested little.",
+        "domain_climb.Health.ahead": "Your body repays the care you keep giving it from your late forties, with steady energy and good sleep. You stay strong in these years, and you feel the benefit of every ordinary habit.",
+        "domain_climb.Wealth.recognition": "You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more comfort available than you let yourself use.",
+        "domain_climb.Wealth.lived": "Your finances have settled since your late forties, and your household has felt the hard times around it less than most. You have spent more on others than on your own comfort in that time.",
+        "domain_climb.Wealth.ahead": "Your money stays steady from your late forties while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it."
       }
     }
   },
@@ -141,6 +152,60 @@
       "finding": "DC:DC-028",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

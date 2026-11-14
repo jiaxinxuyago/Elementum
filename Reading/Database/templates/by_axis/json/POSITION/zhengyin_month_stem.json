@@ -36,19 +36,22 @@
     "health_line": "Your steadiness spends real energy: holding the calm for others draws on your reserves. Refill in solitude and study, your original medicines.",
     "domain_climb": {
       "Career": {
-        "headline": "You rise at work because people trust you.",
-        "recognition": "You win roles through references, qualifications and the good word of people senior to you. Because steadiness is what you offer, you are given responsibility early, and you rarely have to sell yourself. You find open competition uncomfortable and do your best work where trust is already in place.",
-        "lived": "Older people at work have backed you since your late teens, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most."
+        "headline": "Your career grows under the people who teach you.",
+        "recognition": "You pick up a new role fastest with someone senior beside you, and within weeks you know what took them years. Because you learn best under someone's wing, you rarely have to sell yourself, and open competition puts you off. You give your best where trust is already in place.",
+        "lived": "Older people at work have backed you since your late teens, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most.",
+        "lived_past": "From sixteen to your mid-thirties older people at work backed you, vouched for you or quietly put your name forward. You collected qualifications and references that carried weight wherever you applied and needed to push less than most."
       },
       "Mind": {
         "headline": "Knowledge becomes second nature to you.",
         "recognition": "You learn by steady absorption, and what you study becomes part of how you think without effort. Because the learning feels natural to you, you forget how much of it you have, and others notice before you do. You underrate your own knowledge more than anyone around you does.",
-        "lived": "From your late teens you took in courses, books and advice from people who knew more, and kept nearly all of it. Over those years you came to know your field better than you let on, and you have rarely made a show of it."
+        "lived": "From your late teens you took in courses, books and advice from people who knew more, and kept nearly all of it. Over those years you learned fastest from the ones who trusted you early, and what they taught has become the base you build on.",
+        "lived_past": "From sixteen to your mid-thirties you took in courses, books and advice from people who knew more, and kept nearly all of it. You learned fastest from the ones who trusted you early, and what they taught became the base you built on."
       },
       "Social": {
         "headline": "Your friends bring you their troubles.",
         "recognition": "You are the friend people confide in, the calm one who listens and gives sound advice. Because being trusted feels like a kind of care to you, you rarely say no, and your evenings fill with other people's problems. You know more about your friends' lives than they know about yours.",
-        "lived": "Friends and colleagues have brought you their crises since your late teens, and several of your closest friendships began with someone else's bad news. You have kept more confidences than you can count, and people still repeat what you told them years ago."
+        "lived": "Since your late teens your closest friendships have grown out of being taken in, an older colleague who taught you or a friend's family who treated you as their own. You have gone to those people first for advice and learned from them how to listen.",
+        "lived_past": "Through your Rising Chapter your closest friendships grew out of being taken in, an older colleague who taught you or a friend's family who treated you as their own. You went to those people first for advice and learned from them how to listen."
       }
     },
     "__ore": {
@@ -59,6 +62,12 @@
         "domain_climb.Career.lived": "Since your late teens older people at work have backed you, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most.",
         "domain_climb.Social.recognition": "You become the friend people confide in, the calm one who listens and gives sound advice. Because being trusted feels like a kind of care to you, you rarely say no, and your evenings fill with other people's problems. You find it hard to ask for the same help yourself.",
         "domain_climb.Social.lived": "Since your late teens you have been the one friends and colleagues come to when something goes wrong. You have kept more confidences than you can count, and few people have asked how you were doing in return."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.headline": "You rise at work because people trust you.",
+        "domain_climb.Career.recognition": "You win roles through references, qualifications and the good word of people senior to you. Because steadiness is what you offer, you are given responsibility early, and you rarely have to sell yourself. You find open competition uncomfortable and do your best work where trust is already in place.",
+        "domain_climb.Mind.lived": "From your late teens you took in courses, books and advice from people who knew more, and kept nearly all of it. Over those years you came to know your field better than you let on, and you have rarely made a show of it.",
+        "domain_climb.Social.lived": "Friends and colleagues have brought you their crises since your late teens, and several of your closest friendships began with someone else's bad news. You have kept more confidences than you can count, and people still repeat what you told them years ago."
       }
     }
   },
@@ -125,6 +134,48 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

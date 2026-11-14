@@ -1,0 +1,49 @@
+{
+ "rows": [
+  [
+   "Rescue lines whose cure already sits in the chart (R1)",
+   "53 of 226",
+   "0 of 139",
+   true
+  ],
+  [
+   "Broken structures (R1: a cure seated, or a breaker only inside a branch, no longer breaks)",
+   62,
+   23,
+   true
+  ],
+  [
+   "Pairing lines per Blueprint page, mean (R2)",
+   "2.6",
+   "1.2",
+   true
+  ],
+  [
+   "Domain pages whose How you are came from a seat not yet reached (R9)",
+   340,
+   0,
+   true
+  ],
+  [
+   "Domain pages where a reader past the gate reads its beat in the past (R13)",
+   0,
+   2981,
+   true
+  ]
+ ],
+ "note": "1,000 random charts, today 2026-11-14",
+ "raw": {
+  "n": 1000,
+  "seated1": 53,
+  "seated2": 0,
+  "res1": 226,
+  "res2": 139,
+  "pairs1": 2560,
+  "pairs2": 1170,
+  "waiting": 340,
+  "past": 2981,
+  "pages": 8000,
+  "broken1": 62,
+  "broken2": 23
+ }
+}

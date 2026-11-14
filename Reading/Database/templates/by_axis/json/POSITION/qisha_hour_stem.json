@@ -36,22 +36,22 @@
     "health_line": "Your late strength is real and it hoards tension: the guard duty never quite ends in the body. Put the armor down nightly, with ceremony if needed.",
     "domain_climb": {
       "Career": {
-        "headline": "Your authority keeps growing while others step back.",
-        "recognition": "You stay in demand late, the one called when a problem is too hard for anyone else. Because pressure is where you feel useful, you take on serious responsibility at an age when most people are easing off. What you find hardest is a calendar with nothing urgent in it, and you fill it fast.",
-        "lived": "You have been asked to lead in hard moments since your late forties, in a crisis or on a committee or in work nobody else would take on. You turned down at least one easy way out because the demanding role kept you sharp.",
-        "ahead": "From your late forties the work people bring you carries more weight, the serious decisions others are glad to hand over. You stay active in your work for longer than most, and you are consulted long after others have stopped being asked."
+        "headline": "You come alive when the work gets hard.",
+        "recognition": "You are the one handed the crisis and the deadline nobody else will carry. Because pressure is where you feel useful, you take on the hard jobs other people step away from. What you find hardest is a calendar with nothing urgent in it, which you fill fast.",
+        "lived": "Since your late forties you have been the one asked to lead when things went wrong, the rescue job or the project already failing. You came out of each one with more nerve than you took in, and with a name as the person to call.",
+        "ahead": "From your late forties the work people bring you is the hardest they have, the turnaround or the fight that others back away from. You stay in the thick of it longer than most, still called in when others your age have stopped being asked."
       },
       "Growth": {
         "headline": "You grow by using your strength with more care.",
-        "recognition": "You change by getting better at pressure, using less force to get the same result. Because you have tested yourself so many times, you know your limits well, and you spend your energy where it counts. You lose your temper less than you did, and you win more arguments by waiting.",
-        "lived": "Your results have come with less pressure since your late forties, and you have made fewer enemies along the way. You started to guide younger people through hard work, and teaching them restraint has taught you more than any role.",
-        "ahead": "In the years after your late forties your growth comes through teaching, as you pass on how to handle pressure to people who are just starting. You become calmer and more exact with every year, and you get more done with less force."
+        "recognition": "You change by getting better at pressure, using less force to get the same result. Because you have tested yourself so many times, you know your limits well, and you spend your energy where it counts. You lose your temper less than you did, winning more ground by waiting.",
+        "lived": "The hard tests have kept coming since your late forties, and you have met them with better timing and a cooler head. You have picked the battles that mattered and let the rest pass, making fewer enemies than in your younger fights.",
+        "ahead": "In the years after your late forties the tests you face are tests of nerve more than strength, and you meet them with a calm that surprises people who knew you younger. You trade force for precision with every year, saving your hardest push for the one moment that decides it."
       },
       "Family": {
-        "headline": "Your family measures itself against your standards.",
-        "recognition": "You hold the people in your family to high standards, and you notice the slip before the effort. Because demands are how you show care, the people close to you feel the weight before they feel the care. Your family respects you deeply, and some of them wait a long time for your praise.",
-        "lived": "The people after you have measured themselves against you since your late forties. They took your standards seriously, and you saw at least once that a sharp word from you stayed with them for years.",
-        "ahead": "Past your late forties the people after you carry your standards into their own lives. You soften with them in these years, and a few words of praise from you mean more to them than anything else you give."
+        "headline": "Your family learns to rise to your pressure.",
+        "recognition": "You protect your family by making them strong, the hard lesson given early and the risk faced together. Because you trust pressure to build people, you push the young ones harder than outsiders and stand closest to them in a crisis. You are at your best with them in a storm, and less sure of yourself on the calm days.",
+        "lived": "The people after you have brought you their hardest weeks since your late forties, and you have pushed them to face what scared them. You have watched them come through tougher than they expected, each test leaving them less afraid of the next.",
+        "ahead": "Past your late forties the people after you take on fights of their own, and they borrow the nerve you showed them. You soften with them as they toughen, the one they want beside them when the stakes are real."
       }
     },
     "__ore": {
@@ -68,6 +68,19 @@
         "domain_climb.Family.recognition": "You hold the people in your family to high standards, and you correct before you praise. Because you were made strong by demands, you believe demands are a form of care, and the people close to you feel the weight before the care. Your family respects you deeply, and some of them are a little afraid of you.",
         "domain_climb.Family.lived": "Since your late forties the people after you, children or younger relatives or someone you train, have measured themselves against you. They took your standards seriously, and you saw at least once that a sharp word from you stayed with them for years.",
         "domain_climb.Family.ahead": "From your late forties the people after you, children or younger relatives or someone you train, carry your standards into their own lives. You soften with them in these years, and a few words of praise from you mean more to them than anything else you give."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.headline": "Your authority keeps growing while others step back.",
+        "domain_climb.Career.recognition": "You stay in demand late, the one called when a problem is too hard for anyone else. Because pressure is where you feel useful, you take on serious responsibility at an age when most people are easing off. What you find hardest is a calendar with nothing urgent in it, and you fill it fast.",
+        "domain_climb.Career.lived": "You have been asked to lead in hard moments since your late forties, in a crisis or on a committee or in work nobody else would take on. You turned down at least one easy way out because the demanding role kept you sharp.",
+        "domain_climb.Career.ahead": "From your late forties the work people bring you carries more weight, the serious decisions others are glad to hand over. You stay active in your work for longer than most, and you are consulted long after others have stopped being asked.",
+        "domain_climb.Growth.recognition": "You change by getting better at pressure, using less force to get the same result. Because you have tested yourself so many times, you know your limits well, and you spend your energy where it counts. You lose your temper less than you did, and you win more arguments by waiting.",
+        "domain_climb.Growth.lived": "Your results have come with less pressure since your late forties, and you have made fewer enemies along the way. You started to guide younger people through hard work, and teaching them restraint has taught you more than any role.",
+        "domain_climb.Growth.ahead": "In the years after your late forties your growth comes through teaching, as you pass on how to handle pressure to people who are just starting. You become calmer and more exact with every year, and you get more done with less force.",
+        "domain_climb.Family.headline": "Your family measures itself against your standards.",
+        "domain_climb.Family.recognition": "You hold the people in your family to high standards, and you notice the slip before the effort. Because demands are how you show care, the people close to you feel the weight before they feel the care. Your family respects you deeply, and some of them wait a long time for your praise.",
+        "domain_climb.Family.lived": "The people after you have measured themselves against you since your late forties. They took your standards seriously, and you saw at least once that a sharp word from you stayed with them for years.",
+        "domain_climb.Family.ahead": "Past your late forties the people after you carry your standards into their own lives. You soften with them in these years, and a few words of praise from you mean more to them than anything else you give."
       }
     }
   },
@@ -134,6 +147,72 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

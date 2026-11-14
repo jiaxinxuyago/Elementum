@@ -37,18 +37,21 @@
     "domain_climb": {
       "Career": {
         "headline": "Your career grows steadily inside a structure.",
-        "recognition": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a clear title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly.",
-        "lived": "Each step up since your late teens has come after you proved you could do the last one properly, and you waited to feel ready before you asked for the next. Your seniors noticed your reliability early, and you were trusted with more than your age suggested."
+        "recognition": "You are at home inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a clear title settles you. Your reward is lasting rank, and the price is the freedom to move quickly.",
+        "lived": "In each workplace since your late teens you have learned the rules faster than anyone hired with you, and you have kept your word in every post. Your seniors noticed your reliability early, and you were trusted with more than your age suggested.",
+        "lived_past": "Through your Rising Chapter you learned the rules of each workplace faster than anyone hired with you, and you kept your word in every post. Your seniors noticed your reliability early, trusting you with more than your age suggested."
       },
       "Growth": {
         "headline": "You grow by moving from one structure to the next.",
         "recognition": "You grow inside a framework, a course or a firm or a discipline, until you have learned everything it can teach. Because loyalty runs deep in you, leaving one structure for a bigger one feels like a betrayal, and you wait longer than you need to. Your growth comes in clear stages, and each one starts when you finally move.",
-        "lived": "You grew through formal steps from your late teens on, a qualification finished or a rank reached or a role handed to you. Each structure you joined shaped you for a few years, and you stayed in most of them a little past the point they could teach you."
+        "lived": "Since your late teens your growth has come through formal steps, a qualification finished or a rank reached or a role handed to you. You have grown most in the years a structure trusted you with more, when it handed you a clear duty and a clear measure.",
+        "lived_past": "From sixteen to your mid-thirties your growth came through formal steps, a qualification finished or a rank reached or a role handed to you. You grew most in the years a structure trusted you with more, when it handed you a clear duty and a clear measure."
       },
       "Social": {
         "headline": "People rely on you to keep things steady.",
-        "recognition": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone gives you credit for.",
-        "lived": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted away, and you kept the ones bound to you by a duty for years after the job ended."
+        "recognition": "You are the one who keeps a group working, the colleague who remembers what was agreed and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, though you decide more than anyone gives you credit for.",
+        "lived": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted away, and you kept the ones bound to you by a duty for years after the job ended.",
+        "lived_past": "Your friendships in your Rising Chapter grew out of work and shared duties, the colleagues you trusted and the seniors who trusted you. You kept the friends bound to you by a duty for years after the job ended, while the ones with no shared task drifted away."
       }
     },
     "__ore": {
@@ -63,6 +66,12 @@
         "domain_climb.Career.recognition": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a proper title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly.",
         "domain_climb.Social.recognition": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone credits you for.",
         "domain_climb.Social.lived": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted further, and you kept the ones bound to you by a duty for years after the job ended."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.recognition": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a clear title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly.",
+        "domain_climb.Career.lived": "Each step up since your late teens has come after you proved you could do the last one properly, and you waited to feel ready before you asked for the next. Your seniors noticed your reliability early, and you were trusted with more than your age suggested.",
+        "domain_climb.Growth.lived": "You grew through formal steps from your late teens on, a qualification finished or a rank reached or a role handed to you. Each structure you joined shaped you for a few years, and you stayed in most of them a little past the point they could teach you.",
+        "domain_climb.Social.recognition": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone gives you credit for."
       }
     }
   },
@@ -150,6 +159,48 @@
       "finding": "DE:DE-016",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

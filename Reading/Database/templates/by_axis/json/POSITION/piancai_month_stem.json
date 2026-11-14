@@ -38,17 +38,20 @@
       "Career": {
         "headline": "You are paid for spotting the chance others miss.",
         "recognition": "You do your best work wherever there is something to find, a client or a deal or a gap in the market. Because the search keeps you sharp, a fixed salary and a quiet desk wear you down faster than hard work. You are the colleague people come to first when they need a way in.",
-        "lived": "Your best career moves since your late teens have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up."
+        "lived": "Your best career moves since your late teens have come through timing, a job heard about early or an offer made in a casual conversation. Your working life has turned with each better chance, and it has grown wider than any single ladder.",
+        "lived_past": "From sixteen to your mid-thirties your best career moves came through timing, a job heard about early or an offer made in a casual conversation. Your working life turned with each better chance, and it grew wider than any single ladder."
       },
       "Wealth": {
-        "headline": "Your money arrives in windfalls and leaves through friends.",
-        "recognition": "You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust the next chance to arrive, you spend and lend freely between windfalls. Your money leaves as easily as it arrives, and you notice only when a quiet season comes.",
-        "lived": "Good years and thin ones have followed each other since your late teens, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before you set a share of it aside."
+        "headline": "Your money arrives in windfalls and goes to the next chance.",
+        "recognition": "You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust another opening to come, each gain goes straight into the next venture or the next move. Your money moves as fast as your eye for the next deal, and a quiet season finds you rich in plans.",
+        "lived": "Good years and thin ones have followed each other since your late teens, with money arriving in lumps. You have put each windfall into a move or a venture before setting any of it aside, and those ventures have widened your range more than your balance.",
+        "lived_past": "From your late teens to your mid-thirties good years and thin ones followed each other, with money arriving in lumps. You put each windfall into a move or a venture before setting any of it aside, and those ventures widened your range more than your balance."
       },
       "Social": {
         "headline": "You know someone for every need.",
-        "recognition": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
-        "lived": "Many of your friendships since your late teens began over work, a deal or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life."
+        "recognition": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You give a real friend the same quick hour you give a contact, and the difference is the last thing you notice.",
+        "lived": "Many of your friendships since your late teens began far from home, over a deal or a trip or a shared plan. You have kept a friend in each of the worlds you passed through, and a few of them have become close for life.",
+        "lived_past": "From sixteen to your mid-thirties many of your friendships began far from home, over a deal or a trip or a shared plan. You kept a friend in each of the worlds you passed through, and a few of them became close for life."
       }
     },
     "__ore": {
@@ -61,6 +64,14 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Social.recognition": "You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.lived": "Your best career moves since your late teens have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up.",
+        "domain_climb.Wealth.headline": "Your money arrives in windfalls and leaves through friends.",
+        "domain_climb.Wealth.recognition": "You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust the next chance to arrive, you spend and lend freely between windfalls. Your money leaves as easily as it arrives, and you notice only when a quiet season comes.",
+        "domain_climb.Wealth.lived": "Good years and thin ones have followed each other since your late teens, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before you set a share of it aside.",
+        "domain_climb.Social.recognition": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
+        "domain_climb.Social.lived": "Many of your friendships since your late teens began over work, a deal or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life."
       }
     }
   },
@@ -134,6 +145,60 @@
       "finding": "DE:DE-019",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

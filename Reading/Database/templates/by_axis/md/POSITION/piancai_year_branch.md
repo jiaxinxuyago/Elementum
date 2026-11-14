@@ -36,10 +36,10 @@
 | `health_line` | Your body needs new air on a schedule: staleness sickens you faster than strain. Change the scenery before the scenery changes you. |
 | `domain_climb.Family.headline` | Your family holds together across distance. |
 | `domain_climb.Family.recognition` | You keep close ties with relatives who live far away, and you are the one who calls first. Because distance was ordinary when you were growing up, a long absence never feels to you like a break in love. You are the link between relatives who would otherwise lose touch. |
-| `domain_climb.Family.lived` | In your first home people spoke of a relative who had moved away, or you moved yourself and made friends quickly in each new place. By the time you were grown your family stretched across more than one place, and you felt at home in each of them. |
+| `domain_climb.Family.lived` | Through your first years your family lived far apart, and visits and calls did the work of living close. You grew up able to go months without seeing a relative and come back as close as before. |
 | `domain_climb.Wealth.headline` | Your chances with money grow the further you go. |
-| `domain_climb.Wealth.recognition` | You find your best chances away from home, in a new city or an unfamiliar market or among strangers. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place. |
-| `domain_climb.Wealth.lived` | Money in your family came through moving when you were young, a relative working away or a business that travelled. The first money you made yourself came from beyond your own neighbourhood, and you liked how that felt. |
+| `domain_climb.Wealth.recognition` | You find your best chances away from home, in a new city or an unfamiliar market or among people you have just met. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place. |
+| `domain_climb.Wealth.lived` | When you were young the family's money came from moving, from work taken far off and trade that travelled. You looked past your own streets for every chance to earn, and a coin from a distance pleased you more than any from next door. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -50,3 +50,6 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Family.lived` | As a child you heard about a relative who had moved away, or you moved yourself and learned to make friends quickly. By your teens your family stretched across more than one place, and you felt at home in each of them. |
 | `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | By your teens you had seen that money in your family came through moving, a relative working away or a business that travelled. The first money you made yourself came from beyond your own neighbourhood, and you liked how that felt. |
 | `retired_2026-10-21_section_audit.domain_climb.Wealth.headline` | Your luck with money improves the further you go. |
+| `retired_2026-11-14_rulings_round.domain_climb.Family.lived` | In your first home people spoke of a relative who had moved away, or you moved yourself and made friends quickly in each new place. By the time you were grown your family stretched across more than one place, and you felt at home in each of them. |
+| `retired_2026-11-14_rulings_round.domain_climb.Wealth.recognition` | You find your best chances away from home, in a new city or an unfamiliar market or among strangers. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place. |
+| `retired_2026-11-14_rulings_round.domain_climb.Wealth.lived` | Money in your family came through moving when you were young, a relative working away or a business that travelled. The first money you made yourself came from beyond your own neighbourhood, and you liked how that felt. |

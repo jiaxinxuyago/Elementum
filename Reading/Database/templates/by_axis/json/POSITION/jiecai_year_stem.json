@@ -34,14 +34,14 @@
     "health_line": "Your energy spends in bursts and borrows from tomorrow: brilliant days, crashed weeks. Even out the fuel and the nerve stays sharp.",
     "domain_climb": {
       "Wealth": {
-        "headline": "Money moved fast around you from the start.",
-        "recognition": "You spend quickly and generously, and money that comes in through friends or windfalls goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.",
-        "lived": "Money arrived and vanished in your family while you were growing up, a good year followed by a hard one. You had your own share of that nerve before you were grown, and you spent what you had almost as soon as you had it."
+        "headline": "You spend at the pace your friends set.",
+        "recognition": "You spend quickly and in company, and money that comes in through friends goes out keeping up with them. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, yet you stay calm about it until a lean month arrives.",
+        "lived": "Money in your family moved fast while you were growing up, won boldly and shared out among whoever was close. By your teens you matched your family's daring, spending what you had almost as soon as you had it."
       },
       "Social": {
-        "headline": "People take to you quickly, and in numbers.",
-        "recognition": "You make friends fast, and a new group accepts you within an evening. Because charm was your family's way with people, you collect many allies and only a few who would stay through trouble. You know the difference between the two, and you feel it most in a hard year when the crowd thins.",
-        "lived": "As a child you were popular with other children and with adults, and you were invited to more than your share. By the time you were grown you had a wide circle and one or two close friends who mattered far more, and you knew which were which."
+        "headline": "You win people over quickly, and in numbers.",
+        "recognition": "You make friends fast, and within an evening a new group counts you in. Because generosity and rivalry sit together in you, you give to friends freely and race them just as hard. You think more of a friend who beats you at something, and less of one who lets you win.",
+        "lived": "As a child you shared what you had and competed for what you wanted, and other children gathered round you. By your teens you had a wide circle, and the friends closest to you were the ones you had raced hardest."
       }
     },
     "__ore": {
@@ -53,6 +53,14 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Wealth.recognition": "You spend quickly and generously, and money that comes in through friends or luck goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Wealth.headline": "Money moved fast around you from the start.",
+        "domain_climb.Wealth.recognition": "You spend quickly and generously, and money that comes in through friends or windfalls goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.",
+        "domain_climb.Wealth.lived": "Money arrived and vanished in your family while you were growing up, a good year followed by a hard one. You had your own share of that nerve before you were grown, and you spent what you had almost as soon as you had it.",
+        "domain_climb.Social.headline": "People take to you quickly, and in numbers.",
+        "domain_climb.Social.recognition": "You make friends fast, and a new group accepts you within an evening. Because charm was your family's way with people, you collect many allies and only a few who would stay through trouble. You know the difference between the two, and you feel it most in a hard year when the crowd thins.",
+        "domain_climb.Social.lived": "As a child you were popular with other children and with adults, and you were invited to more than your share. By the time you were grown you had a wide circle and one or two close friends who mattered far more, and you knew which were which."
       }
     }
   },
@@ -112,6 +120,42 @@
       "finding": "cross:X-041",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Wealth.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-year-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

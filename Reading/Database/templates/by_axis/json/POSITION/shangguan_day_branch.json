@@ -35,15 +35,17 @@
     "domain_climb": {
       "Love": {
         "headline": "You love the person who can answer you back.",
-        "recognition": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing a partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half.",
-        "lived": "The partners you have chosen so far were quick ones, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
-        "ahead": "From your mid-thirties your home fills with talk, and the partner you share it with matches you word for word. The two of you grow closer through what you argue about together, and you aim your sharpest words at the world outside your door."
+        "recognition": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you pick arguments for the thrill of the reply, and some evenings end colder than either of you meant. You want praise and honesty in the same person and rarely settle for half.",
+        "lived": "The partners you have chosen so far were quick ones who argued well and laughed at the right moments, and each cold spell between you began with honesty that arrived before warmth. You have come out of them knowing which of your true words a partner can take.",
+        "ahead": "Love from your mid-thirties fills with talk, and you look for a partner who matches you word for word. In these years you grow closer through what the two of you argue about, and you learn which of your sharpest words to keep for everyone else.",
+        "lived_past": "In your late thirties and forties your partners were quick ones who argued well and laughed at the right moments, and each cold spell between you began with honesty that arrived before warmth. You came out of them knowing which of your true words a partner could take."
       },
       "Mind": {
         "headline": "Your mind is sharpest in conversation with someone close.",
-        "recognition": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give a partner your best ideas first, and your harshest opinions too.",
-        "lived": "Your clearest thinking has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening.",
-        "ahead": "Your thinking grows bolder from your mid-thirties, and a partner is the first to hear each new idea. The ideas the two of you test at home in these years become the ones you are known for, and you say them more kindly than you once did."
+        "recognition": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give a partner your best ideas first and your harshest opinions with them.",
+        "lived": "Your best thinking so far has been done in argument, in late talks at home where every point you made was questioned. You have changed your mind only for a partner who argued better, and those talks have given you the sharpest voice in any group.",
+        "ahead": "Your thinking grows bolder from your mid-thirties, and the arguments you have at home turn into work you show in public. You become known in these years for ideas first tried on a partner, and you say them more kindly than you once did.",
+        "lived_past": "In your late thirties and forties your best thinking was done in argument, in late talks at home where every point you made was questioned. You changed your mind only for a partner who argued better, and those talks gave you the sharpest voice in any group."
       }
     },
     "__ore": {
@@ -57,6 +59,14 @@
         "domain_climb.Love.recognition": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing your partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half.",
         "domain_climb.Mind.recognition": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give your partner your best ideas first, and your harshest opinions too.",
         "domain_climb.Mind.lived": "Your clearest thinking so far has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Love.recognition": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing a partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half.",
+        "domain_climb.Love.lived": "The partners you have chosen so far were quick ones, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
+        "domain_climb.Love.ahead": "From your mid-thirties your home fills with talk, and the partner you share it with matches you word for word. The two of you grow closer through what you argue about together, and you aim your sharpest words at the world outside your door.",
+        "domain_climb.Mind.recognition": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give a partner your best ideas first, and your harshest opinions too.",
+        "domain_climb.Mind.lived": "Your clearest thinking has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening.",
+        "domain_climb.Mind.ahead": "Your thinking grows bolder from your mid-thirties, and a partner is the first to hear each new idea. The ideas the two of you test at home in these years become the ones you are known for, and you say them more kindly than you once did."
       }
     }
   },
@@ -130,6 +140,54 @@
       "finding": "DD:DD-026",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Love.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Love.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-a.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-day-b.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

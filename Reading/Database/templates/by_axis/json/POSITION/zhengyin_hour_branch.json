@@ -37,21 +37,21 @@
     "domain_climb": {
       "Family": {
         "headline": "Your family looks after you, and you let it.",
-        "recognition": "You are cared for by younger people more than you expected, with visits and help and small kindnesses. Because you are used to being the one who gives, you wave off help you need, and it hurts the people offering. What you want from your family now is company more than help.",
-        "lived": "Little acts of care have come to you unasked since your late forties, a lift or a meal or a call from younger people. You have found them harder to accept than to give, and you have learned to say yes more often.",
-        "ahead": "From your late forties the people after you return the care you once gave them, in visits and help you did not ask for. You become the calm centre of a close family in these years, and you take their help without keeping score."
+        "recognition": "Younger people look after you more than you expected, with visits and help and small kindnesses. Because being cared for is what lets you rest, you settle into their care and stop running everything yourself. What you want from your family now is company as much as help.",
+        "lived": "Since your late forties small acts of care have come to you unasked, a lift or a call or a visit from the people after you. You have let them in, and the family has grown closer around you than it was in your busiest years.",
+        "ahead": "The people after you gather around you from your late forties as a home base, the place they come back to for advice and support. You become the calm centre of a close family, taking their help as easily as they take yours."
       },
       "Health": {
         "headline": "Your health in later life rests on gentle rhythm.",
-        "recognition": "You stay well on regular meals, unhurried walks and early nights, and you sleep badly the week the rhythm breaks. Because ease restores you, you let the ease run on past the point it helps you, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
-        "lived": "Your sleep has come more easily since your late forties, and your days have found a steadier pace. You have also gone through a stretch of too much rest, and your energy came back once something asked more of you.",
-        "ahead": "Your body does well from your late forties on gentle habits and the company of people who look after you. You hold your strength in these years through one demanding thing each week, and you feel the difference whenever you let it go."
+        "recognition": "You stay well on walks, early nights and people who check on you, and you sleep badly in a week without them. Because being looked after restores you, you let others carry your pace for longer than it helps, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
+        "lived": "Since your late forties your sleep has come more easily, and the care of people close to you has set a gentler pace for your days. Leaning on that support through tired weeks, you have come back from each one sooner than you once did.",
+        "ahead": "From your late forties your body does well on gentle habits and the company of people who look after you. You hold your strength by learning something new each season, and a class or a guided walk does more for you than a hard workout."
       },
       "Mind": {
         "headline": "Your mind stays clear through daily habit.",
-        "recognition": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and a year with nothing to puzzle over leaves you restless. You think best with one good question in front of you.",
-        "lived": "Daily reading and talks with people you trust have kept your thinking calm and steady since your late forties. You have become the one others ask for a clear view, and you have enjoyed being asked.",
-        "ahead": "Reading fills more of your days from your late forties, and you remember more of it than you did in your busiest years. Younger people come to rely on your judgement in these years, and you give it carefully."
+        "recognition": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your mind learns best in calm, you avoid arguments and noise, and a year with nothing new to study leaves you restless. You think best with one good question in front of you and a patient hour to answer it.",
+        "lived": "Since your late forties daily reading and talks with people you trust have kept your thinking calm. Guided by a few good teachers, you have grown steadier in your thinking each year.",
+        "ahead": "From your late forties reading fills more of your days, and you remember more of it than you did in your busiest years. You take up study for its own sake, a course or a long book read slowly, with your judgement growing calmer and surer alongside it."
       }
     },
     "__ore": {
@@ -66,6 +66,17 @@
         "domain_climb.Mind.recognition": "You keep your mind clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and you lose some sharpness in years that are too quiet. You think best with one good question in front of you.",
         "domain_climb.Mind.lived": "Since your late forties your thinking has grown calmer and steadier, held up by daily reading and talks with people you trust. You have become the one others ask for a clear view, and you have enjoyed being asked.",
         "domain_climb.Mind.ahead": "From your late forties your mind stays clear because you use it gently every day. You read more and remember more of it in these years, and your judgement becomes the thing younger people around you rely on."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Family.recognition": "You are cared for by younger people more than you expected, with visits and help and small kindnesses. Because you are used to being the one who gives, you wave off help you need, and it hurts the people offering. What you want from your family now is company more than help.",
+        "domain_climb.Family.lived": "Little acts of care have come to you unasked since your late forties, a lift or a meal or a call from younger people. You have found them harder to accept than to give, and you have learned to say yes more often.",
+        "domain_climb.Family.ahead": "From your late forties the people after you return the care you once gave them, in visits and help you did not ask for. You become the calm centre of a close family in these years, and you take their help without keeping score.",
+        "domain_climb.Health.recognition": "You stay well on regular meals, unhurried walks and early nights, and you sleep badly the week the rhythm breaks. Because ease restores you, you let the ease run on past the point it helps you, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
+        "domain_climb.Health.lived": "Your sleep has come more easily since your late forties, and your days have found a steadier pace. You have also gone through a stretch of too much rest, and your energy came back once something asked more of you.",
+        "domain_climb.Health.ahead": "Your body does well from your late forties on gentle habits and the company of people who look after you. You hold your strength in these years through one demanding thing each week, and you feel the difference whenever you let it go.",
+        "domain_climb.Mind.recognition": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and a year with nothing to puzzle over leaves you restless. You think best with one good question in front of you.",
+        "domain_climb.Mind.lived": "Daily reading and talks with people you trust have kept your thinking calm and steady since your late forties. You have become the one others ask for a clear view, and you have enjoyed being asked.",
+        "domain_climb.Mind.ahead": "Reading fills more of your days from your late forties, and you remember more of it than you did in your busiest years. Younger people come to rely on your judgement in these years, and you give it carefully."
       }
     }
   },
@@ -132,6 +143,60 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Health.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

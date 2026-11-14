@@ -142,6 +142,20 @@
         "decade_lines.Family.heavy.ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The order you built keeps you going, and you pass some of the load over once your family sees it.",
         "decade_lines.Wealth.heavy.ahead": "Caution about money tightens in these years, and spending on yourself feels wrong more often than it should. You have more put by than you feel you have, and you relax a little each time you check.",
         "decade_lines.Career.heavy.ahead": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability keeps you valued, and you find a better fit once someone else sees what you are worth."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "decade_lines.Wealth.helping.ahead": "You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it.",
+        "decade_lines.Wealth.helping.lived": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without windfalls or risk, and you trusted your own counting more than any tip.",
+        "decade_lines.Wealth.heavy.lived": "Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and you came through on the security that careful habit built.",
+        "decade_lines.Wealth.heavy.ahead": "Caution about money tightens in these years, and spending on yourself feels wrong even when you can afford it. You have more put by than you feel you have, and you relax a little each time you check.",
+        "decade_lines.Family.helping.ahead": "Your family life settles in these years around the order you keep, a home that runs well and bills paid on time. You are the one your relatives rely on, and you are glad to be.",
+        "decade_lines.Family.helping.lived": "Meals, chores and repairs ran smoothly at home in those years because you saw to them. Your family grew used to your steadiness, and you took pride in it.",
+        "decade_lines.Family.heavy.lived": "Duty at home outweighed pleasure in those years, and you counted what others spent without meaning to. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly.",
+        "decade_lines.Family.heavy.ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The routines you built keep you going, and you pass some of the load over once your family sees it.",
+        "decade_lines.Career.helping.ahead": "Your work pays properly in these years, steadily and in proportion to what you put in. You chase the next thing less and build on what you already do well.",
+        "decade_lines.Career.helping.lived": "Steady work rewarded you in those years, and your record stayed clean. You became known as the person who delivers on time, and the reputation followed you into later work.",
+        "decade_lines.Career.heavy.lived": "Safety kept you in one place too long during those years, and your duties grew faster than your reward. You carried the extra load reliably, and it earned you a trust that later work paid for.",
+        "decade_lines.Career.heavy.ahead": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability earns you respect, and you find a better fit once someone else sees what you are worth."
       }
     },
     "ruling_domains": [
@@ -152,32 +166,32 @@
     "decade_lines": {
       "Wealth": {
         "helping": {
-          "ahead": "You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it.",
-          "lived": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without windfalls or risk, and you trusted your own counting more than any tip."
+          "ahead": "You turn steady work into something you own, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before.",
+          "lived": "Careful earning paid off, and you saved steadily from regular work. You built something solid without gambles or shortcuts, trusting your own counting more than any tip."
         },
         "heavy": {
-          "lived": "Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and you came through on the security that careful habit built.",
-          "ahead": "Caution about money tightens in these years, and spending on yourself feels wrong even when you can afford it. You have more put by than you feel you have, and you relax a little each time you check."
+          "lived": "Expenses felt heavy, and you counted money long after there was enough. You came through on the security careful habit built, though your pleasure shrank as your savings grew.",
+          "ahead": "Caution about money tightens, and spending on yourself feels wrong even when you can afford it. Each time you check, you find more put by than you thought and relax a little."
         }
       },
       "Family": {
         "helping": {
-          "ahead": "Your family life settles in these years around the order you keep, a home that runs well and bills paid on time. You are the one your relatives rely on, and you are glad to be.",
-          "lived": "Meals, chores and repairs ran smoothly at home in those years because you saw to them. Your family grew used to your steadiness, and you took pride in it."
+          "ahead": "Family life settles around the order you keep, with a home that runs well and bills paid on time. You become the steady one relatives rely on and take quiet pride in it.",
+          "lived": "You saw to chores, bills and repairs, and the household ran smoothly because of it. Your steadiness became something the family counted on."
         },
         "heavy": {
-          "lived": "Duty at home outweighed pleasure in those years, and you counted what others spent without meaning to. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly.",
-          "ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The routines you built keep you going, and you pass some of the load over once your family sees it."
+          "lived": "Careful keeping outweighed pleasure at home, and you noticed every purchase anyone made. You kept the household secure if a little tense, carried by the relatives who thanked you plainly.",
+          "ahead": "Keeping the household in order weighs on you, and you carry more of the load than anyone else. You lean on the routines you built until the family sees the weight and takes some of it."
         }
       },
       "Career": {
         "helping": {
-          "ahead": "Your work pays properly in these years, steadily and in proportion to what you put in. You chase the next thing less and build on what you already do well.",
-          "lived": "Steady work rewarded you in those years, and your record stayed clean. You became known as the person who delivers on time, and the reputation followed you into later work."
+          "ahead": "Your work pays properly, steadily and in proportion to what you put in. You chase the next thing less and build on what you already do well.",
+          "lived": "Steady work paid you fairly, and you kept most of what you earned. You became known as the person who delivers on time, and that steadiness carried you into later work."
         },
         "heavy": {
-          "lived": "Safety kept you in one place too long during those years, and your duties grew faster than your reward. You carried the extra load reliably, and it earned you a trust that later work paid for.",
-          "ahead": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability earns you respect, and you find a better fit once someone else sees what you are worth."
+          "lived": "Safety kept you in one place too long, and your workload grew faster than your pay. You carried the extra load reliably and earned a trust that later work paid for.",
+          "ahead": "Routine tightens around your work, and caution keeps you from moves that would pay more. You find a better fit once someone else sees what your reliability is worth."
         }
       }
     }
@@ -273,6 +287,78 @@
       "finding": "DC:DC-035",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Wealth.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Wealth.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Wealth.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Wealth.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Family.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Career.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Career.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Career.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "decade_lines.Career.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-DEC-1.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

@@ -24,10 +24,10 @@
 | `target_domains` | Mind · Career · Health |
 | `line` | The Alchemist and the Artisan share your chart, and they compete: too much theory starves your ease. When output stalls, the cure is one finished thing made with your hands, and fewer perfect plans. |
 | `reading` | One catch runs underneath: your own analysis can starve your output. Projects polish in private until the moment passes, and the drawer of nearly finished things grows. The cure is structural, deadlines you did not set, collaborators who ship, one craft done with the hands. In heavy thinking seasons, watch sleep and appetite first. |
-| `fused_line` | In you this pull is constant, and you feel the tug between thinking and finishing almost every day. |
-| `domain_lines.Mind` | You also think so long about a thing that you miss the moment to make it, and you keep a drawer of nearly finished work. |
+| `fused_line` | You hold thinking and making at one gate, and the thinking wins most of their arguments. |
+| `domain_lines.Mind` | You also think so long about a thing that you miss the moment to make it, keeping a drawer of nearly finished work. |
 | `domain_lines.Career` | You also polish your work in private until the moment to show it has passed, and you lose more chances by not finishing than by failing. |
-| `domain_lines.Health` | In your heaviest thinking seasons you also forget to eat and sleep properly, and your body tells you before your mind admits it. |
+| `domain_lines.Health` | You also forget to eat and sleep properly in your heaviest thinking seasons, with your body telling you before your mind admits it. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -35,3 +35,6 @@
 |---|---|
 | `domains_round1_retired_2026-10-21.note` | DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore. |
 | `domains_round1_retired_2026-10-21.fused_line` | They share one gate in you, and you feel the pull between thinking and finishing almost every day. |
+| `retired_2026-11-14_rulings_round.domain_lines.Mind` | You also think so long about a thing that you miss the moment to make it, and you keep a drawer of nearly finished work. |
+| `retired_2026-11-14_rulings_round.domain_lines.Health` | In your heaviest thinking seasons you also forget to eat and sleep properly, and your body tells you before your mind admits it. |
+| `retired_2026-11-14_rulings_round.fused_line` | In you this pull is constant, and you feel the tug between thinking and finishing almost every day. |

@@ -1,0 +1,35 @@
+{
+ "pages": 900,
+ "charts": 100,
+ "breakPct": 0.4,
+ "andYouMean": 0.2,
+ "andYouMax": 2,
+ "period": 0,
+ "frames": 0,
+ "fam": {
+  "seat beats": [
+   2,
+   800
+  ],
+  "decade lines": [
+   0,
+   800
+  ],
+  "year lines": [
+   0,
+   800
+  ],
+  "Blueprint missing and needs": [
+   0,
+   100
+  ],
+  "Blueprint seen": [
+   0,
+   100
+  ],
+  "Blueprint bonds": [
+   2,
+   100
+  ]
+ }
+}

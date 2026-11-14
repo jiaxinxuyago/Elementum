@@ -35,15 +35,15 @@
     "domain_climb": {
       "Family": {
         "headline": "Your family in later life is chosen as much as born.",
-        "recognition": "You treat the younger people in your family as equals, and you want their argument more than their care. Because being looked down on is the one thing you cannot bear, you hide a hard week from anyone young enough to fuss. Your family stays close in a level way, and you miss some of the softness it rarely offers.",
-        "lived": "Your family has come to include people you chose since your late forties, old friends with a key and younger people who treat you as their match. You have kept that circle small on purpose, and you have seen less of the relatives who fussed over you.",
-        "ahead": "From your late forties the people after you grow into equals who stand beside you and argue back. You keep a smaller family around you in these years than most people do, and you are prouder of it than of anything you own."
+        "recognition": "You treat the people after you as equals, and you want them standing on their own more than leaning on you. Because being fussed over feels like being looked down on, you keep a hard week to yourself and manage it alone. Your family stays close on level terms, each of you with a life of your own.",
+        "lived": "Since your late forties your family has come to include people you chose, old friends with a key and younger people who meet you as a match. You have relied on that small circle of equals through every bad patch, and none of them has ever tried to manage you.",
+        "ahead": "From your late forties the people after you grow into equals who stand side by side with you rather than behind you. You keep a smaller family than most, and its independence makes you prouder than anything you own."
       },
       "Growth": {
         "headline": "You keep growing through the few who match you.",
-        "recognition": "You grow in later life through two or three people who push you as hard as you push yourself. Because you learn only from someone you respect, you ignore advice from anyone who talks down to you. Your progress is slower without that small company, and you notice it within weeks.",
-        "lived": "A few equals have taught you most since your late forties, a friend or a colleague who would not let you coast. Whenever you worked alone for long your progress stalled, and you went back to them each time.",
-        "ahead": "Your growth from your late forties comes through company, long talks and shared work with people who expect a great deal of you. You stay sharper in these years than most people your age, and you owe it to the few who keep you honest."
+        "recognition": "In later life you grow through two or three peers who expect as much of you as you expect of yourself. Because you learn only from someone who meets you on level ground, you let advice from anyone who talks down to you pass straight by. You notice within weeks whenever that small company drops away.",
+        "lived": "A few equals have taught you most since your late forties, friends and colleagues who would not let you coast. Matched step for step by them, you have grown further in that company than in any class.",
+        "ahead": "From your late forties you find your peers among younger people as well as old friends, and they treat you as one of them rather than as an elder. Kept level by that company, you stay sharp long past the point where others slow down."
       }
     },
     "__ore": {
@@ -57,6 +57,14 @@
         "domain_climb.Growth.recognition": "You grow in later life through two or three people who push you as hard as you push yourself. Because you learn only from someone you respect, you ignore advice from anyone who treats you as old. Your progress is slower without that small company, and you notice it within weeks.",
         "domain_climb.Growth.lived": "Since your late forties you have learned most from a few equals, a friend or a colleague who never let you coast. Whenever you worked alone for long, your progress stalled, and you came back to them each time.",
         "domain_climb.Growth.ahead": "From your late forties your growth comes through company, long talks and shared work with people who expect a great deal of you. You stay sharper in these years than most people your age, and you owe it to the few who keep you honest."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Family.recognition": "You treat the younger people in your family as equals, and you want their argument more than their care. Because being looked down on is the one thing you cannot bear, you hide a hard week from anyone young enough to fuss. Your family stays close in a level way, and you miss some of the softness it rarely offers.",
+        "domain_climb.Family.lived": "Your family has come to include people you chose since your late forties, old friends with a key and younger people who treat you as their match. You have kept that circle small on purpose, and you have seen less of the relatives who fussed over you.",
+        "domain_climb.Family.ahead": "From your late forties the people after you grow into equals who stand beside you and argue back. You keep a smaller family around you in these years than most people do, and you are prouder of it than of anything you own.",
+        "domain_climb.Growth.recognition": "You grow in later life through two or three people who push you as hard as you push yourself. Because you learn only from someone you respect, you ignore advice from anyone who talks down to you. Your progress is slower without that small company, and you notice it within weeks.",
+        "domain_climb.Growth.lived": "A few equals have taught you most since your late forties, a friend or a colleague who would not let you coast. Whenever you worked alone for long your progress stalled, and you went back to them each time.",
+        "domain_climb.Growth.ahead": "Your growth from your late forties comes through company, long talks and shared work with people who expect a great deal of you. You stay sharper in these years than most people your age, and you owe it to the few who keep you honest."
       }
     }
   },
@@ -109,6 +117,42 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

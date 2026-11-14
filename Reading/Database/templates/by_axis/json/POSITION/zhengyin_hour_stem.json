@@ -36,22 +36,22 @@
     "health_line": "Your late vitality flows from usefulness and rest in equal measure: teach mornings, nap afternoons, and the constitution carries you far past the tables.",
     "domain_climb": {
       "Family": {
-        "headline": "You become the one your family turns to.",
+        "headline": "Your family takes shelter with you.",
         "recognition": "When your family needs advice or a calm word in a bad week, you are the one they call. Because protecting the young matters to you deeply, you step in early when someone younger is struggling, and you give more than you are asked for. You are respected at family gatherings more than you are relaxed at them.",
-        "lived": "Younger people in your family have brought you their problems since your late forties, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
-        "ahead": "Younger people look to you from your late forties for guidance, and for cover when things fall apart. You give both steadily in these years, and you see what you taught them carry on in their lives."
+        "lived": "Your door has stood open to the people after you since your late forties, and they have brought their troubles through it sure of a patient hearing. You have become their home base, the place they return to first when something gives way.",
+        "ahead": "From your late forties the people after you look to you for guidance, and for cover when things fall apart. You give both with patience in these years, watching what you taught them carry on in their own lives."
       },
       "Growth": {
-        "headline": "You grow in later life by teaching.",
-        "recognition": "Passing on what you know is how you grow now, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find a new purpose in being useful to people who are just starting.",
-        "lived": "Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
-        "ahead": "What you know takes a lasting form from your late forties, a course or a set of notes or a body of advice. You see it outlast your own part in it, and you take quiet pride in that."
+        "headline": "Teaching is how you grow.",
+        "recognition": "You grow each time you pass on what you know, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find purpose in being useful to people who are just starting.",
+        "lived": "Since your late forties you have found yourself explaining things you once took for granted, and you have learned as much from it as the people you helped. You have grown more patient and surer of what you know, the guide people seek out on purpose.",
+        "ahead": "Your knowledge takes a lasting form from your late forties, a course or a set of notes or a body of advice. You take quiet pride in seeing it outlast your own part in it."
       },
       "Mind": {
         "headline": "Your thinking stays quick because people keep asking.",
-        "recognition": "You keep your mind in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a week when nobody calls, and you pick up the phone yourself before the week is out.",
-        "lived": "Other people's questions have kept your mind active since your late forties, the advice asked for and the problems brought to you. You have read more in these years than in your busiest working ones, and you remember most of it.",
-        "ahead": "Younger people bring you their hardest questions from your late forties, and you enjoy the work of answering them. You are quoted and asked for in these years, and you feel most yourself when a question has no easy answer."
+        "recognition": "You keep your mind in use by answering questions, studying widely and staying in touch with people who want your advice. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a quiet week, but you pick up the phone yourself before it ends.",
+        "lived": "Other people's questions have kept your mind active since your late forties, the advice asked for and the problems brought to you. You have read and studied more in these years than since your schooling, and kept most of it.",
+        "ahead": "Past your late forties the people after you bring you their questions, and you take care to teach them properly. You are quoted and asked for more than ever, and most yourself when someone leaves understanding more than they came with."
       }
     },
     "__ore": {
@@ -70,6 +70,18 @@
       },
       "retired_2026-10-21_section_audit": {
         "domain_climb.Growth.lived": "You have found yourself explaining things you once took for granted since your late forties, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Family.headline": "You become the one your family turns to.",
+        "domain_climb.Family.lived": "Younger people in your family have brought you their problems since your late forties, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
+        "domain_climb.Family.ahead": "Younger people look to you from your late forties for guidance, and for cover when things fall apart. You give both steadily in these years, and you see what you taught them carry on in their lives.",
+        "domain_climb.Growth.headline": "You grow in later life by teaching.",
+        "domain_climb.Growth.recognition": "Passing on what you know is how you grow now, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find a new purpose in being useful to people who are just starting.",
+        "domain_climb.Growth.lived": "Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
+        "domain_climb.Growth.ahead": "What you know takes a lasting form from your late forties, a course or a set of notes or a body of advice. You see it outlast your own part in it, and you take quiet pride in that.",
+        "domain_climb.Mind.recognition": "You keep your mind in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a week when nobody calls, and you pick up the phone yourself before the week is out.",
+        "domain_climb.Mind.lived": "Other people's questions have kept your mind active since your late forties, the advice asked for and the problems brought to you. You have read more in these years than in your busiest working ones, and you remember most of it.",
+        "domain_climb.Mind.ahead": "Younger people bring you their hardest questions from your late forties, and you enjoy the work of answering them. You are quoted and asked for in these years, and you feel most yourself when a question has no easy answer."
       }
     }
   },
@@ -143,6 +155,66 @@
       "finding": "DD:DD-030",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Family.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Family.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Growth.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.recognition",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Mind.ahead",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-hour-stem.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

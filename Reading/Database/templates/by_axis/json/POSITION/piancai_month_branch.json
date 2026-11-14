@@ -34,14 +34,16 @@
     "health_line": "Your system cycles like your income: brilliant sprints, flat recoveries. Respect the fallow weeks. They are part of the yield.",
     "domain_climb": {
       "Career": {
-        "headline": "Your work pays for reading where things are going.",
+        "headline": "You build a career by spotting openings first.",
         "recognition": "You are drawn to work where timing matters, buying and selling or finding things before others notice them. Because you read change early, a job where nothing moves bores you, and you leave it sooner than you planned. In any role you end up as the person who sees what is coming next.",
-        "lived": "The jobs that have gone best for you since your late teens are the ones where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do."
+        "lived": "Since your late teens your best jobs have been the ones where you could spot a trend early, in trading or sales or finding the right people. With every move you have widened your range of contacts, until a chance reaches you before anyone announces it.",
+        "lived_past": "In your twenties and early thirties your best jobs were the ones where you could spot a trend early, in trading or sales or finding the right people. With every move you widened your range of contacts, until chances reached you before anyone announced them."
       },
       "Wealth": {
         "headline": "Your money comes in strong seasons and quiet ones.",
         "recognition": "You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each good stretch than after it.",
-        "lived": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own streaks run."
+        "lived": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. By now you know how your own streaks run, a lesson paid for with the gains of good years spent chasing better ones.",
+        "lived_past": "What you earned from sixteen to your mid-thirties followed your instinct, with good runs and lean months in turn. You came out of those years knowing how your own streaks ran, a lesson paid for with the gains of good years spent chasing better ones."
       }
     },
     "__ore": {
@@ -54,6 +56,11 @@
       "retired_2026-10-21_section_audit": {
         "domain_climb.Wealth.lived": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own luck runs.",
         "domain_climb.Wealth.recognition": "You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each lucky stretch than after it."
+      },
+      "retired_2026-11-14_rulings_round": {
+        "domain_climb.Career.headline": "Your work pays for reading where things are going.",
+        "domain_climb.Career.lived": "The jobs that have gone best for you since your late teens are the ones where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do.",
+        "domain_climb.Wealth.lived": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own streaks run."
       }
     }
   },
@@ -120,6 +127,36 @@
       "finding": "cross:X-039 + DB:DB-024",
       "date": "2026-10-21",
       "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Career.headline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Career.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
+    },
+    {
+      "field": "domain_climb.Wealth.lived_past",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-11-14-domains-rulings/out-S-month-branch.json",
+      "date": "2026-11-14",
+      "ruling": "owner 2026-11-14: R1–R17, G1, MN all A (Domains + Blueprint section audit)"
     }
   ]
 }

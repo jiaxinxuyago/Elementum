@@ -34,12 +34,14 @@
 | `turn_friction` | Run heavy, every season is hunting season: rest read as loss. Sit out one obvious opening on purpose, and notice you survived. |
 | `shadow_line` | Overloaded, the instinct gambles its own harvest: winnings rehunted until gone. |
 | `health_line` | Your system cycles like your income: brilliant sprints, flat recoveries. Respect the fallow weeks. They are part of the yield. |
-| `domain_climb.Career.headline` | Your work pays for reading where things are going. |
+| `domain_climb.Career.headline` | You build a career by spotting openings first. |
 | `domain_climb.Career.recognition` | You are drawn to work where timing matters, buying and selling or finding things before others notice them. Because you read change early, a job where nothing moves bores you, and you leave it sooner than you planned. In any role you end up as the person who sees what is coming next. |
-| `domain_climb.Career.lived` | The jobs that have gone best for you since your late teens are the ones where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do. |
+| `domain_climb.Career.lived` | Since your late teens your best jobs have been the ones where you could spot a trend early, in trading or sales or finding the right people. With every move you have widened your range of contacts, until a chance reaches you before anyone announces it. |
+| `domain_climb.Career.lived_past` | In your twenties and early thirties your best jobs were the ones where you could spot a trend early, in trading or sales or finding the right people. With every move you widened your range of contacts, until chances reached you before anyone announced them. |
 | `domain_climb.Wealth.headline` | Your money comes in strong seasons and quiet ones. |
 | `domain_climb.Wealth.recognition` | You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each good stretch than after it. |
-| `domain_climb.Wealth.lived` | What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own streaks run. |
+| `domain_climb.Wealth.lived` | What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. By now you know how your own streaks run, a lesson paid for with the gains of good years spent chasing better ones. |
+| `domain_climb.Wealth.lived_past` | What you earned from sixteen to your mid-thirties followed your instinct, with good runs and lean months in turn. You came out of those years knowing how your own streaks ran, a lesson paid for with the gains of good years spent chasing better ones. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -51,3 +53,6 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | Since your late teens your income has risen and fallen in turns, with good runs and lean months. At least once you have lost the gains of a good year by chasing a better one, and you have learned the shape of your own luck. |
 | `retired_2026-10-21_section_audit.domain_climb.Wealth.lived` | What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own luck runs. |
 | `retired_2026-10-21_section_audit.domain_climb.Wealth.recognition` | You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each lucky stretch than after it. |
+| `retired_2026-11-14_rulings_round.domain_climb.Career.headline` | Your work pays for reading where things are going. |
+| `retired_2026-11-14_rulings_round.domain_climb.Career.lived` | The jobs that have gone best for you since your late teens are the ones where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do. |
+| `retired_2026-11-14_rulings_round.domain_climb.Wealth.lived` | What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own streaks run. |

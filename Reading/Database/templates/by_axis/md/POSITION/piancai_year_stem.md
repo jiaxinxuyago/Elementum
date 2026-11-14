@@ -34,12 +34,12 @@
 | `turn_friction` | Run heavy, everything circulates: money, favors, attention, none of it settling. Anchor one asset this year and let it bore you. |
 | `shadow_line` | Overloaded, generosity performs: giving seen becoming the point of giving. |
 | `health_line` | Your vitality is circulatory: it rises in motion and pools in stillness. Move daily, travel seasonally, and the engine self-maintains. |
-| `domain_climb.Wealth.headline` | You learned early that money is for moving. |
-| `domain_climb.Wealth.recognition` | You spend on people and chances easily, and a good opening excites you more than a full account. Because money in your first home came and went in plain sight, you feel calm with risks that frighten more careful people. A store kept apart from your generosity is the thing you find hardest to build, and you know it. |
-| `domain_climb.Wealth.lived` | As a child you watched money arrive in good months and go out on visitors and fresh ideas. By your teens you had a quick eye for a chance, and saving was something you had to teach yourself. |
-| `domain_climb.Family.headline` | Your family taught you generosity, and its price. |
-| `domain_climb.Family.recognition` | You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving past what you can afford, and you resent it only later. |
-| `domain_climb.Family.lived` | An older relative in your first home, a parent or someone who stood in for one, spent widely and drew people around them. Growing up you learned both the warmth of that generosity and what it cost the household. |
+| `domain_climb.Wealth.headline` | For you, money is for moving toward the next opening. |
+| `domain_climb.Wealth.recognition` | You spend on people and plans easily, and a good opening excites you more than money sitting still. Because the best things in your childhood arrived unplanned, you take bets that frighten more careful people. You find it hardest to keep a store apart from your generosity, and a windfall rarely stays long enough to start one. |
+| `domain_climb.Wealth.lived` | Growing up you saw money come into your first home through side doors and leave again on visitors and new plans. By your teens you had a quick eye for a chance, and saving was something you had to teach yourself. |
+| `domain_climb.Family.headline` | Generosity runs in your family, price and all. |
+| `domain_climb.Family.recognition` | You give freely in your family, the treat paid for and the loan made without terms. Because giving is how you feel close to people, you find it hard to refuse anyone near you. You widen the circle you give to past what you can afford, resenting it only later. |
+| `domain_climb.Family.lived` | An older relative in your first home kept an open door and spent widely on whoever came through it. Growing up you learned both the warmth of that generosity and what it cost the household. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -52,3 +52,9 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Family.recognition` | You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that open hands make people love you, you find it hard to refuse anyone close. You keep giving after you can afford to, and you resent it only later. |
 | `domains_round1_retired_2026-10-21.domain_climb.Family.lived` | An older relative in your first home, a father or someone who stood in for one, spent widely and drew people around them. By your teens you had learned both the warmth of that generosity and what it cost the household. |
 | `retired_2026-10-21_section_audit.domain_climb.Family.recognition` | You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving after you can afford to, and you resent it only later. |
+| `retired_2026-11-14_rulings_round.domain_climb.Wealth.headline` | You learned early that money is for moving. |
+| `retired_2026-11-14_rulings_round.domain_climb.Wealth.recognition` | You spend on people and chances easily, and a good opening excites you more than a full account. Because money in your first home came and went in plain sight, you feel calm with risks that frighten more careful people. A store kept apart from your generosity is the thing you find hardest to build, and you know it. |
+| `retired_2026-11-14_rulings_round.domain_climb.Wealth.lived` | As a child you watched money arrive in good months and go out on visitors and fresh ideas. By your teens you had a quick eye for a chance, and saving was something you had to teach yourself. |
+| `retired_2026-11-14_rulings_round.domain_climb.Family.headline` | Your family taught you generosity, and its price. |
+| `retired_2026-11-14_rulings_round.domain_climb.Family.recognition` | You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving past what you can afford, and you resent it only later. |
+| `retired_2026-11-14_rulings_round.domain_climb.Family.lived` | An older relative in your first home, a parent or someone who stood in for one, spent widely and drew people around them. Growing up you learned both the warmth of that generosity and what it cost the household. |

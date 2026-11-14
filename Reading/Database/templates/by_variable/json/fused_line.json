@@ -7,55 +7,55 @@
         "id": "shishen_zhi_sha",
         "key": "食神制杀",
         "canonical_name": "The Artisan checks the General",
-        "value": "In you this runs close to the surface, and you turn pressure into calm almost as soon as it lands."
+        "value": "With ease and pressure at one gate, you keep a firm hold on every strain that reaches you."
       },
       {
         "id": "shang_guan_pei_yin",
         "key": "伤官配印",
         "canonical_name": "The Virtuoso harnessed by the Sage",
-        "value": "In you the two never pull apart, and you rarely have to choose between your talent and your training."
+        "value": "Your talent and your training sit at one gate, close enough that you rarely have to choose between them."
       },
       {
         "id": "xiao_shen_duo_shi",
         "key": "枭神夺食",
         "canonical_name": "The Alchemist starves the Artisan",
-        "value": "In you this pull is constant, and you feel the tug between thinking and finishing almost every day."
+        "value": "You hold thinking and making at one gate, and the thinking wins most of their arguments."
       },
       {
         "id": "shang_guan_jian_guan",
         "key": "伤官见官",
         "canonical_name": "The Virtuoso confronts the Magistrate",
-        "value": "In you this runs deep, and you have argued with your own position since your first job."
+        "value": "Your voice and your role share one gate, which leaves you arguing first with the position you hold."
       },
       {
         "id": "sha_yin_xiang_sheng",
         "key": "杀印相生",
         "canonical_name": "Pressure feeds the Sage",
-        "value": "In you this works fast, and you learn from pressure in the same week it arrives."
+        "value": "In you the two sit at one gate, and you rarely meet a pressure without learning from it."
       },
       {
         "id": "bi_jie_duo_cai",
         "key": "比劫夺财",
         "canonical_name": "The peers contest the purse",
-        "value": "In you this runs close to home, and you rarely own anything that is only yours."
+        "value": "With your people and your money at one gate, you rarely own anything that is only yours."
       },
       {
         "id": "shi_shang_sheng_cai",
         "key": "食伤生财",
         "canonical_name": "The maker’s economy",
-        "value": "In you making and earning sit close together, and you are paid in the same season that you make."
+        "value": "Because making and earning share a gate, you barely see a line between your craft and your income."
       },
       {
         "id": "cai_guan_xiang_sheng",
         "key": "财官相生",
         "canonical_name": "Wealth underwrites rank",
-        "value": "In you the two are tightly bound, and you find every gain arguing quietly for your next title."
+        "value": "You keep money and rank at one gate, where each gain argues quietly for your next step up."
       },
       {
         "id": "guan_yin_xiang_sheng",
         "key": "官印相生",
         "canonical_name": "Rank shelters the scholar",
-        "value": "In you the two move together, and you rise in rank and in learning at once."
+        "value": "You carry rank and learning at one gate, and neither grows in you without the other."
       }
     ]
   }
