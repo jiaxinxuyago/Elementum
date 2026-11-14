@@ -110,14 +110,15 @@ export function resolveEnergyChapters(chart, positions, opts = {}) {
     const decs = luck.filter((l) => l.endAge >= DEC_MIN && l.startAge <= DEC_MAX && (l === cur ? g === gateNow : gateOfAge(Math.max(l.startAge, 0)) === g)).map((l) => {
       const dt = decTense(l);
       // the child lines only for a decade lived mostly before sixteen (audit M9 A); the late lines from fifty-five (M5 A)
-      const early = dt === 'lived' && g === 'year' && l.startAge + 4.5 < 16;
+      const early = dt === 'lived' && g === 'year' && l.startAge <= 10; // at least six of its ten years before 16 (re-audit XR-07)
       const late = l.startAge >= LATE_AGE;
       const k0 = `ENERGY ${l.fn.toLowerCase()} · decade.${l.dir}.${early ? 'early' : dt}`;
       const k0late = `ENERGY ${l.fn.toLowerCase()} · decade.${l.dir}.late.${dt}`;
       let keys = late ? [k0late, k0] : [k0];
       if (dt !== 'now') { const vk = keys[0]; variants[vk] = (variants[vk] || 0) + 1; const v = variants[vk] === 1 ? 'a' : 'b'; keys = keys.map((k) => `${k}.${v}`); }
       const d = { el: l.el, fn: l.fn, dir: l.dir, lift: l.lift, startAge: l.startAge, startYear: l.startYear, endYear: l.endYear, tense: dt,
-        label: `${dt === 'now' ? 'Now · ' : ''}${an(l.el).replace(/^a/, dt === 'now' ? 'a' : 'A')} ${l.el} decade · ${l.startYear} to ${l.endYear}`,
+        // ages, not calendar years: the decade turns near a birthday, so a year span would end before the reader leaves it (re-audit)
+        label: `${dt === 'now' ? 'Now · ' : ''}${an(l.el).replace(/^a/, dt === 'now' ? 'a' : 'A')} ${l.el} decade · ages ${l.startAge} to ${l.endAge} · from ${l.startYear}`,
         ...unit(keys, dDecade(l, early ? 'early' : dt), { el: l.el, g: l.ground?.el }) };
       if (dt === 'now') {
         d.groundEl = l.ground?.el;
