@@ -292,8 +292,8 @@
         "subject": "a simple wooden weapon rack standing on the left, holding three different blades hung one above another: a straight sword, a curved sabre and a short dagger, their edges catching a few small ink-dot glints",
         "subject_v1": "two straight jian swords standing upright side by side, leaning together so their edges touch, a few small ink-dot sparks where the steel meets",
         "painted": "2026-11-13",
-        "approved": false,
-        "note": "v2: varied object per strip (owner 2026-11-13)"
+        "approved": true,
+        "note": "v2 approved by the owner 2026-11-14"
       },
       {
         "stem": "geng",
@@ -303,19 +303,21 @@
         "subject": "a large close view of a rough dark spearhead and an unfinished blade blank lying half-buried in a heap of raw ore stones at the mouth of a small hillside mine, one pale seam of ore running through the rocks",
         "subject_v1": "a straight jian sword rising point-up out of a misty mountain slope, half still inside the rock as if born from it, a thin pale seam of ore running down from its hilt into the stone",
         "painted": "2026-11-13",
-        "approved": false,
-        "note": "v2: varied object per strip (owner 2026-11-13)"
+        "approved": true,
+        "note": "v2 approved by the owner 2026-11-14"
       },
       {
         "stem": "geng",
         "energy": "fire",
         "relation": "shapes you",
         "file": "strip_geng_fire",
-        "subject": "a broad cleaver-shaped blade lying across a blacksmith's anvil, its edge glowing red-orange, a hammer resting beside it, a small forge fire below and behind, a thin wisp of smoke rising up the scroll",
+        "subject": "a long blade held by iron tongs in the heart of a roaring forge fire, the whole blade glowing orange-red, tall flames wrapping around it and sparks flying upward, an anvil and hammer waiting at the foot, smoke rising up the scroll",
         "subject_v1": "a straight jian sword standing upright in the flames of a small forge fire, the lower blade glowing red-orange as it is shaped, a thin wisp of smoke rising up the scroll",
-        "painted": "2026-11-13",
+        "painted": "2026-11-14",
         "approved": false,
-        "note": "v2: varied object per strip (owner 2026-11-13)"
+        "note": "v3: more fire and forging (owner 2026-11-14)",
+        "subject_v2": "a broad cleaver-shaped blade lying across a blacksmith's anvil, its edge glowing red-orange, a hammer resting beside it, a small forge fire below and behind, a thin wisp of smoke rising up the scroll",
+        "emphasis": "The glowing blade in the flames is the brightest and most distinct form in the painting; the fire is large and fills the middle of the scroll."
       },
       {
         "stem": "geng",
@@ -325,8 +327,8 @@
         "subject": "a woodcutter's axe with a long handle sunk deep into an upright log on a chopping block, the log split open around the axe head, a few split pieces and green leaves fallen around it",
         "subject_v1": "a clearly drawn straight jian sword with a dark hilt, its blade lodged deep in the trunk of a slender young tree, the trunk split open around the steel, a few leaves falling",
         "painted": "2026-11-13",
-        "approved": false,
-        "note": "v2: varied object per strip (owner 2026-11-13)"
+        "approved": true,
+        "note": "v2 approved by the owner 2026-11-14"
       },
       {
         "stem": "geng",
@@ -336,143 +338,188 @@
         "subject": "a small knife with a dark wooden handle resting edge-down on a wet whetstone at the bank of a stream, clear water running off the blade's edge and falling in drops into the stream, small ripples below",
         "subject_v1": "a straight jian sword held point-down above a small stream at dawn, dew gathering along its edge and falling in clear drops from the tip into the water, small ripples below",
         "painted": "2026-11-13",
-        "approved": false,
-        "note": "v2: varied object per strip (owner 2026-11-13)"
+        "approved": true,
+        "note": "v2 approved by the owner 2026-11-14"
       },
       {
         "stem": "xin",
         "energy": "metal",
         "relation": "more of you",
         "file": "strip_xin_metal",
-        "subject": "two cut, faceted jewels resting side by side on a fold of plain cloth, leaning together so their facets touch, a few tiny ink-dot glints where they meet",
-        "painted": "2026-11-05",
-        "approved": false
+        "subject": "a small open lacquer jewel box seen close, holding several different jewels: a string of pearls spilling over its edge, a jade ring and one cut faceted gem, tiny ink-dot glints on each",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "two cut, faceted jewels resting side by side on a fold of plain cloth, leaning together so their facets touch, a few tiny ink-dot glints where they meet",
+        "emphasis": "The jewels are large, the darkest, most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "xin",
         "energy": "earth",
         "relation": "feeds you",
         "file": "strip_xin_earth",
-        "subject": "a single cut, faceted jewel half-revealed inside a misty mountain rock face, as if born from the stone, a thin pale seam of ore running down from it into the rock",
-        "painted": "2026-11-05",
-        "approved": false
+        "subject": "a large close view of a cluster of raw pointed crystals growing out of a split rock at the mouth of a small cave, the crystals catching the light",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a single cut, faceted jewel half-revealed inside a misty mountain rock face, as if born from the stone, a thin pale seam of ore running down from it into the rock",
+        "emphasis": "The crystal cluster is large, the darkest, most distinct form in the painting; the landscape is only a hint.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "xin",
         "energy": "fire",
         "relation": "shapes you",
         "file": "strip_xin_fire",
-        "subject": "a cut, faceted jewel resting in the heart of a small forge flame, its lower facets glowing as the heat works it into shape, a thin wisp of smoke rising up the scroll",
-        "painted": "2026-11-05",
-        "approved": false
+        "subject": "a slender silver hairpin with an ornate flower head held by small tongs over a jeweller's charcoal brazier, the hairpin glowing where the flames touch it, flames and a few sparks rising",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a cut, faceted jewel resting in the heart of a small forge flame, its lower facets glowing as the heat works it into shape, a thin wisp of smoke rising up the scroll",
+        "emphasis": "The hairpin in the flames is large, the most distinct form in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "xin",
         "energy": "wood",
         "relation": "you shape it",
         "file": "strip_xin_wood",
-        "subject": "a cut, faceted jewel pressed point-first into a slender young green branch, its hard edge scoring a clean cut into the wood, the bark parting around it, a few leaves falling",
-        "painted": "2026-11-05",
-        "approved": false
+        "subject": "a small jade-handled engraving knife resting on a block of wood it has just carved with a fine peony pattern, curled wood shavings beside it, a green sprig lying near",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a cut, faceted jewel pressed point-first into a slender young green branch, its hard edge scoring a clean cut into the wood, the bark parting around it, a few leaves falling",
+        "emphasis": "The engraving knife and the carved block are large, the darkest, most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "xin",
         "energy": "water",
         "relation": "you feed it",
         "file": "strip_xin_water",
-        "subject": "a cut, faceted jewel suspended above a small stream at dawn, dew gathering on its facets and falling in clear drops from its point into the water, small ripples spreading below",
-        "painted": "2026-11-05",
-        "approved": false
+        "subject": "a single large pearl resting in an open oyster shell on a rock at the edge of a tide pool, clear drops of water falling from the shell into the pool, small ripples below",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a cut, faceted jewel suspended above a small stream at dawn, dew gathering on its facets and falling in clear drops from its point into the water, small ripples spreading below",
+        "emphasis": "The pearl in its shell is large, the most distinct form in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "jia",
         "energy": "wood",
         "relation": "more of you",
         "file": "strip_jia_wood",
-        "subject": "two young oaks growing side by side from one root, their trunks leaning together and their branches interlocking, a few leaves",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "a dense grove of tall straight tree trunks standing close together on the left, seen from low down, their crowns meeting overhead",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "two young oaks growing side by side from one root, their trunks leaning together and their branches interlocking, a few leaves",
+        "emphasis": "The trunks are the darkest, most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "jia",
         "energy": "water",
         "relation": "feeds you",
         "file": "strip_jia_water",
-        "subject": "a young oak standing at the edge of a quiet stream, its roots reaching down into the water, mist rising off the stream around the trunk",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "a large close view of an acorn that has split and sprouted a small seedling with two fresh leaves, fine rain falling on it, a small puddle around its roots",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a young oak standing at the edge of a quiet stream, its roots reaching down into the water, mist rising off the stream around the trunk",
+        "emphasis": "The acorn and seedling are large, the darkest, most distinct form in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "jia",
         "energy": "metal",
         "relation": "shapes you",
         "file": "strip_jia_metal",
-        "subject": "a young oak with one low branch cleanly cut away, an axe lodged in the trunk at the pale fresh cut, a few wood chips on the ground below",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "a felled tree trunk lying on trestles being squared into a timber beam, a carpenter's frame saw resting in the cut, pale sawdust on the ground below",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a young oak with one low branch cleanly cut away, an axe lodged in the trunk at the pale fresh cut, a few wood chips on the ground below",
+        "emphasis": "The timber and the saw are large, the darkest, most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "jia",
         "energy": "earth",
         "relation": "you shape it",
         "file": "strip_jia_earth",
-        "subject": "a young oak whose roots grip and split a bank of earth on a hillside, the soil held in place by the web of roots, a small terrace of ground formed beneath it",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "the massive gnarled roots at the base of a great old tree wrapping around and cracking open a boulder on a hillside, only the base of the trunk shown",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a young oak whose roots grip and split a bank of earth on a hillside, the soil held in place by the web of roots, a small terrace of ground formed beneath it",
+        "emphasis": "The roots are large, the darkest, most distinct form in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "jia",
         "energy": "fire",
         "relation": "you feed it",
         "file": "strip_jia_fire",
-        "subject": "a small fire of oak branches burning at the foot of a young oak, a thin column of smoke rising up the scroll past the trunk",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "a tall bonfire of stacked split oak logs burning brightly, large flames rising from the logs, sparks and smoke going up the scroll",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a small fire of oak branches burning at the foot of a young oak, a thin column of smoke rising up the scroll past the trunk",
+        "emphasis": "The burning logs and the flames are large and the most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "yi",
         "energy": "wood",
         "relation": "more of you",
         "file": "strip_yi_wood",
-        "subject": "two climbing vines twining up together around each other on a single bamboo stake, their tendrils interlocking, a few leaves",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "wisteria in full bloom hanging in long flower clusters from a bamboo trellis, many twisting stems wound around each other",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "two climbing vines twining up together around each other on a single bamboo stake, their tendrils interlocking, a few leaves",
+        "emphasis": "The wisteria is large, the darkest, most distinct form in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "yi",
         "energy": "water",
         "relation": "feeds you",
         "file": "strip_yi_water",
-        "subject": "a climbing vine trailing down the bank of a quiet stream, its lowest tendrils reaching the water, dew on the leaves, mist rising off the stream",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "tall reeds and one water lily at the edge of a pond in light rain, the reeds bending, raindrops making rings on the water",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a climbing vine trailing down the bank of a quiet stream, its lowest tendrils reaching the water, dew on the leaves, mist rising off the stream",
+        "emphasis": "The reeds are large, the darkest, most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "yi",
         "energy": "metal",
         "relation": "shapes you",
         "file": "strip_yi_metal",
-        "subject": "a climbing vine trained neatly along a trellis wire, a small pruning knife resting against the stake where a stray tendril has just been cut, the cut end pale, the cut tendril lying below",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "a flowering plant in a clay pot with a few stems freshly cut, a pair of iron pruning shears lying beside the pot with the cut stems",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a climbing vine trained neatly along a trellis wire, a small pruning knife resting against the stake where a stray tendril has just been cut, the cut end pale, the cut tendril lying below",
+        "emphasis": "The plant and the shears are large, the darkest, most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "yi",
         "energy": "earth",
         "relation": "you shape it",
         "file": "strip_yi_earth",
-        "subject": "a climbing vine spreading over a low stone wall and down a bank of loose earth, its roots and tendrils binding the soil into place",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "a large close view of tufts of grass and small wildflowers pushing up through cracked dry earth, their roots splitting the crust",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a climbing vine spreading over a low stone wall and down a bank of loose earth, its roots and tendrils binding the soil into place",
+        "emphasis": "The grass and wildflowers are large, the darkest, most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       },
       {
         "stem": "yi",
         "energy": "fire",
         "relation": "you feed it",
         "file": "strip_yi_fire",
-        "subject": "a small fire of dry vine cuttings burning on the ground at the foot of a living climbing vine on a stake, a thin wisp of smoke rising up the scroll past the leaves",
-        "painted": "2026-11-06",
-        "approved": false
+        "subject": "a stand of tall dry grass with a line of bright fire burning through it, flames leaping from the stalks, smoke rising up the scroll",
+        "painted": "2026-11-14",
+        "approved": false,
+        "subject_v1": "a small fire of dry vine cuttings burning on the ground at the foot of a living climbing vine on a stake, a thin wisp of smoke rising up the scroll past the leaves",
+        "emphasis": "The burning grass and flames are large and the most distinct forms in the painting.",
+        "note": "varied object per strip (owner 2026-11-13/14)"
       }
     ],
     "pair_older_F2": [
@@ -513,6 +560,6 @@
     "pairs: 50 to paint minimal (test geng first)",
     "heroes: 10 to paint (test metal yang + yin first)",
     "function vignettes and persona seals: spec first",
-    "strips: 30 to paint (geng, xin, jia, yi painted; xin/jia/yi unapproved; owner 2026-11-06 asked for the four to review)"
+    "strips: 30 to paint for the other six stems, with the variety rule; geng approved except the repainted Fire; xin, jia, yi varied sets await approval (2026-11-14)"
   ]
 }

@@ -22,6 +22,7 @@ import { dmArt, dmStage, stripArt, useArtSrc, ArtTodo } from './inkArt.jsx';
 // the five washes (Ink_Painting_System.md): the dominance bar's segments
 const WASH = { metal: '#8ba3b8', wood: '#7a9e6e', fire: '#c4745a', earth: '#b89a6a', water: '#5a7fa8' };
 import { useState } from 'react';
+import { Taichi } from './Taichi.jsx';
 import './merged.css';
 
 // The dial: Underfueled · Balanced · Overfueled, the needle at the score.
@@ -100,7 +101,7 @@ export function DayMasterPage({ m, g, dm, Use, InkDot, onRun, onCircle, onReplay
         <img className="dmp-plate" src={plateOf(m.stem)} alt={`${m.stem}, ${m.archetype}`} />
         <span className="dmp-ya">You are</span>
         <h2 className="dmp-name">{m.archetype}</h2>
-        <span className="dmp-lit">{m.stemLit}</span>
+        <span className="dmp-lit"><Taichi stem={m.stem} size={15} className="dmp-tai" />{m.stemLit}</span>
         {m.manifesto ? <p className="dmp-mani">{m.manifesto}</p> : null}
       </div>
       {dm.overview ? (

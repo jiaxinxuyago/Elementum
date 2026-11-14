@@ -15,31 +15,11 @@ import { useState } from 'react';
 import { LADDER, STEM_LADDER, LADDER_NOTICE_BAND, LADDER_TRY_POLE } from '../../content/ladder.js';
 import { Dial, Pill, plateOf } from './MergedViews.jsx';
 import { dmArt, dmStage, stripArt, useArtSrc, ArtTodo } from './inkArt.jsx';
+export { Taichi } from './Taichi.jsx';
 
 // the five washes (Ink_Painting_System.md): the dominance bar's segments
 const WASH = { metal: '#8ba3b8', wood: '#7a9e6e', fire: '#c4745a', earth: '#b89a6a', water: '#5a7fa8' };
 const cap = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
-const YIN = { 乙: 1, 丁: 1, 己: 1, 辛: 1, 癸: 1 };
-
-// The taichi symbol (owner 2026-11-13): wherever a page says Yin or Yang it
-// sits beside the word with the reader's own side marked: the light half for a
-// Yang stem, the dark half for a Yin stem. The other half stays as a faint wash.
-export function Taichi({ stem, size = 16, className = '' }) {
-  const yin = !!YIN[stem];
-  return (
-    <svg className={`taichi ${yin ? 'yin' : 'yang'} ${className}`} width={size} height={size} viewBox="0 0 40 40" role="img" aria-label={yin ? 'Yin, the dark half' : 'Yang, the light half'}>
-      <circle cx="20" cy="20" r="18" fill="#faf6ee" fillOpacity={yin ? 0.35 : 1} />
-      <path d="M20 2a18 18 0 0 1 0 36a9 9 0 0 1 0-18a9 9 0 0 0 0-18z" fill="#2b2722" fillOpacity={yin ? 1 : 0.22} />
-      <circle cx="20" cy="11" r="2.6" fill="#2b2722" fillOpacity={yin ? 0.22 : 1} />
-      <circle cx="20" cy="29" r="2.6" fill="#faf6ee" fillOpacity={yin ? 1 : 0.5} />
-      <circle cx="20" cy="20" r="18" fill="none" stroke="#2b2722" strokeWidth="1.6" strokeOpacity=".85" />
-      {yin
-        ? <path d="M20 2a18 18 0 0 1 0 36" fill="none" stroke="#8a6a3f" strokeWidth="2.6" strokeLinecap="round" />
-        : <path d="M20 38a18 18 0 0 1 0-36" fill="none" stroke="#8a6a3f" strokeWidth="2.6" strokeLinecap="round" />}
-    </svg>
-  );
-}
-
 // a stem's own version of a shared row, else the shared row
 const rowOf = (stem, table, fn, band) => STEM_LADDER[stem]?.overrides?.[`${table}.${fn}.${band}`] ?? LADDER[table]?.[fn]?.[band];
 const needPhrase = (stem, fn) => STEM_LADDER[stem]?.overrides?.[`need_phrase.${fn}`] ?? LADDER.need_phrase[fn];
