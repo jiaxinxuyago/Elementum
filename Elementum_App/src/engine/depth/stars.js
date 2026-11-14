@@ -28,9 +28,9 @@ export const STARS = [
     alt: { note: 'one verse gives 庚辛 to 寅午 (甲戊兼牛羊, 庚辛逢马虎)', map: { 庚: '寅午' } } },
   { id: 'wenchang', zh: '文昌', en: 'Scholar’s Star', kind: 'help', on: 'branch', base: ['dayStem'], yearBase: true,
     map: { 甲: '巳', 乙: '午', 丙: '申', 丁: '酉', 戊: '申', 己: '酉', 庚: '亥', 辛: '子', 壬: '寅', 癸: '卯' } },
-  { id: 'tiande', zh: '天德贵人', en: 'Heavenly Virtue', kind: 'help', on: 'any', base: ['monthBranch'],
+  { id: 'tiande', zh: '天德贵人', en: 'Heavenly Virtue', kind: 'help', on: 'any', base: ['monthBranch'], dayStem: true,
     map: { 寅: '丁', 卯: '申', 辰: '壬', 巳: '辛', 午: '亥', 未: '甲', 申: '癸', 酉: '寅', 戌: '丙', 亥: '乙', 子: '巳', 丑: '庚' } },
-  { id: 'yuede', zh: '月德贵人', en: 'Moon Virtue', kind: 'help', on: 'stem', base: ['monthBranch'],
+  { id: 'yuede', zh: '月德贵人', en: 'Moon Virtue', kind: 'help', on: 'stem', base: ['monthBranch'], dayStem: true,
     fn: byGroup({ fire: '丙', water: '壬', wood: '甲', metal: '庚' }) },
   { id: 'lu', zh: '禄神', en: 'Prosperity Star', kind: 'help', on: 'branch', base: ['dayStem'],
     map: { 甲: '寅', 乙: '卯', 丙: '巳', 丁: '午', 戊: '巳', 己: '午', 庚: '申', 辛: '酉', 壬: '亥', 癸: '子' } },
@@ -87,7 +87,8 @@ export function starsOf(chart, { hourUnknown = false, alt = false, yearStem = fa
     for (const g of GATES) {
       if (hourUnknown && g === 'hour') continue;
       for (const part of ['stem', 'branch']) {
-        if (g === 'day' && part === 'stem') continue;
+        // the day stem is the reader; only the two Virtues are read on it (owner STAR-S5 A, 2026-11-14: 日德, the majority match on any of the four stems)
+        if (g === 'day' && part === 'stem' && !star.dayStem) continue;
         if (star.on !== 'any' && star.on !== part) continue;
         if (self && self[0] === g && self[1] === part) continue;
         if (!targets.includes(p[g][part])) continue;
