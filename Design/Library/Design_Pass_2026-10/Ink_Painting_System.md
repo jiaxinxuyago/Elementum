@@ -184,6 +184,7 @@ The published pages are private claude.ai artifacts on the owner's account. Thei
 | `06_card4-illustrated.html` | https://claude.ai/artifact/JCdWAaBH4ePxKmbYiZueV3 | card 4 as scroll strips, **the current state** |
 | `08_revelation-built.html` | https://claude.ai/artifact/EWpTWFz637KmjwESjaSr5G | RS2 as built on dev (2026-11-05): real screens of the Naming and the eight cards on the three test charts |
 | `09_four-stems-revelation.html` | https://claude.ai/artifact/NM495dzmu5d8C8yJ1Nfyg5 | the Blade, the Jewel, the Oak and the Vine fully illustrated on dev (2026-11-06), for the owner's review |
+| `10_four-stems-varied.html` | https://claude.ai/artifact/TT8C4bSfxYijG7shirHaXp | the varied strips for the Blade, Jewel, Oak and Vine (2026-11-14), for the owner's approval |
 
 **To iterate on one:** `Artifact` read with its URL, edit, then publish with that `url`. The page keeps its link.
 
