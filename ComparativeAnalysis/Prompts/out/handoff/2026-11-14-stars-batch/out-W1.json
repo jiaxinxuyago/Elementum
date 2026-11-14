@@ -1,0 +1,388 @@
+{
+ "units": [
+  {
+   "key": "STAR tianyi · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "tianyi",
+   "text": "Your next decade brings people of standing within reach, and a word from one of them carries further than your own record. You do best in it when you add your own work to every door they open."
+  },
+  {
+   "key": "STAR tianyi · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "tianyi",
+   "text": "In this decade older hands notice you early, and their backing arrives before your results do. What you build on top of that backing is the part that stays yours."
+  },
+  {
+   "key": "STAR tianyi · arriving.year",
+   "kind": "star_arriving",
+   "page": "tianyi",
+   "text": "A year with this guest puts someone senior on your side at the moment of need. You gain most that year when you remember the name and return the favour later."
+  },
+  {
+   "key": "STAR tianyi · line",
+   "kind": "star_line",
+   "page": "tianyi",
+   "text": "Help from people of standing reaches you before you have proved yourself."
+  },
+  {
+   "key": "STAR tianyi · line.arriving",
+   "kind": "star_line",
+   "page": "tianyi",
+   "text": "This decade brings backing from someone with the power to vouch for you."
+  },
+  {
+   "key": "STAR tianyi · reading.day.coming",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "From your mid-thirties your home stands on backing from people who can speak up for you, and a partner's family is quick to take your side. The cost is a household that leans on outside favour instead of its own footing. You are at your best here when the help you receive becomes something the two of you built."
+  },
+  {
+   "key": "STAR tianyi · reading.day.lived",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "Your Home Chapter had a quiet backer behind it, someone senior who stood up for your household when it counted. That support let you settle faster than you could have alone, though it also spared you some of the building. You still carry the habit of thanking everyone who vouched for you."
+  },
+  {
+   "key": "STAR tianyi · reading.day.now",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "Through these home years someone with weight in the world keeps an eye on you and your partner. Their good word smooths the way for the life you are making together, and it tempts you to wait for it. What you raise with your own hands stands longer than what is handed over."
+  },
+  {
+   "key": "STAR tianyi · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "From your late forties you become the backer others once were for you, and younger people arrive hoping you will speak for them. The cost is a reputation that rests on whom you know more than on what you made. You stand tallest in these years when each door you were given stays open for those who come after you."
+  },
+  {
+   "key": "STAR tianyi · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "Your Late Chapter was lit by people of standing who backed you when little else did. Their help kept your later work moving, and at times you leaned on it more than on your own plans. What you passed on to the people after you was that same open door."
+  },
+  {
+   "key": "STAR tianyi · reading.hour.now",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "In your later years help still finds you from people with reach, and a single introduction carries real weight. Leaning on it too long leaves your own late work thin. You are most yourself now when you hold doors for the people after you."
+  },
+  {
+   "key": "STAR tianyi · reading.month.coming",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "Your Rising Chapter holds backing from senior people at work and in study, given before you have shown them much. A manager or tutor is ready to speak for you, and that ease can stand in for effort. You grow fastest in these years when each favour rests on work you did yourself."
+  },
+  {
+   "key": "STAR tianyi · reading.month.lived",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "Through your twenties someone senior saw something in you and said so to the right people. That backing got you through doors your record alone could not open, and some of the climb was done for you. You still remember those names, and you pass the favour on."
+  },
+  {
+   "key": "STAR tianyi · reading.month.now",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "In your Rising Chapter a senior colleague or tutor is in your corner, and their good opinion lands before your work does. That help is real, and it makes it easy to skip the slower proving. What you want most here is to be seen by someone who can open a door, and you are."
+  },
+  {
+   "key": "STAR tianyi · reading.year.lived",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "As a child you had an older relative or a kind adult at school who took your side. Their backing gave you a start before you had done anything to earn it, and it left you slow to ask on your own. You still know how much one person's faith can do."
+  },
+  {
+   "key": "STAR tianyi · reading.year.now",
+   "kind": "star_reading",
+   "page": "tianyi",
+   "text": "Right now someone in your first home or at school stands up for you, sometimes before you have asked. That backing gives you a head start, and it is easy to let it do the work. You are strongest when your own effort sits alongside the help you are given."
+  },
+  {
+   "key": "STAR wenchang · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "wenchang",
+   "text": "Your next decade sharpens your way with words, and reading and writing come quicker than they did before. You get through its hard problems by putting them into sentences."
+  },
+  {
+   "key": "STAR wenchang · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "wenchang",
+   "text": "This decade gives your mind a lettered edge, and exams and close reading suit you well. You lean toward the page in these years more than toward the people near you."
+  },
+  {
+   "key": "STAR wenchang · arriving.year",
+   "kind": "star_arriving",
+   "page": "wenchang",
+   "text": "A year with this guest favours exams, applications and anything written. That year you think most clearly with a pen in your hand."
+  },
+  {
+   "key": "STAR wenchang · line",
+   "kind": "star_line",
+   "page": "wenchang",
+   "text": "You have a quick, lettered mind that works best in words."
+  },
+  {
+   "key": "STAR wenchang · line.arriving",
+   "kind": "star_line",
+   "page": "wenchang",
+   "text": "This decade sharpens your reading, writing and command of language."
+  },
+  {
+   "key": "STAR wenchang · reading.day.coming",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "From your mid-thirties your home fills with books, notes and long conversations, and you think through family questions on paper. A partner gets your sharpest reasoning and at times less of your attention than the page. You understand your home best when you talk it through instead of reading about it."
+  },
+  {
+   "key": "STAR wenchang · reading.day.lived",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "Your Home Chapter was a time of study at the kitchen table, and words settled most of what came up between you and a partner. You wrote things down when talking felt harder. What you kept from those years is a clear head and a habit of explaining yourself well."
+  },
+  {
+   "key": "STAR wenchang · reading.day.now",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "In your Home Chapter your mind stays bright and lettered, and you solve household problems by writing them out. The same habit pulls you into study when a partner wants you present. You do your best thinking here when the person across the table hears it first."
+  },
+  {
+   "key": "STAR wenchang · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "From your late forties your gift for words becomes something you hand on. Letters, notes and lessons carry your thinking further than your presence does, though you can disappear into them. Your clearest work in these years is whatever the people after you can read and use."
+  },
+  {
+   "key": "STAR wenchang · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "Your Late Chapter ran on reading and writing, and you found answers in study that others missed. Hours with the page came at the cost of hours with people. You left the people after you a way of thinking they still use."
+  },
+  {
+   "key": "STAR wenchang · reading.hour.now",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "In your later years your mind stays quick on paper, and you put hard questions into words before anyone else does. The pull toward study keeps some company at a distance. What you write now is how the people after you remember your thinking."
+  },
+  {
+   "key": "STAR wenchang · reading.month.coming",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "Your Rising Chapter brings a quick hand at exams, essays and the written side of work. The danger is trusting the page more than the colleagues around you. You reach furthest when the words you write carry an idea to someone who needs it."
+  },
+  {
+   "key": "STAR wenchang · reading.month.lived",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "Through your twenties you were the one who read the brief properly and wrote it up well. Study came easily and became a place to hide from people at times. You still trust words to get you through a hard problem, and they do."
+  },
+  {
+   "key": "STAR wenchang · reading.month.now",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "In your Rising Chapter exams, reports and study come to you faster than to most around you. The cost is long evenings with books while friends move on without you. What you want here is to understand, and you get there through language."
+  },
+  {
+   "key": "STAR wenchang · reading.year.lived",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "As a child you read early and wrote well, and school rewarded you for it. Books were easier company than some of the people in your first home. You still reach for words first when a problem gets hard."
+  },
+  {
+   "key": "STAR wenchang · reading.year.now",
+   "kind": "star_reading",
+   "page": "wenchang",
+   "text": "At school you read fast and write clearly, and tests suit you more than games do. Books feel easier to be with than most games or crowds. You understand things best once you put them into sentences of your own."
+  },
+  {
+   "key": "STAR tiande · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "tiande",
+   "text": "Your next decade carries a kind of quiet cover, and setbacks that reach you pass with less weight than they could. You come through its hard months with less damage than you braced for."
+  },
+  {
+   "key": "STAR tiande · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "tiande",
+   "text": "In this decade trouble touches you and then moves on, lighter than it first looked. You gain most from these years when you look back at what each close call showed you."
+  },
+  {
+   "key": "STAR tiande · arriving.year",
+   "kind": "star_arriving",
+   "page": "tiande",
+   "text": "A year with this guest turns hard news aside before it lands fully. That year you come through tight spots with little lasting harm."
+  },
+  {
+   "key": "STAR tiande · line",
+   "kind": "star_line",
+   "page": "tiande",
+   "text": "Trouble reaches you, and passes over lightly."
+  },
+  {
+   "key": "STAR tiande · line.arriving",
+   "kind": "star_line",
+   "page": "tiande",
+   "text": "This decade softens the hard turns before they reach you."
+  },
+  {
+   "key": "STAR tiande · reading.day.coming",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "From your mid-thirties your home has a steady guard over it, and rough seasons in the household pass without leaving deep marks. Because trouble passes easily, you and a partner can skip the lesson inside it. You keep what matters most by talking through each scare after it has gone."
+  },
+  {
+   "key": "STAR tiande · reading.day.lived",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "Your Home Chapter weathered its hard seasons better than it had any right to. Quarrels and strains with a partner passed quickly, and some never got looked at closely. You still carry a calm that comes from knowing your home held."
+  },
+  {
+   "key": "STAR tiande · reading.day.now",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "In your Home Chapter trouble comes to the door and leaves without much harm. The ease of it means the same strain returns to the household before anyone studies it. What you want here is safety, and you have more of it than you think."
+  },
+  {
+   "key": "STAR tiande · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "From your late forties hard turns in your work lose their edge before they reach you. The cost is that the people after you learn little from storms you hardly felt. You pass the most on when you tell them how near each one came."
+  },
+  {
+   "key": "STAR tiande · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "Your Late Chapter came through its rough patches lightly, and plans that wobbled found their feet again. Because so little went badly, few of those seasons taught you much. What you handed the people after you was a steady nerve."
+  },
+  {
+   "key": "STAR tiande · reading.hour.now",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "In your later years setbacks brush past you and leave your work standing. That cover makes it easy to stop looking at what went wrong. You give the people after you something real when you show them how you came through."
+  },
+  {
+   "key": "STAR tiande · reading.month.coming",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "Your Rising Chapter has a guard over it, and the mistakes of those working years cost less than they could. Getting off lightly leaves some lessons unlearned. You come out of these years stronger by studying the slips that did no harm."
+  },
+  {
+   "key": "STAR tiande · reading.month.lived",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "Through your twenties trouble kept missing you by a short distance, at work and among friends. You moved on fast each time and rarely asked why it went well. You still carry an easy steadiness in a crisis."
+  },
+  {
+   "key": "STAR tiande · reading.month.now",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "In your Rising Chapter hard turns at work and in study pass over you with little damage. The ease makes you careless about the next one. You stay safe here longest when each narrow escape teaches you something."
+  },
+  {
+   "key": "STAR tiande · reading.year.lived",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "As a child you came through the hard times in your first home with fewer marks than others did. Something kept the worst from reaching you, and you grew up without needing to learn why. You still trust that things come right in the end."
+  },
+  {
+   "key": "STAR tiande · reading.year.now",
+   "kind": "star_reading",
+   "page": "tiande",
+   "text": "Right now hard days at school or in your first home pass you more gently than they pass others. Because they go so easily, you hardly stop to think about them. You come through rough weeks less shaken than you fear."
+  },
+  {
+   "key": "STAR yuede · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "yuede",
+   "text": "Your next decade gives you a knack for mending, and what breaks around you finds a use in your hands. You find the gain inside each loss, though you also carry repairs that belong to others."
+  },
+  {
+   "key": "STAR yuede · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "yuede",
+   "text": "This decade turns your setbacks into material, and kindness you gave out years ago comes back to you. You carry more of other people's mending than is fair in these years."
+  },
+  {
+   "key": "STAR yuede · arriving.year",
+   "kind": "star_arriving",
+   "page": "yuede",
+   "text": "A year with this guest turns a bad patch into something you can use. That year you find the kindness you showed others coming back around."
+  },
+  {
+   "key": "STAR yuede · line",
+   "kind": "star_line",
+   "page": "yuede",
+   "text": "You turn a bad turn into something useful, quietly."
+  },
+  {
+   "key": "STAR yuede · line.arriving",
+   "kind": "star_line",
+   "page": "yuede",
+   "text": "This decade helps you mend what breaks and keep the gain."
+  },
+  {
+   "key": "STAR yuede · reading.day.coming",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "From your mid-thirties your home is where broken things get fixed, from plans to quarrels. A partner leans on your patience, and the repairs pile up on your side of the table. You hold the household together best when the mending is shared."
+  },
+  {
+   "key": "STAR yuede · reading.day.lived",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "Your Home Chapter had its breaks, and you turned each one into a better way of living together. Much of the mending fell to you, more than a partner noticed. You still see what a loss gave you before anyone else does."
+  },
+  {
+   "key": "STAR yuede · reading.day.now",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "In your Home Chapter you mend what goes wrong without being asked, and kindness given there comes back to you. The cost is carrying a partner's repairs along with your own. What you want is a home made whole, and you are making one."
+  },
+  {
+   "key": "STAR yuede · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "From your late forties your later work shows a gift for salvage, and failed plans become the ground for new ones. The people after you bring you what they broke, and the load is heavy. Your best years here come when they learn to mend it themselves."
+  },
+  {
+   "key": "STAR yuede · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "Your Late Chapter made use of what went wrong, and losses in your work turned into fresh starts. You took on repairs for the people after you that were theirs to make. What you left them was a way of seeing value in what breaks."
+  },
+  {
+   "key": "STAR yuede · reading.hour.now",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "In your later years you see the use in a setback before others finish counting the cost. Younger people come to you to fix what they broke, and you carry it. You give the people after you the most by showing them the good hidden in a loss."
+  },
+  {
+   "key": "STAR yuede · reading.month.coming",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "Your Rising Chapter turns false starts at work into useful lessons, and goodwill you show colleagues returns. You end up fixing other people's mistakes as well as your own. You grow most in these years when the repair work you take on is yours."
+  },
+  {
+   "key": "STAR yuede · reading.month.lived",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "Through your twenties you made something of every setback, at work and among friends. People brought you their messes, and you mended more than your part. You still turn a loss into material without thinking about it."
+  },
+  {
+   "key": "STAR yuede · reading.month.now",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "In your Rising Chapter a setback at work or in study becomes the next step for you. Kindness you show colleagues comes back, and so do their repairs. What you want is to make things whole, and you are good at it."
+  },
+  {
+   "key": "STAR yuede · reading.year.lived",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "As a child you were the one who smoothed things over in your first home. You learned early to find something good in a hard week, and you carried others' upsets too. You still mend before you complain."
+  },
+  {
+   "key": "STAR yuede · reading.year.now",
+   "kind": "star_reading",
+   "page": "yuede",
+   "text": "At school and at home you turn a bad day into a lesson worth keeping. You patch up quarrels between friends, and that work is heavy for someone so young. You find the good inside a loss faster than most people around you."
+  }
+ ]
+}

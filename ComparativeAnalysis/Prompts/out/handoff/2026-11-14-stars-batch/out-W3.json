@@ -1,0 +1,376 @@
+{
+ "units": [
+  {
+   "key": "STAR tianxi · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "tianxi",
+   "text": "In your next decade you carry a knack for turning ordinary news into a reason to gather. The pull is toward the next party more than the plain days between, and you are happiest when the joy is shared with people you know well."
+  },
+  {
+   "key": "STAR tianxi · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "tianxi",
+   "text": "This decade gives your days a festive edge, and people bring their good news to you first. What you lose in quiet weeks you gain in a circle that knows how to celebrate."
+  },
+  {
+   "key": "STAR tianxi · arriving.year",
+   "kind": "star_arriving",
+   "page": "tianxi",
+   "text": "A year with this guest carries a festive pull, and good news gathers around you quickly. You set the tone at every gathering, though the ordinary weeks feel flatter than they are."
+  },
+  {
+   "key": "STAR tianxi · line",
+   "kind": "star_line",
+   "page": "tianxi",
+   "text": "A gift for occasions, and good news that finds you."
+  },
+  {
+   "key": "STAR tianxi · line.arriving",
+   "kind": "star_line",
+   "page": "tianxi",
+   "text": "This decade carries gatherings, glad news and a festive mood."
+  },
+  {
+   "key": "STAR tianxi · reading.day.coming",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "From your mid-thirties your home carries a gift for occasions, and a partnership grows around the days you mark together. The household leans toward the next celebration, with the plain weeks asking more patience than they get. Your home works best as a place where the joy is small and frequent."
+  },
+  {
+   "key": "STAR tianxi · reading.day.lived",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "Your Home Chapter made your household the place where people gathered, and from your mid-thirties your home held more celebrations than most. A partner wanted some of the quieter evenings that the guests crowded out. What you kept from those years is a home that knows how to welcome people."
+  },
+  {
+   "key": "STAR tianxi · reading.day.now",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "Since your mid-thirties your home has become the place where friends bring their news. The cost lands on the quiet evenings, and a partner feels the guests eating into time meant for two. You are at ease here when the gatherings include the person you live with."
+  },
+  {
+   "key": "STAR tianxi · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "From your late forties, the people after you gather around your news and you gather around theirs. A house that lives for occasions finds the ordinary months slow. You give the younger ones a sense that joy is worth coming together for."
+  },
+  {
+   "key": "STAR tianxi · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "Your Late Chapter gave the people after you a reason to come back, and the family gatherings of your later years centred on you. Planning the next one filled the time between more than you meant. You still hold the knack of turning a plain day into an occasion."
+  },
+  {
+   "key": "STAR tianxi · reading.hour.now",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "In your Late Chapter the people after you bring their good news to you first, and your table is where the family meets. Waiting for the next occasion makes the slow weeks drag. What you pass on is the habit of marking small wins in company."
+  },
+  {
+   "key": "STAR tianxi · reading.month.coming",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "Your Rising Chapter carries a gift for occasions, and the circles of your study and first jobs form around shared good news. The draw of the next gathering pulls against the slow work that earns the news. You feel most at home in those years wherever people meet to mark something."
+  },
+  {
+   "key": "STAR tianxi · reading.month.lived",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "Your Rising Chapter ran on gatherings, and through your twenties you were the one who turned a result into a night out. Some of that energy went into planning the next celebration more than the work behind it. You still carry an easy sense of when a moment deserves marking."
+  },
+  {
+   "key": "STAR tianxi · reading.month.now",
+   "kind": "star_reading",
+   "page": "tianxi",
+   "text": "In your Rising Chapter good news gathers around your work, and colleagues and friends bring their wins to you first. The cost is a restless eye on the next occasion, with the ordinary weeks between feeling thin. Your best work here comes from the circles you have already gathered."
+  },
+  {
+   "key": "STAR huagai · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "huagai",
+   "text": "In your next decade your inner life deepens, and art or faith draws more of your time than the crowd does. The work you make in these years reaches fewer people, and you mind the quiet less than you thought you would."
+  },
+  {
+   "key": "STAR huagai · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "huagai",
+   "text": "This decade turns you inward, toward art, belief or a long piece of thought that few around you follow. You find the solitude easier to carry than you feared, and the depth is yours to keep."
+  },
+  {
+   "key": "STAR huagai · arriving.year",
+   "kind": "star_arriving",
+   "page": "huagai",
+   "text": "A year with this guest draws you toward art, belief and long thinking, and the crowd matters less than the work. Fewer people follow what you make that year, but you come out of it with something only you could have made."
+  },
+  {
+   "key": "STAR huagai · line",
+   "kind": "star_line",
+   "page": "huagai",
+   "text": "A deep inner life that feeds art, faith and quiet work."
+  },
+  {
+   "key": "STAR huagai · line.arriving",
+   "kind": "star_line",
+   "page": "huagai",
+   "text": "This decade turns you toward art, belief and solitary thought."
+  },
+  {
+   "key": "STAR huagai · reading.day.coming",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "From your mid-thirties your home carries a deep inner life, with space set aside for art, belief or long thought. A partner shares the house more readily than the solitude. Your partnership holds best when your quiet hours are understood as part of you."
+  },
+  {
+   "key": "STAR huagai · reading.day.lived",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "From your mid-thirties your home held a quiet corner for art or faith, and a partner learned to live beside a part of you that worked alone. Some evenings felt distant even under one roof. You came through those years knowing your solitude and your closeness can live in one house."
+  },
+  {
+   "key": "STAR huagai · reading.day.now",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "In your Home Chapter your inner life asks for hours of its own, and a partner meets a depth they cannot always follow. The house runs quieter than a friend's, and some of what you make stays unexplained at home. You mind the solitude less than you once thought, and it keeps you whole."
+  },
+  {
+   "key": "STAR huagai · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "From your late forties, your inner life carries more weight than your outward work, and art or belief takes the lead. Fewer people around you follow it all the way down. You give the people after you an example of depth that needs no crowd."
+  },
+  {
+   "key": "STAR huagai · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "Your Late Chapter gave you the depth of a lifetime's art or belief, and the people after you saw a quieter side of you than they knew before. Fewer of them understood the work itself. You still keep the inner life those years opened, and it stays your own."
+  },
+  {
+   "key": "STAR huagai · reading.hour.now",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "In your Late Chapter your art or faith reaches its fullest depth, and the work grows quieter and more exact. The people after you understand only part of it, though they sense its weight. What you pass on is less an explanation than the example of a full inner life."
+  },
+  {
+   "key": "STAR huagai · reading.month.coming",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "Your Rising Chapter carries a serious, inward gift, with study and making that go further than the people around you follow. The depth comes with fewer companions who understand it. You find in those working years that the quiet suits you better than the crowd."
+  },
+  {
+   "key": "STAR huagai · reading.month.lived",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "Your Rising Chapter gave your work and study a serious, inward pull, and what you made in your twenties went deeper than the circles around you asked for. Fewer people understood it then. What you carry from those years is a body of work that still means something to you."
+  },
+  {
+   "key": "STAR huagai · reading.month.now",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "In your Rising Chapter your work leans toward art, belief or long study, and it reaches depth before it reaches an audience. Colleagues and friends follow only part of it, and the solitary streak shows. You do your best work in these years with the door closed."
+  },
+  {
+   "key": "STAR huagai · reading.year.lived",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "As a child you had an inner world the first home did not always see, full of drawings, stories or questions about belief. That depth set you a little apart at school. You still carry the habit of making something whole by yourself."
+  },
+  {
+   "key": "STAR huagai · reading.year.now",
+   "kind": "star_reading",
+   "page": "huagai",
+   "text": "As a child you live a good part of the day inside your own head, with stories, pictures or big questions about why things are. At school fewer friends follow where your mind goes, and you are fine with more quiet than they are. Your inner world is already something you build on."
+  },
+  {
+   "key": "STAR yima · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "yima",
+   "text": "In your next decade you carry a restless, moving energy, and new cities or new kinds of work pull you onward. You settle less than you planned, but you come away richer in places and people."
+  },
+  {
+   "key": "STAR yima · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "yima",
+   "text": "This decade keeps you moving, between places, roles or the people you work with. Each move costs a little of the settled life you pictured, and you gain ground you did not have before."
+  },
+  {
+   "key": "STAR yima · arriving.year",
+   "kind": "star_arriving",
+   "page": "yima",
+   "text": "A year with this guest carries the urge to move, whether to a new address or a new line of work. The roots you planned to put down wait a little, and you end that year knowing more places that fit you."
+  },
+  {
+   "key": "STAR yima · line",
+   "kind": "star_line",
+   "page": "yima",
+   "text": "You carry a restless gift for new ground and movement."
+  },
+  {
+   "key": "STAR yima · line.arriving",
+   "kind": "star_line",
+   "page": "yima",
+   "text": "This decade sets you moving toward new places and new work."
+  },
+  {
+   "key": "STAR yima · reading.day.coming",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "From your mid-thirties your household carries a restless pull, and a partner lives with someone who wants new ground. Settling takes longer than you planned. You make a home out of motion itself, and it suits you better than standing still."
+  },
+  {
+   "key": "STAR yima · reading.day.lived",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "From your mid-thirties your home moved with you, and the household you built with a partner changed address or rhythm more than you planned. The settled years you wanted arrived in shorter pieces. You kept a home that travels well, and you still carry that ease."
+  },
+  {
+   "key": "STAR yima · reading.day.now",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "In your Home Chapter your home stays on the move, with a partner and a household that change shape more often than most. The deep roots you hoped for grow slowly here. Your partnership holds best when you move together rather than apart."
+  },
+  {
+   "key": "STAR yima · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "From your late forties, your later work carries movement and new ground, and settling down keeps slipping further off. The people after you find you in more places than one. You stay curious and quick on your feet through these years."
+  },
+  {
+   "key": "STAR yima · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "Your Late Chapter kept you moving, and your later years took you to places and work you had not planned for. The people after you saw less of you than they wanted. You still carry the reach those years gave you."
+  },
+  {
+   "key": "STAR yima · reading.hour.now",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "In your Late Chapter you keep moving, into new places or new kinds of work, while others of your age stay put. The people after you catch you between moves. What you pass on is a readiness for new ground at any stage of life."
+  },
+  {
+   "key": "STAR yima · reading.month.coming",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "Your Rising Chapter carries a strong urge to move, and study or first jobs take you to new ground in quick succession. Each move leaves the settled life a little further off. You find your feet in a new place faster than the people around you."
+  },
+  {
+   "key": "STAR yima · reading.month.lived",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "Through your twenties you moved, for study, for work or for the plain need of new ground. The settled life you pictured kept slipping a little further on. You came out of your Rising Chapter with more places in you than most people gather."
+  },
+  {
+   "key": "STAR yima · reading.month.now",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "In your Rising Chapter work and study keep you on the move, and new cities or new teams come round faster than you planned. The roots you meant to put down stay shallow for now. You gain more from the motion than it takes from you."
+  },
+  {
+   "key": "STAR yima · reading.year.lived",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "Your Early Chapter moved you, between houses, schools or the people who raised you, and the first home changed shape several times. You learned early to settle fast in a new place. What you carry from it is an ease with change that others have to build."
+  },
+  {
+   "key": "STAR yima · reading.year.now",
+   "kind": "star_reading",
+   "page": "yima",
+   "text": "As a child you carry a restless streak, and the first home or the school around you shifts more than other children's do. Settling in takes you less time than it takes most. You are quick to find your footing wherever you land."
+  },
+  {
+   "key": "STAR taohua · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "taohua",
+   "text": "In your next decade your charm draws people in, and you are liked and sought out more than before. The attention comes faster than you can sort it, and you choose with care who gets close."
+  },
+  {
+   "key": "STAR taohua · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "taohua",
+   "text": "This decade makes you easy to like, and invitations and interest gather around you. More eyes are on you than you asked for, and you learn which of them to answer."
+  },
+  {
+   "key": "STAR taohua · arriving.year",
+   "kind": "star_arriving",
+   "page": "taohua",
+   "text": "A year with this guest gives you a warm, easy charm, and people seek your company. Some of the interest is more than you wanted, and you are clearer by its end about whose attention matters."
+  },
+  {
+   "key": "STAR taohua · line",
+   "kind": "star_line",
+   "page": "taohua",
+   "text": "You draw people in with an easy, warm charm."
+  },
+  {
+   "key": "STAR taohua · line.arriving",
+   "kind": "star_line",
+   "page": "taohua",
+   "text": "This decade brings charm and a crowd of admirers."
+  },
+  {
+   "key": "STAR taohua · reading.day.coming",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "From your mid-thirties your charm carries into your home, and a partnership forms around someone who finds you easy to love. Others go on noticing you as well. You decide who gets close, and that care keeps your household warm."
+  },
+  {
+   "key": "STAR taohua · reading.day.lived",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "From your mid-thirties your home drew admiration, and the charm that won a partner kept drawing others too. That extra attention asked more care of your partnership than you planned. You still carry the knack of being liked, and you know now where it belongs."
+  },
+  {
+   "key": "STAR taohua · reading.day.now",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "In your Home Chapter your charm stays bright, and people outside your home notice you as much as a partner does. That interest is more than you ask for, and it tests the closeness at home. What you keep close is chosen, and that choice is the gift at its best."
+  },
+  {
+   "key": "STAR taohua · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "From your late forties, your charm ripens rather than fades, and the people after you seek you out. The attention runs wider than you ask. You give your warmth most freely to the few you have chosen."
+  },
+  {
+   "key": "STAR taohua · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "Your Late Chapter kept your charm alive, and the people after you and the friends of your later years sought your company. The notice you drew went beyond what you wanted. You still carry an ease with people that starts conversations."
+  },
+  {
+   "key": "STAR taohua · reading.hour.now",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "In your Late Chapter your charm keeps people coming to you, and the people after you like being near you. Some notice comes from places you would rather it did not. What you hand on is the warmth itself, given to the people you choose."
+  },
+  {
+   "key": "STAR taohua · reading.month.coming",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "Your Rising Chapter carries a warm charm, and in study and first jobs you are liked before you have said much. Interest gathers around you faster than you want. You are at your clearest in those years when you choose who gets near."
+  },
+  {
+   "key": "STAR taohua · reading.month.lived",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "Through your twenties you were sought out, at work and in the circles you moved in, and charm opened friendships quickly. More attention came your way than you asked for, and not all of it was kind. You came out of your Rising Chapter knowing who you let close."
+  },
+  {
+   "key": "STAR taohua · reading.month.now",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "In your Rising Chapter people are drawn to you, and colleagues and friends seek your company more than you seek theirs. The attention outpaces your wish for it, and some of it costs you focus. Your charm works best where you have chosen the company yourself."
+  },
+  {
+   "key": "STAR taohua · reading.year.lived",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "As a child you were easy to love, and the first home and the school around you made a fuss of you. The attention came before you knew what to do with it. You still read people fast and know when you are being charmed in return."
+  },
+  {
+   "key": "STAR taohua · reading.year.now",
+   "kind": "star_reading",
+   "page": "taohua",
+   "text": "As a child you are the one others want to sit beside, and at school friends gather round you easily. Some of the attention arrives before you want it. You already know which friends you like best, and that knowing serves you well."
+  }
+ ]
+}

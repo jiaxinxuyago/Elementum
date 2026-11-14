@@ -1,0 +1,370 @@
+{
+ "units": [
+  {
+   "key": "STAR lu · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "lu",
+   "text": "Your next decade brings your earning back to what your own hands can do. You stand straighter in these years on work nobody gave you and nobody can take back."
+  },
+  {
+   "key": "STAR lu · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "lu",
+   "text": "This decade ties your living to your skill, and each piece of work you finish adds to what you can ask for it. You find help hard to accept in these years, even when it is offered freely."
+  },
+  {
+   "key": "STAR lu · arriving.year",
+   "kind": "star_arriving",
+   "page": "lu",
+   "text": "A year with this guest pays you for what you already know how to do. Your work carries the weight that year, and you feel steadier for having earned it."
+  },
+  {
+   "key": "STAR lu · line",
+   "kind": "star_line",
+   "page": "lu",
+   "text": "You earn your living from a skill that is yours."
+  },
+  {
+   "key": "STAR lu · line.arriving",
+   "kind": "star_line",
+   "page": "lu",
+   "text": "This decade your own skill becomes the ground you stand on."
+  },
+  {
+   "key": "STAR lu · reading.day.coming",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "From your mid-thirties your home rests on what you earn with your own hands. A partner sees how much of your worth you tie to the work, and the hours it takes show at the table. What you build in these years holds because you made every part of it."
+  },
+  {
+   "key": "STAR lu · reading.day.lived",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "Your Home Chapter ran on your earning, and the household stood on skill nobody handed you. You found it hard to let a partner carry any of the load, even when they offered. You still measure a good week by what your hands produced."
+  },
+  {
+   "key": "STAR lu · reading.day.now",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "Since your mid-thirties your home has rested on a living you built yourself. That independence gives you a steady floor, though it makes asking a partner for help feel like a loss. Your evenings at home are best when the work and the household each get their own hours."
+  },
+  {
+   "key": "STAR lu · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "Your Late Chapter was paid for by the skill you had mastered, and it kept earning long after others had stopped learning theirs. You passed the method on to the people after you as your real gift. What you carry from those years is the plain pride of having earned it."
+  },
+  {
+   "key": "STAR lu · reading.hour.now",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "In your Late Chapter your living comes from skill you spent decades sharpening, and people seek you out by name. The people after you watch how you work more than they listen to what you say. You hold this part of life best when you let some of the work pass to younger hands."
+  },
+  {
+   "key": "STAR lu · reading.month.coming",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "In your Rising Chapter your first jobs show you that a skill of your own is worth more than any post you hold. You turn down help you could use, wanting to prove you did it unaided. You stand firmest in your twenties on work you can point to."
+  },
+  {
+   "key": "STAR lu · reading.month.lived",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "Through your twenties you earned your keep from what you could do, not from who you knew. That habit made you hard to help, and you worked longer hours than anyone asked of you. You still trust a skill learned slowly over any quick route."
+  },
+  {
+   "key": "STAR lu · reading.month.now",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "Your working years run on skill, and every job you take adds a little more to what you can do. You measure your worth in finished work, which makes slow weeks feel heavier than they are. You do your best earning here when the skill grows faster than the pay."
+  },
+  {
+   "key": "STAR lu · reading.year.lived",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "Your Early Chapter got you earning young, with small jobs and chores that made you proud. Someone in your first home showed you that work done well pays its way. You carried that into adult life, along with a stubborn dislike of being helped."
+  },
+  {
+   "key": "STAR lu · reading.year.now",
+   "kind": "star_reading",
+   "page": "lu",
+   "text": "As a child you already like having something that is yours because you made or earned it. School work you finish by yourself gives you more pride than praise does. You find asking for help harder than other children do, and you grow quickest when a grown-up lets you try first."
+  },
+  {
+   "key": "STAR jinyu · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "jinyu",
+   "text": "Your next decade brings a gentler pace and a sharper eye for what is well made. People trust your taste in these years, and you find the softer life hard to push past."
+  },
+  {
+   "key": "STAR jinyu · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "jinyu",
+   "text": "This decade gives your life a smoother surface, with people ready to treat you well and good things within reach. The ease is real, and you lose some of your hunger for hard work inside it."
+  },
+  {
+   "key": "STAR jinyu · arriving.year",
+   "kind": "star_arriving",
+   "page": "jinyu",
+   "text": "A year with this guest brings grace to how you dress, speak and receive people. That year your manner carries you further than effort does, and you notice how little you have to push."
+  },
+  {
+   "key": "STAR jinyu · line",
+   "kind": "star_line",
+   "page": "jinyu",
+   "text": "You carry good taste and a gentle, easy manner."
+  },
+  {
+   "key": "STAR jinyu · line.arriving",
+   "kind": "star_line",
+   "page": "jinyu",
+   "text": "This decade brings polish and people who treat you well."
+  },
+  {
+   "key": "STAR jinyu · reading.day.coming",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "From your mid-thirties your home fills with good things chosen with care, and a partner relies on your eye. The softness of that life slows you down in ways you barely notice. You keep the grace best when some part of your week still asks real effort of you."
+  },
+  {
+   "key": "STAR jinyu · reading.day.lived",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "Your Home Chapter had a polished, gentle feel, and a partner came to trust your taste in almost everything. The ease of those years let some of your drive go slack. Your manner still smooths any household you walk into."
+  },
+  {
+   "key": "STAR jinyu · reading.day.now",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "Since your mid-thirties your home has carried a quiet polish, and guests relax the moment they arrive. A partner leans on your taste, though the easy pace can blunt your own ambitions. What you bring to this chapter is a grace that others find hard to copy."
+  },
+  {
+   "key": "STAR jinyu · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "From your late forties life treats you gently, and the people after you come to you for your eye and your manners. The price is a slower pulse, with less hunger for the hard climb. You are well placed in these years to pass your taste on."
+  },
+  {
+   "key": "STAR jinyu · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "Your Late Chapter was gracious and well kept, while the people after you learned style by watching you. That gentleness came at the price of the restless drive you once had. You still carry yourself with a polish that people remember."
+  },
+  {
+   "key": "STAR jinyu · reading.hour.now",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "In your Late Chapter good things reach you without much chasing, and people take care to treat you well. The people after you borrow your taste, though the ease can make new effort feel optional. You give the most in these years through the way you receive people."
+  },
+  {
+   "key": "STAR jinyu · reading.month.coming",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "Your Rising Chapter carries a polish that makes colleagues and friends warm to you quickly. The smoothness can leave your drive underused through your twenties. You do well in those years when grace and hard work arrive together."
+  },
+  {
+   "key": "STAR jinyu · reading.month.lived",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "Through your twenties your manner opened doors that effort alone would have taken longer to open. Colleagues trusted your taste, and the easy welcome softened your urge to push. You still know at a glance what makes a place feel right."
+  },
+  {
+   "key": "STAR jinyu · reading.month.now",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "Your working years carry good clothes, good company and a manner people trust. The smooth path makes it easy to coast when you could be climbing. You are at your best in this chapter when taste and effort pull the same way."
+  },
+  {
+   "key": "STAR jinyu · reading.year.lived",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "Your Early Chapter was gently kept, and someone in your first home made sure you had nice things and good manners. You learned grace early, though hard effort came to you later than to others. You bring that early polish into every place you enter."
+  },
+  {
+   "key": "STAR jinyu · reading.year.now",
+   "kind": "star_reading",
+   "page": "jinyu",
+   "text": "As a child you are treated gently, and you already have a good eye for nice things. School comes easily when it is pleasant and harder when it is dull. You shine most when something gives you a reason to try for its own sake."
+  },
+  {
+   "key": "STAR jiangxing · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "jiangxing",
+   "text": "Your next decade puts people behind you, and groups turn to you when they need a direction. You carry the weight of everyone who follows, and you hold steady under it."
+  },
+  {
+   "key": "STAR jiangxing · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "jiangxing",
+   "text": "This decade gathers people around your lead, at work and among friends alike. The load of the whole group rests on you, and you keep it together more than you admit."
+  },
+  {
+   "key": "STAR jiangxing · arriving.year",
+   "kind": "star_arriving",
+   "page": "jiangxing",
+   "text": "A year this guest visits sets you at the front of a group that wants direction. That year people follow your call readily, and you feel the weight of every one of them."
+  },
+  {
+   "key": "STAR jiangxing · line",
+   "kind": "star_line",
+   "page": "jiangxing",
+   "text": "People rally to your lead and stay."
+  },
+  {
+   "key": "STAR jiangxing · line.arriving",
+   "kind": "star_line",
+   "page": "jiangxing",
+   "text": "This decade people gather behind your lead."
+  },
+  {
+   "key": "STAR jiangxing · reading.day.coming",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "From your mid-thirties your household looks to you for direction, and a partner trusts your lead on the big decisions. You end up carrying more of the home's weight than you pass on. You hold a family together best when others lead the small things."
+  },
+  {
+   "key": "STAR jiangxing · reading.day.lived",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "Your Home Chapter made you the one the household rallied around. A partner leaned on your lead, and the weight of every family decision landed with you. You still hold groups together with a steadiness learned in those years."
+  },
+  {
+   "key": "STAR jiangxing · reading.day.now",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "In your Home Chapter the household gathers around your lead, and a partner follows your direction more than they question it. Holding everyone together takes much of your strength. You lead best at home when you hand some of the weight back."
+  },
+  {
+   "key": "STAR jiangxing · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "From your late forties the people after you look to you as the one who sets the course. Leading them asks you to carry plans that are no longer only yours. You are steadiest in these years when the group you hold has its own strength."
+  },
+  {
+   "key": "STAR jiangxing · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "Your Late Chapter put you at the head of a group, and the people after you learned how to lead by following you. The weight of that place was heavy and constant. You still hold people together without needing to raise your voice."
+  },
+  {
+   "key": "STAR jiangxing · reading.hour.now",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "In your later years people still rally when you lead, with the people after you taking their cue from how you hold a group. Carrying everyone wears on you more than it once did. You gain the most in this chapter by training someone to lead beside you."
+  },
+  {
+   "key": "STAR jiangxing · reading.month.coming",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "Your Rising Chapter carries a natural command, and colleagues and friends fall in behind your plans. The group's weight lands on your shoulders early in your twenties. You grow into leading as you learn which loads are truly yours to carry."
+  },
+  {
+   "key": "STAR jiangxing · reading.month.lived",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "Through your twenties people followed your lead, in study and in your first jobs alike. You carried the group's problems as if they were your own, and that took more out of you than it showed. You keep a team together now with what you learned then."
+  },
+  {
+   "key": "STAR jiangxing · reading.month.now",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "Your working years put you at the front, and colleagues gather around your plans without being asked. Most days the whole team leans its weight on you. What you want most here is to lead, and you do it well when the load is spread."
+  },
+  {
+   "key": "STAR jiangxing · reading.year.lived",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "Your Early Chapter had other children following you at school and at play. Someone in your first home leaned on you to keep the younger ones in line, and you took that weight early. You still step forward when a group stalls."
+  },
+  {
+   "key": "STAR jiangxing · reading.year.now",
+   "kind": "star_reading",
+   "page": "jiangxing",
+   "text": "As a child you are the one others follow at school, and games go the way you call them. You feel answerable for the whole group, even for children who are not yours to mind. You lead most happily when the group is small and friendly."
+  },
+  {
+   "key": "STAR hongluan · arriving.decade.coming",
+   "kind": "star_arriving",
+   "page": "hongluan",
+   "text": "Your next decade carries a strong pull of romance, and people are drawn to you with real warmth. Some of that attention arrives uninvited, and you decide who gets close."
+  },
+  {
+   "key": "STAR hongluan · arriving.decade.now",
+   "kind": "star_arriving",
+   "page": "hongluan",
+   "text": "This decade warms your heart and draws people toward you with a pull you can feel. What you feel mostly stays unspoken, and you hold more love inside than you show."
+  },
+  {
+   "key": "STAR hongluan · arriving.year",
+   "kind": "star_arriving",
+   "page": "hongluan",
+   "text": "A year with this guest turns up the warmth in you, and attraction runs strongly both ways. That year love is easier to feel than to say, and you pick carefully whom you let near."
+  },
+  {
+   "key": "STAR hongluan · line",
+   "kind": "star_line",
+   "page": "hongluan",
+   "text": "You draw romance and feel attraction strongly."
+  },
+  {
+   "key": "STAR hongluan · line.arriving",
+   "kind": "star_line",
+   "page": "hongluan",
+   "text": "This decade carries a warm pull of romance toward you."
+  },
+  {
+   "key": "STAR hongluan · reading.day.coming",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "From your mid-thirties your home carries a strong romantic current, and the bond with a partner runs warm. Feelings you keep to yourself build up quietly, and attention from beyond the home arrives unasked. You hold that warmth best when you say what you feel."
+  },
+  {
+   "key": "STAR hongluan · reading.day.lived",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "Your Home Chapter ran warm, and the pull between you and a partner stayed strong for years. You kept tender feelings to yourself more than you needed to, and admirers came whether you wanted them or not. You still give your heart only where you have chosen."
+  },
+  {
+   "key": "STAR hongluan · reading.day.now",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "In your Home Chapter romance runs strongly, and a partner feels the pull of you clearly. Attention you never asked for comes too, and some of your own feelings stay unsaid. What you want most here is to be loved, and you know exactly whom you let in."
+  },
+  {
+   "key": "STAR hongluan · reading.hour.coming",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "From your late forties romance stays alive in you, and warmth draws people your way long after others assume it fades. The people after you learn how love is kept fresh by watching you. You give your heart in these years to the few you trust."
+  },
+  {
+   "key": "STAR hongluan · reading.hour.lived",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "Your Late Chapter kept romance alive, and you drew affection from people who surprised you. Some of what you felt stayed private, and the people after you saw only part of it. You still carry a warmth that makes people want to be near you."
+  },
+  {
+   "key": "STAR hongluan · reading.hour.now",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "In your later years attraction still runs warm in you, and people respond to it. The people after you see devotion in the way you love. You are open to being loved here, and you still decide who comes near."
+  },
+  {
+   "key": "STAR hongluan · reading.month.coming",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "Your Rising Chapter holds a strong current of attraction, and your twenties run warm with feeling. Interest you did not invite comes alongside the interest you want. You learn early in those years to sort the welcome from the unwelcome."
+  },
+  {
+   "key": "STAR hongluan · reading.month.lived",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "Through your twenties romance pulled at you strongly, and attraction shaped much of how you spent your time. You hid feelings you wanted to show and drew attention you never chose. You came out of those years knowing whose closeness you value."
+  },
+  {
+   "key": "STAR hongluan · reading.month.now",
+   "kind": "star_reading",
+   "page": "hongluan",
+   "text": "Your Rising Chapter runs warm with romance, and friends and colleagues feel your pull. You keep your strongest feelings quiet, while unwanted attention reaches you anyway. You are at ease in this chapter once you decide who earns your heart."
+  }
+ ]
+}
