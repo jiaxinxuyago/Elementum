@@ -152,7 +152,7 @@
    "kind": "unruled",
    "page": "tpl:Health",
    "family": "unruled",
-   "text": "Each decade moves your health more than any single habit of yours. You feel well for some stretches of years and worn for others, with your body marking each turn before you put words to it."
+   "text": "Each decade moves your health more than any single habit of yours. You feel well for some stretches of years and worn for others, with each turn arriving as one decade gives way to the next."
   },
   {
    "key": "TEMPLATED tpl_domains · domain_unruled.Wealth",
@@ -250,7 +250,7 @@
    "kind": "unruled",
    "page": "tpl:Career",
    "family": "waiting",
-   "text": "Your career is still waiting for the character that will steer it, and until then each decade sets its course. You take the work in front of you as it comes, building a direction one stretch of years at a time."
+   "text": "Your career waits on a character who arrives later in life, and until then each decade sets its course. You take the work in front of you as it comes, building a direction one stretch of years at a time."
   },
   {
    "key": "TEMPLATED tpl_domains · domain_waiting_headline.Career",
