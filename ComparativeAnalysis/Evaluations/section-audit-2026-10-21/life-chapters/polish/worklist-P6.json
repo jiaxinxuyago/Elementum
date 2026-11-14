@@ -1,0 +1,681 @@
+{
+ "writer": "P6",
+ "units": [
+  {
+   "key": "ENERGY action · year.grow",
+   "kind": "year_energy",
+   "current": "{el} brings Action for a whole year, the reach your chart already has and still wants. Effort pays back promptly and practical plans move, and you finish the year with more to show for your work.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.grow.b",
+   "kind": "year_energy",
+   "current": "{el} brings Action for a second year running, the reach your chart still wants. A plan you started last year pays its way, and you widen it with care.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.heavy",
+   "kind": "year_energy",
+   "current": "{el} brings Action for a whole year, the chase your chart cannot keep up with. There is more to manage than hours to manage it, and you get through on your own steady strength and a short list.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.heavy.b",
+   "kind": "year_energy",
+   "current": "{el} brings Action for a second year running, more demands than your chart can meet. The list keeps growing after last year, and you get through by dropping what does not matter.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.need",
+   "kind": "year_energy",
+   "current": "{el} brings Action for a whole year, the energy you need most. Offers and money come within reach, and you get your hands on more than you have in years.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.need.b",
+   "kind": "year_energy",
+   "current": "{el} brings Action for a second year running, the reach you need most. Last year's openings turn into steady gains, and you hold on to more of what comes in.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_over",
+   "kind": "year_energy",
+   "current": "{el} brings Body for a whole year, the force your chart already runs over with. Competition with peers runs hot, and you come through it by sharing the load with a team that challenges you.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_over.b",
+   "kind": "year_energy",
+   "current": "{el} brings Body for a second year running, piling strength onto strength. Old rivalries come to a head, and you settle them by working beside people instead of against them.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_under",
+   "kind": "year_energy",
+   "current": "{el} brings Body for a whole year, the strength your chart runs short of. You stand your ground more easily, and peers start to treat you as an equal.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_under.b",
+   "kind": "year_energy",
+   "current": "{el} brings Body for a second year running, more of the strength your chart lacks. Equals take you seriously now, and you claim a place you would once have left to others.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.grow",
+   "kind": "year_energy",
+   "current": "{el} brings Expression for a whole year, the outlet your chart already has and still enjoys. What you make and say lands well, and you take real pleasure in your own talent.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.grow.b",
+   "kind": "year_energy",
+   "current": "{el} brings Expression for a second year running, the outlet your chart still enjoys. A skill you used for pleasure starts to pay, and you make more than you planned.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.heavy",
+   "kind": "year_energy",
+   "current": "{el} brings Expression for a whole year, the voice and appetite your chart already overflows with. Words come out sharper than you mean, and you keep your footing through a fixed routine and someone who holds you to your word.",
+   "findings": [
+    {
+     "id": "G2-X1",
+     "severity": "MAJOR",
+     "issue": "Each heavy or release unit names one fixed carrier function: Expression → Order, Order → Mind, Body → peers. Whether that carrier helps depends on whether the chart is Overfueled or Underfueled, so on many pages the carrier is the chart's own surplus, and another line on the same page says so.",
+     "proposed": "**Rule:** a carrier must not name a function the chart may hold in surplus. Either key heavy and release carriers by strength (`.over` / `.under`), or write the carrier as an act that serves both (rest, one finished thing, saying it once) and leave the element to the Seek chip. **Evidence:** (a) `expression · year.heavy` appears on 8 pages (L029, L031, L035, L039, L042, L043, L045, L048), all Underfueled. On all 8, Order is released or heavy on the same page, e.g. L031 2030: \"the pressure and duty your chart already carries too much of\". (b) `order · year.heavy` on 4 Overfueled pages (L036, L037, L044, L046) prescribes study and a mentor. Mind is heavy on the same page each time (L036 2028, L037 2030, L044 2028, L046 2030). (c) On L037, `order · chapter_manual.release` (\"study or support\") and `order · chapter.month.release.now` (\"Friends … are what carries you\") sit beside a Mind-release decade and a Body-release Late Chapter. (d) Body release is carried by more Body in 6 units on 13 pages (\"a shared pot\", \"people who can match you\", \"a partner who stands as your equal bears you up\"). Its own favour on L040 says the opposite: \"Separate savings over a kitty with friends\". The Seek chip on the same pages names other elements."
+    },
+    {
+     "id": "G2-M1",
+     "severity": "MINOR",
+     "issue": "The carrier is Order, which is heavy on every page where this unit appears (see G2-X1).",
+     "proposed": "\"{el} brings Expression for a whole year, the voice and appetite your chart already overflows with. Words come out sharper than you mean, and you keep your footing by sleeping on a reply and leaning on people who back you.\""
+    }
+   ]
+  },
+  {
+   "key": "ENERGY expression · year.heavy.b",
+   "kind": "year_energy",
+   "current": "{el} brings Expression for a second year running, more voice than your chart can carry. Last year's outspokenness has a cost, and you win back the people you need with patient, finished work.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.need",
+   "kind": "year_energy",
+   "current": "{el} brings Expression for a whole year, the energy you need most. Talent you kept quiet finds an audience, and you say and make more than in any year before.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.need.b",
+   "kind": "year_energy",
+   "current": "{el} brings Expression for a second year running, the outlet you need most. Work you showed last year draws a wider audience, and you speak with growing confidence.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.grow",
+   "kind": "year_energy",
+   "current": "{el} brings Mind for a whole year, the support your chart still welcomes. Study comes easily and people offer shelter, and you think things through before you act.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.grow.b",
+   "kind": "year_energy",
+   "current": "{el} brings Mind for a second year running, and the help keeps coming. Someone older stays in your corner, and you finish a line of thought you began last year.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.heavy",
+   "kind": "year_energy",
+   "current": "{el} brings Mind for a whole year, the thinking your chart already has too much of. Plans stay on paper longer than they should, and you get moving again through plain work and a firm deadline.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.heavy.b",
+   "kind": "year_energy",
+   "current": "{el} brings Mind for a second year running, and the thinking piles higher than your chart wants. Doubts linger after last year, and you move again once a task has a fixed end.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.need",
+   "kind": "year_energy",
+   "current": "{el} brings Mind for a whole year, the energy you need most. Help and good teachers find their way to you, and you learn more in these months than in several years before.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.need.b",
+   "kind": "year_energy",
+   "current": "{el} brings Mind for a second year running, the support you need most. What you began to learn last year takes root, and you rely on what you understand.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.grow",
+   "kind": "year_energy",
+   "current": "{el} brings Order for a whole year, the structure your chart still welcomes. A role with clear rules settles around you, and you earn a name as the one others count on.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.grow.b",
+   "kind": "year_energy",
+   "current": "{el} brings Order for a second year running, and the frame holds. Last year's duties become routine, and you are given more because you handled them well.",
+   "findings": [
+    {
+     "id": "G2-M19",
+     "severity": "MINOR",
+     "issue": "The two lines contradict each other in one year.",
+     "proposed": "\"{el} brings Order for a second year running, and the frame holds. Last year's duties become routine, and you carry them more easily than before.\""
+    }
+   ]
+  },
+  {
+   "key": "ENERGY order · year.heavy",
+   "kind": "year_energy",
+   "current": "{el} brings Order for a whole year, the pressure and duty your chart already carries too much of. Deadlines and people above you crowd in, and you hold steady through study, a mentor's help and a quiet hour of your own.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.heavy.b",
+   "kind": "year_energy",
+   "current": "{el} brings Order for a second year running, and the weight does not ease. Deadlines from last year roll over into this one, and rest you guard on purpose sees you through.",
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.need",
+   "kind": "year_energy",
+   "current": "{el} brings Order for a whole year, the energy you need most. It presses on you from outside, and you end the year harder to bend.",
+   "findings": [
+    {
+     "id": "X-008",
+     "severity": "MINOR",
+     "issue": "The energy the reader needs most is described in release language (compare `order · chapter_manual.release`, \"bears down on you from outside\"), and no gift is named.",
+     "proposed": "\"{el} brings Order for a whole year, the energy you need most. A clear role and fair rules give your strength a shape, and you end the year surer of where you stand.\""
+    },
+    {
+     "id": "G1-034",
+     "severity": "MINOR",
+     "issue": "A wanted Order year reads as outside pressure, and \"harder to bend\" echoes the release units (\"harder to break\", \"harder to shake\"), so the two poles read as one force.",
+     "proposed": "{el} brings Order for a whole year, the structure your chart is short of. A clear frame of duties settles around you, and you stand straighter inside it."
+    }
+   ]
+  },
+  {
+   "key": "ENERGY order · year.need.b",
+   "kind": "year_energy",
+   "current": "{el} brings Order for a second year running, the shape your chart lacks. The role you took on last year settles into place, and people start to rely on your word.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.day",
+   "kind": "land",
+   "current": "You draw a partner or a household closer this year, and the life you share takes on a firmer shape.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.hour",
+   "kind": "land",
+   "current": "You draw the people after you closer this year, and a younger relative or someone you train comes to count on you.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.month",
+   "kind": "land",
+   "current": "You tie yourself to a workplace or a team this year more firmly than before, by contract or by loyalty.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.year",
+   "kind": "land",
+   "current": "You draw closer to an older relative this year, and an old family tie turns into a real friendship.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.day",
+   "kind": "land",
+   "current": "You change something at home this year, an address or the way you share your life with a partner.",
+   "findings": [
+    {
+     "id": "X-012",
+     "severity": "MINOR",
+     "issue": "Hard landings stop on the hit, with nothing that carries the reader, and clash.day also presumes a partner (X-004).",
+     "proposed": "clash.day: \"You change something at home this year, an address or the way the household runs, and you settle into the new shape faster than you expected.\" clash.hour: \"…a move or a break in plans you made together, and you find a new way to stay close.\" clash.month: \"…by your own choice or by theirs, and you land somewhere that fits you better.\" punish.month: \"…a review or a rule applied to you more strictly than to others, and you answer it with work that stands up.\" repeat.year: \"You go back over something from your first home this year, an old habit or an old grievance, and you finally set it down.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.hour",
+   "kind": "land",
+   "current": "You face a sharp change with the people after you this year, a move or a break in plans you made together.",
+   "findings": [
+    {
+     "id": "G1-031",
+     "severity": "MINOR",
+     "issue": "Hard news with no carry.",
+     "proposed": "You face a sharp change with the people after you this year, a move or a break in plans you made together. You keep the bond by meeting them where they now are."
+    },
+    {
+     "id": "G2-M10",
+     "severity": "MINOR",
+     "issue": "It assumes plans already made with descendants, at 26 and 30.",
+     "proposed": "\"Plans with the people after you change sharply this year, a move or a new direction, and you adjust faster than you expected.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.month",
+   "kind": "land",
+   "current": "You leave a role or a team you have outgrown this year, by your own choice or by theirs.",
+   "findings": [
+    {
+     "id": "G1-029",
+     "severity": "MINOR",
+     "issue": "\"By theirs\" is hard news (being let go) with nothing that carries the reader (Q10).",
+     "proposed": "You leave a role or a team you have outgrown this year, by your own choice or by theirs. You land in work that fits you better."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.year",
+   "kind": "land",
+   "current": "Something shifts in the family you came from this year, an older relative moves house or changes course, and you adjust quickly.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.day",
+   "kind": "land",
+   "current": "You make a decision about home or partnership this year that you have been circling for a while.",
+   "findings": [
+    {
+     "id": "X-010",
+     "severity": "MINOR",
+     "issue": "Frame is the join kind (people and momentum gather). This line is a decision, which fits none of the kinds, and it presumes a partnership.",
+     "proposed": "\"People gather around your home this year, friends who become regulars or family who come to stay, and you make the household the centre of it.\""
+    },
+    {
+     "id": "G1-032",
+     "severity": "MINOR",
+     "issue": "It does not read as a join, where people and momentum gather. A decision is a clash or a bind reading.",
+     "proposed": "Your home draws people in this year, a partner's friends or family who come to stay, and you find the household busier and warmer for it."
+    },
+    {
+     "id": "G2-M9",
+     "severity": "MINOR",
+     "issue": "A join should gather people and momentum. This line names a private decision only.",
+     "proposed": "\"Friends and family gather around your home this year, and you settle a question about home or partnership that you have been circling.\""
+    },
+    {
+     "id": "G3-019",
+     "severity": "MINOR",
+     "issue": "Shown as \"Joins your Day Gate\", but nothing gathers. It reads as a decision, which is closer to a clash or a bind.",
+     "proposed": "\"Home gathers round one shared plan this year, and you and a partner carry it further than you expected.\""
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.hour",
+   "kind": "land",
+   "current": "You bring the people after you into a shared plan this year, and you lead it more easily than you expected.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.month",
+   "kind": "land",
+   "current": "You gather people and momentum around one idea at work this year, and it carries further than you planned.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.year",
+   "kind": "land",
+   "current": "Your older relatives rally around one family plan this year, and you find yourself at the centre of it.",
+   "findings": [
+    {
+     "id": "G1-033",
+     "severity": "MINOR",
+     "issue": "The same landing text appears twice in one six-year window.",
+     "proposed": "Add a `.b` landing for a repeated bond in the window, as the years already have. For example: \"The family gathers again this year around an older relative's plan, and your part in it grows.\""
+    },
+    {
+     "id": "G2-X3",
+     "severity": "MAJOR",
+     "issue": "Landings and domain lines claim people the chart cannot know a reader has at that age: a grandparent at 71, a boss at 68, plans made with descendants at 26.",
+     "proposed": "**Rule:** an age band on Year Gate and Hour Gate landings, and on Career lines in the Late Chapter. Year Gate after 55: \"the family you came from\" or \"an old family tie\" in place of \"parent or grandparent\" and \"older relatives\". Hour Gate before 35: \"someone younger in your life\". **Evidence:** 9 Year Gate units on 5 pages (L043 ×3, L044 ×2, L045 ×3, L049 ×1). 2 `year.grow.b` mind units (L043, L047). 3 Hour Gate units (L028, L042, L048). 5 Career units (L043, L044, L047, L048 ×2)."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.day",
+   "kind": "land",
+   "current": "A small resentment grows at home this year, and you clear it only once you name it to your partner.",
+   "findings": [
+    {
+     "id": "X-004",
+     "severity": "MAJOR",
+     "issue": "The landings assume people the reader may not have. A 23-year-old with no partner is told \"your partner\", and a 65-year-old is told about a grandparent. bind.day already avoids this (\"a partner or a household\").",
+     "proposed": "**Rule:** a year landing names the gate's area (\"home\", \"the family you came from\") or an \"or\" pair that fits every age at that gate. A person may appear only in a form every reader of any age has. Rewrites: `harm.day` → \"A small resentment grows at home this year, and you clear it only once you name it out loud.\" `repeat.day` → \"Home returns to an old question this year, a habit or a plan set aside, and you settle it properly.\" `punish.day` → \"Home asks more of your patience this year, and you keep the peace by letting the small things go.\" `harm.year` → \"A quiet coolness settles between you and an older relative this year, and you warm it again with a visit or a call.\" `clash.day` and `clash.year`: see X-012 and X-020."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.hour",
+   "kind": "land",
+   "current": "Someone you have trained or helped along pulls back without a word this year, and you notice the distance before it hardens.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.month",
+   "kind": "land",
+   "current": "Something at work sours quietly this year, a colleague or an arrangement that stops serving you, and you see it before anyone says it.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.year",
+   "kind": "land",
+   "current": "A quiet coolness settles between you and a parent or grandparent this year, and you warm it again with a visit or a call.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.day",
+   "kind": "land",
+   "current": "Home asks more of your patience this year, and you hold the peace with a partner by giving way on small things.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.hour",
+   "kind": "land",
+   "current": "Someone you train or a younger relative tests your standards this year, and you keep them firm without raising your voice.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.month",
+   "kind": "land",
+   "current": "You come under scrutiny at work this year, a review or a rule applied to you more strictly than to others.",
+   "findings": [
+    {
+     "id": "G1-030",
+     "severity": "MINOR",
+     "issue": "There is scrutiny with no carry, and the reader is not the subject of the closing clause.",
+     "proposed": "You come under scrutiny at work this year, with a rule applied to you more strictly than to others. You answer it with work that is hard to fault."
+    }
+   ]
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.year",
+   "kind": "land",
+   "current": "An older relative watches you more closely this year, and you meet old family expectations with more patience than before.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.day",
+   "kind": "land",
+   "current": "Home returns to an old question this year, a habit or a plan you and your partner set aside, and you settle it properly.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.hour",
+   "kind": "land",
+   "current": "An old plan you made for the people after you comes round again this year, and you see it more clearly the second time.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.month",
+   "kind": "land",
+   "current": "Work brings back an old project this year, and you close a question you thought was done.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.year",
+   "kind": "land",
+   "current": "You go back over something from your first home this year, an old habit or an old grievance you thought was settled.",
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.grow",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.grow.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.release",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.release.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.grow",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.grow.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.release",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.drains.release.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.grow",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.grow.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.release",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.matches.release.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.grow",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.grow.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.release",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.presses.release.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.grow",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.grow.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.release",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.resists.release.lived",
+   "kind": "ground",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.year.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.month.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.year.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.month.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.year.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.month.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.year.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.month.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.year.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.month.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.year.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.month.late",
+   "kind": "land",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.even",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY mind · year.even.b",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.even",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY expression · year.even.b",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.even",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY action · year.even.b",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.even",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY order · year.even.b",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_even",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  },
+  {
+   "key": "ENERGY body · year.core_even.b",
+   "kind": "year_energy",
+   "current": null,
+   "findings": []
+  }
+ ]
+}
