@@ -314,7 +314,7 @@
         "subject": "a long blade held by iron tongs in the heart of a roaring forge fire, the whole blade glowing orange-red, tall flames wrapping around it and sparks flying upward, an anvil and hammer waiting at the foot, smoke rising up the scroll",
         "subject_v1": "a straight jian sword standing upright in the flames of a small forge fire, the lower blade glowing red-orange as it is shaped, a thin wisp of smoke rising up the scroll",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "note": "v3: more fire and forging (owner 2026-11-14)",
         "subject_v2": "a broad cleaver-shaped blade lying across a blacksmith's anvil, its edge glowing red-orange, a hammer resting beside it, a small forge fire below and behind, a thin wisp of smoke rising up the scroll",
         "emphasis": "The glowing blade in the flames is the brightest and most distinct form in the painting; the fire is large and fills the middle of the scroll."
@@ -348,7 +348,7 @@
         "file": "strip_xin_metal",
         "subject": "a small open lacquer jewel box seen close, holding several different jewels: a string of pearls spilling over its edge, a jade ring and one cut faceted gem, tiny ink-dot glints on each",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "two cut, faceted jewels resting side by side on a fold of plain cloth, leaning together so their facets touch, a few tiny ink-dot glints where they meet",
         "emphasis": "The jewels are large, the darkest, most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -360,7 +360,7 @@
         "file": "strip_xin_earth",
         "subject": "a large close view of a cluster of raw pointed crystals growing out of a split rock at the mouth of a small cave, the crystals catching the light",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a single cut, faceted jewel half-revealed inside a misty mountain rock face, as if born from the stone, a thin pale seam of ore running down from it into the rock",
         "emphasis": "The crystal cluster is large, the darkest, most distinct form in the painting; the landscape is only a hint.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -372,7 +372,7 @@
         "file": "strip_xin_fire",
         "subject": "a slender silver hairpin with an ornate flower head held by small tongs over a jeweller's charcoal brazier, the hairpin glowing where the flames touch it, flames and a few sparks rising",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a cut, faceted jewel resting in the heart of a small forge flame, its lower facets glowing as the heat works it into shape, a thin wisp of smoke rising up the scroll",
         "emphasis": "The hairpin in the flames is large, the most distinct form in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -384,7 +384,7 @@
         "file": "strip_xin_wood",
         "subject": "a small jade-handled engraving knife resting on a block of wood it has just carved with a fine peony pattern, curled wood shavings beside it, a green sprig lying near",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a cut, faceted jewel pressed point-first into a slender young green branch, its hard edge scoring a clean cut into the wood, the bark parting around it, a few leaves falling",
         "emphasis": "The engraving knife and the carved block are large, the darkest, most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -396,7 +396,7 @@
         "file": "strip_xin_water",
         "subject": "a single large pearl resting in an open oyster shell on a rock at the edge of a tide pool, clear drops of water falling from the shell into the pool, small ripples below",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a cut, faceted jewel suspended above a small stream at dawn, dew gathering on its facets and falling in clear drops from its point into the water, small ripples spreading below",
         "emphasis": "The pearl in its shell is large, the most distinct form in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -408,7 +408,7 @@
         "file": "strip_jia_wood",
         "subject": "a dense grove of tall straight tree trunks standing close together on the left, seen from low down, their crowns meeting overhead",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "two young oaks growing side by side from one root, their trunks leaning together and their branches interlocking, a few leaves",
         "emphasis": "The trunks are the darkest, most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -420,7 +420,7 @@
         "file": "strip_jia_water",
         "subject": "a large close view of an acorn that has split and sprouted a small seedling with two fresh leaves, fine rain falling on it, a small puddle around its roots",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a young oak standing at the edge of a quiet stream, its roots reaching down into the water, mist rising off the stream around the trunk",
         "emphasis": "The acorn and seedling are large, the darkest, most distinct form in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -432,7 +432,7 @@
         "file": "strip_jia_metal",
         "subject": "a felled tree trunk lying on trestles being squared into a timber beam, a carpenter's frame saw resting in the cut, pale sawdust on the ground below",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a young oak with one low branch cleanly cut away, an axe lodged in the trunk at the pale fresh cut, a few wood chips on the ground below",
         "emphasis": "The timber and the saw are large, the darkest, most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -444,7 +444,7 @@
         "file": "strip_jia_earth",
         "subject": "the massive gnarled roots at the base of a great old tree wrapping around and cracking open a boulder on a hillside, only the base of the trunk shown",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a young oak whose roots grip and split a bank of earth on a hillside, the soil held in place by the web of roots, a small terrace of ground formed beneath it",
         "emphasis": "The roots are large, the darkest, most distinct form in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -456,7 +456,7 @@
         "file": "strip_jia_fire",
         "subject": "a tall bonfire of stacked split oak logs burning brightly, large flames rising from the logs, sparks and smoke going up the scroll",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a small fire of oak branches burning at the foot of a young oak, a thin column of smoke rising up the scroll past the trunk",
         "emphasis": "The burning logs and the flames are large and the most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -468,7 +468,7 @@
         "file": "strip_yi_wood",
         "subject": "wisteria in full bloom hanging in long flower clusters from a bamboo trellis, many twisting stems wound around each other",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "two climbing vines twining up together around each other on a single bamboo stake, their tendrils interlocking, a few leaves",
         "emphasis": "The wisteria is large, the darkest, most distinct form in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -480,7 +480,7 @@
         "file": "strip_yi_water",
         "subject": "tall reeds and one water lily at the edge of a pond in light rain, the reeds bending, raindrops making rings on the water",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a climbing vine trailing down the bank of a quiet stream, its lowest tendrils reaching the water, dew on the leaves, mist rising off the stream",
         "emphasis": "The reeds are large, the darkest, most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -492,7 +492,7 @@
         "file": "strip_yi_metal",
         "subject": "a flowering plant in a clay pot with a few stems freshly cut, a pair of iron pruning shears lying beside the pot with the cut stems",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a climbing vine trained neatly along a trellis wire, a small pruning knife resting against the stake where a stray tendril has just been cut, the cut end pale, the cut tendril lying below",
         "emphasis": "The plant and the shears are large, the darkest, most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -504,7 +504,7 @@
         "file": "strip_yi_earth",
         "subject": "a large close view of tufts of grass and small wildflowers pushing up through cracked dry earth, their roots splitting the crust",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a climbing vine spreading over a low stone wall and down a bank of loose earth, its roots and tendrils binding the soil into place",
         "emphasis": "The grass and wildflowers are large, the darkest, most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
@@ -516,10 +516,280 @@
         "file": "strip_yi_fire",
         "subject": "a stand of tall dry grass with a line of bright fire burning through it, flames leaping from the stalks, smoke rising up the scroll",
         "painted": "2026-11-14",
-        "approved": false,
+        "approved": true,
         "subject_v1": "a small fire of dry vine cuttings burning on the ground at the foot of a living climbing vine on a stake, a thin wisp of smoke rising up the scroll past the leaves",
         "emphasis": "The burning grass and flames are large and the most distinct forms in the painting.",
         "note": "varied object per strip (owner 2026-11-13/14)"
+      },
+      {
+        "stem": "bing",
+        "energy": "fire",
+        "relation": "more of you",
+        "file": "strip_bing_fire",
+        "subject": "a great red sun setting low behind a hilltop beacon fire, the flames of the beacon rising into the sun's disc so sun and fire merge",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "bing",
+        "energy": "wood",
+        "relation": "feeds you",
+        "file": "strip_bing_wood",
+        "subject": "sunrise seen through a pine forest, a large pale red sun behind the trunks and broad shafts of light falling between them",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "bing",
+        "energy": "water",
+        "relation": "shapes you",
+        "file": "strip_bing_water",
+        "subject": "a large red sun half sunk into the sea at dusk, a band of mist and one long wave crossing its disc, its light broken on the water",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "bing",
+        "energy": "metal",
+        "relation": "you shape it",
+        "file": "strip_bing_metal",
+        "subject": "a bronze bell hanging on a wooden stand under a blazing noon sun, the bronze gleaming bright where the light strikes it",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "bing",
+        "energy": "earth",
+        "relation": "you feed it",
+        "file": "strip_bing_earth",
+        "subject": "rows of clay pots set out to dry on bare ground beneath a large warm sun, the earth cracked and glowing with heat",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ding",
+        "energy": "fire",
+        "relation": "more of you",
+        "file": "strip_ding_fire",
+        "subject": "a row of many small oil lamps burning together on a low stone altar, their flames leaning the same way",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ding",
+        "energy": "wood",
+        "relation": "feeds you",
+        "file": "strip_ding_wood",
+        "subject": "a torch of bound pine branches burning brightly, set upright in an iron bracket on a wooden post, resin smoke rising",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ding",
+        "energy": "water",
+        "relation": "shapes you",
+        "file": "strip_ding_water",
+        "subject": "a single paper lantern floating on a dark river in light rain, its small flame glowing inside and reflected on the water",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ding",
+        "energy": "metal",
+        "relation": "you shape it",
+        "file": "strip_ding_metal",
+        "subject": "a small bronze oil lamp whose flame heats a thin silver wire held in an iron clamp above it, the wire glowing and bending",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ding",
+        "energy": "earth",
+        "relation": "you feed it",
+        "file": "strip_ding_earth",
+        "subject": "a small clay stove with glowing red coals inside, a clay teapot warming on top, pale ash on the ground below",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "wu",
+        "energy": "earth",
+        "relation": "more of you",
+        "file": "strip_wu_earth",
+        "subject": "a range of layered mountain peaks receding one behind another into mist, the nearest peak dark and massive",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "wu",
+        "energy": "fire",
+        "relation": "feeds you",
+        "file": "strip_wu_fire",
+        "subject": "a single volcano peak with a glowing red crater at its summit, a column of smoke rising, faint red light on its slopes",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "wu",
+        "energy": "wood",
+        "relation": "shapes you",
+        "file": "strip_wu_wood",
+        "subject": "a great sheer cliff face with old pine trees rooted in its cracks, their roots splitting the stone",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "wu",
+        "energy": "water",
+        "relation": "you shape it",
+        "file": "strip_wu_water",
+        "subject": "a river forced through a narrow gorge between two massive rock walls, the mountain walls steering the water",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "wu",
+        "energy": "metal",
+        "relation": "you feed it",
+        "file": "strip_wu_metal",
+        "subject": "a large boulder split open to show a bright vein of ore inside, a pickaxe leaning against it, a few ore stones at its foot",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ji",
+        "energy": "earth",
+        "relation": "more of you",
+        "file": "strip_ji_earth",
+        "subject": "terraced rice paddies stacked step upon step up a hillside, their curved earth banks drawn in dark ink",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ji",
+        "energy": "fire",
+        "relation": "feeds you",
+        "file": "strip_ji_fire",
+        "subject": "a small earthen kiln with fire glowing in its mouth, newly fired clay pots stacked beside it, smoke rising from its top",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ji",
+        "energy": "wood",
+        "relation": "shapes you",
+        "file": "strip_ji_wood",
+        "subject": "a furrowed garden bed seen close, rows of young green seedlings breaking up through the tilled soil",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ji",
+        "energy": "water",
+        "relation": "you shape it",
+        "file": "strip_ji_water",
+        "subject": "a tilled field crossed by irrigation ditches, water guided between raised earth banks from a small sluice gate",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ji",
+        "energy": "metal",
+        "relation": "you feed it",
+        "file": "strip_ji_metal",
+        "subject": "an iron plough standing in a freshly turned furrow of dark soil, its blade bright where the earth has polished it",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ren",
+        "energy": "water",
+        "relation": "more of you",
+        "file": "strip_ren_water",
+        "subject": "one great wave rising and curling on the open sea, spray flying from its crest, smaller swells behind it",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ren",
+        "energy": "metal",
+        "relation": "feeds you",
+        "file": "strip_ren_metal",
+        "subject": "a waterfall pouring from a cleft in a dark rocky cliff into a deep pool, the rock veined with pale ore",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ren",
+        "energy": "earth",
+        "relation": "shapes you",
+        "file": "strip_ren_earth",
+        "subject": "a stone sea wall and breakwater curving out from the shore, heavy waves breaking against it and held back",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ren",
+        "energy": "fire",
+        "relation": "you shape it",
+        "file": "strip_ren_fire",
+        "subject": "a wave crashing over a burning beacon fire on a sea rock, white steam bursting up where water meets flame",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "ren",
+        "energy": "wood",
+        "relation": "you feed it",
+        "file": "strip_ren_wood",
+        "subject": "a broad calm lake with old willow trees on its shore, their long branches trailing in the water",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "gui",
+        "energy": "water",
+        "relation": "more of you",
+        "file": "strip_gui_water",
+        "subject": "heavy rain falling from low clouds into a still pond, the surface covered with overlapping rings",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "gui",
+        "energy": "metal",
+        "relation": "feeds you",
+        "file": "strip_gui_metal",
+        "subject": "beads of dew gathered on a bronze bell hanging under temple eaves, clear drops falling from its rim",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "gui",
+        "energy": "earth",
+        "relation": "shapes you",
+        "file": "strip_gui_earth",
+        "subject": "rain falling into a row of open clay jars set on bare ground, water brimming in the jars, small puddles in the mud",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "gui",
+        "energy": "fire",
+        "relation": "you shape it",
+        "file": "strip_gui_fire",
+        "subject": "rain falling on a small campfire, the flames low and hissing, steam and smoke rising together",
+        "painted": "2026-11-14",
+        "approved": false
+      },
+      {
+        "stem": "gui",
+        "energy": "wood",
+        "relation": "you feed it",
+        "file": "strip_gui_wood",
+        "subject": "bamboo leaves heavy with dew and mist, clear drops hanging from the leaf tips, new bamboo shoots rising below",
+        "painted": "2026-11-14",
+        "approved": false
       }
     ],
     "pair_older_F2": [
@@ -560,6 +830,6 @@
     "pairs: 50 to paint minimal (test geng first)",
     "heroes: 10 to paint (test metal yang + yin first)",
     "function vignettes and persona seals: spec first",
-    "strips: 30 to paint for the other six stems, with the variety rule; geng approved except the repainted Fire; xin, jia, yi varied sets await approval (2026-11-14)"
+    "strips: all 50 painted; geng, xin, jia, yi approved (owner 2026-11-14); bing, ding, wu, ji, ren, gui await review"
   ]
 }
